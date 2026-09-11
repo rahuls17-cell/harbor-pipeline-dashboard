@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T07:37:03+00:00",
+ "generated_at": "2026-09-11T08:07:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 413,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 394280
+  "new_archives_read": 1,
+  "approx_bytes_read": 131604
  },
  "errors": [],
  "tasks": [
@@ -1327,15 +1327,15 @@
    "updated": "2026-09-10T12:00:44.025Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c485-podcast-autosync-job-audit",
    "declared_short": "code-c485-podcast-autosync-job-audit",
-   "folder": "code-c485-podcast-autosync-job-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c485-podcast-autosync-job-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7b04560646ca7f6c9bdf6ecf4798964d3804602aeebaaefa142eae2b7477ad5c",
    "size_bytes": 7992611,
    "updated": "2026-09-11T07:18:26.542Z"
@@ -2349,18 +2349,18 @@
    "updated": "2026-09-10T14:24:31.771Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/fin-f14-lease-straight-line-rent",
    "declared_short": "fin-f14-lease-straight-line-rent",
-   "domain": "fin",
    "folder": "fin-f14-lease-straight-line-rent",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "bbb77bc64ab6430b853e7a8f6212bc69ae4cc0ca7b8c3980a1c49021faff9dc5",
-   "size_bytes": 5956774,
-   "updated": "2026-09-10T20:38:57.529Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "a7e14f3bae7ac89695f085e8faa787e975bcf8666cce8854192bd68d5fb202c2",
+   "size_bytes": 7378352,
+   "updated": "2026-09-11T07:40:24.286Z"
   },
   {
    "connector_provenance": null,
@@ -2377,15 +2377,15 @@
    "updated": "2026-09-09T13:26:58.809Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-f27-earnings-per-share",
    "declared_short": "fin-f27-earnings-per-share",
-   "folder": "fin-f27-earnings-per-share",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-f27-earnings-per-share",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7d06c98d1f6d7715fe31546840897b32d425e2ac2c9cd6065e25a392ec7060b9",
    "size_bytes": 4546763,
    "updated": "2026-09-11T07:28:23.136Z"
@@ -3805,15 +3805,15 @@
    "updated": "2026-09-06T01:54:19.874Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g894-video-production-rights-clearance-audit",
    "declared_short": "gen-g894-video-production-rights-clearance-audit",
-   "folder": "gen-g894-video-production-rights-clearance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g894-video-production-rights-clearance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "91c44249e88f981dac669b1af704fa06dccf6f93c152acadf14f82a32db609af",
    "size_bytes": 5888189,
    "updated": "2026-09-11T07:19:46.382Z"
