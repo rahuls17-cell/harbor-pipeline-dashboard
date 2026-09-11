@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-11T13:37:03+00:00",
+ "generated_at": "2026-09-11T14:07:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 428,
-  "scanned": 428,
+  "task_folders": 432,
+  "scanned": 432,
   "connector": 124,
-  "non_connector": 304,
+  "non_connector": 308,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 125,
-  "code": 110,
+  "code": 111,
   "fin": 15,
-  "gen": 128,
+  "gen": 131,
   "health": 28,
   "law": 22
  },
  "name_prefix": {
   "harbor": 128,
-  "obi": 300
+  "obi": 304
  },
  "connector_services": {
   "google-drive-gym": 80,
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 4,
-  "approx_bytes_read": 525923
+  "approx_bytes_read": 525903
  },
  "errors": [],
  "tasks": [
@@ -541,6 +541,20 @@
    "sha256": "72e2d8ef1125a75c4617c1aa6d908d0b75e5a44c1d64c83ddee809efd6b5e89b",
    "size_bytes": 18826015,
    "updated": "2026-09-09T15:46:59.049Z"
+  },
+  {
+   "declared_name": "obi/code-c232-autoscaling-headroom-audit",
+   "declared_short": "code-c232-autoscaling-headroom-audit",
+   "folder": "code-c232-autoscaling-headroom-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "6000496303f91c9de4e0a4e2919c5f71fdc3cc472d1351afef34e62a8bd3b206",
+   "size_bytes": 5840928,
+   "updated": "2026-09-11T14:00:48.392Z"
   },
   {
    "connector_provenance": null,
@@ -1481,15 +1495,15 @@
    "updated": "2026-09-09T17:46:48.254Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c530-armor-unit-readiness-audit",
    "declared_short": "code-c530-armor-unit-readiness-audit",
-   "folder": "code-c530-armor-unit-readiness-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c530-armor-unit-readiness-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "65aee793c533f0ae057f54baa1ee97cb31e2dbff5e774ab69efebd211464e8b5",
    "size_bytes": 10922736,
    "updated": "2026-09-11T13:20:40.948Z"
@@ -2867,6 +2881,20 @@
    "updated": "2026-09-06T12:12:28.305Z"
   },
   {
+   "declared_name": "obi/gen-g1255-audiobook-voice-cast-compliance-audit",
+   "declared_short": "gen-g1255-audiobook-voice-cast-compliance-audit",
+   "folder": "gen-g1255-audiobook-voice-cast-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "7b30cef2a07c893cbf9f10500d835cd6e0af6b7684d06f0ff7d021a6df9b6c61",
+   "size_bytes": 6437418,
+   "updated": "2026-09-11T13:59:03.934Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g1263-worship-slide-style-compliance-audit",
@@ -3021,15 +3049,15 @@
    "updated": "2026-09-05T18:39:40.052Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g289-tiktok-growth-audit",
    "declared_short": "gen-g289-tiktok-growth-audit",
-   "folder": "gen-g289-tiktok-growth-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g289-tiktok-growth-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c4ad02c512741c01c0ca4d4a5f0e5f7b11463d52e43f2a3dc2aa588a29f7a053",
    "size_bytes": 2897307,
    "updated": "2026-09-11T13:36:59.179Z"
@@ -3133,15 +3161,15 @@
    "updated": "2026-09-10T04:36:27.961Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g333-vendor-shipment-benchmark-audit",
    "declared_short": "gen-g333-vendor-shipment-benchmark-audit",
-   "folder": "gen-g333-vendor-shipment-benchmark-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g333-vendor-shipment-benchmark-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "457afa6269ed189615b82dfc65467a5bc90f42da3fc6ad675bad56762c1a85a0",
    "size_bytes": 8567482,
    "updated": "2026-09-11T13:24:15.822Z"
@@ -3679,6 +3707,20 @@
    "updated": "2026-09-05T23:10:37.922Z"
   },
   {
+   "declared_name": "obi/gen-g767-av-partnership-outreach-cadence-audit",
+   "declared_short": "gen-g767-av-partnership-outreach-cadence-audit",
+   "folder": "gen-g767-av-partnership-outreach-cadence-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "035f3fb7183a09f4d8f9c0ef603547939b74bfc8bd9e8421fdf72f8d08d325a4",
+   "size_bytes": 4590993,
+   "updated": "2026-09-11T13:57:20.968Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g770-lender-outreach-engagement-tier-audit",
@@ -4057,15 +4099,15 @@
    "updated": "2026-09-06T00:05:24.996Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g959-cover-title-lockup-revision-signoff-audit",
    "declared_short": "gen-g959-cover-title-lockup-revision-signoff-audit",
-   "folder": "gen-g959-cover-title-lockup-revision-signoff-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g959-cover-title-lockup-revision-signoff-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "19e50ed7d559cc30ae3c01c7c8ae1d132f4f60a4c4886870214d7a62e7fa9cdc",
    "size_bytes": 5745193,
    "updated": "2026-09-11T13:11:32.701Z"
@@ -4139,6 +4181,20 @@
    "sha256": "ea9e346be90eb280a02413ad65c234124f69b713e11d45f5d076faf5860b918a",
    "size_bytes": 8020572,
    "updated": "2026-09-05T18:54:44.810Z"
+  },
+  {
+   "declared_name": "obi/gen-g989-tabletop-battlemap-brief-compliance-audit",
+   "declared_short": "gen-g989-tabletop-battlemap-brief-compliance-audit",
+   "folder": "gen-g989-tabletop-battlemap-brief-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "e604f82cd47c0137f0bf6e939b02b16ebe374277714b7282747a3ae709af9bcf",
+   "size_bytes": 9302858,
+   "updated": "2026-09-11T13:48:49.983Z"
   },
   {
    "connector_provenance": null,
