@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-11T13:07:03+00:00",
+ "generated_at": "2026-09-11T13:37:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 425,
-  "scanned": 425,
+  "task_folders": 428,
+  "scanned": 428,
   "connector": 124,
-  "non_connector": 301,
+  "non_connector": 304,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 125,
-  "code": 109,
+  "code": 110,
   "fin": 15,
-  "gen": 126,
+  "gen": 128,
   "health": 28,
   "law": 22
  },
  "name_prefix": {
   "harbor": 128,
-  "obi": 297
+  "obi": 300
  },
  "connector_services": {
   "google-drive-gym": 80,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 394484
+  "new_archives_read": 4,
+  "approx_bytes_read": 525923
  },
  "errors": [],
  "tasks": [
@@ -1481,6 +1481,20 @@
    "updated": "2026-09-09T17:46:48.254Z"
   },
   {
+   "declared_name": "obi/code-c530-armor-unit-readiness-audit",
+   "declared_short": "code-c530-armor-unit-readiness-audit",
+   "folder": "code-c530-armor-unit-readiness-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "65aee793c533f0ae057f54baa1ee97cb31e2dbff5e774ab69efebd211464e8b5",
+   "size_bytes": 10922736,
+   "updated": "2026-09-11T13:20:40.948Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c532-manuscript-catalogue-classification-audit",
@@ -1495,15 +1509,15 @@
    "updated": "2026-09-06T19:07:03.739Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c540-chat-bug-ticket-sla-audit",
    "declared_short": "code-c540-chat-bug-ticket-sla-audit",
-   "folder": "code-c540-chat-bug-ticket-sla-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c540-chat-bug-ticket-sla-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d9fa6f234617db14b22fda5f3c142011a8c49c47ac8fb277e3e16b86087eedb6",
    "size_bytes": 4168778,
    "updated": "2026-09-11T12:44:07.806Z"
@@ -3007,6 +3021,20 @@
    "updated": "2026-09-05T18:39:40.052Z"
   },
   {
+   "declared_name": "obi/gen-g289-tiktok-growth-audit",
+   "declared_short": "gen-g289-tiktok-growth-audit",
+   "folder": "gen-g289-tiktok-growth-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "c4ad02c512741c01c0ca4d4a5f0e5f7b11463d52e43f2a3dc2aa588a29f7a053",
+   "size_bytes": 2897307,
+   "updated": "2026-09-11T13:36:59.179Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g292-grazing-cup-design-audit",
@@ -3103,6 +3131,20 @@
    "sha256": "8f13b12bbe8d96058bac159d5d2a9d208124e00ce7bc51cc9ab2908415b8bac5",
    "size_bytes": 11295621,
    "updated": "2026-09-10T04:36:27.961Z"
+  },
+  {
+   "declared_name": "obi/gen-g333-vendor-shipment-benchmark-audit",
+   "declared_short": "gen-g333-vendor-shipment-benchmark-audit",
+   "folder": "gen-g333-vendor-shipment-benchmark-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "457afa6269ed189615b82dfc65467a5bc90f42da3fc6ad675bad56762c1a85a0",
+   "size_bytes": 8567482,
+   "updated": "2026-09-11T13:24:15.822Z"
   },
   {
    "connector_provenance": null,
@@ -3833,15 +3875,15 @@
    "updated": "2026-09-05T23:35:23.088Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g855-athlete-allegation-commentary-audit",
    "declared_short": "gen-g855-athlete-allegation-commentary-audit",
-   "folder": "gen-g855-athlete-allegation-commentary-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g855-athlete-allegation-commentary-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ef9444e17a4d9936f0e97fe33440f9ecb7332462597e9cc465fabfca531389e8",
    "size_bytes": 7109584,
    "updated": "2026-09-11T13:01:44.175Z"
@@ -4015,18 +4057,18 @@
    "updated": "2026-09-06T00:05:24.996Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/gen-g959-cover-title-lockup-revision-signoff-audit",
    "declared_short": "gen-g959-cover-title-lockup-revision-signoff-audit",
-   "domain": "gen",
    "folder": "gen-g959-cover-title-lockup-revision-signoff-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "57c12739effe0b5af98ae5a008f9f2a4a531e59f5174a9f3a721be161eda150c",
-   "size_bytes": 4616696,
-   "updated": "2026-09-05T18:55:46.626Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "19e50ed7d559cc30ae3c01c7c8ae1d132f4f60a4c4886870214d7a62e7fa9cdc",
+   "size_bytes": 5745193,
+   "updated": "2026-09-11T13:11:32.701Z"
   },
   {
    "connector_provenance": null,
@@ -5369,15 +5411,15 @@
    "updated": "2026-09-08T19:00:07.311Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h574-medical-student-exam-block-study-allocation",
    "declared_short": "health-h574-medical-student-exam-block-study-allocation",
-   "folder": "health-h574-medical-student-exam-block-study-allocation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h574-medical-student-exam-block-study-allocation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "cac2daa6193646a9b9856d5fc25d93edcb95b3ca6e084e3ef53a88e8c1eefca6",
    "size_bytes": 5448338,
    "updated": "2026-09-11T12:59:55.373Z"
