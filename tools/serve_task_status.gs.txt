@@ -1,0 +1,170 @@
+/**
+ * Harbor trainer dashboard - publish task status from this sheet to GitHub.
+ *
+ * Runs INSIDE the spreadsheet, so it needs no Google credentials on any other
+ * machine. That is the whole point: the laptop's OAuth token keeps expiring
+ * under Context Aware Access, and a service-account key may be blocked by org
+ * policy. Apps Script sidesteps both.
+ *
+ * Emits the same JSON shape as the local `task-status.json`, so the dashboard
+ * build consumes it unchanged.
+ *
+ * NO CREDENTIALS ANYWHERE. This deploys as a read-only web app that serves
+ * the status JSON; the VM fetches it on its existing schedule. There is no
+ * API token to create, store, rotate or leak - which also means nobody with
+ * edit access to this sheet can read a secret out of the script.
+ *
+ * ── ONE-TIME SETUP ────────────────────────────────────────────────────────
+ *  1. Extensions → Apps Script, paste this file.
+ *  2. Run `dryRun` once and authorise when prompted. Check the log shows the
+ *     task count you expect.
+ *  3. Deploy → New deployment → type **Web app**
+ *        Execute as:      Me
+ *        Who has access:  Anyone
+ *     Copy the /exec URL it gives you and hand that to Claude.
+ *
+ * "Anyone" means anyone holding the unguessable URL. What it serves is task
+ * names, priority, review status and feedback-tab links - no addresses, and
+ * the dashboard it feeds is already public. Treat the URL as the only secret.
+ */
+
+var INDEX_TAB = 'Index';
+var COL = {
+  task:     'Task name',
+  priority: 'Review priority',
+  review:   'Human review status',
+  hub:      'Full Hub task name'
+};
+
+
+/** Normalise a priority cell to Low / Medium / High, or null. */
+function normPriority(v) {
+  var s = String(v == null ? '' : v).trim().toLowerCase();
+  if (s.indexOf('low') === 0) return 'Low';
+  if (s.indexOf('medium') === 0) return 'Medium';
+  if (s.indexOf('high') === 0) return 'High';
+  return null;
+}
+
+
+/**
+ * Acceptance rule, matching the local pipeline exactly: a task is accepted
+ * when its Review priority is Low. `Human review status` is NOT combined in -
+ * in this workbook it reads "Approved" only on Medium rows and "Not reviewed"
+ * on every Low row, so requiring both would accept nothing. It is carried
+ * through as detail instead.
+ */
+function decide(priority) {
+  if (!priority) return null;
+  return priority === 'Low';
+}
+
+
+/** Map every per-task tab to its gid, keyed by the task name in cell B1. */
+function feedbackLinks(ss) {
+  var base = ss.getUrl().split('#')[0].replace(/\/edit.*$/, '');
+  var out = {};
+  ss.getSheets().forEach(function (sh) {
+    // Per-task tabs are the ones whose A1 header is literally "Task".
+    // Tab NAMES are unusable - they are truncated, or plain "SheetN".
+    if (String(sh.getRange('A1').getDisplayValue()).trim() !== 'Task') return;
+    var task = String(sh.getRange('B1').getDisplayValue()).trim();
+    if (task) out[task] = base + '/edit#gid=' + sh.getSheetId();
+  });
+  return out;
+}
+
+
+function buildPayload() {
+  var ss = SpreadsheetApp.getActive();
+  var sheet = ss.getSheetByName(INDEX_TAB);
+  if (!sheet) throw new Error('No "' + INDEX_TAB + '" tab in this spreadsheet.');
+
+  var values = sheet.getDataRange().getDisplayValues();
+  if (!values.length) throw new Error(INDEX_TAB + ' is empty.');
+
+  var header = values[0].map(function (h) { return String(h).trim(); });
+  var iTask = header.indexOf(COL.task);
+  var iPri  = header.indexOf(COL.priority);
+  var iRev  = header.indexOf(COL.review);
+  var iHub  = header.indexOf(COL.hub);
+  if (iTask < 0) {
+    throw new Error('No "' + COL.task + '" column. Found: ' + header.join(' | '));
+  }
+
+  var links = feedbackLinks(ss);
+  var tasks = {}, accepted = 0, rejected = 0, undecided = 0;
+
+  for (var r = 1; r < values.length; r++) {
+    var name = String(values[r][iTask] || '').trim();
+    if (!name) continue;
+    var priority = iPri >= 0 ? normPriority(values[r][iPri]) : null;
+    var review   = iRev >= 0 ? String(values[r][iRev] || '').trim() : '';
+    var verdict  = decide(priority);
+
+    if (verdict === true) accepted++;
+    else if (verdict === false) rejected++;
+    else undecided++;
+
+    var rec = {
+      priority: priority,
+      qc_result: review || null,
+      status: review || null,
+      accepted: verdict,
+      feedback_url: links[name] || null,
+      task_url: null
+    };
+    tasks[name] = rec;
+
+    // Secondary key: the task segment of the hub path. Some bucket folders
+    // carry an opaque pipeline id whose short name differs from this one, and
+    // indexing both recovers those rows.
+    if (iHub >= 0) {
+      var hub = String(values[r][iHub] || '').trim();
+      var slash = hub.indexOf('/');
+      if (slash > -1) {
+        var alt = hub.substring(slash + 1).trim();
+        if (alt && alt !== name && !tasks[alt]) {
+          tasks[alt] = rec;
+          if (!rec.feedback_url && links[alt]) rec.feedback_url = links[alt];
+        }
+      }
+    }
+  }
+
+  return {
+    generated_at: new Date().toISOString(),
+    source: 'apps-script:' + ss.getName(),
+    counts: { accepted: accepted, rejected: rejected, undecided: undecided,
+              feedback_links: Object.keys(links).length },
+    tasks: tasks
+  };
+}
+
+
+/**
+ * The web-app endpoint. Returns the same JSON the local pipeline builds, so
+ * the consumer needs no special handling.
+ */
+function doGet(e) {
+  var payload;
+  try {
+    payload = buildPayload();
+  } catch (err) {
+    payload = { error: String(err), tasks: {} };
+  }
+  return ContentService
+    .createTextOutput(JSON.stringify(payload))
+    .setMimeType(ContentService.MimeType.JSON);
+}
+
+
+/** Run this to see what WOULD be served, without deploying anything. */
+function dryRun() {
+  var payload = buildPayload();
+  Logger.log('tasks: %s', Object.keys(payload.tasks).length);
+  Logger.log('counts: %s', JSON.stringify(payload.counts));
+  Object.keys(payload.tasks).slice(0, 3).forEach(function (k) {
+    Logger.log('%s -> %s', k, JSON.stringify(payload.tasks[k]));
+  });
+}
