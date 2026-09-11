@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-11T08:07:49+00:00",
+ "generated_at": "2026-09-11T08:37:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 413,
-  "scanned": 413,
+  "task_folders": 414,
+  "scanned": 414,
   "connector": 124,
-  "non_connector": 289,
+  "non_connector": 290,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 124,
   "code": 106,
   "fin": 14,
-  "gen": 121,
+  "gen": 122,
   "health": 26,
   "law": 22
  },
  "name_prefix": {
   "harbor": 127,
-  "obi": 286
+  "obi": 287
  },
  "connector_services": {
   "google-drive-gym": 80,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131577
  },
  "errors": [],
  "tasks": [
@@ -3467,6 +3467,20 @@
    "sha256": "068ab87c888e6be4b071cfa0901bbad1f85469f98de2c83a6bdd2533cb02cc50",
    "size_bytes": 6319834,
    "updated": "2026-09-08T07:49:59.144Z"
+  },
+  {
+   "declared_name": "obi/gen-g715-staff-directory-send-eligibility-audit",
+   "declared_short": "gen-g715-staff-directory-send-eligibility-audit",
+   "folder": "gen-g715-staff-directory-send-eligibility-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "dbb840ac6529761bf6deddf056e23bd65bdce181bb3d730e879a27f91d2aab95",
+   "size_bytes": 5773309,
+   "updated": "2026-09-11T08:18:03.851Z"
   },
   {
    "connector_provenance": null,
