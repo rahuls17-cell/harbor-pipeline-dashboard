@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-11T10:07:03+00:00",
+ "generated_at": "2026-09-11T10:37:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 416,
-  "scanned": 416,
+  "task_folders": 418,
+  "scanned": 418,
   "connector": 124,
-  "non_connector": 292,
+  "non_connector": 294,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "real": 42
  },
  "domain": {
-  "unnamed": 124,
-  "code": 107,
+  "unnamed": 125,
+  "code": 108,
   "fin": 14,
   "gen": 123,
   "health": 26,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 127,
-  "obi": 289
+  "obi": 291
  },
  "connector_services": {
   "google-drive-gym": 80,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131497
+  "new_archives_read": 2,
+  "approx_bytes_read": 262996
  },
  "errors": [],
  "tasks": [
@@ -1621,15 +1621,15 @@
    "updated": "2026-09-09T13:20:08.480Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c673-recruiting-quiz-tier-audit",
    "declared_short": "code-c673-recruiting-quiz-tier-audit",
-   "folder": "code-c673-recruiting-quiz-tier-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c673-recruiting-quiz-tier-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0a7330ed7c770c541e6d32fbd339179ceb22aedd860faa162a1cc8b3085ccc32",
    "size_bytes": 4673268,
    "updated": "2026-09-11T10:06:47.794Z"
@@ -1745,6 +1745,20 @@
    "sha256": "2b00caa7fbf4593e0acaa0fe48351308d6f6658a26870907de097111240ad682",
    "size_bytes": 3528816,
    "updated": "2026-09-11T03:24:10.292Z"
+  },
+  {
+   "declared_name": "obi/code-c761-linux-reward-app-compatibility-audit",
+   "declared_short": "code-c761-linux-reward-app-compatibility-audit",
+   "folder": "code-c761-linux-reward-app-compatibility-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "74fe302dc792c822f349ac07069df9240420360730542f1473100de971699ed5",
+   "size_bytes": 5089819,
+   "updated": "2026-09-11T10:34:38.769Z"
   },
   {
    "connector_provenance": null,
@@ -2243,6 +2257,20 @@
    "sha256": "a20ee337d1883b5c76560700361905af436a1154ee48b43a98907213faba0fad",
    "size_bytes": 10764390,
    "updated": "2026-09-10T20:38:34.003Z"
+  },
+  {
+   "declared_name": "obi/edu-s1-b1-lesson-template-conformance",
+   "declared_short": "edu-s1-b1-lesson-template-conformance",
+   "folder": "edu-s1-b1-lesson-template-conformance",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "438c5ac497b9050ef1e9543f9b11440e8bda2d0eaa4f6a6256852d1ea5e4a9fc",
+   "size_bytes": 5490701,
+   "updated": "2026-09-11T10:35:58.273Z"
   },
   {
    "connector_provenance": "synthetic",
