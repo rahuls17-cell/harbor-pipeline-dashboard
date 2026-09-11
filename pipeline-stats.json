@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T08:37:03+00:00",
+ "generated_at": "2026-09-11T09:04:12+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 414,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131577
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3469,15 +3469,15 @@
    "updated": "2026-09-08T07:49:59.144Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g715-staff-directory-send-eligibility-audit",
    "declared_short": "gen-g715-staff-directory-send-eligibility-audit",
-   "folder": "gen-g715-staff-directory-send-eligibility-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g715-staff-directory-send-eligibility-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "dbb840ac6529761bf6deddf056e23bd65bdce181bb3d730e879a27f91d2aab95",
    "size_bytes": 5773309,
    "updated": "2026-09-11T08:18:03.851Z"
