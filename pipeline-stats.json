@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-11T09:04:12+00:00",
+ "generated_at": "2026-09-11T09:37:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 414,
-  "scanned": 414,
+  "task_folders": 415,
+  "scanned": 415,
   "connector": 124,
-  "non_connector": 290,
+  "non_connector": 291,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 124,
   "code": 106,
   "fin": 14,
-  "gen": 122,
+  "gen": 123,
   "health": 26,
   "law": 22
  },
  "name_prefix": {
   "harbor": 127,
-  "obi": 287
+  "obi": 288
  },
  "connector_services": {
   "google-drive-gym": 80,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131422
  },
  "errors": [],
  "tasks": [
@@ -2529,6 +2529,20 @@
    "sha256": "bc32cd0dc352ce03a1b4231278fa0cd058450dec6936620a9bb6f3920bad9a59",
    "size_bytes": 3999250,
    "updated": "2026-09-09T11:14:04.135Z"
+  },
+  {
+   "declared_name": "obi/gen-g1229-new-construction-comp-eligibility-screen",
+   "declared_short": "gen-g1229-new-construction-comp-eligibility-screen",
+   "folder": "gen-G1229-new-construction-comp-eligibility-screen",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "897717dbfeed837bb82e626d73eaae1bc05e574b056828c81f5e800387fd8018",
+   "size_bytes": 4768878,
+   "updated": "2026-09-11T09:14:13.431Z"
   },
   {
    "connector_provenance": null,
