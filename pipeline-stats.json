@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T08:07:04+00:00",
+ "generated_at": "2026-09-11T08:07:49+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 413,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131604
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2349,15 +2349,15 @@
    "updated": "2026-09-10T14:24:31.771Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-f14-lease-straight-line-rent",
    "declared_short": "fin-f14-lease-straight-line-rent",
-   "folder": "fin-f14-lease-straight-line-rent",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-f14-lease-straight-line-rent",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a7e14f3bae7ac89695f085e8faa787e975bcf8666cce8854192bd68d5fb202c2",
    "size_bytes": 7378352,
    "updated": "2026-09-11T07:40:24.286Z"
