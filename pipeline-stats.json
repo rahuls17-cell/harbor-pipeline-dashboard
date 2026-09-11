@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-11T12:07:02+00:00",
+ "generated_at": "2026-09-11T13:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 422,
-  "scanned": 422,
+  "task_folders": 425,
+  "scanned": 425,
   "connector": 124,
-  "non_connector": 298,
+  "non_connector": 301,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 125,
-  "code": 108,
+  "code": 109,
   "fin": 15,
-  "gen": 125,
-  "health": 27,
+  "gen": 126,
+  "health": 28,
   "law": 22
  },
  "name_prefix": {
   "harbor": 128,
-  "obi": 294
+  "obi": 297
  },
  "connector_services": {
   "google-drive-gym": 80,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131528
+  "new_archives_read": 3,
+  "approx_bytes_read": 394484
  },
  "errors": [],
  "tasks": [
@@ -1495,6 +1495,20 @@
    "updated": "2026-09-06T19:07:03.739Z"
   },
   {
+   "declared_name": "obi/code-c540-chat-bug-ticket-sla-audit",
+   "declared_short": "code-c540-chat-bug-ticket-sla-audit",
+   "folder": "code-c540-chat-bug-ticket-sla-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "d9fa6f234617db14b22fda5f3c142011a8c49c47ac8fb277e3e16b86087eedb6",
+   "size_bytes": 4168778,
+   "updated": "2026-09-11T12:44:07.806Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c543-block-texture-asset-audit",
@@ -2419,15 +2433,15 @@
    "updated": "2026-09-09T13:26:58.809Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "harbor/fin-f22-hedge-effectiveness",
    "declared_short": "fin-f22-hedge-effectiveness",
-   "folder": "fin-f22-hedge-effectiveness",
-   "prefix": "harbor",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-f22-hedge-effectiveness",
    "image": null,
+   "is_connector": false,
+   "prefix": "harbor",
    "sha256": "e1536dad529d8f79106931a6429c567a768cfde37ccdd78851b009b669cae218",
    "size_bytes": 4854346,
    "updated": "2026-09-11T12:01:45.898Z"
@@ -3817,6 +3831,20 @@
    "sha256": "1bc0d0d3723d5af4f60b5dcc7403ba84680965d536872bb7012264de1da3162d",
    "size_bytes": 4381417,
    "updated": "2026-09-05T23:35:23.088Z"
+  },
+  {
+   "declared_name": "obi/gen-g855-athlete-allegation-commentary-audit",
+   "declared_short": "gen-g855-athlete-allegation-commentary-audit",
+   "folder": "gen-g855-athlete-allegation-commentary-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "ef9444e17a4d9936f0e97fe33440f9ecb7332462597e9cc465fabfca531389e8",
+   "size_bytes": 7109584,
+   "updated": "2026-09-11T13:01:44.175Z"
   },
   {
    "connector_provenance": null,
@@ -5339,6 +5367,20 @@
    "sha256": "7c372905105251aab00f885d9f49c05c73afd83660a46e3c261d62a9c7a325fa",
    "size_bytes": 7929861,
    "updated": "2026-09-08T19:00:07.311Z"
+  },
+  {
+   "declared_name": "obi/health-h574-medical-student-exam-block-study-allocation",
+   "declared_short": "health-h574-medical-student-exam-block-study-allocation",
+   "folder": "health-h574-medical-student-exam-block-study-allocation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "cac2daa6193646a9b9856d5fc25d93edcb95b3ca6e084e3ef53a88e8c1eefca6",
+   "size_bytes": 5448338,
+   "updated": "2026-09-11T12:59:55.373Z"
   },
   {
    "connector_provenance": null,
