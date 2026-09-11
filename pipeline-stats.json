@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-11T10:37:04+00:00",
+ "generated_at": "2026-09-11T11:07:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 418,
-  "scanned": 418,
+  "task_folders": 420,
+  "scanned": 420,
   "connector": 124,
-  "non_connector": 294,
+  "non_connector": 296,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 125,
   "code": 108,
   "fin": 14,
-  "gen": 123,
+  "gen": 125,
   "health": 26,
   "law": 22
  },
  "name_prefix": {
   "harbor": 127,
-  "obi": 291
+  "obi": 293
  },
  "connector_services": {
   "google-drive-gym": 80,
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 262996
+  "approx_bytes_read": 263342
  },
  "errors": [],
  "tasks": [
@@ -1747,15 +1747,15 @@
    "updated": "2026-09-11T03:24:10.292Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c761-linux-reward-app-compatibility-audit",
    "declared_short": "code-c761-linux-reward-app-compatibility-audit",
-   "folder": "code-c761-linux-reward-app-compatibility-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c761-linux-reward-app-compatibility-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "74fe302dc792c822f349ac07069df9240420360730542f1473100de971699ed5",
    "size_bytes": 5089819,
    "updated": "2026-09-11T10:34:38.769Z"
@@ -2259,15 +2259,15 @@
    "updated": "2026-09-10T20:38:34.003Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-s1-b1-lesson-template-conformance",
    "declared_short": "edu-s1-b1-lesson-template-conformance",
-   "folder": "edu-s1-b1-lesson-template-conformance",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-s1-b1-lesson-template-conformance",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "438c5ac497b9050ef1e9543f9b11440e8bda2d0eaa4f6a6256852d1ea5e4a9fc",
    "size_bytes": 5490701,
    "updated": "2026-09-11T10:35:58.273Z"
@@ -3413,6 +3413,20 @@
    "updated": "2026-09-09T08:48:39.302Z"
   },
   {
+   "declared_name": "obi/gen-g636-data-room-update-log-compliance-audit",
+   "declared_short": "gen-g636-data-room-update-log-compliance-audit",
+   "folder": "gen-g636-data-room-update-log-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "ada44754c341925b5927b8bd117cac36cd25c4796facdccac53e1531635a7cad",
+   "size_bytes": 9025261,
+   "updated": "2026-09-11T10:41:56.423Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g644-handbook-revision-rollout-audit",
@@ -3873,6 +3887,20 @@
    "sha256": "cd48b627e67d58d4fd44c39a0f596becfd676fede983e8e9718cd13bfdb85bac",
    "size_bytes": 5213770,
    "updated": "2026-09-06T01:54:19.874Z"
+  },
+  {
+   "declared_name": "obi/gen-g892-photo-series-open-call-eligibility-audit",
+   "declared_short": "gen-g892-photo-series-open-call-eligibility-audit",
+   "folder": "gen-g892-photo-series-open-call-eligibility-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "4c1383cc62966d1ae5d27c2feeed5bbed9a1d128d575a55e419f3823064de028",
+   "size_bytes": 7641550,
+   "updated": "2026-09-11T10:54:56.118Z"
   },
   {
    "connector_provenance": null,
