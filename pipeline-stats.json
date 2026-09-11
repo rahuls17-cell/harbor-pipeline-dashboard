@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-11T21:07:03+00:00",
+ "generated_at": "2026-09-11T21:37:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 434,
-  "scanned": 434,
+  "task_folders": 435,
+  "scanned": 435,
   "connector": 124,
-  "non_connector": 310,
+  "non_connector": 311,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 15,
   "gen": 131,
   "health": 28,
-  "law": 22
+  "law": 23
  },
  "name_prefix": {
   "harbor": 128,
-  "obi": 306
+  "obi": 307
  },
  "connector_services": {
   "google-drive-gym": 80,
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131427
+  "approx_bytes_read": 131579
  },
  "errors": [],
  "tasks": [
@@ -1621,15 +1621,15 @@
    "updated": "2026-09-10T02:35:38.689Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c629-advisor-summary-house-rule-audit",
    "declared_short": "code-c629-advisor-summary-house-rule-audit",
-   "folder": "code-c629-advisor-summary-house-rule-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c629-advisor-summary-house-rule-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f92c1f34c14764d5fddb44aeb69d06e5a99caede47ecf368e2347eeb63d78dd3",
    "size_bytes": 6048479,
    "updated": "2026-09-11T21:05:26.710Z"
@@ -6013,6 +6013,20 @@
    "sha256": "16f408bc65a7cb20faa8214bdd1fb9757acb9b4f242e7b9ec6e47957b368b69c",
    "size_bytes": 4636160,
    "updated": "2026-09-06T00:18:21.582Z"
+  },
+  {
+   "declared_name": "obi/law-l48-duty-to-defend-trigger-audit",
+   "declared_short": "law-l48-duty-to-defend-trigger-audit",
+   "folder": "law-l48-duty-to-defend-trigger-audit-20260910T203103Z-1-001",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "de29dd5a3a42dff4d52023da8770f68937a1a5d9ea132e0216964b0aa148f9fa",
+   "size_bytes": 9342283,
+   "updated": "2026-09-11T21:15:54.401Z"
   },
   {
    "connector_provenance": null,
