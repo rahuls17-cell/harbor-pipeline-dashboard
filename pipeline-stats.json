@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-11T11:37:04+00:00",
+ "generated_at": "2026-09-11T12:07:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 421,
-  "scanned": 421,
+  "task_folders": 422,
+  "scanned": 422,
   "connector": 124,
-  "non_connector": 297,
+  "non_connector": 298,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,13 +16,13 @@
  "domain": {
   "unnamed": 125,
   "code": 108,
-  "fin": 14,
+  "fin": 15,
   "gen": 125,
   "health": 27,
   "law": 22
  },
  "name_prefix": {
-  "harbor": 127,
+  "harbor": 128,
   "obi": 294
  },
  "connector_services": {
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131424
+  "approx_bytes_read": 131528
  },
  "errors": [],
  "tasks": [
@@ -2417,6 +2417,20 @@
    "sha256": "69f3c6e857777b4621f75569c1cf4e3c519a76355be3a2be0ad0d6e33546441b",
    "size_bytes": 6516137,
    "updated": "2026-09-09T13:26:58.809Z"
+  },
+  {
+   "declared_name": "harbor/fin-f22-hedge-effectiveness",
+   "declared_short": "fin-f22-hedge-effectiveness",
+   "folder": "fin-f22-hedge-effectiveness",
+   "prefix": "harbor",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "e1536dad529d8f79106931a6429c567a768cfde37ccdd78851b009b669cae218",
+   "size_bytes": 4854346,
+   "updated": "2026-09-11T12:01:45.898Z"
   },
   {
    "connector_provenance": null,
@@ -5425,15 +5439,15 @@
    "updated": "2026-09-07T23:26:17.217Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h80-trial-monitoring-visit-cadence-audit",
    "declared_short": "health-h80-trial-monitoring-visit-cadence-audit",
-   "folder": "health-h80-trial-monitoring-visit-cadence-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h80-trial-monitoring-visit-cadence-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8ccd443b322e2ae46bb3601531594349d9aa61dd12f77938795ade6b7a68c128",
    "size_bytes": 2982356,
    "updated": "2026-09-11T11:30:13.816Z"
