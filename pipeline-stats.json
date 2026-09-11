@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-11T23:07:03+00:00",
+ "generated_at": "2026-09-11T23:37:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 441,
-  "scanned": 441,
+  "task_folders": 442,
+  "scanned": 442,
   "connector": 124,
-  "non_connector": 317,
+  "non_connector": 318,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 125,
   "code": 115,
   "fin": 15,
-  "gen": 135,
+  "gen": 136,
   "health": 28,
   "law": 23
  },
  "name_prefix": {
   "harbor": 128,
-  "obi": 313
+  "obi": 314
  },
  "connector_services": {
   "google-drive-gym": 80,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 6,
-  "approx_bytes_read": 788963
+  "new_archives_read": 1,
+  "approx_bytes_read": 131465
  },
  "errors": [],
  "tasks": [
@@ -781,15 +781,15 @@
    "updated": "2026-09-08T22:30:05.711Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c343-sbp-brand-classification-audit",
    "declared_short": "code-c343-sbp-brand-classification-audit",
-   "folder": "code-c343-sbp-brand-classification-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c343-sbp-brand-classification-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ef7ab06634abb9e2b6ca3a3694f5aadc8dc3cd7845408268ca40106a3939dfe5",
    "size_bytes": 6102696,
    "updated": "2026-09-11T22:54:02.039Z"
@@ -1425,15 +1425,15 @@
    "updated": "2026-09-05T18:37:29.090Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c507-build-queue-item-closure-audit",
    "declared_short": "code-c507-build-queue-item-closure-audit",
-   "folder": "code-c507-build-queue-item-closure-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c507-build-queue-item-closure-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d4f94e53dd9a12f2ea71e67d9a6e393e4532ec93ab8378129f90a69a29058dfc",
    "size_bytes": 11872427,
    "updated": "2026-09-11T22:52:21.055Z"
@@ -2965,15 +2965,15 @@
    "updated": "2026-09-06T18:36:58.612Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1292-conference-travel-points-redemption-audit",
    "declared_short": "gen-g1292-conference-travel-points-redemption-audit",
-   "folder": "gen-g1292-conference-travel-points-redemption-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1292-conference-travel-points-redemption-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a8c238c46eb3a7855c0c12c621068edbc5e6aae47db6f896dba10283ba9e485a",
    "size_bytes": 11805556,
    "updated": "2026-09-11T22:59:09.813Z"
@@ -3077,15 +3077,15 @@
    "updated": "2026-09-05T23:38:40.552Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g260-dissertation-workspace-audit",
    "declared_short": "gen-g260-dissertation-workspace-audit",
-   "folder": "gen-g260-dissertation-workspace-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g260-dissertation-workspace-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "936a15edcaed47bb1bb22e0c78eb9574527ab388ae8da71f96576c0ef24444d8",
    "size_bytes": 5732601,
    "updated": "2026-09-11T22:54:10.013Z"
@@ -3735,15 +3735,15 @@
    "updated": "2026-09-11T08:18:03.851Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g723-business-sale-listing-readiness-audit",
    "declared_short": "gen-g723-business-sale-listing-readiness-audit",
-   "folder": "gen-g723-business-sale-listing-readiness-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g723-business-sale-listing-readiness-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "06dc4f07af66d005f16d7cd5b04f70e1cb75ac740170251cb20e33fc7c37a559",
    "size_bytes": 4865904,
    "updated": "2026-09-11T22:53:54.389Z"
@@ -3929,6 +3929,20 @@
    "sha256": "f8edd9c265385a68e3d91f7c5d030088a2896b34a40973ac4c4468548b27261b",
    "size_bytes": 4146860,
    "updated": "2026-09-10T21:33:36.468Z"
+  },
+  {
+   "declared_name": "obi/gen-g804-vascular-biomarker-figure-prep-audit-hard-v10am",
+   "declared_short": "gen-g804-vascular-biomarker-figure-prep-audit-hard-v10am",
+   "folder": "gen-g804-vascular-biomarker-figure-prep-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "bdb6ca981aec31f9a41fcaed88cc65fd6ad907e93641189b225c09c16e753831",
+   "size_bytes": 7411511,
+   "updated": "2026-09-11T23:30:46.578Z"
   },
   {
    "connector_provenance": null,
@@ -4267,15 +4281,15 @@
    "updated": "2026-09-09T03:26:12.179Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g979-portrait-background-order-audit",
    "declared_short": "gen-g979-portrait-background-order-audit",
-   "folder": "gen-g979-portrait-background-order-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g979-portrait-background-order-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "90a6012339db887149e08408ff2883d43ee20dc0f3c46e6aed0268828d1e1dc6",
    "size_bytes": 4749759,
    "updated": "2026-09-11T22:53:55.103Z"
