@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-11T07:00:34+00:00",
+ "generated_at": "2026-09-11T07:37:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 410,
-  "scanned": 410,
+  "task_folders": 413,
+  "scanned": 413,
   "connector": 124,
-  "non_connector": 286,
+  "non_connector": 289,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 124,
-  "code": 105,
-  "fin": 13,
-  "gen": 120,
+  "code": 106,
+  "fin": 14,
+  "gen": 121,
   "health": 26,
   "law": 22
  },
  "name_prefix": {
   "harbor": 127,
-  "obi": 283
+  "obi": 286
  },
  "connector_services": {
   "google-drive-gym": 80,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 394280
  },
  "errors": [],
  "tasks": [
@@ -1327,6 +1327,20 @@
    "updated": "2026-09-10T12:00:44.025Z"
   },
   {
+   "declared_name": "obi/code-c485-podcast-autosync-job-audit",
+   "declared_short": "code-c485-podcast-autosync-job-audit",
+   "folder": "code-c485-podcast-autosync-job-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "7b04560646ca7f6c9bdf6ecf4798964d3804602aeebaaefa142eae2b7477ad5c",
+   "size_bytes": 7992611,
+   "updated": "2026-09-11T07:18:26.542Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c486-quality-coach-submission-threshold-audit",
@@ -2361,6 +2375,20 @@
    "sha256": "69f3c6e857777b4621f75569c1cf4e3c519a76355be3a2be0ad0d6e33546441b",
    "size_bytes": 6516137,
    "updated": "2026-09-09T13:26:58.809Z"
+  },
+  {
+   "declared_name": "obi/fin-f27-earnings-per-share",
+   "declared_short": "fin-f27-earnings-per-share",
+   "folder": "fin-f27-earnings-per-share",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "7d06c98d1f6d7715fe31546840897b32d425e2ac2c9cd6065e25a392ec7060b9",
+   "size_bytes": 4546763,
+   "updated": "2026-09-11T07:28:23.136Z"
   },
   {
    "connector_provenance": null,
@@ -3775,6 +3803,20 @@
    "sha256": "cd48b627e67d58d4fd44c39a0f596becfd676fede983e8e9718cd13bfdb85bac",
    "size_bytes": 5213770,
    "updated": "2026-09-06T01:54:19.874Z"
+  },
+  {
+   "declared_name": "obi/gen-g894-video-production-rights-clearance-audit",
+   "declared_short": "gen-g894-video-production-rights-clearance-audit",
+   "folder": "gen-g894-video-production-rights-clearance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "91c44249e88f981dac669b1af704fa06dccf6f93c152acadf14f82a32db609af",
+   "size_bytes": 5888189,
+   "updated": "2026-09-11T07:19:46.382Z"
   },
   {
    "connector_provenance": null,
