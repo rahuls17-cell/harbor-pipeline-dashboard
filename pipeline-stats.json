@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-11T14:37:03+00:00",
+ "generated_at": "2026-09-11T21:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 433,
-  "scanned": 433,
+  "task_folders": 434,
+  "scanned": 434,
   "connector": 124,
-  "non_connector": 309,
+  "non_connector": 310,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 125,
-  "code": 112,
+  "code": 113,
   "fin": 15,
   "gen": 131,
   "health": 28,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 128,
-  "obi": 305
+  "obi": 306
  },
  "connector_services": {
   "google-drive-gym": 80,
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131594
+  "approx_bytes_read": 131427
  },
  "errors": [],
  "tasks": [
@@ -1621,6 +1621,20 @@
    "updated": "2026-09-10T02:35:38.689Z"
   },
   {
+   "declared_name": "obi/code-c629-advisor-summary-house-rule-audit",
+   "declared_short": "code-c629-advisor-summary-house-rule-audit",
+   "folder": "code-c629-advisor-summary-house-rule-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "f92c1f34c14764d5fddb44aeb69d06e5a99caede47ecf368e2347eeb63d78dd3",
+   "size_bytes": 6048479,
+   "updated": "2026-09-11T21:05:26.710Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c645-subcontractor-prevailing-wage-audit",
@@ -1789,15 +1803,15 @@
    "updated": "2026-09-11T03:24:10.292Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c754-profile-authenticity-signal-audit",
    "declared_short": "code-c754-profile-authenticity-signal-audit",
-   "folder": "code-c754-profile-authenticity-signal-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c754-profile-authenticity-signal-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0a7189dc5cc618f3d5ed9bc6fca5ee093f60760e1e56a9103d7a059f154707f8",
    "size_bytes": 6325523,
    "updated": "2026-09-11T14:14:45.609Z"
