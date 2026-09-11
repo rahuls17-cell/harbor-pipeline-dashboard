@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-11T09:37:02+00:00",
+ "generated_at": "2026-09-11T10:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 415,
-  "scanned": 415,
+  "task_folders": 416,
+  "scanned": 416,
   "connector": 124,
-  "non_connector": 291,
+  "non_connector": 292,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 124,
-  "code": 106,
+  "code": 107,
   "fin": 14,
   "gen": 123,
   "health": 26,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 127,
-  "obi": 288
+  "obi": 289
  },
  "connector_services": {
   "google-drive-gym": 80,
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131422
+  "approx_bytes_read": 131497
  },
  "errors": [],
  "tasks": [
@@ -1621,6 +1621,20 @@
    "updated": "2026-09-09T13:20:08.480Z"
   },
   {
+   "declared_name": "obi/code-c673-recruiting-quiz-tier-audit",
+   "declared_short": "code-c673-recruiting-quiz-tier-audit",
+   "folder": "code-c673-recruiting-quiz-tier-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "0a7330ed7c770c541e6d32fbd339179ceb22aedd860faa162a1cc8b3085ccc32",
+   "size_bytes": 4673268,
+   "updated": "2026-09-11T10:06:47.794Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c676-shipment-link-routing-audit",
@@ -2531,15 +2545,15 @@
    "updated": "2026-09-09T11:14:04.135Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1229-new-construction-comp-eligibility-screen",
    "declared_short": "gen-g1229-new-construction-comp-eligibility-screen",
-   "folder": "gen-G1229-new-construction-comp-eligibility-screen",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-G1229-new-construction-comp-eligibility-screen",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "897717dbfeed837bb82e626d73eaae1bc05e574b056828c81f5e800387fd8018",
    "size_bytes": 4768878,
    "updated": "2026-09-11T09:14:13.431Z"
