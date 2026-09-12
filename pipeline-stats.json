@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-09-12T13:37:03+00:00",
+ "generated_at": "2026-09-12T14:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 451,
-  "scanned": 451,
-  "connector": 124,
-  "non_connector": 327,
+  "task_folders": 456,
+  "scanned": 456,
+  "connector": 125,
+  "non_connector": 331,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 57,
+  "unknown": 58,
   "synthetic": 25,
   "real": 42
  },
  "domain": {
-  "unnamed": 126,
+  "unnamed": 128,
   "code": 118,
   "fin": 15,
-  "gen": 140,
+  "gen": 143,
   "health": 29,
   "law": 23
  },
  "name_prefix": {
-  "harbor": 128,
-  "obi": 323
+  "harbor": 129,
+  "obi": 327
  },
  "connector_services": {
-  "google-drive-gym": 80,
-  "slack-gym": 73,
-  "confluence-gym": 64,
-  "email-gym": 64,
-  "freshdesk-gym": 64,
-  "jira-gym": 64,
-  "zeta3-sql-gym": 64,
+  "google-drive-gym": 81,
+  "slack-gym": 74,
+  "confluence-gym": 65,
+  "email-gym": 65,
+  "freshdesk-gym": 65,
+  "jira-gym": 65,
+  "zeta3-sql-gym": 65,
   "github-gym": 7,
   "outlook-gym": 7,
   "notion-gym": 6,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131582
+  "new_archives_read": 5,
+  "approx_bytes_read": 659789
  },
  "errors": [],
  "tasks": [
@@ -2427,6 +2427,20 @@
    "updated": "2026-09-11T10:35:58.273Z"
   },
   {
+   "declared_name": "obi/edu-s1-b2-parallel-worksheet-allocation",
+   "declared_short": "edu-s1-b2-parallel-worksheet-allocation",
+   "folder": "edu-s1-b2-parallel-worksheet-allocation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "ab76fb45eec534eeadae27c9ba36cc624f9fb1f5d1e9a13644c3dbce2afb5d43",
+   "size_bytes": 5854140,
+   "updated": "2026-09-12T13:57:25.757Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
@@ -3035,6 +3049,20 @@
    "updated": "2026-09-11T22:59:09.813Z"
   },
   {
+   "declared_name": "obi/gen-g1293-catamaran-charter-expense-settlement",
+   "declared_short": "gen-g1293-catamaran-charter-expense-settlement",
+   "folder": "gen-g1293-catamaran-charter-expense-settlement-20260911T181550Z-1-001",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "e81daa4bbdd8192a3c9807685339ab24eb198f7abaec52cb9d4454daf122d5df",
+   "size_bytes": 5730929,
+   "updated": "2026-09-12T13:41:25.159Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g1308-brand-name-candidate-screening-audit",
@@ -3217,6 +3245,20 @@
    "updated": "2026-09-07T11:27:18.879Z"
   },
   {
+   "declared_name": "obi/gen-g293-sushi-restaurant-audit",
+   "declared_short": "gen-g293-sushi-restaurant-audit",
+   "folder": "gen-g293-sushi-restaurant-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "212cfc6696d045369782be019e91210ee60e7111cf6d612db3d875db2372734b",
+   "size_bytes": 7564175,
+   "updated": "2026-09-12T13:39:12.738Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g295-pdf-translation-audit",
@@ -3287,15 +3329,15 @@
    "updated": "2026-09-08T09:44:22.213Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g306-primary-results-audit",
    "declared_short": "gen-g306-primary-results-audit",
-   "folder": "gen-g306-primary-results-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g306-primary-results-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ae58bb32bb41f2868a9054c26233cc9efa12db33be9fadd44b3ecad8846ebfc6",
    "size_bytes": 5238113,
    "updated": "2026-09-12T13:35:07.830Z"
@@ -3607,6 +3649,20 @@
    "sha256": "ea7e36b76f4a0d4da5b91ee8134f9f3adde3711aaa7e163ce39da6c24ebb52a4",
    "size_bytes": 5470297,
    "updated": "2026-09-05T18:53:05.115Z"
+  },
+  {
+   "declared_name": "obi/gen-g580-estate-sale-valuation-inventory-audit",
+   "declared_short": "gen-g580-estate-sale-valuation-inventory-audit",
+   "folder": "gen-g580-estate-sale-valuation-inventory-audit-funded-closing",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "0c40cb4cc630cac002dd32b5c2c96ce1a317f739a8635744d431c94c75c46d53",
+   "size_bytes": 12878329,
+   "updated": "2026-09-12T13:54:48.682Z"
   },
   {
    "connector_provenance": null,
@@ -6953,6 +7009,28 @@
    "sha256": "a88c1ccc4936f9a09e80cca2f1e8fb457ee1f78caf1e47b4934af3fd1798ce6b",
    "size_bytes": 5242402,
    "updated": "2026-09-09T18:54:18.513Z"
+  },
+  {
+   "declared_name": "harbor/verify-suspected-duplicate-charge-130-57-68-18-for-member-across-two-a",
+   "declared_short": "verify-suspected-duplicate-charge-130-57-68-18-for-member-across-two-a",
+   "folder": "verify-suspected-duplicate-charge-130-57-68-18-for-member-across-two-a",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "d32a3cd0cd1cb13bf9d3db81225dddd0458127cbb92141cb39ea160bd3e3cca1",
+   "size_bytes": 9481602,
+   "updated": "2026-09-12T13:41:14.141Z"
   },
   {
    "connector_provenance": "real",
