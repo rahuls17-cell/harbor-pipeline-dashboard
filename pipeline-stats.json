@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-12T20:37:03+00:00",
+ "generated_at": "2026-09-12T21:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 479,
-  "scanned": 479,
+  "task_folders": 480,
+  "scanned": 480,
   "connector": 132,
-  "non_connector": 347,
+  "non_connector": 348,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 136,
   "code": 123,
   "fin": 17,
-  "gen": 151,
+  "gen": 152,
   "health": 29,
   "law": 23
  },
  "name_prefix": {
   "harbor": 136,
-  "obi": 343
+  "obi": 344
  },
  "connector_services": {
   "google-drive-gym": 87,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 525907
+  "new_archives_read": 2,
+  "approx_bytes_read": 262891
  },
  "errors": [],
  "tasks": [
@@ -971,15 +971,15 @@
    "updated": "2026-09-12T17:34:38.188Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c383-additive-migration-governance-audit",
    "declared_short": "code-c383-additive-migration-governance-audit",
-   "folder": "code-c383-additive-migration-governance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c383-additive-migration-governance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "03df624513cc614ae868cc98b35454a73f0de53ca90eddfc2172c221beed586b",
    "size_bytes": 7595035,
    "updated": "2026-09-12T20:16:08.229Z"
@@ -1741,15 +1741,15 @@
    "updated": "2026-09-12T03:44:25.854Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c590-usage-metering-reconciliation-audit",
    "declared_short": "code-c590-usage-metering-reconciliation-audit",
-   "folder": "code-c590-usage-metering-reconciliation-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c590-usage-metering-reconciliation-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5fbee6a118552c046aa9976fab22c03800f97e976c7c0f0df4c512d37a0e247e",
    "size_bytes": 5955849,
    "updated": "2026-09-12T20:35:55.564Z"
@@ -2544,9 +2544,9 @@
    "connector_provenance": null,
    "domain": null,
    "image": null,
-   "sha256": "b1fedfde0a9fb6c584f63b3776ff3e3838d9b47d8f046139763ed944bc72c8ba",
-   "size_bytes": 5598671,
-   "updated": "2026-09-12T20:15:33.633Z"
+   "sha256": "3df45cc11200d43895e5267005118f72498c299e788afb5105f18a6d7b755a5e",
+   "size_bytes": 5506368,
+   "updated": "2026-09-12T21:04:56.180Z"
   },
   {
    "connector_provenance": null,
@@ -2709,15 +2709,15 @@
    "updated": "2026-09-10T14:24:31.771Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b41-a4-mapped-trial-balance-restatement",
    "declared_short": "fin-b41-a4-mapped-trial-balance-restatement",
-   "folder": "fin-b41-a4-mapped-trial-balance-restatement",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b41-a4-mapped-trial-balance-restatement",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "17781c48017dad693c91708b78dd68b21791963121fe507e9f0d99c3d05e27c7",
    "size_bytes": 8139438,
    "updated": "2026-09-12T20:16:21.193Z"
@@ -3113,6 +3113,20 @@
    "sha256": "1ad8122e9fe9a6ade3efd497a2e4a8e0f020cdc364d4b7eef6a3523ee8fb0086",
    "size_bytes": 4511873,
    "updated": "2026-09-05T22:43:40.978Z"
+  },
+  {
+   "declared_name": "obi/gen-g1218-dealership-ad-compliance-audit",
+   "declared_short": "gen-g1218-dealership-ad-compliance-audit",
+   "folder": "gen-g1218-dealership-ad-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "8db748de333bc8322e2895ffd7296ed3a7deec4b5d86c7023b6533ddece3c08c",
+   "size_bytes": 7791493,
+   "updated": "2026-09-12T20:43:15.618Z"
   },
   {
    "connector_provenance": null,
