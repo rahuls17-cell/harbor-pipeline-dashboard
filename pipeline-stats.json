@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-12T08:37:05+00:00",
+ "generated_at": "2026-09-12T09:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 448,
-  "scanned": 448,
+  "task_folders": 449,
+  "scanned": 449,
   "connector": 124,
-  "non_connector": 324,
+  "non_connector": 325,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "real": 42
  },
  "domain": {
-  "unnamed": 125,
+  "unnamed": 126,
   "code": 118,
   "fin": 15,
   "gen": 138,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 128,
-  "obi": 320
+  "obi": 321
  },
  "connector_services": {
   "google-drive-gym": 80,
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 263121
+  "approx_bytes_read": 263162
  },
  "errors": [],
  "tasks": [
@@ -1383,15 +1383,15 @@
    "updated": "2026-09-07T20:37:38.081Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c490-field-file-ingestion-sla-audit",
    "declared_short": "code-c490-field-file-ingestion-sla-audit",
-   "folder": "code-c490-field-file-ingestion-sla-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c490-field-file-ingestion-sla-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "cd85ceb496170921b2e41f6730842012caa669319acb281a6059b189111e21f8",
    "size_bytes": 6170223,
    "updated": "2026-09-12T08:29:34.606Z"
@@ -2397,6 +2397,20 @@
    "sha256": "a20ee337d1883b5c76560700361905af436a1154ee48b43a98907213faba0fad",
    "size_bytes": 10764390,
    "updated": "2026-09-10T20:38:34.003Z"
+  },
+  {
+   "declared_name": "obi/edu-s1-a5-curriculum-code-insertion",
+   "declared_short": "edu-s1-a5-curriculum-code-insertion",
+   "folder": "edu-s1-a5-curriculum-code-insertion",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "533904ab264ab55b7b3d7277f1624fb582b3add36905ec144dd73d6dc3a6f04d",
+   "size_bytes": 6301457,
+   "updated": "2026-09-12T08:37:39.890Z"
   },
   {
    "connector_provenance": null,
@@ -3763,18 +3777,18 @@
    "updated": "2026-09-08T07:49:59.144Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/gen-g715-staff-directory-send-eligibility-audit",
    "declared_short": "gen-g715-staff-directory-send-eligibility-audit",
-   "domain": "gen",
    "folder": "gen-g715-staff-directory-send-eligibility-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "dbb840ac6529761bf6deddf056e23bd65bdce181bb3d730e879a27f91d2aab95",
-   "size_bytes": 5773309,
-   "updated": "2026-09-11T08:18:03.851Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "c02bca829717a09388192b6d35a94e31270c10b17f65b83ea7e6cea719747cd1",
+   "size_bytes": 5553391,
+   "updated": "2026-09-12T09:04:54.632Z"
   },
   {
    "connector_provenance": null,
@@ -3847,15 +3861,15 @@
    "updated": "2026-09-05T23:10:37.922Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g747-playbook-consolidation-toc-audit",
    "declared_short": "gen-g747-playbook-consolidation-toc-audit",
-   "folder": "gen-g747-playbook-consolidation-toc-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g747-playbook-consolidation-toc-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "75911b2b0aa16e706f368ba8e3948b391a17271b8fcf8313063bc87de7f3d08c",
    "size_bytes": 20575330,
    "updated": "2026-09-12T08:35:10.560Z"
