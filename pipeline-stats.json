@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-09-12T15:07:02+00:00",
+ "generated_at": "2026-09-12T16:07:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 459,
-  "scanned": 459,
-  "connector": 126,
-  "non_connector": 333,
+  "task_folders": 465,
+  "scanned": 465,
+  "connector": 128,
+  "non_connector": 337,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 58,
+  "unknown": 59,
   "synthetic": 25,
-  "real": 43
+  "real": 44
  },
  "domain": {
-  "unnamed": 129,
+  "unnamed": 131,
   "code": 119,
   "fin": 15,
-  "gen": 144,
+  "gen": 148,
   "health": 29,
   "law": 23
  },
  "name_prefix": {
-  "harbor": 130,
-  "obi": 329
+  "harbor": 132,
+  "obi": 333
  },
  "connector_services": {
-  "google-drive-gym": 82,
-  "slack-gym": 75,
-  "confluence-gym": 66,
-  "email-gym": 66,
-  "freshdesk-gym": 66,
-  "jira-gym": 66,
-  "zeta3-sql-gym": 66,
+  "google-drive-gym": 83,
+  "slack-gym": 77,
+  "confluence-gym": 67,
+  "email-gym": 67,
+  "freshdesk-gym": 67,
+  "jira-gym": 67,
+  "zeta3-sql-gym": 67,
   "github-gym": 7,
   "outlook-gym": 7,
   "notion-gym": 6,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131653
+  "new_archives_read": 7,
+  "approx_bytes_read": 924521
  },
  "errors": [],
  "tasks": [
@@ -2755,6 +2755,20 @@
    "updated": "2026-09-09T21:09:51.966Z"
   },
   {
+   "declared_name": "obi/gen-g810-ghostwritten-memoir-consent-audit",
+   "declared_short": "gen-g810-ghostwritten-memoir-consent-audit",
+   "folder": "g810-v2",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "3d680404d6bf995fb1c35c140a401f7b869b1a8e7e2c5dd3831cc847388ae1e8",
+   "size_bytes": 5736120,
+   "updated": "2026-09-12T15:54:57.402Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g958-monogram-trademark-priority-deadline-audit",
@@ -3119,6 +3133,20 @@
    "updated": "2026-09-09T09:19:34.379Z"
   },
   {
+   "declared_name": "obi/gen-g186-foia-fee-waiver-audit",
+   "declared_short": "gen-g186-foia-fee-waiver-audit",
+   "folder": "gen-g186-foia-fee-waiver-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "2f4d601f4865c852f5b519b4196188ec0dd97fe2f850c2407588fe2ce3c098b3",
+   "size_bytes": 6927908,
+   "updated": "2026-09-12T16:01:35.637Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g191-edition-numbering-ap-audit",
@@ -3357,15 +3385,15 @@
    "updated": "2026-09-12T13:35:07.830Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g325-proposal-intake-gate-audit",
    "declared_short": "gen-g325-proposal-intake-gate-audit",
-   "folder": "gen-g325-proposal-intake-gate-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g325-proposal-intake-gate-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "237af72fdd9b2b24eff136efaccee862570fe7bb2bef74f4971af070ba3bebc8",
    "size_bytes": 10667338,
    "updated": "2026-09-12T14:45:54.124Z"
@@ -3425,6 +3453,20 @@
    "sha256": "ba78097105938e22603c54851fdbcd49ae52c5cfdec7387933fa74b98af4df54",
    "size_bytes": 5207556,
    "updated": "2026-09-08T12:37:31.395Z"
+  },
+  {
+   "declared_name": "obi/gen-g387-production-run-variation-audit",
+   "declared_short": "gen-g387-production-run-variation-audit",
+   "folder": "gen-g387-production-run-variation-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "fab33a4bf87060824dde1ffbb4e6d780f33b1aeb1ffb30c95c851fa943bc6c24",
+   "size_bytes": 4436663,
+   "updated": "2026-09-12T15:55:04.714Z"
   },
   {
    "connector_provenance": null,
@@ -3943,6 +3985,20 @@
    "sha256": "1597f1419b016a30a94dcb846eaf12e6fc2fa4a1d9b222d21a804c6feb1325c6",
    "size_bytes": 4429553,
    "updated": "2026-09-10T09:11:10.155Z"
+  },
+  {
+   "declared_name": "obi/gen-g734-cms-publish-readiness-audit",
+   "declared_short": "gen-g734-cms-publish-readiness-audit",
+   "folder": "gen-g734-cms-publish-readiness-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "35c2733492fa3366f68b0a1fd6f9cd0710f01d33f757bdac6fbcbea480c03e4a",
+   "size_bytes": 5352059,
+   "updated": "2026-09-12T15:54:45.464Z"
   },
   {
    "connector_provenance": null,
@@ -6069,6 +6125,22 @@
    "updated": "2026-09-06T20:44:32.591Z"
   },
   {
+   "declared_name": "harbor/ideas-channel-second-voice-pickup-audit",
+   "declared_short": "ideas-channel-second-voice-pickup-audit",
+   "folder": "ideas-channel-second-voice-pickup-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "75da3605fae542f1ad776521606eedcf9bde02fd0b03ff3ab84ba3f5c7cf9493",
+   "size_bytes": 5421530,
+   "updated": "2026-09-12T15:57:58.084Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -6211,18 +6283,18 @@
    "updated": "2026-09-06T13:38:46.650Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/law-l23-escrow-release-conditions",
    "declared_short": "law-l23-escrow-release-conditions",
-   "domain": "law",
    "folder": "law-l23-escrow-release-conditions",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "556cb4319459f59386dffc56277333a4974bda763e7c531929a5979a645e0eb2",
-   "size_bytes": 4927838,
-   "updated": "2026-09-10T21:31:37.446Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "e075aa6d2741a8c2f500e39e69a4f5098f1cc6238c9b99dcdbc95304f3d01d8e",
+   "size_bytes": 4207277,
+   "updated": "2026-09-12T15:59:21.333Z"
   },
   {
    "connector_provenance": null,
@@ -6841,6 +6913,28 @@
    "sha256": "566d11f7c466e8d56c38778cc639d9901989c6e095db6683ab7158d6a05037e4",
    "size_bytes": 14423278,
    "updated": "2026-09-09T21:00:48.024Z"
+  },
+  {
+   "declared_name": "harbor/trace-why-subscription-270-billing-failed-and-never-recovered-9-99-pla",
+   "declared_short": "trace-why-subscription-270-billing-failed-and-never-recovered-9-99-pla",
+   "folder": "trace-why-subscription-270-billing-failed-and-never-recovered-9-99-pla",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "aa30d72cdf2cb31c7ff8324c12d0fa1f2ba53beabb166fc4df4d6e8a64305979",
+   "size_bytes": 9530980,
+   "updated": "2026-09-12T15:59:48.952Z"
   },
   {
    "connector_provenance": "unknown",
