@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-09-12T14:07:03+00:00",
+ "generated_at": "2026-09-12T14:37:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 456,
-  "scanned": 456,
-  "connector": 125,
-  "non_connector": 331,
+  "task_folders": 458,
+  "scanned": 458,
+  "connector": 126,
+  "non_connector": 332,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 58,
   "synthetic": 25,
-  "real": 42
+  "real": 43
  },
  "domain": {
-  "unnamed": 128,
-  "code": 118,
+  "unnamed": 129,
+  "code": 119,
   "fin": 15,
   "gen": 143,
   "health": 29,
   "law": 23
  },
  "name_prefix": {
-  "harbor": 129,
-  "obi": 327
+  "harbor": 130,
+  "obi": 328
  },
  "connector_services": {
-  "google-drive-gym": 81,
-  "slack-gym": 74,
-  "confluence-gym": 65,
-  "email-gym": 65,
-  "freshdesk-gym": 65,
-  "jira-gym": 65,
-  "zeta3-sql-gym": 65,
+  "google-drive-gym": 82,
+  "slack-gym": 75,
+  "confluence-gym": 66,
+  "email-gym": 66,
+  "freshdesk-gym": 66,
+  "jira-gym": 66,
+  "zeta3-sql-gym": 66,
   "github-gym": 7,
   "outlook-gym": 7,
   "notion-gym": 6,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 5,
-  "approx_bytes_read": 659789
+  "new_archives_read": 2,
+  "approx_bytes_read": 267885
  },
  "errors": [],
  "tasks": [
@@ -513,6 +513,20 @@
    "sha256": "e0fffdb60cd792ae1b1e2a428d0a53dab4b4737fb76cb58dbe57d70ca3402862",
    "size_bytes": 4761656,
    "updated": "2026-09-09T17:33:27.256Z"
+  },
+  {
+   "declared_name": "obi/code-c217-column-encryption-compliance-audit",
+   "declared_short": "code-c217-column-encryption-compliance-audit",
+   "folder": "code-c217-column-encryption-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "a8fc27089a6e89a65acee2abdcef0a99164d022b6f1078558e8050eb9c10e1cb",
+   "size_bytes": 7294551,
+   "updated": "2026-09-12T14:16:29.191Z"
   },
   {
    "connector_provenance": null,
@@ -2427,15 +2441,15 @@
    "updated": "2026-09-11T10:35:58.273Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-s1-b2-parallel-worksheet-allocation",
    "declared_short": "edu-s1-b2-parallel-worksheet-allocation",
-   "folder": "edu-s1-b2-parallel-worksheet-allocation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-s1-b2-parallel-worksheet-allocation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ab76fb45eec534eeadae27c9ba36cc624f9fb1f5d1e9a13644c3dbce2afb5d43",
    "size_bytes": 5854140,
    "updated": "2026-09-12T13:57:25.757Z"
@@ -3049,15 +3063,15 @@
    "updated": "2026-09-11T22:59:09.813Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1293-catamaran-charter-expense-settlement",
    "declared_short": "gen-g1293-catamaran-charter-expense-settlement",
-   "folder": "gen-g1293-catamaran-charter-expense-settlement-20260911T181550Z-1-001",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1293-catamaran-charter-expense-settlement-20260911T181550Z-1-001",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e81daa4bbdd8192a3c9807685339ab24eb198f7abaec52cb9d4454daf122d5df",
    "size_bytes": 5730929,
    "updated": "2026-09-12T13:41:25.159Z"
@@ -3245,15 +3259,15 @@
    "updated": "2026-09-07T11:27:18.879Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g293-sushi-restaurant-audit",
    "declared_short": "gen-g293-sushi-restaurant-audit",
-   "folder": "gen-g293-sushi-restaurant-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g293-sushi-restaurant-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "212cfc6696d045369782be019e91210ee60e7111cf6d612db3d875db2372734b",
    "size_bytes": 7564175,
    "updated": "2026-09-12T13:39:12.738Z"
@@ -3651,15 +3665,15 @@
    "updated": "2026-09-05T18:53:05.115Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g580-estate-sale-valuation-inventory-audit",
    "declared_short": "gen-g580-estate-sale-valuation-inventory-audit",
-   "folder": "gen-g580-estate-sale-valuation-inventory-audit-funded-closing",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g580-estate-sale-valuation-inventory-audit-funded-closing",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0c40cb4cc630cac002dd32b5c2c96ce1a317f739a8635744d431c94c75c46d53",
    "size_bytes": 12878329,
    "updated": "2026-09-12T13:54:48.682Z"
@@ -6967,6 +6981,28 @@
    "updated": "2026-09-09T19:11:28.889Z"
   },
   {
+   "declared_name": "harbor/verify-missing-1-998-46-direct-deposit-reported-on-joint-account-sep-1",
+   "declared_short": "verify-missing-1-998-46-direct-deposit-reported-on-joint-account-sep-1",
+   "folder": "verify-missing-1-998-46-direct-deposit-reported--7cd1f2-v5",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "a00367992e59c493e89722bca57cac6ac9be04144752eaf18ef8fc5f1762e10a",
+   "size_bytes": 10290826,
+   "updated": "2026-09-12T14:08:02.065Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -7011,11 +7047,7 @@
    "updated": "2026-09-09T18:54:18.513Z"
   },
   {
-   "declared_name": "harbor/verify-suspected-duplicate-charge-130-57-68-18-for-member-across-two-a",
-   "declared_short": "verify-suspected-duplicate-charge-130-57-68-18-for-member-across-two-a",
-   "folder": "verify-suspected-duplicate-charge-130-57-68-18-for-member-across-two-a",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -7025,9 +7057,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/verify-suspected-duplicate-charge-130-57-68-18-for-member-across-two-a",
+   "declared_short": "verify-suspected-duplicate-charge-130-57-68-18-for-member-across-two-a",
    "domain": null,
+   "folder": "verify-suspected-duplicate-charge-130-57-68-18-for-member-across-two-a",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d32a3cd0cd1cb13bf9d3db81225dddd0458127cbb92141cb39ea160bd3e3cca1",
    "size_bytes": 9481602,
    "updated": "2026-09-12T13:41:14.141Z"
