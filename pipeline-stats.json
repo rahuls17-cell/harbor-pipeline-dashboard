@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-12T00:07:03+00:00",
+ "generated_at": "2026-09-12T04:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 443,
-  "scanned": 443,
+  "task_folders": 446,
+  "scanned": 446,
   "connector": 124,
-  "non_connector": 319,
+  "non_connector": 322,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 125,
-  "code": 116,
+  "code": 117,
   "fin": 15,
-  "gen": 136,
-  "health": 28,
+  "gen": 137,
+  "health": 29,
   "law": 23
  },
  "name_prefix": {
   "harbor": 128,
-  "obi": 315
+  "obi": 318
  },
  "connector_services": {
   "google-drive-gym": 80,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 264972
+  "new_archives_read": 3,
+  "approx_bytes_read": 394514
  },
  "errors": [],
  "tasks": [
@@ -319,11 +319,7 @@
    "updated": "2026-09-08T13:58:46.170Z"
   },
   {
-   "declared_name": "harbor/auto-payment-bills-excluded-from-spend-from-selection",
-   "declared_short": "auto-payment-bills-excluded-from-spend-from-selection",
-   "folder": "auto-payment-bills-excluded-from-spend-from-selection",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -333,9 +329,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/auto-payment-bills-excluded-from-spend-from-selection",
+   "declared_short": "auto-payment-bills-excluded-from-spend-from-selection",
    "domain": null,
+   "folder": "auto-payment-bills-excluded-from-spend-from-selection",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "155a27c66ec436887682d6200ff227f9eaa042148264d28ae3072ead32c3fec0",
    "size_bytes": 8817384,
    "updated": "2026-09-11T23:52:12.862Z"
@@ -1495,15 +1495,15 @@
    "updated": "2026-09-10T13:43:03.775Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c527-boundary-coaching-log-compliance-audit",
    "declared_short": "code-c527-boundary-coaching-log-compliance-audit",
-   "folder": "code-c527-boundary-coaching-log-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c527-boundary-coaching-log-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "058b67018d477e6f8f04a4e34ed14dd2a3b28b5e23693433bdd32f27b59fff75",
    "size_bytes": 9479675,
    "updated": "2026-09-11T23:57:17.281Z"
@@ -1647,6 +1647,20 @@
    "sha256": "55a0797d0c996fa40a87076e4de256cefc35e74e31642121069d9409f4f79ffa",
    "size_bytes": 6405115,
    "updated": "2026-09-06T16:34:19.238Z"
+  },
+  {
+   "declared_name": "obi/code-c575-fundraising-channel-target-audit",
+   "declared_short": "code-c575-fundraising-channel-target-audit",
+   "folder": "code-c575-fundraising-channel-target-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "0450eaa1680ef2180df4ad8b484289659c8538696eeadd0dd0f58219551ed28a",
+   "size_bytes": 5717608,
+   "updated": "2026-09-12T03:44:25.854Z"
   },
   {
    "connector_provenance": null,
@@ -3819,6 +3833,20 @@
    "updated": "2026-09-05T23:10:37.922Z"
   },
   {
+   "declared_name": "obi/gen-g749-grant-report-revision-confirmation-audit",
+   "declared_short": "gen-g749-grant-report-revision-confirmation-audit",
+   "folder": "gen-g749-grant-report-revision-confirmation-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "cc0d0aee3c09e129413a85970e95e57322148f0af9b9c19d4f292bd262e98007",
+   "size_bytes": 41460941,
+   "updated": "2026-09-12T03:55:59.047Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g767-av-partnership-outreach-cadence-audit",
@@ -5619,6 +5647,20 @@
    "sha256": "cac2daa6193646a9b9856d5fc25d93edcb95b3ca6e084e3ef53a88e8c1eefca6",
    "size_bytes": 5448338,
    "updated": "2026-09-11T12:59:55.373Z"
+  },
+  {
+   "declared_name": "obi/health-h576-low-fodmap-breakfast-week-selection",
+   "declared_short": "health-h576-low-fodmap-breakfast-week-selection",
+   "folder": "health-h576-low-fodmap-breakfast-week-selection",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "2af6a6272661fda62d2ce8bfbb8e52eb36877f46eeb466d0490330146cdbbf8e",
+   "size_bytes": 5673705,
+   "updated": "2026-09-12T03:55:58.250Z"
   },
   {
    "connector_provenance": null,
