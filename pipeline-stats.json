@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-11T23:37:02+00:00",
+ "generated_at": "2026-09-12T00:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 442,
-  "scanned": 442,
+  "task_folders": 443,
+  "scanned": 443,
   "connector": 124,
-  "non_connector": 318,
+  "non_connector": 319,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 125,
-  "code": 115,
+  "code": 116,
   "fin": 15,
   "gen": 136,
   "health": 28,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 128,
-  "obi": 314
+  "obi": 315
  },
  "connector_services": {
   "google-drive-gym": 80,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131465
+  "new_archives_read": 2,
+  "approx_bytes_read": 264972
  },
  "errors": [],
  "tasks": [
@@ -319,7 +319,11 @@
    "updated": "2026-09-08T13:58:46.170Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/auto-payment-bills-excluded-from-spend-from-selection",
+   "declared_short": "auto-payment-bills-excluded-from-spend-from-selection",
+   "folder": "auto-payment-bills-excluded-from-spend-from-selection",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -329,16 +333,12 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/auto-payment-bills-excluded-from-spend-from-selection",
-   "declared_short": "auto-payment-bills-excluded-from-spend-from-selection",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "auto-payment-bills-excluded-from-spend-from-selection",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "41a963fa465bd38729d42edd9285e52f35eb20e072cb6aca3bfe0cefcd5072ea",
-   "size_bytes": 8004565,
-   "updated": "2026-09-10T02:53:08.471Z"
+   "sha256": "155a27c66ec436887682d6200ff227f9eaa042148264d28ae3072ead32c3fec0",
+   "size_bytes": 8817384,
+   "updated": "2026-09-11T23:52:12.862Z"
   },
   {
    "connector_provenance": "unknown",
@@ -1493,6 +1493,20 @@
    "sha256": "fa1ecc4105442dcaa56272d548cefb5ed4679dcd2314a2f5ea29abf724ee3a99",
    "size_bytes": 4719630,
    "updated": "2026-09-10T13:43:03.775Z"
+  },
+  {
+   "declared_name": "obi/code-c527-boundary-coaching-log-compliance-audit",
+   "declared_short": "code-c527-boundary-coaching-log-compliance-audit",
+   "folder": "code-c527-boundary-coaching-log-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "058b67018d477e6f8f04a4e34ed14dd2a3b28b5e23693433bdd32f27b59fff75",
+   "size_bytes": 9479675,
+   "updated": "2026-09-11T23:57:17.281Z"
   },
   {
    "connector_provenance": null,
@@ -3931,15 +3945,15 @@
    "updated": "2026-09-10T21:33:36.468Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g804-vascular-biomarker-figure-prep-audit-hard-v10am",
    "declared_short": "gen-g804-vascular-biomarker-figure-prep-audit-hard-v10am",
-   "folder": "gen-g804-vascular-biomarker-figure-prep-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g804-vascular-biomarker-figure-prep-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "bdb6ca981aec31f9a41fcaed88cc65fd6ad907e93641189b225c09c16e753831",
    "size_bytes": 7411511,
    "updated": "2026-09-11T23:30:46.578Z"
