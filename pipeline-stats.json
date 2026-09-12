@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-12T09:07:03+00:00",
+ "generated_at": "2026-09-12T10:07:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 449,
-  "scanned": 449,
+  "task_folders": 450,
+  "scanned": 450,
   "connector": 124,
-  "non_connector": 325,
+  "non_connector": 326,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 126,
   "code": 118,
   "fin": 15,
-  "gen": 138,
+  "gen": 139,
   "health": 29,
   "law": 23
  },
  "name_prefix": {
   "harbor": 128,
-  "obi": 321
+  "obi": 322
  },
  "connector_services": {
   "google-drive-gym": 80,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263162
+  "new_archives_read": 1,
+  "approx_bytes_read": 131515
  },
  "errors": [],
  "tasks": [
@@ -2399,15 +2399,15 @@
    "updated": "2026-09-10T20:38:34.003Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-s1-a5-curriculum-code-insertion",
    "declared_short": "edu-s1-a5-curriculum-code-insertion",
-   "folder": "edu-s1-a5-curriculum-code-insertion",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-s1-a5-curriculum-code-insertion",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "533904ab264ab55b7b3d7277f1624fb582b3add36905ec144dd73d6dc3a6f04d",
    "size_bytes": 6301457,
    "updated": "2026-09-12T08:37:39.890Z"
@@ -3511,6 +3511,20 @@
    "updated": "2026-09-06T20:47:24.340Z"
   },
   {
+   "declared_name": "obi/gen-g534-map-flag-icon-production-audit",
+   "declared_short": "gen-g534-map-flag-icon-production-audit",
+   "folder": "gen-g534-map-flag-icon-production-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "b848b3f9ac5fd841c7346b7e6b0f221144c5c813e5d39027d6e70200fa167fc6",
+   "size_bytes": 9757481,
+   "updated": "2026-09-12T09:27:47.632Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g541-dispersed-camping-permit-audit",
@@ -3777,15 +3791,15 @@
    "updated": "2026-09-08T07:49:59.144Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g715-staff-directory-send-eligibility-audit",
    "declared_short": "gen-g715-staff-directory-send-eligibility-audit",
-   "folder": "gen-g715-staff-directory-send-eligibility-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g715-staff-directory-send-eligibility-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c02bca829717a09388192b6d35a94e31270c10b17f65b83ea7e6cea719747cd1",
    "size_bytes": 5553391,
    "updated": "2026-09-12T09:04:54.632Z"
