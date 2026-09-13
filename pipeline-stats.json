@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-13T13:37:03+00:00",
+ "generated_at": "2026-09-13T14:07:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 527,
-  "scanned": 527,
+  "task_folders": 530,
+  "scanned": 530,
   "connector": 147,
-  "non_connector": 380,
+  "non_connector": 383,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 153,
-  "code": 132,
+  "code": 133,
   "fin": 20,
-  "gen": 166,
+  "gen": 168,
   "health": 30,
   "law": 26
  },
  "name_prefix": {
   "harbor": 151,
-  "obi": 376
+  "obi": 379
  },
  "connector_services": {
   "google-drive-gym": 100,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 5,
-  "approx_bytes_read": 658036
+  "new_archives_read": 3,
+  "approx_bytes_read": 394771
  },
  "errors": [],
  "tasks": [
@@ -1217,6 +1217,20 @@
    "sha256": "b135e6130dda2cd7f8d49b2c7e57cabccb3b8a0923de598ff44bf5368a488de3",
    "size_bytes": 8088944,
    "updated": "2026-09-12T17:34:38.188Z"
+  },
+  {
+   "declared_name": "obi/code-c371-officiating-assignment-payout-audit",
+   "declared_short": "code-c371-officiating-assignment-payout-audit",
+   "folder": "code-c371-officiating-assignment-payout-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "89041bd8108a07cc4dcdeee64962c86c373cea9d99f4ba9a140e2f7c5e34d23c",
+   "size_bytes": 5024522,
+   "updated": "2026-09-13T13:58:52.242Z"
   },
   {
    "connector_provenance": null,
@@ -3393,6 +3407,20 @@
    "updated": "2026-09-11T09:14:13.431Z"
   },
   {
+   "declared_name": "obi/gen-g1111-ebp-source-pool-inclusion-audit",
+   "declared_short": "gen-g1111-ebp-source-pool-inclusion-audit",
+   "folder": "gen-g1111-ebp-source-pool-inclusion-audit-ebp-cal-1-qc",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "f598595af9a2f079be30da6536ac621064af5558d6b9b32b3ee6d9968904f65b",
+   "size_bytes": 15172408,
+   "updated": "2026-09-13T13:56:07.448Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g1113-homeschool-geography-sequencing-audit",
@@ -3419,6 +3447,20 @@
    "sha256": "af682a3f5a936b526a6052048544667d4c11a7e02e66f1e42cc2a699e21ded75",
    "size_bytes": 5625949,
    "updated": "2026-09-05T21:02:56.141Z"
+  },
+  {
+   "declared_name": "obi/gen-g112-inventory-stockout-safety-audit",
+   "declared_short": "gen-g112-inventory-stockout-safety-audit",
+   "folder": "gen-g112-inventory-stockout-safety-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "b3514e6f4337eb7a264ac4080f663b316ba868fbe7e9ef40c7dcb543a66999bc",
+   "size_bytes": 17386863,
+   "updated": "2026-09-13T13:46:05.516Z"
   },
   {
    "connector_provenance": null,
@@ -3757,15 +3799,15 @@
    "updated": "2026-09-12T16:01:35.637Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g190-rent-roll-lease-abstract-reconcile",
    "declared_short": "gen-g190-rent-roll-lease-abstract-reconcile",
-   "folder": "gen-g190-rent-roll-lease-abstract-reconcile_fixed",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g190-rent-roll-lease-abstract-reconcile_fixed",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b11b5354e579ce9b06379666e20fe58b0177109a18467a99670adb47331fd244",
    "size_bytes": 7637451,
    "updated": "2026-09-13T13:16:19.124Z"
@@ -3911,15 +3953,15 @@
    "updated": "2026-09-05T18:39:40.052Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g279-alaska-trip-itinerary-audit",
    "declared_short": "gen-g279-alaska-trip-itinerary-audit",
-   "folder": "gen-g279-alaska-trip-itinerary-audit-20260912T153730Z-1-001",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g279-alaska-trip-itinerary-audit-20260912T153730Z-1-001",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "15eb13b2658547d7a4e5de254c93e29cba758f727fe11ab1f3d52760d170c3e3",
    "size_bytes": 6565625,
    "updated": "2026-09-13T13:16:52.457Z"
@@ -4625,15 +4667,15 @@
    "updated": "2026-09-10T19:11:44.804Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g658-treasury-wire-transfer-authorization-audit-hard-v20",
    "declared_short": "gen-g658-treasury-wire-transfer-authorization-audit-hard-v20",
-   "folder": "gen-g658-treasury-wire-transfer-authorization-audit-hard-v20-DELIVERY",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g658-treasury-wire-transfer-authorization-audit-hard-v20-DELIVERY",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b21e258d3eb6525fdf283b043e5eaa463f99b7f9f0ed0e1feefde2eecaafef5f",
    "size_bytes": 5325190,
    "updated": "2026-09-13T13:29:03.711Z"
@@ -4863,15 +4905,15 @@
    "updated": "2026-09-12T03:55:59.047Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g752-golf-enclosure-kit-qa-audit",
    "declared_short": "gen-g752-golf-enclosure-kit-qa-audit",
-   "folder": "gen-g752-golf-enclosure-kit-qa-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g752-golf-enclosure-kit-qa-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "555d72a14869cfbba8cfd9c94ee1359b37b93c2d26fced46d1a0f775e8fb918e",
    "size_bytes": 7168714,
    "updated": "2026-09-13T13:08:16.400Z"
@@ -7089,15 +7131,15 @@
    "updated": "2026-09-09T04:55:21.017Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b36-l10-fictitious-name-filing-status",
    "declared_short": "law-b36-l10-fictitious-name-filing-status",
-   "folder": "law-b36-l10-fictitious-name-filing-status",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b36-l10-fictitious-name-filing-status",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b156ad7b74c6e0c18168a6647c8db3054795eac8a2960924b0628b3915e9968d",
    "size_bytes": 5295738,
    "updated": "2026-09-13T13:12:30.899Z"
