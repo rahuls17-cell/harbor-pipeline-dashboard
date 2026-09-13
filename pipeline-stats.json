@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-13T17:37:05+00:00",
+ "generated_at": "2026-09-13T18:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 537,
-  "scanned": 537,
+  "task_folders": 538,
+  "scanned": 538,
   "connector": 148,
-  "non_connector": 389,
+  "non_connector": 390,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 154,
-  "code": 134,
+  "code": 135,
   "fin": 20,
   "gen": 173,
   "health": 30,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 152,
-  "obi": 385
+  "obi": 386
  },
  "connector_services": {
   "google-drive-gym": 101,
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131554
+  "approx_bytes_read": 131426
  },
  "errors": [],
  "tasks": [
@@ -2367,6 +2367,20 @@
    "updated": "2026-09-12T19:08:51.230Z"
   },
   {
+   "declared_name": "obi/code-c780-calendar-recovery-reconciliation",
+   "declared_short": "code-c780-calendar-recovery-reconciliation",
+   "folder": "code-c780-calendar-recovery-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "d326c487c81952b0fb1d951eed0f3aa39653775668c9cf6a96c1d1606169390c",
+   "size_bytes": 7874734,
+   "updated": "2026-09-13T17:37:28.610Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c784-disc-duplication-job-audit",
@@ -3841,15 +3855,15 @@
    "updated": "2026-09-08T10:48:33.332Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g208-investor-newsletter-audit",
    "declared_short": "gen-g208-investor-newsletter-audit",
-   "folder": "gen-g208-investor-newsletter-audit-v1",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g208-investor-newsletter-audit-v1",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6505a00c4134b9cfa005c5cfa5d5ed45d49596b9b857fb35c396904dc1ae990b",
    "size_bytes": 5353195,
    "updated": "2026-09-13T17:13:30.628Z"
