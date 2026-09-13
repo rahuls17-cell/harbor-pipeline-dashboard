@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-13T19:07:03+00:00",
+ "generated_at": "2026-09-13T19:37:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 541,
-  "scanned": 541,
-  "connector": 149,
+  "task_folders": 542,
+  "scanned": 542,
+  "connector": 150,
   "non_connector": 392,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 73,
-  "synthetic": 28,
+  "synthetic": 29,
   "real": 48
  },
  "domain": {
-  "unnamed": 155,
+  "unnamed": 156,
   "code": 135,
   "fin": 21,
   "gen": 173,
@@ -22,7 +22,7 @@
   "law": 27
  },
  "name_prefix": {
-  "harbor": 153,
+  "harbor": 154,
   "obi": 388
  },
  "connector_services": {
@@ -33,7 +33,7 @@
   "freshdesk-gym": 84,
   "jira-gym": 84,
   "zeta3-sql-gym": 84,
-  "github-gym": 7,
+  "github-gym": 8,
   "outlook-gym": 7,
   "email-calendar-gym": 7,
   "notion-gym": 6,
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135208
+  "approx_bytes_read": 133651
  },
  "errors": [],
  "tasks": [
@@ -211,17 +211,17 @@
    "updated": "2026-09-10T12:18:25.696Z"
   },
   {
-   "declared_name": "harbor/answers-that-never-came-back",
-   "declared_short": "answers-that-never-came-back",
-   "folder": "answers-that-never-came-back",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "google-drive-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/answers-that-never-came-back",
+   "declared_short": "answers-that-never-came-back",
    "domain": null,
+   "folder": "answers-that-never-came-back",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e2603567912a7d34aeca368c488a7279c6f71bb95e0f56c349948f6c8a40dcc9",
    "size_bytes": 7583400,
    "updated": "2026-09-13T19:02:27.834Z"
@@ -7893,6 +7893,22 @@
    "sha256": "53413409824cbac24bc9f7d376a5f3265a19ec1ad0cc195800aed2dd7eb48e4c",
    "size_bytes": 8019994,
    "updated": "2026-09-09T20:32:48.327Z"
+  },
+  {
+   "declared_name": "harbor/review-board-label-state-reconciliation",
+   "declared_short": "review-board-label-state-reconciliation",
+   "folder": "review-board-label-state-reconciliation-20260821T123303Z-1-001",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "b91aeafe8a30debd6c3b5b9d65e9fa5453ceafbf8596eb7f12344249aca34d3e",
+   "size_bytes": 6560619,
+   "updated": "2026-09-13T19:25:18.912Z"
   },
   {
    "connector_provenance": "real",
