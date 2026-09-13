@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-13T01:37:03+00:00",
+ "generated_at": "2026-09-13T02:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 485,
-  "scanned": 485,
+  "task_folders": 487,
+  "scanned": 487,
   "connector": 132,
-  "non_connector": 353,
+  "non_connector": 355,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 137,
   "code": 124,
   "fin": 18,
-  "gen": 154,
+  "gen": 156,
   "health": 29,
   "law": 23
  },
  "name_prefix": {
   "harbor": 136,
-  "obi": 349
+  "obi": 351
  },
  "connector_services": {
   "google-drive-gym": 87,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 526114
+  "new_archives_read": 2,
+  "approx_bytes_read": 263180
  },
  "errors": [],
  "tasks": [
@@ -2605,15 +2605,15 @@
    "updated": "2026-09-12T13:57:25.757Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-s2-a5-workshop-running-order-rebuild",
    "declared_short": "edu-s2-a5-workshop-running-order-rebuild",
-   "folder": "edu-s2-a5-workshop-running-order-rebuild",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-s2-a5-workshop-running-order-rebuild",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b5a681dba6a12ffbeae9ae3eef87d7540f8930d029fc5f6fa8583f5ba546cd26",
    "size_bytes": 8479224,
    "updated": "2026-09-13T01:15:44.998Z"
@@ -2765,15 +2765,15 @@
    "updated": "2026-09-12T17:34:36.641Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b41-f11-earnings-vs-consensus-register",
    "declared_short": "fin-b41-f11-earnings-vs-consensus-register",
-   "folder": "fin-b41-f11-earnings-vs-consensus-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b41-f11-earnings-vs-consensus-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6b45f152b9ea141f6cfe077043b5480ebaa8e2b4dbe9266c5148f620f91284be",
    "size_bytes": 5925066,
    "updated": "2026-09-13T01:21:27.903Z"
@@ -3395,6 +3395,20 @@
    "updated": "2026-09-10T14:47:36.572Z"
   },
   {
+   "declared_name": "obi/gen-g236-book-relayout-audit",
+   "declared_short": "gen-g236-book-relayout-audit",
+   "folder": "gen-g236-book-relayout-audit-review-resolved-20260913-033937",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "2dcfbf9eb0b04a8b0e55054be592ff51d1f6b7cfc5deb9f967701cd7adff5ab5",
+   "size_bytes": 12114438,
+   "updated": "2026-09-13T01:46:49.061Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g244-story-timeline-consistency-audit",
@@ -3647,15 +3661,15 @@
    "updated": "2026-09-11T13:24:15.822Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g357-fragrance-ingredient-substitution-audit",
    "declared_short": "gen-g357-fragrance-ingredient-substitution-audit",
-   "folder": "gen-g357-fragrance-ingredient-substitution-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g357-fragrance-ingredient-substitution-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "295d738cfd6a3ca6f00e1674b2d3bb67bdb2a42cb998adddb211572f7dc96d82",
    "size_bytes": 12453084,
    "updated": "2026-09-13T01:36:37.764Z"
@@ -3675,15 +3689,15 @@
    "updated": "2026-09-09T13:53:37.842Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g363-recliner-fit-eligibility-audit",
    "declared_short": "gen-g363-recliner-fit-eligibility-audit",
-   "folder": "gen-g363-recliner-fit-eligibility-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g363-recliner-fit-eligibility-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8c02d18f4dae4c62bd630815a946216d20844813714ba857c96d68b56dff4ebf",
    "size_bytes": 5133092,
    "updated": "2026-09-13T01:21:24.003Z"
@@ -3757,6 +3771,20 @@
    "sha256": "2c8df1cbd489e526125c03a2071f48909387f98d0b4f939bd5a77f0a6302f870",
    "size_bytes": 7648476,
    "updated": "2026-09-10T10:23:28.163Z"
+  },
+  {
+   "declared_name": "obi/gen-g435-home-improvement-payment-milestone-audit",
+   "declared_short": "gen-g435-home-improvement-payment-milestone-audit",
+   "folder": "gen-g435-home-improvement-payment-milestone-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "eb9cf1dfbf5c61b9da77f4142e17cb0f4b7cbcfd659d73b6be3453d09dba2378",
+   "size_bytes": 4432975,
+   "updated": "2026-09-13T01:46:06.550Z"
   },
   {
    "connector_provenance": null,
