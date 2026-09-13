@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-13T06:07:02+00:00",
+ "generated_at": "2026-09-13T06:37:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 503,
-  "scanned": 503,
+  "task_folders": 504,
+  "scanned": 504,
   "connector": 143,
-  "non_connector": 360,
+  "non_connector": 361,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 149,
-  "code": 126,
+  "code": 127,
   "fin": 18,
   "gen": 158,
   "health": 29,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 147,
-  "obi": 356
+  "obi": 357
  },
  "connector_services": {
   "google-drive-gym": 96,
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131623
+  "approx_bytes_read": 131553
  },
  "errors": [],
  "tasks": [
@@ -1705,6 +1705,20 @@
    "sha256": "35f2a304123875ca05a7d74e89def93be4f3ac0e603eb40fe9b4af4fc8e658bb",
    "size_bytes": 8943446,
    "updated": "2026-09-09T15:39:29.232Z"
+  },
+  {
+   "declared_name": "obi/code-c512-design-module-control-coverage-audit",
+   "declared_short": "code-c512-design-module-control-coverage-audit",
+   "folder": "code-c512-design-module-control-coverage-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "0322ac5fafffd8779b54c02e8f2d2d40bc7648b43777b453af6f5918da833e47",
+   "size_bytes": 7135184,
+   "updated": "2026-09-13T06:08:26.445Z"
   },
   {
    "connector_provenance": null,
@@ -3657,15 +3671,15 @@
    "updated": "2026-09-06T01:00:38.933Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g256-study-material-audit",
    "declared_short": "gen-g256-study-material-audit",
-   "folder": "gen-g256-study-material-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g256-study-material-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2e41388b746fffd942967c8c1d8db61cd3fb20134fcb7587a9496301d8f9f62c",
    "size_bytes": 13931159,
    "updated": "2026-09-13T05:43:59.624Z"
