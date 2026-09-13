@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-13T04:37:07+00:00",
+ "generated_at": "2026-09-13T05:37:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 501,
-  "scanned": 501,
-  "connector": 142,
+  "task_folders": 502,
+  "scanned": 502,
+  "connector": 143,
   "non_connector": 359,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 69,
+  "unknown": 70,
   "synthetic": 27,
   "real": 46
  },
  "domain": {
-  "unnamed": 148,
+  "unnamed": 149,
   "code": 126,
   "fin": 18,
   "gen": 157,
@@ -22,17 +22,17 @@
   "law": 23
  },
  "name_prefix": {
-  "harbor": 146,
+  "harbor": 147,
   "obi": 355
  },
  "connector_services": {
-  "google-drive-gym": 95,
-  "slack-gym": 90,
-  "confluence-gym": 79,
-  "email-gym": 79,
-  "freshdesk-gym": 79,
-  "jira-gym": 79,
-  "zeta3-sql-gym": 79,
+  "google-drive-gym": 96,
+  "slack-gym": 91,
+  "confluence-gym": 80,
+  "email-gym": 80,
+  "freshdesk-gym": 80,
+  "jira-gym": 80,
+  "zeta3-sql-gym": 80,
   "github-gym": 7,
   "outlook-gym": 7,
   "email-calendar-gym": 7,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 10,
-  "approx_bytes_read": 1340803
+  "new_archives_read": 1,
+  "approx_bytes_read": 133541
  },
  "errors": [],
  "tasks": [
@@ -363,11 +363,7 @@
    "updated": "2026-09-11T23:52:12.862Z"
   },
   {
-   "declared_name": "harbor/automation-disbursement-priority-ordering-bills-goals-linked-accounts",
-   "declared_short": "automation-disbursement-priority-ordering-bills-goals-linked-accounts",
-   "folder": "automation-disbursement-priority-ordering-bills--80ecdf-v2",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -377,19 +373,19 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/automation-disbursement-priority-ordering-bills-goals-linked-accounts",
+   "declared_short": "automation-disbursement-priority-ordering-bills-goals-linked-accounts",
    "domain": null,
+   "folder": "automation-disbursement-priority-ordering-bills--80ecdf-v2",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d620cd674c866c445a05966ce49b74017a2971602899fb22f6799ed0c8ccea5b",
    "size_bytes": 16266392,
    "updated": "2026-09-13T04:16:24.903Z"
   },
   {
-   "declared_name": "harbor/hard-regcc-01-reg-cc-large-deposit-exception-actual-funds-availability",
-   "declared_short": "hard-regcc-01-reg-cc-large-deposit-exception-actual-funds-availability",
-   "folder": "batch3__hard-regcc-01-reg-cc-large-deposit-exception-actual-funds-availability-v3",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -399,19 +395,19 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/hard-regcc-01-reg-cc-large-deposit-exception-actual-funds-availability",
+   "declared_short": "hard-regcc-01-reg-cc-large-deposit-exception-actual-funds-availability",
    "domain": null,
+   "folder": "batch3__hard-regcc-01-reg-cc-large-deposit-exception-actual-funds-availability-v3",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "41c2fe04a638b1dd6936c7c326e4e1da619058ebe7283d753fe7804302878b22",
    "size_bytes": 13044086,
    "updated": "2026-09-13T04:10:20.855Z"
   },
   {
-   "declared_name": "harbor/hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
-   "declared_short": "hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
-   "folder": "batch3__hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date-v2",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -421,9 +417,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
+   "declared_short": "hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
    "domain": null,
+   "folder": "batch3__hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date-v2",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "935ebb1af316f9ee795df8cbd097ced8544cb068ab27ebc22ebfbeadf5f6d0b6",
    "size_bytes": 8521201,
    "updated": "2026-09-13T04:07:19.396Z"
@@ -451,11 +451,7 @@
    "updated": "2026-09-10T03:35:43.838Z"
   },
   {
-   "declared_name": "harbor/bill-reserve-window-bounded-1-31-days",
-   "declared_short": "bill-reserve-window-bounded-1-31-days",
-   "folder": "bill-reserve-window-bounded-1-31-days-a20302-v1",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -465,19 +461,19 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/bill-reserve-window-bounded-1-31-days",
+   "declared_short": "bill-reserve-window-bounded-1-31-days",
    "domain": null,
+   "folder": "bill-reserve-window-bounded-1-31-days-a20302-v1",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8fc62b18c2944e252c7ddaa00f7d09440b0871b896fcf1c960f8b49fd55e8dd4",
    "size_bytes": 16331273,
    "updated": "2026-09-13T04:14:39.318Z"
   },
   {
-   "declared_name": "harbor/both-source-j-and-destination-p-automations-must-process-on-posting-day",
-   "declared_short": "both-source-j-and-destination-p-automations-must-process-on-posting-day",
-   "folder": "both-source-j-and-destination-p-automations-must-754aba-v3",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -487,9 +483,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/both-source-j-and-destination-p-automations-must-process-on-posting-day",
+   "declared_short": "both-source-j-and-destination-p-automations-must-process-on-posting-day",
    "domain": null,
+   "folder": "both-source-j-and-destination-p-automations-must-754aba-v3",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6b1997ff54c7656e6e0ee9a9f7758e24095af961c5bc5f0c59f1928f6a8d5073",
    "size_bytes": 15924078,
    "updated": "2026-09-13T04:16:32.177Z"
@@ -579,11 +579,7 @@
    "updated": "2026-09-09T04:36:46.374Z"
   },
   {
-   "declared_name": "harbor/classify-daily-card-limit-tier-for-card-27930-and-confirm-piermont-max",
-   "declared_short": "classify-daily-card-limit-tier-for-card-27930-and-confirm-piermont-max",
-   "folder": "classify-daily-card-limit-tier-for-card-27930-and-confirm-piermont-max-20260820T141022Z-1-001",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -593,9 +589,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/classify-daily-card-limit-tier-for-card-27930-and-confirm-piermont-max",
+   "declared_short": "classify-daily-card-limit-tier-for-card-27930-and-confirm-piermont-max",
    "domain": null,
+   "folder": "classify-daily-card-limit-tier-for-card-27930-and-confirm-piermont-max-20260820T141022Z-1-001",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "85f8a5cad35c600b50837fc53110db999407d2d06d0c253c59c85af1f0cd5774",
    "size_bytes": 6581675,
    "updated": "2026-09-13T04:17:00.613Z"
@@ -2343,11 +2343,7 @@
    "updated": "2026-09-11T00:10:01.487Z"
   },
   {
-   "declared_name": "harbor/daily-ach-debit-pull-batch-report-2024-08-30-sameday-vs-standard-retur",
-   "declared_short": "daily-ach-debit-pull-batch-report-2024-08-30-sameday-vs-standard-retur",
-   "folder": "daily-ach-debit-pull-batch-report-2024-08-30-sameday-vs-standard-retur",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -2357,9 +2353,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/daily-ach-debit-pull-batch-report-2024-08-30-sameday-vs-standard-retur",
+   "declared_short": "daily-ach-debit-pull-batch-report-2024-08-30-sameday-vs-standard-retur",
    "domain": null,
+   "folder": "daily-ach-debit-pull-batch-report-2024-08-30-sameday-vs-standard-retur",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a3ea9caa55f14ed34e907ab6745404d5d522bea52059bf927b256703f868fa3f",
    "size_bytes": 8054991,
    "updated": "2026-09-13T04:12:35.381Z"
@@ -2409,11 +2409,7 @@
    "updated": "2026-09-12T17:34:35.760Z"
   },
   {
-   "declared_name": "harbor/determine-effective-daily-check-issue-ceiling-for-account-19765",
-   "declared_short": "determine-effective-daily-check-issue-ceiling-for-account-19765",
-   "folder": "determine-effective-daily-check-issue-ceiling-for-account-19765",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -2423,9 +2419,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/determine-effective-daily-check-issue-ceiling-for-account-19765",
+   "declared_short": "determine-effective-daily-check-issue-ceiling-for-account-19765",
    "domain": null,
+   "folder": "determine-effective-daily-check-issue-ceiling-for-account-19765",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ba8c66621bf2fab21b2d2d54c9db481b224d00ed6f09e30d0fdb831da0f4f085",
    "size_bytes": 8740900,
    "updated": "2026-09-13T04:15:52.146Z"
@@ -2909,6 +2909,28 @@
    "sha256": "88dcc6de3b1d235d5bd5d40f073d53a5591d642bfd20ff8676af255a7200e6ec",
    "size_bytes": 18215978,
    "updated": "2026-09-05T22:15:41.160Z"
+  },
+  {
+   "declared_name": "harbor/explain-account-lock-after-failed-transfer-on-account-2722",
+   "declared_short": "explain-account-lock-after-failed-transfer-on-account-2722",
+   "folder": "explain-account-lock-after-failed-transfer-on-account-2722",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "9e05bfd0eac08da37e8a68994de5c4464893c8e166653aeb7697ef705292c8d2",
+   "size_bytes": 12286694,
+   "updated": "2026-09-13T05:22:59.075Z"
   },
   {
    "connector_provenance": "unknown",
@@ -3943,15 +3965,15 @@
    "updated": "2026-09-13T02:47:01.458Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g390-gift-travel-disclosure-audit",
    "declared_short": "gen-g390-gift-travel-disclosure-audit",
-   "folder": "gen-g390-gift-travel-disclosure-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g390-gift-travel-disclosure-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7320f6f711728dfa6a375d060be0273c38cf9729a85dd64fe4b72a37815b7a34",
    "size_bytes": 3604981,
    "updated": "2026-09-13T04:29:28.248Z"
@@ -7671,11 +7693,7 @@
    "updated": "2026-09-09T19:11:28.889Z"
   },
   {
-   "declared_name": "harbor/verify-mcdonald-s-19-38-overcharge-dispute-outcome-for-customer-50567",
-   "declared_short": "verify-mcdonald-s-19-38-overcharge-dispute-outcome-for-customer-50567",
-   "folder": "verify-mcdonald-s-19-38-overcharge-dispute-outcome-for-customer-50567",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -7685,9 +7703,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/verify-mcdonald-s-19-38-overcharge-dispute-outcome-for-customer-50567",
+   "declared_short": "verify-mcdonald-s-19-38-overcharge-dispute-outcome-for-customer-50567",
    "domain": null,
+   "folder": "verify-mcdonald-s-19-38-overcharge-dispute-outcome-for-customer-50567",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b475bc6d2d6af4ac64d7938301c6f1a543b4d0b767fb0fa0988d6de02dad14e0",
    "size_bytes": 12260306,
    "updated": "2026-09-13T04:12:07.505Z"
