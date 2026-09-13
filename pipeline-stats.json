@@ -1,32 +1,32 @@
 {
- "generated_at": "2026-09-13T12:07:03+00:00",
+ "generated_at": "2026-09-13T13:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 519,
-  "scanned": 519,
-  "connector": 146,
-  "non_connector": 373,
+  "task_folders": 522,
+  "scanned": 522,
+  "connector": 147,
+  "non_connector": 375,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 72,
   "synthetic": 27,
-  "real": 47
+  "real": 48
  },
  "domain": {
-  "unnamed": 152,
-  "code": 131,
+  "unnamed": 153,
+  "code": 132,
   "fin": 20,
   "gen": 162,
   "health": 30,
-  "law": 24
+  "law": 25
  },
  "name_prefix": {
-  "harbor": 150,
-  "obi": 369
+  "harbor": 151,
+  "obi": 371
  },
  "connector_services": {
-  "google-drive-gym": 99,
+  "google-drive-gym": 100,
   "slack-gym": 94,
   "confluence-gym": 83,
   "email-gym": 83,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131518
+  "new_archives_read": 4,
+  "approx_bytes_read": 527941
  },
  "errors": [],
  "tasks": [
@@ -785,6 +785,20 @@
    "updated": "2026-09-05T21:27:25.569Z"
   },
   {
+   "declared_name": "obi/code-c227-table-bloat-maintenance-audit",
+   "declared_short": "code-c227-table-bloat-maintenance-audit",
+   "folder": "code-c227-table-bloat-maintenance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "9bb150064defada5e0afe23a95c36d0470d0854e4fb1f8c512b2b36d7e2a8a62",
+   "size_bytes": 4373759,
+   "updated": "2026-09-13T12:48:26.413Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c230-dr-restore-test-cadence-audit",
@@ -939,15 +953,15 @@
    "updated": "2026-09-11T03:38:17.750Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c281-ai-release-digest-run-audit",
    "declared_short": "code-c281-ai-release-digest-run-audit",
-   "folder": "code-c281-ai-release-digest-run-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c281-ai-release-digest-run-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9b424f3d98fb4a1b710a8885ef609078deab380ba8a5714794fa156f95d4a915",
    "size_bytes": 3940099,
    "updated": "2026-09-13T11:57:15.891Z"
@@ -1541,18 +1555,18 @@
    "updated": "2026-09-06T17:27:10.691Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/code-c471-nft-wallet-holder-of-record-audit",
    "declared_short": "code-c471-nft-wallet-holder-of-record-audit",
-   "domain": "code",
    "folder": "code-c471-nft-wallet-holder-of-record-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "a2f94a5f06010f49dc1c67459191bccb8b5bde5cb85532d27ad0d4feb255a41e",
-   "size_bytes": 10216833,
-   "updated": "2026-09-09T04:23:10.103Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "d1179559f4c7bee06419f981e5b86cb32a31f029e8a0a6533cf0ff728eb08d3d",
+   "size_bytes": 10292421,
+   "updated": "2026-09-13T12:54:44.904Z"
   },
   {
    "connector_provenance": null,
@@ -7019,6 +7033,20 @@
    "updated": "2026-09-09T04:55:21.017Z"
   },
   {
+   "declared_name": "obi/law-b42-l14-tasting-event-permit-filing-plan",
+   "declared_short": "law-b42-l14-tasting-event-permit-filing-plan",
+   "folder": "law-b42-l14-tasting-event-permit-filing-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "da9d23deb58998d286a1345f4b1393f43f3073473f0a3802c947d2d015463b0f",
+   "size_bytes": 3465044,
+   "updated": "2026-09-13T13:05:44.536Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-l12-filing-deadline-tolling",
@@ -7339,6 +7367,22 @@
    "sha256": "ea85d9a5d1eada55a4eccb77148d61310bf3bd19fb8cd69040b4042e0f5cad25",
    "size_bytes": 6745757,
    "updated": "2026-09-06T17:22:25.364Z"
+  },
+  {
+   "declared_name": "harbor/lookalike-copies-i-can-actually-hand-over",
+   "declared_short": "lookalike-copies-i-can-actually-hand-over",
+   "folder": "lookalike-copies-i-can-actually-hand-over-v7",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "google-drive-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "56e891199dd94df3efa39d12a6eaa55f92b6bb01a3d1e0de1fc162d66f2fc92e",
+   "size_bytes": 6176159,
+   "updated": "2026-09-13T13:03:48.151Z"
   },
   {
    "connector_provenance": "real",
