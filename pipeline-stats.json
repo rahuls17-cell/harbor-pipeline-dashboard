@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-13T18:37:03+00:00",
+ "generated_at": "2026-09-13T19:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 540,
-  "scanned": 540,
-  "connector": 148,
+  "task_folders": 541,
+  "scanned": 541,
+  "connector": 149,
   "non_connector": 392,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 73,
-  "synthetic": 27,
+  "synthetic": 28,
   "real": 48
  },
  "domain": {
-  "unnamed": 154,
+  "unnamed": 155,
   "code": 135,
   "fin": 21,
   "gen": 173,
@@ -22,11 +22,11 @@
   "law": 27
  },
  "name_prefix": {
-  "harbor": 152,
+  "harbor": 153,
   "obi": 388
  },
  "connector_services": {
-  "google-drive-gym": 101,
+  "google-drive-gym": 102,
   "slack-gym": 95,
   "confluence-gym": 84,
   "email-gym": 84,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263166
+  "new_archives_read": 1,
+  "approx_bytes_read": 135208
  },
  "errors": [],
  "tasks": [
@@ -209,6 +209,22 @@
    "sha256": "4a02cff879a51bab2d46ec8c42836fab5d4d8541275f865acf4dc6b7b4f4c682",
    "size_bytes": 4444515,
    "updated": "2026-09-10T12:18:25.696Z"
+  },
+  {
+   "declared_name": "harbor/answers-that-never-came-back",
+   "declared_short": "answers-that-never-came-back",
+   "folder": "answers-that-never-came-back",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "google-drive-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "e2603567912a7d34aeca368c488a7279c6f71bb95e0f56c349948f6c8a40dcc9",
+   "size_bytes": 7583400,
+   "updated": "2026-09-13T19:02:27.834Z"
   },
   {
    "connector_provenance": "real",
@@ -3197,15 +3213,15 @@
    "updated": "2026-09-13T08:30:38.086Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b46-a4-pro-forma-revenue-audit",
    "declared_short": "fin-b46-a4-pro-forma-revenue-audit",
-   "folder": "fin-b46-a4-pro-forma-revenue-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b46-a4-pro-forma-revenue-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ab3fc71af4f8175600a30d166e7981b5ddf3d78866d0caf6b60683f2df5e1f16",
    "size_bytes": 5509664,
    "updated": "2026-09-13T18:09:58.656Z"
@@ -7257,15 +7273,15 @@
    "updated": "2026-09-13T13:05:44.536Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b42-l15-ssi-to-dac-medicaid-continuity-qa",
    "declared_short": "law-b42-l15-ssi-to-dac-medicaid-continuity-qa",
-   "folder": "law-b42-l15-ssi-to-dac-medicaid-continuity-qa",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b42-l15-ssi-to-dac-medicaid-continuity-qa",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "528d133a810dcfbf99f709d1675d3b9441f58459061fa270828185b32284a384",
    "size_bytes": 6102404,
    "updated": "2026-09-13T18:28:44.963Z"
