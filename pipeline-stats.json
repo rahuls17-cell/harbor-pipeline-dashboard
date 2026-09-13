@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-13T13:07:03+00:00",
+ "generated_at": "2026-09-13T13:37:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 522,
-  "scanned": 522,
+  "task_folders": 527,
+  "scanned": 527,
   "connector": 147,
-  "non_connector": 375,
+  "non_connector": 380,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 153,
   "code": 132,
   "fin": 20,
-  "gen": 162,
+  "gen": 166,
   "health": 30,
-  "law": 25
+  "law": 26
  },
  "name_prefix": {
   "harbor": 151,
-  "obi": 371
+  "obi": 376
  },
  "connector_services": {
   "google-drive-gym": 100,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 527941
+  "new_archives_read": 5,
+  "approx_bytes_read": 658036
  },
  "errors": [],
  "tasks": [
@@ -785,15 +785,15 @@
    "updated": "2026-09-05T21:27:25.569Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c227-table-bloat-maintenance-audit",
    "declared_short": "code-c227-table-bloat-maintenance-audit",
-   "folder": "code-c227-table-bloat-maintenance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c227-table-bloat-maintenance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9bb150064defada5e0afe23a95c36d0470d0854e4fb1f8c512b2b36d7e2a8a62",
    "size_bytes": 4373759,
    "updated": "2026-09-13T12:48:26.413Z"
@@ -1555,15 +1555,15 @@
    "updated": "2026-09-06T17:27:10.691Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c471-nft-wallet-holder-of-record-audit",
    "declared_short": "code-c471-nft-wallet-holder-of-record-audit",
-   "folder": "code-c471-nft-wallet-holder-of-record-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c471-nft-wallet-holder-of-record-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d1179559f4c7bee06419f981e5b86cb32a31f029e8a0a6533cf0ff728eb08d3d",
    "size_bytes": 10292421,
    "updated": "2026-09-13T12:54:44.904Z"
@@ -3757,6 +3757,20 @@
    "updated": "2026-09-12T16:01:35.637Z"
   },
   {
+   "declared_name": "obi/gen-g190-rent-roll-lease-abstract-reconcile",
+   "declared_short": "gen-g190-rent-roll-lease-abstract-reconcile",
+   "folder": "gen-g190-rent-roll-lease-abstract-reconcile_fixed",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "b11b5354e579ce9b06379666e20fe58b0177109a18467a99670adb47331fd244",
+   "size_bytes": 7637451,
+   "updated": "2026-09-13T13:16:19.124Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g191-edition-numbering-ap-audit",
@@ -3895,6 +3909,20 @@
    "sha256": "ab512b546e9fec832ebd2df01e9028fa563240e72eaa0160ca7ca97399939b77",
    "size_bytes": 5202738,
    "updated": "2026-09-05T18:39:40.052Z"
+  },
+  {
+   "declared_name": "obi/gen-g279-alaska-trip-itinerary-audit",
+   "declared_short": "gen-g279-alaska-trip-itinerary-audit",
+   "folder": "gen-g279-alaska-trip-itinerary-audit-20260912T153730Z-1-001",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "15eb13b2658547d7a4e5de254c93e29cba758f727fe11ab1f3d52760d170c3e3",
+   "size_bytes": 6565625,
+   "updated": "2026-09-13T13:16:52.457Z"
   },
   {
    "connector_provenance": null,
@@ -4597,6 +4625,20 @@
    "updated": "2026-09-10T19:11:44.804Z"
   },
   {
+   "declared_name": "obi/gen-g658-treasury-wire-transfer-authorization-audit-hard-v20",
+   "declared_short": "gen-g658-treasury-wire-transfer-authorization-audit-hard-v20",
+   "folder": "gen-g658-treasury-wire-transfer-authorization-audit-hard-v20-DELIVERY",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "b21e258d3eb6525fdf283b043e5eaa463f99b7f9f0ed0e1feefde2eecaafef5f",
+   "size_bytes": 5325190,
+   "updated": "2026-09-13T13:29:03.711Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g659-cabin-innovation-award-eligibility-audit",
@@ -4819,6 +4861,20 @@
    "sha256": "cc0d0aee3c09e129413a85970e95e57322148f0af9b9c19d4f292bd262e98007",
    "size_bytes": 41460941,
    "updated": "2026-09-12T03:55:59.047Z"
+  },
+  {
+   "declared_name": "obi/gen-g752-golf-enclosure-kit-qa-audit",
+   "declared_short": "gen-g752-golf-enclosure-kit-qa-audit",
+   "folder": "gen-g752-golf-enclosure-kit-qa-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "555d72a14869cfbba8cfd9c94ee1359b37b93c2d26fced46d1a0f775e8fb918e",
+   "size_bytes": 7168714,
+   "updated": "2026-09-13T13:08:16.400Z"
   },
   {
    "connector_provenance": null,
@@ -7033,15 +7089,29 @@
    "updated": "2026-09-09T04:55:21.017Z"
   },
   {
-   "declared_name": "obi/law-b42-l14-tasting-event-permit-filing-plan",
-   "declared_short": "law-b42-l14-tasting-event-permit-filing-plan",
-   "folder": "law-b42-l14-tasting-event-permit-filing-plan",
+   "declared_name": "obi/law-b36-l10-fictitious-name-filing-status",
+   "declared_short": "law-b36-l10-fictitious-name-filing-status",
+   "folder": "law-b36-l10-fictitious-name-filing-status",
    "prefix": "obi",
    "is_connector": false,
    "connector_services": [],
    "connector_provenance": null,
    "domain": "law",
    "image": null,
+   "sha256": "b156ad7b74c6e0c18168a6647c8db3054795eac8a2960924b0628b3915e9968d",
+   "size_bytes": 5295738,
+   "updated": "2026-09-13T13:12:30.899Z"
+  },
+  {
+   "connector_provenance": null,
+   "connector_services": [],
+   "declared_name": "obi/law-b42-l14-tasting-event-permit-filing-plan",
+   "declared_short": "law-b42-l14-tasting-event-permit-filing-plan",
+   "domain": "law",
+   "folder": "law-b42-l14-tasting-event-permit-filing-plan",
+   "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "da9d23deb58998d286a1345f4b1393f43f3073473f0a3802c947d2d015463b0f",
    "size_bytes": 3465044,
    "updated": "2026-09-13T13:05:44.536Z"
@@ -7369,17 +7439,17 @@
    "updated": "2026-09-06T17:22:25.364Z"
   },
   {
-   "declared_name": "harbor/lookalike-copies-i-can-actually-hand-over",
-   "declared_short": "lookalike-copies-i-can-actually-hand-over",
-   "folder": "lookalike-copies-i-can-actually-hand-over-v7",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "google-drive-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/lookalike-copies-i-can-actually-hand-over",
+   "declared_short": "lookalike-copies-i-can-actually-hand-over",
    "domain": null,
+   "folder": "lookalike-copies-i-can-actually-hand-over-v7",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "56e891199dd94df3efa39d12a6eaa55f92b6bb01a3d1e0de1fc162d66f2fc92e",
    "size_bytes": 6176159,
    "updated": "2026-09-13T13:03:48.151Z"
