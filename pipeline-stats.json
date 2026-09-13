@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-09-13T04:07:04+00:00",
+ "generated_at": "2026-09-13T04:37:07+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 492,
-  "scanned": 492,
-  "connector": 134,
-  "non_connector": 358,
+  "task_folders": 501,
+  "scanned": 501,
+  "connector": 142,
+  "non_connector": 359,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 62,
+  "unknown": 69,
   "synthetic": 27,
-  "real": 45
+  "real": 46
  },
  "domain": {
-  "unnamed": 140,
+  "unnamed": 148,
   "code": 126,
   "fin": 18,
-  "gen": 156,
+  "gen": 157,
   "health": 29,
   "law": 23
  },
  "name_prefix": {
-  "harbor": 138,
-  "obi": 354
+  "harbor": 146,
+  "obi": 355
  },
  "connector_services": {
-  "google-drive-gym": 87,
-  "slack-gym": 82,
-  "confluence-gym": 71,
-  "email-gym": 71,
-  "freshdesk-gym": 71,
-  "jira-gym": 71,
-  "zeta3-sql-gym": 71,
+  "google-drive-gym": 95,
+  "slack-gym": 90,
+  "confluence-gym": 79,
+  "email-gym": 79,
+  "freshdesk-gym": 79,
+  "jira-gym": 79,
+  "zeta3-sql-gym": 79,
   "github-gym": 7,
   "outlook-gym": 7,
   "email-calendar-gym": 7,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 268395
+  "new_archives_read": 10,
+  "approx_bytes_read": 1340803
  },
  "errors": [],
  "tasks": [
@@ -363,6 +363,72 @@
    "updated": "2026-09-11T23:52:12.862Z"
   },
   {
+   "declared_name": "harbor/automation-disbursement-priority-ordering-bills-goals-linked-accounts",
+   "declared_short": "automation-disbursement-priority-ordering-bills-goals-linked-accounts",
+   "folder": "automation-disbursement-priority-ordering-bills--80ecdf-v2",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "d620cd674c866c445a05966ce49b74017a2971602899fb22f6799ed0c8ccea5b",
+   "size_bytes": 16266392,
+   "updated": "2026-09-13T04:16:24.903Z"
+  },
+  {
+   "declared_name": "harbor/hard-regcc-01-reg-cc-large-deposit-exception-actual-funds-availability",
+   "declared_short": "hard-regcc-01-reg-cc-large-deposit-exception-actual-funds-availability",
+   "folder": "batch3__hard-regcc-01-reg-cc-large-deposit-exception-actual-funds-availability-v3",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "41c2fe04a638b1dd6936c7c326e4e1da619058ebe7283d753fe7804302878b22",
+   "size_bytes": 13044086,
+   "updated": "2026-09-13T04:10:20.855Z"
+  },
+  {
+   "declared_name": "harbor/hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
+   "declared_short": "hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
+   "folder": "batch3__hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date-v2",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "935ebb1af316f9ee795df8cbd097ced8544cb068ab27ebc22ebfbeadf5f6d0b6",
+   "size_bytes": 8521201,
+   "updated": "2026-09-13T04:07:19.396Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -383,6 +449,50 @@
    "sha256": "3a6d835f82d026cca52bc9b7ebc2e99a05446cdef0d23e3fb179af05adc75913",
    "size_bytes": 18171366,
    "updated": "2026-09-10T03:35:43.838Z"
+  },
+  {
+   "declared_name": "harbor/bill-reserve-window-bounded-1-31-days",
+   "declared_short": "bill-reserve-window-bounded-1-31-days",
+   "folder": "bill-reserve-window-bounded-1-31-days-a20302-v1",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "8fc62b18c2944e252c7ddaa00f7d09440b0871b896fcf1c960f8b49fd55e8dd4",
+   "size_bytes": 16331273,
+   "updated": "2026-09-13T04:14:39.318Z"
+  },
+  {
+   "declared_name": "harbor/both-source-j-and-destination-p-automations-must-process-on-posting-day",
+   "declared_short": "both-source-j-and-destination-p-automations-must-process-on-posting-day",
+   "folder": "both-source-j-and-destination-p-automations-must-754aba-v3",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "6b1997ff54c7656e6e0ee9a9f7758e24095af961c5bc5f0c59f1928f6a8d5073",
+   "size_bytes": 15924078,
+   "updated": "2026-09-13T04:16:32.177Z"
   },
   {
    "connector_provenance": null,
@@ -431,17 +541,17 @@
    "updated": "2026-09-09T04:37:16.758Z"
   },
   {
-   "declared_name": "harbor/calendar-regulars-versus-one-time-visitors",
-   "declared_short": "calendar-regulars-versus-one-time-visitors",
-   "folder": "calendar-regulars-versus-one-time-visitors",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/calendar-regulars-versus-one-time-visitors",
+   "declared_short": "calendar-regulars-versus-one-time-visitors",
    "domain": null,
+   "folder": "calendar-regulars-versus-one-time-visitors",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "61adc53666a64f18ebc12fe1e04ee2b872e4138e720d07a97eaa244cdf17c61a",
    "size_bytes": 7040247,
    "updated": "2026-09-13T03:57:23.586Z"
@@ -467,6 +577,28 @@
    "sha256": "0d439f0d283c8237a88c4423cc9cb4ea1c53f78cc36fd239cd6537705f65a5d5",
    "size_bytes": 6356317,
    "updated": "2026-09-09T04:36:46.374Z"
+  },
+  {
+   "declared_name": "harbor/classify-daily-card-limit-tier-for-card-27930-and-confirm-piermont-max",
+   "declared_short": "classify-daily-card-limit-tier-for-card-27930-and-confirm-piermont-max",
+   "folder": "classify-daily-card-limit-tier-for-card-27930-and-confirm-piermont-max-20260820T141022Z-1-001",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "85f8a5cad35c600b50837fc53110db999407d2d06d0c253c59c85af1f0cd5774",
+   "size_bytes": 6581675,
+   "updated": "2026-09-13T04:17:00.613Z"
   },
   {
    "connector_provenance": null,
@@ -2211,6 +2343,28 @@
    "updated": "2026-09-11T00:10:01.487Z"
   },
   {
+   "declared_name": "harbor/daily-ach-debit-pull-batch-report-2024-08-30-sameday-vs-standard-retur",
+   "declared_short": "daily-ach-debit-pull-batch-report-2024-08-30-sameday-vs-standard-retur",
+   "folder": "daily-ach-debit-pull-batch-report-2024-08-30-sameday-vs-standard-retur",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "a3ea9caa55f14ed34e907ab6745404d5d522bea52059bf927b256703f868fa3f",
+   "size_bytes": 8054991,
+   "updated": "2026-09-13T04:12:35.381Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -2255,7 +2409,11 @@
    "updated": "2026-09-12T17:34:35.760Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/determine-effective-daily-check-issue-ceiling-for-account-19765",
+   "declared_short": "determine-effective-daily-check-issue-ceiling-for-account-19765",
+   "folder": "determine-effective-daily-check-issue-ceiling-for-account-19765",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -2265,16 +2423,12 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/determine-effective-daily-check-issue-ceiling-for-account-19765",
-   "declared_short": "determine-effective-daily-check-issue-ceiling-for-account-19765",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "determine-effective-daily-check-issue-ceiling-for-account-19765",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "164bfb22398f2f3a28c967a6724b4906528166d4494cee48e9969528f7fa8c02",
-   "size_bytes": 9805676,
-   "updated": "2026-09-09T19:39:34.542Z"
+   "sha256": "ba8c66621bf2fab21b2d2d54c9db481b224d00ed6f09e30d0fdb831da0f4f085",
+   "size_bytes": 8740900,
+   "updated": "2026-09-13T04:15:52.146Z"
   },
   {
    "connector_provenance": "unknown",
@@ -3787,6 +3941,20 @@
    "sha256": "9a5e88ae4ee9b51aa5b974c75831df70341ddc26d7819200e1aec0d5bda9abf8",
    "size_bytes": 4900953,
    "updated": "2026-09-13T02:47:01.458Z"
+  },
+  {
+   "declared_name": "obi/gen-g390-gift-travel-disclosure-audit",
+   "declared_short": "gen-g390-gift-travel-disclosure-audit",
+   "folder": "gen-g390-gift-travel-disclosure-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "7320f6f711728dfa6a375d060be0273c38cf9729a85dd64fe4b72a37815b7a34",
+   "size_bytes": 3604981,
+   "updated": "2026-09-13T04:29:28.248Z"
   },
   {
    "connector_provenance": null,
@@ -7253,17 +7421,17 @@
    "updated": "2026-09-08T17:12:15.691Z"
   },
   {
-   "declared_name": "harbor/deploy-window-local-time-crossref",
-   "declared_short": "deploy-window-local-time-crossref",
-   "folder": "task_deploy-window-local-time-crossref-v22",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/deploy-window-local-time-crossref",
+   "declared_short": "deploy-window-local-time-crossref",
    "domain": null,
+   "folder": "task_deploy-window-local-time-crossref-v22",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2e28ba580fe588266e3f52191368431a20ceb38b55cdb27e717f1a578c583d38",
    "size_bytes": 6840663,
    "updated": "2026-09-13T03:56:23.558Z"
@@ -7501,6 +7669,28 @@
    "sha256": "2fa17d7b5e18eb85c6493c2e9d223542c019e64f2873333141c5ce44956f9c3e",
    "size_bytes": 4717203,
    "updated": "2026-09-09T19:11:28.889Z"
+  },
+  {
+   "declared_name": "harbor/verify-mcdonald-s-19-38-overcharge-dispute-outcome-for-customer-50567",
+   "declared_short": "verify-mcdonald-s-19-38-overcharge-dispute-outcome-for-customer-50567",
+   "folder": "verify-mcdonald-s-19-38-overcharge-dispute-outcome-for-customer-50567",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "b475bc6d2d6af4ac64d7938301c6f1a543b4d0b767fb0fa0988d6de02dad14e0",
+   "size_bytes": 12260306,
+   "updated": "2026-09-13T04:12:07.505Z"
   },
   {
    "connector_provenance": "real",
