@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T02:37:04+00:00",
+ "generated_at": "2026-09-13T03:07:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 490,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 6,
-  "approx_bytes_read": 789989
+  "new_archives_read": 1,
+  "approx_bytes_read": 131730
  },
  "errors": [],
  "tasks": [
@@ -385,15 +385,15 @@
    "updated": "2026-09-10T03:35:43.838Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b31-a4-tire-parts-gross-margin-pricing-matrix",
    "declared_short": "bus-b31-a4-tire-parts-gross-margin-pricing-matrix",
-   "folder": "bus-b31-a4-tire-parts-gross-margin-pricing-matrix-v3-candidate",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b31-a4-tire-parts-gross-margin-pricing-matrix-v3-candidate",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2c213a987a5d30af554026b7274a2c41c50f6e2d93266c10b992fe6253d6d297",
    "size_bytes": 14220791,
    "updated": "2026-09-13T02:07:35.855Z"
@@ -1083,15 +1083,15 @@
    "updated": "2026-09-10T05:19:24.554Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c409-trade-signal-risk-gate-audit",
    "declared_short": "code-c409-trade-signal-risk-gate-audit",
-   "folder": "code-c409-trade-signal-risk-gate-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c409-trade-signal-risk-gate-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7440db57ac6921686cb7b28eb53a163303870e998c00b459ac2152f18123c2ba",
    "size_bytes": 5704464,
    "updated": "2026-09-13T02:28:04.701Z"
@@ -1699,15 +1699,15 @@
    "updated": "2026-09-10T12:16:19.577Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c550-theme-typography-token-compliance-audit",
    "declared_short": "code-c550-theme-typography-token-compliance-audit",
-   "folder": "code-c550-theme-typography-token-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c550-theme-typography-token-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5a5ba883bfd4711e6adf71f300b3ee9b1ff5515b0210ff6fdfe617f0a8ec1154",
    "size_bytes": 5842829,
    "updated": "2026-09-13T02:12:17.553Z"
@@ -2779,29 +2779,29 @@
    "updated": "2026-09-10T14:24:31.771Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b41-a4-mapped-trial-balance-restatement",
    "declared_short": "fin-b41-a4-mapped-trial-balance-restatement",
-   "folder": "fin-b41-a4-mapped-trial-balance-restatement",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b41-a4-mapped-trial-balance-restatement",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "3e2e8919d67e4eb4ddb0146e22cee7431bb884060f18de8f6a45dbe4888ea889",
    "size_bytes": 5700049,
    "updated": "2026-09-13T02:20:18.308Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b41-f1-rmd-irmaa-tier-adjudication",
    "declared_short": "fin-b41-f1-rmd-irmaa-tier-adjudication",
-   "folder": "fin-b41-f1-rmd-irmaa-tier-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b41-f1-rmd-irmaa-tier-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "38a9b03e4c34bd4211f8406d93ad2e496e667e8c179e346ab47ee047cf85d128",
    "size_bytes": 9082705,
    "updated": "2026-09-13T02:14:33.974Z"
@@ -3759,18 +3759,18 @@
    "updated": "2026-09-08T12:37:31.395Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/gen-g387-production-run-variation-audit",
    "declared_short": "gen-g387-production-run-variation-audit",
-   "domain": "gen",
    "folder": "gen-g387-production-run-variation-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "fab33a4bf87060824dde1ffbb4e6d780f33b1aeb1ffb30c95c851fa943bc6c24",
-   "size_bytes": 4436663,
-   "updated": "2026-09-12T15:55:04.714Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "9a5e88ae4ee9b51aa5b974c75831df70341ddc26d7819200e1aec0d5bda9abf8",
+   "size_bytes": 4900953,
+   "updated": "2026-09-13T02:47:01.458Z"
   },
   {
    "connector_provenance": null,
@@ -3815,15 +3815,15 @@
    "updated": "2026-09-10T10:23:28.163Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g435-home-improvement-payment-milestone-audit",
    "declared_short": "gen-g435-home-improvement-payment-milestone-audit",
-   "folder": "gen-g435-home-improvement-payment-milestone-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g435-home-improvement-payment-milestone-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "cbd5c096a49752c7bf904289e6814b2e84484eeaed124e8bb4235126d41802ca",
    "size_bytes": 4791793,
    "updated": "2026-09-13T02:08:01.555Z"
