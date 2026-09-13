@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-13T14:37:03+00:00",
+ "generated_at": "2026-09-13T15:07:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 531,
-  "scanned": 531,
+  "task_folders": 533,
+  "scanned": 533,
   "connector": 147,
-  "non_connector": 384,
+  "non_connector": 386,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 153,
   "code": 133,
   "fin": 20,
-  "gen": 169,
+  "gen": 171,
   "health": 30,
   "law": 26
  },
  "name_prefix": {
   "harbor": 151,
-  "obi": 380
+  "obi": 382
  },
  "connector_services": {
   "google-drive-gym": 100,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131482
+  "new_archives_read": 2,
+  "approx_bytes_read": 263152
  },
  "errors": [],
  "tasks": [
@@ -3533,6 +3533,20 @@
    "updated": "2026-09-06T14:59:41.969Z"
   },
   {
+   "declared_name": "obi/gen-g118-channel-partner-mdf-spend-audit",
+   "declared_short": "gen-g118-channel-partner-mdf-spend-audit",
+   "folder": "gen-g118-channel-partner-mdf-spend-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "898b47c0df07d17467e53c801342a90a249964b304dcedb3aabe2425f572736f",
+   "size_bytes": 13533904,
+   "updated": "2026-09-13T14:50:54.254Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g1199-injectable-treatment-social-ad-audit",
@@ -4191,15 +4205,15 @@
    "updated": "2026-09-08T12:37:31.395Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g368-assignment-submission-compliance-audit",
    "declared_short": "gen-g368-assignment-submission-compliance-audit",
-   "folder": "gen-g368-assignment-submission-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g368-assignment-submission-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "513e9abcf3cb432c5388ce1aba61de0a7a609821b34f7af0014ecef9b2264c97",
    "size_bytes": 6316960,
    "updated": "2026-09-13T14:22:00.594Z"
@@ -5127,6 +5141,20 @@
    "sha256": "3aae1c7da106a38bfef6f93c182b0366f03084b8d85b41b5180386591f72d097",
    "size_bytes": 4699758,
    "updated": "2026-09-09T09:32:09.997Z"
+  },
+  {
+   "declared_name": "obi/gen-g822-stream-setup-guide-documentation-audit",
+   "declared_short": "gen-g822-stream-setup-guide-documentation-audit",
+   "folder": "gen-g822-stream-setup-guide-documentation-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "5039f19391e6744a236fd5ec98cd3293e251d4b2f2093b5f5dfc6991184e102a",
+   "size_bytes": 5552997,
+   "updated": "2026-09-13T14:55:20.791Z"
   },
   {
    "connector_provenance": null,
