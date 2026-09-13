@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-13T11:07:03+00:00",
+ "generated_at": "2026-09-13T12:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 518,
-  "scanned": 518,
+  "task_folders": 519,
+  "scanned": 519,
   "connector": 146,
-  "non_connector": 372,
+  "non_connector": 373,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 152,
-  "code": 130,
+  "code": 131,
   "fin": 20,
   "gen": 162,
   "health": 30,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 150,
-  "obi": 368
+  "obi": 369
  },
  "connector_services": {
   "google-drive-gym": 99,
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131480
+  "approx_bytes_read": 131518
  },
  "errors": [],
  "tasks": [
@@ -937,6 +937,20 @@
    "sha256": "c12d5dc299b6a7147861d8d820ef2140e067273ea3882bf946cd8753744a9a6a",
    "size_bytes": 4005976,
    "updated": "2026-09-11T03:38:17.750Z"
+  },
+  {
+   "declared_name": "obi/code-c281-ai-release-digest-run-audit",
+   "declared_short": "code-c281-ai-release-digest-run-audit",
+   "folder": "code-c281-ai-release-digest-run-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "9b424f3d98fb4a1b710a8885ef609078deab380ba8a5714794fa156f95d4a915",
+   "size_bytes": 3940099,
+   "updated": "2026-09-13T11:57:15.891Z"
   },
   {
    "connector_provenance": null,
@@ -1933,15 +1947,15 @@
    "updated": "2026-09-13T02:12:17.553Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c551-backlink-disavow-compliance-audit",
    "declared_short": "code-c551-backlink-disavow-compliance-audit",
-   "folder": "code-c551-backlink-disavow-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c551-backlink-disavow-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "73129275317eabac1f6638f0eec904dc998801886dda7ed1ed515c396592b5a0",
    "size_bytes": 6888419,
    "updated": "2026-09-13T11:04:59.917Z"
