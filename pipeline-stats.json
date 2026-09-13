@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-13T15:07:05+00:00",
+ "generated_at": "2026-09-13T15:37:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 533,
-  "scanned": 533,
+  "task_folders": 534,
+  "scanned": 534,
   "connector": 147,
-  "non_connector": 386,
+  "non_connector": 387,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 153,
-  "code": 133,
+  "code": 134,
   "fin": 20,
   "gen": 171,
   "health": 30,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 151,
-  "obi": 382
+  "obi": 383
  },
  "connector_services": {
   "google-drive-gym": 100,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263152
+  "new_archives_read": 1,
+  "approx_bytes_read": 131552
  },
  "errors": [],
  "tasks": [
@@ -3533,15 +3533,15 @@
    "updated": "2026-09-06T14:59:41.969Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g118-channel-partner-mdf-spend-audit",
    "declared_short": "gen-g118-channel-partner-mdf-spend-audit",
-   "folder": "gen-g118-channel-partner-mdf-spend-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g118-channel-partner-mdf-spend-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "898b47c0df07d17467e53c801342a90a249964b304dcedb3aabe2425f572736f",
    "size_bytes": 13533904,
    "updated": "2026-09-13T14:50:54.254Z"
@@ -5143,15 +5143,15 @@
    "updated": "2026-09-09T09:32:09.997Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g822-stream-setup-guide-documentation-audit",
    "declared_short": "gen-g822-stream-setup-guide-documentation-audit",
-   "folder": "gen-g822-stream-setup-guide-documentation-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g822-stream-setup-guide-documentation-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5039f19391e6744a236fd5ec98cd3293e251d4b2f2093b5f5dfc6991184e102a",
    "size_bytes": 5552997,
    "updated": "2026-09-13T14:55:20.791Z"
@@ -7833,6 +7833,20 @@
    "sha256": "7aad93f7e5d09a3229054b560cfc5914404962571e0aca594fd5eb21f30bc184",
    "size_bytes": 4543918,
    "updated": "2026-09-05T19:15:52.856Z"
+  },
+  {
+   "declared_name": "obi/code-c594-game-asset-originality-audit",
+   "declared_short": "code-c594-game-asset-originality-audit",
+   "folder": "t5-v29",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "1bc20c9a8177ab78f3fec997410b6e4ce4af446045962c47584c53bea8e36f18",
+   "size_bytes": 6052197,
+   "updated": "2026-09-13T15:17:43.372Z"
   },
   {
    "connector_provenance": "real",
