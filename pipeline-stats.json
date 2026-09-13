@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-09-13T09:07:05+00:00",
+ "generated_at": "2026-09-13T09:37:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 514,
-  "scanned": 514,
-  "connector": 144,
-  "non_connector": 370,
+  "task_folders": 517,
+  "scanned": 517,
+  "connector": 146,
+  "non_connector": 371,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 71,
+  "unknown": 72,
   "synthetic": 27,
-  "real": 46
+  "real": 47
  },
  "domain": {
-  "unnamed": 150,
+  "unnamed": 152,
   "code": 129,
   "fin": 20,
-  "gen": 161,
+  "gen": 162,
   "health": 30,
   "law": 24
  },
  "name_prefix": {
-  "harbor": 148,
-  "obi": 366
+  "harbor": 150,
+  "obi": 367
  },
  "connector_services": {
-  "google-drive-gym": 97,
-  "slack-gym": 92,
-  "confluence-gym": 81,
-  "email-gym": 81,
-  "freshdesk-gym": 81,
-  "jira-gym": 81,
-  "zeta3-sql-gym": 81,
+  "google-drive-gym": 99,
+  "slack-gym": 94,
+  "confluence-gym": 83,
+  "email-gym": 83,
+  "freshdesk-gym": 83,
+  "jira-gym": 83,
+  "zeta3-sql-gym": 83,
   "github-gym": 7,
   "outlook-gym": 7,
   "email-calendar-gym": 7,
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 3,
-  "approx_bytes_read": 395084
+  "approx_bytes_read": 401038
  },
  "errors": [],
  "tasks": [
@@ -383,6 +383,28 @@
    "sha256": "d620cd674c866c445a05966ce49b74017a2971602899fb22f6799ed0c8ccea5b",
    "size_bytes": 16266392,
    "updated": "2026-09-13T04:16:24.903Z"
+  },
+  {
+   "declared_name": "harbor/balance-checks-precede-transfer-processing-for-all-funding-variants",
+   "declared_short": "balance-checks-precede-transfer-processing-for-all-funding-variants",
+   "folder": "balance-checks-precede-transfer-processing-for-all-funding-variants",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "604bb8a99459c112eb404f52df4350b94e28d2fcafbcc126dcd66e5eb65918c2",
+   "size_bytes": 10648345,
+   "updated": "2026-09-13T09:10:46.682Z"
   },
   {
    "connector_provenance": "unknown",
@@ -3077,15 +3099,15 @@
    "updated": "2026-09-13T01:21:27.903Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b41-f6-bullion-platform-feature-matrix",
    "declared_short": "fin-b41-f6-bullion-platform-feature-matrix",
-   "folder": "fin-b41-f6-bullion-platform-feature-matrix",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b41-f6-bullion-platform-feature-matrix",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6f4475712bf69eb5eca0c26a2534de1a88480e637dea06f69e3696e02e66a5a3",
    "size_bytes": 6553735,
    "updated": "2026-09-13T09:06:09.699Z"
@@ -4407,6 +4429,20 @@
    "updated": "2026-09-12T13:54:48.682Z"
   },
   {
+   "declared_name": "obi/gen-g581-antibody-clone-validation-claims-audit",
+   "declared_short": "gen-g581-antibody-clone-validation-claims-audit",
+   "folder": "gen-g581-antibody-clone-validation-claims-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "d08c1045ba86573cd7a598e3374bf94899225bdbb9c4f6d08d14d4f69d1adcb8",
+   "size_bytes": 6649347,
+   "updated": "2026-09-13T09:34:45.422Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g59-accreditation-compliance-recompute",
@@ -4589,15 +4625,15 @@
    "updated": "2026-09-10T02:35:39.455Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g707-terminal-crane-inspection-audit",
    "declared_short": "gen-g707-terminal-crane-inspection-audit",
-   "folder": "gen-g707-terminal-crane-inspection-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g707-terminal-crane-inspection-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ca2134a9ae1cdc901b78fde981da67a104ac0e6d4b0c2ce9fc6a7f2885b98f9e",
    "size_bytes": 7615732,
    "updated": "2026-09-13T08:57:35.094Z"
@@ -4785,15 +4821,15 @@
    "updated": "2026-09-10T08:30:46.822Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g78-batch-expiry-recompute",
    "declared_short": "gen-g78-batch-expiry-recompute",
-   "folder": "gen-g78-batch-expiry-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g78-batch-expiry-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e9da2caee56637037ce56e3fa606be3d3e0df1e9f6f79df78f63fac5a8a0b835",
    "size_bytes": 5114366,
    "updated": "2026-09-13T08:38:09.167Z"
@@ -7801,6 +7837,28 @@
    "sha256": "1a6af6d5be6013bff45bc8cc61ad19631948d64db3157c6846d10f1d19976831",
    "size_bytes": 8873813,
    "updated": "2026-09-12T17:24:21.583Z"
+  },
+  {
+   "declared_name": "harbor/verify-atm-no-dispense-dispute-resolution-for-500-claim-ttx-11jvcvxr25",
+   "declared_short": "verify-atm-no-dispense-dispute-resolution-for-500-claim-ttx-11jvcvxr25",
+   "folder": "verify-atm-no-dispense-dispute-resolution-for-500-claim-ttx-11jvcvxr25",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "408c5aa015cdfc874b242fb45ff52fdd0084699b2df94182c8d7b457d35d5be1",
+   "size_bytes": 7208463,
+   "updated": "2026-09-13T09:08:57.985Z"
   },
   {
    "connector_provenance": "unknown",
