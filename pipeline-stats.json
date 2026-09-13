@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-13T18:07:03+00:00",
+ "generated_at": "2026-09-13T18:37:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 538,
-  "scanned": 538,
+  "task_folders": 540,
+  "scanned": 540,
   "connector": 148,
-  "non_connector": 390,
+  "non_connector": 392,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 154,
   "code": 135,
-  "fin": 20,
+  "fin": 21,
   "gen": 173,
   "health": 30,
-  "law": 26
+  "law": 27
  },
  "name_prefix": {
   "harbor": 152,
-  "obi": 386
+  "obi": 388
  },
  "connector_services": {
   "google-drive-gym": 101,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131426
+  "new_archives_read": 2,
+  "approx_bytes_read": 263166
  },
  "errors": [],
  "tasks": [
@@ -2367,15 +2367,15 @@
    "updated": "2026-09-12T19:08:51.230Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c780-calendar-recovery-reconciliation",
    "declared_short": "code-c780-calendar-recovery-reconciliation",
-   "folder": "code-c780-calendar-recovery-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c780-calendar-recovery-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d326c487c81952b0fb1d951eed0f3aa39653775668c9cf6a96c1d1606169390c",
    "size_bytes": 7874734,
    "updated": "2026-09-13T17:37:28.610Z"
@@ -3195,6 +3195,20 @@
    "sha256": "5c5421a7079028295a1472e15c7d06145314966d552c6c25482963a1c7bf9019",
    "size_bytes": 6716649,
    "updated": "2026-09-13T08:30:38.086Z"
+  },
+  {
+   "declared_name": "obi/fin-b46-a4-pro-forma-revenue-audit",
+   "declared_short": "fin-b46-a4-pro-forma-revenue-audit",
+   "folder": "fin-b46-a4-pro-forma-revenue-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "ab3fc71af4f8175600a30d166e7981b5ddf3d78866d0caf6b60683f2df5e1f16",
+   "size_bytes": 5509664,
+   "updated": "2026-09-13T18:09:58.656Z"
   },
   {
    "connector_provenance": null,
@@ -7241,6 +7255,20 @@
    "sha256": "da9d23deb58998d286a1345f4b1393f43f3073473f0a3802c947d2d015463b0f",
    "size_bytes": 3465044,
    "updated": "2026-09-13T13:05:44.536Z"
+  },
+  {
+   "declared_name": "obi/law-b42-l15-ssi-to-dac-medicaid-continuity-qa",
+   "declared_short": "law-b42-l15-ssi-to-dac-medicaid-continuity-qa",
+   "folder": "law-b42-l15-ssi-to-dac-medicaid-continuity-qa",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "528d133a810dcfbf99f709d1675d3b9441f58459061fa270828185b32284a384",
+   "size_bytes": 6102404,
+   "updated": "2026-09-13T18:28:44.963Z"
   },
   {
    "connector_provenance": null,
