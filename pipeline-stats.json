@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-13T08:37:04+00:00",
+ "generated_at": "2026-09-13T09:07:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 511,
-  "scanned": 511,
+  "task_folders": 514,
+  "scanned": 514,
   "connector": 144,
-  "non_connector": 367,
+  "non_connector": 370,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 150,
   "code": 129,
-  "fin": 19,
-  "gen": 159,
+  "fin": 20,
+  "gen": 161,
   "health": 30,
   "law": 24
  },
  "name_prefix": {
   "harbor": 148,
-  "obi": 363
+  "obi": 366
  },
  "connector_services": {
   "google-drive-gym": 97,
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 3,
-  "approx_bytes_read": 397648
+  "approx_bytes_read": 395084
  },
  "errors": [],
  "tasks": [
@@ -495,11 +495,7 @@
    "updated": "2026-09-13T04:16:32.177Z"
   },
   {
-   "declared_name": "harbor/build-the-daily-ofac-24h-enrollment-gap-canary-for-post-launch-users",
-   "declared_short": "build-the-daily-ofac-24h-enrollment-gap-canary-for-post-launch-users",
-   "folder": "build-the-daily-ofac-24h-enrollment-gap-canary-for-post-launch-users",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -509,9 +505,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/build-the-daily-ofac-24h-enrollment-gap-canary-for-post-launch-users",
+   "declared_short": "build-the-daily-ofac-24h-enrollment-gap-canary-for-post-launch-users",
    "domain": null,
+   "folder": "build-the-daily-ofac-24h-enrollment-gap-canary-for-post-launch-users",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d0e4ead17e583068d0710a56454b1d874c85a2097e037a6e7960b49830083a76",
    "size_bytes": 8790023,
    "updated": "2026-09-13T08:14:15.347Z"
@@ -3077,15 +3077,29 @@
    "updated": "2026-09-13T01:21:27.903Z"
   },
   {
-   "declared_name": "obi/fin-b41-f9-aircraft-ownership-cost-bridge",
-   "declared_short": "fin-b41-f9-aircraft-ownership-cost-bridge",
-   "folder": "fin-b41-f9-aircraft-ownership-cost-bridge",
+   "declared_name": "obi/fin-b41-f6-bullion-platform-feature-matrix",
+   "declared_short": "fin-b41-f6-bullion-platform-feature-matrix",
+   "folder": "fin-b41-f6-bullion-platform-feature-matrix",
    "prefix": "obi",
    "is_connector": false,
    "connector_services": [],
    "connector_provenance": null,
    "domain": "fin",
    "image": null,
+   "sha256": "6f4475712bf69eb5eca0c26a2534de1a88480e637dea06f69e3696e02e66a5a3",
+   "size_bytes": 6553735,
+   "updated": "2026-09-13T09:06:09.699Z"
+  },
+  {
+   "connector_provenance": null,
+   "connector_services": [],
+   "declared_name": "obi/fin-b41-f9-aircraft-ownership-cost-bridge",
+   "declared_short": "fin-b41-f9-aircraft-ownership-cost-bridge",
+   "domain": "fin",
+   "folder": "fin-b41-f9-aircraft-ownership-cost-bridge",
+   "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5c5421a7079028295a1472e15c7d06145314966d552c6c25482963a1c7bf9019",
    "size_bytes": 6716649,
    "updated": "2026-09-13T08:30:38.086Z"
@@ -4575,6 +4589,20 @@
    "updated": "2026-09-10T02:35:39.455Z"
   },
   {
+   "declared_name": "obi/gen-g707-terminal-crane-inspection-audit",
+   "declared_short": "gen-g707-terminal-crane-inspection-audit",
+   "folder": "gen-g707-terminal-crane-inspection-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "ca2134a9ae1cdc901b78fde981da67a104ac0e6d4b0c2ce9fc6a7f2885b98f9e",
+   "size_bytes": 7615732,
+   "updated": "2026-09-13T08:57:35.094Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g711-tree-service-invoice-rate-audit",
@@ -4755,6 +4783,20 @@
    "sha256": "891fee9758995735037926d71444c41a3519190bad5f4e4a39e1450b085a204e",
    "size_bytes": 5094219,
    "updated": "2026-09-10T08:30:46.822Z"
+  },
+  {
+   "declared_name": "obi/gen-g78-batch-expiry-recompute",
+   "declared_short": "gen-g78-batch-expiry-recompute",
+   "folder": "gen-g78-batch-expiry-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "e9da2caee56637037ce56e3fa606be3d3e0df1e9f6f79df78f63fac5a8a0b835",
+   "size_bytes": 5114366,
+   "updated": "2026-09-13T08:38:09.167Z"
   },
   {
    "connector_provenance": null,
@@ -6335,15 +6377,15 @@
    "updated": "2026-09-06T04:19:33.735Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b43-h5-medigap-plan-comparison-page",
    "declared_short": "health-b43-h5-medigap-plan-comparison-page",
-   "folder": "health-b43-h5-medigap-plan-comparison-page",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b43-h5-medigap-plan-comparison-page",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4f75568dd1e53c73301ff7211ca969e85bff17cf67c45250e9bba0875ae17265",
    "size_bytes": 5576794,
    "updated": "2026-09-13T08:16:21.050Z"
