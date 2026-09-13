@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-13T03:07:02+00:00",
+ "generated_at": "2026-09-13T04:07:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 490,
-  "scanned": 490,
-  "connector": 132,
+  "task_folders": 492,
+  "scanned": 492,
+  "connector": 134,
   "non_connector": 358,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 62,
-  "synthetic": 25,
+  "synthetic": 27,
   "real": 45
  },
  "domain": {
-  "unnamed": 138,
+  "unnamed": 140,
   "code": 126,
   "fin": 18,
   "gen": 156,
@@ -22,12 +22,12 @@
   "law": 23
  },
  "name_prefix": {
-  "harbor": 136,
+  "harbor": 138,
   "obi": 354
  },
  "connector_services": {
   "google-drive-gym": 87,
-  "slack-gym": 81,
+  "slack-gym": 82,
   "confluence-gym": 71,
   "email-gym": 71,
   "freshdesk-gym": 71,
@@ -35,14 +35,14 @@
   "zeta3-sql-gym": 71,
   "github-gym": 7,
   "outlook-gym": 7,
+  "email-calendar-gym": 7,
   "notion-gym": 6,
-  "email-calendar-gym": 6,
   "gws-gym": 6,
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131730
+  "new_archives_read": 2,
+  "approx_bytes_read": 268395
  },
  "errors": [],
  "tasks": [
@@ -429,6 +429,22 @@
    "sha256": "99403b8624b8718fa665807aa8aa5354212a209357c15d83e8166e7d02fc3a78",
    "size_bytes": 1921728,
    "updated": "2026-09-09T04:37:16.758Z"
+  },
+  {
+   "declared_name": "harbor/calendar-regulars-versus-one-time-visitors",
+   "declared_short": "calendar-regulars-versus-one-time-visitors",
+   "folder": "calendar-regulars-versus-one-time-visitors",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "61adc53666a64f18ebc12fe1e04ee2b872e4138e720d07a97eaa244cdf17c61a",
+   "size_bytes": 7040247,
+   "updated": "2026-09-13T03:57:23.586Z"
   },
   {
    "connector_provenance": "unknown",
@@ -3759,15 +3775,15 @@
    "updated": "2026-09-08T12:37:31.395Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g387-production-run-variation-audit",
    "declared_short": "gen-g387-production-run-variation-audit",
-   "folder": "gen-g387-production-run-variation-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g387-production-run-variation-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9a5e88ae4ee9b51aa5b974c75831df70341ddc26d7819200e1aec0d5bda9abf8",
    "size_bytes": 4900953,
    "updated": "2026-09-13T02:47:01.458Z"
@@ -7235,6 +7251,22 @@
    "sha256": "320db6c0de053bc660f386ba8a9dd252f29f7cb7f7d17b2c9e0d73adff3261ba",
    "size_bytes": 3616459,
    "updated": "2026-09-08T17:12:15.691Z"
+  },
+  {
+   "declared_name": "harbor/deploy-window-local-time-crossref",
+   "declared_short": "deploy-window-local-time-crossref",
+   "folder": "task_deploy-window-local-time-crossref-v22",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2e28ba580fe588266e3f52191368431a20ceb38b55cdb27e717f1a578c583d38",
+   "size_bytes": 6840663,
+   "updated": "2026-09-13T03:56:23.558Z"
   },
   {
    "connector_provenance": "unknown",
