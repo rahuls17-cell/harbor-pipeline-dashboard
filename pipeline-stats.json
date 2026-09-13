@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-09-13T08:07:05+00:00",
+ "generated_at": "2026-09-13T08:37:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 508,
-  "scanned": 508,
-  "connector": 143,
-  "non_connector": 365,
+  "task_folders": 511,
+  "scanned": 511,
+  "connector": 144,
+  "non_connector": 367,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 70,
+  "unknown": 71,
   "synthetic": 27,
   "real": 46
  },
  "domain": {
-  "unnamed": 149,
+  "unnamed": 150,
   "code": 129,
-  "fin": 18,
+  "fin": 19,
   "gen": 159,
-  "health": 29,
+  "health": 30,
   "law": 24
  },
  "name_prefix": {
-  "harbor": 147,
-  "obi": 361
+  "harbor": 148,
+  "obi": 363
  },
  "connector_services": {
-  "google-drive-gym": 96,
-  "slack-gym": 91,
-  "confluence-gym": 80,
-  "email-gym": 80,
-  "freshdesk-gym": 80,
-  "jira-gym": 80,
-  "zeta3-sql-gym": 80,
+  "google-drive-gym": 97,
+  "slack-gym": 92,
+  "confluence-gym": 81,
+  "email-gym": 81,
+  "freshdesk-gym": 81,
+  "jira-gym": 81,
+  "zeta3-sql-gym": 81,
   "github-gym": 7,
   "outlook-gym": 7,
   "email-calendar-gym": 7,
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 3,
-  "approx_bytes_read": 394436
+  "approx_bytes_read": 397648
  },
  "errors": [],
  "tasks": [
@@ -495,6 +495,28 @@
    "updated": "2026-09-13T04:16:32.177Z"
   },
   {
+   "declared_name": "harbor/build-the-daily-ofac-24h-enrollment-gap-canary-for-post-launch-users",
+   "declared_short": "build-the-daily-ofac-24h-enrollment-gap-canary-for-post-launch-users",
+   "folder": "build-the-daily-ofac-24h-enrollment-gap-canary-for-post-launch-users",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "d0e4ead17e583068d0710a56454b1d874c85a2097e037a6e7960b49830083a76",
+   "size_bytes": 8790023,
+   "updated": "2026-09-13T08:14:15.347Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b31-a4-tire-parts-gross-margin-pricing-matrix",
@@ -615,15 +637,15 @@
    "updated": "2026-09-09T12:13:35.653Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c117-data-quality-rule-coverage-audit",
    "declared_short": "code-c117-data-quality-rule-coverage-audit",
-   "folder": "code-c117-data-quality-rule-coverage-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c117-data-quality-rule-coverage-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5b932d133d8836e849b78d9fb7481b140d81f3f1c67f35cd92ac0510112911d4",
    "size_bytes": 10630951,
    "updated": "2026-09-13T07:51:30.729Z"
@@ -2057,15 +2079,15 @@
    "updated": "2026-09-09T13:20:08.480Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c672-subaccount-onboarding-checklist-audit",
    "declared_short": "code-c672-subaccount-onboarding-checklist-audit",
-   "folder": "code-c672-subaccount-onboarding-checklist-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c672-subaccount-onboarding-checklist-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ea2c782fdb5ee45490577ec3c1a57e3c6494fd6a8842a80e2d287b9732bb97b4",
    "size_bytes": 5204049,
    "updated": "2026-09-13T07:38:24.183Z"
@@ -3055,6 +3077,20 @@
    "updated": "2026-09-13T01:21:27.903Z"
   },
   {
+   "declared_name": "obi/fin-b41-f9-aircraft-ownership-cost-bridge",
+   "declared_short": "fin-b41-f9-aircraft-ownership-cost-bridge",
+   "folder": "fin-b41-f9-aircraft-ownership-cost-bridge",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "5c5421a7079028295a1472e15c7d06145314966d552c6c25482963a1c7bf9019",
+   "size_bytes": 6716649,
+   "updated": "2026-09-13T08:30:38.086Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/fin-f14-lease-straight-line-rent",
@@ -4035,15 +4071,15 @@
    "updated": "2026-09-13T04:29:28.248Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g398-resume-section-completeness-audit",
    "declared_short": "gen-g398-resume-section-completeness-audit",
-   "folder": "gen-g398-resume-section-completeness-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g398-resume-section-completeness-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e1e62c6d13d30bc4454b591538d9be709c5c0047660c23fd60f57e535a62cb4c",
    "size_bytes": 3010515,
    "updated": "2026-09-13T07:45:08.734Z"
@@ -6297,6 +6333,20 @@
    "sha256": "94cb04008f8e361ece63386de2a69e57fe7072d0f60cd93b47277858707b7e08",
    "size_bytes": 7480820,
    "updated": "2026-09-06T04:19:33.735Z"
+  },
+  {
+   "declared_name": "obi/health-b43-h5-medigap-plan-comparison-page",
+   "declared_short": "health-b43-h5-medigap-plan-comparison-page",
+   "folder": "health-b43-h5-medigap-plan-comparison-page",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "4f75568dd1e53c73301ff7211ca969e85bff17cf67c45250e9bba0875ae17265",
+   "size_bytes": 5576794,
+   "updated": "2026-09-13T08:16:21.050Z"
   },
   {
    "connector_provenance": null,
