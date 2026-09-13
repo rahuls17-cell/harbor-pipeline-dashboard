@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-12T22:37:02+00:00",
+ "generated_at": "2026-09-13T00:37:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 480,
-  "scanned": 480,
+  "task_folders": 481,
+  "scanned": 481,
   "connector": 132,
-  "non_connector": 348,
+  "non_connector": 349,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 136,
-  "code": 123,
+  "code": 124,
   "fin": 17,
   "gen": 152,
   "health": 29,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 136,
-  "obi": 344
+  "obi": 345
  },
  "connector_services": {
   "google-drive-gym": 87,
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131647
+  "approx_bytes_read": 131556
  },
  "errors": [],
  "tasks": [
@@ -1489,15 +1489,15 @@
    "updated": "2026-09-05T21:26:08.387Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c506-code-walk-annotation-completion-audit",
    "declared_short": "code-c506-code-walk-annotation-completion-audit",
-   "folder": "code-c506-code-walk-annotation-completion-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c506-code-walk-annotation-completion-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "cacf10161d26fe544f3fd564b5c0e5ad06bd5a8c9f467b429a66290e22c93cdf",
    "size_bytes": 5025447,
    "updated": "2026-09-12T22:21:55.045Z"
@@ -1767,6 +1767,20 @@
    "sha256": "6af74676f329fbeb5cfde0665671a169811ab29b5347d72fe099992ba1430ecb",
    "size_bytes": 5864648,
    "updated": "2026-09-10T02:35:38.689Z"
+  },
+  {
+   "declared_name": "obi/code-c621-register-id-assignment-compliance-audit",
+   "declared_short": "code-c621-register-id-assignment-compliance-audit",
+   "folder": "code-c621-register-id-assignment-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "b784b3bb5bd1b75d7a0010aee3e4139ed2e08b6ba4cb2566b35e6ab237733fae",
+   "size_bytes": 7583907,
+   "updated": "2026-09-13T00:11:24.929Z"
   },
   {
    "connector_provenance": null,
