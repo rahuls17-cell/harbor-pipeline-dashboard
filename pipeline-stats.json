@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-13T07:37:04+00:00",
+ "generated_at": "2026-09-13T08:07:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 505,
-  "scanned": 505,
+  "task_folders": 508,
+  "scanned": 508,
   "connector": 143,
-  "non_connector": 362,
+  "non_connector": 365,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 149,
-  "code": 127,
+  "code": 129,
   "fin": 18,
-  "gen": 158,
+  "gen": 159,
   "health": 29,
   "law": 24
  },
  "name_prefix": {
   "harbor": 147,
-  "obi": 358
+  "obi": 361
  },
  "connector_services": {
   "google-drive-gym": 96,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262912
+  "new_archives_read": 3,
+  "approx_bytes_read": 394436
  },
  "errors": [],
  "tasks": [
@@ -613,6 +613,20 @@
    "sha256": "b3b16a3de4af25fff525cc244455b19e47eef4449a4b7767cf82bc5a98cfe9eb",
    "size_bytes": 7122388,
    "updated": "2026-09-09T12:13:35.653Z"
+  },
+  {
+   "declared_name": "obi/code-c117-data-quality-rule-coverage-audit",
+   "declared_short": "code-c117-data-quality-rule-coverage-audit",
+   "folder": "code-c117-data-quality-rule-coverage-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "5b932d133d8836e849b78d9fb7481b140d81f3f1c67f35cd92ac0510112911d4",
+   "size_bytes": 10630951,
+   "updated": "2026-09-13T07:51:30.729Z"
   },
   {
    "connector_provenance": null,
@@ -2041,6 +2055,20 @@
    "sha256": "c1e3b6920eb2c7a1df7fc32f874130b153efccdee0cd8f80ee96f9435b553404",
    "size_bytes": 6199312,
    "updated": "2026-09-09T13:20:08.480Z"
+  },
+  {
+   "declared_name": "obi/code-c672-subaccount-onboarding-checklist-audit",
+   "declared_short": "code-c672-subaccount-onboarding-checklist-audit",
+   "folder": "code-c672-subaccount-onboarding-checklist-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "ea2c782fdb5ee45490577ec3c1a57e3c6494fd6a8842a80e2d287b9732bb97b4",
+   "size_bytes": 5204049,
+   "updated": "2026-09-13T07:38:24.183Z"
   },
   {
    "connector_provenance": null,
@@ -3503,15 +3531,15 @@
    "updated": "2026-09-06T12:12:28.305Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1255-audiobook-voice-cast-compliance-audit",
    "declared_short": "gen-g1255-audiobook-voice-cast-compliance-audit",
-   "folder": "gen-g1255-audiobook-voice-cast-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1255-audiobook-voice-cast-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9fed06bf492bcaadc531e458dc38d274448a29ab544b0c7bf33cecb980ec42a3",
    "size_bytes": 4831154,
    "updated": "2026-09-13T07:14:38.553Z"
@@ -4005,6 +4033,20 @@
    "sha256": "7320f6f711728dfa6a375d060be0273c38cf9729a85dd64fe4b72a37815b7a34",
    "size_bytes": 3604981,
    "updated": "2026-09-13T04:29:28.248Z"
+  },
+  {
+   "declared_name": "obi/gen-g398-resume-section-completeness-audit",
+   "declared_short": "gen-g398-resume-section-completeness-audit",
+   "folder": "gen-g398-resume-section-completeness-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "e1e62c6d13d30bc4454b591538d9be709c5c0047660c23fd60f57e535a62cb4c",
+   "size_bytes": 3010515,
+   "updated": "2026-09-13T07:45:08.734Z"
   },
   {
    "connector_provenance": null,
@@ -7073,15 +7115,15 @@
    "updated": "2026-09-09T13:08:36.604Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-l75-internship-work-authorization-audit",
    "declared_short": "law-l75-internship-work-authorization-audit",
-   "folder": "law-l75-internship-work-authorization-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-l75-internship-work-authorization-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "21058e09ab616f3188e607e38c4d7a8e5cbe800ab9d8f867f71d11a634dbbdbc",
    "size_bytes": 7038977,
    "updated": "2026-09-13T07:19:48.010Z"
