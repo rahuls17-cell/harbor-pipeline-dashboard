@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-13T16:37:02+00:00",
+ "generated_at": "2026-09-13T17:07:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 535,
-  "scanned": 535,
-  "connector": 147,
+  "task_folders": 536,
+  "scanned": 536,
+  "connector": 148,
   "non_connector": 388,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 72,
+  "unknown": 73,
   "synthetic": 27,
   "real": 48
  },
  "domain": {
-  "unnamed": 153,
+  "unnamed": 154,
   "code": 134,
   "fin": 20,
   "gen": 172,
@@ -22,17 +22,17 @@
   "law": 26
  },
  "name_prefix": {
-  "harbor": 151,
+  "harbor": 152,
   "obi": 384
  },
  "connector_services": {
-  "google-drive-gym": 100,
-  "slack-gym": 94,
-  "confluence-gym": 83,
-  "email-gym": 83,
-  "freshdesk-gym": 83,
-  "jira-gym": 83,
-  "zeta3-sql-gym": 83,
+  "google-drive-gym": 101,
+  "slack-gym": 95,
+  "confluence-gym": 84,
+  "email-gym": 84,
+  "freshdesk-gym": 84,
+  "jira-gym": 84,
+  "zeta3-sql-gym": 84,
   "github-gym": 7,
   "outlook-gym": 7,
   "email-calendar-gym": 7,
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131670
+  "approx_bytes_read": 133379
  },
  "errors": [],
  "tasks": [
@@ -4177,15 +4177,15 @@
    "updated": "2026-09-09T13:53:37.842Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g3613-fantano-perfect-score-audit",
    "declared_short": "gen-g3613-fantano-perfect-score-audit",
-   "folder": "gen-g3613-fantano-perfect-score-audit-fan-adj-1-r176",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g3613-fantano-perfect-score-audit-fan-adj-1-r176",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2628c1812f905dbead3ff7b1ac18aca21530451108039d1c811547fad8b424a0",
    "size_bytes": 11690733,
    "updated": "2026-09-13T16:17:31.554Z"
@@ -7717,6 +7717,28 @@
    "sha256": "8a37866b058c8a1711669ad1267cfd31b72e2f3911270d7e1582d1e1176be7e2",
    "size_bytes": 5032843,
    "updated": "2026-09-10T18:04:19.311Z"
+  },
+  {
+   "declared_name": "harbor/phone-recovery-dead-end-customer-also-locked-out-of-email-on-file-user",
+   "declared_short": "phone-recovery-dead-end-customer-also-locked-out-of-email-on-file-user",
+   "folder": "phone-recovery-dead-end-customer-also-locked-out-of-email-on-file-user",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "4fb3480a01c786966b9581528a8cc262d54b281dc7eb8de1d0052bb58617e8b8",
+   "size_bytes": 7329891,
+   "updated": "2026-09-13T17:06:21.787Z"
   },
   {
    "connector_provenance": "real",
