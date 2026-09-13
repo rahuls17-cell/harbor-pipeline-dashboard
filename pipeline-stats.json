@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-13T19:37:02+00:00",
+ "generated_at": "2026-09-13T20:07:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 542,
-  "scanned": 542,
-  "connector": 150,
+  "task_folders": 543,
+  "scanned": 543,
+  "connector": 151,
   "non_connector": 392,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 73,
-  "synthetic": 29,
+  "synthetic": 30,
   "real": 48
  },
  "domain": {
-  "unnamed": 156,
+  "unnamed": 157,
   "code": 135,
   "fin": 21,
   "gen": 173,
@@ -22,7 +22,7 @@
   "law": 27
  },
  "name_prefix": {
-  "harbor": 154,
+  "harbor": 155,
   "obi": 388
  },
  "connector_services": {
@@ -34,15 +34,15 @@
   "jira-gym": 84,
   "zeta3-sql-gym": 84,
   "github-gym": 8,
+  "email-calendar-gym": 8,
   "outlook-gym": 7,
-  "email-calendar-gym": 7,
   "notion-gym": 6,
   "gws-gym": 6,
   "linear-gym": 3
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133651
+  "approx_bytes_read": 133414
  },
  "errors": [],
  "tasks": [
@@ -7895,17 +7895,17 @@
    "updated": "2026-09-09T20:32:48.327Z"
   },
   {
-   "declared_name": "harbor/review-board-label-state-reconciliation",
-   "declared_short": "review-board-label-state-reconciliation",
-   "folder": "review-board-label-state-reconciliation-20260821T123303Z-1-001",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/review-board-label-state-reconciliation",
+   "declared_short": "review-board-label-state-reconciliation",
    "domain": null,
+   "folder": "review-board-label-state-reconciliation-20260821T123303Z-1-001",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b91aeafe8a30debd6c3b5b9d65e9fa5453ceafbf8596eb7f12344249aca34d3e",
    "size_bytes": 6560619,
    "updated": "2026-09-13T19:25:18.912Z"
@@ -7925,6 +7925,22 @@
    "sha256": "71782d26849e1cadea87a3eecb46a545d23fdec0a723f6ecf1c9247aec06ec49",
    "size_bytes": 7895768,
    "updated": "2026-09-05T21:45:46.403Z"
+  },
+  {
+   "declared_name": "harbor/standing-invite-commitment-verification",
+   "declared_short": "standing-invite-commitment-verification",
+   "folder": "standing-invite-commitment-verification",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "6e5674cbc0b17abba6390da841aa99f89259dfd539d068f5f7d1d7c9a8644def",
+   "size_bytes": 9269314,
+   "updated": "2026-09-13T19:52:02.026Z"
   },
   {
    "connector_provenance": "synthetic",
