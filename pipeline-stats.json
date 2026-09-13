@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-13T17:07:02+00:00",
+ "generated_at": "2026-09-13T17:37:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 536,
-  "scanned": 536,
+  "task_folders": 537,
+  "scanned": 537,
   "connector": 148,
-  "non_connector": 388,
+  "non_connector": 389,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 154,
   "code": 134,
   "fin": 20,
-  "gen": 172,
+  "gen": 173,
   "health": 30,
   "law": 26
  },
  "name_prefix": {
   "harbor": 152,
-  "obi": 384
+  "obi": 385
  },
  "connector_services": {
   "google-drive-gym": 101,
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133379
+  "approx_bytes_read": 131554
  },
  "errors": [],
  "tasks": [
@@ -3839,6 +3839,20 @@
    "sha256": "26026f1f3f297d644182ac88cbdf4791878cb7979712ef15e960ac26a1e94112",
    "size_bytes": 6162511,
    "updated": "2026-09-08T10:48:33.332Z"
+  },
+  {
+   "declared_name": "obi/gen-g208-investor-newsletter-audit",
+   "declared_short": "gen-g208-investor-newsletter-audit",
+   "folder": "gen-g208-investor-newsletter-audit-v1",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "6505a00c4134b9cfa005c5cfa5d5ed45d49596b9b857fb35c396904dc1ae990b",
+   "size_bytes": 5353195,
+   "updated": "2026-09-13T17:13:30.628Z"
   },
   {
    "connector_provenance": null,
@@ -7719,11 +7733,7 @@
    "updated": "2026-09-10T18:04:19.311Z"
   },
   {
-   "declared_name": "harbor/phone-recovery-dead-end-customer-also-locked-out-of-email-on-file-user",
-   "declared_short": "phone-recovery-dead-end-customer-also-locked-out-of-email-on-file-user",
-   "folder": "phone-recovery-dead-end-customer-also-locked-out-of-email-on-file-user",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -7733,9 +7743,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/phone-recovery-dead-end-customer-also-locked-out-of-email-on-file-user",
+   "declared_short": "phone-recovery-dead-end-customer-also-locked-out-of-email-on-file-user",
    "domain": null,
+   "folder": "phone-recovery-dead-end-customer-also-locked-out-of-email-on-file-user",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4fb3480a01c786966b9581528a8cc262d54b281dc7eb8de1d0052bb58617e8b8",
    "size_bytes": 7329891,
    "updated": "2026-09-13T17:06:21.787Z"
