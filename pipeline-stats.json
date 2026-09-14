@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-09-14T14:07:03+00:00",
+ "generated_at": "2026-09-14T15:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 727,
-  "scanned": 727,
-  "connector": 183,
-  "non_connector": 544,
+  "task_folders": 729,
+  "scanned": 729,
+  "connector": 184,
+  "non_connector": 545,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 86,
+  "unknown": 87,
   "synthetic": 40,
   "real": 57
  },
  "domain": {
-  "unnamed": 190,
+  "unnamed": 191,
   "code": 174,
   "fin": 35,
   "gen": 246,
-  "health": 44,
+  "health": 45,
   "law": 38
  },
  "name_prefix": {
-  "harbor": 187,
-  "obi": 540
+  "harbor": 188,
+  "obi": 541
  },
  "connector_services": {
-  "google-drive-gym": 120,
-  "slack-gym": 116,
-  "confluence-gym": 101,
-  "email-gym": 101,
-  "freshdesk-gym": 101,
-  "jira-gym": 101,
-  "zeta3-sql-gym": 101,
+  "google-drive-gym": 121,
+  "slack-gym": 117,
+  "confluence-gym": 102,
+  "email-gym": 102,
+  "freshdesk-gym": 102,
+  "jira-gym": 102,
+  "zeta3-sql-gym": 102,
   "email-calendar-gym": 11,
   "github-gym": 10,
   "notion-gym": 9,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 266220
  },
  "errors": [],
  "tasks": [
@@ -9359,6 +9359,20 @@
    "updated": "2026-09-14T11:43:16.600Z"
   },
   {
+   "declared_name": "obi/health-tdt5-a9-supplement-stack-coverage-table",
+   "declared_short": "health-tdt5-a9-supplement-stack-coverage-table",
+   "folder": "health-tdt5-a9-supplement-stack-coverage-table-v1",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "0d0cab3191968de62a69fbba3d67c6c77020faf39e114e87bde9bd0c8ff6b641",
+   "size_bytes": 4263293,
+   "updated": "2026-09-14T14:41:24.630Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -10871,6 +10885,28 @@
    "sha256": "89bb5a5ac727fe2215bbb7137be531802093279c3e42eb763517fa83579dc6c0",
    "size_bytes": 7531061,
    "updated": "2026-09-06T04:20:30.120Z"
+  },
+  {
+   "declared_name": "harbor/verify-ach-debit-pull-121620-20k-against-daily-ach-debit-program-limit",
+   "declared_short": "verify-ach-debit-pull-121620-20k-against-daily-ach-debit-program-limit",
+   "folder": "verify-ach-debit-pull-121620-20k-against-daily-ach-debit-program-limit-v3",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "060fe8f93f253ab5dae57c47c341c0a969b52718cae448a81996216cab1bd998",
+   "size_bytes": 7501637,
+   "updated": "2026-09-14T14:50:50.207Z"
   },
   {
    "connector_provenance": "unknown",
