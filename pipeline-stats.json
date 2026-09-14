@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-13T20:37:02+00:00",
+ "generated_at": "2026-09-14T04:37:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 544,
-  "scanned": 544,
+  "task_folders": 545,
+  "scanned": 545,
   "connector": 151,
-  "non_connector": 393,
+  "non_connector": 394,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 135,
   "fin": 21,
   "gen": 174,
-  "health": 30,
+  "health": 31,
   "law": 27
  },
  "name_prefix": {
   "harbor": 155,
-  "obi": 389
+  "obi": 390
  },
  "connector_services": {
   "google-drive-gym": 102,
@@ -42,7 +42,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131645
+  "approx_bytes_read": 131654
  },
  "errors": [],
  "tasks": [
@@ -3549,15 +3549,15 @@
    "updated": "2026-09-08T14:39:12.106Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1171-needs-ledger-evidence-audit",
    "declared_short": "gen-g1171-needs-ledger-evidence-audit",
-   "folder": "gen-g1171-needs-ledger-evidence-audit-r98-ap3-direct-qc-20260913T171631Z",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1171-needs-ledger-evidence-audit-r98-ap3-direct-qc-20260913T171631Z",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6db0870da4a0c52a80b9ab244d17dfff55955dc899fa8fa78ac684b7d4efbd92",
    "size_bytes": 14083842,
    "updated": "2026-09-13T20:08:03.558Z"
@@ -6679,6 +6679,20 @@
    "sha256": "94cb04008f8e361ece63386de2a69e57fe7072d0f60cd93b47277858707b7e08",
    "size_bytes": 7480820,
    "updated": "2026-09-06T04:19:33.735Z"
+  },
+  {
+   "declared_name": "obi/health-b43-h10-food-classification-guide-build",
+   "declared_short": "health-b43-h10-food-classification-guide-build",
+   "folder": "health-b43-h10-food-classification-guide-build",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "b07ce2d99a5b3ec8ebdd156f3c0cdb27a48a32a90195f6c97df19a12534fb44f",
+   "size_bytes": 6500171,
+   "updated": "2026-09-14T04:22:25.785Z"
   },
   {
    "connector_provenance": null,
