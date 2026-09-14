@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T15:07:03+00:00",
+ "generated_at": "2026-09-14T15:37:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 729,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 266220
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -9359,15 +9359,15 @@
    "updated": "2026-09-14T11:43:16.600Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt5-a9-supplement-stack-coverage-table",
    "declared_short": "health-tdt5-a9-supplement-stack-coverage-table",
-   "folder": "health-tdt5-a9-supplement-stack-coverage-table-v1",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt5-a9-supplement-stack-coverage-table-v1",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0d0cab3191968de62a69fbba3d67c6c77020faf39e114e87bde9bd0c8ff6b641",
    "size_bytes": 4263293,
    "updated": "2026-09-14T14:41:24.630Z"
@@ -10887,11 +10887,7 @@
    "updated": "2026-09-06T04:20:30.120Z"
   },
   {
-   "declared_name": "harbor/verify-ach-debit-pull-121620-20k-against-daily-ach-debit-program-limit",
-   "declared_short": "verify-ach-debit-pull-121620-20k-against-daily-ach-debit-program-limit",
-   "folder": "verify-ach-debit-pull-121620-20k-against-daily-ach-debit-program-limit-v3",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -10901,9 +10897,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/verify-ach-debit-pull-121620-20k-against-daily-ach-debit-program-limit",
+   "declared_short": "verify-ach-debit-pull-121620-20k-against-daily-ach-debit-program-limit",
    "domain": null,
+   "folder": "verify-ach-debit-pull-121620-20k-against-daily-ach-debit-program-limit-v3",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "060fe8f93f253ab5dae57c47c341c0a969b52718cae448a81996216cab1bd998",
    "size_bytes": 7501637,
    "updated": "2026-09-14T14:50:50.207Z"
