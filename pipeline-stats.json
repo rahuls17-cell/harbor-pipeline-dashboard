@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-14T20:07:02+00:00",
+ "generated_at": "2026-09-14T21:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 729,
-  "scanned": 729,
-  "connector": 184,
-  "non_connector": 545,
+  "task_folders": 732,
+  "scanned": 732,
+  "connector": 185,
+  "non_connector": 547,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 87,
-  "synthetic": 40,
+  "synthetic": 41,
   "real": 57
  },
  "domain": {
-  "unnamed": 191,
+  "unnamed": 192,
   "code": 174,
   "fin": 35,
-  "gen": 246,
+  "gen": 247,
   "health": 45,
-  "law": 38
+  "law": 39
  },
  "name_prefix": {
-  "harbor": 188,
-  "obi": 541
+  "harbor": 189,
+  "obi": 543
  },
  "connector_services": {
   "google-drive-gym": 121,
@@ -38,11 +38,12 @@
   "notion-gym": 9,
   "outlook-gym": 9,
   "gws-gym": 6,
-  "linear-gym": 3
+  "linear-gym": 3,
+  "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 403965
  },
  "errors": [],
  "tasks": [
@@ -5825,6 +5826,20 @@
    "updated": "2026-09-10T10:23:28.163Z"
   },
   {
+   "declared_name": "obi/gen-g434-nursery-plant-licensing-compliance-audit",
+   "declared_short": "gen-g434-nursery-plant-licensing-compliance-audit",
+   "folder": "gen-g434-nursery-plant-licensing-compliance-audit-v1",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "567661d830fe7a7d23603b068c163c6428bc2134cf2d5a7d6b5489987268e8d2",
+   "size_bytes": 3918212,
+   "updated": "2026-09-14T20:56:53.080Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g435-home-improvement-payment-milestone-audit",
@@ -9639,6 +9654,20 @@
    "updated": "2026-09-14T10:39:49.854Z"
   },
   {
+   "declared_name": "obi/law-b39-l9-governing-document-version-register",
+   "declared_short": "law-b39-l9-governing-document-version-register",
+   "folder": "law-b39-l9-governing-document-version-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "14b21686e8ea3b34be8c3d664d79b778039c1a7a8e9ffa89e7d3155f0365a2c9",
+   "size_bytes": 3997595,
+   "updated": "2026-09-14T20:56:56.014Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-b42-l11-misdirected-royalty-recovery-reconciliation",
@@ -10367,6 +10396,22 @@
    "sha256": "892b731db971810ceeced8d518579860b25864974c6a15ccbe1dc8658e37873c",
    "size_bytes": 5244921,
    "updated": "2026-09-14T10:08:13.507Z"
+  },
+  {
+   "declared_name": "harbor/read-only-in-name-only",
+   "declared_short": "read-only-in-name-only",
+   "folder": "read-only-in-name-only",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "013aa86be9a0b5d0c0471bbff05a1e341ce76495321bd5246a9137f8a68fb236",
+   "size_bytes": 8458580,
+   "updated": "2026-09-14T21:00:33.622Z"
   },
   {
    "connector_provenance": "real",
