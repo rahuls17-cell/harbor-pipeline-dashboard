@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-14T07:15:23+00:00",
+ "generated_at": "2026-09-14T09:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 546,
-  "scanned": 546,
+  "task_folders": 551,
+  "scanned": 551,
   "connector": 151,
-  "non_connector": 395,
+  "non_connector": 400,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 157,
-  "code": 135,
-  "fin": 21,
-  "gen": 174,
-  "health": 31,
+  "code": 136,
+  "fin": 22,
+  "gen": 176,
+  "health": 32,
   "law": 28
  },
  "name_prefix": {
   "harbor": 155,
-  "obi": 391
+  "obi": 396
  },
  "connector_services": {
   "google-drive-gym": 102,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 5,
+  "approx_bytes_read": 657901
  },
  "errors": [],
  "tasks": [
@@ -687,6 +687,20 @@
    "sha256": "5b932d133d8836e849b78d9fb7481b140d81f3f1c67f35cd92ac0510112911d4",
    "size_bytes": 10630951,
    "updated": "2026-09-13T07:51:30.729Z"
+  },
+  {
+   "declared_name": "obi/code-c119-table-lineage-completeness-audit",
+   "declared_short": "code-c119-table-lineage-completeness-audit",
+   "folder": "code-c119-table-lineage-completeness-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "5ee1e828888a9612b86cce413791917f08bff4f3e43c6fb11e4b470c7422def4",
+   "size_bytes": 6212564,
+   "updated": "2026-09-14T08:55:01.892Z"
   },
   {
    "connector_provenance": null,
@@ -3227,6 +3241,20 @@
    "updated": "2026-09-13T18:09:58.656Z"
   },
   {
+   "declared_name": "obi/fin-b46-a5-mapped-trial-balance",
+   "declared_short": "fin-b46-a5-mapped-trial-balance",
+   "folder": "fin-b46-a5-mapped-trial-balance",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "fb9cc8083ce5b7d45a1d6bb43587a8b6b0c49245b8825a33fed399b1d0af1c7f",
+   "size_bytes": 7034006,
+   "updated": "2026-09-14T08:55:56.969Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/fin-f14-lease-straight-line-rent",
@@ -4697,6 +4725,20 @@
    "updated": "2026-09-06T00:37:18.149Z"
   },
   {
+   "declared_name": "obi/gen-g597-insights-post-publishing-compliance-audit",
+   "declared_short": "gen-g597-insights-post-publishing-compliance-audit",
+   "folder": "gen-g597-insights-post-publishing-compliance-audit-r193-cohort-direct-qc-20260913T192540Z",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "97a51b7c07e2d1c2dc326270607e5ff832576a23ffff9cab70693c083d45cd16",
+   "size_bytes": 18338242,
+   "updated": "2026-09-14T08:58:03.327Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g609-river-cyanotoxin-advisory-audit",
@@ -5297,6 +5339,20 @@
    "sha256": "1bc0d0d3723d5af4f60b5dcc7403ba84680965d536872bb7012264de1da3162d",
    "size_bytes": 4381417,
    "updated": "2026-09-05T23:35:23.088Z"
+  },
+  {
+   "declared_name": "obi/gen-g850-sdi-project-phase-sequencing-audit",
+   "declared_short": "gen-g850-sdi-project-phase-sequencing-audit",
+   "folder": "gen-g850-sdi-project-phase-sequencing-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "a05c5b59c15eec3d3cf7217e2343fc174cd6a68f88976807f61f63f851f03161",
+   "size_bytes": 6212268,
+   "updated": "2026-09-14T08:56:58.992Z"
   },
   {
    "connector_provenance": null,
@@ -6693,6 +6749,20 @@
    "sha256": "b07ce2d99a5b3ec8ebdd156f3c0cdb27a48a32a90195f6c97df19a12534fb44f",
    "size_bytes": 6500171,
    "updated": "2026-09-14T04:22:25.785Z"
+  },
+  {
+   "declared_name": "obi/health-b43-h3-methylation-meal-plan-nutrient-ledger",
+   "declared_short": "health-b43-h3-methylation-meal-plan-nutrient-ledger",
+   "folder": "health-b43-h3-methylation-meal-plan-nutrient-ledger",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "47ec4bb49e3b0a63bcd97bcc4f576a3e7727982198371bbec42d4aafae9879c9",
+   "size_bytes": 6376536,
+   "updated": "2026-09-14T08:53:59.368Z"
   },
   {
    "connector_provenance": null,
