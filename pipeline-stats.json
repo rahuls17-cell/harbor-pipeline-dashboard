@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T13:37:04+00:00",
+ "generated_at": "2026-09-14T14:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 727,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 6,
-  "approx_bytes_read": 791755
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4089,15 +4089,15 @@
    "updated": "2026-09-14T11:43:26.907Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b43-a4-statement-category-total-recheck",
    "declared_short": "fin-b43-a4-statement-category-total-recheck",
-   "folder": "fin-b43-a4-statement-category-total-recheck",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b43-a4-statement-category-total-recheck",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1856b6996d6fd1c0ce0d72e5a9be342f99adec997bdd4d80837fb6e212d088fb",
    "size_bytes": 3029147,
    "updated": "2026-09-14T13:10:17.689Z"
@@ -6217,15 +6217,15 @@
    "updated": "2026-09-14T11:02:47.805Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g594-hotel-channel-syndication-sync-audit",
    "declared_short": "gen-g594-hotel-channel-syndication-sync-audit",
-   "folder": "gen-g594-hotel-channel-syndication-sync-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g594-hotel-channel-syndication-sync-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "aa1243d1cf8a9d1dba70dd4914ae959778bde325885752508875bf2191e3eb06",
    "size_bytes": 5373904,
    "updated": "2026-09-14T13:09:46.566Z"
@@ -6301,15 +6301,15 @@
    "updated": "2026-09-14T12:51:13.942Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g617-robotics-kitting-milestone-gate-audit",
    "declared_short": "gen-g617-robotics-kitting-milestone-gate-audit",
-   "folder": "gen-g617-robotics-kitting-milestone-gate-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g617-robotics-kitting-milestone-gate-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "11df1e317e573771dfc81b1f85fa4c56c6eda97773186d5a5ad0e1820fb4570b",
    "size_bytes": 4806874,
    "updated": "2026-09-14T13:21:58.784Z"
@@ -8483,15 +8483,15 @@
    "updated": "2026-09-14T12:03:51.326Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c204-ui-test-flakiness-budget-audit",
    "declared_short": "code-c204-ui-test-flakiness-budget-audit",
-   "folder": "harbor-single-task-sv7l8nvk",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "harbor-single-task-sv7l8nvk",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ce5d18c86788cdde65be8c9106b6cfd199dc47e88d7fc3ecb886ea41aa56b210",
    "size_bytes": 4696465,
    "updated": "2026-09-14T13:18:32.413Z"
@@ -9445,11 +9445,7 @@
    "updated": "2026-09-12T15:57:58.084Z"
   },
   {
-   "declared_name": "harbor/investigate-declined-over-limit-card-transactions-for-household-accoun",
-   "declared_short": "investigate-declined-over-limit-card-transactions-for-household-accoun",
-   "folder": "investigate-declined-over-limit-card-transactions-for-household-accoun",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -9459,9 +9455,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/investigate-declined-over-limit-card-transactions-for-household-accoun",
+   "declared_short": "investigate-declined-over-limit-card-transactions-for-household-accoun",
    "domain": null,
+   "folder": "investigate-declined-over-limit-card-transactions-for-household-accoun",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f8f20dc4c8c816f0fa6f18ce3c7373704e342e957846c85b4719f5c5350bc90d",
    "size_bytes": 9689673,
    "updated": "2026-09-14T13:27:52.731Z"
@@ -9751,15 +9751,15 @@
    "updated": "2026-09-09T06:39:06.302Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-l19-trademark-class-overlap",
    "declared_short": "law-l19-trademark-class-overlap",
-   "folder": "law-l19-trademark-class-overlap",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-l19-trademark-class-overlap",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d7cfc591e15a45a33606124e9f43197284841fef7001c55150171146ff6c87d3",
    "size_bytes": 9298276,
    "updated": "2026-09-14T13:31:33.275Z"
