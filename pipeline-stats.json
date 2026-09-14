@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-14T21:37:03+00:00",
+ "generated_at": "2026-09-14T22:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 733,
-  "scanned": 733,
+  "task_folders": 734,
+  "scanned": 734,
   "connector": 185,
-  "non_connector": 548,
+  "non_connector": 549,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 36,
   "gen": 247,
   "health": 45,
-  "law": 39
+  "law": 40
  },
  "name_prefix": {
   "harbor": 189,
-  "obi": 544
+  "obi": 545
  },
  "connector_services": {
   "google-drive-gym": 121,
@@ -43,7 +43,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131490
+  "approx_bytes_read": 131918
  },
  "errors": [],
  "tasks": [
@@ -4188,15 +4188,15 @@
    "updated": "2026-09-14T08:55:56.969Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b47-a1-venture-fund-nav-premium",
    "declared_short": "fin-b47-a1-venture-fund-nav-premium",
-   "folder": "fin-b47-a1-venture-fund-nav-premium",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b47-a1-venture-fund-nav-premium",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8319361d1549104a093c34acf6897e7aee724ccf66f8c81eaa44f0f26b06a719",
    "size_bytes": 4318858,
    "updated": "2026-09-14T21:29:43.106Z"
@@ -9652,6 +9652,20 @@
    "sha256": "437bbab0d3855ae9b98ee7d05f5a141d895ab8921fff62c74377c50584e71e8e",
    "size_bytes": 5824399,
    "updated": "2026-09-14T07:04:27.336Z"
+  },
+  {
+   "declared_name": "obi/law-b37-l14-abstention-rules-table-audit",
+   "declared_short": "law-b37-l14-abstention-rules-table-audit",
+   "folder": "law-b37-l14-abstention-rules-table-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "035ba9747f8ed5572d4b30563df75de1ce77e2deb3afe5ded224aea7452e48e4",
+   "size_bytes": 6069900,
+   "updated": "2026-09-14T21:40:22.456Z"
   },
   {
    "connector_provenance": null,
