@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-14T22:07:03+00:00",
+ "generated_at": "2026-09-14T22:37:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 734,
-  "scanned": 734,
-  "connector": 185,
+  "task_folders": 735,
+  "scanned": 735,
+  "connector": 186,
   "non_connector": 549,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 87,
-  "synthetic": 41,
+  "synthetic": 42,
   "real": 57
  },
  "domain": {
-  "unnamed": 192,
+  "unnamed": 193,
   "code": 174,
   "fin": 36,
   "gen": 247,
@@ -22,12 +22,12 @@
   "law": 40
  },
  "name_prefix": {
-  "harbor": 189,
+  "harbor": 190,
   "obi": 545
  },
  "connector_services": {
   "google-drive-gym": 121,
-  "slack-gym": 117,
+  "slack-gym": 118,
   "confluence-gym": 102,
   "email-gym": 102,
   "freshdesk-gym": 102,
@@ -43,7 +43,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131918
+  "approx_bytes_read": 133865
  },
  "errors": [],
  "tasks": [
@@ -794,6 +794,22 @@
    "sha256": "85f8a5cad35c600b50837fc53110db999407d2d06d0c253c59c85af1f0cd5774",
    "size_bytes": 6581675,
    "updated": "2026-09-13T04:17:00.613Z"
+  },
+  {
+   "declared_name": "harbor/closed-loop-claim-reconciliation",
+   "declared_short": "closed-loop-claim-reconciliation",
+   "folder": "closed-loop-claim-reconciliation",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "9cabe0f9ed3240ad8e1e49a86000230d3f5a1e75dde43a9bbf86dbe4651b9d57",
+   "size_bytes": 7738672,
+   "updated": "2026-09-14T22:12:22.581Z"
   },
   {
    "connector_provenance": null,
@@ -9654,15 +9670,15 @@
    "updated": "2026-09-14T07:04:27.336Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b37-l14-abstention-rules-table-audit",
    "declared_short": "law-b37-l14-abstention-rules-table-audit",
-   "folder": "law-b37-l14-abstention-rules-table-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b37-l14-abstention-rules-table-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "035ba9747f8ed5572d4b30563df75de1ce77e2deb3afe5ded224aea7452e48e4",
    "size_bytes": 6069900,
    "updated": "2026-09-14T21:40:22.456Z"
