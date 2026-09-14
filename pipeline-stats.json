@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-14T06:58:23+00:00",
+ "generated_at": "2026-09-14T07:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 545,
-  "scanned": 545,
+  "task_folders": 546,
+  "scanned": 546,
   "connector": 151,
-  "non_connector": 394,
+  "non_connector": 395,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 21,
   "gen": 174,
   "health": 31,
-  "law": 27
+  "law": 28
  },
  "name_prefix": {
   "harbor": 155,
-  "obi": 390
+  "obi": 391
  },
  "connector_services": {
   "google-drive-gym": 102,
@@ -41,8 +41,8 @@
   "linear-gym": 3
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131686
  },
  "errors": [],
  "tasks": [
@@ -7285,6 +7285,20 @@
    "sha256": "b156ad7b74c6e0c18168a6647c8db3054795eac8a2960924b0628b3915e9968d",
    "size_bytes": 5295738,
    "updated": "2026-09-13T13:12:30.899Z"
+  },
+  {
+   "declared_name": "obi/law-b36-l8-refund-cheque-status-register",
+   "declared_short": "law-b36-l8-refund-cheque-status-register",
+   "folder": "law-b36-l8-refund-cheque-status-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "437bbab0d3855ae9b98ee7d05f5a141d895ab8921fff62c74377c50584e71e8e",
+   "size_bytes": 5824399,
+   "updated": "2026-09-14T07:04:27.336Z"
   },
   {
    "connector_provenance": null,
