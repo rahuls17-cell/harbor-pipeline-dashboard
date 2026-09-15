@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-09-15T19:37:04+00:00",
+ "generated_at": "2026-09-15T20:07:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 842,
-  "scanned": 842,
-  "connector": 214,
-  "non_connector": 628,
+  "task_folders": 846,
+  "scanned": 846,
+  "connector": 215,
+  "non_connector": 631,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 103,
+  "unknown": 104,
   "synthetic": 51,
   "real": 60
  },
  "domain": {
-  "unnamed": 225,
+  "unnamed": 226,
   "code": 195,
   "fin": 44,
-  "gen": 274,
+  "gen": 276,
   "health": 53,
-  "law": 51
+  "law": 52
  },
  "name_prefix": {
-  "harbor": 218,
-  "obi": 624
+  "harbor": 219,
+  "obi": 627
  },
  "connector_services": {
-  "slack-gym": 138,
-  "google-drive-gym": 135,
-  "confluence-gym": 118,
-  "zeta3-sql-gym": 118,
-  "email-gym": 116,
-  "freshdesk-gym": 116,
-  "jira-gym": 116,
+  "slack-gym": 139,
+  "google-drive-gym": 136,
+  "confluence-gym": 119,
+  "zeta3-sql-gym": 119,
+  "email-gym": 117,
+  "freshdesk-gym": 117,
+  "jira-gym": 117,
   "notion-gym": 12,
   "email-calendar-gym": 11,
   "github-gym": 11,
@@ -44,7 +44,7 @@
  },
  "scan": {
   "new_archives_read": 4,
-  "approx_bytes_read": 526068
+  "approx_bytes_read": 530051
  },
  "errors": [],
  "tasks": [
@@ -2175,15 +2175,15 @@
    "updated": "2026-09-09T17:16:37.636Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c443-plan-list-field-mapping-migration-audit",
    "declared_short": "code-c443-plan-list-field-mapping-migration-audit",
-   "folder": "code-c443-plan-list-field-mapping-migration-audi-8a6ecb-v1-sna-gssv",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c443-plan-list-field-mapping-migration-audi-8a6ecb-v1-sna-gssv",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "562da13e83eec40766bf86298a1445984694c77743e4bbfc3caac4ff80c73cd6",
    "size_bytes": 4723565,
    "updated": "2026-09-15T19:29:58.573Z"
@@ -4279,15 +4279,15 @@
    "updated": "2026-09-12T13:57:25.757Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-s1-b3-pacing-guide-correction-order",
    "declared_short": "edu-s1-b3-pacing-guide-correction-order",
-   "folder": "edu-s1-b3-pacing-guide-correction-order",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-s1-b3-pacing-guide-correction-order",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "43fafbdae1ecb62b2e6fe274c110b84eb2da9128bd993394ecaca2ed2876c9d4",
    "size_bytes": 3191978,
    "updated": "2026-09-15T19:20:55.835Z"
@@ -6915,6 +6915,20 @@
    "updated": "2026-09-09T04:36:31.200Z"
   },
   {
+   "declared_name": "obi/gen-g505-classroom-rubric-compliance-audit",
+   "declared_short": "gen-g505-classroom-rubric-compliance-audit",
+   "folder": "gen-g505-classroom-rubric-compliance-audit-1648bf-v4-sna-qofb",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "5eb87a7f9b56ee0341e3ef89a16e27c3acba5fcdee1d8ff59c6e99a1ff4834f6",
+   "size_bytes": 7421396,
+   "updated": "2026-09-15T19:55:12.547Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g510-album-track-production-cost-audit",
@@ -8369,6 +8383,20 @@
    "sha256": "183438ca400aa5e36ec2467600f9a20aad0663d398d769ccb44dcbdf5dcfc93d",
    "size_bytes": 18022988,
    "updated": "2026-09-05T18:58:12.824Z"
+  },
+  {
+   "declared_name": "obi/gen-g898-costume-character-cutout-spec-audit",
+   "declared_short": "gen-g898-costume-character-cutout-spec-audit",
+   "folder": "gen-g898-costume-character-cutout-spec-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "9dc8165353aa67822a829ae726adb7d5f18de0f9fe8f273d8eefd582247dc491",
+   "size_bytes": 3459668,
+   "updated": "2026-09-15T20:02:33.407Z"
   },
   {
    "connector_provenance": null,
@@ -9931,15 +9959,15 @@
    "updated": "2026-09-14T04:22:25.785Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b43-h13-drug-channel-price-variance",
    "declared_short": "health-b43-h13-drug-channel-price-variance",
-   "folder": "health-b43-h13-drug-channel-price-variance",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b43-h13-drug-channel-price-variance",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "12dd6e1497328c1bddd5bf9d43b88cf04a80a0af29557015dbdb4ce6cdb9e535",
    "size_bytes": 4960377,
    "updated": "2026-09-15T19:13:14.592Z"
@@ -10897,6 +10925,20 @@
    "updated": "2026-09-14T07:04:27.336Z"
   },
   {
+   "declared_name": "obi/law-b37-l1-invention-register-grounding-audit",
+   "declared_short": "law-b37-l1-invention-register-grounding-audit",
+   "folder": "law-b37-l1-invention-register-grounding-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "1d885b40c3fd2a40e14707b2061431d9b83980994c9595cd42cef97b21185759",
+   "size_bytes": 4602553,
+   "updated": "2026-09-15T19:50:14.407Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-b37-l12-research-attribution-audit",
@@ -10953,15 +10995,15 @@
    "updated": "2026-09-14T10:39:49.854Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b39-l11-clemency-objection-deadline-register",
    "declared_short": "law-b39-l11-clemency-objection-deadline-register",
-   "folder": "law-b39-l11-clemency-objection-deadline-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b39-l11-clemency-objection-deadline-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9b0feb644cc878e405be6774153c619f46349a60cc0aad99ab554b2258704a74",
    "size_bytes": 4961036,
    "updated": "2026-09-15T19:36:26.653Z"
@@ -12203,6 +12245,28 @@
    "sha256": "a296725f2d391b27c11d059e4bafdd15ac6260735c0cb3afdd33c1b92f290110",
    "size_bytes": 4799496,
    "updated": "2026-09-05T20:14:23.783Z"
+  },
+  {
+   "declared_name": "harbor/verify-missing-200-joint-account-transfer-to-external-bank-for-user-91",
+   "declared_short": "verify-missing-200-joint-account-transfer-to-external-bank-for-user-91",
+   "folder": "task-100550-verify-missing-200-joint-account-transfer-to-external-bank-for-user-91-reviewed-2",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "ff250bfe7741333ef8bff4668cd15059a15b6776ec2e913827278e06c7e1af80",
+   "size_bytes": 8389529,
+   "updated": "2026-09-15T19:38:36.600Z"
   },
   {
    "connector_provenance": "synthetic",
