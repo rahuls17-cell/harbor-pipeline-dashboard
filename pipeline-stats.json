@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-15T22:37:03+00:00",
+ "generated_at": "2026-09-15T23:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 863,
-  "scanned": 863,
+  "task_folders": 865,
+  "scanned": 865,
   "connector": 217,
-  "non_connector": 646,
+  "non_connector": 648,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 229,
-  "code": 196,
+  "code": 197,
   "fin": 46,
-  "gen": 280,
+  "gen": 281,
   "health": 56,
   "law": 56
  },
  "name_prefix": {
   "harbor": 221,
-  "obi": 642
+  "obi": 644
  },
  "connector_services": {
   "slack-gym": 140,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 394506
+  "new_archives_read": 2,
+  "approx_bytes_read": 262905
  },
  "errors": [],
  "tasks": [
@@ -1467,6 +1467,20 @@
    "sha256": "c12d5dc299b6a7147861d8d820ef2140e067273ea3882bf946cd8753744a9a6a",
    "size_bytes": 4005976,
    "updated": "2026-09-11T03:38:17.750Z"
+  },
+  {
+   "declared_name": "obi/code-c279-extracted-hyperlink-safety-audit",
+   "declared_short": "code-c279-extracted-hyperlink-safety-audit",
+   "folder": "code-c279-extracted-hyperlink-safety-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "38ba4af8fd85f5257725dc9df224267a2560a4b161eb001493a9e9e20b619eca",
+   "size_bytes": 3955332,
+   "updated": "2026-09-15T22:53:25.696Z"
   },
   {
    "connector_provenance": null,
@@ -7259,6 +7273,20 @@
    "updated": "2026-09-09T22:41:41.863Z"
   },
   {
+   "declared_name": "obi/gen-g590-incident-credit-backfill-audit",
+   "declared_short": "gen-g590-incident-credit-backfill-audit",
+   "folder": "gen-g590-incident-credit-backfill-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "8698742d7e428a4641347586f9878eb0780600f566844e393dee78298a058683",
+   "size_bytes": 3610153,
+   "updated": "2026-09-15T23:00:14.966Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g592-sop-review-cycle-compliance-audit",
@@ -10779,15 +10807,15 @@
    "updated": "2026-09-14T23:54:15.530Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt5-a15-exercise-sheet-link-availability-log",
    "declared_short": "health-tdt5-a15-exercise-sheet-link-availability-log",
-   "folder": "health-tdt5-a15-exercise-sheet-link-availability-log",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt5-a15-exercise-sheet-link-availability-log",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "757ed5194b3a55c63540dd6fc9f59fc968b9f0cbf7ecc57ed5b7dbc4d5d72060",
    "size_bytes": 4846186,
    "updated": "2026-09-15T22:27:46.294Z"
@@ -11143,15 +11171,15 @@
    "updated": "2026-09-14T21:40:22.456Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b37-l8-power-of-attorney-clause-audit",
    "declared_short": "law-b37-l8-power-of-attorney-clause-audit",
-   "folder": "law-b37-l8-power-of-attorney-clause-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b37-l8-power-of-attorney-clause-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "168e79e2965026dfd9c4ecfec4b41aa85e135eb181924af5b5fe27320f03c11c",
    "size_bytes": 3732614,
    "updated": "2026-09-15T22:23:57.788Z"
@@ -11353,15 +11381,15 @@
    "updated": "2026-09-14T10:47:24.535Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b42-l6-event-ticket-gst-liability-recompute",
    "declared_short": "law-b42-l6-event-ticket-gst-liability-recompute",
-   "folder": "law-b42-l6-event-ticket-gst-liability-recompute-r191-artifact-export-fix-direct-qc",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b42-l6-event-ticket-gst-liability-recompute-r191-artifact-export-fix-direct-qc",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ff5bdf8a1cdfc1d4151b573f2e6364e300dd9d88f39fe9068df6228cfb4f3b61",
    "size_bytes": 13428838,
    "updated": "2026-09-15T22:17:30.667Z"
