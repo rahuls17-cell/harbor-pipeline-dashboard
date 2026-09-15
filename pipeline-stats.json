@@ -1,32 +1,32 @@
 {
- "generated_at": "2026-09-15T16:37:02+00:00",
+ "generated_at": "2026-09-15T17:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 835,
-  "scanned": 835,
-  "connector": 213,
-  "non_connector": 622,
+  "task_folders": 837,
+  "scanned": 837,
+  "connector": 214,
+  "non_connector": 623,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 103,
-  "synthetic": 50,
+  "synthetic": 51,
   "real": 60
  },
  "domain": {
-  "unnamed": 223,
+  "unnamed": 224,
   "code": 194,
   "fin": 44,
   "gen": 274,
-  "health": 50,
+  "health": 51,
   "law": 50
  },
  "name_prefix": {
-  "harbor": 217,
-  "obi": 618
+  "harbor": 218,
+  "obi": 619
  },
  "connector_services": {
-  "slack-gym": 137,
+  "slack-gym": 138,
   "google-drive-gym": 135,
   "confluence-gym": 118,
   "zeta3-sql-gym": 118,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134257
+  "new_archives_read": 2,
+  "approx_bytes_read": 264878
  },
  "errors": [],
  "tasks": [
@@ -119,11 +119,7 @@
    "updated": "2026-09-15T00:51:55.727Z"
   },
   {
-   "declared_name": "harbor/ach-pull-567018-completion-estimate-seems-late-verify-against-holiday",
-   "declared_short": "ach-pull-567018-completion-estimate-seems-late-verify-against-holiday",
-   "folder": "ach-pull-567018-completion-estimate-seems-late-verify-against-holiday",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -133,9 +129,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/ach-pull-567018-completion-estimate-seems-late-verify-against-holiday",
+   "declared_short": "ach-pull-567018-completion-estimate-seems-late-verify-against-holiday",
    "domain": null,
+   "folder": "ach-pull-567018-completion-estimate-seems-late-verify-against-holiday",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "90808fa250d5f9a93fbebbc4782897ce952f39d6e21f3fe0981bdb219b68ac5c",
    "size_bytes": 6549696,
    "updated": "2026-09-15T16:15:56.054Z"
@@ -10519,6 +10519,20 @@
    "updated": "2026-09-14T11:43:16.600Z"
   },
   {
+   "declared_name": "obi/health-tdt5-a10-meal-plan-grocery-reconcile",
+   "declared_short": "health-tdt5-a10-meal-plan-grocery-reconcile",
+   "folder": "health-tdt5-a10-meal-plan-grocery-reconcile",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "0da8b9a3ed2a3d4207d0db01668d647f6754b24ae8b0e1c88ccdf8a0f70f2639",
+   "size_bytes": 5386175,
+   "updated": "2026-09-15T16:42:49.780Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt5-a12-switch-dose-mapping-adjudication",
@@ -12213,6 +12227,22 @@
    "sha256": "2e28ba580fe588266e3f52191368431a20ceb38b55cdb27e717f1a578c583d38",
    "size_bytes": 6840663,
    "updated": "2026-09-13T03:56:23.558Z"
+  },
+  {
+   "declared_name": "harbor/deploy-window-local-time-crossref",
+   "declared_short": "deploy-window-local-time-crossref",
+   "folder": "task_deploy-window-local-time-crossref-v23",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "36e165e5280d52a982e95c1abbb7469f1a8fb406fa1c99fac26323180ab2256b",
+   "size_bytes": 5648936,
+   "updated": "2026-09-15T16:44:46.027Z"
   },
   {
    "connector_provenance": "unknown",
