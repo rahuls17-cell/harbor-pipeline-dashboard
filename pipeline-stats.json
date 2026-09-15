@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T17:37:03+00:00",
+ "generated_at": "2026-09-15T18:07:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 837,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131521
  },
  "errors": [],
  "tasks": [
@@ -3337,18 +3337,18 @@
    "updated": "2026-09-08T10:47:42.171Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/code-c769-lip-sync-offset-qc-audit",
    "declared_short": "code-c769-lip-sync-offset-qc-audit",
-   "domain": "code",
    "folder": "code-c769-lip-sync-offset-qc-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "f41f70917253f39741cbeef264742e0c20057db7c2e2eebb69c355ad71596cbd",
-   "size_bytes": 4034679,
-   "updated": "2026-09-15T14:08:16.565Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "c2b68523f7d0808839a6c47913e78568c11bd0fccb1200046e13fbcdcac29a44",
+   "size_bytes": 4128683,
+   "updated": "2026-09-15T17:52:08.813Z"
   },
   {
    "connector_provenance": null,
