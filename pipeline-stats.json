@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-09-15T00:37:11+00:00",
+ "generated_at": "2026-09-15T01:07:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 808,
-  "scanned": 808,
-  "connector": 207,
-  "non_connector": 601,
+  "task_folders": 812,
+  "scanned": 812,
+  "connector": 208,
+  "non_connector": 604,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 99,
+  "unknown": 100,
   "synthetic": 48,
   "real": 60
  },
  "domain": {
-  "unnamed": 216,
+  "unnamed": 217,
   "code": 190,
-  "fin": 39,
-  "gen": 268,
+  "fin": 40,
+  "gen": 269,
   "health": 48,
-  "law": 47
+  "law": 48
  },
  "name_prefix": {
-  "harbor": 211,
-  "obi": 597
+  "harbor": 212,
+  "obi": 600
  },
  "connector_services": {
-  "slack-gym": 133,
-  "google-drive-gym": 132,
-  "confluence-gym": 115,
-  "zeta3-sql-gym": 115,
-  "email-gym": 113,
-  "freshdesk-gym": 113,
-  "jira-gym": 113,
+  "slack-gym": 134,
+  "google-drive-gym": 133,
+  "confluence-gym": 116,
+  "zeta3-sql-gym": 116,
+  "email-gym": 114,
+  "freshdesk-gym": 114,
+  "jira-gym": 114,
   "notion-gym": 12,
   "email-calendar-gym": 11,
   "github-gym": 11,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 37,
-  "approx_bytes_read": 4892730
+  "new_archives_read": 6,
+  "approx_bytes_read": 794153
  },
  "errors": [],
  "tasks": [
@@ -102,20 +102,20 @@
    "updated": "2026-09-09T12:54:53.849Z"
   },
   {
-   "connector_provenance": "real",
+   "declared_name": "harbor/accepted-meetings-missing-dial-in-2026-2027",
+   "declared_short": "accepted-meetings-missing-dial-in-2026-2027",
+   "folder": "accepted-meetings-missing-dial-in-2026-2027",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "email-calendar-gym"
    ],
-   "declared_name": "harbor/accepted-meetings-missing-dial-in-2026-2027",
-   "declared_short": "accepted-meetings-missing-dial-in-2026-2027",
+   "connector_provenance": "real",
    "domain": null,
-   "folder": "accepted-meetings-missing-dial-in-2026-2027",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "b98e1874d7ddee42ed69276e39b1f7a8723edf728f0718a55a6b83b674595e10",
-   "size_bytes": 8958475,
-   "updated": "2026-09-14T12:02:11.672Z"
+   "sha256": "ec755ab4d02bcc5b79bbcde52034e5e4a89c4f229d93c0ebbb52afe531afa407",
+   "size_bytes": 7941035,
+   "updated": "2026-09-15T00:51:55.727Z"
   },
   {
    "connector_provenance": "unknown",
@@ -140,19 +140,19 @@
    "updated": "2026-09-09T20:00:10.243Z"
   },
   {
-   "declared_name": "harbor/ach-pull-hold-release-date-for-151-standard-transfer-around-presidents",
-   "declared_short": "ach-pull-hold-release-date-for-151-standard-transfer-around-presidents",
-   "folder": "ach-pull-hold-release-date-for-151-standard-transfer-around-presidents",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/ach-pull-hold-release-date-for-151-standard-transfer-around-presidents",
+   "declared_short": "ach-pull-hold-release-date-for-151-standard-transfer-around-presidents",
    "domain": null,
+   "folder": "ach-pull-hold-release-date-for-151-standard-transfer-around-presidents",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ecf802d6294ecaddb71ccaf03c06c9ce293b0583f6ffbb862cbe18cb5eb358a4",
    "size_bytes": 6505888,
    "updated": "2026-09-15T00:20:16.841Z"
@@ -518,11 +518,7 @@
    "updated": "2026-09-14T11:47:43.688Z"
   },
   {
-   "declared_name": "harbor/automation-execution-continuity-during-grace-period",
-   "declared_short": "automation-execution-continuity-during-grace-period",
-   "folder": "automation-execution-continuity-during-grace-period",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -532,9 +528,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/automation-execution-continuity-during-grace-period",
+   "declared_short": "automation-execution-continuity-during-grace-period",
    "domain": null,
+   "folder": "automation-execution-continuity-during-grace-period",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4f71acc8d7b6f1c45db85bd8d3d97ecd2db324e29306c3069a6cbda8d6ec6424",
    "size_bytes": 9530311,
    "updated": "2026-09-15T00:20:25.498Z"
@@ -796,33 +796,33 @@
    "updated": "2026-09-10T03:50:34.512Z"
   },
   {
-   "declared_name": "harbor/calendar-confirmation-posture-reconcile",
-   "declared_short": "calendar-confirmation-posture-reconcile",
-   "folder": "calendar-confirmation-posture-reconcile",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/calendar-confirmation-posture-reconcile",
+   "declared_short": "calendar-confirmation-posture-reconcile",
    "domain": null,
+   "folder": "calendar-confirmation-posture-reconcile",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "852606e58322d5d91d7240cea59173ba295f8a4338daa1ac8734d2b07caea1ae",
    "size_bytes": 5205917,
    "updated": "2026-09-15T00:19:23.042Z"
   },
   {
-   "declared_name": "harbor/calendar-confirmation-posture-reconcile",
-   "declared_short": "calendar-confirmation-posture-reconcile",
-   "folder": "calendar-confirmation-posture-reconcile-v13",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/calendar-confirmation-posture-reconcile",
+   "declared_short": "calendar-confirmation-posture-reconcile",
    "domain": null,
+   "folder": "calendar-confirmation-posture-reconcile-v13",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9c8d3f060ae57c5bb04866cf2743fdc31a6a2037be619ecb9b6b23ae5defa2dc",
    "size_bytes": 5331285,
    "updated": "2026-09-15T00:19:27.016Z"
@@ -1424,15 +1424,15 @@
    "updated": "2026-09-09T04:37:57.104Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c299-deck-export-handoff-audit",
    "declared_short": "code-c299-deck-export-handoff-audit",
-   "folder": "code-c299-deck-export-handoff-audit-hardened",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c299-deck-export-handoff-audit-hardened",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9cc319a8b9e7230d8729cb16466f80c79dae045a909f494be4ae0eb4989e913f",
    "size_bytes": 6252714,
    "updated": "2026-09-15T00:18:19.679Z"
@@ -1816,15 +1816,15 @@
    "updated": "2026-09-14T22:54:29.957Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c379-scanner-advice-gating-audit",
    "declared_short": "code-c379-scanner-advice-gating-audit",
-   "folder": "code-c379-scanner-advice-gating-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c379-scanner-advice-gating-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d97a4e64bd4d3ca5c9db4bb1efb1cb6e5120978eb7ad25c6c4291ee867730927",
    "size_bytes": 4176377,
    "updated": "2026-09-15T00:18:15.686Z"
@@ -2278,15 +2278,15 @@
    "updated": "2026-09-14T11:55:08.299Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c469-desktop-file-dedup-categorization-audit",
    "declared_short": "code-c469-desktop-file-dedup-categorization-audit",
-   "folder": "code-c469-desktop-file-dedup-categorization-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c469-desktop-file-dedup-categorization-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6c9b800e2f7a2c3e066f0213b24934b48cf01a254ccdf6d54a8d5f244328a928",
    "size_bytes": 16175530,
    "updated": "2026-09-15T00:26:26.125Z"
@@ -2418,15 +2418,15 @@
    "updated": "2026-09-10T12:00:44.025Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c482-nutrition-plan-phase-gate-audit",
    "declared_short": "code-c482-nutrition-plan-phase-gate-audit",
-   "folder": "code-c482-nutrition-plan-phase-gate-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c482-nutrition-plan-phase-gate-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "317939dcba25e61016ea0703dbca7b628b4f6a02445a17bd530d5b42affaefae",
    "size_bytes": 11953632,
    "updated": "2026-09-15T00:20:20.567Z"
@@ -2530,15 +2530,15 @@
    "updated": "2026-09-05T21:26:08.387Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c505-game-animation-defect-remediation-audit",
    "declared_short": "code-c505-game-animation-defect-remediation-audit",
-   "folder": "code-c505-game-animation-defect-remediation-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c505-game-animation-defect-remediation-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5dcbca84f7ea9f7f6b5bd9a83b447634dca3b9c59e927520e093b0eda4f61c1e",
    "size_bytes": 5045977,
    "updated": "2026-09-15T00:21:18.704Z"
@@ -2922,15 +2922,15 @@
    "updated": "2026-09-10T02:35:38.689Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c604-dual-frequency-bom-audit",
    "declared_short": "code-c604-dual-frequency-bom-audit",
-   "folder": "code-c604-dual-frequency-bom-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c604-dual-frequency-bom-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "3554a94b7cc9bed85d5e85a41ace5855fef905c094026e00ab573af8f173877a",
    "size_bytes": 4366272,
    "updated": "2026-09-15T00:15:07.332Z"
@@ -3062,15 +3062,15 @@
    "updated": "2026-09-11T10:06:47.794Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c675-equine-partner-retention-audit",
    "declared_short": "code-c675-equine-partner-retention-audit",
-   "folder": "code-c675-equine-partner-retention-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c675-equine-partner-retention-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "280ef8368f97e93665ecf104cd80b749e9aa73b8499a7a521fe8820b3c42e301",
    "size_bytes": 4238926,
    "updated": "2026-09-15T00:22:26.851Z"
@@ -3160,15 +3160,15 @@
    "updated": "2026-09-09T06:00:58.319Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c725-diagram-legibility-audit",
    "declared_short": "code-c725-diagram-legibility-audit",
-   "folder": "code-c725-diagram-legibility-audit_v4",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c725-diagram-legibility-audit_v4",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "98f6906911b06aa6ffaa2622592f6fa6ff72e869cc91506b400d5be3fc6c397b",
    "size_bytes": 6790243,
    "updated": "2026-09-15T00:14:45.827Z"
@@ -3426,17 +3426,17 @@
    "updated": "2026-09-14T13:05:15.473Z"
   },
   {
-   "declared_name": "harbor/customer-onboarding-signoff-gap",
-   "declared_short": "customer-onboarding-signoff-gap",
-   "folder": "customer-onboarding-signoff-gap",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/customer-onboarding-signoff-gap",
+   "declared_short": "customer-onboarding-signoff-gap",
    "domain": null,
+   "folder": "customer-onboarding-signoff-gap",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1cad4494c0c8cd8ba0b7782d50fe6773e56699331de25965c09d310894c70cb5",
    "size_bytes": 31040403,
    "updated": "2026-09-15T00:34:44.066Z"
@@ -4070,11 +4070,7 @@
    "updated": "2026-09-14T12:07:40.660Z"
   },
   {
-   "declared_name": "harbor/diagnose-why-premium-plan-invoice-for-subscription-543-ended-dead-in-f",
-   "declared_short": "diagnose-why-premium-plan-invoice-for-subscription-543-ended-dead-in-f",
-   "folder": "diagnose-why-premium-plan-invoice-for-subscription-543-ended-dead-in-f",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -4084,9 +4080,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/diagnose-why-premium-plan-invoice-for-subscription-543-ended-dead-in-f",
+   "declared_short": "diagnose-why-premium-plan-invoice-for-subscription-543-ended-dead-in-f",
    "domain": null,
+   "folder": "diagnose-why-premium-plan-invoice-for-subscription-543-ended-dead-in-f",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "05cdb0aec4b4a388f3e31fd13745b3a7d772bf74ea61b1a57d24d9646ef70366",
    "size_bytes": 4597792,
    "updated": "2026-09-15T00:20:17.813Z"
@@ -4666,6 +4666,20 @@
    "updated": "2026-09-14T11:41:03.833Z"
   },
   {
+   "declared_name": "obi/fin-b45-a4-depreciation-and-cost-of-goods",
+   "declared_short": "fin-b45-a4-depreciation-and-cost-of-goods",
+   "folder": "fin-b45-a4-depreciation-and-cost-of-goods",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "a498efbbbf67ea06825c3e7a5ca504a8bf848af24f4b6ad8553f4f2455974428",
+   "size_bytes": 7635194,
+   "updated": "2026-09-15T00:53:36.949Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/fin-b45-a8-regional-tariff-equalisation",
@@ -5002,15 +5016,15 @@
    "updated": "2026-09-14T22:49:18.876Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1108-university-shortlist-feasibility-audit",
    "declared_short": "gen-g1108-university-shortlist-feasibility-audit",
-   "folder": "gen-g1108-university-shortlist-feasibility-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1108-university-shortlist-feasibility-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6976625cb1e16aed93bc5b75b5a2860b819c18afda6593491bfa46157d985fec",
    "size_bytes": 4108889,
    "updated": "2026-09-15T00:16:14.467Z"
@@ -5114,15 +5128,15 @@
    "updated": "2026-09-06T18:25:24.167Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1157-resume-formatting-qa-audit",
    "declared_short": "gen-g1157-resume-formatting-qa-audit",
-   "folder": "gen-g1157-resume-formatting-qa-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1157-resume-formatting-qa-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "00ff320da36daa314fd3de3a01e9489ee86ed2d698c1090880d9fc3aeab99982",
    "size_bytes": 7366889,
    "updated": "2026-09-15T00:15:16.653Z"
@@ -5268,15 +5282,15 @@
    "updated": "2026-09-10T14:26:36.154Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1200-linkedin-comment-retention-hold-audit",
    "declared_short": "gen-g1200-linkedin-comment-retention-hold-audit",
-   "folder": "gen-g1200-linkedin-comment-retention-hold-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1200-linkedin-comment-retention-hold-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5c649a39d7495b020537cc637ec4e887fe559716dfb008fc9221266676b88dd7",
    "size_bytes": 4484622,
    "updated": "2026-09-15T00:15:18.208Z"
@@ -5324,15 +5338,15 @@
    "updated": "2026-09-14T09:49:56.463Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1215-storefront-update-catalog-claim-audit",
    "declared_short": "gen-g1215-storefront-update-catalog-claim-audit",
-   "folder": "gen-g1215-storefront-update-catalog-claim-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1215-storefront-update-catalog-claim-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b7c1b41d82646dac623fb0e6da23088ba60a2bf6c591f654490575dd652f10e3",
    "size_bytes": 5936353,
    "updated": "2026-09-15T00:23:28.297Z"
@@ -5394,15 +5408,15 @@
    "updated": "2026-09-06T15:17:03.655Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1234-lease-proposal-ti-reconcile",
    "declared_short": "gen-g1234-lease-proposal-ti-reconcile",
-   "folder": "gen-g1234-lease-proposal-ti-reconcile",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1234-lease-proposal-ti-reconcile",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "05740a48f4d474aa0b9ae73eb4fa2e2c3aae13dfcd5186b5bd3c4bfdece9016f",
    "size_bytes": 6151454,
    "updated": "2026-09-15T00:18:16.488Z"
@@ -5576,15 +5590,15 @@
    "updated": "2026-09-12T13:41:25.159Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g13-overtime-compliance",
    "declared_short": "gen-g13-overtime-compliance",
-   "folder": "gen-g13-overtime-compliance-v1",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g13-overtime-compliance-v1",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2c51fdc7ad862e77067a8fdb321346f2e2e758b1286dc7c99ba82b8a9de7c8ad",
    "size_bytes": 8674697,
    "updated": "2026-09-15T00:19:24.540Z"
@@ -6122,15 +6136,15 @@
    "updated": "2026-09-12T13:35:07.830Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g309-participant-safeguards-audit",
    "declared_short": "gen-g309-participant-safeguards-audit",
-   "folder": "gen-g309-participant-safeguards-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g309-participant-safeguards-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "88b42f30193718c5a9ad7c46b891df156bb9c394e0eeb742fea58044bc1f93b3",
    "size_bytes": 10227180,
    "updated": "2026-09-15T00:18:23.158Z"
@@ -6276,15 +6290,15 @@
    "updated": "2026-09-08T12:37:31.395Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g368-assignment-submission-compliance-audit",
    "declared_short": "gen-g368-assignment-submission-compliance-audit",
-   "folder": "gen-g368-assignment-submission-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g368-assignment-submission-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "db2413ec1bc481edc63085826d77d207cd4e42627eea2fffe38916aa629bc861",
    "size_bytes": 6264641,
    "updated": "2026-09-15T00:22:19.537Z"
@@ -7046,15 +7060,15 @@
    "updated": "2026-09-14T13:21:58.784Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g623-wellness-supplement-tam-recompute",
    "declared_short": "gen-g623-wellness-supplement-tam-recompute",
-   "folder": "gen-g623-wellness-supplement-tam-recompute-20260828T171523Z-1-001",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g623-wellness-supplement-tam-recompute-20260828T171523Z-1-001",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4fe56a5e3fe161e01a32f55abad77a16bd19f15f38bac907ef9aa9fcc53260cf",
    "size_bytes": 5534377,
    "updated": "2026-09-15T00:21:20.766Z"
@@ -7116,15 +7130,15 @@
    "updated": "2026-09-11T10:41:56.423Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g638-device-marketing-mechanism-classification-audit",
    "declared_short": "gen-g638-device-marketing-mechanism-classification-audit",
-   "folder": "gen-g638-device-marketing-mechanism-classification-audit-updated",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g638-device-marketing-mechanism-classification-audit-updated",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b1cc9fde7a3d2cc490aa3ef0e473c577670a443a1c446ac4e8e65894fca6c933",
    "size_bytes": 4282591,
    "updated": "2026-09-15T00:16:20.483Z"
@@ -7144,15 +7158,15 @@
    "updated": "2026-09-14T10:42:56.544Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g644-handbook-revision-rollout-audit",
    "declared_short": "gen-g644-handbook-revision-rollout-audit",
-   "folder": "gen-g644-handbook-revision-rollout-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g644-handbook-revision-rollout-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "644ff35d904f750bf465d35383a38fc066c003e3e8fe10ca895dc3ed465e218e",
    "size_bytes": 10339226,
    "updated": "2026-09-15T00:20:20.489Z"
@@ -7522,6 +7536,20 @@
    "updated": "2026-09-14T11:49:41.295Z"
   },
   {
+   "declared_name": "obi/gen-g748-sop-numbering-scheme-audit",
+   "declared_short": "gen-g748-sop-numbering-scheme-audit",
+   "folder": "gen-g748-sop-numbering-scheme-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "09462a4338fd8af45844ca952eacb3a47a3e172dfffcea472fa5dcc89c94883b",
+   "size_bytes": 5908705,
+   "updated": "2026-09-15T00:55:40.923Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g749-grant-report-revision-confirmation-audit",
@@ -7662,18 +7690,18 @@
    "updated": "2026-09-15T00:01:34.018Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/gen-g786-assembly-guide-layer-completeness-audit",
    "declared_short": "gen-g786-assembly-guide-layer-completeness-audit",
-   "domain": "gen",
    "folder": "gen-g786-assembly-guide-layer-completeness-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "3619e9417c307ce9225dd04c1e2cac1d66878e6a1155bf698c161bab0cd2e0b3",
-   "size_bytes": 6745644,
-   "updated": "2026-09-12T17:34:33.761Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "2c6978b29a076a2a50d9921824d1fb5e213700c63b217139ee60fe1eb2e8562a",
+   "size_bytes": 6753555,
+   "updated": "2026-09-15T00:44:42.413Z"
   },
   {
    "connector_provenance": null,
@@ -7718,15 +7746,15 @@
    "updated": "2026-09-06T01:29:34.764Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g79-graduation-requirement-audit",
    "declared_short": "gen-g79-graduation-requirement-audit",
-   "folder": "gen-g79-graduation-requirement-audit_v3",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g79-graduation-requirement-audit_v3",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "643703808cb1515fa9bba6139e40a6d62b155be3013156d14f92afb2b3f675b4",
    "size_bytes": 6233550,
    "updated": "2026-09-15T00:11:29.068Z"
@@ -10538,15 +10566,15 @@
    "updated": "2026-09-14T07:04:27.336Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b37-l12-research-attribution-audit",
    "declared_short": "law-b37-l12-research-attribution-audit",
-   "folder": "law-b37-l12-research-attribution-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b37-l12-research-attribution-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b3b19f4aba5585bc0fe8474bbe6885d207cd13a804e5310b35c018e2af7fb18f",
    "size_bytes": 5698899,
    "updated": "2026-09-15T00:07:41.604Z"
@@ -10606,6 +10634,20 @@
    "sha256": "14b21686e8ea3b34be8c3d664d79b778039c1a7a8e9ffa89e7d3155f0365a2c9",
    "size_bytes": 3997595,
    "updated": "2026-09-14T20:56:56.014Z"
+  },
+  {
+   "declared_name": "obi/law-b42-l1-civil-forum-jurisdiction-adjudication",
+   "declared_short": "law-b42-l1-civil-forum-jurisdiction-adjudication",
+   "folder": "law-b42-l1-civil-forum-jurisdiction-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "e78a3f465ba5643f28702ae040dc46d26a4fe2d1ecce55aad537e08d246c4239",
+   "size_bytes": 5342355,
+   "updated": "2026-09-15T00:52:32.308Z"
   },
   {
    "connector_provenance": null,
@@ -10860,15 +10902,15 @@
    "updated": "2026-09-09T13:59:24.886Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-l39-classification-marking-audit",
    "declared_short": "law-l39-classification-marking-audit",
-   "folder": "law-l39-classification-marking-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-l39-classification-marking-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4a472b1a3af052dfee570d4ff931fbb13803ee83dc4c7b4ca82659007662061e",
    "size_bytes": 11401750,
    "updated": "2026-09-15T00:20:24.905Z"
@@ -11000,15 +11042,15 @@
    "updated": "2026-09-09T13:08:36.604Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-l71-charity-separation-package-audit",
    "declared_short": "law-l71-charity-separation-package-audit",
-   "folder": "law-l71-charity-separation-package-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-l71-charity-separation-package-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "344b4f6de8574d3f31c078f0f96dd015961b9782e6f42a9d225d926a5b2e8fec",
    "size_bytes": 6261246,
    "updated": "2026-09-15T00:16:12.350Z"
@@ -11070,15 +11112,15 @@
    "updated": "2026-09-10T04:29:35.396Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-l80-qui-tam-case-index-audit",
    "declared_short": "law-l80-qui-tam-case-index-audit",
-   "folder": "law-l80-qui-tam-case-index-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-l80-qui-tam-case-index-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "585a69c98e693d005f078193c0209c5d626a37101c523543503a55814c9cfb3c",
    "size_bytes": 6939248,
    "updated": "2026-09-15T00:18:12.266Z"
@@ -11126,17 +11168,17 @@
    "updated": "2026-09-14T12:32:53.272Z"
   },
   {
-   "declared_name": "harbor/left-off-the-thread-delivery-gap-audit",
-   "declared_short": "left-off-the-thread-delivery-gap-audit",
-   "folder": "left-off-the-thread-delivery-gap-audit-20260822T123429Z-1-001",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/left-off-the-thread-delivery-gap-audit",
+   "declared_short": "left-off-the-thread-delivery-gap-audit",
    "domain": null,
+   "folder": "left-off-the-thread-delivery-gap-audit-20260822T123429Z-1-001",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e47fabd910fa127b8055868068055792436b56989f6df772eb7e842818dcec9e",
    "size_bytes": 6082738,
    "updated": "2026-09-15T00:19:23.439Z"
@@ -11260,17 +11302,17 @@
    "updated": "2026-09-14T23:32:10.508Z"
   },
   {
-   "declared_name": "harbor/opened-files-migration-volume-signoff",
-   "declared_short": "opened-files-migration-volume-signoff",
-   "folder": "opened-files-migration-volume-signoff",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "google-drive-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/opened-files-migration-volume-signoff",
+   "declared_short": "opened-files-migration-volume-signoff",
    "domain": null,
+   "folder": "opened-files-migration-volume-signoff",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f87dcc1ae0b091715ce44b4436ff97d01c4a87a15f3287e6687b5dd3e47b2b55",
    "size_bytes": 5325296,
    "updated": "2026-09-15T00:17:10.407Z"
@@ -11568,11 +11610,7 @@
    "updated": "2026-09-09T20:32:48.327Z"
   },
   {
-   "declared_name": "harbor/retry-decision-for-canceled-funding-transfer-107041-unverified-microde",
-   "declared_short": "retry-decision-for-canceled-funding-transfer-107041-unverified-microde",
-   "folder": "retry-decision-for-canceled-funding-transfer-107041-unverified-microde",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -11582,9 +11620,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/retry-decision-for-canceled-funding-transfer-107041-unverified-microde",
+   "declared_short": "retry-decision-for-canceled-funding-transfer-107041-unverified-microde",
    "domain": null,
+   "folder": "retry-decision-for-canceled-funding-transfer-107041-unverified-microde",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "851b065ae194a0b5a1217c1dca442444ff2e1c268d3b740e8b595a678a2b6e1e",
    "size_bytes": 7589416,
    "updated": "2026-09-15T00:19:21.569Z"
@@ -11622,17 +11664,17 @@
    "updated": "2026-09-05T21:45:46.403Z"
   },
   {
-   "declared_name": "harbor/shipped-work-outside-delivery-lineage",
-   "declared_short": "shipped-work-outside-delivery-lineage",
-   "folder": "shipped-work-outside-delivery-lineage",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/shipped-work-outside-delivery-lineage",
+   "declared_short": "shipped-work-outside-delivery-lineage",
    "domain": null,
+   "folder": "shipped-work-outside-delivery-lineage",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f86cd4de65ee41e003ee622df6fbaf1ba18ac5a1dfe937d9dcd6f05dee087f11",
    "size_bytes": 4387705,
    "updated": "2026-09-15T00:18:24.211Z"
@@ -11850,17 +11892,17 @@
    "updated": "2026-09-14T09:44:52.760Z"
   },
   {
-   "declared_name": "harbor/deploy-window-local-time-crossref",
-   "declared_short": "deploy-window-local-time-crossref",
-   "folder": "task_deploy-window-local-time-crossref-v21a",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/deploy-window-local-time-crossref",
+   "declared_short": "deploy-window-local-time-crossref",
    "domain": null,
+   "folder": "task_deploy-window-local-time-crossref-v21a",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "72df3ce3dac4a25d4590afdc683832be603faae3921f09ffa8aaae0541584e08",
    "size_bytes": 6230648,
    "updated": "2026-09-15T00:17:12.456Z"
@@ -11904,17 +11946,17 @@
    "updated": "2026-09-10T04:30:44.134Z"
   },
   {
-   "declared_name": "harbor/the-badge-counts-what-the-tracker-will-not-open",
-   "declared_short": "the-badge-counts-what-the-tracker-will-not-open",
-   "folder": "the-badge-counts-what-the-tracker-will-not-open",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-badge-counts-what-the-tracker-will-not-open",
+   "declared_short": "the-badge-counts-what-the-tracker-will-not-open",
    "domain": null,
+   "folder": "the-badge-counts-what-the-tracker-will-not-open",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f9eef6ce55ee6e1bf6a509dc501ca96a75b02be63486b46bd984b033e000445d",
    "size_bytes": 7409765,
    "updated": "2026-09-15T00:22:13.710Z"
@@ -12086,6 +12128,28 @@
    "sha256": "e3e962c02c5c7407459aab74599df032a6f2d2331e8e9b31f78637401e26572f",
    "size_bytes": 6197244,
    "updated": "2026-09-14T10:15:50.569Z"
+  },
+  {
+   "declared_name": "harbor/verify-atm-fee-decision-for-mastercard-card-event-on-2024-02-12",
+   "declared_short": "verify-atm-fee-decision-for-mastercard-card-event-on-2024-02-12",
+   "folder": "verify-atm-fee-decision-for-mastercard-card-event-on-2024-02-12",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "7d3dd308260e678624cd71665f7247c0e4aed11b0dc925eec53c8decc75b7ccd",
+   "size_bytes": 8045137,
+   "updated": "2026-09-15T00:55:38.020Z"
   },
   {
    "connector_provenance": "real",
@@ -12352,11 +12416,7 @@
    "updated": "2026-09-14T11:22:43.911Z"
   },
   {
-   "declared_name": "harbor/verify-out-of-network-atm-fee-on-48-withdrawal-aug-2022-account-6049",
-   "declared_short": "verify-out-of-network-atm-fee-on-48-withdrawal-aug-2022-account-6049",
-   "folder": "verify-out-of-network-atm-fee-on-48-withdrawal-aug-2022-account-6049",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -12366,9 +12426,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/verify-out-of-network-atm-fee-on-48-withdrawal-aug-2022-account-6049",
+   "declared_short": "verify-out-of-network-atm-fee-on-48-withdrawal-aug-2022-account-6049",
    "domain": null,
+   "folder": "verify-out-of-network-atm-fee-on-48-withdrawal-aug-2022-account-6049",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c492d1400de50afd98ef83c6b48ee1c4aa698ceb2701a3ad0fd6bd8e17df2133",
    "size_bytes": 8191340,
    "updated": "2026-09-15T00:18:14.909Z"
