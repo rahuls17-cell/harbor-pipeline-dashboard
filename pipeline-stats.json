@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T17:07:03+00:00",
+ "generated_at": "2026-09-15T17:37:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 837,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 264878
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -10519,15 +10519,15 @@
    "updated": "2026-09-14T11:43:16.600Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt5-a10-meal-plan-grocery-reconcile",
    "declared_short": "health-tdt5-a10-meal-plan-grocery-reconcile",
-   "folder": "health-tdt5-a10-meal-plan-grocery-reconcile",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt5-a10-meal-plan-grocery-reconcile",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0da8b9a3ed2a3d4207d0db01668d647f6754b24ae8b0e1c88ccdf8a0f70f2639",
    "size_bytes": 5386175,
    "updated": "2026-09-15T16:42:49.780Z"
@@ -12229,17 +12229,17 @@
    "updated": "2026-09-13T03:56:23.558Z"
   },
   {
-   "declared_name": "harbor/deploy-window-local-time-crossref",
-   "declared_short": "deploy-window-local-time-crossref",
-   "folder": "task_deploy-window-local-time-crossref-v23",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/deploy-window-local-time-crossref",
+   "declared_short": "deploy-window-local-time-crossref",
    "domain": null,
+   "folder": "task_deploy-window-local-time-crossref-v23",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "36e165e5280d52a982e95c1abbb7469f1a8fb406fa1c99fac26323180ab2256b",
    "size_bytes": 5648936,
    "updated": "2026-09-15T16:44:46.027Z"
