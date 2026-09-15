@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-15T22:07:04+00:00",
+ "generated_at": "2026-09-15T22:37:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 860,
-  "scanned": 860,
+  "task_folders": 863,
+  "scanned": 863,
   "connector": 217,
-  "non_connector": 643,
+  "non_connector": 646,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 196,
   "fin": 46,
   "gen": 280,
-  "health": 55,
-  "law": 54
+  "health": 56,
+  "law": 56
  },
  "name_prefix": {
   "harbor": 221,
-  "obi": 639
+  "obi": 642
  },
  "connector_services": {
   "slack-gym": 140,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 6,
-  "approx_bytes_read": 789299
+  "new_archives_read": 3,
+  "approx_bytes_read": 394506
  },
  "errors": [],
  "tasks": [
@@ -4357,15 +4357,15 @@
    "updated": "2026-09-15T13:50:23.087Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-s2-a1-wida-benchmark-alignment-workbook-consolidation",
    "declared_short": "edu-s2-a1-wida-benchmark-alignment-workbook-consolidation",
-   "folder": "edu-s2-a1-wida-benchmark-alignment-workbook-consolidation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-s2-a1-wida-benchmark-alignment-workbook-consolidation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "71064234589738abfa4c051364e653d4f5080dac2db94e5e23575550b9cb98f9",
    "size_bytes": 5092625,
    "updated": "2026-09-15T21:37:19.404Z"
@@ -4627,15 +4627,15 @@
    "updated": "2026-09-13T02:14:33.974Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b41-f10-sole-trader-balance-sheet-build",
    "declared_short": "fin-b41-f10-sole-trader-balance-sheet-build",
-   "folder": "fin-b41-f10-sole-trader-balance-sheet-build",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b41-f10-sole-trader-balance-sheet-build",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f33b55ad5ea736fca00a63a42b92cf50e2079aefe0c8d386316a6a568b8d06fa",
    "size_bytes": 6931294,
    "updated": "2026-09-15T21:37:24.284Z"
@@ -7567,15 +7567,15 @@
    "updated": "2026-09-10T19:14:03.737Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g662-prospective-distributor-qualification-audit",
    "declared_short": "gen-g662-prospective-distributor-qualification-audit",
-   "folder": "gen-g662-prospective-distributor-qualification-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g662-prospective-distributor-qualification-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "75d4842c919a4e77b85fd794e110f40e3f6bd8a8b06032d8a4a4da866c480587",
    "size_bytes": 5124028,
    "updated": "2026-09-15T22:04:14.839Z"
@@ -8127,15 +8127,15 @@
    "updated": "2026-09-06T01:29:19.127Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g799-research-conference-program-slot-audit",
    "declared_short": "gen-g799-research-conference-program-slot-audit",
-   "folder": "gen-g799-research-conference-program-slot-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g799-research-conference-program-slot-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9102e9e89fc3f6e4cdf396a797d2c50c10637c265a55c9610f74a6fb60e3ffd1",
    "size_bytes": 4509851,
    "updated": "2026-09-15T21:43:57.997Z"
@@ -8575,15 +8575,15 @@
    "updated": "2026-09-14T10:18:04.064Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g937-wallpaper-stock-asset-reuse-audit",
    "declared_short": "gen-g937-wallpaper-stock-asset-reuse-audit",
-   "folder": "gen-g937-wallpaper-stock-asset-reuse-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g937-wallpaper-stock-asset-reuse-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4db0d270b3bc6b3eadf545f4ea143995b4eaf760f9d520add52eda1d4a342341",
    "size_bytes": 4117678,
    "updated": "2026-09-15T21:52:27.346Z"
@@ -10779,6 +10779,20 @@
    "updated": "2026-09-14T23:54:15.530Z"
   },
   {
+   "declared_name": "obi/health-tdt5-a15-exercise-sheet-link-availability-log",
+   "declared_short": "health-tdt5-a15-exercise-sheet-link-availability-log",
+   "folder": "health-tdt5-a15-exercise-sheet-link-availability-log",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "757ed5194b3a55c63540dd6fc9f59fc968b9f0cbf7ecc57ed5b7dbc4d5d72060",
+   "size_bytes": 4846186,
+   "updated": "2026-09-15T22:27:46.294Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt5-a9-supplement-stack-coverage-table",
@@ -11129,6 +11143,20 @@
    "updated": "2026-09-14T21:40:22.456Z"
   },
   {
+   "declared_name": "obi/law-b37-l8-power-of-attorney-clause-audit",
+   "declared_short": "law-b37-l8-power-of-attorney-clause-audit",
+   "folder": "law-b37-l8-power-of-attorney-clause-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "168e79e2965026dfd9c4ecfec4b41aa85e135eb181924af5b5fe27320f03c11c",
+   "size_bytes": 3732614,
+   "updated": "2026-09-15T22:23:57.788Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-b38-l6-efiling-guide-statement-audit",
@@ -11199,15 +11227,15 @@
    "updated": "2026-09-15T20:26:12.423Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b39-l7-counsel-confirmation-email-audit",
    "declared_short": "law-b39-l7-counsel-confirmation-email-audit",
-   "folder": "law-b39-l7-counsel-confirmation-email-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b39-l7-counsel-confirmation-email-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "35bf84265297ccf50a16f0468906d96e40e14a7858000df81d15da8ebe8dfc70",
    "size_bytes": 4628986,
    "updated": "2026-09-15T21:38:19.633Z"
@@ -11323,6 +11351,20 @@
    "sha256": "54c270e3473d494e32d7a8efe3611c224938181f389dc9cdc9a0bfdfcbcb28d1",
    "size_bytes": 3886766,
    "updated": "2026-09-14T10:47:24.535Z"
+  },
+  {
+   "declared_name": "obi/law-b42-l6-event-ticket-gst-liability-recompute",
+   "declared_short": "law-b42-l6-event-ticket-gst-liability-recompute",
+   "folder": "law-b42-l6-event-ticket-gst-liability-recompute-r191-artifact-export-fix-direct-qc",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "ff5bdf8a1cdfc1d4151b573f2e6364e300dd9d88f39fe9068df6228cfb4f3b61",
+   "size_bytes": 13428838,
+   "updated": "2026-09-15T22:17:30.667Z"
   },
   {
    "connector_provenance": null,
