@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-09-15T23:07:03+00:00",
+ "generated_at": "2026-09-15T23:37:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 865,
-  "scanned": 865,
-  "connector": 217,
-  "non_connector": 648,
+  "task_folders": 868,
+  "scanned": 868,
+  "connector": 218,
+  "non_connector": 650,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 104,
+  "unknown": 105,
   "synthetic": 52,
   "real": 61
  },
  "domain": {
-  "unnamed": 229,
+  "unnamed": 230,
   "code": 197,
   "fin": 46,
   "gen": 281,
   "health": 56,
-  "law": 56
+  "law": 58
  },
  "name_prefix": {
-  "harbor": 221,
-  "obi": 644
+  "harbor": 222,
+  "obi": 646
  },
  "connector_services": {
-  "slack-gym": 140,
-  "google-drive-gym": 137,
-  "confluence-gym": 120,
-  "zeta3-sql-gym": 120,
-  "email-gym": 118,
-  "freshdesk-gym": 118,
-  "jira-gym": 118,
+  "slack-gym": 141,
+  "google-drive-gym": 138,
+  "confluence-gym": 121,
+  "zeta3-sql-gym": 121,
+  "email-gym": 119,
+  "freshdesk-gym": 119,
+  "jira-gym": 119,
   "email-calendar-gym": 12,
   "notion-gym": 12,
   "github-gym": 11,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262905
+  "new_archives_read": 3,
+  "approx_bytes_read": 396405
  },
  "errors": [],
  "tasks": [
@@ -1469,15 +1469,15 @@
    "updated": "2026-09-11T03:38:17.750Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c279-extracted-hyperlink-safety-audit",
    "declared_short": "code-c279-extracted-hyperlink-safety-audit",
-   "folder": "code-c279-extracted-hyperlink-safety-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c279-extracted-hyperlink-safety-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "38ba4af8fd85f5257725dc9df224267a2560a4b161eb001493a9e9e20b619eca",
    "size_bytes": 3955332,
    "updated": "2026-09-15T22:53:25.696Z"
@@ -4539,6 +4539,28 @@
    "updated": "2026-09-14T12:19:21.711Z"
   },
   {
+   "declared_name": "harbor/explain-savings-interest-change-for-account-10297-between-march-and-ap",
+   "declared_short": "explain-savings-interest-change-for-account-10297-between-march-and-ap",
+   "folder": "explain-savings-interest-change-for-account-10297-between-march-and-ap",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "1263b29094f8a35cc5008db7f0e31145c5500c43c64a04bd89be753ad1aee68c",
+   "size_bytes": 7476778,
+   "updated": "2026-09-15T23:07:51.182Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -7273,15 +7295,15 @@
    "updated": "2026-09-09T22:41:41.863Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g590-incident-credit-backfill-audit",
    "declared_short": "gen-g590-incident-credit-backfill-audit",
-   "folder": "gen-g590-incident-credit-backfill-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g590-incident-credit-backfill-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8698742d7e428a4641347586f9878eb0780600f566844e393dee78298a058683",
    "size_bytes": 3610153,
    "updated": "2026-09-15T23:00:14.966Z"
@@ -11073,6 +11095,20 @@
    "updated": "2026-09-13T13:12:30.899Z"
   },
   {
+   "declared_name": "obi/law-b36-l11-foreign-judgment-registration-audit",
+   "declared_short": "law-b36-l11-foreign-judgment-registration-audit",
+   "folder": "law-b36-l11-foreign-judgment-registration-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "2364f28d4a383665c13610d6bf35767de7b19f53a00f940663a1d35dfef89214",
+   "size_bytes": 7905296,
+   "updated": "2026-09-15T23:10:26.269Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-b36-l12-service-death-benefit-recomputation",
@@ -11239,6 +11275,20 @@
    "sha256": "9302f1a305af6078840220e11b81df27bee8d261f6ded58c536227ff8e2bed1a",
    "size_bytes": 5906898,
    "updated": "2026-09-15T00:04:47.319Z"
+  },
+  {
+   "declared_name": "obi/law-b39-l2-recording-landscape-claim-audit",
+   "declared_short": "law-b39-l2-recording-landscape-claim-audit",
+   "folder": "law-b39-l2-recording-landscape-claim-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "54c87587db52d4a2087da57c5f33b98048e995f7aff514c48e7f2588e1c2a433",
+   "size_bytes": 5000909,
+   "updated": "2026-09-15T23:12:59.501Z"
   },
   {
    "connector_provenance": null,
