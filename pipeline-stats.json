@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-15T18:37:03+00:00",
+ "generated_at": "2026-09-15T19:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 837,
-  "scanned": 837,
+  "task_folders": 839,
+  "scanned": 839,
   "connector": 214,
-  "non_connector": 623,
+  "non_connector": 625,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 194,
   "fin": 44,
   "gen": 274,
-  "health": 51,
-  "law": 50
+  "health": 52,
+  "law": 51
  },
  "name_prefix": {
   "harbor": 218,
-  "obi": 619
+  "obi": 621
  },
  "connector_services": {
   "slack-gym": 138,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 396619
  },
  "errors": [],
  "tasks": [
@@ -10295,6 +10295,20 @@
    "updated": "2026-09-12T04:40:33.952Z"
   },
   {
+   "declared_name": "obi/health-h587-hd-transport-containment-reconciliation",
+   "declared_short": "health-h587-hd-transport-containment-reconciliation",
+   "folder": "health-h587-hd-transport-containment-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "e4bf691f76b1c749d065bce0d28b57b88dddca52e4abe7772264419cc5b0d749",
+   "size_bytes": 5491644,
+   "updated": "2026-09-15T19:02:30.132Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-h59-bp-staging-badge-audit",
@@ -10895,6 +10909,20 @@
    "sha256": "48c9669995601d10f96085463e37acd14d0ef789d0058d44de644c0b5aaa044b",
    "size_bytes": 5500378,
    "updated": "2026-09-14T10:39:49.854Z"
+  },
+  {
+   "declared_name": "obi/law-b39-l11-clemency-objection-deadline-register",
+   "declared_short": "law-b39-l11-clemency-objection-deadline-register",
+   "folder": "law-b39-l11-clemency-objection-deadline-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "c4fb4e3ecc9f01481b497665578fff9d2b36a8c46e68c8d38d12415352045de1",
+   "size_bytes": 5108688,
+   "updated": "2026-09-15T18:45:50.724Z"
   },
   {
    "connector_provenance": null,
@@ -12615,7 +12643,11 @@
    "updated": "2026-09-09T22:27:43.083Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/verify-duplicate-charge-closure-request-on-amc-card-transaction-acct-3",
+   "declared_short": "verify-duplicate-charge-closure-request-on-amc-card-transaction-acct-3",
+   "folder": "verify-duplicate-charge-closure-request-on-amc-card-transaction-acct-3",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -12625,16 +12657,12 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/verify-duplicate-charge-closure-request-on-amc-card-transaction-acct-3",
-   "declared_short": "verify-duplicate-charge-closure-request-on-amc-card-transaction-acct-3",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "verify-duplicate-charge-closure-request-on-amc-card-transaction-acct-3",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "83bee5cf9098a6f57e1f2fa0ad533be174bb052c61df0e95a5c2b51f9120102e",
-   "size_bytes": 12370101,
-   "updated": "2026-09-14T22:49:28.667Z"
+   "sha256": "d7cf27ef1f6b257be2361b6230912cf9b8f94687aa38c369979e82c0cb97f713",
+   "size_bytes": 12023958,
+   "updated": "2026-09-15T18:56:58.127Z"
   },
   {
    "connector_provenance": "unknown",
