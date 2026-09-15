@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-09-15T20:37:04+00:00",
+ "generated_at": "2026-09-15T21:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 850,
-  "scanned": 850,
-  "connector": 216,
-  "non_connector": 634,
+  "task_folders": 852,
+  "scanned": 852,
+  "connector": 217,
+  "non_connector": 635,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 104,
   "synthetic": 52,
-  "real": 60
+  "real": 61
  },
  "domain": {
-  "unnamed": 227,
+  "unnamed": 228,
   "code": 195,
   "fin": 45,
-  "gen": 277,
+  "gen": 278,
   "health": 53,
   "law": 53
  },
  "name_prefix": {
-  "harbor": 220,
-  "obi": 630
+  "harbor": 221,
+  "obi": 631
  },
  "connector_services": {
-  "slack-gym": 139,
-  "google-drive-gym": 136,
-  "confluence-gym": 119,
-  "zeta3-sql-gym": 119,
-  "email-gym": 117,
-  "freshdesk-gym": 117,
-  "jira-gym": 117,
+  "slack-gym": 140,
+  "google-drive-gym": 137,
+  "confluence-gym": 120,
+  "zeta3-sql-gym": 120,
+  "email-gym": 118,
+  "freshdesk-gym": 118,
+  "jira-gym": 118,
   "email-calendar-gym": 12,
   "notion-gym": 12,
   "github-gym": 11,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 530239
+  "new_archives_read": 2,
+  "approx_bytes_read": 267030
  },
  "errors": [],
  "tasks": [
@@ -737,6 +737,28 @@
    "sha256": "45593cb21ae9181bf8ccb87dcba238092d5f2fb038136d855186f091bbdd02cf",
    "size_bytes": 6896145,
    "updated": "2026-09-14T22:51:31.502Z"
+  },
+  {
+   "declared_name": "harbor/build-monthly-check-deposit-volume-chart-for-payments-team-dashboard",
+   "declared_short": "build-monthly-check-deposit-volume-chart-for-payments-team-dashboard",
+   "folder": "build-monthly-check-deposit-volume-chart-for-payments-team-dashboard",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "90f6d58357b9daa8a335728ebeb588e9768dbec408ae5df843b4ab66f9be3bd2",
+   "size_bytes": 5889038,
+   "updated": "2026-09-15T21:03:19.640Z"
   },
   {
    "connector_provenance": "unknown",
@@ -4871,15 +4893,15 @@
    "updated": "2026-09-14T10:47:01.903Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b45-a9-commentary-claim-check",
    "declared_short": "fin-b45-a9-commentary-claim-check",
-   "folder": "fin-b45-a9-commentary-claim-check",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b45-a9-commentary-claim-check",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4c5388dc602ff6e3dbb2534357517c676754b3ae9c6cde256f90624b41165917",
    "size_bytes": 6352229,
    "updated": "2026-09-15T20:21:18.344Z"
@@ -5725,15 +5747,15 @@
    "updated": "2026-09-06T18:36:58.612Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g127-insurance-coi-expiry-audit",
    "declared_short": "gen-g127-insurance-coi-expiry-audit",
-   "folder": "gen-g127-insurance-coi-expiry-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g127-insurance-coi-expiry-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "61c4c58020111c688a16ece41312a45e4be7fbbfe12feb4be5983b66a74d8c89",
    "size_bytes": 6293581,
    "updated": "2026-09-15T20:24:31.519Z"
@@ -8089,6 +8111,20 @@
    "sha256": "bdb6ca981aec31f9a41fcaed88cc65fd6ad907e93641189b225c09c16e753831",
    "size_bytes": 7411511,
    "updated": "2026-09-11T23:30:46.578Z"
+  },
+  {
+   "declared_name": "obi/gen-g812-tenant-notice-period-compliance-audit",
+   "declared_short": "gen-g812-tenant-notice-period-compliance-audit",
+   "folder": "gen-g812-tenant-notice-period-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "bba81d1cd2a3f9515d076992cafd2238149784d0780a4390f04c0d5c8dcc390a",
+   "size_bytes": 6312429,
+   "updated": "2026-09-15T20:39:35.746Z"
   },
   {
    "connector_provenance": null,
@@ -11051,15 +11087,15 @@
    "updated": "2026-09-15T00:04:47.319Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b39-l20-citation-practice-scope-audit",
    "declared_short": "law-b39-l20-citation-practice-scope-audit",
-   "folder": "law-b39-l20-citation-practice-scope-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b39-l20-citation-practice-scope-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e150f83257b7586fb9d53a2674cb0bf9e0d4762a12cc44da639ef300372082a6",
    "size_bytes": 5267998,
    "updated": "2026-09-15T20:26:12.423Z"
@@ -12003,17 +12039,17 @@
    "updated": "2026-09-14T23:06:16.601Z"
   },
   {
-   "declared_name": "harbor/required-seat-not-yet-committed-apr-may-2026",
-   "declared_short": "required-seat-not-yet-committed-apr-may-2026",
-   "folder": "required-seat-not-yet-committed-apr-may-2026",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/required-seat-not-yet-committed-apr-may-2026",
+   "declared_short": "required-seat-not-yet-committed-apr-may-2026",
    "domain": null,
+   "folder": "required-seat-not-yet-committed-apr-may-2026",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f2480155a045890806e423fbac458e85634297fe983481ec8bcce765f0e2532e",
    "size_bytes": 4668508,
    "updated": "2026-09-15T20:08:57.399Z"
