@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-15T21:07:03+00:00",
+ "generated_at": "2026-09-15T21:37:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 852,
-  "scanned": 852,
+  "task_folders": 856,
+  "scanned": 856,
   "connector": 217,
-  "non_connector": 635,
+  "non_connector": 639,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 228,
-  "code": 195,
+  "code": 196,
   "fin": 45,
-  "gen": 278,
-  "health": 53,
+  "gen": 279,
+  "health": 55,
   "law": 53
  },
  "name_prefix": {
   "harbor": 221,
-  "obi": 631
+  "obi": 635
  },
  "connector_services": {
   "slack-gym": 140,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 267030
+  "new_archives_read": 4,
+  "approx_bytes_read": 525872
  },
  "errors": [],
  "tasks": [
@@ -69,6 +69,20 @@
    "sha256": "5ca7499b9b4c0ccd764896e62a7eea0b064dd57b1841af00c50a84e3dc27cc41",
    "size_bytes": 5716886,
    "updated": "2026-09-09T19:13:39.005Z"
+  },
+  {
+   "declared_name": "obi/code-c425-risk-tier-stress-test-drawdown-audit",
+   "declared_short": "code-c425-risk-tier-stress-test-drawdown-audit",
+   "folder": "C425-QC-v3-2of4-20260915",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "e699d21b302c0346da00dede6c7575321496fe4488c97bab385f08be185604f9",
+   "size_bytes": 5347527,
+   "updated": "2026-09-15T21:17:16.267Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -739,11 +753,7 @@
    "updated": "2026-09-14T22:51:31.502Z"
   },
   {
-   "declared_name": "harbor/build-monthly-check-deposit-volume-chart-for-payments-team-dashboard",
-   "declared_short": "build-monthly-check-deposit-volume-chart-for-payments-team-dashboard",
-   "folder": "build-monthly-check-deposit-volume-chart-for-payments-team-dashboard",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -753,9 +763,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/build-monthly-check-deposit-volume-chart-for-payments-team-dashboard",
+   "declared_short": "build-monthly-check-deposit-volume-chart-for-payments-team-dashboard",
    "domain": null,
+   "folder": "build-monthly-check-deposit-volume-chart-for-payments-team-dashboard",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "90f6d58357b9daa8a335728ebeb588e9768dbec408ae5df843b4ab66f9be3bd2",
    "size_bytes": 5889038,
    "updated": "2026-09-15T21:03:19.640Z"
@@ -7539,6 +7553,20 @@
    "updated": "2026-09-14T23:45:58.264Z"
   },
   {
+   "declared_name": "obi/gen-g673-advisory-ad-creative-compliance-audit",
+   "declared_short": "gen-g673-advisory-ad-creative-compliance-audit",
+   "folder": "gen-g673-advisory-ad-creative-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "0c1467a0f93f0326f42e276e891b171c8fd80e451868e7f5634d3a6445715513",
+   "size_bytes": 3926305,
+   "updated": "2026-09-15T21:19:44.466Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g677-agency-client-engagement-compliance-audit",
@@ -8113,15 +8141,15 @@
    "updated": "2026-09-11T23:30:46.578Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g812-tenant-notice-period-compliance-audit",
    "declared_short": "gen-g812-tenant-notice-period-compliance-audit",
-   "folder": "gen-g812-tenant-notice-period-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g812-tenant-notice-period-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "bba81d1cd2a3f9515d076992cafd2238149784d0780a4390f04c0d5c8dcc390a",
    "size_bytes": 6312429,
    "updated": "2026-09-15T20:39:35.746Z"
@@ -10569,6 +10597,20 @@
    "updated": "2026-09-06T17:20:28.018Z"
   },
   {
+   "declared_name": "obi/health-h85-gp-endocrine-curriculum-coverage-audit",
+   "declared_short": "health-h85-gp-endocrine-curriculum-coverage-audit",
+   "folder": "health-h85-gp-endocrine-curriculum-coverage-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "6e6307a4bf23be5bb0c97d261dbed5937686814a97fa9d777d9d6dfcc103871f",
+   "size_bytes": 8835396,
+   "updated": "2026-09-15T21:23:01.417Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-h86-ip-accountability-reconciliation-audit",
@@ -10707,6 +10749,20 @@
    "sha256": "0d0cab3191968de62a69fbba3d67c6c77020faf39e114e87bde9bd0c8ff6b641",
    "size_bytes": 4263293,
    "updated": "2026-09-14T14:41:24.630Z"
+  },
+  {
+   "declared_name": "obi/health-tdt6-a2-voice-register-article-abstract-check",
+   "declared_short": "health-tdt6-a2-voice-register-article-abstract-check",
+   "folder": "health-tdt6-a2-voice-register-article-abstract-check",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "477eaa941ec0e8a109688896e22dc3a6cd55e19de70c1d6a5a448d827d4de714",
+   "size_bytes": 3914525,
+   "updated": "2026-09-15T21:23:24.677Z"
   },
   {
    "connector_provenance": "unknown",
