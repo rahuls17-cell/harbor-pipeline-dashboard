@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-15T20:07:04+00:00",
+ "generated_at": "2026-09-15T20:37:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 846,
-  "scanned": 846,
-  "connector": 215,
-  "non_connector": 631,
+  "task_folders": 850,
+  "scanned": 850,
+  "connector": 216,
+  "non_connector": 634,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 104,
-  "synthetic": 51,
+  "synthetic": 52,
   "real": 60
  },
  "domain": {
-  "unnamed": 226,
+  "unnamed": 227,
   "code": 195,
-  "fin": 44,
-  "gen": 276,
+  "fin": 45,
+  "gen": 277,
   "health": 53,
-  "law": 52
+  "law": 53
  },
  "name_prefix": {
-  "harbor": 219,
-  "obi": 627
+  "harbor": 220,
+  "obi": 630
  },
  "connector_services": {
   "slack-gym": 139,
@@ -33,8 +33,8 @@
   "email-gym": 117,
   "freshdesk-gym": 117,
   "jira-gym": 117,
+  "email-calendar-gym": 12,
   "notion-gym": 12,
-  "email-calendar-gym": 11,
   "github-gym": 11,
   "outlook-gym": 11,
   "gws-gym": 6,
@@ -44,7 +44,7 @@
  },
  "scan": {
   "new_archives_read": 4,
-  "approx_bytes_read": 530051
+  "approx_bytes_read": 530239
  },
  "errors": [],
  "tasks": [
@@ -4871,6 +4871,20 @@
    "updated": "2026-09-14T10:47:01.903Z"
   },
   {
+   "declared_name": "obi/fin-b45-a9-commentary-claim-check",
+   "declared_short": "fin-b45-a9-commentary-claim-check",
+   "folder": "fin-b45-a9-commentary-claim-check",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "4c5388dc602ff6e3dbb2534357517c676754b3ae9c6cde256f90624b41165917",
+   "size_bytes": 6352229,
+   "updated": "2026-09-15T20:21:18.344Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/fin-b46-a4-pro-forma-revenue-audit",
@@ -5709,6 +5723,20 @@
    "sha256": "0a848ca5c0fed942d0c81f11a1c92f0edaa727970ef015c836aecf523d4b5895",
    "size_bytes": 5696965,
    "updated": "2026-09-06T18:36:58.612Z"
+  },
+  {
+   "declared_name": "obi/gen-g127-insurance-coi-expiry-audit",
+   "declared_short": "gen-g127-insurance-coi-expiry-audit",
+   "folder": "gen-g127-insurance-coi-expiry-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "61c4c58020111c688a16ece41312a45e4be7fbbfe12feb4be5983b66a74d8c89",
+   "size_bytes": 6293581,
+   "updated": "2026-09-15T20:24:31.519Z"
   },
   {
    "connector_provenance": null,
@@ -6915,15 +6943,15 @@
    "updated": "2026-09-09T04:36:31.200Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g505-classroom-rubric-compliance-audit",
    "declared_short": "gen-g505-classroom-rubric-compliance-audit",
-   "folder": "gen-g505-classroom-rubric-compliance-audit-1648bf-v4-sna-qofb",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g505-classroom-rubric-compliance-audit-1648bf-v4-sna-qofb",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5eb87a7f9b56ee0341e3ef89a16e27c3acba5fcdee1d8ff59c6e99a1ff4834f6",
    "size_bytes": 7421396,
    "updated": "2026-09-15T19:55:12.547Z"
@@ -8385,15 +8413,15 @@
    "updated": "2026-09-05T18:58:12.824Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g898-costume-character-cutout-spec-audit",
    "declared_short": "gen-g898-costume-character-cutout-spec-audit",
-   "folder": "gen-g898-costume-character-cutout-spec-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g898-costume-character-cutout-spec-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9dc8165353aa67822a829ae726adb7d5f18de0f9fe8f273d8eefd582247dc491",
    "size_bytes": 3459668,
    "updated": "2026-09-15T20:02:33.407Z"
@@ -10925,15 +10953,15 @@
    "updated": "2026-09-14T07:04:27.336Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b37-l1-invention-register-grounding-audit",
    "declared_short": "law-b37-l1-invention-register-grounding-audit",
-   "folder": "law-b37-l1-invention-register-grounding-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b37-l1-invention-register-grounding-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1d885b40c3fd2a40e14707b2061431d9b83980994c9595cd42cef97b21185759",
    "size_bytes": 4602553,
    "updated": "2026-09-15T19:50:14.407Z"
@@ -11021,6 +11049,20 @@
    "sha256": "9302f1a305af6078840220e11b81df27bee8d261f6ded58c536227ff8e2bed1a",
    "size_bytes": 5906898,
    "updated": "2026-09-15T00:04:47.319Z"
+  },
+  {
+   "declared_name": "obi/law-b39-l20-citation-practice-scope-audit",
+   "declared_short": "law-b39-l20-citation-practice-scope-audit",
+   "folder": "law-b39-l20-citation-practice-scope-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "e150f83257b7586fb9d53a2674cb0bf9e0d4762a12cc44da639ef300372082a6",
+   "size_bytes": 5267998,
+   "updated": "2026-09-15T20:26:12.423Z"
   },
   {
    "connector_provenance": null,
@@ -11961,6 +12003,22 @@
    "updated": "2026-09-14T23:06:16.601Z"
   },
   {
+   "declared_name": "harbor/required-seat-not-yet-committed-apr-may-2026",
+   "declared_short": "required-seat-not-yet-committed-apr-may-2026",
+   "folder": "required-seat-not-yet-committed-apr-may-2026",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "f2480155a045890806e423fbac458e85634297fe983481ec8bcce765f0e2532e",
+   "size_bytes": 4668508,
+   "updated": "2026-09-15T20:08:57.399Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -12247,11 +12305,7 @@
    "updated": "2026-09-05T20:14:23.783Z"
   },
   {
-   "declared_name": "harbor/verify-missing-200-joint-account-transfer-to-external-bank-for-user-91",
-   "declared_short": "verify-missing-200-joint-account-transfer-to-external-bank-for-user-91",
-   "folder": "task-100550-verify-missing-200-joint-account-transfer-to-external-bank-for-user-91-reviewed-2",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -12261,9 +12315,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/verify-missing-200-joint-account-transfer-to-external-bank-for-user-91",
+   "declared_short": "verify-missing-200-joint-account-transfer-to-external-bank-for-user-91",
    "domain": null,
+   "folder": "task-100550-verify-missing-200-joint-account-transfer-to-external-bank-for-user-91-reviewed-2",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ff250bfe7741333ef8bff4668cd15059a15b6776ec2e913827278e06c7e1af80",
    "size_bytes": 8389529,
    "updated": "2026-09-15T19:38:36.600Z"
