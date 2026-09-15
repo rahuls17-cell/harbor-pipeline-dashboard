@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-15T21:37:03+00:00",
+ "generated_at": "2026-09-15T22:07:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 856,
-  "scanned": 856,
+  "task_folders": 860,
+  "scanned": 860,
   "connector": 217,
-  "non_connector": 639,
+  "non_connector": 643,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "real": 61
  },
  "domain": {
-  "unnamed": 228,
+  "unnamed": 229,
   "code": 196,
-  "fin": 45,
-  "gen": 279,
+  "fin": 46,
+  "gen": 280,
   "health": 55,
-  "law": 53
+  "law": 54
  },
  "name_prefix": {
   "harbor": 221,
-  "obi": 635
+  "obi": 639
  },
  "connector_services": {
   "slack-gym": 140,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 525872
+  "new_archives_read": 6,
+  "approx_bytes_read": 789299
  },
  "errors": [],
  "tasks": [
@@ -71,15 +71,15 @@
    "updated": "2026-09-09T19:13:39.005Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c425-risk-tier-stress-test-drawdown-audit",
    "declared_short": "code-c425-risk-tier-stress-test-drawdown-audit",
-   "folder": "C425-QC-v3-2of4-20260915",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "C425-QC-v3-2of4-20260915",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e699d21b302c0346da00dede6c7575321496fe4488c97bab385f08be185604f9",
    "size_bytes": 5347527,
    "updated": "2026-09-15T21:17:16.267Z"
@@ -4357,6 +4357,20 @@
    "updated": "2026-09-15T13:50:23.087Z"
   },
   {
+   "declared_name": "obi/edu-s2-a1-wida-benchmark-alignment-workbook-consolidation",
+   "declared_short": "edu-s2-a1-wida-benchmark-alignment-workbook-consolidation",
+   "folder": "edu-s2-a1-wida-benchmark-alignment-workbook-consolidation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "71064234589738abfa4c051364e653d4f5080dac2db94e5e23575550b9cb98f9",
+   "size_bytes": 5092625,
+   "updated": "2026-09-15T21:37:19.404Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-s2-a5-workshop-running-order-rebuild",
@@ -4611,6 +4625,20 @@
    "sha256": "38a9b03e4c34bd4211f8406d93ad2e496e667e8c179e346ab47ee047cf85d128",
    "size_bytes": 9082705,
    "updated": "2026-09-13T02:14:33.974Z"
+  },
+  {
+   "declared_name": "obi/fin-b41-f10-sole-trader-balance-sheet-build",
+   "declared_short": "fin-b41-f10-sole-trader-balance-sheet-build",
+   "folder": "fin-b41-f10-sole-trader-balance-sheet-build",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "f33b55ad5ea736fca00a63a42b92cf50e2079aefe0c8d386316a6a568b8d06fa",
+   "size_bytes": 6931294,
+   "updated": "2026-09-15T21:37:24.284Z"
   },
   {
    "connector_provenance": null,
@@ -7539,29 +7567,29 @@
    "updated": "2026-09-10T19:14:03.737Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/gen-g662-prospective-distributor-qualification-audit",
    "declared_short": "gen-g662-prospective-distributor-qualification-audit",
-   "domain": "gen",
    "folder": "gen-g662-prospective-distributor-qualification-audit",
-   "image": null,
-   "is_connector": false,
-   "prefix": "obi",
-   "sha256": "564e0c92f0fdf9584dbb3b97aed9969771b7c754384151625c2c4056136761a7",
-   "size_bytes": 5355093,
-   "updated": "2026-09-14T23:45:58.264Z"
-  },
-  {
-   "declared_name": "obi/gen-g673-advisory-ad-creative-compliance-audit",
-   "declared_short": "gen-g673-advisory-ad-creative-compliance-audit",
-   "folder": "gen-g673-advisory-ad-creative-compliance-audit",
    "prefix": "obi",
    "is_connector": false,
    "connector_services": [],
    "connector_provenance": null,
    "domain": "gen",
    "image": null,
+   "sha256": "75d4842c919a4e77b85fd794e110f40e3f6bd8a8b06032d8a4a4da866c480587",
+   "size_bytes": 5124028,
+   "updated": "2026-09-15T22:04:14.839Z"
+  },
+  {
+   "connector_provenance": null,
+   "connector_services": [],
+   "declared_name": "obi/gen-g673-advisory-ad-creative-compliance-audit",
+   "declared_short": "gen-g673-advisory-ad-creative-compliance-audit",
+   "domain": "gen",
+   "folder": "gen-g673-advisory-ad-creative-compliance-audit",
+   "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0c1467a0f93f0326f42e276e891b171c8fd80e451868e7f5634d3a6445715513",
    "size_bytes": 3926305,
    "updated": "2026-09-15T21:19:44.466Z"
@@ -8099,18 +8127,18 @@
    "updated": "2026-09-06T01:29:19.127Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/gen-g799-research-conference-program-slot-audit",
    "declared_short": "gen-g799-research-conference-program-slot-audit",
-   "domain": "gen",
    "folder": "gen-g799-research-conference-program-slot-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "4a9761291d0ac675ef0b831b276a5b9e1d253a04e8f1b6a0050858990a26b4fe",
-   "size_bytes": 4408287,
-   "updated": "2026-09-06T06:33:51.263Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "9102e9e89fc3f6e4cdf396a797d2c50c10637c265a55c9610f74a6fb60e3ffd1",
+   "size_bytes": 4509851,
+   "updated": "2026-09-15T21:43:57.997Z"
   },
   {
    "connector_provenance": null,
@@ -8545,6 +8573,20 @@
    "sha256": "0cb4c4e6a9457a2864f902684f5ad787499baa29879017d421a439ea458c65d8",
    "size_bytes": 3771163,
    "updated": "2026-09-14T10:18:04.064Z"
+  },
+  {
+   "declared_name": "obi/gen-g937-wallpaper-stock-asset-reuse-audit",
+   "declared_short": "gen-g937-wallpaper-stock-asset-reuse-audit",
+   "folder": "gen-g937-wallpaper-stock-asset-reuse-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "4db0d270b3bc6b3eadf545f4ea143995b4eaf760f9d520add52eda1d4a342341",
+   "size_bytes": 4117678,
+   "updated": "2026-09-15T21:52:27.346Z"
   },
   {
    "connector_provenance": null,
@@ -10597,15 +10639,15 @@
    "updated": "2026-09-06T17:20:28.018Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h85-gp-endocrine-curriculum-coverage-audit",
    "declared_short": "health-h85-gp-endocrine-curriculum-coverage-audit",
-   "folder": "health-h85-gp-endocrine-curriculum-coverage-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h85-gp-endocrine-curriculum-coverage-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6e6307a4bf23be5bb0c97d261dbed5937686814a97fa9d777d9d6dfcc103871f",
    "size_bytes": 8835396,
    "updated": "2026-09-15T21:23:01.417Z"
@@ -10751,15 +10793,15 @@
    "updated": "2026-09-14T14:41:24.630Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt6-a2-voice-register-article-abstract-check",
    "declared_short": "health-tdt6-a2-voice-register-article-abstract-check",
-   "folder": "health-tdt6-a2-voice-register-article-abstract-check",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt6-a2-voice-register-article-abstract-check",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "477eaa941ec0e8a109688896e22dc3a6cd55e19de70c1d6a5a448d827d4de714",
    "size_bytes": 3914525,
    "updated": "2026-09-15T21:23:24.677Z"
@@ -11155,6 +11197,20 @@
    "sha256": "e150f83257b7586fb9d53a2674cb0bf9e0d4762a12cc44da639ef300372082a6",
    "size_bytes": 5267998,
    "updated": "2026-09-15T20:26:12.423Z"
+  },
+  {
+   "declared_name": "obi/law-b39-l7-counsel-confirmation-email-audit",
+   "declared_short": "law-b39-l7-counsel-confirmation-email-audit",
+   "folder": "law-b39-l7-counsel-confirmation-email-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "35bf84265297ccf50a16f0468906d96e40e14a7858000df81d15da8ebe8dfc70",
+   "size_bytes": 4628986,
+   "updated": "2026-09-15T21:38:19.633Z"
   },
   {
    "connector_provenance": null,
