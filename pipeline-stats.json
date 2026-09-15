@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-15T14:37:03+00:00",
+ "generated_at": "2026-09-15T15:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 834,
-  "scanned": 834,
-  "connector": 212,
+  "task_folders": 835,
+  "scanned": 835,
+  "connector": 213,
   "non_connector": 622,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 102,
+  "unknown": 103,
   "synthetic": 50,
   "real": 60
  },
  "domain": {
-  "unnamed": 222,
+  "unnamed": 223,
   "code": 194,
   "fin": 44,
   "gen": 274,
@@ -22,17 +22,17 @@
   "law": 50
  },
  "name_prefix": {
-  "harbor": 216,
+  "harbor": 217,
   "obi": 618
  },
  "connector_services": {
-  "slack-gym": 136,
-  "google-drive-gym": 134,
-  "confluence-gym": 117,
-  "zeta3-sql-gym": 117,
-  "email-gym": 115,
-  "freshdesk-gym": 115,
-  "jira-gym": 115,
+  "slack-gym": 137,
+  "google-drive-gym": 135,
+  "confluence-gym": 118,
+  "zeta3-sql-gym": 118,
+  "email-gym": 116,
+  "freshdesk-gym": 116,
+  "jira-gym": 116,
   "notion-gym": 12,
   "email-calendar-gym": 11,
   "github-gym": 11,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 525816
+  "new_archives_read": 1,
+  "approx_bytes_read": 133917
  },
  "errors": [],
  "tasks": [
@@ -363,6 +363,28 @@
    "sha256": "6c459559cc80c5dc60f5e6bb65a6252937e93d974a4a32ec9bad79ac131e4baa",
    "size_bytes": 8370575,
    "updated": "2026-09-09T20:00:47.538Z"
+  },
+  {
+   "declared_name": "harbor/audit-paycheck-automation-detection-eligibility-criteria",
+   "declared_short": "audit-paycheck-automation-detection-eligibility-criteria",
+   "folder": "audit-paycheck-automation-detection-eligibility-criteria",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "dd8e20fecb546722b2b1fdaa2058010af3798d5cf4ff3de88b46d97285ff2e5f",
+   "size_bytes": 12889067,
+   "updated": "2026-09-15T14:43:45.511Z"
   },
   {
    "connector_provenance": "unknown",
@@ -3315,15 +3337,15 @@
    "updated": "2026-09-08T10:47:42.171Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c769-lip-sync-offset-qc-audit",
    "declared_short": "code-c769-lip-sync-offset-qc-audit",
-   "folder": "code-c769-lip-sync-offset-qc-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c769-lip-sync-offset-qc-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f41f70917253f39741cbeef264742e0c20057db7c2e2eebb69c355ad71596cbd",
    "size_bytes": 4034679,
    "updated": "2026-09-15T14:08:16.565Z"
@@ -4681,15 +4703,15 @@
    "updated": "2026-09-14T13:10:17.689Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b44-a1-receivable-past-due-cash-application",
    "declared_short": "fin-b44-a1-receivable-past-due-cash-application",
-   "folder": "fin-b44-a1-receivable-past-due-cash-application",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b44-a1-receivable-past-due-cash-application",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "034b62b1a0aa266a548ff9b2cf5f0fdd68598da3b50cd00cfb536605d3d2b7f4",
    "size_bytes": 4082255,
    "updated": "2026-09-15T14:11:41.910Z"
@@ -4709,15 +4731,15 @@
    "updated": "2026-09-14T22:55:31.322Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b44-a2-asset-disposal-posting-schedule",
    "declared_short": "fin-b44-a2-asset-disposal-posting-schedule",
-   "folder": "fin-b44-a2-asset-disposal-posting-schedule",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b44-a2-asset-disposal-posting-schedule",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8f91f5a43cb04c5dc1a4090aecb5b23391ba255a57de12b37c35584c23d3ea7b",
    "size_bytes": 4337841,
    "updated": "2026-09-15T14:13:07.313Z"
@@ -10763,15 +10785,15 @@
    "updated": "2026-09-14T11:05:48.355Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b36-l2-burial-benefit-recomputation",
    "declared_short": "law-b36-l2-burial-benefit-recomputation",
-   "folder": "law-b36-l2-burial-benefit-recomputation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b36-l2-burial-benefit-recomputation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d8a63167c0593adb854c07761cb2a0bcab19c0bc0123f419af0fc85db00cc86f",
    "size_bytes": 3421945,
    "updated": "2026-09-15T14:26:13.295Z"
