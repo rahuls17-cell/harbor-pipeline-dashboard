@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T15:37:02+00:00",
+ "generated_at": "2026-09-15T16:37:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 835,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 134257
  },
  "errors": [],
  "tasks": [
@@ -119,7 +119,11 @@
    "updated": "2026-09-15T00:51:55.727Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/ach-pull-567018-completion-estimate-seems-late-verify-against-holiday",
+   "declared_short": "ach-pull-567018-completion-estimate-seems-late-verify-against-holiday",
+   "folder": "ach-pull-567018-completion-estimate-seems-late-verify-against-holiday",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -129,16 +133,12 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/ach-pull-567018-completion-estimate-seems-late-verify-against-holiday",
-   "declared_short": "ach-pull-567018-completion-estimate-seems-late-verify-against-holiday",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "ach-pull-567018-completion-estimate-seems-late-verify-against-holiday",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "e028306306d1ed406bca83ad093baf94f7e3b9af6b434fdd5ebf380bddc0f8ba",
-   "size_bytes": 5877961,
-   "updated": "2026-09-09T20:00:10.243Z"
+   "sha256": "90808fa250d5f9a93fbebbc4782897ce952f39d6e21f3fe0981bdb219b68ac5c",
+   "size_bytes": 6549696,
+   "updated": "2026-09-15T16:15:56.054Z"
   },
   {
    "connector_provenance": "unknown",
