@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T01:37:02+00:00",
+ "generated_at": "2026-09-15T02:07:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 812,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 132756
  },
  "errors": [],
  "tasks": [
@@ -11436,20 +11436,20 @@
    "updated": "2026-09-14T10:10:35.857Z"
   },
   {
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/project-purpose-statement-gap",
+   "declared_short": "project-purpose-statement-gap",
+   "folder": "project-purpose-statement-gap",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "notion-gym"
    ],
-   "declared_name": "harbor/project-purpose-statement-gap",
-   "declared_short": "project-purpose-statement-gap",
+   "connector_provenance": "synthetic",
    "domain": null,
-   "folder": "project-purpose-statement-gap",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "892b731db971810ceeced8d518579860b25864974c6a15ccbe1dc8658e37873c",
-   "size_bytes": 5244921,
-   "updated": "2026-09-14T10:08:13.507Z"
+   "sha256": "bc399781acb1f8a867734d009de7b344e675dc5c735cdd6157f5b44c3bac7e20",
+   "size_bytes": 5088734,
+   "updated": "2026-09-15T02:06:33.960Z"
   },
   {
    "connector_provenance": "synthetic",
