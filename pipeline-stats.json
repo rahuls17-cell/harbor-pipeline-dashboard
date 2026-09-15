@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T01:07:04+00:00",
+ "generated_at": "2026-09-15T01:37:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 812,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 6,
-  "approx_bytes_read": 794153
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -102,17 +102,17 @@
    "updated": "2026-09-09T12:54:53.849Z"
   },
   {
-   "declared_name": "harbor/accepted-meetings-missing-dial-in-2026-2027",
-   "declared_short": "accepted-meetings-missing-dial-in-2026-2027",
-   "folder": "accepted-meetings-missing-dial-in-2026-2027",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/accepted-meetings-missing-dial-in-2026-2027",
+   "declared_short": "accepted-meetings-missing-dial-in-2026-2027",
    "domain": null,
+   "folder": "accepted-meetings-missing-dial-in-2026-2027",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ec755ab4d02bcc5b79bbcde52034e5e4a89c4f229d93c0ebbb52afe531afa407",
    "size_bytes": 7941035,
    "updated": "2026-09-15T00:51:55.727Z"
@@ -4666,15 +4666,15 @@
    "updated": "2026-09-14T11:41:03.833Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b45-a4-depreciation-and-cost-of-goods",
    "declared_short": "fin-b45-a4-depreciation-and-cost-of-goods",
-   "folder": "fin-b45-a4-depreciation-and-cost-of-goods",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b45-a4-depreciation-and-cost-of-goods",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a498efbbbf67ea06825c3e7a5ca504a8bf848af24f4b6ad8553f4f2455974428",
    "size_bytes": 7635194,
    "updated": "2026-09-15T00:53:36.949Z"
@@ -7536,15 +7536,15 @@
    "updated": "2026-09-14T11:49:41.295Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g748-sop-numbering-scheme-audit",
    "declared_short": "gen-g748-sop-numbering-scheme-audit",
-   "folder": "gen-g748-sop-numbering-scheme-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g748-sop-numbering-scheme-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "09462a4338fd8af45844ca952eacb3a47a3e172dfffcea472fa5dcc89c94883b",
    "size_bytes": 5908705,
    "updated": "2026-09-15T00:55:40.923Z"
@@ -7690,15 +7690,15 @@
    "updated": "2026-09-15T00:01:34.018Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g786-assembly-guide-layer-completeness-audit",
    "declared_short": "gen-g786-assembly-guide-layer-completeness-audit",
-   "folder": "gen-g786-assembly-guide-layer-completeness-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g786-assembly-guide-layer-completeness-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2c6978b29a076a2a50d9921824d1fb5e213700c63b217139ee60fe1eb2e8562a",
    "size_bytes": 6753555,
    "updated": "2026-09-15T00:44:42.413Z"
@@ -10636,15 +10636,15 @@
    "updated": "2026-09-14T20:56:56.014Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b42-l1-civil-forum-jurisdiction-adjudication",
    "declared_short": "law-b42-l1-civil-forum-jurisdiction-adjudication",
-   "folder": "law-b42-l1-civil-forum-jurisdiction-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b42-l1-civil-forum-jurisdiction-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e78a3f465ba5643f28702ae040dc46d26a4fe2d1ecce55aad537e08d246c4239",
    "size_bytes": 5342355,
    "updated": "2026-09-15T00:52:32.308Z"
@@ -12130,11 +12130,7 @@
    "updated": "2026-09-14T10:15:50.569Z"
   },
   {
-   "declared_name": "harbor/verify-atm-fee-decision-for-mastercard-card-event-on-2024-02-12",
-   "declared_short": "verify-atm-fee-decision-for-mastercard-card-event-on-2024-02-12",
-   "folder": "verify-atm-fee-decision-for-mastercard-card-event-on-2024-02-12",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -12144,9 +12140,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/verify-atm-fee-decision-for-mastercard-card-event-on-2024-02-12",
+   "declared_short": "verify-atm-fee-decision-for-mastercard-card-event-on-2024-02-12",
    "domain": null,
+   "folder": "verify-atm-fee-decision-for-mastercard-card-event-on-2024-02-12",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7d3dd308260e678624cd71665f7247c0e4aed11b0dc925eec53c8decc75b7ccd",
    "size_bytes": 8045137,
    "updated": "2026-09-15T00:55:38.020Z"
