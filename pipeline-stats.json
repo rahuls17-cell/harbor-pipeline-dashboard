@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T02:07:02+00:00",
+ "generated_at": "2026-09-15T02:37:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 812,
@@ -43,7 +43,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 132756
+  "approx_bytes_read": 131482
  },
  "errors": [],
  "tasks": [
@@ -738,18 +738,18 @@
    "updated": "2026-09-13T08:14:15.347Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/bus-b31-a1-webinar-attendee-white-glove-routing",
    "declared_short": "bus-b31-a1-webinar-attendee-white-glove-routing",
-   "domain": null,
    "folder": "bus-b31-a1-webinar-attendee-white-glove-routing",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "85ba3459f4ce91a8148eaf1bbc8d8fdf52b9bf4c755d310ee28098788b852de8",
-   "size_bytes": 6027468,
-   "updated": "2026-09-15T00:02:42.218Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "7faddebaa865203bd3a3e324ce55c474de1f15269778dcfc115eef242483744d",
+   "size_bytes": 5674823,
+   "updated": "2026-09-15T02:35:01.608Z"
   },
   {
    "connector_provenance": null,
@@ -11436,17 +11436,17 @@
    "updated": "2026-09-14T10:10:35.857Z"
   },
   {
-   "declared_name": "harbor/project-purpose-statement-gap",
-   "declared_short": "project-purpose-statement-gap",
-   "folder": "project-purpose-statement-gap",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/project-purpose-statement-gap",
+   "declared_short": "project-purpose-statement-gap",
    "domain": null,
+   "folder": "project-purpose-statement-gap",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "bc399781acb1f8a867734d009de7b344e675dc5c735cdd6157f5b44c3bac7e20",
    "size_bytes": 5088734,
    "updated": "2026-09-15T02:06:33.960Z"
