@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-16T01:37:02+00:00",
+ "generated_at": "2026-09-16T05:07:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 871,
-  "scanned": 871,
-  "connector": 218,
-  "non_connector": 653,
+  "task_folders": 876,
+  "scanned": 876,
+  "connector": 219,
+  "non_connector": 657,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 105,
-  "synthetic": 52,
+  "synthetic": 53,
   "real": 61
  },
  "domain": {
-  "unnamed": 231,
+  "unnamed": 232,
   "code": 197,
-  "fin": 47,
-  "gen": 281,
+  "fin": 48,
+  "gen": 284,
   "health": 56,
   "law": 59
  },
  "name_prefix": {
-  "harbor": 222,
-  "obi": 649
+  "harbor": 223,
+  "obi": 653
  },
  "connector_services": {
   "slack-gym": 141,
@@ -39,12 +39,12 @@
   "outlook-gym": 11,
   "gws-gym": 6,
   "linear-gym": 3,
-  "supabase-gym": 2,
-  "snowflake-gym": 1
+  "snowflake-gym": 2,
+  "supabase-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 5,
+  "approx_bytes_read": 660626
  },
  "errors": [],
  "tasks": [
@@ -4649,6 +4649,20 @@
    "updated": "2026-09-14T23:40:05.748Z"
   },
   {
+   "declared_name": "obi/fin-b40-a8-benefit-asset-limit-month-adjudication",
+   "declared_short": "fin-b40-a8-benefit-asset-limit-month-adjudication",
+   "folder": "fin-b40-a8-benefit-asset-limit-month-adjudication-v1-FOR-QC-V2",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "bf85f97a9d43e96014bb3168347d469df1e248861b40db9a2b5b34d7f5102a20",
+   "size_bytes": 6019219,
+   "updated": "2026-09-16T04:40:00.534Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/fin-b41-a4-mapped-trial-balance-restatement",
@@ -5697,6 +5711,20 @@
    "sha256": "8db748de333bc8322e2895ffd7296ed3a7deec4b5d86c7023b6533ddece3c08c",
    "size_bytes": 7791493,
    "updated": "2026-09-12T20:43:15.618Z"
+  },
+  {
+   "declared_name": "obi/gen-g1219-interest-directory-visibility-audit",
+   "declared_short": "gen-g1219-interest-directory-visibility-audit",
+   "folder": "gen-g1219-interest-directory-visibility-audit-v4-FOR-QC-V2",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "26b5ebe68403c3de7c101a9f9de8664d269a21d5271629e74e4f7f5a4c619cd9",
+   "size_bytes": 5587840,
+   "updated": "2026-09-16T04:39:13.272Z"
   },
   {
    "connector_provenance": null,
@@ -7421,6 +7449,20 @@
    "updated": "2026-09-15T13:55:36.818Z"
   },
   {
+   "declared_name": "obi/gen-g605-seasonal-collection-launch-readiness-audit",
+   "declared_short": "gen-g605-seasonal-collection-launch-readiness-audit",
+   "folder": "gen-g605-seasonal-collection-launch-readiness-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "f7baacb95e506d263db65846f6f2069d7756a111d6937aa86a4086c9c15ae1e9",
+   "size_bytes": 10957044,
+   "updated": "2026-09-16T04:45:38.302Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g609-river-cyanotoxin-advisory-audit",
@@ -8245,6 +8287,20 @@
    "sha256": "bdb6ca981aec31f9a41fcaed88cc65fd6ad907e93641189b225c09c16e753831",
    "size_bytes": 7411511,
    "updated": "2026-09-11T23:30:46.578Z"
+  },
+  {
+   "declared_name": "obi/gen-g804-vascular-biomarker-figure-prep-audit-hard-v10aq",
+   "declared_short": "gen-g804-vascular-biomarker-figure-prep-audit-hard-v10aq",
+   "folder": "gen-g804-vascular-biomarker-figure-prep-audit-hard-v10aq-QC-TESTING",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "ef625232fb5c9a9986d427bc2eaff0794636f4fda60dfe1d267ee5b703ca3613",
+   "size_bytes": 5177835,
+   "updated": "2026-09-16T04:43:23.796Z"
   },
   {
    "connector_provenance": null,
@@ -13395,6 +13451,22 @@
    "sha256": "fa69f97bb77318b0054a6ff49f3ccc143e7934ae9cf5858b8cc144d015cb3894",
    "size_bytes": 9093328,
    "updated": "2026-09-10T02:23:03.711Z"
+  },
+  {
+   "declared_name": "harbor/what-the-loads-quietly-lost",
+   "declared_short": "what-the-loads-quietly-lost",
+   "folder": "what-the-loads-quietly-lost",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d9692a24789f12866fd65880a1ae27227211b741ab73ee3db63946c325ce334d",
+   "size_bytes": 17347262,
+   "updated": "2026-09-16T04:50:25.073Z"
   }
  ]
 }
