@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-16T14:30:03+00:00",
+ "generated_at": "2026-09-16T14:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 539,
-  "scanned": 539,
+  "task_folders": 540,
+  "scanned": 540,
   "connector": 156,
-  "non_connector": 383,
+  "non_connector": 384,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 126,
   "fin": 27,
   "gen": 168,
-  "health": 30,
+  "health": 31,
   "law": 26
  },
  "name_prefix": {
   "harbor": 160,
-  "obi": 379
+  "obi": 380
  },
  "connector_services": {
   "google-drive-gym": 103,
@@ -43,7 +43,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131485
+  "approx_bytes_read": 131428
  },
  "errors": [],
  "tasks": [
@@ -7024,15 +7024,29 @@
    "updated": "2026-09-16T05:12:23.625Z"
   },
   {
-   "declared_name": "obi/health-tdt6-a2-voice-register-article-abstract-check",
-   "declared_short": "health-tdt6-a2-voice-register-article-abstract-check",
-   "folder": "health-tdt6-a2-voice-register-article-abstract-check",
+   "declared_name": "obi/health-tdt3-a5-bk-virus-pipeline-register",
+   "declared_short": "health-tdt3-a5-bk-virus-pipeline-register",
+   "folder": "health-tdt3-a5-bk-virus-pipeline-register",
    "prefix": "obi",
    "is_connector": false,
    "connector_services": [],
    "connector_provenance": null,
    "domain": "health",
    "image": null,
+   "sha256": "8414a0e702025183ef0d56ca3e01971ac95c7a9edf50fce1e8eb2dc6d88bca96",
+   "size_bytes": 5280886,
+   "updated": "2026-09-16T14:34:13.852Z"
+  },
+  {
+   "connector_provenance": null,
+   "connector_services": [],
+   "declared_name": "obi/health-tdt6-a2-voice-register-article-abstract-check",
+   "declared_short": "health-tdt6-a2-voice-register-article-abstract-check",
+   "domain": "health",
+   "folder": "health-tdt6-a2-voice-register-article-abstract-check",
+   "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "fae5df7b53eb439295503b1b7f28e22bfcd5b467688b21b4809c7d3eb2db7b3b",
    "size_bytes": 5755936,
    "updated": "2026-09-16T14:28:24.997Z"
