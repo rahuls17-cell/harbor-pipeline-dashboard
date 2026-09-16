@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T12:05:02+00:00",
+ "generated_at": "2026-09-16T12:10:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 534,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131511
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3906,15 +3906,15 @@
    "updated": "2026-09-10T14:47:36.572Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g23-venue-capacity-compliance",
    "declared_short": "gen-g23-venue-capacity-compliance",
-   "folder": "gen-g23-venue-capacity-compliance",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g23-venue-capacity-compliance",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d21ee23bc76854e6fb79ca407a67c65ad3492af895b9294c5a5ed3b1ce11fb2d",
    "size_bytes": 6875745,
    "updated": "2026-09-16T12:00:46.953Z"
