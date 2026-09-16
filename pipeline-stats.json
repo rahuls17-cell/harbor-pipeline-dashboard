@@ -1,33 +1,33 @@
 {
- "generated_at": "2026-09-16T08:37:03+00:00",
+ "generated_at": "2026-09-16T09:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 525,
-  "scanned": 525,
-  "connector": 154,
-  "non_connector": 371,
+  "task_folders": 527,
+  "scanned": 527,
+  "connector": 155,
+  "non_connector": 372,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 74,
-  "synthetic": 31,
+  "synthetic": 32,
   "real": 49
  },
  "domain": {
-  "unnamed": 160,
+  "unnamed": 161,
   "code": 126,
   "fin": 23,
   "gen": 163,
   "health": 29,
-  "law": 24
+  "law": 25
  },
  "name_prefix": {
-  "harbor": 158,
-  "obi": 367
+  "harbor": 159,
+  "obi": 368
  },
  "connector_services": {
   "google-drive-gym": 102,
-  "slack-gym": 96,
+  "slack-gym": 97,
   "confluence-gym": 85,
   "email-gym": 85,
   "freshdesk-gym": 85,
@@ -43,7 +43,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 263473
+  "approx_bytes_read": 265380
  },
  "errors": [],
  "tasks": [
@@ -662,6 +662,22 @@
    "updated": "2026-09-13T04:17:00.613Z"
   },
   {
+   "declared_name": "harbor/closed-loop-claim-reconciliation",
+   "declared_short": "closed-loop-claim-reconciliation",
+   "folder": "closed-loop-claim-reconciliation",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "72a48064b31fa51af16e91a9c246d55bdd54fe43f56f88d08f18d10cb5ec02a4",
+   "size_bytes": 8727836,
+   "updated": "2026-09-16T08:45:18.235Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c470-underwriter-pitch-remediation-sla-audit",
@@ -1110,15 +1126,15 @@
    "updated": "2026-09-07T16:37:45.679Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c356-wine-list-print-readiness-audit",
    "declared_short": "code-c356-wine-list-print-readiness-audit",
-   "folder": "code-c356-wine-list-print-readiness-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c356-wine-list-print-readiness-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5e709203eab695ffb59f8adebefbf0812d134d0d5d68afab70b545617a0314e2",
    "size_bytes": 7667937,
    "updated": "2026-09-16T08:15:33.576Z"
@@ -4582,15 +4598,15 @@
    "updated": "2026-09-05T20:12:47.877Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g61-performance-rights-reconcile",
    "declared_short": "gen-g61-performance-rights-reconcile",
-   "folder": "gen-g61-performance-rights-reconcile",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g61-performance-rights-reconcile",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0769e1277d526aeb74463342000ce1cba4e1510f48dd37fbe19b813204e338d0",
    "size_bytes": 5080126,
    "updated": "2026-09-16T08:12:38.870Z"
@@ -7270,6 +7286,20 @@
    "sha256": "9e4faaa7163c5d0bcdc161799e06589f30e41de7b1bf5183892e95652171b793",
    "size_bytes": 7985412,
    "updated": "2026-09-06T17:14:14.174Z"
+  },
+  {
+   "declared_name": "obi/law-l49-dscsa-trading-partner-verification-audit",
+   "declared_short": "law-l49-dscsa-trading-partner-verification-audit",
+   "folder": "law-l49-dscsa-trading-partner-verification-audit-09f3f1-v3-sna-uynv",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "8f403865fb4693486bf8d1cd6d550b07d79ef3b8b32d51be3a71d696a3d9c6e6",
+   "size_bytes": 7067843,
+   "updated": "2026-09-16T08:45:16.445Z"
   },
   {
    "connector_provenance": null,
