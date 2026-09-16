@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-16T10:55:02+00:00",
+ "generated_at": "2026-09-16T11:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 531,
-  "scanned": 531,
+  "task_folders": 532,
+  "scanned": 532,
   "connector": 156,
-  "non_connector": 375,
+  "non_connector": 376,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 162,
   "code": 126,
-  "fin": 25,
+  "fin": 26,
   "gen": 164,
   "health": 29,
   "law": 25
  },
  "name_prefix": {
   "harbor": 160,
-  "obi": 371
+  "obi": 372
  },
  "connector_services": {
   "google-drive-gym": 103,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131495
  },
  "errors": [],
  "tasks": [
@@ -3232,6 +3232,20 @@
    "sha256": "ab3fc71af4f8175600a30d166e7981b5ddf3d78866d0caf6b60683f2df5e1f16",
    "size_bytes": 5509664,
    "updated": "2026-09-13T18:09:58.656Z"
+  },
+  {
+   "declared_name": "obi/fin-b47-a12-fund-holdings-quarter-change-bridge",
+   "declared_short": "fin-b47-a12-fund-holdings-quarter-change-bridge",
+   "folder": "fin-b47-a12-fund-holdings-quarter-change-bridge",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "bce23ff320155e99be9af33798902546de8bd53bb0101aab90c972f056db8ec0",
+   "size_bytes": 11644815,
+   "updated": "2026-09-16T10:59:47.643Z"
   },
   {
    "connector_provenance": null,
