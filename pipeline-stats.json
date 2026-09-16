@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-16T23:00:04+00:00",
+ "generated_at": "2026-09-16T23:05:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 557,
-  "scanned": 557,
+  "task_folders": 558,
+  "scanned": 558,
   "connector": 160,
-  "non_connector": 397,
+  "non_connector": 398,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 168,
   "code": 126,
-  "fin": 32,
+  "fin": 33,
   "gen": 169,
   "health": 33,
   "law": 29
  },
  "name_prefix": {
   "harbor": 164,
-  "obi": 393
+  "obi": 394
  },
  "connector_services": {
   "google-drive-gym": 106,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 526074
+  "new_archives_read": 1,
+  "approx_bytes_read": 131559
  },
  "errors": [],
  "tasks": [
@@ -3270,15 +3270,29 @@
    "updated": "2026-09-16T09:53:09.265Z"
   },
   {
-   "declared_name": "obi/fin-b46-a10-shared-expense-allocation",
-   "declared_short": "fin-b46-a10-shared-expense-allocation",
-   "folder": "fin-b46-a10-shared-expense-allocation",
+   "declared_name": "obi/fin-b46-a1-trust-principal-income-allocation",
+   "declared_short": "fin-b46-a1-trust-principal-income-allocation",
+   "folder": "fin-b46-a1-trust-principal-income-allocation",
    "prefix": "obi",
    "is_connector": false,
    "connector_services": [],
    "connector_provenance": null,
    "domain": "fin",
    "image": null,
+   "sha256": "df072203bd2b978bbdb3005053aca0e37f03e2d2346d6054319a9689db9f30e4",
+   "size_bytes": 9505462,
+   "updated": "2026-09-16T23:00:33.097Z"
+  },
+  {
+   "connector_provenance": null,
+   "connector_services": [],
+   "declared_name": "obi/fin-b46-a10-shared-expense-allocation",
+   "declared_short": "fin-b46-a10-shared-expense-allocation",
+   "domain": "fin",
+   "folder": "fin-b46-a10-shared-expense-allocation",
+   "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b0d736da3d1bdfbce7cbb59999649c3b26ca8142917b4854c3b2c642084a4a4e",
    "size_bytes": 7660148,
    "updated": "2026-09-16T22:58:48.955Z"
@@ -3298,29 +3312,29 @@
    "updated": "2026-09-13T18:09:58.656Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b46-a8-relocation-option-selection",
    "declared_short": "fin-b46-a8-relocation-option-selection",
-   "folder": "fin-b46-a8-relocation-option-selection",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b46-a8-relocation-option-selection",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a1e1a5dacd90a6e09287c4df50549ae1cfe9fbeb2313bcedc03090385e1a5d2a",
    "size_bytes": 12275468,
    "updated": "2026-09-16T22:56:41.594Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b46-a9-statement-balance-reconstruction",
    "declared_short": "fin-b46-a9-statement-balance-reconstruction",
-   "folder": "fin-b46-a9-statement-balance-reconstruction",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b46-a9-statement-balance-reconstruction",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "626174efd72cfae2fc1a026165acabcfb7cbe6c0cf9f1f1075a3cdb341793e6b",
    "size_bytes": 7718229,
    "updated": "2026-09-16T22:57:34.753Z"
@@ -7430,15 +7444,15 @@
    "updated": "2026-09-16T22:39:10.911Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b37-l9-policy-summary-citation-audit",
    "declared_short": "law-b37-l9-policy-summary-citation-audit",
-   "folder": "law-b37-l9-policy-summary-citation-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b37-l9-policy-summary-citation-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0907b69eff9fb343129eba241b4c4c0fb056c04bc483ac7972a4b78ab8c0abd3",
    "size_bytes": 7322228,
    "updated": "2026-09-16T22:56:47.450Z"
