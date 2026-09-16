@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-15T23:37:03+00:00",
+ "generated_at": "2026-09-16T00:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 868,
-  "scanned": 868,
+  "task_folders": 870,
+  "scanned": 870,
   "connector": 218,
-  "non_connector": 650,
+  "non_connector": 652,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "real": 61
  },
  "domain": {
-  "unnamed": 230,
+  "unnamed": 231,
   "code": 197,
   "fin": 46,
   "gen": 281,
   "health": 56,
-  "law": 58
+  "law": 59
  },
  "name_prefix": {
   "harbor": 222,
-  "obi": 646
+  "obi": 648
  },
  "connector_services": {
   "slack-gym": 141,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 396405
+  "new_archives_read": 2,
+  "approx_bytes_read": 262941
  },
  "errors": [],
  "tasks": [
@@ -837,6 +837,20 @@
    "sha256": "2c213a987a5d30af554026b7274a2c41c50f6e2d93266c10b992fe6253d6d297",
    "size_bytes": 14220791,
    "updated": "2026-09-13T02:07:35.855Z"
+  },
+  {
+   "declared_name": "obi/bus-b31-a6-solicitation-revision-change-log",
+   "declared_short": "bus-b31-a6-solicitation-revision-change-log",
+   "folder": "bus-b31-a6-solicitation-revision-change-log-v1",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "c6f8fb3b3a86b56529e1123962ae4419b6da1ca2337cd6747be25a40c69b2aef",
+   "size_bytes": 5723270,
+   "updated": "2026-09-15T23:59:53.421Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -4539,11 +4553,7 @@
    "updated": "2026-09-14T12:19:21.711Z"
   },
   {
-   "declared_name": "harbor/explain-savings-interest-change-for-account-10297-between-march-and-ap",
-   "declared_short": "explain-savings-interest-change-for-account-10297-between-march-and-ap",
-   "folder": "explain-savings-interest-change-for-account-10297-between-march-and-ap",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -4553,9 +4563,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/explain-savings-interest-change-for-account-10297-between-march-and-ap",
+   "declared_short": "explain-savings-interest-change-for-account-10297-between-march-and-ap",
    "domain": null,
+   "folder": "explain-savings-interest-change-for-account-10297-between-march-and-ap",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1263b29094f8a35cc5008db7f0e31145c5500c43c64a04bd89be753ad1aee68c",
    "size_bytes": 7476778,
    "updated": "2026-09-15T23:07:51.182Z"
@@ -11095,15 +11109,15 @@
    "updated": "2026-09-13T13:12:30.899Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b36-l11-foreign-judgment-registration-audit",
    "declared_short": "law-b36-l11-foreign-judgment-registration-audit",
-   "folder": "law-b36-l11-foreign-judgment-registration-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b36-l11-foreign-judgment-registration-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2364f28d4a383665c13610d6bf35767de7b19f53a00f940663a1d35dfef89214",
    "size_bytes": 7905296,
    "updated": "2026-09-15T23:10:26.269Z"
@@ -11221,6 +11235,20 @@
    "updated": "2026-09-15T22:23:57.788Z"
   },
   {
+   "declared_name": "obi/law-b38-l1-nexus-letter-statement-audit",
+   "declared_short": "law-b38-l1-nexus-letter-statement-audit",
+   "folder": "law-b38-l1-nexus-letter-statement-audit-v1",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "f37d6f25a70087026296cec36a076833933420ede133191904ed830a350901b4",
+   "size_bytes": 4764454,
+   "updated": "2026-09-15T23:57:47.799Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-b38-l6-efiling-guide-statement-audit",
@@ -11277,15 +11305,15 @@
    "updated": "2026-09-15T00:04:47.319Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b39-l2-recording-landscape-claim-audit",
    "declared_short": "law-b39-l2-recording-landscape-claim-audit",
-   "folder": "law-b39-l2-recording-landscape-claim-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b39-l2-recording-landscape-claim-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "54c87587db52d4a2087da57c5f33b98048e995f7aff514c48e7f2588e1c2a433",
    "size_bytes": 5000909,
    "updated": "2026-09-15T23:12:59.501Z"
