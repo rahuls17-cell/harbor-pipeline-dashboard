@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-16T11:05:02+00:00",
+ "generated_at": "2026-09-16T11:45:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 532,
-  "scanned": 532,
+  "task_folders": 533,
+  "scanned": 533,
   "connector": 156,
-  "non_connector": 376,
+  "non_connector": 377,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 162,
   "code": 126,
   "fin": 26,
-  "gen": 164,
+  "gen": 165,
   "health": 29,
   "law": 25
  },
  "name_prefix": {
   "harbor": 160,
-  "obi": 372
+  "obi": 373
  },
  "connector_services": {
   "google-drive-gym": 103,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131649
  },
  "errors": [],
  "tasks": [
@@ -4282,6 +4282,20 @@
    "sha256": "1fad6dd93b4f6bf2b31151d72111860f6059156329787257d3bb42da8a58307f",
    "size_bytes": 7691553,
    "updated": "2026-09-16T06:18:20.556Z"
+  },
+  {
+   "declared_name": "obi/gen-g421-policy-manual-regulatory-currency-audit",
+   "declared_short": "gen-g421-policy-manual-regulatory-currency-audit",
+   "folder": "gen-g421-policy-manual-regulatory-currency-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "fc797c91c1b06051acf74ef3be0b1731c0f4d9ee3b0a63e2bb33fd30bf1eb77b",
+   "size_bytes": 7538478,
+   "updated": "2026-09-16T11:40:09.418Z"
   },
   {
    "connector_provenance": null,
