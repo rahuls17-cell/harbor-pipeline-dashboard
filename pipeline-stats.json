@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T14:35:03+00:00",
+ "generated_at": "2026-09-16T14:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 540,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131428
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -7024,15 +7024,15 @@
    "updated": "2026-09-16T05:12:23.625Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt3-a5-bk-virus-pipeline-register",
    "declared_short": "health-tdt3-a5-bk-virus-pipeline-register",
-   "folder": "health-tdt3-a5-bk-virus-pipeline-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt3-a5-bk-virus-pipeline-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8414a0e702025183ef0d56ca3e01971ac95c7a9edf50fce1e8eb2dc6d88bca96",
    "size_bytes": 5280886,
    "updated": "2026-09-16T14:34:13.852Z"
