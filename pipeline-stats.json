@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-16T23:30:02+00:00",
+ "generated_at": "2026-09-16T23:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 560,
-  "scanned": 560,
+  "task_folders": 561,
+  "scanned": 561,
   "connector": 161,
-  "non_connector": 399,
+  "non_connector": 400,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 169,
   "code": 127,
-  "fin": 33,
+  "fin": 34,
   "gen": 169,
   "health": 33,
   "law": 29
  },
  "name_prefix": {
   "harbor": 165,
-  "obi": 395
+  "obi": 396
  },
  "connector_services": {
   "google-drive-gym": 107,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131572
  },
  "errors": [],
  "tasks": [
@@ -3156,6 +3156,20 @@
    "sha256": "0ce52724d69a1fe45713aca4380a75acc67534d49a1d5a071ac452a5a73dd6c9",
    "size_bytes": 12608166,
    "updated": "2026-09-14T23:40:05.748Z"
+  },
+  {
+   "declared_name": "obi/fin-b40-a10-delivery-channel-margin-restatement",
+   "declared_short": "fin-b40-a10-delivery-channel-margin-restatement",
+   "folder": "fin-b40-a10-delivery-channel-margin-restatement",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "f7e422112423bff26bd7b70abf23ff846e7f799a56a5b7f3ceb955acfcaf896f",
+   "size_bytes": 11361011,
+   "updated": "2026-09-16T23:32:11.835Z"
   },
   {
    "connector_provenance": null,
