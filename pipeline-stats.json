@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-09-16T06:07:03+00:00",
+ "generated_at": "2026-09-16T06:37:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 518,
-  "scanned": 518,
-  "connector": 152,
-  "non_connector": 366,
+  "task_folders": 520,
+  "scanned": 520,
+  "connector": 153,
+  "non_connector": 367,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 73,
+  "unknown": 74,
   "synthetic": 31,
   "real": 48
  },
  "domain": {
-  "unnamed": 157,
+  "unnamed": 158,
   "code": 125,
   "fin": 23,
-  "gen": 160,
+  "gen": 161,
   "health": 29,
   "law": 24
  },
  "name_prefix": {
-  "harbor": 156,
-  "obi": 362
+  "harbor": 157,
+  "obi": 363
  },
  "connector_services": {
-  "google-drive-gym": 101,
-  "slack-gym": 95,
-  "confluence-gym": 84,
-  "email-gym": 84,
-  "freshdesk-gym": 84,
-  "jira-gym": 84,
-  "zeta3-sql-gym": 84,
+  "google-drive-gym": 102,
+  "slack-gym": 96,
+  "confluence-gym": 85,
+  "email-gym": 85,
+  "freshdesk-gym": 85,
+  "jira-gym": 85,
+  "zeta3-sql-gym": 85,
   "github-gym": 8,
   "email-calendar-gym": 8,
   "notion-gym": 7,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131469
+  "new_archives_read": 2,
+  "approx_bytes_read": 264806
  },
  "errors": [],
  "tasks": [
@@ -100,6 +100,28 @@
    "sha256": "1c9ee9355f9be12f9fa8c1a6e3893c4c1cc2d0b06a8419f947276685ad23e294",
    "size_bytes": 6317369,
    "updated": "2026-09-09T12:54:53.849Z"
+  },
+  {
+   "declared_name": "harbor/account-recovery-email-flow-next-step-for-user-with-outstanding-2fa-co",
+   "declared_short": "account-recovery-email-flow-next-step-for-user-with-outstanding-2fa-co",
+   "folder": "account-recovery-email-flow-next-step-for-user-with-outstanding-2fa-co",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "33931535aeffad9591296ee4e05edda20ff4def268362785558390e2983cccf1",
+   "size_bytes": 4817809,
+   "updated": "2026-09-16T06:14:17.653Z"
   },
   {
    "connector_provenance": "unknown",
@@ -946,15 +968,15 @@
    "updated": "2026-09-11T03:32:48.803Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c319-dealer-quote-rqs-compliance-audit",
    "declared_short": "code-c319-dealer-quote-rqs-compliance-audit",
-   "folder": "code-c319-dealer-quote-rqs-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c319-dealer-quote-rqs-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7004272cc9d14457b0411f0aca19d2bf7fe8ab9a578f6c86732cb7806809e49c",
    "size_bytes": 7213723,
    "updated": "2026-09-16T05:52:53.634Z"
@@ -4122,6 +4144,20 @@
    "sha256": "e1e62c6d13d30bc4454b591538d9be709c5c0047660c23fd60f57e535a62cb4c",
    "size_bytes": 3010515,
    "updated": "2026-09-13T07:45:08.734Z"
+  },
+  {
+   "declared_name": "obi/gen-g414-press-release-prohibited-terms-audit",
+   "declared_short": "gen-g414-press-release-prohibited-terms-audit",
+   "folder": "gen-g414-press-release-prohibited-terms-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "1fad6dd93b4f6bf2b31151d72111860f6059156329787257d3bb42da8a58307f",
+   "size_bytes": 7691553,
+   "updated": "2026-09-16T06:18:20.556Z"
   },
   {
    "connector_provenance": null,
