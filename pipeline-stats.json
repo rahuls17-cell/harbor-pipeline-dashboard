@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T21:30:05+00:00",
+ "generated_at": "2026-09-16T21:35:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 548,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133301
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -8284,17 +8284,17 @@
    "updated": "2026-09-06T04:20:30.120Z"
   },
   {
-   "declared_name": "harbor/verify-atm-fee-decision-for-in-network-mastercard-withdrawal-card-even",
-   "declared_short": "verify-atm-fee-decision-for-in-network-mastercard-withdrawal-card-even",
-   "folder": "verify-atm-fee-decision-for-in-network-mastercard-withdrawal-card-even_fixed",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/verify-atm-fee-decision-for-in-network-mastercard-withdrawal-card-even",
+   "declared_short": "verify-atm-fee-decision-for-in-network-mastercard-withdrawal-card-even",
    "domain": null,
+   "folder": "verify-atm-fee-decision-for-in-network-mastercard-withdrawal-card-even_fixed",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d03ffbae28c3458eadfef611dc1b4f547f06df3ea36d6438ff34c7b5b1eacf23",
    "size_bytes": 13318859,
    "updated": "2026-09-16T21:27:04.464Z"
