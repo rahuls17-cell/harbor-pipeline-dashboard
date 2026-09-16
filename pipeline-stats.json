@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-16T07:37:03+00:00",
+ "generated_at": "2026-09-16T08:07:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 522,
-  "scanned": 522,
-  "connector": 153,
+  "task_folders": 523,
+  "scanned": 523,
+  "connector": 154,
   "non_connector": 369,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 74,
   "synthetic": 31,
-  "real": 48
+  "real": 49
  },
  "domain": {
-  "unnamed": 159,
+  "unnamed": 160,
   "code": 125,
   "fin": 23,
   "gen": 162,
@@ -22,7 +22,7 @@
   "law": 24
  },
  "name_prefix": {
-  "harbor": 157,
+  "harbor": 158,
   "obi": 365
  },
  "connector_services": {
@@ -33,8 +33,8 @@
   "freshdesk-gym": 85,
   "jira-gym": 85,
   "zeta3-sql-gym": 85,
+  "email-calendar-gym": 9,
   "github-gym": 8,
-  "email-calendar-gym": 8,
   "notion-gym": 7,
   "outlook-gym": 7,
   "gws-gym": 6,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133070
  },
  "errors": [],
  "tasks": [
@@ -100,6 +100,22 @@
    "sha256": "1c9ee9355f9be12f9fa8c1a6e3893c4c1cc2d0b06a8419f947276685ad23e294",
    "size_bytes": 6317369,
    "updated": "2026-09-09T12:54:53.849Z"
+  },
+  {
+   "declared_name": "harbor/accepted-meetings-missing-dial-in-2026-2027",
+   "declared_short": "accepted-meetings-missing-dial-in-2026-2027",
+   "folder": "accepted-meetings-missing-dial-in-2026-2027",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "6bb37e6dcac554f0586ec456c7c155612032090f177622e6fa358e989cb72f02",
+   "size_bytes": 10044955,
+   "updated": "2026-09-16T07:39:21.183Z"
   },
   {
    "connector_provenance": "unknown",
