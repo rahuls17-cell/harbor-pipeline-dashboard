@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T23:35:03+00:00",
+ "generated_at": "2026-09-16T23:40:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 561,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131572
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3158,15 +3158,15 @@
    "updated": "2026-09-14T23:40:05.748Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b40-a10-delivery-channel-margin-restatement",
    "declared_short": "fin-b40-a10-delivery-channel-margin-restatement",
-   "folder": "fin-b40-a10-delivery-channel-margin-restatement",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b40-a10-delivery-channel-margin-restatement",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f7e422112423bff26bd7b70abf23ff846e7f799a56a5b7f3ceb955acfcaf896f",
    "size_bytes": 11361011,
    "updated": "2026-09-16T23:32:11.835Z"
