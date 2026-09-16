@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T23:25:02+00:00",
+ "generated_at": "2026-09-16T23:30:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 560,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131465
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1624,15 +1624,15 @@
    "updated": "2026-09-06T17:01:59.435Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c475-bookkeeping-deadline-escalation-audit",
    "declared_short": "code-c475-bookkeeping-deadline-escalation-audit",
-   "folder": "code-c475-bookkeeping-deadline-escalation-audit-95f4a8-v1-sna-czkk",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c475-bookkeeping-deadline-escalation-audit-95f4a8-v1-sna-czkk",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9b3f55a465c57165a50c12217a40ba2b4164d558b55bd14a6f2d87bab11df642",
    "size_bytes": 6453896,
    "updated": "2026-09-16T23:23:58.043Z"
