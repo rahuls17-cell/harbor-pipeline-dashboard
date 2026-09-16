@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-16T14:25:04+00:00",
+ "generated_at": "2026-09-16T14:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 538,
-  "scanned": 538,
+  "task_folders": 539,
+  "scanned": 539,
   "connector": 156,
-  "non_connector": 382,
+  "non_connector": 383,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 126,
   "fin": 27,
   "gen": 168,
-  "health": 29,
+  "health": 30,
   "law": 26
  },
  "name_prefix": {
   "harbor": 160,
-  "obi": 378
+  "obi": 379
  },
  "connector_services": {
   "google-drive-gym": 103,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131485
  },
  "errors": [],
  "tasks": [
@@ -7022,6 +7022,20 @@
    "sha256": "546547446e8ed97e90ab750466061cd5cc3873ccebb7493352edcf648eedd1f4",
    "size_bytes": 6426350,
    "updated": "2026-09-16T05:12:23.625Z"
+  },
+  {
+   "declared_name": "obi/health-tdt6-a2-voice-register-article-abstract-check",
+   "declared_short": "health-tdt6-a2-voice-register-article-abstract-check",
+   "folder": "health-tdt6-a2-voice-register-article-abstract-check",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "fae5df7b53eb439295503b1b7f28e22bfcd5b467688b21b4809c7d3eb2db7b3b",
+   "size_bytes": 5755936,
+   "updated": "2026-09-16T14:28:24.997Z"
   },
   {
    "connector_provenance": "unknown",
