@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T09:55:03+00:00",
+ "generated_at": "2026-09-16T10:00:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 528,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131430
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3170,15 +3170,15 @@
    "updated": "2026-09-13T08:30:38.086Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b44-a2-asset-disposal-posting-schedule",
    "declared_short": "fin-b44-a2-asset-disposal-posting-schedule",
-   "folder": "fin-b44-a2-asset-disposal-posting-schedule",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b44-a2-asset-disposal-posting-schedule",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9e794e0a1d0c25fc9cc2d59eee5b45f671ed9418aa55c8b1954a0b4b9fd01ba2",
    "size_bytes": 6079182,
    "updated": "2026-09-16T09:53:09.265Z"
