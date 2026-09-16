@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-16T15:20:04+00:00",
+ "generated_at": "2026-09-16T15:25:06+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 540,
-  "scanned": 540,
+  "task_folders": 541,
+  "scanned": 541,
   "connector": 156,
-  "non_connector": 384,
+  "non_connector": 385,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 162,
   "code": 126,
-  "fin": 27,
+  "fin": 28,
   "gen": 168,
   "health": 31,
   "law": 26
  },
  "name_prefix": {
   "harbor": 160,
-  "obi": 380
+  "obi": 381
  },
  "connector_services": {
   "google-drive-gym": 103,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131499
  },
  "errors": [],
  "tasks": [
@@ -3246,6 +3246,20 @@
    "sha256": "ab3fc71af4f8175600a30d166e7981b5ddf3d78866d0caf6b60683f2df5e1f16",
    "size_bytes": 5509664,
    "updated": "2026-09-13T18:09:58.656Z"
+  },
+  {
+   "declared_name": "obi/fin-b47-a11-brokerage-subaccount-reconciliation",
+   "declared_short": "fin-b47-a11-brokerage-subaccount-reconciliation",
+   "folder": "fin-b47-a11-brokerage-subaccount-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "82bfc8c656eafbebdc676fb92be6f58085212064a427548dcf7af0f7d2958c70",
+   "size_bytes": 6546331,
+   "updated": "2026-09-16T15:22:15.382Z"
   },
   {
    "connector_provenance": null,
