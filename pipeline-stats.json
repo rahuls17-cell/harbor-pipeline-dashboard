@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-16T17:15:02+00:00",
+ "generated_at": "2026-09-16T20:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 544,
-  "scanned": 544,
+  "task_folders": 545,
+  "scanned": 545,
   "connector": 159,
-  "non_connector": 385,
+  "non_connector": 386,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 126,
   "fin": 28,
   "gen": 168,
-  "health": 31,
+  "health": 32,
   "law": 26
  },
  "name_prefix": {
   "harbor": 163,
-  "obi": 381
+  "obi": 382
  },
  "connector_services": {
   "google-drive-gym": 106,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131623
  },
  "errors": [],
  "tasks": [
@@ -6890,6 +6890,20 @@
    "sha256": "1355ce3180bf33fe8d7a9ad3da2407b7523a01d2e0ab1a17dedb46a89eef22ee",
    "size_bytes": 6401202,
    "updated": "2026-09-12T04:40:33.952Z"
+  },
+  {
+   "declared_name": "obi/health-h577-ebp-evidence-appraisal-adjudication",
+   "declared_short": "health-h577-ebp-evidence-appraisal-adjudication",
+   "folder": "health-h577-ebp-evidence-appraisal-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "df062a4079e8fdddab19f83521035d9001d850b7e390fa5b833bdbf307535eb3",
+   "size_bytes": 6428873,
+   "updated": "2026-09-16T20:11:42.775Z"
   },
   {
    "connector_provenance": null,
