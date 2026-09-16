@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-16T23:15:02+00:00",
+ "generated_at": "2026-09-16T23:20:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 558,
-  "scanned": 558,
-  "connector": 160,
+  "task_folders": 559,
+  "scanned": 559,
+  "connector": 161,
   "non_connector": 398,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 78,
+  "unknown": 79,
   "synthetic": 32,
   "real": 50
  },
  "domain": {
-  "unnamed": 168,
+  "unnamed": 169,
   "code": 126,
   "fin": 33,
   "gen": 169,
@@ -22,17 +22,17 @@
   "law": 29
  },
  "name_prefix": {
-  "harbor": 164,
+  "harbor": 165,
   "obi": 394
  },
  "connector_services": {
-  "google-drive-gym": 106,
-  "slack-gym": 101,
-  "zeta3-sql-gym": 90,
-  "confluence-gym": 89,
-  "email-gym": 89,
-  "freshdesk-gym": 89,
-  "jira-gym": 89,
+  "google-drive-gym": 107,
+  "slack-gym": 102,
+  "zeta3-sql-gym": 91,
+  "confluence-gym": 90,
+  "email-gym": 90,
+  "freshdesk-gym": 90,
+  "jira-gym": 90,
   "email-calendar-gym": 9,
   "github-gym": 8,
   "notion-gym": 7,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133292
  },
  "errors": [],
  "tasks": [
@@ -8024,6 +8024,28 @@
    "sha256": "d127bf20a76fd01e0ad080f658c53650963d5e060837db67d041d56e001b1ee9",
    "size_bytes": 9923318,
    "updated": "2026-09-05T20:15:21.414Z"
+  },
+  {
+   "declared_name": "harbor/replacement-fee-decision-for-reissued-physical-card-on-account-10082-i",
+   "declared_short": "replacement-fee-decision-for-reissued-physical-card-on-account-10082-i",
+   "folder": "replacement-fee-decision-for-reissued-physical-card-on-account-10082-i",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "32079d37ec8046ae83d4f6ac5122fcd3ebba5035dcfa1f354a362c9ad2279829",
+   "size_bytes": 10723656,
+   "updated": "2026-09-16T23:17:14.905Z"
   },
   {
    "connector_provenance": "unknown",
