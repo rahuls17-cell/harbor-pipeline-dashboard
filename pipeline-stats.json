@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-16T21:25:03+00:00",
+ "generated_at": "2026-09-16T21:30:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 547,
-  "scanned": 547,
-  "connector": 159,
+  "task_folders": 548,
+  "scanned": 548,
+  "connector": 160,
   "non_connector": 388,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 78,
   "synthetic": 32,
-  "real": 49
+  "real": 50
  },
  "domain": {
-  "unnamed": 166,
+  "unnamed": 167,
   "code": 126,
   "fin": 28,
   "gen": 169,
@@ -22,17 +22,17 @@
   "law": 26
  },
  "name_prefix": {
-  "harbor": 163,
+  "harbor": 164,
   "obi": 384
  },
  "connector_services": {
   "google-drive-gym": 106,
   "slack-gym": 101,
+  "zeta3-sql-gym": 90,
   "confluence-gym": 89,
   "email-gym": 89,
   "freshdesk-gym": 89,
   "jira-gym": 89,
-  "zeta3-sql-gym": 89,
   "email-calendar-gym": 9,
   "github-gym": 8,
   "notion-gym": 7,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133301
  },
  "errors": [],
  "tasks": [
@@ -8282,6 +8282,22 @@
    "sha256": "89bb5a5ac727fe2215bbb7137be531802093279c3e42eb763517fa83579dc6c0",
    "size_bytes": 7531061,
    "updated": "2026-09-06T04:20:30.120Z"
+  },
+  {
+   "declared_name": "harbor/verify-atm-fee-decision-for-in-network-mastercard-withdrawal-card-even",
+   "declared_short": "verify-atm-fee-decision-for-in-network-mastercard-withdrawal-card-even",
+   "folder": "verify-atm-fee-decision-for-in-network-mastercard-withdrawal-card-even_fixed",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "d03ffbae28c3458eadfef611dc1b4f547f06df3ea36d6438ff34c7b5b1eacf23",
+   "size_bytes": 13318859,
+   "updated": "2026-09-16T21:27:04.464Z"
   },
   {
    "connector_provenance": "real",
