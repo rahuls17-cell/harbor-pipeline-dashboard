@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T16:40:04+00:00",
+ "generated_at": "2026-09-16T16:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 544,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134600
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -8074,11 +8074,7 @@
    "updated": "2026-09-16T15:56:58.367Z"
   },
   {
-   "declared_name": "harbor/recurring-32-16-card-on-file-declines-on-terminated-card-6729-root-cau",
-   "declared_short": "recurring-32-16-card-on-file-declines-on-terminated-card-6729-root-cau",
-   "folder": "task_recurring_32_16_card_on_file_declines_on_terminated_card_6729_root_cau",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -8088,9 +8084,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/recurring-32-16-card-on-file-declines-on-terminated-card-6729-root-cau",
+   "declared_short": "recurring-32-16-card-on-file-declines-on-terminated-card-6729-root-cau",
    "domain": null,
+   "folder": "task_recurring_32_16_card_on_file_declines_on_terminated_card_6729_root_cau",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2f4476e9cffa631ee4596d7a0ea168902a66ce1a8e572d15221839732a634d78",
    "size_bytes": 8047441,
    "updated": "2026-09-16T16:36:59.508Z"
