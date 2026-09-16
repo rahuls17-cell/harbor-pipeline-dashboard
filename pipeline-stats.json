@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-16T00:07:03+00:00",
+ "generated_at": "2026-09-16T00:37:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 870,
-  "scanned": 870,
+  "task_folders": 871,
+  "scanned": 871,
   "connector": 218,
-  "non_connector": 652,
+  "non_connector": 653,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 231,
   "code": 197,
-  "fin": 46,
+  "fin": 47,
   "gen": 281,
   "health": 56,
   "law": 59
  },
  "name_prefix": {
   "harbor": 222,
-  "obi": 648
+  "obi": 649
  },
  "connector_services": {
   "slack-gym": 141,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262941
+  "new_archives_read": 1,
+  "approx_bytes_read": 131450
  },
  "errors": [],
  "tasks": [
@@ -839,15 +839,15 @@
    "updated": "2026-09-13T02:07:35.855Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b31-a6-solicitation-revision-change-log",
    "declared_short": "bus-b31-a6-solicitation-revision-change-log",
-   "folder": "bus-b31-a6-solicitation-revision-change-log-v1",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b31-a6-solicitation-revision-change-log-v1",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c6f8fb3b3a86b56529e1123962ae4419b6da1ca2337cd6747be25a40c69b2aef",
    "size_bytes": 5723270,
    "updated": "2026-09-15T23:59:53.421Z"
@@ -5039,6 +5039,20 @@
    "sha256": "8319361d1549104a093c34acf6897e7aee724ccf66f8c81eaa44f0f26b06a719",
    "size_bytes": 4318858,
    "updated": "2026-09-14T21:29:43.106Z"
+  },
+  {
+   "declared_name": "obi/fin-b47-a4-treasury-lot-after-tax-return",
+   "declared_short": "fin-b47-a4-treasury-lot-after-tax-return",
+   "folder": "fin-b47-a4-treasury-lot-after-tax-return-v1",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "3f37d1b9f02d9deb9d4bda6bd19eb31ee697d444989f92f15b5cefd2a2b81820",
+   "size_bytes": 4221870,
+   "updated": "2026-09-16T00:19:32.032Z"
   },
   {
    "connector_provenance": null,
@@ -11235,15 +11249,15 @@
    "updated": "2026-09-15T22:23:57.788Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b38-l1-nexus-letter-statement-audit",
    "declared_short": "law-b38-l1-nexus-letter-statement-audit",
-   "folder": "law-b38-l1-nexus-letter-statement-audit-v1",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b38-l1-nexus-letter-statement-audit-v1",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f37d6f25a70087026296cec36a076833933420ede133191904ed830a350901b4",
    "size_bytes": 4764454,
    "updated": "2026-09-15T23:57:47.799Z"
