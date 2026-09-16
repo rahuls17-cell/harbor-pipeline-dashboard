@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T11:45:02+00:00",
+ "generated_at": "2026-09-16T11:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 533,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131649
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4284,15 +4284,15 @@
    "updated": "2026-09-16T06:18:20.556Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g421-policy-manual-regulatory-currency-audit",
    "declared_short": "gen-g421-policy-manual-regulatory-currency-audit",
-   "folder": "gen-g421-policy-manual-regulatory-currency-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g421-policy-manual-regulatory-currency-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "fc797c91c1b06051acf74ef3be0b1731c0f4d9ee3b0a63e2bb33fd30bf1eb77b",
    "size_bytes": 7538478,
    "updated": "2026-09-16T11:40:09.418Z"
