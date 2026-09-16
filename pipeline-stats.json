@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T20:20:03+00:00",
+ "generated_at": "2026-09-16T20:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 545,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133140
  },
  "errors": [],
  "tasks": [
@@ -468,7 +468,11 @@
    "updated": "2026-09-16T10:29:17.962Z"
   },
   {
-   "connector_provenance": "real",
+   "declared_name": "harbor/hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
+   "declared_short": "hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
+   "folder": "batch3__hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date-v2",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -478,16 +482,12 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
-   "declared_short": "hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
+   "connector_provenance": "real",
    "domain": null,
-   "folder": "batch3__hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date-v2",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "935ebb1af316f9ee795df8cbd097ced8544cb068ab27ebc22ebfbeadf5f6d0b6",
-   "size_bytes": 8521201,
-   "updated": "2026-09-13T04:07:19.396Z"
+   "sha256": "452f4b4b78a672efc298ab1bf044bcfd86ed95829a38367440117681a104f1ab",
+   "size_bytes": 8479395,
+   "updated": "2026-09-16T20:23:19.335Z"
   },
   {
    "connector_provenance": "unknown",
