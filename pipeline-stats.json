@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T22:40:03+00:00",
+ "generated_at": "2026-09-16T22:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 550,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262993
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -7116,15 +7116,15 @@
    "updated": "2026-09-16T14:28:24.997Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt6-a8-solids-phase-in-schedule-checklist",
    "declared_short": "health-tdt6-a8-solids-phase-in-schedule-checklist",
-   "folder": "health-tdt6-a8-solids-phase-in-schedule-checklist",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt6-a8-solids-phase-in-schedule-checklist",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5cd01aa1362bb817efb7e154ab40c3c778e5eebff189092ba6fb04779e0e84d0",
    "size_bytes": 12997617,
    "updated": "2026-09-16T22:39:53.146Z"
@@ -7346,15 +7346,15 @@
    "updated": "2026-09-14T07:04:27.336Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b37-l11-job-announcement-status-register",
    "declared_short": "law-b37-l11-job-announcement-status-register",
-   "folder": "law-b37-l11-job-announcement-status-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b37-l11-job-announcement-status-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c5bf0ac8b80393aa0e4fec243f26fe7798b2de2fb2ec24ba4679fb9ac0febaa3",
    "size_bytes": 7308390,
    "updated": "2026-09-16T22:39:10.911Z"
