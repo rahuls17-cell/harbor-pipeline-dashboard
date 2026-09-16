@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T23:05:02+00:00",
+ "generated_at": "2026-09-16T23:10:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 558,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131559
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3270,15 +3270,15 @@
    "updated": "2026-09-16T09:53:09.265Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b46-a1-trust-principal-income-allocation",
    "declared_short": "fin-b46-a1-trust-principal-income-allocation",
-   "folder": "fin-b46-a1-trust-principal-income-allocation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b46-a1-trust-principal-income-allocation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "df072203bd2b978bbdb3005053aca0e37f03e2d2346d6054319a9689db9f30e4",
    "size_bytes": 9505462,
    "updated": "2026-09-16T23:00:33.097Z"
