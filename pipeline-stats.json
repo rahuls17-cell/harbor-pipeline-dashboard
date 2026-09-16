@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-16T08:07:03+00:00",
+ "generated_at": "2026-09-16T08:37:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 523,
-  "scanned": 523,
+  "task_folders": 525,
+  "scanned": 525,
   "connector": 154,
-  "non_connector": 369,
+  "non_connector": 371,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 160,
-  "code": 125,
+  "code": 126,
   "fin": 23,
-  "gen": 162,
+  "gen": 163,
   "health": 29,
   "law": 24
  },
  "name_prefix": {
   "harbor": 158,
-  "obi": 365
+  "obi": 367
  },
  "connector_services": {
   "google-drive-gym": 102,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133070
+  "new_archives_read": 2,
+  "approx_bytes_read": 263473
  },
  "errors": [],
  "tasks": [
@@ -102,17 +102,17 @@
    "updated": "2026-09-09T12:54:53.849Z"
   },
   {
-   "declared_name": "harbor/accepted-meetings-missing-dial-in-2026-2027",
-   "declared_short": "accepted-meetings-missing-dial-in-2026-2027",
-   "folder": "accepted-meetings-missing-dial-in-2026-2027",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/accepted-meetings-missing-dial-in-2026-2027",
+   "declared_short": "accepted-meetings-missing-dial-in-2026-2027",
    "domain": null,
+   "folder": "accepted-meetings-missing-dial-in-2026-2027",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6bb37e6dcac554f0586ec456c7c155612032090f177622e6fa358e989cb72f02",
    "size_bytes": 10044955,
    "updated": "2026-09-16T07:39:21.183Z"
@@ -1108,6 +1108,20 @@
    "sha256": "7e4b40457b0c07e6c078a4f04f8127e529b368f06925dfbde5692b69e3a6a201",
    "size_bytes": 7739430,
    "updated": "2026-09-07T16:37:45.679Z"
+  },
+  {
+   "declared_name": "obi/code-c356-wine-list-print-readiness-audit",
+   "declared_short": "code-c356-wine-list-print-readiness-audit",
+   "folder": "code-c356-wine-list-print-readiness-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "5e709203eab695ffb59f8adebefbf0812d134d0d5d68afab70b545617a0314e2",
+   "size_bytes": 7667937,
+   "updated": "2026-09-16T08:15:33.576Z"
   },
   {
    "connector_provenance": null,
@@ -4566,6 +4580,20 @@
    "sha256": "01493bc52b4911b8bc2dcfbfe5d4257668f7100c173ebb5641623c3352df171c",
    "size_bytes": 3061622,
    "updated": "2026-09-05T20:12:47.877Z"
+  },
+  {
+   "declared_name": "obi/gen-g61-performance-rights-reconcile",
+   "declared_short": "gen-g61-performance-rights-reconcile",
+   "folder": "gen-g61-performance-rights-reconcile",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "0769e1277d526aeb74463342000ce1cba4e1510f48dd37fbe19b813204e338d0",
+   "size_bytes": 5080126,
+   "updated": "2026-09-16T08:12:38.870Z"
   },
   {
    "connector_provenance": null,
