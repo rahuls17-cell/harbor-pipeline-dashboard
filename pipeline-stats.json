@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-16T23:20:02+00:00",
+ "generated_at": "2026-09-16T23:25:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 559,
-  "scanned": 559,
+  "task_folders": 560,
+  "scanned": 560,
   "connector": 161,
-  "non_connector": 398,
+  "non_connector": 399,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 169,
-  "code": 126,
+  "code": 127,
   "fin": 33,
   "gen": 169,
   "health": 33,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 165,
-  "obi": 394
+  "obi": 395
  },
  "connector_services": {
   "google-drive-gym": 107,
@@ -43,7 +43,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133292
+  "approx_bytes_read": 131465
  },
  "errors": [],
  "tasks": [
@@ -1622,6 +1622,20 @@
    "sha256": "5f25d91643d978f96936b6cc347f1d4d2c177a4ddd180fabc2cfc75d31e01afa",
    "size_bytes": 5177947,
    "updated": "2026-09-06T17:01:59.435Z"
+  },
+  {
+   "declared_name": "obi/code-c475-bookkeeping-deadline-escalation-audit",
+   "declared_short": "code-c475-bookkeeping-deadline-escalation-audit",
+   "folder": "code-c475-bookkeeping-deadline-escalation-audit-95f4a8-v1-sna-czkk",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "9b3f55a465c57165a50c12217a40ba2b4164d558b55bd14a6f2d87bab11df642",
+   "size_bytes": 6453896,
+   "updated": "2026-09-16T23:23:58.043Z"
   },
   {
    "connector_provenance": null,
@@ -8026,11 +8040,7 @@
    "updated": "2026-09-05T20:15:21.414Z"
   },
   {
-   "declared_name": "harbor/replacement-fee-decision-for-reissued-physical-card-on-account-10082-i",
-   "declared_short": "replacement-fee-decision-for-reissued-physical-card-on-account-10082-i",
-   "folder": "replacement-fee-decision-for-reissued-physical-card-on-account-10082-i",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -8040,9 +8050,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/replacement-fee-decision-for-reissued-physical-card-on-account-10082-i",
+   "declared_short": "replacement-fee-decision-for-reissued-physical-card-on-account-10082-i",
    "domain": null,
+   "folder": "replacement-fee-decision-for-reissued-physical-card-on-account-10082-i",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "32079d37ec8046ae83d4f6ac5122fcd3ebba5035dcfa1f354a362c9ad2279829",
    "size_bytes": 10723656,
    "updated": "2026-09-16T23:17:14.905Z"
