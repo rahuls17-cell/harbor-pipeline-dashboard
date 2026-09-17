@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T08:10:03+00:00",
+ "generated_at": "2026-09-17T08:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 573,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131446
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -8476,15 +8476,15 @@
    "updated": "2026-09-10T04:30:44.134Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b45-t1-slate-outage-window-reconstruction",
    "declared_short": "tech-b45-t1-slate-outage-window-reconstruction",
-   "folder": "tech-b45-t1-slate-outage-window-reconstruction-v1",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b45-t1-slate-outage-window-reconstruction-v1",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b587d8e7582cb9d7049d4bed45a596de011181b68b0225af2d99436279e8ebc2",
    "size_bytes": 5276118,
    "updated": "2026-09-17T08:06:59.191Z"
