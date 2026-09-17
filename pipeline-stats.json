@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-17T01:40:02+00:00",
+ "generated_at": "2026-09-17T02:25:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 565,
-  "scanned": 565,
+  "task_folders": 566,
+  "scanned": 566,
   "connector": 164,
-  "non_connector": 401,
+  "non_connector": 402,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 172,
   "code": 127,
-  "fin": 34,
+  "fin": 35,
   "gen": 169,
   "health": 34,
   "law": 29
  },
  "name_prefix": {
   "harbor": 168,
-  "obi": 397
+  "obi": 398
  },
  "connector_services": {
   "google-drive-gym": 110,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131475
  },
  "errors": [],
  "tasks": [
@@ -3200,6 +3200,20 @@
    "sha256": "0ce52724d69a1fe45713aca4380a75acc67534d49a1d5a071ac452a5a73dd6c9",
    "size_bytes": 12608166,
    "updated": "2026-09-14T23:40:05.748Z"
+  },
+  {
+   "declared_name": "obi/fin-b40-a1-bond-settlement-accrual-recompute",
+   "declared_short": "fin-b40-a1-bond-settlement-accrual-recompute",
+   "folder": "fin-b40-a1-bond-settlement-accrual-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "e78b5d42d3be8d02796bb1e35ca07c3b5e6393a3ae2ec3582ca34ad9068917d8",
+   "size_bytes": 10134682,
+   "updated": "2026-09-17T02:24:34.093Z"
   },
   {
    "connector_provenance": null,
