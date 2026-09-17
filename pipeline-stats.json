@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-17T08:50:03+00:00",
+ "generated_at": "2026-09-17T09:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 576,
-  "scanned": 576,
+  "task_folders": 577,
+  "scanned": 577,
   "connector": 168,
-  "non_connector": 408,
+  "non_connector": 409,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 180,
-  "code": 127,
+  "code": 128,
   "fin": 35,
   "gen": 170,
   "health": 34,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 172,
-  "obi": 404
+  "obi": 405
  },
  "connector_services": {
   "google-drive-gym": 110,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131642
  },
  "errors": [],
  "tasks": [
@@ -1476,6 +1476,20 @@
    "sha256": "3fbdbaf5a3cd7829bbe48e700d62d5a94afd6a18614051485fe2596252cb407d",
    "size_bytes": 7699500,
    "updated": "2026-09-09T20:53:08.334Z"
+  },
+  {
+   "declared_name": "obi/code-c434-loan-impound-reconciliation-audit",
+   "declared_short": "code-c434-loan-impound-reconciliation-audit",
+   "folder": "code-c434-loan-impound-reconciliation-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "18b240c667f2518bf686318803ac47b7cb7d0cd9f6c042e12ef6b0f268be6c43",
+   "size_bytes": 7334020,
+   "updated": "2026-09-17T09:49:24.694Z"
   },
   {
    "connector_provenance": null,
