@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T19:20:02+00:00",
+ "generated_at": "2026-09-17T19:25:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 594,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263208
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3833,15 +3833,15 @@
    "updated": "2026-09-09T13:40:51.980Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1145-resume-role-consolidation-audit",
    "declared_short": "gen-g1145-resume-role-consolidation-audit",
-   "folder": "gen-g1145-resume-role-consolidation-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1145-resume-role-consolidation-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8af414c8f181d688f6c9aeff1007e326197fc8e64b2b781b5810df7ee3747ab4",
    "size_bytes": 8130311,
    "updated": "2026-09-17T19:17:53.710Z"
@@ -5317,15 +5317,15 @@
    "updated": "2026-09-13T13:08:16.400Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g765-install-guide-redesign-fidelity-audit",
    "declared_short": "gen-g765-install-guide-redesign-fidelity-audit",
-   "folder": "gen-g765-install-guide-redesign-fidelity-audit-native-2026-08-20",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g765-install-guide-redesign-fidelity-audit-native-2026-08-20",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6be98c84415bea49225b0a1541d3fb1f8b84b9cb133689ae2fa769dec07ec727",
    "size_bytes": 13794470,
    "updated": "2026-09-17T19:18:51.658Z"
