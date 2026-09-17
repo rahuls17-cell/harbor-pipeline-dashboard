@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-17T19:10:02+00:00",
+ "generated_at": "2026-09-17T19:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 590,
-  "scanned": 590,
+  "task_folders": 592,
+  "scanned": 592,
   "connector": 173,
-  "non_connector": 417,
+  "non_connector": 419,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "real": 52
  },
  "domain": {
-  "unnamed": 185,
-  "code": 129,
+  "unnamed": 186,
+  "code": 130,
   "fin": 38,
   "gen": 170,
   "health": 36,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 177,
-  "obi": 413
+  "obi": 415
  },
  "connector_services": {
   "google-drive-gym": 111,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263061
  },
  "errors": [],
  "tasks": [
@@ -2205,6 +2205,20 @@
    "sha256": "e1b9820a2571b0779c1920b7437cb0e05a14fa938848b7f6e439e383dee19bdc",
    "size_bytes": 4617145,
    "updated": "2026-09-05T21:44:56.715Z"
+  },
+  {
+   "declared_name": "obi/code-c704-admissions-headshot-submission-audit",
+   "declared_short": "code-c704-admissions-headshot-submission-audit",
+   "folder": "code-c704-admissions-headshot-submission-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "0d8a7ad1c6d402f66d6cad7fd8e7d555028ff35403ed0b3c04567810b5b56570",
+   "size_bytes": 13745062,
+   "updated": "2026-09-17T19:13:39.208Z"
   },
   {
    "connector_provenance": null,
@@ -8725,6 +8739,20 @@
    "sha256": "f3d3ac4617b748ff2b6e300af1b68518cda666e19ec86e7f4e6fb4be3b5fa5df",
    "size_bytes": 7996991,
    "updated": "2026-09-17T08:41:57.000Z"
+  },
+  {
+   "declared_name": "obi/tech-b45-t4-pipeline-run-evidence-answers-the-status-question",
+   "declared_short": "tech-b45-t4-pipeline-run-evidence-answers-the-status-question",
+   "folder": "tech-b45-t4-pipeline-run-evidence-answers-the-status-question-v12-FOR-QC-V2",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "8b9fe18ce30663ca99e288205f22981c2cdbb9f051f6011561561cd77e4eb3e6",
+   "size_bytes": 5655809,
+   "updated": "2026-09-17T19:10:45.671Z"
   },
   {
    "connector_provenance": null,
