@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T01:10:02+00:00",
+ "generated_at": "2026-09-17T01:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 565,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134248
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -490,11 +490,7 @@
    "updated": "2026-09-16T20:23:19.335Z"
   },
   {
-   "declared_name": "harbor/payments-cost-and-ach-risk-review-confluence-jira-slack",
-   "declared_short": "payments-cost-and-ach-risk-review-confluence-jira-slack",
-   "folder": "batch3__payments-cost-and-ach-risk-review-confluence-jira-slack-v3",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -504,9 +500,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/payments-cost-and-ach-risk-review-confluence-jira-slack",
+   "declared_short": "payments-cost-and-ach-risk-review-confluence-jira-slack",
    "domain": null,
+   "folder": "batch3__payments-cost-and-ach-risk-review-confluence-jira-slack-v3",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e7f855cc7fd227b580eb1ac71cc43e3433258d2c3abcb7997e8e7f3c09b8519f",
    "size_bytes": 14446502,
    "updated": "2026-09-17T01:05:03.593Z"
