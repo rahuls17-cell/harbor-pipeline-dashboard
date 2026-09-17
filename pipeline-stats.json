@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T18:05:03+00:00",
+ "generated_at": "2026-09-17T18:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 589,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 265130
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2663,11 +2663,7 @@
    "updated": "2026-09-09T20:45:56.410Z"
   },
   {
-   "declared_name": "harbor/diagnose-0-00-on-demand-check-issue-transfer-127522-that-terminated-in",
-   "declared_short": "diagnose-0-00-on-demand-check-issue-transfer-127522-that-terminated-in",
-   "folder": "diagnose-0-00-on-demand-check-issue-transfer-127522-that-terminated-in",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -2677,9 +2673,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/diagnose-0-00-on-demand-check-issue-transfer-127522-that-terminated-in",
+   "declared_short": "diagnose-0-00-on-demand-check-issue-transfer-127522-that-terminated-in",
    "domain": null,
+   "folder": "diagnose-0-00-on-demand-check-issue-transfer-127522-that-terminated-in",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "759cbae131e0352e814ba0f02d76be5f8056f7426a2f770637d97e7a9c262b34",
    "size_bytes": 11947268,
    "updated": "2026-09-17T18:02:53.211Z"
@@ -3371,15 +3371,15 @@
    "updated": "2026-09-16T13:41:48.372Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b43-a2-nonprofit-cash-flow-statement",
    "declared_short": "fin-b43-a2-nonprofit-cash-flow-statement",
-   "folder": "fin-b43-a2-nonprofit-cash-flow-statement",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b43-a2-nonprofit-cash-flow-statement",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ef8d572b3109be6d6fbc087463c04dc388186b025c647fa4497d15bd427517cb",
    "size_bytes": 5927930,
    "updated": "2026-09-17T18:03:21.854Z"
