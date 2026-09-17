@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-17T00:55:03+00:00",
+ "generated_at": "2026-09-17T01:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 563,
-  "scanned": 563,
-  "connector": 162,
+  "task_folders": 564,
+  "scanned": 564,
+  "connector": 163,
   "non_connector": 401,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 80,
+  "unknown": 81,
   "synthetic": 32,
   "real": 50
  },
  "domain": {
-  "unnamed": 170,
+  "unnamed": 171,
   "code": 127,
   "fin": 34,
   "gen": 169,
@@ -22,17 +22,17 @@
   "law": 29
  },
  "name_prefix": {
-  "harbor": 166,
+  "harbor": 167,
   "obi": 397
  },
  "connector_services": {
-  "google-drive-gym": 108,
-  "slack-gym": 103,
-  "zeta3-sql-gym": 92,
-  "confluence-gym": 91,
-  "email-gym": 91,
-  "freshdesk-gym": 91,
-  "jira-gym": 91,
+  "google-drive-gym": 109,
+  "slack-gym": 104,
+  "zeta3-sql-gym": 93,
+  "confluence-gym": 92,
+  "email-gym": 92,
+  "freshdesk-gym": 92,
+  "jira-gym": 92,
   "email-calendar-gym": 9,
   "github-gym": 8,
   "notion-gym": 7,
@@ -43,7 +43,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131528
+  "approx_bytes_read": 133749
  },
  "errors": [],
  "tasks": [
@@ -3126,6 +3126,28 @@
    "sha256": "9e05bfd0eac08da37e8a68994de5c4464893c8e166653aeb7697ef705292c8d2",
    "size_bytes": 12286694,
    "updated": "2026-09-13T05:22:59.075Z"
+  },
+  {
+   "declared_name": "harbor/explain-savings-interest-change-for-account-10297-between-march-and-ap",
+   "declared_short": "explain-savings-interest-change-for-account-10297-between-march-and-ap",
+   "folder": "explain-savings-interest-change-for-account-10297-between-march-and-ap",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "040e2079a1ddde454dfc40aef6921d4ca9e22b42d08579bb98cde2ed7815b2c0",
+   "size_bytes": 11421789,
+   "updated": "2026-09-17T00:58:41.869Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -7032,15 +7054,15 @@
    "updated": "2026-09-16T20:11:42.775Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h581-ddx-case-set-construction-audit",
    "declared_short": "health-h581-ddx-case-set-construction-audit",
-   "folder": "health-h581-ddx-case-set-construction-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h581-ddx-case-set-construction-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "742d943fc5e77822d8e8fb1a39aadb008f782e695fcda9adbc9a5a8a791220bc",
    "size_bytes": 9199061,
    "updated": "2026-09-17T00:54:28.108Z"
