@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-17T12:40:02+00:00",
+ "generated_at": "2026-09-17T13:40:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 580,
-  "scanned": 580,
+  "task_folders": 581,
+  "scanned": 581,
   "connector": 168,
-  "non_connector": 412,
+  "non_connector": 413,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 180,
   "code": 129,
-  "fin": 36,
+  "fin": 37,
   "gen": 170,
   "health": 34,
   "law": 31
  },
  "name_prefix": {
   "harbor": 172,
-  "obi": 408
+  "obi": 409
  },
  "connector_services": {
   "google-drive-gym": 110,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131427
  },
  "errors": [],
  "tasks": [
@@ -3396,6 +3396,20 @@
    "sha256": "9e794e0a1d0c25fc9cc2d59eee5b45f671ed9418aa55c8b1954a0b4b9fd01ba2",
    "size_bytes": 6079182,
    "updated": "2026-09-16T09:53:09.265Z"
+  },
+  {
+   "declared_name": "obi/fin-b45-a5-acquisition-programme-sequencing",
+   "declared_short": "fin-b45-a5-acquisition-programme-sequencing",
+   "folder": "fin-b45-a5-acquisition-programme-sequencing",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "8d00a5837c4c76f8ba66e52b69f7be296900e1cf03bbcb3513199dc9b2e7b39e",
+   "size_bytes": 6475105,
+   "updated": "2026-09-17T13:37:54.918Z"
   },
   {
    "connector_provenance": null,
