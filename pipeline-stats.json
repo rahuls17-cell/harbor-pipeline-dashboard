@@ -1,33 +1,33 @@
 {
- "generated_at": "2026-09-17T18:00:03+00:00",
+ "generated_at": "2026-09-17T18:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 588,
-  "scanned": 588,
+  "task_folders": 589,
+  "scanned": 589,
   "connector": 172,
-  "non_connector": 416,
+  "non_connector": 417,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 83,
-  "synthetic": 38,
+  "unknown": 82,
+  "synthetic": 39,
   "real": 51
  },
  "domain": {
   "unnamed": 184,
   "code": 129,
-  "fin": 37,
+  "fin": 38,
   "gen": 170,
   "health": 36,
   "law": 32
  },
  "name_prefix": {
   "harbor": 176,
-  "obi": 412
+  "obi": 413
  },
  "connector_services": {
   "google-drive-gym": 111,
-  "slack-gym": 110,
+  "slack-gym": 109,
   "zeta3-sql-gym": 95,
   "confluence-gym": 94,
   "email-gym": 94,
@@ -39,11 +39,12 @@
   "outlook-gym": 7,
   "gws-gym": 6,
   "linear-gym": 3,
+  "slack": 1,
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131529
+  "new_archives_read": 2,
+  "approx_bytes_read": 265130
  },
  "errors": [],
  "tasks": [
@@ -1478,15 +1479,15 @@
    "updated": "2026-09-09T20:53:08.334Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c434-loan-impound-reconciliation-audit",
    "declared_short": "code-c434-loan-impound-reconciliation-audit",
-   "folder": "code-c434-loan-impound-reconciliation-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c434-loan-impound-reconciliation-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0670cadd362b78e3aa4a0550f0aa45db9ea46563454fd4f31e95de4042fed652",
    "size_bytes": 7167047,
    "updated": "2026-09-17T17:55:06.702Z"
@@ -2662,26 +2663,26 @@
    "updated": "2026-09-09T20:45:56.410Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/diagnose-0-00-on-demand-check-issue-transfer-127522-that-terminated-in",
+   "declared_short": "diagnose-0-00-on-demand-check-issue-transfer-127522-that-terminated-in",
+   "folder": "diagnose-0-00-on-demand-check-issue-transfer-127522-that-terminated-in",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
     "freshdesk-gym",
     "google-drive-gym",
     "jira-gym",
-    "slack-gym",
+    "slack",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/diagnose-0-00-on-demand-check-issue-transfer-127522-that-terminated-in",
-   "declared_short": "diagnose-0-00-on-demand-check-issue-transfer-127522-that-terminated-in",
+   "connector_provenance": "synthetic",
    "domain": null,
-   "folder": "diagnose-0-00-on-demand-check-issue-transfer-127522-that-terminated-in",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "3ce989e0590de15a2563f3795038a17b9f2593dc3b6ba7b79ed92ec546a32c9d",
-   "size_bytes": 11053875,
-   "updated": "2026-09-17T16:00:52.420Z"
+   "sha256": "759cbae131e0352e814ba0f02d76be5f8056f7426a2f770637d97e7a9c262b34",
+   "size_bytes": 11947268,
+   "updated": "2026-09-17T18:02:53.211Z"
   },
   {
    "connector_provenance": "unknown",
@@ -3368,6 +3369,20 @@
    "sha256": "1d17f6e428921067654e3acf0a938b444f4ce19d7a0384de5e328d60ad1860cc",
    "size_bytes": 15060216,
    "updated": "2026-09-16T13:41:48.372Z"
+  },
+  {
+   "declared_name": "obi/fin-b43-a2-nonprofit-cash-flow-statement",
+   "declared_short": "fin-b43-a2-nonprofit-cash-flow-statement",
+   "folder": "fin-b43-a2-nonprofit-cash-flow-statement",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "ef8d572b3109be6d6fbc087463c04dc388186b025c647fa4497d15bd427517cb",
+   "size_bytes": 5927930,
+   "updated": "2026-09-17T18:03:21.854Z"
   },
   {
    "connector_provenance": null,
