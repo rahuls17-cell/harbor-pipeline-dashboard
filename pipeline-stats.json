@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-17T20:45:03+00:00",
+ "generated_at": "2026-09-17T20:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 599,
-  "scanned": 599,
+  "task_folders": 600,
+  "scanned": 600,
   "connector": 175,
-  "non_connector": 424,
+  "non_connector": 425,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 131,
   "fin": 38,
   "gen": 173,
-  "health": 36,
+  "health": 37,
   "law": 33
  },
  "name_prefix": {
   "harbor": 179,
-  "obi": 420
+  "obi": 421
  },
  "connector_services": {
   "google-drive-gym": 112,
@@ -44,7 +44,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135410
+  "approx_bytes_read": 131630
  },
  "errors": [],
  "tasks": [
@@ -2977,11 +2977,7 @@
    "updated": "2026-09-14T23:41:14.925Z"
   },
   {
-   "declared_name": "harbor/diagnose-returned-check-deposit-9486-16-00-customer-says-funds-never-p",
-   "declared_short": "diagnose-returned-check-deposit-9486-16-00-customer-says-funds-never-p",
-   "folder": "diagnose-returned-check-deposit-9486-16-00-customer-says-funds-never-p",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -2991,9 +2987,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/diagnose-returned-check-deposit-9486-16-00-customer-says-funds-never-p",
+   "declared_short": "diagnose-returned-check-deposit-9486-16-00-customer-says-funds-never-p",
    "domain": null,
+   "folder": "diagnose-returned-check-deposit-9486-16-00-customer-says-funds-never-p",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4b30877906a70866b20b65bd3c2848b2d3a785bc8ac4b48f37af9329b7f921a0",
    "size_bytes": 11468814,
    "updated": "2026-09-17T20:43:21.317Z"
@@ -7503,6 +7503,20 @@
    "sha256": "fae5df7b53eb439295503b1b7f28e22bfcd5b467688b21b4809c7d3eb2db7b3b",
    "size_bytes": 5755936,
    "updated": "2026-09-16T14:28:24.997Z"
+  },
+  {
+   "declared_name": "obi/health-tdt6-a4-post-release-study-timeline-register",
+   "declared_short": "health-tdt6-a4-post-release-study-timeline-register",
+   "folder": "health-tdt6-a4-post-release-study-timeline-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "56f01c5b326e332a4429a085a84d41bf81e249b8d88553a10069f0197d8932a8",
+   "size_bytes": 6501438,
+   "updated": "2026-09-17T20:46:23.016Z"
   },
   {
    "connector_provenance": null,
