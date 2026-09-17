@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-17T20:40:03+00:00",
+ "generated_at": "2026-09-17T20:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 598,
-  "scanned": 598,
-  "connector": 174,
+  "task_folders": 599,
+  "scanned": 599,
+  "connector": 175,
   "non_connector": 424,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 82,
+  "unknown": 83,
   "synthetic": 39,
   "real": 53
  },
  "domain": {
-  "unnamed": 187,
+  "unnamed": 188,
   "code": 131,
   "fin": 38,
   "gen": 173,
@@ -22,17 +22,17 @@
   "law": 33
  },
  "name_prefix": {
-  "harbor": 178,
+  "harbor": 179,
   "obi": 420
  },
  "connector_services": {
-  "google-drive-gym": 111,
-  "slack-gym": 110,
-  "zeta3-sql-gym": 95,
-  "confluence-gym": 94,
-  "email-gym": 94,
-  "freshdesk-gym": 94,
-  "jira-gym": 94,
+  "google-drive-gym": 112,
+  "slack-gym": 111,
+  "zeta3-sql-gym": 96,
+  "confluence-gym": 95,
+  "email-gym": 95,
+  "freshdesk-gym": 95,
+  "jira-gym": 95,
   "email-calendar-gym": 10,
   "notion-gym": 10,
   "github-gym": 8,
@@ -44,7 +44,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 132924
+  "approx_bytes_read": 135410
  },
  "errors": [],
  "tasks": [
@@ -2975,6 +2975,28 @@
    "sha256": "84471a4797ca03cc016a03ebee32c7e4983eda65e8a3272b852ea2b207c16cff",
    "size_bytes": 6922598,
    "updated": "2026-09-14T23:41:14.925Z"
+  },
+  {
+   "declared_name": "harbor/diagnose-returned-check-deposit-9486-16-00-customer-says-funds-never-p",
+   "declared_short": "diagnose-returned-check-deposit-9486-16-00-customer-says-funds-never-p",
+   "folder": "diagnose-returned-check-deposit-9486-16-00-customer-says-funds-never-p",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "4b30877906a70866b20b65bd3c2848b2d3a785bc8ac4b48f37af9329b7f921a0",
+   "size_bytes": 11468814,
+   "updated": "2026-09-17T20:43:21.317Z"
   },
   {
    "connector_provenance": "unknown",
@@ -7551,17 +7573,17 @@
    "updated": "2026-09-05T21:04:18.791Z"
   },
   {
-   "declared_name": "harbor/idea-board-planning-readiness-count",
-   "declared_short": "idea-board-planning-readiness-count",
-   "folder": "idea-board-planning-readiness-count-20260917-v14",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/idea-board-planning-readiness-count",
+   "declared_short": "idea-board-planning-readiness-count",
    "domain": null,
+   "folder": "idea-board-planning-readiness-count-20260917-v14",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "fdeb2b6c2fe151d4f4772ff50351032f33e56480fa05ab000362cce3ad7961a6",
    "size_bytes": 7676424,
    "updated": "2026-09-17T20:38:06.455Z"
