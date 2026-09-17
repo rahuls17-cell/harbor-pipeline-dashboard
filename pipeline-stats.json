@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-17T19:40:02+00:00",
+ "generated_at": "2026-09-17T19:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 595,
-  "scanned": 595,
+  "task_folders": 596,
+  "scanned": 596,
   "connector": 173,
-  "non_connector": 422,
+  "non_connector": 423,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 38,
   "gen": 173,
   "health": 36,
-  "law": 32
+  "law": 33
  },
  "name_prefix": {
   "harbor": 177,
-  "obi": 418
+  "obi": 419
  },
  "connector_services": {
   "google-drive-gym": 111,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131460
+  "new_archives_read": 2,
+  "approx_bytes_read": 263015
  },
  "errors": [],
  "tasks": [
@@ -1409,18 +1409,18 @@
    "updated": "2026-09-13T02:28:04.701Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/code-c412-log-anomaly-baseline-audit",
    "declared_short": "code-c412-log-anomaly-baseline-audit",
-   "domain": "code",
    "folder": "code-c412-log-anomaly-baseline-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "11d9629f4906c76d0e9879633e24e9d4de7dc164829466a097bf6aba41f6cfea",
-   "size_bytes": 4309412,
-   "updated": "2026-09-07T06:51:16.824Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "54ec9048c9315bf89bbe0ffb43f02930df2aee6f1a92fe29a2e1ac100e7018fd",
+   "size_bytes": 5900108,
+   "updated": "2026-09-17T19:42:06.403Z"
   },
   {
    "connector_provenance": null,
@@ -4057,15 +4057,15 @@
    "updated": "2026-09-07T13:46:34.998Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1237-listing-marketing-coop-reimbursement-audit-realdocoutput",
    "declared_short": "gen-g1237-listing-marketing-coop-reimbursement-audit-realdocoutput",
-   "folder": "gen-g1237-listing-marketing-coop-reimbursement-audit-realdocoutput-sna-ebtg",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1237-listing-marketing-coop-reimbursement-audit-realdocoutput-sna-ebtg",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e004362da5411137340cb541317200504cc652b10ef34d63ba053889c3d35d58",
    "size_bytes": 6118461,
    "updated": "2026-09-17T19:36:06.228Z"
@@ -7669,6 +7669,20 @@
    "sha256": "946627940bbebe6675d9bb63f5462293dc793fbc3f81036d0aef1155780b3994",
    "size_bytes": 4951883,
    "updated": "2026-09-09T04:55:21.017Z"
+  },
+  {
+   "declared_name": "obi/law-b36-l1-cancelled-flight-entitlement-audit",
+   "declared_short": "law-b36-l1-cancelled-flight-entitlement-audit",
+   "folder": "law-b36-l1-cancelled-flight-entitlement-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "6dbdbdc0f0decb3756010c6fa0f22fad59ca0a7be391e622b92a173d606c3f1b",
+   "size_bytes": 7107469,
+   "updated": "2026-09-17T19:44:27.721Z"
   },
   {
    "connector_provenance": null,
