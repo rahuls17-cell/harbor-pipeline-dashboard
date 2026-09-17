@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-17T06:10:03+00:00",
+ "generated_at": "2026-09-17T06:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 570,
-  "scanned": 570,
+  "task_folders": 571,
+  "scanned": 571,
   "connector": 168,
-  "non_connector": 402,
+  "non_connector": 403,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "real": 50
  },
  "domain": {
-  "unnamed": 176,
+  "unnamed": 177,
   "code": 127,
   "fin": 35,
   "gen": 169,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 172,
-  "obi": 398
+  "obi": 399
  },
  "connector_services": {
   "google-drive-gym": 110,
@@ -43,7 +43,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134825
+  "approx_bytes_read": 131794
  },
  "errors": [],
  "tasks": [
@@ -8462,6 +8462,20 @@
    "updated": "2026-09-10T04:30:44.134Z"
   },
   {
+   "declared_name": "obi/tech-b45-t10-receipt-sender-scope-migration",
+   "declared_short": "tech-b45-t10-receipt-sender-scope-migration",
+   "folder": "tech-b45-t10-receipt-sender-scope-migration",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "56152b182f850aef755cc4e79afaad5e6d2617ca9ff2e859bd8c671d2eb43d0f",
+   "size_bytes": 7860763,
+   "updated": "2026-09-17T06:11:28.690Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/tech-b45-t11-inference-serving-plan-under-latency-cost-limits",
@@ -8492,17 +8506,17 @@
    "updated": "2026-09-17T03:49:41.950Z"
   },
   {
-   "declared_name": "harbor/the-reply-that-was-not-an-answer",
-   "declared_short": "the-reply-that-was-not-an-answer",
-   "folder": "the-reply-that-was-not-an-answer",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-reply-that-was-not-an-answer",
+   "declared_short": "the-reply-that-was-not-an-answer",
    "domain": null,
+   "folder": "the-reply-that-was-not-an-answer",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "90f8601892ec83aef1e7f907111e00b703e546ab6b586d27ae97e8e85cce5644",
    "size_bytes": 7545524,
    "updated": "2026-09-17T06:05:27.586Z"
