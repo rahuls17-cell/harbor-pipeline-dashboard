@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-17T06:15:03+00:00",
+ "generated_at": "2026-09-17T06:20:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 571,
-  "scanned": 571,
+  "task_folders": 572,
+  "scanned": 572,
   "connector": 168,
-  "non_connector": 403,
+  "non_connector": 404,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 35,
   "gen": 169,
   "health": 34,
-  "law": 29
+  "law": 30
  },
  "name_prefix": {
   "harbor": 172,
-  "obi": 399
+  "obi": 400
  },
  "connector_services": {
   "google-drive-gym": 110,
@@ -43,7 +43,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131794
+  "approx_bytes_read": 131698
  },
  "errors": [],
  "tasks": [
@@ -7544,6 +7544,20 @@
    "updated": "2026-09-16T22:39:10.911Z"
   },
   {
+   "declared_name": "obi/law-b37-l18-resume-statement-audit",
+   "declared_short": "law-b37-l18-resume-statement-audit",
+   "folder": "law-b37-l18-resume-statement-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "a8366694ee2a3f5668efea05360f5f0c6c8ab2bb9e4f9de14363c8ab255091a6",
+   "size_bytes": 6986874,
+   "updated": "2026-09-17T06:15:42.116Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-b37-l9-policy-summary-citation-audit",
@@ -8462,15 +8476,15 @@
    "updated": "2026-09-10T04:30:44.134Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b45-t10-receipt-sender-scope-migration",
    "declared_short": "tech-b45-t10-receipt-sender-scope-migration",
-   "folder": "tech-b45-t10-receipt-sender-scope-migration",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b45-t10-receipt-sender-scope-migration",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "56152b182f850aef755cc4e79afaad5e6d2617ca9ff2e859bd8c671d2eb43d0f",
    "size_bytes": 7860763,
    "updated": "2026-09-17T06:11:28.690Z"
