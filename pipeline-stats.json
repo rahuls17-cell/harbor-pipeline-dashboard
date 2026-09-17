@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-17T20:10:02+00:00",
+ "generated_at": "2026-09-17T20:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 596,
-  "scanned": 596,
+  "task_folders": 597,
+  "scanned": 597,
   "connector": 173,
-  "non_connector": 423,
+  "non_connector": 424,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 186,
-  "code": 130,
+  "code": 131,
   "fin": 38,
   "gen": 173,
   "health": 36,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 177,
-  "obi": 419
+  "obi": 420
  },
  "connector_services": {
   "google-drive-gym": 111,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131515
  },
  "errors": [],
  "tasks": [
@@ -1771,6 +1771,20 @@
    "sha256": "4a54416948eb95f48934ec0436c33a1ecf29a6cd869e9d64efc3c3e9a81a127a",
    "size_bytes": 8259970,
    "updated": "2026-09-10T14:00:58.087Z"
+  },
+  {
+   "declared_name": "obi/code-c5-port-parity-audit",
+   "declared_short": "code-c5-port-parity-audit",
+   "folder": "code-c5-port-parity-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "1c2c04347c24ef465540ee3d7ca5aa9da170d5e12bbc08daab8b093d5c4a47fa",
+   "size_bytes": 19474516,
+   "updated": "2026-09-17T20:10:57.938Z"
   },
   {
    "connector_provenance": null,
