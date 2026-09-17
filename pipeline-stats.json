@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T17:00:03+00:00",
+ "generated_at": "2026-09-17T17:05:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 586,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 280407
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -8484,11 +8484,7 @@
    "updated": "2026-09-08T17:12:15.691Z"
   },
   {
-   "declared_name": "harbor/canceled-funding-transfer-retries-next-day",
-   "declared_short": "canceled-funding-transfer-retries-next-day",
-   "folder": "task_canceled_funding_transfer_retries_next_day_-dcb69d-v1",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -8498,9 +8494,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/canceled-funding-transfer-retries-next-day",
+   "declared_short": "canceled-funding-transfer-retries-next-day",
    "domain": null,
+   "folder": "task_canceled_funding_transfer_retries_next_day_-dcb69d-v1",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "142ba20d76df1e5301af5ba8c88473cac8a3e4fb6d39f8d7b9d419c4c83c0f37",
    "size_bytes": 12307753,
    "updated": "2026-09-17T16:55:48.844Z"
@@ -8696,17 +8696,17 @@
    "updated": "2026-09-17T08:26:03.485Z"
   },
   {
-   "declared_name": "harbor/the-asks-nobody-added-up",
-   "declared_short": "the-asks-nobody-added-up",
-   "folder": "the-asks-nobody-added-up",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-asks-nobody-added-up",
+   "declared_short": "the-asks-nobody-added-up",
    "domain": null,
+   "folder": "the-asks-nobody-added-up",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f97507370707e58f13737409c1e6c3e5c5dd39fd7c97ccae1041ebc31986ea51",
    "size_bytes": 7718115,
    "updated": "2026-09-17T16:55:29.261Z"
