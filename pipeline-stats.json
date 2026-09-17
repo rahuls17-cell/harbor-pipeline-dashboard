@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-17T16:15:03+00:00",
+ "generated_at": "2026-09-17T17:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 584,
-  "scanned": 584,
-  "connector": 169,
+  "task_folders": 586,
+  "scanned": 586,
+  "connector": 171,
   "non_connector": 415,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 83,
-  "synthetic": 35,
+  "synthetic": 37,
   "real": 51
  },
  "domain": {
-  "unnamed": 181,
+  "unnamed": 183,
   "code": 129,
   "fin": 37,
   "gen": 170,
@@ -22,17 +22,17 @@
   "law": 31
  },
  "name_prefix": {
-  "harbor": 173,
+  "harbor": 175,
   "obi": 411
  },
  "connector_services": {
-  "google-drive-gym": 110,
-  "slack-gym": 107,
-  "zeta3-sql-gym": 94,
-  "confluence-gym": 93,
-  "email-gym": 93,
-  "freshdesk-gym": 93,
-  "jira-gym": 93,
+  "google-drive-gym": 111,
+  "slack-gym": 109,
+  "zeta3-sql-gym": 95,
+  "confluence-gym": 94,
+  "email-gym": 94,
+  "freshdesk-gym": 94,
+  "jira-gym": 94,
   "email-calendar-gym": 10,
   "notion-gym": 9,
   "github-gym": 8,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 280407
  },
  "errors": [],
  "tasks": [
@@ -8484,6 +8484,28 @@
    "updated": "2026-09-08T17:12:15.691Z"
   },
   {
+   "declared_name": "harbor/canceled-funding-transfer-retries-next-day",
+   "declared_short": "canceled-funding-transfer-retries-next-day",
+   "folder": "task_canceled_funding_transfer_retries_next_day_-dcb69d-v1",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "142ba20d76df1e5301af5ba8c88473cac8a3e4fb6d39f8d7b9d419c4c83c0f37",
+   "size_bytes": 12307753,
+   "updated": "2026-09-17T16:55:48.844Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -8672,6 +8694,22 @@
    "sha256": "11f01c3b14f6a30bd4cc23637f25ab90078e7e609f3b81f17ae2fb1906ccb657",
    "size_bytes": 5816786,
    "updated": "2026-09-17T08:26:03.485Z"
+  },
+  {
+   "declared_name": "harbor/the-asks-nobody-added-up",
+   "declared_short": "the-asks-nobody-added-up",
+   "folder": "the-asks-nobody-added-up",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "f97507370707e58f13737409c1e6c3e5c5dd39fd7c97ccae1041ebc31986ea51",
+   "size_bytes": 7718115,
+   "updated": "2026-09-17T16:55:29.261Z"
   },
   {
    "connector_provenance": "synthetic",
