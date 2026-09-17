@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T13:40:02+00:00",
+ "generated_at": "2026-09-17T13:45:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 581,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131427
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3398,15 +3398,15 @@
    "updated": "2026-09-16T09:53:09.265Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b45-a5-acquisition-programme-sequencing",
    "declared_short": "fin-b45-a5-acquisition-programme-sequencing",
-   "folder": "fin-b45-a5-acquisition-programme-sequencing",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b45-a5-acquisition-programme-sequencing",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8d00a5837c4c76f8ba66e52b69f7be296900e1cf03bbcb3513199dc9b2e7b39e",
    "size_bytes": 6475105,
    "updated": "2026-09-17T13:37:54.918Z"
