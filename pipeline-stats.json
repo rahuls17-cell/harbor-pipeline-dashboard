@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T12:00:03+00:00",
+ "generated_at": "2026-09-17T12:05:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 579,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131438
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3314,15 +3314,15 @@
    "updated": "2026-09-13T09:06:09.699Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b41-f8-deferral-rate-selection-budget",
    "declared_short": "fin-b41-f8-deferral-rate-selection-budget",
-   "folder": "fin-b41-f8-deferral-rate-selection-budget",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b41-f8-deferral-rate-selection-budget",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "21dfbbad04f8c59e4d447ddb7be80184ab64ec8411dcd597dfdc7769ba12dd35",
    "size_bytes": 6218467,
    "updated": "2026-09-17T11:57:34.831Z"
