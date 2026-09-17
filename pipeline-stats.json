@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-17T17:30:03+00:00",
+ "generated_at": "2026-09-17T17:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 587,
-  "scanned": 587,
-  "connector": 171,
+  "task_folders": 588,
+  "scanned": 588,
+  "connector": 172,
   "non_connector": 416,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 83,
-  "synthetic": 37,
+  "synthetic": 38,
   "real": 51
  },
  "domain": {
-  "unnamed": 183,
+  "unnamed": 184,
   "code": 129,
   "fin": 37,
   "gen": 170,
@@ -22,12 +22,12 @@
   "law": 32
  },
  "name_prefix": {
-  "harbor": 175,
+  "harbor": 176,
   "obi": 412
  },
  "connector_services": {
   "google-drive-gym": 111,
-  "slack-gym": 109,
+  "slack-gym": 110,
   "zeta3-sql-gym": 95,
   "confluence-gym": 94,
   "email-gym": 94,
@@ -43,7 +43,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131551
+  "approx_bytes_read": 139537
  },
  "errors": [],
  "tasks": [
@@ -7670,15 +7670,15 @@
    "updated": "2026-09-16T22:56:47.450Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b38-l4-docket-case-status-reconstruction",
    "declared_short": "law-b38-l4-docket-case-status-reconstruction",
-   "folder": "law-b38-l4-docket-case-status-reconstruction",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b38-l4-docket-case-status-reconstruction",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d28dabb4865d864cdeb74aaebafb3a357752946d599b4f1bdd8c24474797e792",
    "size_bytes": 6959607,
    "updated": "2026-09-17T17:28:07.817Z"
@@ -8772,6 +8772,22 @@
    "sha256": "566d11f7c466e8d56c38778cc639d9901989c6e095db6683ab7158d6a05037e4",
    "size_bytes": 14423278,
    "updated": "2026-09-09T21:00:48.024Z"
+  },
+  {
+   "declared_name": "harbor/the-roster-that-never-quite-filled-up",
+   "declared_short": "the-roster-that-never-quite-filled-up",
+   "folder": "the-roster-that-never-quite-filled-up",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "f58bceda14848a16c9c8df67238757a6a9a73d77645c9aae8e0aed5c5cfcf2ce",
+   "size_bytes": 7839295,
+   "updated": "2026-09-17T17:34:22.992Z"
   },
   {
    "connector_provenance": "unknown",
