@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T04:45:02+00:00",
+ "generated_at": "2026-09-17T04:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 567,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131631
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4854,15 +4854,15 @@
    "updated": "2026-09-12T13:54:48.682Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g581-antibody-clone-validation-claims-audit",
    "declared_short": "gen-g581-antibody-clone-validation-claims-audit",
-   "folder": "gen-g581-antibody-clone-validation-claims-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g581-antibody-clone-validation-claims-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "47ca5dc85641d1653d67887e4cefa8cac3b4b266cd2d326ba55234339350636c",
    "size_bytes": 8970310,
    "updated": "2026-09-17T04:41:24.669Z"
