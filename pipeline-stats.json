@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-17T00:50:02+00:00",
+ "generated_at": "2026-09-17T00:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 562,
-  "scanned": 562,
+  "task_folders": 563,
+  "scanned": 563,
   "connector": 162,
-  "non_connector": 400,
+  "non_connector": 401,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 127,
   "fin": 34,
   "gen": 169,
-  "health": 33,
+  "health": 34,
   "law": 29
  },
  "name_prefix": {
   "harbor": 166,
-  "obi": 396
+  "obi": 397
  },
  "connector_services": {
   "google-drive-gym": 108,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131528
  },
  "errors": [],
  "tasks": [
@@ -7030,6 +7030,20 @@
    "sha256": "df062a4079e8fdddab19f83521035d9001d850b7e390fa5b833bdbf307535eb3",
    "size_bytes": 6428873,
    "updated": "2026-09-16T20:11:42.775Z"
+  },
+  {
+   "declared_name": "obi/health-h581-ddx-case-set-construction-audit",
+   "declared_short": "health-h581-ddx-case-set-construction-audit",
+   "folder": "health-h581-ddx-case-set-construction-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "742d943fc5e77822d8e8fb1a39aadb008f782e695fcda9adbc9a5a8a791220bc",
+   "size_bytes": 9199061,
+   "updated": "2026-09-17T00:54:28.108Z"
   },
   {
    "connector_provenance": null,
