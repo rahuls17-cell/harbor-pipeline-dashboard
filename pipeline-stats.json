@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-17T00:05:02+00:00",
+ "generated_at": "2026-09-17T00:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 561,
-  "scanned": 561,
-  "connector": 161,
+  "task_folders": 562,
+  "scanned": 562,
+  "connector": 162,
   "non_connector": 400,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 79,
+  "unknown": 80,
   "synthetic": 32,
   "real": 50
  },
  "domain": {
-  "unnamed": 169,
+  "unnamed": 170,
   "code": 127,
   "fin": 34,
   "gen": 169,
@@ -22,17 +22,17 @@
   "law": 29
  },
  "name_prefix": {
-  "harbor": 165,
+  "harbor": 166,
   "obi": 396
  },
  "connector_services": {
-  "google-drive-gym": 107,
-  "slack-gym": 102,
-  "zeta3-sql-gym": 91,
-  "confluence-gym": 90,
-  "email-gym": 90,
-  "freshdesk-gym": 90,
-  "jira-gym": 90,
+  "google-drive-gym": 108,
+  "slack-gym": 103,
+  "zeta3-sql-gym": 92,
+  "confluence-gym": 91,
+  "email-gym": 91,
+  "freshdesk-gym": 91,
+  "jira-gym": 91,
   "email-calendar-gym": 9,
   "github-gym": 8,
   "notion-gym": 7,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 134502
  },
  "errors": [],
  "tasks": [
@@ -8268,6 +8268,28 @@
    "sha256": "2e28ba580fe588266e3f52191368431a20ceb38b55cdb27e717f1a578c583d38",
    "size_bytes": 6840663,
    "updated": "2026-09-13T03:56:23.558Z"
+  },
+  {
+   "declared_name": "harbor/diagnose-failed-543-mobile-check-deposit-1866-stuck-in-error-state",
+   "declared_short": "diagnose-failed-543-mobile-check-deposit-1866-stuck-in-error-state",
+   "folder": "task_diagnose_failed_543_mobile_check_deposit_1866_stuck_in_error_state",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "cb7aa393f5c2b9b0608dac5b95f12d70da6bfd912e0892f6f03b8e1e94882ec6",
+   "size_bytes": 13844525,
+   "updated": "2026-09-17T00:08:09.326Z"
   },
   {
    "connector_provenance": "unknown",
