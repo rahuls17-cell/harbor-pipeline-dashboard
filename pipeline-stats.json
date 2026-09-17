@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-17T19:35:03+00:00",
+ "generated_at": "2026-09-17T19:40:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 594,
-  "scanned": 594,
+  "task_folders": 595,
+  "scanned": 595,
   "connector": 173,
-  "non_connector": 421,
+  "non_connector": 422,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 186,
   "code": 130,
   "fin": 38,
-  "gen": 172,
+  "gen": 173,
   "health": 36,
   "law": 32
  },
  "name_prefix": {
   "harbor": 177,
-  "obi": 417
+  "obi": 418
  },
  "connector_services": {
   "google-drive-gym": 111,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131460
  },
  "errors": [],
  "tasks": [
@@ -4055,6 +4055,20 @@
    "sha256": "84478ad8d714c0ddca0fb3d606496155c0e20ccbf057c32038d64bca46b1a104",
    "size_bytes": 3958912,
    "updated": "2026-09-07T13:46:34.998Z"
+  },
+  {
+   "declared_name": "obi/gen-g1237-listing-marketing-coop-reimbursement-audit-realdocoutput",
+   "declared_short": "gen-g1237-listing-marketing-coop-reimbursement-audit-realdocoutput",
+   "folder": "gen-g1237-listing-marketing-coop-reimbursement-audit-realdocoutput-sna-ebtg",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "e004362da5411137340cb541317200504cc652b10ef34d63ba053889c3d35d58",
+   "size_bytes": 6118461,
+   "updated": "2026-09-17T19:36:06.228Z"
   },
   {
    "connector_provenance": null,
