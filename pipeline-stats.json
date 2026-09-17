@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-17T19:15:03+00:00",
+ "generated_at": "2026-09-17T19:20:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 592,
-  "scanned": 592,
+  "task_folders": 594,
+  "scanned": 594,
   "connector": 173,
-  "non_connector": 419,
+  "non_connector": 421,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 186,
   "code": 130,
   "fin": 38,
-  "gen": 170,
+  "gen": 172,
   "health": 36,
   "law": 32
  },
  "name_prefix": {
   "harbor": 177,
-  "obi": 415
+  "obi": 417
  },
  "connector_services": {
   "google-drive-gym": 111,
@@ -44,7 +44,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 263061
+  "approx_bytes_read": 263208
  },
  "errors": [],
  "tasks": [
@@ -2207,15 +2207,15 @@
    "updated": "2026-09-05T21:44:56.715Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c704-admissions-headshot-submission-audit",
    "declared_short": "code-c704-admissions-headshot-submission-audit",
-   "folder": "code-c704-admissions-headshot-submission-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c704-admissions-headshot-submission-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0d8a7ad1c6d402f66d6cad7fd8e7d555028ff35403ed0b3c04567810b5b56570",
    "size_bytes": 13745062,
    "updated": "2026-09-17T19:13:39.208Z"
@@ -3833,6 +3833,20 @@
    "updated": "2026-09-09T13:40:51.980Z"
   },
   {
+   "declared_name": "obi/gen-g1145-resume-role-consolidation-audit",
+   "declared_short": "gen-g1145-resume-role-consolidation-audit",
+   "folder": "gen-g1145-resume-role-consolidation-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "8af414c8f181d688f6c9aeff1007e326197fc8e64b2b781b5810df7ee3747ab4",
+   "size_bytes": 8130311,
+   "updated": "2026-09-17T19:17:53.710Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g1146-specialty-cv-content-inclusion-audit",
@@ -5301,6 +5315,20 @@
    "sha256": "555d72a14869cfbba8cfd9c94ee1359b37b93c2d26fced46d1a0f775e8fb918e",
    "size_bytes": 7168714,
    "updated": "2026-09-13T13:08:16.400Z"
+  },
+  {
+   "declared_name": "obi/gen-g765-install-guide-redesign-fidelity-audit",
+   "declared_short": "gen-g765-install-guide-redesign-fidelity-audit",
+   "folder": "gen-g765-install-guide-redesign-fidelity-audit-native-2026-08-20",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "6be98c84415bea49225b0a1541d3fb1f8b84b9cb133689ae2fa769dec07ec727",
+   "size_bytes": 13794470,
+   "updated": "2026-09-17T19:18:51.658Z"
   },
   {
    "connector_provenance": null,
@@ -8741,15 +8769,15 @@
    "updated": "2026-09-17T08:41:57.000Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b45-t4-pipeline-run-evidence-answers-the-status-question",
    "declared_short": "tech-b45-t4-pipeline-run-evidence-answers-the-status-question",
-   "folder": "tech-b45-t4-pipeline-run-evidence-answers-the-status-question-v12-FOR-QC-V2",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b45-t4-pipeline-run-evidence-answers-the-status-question-v12-FOR-QC-V2",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8b9fe18ce30663ca99e288205f22981c2cdbb9f051f6011561561cd77e4eb3e6",
    "size_bytes": 5655809,
    "updated": "2026-09-17T19:10:45.671Z"
