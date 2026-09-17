@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T18:55:02+00:00",
+ "generated_at": "2026-09-17T19:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 590,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132017
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -8237,17 +8237,17 @@
    "updated": "2026-09-13T17:06:21.787Z"
   },
   {
-   "declared_name": "harbor/slack-first-reply-baseline",
-   "declared_short": "slack-first-reply-baseline",
-   "folder": "poetry-portal-blast-radius-risk-board",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/slack-first-reply-baseline",
+   "declared_short": "slack-first-reply-baseline",
    "domain": null,
+   "folder": "poetry-portal-blast-radius-risk-board",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9e34b4905c7d2d0e971ba4128d670c94650e292ef2d0f70ae6662f41dee36ec6",
    "size_bytes": 4806653,
    "updated": "2026-09-17T18:53:54.392Z"
