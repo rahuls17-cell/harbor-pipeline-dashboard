@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T00:10:03+00:00",
+ "generated_at": "2026-09-17T00:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 562,
@@ -42,8 +42,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134502
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -8270,11 +8270,7 @@
    "updated": "2026-09-13T03:56:23.558Z"
   },
   {
-   "declared_name": "harbor/diagnose-failed-543-mobile-check-deposit-1866-stuck-in-error-state",
-   "declared_short": "diagnose-failed-543-mobile-check-deposit-1866-stuck-in-error-state",
-   "folder": "task_diagnose_failed_543_mobile_check_deposit_1866_stuck_in_error_state",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -8284,9 +8280,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/diagnose-failed-543-mobile-check-deposit-1866-stuck-in-error-state",
+   "declared_short": "diagnose-failed-543-mobile-check-deposit-1866-stuck-in-error-state",
    "domain": null,
+   "folder": "task_diagnose_failed_543_mobile_check_deposit_1866_stuck_in_error_state",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "cb7aa393f5c2b9b0608dac5b95f12d70da6bfd912e0892f6f03b8e1e94882ec6",
    "size_bytes": 13844525,
    "updated": "2026-09-17T00:08:09.326Z"
