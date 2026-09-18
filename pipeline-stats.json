@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T18:10:03+00:00",
+ "generated_at": "2026-09-18T18:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 648,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 266461
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -8282,15 +8282,15 @@
    "updated": "2026-09-13T13:12:30.899Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b36-l4-finished-area-recomputation",
    "declared_short": "law-b36-l4-finished-area-recomputation",
-   "folder": "law-b36-l4-finished-area-recomputation-hardened",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b36-l4-finished-area-recomputation-hardened",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "19e255997285ef5775ae85e9c7cf705853ed111bab30d3545922e82939784a4f",
    "size_bytes": 6863776,
    "updated": "2026-09-18T18:07:20.304Z"
@@ -9590,17 +9590,17 @@
    "updated": "2026-09-18T08:43:14.115Z"
   },
   {
-   "declared_name": "harbor/the-interviews-nobody-wrote-up",
-   "declared_short": "the-interviews-nobody-wrote-up",
-   "folder": "the-interviews-nobody-wrote-up",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-interviews-nobody-wrote-up",
+   "declared_short": "the-interviews-nobody-wrote-up",
    "domain": null,
+   "folder": "the-interviews-nobody-wrote-up",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "548ac7c35766b422e8780c881e93423d71b19a8af9bc4b04f868e68f0f875c5e",
    "size_bytes": 7214560,
    "updated": "2026-09-18T18:09:18.606Z"
