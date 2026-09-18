@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-18T11:20:03+00:00",
+ "generated_at": "2026-09-18T11:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 625,
-  "scanned": 625,
-  "connector": 182,
+  "task_folders": 626,
+  "scanned": 626,
+  "connector": 183,
   "non_connector": 443,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 84,
-  "synthetic": 44,
+  "synthetic": 45,
   "real": 54
  },
  "domain": {
-  "unnamed": 199,
+  "unnamed": 200,
   "code": 131,
   "fin": 39,
   "gen": 178,
@@ -22,7 +22,7 @@
   "law": 37
  },
  "name_prefix": {
-  "harbor": 186,
+  "harbor": 187,
   "obi": 439
  },
  "connector_services": {
@@ -40,11 +40,12 @@
   "gws-gym": 6,
   "linear-gym": 3,
   "slack": 3,
+  "supabase-gym": 1,
   "snowflake-gym": 1
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131475
+  "approx_bytes_read": 138886
  },
  "errors": [],
  "tasks": [
@@ -4023,15 +4024,15 @@
    "updated": "2026-09-09T13:40:51.980Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g114-nda-msa-clause-coverage-audit",
    "declared_short": "gen-g114-nda-msa-clause-coverage-audit",
-   "folder": "gen-g114-nda-msa-clause-coverage-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g114-nda-msa-clause-coverage-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6ebe17da3ff32a8bc524729edd570c82b0e62edc2dc4214be6474e860f94748d",
    "size_bytes": 8959875,
    "updated": "2026-09-18T11:19:29.904Z"
@@ -9303,6 +9304,22 @@
    "sha256": "b4b92fdec01bac351490d198692fd8d97139f4f1300ab88e386209da191348c0",
    "size_bytes": 9092384,
    "updated": "2026-09-17T03:49:41.950Z"
+  },
+  {
+   "declared_name": "harbor/the-open-door-nobody-watches",
+   "declared_short": "the-open-door-nobody-watches",
+   "folder": "the-open-door-nobody-watches",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "supabase-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "11320bd705d09b72799fc29fbb1dd96db6c70f2eae78fd6dfa3a93d2729afd2d",
+   "size_bytes": 6288225,
+   "updated": "2026-09-18T11:20:28.490Z"
   },
   {
    "connector_provenance": "synthetic",
