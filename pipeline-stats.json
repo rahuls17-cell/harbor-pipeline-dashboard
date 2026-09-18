@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T19:10:03+00:00",
+ "generated_at": "2026-09-18T19:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 653,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 399636
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -742,15 +742,15 @@
    "updated": "2026-09-13T02:07:35.855Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b31-a7-property-utility-charge-upload-build",
    "declared_short": "bus-b31-a7-property-utility-charge-upload-build",
-   "folder": "bus-b31-a7-property-utility-charge-upload-build",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b31-a7-property-utility-charge-upload-build",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "91dcf2a90f185f5d5b1fdf32e5fcd682ca8639f8219b590dbf065df1889884f6",
    "size_bytes": 13088350,
    "updated": "2026-09-18T19:09:32.023Z"
@@ -5680,15 +5680,15 @@
    "updated": "2026-09-13T08:57:35.094Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g712-workspace-account-provisioning-audit",
    "declared_short": "gen-g712-workspace-account-provisioning-audit",
-   "folder": "gen-g712-workspace-account-provisioning-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g712-workspace-account-provisioning-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "bbac2c1490131ee7135c7e976b4f77c2fe85abc6d3b8e01957d3f55ba6ee1074",
    "size_bytes": 8221145,
    "updated": "2026-09-18T19:07:40.468Z"
@@ -10148,17 +10148,17 @@
    "updated": "2026-09-10T02:23:03.711Z"
   },
   {
-   "declared_name": "harbor/what-became-of-the-fax-spec",
-   "declared_short": "what-became-of-the-fax-spec",
-   "folder": "what-became-of-the-fax-spec_v8",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/what-became-of-the-fax-spec",
+   "declared_short": "what-became-of-the-fax-spec",
    "domain": null,
+   "folder": "what-became-of-the-fax-spec_v8",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e278dc0c5343abaa573bdd6ad67c0b52a3df8969915caac83fe2308136d676a0",
    "size_bytes": 8840710,
    "updated": "2026-09-18T19:08:49.619Z"
