@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T22:35:03+00:00",
+ "generated_at": "2026-09-18T22:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 674,
@@ -9,9 +9,9 @@
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 88,
+  "unknown": 87,
   "synthetic": 51,
-  "real": 63
+  "real": 64
  },
  "domain": {
   "unnamed": 222,
@@ -27,14 +27,14 @@
  },
  "connector_services": {
   "google-drive-gym": 126,
-  "slack-gym": 116,
+  "slack-gym": 115,
   "zeta3-sql-gym": 110,
   "confluence-gym": 109,
   "email-gym": 109,
   "freshdesk-gym": 109,
   "jira-gym": 109,
   "notion-gym": 17,
-  "slack": 13,
+  "slack": 14,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
   "github-gym": 8,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 267646
+  "new_archives_read": 1,
+  "approx_bytes_read": 134286
  },
  "errors": [],
  "tasks": [
@@ -552,11 +552,7 @@
    "updated": "2026-09-18T22:28:20.895Z"
   },
   {
-   "declared_name": "harbor/hard-institutional-fee-revenue-reconstruction-collected-vs-scheduled-column-trap-return-netting-5-hop-year-chain-zeta3",
-   "declared_short": "hard-institutional-fee-revenue-reconstruction-collected-vs-scheduled-column-trap-return-netting-5-hop-year-chain-zeta3",
-   "folder": "batch2__hard-institutional-fee-revenue-reconstruction-collected-vs-scheduled-column-trap-return-netting-5-hop-year-chain",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -566,9 +562,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/hard-institutional-fee-revenue-reconstruction-collected-vs-scheduled-column-trap-return-netting-5-hop-year-chain-zeta3",
+   "declared_short": "hard-institutional-fee-revenue-reconstruction-collected-vs-scheduled-column-trap-return-netting-5-hop-year-chain-zeta3",
    "domain": null,
+   "folder": "batch2__hard-institutional-fee-revenue-reconstruction-collected-vs-scheduled-column-trap-return-netting-5-hop-year-chain",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4ef7deb12afff17c51c7bebe53eaff44e58de60bbe2e84dfaecd72647daf16de",
    "size_bytes": 10340690,
    "updated": "2026-09-18T22:33:34.622Z"
@@ -706,26 +706,26 @@
    "updated": "2026-09-16T20:23:19.335Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/payments-cost-and-ach-risk-review-confluence-jira-slack",
+   "declared_short": "payments-cost-and-ach-risk-review-confluence-jira-slack",
+   "folder": "batch3__payments-cost-and-ach-risk-review-confluence-jira-slack-v3",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
     "freshdesk-gym",
     "google-drive-gym",
     "jira-gym",
-    "slack-gym",
+    "slack",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/payments-cost-and-ach-risk-review-confluence-jira-slack",
-   "declared_short": "payments-cost-and-ach-risk-review-confluence-jira-slack",
+   "connector_provenance": "real",
    "domain": null,
-   "folder": "batch3__payments-cost-and-ach-risk-review-confluence-jira-slack-v3",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "e7f855cc7fd227b580eb1ac71cc43e3433258d2c3abcb7997e8e7f3c09b8519f",
-   "size_bytes": 14446502,
-   "updated": "2026-09-17T01:05:03.593Z"
+   "sha256": "db581c82d004b26378e97143c0d79d216f775bcaa5aae327b02449a2d2fa2a9c",
+   "size_bytes": 16520252,
+   "updated": "2026-09-18T22:35:48.803Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -1096,15 +1096,15 @@
    "updated": "2026-09-05T18:36:31.098Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c154-scorm-question-bank-audit",
    "declared_short": "code-c154-scorm-question-bank-audit",
-   "folder": "code-c154-scorm-question-bank-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c154-scorm-question-bank-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "780fd37c1cf9ff7f7d009e6a74446d5f8433928eff1e139d3ffaf52ec25725e0",
    "size_bytes": 6631891,
    "updated": "2026-09-18T22:33:03.941Z"
