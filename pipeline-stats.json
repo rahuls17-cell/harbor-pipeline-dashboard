@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T10:40:03+00:00",
+ "generated_at": "2026-09-18T10:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 621,
-  "scanned": 621,
+  "task_folders": 623,
+  "scanned": 623,
   "connector": 182,
-  "non_connector": 439,
+  "non_connector": 441,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 199,
   "code": 131,
   "fin": 39,
-  "gen": 176,
+  "gen": 177,
   "health": 40,
-  "law": 36
+  "law": 37
  },
  "name_prefix": {
   "harbor": 186,
-  "obi": 435
+  "obi": 437
  },
  "connector_services": {
   "google-drive-gym": 115,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263439
  },
  "errors": [],
  "tasks": [
@@ -4135,6 +4135,20 @@
    "updated": "2026-09-17T08:36:41.768Z"
   },
   {
+   "declared_name": "obi/gen-g1190-production-music-license-compliance-audit",
+   "declared_short": "gen-g1190-production-music-license-compliance-audit",
+   "folder": "gen-g1190-production-music-license-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "9c1cdab4ced4a285a04e6f8a6326b2b529b9765ecc50c6f6da0043ceff7bb82f",
+   "size_bytes": 18576106,
+   "updated": "2026-09-18T10:41:15.060Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g1199-injectable-treatment-social-ad-audit",
@@ -8127,6 +8141,20 @@
    "sha256": "46f277ee6f354ed5f6ef383267c0c78e5bfd33907a45eab0c8ad46e31f1e25f6",
    "size_bytes": 5009911,
    "updated": "2026-09-16T13:47:26.278Z"
+  },
+  {
+   "declared_name": "obi/law-b42-l1-civil-forum-jurisdiction-adjudication",
+   "declared_short": "law-b42-l1-civil-forum-jurisdiction-adjudication",
+   "folder": "law-b42-l1-civil-forum-jurisdiction-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "cc60004cace0b73025ad12ab47a9c044dc74f5217f0d3d63042536b38f7747a5",
+   "size_bytes": 8000461,
+   "updated": "2026-09-18T10:42:51.563Z"
   },
   {
    "connector_provenance": null,
