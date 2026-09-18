@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T08:15:03+00:00",
+ "generated_at": "2026-09-18T08:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 613,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133400
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2779,11 +2779,7 @@
    "updated": "2026-09-17T18:02:53.211Z"
   },
   {
-   "declared_name": "harbor/diagnose-28-chip-decline-at-merchant-187782-on-card-5404-jan-18",
-   "declared_short": "diagnose-28-chip-decline-at-merchant-187782-on-card-5404-jan-18",
-   "folder": "diagnose-28-chip-decline-at-merchant-187782-on-card-5404-jan-18",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -2793,9 +2789,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/diagnose-28-chip-decline-at-merchant-187782-on-card-5404-jan-18",
+   "declared_short": "diagnose-28-chip-decline-at-merchant-187782-on-card-5404-jan-18",
    "domain": null,
+   "folder": "diagnose-28-chip-decline-at-merchant-187782-on-card-5404-jan-18",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6a866ecc8d7dc228461ed853336e714384a5992e7daa9f814ca67534cc4d502f",
    "size_bytes": 8549107,
    "updated": "2026-09-18T08:12:37.053Z"
