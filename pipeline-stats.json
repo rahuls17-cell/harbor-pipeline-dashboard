@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T16:25:03+00:00",
+ "generated_at": "2026-09-18T16:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 643,
@@ -45,7 +45,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131468
+  "approx_bytes_read": 131643
  },
  "errors": [],
  "tasks": [
@@ -3682,15 +3682,15 @@
    "updated": "2026-09-18T13:10:29.387Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b45-a10-credit-spread-signal-adjudication",
    "declared_short": "fin-b45-a10-credit-spread-signal-adjudication",
-   "folder": "fin-b45-a10-credit-spread-signal-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b45-a10-credit-spread-signal-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "32c2718822fdd419788d222ff0787813a1bbd35e41bd022ab70bda4a936af2fc",
    "size_bytes": 5532802,
    "updated": "2026-09-18T16:22:19.705Z"
@@ -7472,18 +7472,18 @@
    "updated": "2026-09-18T13:32:08.624Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/health-b43-h7-early-award-budget-adjudication",
    "declared_short": "health-b43-h7-early-award-budget-adjudication",
-   "domain": "health",
    "folder": "health-b43-h7-early-award-budget-adjudication",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "0b111c75e383fc3f191219703c2ff9a179a1617aa3deb791e36060e54c8e9f17",
-   "size_bytes": 6755952,
-   "updated": "2026-09-14T09:09:27.570Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "71a874f577aa7148b70e771905a6461c1c6768b8fe94a47b444e7d2c1d88e250",
+   "size_bytes": 7187582,
+   "updated": "2026-09-18T16:26:02.289Z"
   },
   {
    "connector_provenance": null,
