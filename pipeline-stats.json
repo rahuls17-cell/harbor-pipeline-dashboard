@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T04:00:02+00:00",
+ "generated_at": "2026-09-18T05:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 604,
-  "scanned": 604,
+  "task_folders": 606,
+  "scanned": 606,
   "connector": 176,
-  "non_connector": 428,
+  "non_connector": 430,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 131,
   "fin": 38,
   "gen": 174,
-  "health": 37,
-  "law": 33
+  "health": 38,
+  "law": 34
  },
  "name_prefix": {
   "harbor": 180,
-  "obi": 424
+  "obi": 426
  },
  "connector_services": {
   "google-drive-gym": 112,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263117
  },
  "errors": [],
  "tasks": [
@@ -7547,6 +7547,20 @@
    "updated": "2026-09-16T14:28:24.997Z"
   },
   {
+   "declared_name": "obi/health-tdt6-a3-faq-sheet-conditional-grounding",
+   "declared_short": "health-tdt6-a3-faq-sheet-conditional-grounding",
+   "folder": "health-tdt6-a3-faq-sheet-conditional-grounding",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "547009a1cf98bbf463d938d45ce0b8e7ffe8d7c827d4f5b64d3f218c36feac3d",
+   "size_bytes": 7621812,
+   "updated": "2026-09-18T05:13:16.851Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt6-a4-post-release-study-timeline-register",
@@ -7903,6 +7917,20 @@
    "sha256": "95dfbb1cdad1625d8e29631fa0c6df6499b6461f0beabed8c63784272f51113d",
    "size_bytes": 7991079,
    "updated": "2026-09-17T10:58:54.435Z"
+  },
+  {
+   "declared_name": "obi/law-b39-l21-exit-sign-requirement-statement-audit",
+   "declared_short": "law-b39-l21-exit-sign-requirement-statement-audit",
+   "folder": "law-b39-l21-exit-sign-requirement-statement-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "996ebd803760e607e117b9d7956111e9021bf65d9aee5e3557d5f5250962fe31",
+   "size_bytes": 8069996,
+   "updated": "2026-09-18T05:12:06.147Z"
   },
   {
    "connector_provenance": null,
