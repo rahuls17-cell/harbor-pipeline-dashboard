@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T15:05:03+00:00",
+ "generated_at": "2026-09-18T15:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 637,
-  "scanned": 637,
+  "task_folders": 638,
+  "scanned": 638,
   "connector": 185,
-  "non_connector": 452,
+  "non_connector": 453,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 133,
   "fin": 41,
   "gen": 181,
-  "health": 41,
+  "health": 42,
   "law": 38
  },
  "name_prefix": {
   "harbor": 189,
-  "obi": 448
+  "obi": 449
  },
  "connector_services": {
   "google-drive-gym": 117,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131484
  },
  "errors": [],
  "tasks": [
@@ -7442,6 +7442,20 @@
    "sha256": "0b111c75e383fc3f191219703c2ff9a179a1617aa3deb791e36060e54c8e9f17",
    "size_bytes": 6755952,
    "updated": "2026-09-14T09:09:27.570Z"
+  },
+  {
+   "declared_name": "obi/health-b43-h9-oversight-session-note-build",
+   "declared_short": "health-b43-h9-oversight-session-note-build",
+   "folder": "health-b43-h9-oversight-session-note-build",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "4c56f2fd3d0af32d0590a0f2fd4192d2a1003b50621ce74323fb3fb31e46f436",
+   "size_bytes": 7196781,
+   "updated": "2026-09-18T15:08:38.928Z"
   },
   {
    "connector_provenance": null,
