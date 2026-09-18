@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T13:25:02+00:00",
+ "generated_at": "2026-09-18T13:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 631,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131582
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -5816,15 +5816,15 @@
    "updated": "2026-09-13T14:55:20.791Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g825-standup-log-verbatim-compliance-audit",
    "declared_short": "gen-g825-standup-log-verbatim-compliance-audit",
-   "folder": "gen-g825-standup-log-verbatim-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g825-standup-log-verbatim-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "978dc87f4c3507e1bcd24cc1cbebf4dc11e317f5474aef5ff7686dfc7c174537",
    "size_bytes": 5554010,
    "updated": "2026-09-18T13:22:57.782Z"
