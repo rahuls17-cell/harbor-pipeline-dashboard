@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T12:05:02+00:00",
+ "generated_at": "2026-09-18T12:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 629,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133551
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -9002,11 +9002,7 @@
    "updated": "2026-09-05T20:14:23.783Z"
   },
   {
-   "declared_name": "harbor/ach-returns-drove-account-1284-negative-determine-lock-action-and-scop",
-   "declared_short": "ach-returns-drove-account-1284-negative-determine-lock-action-and-scop",
-   "folder": "task-100587-ach-returns-drove-account-2301-negat-03e1d4-v1",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -9016,9 +9012,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/ach-returns-drove-account-1284-negative-determine-lock-action-and-scop",
+   "declared_short": "ach-returns-drove-account-1284-negative-determine-lock-action-and-scop",
    "domain": null,
+   "folder": "task-100587-ach-returns-drove-account-2301-negat-03e1d4-v1",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d603fb29c749003794ef4c2366ea36d0aad936d8290cc714a8e5241de21cbb33",
    "size_bytes": 15092013,
    "updated": "2026-09-18T12:04:14.797Z"
