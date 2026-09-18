@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T17:10:03+00:00",
+ "generated_at": "2026-09-18T17:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 645,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131780
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -7682,15 +7682,15 @@
    "updated": "2026-09-08T19:00:07.311Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h567-single-dose-pk-parameter-recompute",
    "declared_short": "health-h567-single-dose-pk-parameter-recompute",
-   "folder": "health-h567-single-dose-pk-parameter-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h567-single-dose-pk-parameter-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "52a4200b2b6f08fcc540077c1fdee75db314ba90cbb5ca3b84f772690d452f30",
    "size_bytes": 9767819,
    "updated": "2026-09-18T17:08:17.308Z"
