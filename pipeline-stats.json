@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T09:40:03+00:00",
+ "generated_at": "2026-09-18T09:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 618,
-  "scanned": 618,
+  "task_folders": 620,
+  "scanned": 620,
   "connector": 181,
-  "non_connector": 437,
+  "non_connector": 439,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 131,
   "fin": 39,
   "gen": 176,
-  "health": 39,
-  "law": 35
+  "health": 40,
+  "law": 36
  },
  "name_prefix": {
   "harbor": 185,
-  "obi": 433
+  "obi": 435
  },
  "connector_services": {
   "google-drive-gym": 115,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131820
+  "new_archives_read": 2,
+  "approx_bytes_read": 263321
  },
  "errors": [],
  "tasks": [
@@ -7335,6 +7335,20 @@
    "updated": "2026-09-06T19:57:02.383Z"
   },
   {
+   "declared_name": "obi/health-h301-trial-site-feasibility-screening-audit",
+   "declared_short": "health-h301-trial-site-feasibility-screening-audit",
+   "folder": "health-h301-trial-site-feasibility-screening-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "23ef1574b83679e18a7e28641caadc28d6352ccd4cec10fdbee60a117aed79ca",
+   "size_bytes": 5978904,
+   "updated": "2026-09-18T09:44:48.604Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-h37-waiting-time-clock",
@@ -8125,6 +8139,20 @@
    "sha256": "528d133a810dcfbf99f709d1675d3b9441f58459061fa270828185b32284a384",
    "size_bytes": 6102404,
    "updated": "2026-09-13T18:28:44.963Z"
+  },
+  {
+   "declared_name": "obi/law-b42-l2-foodshare-household-unit-composition",
+   "declared_short": "law-b42-l2-foodshare-household-unit-composition",
+   "folder": "law-b42-l2-foodshare-household-unit-composition",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "fdc6e7da7019ac4618d7193ab1ed861f746a2c50cd4c6330bdb3a60246ea77e6",
+   "size_bytes": 5108374,
+   "updated": "2026-09-18T09:41:20.627Z"
   },
   {
    "connector_provenance": null,
@@ -9071,15 +9099,15 @@
    "updated": "2026-09-16T20:43:31.773Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b45-t13-ticket-queue-ordered-by-age-and-priority",
    "declared_short": "tech-b45-t13-ticket-queue-ordered-by-age-and-priority",
-   "folder": "tech-b45-t13-ticket-queue-ordered-by-age-and-priority",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b45-t13-ticket-queue-ordered-by-age-and-priority",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "15b65bd40a80dddd6ee8b04205f0304d8c51e43ef228ffaeff983658e09278d2",
    "size_bytes": 5816774,
    "updated": "2026-09-18T09:36:33.549Z"
