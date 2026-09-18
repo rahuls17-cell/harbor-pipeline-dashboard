@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T17:05:02+00:00",
+ "generated_at": "2026-09-18T17:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 644,
-  "scanned": 644,
+  "task_folders": 645,
+  "scanned": 645,
   "connector": 186,
-  "non_connector": 458,
+  "non_connector": 459,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 133,
   "fin": 42,
   "gen": 182,
-  "health": 43,
+  "health": 44,
   "law": 39
  },
  "name_prefix": {
   "harbor": 190,
-  "obi": 454
+  "obi": 455
  },
  "connector_services": {
   "google-drive-gym": 117,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131780
  },
  "errors": [],
  "tasks": [
@@ -7680,6 +7680,20 @@
    "sha256": "7c372905105251aab00f885d9f49c05c73afd83660a46e3c261d62a9c7a325fa",
    "size_bytes": 7929861,
    "updated": "2026-09-08T19:00:07.311Z"
+  },
+  {
+   "declared_name": "obi/health-h567-single-dose-pk-parameter-recompute",
+   "declared_short": "health-h567-single-dose-pk-parameter-recompute",
+   "folder": "health-h567-single-dose-pk-parameter-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "52a4200b2b6f08fcc540077c1fdee75db314ba90cbb5ca3b84f772690d452f30",
+   "size_bytes": 9767819,
+   "updated": "2026-09-18T17:08:17.308Z"
   },
   {
    "connector_provenance": null,
