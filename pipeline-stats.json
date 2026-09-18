@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T14:00:02+00:00",
+ "generated_at": "2026-09-18T14:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 633,
-  "scanned": 633,
+  "task_folders": 634,
+  "scanned": 634,
   "connector": 184,
-  "non_connector": 449,
+  "non_connector": 450,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 202,
-  "code": 131,
+  "code": 132,
   "fin": 40,
   "gen": 181,
   "health": 41,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 188,
-  "obi": 445
+  "obi": 446
  },
  "connector_services": {
   "google-drive-gym": 116,
@@ -45,7 +45,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131792
+  "approx_bytes_read": 131572
  },
  "errors": [],
  "tasks": [
@@ -868,6 +868,20 @@
    "sha256": "5b932d133d8836e849b78d9fb7481b140d81f3f1c67f35cd92ac0510112911d4",
    "size_bytes": 10630951,
    "updated": "2026-09-13T07:51:30.729Z"
+  },
+  {
+   "declared_name": "obi/code-c134-vpn-remote-access-split-tunnel-policy-audit",
+   "declared_short": "code-c134-vpn-remote-access-split-tunnel-policy-audit",
+   "folder": "code-c134-vpn-remote-access-split-tunnel-policy-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "3eb98352de0f8fb294893fad397068e91c4e3f60ac6b7549423384098ec40d68",
+   "size_bytes": 8393792,
+   "updated": "2026-09-18T14:01:06.100Z"
   },
   {
    "connector_provenance": null,
@@ -8228,15 +8242,15 @@
    "updated": "2026-09-18T05:12:06.147Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b39-l3-notes-dash-count-recomputation",
    "declared_short": "law-b39-l3-notes-dash-count-recomputation",
-   "folder": "law-b39-l3-notes-dash-count-recomputation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b39-l3-notes-dash-count-recomputation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "93c3a6ebc113d79c1d644d93b855794fe6488838dfe5c3f8e6060dd2b02ea10c",
    "size_bytes": 5162385,
    "updated": "2026-09-18T13:56:25.338Z"
