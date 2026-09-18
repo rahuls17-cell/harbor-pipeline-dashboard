@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T14:05:03+00:00",
+ "generated_at": "2026-09-18T14:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 634,
-  "scanned": 634,
+  "task_folders": 636,
+  "scanned": 636,
   "connector": 184,
-  "non_connector": 450,
+  "non_connector": 452,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 202,
-  "code": 132,
-  "fin": 40,
+  "code": 133,
+  "fin": 41,
   "gen": 181,
   "health": 41,
   "law": 38
  },
  "name_prefix": {
   "harbor": 188,
-  "obi": 446
+  "obi": 448
  },
  "connector_services": {
   "google-drive-gym": 116,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131572
+  "new_archives_read": 2,
+  "approx_bytes_read": 263424
  },
  "errors": [],
  "tasks": [
@@ -870,15 +870,15 @@
    "updated": "2026-09-13T07:51:30.729Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c134-vpn-remote-access-split-tunnel-policy-audit",
    "declared_short": "code-c134-vpn-remote-access-split-tunnel-policy-audit",
-   "folder": "code-c134-vpn-remote-access-split-tunnel-policy-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c134-vpn-remote-access-split-tunnel-policy-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "3eb98352de0f8fb294893fad397068e91c4e3f60ac6b7549423384098ec40d68",
    "size_bytes": 8393792,
    "updated": "2026-09-18T14:01:06.100Z"
@@ -1918,6 +1918,20 @@
    "sha256": "1c2c04347c24ef465540ee3d7ca5aa9da170d5e12bbc08daab8b093d5c4a47fa",
    "size_bytes": 19474516,
    "updated": "2026-09-17T20:10:57.938Z"
+  },
+  {
+   "declared_name": "obi/code-c50-oauth-scope-minimisation-audit",
+   "declared_short": "code-c50-oauth-scope-minimisation-audit",
+   "folder": "code-c50-oauth-scope-minimisation-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "7ea43591eccac748ac3bcf2f3e2f12fd6a2410bc599187efb1af72af49416382",
+   "size_bytes": 10150444,
+   "updated": "2026-09-18T14:09:44.809Z"
   },
   {
    "connector_provenance": null,
@@ -3630,6 +3644,20 @@
    "sha256": "ad11d7a39d4e0a5b32a6db699c6be645001e16344009e1a3492ee9c51dac9e64",
    "size_bytes": 5226348,
    "updated": "2026-09-18T13:10:29.387Z"
+  },
+  {
+   "declared_name": "obi/fin-b45-a4-depreciation-and-cost-of-goods",
+   "declared_short": "fin-b45-a4-depreciation-and-cost-of-goods",
+   "folder": "fin-b45-a4-depreciation-and-cost-of-goods",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "be9a86420c9b49b9d5ab78afaf2ee64f1a471d4cea4155e8f2a89482e9ed2142",
+   "size_bytes": 8007204,
+   "updated": "2026-09-18T14:06:22.980Z"
   },
   {
    "connector_provenance": null,
