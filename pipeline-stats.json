@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T23:40:03+00:00",
+ "generated_at": "2026-09-18T23:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 687,
-  "scanned": 687,
+  "task_folders": 688,
+  "scanned": 688,
   "connector": 212,
-  "non_connector": 475,
+  "non_connector": 476,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 233,
-  "code": 138,
+  "code": 139,
   "fin": 43,
   "gen": 187,
   "health": 45,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 216,
-  "obi": 471
+  "obi": 472
  },
  "connector_services": {
   "google-drive-gym": 134,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 274037
+  "new_archives_read": 1,
+  "approx_bytes_read": 131482
  },
  "errors": [],
  "tasks": [
@@ -1470,6 +1470,20 @@
    "sha256": "c12d5dc299b6a7147861d8d820ef2140e067273ea3882bf946cd8753744a9a6a",
    "size_bytes": 4005976,
    "updated": "2026-09-11T03:38:17.750Z"
+  },
+  {
+   "declared_name": "obi/code-c277-pose-clip-export-qa-audit",
+   "declared_short": "code-c277-pose-clip-export-qa-audit",
+   "folder": "code-c277-pose-clip-export-qa-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "d0919f238c600b7982d5685da5c10f79ba4c75cccb8009824ce4eb64d315b914",
+   "size_bytes": 9709043,
+   "updated": "2026-09-18T23:44:06.962Z"
   },
   {
    "connector_provenance": null,
@@ -3900,17 +3914,17 @@
    "updated": "2026-09-05T22:15:41.160Z"
   },
   {
-   "declared_name": "harbor/every-time-the-dashboard-looked-wrong",
-   "declared_short": "every-time-the-dashboard-looked-wrong",
-   "folder": "every-time-the-dashboard-looked-wrong",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/every-time-the-dashboard-looked-wrong",
+   "declared_short": "every-time-the-dashboard-looked-wrong",
    "domain": null,
+   "folder": "every-time-the-dashboard-looked-wrong",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "beca2ad3852e07276b147f28651fae968fbc7d4753bb185e2bf8cf165d78022f",
    "size_bytes": 9383944,
    "updated": "2026-09-18T23:35:05.569Z"
@@ -10364,17 +10378,17 @@
    "updated": "2026-09-17T17:34:22.992Z"
   },
   {
-   "declared_name": "harbor/the-work-that-outlived-the-project",
-   "declared_short": "the-work-that-outlived-the-project",
-   "folder": "the-work-that-outlived-the-project",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-work-that-outlived-the-project",
+   "declared_short": "the-work-that-outlived-the-project",
    "domain": null,
+   "folder": "the-work-that-outlived-the-project",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "bf7b3042eb61ebd8591f2a6eaf4cf1300ede2b7b9877944628a33b4b5612610c",
    "size_bytes": 8821887,
    "updated": "2026-09-18T23:35:19.806Z"
