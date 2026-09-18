@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T14:10:03+00:00",
+ "generated_at": "2026-09-18T14:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 636,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263424
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1920,15 +1920,15 @@
    "updated": "2026-09-17T20:10:57.938Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c50-oauth-scope-minimisation-audit",
    "declared_short": "code-c50-oauth-scope-minimisation-audit",
-   "folder": "code-c50-oauth-scope-minimisation-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c50-oauth-scope-minimisation-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7ea43591eccac748ac3bcf2f3e2f12fd6a2410bc599187efb1af72af49416382",
    "size_bytes": 10150444,
    "updated": "2026-09-18T14:09:44.809Z"
@@ -3646,15 +3646,15 @@
    "updated": "2026-09-18T13:10:29.387Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b45-a4-depreciation-and-cost-of-goods",
    "declared_short": "fin-b45-a4-depreciation-and-cost-of-goods",
-   "folder": "fin-b45-a4-depreciation-and-cost-of-goods",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b45-a4-depreciation-and-cost-of-goods",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "be9a86420c9b49b9d5ab78afaf2ee64f1a471d4cea4155e8f2a89482e9ed2142",
    "size_bytes": 8007204,
    "updated": "2026-09-18T14:06:22.980Z"
