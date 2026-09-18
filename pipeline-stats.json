@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T19:30:02+00:00",
+ "generated_at": "2026-09-18T19:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 653,
-  "scanned": 653,
+  "task_folders": 654,
+  "scanned": 654,
   "connector": 191,
-  "non_connector": 462,
+  "non_connector": 463,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 211,
-  "code": 134,
+  "code": 135,
   "fin": 42,
   "gen": 183,
   "health": 44,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 195,
-  "obi": 458
+  "obi": 459
  },
  "connector_services": {
   "google-drive-gym": 118,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131519
  },
  "errors": [],
  "tasks": [
@@ -1312,6 +1312,20 @@
    "sha256": "5ee2fd0e95b1aec8bf8886ab0977ab2ebd4a86aa387626fb39b3f1e733e7cae2",
    "size_bytes": 6174888,
    "updated": "2026-09-08T22:30:05.711Z"
+  },
+  {
+   "declared_name": "obi/code-c341-loan-bulletin-version-audit",
+   "declared_short": "code-c341-loan-bulletin-version-audit",
+   "folder": "code-c341-loan-bulletin-version-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "37a4c3c16509ae881bffd2411677999dd29b67feeb77a226ff16d95b67cbf13d",
+   "size_bytes": 7572409,
+   "updated": "2026-09-18T19:34:03.397Z"
   },
   {
    "connector_provenance": null,
