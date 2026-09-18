@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-18T23:20:02+00:00",
+ "generated_at": "2026-09-18T23:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 680,
-  "scanned": 680,
-  "connector": 207,
-  "non_connector": 473,
+  "task_folders": 682,
+  "scanned": 682,
+  "connector": 208,
+  "non_connector": 474,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 85,
   "synthetic": 51,
-  "real": 71
+  "real": 72
  },
  "domain": {
-  "unnamed": 227,
+  "unnamed": 229,
   "code": 138,
   "fin": 43,
   "gen": 186,
@@ -22,18 +22,18 @@
   "law": 41
  },
  "name_prefix": {
-  "harbor": 211,
-  "obi": 469
+  "harbor": 212,
+  "obi": 470
  },
  "connector_services": {
-  "google-drive-gym": 131,
-  "zeta3-sql-gym": 115,
-  "confluence-gym": 114,
-  "email-gym": 114,
-  "freshdesk-gym": 114,
-  "jira-gym": 114,
-  "slack-gym": 113,
-  "slack": 21,
+  "google-drive-gym": 132,
+  "zeta3-sql-gym": 116,
+  "confluence-gym": 115,
+  "email-gym": 115,
+  "freshdesk-gym": 115,
+  "jira-gym": 115,
+  "slack-gym": 112,
+  "slack": 23,
   "notion-gym": 17,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 403730
  },
  "errors": [],
  "tasks": [
@@ -508,6 +508,28 @@
    "updated": "2026-09-13T04:16:24.903Z"
   },
   {
+   "declared_name": "harbor/balance-check-run-before-vip-same-day-transfer-processing",
+   "declared_short": "balance-check-run-before-vip-same-day-transfer-processing",
+   "folder": "balance-check-run-before-vip-same-day-transfer-processing",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "d9cd93202a45168f35b67f1e3993de2b88440f94798e8a2c93e60ca35052a0a4",
+   "size_bytes": 13469693,
+   "updated": "2026-09-18T23:23:37.340Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
@@ -888,6 +910,20 @@
    "sha256": "b34da1bd0034ce5728e2d94dbc0ad527187586a0dbe3494cb05d9d8e479f190b",
    "size_bytes": 7931862,
    "updated": "2026-09-18T01:05:05.584Z"
+  },
+  {
+   "declared_name": "obi/bus-b31-a1-webinar-attendee-white-glove-routing",
+   "declared_short": "bus-b31-a1-webinar-attendee-white-glove-routing",
+   "folder": "bus-b31-a1-webinar-attendee-white-glove-routing",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "46687abbc9fcef0e5e8ada18416bffa7117e170a5783814f09c5ee04261494ed",
+   "size_bytes": 7492338,
+   "updated": "2026-09-18T23:24:01.966Z"
   },
   {
    "connector_provenance": null,
@@ -2922,26 +2958,26 @@
    "updated": "2026-09-18T22:07:56.016Z"
   },
   {
-   "connector_provenance": "real",
+   "declared_name": "harbor/ach-counterparty-bank-lock-scope-conformance-audit-locks-in-calendar-2023",
+   "declared_short": "ach-counterparty-bank-lock-scope-conformance-audit-locks-in-calendar-2023",
+   "folder": "confirm-bank-lock-scope-for-sibling-accounts-in-ach-counterparty-inves",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
     "freshdesk-gym",
     "google-drive-gym",
     "jira-gym",
-    "slack-gym",
+    "slack",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/confirm-bank-lock-scope-for-sibling-accounts-in-ach-counterparty-inves",
-   "declared_short": "confirm-bank-lock-scope-for-sibling-accounts-in-ach-counterparty-inves",
+   "connector_provenance": "real",
    "domain": null,
-   "folder": "confirm-bank-lock-scope-for-sibling-accounts-in-ach-counterparty-inves",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "a7f81bfc46ec649cadd38df6060dd9ef728e9414eed732c61f0dab788111e447",
-   "size_bytes": 6195006,
-   "updated": "2026-09-10T05:02:00.721Z"
+   "sha256": "7c8fe21ae8fdf352f37e645c07d69cdc1840b392488db70272440a007a7f47ca",
+   "size_bytes": 10103708,
+   "updated": "2026-09-18T23:23:37.402Z"
   },
   {
    "connector_provenance": "synthetic",
