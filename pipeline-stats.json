@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T19:45:02+00:00",
+ "generated_at": "2026-09-18T19:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 655,
-  "scanned": 655,
+  "task_folders": 656,
+  "scanned": 656,
   "connector": 191,
-  "non_connector": 464,
+  "non_connector": 465,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 211,
   "code": 136,
   "fin": 42,
-  "gen": 183,
+  "gen": 184,
   "health": 44,
   "law": 39
  },
  "name_prefix": {
   "harbor": 195,
-  "obi": 460
+  "obi": 461
  },
  "connector_services": {
   "google-drive-gym": 118,
@@ -45,7 +45,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131515
+  "approx_bytes_read": 131506
  },
  "errors": [],
  "tasks": [
@@ -2630,15 +2630,15 @@
    "updated": "2026-09-13T17:37:28.610Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c781-recurring-calendar-item-audit",
    "declared_short": "code-c781-recurring-calendar-item-audit",
-   "folder": "code-c781-recurring-calendar-item-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c781-recurring-calendar-item-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "90af73309e4a5391004f6fd44d3ce7d9055114124b7f68f7c83a832f50355623",
    "size_bytes": 6690364,
    "updated": "2026-09-18T19:42:02.545Z"
@@ -6294,6 +6294,20 @@
    "sha256": "b72e7b53cfa9122cef2d52bdc97c03232be8c9c624251a2d799b450a269523f2",
    "size_bytes": 5442189,
    "updated": "2026-09-18T12:15:26.228Z"
+  },
+  {
+   "declared_name": "obi/gen-g941-closest-to-pin-promo-graphic-audit",
+   "declared_short": "gen-g941-closest-to-pin-promo-graphic-audit",
+   "folder": "gen-g941-closest-to-pin-promo-graphic-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "04490a92e0ef90e7bee2478c3c7d8428c2c574aa5f8ce28aab9b1afb4f95b46a",
+   "size_bytes": 7560468,
+   "updated": "2026-09-18T19:46:42.621Z"
   },
   {
    "connector_provenance": null,
