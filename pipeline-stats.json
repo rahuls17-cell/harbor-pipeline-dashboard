@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-18T06:50:03+00:00",
+ "generated_at": "2026-09-18T06:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 609,
-  "scanned": 609,
-  "connector": 177,
+  "task_folders": 610,
+  "scanned": 610,
+  "connector": 178,
   "non_connector": 432,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 83,
-  "synthetic": 41,
+  "synthetic": 42,
   "real": 53
  },
  "domain": {
-  "unnamed": 193,
+  "unnamed": 194,
   "code": 131,
   "fin": 38,
   "gen": 174,
@@ -22,7 +22,7 @@
   "law": 35
  },
  "name_prefix": {
-  "harbor": 181,
+  "harbor": 182,
   "obi": 428
  },
  "connector_services": {
@@ -35,8 +35,8 @@
   "jira-gym": 96,
   "notion-gym": 11,
   "email-calendar-gym": 10,
+  "outlook-gym": 8,
   "github-gym": 8,
-  "outlook-gym": 7,
   "gws-gym": 6,
   "linear-gym": 3,
   "slack": 2,
@@ -44,7 +44,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131456
+  "approx_bytes_read": 140595
  },
  "errors": [],
  "tasks": [
@@ -249,6 +249,22 @@
    "sha256": "4a02cff879a51bab2d46ec8c42836fab5d4d8541275f865acf4dc6b7b4f4c682",
    "size_bytes": 4444515,
    "updated": "2026-09-10T12:18:25.696Z"
+  },
+  {
+   "declared_name": "harbor/an-extra-in-my-own-week",
+   "declared_short": "an-extra-in-my-own-week",
+   "folder": "an-extra-in-my-own-week",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "464cc3ff7d0d61a1cfdc186e9431b60328e676adf2192b0ccfc51174edbd07ed",
+   "size_bytes": 6935590,
+   "updated": "2026-09-18T06:54:04.318Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -7927,15 +7943,15 @@
    "updated": "2026-09-16T22:52:45.337Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b38-l9-enforcement-digest-item-audit",
    "declared_short": "law-b38-l9-enforcement-digest-item-audit",
-   "folder": "law-b38-l9-enforcement-digest-item-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b38-l9-enforcement-digest-item-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ab2df8d378888c3f98977ef6efdf1d9f8842500b4900a178f950781b5d56d6b7",
    "size_bytes": 13646439,
    "updated": "2026-09-18T06:47:53.163Z"
