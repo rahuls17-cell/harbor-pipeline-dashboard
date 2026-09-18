@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T21:40:02+00:00",
+ "generated_at": "2026-09-18T21:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 665,
-  "scanned": 665,
+  "task_folders": 666,
+  "scanned": 666,
   "connector": 196,
-  "non_connector": 469,
+  "non_connector": 470,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 43,
   "gen": 185,
   "health": 45,
-  "law": 39
+  "law": 40
  },
  "name_prefix": {
   "harbor": 200,
-  "obi": 465
+  "obi": 466
  },
  "connector_services": {
   "google-drive-gym": 121,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131441
  },
  "errors": [],
  "tasks": [
@@ -8522,6 +8522,20 @@
    "sha256": "19e255997285ef5775ae85e9c7cf705853ed111bab30d3545922e82939784a4f",
    "size_bytes": 6863776,
    "updated": "2026-09-18T18:07:20.304Z"
+  },
+  {
+   "declared_name": "obi/law-b36-l5-beneficiary-claim-citation-audit",
+   "declared_short": "law-b36-l5-beneficiary-claim-citation-audit",
+   "folder": "law-b36-l5-beneficiary-claim-citation-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "6279cf43402159aa79448d8dc9e20c13085809625e683ca3859e05dda012d3f6",
+   "size_bytes": 6556204,
+   "updated": "2026-09-18T21:42:35.676Z"
   },
   {
    "connector_provenance": null,
