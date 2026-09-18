@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T18:20:02+00:00",
+ "generated_at": "2026-09-18T18:25:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 648,
-  "scanned": 648,
+  "task_folders": 649,
+  "scanned": 649,
   "connector": 189,
-  "non_connector": 459,
+  "non_connector": 460,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 208,
-  "code": 133,
+  "code": 134,
   "fin": 42,
   "gen": 182,
   "health": 44,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 193,
-  "obi": 455
+  "obi": 456
  },
  "connector_services": {
   "google-drive-gym": 117,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131680
  },
  "errors": [],
  "tasks": [
@@ -976,6 +976,20 @@
    "sha256": "90a2a873c1f1480b9888a7d78b360a305d76d131580f41fbc9aa36e45677ce33",
    "size_bytes": 6819323,
    "updated": "2026-09-09T17:43:30.580Z"
+  },
+  {
+   "declared_name": "obi/code-c193-approved-stack-compliance-audit",
+   "declared_short": "code-c193-approved-stack-compliance-audit",
+   "folder": "code-c193-approved-stack-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "cd34c5867027fcfaf63696e4ad1a9fe68a6faa17e7661ccf7b0d0b1087929188",
+   "size_bytes": 8123254,
+   "updated": "2026-09-18T18:20:53.004Z"
   },
   {
    "connector_provenance": null,
