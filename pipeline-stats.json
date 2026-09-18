@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T00:05:03+00:00",
+ "generated_at": "2026-09-18T00:10:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 601,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134396
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -7547,11 +7547,7 @@
    "updated": "2026-09-16T22:39:53.146Z"
   },
   {
-   "declared_name": "harbor/household-companion-archival-sweep-roster-eligibility-as-of-2025-03-01t00-00-00",
-   "declared_short": "household-companion-archival-sweep-roster-eligibility-as-of-2025-03-01t00-00-00",
-   "folder": "household-admin-request-to-archive-companion-member-without-own-accoun",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -7561,9 +7557,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/household-companion-archival-sweep-roster-eligibility-as-of-2025-03-01t00-00-00",
+   "declared_short": "household-companion-archival-sweep-roster-eligibility-as-of-2025-03-01t00-00-00",
    "domain": null,
+   "folder": "household-admin-request-to-archive-companion-member-without-own-accoun",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ad8ab5ab3ec6e0191e969ca74717d6b529caef2ef63dcfd26099c34556b44539",
    "size_bytes": 9618566,
    "updated": "2026-09-18T00:03:42.402Z"
