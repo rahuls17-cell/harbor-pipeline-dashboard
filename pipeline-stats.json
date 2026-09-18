@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T05:50:05+00:00",
+ "generated_at": "2026-09-18T06:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 608,
-  "scanned": 608,
+  "task_folders": 609,
+  "scanned": 609,
   "connector": 177,
-  "non_connector": 431,
+  "non_connector": 432,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 38,
   "gen": 174,
   "health": 38,
-  "law": 34
+  "law": 35
  },
  "name_prefix": {
   "harbor": 181,
-  "obi": 427
+  "obi": 428
  },
  "connector_services": {
   "google-drive-gym": 113,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131456
  },
  "errors": [],
  "tasks": [
@@ -7925,6 +7925,20 @@
    "sha256": "64b6fc566f3a1ebe692fed53cba482425051fb2750e4b85e800208ce42d87441",
    "size_bytes": 6270602,
    "updated": "2026-09-16T22:52:45.337Z"
+  },
+  {
+   "declared_name": "obi/law-b38-l9-enforcement-digest-item-audit",
+   "declared_short": "law-b38-l9-enforcement-digest-item-audit",
+   "folder": "law-b38-l9-enforcement-digest-item-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "ab2df8d378888c3f98977ef6efdf1d9f8842500b4900a178f950781b5d56d6b7",
+   "size_bytes": 13646439,
+   "updated": "2026-09-18T06:47:53.163Z"
   },
   {
    "connector_provenance": null,
