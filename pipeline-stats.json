@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T15:30:03+00:00",
+ "generated_at": "2026-09-18T15:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 638,
-  "scanned": 638,
+  "task_folders": 640,
+  "scanned": 640,
   "connector": 185,
-  "non_connector": 453,
+  "non_connector": 455,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 203,
   "code": 133,
   "fin": 41,
-  "gen": 181,
+  "gen": 182,
   "health": 42,
-  "law": 38
+  "law": 39
  },
  "name_prefix": {
   "harbor": 189,
-  "obi": 449
+  "obi": 451
  },
  "connector_services": {
   "google-drive-gym": 117,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 262930
  },
  "errors": [],
  "tasks": [
@@ -5544,6 +5544,20 @@
    "updated": "2026-09-10T00:41:22.924Z"
   },
   {
+   "declared_name": "obi/gen-g682-lpa-fee-term-compliance-audit-hard-v25",
+   "declared_short": "gen-g682-lpa-fee-term-compliance-audit-hard-v25",
+   "folder": "gen-g682-lpa-fee-term-compliance-audit-hard-v25-QC-TESTING",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "d802936065708e310c732ef00153e2180733697ecb830964e503cc57f763a294",
+   "size_bytes": 6237534,
+   "updated": "2026-09-18T15:33:00.653Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g698-business-jet-fuel-savings-disclosure-audit",
@@ -8178,6 +8192,20 @@
    "sha256": "b156ad7b74c6e0c18168a6647c8db3054795eac8a2960924b0628b3915e9968d",
    "size_bytes": 5295738,
    "updated": "2026-09-13T13:12:30.899Z"
+  },
+  {
+   "declared_name": "obi/law-b36-l4-finished-area-recomputation",
+   "declared_short": "law-b36-l4-finished-area-recomputation",
+   "folder": "law-b36-l4-finished-area-recomputation-hardened",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "307e983f3b96ab2c1cf323daa45e21d5736691cc7bfb3fb4ad9c70283a89eaca",
+   "size_bytes": 6469136,
+   "updated": "2026-09-18T15:30:54.594Z"
   },
   {
    "connector_provenance": null,
