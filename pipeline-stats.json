@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T21:15:02+00:00",
+ "generated_at": "2026-09-18T21:20:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 664,
@@ -9,9 +9,9 @@
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 88,
+  "unknown": 87,
   "synthetic": 48,
-  "real": 59
+  "real": 60
  },
  "domain": {
   "unnamed": 215,
@@ -27,7 +27,7 @@
  },
  "connector_services": {
   "google-drive-gym": 120,
-  "slack-gym": 115,
+  "slack-gym": 114,
   "zeta3-sql-gym": 104,
   "confluence-gym": 103,
   "email-gym": 103,
@@ -36,16 +36,16 @@
   "notion-gym": 17,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
+  "slack": 8,
   "github-gym": 8,
-  "slack": 7,
   "gws-gym": 6,
   "linear-gym": 4,
   "supabase-gym": 1,
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133242
  },
  "errors": [],
  "tasks": [
@@ -9624,26 +9624,26 @@
    "updated": "2026-09-18T20:43:06.405Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/recurring-32-16-card-on-file-declines-on-terminated-card-6729-root-cau",
+   "declared_short": "recurring-32-16-card-on-file-declines-on-terminated-card-6729-root-cau",
+   "folder": "task_recurring_32_16_card_on_file_declines_on_terminated_card_6729_root_cau",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
     "freshdesk-gym",
     "google-drive-gym",
     "jira-gym",
-    "slack-gym",
+    "slack",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/recurring-32-16-card-on-file-declines-on-terminated-card-6729-root-cau",
-   "declared_short": "recurring-32-16-card-on-file-declines-on-terminated-card-6729-root-cau",
+   "connector_provenance": "real",
    "domain": null,
-   "folder": "task_recurring_32_16_card_on_file_declines_on_terminated_card_6729_root_cau",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "2f4476e9cffa631ee4596d7a0ea168902a66ce1a8e572d15221839732a634d78",
-   "size_bytes": 8047441,
-   "updated": "2026-09-16T16:36:59.508Z"
+   "sha256": "96f14f29e0b8c2488f19c4a63a46ee6d8ba3cf45a02d03934a1f105bffb28728",
+   "size_bytes": 6612292,
+   "updated": "2026-09-18T21:18:22.836Z"
   },
   {
    "connector_provenance": "unknown",
