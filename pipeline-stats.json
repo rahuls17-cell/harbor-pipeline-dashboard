@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-18T01:50:02+00:00",
+ "generated_at": "2026-09-18T02:10:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 603,
-  "scanned": 603,
-  "connector": 175,
+  "task_folders": 604,
+  "scanned": 604,
+  "connector": 176,
   "non_connector": 428,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 82,
-  "synthetic": 40,
+  "synthetic": 41,
   "real": 53
  },
  "domain": {
-  "unnamed": 190,
+  "unnamed": 191,
   "code": 131,
   "fin": 38,
   "gen": 174,
@@ -22,7 +22,7 @@
   "law": 33
  },
  "name_prefix": {
-  "harbor": 179,
+  "harbor": 180,
   "obi": 424
  },
  "connector_services": {
@@ -33,8 +33,8 @@
   "email-gym": 95,
   "freshdesk-gym": 95,
   "jira-gym": 95,
+  "notion-gym": 11,
   "email-calendar-gym": 10,
-  "notion-gym": 10,
   "github-gym": 8,
   "outlook-gym": 7,
   "gws-gym": 6,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 135137
  },
  "errors": [],
  "tasks": [
@@ -8947,6 +8947,22 @@
    "sha256": "f97507370707e58f13737409c1e6c3e5c5dd39fd7c97ccae1041ebc31986ea51",
    "size_bytes": 7718115,
    "updated": "2026-09-17T16:55:29.261Z"
+  },
+  {
+   "declared_name": "harbor/the-meetings-that-were-never-written-down",
+   "declared_short": "the-meetings-that-were-never-written-down",
+   "folder": "the-meetings-that-were-never-written-down",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "78281dac908701f7e1f71cb3764ded5f7691efb343757af89c5b44250d79948e",
+   "size_bytes": 7335395,
+   "updated": "2026-09-18T02:08:00.456Z"
   },
   {
    "connector_provenance": "synthetic",
