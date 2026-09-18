@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T21:05:03+00:00",
+ "generated_at": "2026-09-18T21:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 664,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 404686
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2814,11 +2814,7 @@
    "updated": "2026-09-15T00:34:44.066Z"
   },
   {
-   "declared_name": "harbor/customer-request-to-lift-card-limit-for-11-000-cashier-s-check-purchas",
-   "declared_short": "customer-request-to-lift-card-limit-for-11-000-cashier-s-check-purchas",
-   "folder": "customer-request-to-lift-card-limit-for-11-000-cashier-s-check-purchas",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -2828,9 +2824,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/customer-request-to-lift-card-limit-for-11-000-cashier-s-check-purchas",
+   "declared_short": "customer-request-to-lift-card-limit-for-11-000-cashier-s-check-purchas",
    "domain": null,
+   "folder": "customer-request-to-lift-card-limit-for-11-000-cashier-s-check-purchas",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2a8ee5efd9bdaa4921da326956b2cb71a353aa0d0955038aaa138b4973613214",
    "size_bytes": 11427017,
    "updated": "2026-09-18T21:04:35.007Z"
@@ -8226,15 +8226,15 @@
    "updated": "2026-09-16T22:39:53.146Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt7-a6-hydration-order-card-guideline-check",
    "declared_short": "health-tdt7-a6-hydration-order-card-guideline-check",
-   "folder": "health-tdt7-a6-hydration-order-card-guideline-check",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt7-a6-hydration-order-card-guideline-check",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9b4eabb99527325b64d9a9bdcb1eaf9e9ec6450947bfe812a257c2c954bb46be",
    "size_bytes": 5125930,
    "updated": "2026-09-18T21:02:36.649Z"
@@ -9876,17 +9876,17 @@
    "updated": "2026-09-18T11:20:28.490Z"
   },
   {
-   "declared_name": "harbor/the-other-door-is-still-ours",
-   "declared_short": "the-other-door-is-still-ours",
-   "folder": "the-other-door-is-still-ours",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-other-door-is-still-ours",
+   "declared_short": "the-other-door-is-still-ours",
    "domain": null,
+   "folder": "the-other-door-is-still-ours",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7ba64fbb4b54ded4422443147488a43dcecca5c3acdf9800afab2a94774ceeea",
    "size_bytes": 12039759,
    "updated": "2026-09-18T21:00:32.266Z"
