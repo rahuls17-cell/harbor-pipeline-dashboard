@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-18T12:00:02+00:00",
+ "generated_at": "2026-09-18T12:05:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 628,
-  "scanned": 628,
-  "connector": 183,
+  "task_folders": 629,
+  "scanned": 629,
+  "connector": 184,
   "non_connector": 445,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 84,
+  "unknown": 85,
   "synthetic": 45,
   "real": 54
  },
  "domain": {
-  "unnamed": 200,
+  "unnamed": 201,
   "code": 131,
   "fin": 40,
   "gen": 179,
@@ -22,17 +22,17 @@
   "law": 37
  },
  "name_prefix": {
-  "harbor": 187,
+  "harbor": 188,
   "obi": 441
  },
  "connector_services": {
-  "google-drive-gym": 115,
-  "slack-gym": 113,
-  "zeta3-sql-gym": 99,
-  "confluence-gym": 98,
-  "email-gym": 98,
-  "freshdesk-gym": 98,
-  "jira-gym": 98,
+  "google-drive-gym": 116,
+  "slack-gym": 114,
+  "zeta3-sql-gym": 100,
+  "confluence-gym": 99,
+  "email-gym": 99,
+  "freshdesk-gym": 99,
+  "jira-gym": 99,
   "notion-gym": 12,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
@@ -45,7 +45,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131686
+  "approx_bytes_read": 133551
  },
  "errors": [],
  "tasks": [
@@ -8060,15 +8060,15 @@
    "updated": "2026-09-13T13:12:30.899Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b36-l8-refund-cheque-status-register",
    "declared_short": "law-b36-l8-refund-cheque-status-register",
-   "folder": "law-b36-l8-refund-cheque-status-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b36-l8-refund-cheque-status-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "fcab6a42103ff841f4f6ebc8087a08038c7aaac1d2c6d8ac1346928f0b9b606b",
    "size_bytes": 9085231,
    "updated": "2026-09-18T11:59:17.706Z"
@@ -9000,6 +9000,28 @@
    "sha256": "a296725f2d391b27c11d059e4bafdd15ac6260735c0cb3afdd33c1b92f290110",
    "size_bytes": 4799496,
    "updated": "2026-09-05T20:14:23.783Z"
+  },
+  {
+   "declared_name": "harbor/ach-returns-drove-account-1284-negative-determine-lock-action-and-scop",
+   "declared_short": "ach-returns-drove-account-1284-negative-determine-lock-action-and-scop",
+   "folder": "task-100587-ach-returns-drove-account-2301-negat-03e1d4-v1",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "d603fb29c749003794ef4c2366ea36d0aad936d8290cc714a8e5241de21cbb33",
+   "size_bytes": 15092013,
+   "updated": "2026-09-18T12:04:14.797Z"
   },
   {
    "connector_provenance": null,
