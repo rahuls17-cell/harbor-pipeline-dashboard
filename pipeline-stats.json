@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T10:50:03+00:00",
+ "generated_at": "2026-09-18T10:55:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 624,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131474
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -7337,15 +7337,15 @@
    "updated": "2026-09-06T15:30:03.413Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h20-cold-chain-excursion",
    "declared_short": "health-h20-cold-chain-excursion",
-   "folder": "health-h20-cold-chain-excursion",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h20-cold-chain-excursion",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b27ac9a60f40e7bd238808e4f9d165f41c894e01d0d393c2e3df7079d5acfdf1",
    "size_bytes": 12573601,
    "updated": "2026-09-18T10:46:39.318Z"
