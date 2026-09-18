@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T16:20:03+00:00",
+ "generated_at": "2026-09-18T16:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 642,
-  "scanned": 642,
+  "task_folders": 643,
+  "scanned": 643,
   "connector": 185,
-  "non_connector": 457,
+  "non_connector": 458,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 204,
   "code": 133,
-  "fin": 41,
+  "fin": 42,
   "gen": 182,
   "health": 43,
   "law": 39
  },
  "name_prefix": {
   "harbor": 189,
-  "obi": 453
+  "obi": 454
  },
  "connector_services": {
   "google-drive-gym": 117,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131468
  },
  "errors": [],
  "tasks": [
@@ -3680,6 +3680,20 @@
    "sha256": "ad11d7a39d4e0a5b32a6db699c6be645001e16344009e1a3492ee9c51dac9e64",
    "size_bytes": 5226348,
    "updated": "2026-09-18T13:10:29.387Z"
+  },
+  {
+   "declared_name": "obi/fin-b45-a10-credit-spread-signal-adjudication",
+   "declared_short": "fin-b45-a10-credit-spread-signal-adjudication",
+   "folder": "fin-b45-a10-credit-spread-signal-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "32c2718822fdd419788d222ff0787813a1bbd35e41bd022ab70bda4a936af2fc",
+   "size_bytes": 5532802,
+   "updated": "2026-09-18T16:22:19.705Z"
   },
   {
    "connector_provenance": null,
