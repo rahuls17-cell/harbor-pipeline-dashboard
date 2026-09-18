@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T13:45:03+00:00",
+ "generated_at": "2026-09-18T13:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 631,
-  "scanned": 631,
+  "task_folders": 632,
+  "scanned": 632,
   "connector": 184,
-  "non_connector": 447,
+  "non_connector": 448,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "real": 54
  },
  "domain": {
-  "unnamed": 201,
+  "unnamed": 202,
   "code": 131,
   "fin": 40,
   "gen": 181,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 188,
-  "obi": 443
+  "obi": 444
  },
  "connector_services": {
   "google-drive-gym": 116,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131476
  },
  "errors": [],
  "tasks": [
@@ -690,6 +690,20 @@
    "sha256": "b34da1bd0034ce5728e2d94dbc0ad527187586a0dbe3494cb05d9d8e479f190b",
    "size_bytes": 7931862,
    "updated": "2026-09-18T01:05:05.584Z"
+  },
+  {
+   "declared_name": "obi/bus-b31-a2-government-mro-catalog-repricing-audit",
+   "declared_short": "bus-b31-a2-government-mro-catalog-repricing-audit",
+   "folder": "bus-b31-a2-government-mro-catalog-repricing-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "9de8ab088d89d3ac6445b541b7a12da63ae4c4f86e62854c68658b45034a9053",
+   "size_bytes": 8100522,
+   "updated": "2026-09-18T13:46:51.481Z"
   },
   {
    "connector_provenance": null,
