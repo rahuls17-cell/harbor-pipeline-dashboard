@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T15:00:03+00:00",
+ "generated_at": "2026-09-18T15:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 637,
@@ -44,17 +44,13 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133365
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
   {
-   "declared_name": "harbor/ach-pull-583848-support-evidence-review",
-   "declared_short": "ach-pull-583848-support-evidence-review",
-   "folder": "100778",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -64,9 +60,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/ach-pull-583848-support-evidence-review",
+   "declared_short": "ach-pull-583848-support-evidence-review",
    "domain": null,
+   "folder": "100778",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e68d96fdc6a1fd85d26a08403db22a1953430f618800217fdc46667c80ac4daa",
    "size_bytes": 9193516,
    "updated": "2026-09-18T14:56:05.069Z"
