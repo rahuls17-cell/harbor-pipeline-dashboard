@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T12:15:02+00:00",
+ "generated_at": "2026-09-18T12:20:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 629,
-  "scanned": 629,
+  "task_folders": 630,
+  "scanned": 630,
   "connector": 184,
-  "non_connector": 445,
+  "non_connector": 446,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 201,
   "code": 131,
   "fin": 40,
-  "gen": 179,
+  "gen": 180,
   "health": 41,
   "law": 37
  },
  "name_prefix": {
   "harbor": 188,
-  "obi": 441
+  "obi": 442
  },
  "connector_services": {
   "google-drive-gym": 116,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131575
  },
  "errors": [],
  "tasks": [
@@ -6038,6 +6038,20 @@
    "sha256": "0cb4c4e6a9457a2864f902684f5ad787499baa29879017d421a439ea458c65d8",
    "size_bytes": 3771163,
    "updated": "2026-09-14T10:18:04.064Z"
+  },
+  {
+   "declared_name": "obi/gen-g939-heritage-repaint-finish-swatch-audit",
+   "declared_short": "gen-g939-heritage-repaint-finish-swatch-audit",
+   "folder": "gen-g939-heritage-repaint-finish-swatch-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "b72e7b53cfa9122cef2d52bdc97c03232be8c9c624251a2d799b450a269523f2",
+   "size_bytes": 5442189,
+   "updated": "2026-09-18T12:15:26.228Z"
   },
   {
    "connector_provenance": null,
