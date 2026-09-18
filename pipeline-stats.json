@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T11:55:02+00:00",
+ "generated_at": "2026-09-18T12:00:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 628,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131686
  },
  "errors": [],
  "tasks": [
@@ -8060,18 +8060,18 @@
    "updated": "2026-09-13T13:12:30.899Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/law-b36-l8-refund-cheque-status-register",
    "declared_short": "law-b36-l8-refund-cheque-status-register",
-   "domain": "law",
    "folder": "law-b36-l8-refund-cheque-status-register",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "437bbab0d3855ae9b98ee7d05f5a141d895ab8921fff62c74377c50584e71e8e",
-   "size_bytes": 5824399,
-   "updated": "2026-09-14T07:04:27.336Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "fcab6a42103ff841f4f6ebc8087a08038c7aaac1d2c6d8ac1346928f0b9b606b",
+   "size_bytes": 9085231,
+   "updated": "2026-09-18T11:59:17.706Z"
   },
   {
    "connector_provenance": null,
