@@ -1,33 +1,33 @@
 {
- "generated_at": "2026-09-18T20:40:02+00:00",
+ "generated_at": "2026-09-18T20:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 659,
-  "scanned": 659,
+  "task_folders": 660,
+  "scanned": 660,
   "connector": 193,
-  "non_connector": 466,
+  "non_connector": 467,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 89,
+  "unknown": 88,
   "synthetic": 47,
-  "real": 57
+  "real": 58
  },
  "domain": {
   "unnamed": 213,
   "code": 136,
-  "fin": 42,
+  "fin": 43,
   "gen": 185,
   "health": 44,
   "law": 39
  },
  "name_prefix": {
   "harbor": 197,
-  "obi": 462
+  "obi": 463
  },
  "connector_services": {
   "google-drive-gym": 120,
-  "slack-gym": 116,
+  "slack-gym": 115,
   "zeta3-sql-gym": 104,
   "confluence-gym": 103,
   "email-gym": 103,
@@ -37,15 +37,15 @@
   "email-calendar-gym": 10,
   "outlook-gym": 8,
   "github-gym": 8,
+  "slack": 6,
   "gws-gym": 6,
-  "slack": 5,
   "linear-gym": 3,
   "supabase-gym": 1,
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133397
+  "new_archives_read": 2,
+  "approx_bytes_read": 264716
  },
  "errors": [],
  "tasks": [
@@ -552,11 +552,7 @@
    "updated": "2026-09-16T10:29:17.962Z"
   },
   {
-   "declared_name": "harbor/hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
-   "declared_short": "hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
-   "folder": "batch3__hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date-",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -566,9 +562,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
+   "declared_short": "hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
    "domain": null,
+   "folder": "batch3__hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date-",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9ecee60d2c5838950a7f550bbd4951cf6a200f057032c3eb8afc5a6eadbf80c4",
    "size_bytes": 9593412,
    "updated": "2026-09-18T20:39:54.236Z"
@@ -4126,6 +4126,20 @@
    "sha256": "cbd399f9e8da0cd37c60cd91fe9d3d35b503e7755c47703cb3985187bd589a02",
    "size_bytes": 8031299,
    "updated": "2026-09-09T08:16:33.567Z"
+  },
+  {
+   "declared_name": "obi/fin-f66-covered-call-etf-distribution-audit",
+   "declared_short": "fin-f66-covered-call-etf-distribution-audit",
+   "folder": "fin-f66-covered-call-etf-distribution-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "ddf069ee0bf09c8d10666c3dc88802418608ce1accd0888453d70310170b101b",
+   "size_bytes": 8579700,
+   "updated": "2026-09-18T20:41:28.555Z"
   },
   {
    "connector_provenance": null,
@@ -9544,26 +9558,26 @@
    "updated": "2026-09-17T00:08:09.326Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/reconcile-check-10015-lifecycle-cleared-status-but-missing-cleared-tim",
+   "declared_short": "reconcile-check-10015-lifecycle-cleared-status-but-missing-cleared-tim",
+   "folder": "task_reconcile_check_10015_lifecycle_cleared_status_but_missing_cleared_tim",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
     "freshdesk-gym",
     "google-drive-gym",
     "jira-gym",
-    "slack-gym",
+    "slack",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/reconcile-check-10015-lifecycle-cleared-status-but-missing-cleared-tim",
-   "declared_short": "reconcile-check-10015-lifecycle-cleared-status-but-missing-cleared-tim",
+   "connector_provenance": "real",
    "domain": null,
-   "folder": "task_reconcile_check_10015_lifecycle_cleared_status_but_missing_cleared_tim",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "b04fb4aa0961d7f44d38c8392506c05720b3d557586745d5bc28e56ca1186fb8",
-   "size_bytes": 12670947,
-   "updated": "2026-09-16T15:56:58.367Z"
+   "sha256": "c44b747fa9d5cd371a2ebcf7f96f2c06af08358161675e47ddb2372ef51215a4",
+   "size_bytes": 6947872,
+   "updated": "2026-09-18T20:43:06.405Z"
   },
   {
    "connector_provenance": "unknown",
