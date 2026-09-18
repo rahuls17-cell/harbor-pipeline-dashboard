@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T21:45:03+00:00",
+ "generated_at": "2026-09-18T21:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 666,
-  "scanned": 666,
+  "task_folders": 667,
+  "scanned": 667,
   "connector": 196,
-  "non_connector": 470,
+  "non_connector": 471,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 216,
   "code": 137,
   "fin": 43,
-  "gen": 185,
+  "gen": 186,
   "health": 45,
   "law": 40
  },
  "name_prefix": {
   "harbor": 200,
-  "obi": 466
+  "obi": 467
  },
  "connector_services": {
   "google-drive-gym": 121,
@@ -45,7 +45,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131441
+  "approx_bytes_read": 131616
  },
  "errors": [],
  "tasks": [
@@ -4864,6 +4864,20 @@
    "updated": "2026-09-13T01:46:49.061Z"
   },
   {
+   "declared_name": "obi/gen-g236-book-relayout-audit",
+   "declared_short": "gen-g236-book-relayout-audit",
+   "folder": "gen-g236-book-relayout-audit-review-resolved-20260918-rerun",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "2969bf585c8553ed9f3b13e602e64639f196acbc5c6c039d5a93a654976d6ea8",
+   "size_bytes": 13361560,
+   "updated": "2026-09-18T21:48:53.602Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g244-story-timeline-consistency-audit",
@@ -8524,15 +8538,15 @@
    "updated": "2026-09-18T18:07:20.304Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b36-l5-beneficiary-claim-citation-audit",
    "declared_short": "law-b36-l5-beneficiary-claim-citation-audit",
-   "folder": "law-b36-l5-beneficiary-claim-citation-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b36-l5-beneficiary-claim-citation-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6279cf43402159aa79448d8dc9e20c13085809625e683ca3859e05dda012d3f6",
    "size_bytes": 6556204,
    "updated": "2026-09-18T21:42:35.676Z"
