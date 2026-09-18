@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T20:25:02+00:00",
+ "generated_at": "2026-09-18T20:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 657,
-  "scanned": 657,
+  "task_folders": 658,
+  "scanned": 658,
   "connector": 192,
-  "non_connector": 465,
+  "non_connector": 466,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 212,
   "code": 136,
   "fin": 42,
-  "gen": 184,
+  "gen": 185,
   "health": 44,
   "law": 39
  },
  "name_prefix": {
   "harbor": 196,
-  "obi": 461
+  "obi": 462
  },
  "connector_services": {
   "google-drive-gym": 119,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263150
  },
  "errors": [],
  "tasks": [
@@ -5758,6 +5758,20 @@
    "updated": "2026-09-12T09:04:54.632Z"
   },
   {
+   "declared_name": "obi/gen-g721-datacenter-tax-incentive-compliance-audit",
+   "declared_short": "gen-g721-datacenter-tax-incentive-compliance-audit",
+   "folder": "gen-g721-datacenter-tax-incentive-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "285952b3cf607ff6aba30f20de0ba101e7106f7ab9dc03d5d3fe3813204532c4",
+   "size_bytes": 4391157,
+   "updated": "2026-09-18T20:25:46.389Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g725-team-status-ticket-reconcile",
@@ -8606,18 +8620,18 @@
    "updated": "2026-09-13T13:05:44.536Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/law-b42-l15-ssi-to-dac-medicaid-continuity-qa",
    "declared_short": "law-b42-l15-ssi-to-dac-medicaid-continuity-qa",
-   "domain": "law",
    "folder": "law-b42-l15-ssi-to-dac-medicaid-continuity-qa",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "528d133a810dcfbf99f709d1675d3b9441f58459061fa270828185b32284a384",
-   "size_bytes": 6102404,
-   "updated": "2026-09-13T18:28:44.963Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "dde2e4e16075a4beefa7c48c3fe84cbcfdb4217a5dd285bfd9c44a49c35fa2d0",
+   "size_bytes": 7259709,
+   "updated": "2026-09-18T20:25:02.951Z"
   },
   {
    "connector_provenance": null,
