@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-18T19:50:02+00:00",
+ "generated_at": "2026-09-18T19:55:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 656,
-  "scanned": 656,
-  "connector": 191,
+  "task_folders": 657,
+  "scanned": 657,
+  "connector": 192,
   "non_connector": 465,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 88,
+  "unknown": 89,
   "synthetic": 47,
   "real": 56
  },
  "domain": {
-  "unnamed": 211,
+  "unnamed": 212,
   "code": 136,
   "fin": 42,
   "gen": 184,
@@ -22,17 +22,17 @@
   "law": 39
  },
  "name_prefix": {
-  "harbor": 195,
+  "harbor": 196,
   "obi": 461
  },
  "connector_services": {
-  "google-drive-gym": 118,
-  "slack-gym": 115,
-  "zeta3-sql-gym": 102,
-  "confluence-gym": 101,
-  "email-gym": 101,
-  "freshdesk-gym": 101,
-  "jira-gym": 101,
+  "google-drive-gym": 119,
+  "slack-gym": 116,
+  "zeta3-sql-gym": 103,
+  "confluence-gym": 102,
+  "email-gym": 102,
+  "freshdesk-gym": 102,
+  "jira-gym": 102,
   "notion-gym": 17,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
@@ -45,7 +45,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131506
+  "approx_bytes_read": 134529
  },
  "errors": [],
  "tasks": [
@@ -3328,6 +3328,28 @@
    "updated": "2026-09-10T20:38:34.003Z"
   },
   {
+   "declared_name": "harbor/diagnose-why-standard-ach-transfer-305051-for-47-00-ended-in-error-on",
+   "declared_short": "diagnose-why-standard-ach-transfer-305051-for-47-00-ended-in-error-on",
+   "folder": "diagnose-why-standard-ach-transfer-305051-for-47-00-ended-in-error",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "e555f8db44e61fa1958fa99ba60bacf47aa6dcbb98d843d4581dffd463ec419b",
+   "size_bytes": 10349185,
+   "updated": "2026-09-18T19:53:36.731Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-s1-a5-curriculum-code-insertion",
@@ -6296,15 +6318,15 @@
    "updated": "2026-09-18T12:15:26.228Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g941-closest-to-pin-promo-graphic-audit",
    "declared_short": "gen-g941-closest-to-pin-promo-graphic-audit",
-   "folder": "gen-g941-closest-to-pin-promo-graphic-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g941-closest-to-pin-promo-graphic-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "04490a92e0ef90e7bee2478c3c7d8428c2c574aa5f8ce28aab9b1afb4f95b46a",
    "size_bytes": 7560468,
    "updated": "2026-09-18T19:46:42.621Z"
