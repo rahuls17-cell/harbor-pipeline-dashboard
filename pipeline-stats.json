@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T05:15:03+00:00",
+ "generated_at": "2026-09-18T05:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 606,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263117
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -7547,15 +7547,15 @@
    "updated": "2026-09-16T14:28:24.997Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt6-a3-faq-sheet-conditional-grounding",
    "declared_short": "health-tdt6-a3-faq-sheet-conditional-grounding",
-   "folder": "health-tdt6-a3-faq-sheet-conditional-grounding",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt6-a3-faq-sheet-conditional-grounding",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "547009a1cf98bbf463d938d45ce0b8e7ffe8d7c827d4f5b64d3f218c36feac3d",
    "size_bytes": 7621812,
    "updated": "2026-09-18T05:13:16.851Z"
@@ -7919,15 +7919,15 @@
    "updated": "2026-09-17T10:58:54.435Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b39-l21-exit-sign-requirement-statement-audit",
    "declared_short": "law-b39-l21-exit-sign-requirement-statement-audit",
-   "folder": "law-b39-l21-exit-sign-requirement-statement-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b39-l21-exit-sign-requirement-statement-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "996ebd803760e607e117b9d7956111e9021bf65d9aee5e3557d5f5250962fe31",
    "size_bytes": 8069996,
    "updated": "2026-09-18T05:12:06.147Z"
