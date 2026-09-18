@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-18T22:00:03+00:00",
+ "generated_at": "2026-09-18T22:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 669,
-  "scanned": 669,
-  "connector": 198,
+  "task_folders": 670,
+  "scanned": 670,
+  "connector": 199,
   "non_connector": 471,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 88,
-  "synthetic": 49,
+  "synthetic": 50,
   "real": 61
  },
  "domain": {
-  "unnamed": 218,
+  "unnamed": 219,
   "code": 137,
   "fin": 43,
   "gen": 186,
@@ -22,12 +22,12 @@
   "law": 40
  },
  "name_prefix": {
-  "harbor": 202,
+  "harbor": 203,
   "obi": 467
  },
  "connector_services": {
   "google-drive-gym": 123,
-  "slack-gym": 115,
+  "slack-gym": 116,
   "zeta3-sql-gym": 107,
   "confluence-gym": 106,
   "email-gym": 106,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 270141
+  "new_archives_read": 1,
+  "approx_bytes_read": 141555
  },
  "errors": [],
  "tasks": [
@@ -94,11 +94,7 @@
    "updated": "2026-09-09T19:13:39.005Z"
   },
   {
-   "declared_name": "harbor/wire-fee-leakage-audit-20-wire-fees-settled-against-wires-that-ended-in-error-2022-01-01-2025-06-30",
-   "declared_short": "wire-fee-leakage-audit-20-wire-fees-settled-against-wires-that-ended-in-error-2022-01-01-2025-06-30",
-   "folder": "635v5-5ca3d4-v1-orig",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -108,9 +104,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/wire-fee-leakage-audit-20-wire-fees-settled-against-wires-that-ended-in-error-2022-01-01-2025-06-30",
+   "declared_short": "wire-fee-leakage-audit-20-wire-fees-settled-against-wires-that-ended-in-error-2022-01-01-2025-06-30",
    "domain": null,
+   "folder": "635v5-5ca3d4-v1-orig",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e250ac641c9eaac2e595cc6de5320540caa11c7e122c47cf9ab11cf4b741d472",
    "size_bytes": 6676499,
    "updated": "2026-09-18T21:57:15.239Z"
@@ -442,11 +442,7 @@
    "updated": "2026-09-08T13:58:46.170Z"
   },
   {
-   "declared_name": "harbor/audit-virtual-card-daily-spend-limit-enforcement-breaches",
-   "declared_short": "audit-virtual-card-daily-spend-limit-enforcement-breaches",
-   "folder": "audit-virtual-card-daily-spend-limit-enforcement-breaches",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -456,9 +452,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/audit-virtual-card-daily-spend-limit-enforcement-breaches",
+   "declared_short": "audit-virtual-card-daily-spend-limit-enforcement-breaches",
    "domain": null,
+   "folder": "audit-virtual-card-daily-spend-limit-enforcement-breaches",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "755b721f8ea9d580c8473a061473bf2d5c8f5e556a3495fba9730eeb95fc11bf",
    "size_bytes": 12458452,
    "updated": "2026-09-18T21:59:23.095Z"
@@ -9872,6 +9872,22 @@
    "sha256": "cadc9fb48cb3e311be788eb5ee60874e9b78cccbdef01ee9aa86e6fe3955f844",
    "size_bytes": 7784730,
    "updated": "2026-09-18T05:38:37.159Z"
+  },
+  {
+   "declared_name": "harbor/the-approval-that-came-up-short",
+   "declared_short": "the-approval-that-came-up-short",
+   "folder": "the-approval-that-came-up-short",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "46a989ba0cf7833e64a966334b7c880224be71e4b9cec0a482a25b2f22f6fcbc",
+   "size_bytes": 11386683,
+   "updated": "2026-09-18T22:03:01.470Z"
   },
   {
    "connector_provenance": "synthetic",
