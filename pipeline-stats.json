@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T23:10:02+00:00",
+ "generated_at": "2026-09-18T23:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 680,
@@ -9,9 +9,9 @@
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 86,
+  "unknown": 85,
   "synthetic": 51,
-  "real": 70
+  "real": 71
  },
  "domain": {
   "unnamed": 227,
@@ -32,8 +32,8 @@
   "email-gym": 114,
   "freshdesk-gym": 114,
   "jira-gym": 114,
-  "slack-gym": 114,
-  "slack": 20,
+  "slack-gym": 113,
+  "slack": 21,
   "notion-gym": 17,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
@@ -45,7 +45,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131715
+  "approx_bytes_read": 133227
  },
  "errors": [],
  "tasks": [
@@ -640,26 +640,26 @@
    "updated": "2026-09-18T21:22:10.104Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/hard-regcc-01-reg-cc-large-deposit-exception-actual-funds-availability",
+   "declared_short": "hard-regcc-01-reg-cc-large-deposit-exception-actual-funds-availability",
+   "folder": "batch3__hard-regcc-01-reg-cc-large-deposit-exception-actual-funds-availability-v3",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
     "freshdesk-gym",
     "google-drive-gym",
     "jira-gym",
-    "slack-gym",
+    "slack",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/hard-regcc-01-reg-cc-large-deposit-exception-actual-funds-availability",
-   "declared_short": "hard-regcc-01-reg-cc-large-deposit-exception-actual-funds-availability",
+   "connector_provenance": "real",
    "domain": null,
-   "folder": "batch3__hard-regcc-01-reg-cc-large-deposit-exception-actual-funds-availability-v3",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "41c2fe04a638b1dd6936c7c326e4e1da619058ebe7283d753fe7804302878b22",
-   "size_bytes": 13044086,
-   "updated": "2026-09-13T04:10:20.855Z"
+   "sha256": "eba45db6b5d49714ffde62f02821727d832dca6fa3f12b83f5f63c5dc2f93f5c",
+   "size_bytes": 15846612,
+   "updated": "2026-09-18T23:14:03.319Z"
   },
   {
    "connector_provenance": "unknown",
@@ -8926,15 +8926,15 @@
    "updated": "2026-09-18T13:56:25.338Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b39-l7-counsel-confirmation-email-audit",
    "declared_short": "law-b39-l7-counsel-confirmation-email-audit",
-   "folder": "law-b39-l7-counsel-confirmation-email-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b39-l7-counsel-confirmation-email-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "00e13713d16eff69b645673d8eb45565619261b30a8800e64b8a20fe87c8eff1",
    "size_bytes": 6397003,
    "updated": "2026-09-18T23:06:52.960Z"
