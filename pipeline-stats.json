@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-18T23:35:03+00:00",
+ "generated_at": "2026-09-18T23:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 685,
-  "scanned": 685,
-  "connector": 210,
+  "task_folders": 687,
+  "scanned": 687,
+  "connector": 212,
   "non_connector": 475,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 85,
-  "synthetic": 51,
+  "unknown": 86,
+  "synthetic": 52,
   "real": 74
  },
  "domain": {
-  "unnamed": 231,
+  "unnamed": 233,
   "code": 138,
   "fin": 43,
   "gen": 187,
@@ -22,7 +22,7 @@
   "law": 41
  },
  "name_prefix": {
-  "harbor": 214,
+  "harbor": 216,
   "obi": 471
  },
  "connector_services": {
@@ -32,20 +32,20 @@
   "email-gym": 117,
   "freshdesk-gym": 117,
   "jira-gym": 117,
-  "slack-gym": 112,
+  "slack-gym": 113,
   "slack": 25,
   "notion-gym": 17,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
   "github-gym": 8,
   "gws-gym": 6,
-  "linear-gym": 4,
+  "linear-gym": 5,
   "supabase-gym": 1,
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131565
+  "new_archives_read": 2,
+  "approx_bytes_read": 274037
  },
  "errors": [],
  "tasks": [
@@ -3900,6 +3900,22 @@
    "updated": "2026-09-05T22:15:41.160Z"
   },
   {
+   "declared_name": "harbor/every-time-the-dashboard-looked-wrong",
+   "declared_short": "every-time-the-dashboard-looked-wrong",
+   "folder": "every-time-the-dashboard-looked-wrong",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "beca2ad3852e07276b147f28651fae968fbc7d4753bb185e2bf8cf165d78022f",
+   "size_bytes": 9383944,
+   "updated": "2026-09-18T23:35:05.569Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -5836,15 +5852,15 @@
    "updated": "2026-09-05T18:49:48.769Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g557-ceiling-fan-substitution-compliance-audit",
    "declared_short": "gen-g557-ceiling-fan-substitution-compliance-audit",
-   "folder": "gen-g557-ceiling-fan-substitution-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g557-ceiling-fan-substitution-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4adcce3d316db1a7d5b2f8717002a00c838f7bd612371668d11246db1c1daf09",
    "size_bytes": 9128679,
    "updated": "2026-09-18T23:33:03.681Z"
@@ -10346,6 +10362,22 @@
    "sha256": "f58bceda14848a16c9c8df67238757a6a9a73d77645c9aae8e0aed5c5cfcf2ce",
    "size_bytes": 7839295,
    "updated": "2026-09-17T17:34:22.992Z"
+  },
+  {
+   "declared_name": "harbor/the-work-that-outlived-the-project",
+   "declared_short": "the-work-that-outlived-the-project",
+   "folder": "the-work-that-outlived-the-project",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "bf7b3042eb61ebd8591f2a6eaf4cf1300ede2b7b9877944628a33b4b5612610c",
+   "size_bytes": 8821887,
+   "updated": "2026-09-18T23:35:19.806Z"
   },
   {
    "connector_provenance": "unknown",
