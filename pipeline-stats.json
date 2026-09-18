@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T05:40:03+00:00",
+ "generated_at": "2026-09-18T05:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 608,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131420
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -8983,15 +8983,15 @@
    "updated": "2026-09-17T08:26:03.485Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b45-t8-preview-vs-prod-attribute-the-regression",
    "declared_short": "tech-b45-t8-preview-vs-prod-attribute-the-regression",
-   "folder": "tech-b45-t8-preview-vs-prod-attribute-the-regression",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b45-t8-preview-vs-prod-attribute-the-regression",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "cadc9fb48cb3e311be788eb5ee60874e9b78cccbdef01ee9aa86e6fe3955f844",
    "size_bytes": 7784730,
    "updated": "2026-09-18T05:38:37.159Z"
