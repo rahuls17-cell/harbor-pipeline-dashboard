@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-18T20:45:03+00:00",
+ "generated_at": "2026-09-18T20:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 660,
-  "scanned": 660,
-  "connector": 193,
+  "task_folders": 661,
+  "scanned": 661,
+  "connector": 194,
   "non_connector": 467,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 88,
+  "unknown": 89,
   "synthetic": 47,
   "real": 58
  },
  "domain": {
-  "unnamed": 213,
+  "unnamed": 214,
   "code": 136,
   "fin": 43,
   "gen": 185,
@@ -22,7 +22,7 @@
   "law": 39
  },
  "name_prefix": {
-  "harbor": 197,
+  "harbor": 198,
   "obi": 463
  },
  "connector_services": {
@@ -39,13 +39,13 @@
   "github-gym": 8,
   "slack": 6,
   "gws-gym": 6,
-  "linear-gym": 3,
+  "linear-gym": 4,
   "supabase-gym": 1,
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 264716
+  "new_archives_read": 1,
+  "approx_bytes_read": 135743
  },
  "errors": [],
  "tasks": [
@@ -4128,15 +4128,15 @@
    "updated": "2026-09-09T08:16:33.567Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-f66-covered-call-etf-distribution-audit",
    "declared_short": "fin-f66-covered-call-etf-distribution-audit",
-   "folder": "fin-f66-covered-call-etf-distribution-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-f66-covered-call-etf-distribution-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ddf069ee0bf09c8d10666c3dc88802418608ce1accd0888453d70310170b101b",
    "size_bytes": 8579700,
    "updated": "2026-09-18T20:41:28.555Z"
@@ -9168,6 +9168,22 @@
    "updated": "2026-09-17T18:53:54.392Z"
   },
   {
+   "declared_name": "harbor/rebuild-the-design-cycle-report",
+   "declared_short": "rebuild-the-design-cycle-report",
+   "folder": "rebuild-the-design-cycle-report_v2",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "4ff4a0738e8d28facadd33de480b98b9ef772be4eb0e2110a3ce40cef72950c5",
+   "size_bytes": 8007382,
+   "updated": "2026-09-18T20:46:46.120Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
@@ -9558,11 +9574,7 @@
    "updated": "2026-09-17T00:08:09.326Z"
   },
   {
-   "declared_name": "harbor/reconcile-check-10015-lifecycle-cleared-status-but-missing-cleared-tim",
-   "declared_short": "reconcile-check-10015-lifecycle-cleared-status-but-missing-cleared-tim",
-   "folder": "task_reconcile_check_10015_lifecycle_cleared_status_but_missing_cleared_tim",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -9572,9 +9584,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/reconcile-check-10015-lifecycle-cleared-status-but-missing-cleared-tim",
+   "declared_short": "reconcile-check-10015-lifecycle-cleared-status-but-missing-cleared-tim",
    "domain": null,
+   "folder": "task_reconcile_check_10015_lifecycle_cleared_status_but_missing_cleared_tim",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c44b747fa9d5cd371a2ebcf7f96f2c06af08358161675e47ddb2372ef51215a4",
    "size_bytes": 6947872,
    "updated": "2026-09-18T20:43:06.405Z"
