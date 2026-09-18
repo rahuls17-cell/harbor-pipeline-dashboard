@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T00:00:03+00:00",
+ "generated_at": "2026-09-18T00:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 601,
@@ -9,8 +9,8 @@
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 83,
-  "synthetic": 39,
+  "unknown": 82,
+  "synthetic": 40,
   "real": 53
  },
  "domain": {
@@ -27,7 +27,7 @@
  },
  "connector_services": {
   "google-drive-gym": 112,
-  "slack-gym": 111,
+  "slack-gym": 110,
   "zeta3-sql-gym": 96,
   "confluence-gym": 95,
   "email-gym": 95,
@@ -39,12 +39,12 @@
   "outlook-gym": 7,
   "gws-gym": 6,
   "linear-gym": 3,
-  "slack": 1,
+  "slack": 2,
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 134396
  },
  "errors": [],
  "tasks": [
@@ -7547,26 +7547,26 @@
    "updated": "2026-09-16T22:39:53.146Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/household-companion-archival-sweep-roster-eligibility-as-of-2025-03-01t00-00-00",
+   "declared_short": "household-companion-archival-sweep-roster-eligibility-as-of-2025-03-01t00-00-00",
+   "folder": "household-admin-request-to-archive-companion-member-without-own-accoun",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
     "freshdesk-gym",
     "google-drive-gym",
     "jira-gym",
-    "slack-gym",
+    "slack",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/household-admin-request-to-archive-companion-member-without-own-accoun",
-   "declared_short": "household-admin-request-to-archive-companion-member-without-own-accoun",
+   "connector_provenance": "synthetic",
    "domain": null,
-   "folder": "household-admin-request-to-archive-companion-member-without-own-accoun",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "4c3d7224515fc9642ece87c37be6b73fc06ac2ae17b4e4a272e6e786253632fa",
-   "size_bytes": 11513725,
-   "updated": "2026-09-09T19:21:03.994Z"
+   "sha256": "ad8ab5ab3ec6e0191e969ca74717d6b529caef2ef63dcfd26099c34556b44539",
+   "size_bytes": 9618566,
+   "updated": "2026-09-18T00:03:42.402Z"
   },
   {
    "connector_provenance": "real",
