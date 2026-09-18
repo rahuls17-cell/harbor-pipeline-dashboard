@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T22:50:03+00:00",
+ "generated_at": "2026-09-18T22:55:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 677,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 400418
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3202,11 +3202,7 @@
    "updated": "2026-09-18T08:12:37.053Z"
   },
   {
-   "declared_name": "harbor/diagnose-account-locked-complaint-for-member-reporting-blocked-atm-wit",
-   "declared_short": "diagnose-account-locked-complaint-for-member-reporting-blocked-atm-wit",
-   "folder": "diagnose-account-locked-complaint-for-member-reporting-blocked-atm-wit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -3216,9 +3212,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/diagnose-account-locked-complaint-for-member-reporting-blocked-atm-wit",
+   "declared_short": "diagnose-account-locked-complaint-for-member-reporting-blocked-atm-wit",
    "domain": null,
+   "folder": "diagnose-account-locked-complaint-for-member-reporting-blocked-atm-wit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "064c545c449a9d0fbf482ac4d27386d996c05f5caf236a478c0a1a0f149c4b39",
    "size_bytes": 9153546,
    "updated": "2026-09-18T22:47:04.871Z"
@@ -3422,11 +3422,7 @@
    "updated": "2026-09-09T20:35:56.961Z"
   },
   {
-   "declared_name": "harbor/diagnose-repeated-17-45-mastercard-swipe-declines-on-card-10656-may-11",
-   "declared_short": "diagnose-repeated-17-45-mastercard-swipe-declines-on-card-10656-may-11",
-   "folder": "diagnose-repeated-17-45-mastercard-swipe-declines-on-card-10656-may-11",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -3436,9 +3432,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/diagnose-repeated-17-45-mastercard-swipe-declines-on-card-10656-may-11",
+   "declared_short": "diagnose-repeated-17-45-mastercard-swipe-declines-on-card-10656-may-11",
    "domain": null,
+   "folder": "diagnose-repeated-17-45-mastercard-swipe-declines-on-card-10656-may-11",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "33b9e980a16cafe6bf017399fe45eea64e4c7a8d6b710ab6e6bfa53d46d0ec37",
    "size_bytes": 19783679,
    "updated": "2026-09-18T22:49:56.722Z"
@@ -9730,11 +9730,7 @@
    "updated": "2026-09-05T20:14:23.783Z"
   },
   {
-   "declared_name": "harbor/returned-ach-negative-balance-lock-action-and-scope-for-account-1284",
-   "declared_short": "returned-ach-negative-balance-lock-action-and-scope-for-account-1284",
-   "folder": "task-100587-ach-returns-drove-account-2301-negat-03e1d4-v1",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -9744,9 +9740,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/returned-ach-negative-balance-lock-action-and-scope-for-account-1284",
+   "declared_short": "returned-ach-negative-balance-lock-action-and-scope-for-account-1284",
    "domain": null,
+   "folder": "task-100587-ach-returns-drove-account-2301-negat-03e1d4-v1",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "67e8be2fc18423c0e44192e7886774ca7c689988c3fe73bdd7b1a0f56348537d",
    "size_bytes": 12720862,
    "updated": "2026-09-18T22:46:02.113Z"
