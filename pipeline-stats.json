@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-18T23:50:03+00:00",
+ "generated_at": "2026-09-18T23:55:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 688,
-  "scanned": 688,
-  "connector": 212,
+  "task_folders": 689,
+  "scanned": 689,
+  "connector": 213,
   "non_connector": 476,
   "errors": 0
  },
  "connector_provenance": {
+  "real": 75,
   "unknown": 86,
-  "synthetic": 52,
-  "real": 74
+  "synthetic": 52
  },
  "domain": {
-  "unnamed": 233,
+  "unnamed": 234,
   "code": 139,
   "fin": 43,
   "gen": 187,
@@ -22,18 +22,18 @@
   "law": 41
  },
  "name_prefix": {
-  "harbor": 216,
+  "harbor": 217,
   "obi": 472
  },
  "connector_services": {
-  "google-drive-gym": 134,
-  "zeta3-sql-gym": 118,
-  "confluence-gym": 117,
-  "email-gym": 117,
-  "freshdesk-gym": 117,
-  "jira-gym": 117,
+  "google-drive-gym": 135,
+  "zeta3-sql-gym": 119,
+  "confluence-gym": 118,
+  "email-gym": 118,
+  "freshdesk-gym": 118,
+  "jira-gym": 118,
   "slack-gym": 113,
-  "slack": 25,
+  "slack": 26,
   "notion-gym": 17,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
@@ -44,11 +44,33 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133247
  },
  "errors": [],
  "tasks": [
+  {
+   "declared_name": "harbor/atm-803-pulse-withdrawal-declined-on-card-18041-cardholder-escalation",
+   "declared_short": "atm-803-pulse-withdrawal-declined-on-card-18041-cardholder-escalation",
+   "folder": "100019_atm-803-pulse-withdrawal-declined-on-card-18041-cardholder-escalation",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "cf691e63012d98126cdc1570b9542d3ff4703d1b8281ee97e8cb56c73fb06256",
+   "size_bytes": 12767270,
+   "updated": "2026-09-18T23:52:53.865Z"
+  },
   {
    "connector_provenance": "unknown",
    "connector_services": [
