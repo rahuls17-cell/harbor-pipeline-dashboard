@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T07:30:02+00:00",
+ "generated_at": "2026-09-18T08:00:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 611,
-  "scanned": 611,
+  "task_folders": 612,
+  "scanned": 612,
   "connector": 178,
-  "non_connector": 433,
+  "non_connector": 434,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 194,
   "code": 131,
-  "fin": 38,
+  "fin": 39,
   "gen": 174,
   "health": 39,
   "law": 35
  },
  "name_prefix": {
   "harbor": 182,
-  "obi": 429
+  "obi": 430
  },
  "connector_services": {
   "google-drive-gym": 113,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131735
  },
  "errors": [],
  "tasks": [
@@ -3779,6 +3779,20 @@
    "sha256": "f6b2a0f6e358320685bce15e632d69cba82d62d9adcb421c138291e0d63e4051",
    "size_bytes": 6557501,
    "updated": "2026-09-05T22:18:19.816Z"
+  },
+  {
+   "declared_name": "obi/fin-f61-mortgage-ops-kpi-benchmark-audit",
+   "declared_short": "fin-f61-mortgage-ops-kpi-benchmark-audit",
+   "folder": "fin-f61-mortgage-ops-kpi-benchmark-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "5da3b20dcb1f334c077c60f3e2936dc3bb5908a9ef3d012133a3ff8c07be0590",
+   "size_bytes": 13978425,
+   "updated": "2026-09-18T07:57:08.811Z"
   },
   {
    "connector_provenance": null,
