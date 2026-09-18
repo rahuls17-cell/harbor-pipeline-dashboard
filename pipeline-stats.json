@@ -1,50 +1,50 @@
 {
- "generated_at": "2026-09-18T08:40:03+00:00",
+ "generated_at": "2026-09-18T08:45:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 614,
-  "scanned": 614,
-  "connector": 179,
-  "non_connector": 435,
+  "task_folders": 617,
+  "scanned": 617,
+  "connector": 181,
+  "non_connector": 436,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 84,
-  "synthetic": 42,
-  "real": 53
+  "synthetic": 43,
+  "real": 54
  },
  "domain": {
-  "unnamed": 195,
+  "unnamed": 197,
   "code": 131,
   "fin": 39,
-  "gen": 175,
+  "gen": 176,
   "health": 39,
   "law": 35
  },
  "name_prefix": {
-  "harbor": 183,
-  "obi": 431
+  "harbor": 185,
+  "obi": 432
  },
  "connector_services": {
-  "google-drive-gym": 114,
-  "slack-gym": 112,
-  "zeta3-sql-gym": 98,
-  "confluence-gym": 97,
-  "email-gym": 97,
-  "freshdesk-gym": 97,
-  "jira-gym": 97,
+  "google-drive-gym": 115,
+  "slack-gym": 113,
+  "zeta3-sql-gym": 99,
+  "confluence-gym": 98,
+  "email-gym": 98,
+  "freshdesk-gym": 98,
+  "jira-gym": 98,
   "notion-gym": 11,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
   "github-gym": 8,
   "gws-gym": 6,
   "linear-gym": 3,
-  "slack": 2,
+  "slack": 3,
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131836
+  "new_archives_read": 3,
+  "approx_bytes_read": 409960
  },
  "errors": [],
  "tasks": [
@@ -461,6 +461,28 @@
    "sha256": "604bb8a99459c112eb404f52df4350b94e28d2fcafbcc126dcd66e5eb65918c2",
    "size_bytes": 10648345,
    "updated": "2026-09-13T09:10:46.682Z"
+  },
+  {
+   "declared_name": "harbor/bill-pay-lifecycle-reconcile-paid-bills-to-ledger-transactions-sql-confluence-slack-jira",
+   "declared_short": "bill-pay-lifecycle-reconcile-paid-bills-to-ledger-transactions-sql-confluence-slack-jira",
+   "folder": "batch3__bill-pay-lifecycle-reconcile-paid-bills-to-ledger-transactions-sql-confluence-slack-jira-v3",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "9cbed07b21e9602bf18b7eba5c80e7ef08870b833c173bdf56546841025886ea",
+   "size_bytes": 10259461,
+   "updated": "2026-09-18T08:43:34.602Z"
   },
   {
    "connector_provenance": "unknown",
@@ -3957,6 +3979,20 @@
    "updated": "2026-09-13T13:46:05.516Z"
   },
   {
+   "declared_name": "obi/gen-g1122-doctoral-course-grading-audit",
+   "declared_short": "gen-g1122-doctoral-course-grading-audit",
+   "folder": "gen-g1122-doctoral-course-grading-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "cf6c6d7f6a6d48781017b46e3e96593274e9b0fb0b26387150ca3cd3b50c1e17",
+   "size_bytes": 6950209,
+   "updated": "2026-09-18T08:44:12.598Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g1134-week2-slide-outline-format-audit",
@@ -4307,15 +4343,15 @@
    "updated": "2026-09-16T21:09:32.462Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1283-hotel-benefit-eligibility-audit",
    "declared_short": "gen-g1283-hotel-benefit-eligibility-audit",
-   "folder": "gen-g1283-hotel-benefit-eligibility-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1283-hotel-benefit-eligibility-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a3543b705f89d2337f32765068daa23e67d263bc8ff8588e390b115c7de5ae6d",
    "size_bytes": 15495321,
    "updated": "2026-09-18T08:38:25.095Z"
@@ -9105,6 +9141,22 @@
    "sha256": "f97507370707e58f13737409c1e6c3e5c5dd39fd7c97ccae1041ebc31986ea51",
    "size_bytes": 7718115,
    "updated": "2026-09-17T16:55:29.261Z"
+  },
+  {
+   "declared_name": "harbor/the-handle-at-the-front-of-the-message",
+   "declared_short": "the-handle-at-the-front-of-the-message",
+   "folder": "the-handle-at-the-front-of-the-message",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "6f9eb886192a808503639fbd4bf7628a45ccf510e4ef09470bf1c6096d1a3f44",
+   "size_bytes": 6716786,
+   "updated": "2026-09-18T08:43:14.115Z"
   },
   {
    "connector_provenance": "synthetic",
