@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T13:20:03+00:00",
+ "generated_at": "2026-09-18T13:25:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 630,
-  "scanned": 630,
+  "task_folders": 631,
+  "scanned": 631,
   "connector": 184,
-  "non_connector": 446,
+  "non_connector": 447,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 201,
   "code": 131,
   "fin": 40,
-  "gen": 180,
+  "gen": 181,
   "health": 41,
   "law": 37
  },
  "name_prefix": {
   "harbor": 188,
-  "obi": 442
+  "obi": 443
  },
  "connector_services": {
   "google-drive-gym": 116,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131582
  },
  "errors": [],
  "tasks": [
@@ -5814,6 +5814,20 @@
    "sha256": "5039f19391e6744a236fd5ec98cd3293e251d4b2f2093b5f5dfc6991184e102a",
    "size_bytes": 5552997,
    "updated": "2026-09-13T14:55:20.791Z"
+  },
+  {
+   "declared_name": "obi/gen-g825-standup-log-verbatim-compliance-audit",
+   "declared_short": "gen-g825-standup-log-verbatim-compliance-audit",
+   "folder": "gen-g825-standup-log-verbatim-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "978dc87f4c3507e1bcd24cc1cbebf4dc11e317f5474aef5ff7686dfc7c174537",
+   "size_bytes": 5554010,
+   "updated": "2026-09-18T13:22:57.782Z"
   },
   {
    "connector_provenance": null,
