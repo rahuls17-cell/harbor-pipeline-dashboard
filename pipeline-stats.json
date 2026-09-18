@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-18T21:00:04+00:00",
+ "generated_at": "2026-09-18T21:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 662,
-  "scanned": 662,
-  "connector": 194,
-  "non_connector": 468,
+  "task_folders": 664,
+  "scanned": 664,
+  "connector": 195,
+  "non_connector": 469,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 89,
-  "synthetic": 47,
-  "real": 58
+  "unknown": 88,
+  "synthetic": 48,
+  "real": 59
  },
  "domain": {
-  "unnamed": 214,
+  "unnamed": 215,
   "code": 137,
   "fin": 43,
   "gen": 185,
-  "health": 44,
+  "health": 45,
   "law": 39
  },
  "name_prefix": {
-  "harbor": 198,
-  "obi": 464
+  "harbor": 199,
+  "obi": 465
  },
  "connector_services": {
   "google-drive-gym": 120,
@@ -37,15 +37,15 @@
   "email-calendar-gym": 10,
   "outlook-gym": 8,
   "github-gym": 8,
-  "slack": 6,
+  "slack": 7,
   "gws-gym": 6,
   "linear-gym": 4,
   "supabase-gym": 1,
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131405
+  "new_archives_read": 3,
+  "approx_bytes_read": 404686
  },
  "errors": [],
  "tasks": [
@@ -1686,15 +1686,15 @@
    "updated": "2026-09-05T20:55:58.599Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c42-experiment-bucketing",
    "declared_short": "code-c42-experiment-bucketing",
-   "folder": "code-c42-experiment-bucketing",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c42-experiment-bucketing",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7ad04790e8306ce0a251adc2d67e9b9b9c30eadaa9563ca6aa0179bf6d3de484",
    "size_bytes": 6557030,
    "updated": "2026-09-18T20:55:47.138Z"
@@ -2814,26 +2814,26 @@
    "updated": "2026-09-15T00:34:44.066Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/customer-request-to-lift-card-limit-for-11-000-cashier-s-check-purchas",
+   "declared_short": "customer-request-to-lift-card-limit-for-11-000-cashier-s-check-purchas",
+   "folder": "customer-request-to-lift-card-limit-for-11-000-cashier-s-check-purchas",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
     "freshdesk-gym",
     "google-drive-gym",
     "jira-gym",
-    "slack-gym",
+    "slack",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/customer-request-to-lift-card-limit-for-11-000-cashier-s-check-purchas",
-   "declared_short": "customer-request-to-lift-card-limit-for-11-000-cashier-s-check-purchas",
+   "connector_provenance": "real",
    "domain": null,
-   "folder": "customer-request-to-lift-card-limit-for-11-000-cashier-s-check-purchas",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "1427a968dcb5ee6dc2a19eacea936f894d5042be0b04876004e2920dd308cf0f",
-   "size_bytes": 8967089,
-   "updated": "2026-09-16T15:29:06.249Z"
+   "sha256": "2a8ee5efd9bdaa4921da326956b2cb71a353aa0d0955038aaa138b4973613214",
+   "size_bytes": 11427017,
+   "updated": "2026-09-18T21:04:35.007Z"
   },
   {
    "connector_provenance": "unknown",
@@ -8226,6 +8226,20 @@
    "updated": "2026-09-16T22:39:53.146Z"
   },
   {
+   "declared_name": "obi/health-tdt7-a6-hydration-order-card-guideline-check",
+   "declared_short": "health-tdt7-a6-hydration-order-card-guideline-check",
+   "folder": "health-tdt7-a6-hydration-order-card-guideline-check",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "9b4eabb99527325b64d9a9bdcb1eaf9e9ec6450947bfe812a257c2c954bb46be",
+   "size_bytes": 5125930,
+   "updated": "2026-09-18T21:02:36.649Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "confluence-gym",
@@ -9860,6 +9874,22 @@
    "sha256": "11320bd705d09b72799fc29fbb1dd96db6c70f2eae78fd6dfa3a93d2729afd2d",
    "size_bytes": 6288225,
    "updated": "2026-09-18T11:20:28.490Z"
+  },
+  {
+   "declared_name": "harbor/the-other-door-is-still-ours",
+   "declared_short": "the-other-door-is-still-ours",
+   "folder": "the-other-door-is-still-ours",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "7ba64fbb4b54ded4422443147488a43dcecca5c3acdf9800afab2a94774ceeea",
+   "size_bytes": 12039759,
+   "updated": "2026-09-18T21:00:32.266Z"
   },
   {
    "connector_provenance": "synthetic",
