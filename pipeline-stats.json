@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T20:50:02+00:00",
+ "generated_at": "2026-09-18T20:55:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 661,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135743
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -9168,17 +9168,17 @@
    "updated": "2026-09-17T18:53:54.392Z"
   },
   {
-   "declared_name": "harbor/rebuild-the-design-cycle-report",
-   "declared_short": "rebuild-the-design-cycle-report",
-   "folder": "rebuild-the-design-cycle-report_v2",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/rebuild-the-design-cycle-report",
+   "declared_short": "rebuild-the-design-cycle-report",
    "domain": null,
+   "folder": "rebuild-the-design-cycle-report_v2",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4ff4a0738e8d28facadd33de480b98b9ef772be4eb0e2110a3ce40cef72950c5",
    "size_bytes": 8007382,
    "updated": "2026-09-18T20:46:46.120Z"
