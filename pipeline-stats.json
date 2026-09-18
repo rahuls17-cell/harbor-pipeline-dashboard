@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T15:35:03+00:00",
+ "generated_at": "2026-09-18T15:40:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 640,
-  "scanned": 640,
+  "task_folders": 641,
+  "scanned": 641,
   "connector": 185,
-  "non_connector": 455,
+  "non_connector": 456,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "real": 54
  },
  "domain": {
-  "unnamed": 203,
+  "unnamed": 204,
   "code": 133,
   "fin": 41,
   "gen": 182,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 189,
-  "obi": 451
+  "obi": 452
  },
  "connector_services": {
   "google-drive-gym": 117,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262930
+  "new_archives_read": 1,
+  "approx_bytes_read": 131759
  },
  "errors": [],
  "tasks": [
@@ -3276,6 +3276,20 @@
    "updated": "2026-09-12T13:57:25.757Z"
   },
   {
+   "declared_name": "obi/edu-s1-b5-tryout-reliability-recompute",
+   "declared_short": "edu-s1-b5-tryout-reliability-recompute",
+   "folder": "edu-s1-b5-tryout-reliability-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "105da70ac7ceeb5f0adcc2fde0ae1942e04b6647bf9b00dd79d54cd97b475bfc",
+   "size_bytes": 7639861,
+   "updated": "2026-09-18T15:39:06.469Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-s1-d2-competency-workbook-coverage",
@@ -5544,15 +5558,15 @@
    "updated": "2026-09-10T00:41:22.924Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g682-lpa-fee-term-compliance-audit-hard-v25",
    "declared_short": "gen-g682-lpa-fee-term-compliance-audit-hard-v25",
-   "folder": "gen-g682-lpa-fee-term-compliance-audit-hard-v25-QC-TESTING",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g682-lpa-fee-term-compliance-audit-hard-v25-QC-TESTING",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d802936065708e310c732ef00153e2180733697ecb830964e503cc57f763a294",
    "size_bytes": 6237534,
    "updated": "2026-09-18T15:33:00.653Z"
@@ -8194,15 +8208,15 @@
    "updated": "2026-09-13T13:12:30.899Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b36-l4-finished-area-recomputation",
    "declared_short": "law-b36-l4-finished-area-recomputation",
-   "folder": "law-b36-l4-finished-area-recomputation-hardened",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b36-l4-finished-area-recomputation-hardened",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "307e983f3b96ab2c1cf323daa45e21d5736691cc7bfb3fb4ad9c70283a89eaca",
    "size_bytes": 6469136,
    "updated": "2026-09-18T15:30:54.594Z"
