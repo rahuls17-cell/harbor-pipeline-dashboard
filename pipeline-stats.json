@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T01:10:03+00:00",
+ "generated_at": "2026-09-18T01:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 603,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131479
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -601,15 +601,15 @@
    "updated": "2026-09-13T08:14:15.347Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b30-t1-support-ticket-auto-close-audit",
    "declared_short": "bus-b30-t1-support-ticket-auto-close-audit",
-   "folder": "bus-b30-t1-support-ticket-auto-close-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b30-t1-support-ticket-auto-close-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b34da1bd0034ce5728e2d94dbc0ad527187586a0dbe3494cb05d9d8e479f190b",
    "size_bytes": 7931862,
    "updated": "2026-09-18T01:05:05.584Z"
