@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T08:00:02+00:00",
+ "generated_at": "2026-09-18T08:05:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 612,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131735
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3781,15 +3781,15 @@
    "updated": "2026-09-05T22:18:19.816Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-f61-mortgage-ops-kpi-benchmark-audit",
    "declared_short": "fin-f61-mortgage-ops-kpi-benchmark-audit",
-   "folder": "fin-f61-mortgage-ops-kpi-benchmark-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-f61-mortgage-ops-kpi-benchmark-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5da3b20dcb1f334c077c60f3e2936dc3bb5908a9ef3d012133a3ff8c07be0590",
    "size_bytes": 13978425,
    "updated": "2026-09-18T07:57:08.811Z"
