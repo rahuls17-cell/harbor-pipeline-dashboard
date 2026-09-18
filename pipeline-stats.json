@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-18T21:20:02+00:00",
+ "generated_at": "2026-09-18T21:25:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 664,
-  "scanned": 664,
-  "connector": 195,
+  "task_folders": 665,
+  "scanned": 665,
+  "connector": 196,
   "non_connector": 469,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 87,
   "synthetic": 48,
-  "real": 60
+  "real": 61
  },
  "domain": {
-  "unnamed": 215,
+  "unnamed": 216,
   "code": 137,
   "fin": 43,
   "gen": 185,
@@ -22,21 +22,21 @@
   "law": 39
  },
  "name_prefix": {
-  "harbor": 199,
+  "harbor": 200,
   "obi": 465
  },
  "connector_services": {
-  "google-drive-gym": 120,
+  "google-drive-gym": 121,
   "slack-gym": 114,
-  "zeta3-sql-gym": 104,
-  "confluence-gym": 103,
-  "email-gym": 103,
-  "freshdesk-gym": 103,
-  "jira-gym": 103,
+  "zeta3-sql-gym": 105,
+  "confluence-gym": 104,
+  "email-gym": 104,
+  "freshdesk-gym": 104,
+  "jira-gym": 104,
   "notion-gym": 17,
   "email-calendar-gym": 10,
+  "slack": 9,
   "outlook-gym": 8,
-  "slack": 8,
   "github-gym": 8,
   "gws-gym": 6,
   "linear-gym": 4,
@@ -45,7 +45,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133242
+  "approx_bytes_read": 133855
  },
  "errors": [],
  "tasks": [
@@ -506,6 +506,28 @@
    "sha256": "9cbed07b21e9602bf18b7eba5c80e7ef08870b833c173bdf56546841025886ea",
    "size_bytes": 10259461,
    "updated": "2026-09-18T08:43:34.602Z"
+  },
+  {
+   "declared_name": "harbor/hard-09-invoice-grace-breach-cascade-boundary-gpt-defeater",
+   "declared_short": "hard-09-invoice-grace-breach-cascade-boundary-gpt-defeater",
+   "folder": "batch3__hard-09-invoice-grace-breach-cascade-boundary-gpt-defeater-v2",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "8138cf12f2e382b973981869d1e501dabc568fdbd82783f374d32aae03b93d9e",
+   "size_bytes": 11492540,
+   "updated": "2026-09-18T21:22:10.104Z"
   },
   {
    "connector_provenance": "unknown",
@@ -9624,11 +9646,7 @@
    "updated": "2026-09-18T20:43:06.405Z"
   },
   {
-   "declared_name": "harbor/recurring-32-16-card-on-file-declines-on-terminated-card-6729-root-cau",
-   "declared_short": "recurring-32-16-card-on-file-declines-on-terminated-card-6729-root-cau",
-   "folder": "task_recurring_32_16_card_on_file_declines_on_terminated_card_6729_root_cau",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -9638,9 +9656,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/recurring-32-16-card-on-file-declines-on-terminated-card-6729-root-cau",
+   "declared_short": "recurring-32-16-card-on-file-declines-on-terminated-card-6729-root-cau",
    "domain": null,
+   "folder": "task_recurring_32_16_card_on_file_declines_on_terminated_card_6729_root_cau",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "96f14f29e0b8c2488f19c4a63a46ee6d8ba3cf45a02d03934a1f105bffb28728",
    "size_bytes": 6612292,
    "updated": "2026-09-18T21:18:22.836Z"
