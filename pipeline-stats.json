@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-18T22:40:03+00:00",
+ "generated_at": "2026-09-18T22:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 674,
-  "scanned": 674,
-  "connector": 202,
+  "task_folders": 675,
+  "scanned": 675,
+  "connector": 203,
   "non_connector": 472,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 87,
   "synthetic": 51,
-  "real": 64
+  "real": 65
  },
  "domain": {
-  "unnamed": 222,
+  "unnamed": 223,
   "code": 138,
   "fin": 43,
   "gen": 186,
@@ -22,19 +22,19 @@
   "law": 40
  },
  "name_prefix": {
-  "harbor": 206,
+  "harbor": 207,
   "obi": 468
  },
  "connector_services": {
-  "google-drive-gym": 126,
+  "google-drive-gym": 127,
   "slack-gym": 115,
-  "zeta3-sql-gym": 110,
-  "confluence-gym": 109,
-  "email-gym": 109,
-  "freshdesk-gym": 109,
-  "jira-gym": 109,
+  "zeta3-sql-gym": 111,
+  "confluence-gym": 110,
+  "email-gym": 110,
+  "freshdesk-gym": 110,
+  "jira-gym": 110,
   "notion-gym": 17,
-  "slack": 14,
+  "slack": 15,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
   "github-gym": 8,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134286
+  "new_archives_read": 2,
+  "approx_bytes_read": 266985
  },
  "errors": [],
  "tasks": [
@@ -723,9 +723,9 @@
    "connector_provenance": "real",
    "domain": null,
    "image": null,
-   "sha256": "db581c82d004b26378e97143c0d79d216f775bcaa5aae327b02449a2d2fa2a9c",
-   "size_bytes": 16520252,
-   "updated": "2026-09-18T22:35:48.803Z"
+   "sha256": "2151f68f32559d2b8e7d1f4a821685647bac1755a80444e24aed01b562f499f2",
+   "size_bytes": 19265583,
+   "updated": "2026-09-18T22:40:06.680Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -2942,6 +2942,28 @@
    "sha256": "26496d31688a7dd5389d69b2848135c63a507d591b1232cb8dc72ac5cf943ca2",
    "size_bytes": 6528277,
    "updated": "2026-09-10T17:51:46.108Z"
+  },
+  {
+   "declared_name": "harbor/customer-asks-how-to-deposit-a-12-000-check-after-hitting-mobile-depos",
+   "declared_short": "customer-asks-how-to-deposit-a-12-000-check-after-hitting-mobile-depos",
+   "folder": "customer-asks-how-to-deposit-a-12-000-check-after-hitting-mo-164189-v5",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "419c70ded2ad9a84e6c248e0d7c846f4e0da755612e341aa8df069f9a69c4621",
+   "size_bytes": 15052025,
+   "updated": "2026-09-18T22:44:47.511Z"
   },
   {
    "connector_provenance": "real",
