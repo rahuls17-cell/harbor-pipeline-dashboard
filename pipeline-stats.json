@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T23:30:03+00:00",
+ "generated_at": "2026-09-18T23:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 684,
-  "scanned": 684,
+  "task_folders": 685,
+  "scanned": 685,
   "connector": 210,
-  "non_connector": 474,
+  "non_connector": 475,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 231,
   "code": 138,
   "fin": 43,
-  "gen": 186,
+  "gen": 187,
   "health": 45,
   "law": 41
  },
  "name_prefix": {
   "harbor": 214,
-  "obi": 470
+  "obi": 471
  },
  "connector_services": {
   "google-drive-gym": 134,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 268269
+  "new_archives_read": 1,
+  "approx_bytes_read": 131565
  },
  "errors": [],
  "tasks": [
@@ -376,11 +376,7 @@
    "updated": "2026-09-10T14:37:38.747Z"
   },
   {
-   "declared_name": "harbor/dd-tier-rollover-feature-disablement-conformance-audit-2023-09-01",
-   "declared_short": "dd-tier-rollover-feature-disablement-conformance-audit-2023-09-01",
-   "folder": "audit-monthly-rollover-feature-disablement-for-l-43dc32-v1",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -390,9 +386,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/dd-tier-rollover-feature-disablement-conformance-audit-2023-09-01",
+   "declared_short": "dd-tier-rollover-feature-disablement-conformance-audit-2023-09-01",
    "domain": null,
+   "folder": "audit-monthly-rollover-feature-disablement-for-l-43dc32-v1",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ac1f07733d5f50d43386f2877b7c7b7ebf8cc10a961efdec458ed033dfe53045",
    "size_bytes": 15235707,
    "updated": "2026-09-18T23:26:47.986Z"
@@ -618,11 +618,7 @@
    "updated": "2026-09-18T22:33:34.622Z"
   },
   {
-   "declared_name": "harbor/hard-jira-sql-slack-mastercard-qualifying-signature-volume-in-cy2024-bo-8-submission",
-   "declared_short": "hard-jira-sql-slack-mastercard-qualifying-signature-volume-in-cy2024-bo-8-submission",
-   "folder": "batch2__hard-jira-sql-slack-mastercard-qualifying-signature-volume-in-cy2024-bo-8-submission-v2",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -632,9 +628,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/hard-jira-sql-slack-mastercard-qualifying-signature-volume-in-cy2024-bo-8-submission",
+   "declared_short": "hard-jira-sql-slack-mastercard-qualifying-signature-volume-in-cy2024-bo-8-submission",
    "domain": null,
+   "folder": "batch2__hard-jira-sql-slack-mastercard-qualifying-signature-volume-in-cy2024-bo-8-submission-v2",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5523f35d9642b7a87445129842202f6f85656eec074d4414df874209ea9a39f0",
    "size_bytes": 10479090,
    "updated": "2026-09-18T23:29:41.667Z"
@@ -5834,6 +5834,20 @@
    "sha256": "8825d6591c129461fa0c67586d0ce0c47267dde914a58d35b895620bd6c26ce9",
    "size_bytes": 3311485,
    "updated": "2026-09-05T18:49:48.769Z"
+  },
+  {
+   "declared_name": "obi/gen-g557-ceiling-fan-substitution-compliance-audit",
+   "declared_short": "gen-g557-ceiling-fan-substitution-compliance-audit",
+   "folder": "gen-g557-ceiling-fan-substitution-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "4adcce3d316db1a7d5b2f8717002a00c838f7bd612371668d11246db1c1daf09",
+   "size_bytes": 9128679,
+   "updated": "2026-09-18T23:33:03.681Z"
   },
   {
    "connector_provenance": null,
