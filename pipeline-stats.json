@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T11:25:03+00:00",
+ "generated_at": "2026-09-18T11:30:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 626,
-  "scanned": 626,
+  "task_folders": 627,
+  "scanned": 627,
   "connector": 183,
-  "non_connector": 443,
+  "non_connector": 444,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 200,
   "code": 131,
-  "fin": 39,
+  "fin": 40,
   "gen": 178,
   "health": 41,
   "law": 37
  },
  "name_prefix": {
   "harbor": 187,
-  "obi": 439
+  "obi": 440
  },
  "connector_services": {
   "google-drive-gym": 115,
@@ -45,7 +45,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 138886
+  "approx_bytes_read": 131622
  },
  "errors": [],
  "tasks": [
@@ -3476,6 +3476,20 @@
    "sha256": "38a9b03e4c34bd4211f8406d93ad2e496e667e8c179e346ab47ee047cf85d128",
    "size_bytes": 9082705,
    "updated": "2026-09-13T02:14:33.974Z"
+  },
+  {
+   "declared_name": "obi/fin-b41-f10-sole-trader-balance-sheet-build",
+   "declared_short": "fin-b41-f10-sole-trader-balance-sheet-build",
+   "folder": "fin-b41-f10-sole-trader-balance-sheet-build",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "6d4e72013c7d75c7bfc7889e3fe1ae826c528e6b909f420a9e42da155625a684",
+   "size_bytes": 9570887,
+   "updated": "2026-09-18T11:26:53.594Z"
   },
   {
    "connector_provenance": null,
@@ -9306,17 +9320,17 @@
    "updated": "2026-09-17T03:49:41.950Z"
   },
   {
-   "declared_name": "harbor/the-open-door-nobody-watches",
-   "declared_short": "the-open-door-nobody-watches",
-   "folder": "the-open-door-nobody-watches",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "supabase-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-open-door-nobody-watches",
+   "declared_short": "the-open-door-nobody-watches",
    "domain": null,
+   "folder": "the-open-door-nobody-watches",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "11320bd705d09b72799fc29fbb1dd96db6c70f2eae78fd6dfa3a93d2729afd2d",
    "size_bytes": 6288225,
    "updated": "2026-09-18T11:20:28.490Z"
