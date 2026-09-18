@@ -1,40 +1,40 @@
 {
- "generated_at": "2026-09-18T22:30:02+00:00",
+ "generated_at": "2026-09-18T22:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 672,
-  "scanned": 672,
-  "connector": 201,
-  "non_connector": 471,
+  "task_folders": 674,
+  "scanned": 674,
+  "connector": 202,
+  "non_connector": 472,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 88,
   "synthetic": 51,
-  "real": 62
+  "real": 63
  },
  "domain": {
-  "unnamed": 221,
-  "code": 137,
+  "unnamed": 222,
+  "code": 138,
   "fin": 43,
   "gen": 186,
   "health": 45,
   "law": 40
  },
  "name_prefix": {
-  "harbor": 205,
-  "obi": 467
+  "harbor": 206,
+  "obi": 468
  },
  "connector_services": {
-  "google-drive-gym": 125,
+  "google-drive-gym": 126,
   "slack-gym": 116,
-  "zeta3-sql-gym": 109,
-  "confluence-gym": 108,
-  "email-gym": 108,
-  "freshdesk-gym": 108,
-  "jira-gym": 108,
+  "zeta3-sql-gym": 110,
+  "confluence-gym": 109,
+  "email-gym": 109,
+  "freshdesk-gym": 109,
+  "jira-gym": 109,
   "notion-gym": 17,
-  "slack": 12,
+  "slack": 13,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
   "github-gym": 8,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133575
+  "new_archives_read": 2,
+  "approx_bytes_read": 267646
  },
  "errors": [],
  "tasks": [
@@ -530,9 +530,31 @@
    "updated": "2026-09-13T09:10:46.682Z"
   },
   {
+   "connector_provenance": "real",
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
    "declared_name": "harbor/hard-fc-01-post-closure-force-capture-exposure",
    "declared_short": "hard-fc-01-post-closure-force-capture-exposure",
+   "domain": null,
    "folder": "batch2__hard-fc-01-post-closure-force-capture-exposure-v2_fixed",
+   "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
+   "sha256": "2469d71d3fffc5941c1ff64ef548135f89e8c3f08104e4cfb74eec3a9ee7cd8c",
+   "size_bytes": 9959645,
+   "updated": "2026-09-18T22:28:20.895Z"
+  },
+  {
+   "declared_name": "harbor/hard-institutional-fee-revenue-reconstruction-collected-vs-scheduled-column-trap-return-netting-5-hop-year-chain-zeta3",
+   "declared_short": "hard-institutional-fee-revenue-reconstruction-collected-vs-scheduled-column-trap-return-netting-5-hop-year-chain-zeta3",
+   "folder": "batch2__hard-institutional-fee-revenue-reconstruction-collected-vs-scheduled-column-trap-return-netting-5-hop-year-chain",
    "prefix": "harbor",
    "is_connector": true,
    "connector_services": [
@@ -547,9 +569,9 @@
    "connector_provenance": "real",
    "domain": null,
    "image": null,
-   "sha256": "2469d71d3fffc5941c1ff64ef548135f89e8c3f08104e4cfb74eec3a9ee7cd8c",
-   "size_bytes": 9959645,
-   "updated": "2026-09-18T22:28:20.895Z"
+   "sha256": "4ef7deb12afff17c51c7bebe53eaff44e58de60bbe2e84dfaecd72647daf16de",
+   "size_bytes": 10340690,
+   "updated": "2026-09-18T22:33:34.622Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -1072,6 +1094,20 @@
    "sha256": "56b2be255760c20b4e63e1e3a15c4cee197f204e3894bffcf73f4f9df937ed08",
    "size_bytes": 5137519,
    "updated": "2026-09-05T18:36:31.098Z"
+  },
+  {
+   "declared_name": "obi/code-c154-scorm-question-bank-audit",
+   "declared_short": "code-c154-scorm-question-bank-audit",
+   "folder": "code-c154-scorm-question-bank-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "780fd37c1cf9ff7f7d009e6a74446d5f8433928eff1e139d3ffaf52ec25725e0",
+   "size_bytes": 6631891,
+   "updated": "2026-09-18T22:33:03.941Z"
   },
   {
    "connector_provenance": null,
