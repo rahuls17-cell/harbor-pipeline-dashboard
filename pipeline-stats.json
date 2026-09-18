@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-18T22:55:02+00:00",
+ "generated_at": "2026-09-18T23:00:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 677,
-  "scanned": 677,
-  "connector": 205,
+  "task_folders": 678,
+  "scanned": 678,
+  "connector": 206,
   "non_connector": 472,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 86,
   "synthetic": 51,
-  "real": 68
+  "real": 69
  },
  "domain": {
-  "unnamed": 225,
+  "unnamed": 226,
   "code": 138,
   "fin": 43,
   "gen": 186,
@@ -22,18 +22,18 @@
   "law": 40
  },
  "name_prefix": {
-  "harbor": 209,
+  "harbor": 210,
   "obi": 468
  },
  "connector_services": {
-  "google-drive-gym": 129,
+  "google-drive-gym": 130,
   "slack-gym": 114,
-  "zeta3-sql-gym": 113,
-  "confluence-gym": 112,
-  "email-gym": 112,
-  "freshdesk-gym": 112,
-  "jira-gym": 112,
-  "slack": 18,
+  "zeta3-sql-gym": 114,
+  "confluence-gym": 113,
+  "email-gym": 113,
+  "freshdesk-gym": 113,
+  "jira-gym": 113,
+  "slack": 19,
   "notion-gym": 17,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 268535
  },
  "errors": [],
  "tasks": [
@@ -186,7 +186,11 @@
    "updated": "2026-09-16T06:14:17.653Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/ach-counterparty-investigation-determine-lock-scope-for-sibling-accoun-3",
+   "declared_short": "ach-counterparty-investigation-determine-lock-scope-for-sibling-accoun-3",
+   "folder": "ach-counterparty-investigation-determine-lock-scope-for-sibling-accoun-2",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -196,16 +200,12 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/ach-counterparty-investigation-determine-lock-scope-for-sibling-accoun-3",
-   "declared_short": "ach-counterparty-investigation-determine-lock-scope-for-sibling-accoun-3",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "ach-counterparty-investigation-determine-lock-scope-for-sibling-accoun-2",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "02d95d1c4bcbc31181ba32d0d9ea9b95d124fd7e1fc813e148b7bfed0fe057a0",
-   "size_bytes": 5927676,
-   "updated": "2026-09-18T05:20:07.645Z"
+   "sha256": "de7db2660c140e254de6a0e7bebfc6b169976073df7cff7e2e25bc49a354cc09",
+   "size_bytes": 6977338,
+   "updated": "2026-09-18T22:59:42.866Z"
   },
   {
    "connector_provenance": "unknown",
@@ -572,6 +572,28 @@
    "sha256": "4ef7deb12afff17c51c7bebe53eaff44e58de60bbe2e84dfaecd72647daf16de",
    "size_bytes": 10340690,
    "updated": "2026-09-18T22:33:34.622Z"
+  },
+  {
+   "declared_name": "harbor/ach-debit-hold-schedule-conformance-audit-sql-confluence-slack-jira",
+   "declared_short": "ach-debit-hold-schedule-conformance-audit-sql-confluence-slack-jira",
+   "folder": "batch3__ach-debit-hold-schedule-conformance-audit-sql-confluence-slack-jira-v2",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "51d45b5b005434e522b037628019cc220175f0e19dd35f6f0543e8494f2a6abb",
+   "size_bytes": 9805652,
+   "updated": "2026-09-18T22:58:48.842Z"
   },
   {
    "connector_provenance": "synthetic",
