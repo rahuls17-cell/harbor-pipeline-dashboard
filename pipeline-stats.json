@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T18:35:03+00:00",
+ "generated_at": "2026-09-18T18:40:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 650,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134794
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2676,11 +2676,7 @@
    "updated": "2026-09-10T05:02:00.721Z"
   },
   {
-   "declared_name": "harbor/debit-card-daily-spend-limit-member-30580-s-cards-vs-their-recorded-per-card-ceilings",
-   "declared_short": "debit-card-daily-spend-limit-member-30580-s-cards-vs-their-recorded-per-card-ceilings",
-   "folder": "confirm-daily-debit-card-spend-limit-for-member--3848d8-v2",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -2690,9 +2686,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/debit-card-daily-spend-limit-member-30580-s-cards-vs-their-recorded-per-card-ceilings",
+   "declared_short": "debit-card-daily-spend-limit-member-30580-s-cards-vs-their-recorded-per-card-ceilings",
    "domain": null,
+   "folder": "confirm-daily-debit-card-spend-limit-for-member--3848d8-v2",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8ddc0483fc3cf7c305a6621441ea42612f93cceb7e86dbbd8ba9526744f90c55",
    "size_bytes": 8621744,
    "updated": "2026-09-18T18:33:58.047Z"
