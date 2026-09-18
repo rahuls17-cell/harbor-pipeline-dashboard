@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T08:50:02+00:00",
+ "generated_at": "2026-09-18T09:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 617,
-  "scanned": 617,
+  "task_folders": 618,
+  "scanned": 618,
   "connector": 181,
-  "non_connector": 436,
+  "non_connector": 437,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "real": 54
  },
  "domain": {
-  "unnamed": 197,
+  "unnamed": 198,
   "code": 131,
   "fin": 39,
   "gen": 176,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 185,
-  "obi": 432
+  "obi": 433
  },
  "connector_services": {
   "google-drive-gym": 115,
@@ -43,8 +43,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131820
  },
  "errors": [],
  "tasks": [
@@ -9069,6 +9069,20 @@
    "sha256": "5f325d07f8396120993c1f40acda379aeacae80796703a82ccb05aa180340307",
    "size_bytes": 7981833,
    "updated": "2026-09-16T20:43:31.773Z"
+  },
+  {
+   "declared_name": "obi/tech-b45-t13-ticket-queue-ordered-by-age-and-priority",
+   "declared_short": "tech-b45-t13-ticket-queue-ordered-by-age-and-priority",
+   "folder": "tech-b45-t13-ticket-queue-ordered-by-age-and-priority",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "15b65bd40a80dddd6ee8b04205f0304d8c51e43ef228ffaeff983658e09278d2",
+   "size_bytes": 5816774,
+   "updated": "2026-09-18T09:36:33.549Z"
   },
   {
    "connector_provenance": null,
