@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-18T20:35:03+00:00",
+ "generated_at": "2026-09-18T20:40:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 658,
-  "scanned": 658,
-  "connector": 192,
+  "task_folders": 659,
+  "scanned": 659,
+  "connector": 193,
   "non_connector": 466,
   "errors": 0
  },
  "connector_provenance": {
   "unknown": 89,
   "synthetic": 47,
-  "real": 56
+  "real": 57
  },
  "domain": {
-  "unnamed": 212,
+  "unnamed": 213,
   "code": 136,
   "fin": 42,
   "gen": 185,
@@ -22,30 +22,30 @@
   "law": 39
  },
  "name_prefix": {
-  "harbor": 196,
+  "harbor": 197,
   "obi": 462
  },
  "connector_services": {
-  "google-drive-gym": 119,
+  "google-drive-gym": 120,
   "slack-gym": 116,
-  "zeta3-sql-gym": 103,
-  "confluence-gym": 102,
-  "email-gym": 102,
-  "freshdesk-gym": 102,
-  "jira-gym": 102,
+  "zeta3-sql-gym": 104,
+  "confluence-gym": 103,
+  "email-gym": 103,
+  "freshdesk-gym": 103,
+  "jira-gym": 103,
   "notion-gym": 17,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
   "github-gym": 8,
   "gws-gym": 6,
-  "slack": 4,
+  "slack": 5,
   "linear-gym": 3,
   "supabase-gym": 1,
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133397
  },
  "errors": [],
  "tasks": [
@@ -550,6 +550,28 @@
    "sha256": "c01018cbfff12462fb1bc515cce499651244d07269287f87cc274fad2fe56189",
    "size_bytes": 5777908,
    "updated": "2026-09-16T10:29:17.962Z"
+  },
+  {
+   "declared_name": "harbor/hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
+   "declared_short": "hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
+   "folder": "batch3__hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date-",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "9ecee60d2c5838950a7f550bbd4951cf6a200f057032c3eb8afc5a6eadbf80c4",
+   "size_bytes": 9593412,
+   "updated": "2026-09-18T20:39:54.236Z"
   },
   {
    "connector_provenance": "real",
