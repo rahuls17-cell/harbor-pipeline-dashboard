@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T15:40:04+00:00",
+ "generated_at": "2026-09-18T15:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 641,
-  "scanned": 641,
+  "task_folders": 642,
+  "scanned": 642,
   "connector": 185,
-  "non_connector": 456,
+  "non_connector": 457,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 133,
   "fin": 41,
   "gen": 182,
-  "health": 42,
+  "health": 43,
   "law": 39
  },
  "name_prefix": {
   "harbor": 189,
-  "obi": 452
+  "obi": 453
  },
  "connector_services": {
   "google-drive-gym": 117,
@@ -45,7 +45,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131759
+  "approx_bytes_read": 131571
  },
  "errors": [],
  "tasks": [
@@ -3276,15 +3276,15 @@
    "updated": "2026-09-12T13:57:25.757Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-s1-b5-tryout-reliability-recompute",
    "declared_short": "edu-s1-b5-tryout-reliability-recompute",
-   "folder": "edu-s1-b5-tryout-reliability-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-s1-b5-tryout-reliability-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "105da70ac7ceeb5f0adcc2fde0ae1942e04b6647bf9b00dd79d54cd97b475bfc",
    "size_bytes": 7639861,
    "updated": "2026-09-18T15:39:06.469Z"
@@ -7806,6 +7806,20 @@
    "sha256": "0af0f5620560b56887687d366feeab48bd1b78162ce7601a4ac450a4a9998407",
    "size_bytes": 10630427,
    "updated": "2026-09-06T15:48:13.868Z"
+  },
+  {
+   "declared_name": "obi/health-h78-research-grant-coi-disclosure-audit",
+   "declared_short": "health-h78-research-grant-coi-disclosure-audit",
+   "folder": "health-h78-research-grant-coi-disclosure-audit-0889ea-v1-sna-cefd",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "7c87e2f40bdcf787510a51ac146552a8a3e7c1e6a6220a871bfe0b95c92e62ff",
+   "size_bytes": 11739942,
+   "updated": "2026-09-18T15:42:46.561Z"
   },
   {
    "connector_provenance": null,
