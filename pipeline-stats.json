@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T23:05:03+00:00",
+ "generated_at": "2026-09-18T23:10:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 679,
-  "scanned": 679,
+  "task_folders": 680,
+  "scanned": 680,
   "connector": 207,
-  "non_connector": 472,
+  "non_connector": 473,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 43,
   "gen": 186,
   "health": 45,
-  "law": 40
+  "law": 41
  },
  "name_prefix": {
   "harbor": 211,
-  "obi": 468
+  "obi": 469
  },
  "connector_services": {
   "google-drive-gym": 131,
@@ -45,7 +45,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135493
+  "approx_bytes_read": 131715
  },
  "errors": [],
  "tasks": [
@@ -810,11 +810,7 @@
    "updated": "2026-09-13T04:14:39.318Z"
   },
   {
-   "declared_name": "harbor/bill-payment-status-domain-check-against-the-documented-status-set",
-   "declared_short": "bill-payment-status-domain-check-against-the-documented-status-set",
-   "folder": "bill-status-internal-pass1-97822b-v3",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -824,9 +820,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/bill-payment-status-domain-check-against-the-documented-status-set",
+   "declared_short": "bill-payment-status-domain-check-against-the-documented-status-set",
    "domain": null,
+   "folder": "bill-status-internal-pass1-97822b-v3",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d96df1b729603bf04e067c4dc11968fbc33b12c3a71602f0184a2d85f8cd002d",
    "size_bytes": 16880964,
    "updated": "2026-09-18T23:01:02.230Z"
@@ -8924,6 +8924,20 @@
    "sha256": "93c3a6ebc113d79c1d644d93b855794fe6488838dfe5c3f8e6060dd2b02ea10c",
    "size_bytes": 5162385,
    "updated": "2026-09-18T13:56:25.338Z"
+  },
+  {
+   "declared_name": "obi/law-b39-l7-counsel-confirmation-email-audit",
+   "declared_short": "law-b39-l7-counsel-confirmation-email-audit",
+   "folder": "law-b39-l7-counsel-confirmation-email-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "00e13713d16eff69b645673d8eb45565619261b30a8800e64b8a20fe87c8eff1",
+   "size_bytes": 6397003,
+   "updated": "2026-09-18T23:06:52.960Z"
   },
   {
    "connector_provenance": null,
