@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-18T22:45:03+00:00",
+ "generated_at": "2026-09-18T22:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 675,
-  "scanned": 675,
-  "connector": 203,
+  "task_folders": 677,
+  "scanned": 677,
+  "connector": 205,
   "non_connector": 472,
   "errors": 0
  },
  "connector_provenance": {
-  "unknown": 87,
+  "unknown": 86,
   "synthetic": 51,
-  "real": 65
+  "real": 68
  },
  "domain": {
-  "unnamed": 223,
+  "unnamed": 225,
   "code": 138,
   "fin": 43,
   "gen": 186,
@@ -22,19 +22,19 @@
   "law": 40
  },
  "name_prefix": {
-  "harbor": 207,
+  "harbor": 209,
   "obi": 468
  },
  "connector_services": {
-  "google-drive-gym": 127,
-  "slack-gym": 115,
-  "zeta3-sql-gym": 111,
-  "confluence-gym": 110,
-  "email-gym": 110,
-  "freshdesk-gym": 110,
-  "jira-gym": 110,
+  "google-drive-gym": 129,
+  "slack-gym": 114,
+  "zeta3-sql-gym": 113,
+  "confluence-gym": 112,
+  "email-gym": 112,
+  "freshdesk-gym": 112,
+  "jira-gym": 112,
+  "slack": 18,
   "notion-gym": 17,
-  "slack": 15,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
   "github-gym": 8,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 266985
+  "new_archives_read": 3,
+  "approx_bytes_read": 400418
  },
  "errors": [],
  "tasks": [
@@ -706,11 +706,7 @@
    "updated": "2026-09-16T20:23:19.335Z"
   },
   {
-   "declared_name": "harbor/payments-cost-and-ach-risk-review-confluence-jira-slack",
-   "declared_short": "payments-cost-and-ach-risk-review-confluence-jira-slack",
-   "folder": "batch3__payments-cost-and-ach-risk-review-confluence-jira-slack-v3",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -720,9 +716,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/payments-cost-and-ach-risk-review-confluence-jira-slack",
+   "declared_short": "payments-cost-and-ach-risk-review-confluence-jira-slack",
    "domain": null,
+   "folder": "batch3__payments-cost-and-ach-risk-review-confluence-jira-slack-v3",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2151f68f32559d2b8e7d1f4a821685647bac1755a80444e24aed01b562f499f2",
    "size_bytes": 19265583,
    "updated": "2026-09-18T22:40:06.680Z"
@@ -2944,11 +2944,7 @@
    "updated": "2026-09-10T17:51:46.108Z"
   },
   {
-   "declared_name": "harbor/customer-asks-how-to-deposit-a-12-000-check-after-hitting-mobile-depos",
-   "declared_short": "customer-asks-how-to-deposit-a-12-000-check-after-hitting-mobile-depos",
-   "folder": "customer-asks-how-to-deposit-a-12-000-check-after-hitting-mo-164189-v5",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -2958,9 +2954,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/customer-asks-how-to-deposit-a-12-000-check-after-hitting-mobile-depos",
+   "declared_short": "customer-asks-how-to-deposit-a-12-000-check-after-hitting-mobile-depos",
    "domain": null,
+   "folder": "customer-asks-how-to-deposit-a-12-000-check-after-hitting-mo-164189-v5",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "419c70ded2ad9a84e6c248e0d7c846f4e0da755612e341aa8df069f9a69c4621",
    "size_bytes": 15052025,
    "updated": "2026-09-18T22:44:47.511Z"
@@ -3202,6 +3202,28 @@
    "updated": "2026-09-18T08:12:37.053Z"
   },
   {
+   "declared_name": "harbor/diagnose-account-locked-complaint-for-member-reporting-blocked-atm-wit",
+   "declared_short": "diagnose-account-locked-complaint-for-member-reporting-blocked-atm-wit",
+   "folder": "diagnose-account-locked-complaint-for-member-reporting-blocked-atm-wit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "064c545c449a9d0fbf482ac4d27386d996c05f5caf236a478c0a1a0f149c4b39",
+   "size_bytes": 9153546,
+   "updated": "2026-09-18T22:47:04.871Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -3398,6 +3420,28 @@
    "sha256": "81cff1bb558d18295c09b5fce395a3b6e7787250430f67293aacb58f7cd99d5c",
    "size_bytes": 7370145,
    "updated": "2026-09-09T20:35:56.961Z"
+  },
+  {
+   "declared_name": "harbor/diagnose-repeated-17-45-mastercard-swipe-declines-on-card-10656-may-11",
+   "declared_short": "diagnose-repeated-17-45-mastercard-swipe-declines-on-card-10656-may-11",
+   "folder": "diagnose-repeated-17-45-mastercard-swipe-declines-on-card-10656-may-11",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "33b9e980a16cafe6bf017399fe45eea64e4c7a8d6b710ab6e6bfa53d46d0ec37",
+   "size_bytes": 19783679,
+   "updated": "2026-09-18T22:49:56.722Z"
   },
   {
    "connector_provenance": "unknown",
@@ -9686,26 +9730,26 @@
    "updated": "2026-09-05T20:14:23.783Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/returned-ach-negative-balance-lock-action-and-scope-for-account-1284",
+   "declared_short": "returned-ach-negative-balance-lock-action-and-scope-for-account-1284",
+   "folder": "task-100587-ach-returns-drove-account-2301-negat-03e1d4-v1",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
     "freshdesk-gym",
     "google-drive-gym",
     "jira-gym",
-    "slack-gym",
+    "slack",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/ach-returns-drove-account-1284-negative-determine-lock-action-and-scop",
-   "declared_short": "ach-returns-drove-account-1284-negative-determine-lock-action-and-scop",
+   "connector_provenance": "real",
    "domain": null,
-   "folder": "task-100587-ach-returns-drove-account-2301-negat-03e1d4-v1",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "d603fb29c749003794ef4c2366ea36d0aad936d8290cc714a8e5241de21cbb33",
-   "size_bytes": 15092013,
-   "updated": "2026-09-18T12:04:14.797Z"
+   "sha256": "67e8be2fc18423c0e44192e7886774ca7c689988c3fe73bdd7b1a0f56348537d",
+   "size_bytes": 12720862,
+   "updated": "2026-09-18T22:46:02.113Z"
   },
   {
    "connector_provenance": null,
