@@ -1,33 +1,33 @@
 {
- "generated_at": "2026-09-19T06:55:02+00:00",
+ "generated_at": "2026-09-19T07:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 723,
-  "scanned": 723,
-  "connector": 237,
-  "non_connector": 486,
+  "task_folders": 726,
+  "scanned": 726,
+  "connector": 238,
+  "non_connector": 488,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 95,
+  "real": 96,
   "unknown": 89,
   "synthetic": 53
  },
  "domain": {
-  "unnamed": 261,
-  "code": 142,
-  "fin": 46,
+  "unnamed": 262,
+  "code": 143,
+  "fin": 47,
   "gen": 188,
   "health": 45,
   "law": 41
  },
  "name_prefix": {
-  "harbor": 241,
-  "obi": 482
+  "harbor": 242,
+  "obi": 484
  },
  "connector_services": {
   "google-drive-gym": 155,
-  "zeta3-sql-gym": 140,
+  "zeta3-sql-gym": 141,
   "confluence-gym": 138,
   "email-gym": 138,
   "freshdesk-gym": 138,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 396683
  },
  "errors": [],
  "tasks": [
@@ -852,6 +852,22 @@
    "sha256": "fdc53859e3d0905fcdbab0d13bf972a56b1077aef2bde3f20889ff473d9d0680",
    "size_bytes": 8353581,
    "updated": "2026-09-19T05:59:03.414Z"
+  },
+  {
+   "declared_name": "harbor/observed-daily-physical-card-limit-structure-2023-01-01-2026-01-01",
+   "declared_short": "observed-daily-physical-card-limit-structure-2023-01-01-2026-01-01",
+   "folder": "batch_03_classify-2-500-daily-card-limit-tier-and-confirm-piermont-max-for-card",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "94bbd73638b0b3c1f88d729cdd225fa2223f87b4fabe1f74f7c301256a94d08a",
+   "size_bytes": 8422581,
+   "updated": "2026-09-19T06:58:48.815Z"
   },
   {
    "connector_provenance": "real",
@@ -2736,6 +2752,20 @@
    "updated": "2026-09-10T02:35:38.689Z"
   },
   {
+   "declared_name": "obi/code-c603-retiree-small-balance-payment-audit",
+   "declared_short": "code-c603-retiree-small-balance-payment-audit",
+   "folder": "code-c603-retiree-small-balance-payment-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "6365185a66d9fe648eefb7fc8857dadb1d48bf13e2f8b28a38945c0a78be0ce0",
+   "size_bytes": 8595934,
+   "updated": "2026-09-19T06:58:20.214Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c621-register-id-assignment-compliance-audit",
@@ -4374,6 +4404,20 @@
    "sha256": "ef66ab5d2acb06baf33f01a2b090469c2151216e3fa785de36e0f9e69243a160",
    "size_bytes": 5121417,
    "updated": "2026-09-16T10:09:36.777Z"
+  },
+  {
+   "declared_name": "obi/fin-b43-a8-gl-history-bucket-normalisation",
+   "declared_short": "fin-b43-a8-gl-history-bucket-normalisation",
+   "folder": "fin-b43-a8-gl-history-bucket-normalisation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "f2a6ba6d7ab8b4f4f29fdc197ce1123ae3526867828d8d43c5ad8fe3ba85682d",
+   "size_bytes": 6381451,
+   "updated": "2026-09-19T06:57:48.711Z"
   },
   {
    "connector_provenance": null,
