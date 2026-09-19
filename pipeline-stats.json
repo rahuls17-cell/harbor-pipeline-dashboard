@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T04:40:03+00:00",
+ "generated_at": "2026-09-19T05:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 711,
-  "scanned": 711,
+  "task_folders": 712,
+  "scanned": 712,
   "connector": 233,
-  "non_connector": 478,
+  "non_connector": 479,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 255,
   "code": 139,
-  "fin": 44,
+  "fin": 45,
   "gen": 187,
   "health": 45,
   "law": 41
  },
  "name_prefix": {
   "harbor": 237,
-  "obi": 474
+  "obi": 475
  },
  "connector_services": {
   "google-drive-gym": 153,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131531
  },
  "errors": [],
  "tasks": [
@@ -4484,6 +4484,20 @@
    "sha256": "c9ec515c5833f357ba1f3f8e6f495233b8bd9104a32844b7871537920d128d94",
    "size_bytes": 6743285,
    "updated": "2026-09-19T00:34:50.915Z"
+  },
+  {
+   "declared_name": "obi/fin-b50-f10-sba-7a-deferral-rebaseline-brief",
+   "declared_short": "fin-b50-f10-sba-7a-deferral-rebaseline-brief",
+   "folder": "fin-b50-f10-sba-7a-deferral-rebaseline-brief",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "783b1a9c03f92e390f8c6ce3c4618322c1916cf21a9bf0d1c09acbc2785565b0",
+   "size_bytes": 10078110,
+   "updated": "2026-09-19T05:28:21.939Z"
   },
   {
    "connector_provenance": null,
