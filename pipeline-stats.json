@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T07:15:02+00:00",
+ "generated_at": "2026-09-19T07:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 727,
-  "scanned": 727,
+  "task_folders": 728,
+  "scanned": 728,
   "connector": 238,
-  "non_connector": 489,
+  "non_connector": 490,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 262,
   "code": 143,
-  "fin": 47,
+  "fin": 48,
   "gen": 189,
   "health": 45,
   "law": 41
  },
  "name_prefix": {
   "harbor": 242,
-  "obi": 485
+  "obi": 486
  },
  "connector_services": {
   "google-drive-gym": 155,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131458
  },
  "errors": [],
  "tasks": [
@@ -4586,6 +4586,20 @@
    "sha256": "1566139418acc98e33ab01313df1c1cf725e56c5d90b40c1ab7cc34582ce8431",
    "size_bytes": 8006510,
    "updated": "2026-09-16T22:52:09.323Z"
+  },
+  {
+   "declared_name": "obi/fin-b49-f1-portfolio-spy-projection-recompute-v1",
+   "declared_short": "fin-b49-f1-portfolio-spy-projection-recompute-v1",
+   "folder": "fin-b49-f1-portfolio-spy-projection-recompute-v1",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "3012dcdf49f4260f677481f99b88dbabc4531a3f310b7d847ab07f9932587362",
+   "size_bytes": 5455792,
+   "updated": "2026-09-19T07:17:04.138Z"
   },
   {
    "connector_provenance": null,
