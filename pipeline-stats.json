@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T11:25:03+00:00",
+ "generated_at": "2026-09-19T11:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 745,
-  "scanned": 745,
+  "task_folders": 746,
+  "scanned": 746,
   "connector": 243,
-  "non_connector": 502,
+  "non_connector": 503,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 269,
   "code": 144,
   "fin": 50,
-  "gen": 195,
+  "gen": 196,
   "health": 46,
   "law": 41
  },
  "name_prefix": {
   "harbor": 247,
-  "obi": 498
+  "obi": 499
  },
  "connector_services": {
   "google-drive-gym": 156,
@@ -46,7 +46,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 147483
+  "approx_bytes_read": 131839
  },
  "errors": [],
  "tasks": [
@@ -6495,6 +6495,20 @@
    "updated": "2026-09-11T10:41:56.423Z"
   },
   {
+   "declared_name": "obi/gen-g640-epic-level-beta-gate-rollup-audit",
+   "declared_short": "gen-g640-epic-level-beta-gate-rollup-audit",
+   "folder": "gen-g640-epic-level-beta-gate-rollup-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "4fa24d5ca7e85877362d6d0e1c1c604d12da71e6ee090721f4f2f9a8f4e28a60",
+   "size_bytes": 8915105,
+   "updated": "2026-09-19T11:28:56.455Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g649-energy-project-screening-audit",
@@ -11267,17 +11281,17 @@
    "updated": "2026-09-17T17:34:22.992Z"
   },
   {
-   "declared_name": "harbor/the-same-name-is-not-the-same-window",
-   "declared_short": "the-same-name-is-not-the-same-window",
-   "folder": "the-same-name-is-not-the-same-window",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "teams-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-same-name-is-not-the-same-window",
+   "declared_short": "the-same-name-is-not-the-same-window",
    "domain": null,
+   "folder": "the-same-name-is-not-the-same-window",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "87735d81f6a13e5bc503ccf13dd2dcfee3b1a1580e2123fb1bd14e0ef2733e3d",
    "size_bytes": 8883641,
    "updated": "2026-09-19T11:21:04.427Z"
