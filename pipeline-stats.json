@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T03:45:03+00:00",
+ "generated_at": "2026-09-19T03:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 710,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134258
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -10442,11 +10442,7 @@
    "updated": "2026-09-19T01:14:19.925Z"
   },
   {
-   "declared_name": "harbor/daily-wire-limit-review-account-8530-on-processing-date-2023-03-28-warehouse-held-ceiling",
-   "declared_short": "daily-wire-limit-review-account-8530-on-processing-date-2023-03-28-warehouse-held-ceiling",
-   "folder": "task_verify_wire_212269_for_225k_against_daily_wire_program_limit_on_accoun",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -10456,9 +10452,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/daily-wire-limit-review-account-8530-on-processing-date-2023-03-28-warehouse-held-ceiling",
+   "declared_short": "daily-wire-limit-review-account-8530-on-processing-date-2023-03-28-warehouse-held-ceiling",
    "domain": null,
+   "folder": "task_verify_wire_212269_for_225k_against_daily_wire_program_limit_on_accoun",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b6e2b8c8f6c3c3a1b39ff992001d7919d003cdd783d780de42b0e5795f2c34a0",
    "size_bytes": 10012924,
    "updated": "2026-09-19T03:43:33.105Z"
