@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T11:55:03+00:00",
+ "generated_at": "2026-09-19T12:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 748,
@@ -46,7 +46,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131515
+  "approx_bytes_read": 131419
  },
  "errors": [],
  "tasks": [
@@ -3007,15 +3007,15 @@
    "updated": "2026-09-11T03:24:10.292Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c745-logo-asset-production-qa-audit",
    "declared_short": "code-c745-logo-asset-production-qa-audit",
-   "folder": "code-c745-logo-asset-production-qa-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c745-logo-asset-production-qa-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "bdf3fdc6af65b4f0ead19e5912b53e288313075bf7ac07c0f54246d3d400e901",
    "size_bytes": 7153575,
    "updated": "2026-09-19T11:50:30.747Z"
@@ -9385,18 +9385,18 @@
    "updated": "2026-09-13T13:12:30.899Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/law-b36-l4-finished-area-recomputation",
    "declared_short": "law-b36-l4-finished-area-recomputation",
-   "domain": "law",
    "folder": "law-b36-l4-finished-area-recomputation-hardened",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "19e255997285ef5775ae85e9c7cf705853ed111bab30d3545922e82939784a4f",
-   "size_bytes": 6863776,
-   "updated": "2026-09-18T18:07:20.304Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "5c28c4902864515afda3d6a53e48acea4163835fd760315a37dcdb6ba9cddcd9",
+   "size_bytes": 6474575,
+   "updated": "2026-09-19T11:59:44.222Z"
   },
   {
    "connector_provenance": null,
