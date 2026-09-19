@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T20:20:03+00:00",
+ "generated_at": "2026-09-19T20:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 785,
-  "scanned": 785,
+  "task_folders": 787,
+  "scanned": 787,
   "connector": 255,
-  "non_connector": 530,
+  "non_connector": 532,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 283,
   "code": 152,
-  "fin": 52,
+  "fin": 53,
   "gen": 202,
-  "health": 53,
+  "health": 54,
   "law": 43
  },
  "name_prefix": {
   "harbor": 259,
-  "obi": 526
+  "obi": 528
  },
  "connector_services": {
   "google-drive-gym": 162,
@@ -46,7 +46,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 269221
+  "approx_bytes_read": 262954
  },
  "errors": [],
  "tasks": [
@@ -3079,15 +3079,15 @@
    "updated": "2026-09-19T17:27:27.872Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c728-carousel-video-export-audit",
    "declared_short": "code-c728-carousel-video-export-audit",
-   "folder": "code-c728-carousel-video-export-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c728-carousel-video-export-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a6e5a245344a919bcdb2d32d8383ab8b91825d894e2242b7514cdf0b37fc7a85",
    "size_bytes": 6981059,
    "updated": "2026-09-19T20:18:14.378Z"
@@ -4837,6 +4837,20 @@
    "sha256": "3012dcdf49f4260f677481f99b88dbabc4531a3f310b7d847ab07f9932587362",
    "size_bytes": 5455792,
    "updated": "2026-09-19T07:17:04.138Z"
+  },
+  {
+   "declared_name": "obi/fin-b49-f3-ira-rmd-divisor-schedule-couple-v1",
+   "declared_short": "fin-b49-f3-ira-rmd-divisor-schedule-couple-v1",
+   "folder": "fin-b49-f3-ira-rmd-divisor-schedule-couple-v1",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "4dac2a9c02cfd1bfca40c52ef7d2291a30cbefeaecae8731a59fa5b5e54a230b",
+   "size_bytes": 5683077,
+   "updated": "2026-09-19T20:24:51.079Z"
   },
   {
    "connector_provenance": null,
@@ -9511,6 +9525,20 @@
    "updated": "2026-09-18T21:02:36.649Z"
   },
   {
+   "declared_name": "obi/health-tdt7-a7-saturday-access-clinic-shortlist-reconcile",
+   "declared_short": "health-tdt7-a7-saturday-access-clinic-shortlist-reconcile",
+   "folder": "health-tdt7-a7-saturday-access-clinic-shortlist-reconcile-v1",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "5b3a69ab2188a37e13274dbbddb088d9f9a46b133172b7fdd542a104a1f0e9ed",
+   "size_bytes": 6826216,
+   "updated": "2026-09-19T20:23:55.769Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "confluence-gym",
@@ -10385,17 +10413,17 @@
    "updated": "2026-09-09T04:52:15.228Z"
   },
   {
-   "declared_name": "harbor/no-rate-on-file",
-   "declared_short": "no-rate-on-file",
-   "folder": "no-rate-on-file-v6-final",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/no-rate-on-file",
+   "declared_short": "no-rate-on-file",
    "domain": null,
+   "folder": "no-rate-on-file-v6-final",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "19e5830016395d0d6be63aee84e0d44f99c2f478b7c236f6f4df1f305ee4e4ae",
    "size_bytes": 9282702,
    "updated": "2026-09-19T20:17:48.362Z"
