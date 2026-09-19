@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T09:15:03+00:00",
+ "generated_at": "2026-09-19T09:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 736,
-  "scanned": 736,
+  "task_folders": 737,
+  "scanned": 737,
   "connector": 240,
-  "non_connector": 496,
+  "non_connector": 497,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 55
  },
  "domain": {
-  "unnamed": 265,
+  "unnamed": 266,
   "code": 143,
   "fin": 49,
   "gen": 192,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 244,
-  "obi": 492
+  "obi": 493
  },
  "connector_services": {
   "google-drive-gym": 155,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 270105
+  "new_archives_read": 1,
+  "approx_bytes_read": 131928
  },
  "errors": [],
  "tasks": [
@@ -8994,15 +8994,15 @@
    "updated": "2026-09-16T22:39:53.146Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt7-a10-glucose-sensor-meal-response-log",
    "declared_short": "health-tdt7-a10-glucose-sensor-meal-response-log",
-   "folder": "health-tdt7-a10-glucose-sensor-meal-response-log",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt7-a10-glucose-sensor-meal-response-log",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e3f89ec8a7d7e81298e7d14278b04327bdde049a3ceab9096f1336b14f84214e",
    "size_bytes": 9979125,
    "updated": "2026-09-19T09:14:04.998Z"
@@ -10228,17 +10228,17 @@
    "updated": "2026-09-18T16:56:29.186Z"
   },
   {
-   "declared_name": "harbor/sprint-board-recount",
-   "declared_short": "sprint-board-recount",
-   "folder": "sprint-board-recount",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/sprint-board-recount",
+   "declared_short": "sprint-board-recount",
    "domain": null,
+   "folder": "sprint-board-recount",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1590b28835aa555db4b49ad5b4f5c3a3d35019a9c728cd48d2844cafdc37348b",
    "size_bytes": 7505633,
    "updated": "2026-09-19T09:11:13.539Z"
@@ -10920,6 +10920,20 @@
    "sha256": "c5a8bec44c7e92c1c0284207fd506a0519307739c1629c4ece55826b6854aed6",
    "size_bytes": 6857328,
    "updated": "2026-09-19T08:13:51.106Z"
+  },
+  {
+   "declared_name": "obi/tech-b60-t3-medical-suite-electrical-estimate-recompute",
+   "declared_short": "tech-b60-t3-medical-suite-electrical-estimate-recompute",
+   "folder": "tech-b60-t3-medical-suite-electrical-estimate-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "81ee5cffa2435066aa629885c8a93955bef637973b3877bdf260e6a9881fead3",
+   "size_bytes": 7775879,
+   "updated": "2026-09-19T09:18:01.299Z"
   },
   {
    "connector_provenance": null,
