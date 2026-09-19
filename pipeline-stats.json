@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T15:25:03+00:00",
+ "generated_at": "2026-09-19T15:30:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 765,
-  "scanned": 765,
+  "task_folders": 766,
+  "scanned": 766,
   "connector": 249,
-  "non_connector": 516,
+  "non_connector": 517,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 277,
-  "code": 146,
+  "code": 147,
   "fin": 50,
   "gen": 200,
   "health": 50,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 253,
-  "obi": 512
+  "obi": 513
  },
  "connector_services": {
   "google-drive-gym": 159,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 265121
+  "new_archives_read": 1,
+  "approx_bytes_read": 131559
  },
  "errors": [],
  "tasks": [
@@ -95,11 +95,7 @@
    "updated": "2026-09-18T14:56:05.069Z"
   },
   {
-   "declared_name": "harbor/check-deposit-1931-redeposit-review",
-   "declared_short": "check-deposit-1931-redeposit-review",
-   "folder": "100832",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -109,9 +105,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/check-deposit-1931-redeposit-review",
+   "declared_short": "check-deposit-1931-redeposit-review",
    "domain": null,
+   "folder": "100832",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4ad724166d633f0fd1297db00fbe62260b3100af95fe5b8f73dbc5572340ca36",
    "size_bytes": 11810274,
    "updated": "2026-09-19T15:21:20.005Z"
@@ -1727,6 +1727,20 @@
    "updated": "2026-09-10T14:29:38.528Z"
   },
   {
+   "declared_name": "obi/code-c333-engagement-phase-gate-audit",
+   "declared_short": "code-c333-engagement-phase-gate-audit",
+   "folder": "code-c333-engagement-phase-gate-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "6fbac3cb7661ab1b0687339e5bd0ed1d26f8b4a9045abbec50ad329923deb013",
+   "size_bytes": 10272816,
+   "updated": "2026-09-19T15:25:36.996Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c337-measure-job-rescission-hold-audit",
@@ -3015,15 +3029,15 @@
    "updated": "2026-09-09T20:54:22.298Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c738-sip-extension-provisioning-audit",
    "declared_short": "code-c738-sip-extension-provisioning-audit",
-   "folder": "code-c738-sip-extension-provisioning-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c738-sip-extension-provisioning-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "aa7b20e59f0bd27158006ec5a047bc1607a0b3f95657891cd1b0d95d16f49e8f",
    "size_bytes": 8656294,
    "updated": "2026-09-19T15:23:57.683Z"
