@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T17:15:03+00:00",
+ "generated_at": "2026-09-19T17:20:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 772,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 409596
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -465,11 +465,7 @@
    "updated": "2026-09-09T20:00:47.538Z"
   },
   {
-   "declared_name": "harbor/audit-retry-on-balance-increase-behavior-for-nsf-subscription-fees",
-   "declared_short": "audit-retry-on-balance-increase-behavior-for-nsf-subscription-fees",
-   "folder": "audit-retry-on-balance-increase-behavior-for-nsf-subscription-fees",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -479,9 +475,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/audit-retry-on-balance-increase-behavior-for-nsf-subscription-fees",
+   "declared_short": "audit-retry-on-balance-increase-behavior-for-nsf-subscription-fees",
    "domain": null,
+   "folder": "audit-retry-on-balance-increase-behavior-for-nsf-subscription-fees",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9fc7b9178abc17c4fc3673b96f81ac1e7a88377c00a45ff6a9f27e19dc8223e0",
    "size_bytes": 13246258,
    "updated": "2026-09-19T17:10:57.553Z"
@@ -10205,17 +10205,17 @@
    "updated": "2026-09-13T13:03:48.151Z"
   },
   {
-   "declared_name": "harbor/march-april-priorities-closed-out-from-the-updates",
-   "declared_short": "march-april-priorities-closed-out-from-the-updates",
-   "folder": "march-april-priorities-closed-out-from-the-updates",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/march-april-priorities-closed-out-from-the-updates",
+   "declared_short": "march-april-priorities-closed-out-from-the-updates",
    "domain": null,
+   "folder": "march-april-priorities-closed-out-from-the-updates",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f9fec4d4b57a129aa78b0dd1e3aafabb24b3ec3d6196109bc65179b19f3fd767",
    "size_bytes": 7657686,
    "updated": "2026-09-19T17:11:12.762Z"
@@ -11565,17 +11565,17 @@
    "updated": "2026-09-18T21:00:32.266Z"
   },
   {
-   "declared_name": "harbor/the-plan-we-do-not-keep",
-   "declared_short": "the-plan-we-do-not-keep",
-   "folder": "the-plan-we-do-not-keep-v3",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-plan-we-do-not-keep",
+   "declared_short": "the-plan-we-do-not-keep",
    "domain": null,
+   "folder": "the-plan-we-do-not-keep-v3",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "facd0e3ef108543d59f30da95223dcd67a1258f568ef28423fd69128f470baa3",
    "size_bytes": 8001435,
    "updated": "2026-09-19T17:13:28.827Z"
