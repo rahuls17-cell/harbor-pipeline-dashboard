@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T02:50:03+00:00",
+ "generated_at": "2026-09-19T02:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 709,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133226
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4070,11 +4070,7 @@
    "updated": "2026-09-13T05:22:59.075Z"
   },
   {
-   "declared_name": "harbor/explain-savings-interest-change-for-account-10297-between-march-and-ap",
-   "declared_short": "explain-savings-interest-change-for-account-10297-between-march-and-ap",
-   "folder": "explain-savings-interest-change-for-account-10297-between-march-and-ap",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -4084,9 +4080,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/explain-savings-interest-change-for-account-10297-between-march-and-ap",
+   "declared_short": "explain-savings-interest-change-for-account-10297-between-march-and-ap",
    "domain": null,
+   "folder": "explain-savings-interest-change-for-account-10297-between-march-and-ap",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "fb9140040d665a3e7384f7517ad3c80233e5b88f62ef1660f637969c780ad588",
    "size_bytes": 11774989,
    "updated": "2026-09-19T02:45:55.967Z"
