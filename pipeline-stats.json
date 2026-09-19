@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T01:35:02+00:00",
+ "generated_at": "2026-09-19T01:40:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 705,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133225
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -10244,11 +10244,7 @@
    "updated": "2026-09-19T00:32:27.730Z"
   },
   {
-   "declared_name": "harbor/investigate-declined-1-600-goal-withdrawal-blamed-on-insufficient-fund",
-   "declared_short": "investigate-declined-1-600-goal-withdrawal-blamed-on-insufficient-fund",
-   "folder": "task_investigate_declined_1_600_goal_withdrawal_blamed_on_insufficient_fund",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -10258,9 +10254,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/investigate-declined-1-600-goal-withdrawal-blamed-on-insufficient-fund",
+   "declared_short": "investigate-declined-1-600-goal-withdrawal-blamed-on-insufficient-fund",
    "domain": null,
+   "folder": "task_investigate_declined_1_600_goal_withdrawal_blamed_on_insufficient_fund",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a1da20fbb5aaed8270305d689f95e41dfa02556ddf00ee060d55066566ec9340",
    "size_bytes": 13887153,
    "updated": "2026-09-19T01:34:15.978Z"
