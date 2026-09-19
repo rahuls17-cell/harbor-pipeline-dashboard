@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T22:15:03+00:00",
+ "generated_at": "2026-09-19T22:20:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 803,
-  "scanned": 803,
+  "task_folders": 804,
+  "scanned": 804,
   "connector": 258,
-  "non_connector": 545,
+  "non_connector": 546,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 287,
-  "code": 154,
+  "code": 155,
   "fin": 56,
   "gen": 207,
   "health": 54,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 262,
-  "obi": 541
+  "obi": 542
  },
  "connector_services": {
   "google-drive-gym": 164,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131438
  },
  "errors": [],
  "tasks": [
@@ -1341,6 +1341,20 @@
    "sha256": "987fd7b1a8ae864a537f38a5849749d1e8473a3b77dddcd30ff1d4b06c8c63a8",
    "size_bytes": 3650080,
    "updated": "2026-09-05T20:02:44.934Z"
+  },
+  {
+   "declared_name": "obi/code-c148-security-hardening-baseline-audit",
+   "declared_short": "code-c148-security-hardening-baseline-audit",
+   "folder": "code-c148-security-hardening-baseline-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "378a85b54f1e1d91a85e9a9f88dc088c7d6cb6ff2cb68e6da064864ed9470f27",
+   "size_bytes": 4306381,
+   "updated": "2026-09-19T22:16:29.665Z"
   },
   {
    "connector_provenance": null,
