@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T20:45:02+00:00",
+ "generated_at": "2026-09-19T20:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 790,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137448
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -937,17 +937,17 @@
    "updated": "2026-09-19T00:21:46.543Z"
   },
   {
-   "declared_name": "harbor/beta-rows-left-to-chase",
-   "declared_short": "beta-rows-left-to-chase",
-   "folder": "beta-rows-left-to-chase",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/beta-rows-left-to-chase",
+   "declared_short": "beta-rows-left-to-chase",
    "domain": null,
+   "folder": "beta-rows-left-to-chase",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "fc35279e2a08882a22077bcf576de88b5b192536439531491fb945e34db3b59c",
    "size_bytes": 9569909,
    "updated": "2026-09-19T20:43:49.218Z"
