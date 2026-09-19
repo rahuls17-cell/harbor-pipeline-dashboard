@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T02:30:03+00:00",
+ "generated_at": "2026-09-19T02:35:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 708,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133229
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -10870,11 +10870,7 @@
    "updated": "2026-09-06T04:20:30.120Z"
   },
   {
-   "declared_name": "harbor/verify-amazon-duplicate-charge-claim-on-nov-9-10-106-49-for-account-55",
-   "declared_short": "verify-amazon-duplicate-charge-claim-on-nov-9-10-106-49-for-account-55",
-   "folder": "verify-amazon-duplicate-charge-claim-on-nov-9-10-106-49-for-account-55_fixed",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -10884,9 +10880,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/verify-amazon-duplicate-charge-claim-on-nov-9-10-106-49-for-account-55",
+   "declared_short": "verify-amazon-duplicate-charge-claim-on-nov-9-10-106-49-for-account-55",
    "domain": null,
+   "folder": "verify-amazon-duplicate-charge-claim-on-nov-9-10-106-49-for-account-55_fixed",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f1750c49a7ccc5c1e0b682505b53733129f1dd5908b1d4681ec550c7bd140aa4",
    "size_bytes": 13310171,
    "updated": "2026-09-19T02:26:50.210Z"
