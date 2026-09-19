@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-19T16:20:03+00:00",
+ "generated_at": "2026-09-19T16:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 767,
-  "scanned": 767,
-  "connector": 249,
+  "task_folders": 768,
+  "scanned": 768,
+  "connector": 250,
   "non_connector": 518,
   "errors": 0
  },
  "connector_provenance": {
   "real": 98,
-  "unknown": 92,
+  "unknown": 93,
   "synthetic": 59
  },
  "domain": {
-  "unnamed": 277,
+  "unnamed": 278,
   "code": 147,
   "fin": 50,
   "gen": 200,
@@ -22,17 +22,17 @@
   "law": 42
  },
  "name_prefix": {
-  "harbor": 253,
+  "harbor": 254,
   "obi": 514
  },
  "connector_services": {
   "google-drive-gym": 159,
-  "zeta3-sql-gym": 146,
-  "confluence-gym": 142,
+  "zeta3-sql-gym": 147,
+  "confluence-gym": 143,
   "email-gym": 142,
   "freshdesk-gym": 142,
   "jira-gym": 142,
-  "slack-gym": 118,
+  "slack-gym": 119,
   "slack": 47,
   "notion-gym": 21,
   "email-calendar-gym": 10,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133678
  },
  "errors": [],
  "tasks": [
@@ -10119,6 +10119,24 @@
    "sha256": "ea85d9a5d1eada55a4eccb77148d61310bf3bd19fb8cd69040b4042e0f5cad25",
    "size_bytes": 6745757,
    "updated": "2026-09-06T17:22:25.364Z"
+  },
+  {
+   "declared_name": "harbor/lifecycle-conformance-check-for-issued-check-10003-500-ending-in-paid",
+   "declared_short": "lifecycle-conformance-check-for-issued-check-10003-500-ending-in-paid",
+   "folder": "lifecycle-conformance-check-for-issued-check-10003-500-ending-in-paid-20260821T095517Z-1-001",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "65f1101972e535344ccd50327cc992589f5e20ccff0e3d7c75558b9579ea6e87",
+   "size_bytes": 11165360,
+   "updated": "2026-09-19T16:24:15.088Z"
   },
   {
    "connector_provenance": "real",
