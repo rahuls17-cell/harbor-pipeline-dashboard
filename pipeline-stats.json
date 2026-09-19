@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T23:00:02+00:00",
+ "generated_at": "2026-09-19T23:05:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 804,
-  "scanned": 804,
+  "task_folders": 805,
+  "scanned": 805,
   "connector": 258,
-  "non_connector": 546,
+  "non_connector": 547,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 287,
-  "code": 155,
+  "code": 156,
   "fin": 56,
   "gen": 207,
   "health": 54,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 262,
-  "obi": 542
+  "obi": 543
  },
  "connector_services": {
   "google-drive-gym": 164,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131557
  },
  "errors": [],
  "tasks": [
@@ -1901,6 +1901,20 @@
    "sha256": "7e4b40457b0c07e6c078a4f04f8127e529b368f06925dfbde5692b69e3a6a201",
    "size_bytes": 7739430,
    "updated": "2026-09-07T16:37:45.679Z"
+  },
+  {
+   "declared_name": "obi/code-c351-knockout-round-scoring-audit",
+   "declared_short": "code-c351-knockout-round-scoring-audit",
+   "folder": "code-c351-knockout-round-scoring-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "af34f12d55fb6dc05301f999f09e4fd158578fb2ca3d88220cee6db014b721da",
+   "size_bytes": 5831422,
+   "updated": "2026-09-19T23:02:32.225Z"
   },
   {
    "connector_provenance": null,
