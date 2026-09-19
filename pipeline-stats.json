@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T11:50:02+00:00",
+ "generated_at": "2026-09-19T11:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 747,
-  "scanned": 747,
+  "task_folders": 748,
+  "scanned": 748,
   "connector": 244,
-  "non_connector": 503,
+  "non_connector": 504,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 270,
-  "code": 144,
+  "code": 145,
   "fin": 50,
   "gen": 196,
   "health": 46,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 248,
-  "obi": 499
+  "obi": 500
  },
  "connector_services": {
   "google-drive-gym": 156,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 268867
+  "new_archives_read": 1,
+  "approx_bytes_read": 131515
  },
  "errors": [],
  "tasks": [
@@ -187,11 +187,7 @@
    "updated": "2026-09-16T07:39:21.183Z"
   },
   {
-   "declared_name": "harbor/account-recovery-email-flow-next-step-for-user-with-outstanding-2fa-co",
-   "declared_short": "account-recovery-email-flow-next-step-for-user-with-outstanding-2fa-co",
-   "folder": "account-recovery-email-flow-next-step-for-user-with-outstanding-2fa-co",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -201,9 +197,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/account-recovery-email-flow-next-step-for-user-with-outstanding-2fa-co",
+   "declared_short": "account-recovery-email-flow-next-step-for-user-with-outstanding-2fa-co",
    "domain": null,
+   "folder": "account-recovery-email-flow-next-step-for-user-with-outstanding-2fa-co",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d6819598590b02d52ede29815b6dde8c40c80044a7c7eacd5884c4fbf1d433c0",
    "size_bytes": 7462480,
    "updated": "2026-09-19T11:46:50.618Z"
@@ -3005,6 +3005,20 @@
    "sha256": "2b00caa7fbf4593e0acaa0fe48351308d6f6658a26870907de097111240ad682",
    "size_bytes": 3528816,
    "updated": "2026-09-11T03:24:10.292Z"
+  },
+  {
+   "declared_name": "obi/code-c745-logo-asset-production-qa-audit",
+   "declared_short": "code-c745-logo-asset-production-qa-audit",
+   "folder": "code-c745-logo-asset-production-qa-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "bdf3fdc6af65b4f0ead19e5912b53e288313075bf7ac07c0f54246d3d400e901",
+   "size_bytes": 7153575,
+   "updated": "2026-09-19T11:50:30.747Z"
   },
   {
    "connector_provenance": null,
@@ -10021,17 +10035,17 @@
    "updated": "2026-09-09T20:24:40.236Z"
   },
   {
-   "declared_name": "harbor/one-person-is-the-design-queue",
-   "declared_short": "one-person-is-the-design-queue",
-   "folder": "one-person-is-the-design-queue",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/one-person-is-the-design-queue",
+   "declared_short": "one-person-is-the-design-queue",
    "domain": null,
+   "folder": "one-person-is-the-design-queue",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6b2c552bdf6852d37ed503e4f95aa9beb91067d1e919c3a3965978d52c8ac3c5",
    "size_bytes": 7073193,
    "updated": "2026-09-19T11:45:33.484Z"
