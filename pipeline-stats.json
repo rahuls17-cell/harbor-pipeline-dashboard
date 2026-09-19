@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T21:10:02+00:00",
+ "generated_at": "2026-09-19T21:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 793,
-  "scanned": 793,
+  "task_folders": 794,
+  "scanned": 794,
   "connector": 255,
-  "non_connector": 538,
+  "non_connector": 539,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 283,
-  "code": 153,
+  "code": 154,
   "fin": 55,
   "gen": 204,
   "health": 54,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 259,
-  "obi": 534
+  "obi": 535
  },
  "connector_services": {
   "google-drive-gym": 162,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131511
  },
  "errors": [],
  "tasks": [
@@ -2895,6 +2895,20 @@
    "sha256": "f92c1f34c14764d5fddb44aeb69d06e5a99caede47ecf368e2347eeb63d78dd3",
    "size_bytes": 6048479,
    "updated": "2026-09-11T21:05:26.710Z"
+  },
+  {
+   "declared_name": "obi/code-c637-overlay-page-rollout-gate-audit",
+   "declared_short": "code-c637-overlay-page-rollout-gate-audit",
+   "folder": "code-c637-overlay-page-rollout-gate-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "c830edfad15996a944c59016ada53d49de84898a364ea317bf743e696f0762ab",
+   "size_bytes": 9020150,
+   "updated": "2026-09-19T21:11:11.861Z"
   },
   {
    "connector_provenance": null,
