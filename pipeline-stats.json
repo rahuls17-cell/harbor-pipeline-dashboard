@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T09:20:03+00:00",
+ "generated_at": "2026-09-19T09:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 737,
-  "scanned": 737,
+  "task_folders": 739,
+  "scanned": 739,
   "connector": 240,
-  "non_connector": 497,
+  "non_connector": 499,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 266,
   "code": 143,
   "fin": 49,
-  "gen": 192,
+  "gen": 194,
   "health": 46,
   "law": 41
  },
  "name_prefix": {
   "harbor": 244,
-  "obi": 493
+  "obi": 495
  },
  "connector_services": {
   "google-drive-gym": 155,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131928
+  "new_archives_read": 2,
+  "approx_bytes_read": 263352
  },
  "errors": [],
  "tasks": [
@@ -5302,6 +5302,20 @@
    "updated": "2026-09-08T21:09:33.947Z"
   },
   {
+   "declared_name": "obi/gen-g1243-staging-inventory-checkout-audit",
+   "declared_short": "gen-g1243-staging-inventory-checkout-audit",
+   "folder": "gen-g1243-staging-inventory-checkout-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "e0cac5dab2aace54ebe57cc722b3afd56e885ef68db035ecc84ba7918b169baf",
+   "size_bytes": 10655814,
+   "updated": "2026-09-19T09:23:56.991Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g1245-lease-assignment-consent-compliance-audit",
@@ -5846,6 +5860,20 @@
    "sha256": "7307ab701a3db61edf2cedc2c325545c4cc9cf8da1c2d12918fedc90e0ce70a2",
    "size_bytes": 7778901,
    "updated": "2026-09-09T13:53:37.842Z"
+  },
+  {
+   "declared_name": "obi/gen-g3613-fantano-perfect-score-audit",
+   "declared_short": "gen-g3613-fantano-perfect-score-audit",
+   "folder": "gen-g3613-fantano-perfect-score-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "0dcbce082264743c97fbb933d1707b5e094a0ff853a3c39ebb4dedda70675d9a",
+   "size_bytes": 12904717,
+   "updated": "2026-09-19T09:20:37.628Z"
   },
   {
    "connector_provenance": null,
@@ -10922,15 +10950,15 @@
    "updated": "2026-09-19T08:13:51.106Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b60-t3-medical-suite-electrical-estimate-recompute",
    "declared_short": "tech-b60-t3-medical-suite-electrical-estimate-recompute",
-   "folder": "tech-b60-t3-medical-suite-electrical-estimate-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b60-t3-medical-suite-electrical-estimate-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "81ee5cffa2435066aa629885c8a93955bef637973b3877bdf260e6a9881fead3",
    "size_bytes": 7775879,
    "updated": "2026-09-19T09:18:01.299Z"
