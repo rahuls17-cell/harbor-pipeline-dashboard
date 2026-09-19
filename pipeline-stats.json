@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T18:15:03+00:00",
+ "generated_at": "2026-09-19T18:20:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 777,
-  "scanned": 777,
+  "task_folders": 778,
+  "scanned": 778,
   "connector": 253,
-  "non_connector": 524,
+  "non_connector": 525,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 281,
-  "code": 149,
+  "code": 150,
   "fin": 51,
   "gen": 202,
   "health": 52,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 257,
-  "obi": 520
+  "obi": 521
  },
  "connector_services": {
   "google-drive-gym": 161,
@@ -46,7 +46,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131564
+  "approx_bytes_read": 131442
  },
  "errors": [],
  "tasks": [
@@ -2897,6 +2897,20 @@
    "updated": "2026-09-07T15:30:42.045Z"
   },
   {
+   "declared_name": "obi/code-c661-workspace-task-hygiene-audit",
+   "declared_short": "code-c661-workspace-task-hygiene-audit",
+   "folder": "code-c661-workspace-task-hygiene-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "d2122bdb94adb2d9644f5e42275954d5fed3ad52ac0730441926b046bf014736",
+   "size_bytes": 7264025,
+   "updated": "2026-09-19T18:16:52.265Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c671-mev-opportunity-promotion-audit",
@@ -5545,15 +5559,15 @@
    "updated": "2026-09-06T12:12:28.305Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g126-facility-maintenance-work-order-priority-audit",
    "declared_short": "gen-g126-facility-maintenance-work-order-priority-audit",
-   "folder": "gen-g126-facility-maintenance-work-order-priority-audit-v8",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g126-facility-maintenance-work-order-priority-audit-v8",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "47fa7c3c5b4c821b21e834a96acb1ac1f4bcb5713ace53ac9981d093efb0eca9",
    "size_bytes": 8061450,
    "updated": "2026-09-19T18:11:10.422Z"
