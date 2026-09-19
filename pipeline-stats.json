@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T14:45:02+00:00",
+ "generated_at": "2026-09-19T14:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 760,
-  "scanned": 760,
+  "task_folders": 762,
+  "scanned": 762,
   "connector": 247,
-  "non_connector": 513,
+  "non_connector": 515,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 275,
   "code": 145,
   "fin": 50,
-  "gen": 199,
-  "health": 49,
+  "gen": 200,
+  "health": 50,
   "law": 42
  },
  "name_prefix": {
   "harbor": 251,
-  "obi": 509
+  "obi": 511
  },
  "connector_services": {
   "google-drive-gym": 157,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263133
  },
  "errors": [],
  "tasks": [
@@ -7279,6 +7279,20 @@
    "updated": "2026-09-16T05:15:19.393Z"
   },
   {
+   "declared_name": "obi/gen-g917-memorial-statuette-production-order-audit",
+   "declared_short": "gen-g917-memorial-statuette-production-order-audit",
+   "folder": "gen-g917-memorial-statuette-production-order-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "b78a468eb0e35844c611734c859cf5692341f410457a67c8daeb911948c6f0eb",
+   "size_bytes": 6575717,
+   "updated": "2026-09-19T14:45:36.610Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g918-fop-lodge-campaign-badge-title-audit",
@@ -9219,6 +9233,20 @@
    "sha256": "e3f89ec8a7d7e81298e7d14278b04327bdde049a3ceab9096f1336b14f84214e",
    "size_bytes": 9979125,
    "updated": "2026-09-19T09:14:04.998Z"
+  },
+  {
+   "declared_name": "obi/health-tdt7-a3-barbell-plate-loading-chart",
+   "declared_short": "health-tdt7-a3-barbell-plate-loading-chart",
+   "folder": "health-tdt7-a3-barbell-plate-loading-chart",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "53459a1b12e27d0eb34aba56d1ccd326bf59862943b26162b7ab1b8be23ee738",
+   "size_bytes": 6089065,
+   "updated": "2026-09-19T14:48:14.516Z"
   },
   {
    "connector_provenance": null,
