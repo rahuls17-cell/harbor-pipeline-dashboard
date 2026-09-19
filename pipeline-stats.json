@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T07:05:02+00:00",
+ "generated_at": "2026-09-19T07:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 726,
-  "scanned": 726,
+  "task_folders": 727,
+  "scanned": 727,
   "connector": 238,
-  "non_connector": 488,
+  "non_connector": 489,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 262,
   "code": 143,
   "fin": 47,
-  "gen": 188,
+  "gen": 189,
   "health": 45,
   "law": 41
  },
  "name_prefix": {
   "harbor": 242,
-  "obi": 484
+  "obi": 485
  },
  "connector_services": {
   "google-drive-gym": 155,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263076
  },
  "errors": [],
  "tasks": [
@@ -2752,18 +2752,18 @@
    "updated": "2026-09-10T02:35:38.689Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/code-c603-retiree-small-balance-payment-audit",
    "declared_short": "code-c603-retiree-small-balance-payment-audit",
-   "domain": "code",
    "folder": "code-c603-retiree-small-balance-payment-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "6365185a66d9fe648eefb7fc8857dadb1d48bf13e2f8b28a38945c0a78be0ce0",
-   "size_bytes": 8595934,
-   "updated": "2026-09-19T06:58:20.214Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "50b7114efd7002cfdc5f9d6caf15c44b3983bba8695bcfccacc5d2cc75e4deaf",
+   "size_bytes": 8129966,
+   "updated": "2026-09-19T07:10:00.823Z"
   },
   {
    "connector_provenance": null,
@@ -5930,6 +5930,20 @@
    "sha256": "2c8df1cbd489e526125c03a2071f48909387f98d0b4f939bd5a77f0a6302f870",
    "size_bytes": 7648476,
    "updated": "2026-09-10T10:23:28.163Z"
+  },
+  {
+   "declared_name": "obi/gen-g435-home-improvement-payment-milestone-audit",
+   "declared_short": "gen-g435-home-improvement-payment-milestone-audit",
+   "folder": "gen-g435-home-improvement-payment-milestone-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "cfe1a48d4ceaa9886f46953b07760a9b7148cdcb51fd6b074945598450bfd912",
+   "size_bytes": 5119805,
+   "updated": "2026-09-19T07:07:49.126Z"
   },
   {
    "connector_provenance": null,
