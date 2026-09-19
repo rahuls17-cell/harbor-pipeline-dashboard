@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T16:05:03+00:00",
+ "generated_at": "2026-09-19T16:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 767,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133225
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3787,11 +3787,7 @@
    "updated": "2026-09-10T04:27:46.698Z"
   },
   {
-   "declared_name": "harbor/diagnose-failed-digital-wallet-token-activation-on-card-58162-oct-24",
-   "declared_short": "diagnose-failed-digital-wallet-token-activation-on-card-58162-oct-24",
-   "folder": "diagnose-failed-digital-wallet-token-activation-on-card-58162-oct-24",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -3801,9 +3797,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/diagnose-failed-digital-wallet-token-activation-on-card-58162-oct-24",
+   "declared_short": "diagnose-failed-digital-wallet-token-activation-on-card-58162-oct-24",
    "domain": null,
+   "folder": "diagnose-failed-digital-wallet-token-activation-on-card-58162-oct-24",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b46e026db51f13892e8220d1d69e71ff24c992a5e802a80eeb8f91e7070dffdf",
    "size_bytes": 15110522,
    "updated": "2026-09-19T16:02:52.318Z"
