@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-19T00:20:03+00:00",
+ "generated_at": "2026-09-19T00:25:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 691,
-  "scanned": 691,
-  "connector": 215,
+  "task_folders": 693,
+  "scanned": 693,
+  "connector": 217,
   "non_connector": 476,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 77,
+  "real": 79,
   "unknown": 86,
   "synthetic": 52
  },
  "domain": {
-  "unnamed": 236,
+  "unnamed": 238,
   "code": 139,
   "fin": 43,
   "gen": 187,
@@ -22,18 +22,18 @@
   "law": 41
  },
  "name_prefix": {
-  "harbor": 219,
+  "harbor": 221,
   "obi": 472
  },
  "connector_services": {
-  "google-drive-gym": 137,
-  "zeta3-sql-gym": 121,
-  "confluence-gym": 120,
-  "email-gym": 120,
-  "freshdesk-gym": 120,
-  "jira-gym": 120,
+  "google-drive-gym": 139,
+  "zeta3-sql-gym": 123,
+  "confluence-gym": 122,
+  "email-gym": 122,
+  "freshdesk-gym": 122,
+  "jira-gym": 122,
   "slack-gym": 113,
-  "slack": 28,
+  "slack": 30,
   "notion-gym": 17,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133213
+  "new_archives_read": 2,
+  "approx_bytes_read": 270420
  },
  "errors": [],
  "tasks": [
@@ -836,6 +836,28 @@
    "sha256": "2151f68f32559d2b8e7d1f4a821685647bac1755a80444e24aed01b562f499f2",
    "size_bytes": 19265583,
    "updated": "2026-09-18T22:40:06.680Z"
+  },
+  {
+   "declared_name": "harbor/chained-automation-same-day-processing-audit-2024",
+   "declared_short": "chained-automation-same-day-processing-audit-2024",
+   "folder": "batch_3_both-source-j-and-destination-p-automations-must-754aba-v3",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "0c29805d087e2d9bf4567b5d42887a4bf722fb770faccc4cc583135842915b12",
+   "size_bytes": 10790066,
+   "updated": "2026-09-19T00:21:46.543Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -3296,11 +3318,7 @@
    "updated": "2026-09-12T17:34:33.164Z"
   },
   {
-   "declared_name": "harbor/determine-next-plaid-touchpoint-for-offline-betterment-linked-account",
-   "declared_short": "determine-next-plaid-touchpoint-for-offline-betterment-linked-account",
-   "folder": "determine-next-plaid-touchpoint-for-offline-bett-376e5a-v4",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -3310,9 +3328,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/determine-next-plaid-touchpoint-for-offline-betterment-linked-account",
+   "declared_short": "determine-next-plaid-touchpoint-for-offline-betterment-linked-account",
    "domain": null,
+   "folder": "determine-next-plaid-touchpoint-for-offline-bett-376e5a-v4",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "230487e4482ac3d0b9d7c533bdecfc240e72e28881e0409490bf9fbc71b5c92a",
    "size_bytes": 19327850,
    "updated": "2026-09-19T00:17:58.429Z"
@@ -10458,6 +10480,28 @@
    "sha256": "bf7b3042eb61ebd8591f2a6eaf4cf1300ede2b7b9877944628a33b4b5612610c",
    "size_bytes": 8821887,
    "updated": "2026-09-18T23:35:19.806Z"
+  },
+  {
+   "declared_name": "harbor/card-43001-decline-forensics-event-2284075-invalid-cvv-and-the-10-minute-incident-window",
+   "declared_short": "card-43001-decline-forensics-event-2284075-invalid-cvv-and-the-10-minute-incident-window",
+   "folder": "trace-declined-1-00-mastercard-auth-on-card-4300-dc0e39-v3",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "bc9a27dd90fc2f21ebdcc830bd2f56e25a1eaf3ded35140bc4647fb38d436dee",
+   "size_bytes": 8400524,
+   "updated": "2026-09-19T00:22:55.429Z"
   },
   {
    "connector_provenance": "unknown",
