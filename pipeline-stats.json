@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T20:35:03+00:00",
+ "generated_at": "2026-09-19T20:40:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 790,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263017
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -5749,15 +5749,15 @@
    "updated": "2026-09-12T13:41:25.159Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g13-overtime-compliance",
    "declared_short": "gen-g13-overtime-compliance",
-   "folder": "gen-g13-overtime-compliance-v1",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g13-overtime-compliance-v1",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b9d255fe35cb912ca4ad4c5a4ba7f3717f068ebb018fc46b69466a1fc1b845b6",
    "size_bytes": 6169795,
    "updated": "2026-09-19T20:33:06.344Z"
@@ -5861,15 +5861,15 @@
    "updated": "2026-09-16T12:00:46.953Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g232-staff-assignment-sheet-audit",
    "declared_short": "gen-g232-staff-assignment-sheet-audit",
-   "folder": "gen-g232-staff-assignment-sheet-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g232-staff-assignment-sheet-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "805a4f40b3eef457e040791236d4592e6d3a6294b1429b931d1d089440893acf",
    "size_bytes": 7107429,
    "updated": "2026-09-19T20:30:48.519Z"
