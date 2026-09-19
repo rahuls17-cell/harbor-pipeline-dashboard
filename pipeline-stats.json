@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T00:25:02+00:00",
+ "generated_at": "2026-09-19T00:30:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 693,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 270420
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -838,11 +838,7 @@
    "updated": "2026-09-18T22:40:06.680Z"
   },
   {
-   "declared_name": "harbor/chained-automation-same-day-processing-audit-2024",
-   "declared_short": "chained-automation-same-day-processing-audit-2024",
-   "folder": "batch_3_both-source-j-and-destination-p-automations-must-754aba-v3",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -852,9 +848,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/chained-automation-same-day-processing-audit-2024",
+   "declared_short": "chained-automation-same-day-processing-audit-2024",
    "domain": null,
+   "folder": "batch_3_both-source-j-and-destination-p-automations-must-754aba-v3",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0c29805d087e2d9bf4567b5d42887a4bf722fb770faccc4cc583135842915b12",
    "size_bytes": 10790066,
    "updated": "2026-09-19T00:21:46.543Z"
@@ -10482,11 +10482,7 @@
    "updated": "2026-09-18T23:35:19.806Z"
   },
   {
-   "declared_name": "harbor/card-43001-decline-forensics-event-2284075-invalid-cvv-and-the-10-minute-incident-window",
-   "declared_short": "card-43001-decline-forensics-event-2284075-invalid-cvv-and-the-10-minute-incident-window",
-   "folder": "trace-declined-1-00-mastercard-auth-on-card-4300-dc0e39-v3",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -10496,9 +10492,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/card-43001-decline-forensics-event-2284075-invalid-cvv-and-the-10-minute-incident-window",
+   "declared_short": "card-43001-decline-forensics-event-2284075-invalid-cvv-and-the-10-minute-incident-window",
    "domain": null,
+   "folder": "trace-declined-1-00-mastercard-auth-on-card-4300-dc0e39-v3",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "bc9a27dd90fc2f21ebdcc830bd2f56e25a1eaf3ded35140bc4647fb38d436dee",
    "size_bytes": 8400524,
    "updated": "2026-09-19T00:22:55.429Z"
