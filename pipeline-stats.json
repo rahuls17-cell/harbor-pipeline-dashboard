@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T08:05:04+00:00",
+ "generated_at": "2026-09-19T08:10:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 731,
-  "scanned": 731,
+  "task_folders": 732,
+  "scanned": 732,
   "connector": 239,
-  "non_connector": 492,
+  "non_connector": 493,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 263,
   "code": 143,
   "fin": 49,
-  "gen": 190,
+  "gen": 191,
   "health": 45,
   "law": 41
  },
  "name_prefix": {
   "harbor": 243,
-  "obi": 488
+  "obi": 489
  },
  "connector_services": {
   "google-drive-gym": 155,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137164
+  "new_archives_read": 2,
+  "approx_bytes_read": 263157
  },
  "errors": [],
  "tasks": [
@@ -2752,18 +2752,18 @@
    "updated": "2026-09-10T02:35:38.689Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/code-c603-retiree-small-balance-payment-audit",
    "declared_short": "code-c603-retiree-small-balance-payment-audit",
-   "domain": "code",
    "folder": "code-c603-retiree-small-balance-payment-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "50b7114efd7002cfdc5f9d6caf15c44b3983bba8695bcfccacc5d2cc75e4deaf",
-   "size_bytes": 8129966,
-   "updated": "2026-09-19T07:10:00.823Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "3f9558d9087cbb3b45a21858df0ce1774d5fff96d3215e0ce61e0ef144836722",
+   "size_bytes": 8662513,
+   "updated": "2026-09-19T08:05:21.729Z"
   },
   {
    "connector_provenance": null,
@@ -5048,6 +5048,20 @@
    "sha256": "ffdf158b7e0f148d8b68ebebe0d103b5c39b84718e36ad385867822a130b9fe6",
    "size_bytes": 4840320,
    "updated": "2026-09-08T14:39:12.106Z"
+  },
+  {
+   "declared_name": "obi/gen-g1171-needs-ledger-evidence-audit",
+   "declared_short": "gen-g1171-needs-ledger-evidence-audit",
+   "folder": "gen-g1171-needs-ledger-evidence-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "d1391c8166d1d04af033e0b582a7de032536d660b2b3b937279ff8f0b76d5a65",
+   "size_bytes": 13196981,
+   "updated": "2026-09-19T08:09:27.320Z"
   },
   {
    "connector_provenance": null,
@@ -10912,17 +10926,17 @@
    "updated": "2026-09-17T16:55:29.261Z"
   },
   {
-   "declared_name": "harbor/the-channel-went-quiet-for-a-reason",
-   "declared_short": "the-channel-went-quiet-for-a-reason",
-   "folder": "the-channel-went-quiet-for-a-reason",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-channel-went-quiet-for-a-reason",
+   "declared_short": "the-channel-went-quiet-for-a-reason",
    "domain": null,
+   "folder": "the-channel-went-quiet-for-a-reason",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9e38e4fed5d5bcb80e0b8ce7958dc76803bfc1c1d07102f3314d4d156eacd1b1",
    "size_bytes": 9492805,
    "updated": "2026-09-19T08:02:42.859Z"
