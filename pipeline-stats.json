@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T12:00:03+00:00",
+ "generated_at": "2026-09-19T12:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 748,
-  "scanned": 748,
+  "task_folders": 749,
+  "scanned": 749,
   "connector": 244,
-  "non_connector": 504,
+  "non_connector": 505,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 270,
   "code": 145,
   "fin": 50,
-  "gen": 196,
+  "gen": 197,
   "health": 46,
   "law": 41
  },
  "name_prefix": {
   "harbor": 248,
-  "obi": 500
+  "obi": 501
  },
  "connector_services": {
   "google-drive-gym": 156,
@@ -46,7 +46,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131419
+  "approx_bytes_read": 131602
  },
  "errors": [],
  "tasks": [
@@ -5893,6 +5893,20 @@
    "updated": "2026-09-11T13:24:15.822Z"
   },
   {
+   "declared_name": "obi/gen-g339-brand-guideline-conformance-audit",
+   "declared_short": "gen-g339-brand-guideline-conformance-audit",
+   "folder": "gen-g339-brand-guideline-conformance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "f759815c964ebbcb03079b52a2585ba34a9df890e98b1604960559d11e317a55",
+   "size_bytes": 10566991,
+   "updated": "2026-09-19T12:02:12.113Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g357-fragrance-ingredient-substitution-audit",
@@ -9385,15 +9399,15 @@
    "updated": "2026-09-13T13:12:30.899Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b36-l4-finished-area-recomputation",
    "declared_short": "law-b36-l4-finished-area-recomputation",
-   "folder": "law-b36-l4-finished-area-recomputation-hardened",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b36-l4-finished-area-recomputation-hardened",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5c28c4902864515afda3d6a53e48acea4163835fd760315a37dcdb6ba9cddcd9",
    "size_bytes": 6474575,
    "updated": "2026-09-19T11:59:44.222Z"
