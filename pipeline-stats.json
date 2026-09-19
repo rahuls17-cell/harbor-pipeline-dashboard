@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T07:10:04+00:00",
+ "generated_at": "2026-09-19T07:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 727,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263076
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2752,15 +2752,15 @@
    "updated": "2026-09-10T02:35:38.689Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c603-retiree-small-balance-payment-audit",
    "declared_short": "code-c603-retiree-small-balance-payment-audit",
-   "folder": "code-c603-retiree-small-balance-payment-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c603-retiree-small-balance-payment-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "50b7114efd7002cfdc5f9d6caf15c44b3983bba8695bcfccacc5d2cc75e4deaf",
    "size_bytes": 8129966,
    "updated": "2026-09-19T07:10:00.823Z"
@@ -5932,15 +5932,15 @@
    "updated": "2026-09-10T10:23:28.163Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g435-home-improvement-payment-milestone-audit",
    "declared_short": "gen-g435-home-improvement-payment-milestone-audit",
-   "folder": "gen-g435-home-improvement-payment-milestone-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g435-home-improvement-payment-milestone-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "cfe1a48d4ceaa9886f46953b07760a9b7148cdcb51fd6b074945598450bfd912",
    "size_bytes": 5119805,
    "updated": "2026-09-19T07:07:49.126Z"
