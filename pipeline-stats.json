@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T11:30:03+00:00",
+ "generated_at": "2026-09-19T11:35:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 746,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131839
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -6495,15 +6495,15 @@
    "updated": "2026-09-11T10:41:56.423Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g640-epic-level-beta-gate-rollup-audit",
    "declared_short": "gen-g640-epic-level-beta-gate-rollup-audit",
-   "folder": "gen-g640-epic-level-beta-gate-rollup-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g640-epic-level-beta-gate-rollup-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4fa24d5ca7e85877362d6d0e1c1c604d12da71e6ee090721f4f2f9a8f4e28a60",
    "size_bytes": 8915105,
    "updated": "2026-09-19T11:28:56.455Z"
