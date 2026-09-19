@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T06:50:02+00:00",
+ "generated_at": "2026-09-19T06:55:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 723,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262942
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1574,15 +1574,15 @@
    "updated": "2026-09-13T11:57:15.891Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c284-seo-metadata-length-compliance-audit",
    "declared_short": "code-c284-seo-metadata-length-compliance-audit",
-   "folder": "code-c284-seo-metadata-length-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c284-seo-metadata-length-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4d4e89d3d7ed77197b30de8a189ad7336fae316a679169dfa63ad902627ec2bb",
    "size_bytes": 6142987,
    "updated": "2026-09-19T06:47:06.028Z"
@@ -4698,15 +4698,15 @@
    "updated": "2026-09-05T22:18:19.816Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-f58-dcf-terminal-value-policy-audit",
    "declared_short": "fin-f58-dcf-terminal-value-policy-audit",
-   "folder": "fin-f58-dcf-terminal-value-policy-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-f58-dcf-terminal-value-policy-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "72eff317817aede69787347880521f530a42d3666d30da5ce9d2c5605798f502",
    "size_bytes": 8850921,
    "updated": "2026-09-19T06:47:05.995Z"
