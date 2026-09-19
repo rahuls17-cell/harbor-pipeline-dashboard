@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-19T08:15:03+00:00",
+ "generated_at": "2026-09-19T08:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 733,
-  "scanned": 733,
-  "connector": 239,
-  "non_connector": 494,
+  "task_folders": 735,
+  "scanned": 735,
+  "connector": 240,
+  "non_connector": 495,
   "errors": 0
  },
  "connector_provenance": {
   "real": 96,
   "unknown": 89,
-  "synthetic": 54
+  "synthetic": 55
  },
  "domain": {
-  "unnamed": 264,
+  "unnamed": 265,
   "code": 143,
   "fin": 49,
-  "gen": 191,
+  "gen": 192,
   "health": 45,
   "law": 41
  },
  "name_prefix": {
-  "harbor": 243,
-  "obi": 490
+  "harbor": 244,
+  "obi": 491
  },
  "connector_services": {
   "google-drive-gym": 155,
@@ -32,7 +32,7 @@
   "email-gym": 138,
   "freshdesk-gym": 138,
   "jira-gym": 138,
-  "slack-gym": 114,
+  "slack-gym": 115,
   "slack": 46,
   "notion-gym": 20,
   "email-calendar-gym": 10,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131784
+  "new_archives_read": 2,
+  "approx_bytes_read": 287539
  },
  "errors": [],
  "tasks": [
@@ -6212,6 +6212,20 @@
    "updated": "2026-09-09T21:55:27.887Z"
   },
   {
+   "declared_name": "obi/gen-g553-linkedin-headline-style-audit",
+   "declared_short": "gen-g553-linkedin-headline-style-audit",
+   "folder": "gen-g553-linkedin-headline-style-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "07b7dbff153c74be723d2f0f200fbfe6a5de85ff3e0c349f4b6e212c6420a59e",
+   "size_bytes": 8749373,
+   "updated": "2026-09-19T08:15:33.036Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g555-competency-response-readiness-audit",
@@ -9806,6 +9820,22 @@
    "updated": "2026-09-09T04:52:15.228Z"
   },
   {
+   "declared_name": "harbor/nobody-would-have-missed-them",
+   "declared_short": "nobody-would-have-missed-them",
+   "folder": "nobody-would-have-missed-them",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "36a61b495aef84febc393b2d5b9552cb6f76094d67ae9e3a2d28df0b936c3176",
+   "size_bytes": 8011438,
+   "updated": "2026-09-19T08:19:34.165Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -10864,15 +10894,15 @@
    "updated": "2026-09-18T05:38:37.159Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b60-t1-pentest-lab-caption-evidence-audit",
    "declared_short": "tech-b60-t1-pentest-lab-caption-evidence-audit",
-   "folder": "tech-b60-t1-pentest-lab-caption-evidence-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b60-t1-pentest-lab-caption-evidence-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c5a8bec44c7e92c1c0284207fd506a0519307739c1629c4ece55826b6854aed6",
    "size_bytes": 6857328,
    "updated": "2026-09-19T08:13:51.106Z"
