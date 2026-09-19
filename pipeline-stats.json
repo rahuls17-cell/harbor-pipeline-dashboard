@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-19T21:25:03+00:00",
+ "generated_at": "2026-09-19T21:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 795,
-  "scanned": 795,
-  "connector": 255,
-  "non_connector": 540,
+  "task_folders": 798,
+  "scanned": 798,
+  "connector": 256,
+  "non_connector": 542,
   "errors": 0
  },
  "connector_provenance": {
   "real": 100,
   "unknown": 94,
-  "synthetic": 61
+  "synthetic": 62
  },
  "domain": {
-  "unnamed": 283,
+  "unnamed": 284,
   "code": 154,
   "fin": 56,
-  "gen": 204,
+  "gen": 205,
   "health": 54,
-  "law": 44
+  "law": 45
  },
  "name_prefix": {
-  "harbor": 259,
-  "obi": 536
+  "harbor": 260,
+  "obi": 538
  },
  "connector_services": {
   "google-drive-gym": 162,
@@ -32,7 +32,7 @@
   "email-gym": 145,
   "freshdesk-gym": 145,
   "jira-gym": 145,
-  "slack-gym": 120,
+  "slack-gym": 121,
   "slack": 49,
   "notion-gym": 23,
   "email-calendar-gym": 10,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 402435
  },
  "errors": [],
  "tasks": [
@@ -5889,6 +5889,20 @@
    "updated": "2026-09-13T13:16:19.124Z"
   },
   {
+   "declared_name": "obi/gen-g216-builder-lot-comparison-audit",
+   "declared_short": "gen-g216-builder-lot-comparison-audit",
+   "folder": "gen-g216-builder-lot-comparison-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "e320cc135dd0c08e48c253254c0dbbc6c623aaef7cf75fd91f21922f2ab9cc79",
+   "size_bytes": 8007566,
+   "updated": "2026-09-19T21:44:33.782Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g218-compliance-meeting-agenda-audit",
@@ -10053,6 +10067,20 @@
    "updated": "2026-09-17T10:58:54.435Z"
   },
   {
+   "declared_name": "obi/law-b39-l16-custody-letter-instruction-audit",
+   "declared_short": "law-b39-l16-custody-letter-instruction-audit",
+   "folder": "law-b39-l16-custody-letter-instruction-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "950736579ee0ca9cab45cd2d2d2352ad0c4b9614dae3277d290d0c4747904f85",
+   "size_bytes": 5728089,
+   "updated": "2026-09-19T21:43:54.330Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-b39-l21-exit-sign-requirement-statement-audit",
@@ -11903,6 +11931,22 @@
    "sha256": "7ba64fbb4b54ded4422443147488a43dcecca5c3acdf9800afab2a94774ceeea",
    "size_bytes": 12039759,
    "updated": "2026-09-18T21:00:32.266Z"
+  },
+  {
+   "declared_name": "harbor/the-owners-on-paper",
+   "declared_short": "the-owners-on-paper",
+   "folder": "the-owners-on-paper",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "5644342bc52528cb443d1a7a81429b35b82c04b440398a058b1c51323bbf4330",
+   "size_bytes": 9691273,
+   "updated": "2026-09-19T21:44:52.549Z"
   },
   {
    "connector_provenance": "synthetic",
