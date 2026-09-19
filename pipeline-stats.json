@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T21:20:02+00:00",
+ "generated_at": "2026-09-19T21:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 795,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131533
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4909,15 +4909,15 @@
    "updated": "2026-09-19T20:24:51.079Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b49-f4-btc-15m-coinglass-setup-screen",
    "declared_short": "fin-b49-f4-btc-15m-coinglass-setup-screen",
-   "folder": "fin-b49-f4-btc-15m-coinglass-setup-screen",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b49-f4-btc-15m-coinglass-setup-screen",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9a49be1ef7f9084fd1f9f450939eeb1ca5bcb5d7a3ba5cc36c2fed0023f9dcb4",
    "size_bytes": 10387033,
    "updated": "2026-09-19T21:16:43.411Z"
