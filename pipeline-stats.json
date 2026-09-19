@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-09-19T15:05:02+00:00",
+ "generated_at": "2026-09-19T15:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 763,
-  "scanned": 763,
-  "connector": 248,
-  "non_connector": 515,
+  "task_folders": 765,
+  "scanned": 765,
+  "connector": 249,
+  "non_connector": 516,
   "errors": 0
  },
  "connector_provenance": {
   "real": 97,
-  "unknown": 92,
+  "unknown": 93,
   "synthetic": 59
  },
  "domain": {
-  "unnamed": 276,
-  "code": 145,
+  "unnamed": 277,
+  "code": 146,
   "fin": 50,
   "gen": 200,
   "health": 50,
   "law": 42
  },
  "name_prefix": {
-  "harbor": 252,
-  "obi": 511
+  "harbor": 253,
+  "obi": 512
  },
  "connector_services": {
-  "google-drive-gym": 158,
-  "zeta3-sql-gym": 145,
-  "confluence-gym": 141,
-  "email-gym": 141,
-  "freshdesk-gym": 141,
-  "jira-gym": 141,
-  "slack-gym": 118,
+  "google-drive-gym": 159,
+  "zeta3-sql-gym": 146,
+  "confluence-gym": 142,
+  "email-gym": 142,
+  "freshdesk-gym": 142,
+  "jira-gym": 142,
+  "slack-gym": 119,
   "slack": 46,
   "notion-gym": 21,
   "email-calendar-gym": 10,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 265121
  },
  "errors": [],
  "tasks": [
@@ -93,6 +93,28 @@
    "sha256": "e68d96fdc6a1fd85d26a08403db22a1953430f618800217fdc46667c80ac4daa",
    "size_bytes": 9193516,
    "updated": "2026-09-18T14:56:05.069Z"
+  },
+  {
+   "declared_name": "harbor/check-deposit-1931-redeposit-review",
+   "declared_short": "check-deposit-1931-redeposit-review",
+   "folder": "100832",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "4ad724166d633f0fd1297db00fbe62260b3100af95fe5b8f73dbc5572340ca36",
+   "size_bytes": 11810274,
+   "updated": "2026-09-19T15:21:20.005Z"
   },
   {
    "connector_provenance": "unknown",
@@ -2991,6 +3013,20 @@
    "sha256": "d14d43144a0de59bca98345201c88fc14252cbf00f5c13650da18bcd0ac12f43",
    "size_bytes": 9606254,
    "updated": "2026-09-09T20:54:22.298Z"
+  },
+  {
+   "declared_name": "obi/code-c738-sip-extension-provisioning-audit",
+   "declared_short": "code-c738-sip-extension-provisioning-audit",
+   "folder": "code-c738-sip-extension-provisioning-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "aa7b20e59f0bd27158006ec5a047bc1607a0b3f95657891cd1b0d95d16f49e8f",
+   "size_bytes": 8656294,
+   "updated": "2026-09-19T15:23:57.683Z"
   },
   {
    "connector_provenance": null,
