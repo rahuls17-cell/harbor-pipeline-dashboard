@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T01:15:03+00:00",
+ "generated_at": "2026-09-19T01:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 702,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133221
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -10310,11 +10310,7 @@
    "updated": "2026-09-10T04:30:44.134Z"
   },
   {
-   "declared_name": "harbor/verify-interest-earned-rollout-timing-and-1099-int-taxability-for-cust",
-   "declared_short": "verify-interest-earned-rollout-timing-and-1099-int-taxability-for-cust",
-   "folder": "task_verify_interest_earned_rollout_timing_and_1099_int_taxability_for_cust",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -10324,9 +10320,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/verify-interest-earned-rollout-timing-and-1099-int-taxability-for-cust",
+   "declared_short": "verify-interest-earned-rollout-timing-and-1099-int-taxability-for-cust",
    "domain": null,
+   "folder": "task_verify_interest_earned_rollout_timing_and_1099_int_taxability_for_cust",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7f7a1539d4210db6fe21f0c87db53458b835ca70b57ef4dba31c55a392f96abc",
    "size_bytes": 7264043,
    "updated": "2026-09-19T01:14:19.925Z"
