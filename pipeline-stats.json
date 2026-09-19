@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T08:10:05+00:00",
+ "generated_at": "2026-09-19T08:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 732,
-  "scanned": 732,
+  "task_folders": 733,
+  "scanned": 733,
   "connector": 239,
-  "non_connector": 493,
+  "non_connector": 494,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 54
  },
  "domain": {
-  "unnamed": 263,
+  "unnamed": 264,
   "code": 143,
   "fin": 49,
   "gen": 191,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 243,
-  "obi": 489
+  "obi": 490
  },
  "connector_services": {
   "google-drive-gym": 155,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263157
+  "new_archives_read": 1,
+  "approx_bytes_read": 131784
  },
  "errors": [],
  "tasks": [
@@ -2752,15 +2752,15 @@
    "updated": "2026-09-10T02:35:38.689Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c603-retiree-small-balance-payment-audit",
    "declared_short": "code-c603-retiree-small-balance-payment-audit",
-   "folder": "code-c603-retiree-small-balance-payment-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c603-retiree-small-balance-payment-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "3f9558d9087cbb3b45a21858df0ce1774d5fff96d3215e0ce61e0ef144836722",
    "size_bytes": 8662513,
    "updated": "2026-09-19T08:05:21.729Z"
@@ -5050,15 +5050,15 @@
    "updated": "2026-09-08T14:39:12.106Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1171-needs-ledger-evidence-audit",
    "declared_short": "gen-g1171-needs-ledger-evidence-audit",
-   "folder": "gen-g1171-needs-ledger-evidence-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1171-needs-ledger-evidence-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d1391c8166d1d04af033e0b582a7de032536d660b2b3b937279ff8f0b76d5a65",
    "size_bytes": 13196981,
    "updated": "2026-09-19T08:09:27.320Z"
@@ -10862,6 +10862,20 @@
    "sha256": "cadc9fb48cb3e311be788eb5ee60874e9b78cccbdef01ee9aa86e6fe3955f844",
    "size_bytes": 7784730,
    "updated": "2026-09-18T05:38:37.159Z"
+  },
+  {
+   "declared_name": "obi/tech-b60-t1-pentest-lab-caption-evidence-audit",
+   "declared_short": "tech-b60-t1-pentest-lab-caption-evidence-audit",
+   "folder": "tech-b60-t1-pentest-lab-caption-evidence-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "c5a8bec44c7e92c1c0284207fd506a0519307739c1629c4ece55826b6854aed6",
+   "size_bytes": 6857328,
+   "updated": "2026-09-19T08:13:51.106Z"
   },
   {
    "connector_provenance": null,
