@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T23:30:02+00:00",
+ "generated_at": "2026-09-19T23:35:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 806,
-  "scanned": 806,
+  "task_folders": 807,
+  "scanned": 807,
   "connector": 259,
-  "non_connector": 547,
+  "non_connector": 548,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 288,
   "code": 156,
-  "fin": 56,
+  "fin": 57,
   "gen": 207,
   "health": 54,
   "law": 45
  },
  "name_prefix": {
   "harbor": 263,
-  "obi": 543
+  "obi": 544
  },
  "connector_services": {
   "google-drive-gym": 164,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131538
  },
  "errors": [],
  "tasks": [
@@ -4977,6 +4977,20 @@
    "sha256": "783b1a9c03f92e390f8c6ce3c4618322c1916cf21a9bf0d1c09acbc2785565b0",
    "size_bytes": 10078110,
    "updated": "2026-09-19T05:28:21.939Z"
+  },
+  {
+   "declared_name": "obi/fin-b50-f4-cleaning-business-model-sensitivity",
+   "declared_short": "fin-b50-f4-cleaning-business-model-sensitivity",
+   "folder": "fin-b50-f4-cleaning-business-model-sensitivity",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "0d988c73437d75824b821623e2f15044fc4e7ae7902d1815477ca8888ab7f4af",
+   "size_bytes": 9800077,
+   "updated": "2026-09-19T23:33:39.165Z"
   },
   {
    "connector_provenance": null,
