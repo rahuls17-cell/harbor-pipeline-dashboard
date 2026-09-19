@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-19T00:40:03+00:00",
+ "generated_at": "2026-09-19T00:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 697,
-  "scanned": 697,
-  "connector": 219,
+  "task_folders": 699,
+  "scanned": 699,
+  "connector": 221,
   "non_connector": 478,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 80,
-  "unknown": 87,
+  "real": 81,
+  "unknown": 88,
   "synthetic": 52
  },
  "domain": {
-  "unnamed": 241,
+  "unnamed": 243,
   "code": 139,
   "fin": 44,
   "gen": 187,
@@ -22,18 +22,18 @@
   "law": 41
  },
  "name_prefix": {
-  "harbor": 223,
+  "harbor": 225,
   "obi": 474
  },
  "connector_services": {
-  "google-drive-gym": 140,
-  "zeta3-sql-gym": 124,
-  "confluence-gym": 123,
-  "email-gym": 123,
-  "freshdesk-gym": 123,
-  "jira-gym": 123,
-  "slack-gym": 113,
-  "slack": 31,
+  "google-drive-gym": 142,
+  "zeta3-sql-gym": 126,
+  "confluence-gym": 125,
+  "email-gym": 125,
+  "freshdesk-gym": 125,
+  "jira-gym": 125,
+  "slack-gym": 114,
+  "slack": 32,
   "notion-gym": 18,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
@@ -45,7 +45,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 268463
+  "approx_bytes_read": 269024
  },
  "errors": [],
  "tasks": [
@@ -3560,6 +3560,28 @@
    "updated": "2026-09-09T04:54:01.098Z"
   },
   {
+   "declared_name": "harbor/diagnose-failed-543-mobile-check-deposit-1866-stuck-in-error-state",
+   "declared_short": "diagnose-failed-543-mobile-check-deposit-1866-stuck-in-error-state",
+   "folder": "diagnose-failed-543-mobile-check-deposit-1866-stuck-in-error-state",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "eb7108dd60756804dc0c16c8ba4f67123567ea8e2b4ccc190ae8c332f44a8800",
+   "size_bytes": 12431942,
+   "updated": "2026-09-19T00:42:22.504Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -3802,17 +3824,17 @@
    "updated": "2026-09-18T19:53:36.731Z"
   },
   {
-   "declared_name": "harbor/did-magic-scheduling-ever-ship",
-   "declared_short": "did-magic-scheduling-ever-ship",
-   "folder": "did-magic-scheduling-ever-ship",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/did-magic-scheduling-ever-ship",
+   "declared_short": "did-magic-scheduling-ever-ship",
    "domain": null,
+   "folder": "did-magic-scheduling-ever-ship",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "acad5fc19ac64fd9bb7ff573dbbd4138d97d45b48bf934d0613b463359141c4e",
    "size_bytes": 11461192,
    "updated": "2026-09-19T00:37:50.310Z"
@@ -3874,15 +3896,15 @@
    "updated": "2026-09-18T15:39:06.469Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-s1-c2-exam-point-allocation",
    "declared_short": "edu-s1-c2-exam-point-allocation",
-   "folder": "edu-s1-c2-exam-point-allocation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-s1-c2-exam-point-allocation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "24b479c08c11ee77bcc78b5ea0f7d8367b6d4d3598436aad6c9866e6bc6f45ee",
    "size_bytes": 9119521,
    "updated": "2026-09-19T00:37:23.111Z"
@@ -9824,6 +9846,28 @@
    "sha256": "32079d37ec8046ae83d4f6ac5122fcd3ebba5035dcfa1f354a362c9ad2279829",
    "size_bytes": 10723656,
    "updated": "2026-09-16T23:17:14.905Z"
+  },
+  {
+   "declared_name": "harbor/out-of-network-atm-fee-replay-july-2022-cohort-card-event-402873",
+   "declared_short": "out-of-network-atm-fee-replay-july-2022-cohort-card-event-402873",
+   "folder": "replay-out-of-network-atm-fee-assessment-for-car-397ca8-v1",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "ef453eb796dcccc9e9464b9dd942e131977b5d45d398277b98dde387e3a0f82d",
+   "size_bytes": 11067702,
+   "updated": "2026-09-19T00:43:44.550Z"
   },
   {
    "connector_provenance": "unknown",
