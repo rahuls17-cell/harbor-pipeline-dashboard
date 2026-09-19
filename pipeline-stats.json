@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T15:35:03+00:00",
+ "generated_at": "2026-09-19T15:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 767,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131475
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -9201,15 +9201,15 @@
    "updated": "2026-09-19T14:05:06.796Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt5-a3-fluid-schedule-slot-reconciliation",
    "declared_short": "health-tdt5-a3-fluid-schedule-slot-reconciliation",
-   "folder": "health-tdt5-a3-fluid-schedule-slot-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt5-a3-fluid-schedule-slot-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a1b4b129ee5ce7e3ec098d9c9694d48a5dbb49c17ed716476ce4404b05a66195",
    "size_bytes": 6989921,
    "updated": "2026-09-19T15:30:27.347Z"
