@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-19T11:15:02+00:00",
+ "generated_at": "2026-09-19T11:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 744,
-  "scanned": 744,
-  "connector": 242,
+  "task_folders": 745,
+  "scanned": 745,
+  "connector": 243,
   "non_connector": 502,
   "errors": 0
  },
  "connector_provenance": {
   "real": 97,
   "unknown": 90,
-  "synthetic": 55
+  "synthetic": 56
  },
  "domain": {
-  "unnamed": 268,
+  "unnamed": 269,
   "code": 144,
   "fin": 50,
   "gen": 195,
@@ -22,7 +22,7 @@
   "law": 41
  },
  "name_prefix": {
-  "harbor": 246,
+  "harbor": 247,
   "obi": 498
  },
  "connector_services": {
@@ -41,11 +41,12 @@
   "gws-gym": 6,
   "linear-gym": 5,
   "supabase-gym": 1,
+  "teams-gym": 1,
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 147483
  },
  "errors": [],
  "tasks": [
@@ -11264,6 +11265,22 @@
    "sha256": "f58bceda14848a16c9c8df67238757a6a9a73d77645c9aae8e0aed5c5cfcf2ce",
    "size_bytes": 7839295,
    "updated": "2026-09-17T17:34:22.992Z"
+  },
+  {
+   "declared_name": "harbor/the-same-name-is-not-the-same-window",
+   "declared_short": "the-same-name-is-not-the-same-window",
+   "folder": "the-same-name-is-not-the-same-window",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "teams-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "87735d81f6a13e5bc503ccf13dd2dcfee3b1a1580e2123fb1bd14e0ef2733e3d",
+   "size_bytes": 8883641,
+   "updated": "2026-09-19T11:21:04.427Z"
   },
   {
    "connector_provenance": "synthetic",
