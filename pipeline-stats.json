@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T20:00:02+00:00",
+ "generated_at": "2026-09-19T20:05:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 782,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133213
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -899,17 +899,17 @@
    "updated": "2026-09-19T05:59:03.414Z"
   },
   {
-   "declared_name": "harbor/observed-daily-physical-card-limit-structure-2023-01-01-2026-01-01",
-   "declared_short": "observed-daily-physical-card-limit-structure-2023-01-01-2026-01-01",
-   "folder": "batch_03_classify-2-500-daily-card-limit-tier-and-confirm-piermont-max-for-card",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/observed-daily-physical-card-limit-structure-2023-01-01-2026-01-01",
+   "declared_short": "observed-daily-physical-card-limit-structure-2023-01-01-2026-01-01",
    "domain": null,
+   "folder": "batch_03_classify-2-500-daily-card-limit-tier-and-confirm-piermont-max-for-card",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "71dccf857656e3ea06f87b87572ceb4d4f2aa097351f44a0294f15f5c1594865",
    "size_bytes": 8790449,
    "updated": "2026-09-19T19:58:25.383Z"
