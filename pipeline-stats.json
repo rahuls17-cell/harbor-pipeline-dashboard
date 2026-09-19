@@ -1,39 +1,39 @@
 {
- "generated_at": "2026-09-19T00:30:02+00:00",
+ "generated_at": "2026-09-19T00:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 693,
-  "scanned": 693,
-  "connector": 217,
-  "non_connector": 476,
+  "task_folders": 695,
+  "scanned": 695,
+  "connector": 218,
+  "non_connector": 477,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 79,
+  "real": 80,
   "unknown": 86,
   "synthetic": 52
  },
  "domain": {
-  "unnamed": 238,
+  "unnamed": 239,
   "code": 139,
-  "fin": 43,
+  "fin": 44,
   "gen": 187,
   "health": 45,
   "law": 41
  },
  "name_prefix": {
-  "harbor": 221,
-  "obi": 472
+  "harbor": 222,
+  "obi": 473
  },
  "connector_services": {
-  "google-drive-gym": 139,
-  "zeta3-sql-gym": 123,
-  "confluence-gym": 122,
-  "email-gym": 122,
-  "freshdesk-gym": 122,
-  "jira-gym": 122,
+  "google-drive-gym": 140,
+  "zeta3-sql-gym": 124,
+  "confluence-gym": 123,
+  "email-gym": 123,
+  "freshdesk-gym": 123,
+  "jira-gym": 123,
   "slack-gym": 113,
-  "slack": 30,
+  "slack": 31,
   "notion-gym": 17,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 264699
  },
  "errors": [],
  "tasks": [
@@ -4418,6 +4418,20 @@
    "sha256": "1566139418acc98e33ab01313df1c1cf725e56c5d90b40c1ab7cc34582ce8431",
    "size_bytes": 8006510,
    "updated": "2026-09-16T22:52:09.323Z"
+  },
+  {
+   "declared_name": "obi/fin-b49-f6-daily-cashout-float-carry-forward",
+   "declared_short": "fin-b49-f6-daily-cashout-float-carry-forward",
+   "folder": "fin-b49-f6-daily-cashout-float-carry-forward",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "c9ec515c5833f357ba1f3f8e6f495233b8bd9104a32844b7871537920d128d94",
+   "size_bytes": 6743285,
+   "updated": "2026-09-19T00:34:50.915Z"
   },
   {
    "connector_provenance": null,
@@ -10088,6 +10102,28 @@
    "sha256": "cb7aa393f5c2b9b0608dac5b95f12d70da6bfd912e0892f6f03b8e1e94882ec6",
    "size_bytes": 13844525,
    "updated": "2026-09-17T00:08:09.326Z"
+  },
+  {
+   "declared_name": "harbor/diagnose-returned-700-ach-transfer-293677-with-return-code-r09",
+   "declared_short": "diagnose-returned-700-ach-transfer-293677-with-return-code-r09",
+   "folder": "task_diagnose_returned_700_ach_transfer_293677_with_return_code_r09",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "346f42b36e3420ba9b49367a8e7ae490470a9fa85f7e29038d86b33768c2d659",
+   "size_bytes": 9321536,
+   "updated": "2026-09-19T00:32:27.730Z"
   },
   {
    "connector_provenance": "real",
