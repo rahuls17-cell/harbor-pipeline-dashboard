@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T10:20:02+00:00",
+ "generated_at": "2026-09-19T10:25:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 741,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131523
  },
  "errors": [],
  "tasks": [
@@ -4364,18 +4364,18 @@
    "updated": "2026-09-13T08:30:38.086Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/fin-b43-a1-vendor-cost-pool-attribution",
    "declared_short": "fin-b43-a1-vendor-cost-pool-attribution",
-   "domain": "fin",
    "folder": "fin-b43-a1-vendor-cost-pool-attribution",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "1d17f6e428921067654e3acf0a938b444f4ce19d7a0384de5e328d60ad1860cc",
-   "size_bytes": 15060216,
-   "updated": "2026-09-16T13:41:48.372Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "0d42e7b65ccac92e7423f35f33a7f73bfc69c4516a78a33c33f2fc34125e66c0",
+   "size_bytes": 15960488,
+   "updated": "2026-09-19T10:20:46.951Z"
   },
   {
    "connector_provenance": null,
