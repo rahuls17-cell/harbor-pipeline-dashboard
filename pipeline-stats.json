@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T20:10:03+00:00",
+ "generated_at": "2026-09-19T20:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 782,
-  "scanned": 782,
+  "task_folders": 783,
+  "scanned": 783,
   "connector": 254,
-  "non_connector": 528,
+  "non_connector": 529,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 151,
   "fin": 52,
   "gen": 202,
-  "health": 52,
+  "health": 53,
   "law": 43
  },
  "name_prefix": {
   "harbor": 258,
-  "obi": 524
+  "obi": 525
  },
  "connector_services": {
   "google-drive-gym": 162,
@@ -46,7 +46,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134691
+  "approx_bytes_read": 131457
  },
  "errors": [],
  "tasks": [
@@ -9357,6 +9357,20 @@
    "updated": "2026-09-19T14:05:06.796Z"
   },
   {
+   "declared_name": "obi/health-tdt5-a1-citation-register-normalization",
+   "declared_short": "health-tdt5-a1-citation-register-normalization",
+   "folder": "health-tdt5-a1-citation-register-normalization",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "8498344014856937543c7bbca5eb6c5ffe276477c92c217b18cf46474e885a69",
+   "size_bytes": 7715183,
+   "updated": "2026-09-19T20:10:54.355Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt5-a3-fluid-schedule-slot-reconciliation",
@@ -11239,11 +11253,7 @@
    "updated": "2026-09-18T21:18:22.836Z"
   },
   {
-   "declared_name": "harbor/chargeback-pipeline-reconciliation-dispute-complaints-2024-01-01-2025-03-31",
-   "declared_short": "chargeback-pipeline-reconciliation-dispute-complaints-2024-01-01-2025-03-31",
-   "folder": "task_verify_chargeback_status_on_277_unauthorized_card_dispute_complaint_12",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -11253,9 +11263,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/chargeback-pipeline-reconciliation-dispute-complaints-2024-01-01-2025-03-31",
+   "declared_short": "chargeback-pipeline-reconciliation-dispute-complaints-2024-01-01-2025-03-31",
    "domain": null,
+   "folder": "task_verify_chargeback_status_on_277_unauthorized_card_dispute_complaint_12",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "979a2eeca31cbfb96c1657fccaf174023d375091dbf3bb24f36b04aad42a75de",
    "size_bytes": 9443489,
    "updated": "2026-09-19T20:05:33.048Z"
