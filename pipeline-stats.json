@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T15:00:03+00:00",
+ "generated_at": "2026-09-19T15:05:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 763,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133494
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -11939,11 +11939,7 @@
    "updated": "2026-09-10T06:15:21.206Z"
   },
   {
-   "declared_name": "harbor/verify-ofac-ongoing-monitoring-backfill-for-pre-launch-application-114",
-   "declared_short": "verify-ofac-ongoing-monitoring-backfill-for-pre-launch-application-114",
-   "folder": "verify-ofac-ongoing-monitoring-backfill-for-pre-launch-application-114",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -11953,9 +11949,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/verify-ofac-ongoing-monitoring-backfill-for-pre-launch-application-114",
+   "declared_short": "verify-ofac-ongoing-monitoring-backfill-for-pre-launch-application-114",
    "domain": null,
+   "folder": "verify-ofac-ongoing-monitoring-backfill-for-pre-launch-application-114",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "851aff9007edaaae92d52b4b0130f78f034270cf37ec98546db850a3c575c16e",
    "size_bytes": 7126018,
    "updated": "2026-09-19T14:57:00.116Z"
