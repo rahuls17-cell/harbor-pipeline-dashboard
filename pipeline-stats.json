@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T07:35:03+00:00",
+ "generated_at": "2026-09-19T07:45:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 729,
-  "scanned": 729,
+  "task_folders": 730,
+  "scanned": 730,
   "connector": 238,
-  "non_connector": 491,
+  "non_connector": 492,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 262,
   "code": 143,
-  "fin": 48,
+  "fin": 49,
   "gen": 190,
   "health": 45,
   "law": 41
  },
  "name_prefix": {
   "harbor": 242,
-  "obi": 487
+  "obi": 488
  },
  "connector_services": {
   "google-drive-gym": 155,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131455
  },
  "errors": [],
  "tasks": [
@@ -4628,6 +4628,20 @@
    "sha256": "783b1a9c03f92e390f8c6ce3c4618322c1916cf21a9bf0d1c09acbc2785565b0",
    "size_bytes": 10078110,
    "updated": "2026-09-19T05:28:21.939Z"
+  },
+  {
+   "declared_name": "obi/fin-b50-f8-qbo-bank-feed-ramp-statement-review",
+   "declared_short": "fin-b50-f8-qbo-bank-feed-ramp-statement-review",
+   "folder": "fin-b50-f8-qbo-bank-feed-ramp-statement-review",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "0a33a4bc5d676260e49797f9bc6e896e0e6007a628f2b8e2ffb3924beaf57f6a",
+   "size_bytes": 6016055,
+   "updated": "2026-09-19T07:41:14.704Z"
   },
   {
    "connector_provenance": null,
