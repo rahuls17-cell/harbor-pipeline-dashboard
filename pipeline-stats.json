@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T19:25:02+00:00",
+ "generated_at": "2026-09-19T19:30:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 781,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262974
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1497,15 +1497,15 @@
    "updated": "2026-09-10T20:33:00.445Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c237-oncall-runbook-freshness-audit",
    "declared_short": "code-c237-oncall-runbook-freshness-audit",
-   "folder": "code-c237-oncall-runbook-freshness-audit-505bba-v1-sna-pdqm",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c237-oncall-runbook-freshness-audit-505bba-v1-sna-pdqm",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c711486485e4e7cbafc9c5d03e0296d61043ceb708cbe16c86361c725a2d4133",
    "size_bytes": 10992179,
    "updated": "2026-09-19T19:21:24.250Z"
@@ -9843,15 +9843,15 @@
    "updated": "2026-09-18T06:47:53.163Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b39-l12-self-represented-filing-guide-audit",
    "declared_short": "law-b39-l12-self-represented-filing-guide-audit",
-   "folder": "law-b39-l12-self-represented-filing-guide-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b39-l12-self-represented-filing-guide-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "828ded9d9cb9725829daaab54ecfc5f53622efa388eaba12696f15ac387c21e1",
    "size_bytes": 5504917,
    "updated": "2026-09-19T19:21:10.551Z"
