@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T10:45:03+00:00",
+ "generated_at": "2026-09-19T10:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 742,
-  "scanned": 742,
+  "task_folders": 743,
+  "scanned": 743,
   "connector": 241,
-  "non_connector": 501,
+  "non_connector": 502,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 267,
-  "code": 143,
+  "code": 144,
   "fin": 50,
   "gen": 195,
   "health": 46,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 245,
-  "obi": 497
+  "obi": 498
  },
  "connector_services": {
   "google-drive-gym": 156,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131516
  },
  "errors": [],
  "tasks": [
@@ -1616,6 +1616,20 @@
    "sha256": "94416a5f02bed5acc08e7caf43dc983919c6dab74086683b22c96ff2b3acecbf",
    "size_bytes": 4404697,
    "updated": "2026-09-09T04:37:57.104Z"
+  },
+  {
+   "declared_name": "obi/code-c294-ai-tool-procurement-approval-audit",
+   "declared_short": "code-c294-ai-tool-procurement-approval-audit",
+   "folder": "code-c294-ai-tool-procurement-approval-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "77734c7bb392429b04e6e082c8937224abf2ed0e3136e5d640e31325cdb9ce62",
+   "size_bytes": 6403240,
+   "updated": "2026-09-19T10:46:57.161Z"
   },
   {
    "connector_provenance": null,
