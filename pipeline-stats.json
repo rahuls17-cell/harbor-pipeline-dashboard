@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T06:10:03+00:00",
+ "generated_at": "2026-09-19T06:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 719,
-  "scanned": 719,
+  "task_folders": 721,
+  "scanned": 721,
   "connector": 237,
-  "non_connector": 482,
+  "non_connector": 484,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 261,
-  "code": 140,
+  "code": 141,
   "fin": 45,
-  "gen": 187,
+  "gen": 188,
   "health": 45,
   "law": 41
  },
  "name_prefix": {
   "harbor": 241,
-  "obi": 478
+  "obi": 480
  },
  "connector_services": {
   "google-drive-gym": 155,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 394439
  },
  "errors": [],
  "tasks": [
@@ -1588,6 +1588,20 @@
    "updated": "2026-09-09T04:37:57.104Z"
   },
   {
+   "declared_name": "obi/code-c296-site-content-card-publish-audit",
+   "declared_short": "code-c296-site-content-card-publish-audit",
+   "folder": "code-c296-site-content-card-publish-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "f45b958149ddd258fc665960a501c9a7ddb1ba8bc19f58b15aab392b8e4ed858",
+   "size_bytes": 8945004,
+   "updated": "2026-09-19T06:34:52.141Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c317-msp-backup-verification-audit",
@@ -2246,18 +2260,18 @@
    "updated": "2026-09-06T17:01:59.435Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/code-c475-bookkeeping-deadline-escalation-audit",
    "declared_short": "code-c475-bookkeeping-deadline-escalation-audit",
-   "domain": "code",
    "folder": "code-c475-bookkeeping-deadline-escalation-audit-95f4a8-v1-sna-czkk",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "9b3f55a465c57165a50c12217a40ba2b4164d558b55bd14a6f2d87bab11df642",
-   "size_bytes": 6453896,
-   "updated": "2026-09-16T23:23:58.043Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "0b83e5cff671b66fcfcdbd3e7109996465babbc3b7f9f63d27ad2857f72e42d5",
+   "size_bytes": 7667554,
+   "updated": "2026-09-19T06:33:36.632Z"
   },
   {
    "connector_provenance": null,
@@ -5424,6 +5438,20 @@
    "sha256": "7d0780b8b507541fba6eb04fd6514a50bc8f3ab8863a8b96ff991f3c9f65a5f6",
    "size_bytes": 4575806,
    "updated": "2026-09-06T01:00:38.933Z"
+  },
+  {
+   "declared_name": "obi/gen-g247-paint-checklist-audit",
+   "declared_short": "gen-g247-paint-checklist-audit",
+   "folder": "gen-g247-paint-checklist-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "6ff0393b891b8950ddea4908e7347dbf65c2165a7a6c1342ea13ba9af0a0525f",
+   "size_bytes": 8245357,
+   "updated": "2026-09-19T06:32:20.427Z"
   },
   {
    "connector_provenance": null,
