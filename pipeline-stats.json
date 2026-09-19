@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-19T13:10:02+00:00",
+ "generated_at": "2026-09-19T13:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 752,
-  "scanned": 752,
-  "connector": 244,
+  "task_folders": 753,
+  "scanned": 753,
+  "connector": 245,
   "non_connector": 508,
   "errors": 0
  },
  "connector_provenance": {
   "real": 97,
   "unknown": 90,
-  "synthetic": 57
+  "synthetic": 58
  },
  "domain": {
-  "unnamed": 271,
+  "unnamed": 272,
   "code": 145,
   "fin": 50,
   "gen": 197,
@@ -22,7 +22,7 @@
   "law": 41
  },
  "name_prefix": {
-  "harbor": 248,
+  "harbor": 249,
   "obi": 504
  },
  "connector_services": {
@@ -34,7 +34,7 @@
   "jira-gym": 139,
   "slack-gym": 116,
   "slack": 46,
-  "notion-gym": 20,
+  "notion-gym": 21,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
   "github-gym": 8,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 268723
  },
  "errors": [],
  "tasks": [
@@ -9311,7 +9311,11 @@
    "updated": "2026-09-18T17:51:14.900Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/investigate-returned-mobile-check-deposit-8596-for-2-034-25-flagged-as",
+   "declared_short": "investigate-returned-mobile-check-deposit-8596-for-2-034-25-flagged-as",
+   "folder": "investigate-returned-mobile-check-deposit-8596-for-2-034-25-flagged-as",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -9321,16 +9325,12 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/investigate-returned-mobile-check-deposit-8596-for-2-034-25-flagged-as",
-   "declared_short": "investigate-returned-mobile-check-deposit-8596-for-2-034-25-flagged-as",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "investigate-returned-mobile-check-deposit-8596-for-2-034-25-flagged-as",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "66c36d2e70ae34a63226ea40ae972a3e025ab420ed2eb1b7a91d3caef8ded926",
-   "size_bytes": 4318365,
-   "updated": "2026-09-10T06:07:05.686Z"
+   "sha256": "fa12051edb91b6e7817bca0e2b925af9d73067cdf3109ed36b466ea499820f36",
+   "size_bytes": 7789860,
+   "updated": "2026-09-19T13:20:23.277Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -11381,6 +11381,22 @@
    "sha256": "b847bb4e459368431d5fa4fec35fe5ec8d19e2bd4e7c337bd909353f8240c4e1",
    "size_bytes": 10026296,
    "updated": "2026-09-19T12:27:04.857Z"
+  },
+  {
+   "declared_name": "harbor/the-two-wikis-with-no-columns",
+   "declared_short": "the-two-wikis-with-no-columns",
+   "folder": "the-two-wikis-with-no-columns",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "eb9a4aa1bafadf2d9426c429490bf34f5ee64c2e3b5e542f5c6d572f9e353ce9",
+   "size_bytes": 8082195,
+   "updated": "2026-09-19T13:21:55.547Z"
   },
   {
    "connector_provenance": "synthetic",
