@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T18:10:03+00:00",
+ "generated_at": "2026-09-19T18:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 776,
-  "scanned": 776,
+  "task_folders": 777,
+  "scanned": 777,
   "connector": 253,
-  "non_connector": 523,
+  "non_connector": 524,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 281,
   "code": 149,
   "fin": 51,
-  "gen": 201,
+  "gen": 202,
   "health": 52,
   "law": 42
  },
  "name_prefix": {
   "harbor": 257,
-  "obi": 519
+  "obi": 520
  },
  "connector_services": {
   "google-drive-gym": 161,
@@ -46,7 +46,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 132935
+  "approx_bytes_read": 131564
  },
  "errors": [],
  "tasks": [
@@ -5545,6 +5545,20 @@
    "updated": "2026-09-06T12:12:28.305Z"
   },
   {
+   "declared_name": "obi/gen-g126-facility-maintenance-work-order-priority-audit",
+   "declared_short": "gen-g126-facility-maintenance-work-order-priority-audit",
+   "folder": "gen-g126-facility-maintenance-work-order-priority-audit-v8",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "47fa7c3c5b4c821b21e834a96acb1ac1f4bcb5713ace53ac9981d093efb0eca9",
+   "size_bytes": 8061450,
+   "updated": "2026-09-19T18:11:10.422Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g1263-worship-slide-style-compliance-audit",
@@ -10851,11 +10865,7 @@
    "updated": "2026-09-08T17:12:15.691Z"
   },
   {
-   "declared_name": "harbor/audit-self-healing-retry-chain-for-canceled-500-ach-funding-pull-trans",
-   "declared_short": "audit-self-healing-retry-chain-for-canceled-500-ach-funding-pull-trans",
-   "folder": "task_audit_self_healing_retry_chain_for_canceled_500_ach_funding_pull_trans",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -10865,9 +10875,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/audit-self-healing-retry-chain-for-canceled-500-ach-funding-pull-trans",
+   "declared_short": "audit-self-healing-retry-chain-for-canceled-500-ach-funding-pull-trans",
    "domain": null,
+   "folder": "task_audit_self_healing_retry_chain_for_canceled_500_ach_funding_pull_trans",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "34e5757cb3647d0bc49d82df49230b3a37b445694a22a53545acc5f0901a4252",
    "size_bytes": 9298149,
    "updated": "2026-09-19T18:09:53.404Z"
