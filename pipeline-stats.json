@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T09:30:02+00:00",
+ "generated_at": "2026-09-19T10:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 739,
-  "scanned": 739,
+  "task_folders": 740,
+  "scanned": 740,
   "connector": 240,
-  "non_connector": 499,
+  "non_connector": 500,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 266,
   "code": 143,
-  "fin": 49,
+  "fin": 50,
   "gen": 194,
   "health": 46,
   "law": 41
  },
  "name_prefix": {
   "harbor": 244,
-  "obi": 495
+  "obi": 496
  },
  "connector_services": {
   "google-drive-gym": 155,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131408
  },
  "errors": [],
  "tasks": [
@@ -4670,6 +4670,20 @@
    "sha256": "69f3c6e857777b4621f75569c1cf4e3c519a76355be3a2be0ad0d6e33546441b",
    "size_bytes": 6516137,
    "updated": "2026-09-09T13:26:58.809Z"
+  },
+  {
+   "declared_name": "obi/fin-f18-capex-opex-classification",
+   "declared_short": "fin-f18-capex-opex-classification",
+   "folder": "fin-f18-capex-opex-classification",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "0acdf5dcfc02fadaeb5d69527b0ac3995e2c36e40bd53797afa0a946c895eda4",
+   "size_bytes": 8617167,
+   "updated": "2026-09-19T10:08:06.447Z"
   },
   {
    "connector_provenance": null,
