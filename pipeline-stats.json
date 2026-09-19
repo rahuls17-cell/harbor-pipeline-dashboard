@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-19T01:20:03+00:00",
+ "generated_at": "2026-09-19T01:25:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 702,
-  "scanned": 702,
-  "connector": 224,
+  "task_folders": 704,
+  "scanned": 704,
+  "connector": 226,
   "non_connector": 478,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 83,
+  "real": 85,
   "unknown": 89,
   "synthetic": 52
  },
  "domain": {
-  "unnamed": 246,
+  "unnamed": 248,
   "code": 139,
   "fin": 44,
   "gen": 187,
@@ -22,18 +22,18 @@
   "law": 41
  },
  "name_prefix": {
-  "harbor": 228,
+  "harbor": 230,
   "obi": 474
  },
  "connector_services": {
-  "google-drive-gym": 144,
-  "zeta3-sql-gym": 128,
-  "confluence-gym": 127,
-  "email-gym": 127,
-  "freshdesk-gym": 127,
-  "jira-gym": 127,
+  "google-drive-gym": 146,
+  "zeta3-sql-gym": 130,
+  "confluence-gym": 129,
+  "email-gym": 129,
+  "freshdesk-gym": 129,
+  "jira-gym": 129,
   "slack-gym": 114,
-  "slack": 34,
+  "slack": 36,
   "notion-gym": 19,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 399511
  },
  "errors": [],
  "tasks": [
@@ -10050,20 +10050,20 @@
    "updated": "2026-09-13T15:17:43.372Z"
   },
   {
-   "connector_provenance": "real",
+   "declared_name": "harbor/tag-estate-grade-versus-status-split",
+   "declared_short": "tag-estate-grade-versus-status-split",
+   "folder": "tag-estate-grade-versus-status-split",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "google-drive-gym"
    ],
-   "declared_name": "harbor/tag-estate-grade-versus-status-split",
-   "declared_short": "tag-estate-grade-versus-status-split",
+   "connector_provenance": "real",
    "domain": null,
-   "folder": "tag-estate-grade-versus-status-split",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "a296725f2d391b27c11d059e4bafdd15ac6260735c0cb3afdd33c1b92f290110",
-   "size_bytes": 4799496,
-   "updated": "2026-09-05T20:14:23.783Z"
+   "sha256": "ddfd2edd0214adbb70d6fc05316af006d1fb864e3cb15d07c445aa158a9b0215",
+   "size_bytes": 15403207,
+   "updated": "2026-09-19T01:23:02.097Z"
   },
   {
    "connector_provenance": "real",
@@ -10176,6 +10176,28 @@
    "sha256": "63c3ffbe0f530d6615657c18391cea50f4a58a9e6ce416a9deb81e9e7ce08cc1",
    "size_bytes": 12026367,
    "updated": "2026-09-19T00:55:14.465Z"
+  },
+  {
+   "declared_name": "harbor/diagnose-failed-175-bill-payment-160045-due-2023-08-20",
+   "declared_short": "diagnose-failed-175-bill-payment-160045-due-2023-08-20",
+   "folder": "task_diagnose_failed_175_bill_payment_160045_due_2023_08_20",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "77fb94097817211bdbf085e28434a7d17fab0338fba60793903c0fe6099f37a8",
+   "size_bytes": 19289604,
+   "updated": "2026-09-19T01:24:05.114Z"
   },
   {
    "connector_provenance": "unknown",
@@ -10308,6 +10330,28 @@
    "sha256": "c5951c6cef6cdb504de1c05ea5f5a50339e39bb49684a54fd3c03aea27161b5d",
    "size_bytes": 5609243,
    "updated": "2026-09-10T04:30:44.134Z"
+  },
+  {
+   "declared_name": "harbor/verify-duplicate-doordash-charge-and-hold-claim-for-member-62396",
+   "declared_short": "verify-duplicate-doordash-charge-and-hold-claim-for-member-62396",
+   "folder": "task_verify_duplicate_doordash_charge_and_hold_claim_for_member_62396",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "bcca28d1a8140135ec504ec748e7d8c9be988f9922be2d72baaa75d8ece02d2c",
+   "size_bytes": 9866371,
+   "updated": "2026-09-19T01:20:04.916Z"
   },
   {
    "connector_provenance": "real",
