@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-19T02:40:02+00:00",
+ "generated_at": "2026-09-19T02:45:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 708,
-  "scanned": 708,
-  "connector": 230,
+  "task_folders": 709,
+  "scanned": 709,
+  "connector": 231,
   "non_connector": 478,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 90,
+  "real": 91,
   "unknown": 88,
   "synthetic": 52
  },
  "domain": {
-  "unnamed": 252,
+  "unnamed": 253,
   "code": 139,
   "fin": 44,
   "gen": 187,
@@ -22,18 +22,18 @@
   "law": 41
  },
  "name_prefix": {
-  "harbor": 234,
+  "harbor": 235,
   "obi": 474
  },
  "connector_services": {
-  "google-drive-gym": 150,
-  "zeta3-sql-gym": 134,
-  "confluence-gym": 133,
-  "email-gym": 133,
-  "freshdesk-gym": 133,
-  "jira-gym": 133,
+  "google-drive-gym": 151,
+  "zeta3-sql-gym": 135,
+  "confluence-gym": 134,
+  "email-gym": 134,
+  "freshdesk-gym": 134,
+  "jira-gym": 134,
   "slack-gym": 113,
-  "slack": 41,
+  "slack": 42,
   "notion-gym": 19,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 134622
  },
  "errors": [],
  "tasks": [
@@ -10154,6 +10154,28 @@
    "sha256": "2e28ba580fe588266e3f52191368431a20ceb38b55cdb27e717f1a578c583d38",
    "size_bytes": 6840663,
    "updated": "2026-09-13T03:56:23.558Z"
+  },
+  {
+   "declared_name": "harbor/ach-pull-batch-schedule-derived-from-data-first-ever-pull-convention-audit-2025-03-01-2025-03-31",
+   "declared_short": "ach-pull-batch-schedule-derived-from-data-first-ever-pull-convention-audit-2025-03-01-2025-03-31",
+   "folder": "task_determine_ach_pull_batch_assignment_for_first_ever_debit_on_account_19_2",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "06154f6f4f785fdfa2f554bee50823c491b950cde12cbe29bdf39840a5d64af5",
+   "size_bytes": 8439694,
+   "updated": "2026-09-19T02:43:54.453Z"
   },
   {
    "connector_provenance": "real",
