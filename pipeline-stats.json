@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T07:20:03+00:00",
+ "generated_at": "2026-09-19T07:25:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 728,
-  "scanned": 728,
+  "task_folders": 729,
+  "scanned": 729,
   "connector": 238,
-  "non_connector": 490,
+  "non_connector": 491,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 262,
   "code": 143,
   "fin": 48,
-  "gen": 189,
+  "gen": 190,
   "health": 45,
   "law": 41
  },
  "name_prefix": {
   "harbor": 242,
-  "obi": 486
+  "obi": 487
  },
  "connector_services": {
   "google-drive-gym": 155,
@@ -45,7 +45,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131458
+  "approx_bytes_read": 131583
  },
  "errors": [],
  "tasks": [
@@ -4588,15 +4588,15 @@
    "updated": "2026-09-16T22:52:09.323Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b49-f1-portfolio-spy-projection-recompute-v1",
    "declared_short": "fin-b49-f1-portfolio-spy-projection-recompute-v1",
-   "folder": "fin-b49-f1-portfolio-spy-projection-recompute-v1",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b49-f1-portfolio-spy-projection-recompute-v1",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "3012dcdf49f4260f677481f99b88dbabc4531a3f310b7d847ab07f9932587362",
    "size_bytes": 5455792,
    "updated": "2026-09-19T07:17:04.138Z"
@@ -4950,6 +4950,20 @@
    "sha256": "cf6c6d7f6a6d48781017b46e3e96593274e9b0fb0b26387150ca3cd3b50c1e17",
    "size_bytes": 6950209,
    "updated": "2026-09-18T08:44:12.598Z"
+  },
+  {
+   "declared_name": "obi/gen-g1128-access-lab-query-result-audit",
+   "declared_short": "gen-g1128-access-lab-query-result-audit",
+   "folder": "gen-g1128-access-lab-query-result-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "ba928dd01fa89074dbda27853dc8fdc51325d52c14b577fffca27f29d5930495",
+   "size_bytes": 4988302,
+   "updated": "2026-09-19T07:23:13.602Z"
   },
   {
    "connector_provenance": null,
