@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-19T18:05:03+00:00",
+ "generated_at": "2026-09-19T18:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 775,
-  "scanned": 775,
-  "connector": 252,
+  "task_folders": 776,
+  "scanned": 776,
+  "connector": 253,
   "non_connector": 523,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 99,
+  "real": 100,
   "unknown": 93,
   "synthetic": 60
  },
  "domain": {
-  "unnamed": 280,
+  "unnamed": 281,
   "code": 149,
   "fin": 51,
   "gen": 201,
@@ -22,18 +22,18 @@
   "law": 42
  },
  "name_prefix": {
-  "harbor": 256,
+  "harbor": 257,
   "obi": 519
  },
  "connector_services": {
-  "google-drive-gym": 160,
-  "zeta3-sql-gym": 148,
-  "confluence-gym": 144,
-  "email-gym": 143,
-  "freshdesk-gym": 143,
-  "jira-gym": 143,
+  "google-drive-gym": 161,
+  "zeta3-sql-gym": 149,
+  "confluence-gym": 145,
+  "email-gym": 144,
+  "freshdesk-gym": 144,
+  "jira-gym": 144,
   "slack-gym": 119,
-  "slack": 48,
+  "slack": 49,
   "notion-gym": 22,
   "email-calendar-gym": 10,
   "github-gym": 9,
@@ -46,7 +46,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131422
+  "approx_bytes_read": 132935
  },
  "errors": [],
  "tasks": [
@@ -6665,15 +6665,15 @@
    "updated": "2026-09-19T11:28:56.455Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g645-ai-charter-signoff-audit",
    "declared_short": "gen-g645-ai-charter-signoff-audit",
-   "folder": "gen-g645-ai-charter-signoff-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g645-ai-charter-signoff-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ed3224b88888b60983b73f2b87997adf158c6e5b67ead700f99e8ed5392dd919",
    "size_bytes": 6843661,
    "updated": "2026-09-19T18:04:59.582Z"
@@ -10849,6 +10849,28 @@
    "sha256": "320db6c0de053bc660f386ba8a9dd252f29f7cb7f7d17b2c9e0d73adff3261ba",
    "size_bytes": 3616459,
    "updated": "2026-09-08T17:12:15.691Z"
+  },
+  {
+   "declared_name": "harbor/audit-self-healing-retry-chain-for-canceled-500-ach-funding-pull-trans",
+   "declared_short": "audit-self-healing-retry-chain-for-canceled-500-ach-funding-pull-trans",
+   "folder": "task_audit_self_healing_retry_chain_for_canceled_500_ach_funding_pull_trans",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "34e5757cb3647d0bc49d82df49230b3a37b445694a22a53545acc5f0901a4252",
+   "size_bytes": 9298149,
+   "updated": "2026-09-19T18:09:53.404Z"
   },
   {
    "connector_provenance": "synthetic",
