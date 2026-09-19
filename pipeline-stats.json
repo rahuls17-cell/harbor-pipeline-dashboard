@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T21:00:03+00:00",
+ "generated_at": "2026-09-19T21:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 791,
-  "scanned": 791,
+  "task_folders": 793,
+  "scanned": 793,
   "connector": 255,
-  "non_connector": 536,
+  "non_connector": 538,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 283,
-  "code": 152,
-  "fin": 54,
+  "code": 153,
+  "fin": 55,
   "gen": 204,
   "health": 54,
   "law": 44
  },
  "name_prefix": {
   "harbor": 259,
-  "obi": 532
+  "obi": 534
  },
  "connector_services": {
   "google-drive-gym": 162,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263067
  },
  "errors": [],
  "tasks": [
@@ -2981,6 +2981,20 @@
    "updated": "2026-09-05T21:47:46.087Z"
   },
   {
+   "declared_name": "obi/code-c682-saas-addon-provisioning-audit",
+   "declared_short": "code-c682-saas-addon-provisioning-audit",
+   "folder": "code-c682-saas-addon-provisioning-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "ef0f302f6a96001648105a7622913d34dc2476fa8a207b7e0a794abc1672b743",
+   "size_bytes": 8781050,
+   "updated": "2026-09-19T21:04:50.683Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c700-hero-asset-production-qc-audit",
@@ -4473,6 +4487,20 @@
    "sha256": "b6f9e2157e084070134516a52d31b717b91bab324eed7a0cd0ea0cf66c338573",
    "size_bytes": 9275803,
    "updated": "2026-09-19T19:38:52.900Z"
+  },
+  {
+   "declared_name": "obi/fin-b40-a6-household-ledger-category-canonicalisation",
+   "declared_short": "fin-b40-a6-household-ledger-category-canonicalisation",
+   "folder": "fin-b40-a6-household-ledger-category-canonicalisation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "fe830b27aba87e8985a76a4bb746160df68b62934bee157e809ffa0d5d7028ee",
+   "size_bytes": 6843753,
+   "updated": "2026-09-19T21:04:34.072Z"
   },
   {
    "connector_provenance": null,
