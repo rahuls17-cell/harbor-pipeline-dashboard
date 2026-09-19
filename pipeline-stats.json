@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T02:10:03+00:00",
+ "generated_at": "2026-09-19T02:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 707,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133219
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -10870,11 +10870,7 @@
    "updated": "2026-09-06T04:20:30.120Z"
   },
   {
-   "declared_name": "harbor/verify-atm-daily-withdrawal-limit-for-joint-account-customer-needing-m",
-   "declared_short": "verify-atm-daily-withdrawal-limit-for-joint-account-customer-needing-m",
-   "folder": "verify-atm-daily-withdrawal-limit-for-joint-acco-ed333b-v1",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -10884,9 +10880,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/verify-atm-daily-withdrawal-limit-for-joint-account-customer-needing-m",
+   "declared_short": "verify-atm-daily-withdrawal-limit-for-joint-account-customer-needing-m",
    "domain": null,
+   "folder": "verify-atm-daily-withdrawal-limit-for-joint-acco-ed333b-v1",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "854b202d42f7cbcc6bbb234dc4e501e4e6fb6649059068b9565990b9822119ea",
    "size_bytes": 10990604,
    "updated": "2026-09-19T02:06:35.958Z"
