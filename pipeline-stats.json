@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T16:55:03+00:00",
+ "generated_at": "2026-09-19T17:00:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 770,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263114
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4543,15 +4543,15 @@
    "updated": "2026-09-18T13:10:29.387Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b44-a9-comparable-sales-series-rebuild",
    "declared_short": "fin-b44-a9-comparable-sales-series-rebuild",
-   "folder": "fin-b44-a9-comparable-sales-series-rebuild",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b44-a9-comparable-sales-series-rebuild",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9e31f67f98e192583fb1550784cf91da6cae8d282c08627adf06778a432a37a2",
    "size_bytes": 9308385,
    "updated": "2026-09-19T16:53:56.787Z"
@@ -8935,15 +8935,15 @@
    "updated": "2026-09-18T17:08:17.308Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h568-methylation-dmr-table-recompute",
    "declared_short": "health-h568-methylation-dmr-table-recompute",
-   "folder": "health-h568-methylation-dmr-table-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h568-methylation-dmr-table-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "bec24cc5ee2e06d0ebc93e3f0f7ebca57e9a40f9742af9b783e7738ed05151fd",
    "size_bytes": 5265163,
    "updated": "2026-09-19T16:50:58.554Z"
