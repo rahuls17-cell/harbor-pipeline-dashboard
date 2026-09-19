@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-19T14:55:02+00:00",
+ "generated_at": "2026-09-19T15:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 762,
-  "scanned": 762,
-  "connector": 247,
+  "task_folders": 763,
+  "scanned": 763,
+  "connector": 248,
   "non_connector": 515,
   "errors": 0
  },
  "connector_provenance": {
   "real": 97,
-  "unknown": 91,
+  "unknown": 92,
   "synthetic": 59
  },
  "domain": {
-  "unnamed": 275,
+  "unnamed": 276,
   "code": 145,
   "fin": 50,
   "gen": 200,
@@ -22,17 +22,17 @@
   "law": 42
  },
  "name_prefix": {
-  "harbor": 251,
+  "harbor": 252,
   "obi": 511
  },
  "connector_services": {
-  "google-drive-gym": 157,
-  "zeta3-sql-gym": 144,
-  "confluence-gym": 140,
-  "email-gym": 140,
-  "freshdesk-gym": 140,
-  "jira-gym": 140,
-  "slack-gym": 117,
+  "google-drive-gym": 158,
+  "zeta3-sql-gym": 145,
+  "confluence-gym": 141,
+  "email-gym": 141,
+  "freshdesk-gym": 141,
+  "jira-gym": 141,
+  "slack-gym": 118,
   "slack": 46,
   "notion-gym": 21,
   "email-calendar-gym": 10,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133494
  },
  "errors": [],
  "tasks": [
@@ -11937,6 +11937,28 @@
    "sha256": "8c2feb63b5d7c0c1c8a0be607d9a9ca3446d26ad051ddf09a1e1a2ebd7151a78",
    "size_bytes": 15778056,
    "updated": "2026-09-10T06:15:21.206Z"
+  },
+  {
+   "declared_name": "harbor/verify-ofac-ongoing-monitoring-backfill-for-pre-launch-application-114",
+   "declared_short": "verify-ofac-ongoing-monitoring-backfill-for-pre-launch-application-114",
+   "folder": "verify-ofac-ongoing-monitoring-backfill-for-pre-launch-application-114",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "851aff9007edaaae92d52b4b0130f78f034270cf37ec98546db850a3c575c16e",
+   "size_bytes": 7126018,
+   "updated": "2026-09-19T14:57:00.116Z"
   },
   {
    "connector_provenance": "unknown",
