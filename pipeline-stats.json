@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T12:05:03+00:00",
+ "generated_at": "2026-09-19T12:10:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 749,
@@ -46,7 +46,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131602
+  "approx_bytes_read": 133488
  },
  "errors": [],
  "tasks": [
@@ -5893,15 +5893,15 @@
    "updated": "2026-09-11T13:24:15.822Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g339-brand-guideline-conformance-audit",
    "declared_short": "gen-g339-brand-guideline-conformance-audit",
-   "folder": "gen-g339-brand-guideline-conformance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g339-brand-guideline-conformance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f759815c964ebbcb03079b52a2585ba34a9df890e98b1604960559d11e317a55",
    "size_bytes": 10566991,
    "updated": "2026-09-19T12:02:12.113Z"
@@ -11613,7 +11613,11 @@
    "updated": "2026-09-09T19:50:32.629Z"
   },
   {
-   "connector_provenance": "real",
+   "declared_name": "harbor/verify-duplicate-ach-charge-claim-for-49-18-selina-payment-aug-2024",
+   "declared_short": "verify-duplicate-ach-charge-claim-for-49-18-selina-payment-aug-2024",
+   "folder": "verify-duplicate-ach-charge-claim-for-49-18-selina-payment-aug-2024",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -11623,16 +11627,12 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/verify-duplicate-ach-charge-claim-for-49-18-selina-payment-aug-2024",
-   "declared_short": "verify-duplicate-ach-charge-claim-for-49-18-selina-payment-aug-2024",
+   "connector_provenance": "real",
    "domain": null,
-   "folder": "verify-duplicate-ach-charge-claim-for-49-18-selina-payment-aug-2024",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "8d0cf4d4eaf6370c703afaf36e732712eef04a4939439469a9e7e72d86f4e480",
-   "size_bytes": 10709554,
-   "updated": "2026-09-09T22:27:43.083Z"
+   "sha256": "4e8c75af9246b2a256adba5ca469483760616325d667d5ef6daee47cd3df0e22",
+   "size_bytes": 17181557,
+   "updated": "2026-09-19T12:05:16.575Z"
   },
   {
    "connector_provenance": "unknown",
