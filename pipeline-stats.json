@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T20:50:02+00:00",
+ "generated_at": "2026-09-19T20:55:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 790,
-  "scanned": 790,
+  "task_folders": 791,
+  "scanned": 791,
   "connector": 255,
-  "non_connector": 535,
+  "non_connector": 536,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 54,
   "gen": 204,
   "health": 54,
-  "law": 43
+  "law": 44
  },
  "name_prefix": {
   "harbor": 259,
-  "obi": 531
+  "obi": 532
  },
  "connector_services": {
   "google-drive-gym": 162,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131408
  },
  "errors": [],
  "tasks": [
@@ -9869,6 +9869,20 @@
    "sha256": "fcab6a42103ff841f4f6ebc8087a08038c7aaac1d2c6d8ac1346928f0b9b606b",
    "size_bytes": 9085231,
    "updated": "2026-09-18T11:59:17.706Z"
+  },
+  {
+   "declared_name": "obi/law-b37-l1-invention-register-grounding-audit",
+   "declared_short": "law-b37-l1-invention-register-grounding-audit",
+   "folder": "law-b37-l1-invention-register-grounding-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "a18d3eca543af736adb132fb3042f67584a790c7b66ca6c26421175a8c029750",
+   "size_bytes": 5246368,
+   "updated": "2026-09-19T20:51:31.395Z"
   },
   {
    "connector_provenance": null,
