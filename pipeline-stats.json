@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-19T20:15:03+00:00",
+ "generated_at": "2026-09-19T20:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 783,
-  "scanned": 783,
-  "connector": 254,
-  "non_connector": 529,
+  "task_folders": 785,
+  "scanned": 785,
+  "connector": 255,
+  "non_connector": 530,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 99,
+  "real": 100,
   "unknown": 94,
   "synthetic": 61
  },
  "domain": {
-  "unnamed": 282,
-  "code": 151,
+  "unnamed": 283,
+  "code": 152,
   "fin": 52,
   "gen": 202,
   "health": 53,
   "law": 43
  },
  "name_prefix": {
-  "harbor": 258,
-  "obi": 525
+  "harbor": 259,
+  "obi": 526
  },
  "connector_services": {
   "google-drive-gym": 162,
@@ -34,7 +34,7 @@
   "jira-gym": 145,
   "slack-gym": 120,
   "slack": 49,
-  "notion-gym": 22,
+  "notion-gym": 23,
   "email-calendar-gym": 10,
   "github-gym": 9,
   "outlook-gym": 8,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131457
+  "new_archives_read": 2,
+  "approx_bytes_read": 269221
  },
  "errors": [],
  "tasks": [
@@ -3077,6 +3077,20 @@
    "sha256": "74b93901b76f004e9598957e56c8a0aca2ccf270960faf59d5fcfa2324863b90",
    "size_bytes": 6411442,
    "updated": "2026-09-19T17:27:27.872Z"
+  },
+  {
+   "declared_name": "obi/code-c728-carousel-video-export-audit",
+   "declared_short": "code-c728-carousel-video-export-audit",
+   "folder": "code-c728-carousel-video-export-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "a6e5a245344a919bcdb2d32d8383ab8b91825d894e2242b7514cdf0b37fc7a85",
+   "size_bytes": 6981059,
+   "updated": "2026-09-19T20:18:14.378Z"
   },
   {
    "connector_provenance": null,
@@ -9357,15 +9371,15 @@
    "updated": "2026-09-19T14:05:06.796Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt5-a1-citation-register-normalization",
    "declared_short": "health-tdt5-a1-citation-register-normalization",
-   "folder": "health-tdt5-a1-citation-register-normalization",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt5-a1-citation-register-normalization",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8498344014856937543c7bbca5eb6c5ffe276477c92c217b18cf46474e885a69",
    "size_bytes": 7715183,
    "updated": "2026-09-19T20:10:54.355Z"
@@ -10369,6 +10383,22 @@
    "sha256": "e63473cf0d2f1bcd43b93046029e999697b5b8c4c74572198a3265bc65e8f4c0",
    "size_bytes": 13675731,
    "updated": "2026-09-09T04:52:15.228Z"
+  },
+  {
+   "declared_name": "harbor/no-rate-on-file",
+   "declared_short": "no-rate-on-file",
+   "folder": "no-rate-on-file-v6-final",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "19e5830016395d0d6be63aee84e0d44f99c2f478b7c236f6f4df1f305ee4e4ae",
+   "size_bytes": 9282702,
+   "updated": "2026-09-19T20:17:48.362Z"
   },
   {
    "connector_provenance": "synthetic",
