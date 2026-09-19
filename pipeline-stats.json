@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-19T10:10:03+00:00",
+ "generated_at": "2026-09-19T10:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 740,
-  "scanned": 740,
-  "connector": 240,
+  "task_folders": 741,
+  "scanned": 741,
+  "connector": 241,
   "non_connector": 500,
   "errors": 0
  },
  "connector_provenance": {
   "real": 96,
-  "unknown": 89,
+  "unknown": 90,
   "synthetic": 55
  },
  "domain": {
-  "unnamed": 266,
+  "unnamed": 267,
   "code": 143,
   "fin": 50,
   "gen": 194,
@@ -22,17 +22,17 @@
   "law": 41
  },
  "name_prefix": {
-  "harbor": 244,
+  "harbor": 245,
   "obi": 496
  },
  "connector_services": {
-  "google-drive-gym": 155,
-  "zeta3-sql-gym": 141,
-  "confluence-gym": 138,
-  "email-gym": 138,
-  "freshdesk-gym": 138,
-  "jira-gym": 138,
-  "slack-gym": 115,
+  "google-drive-gym": 156,
+  "zeta3-sql-gym": 142,
+  "confluence-gym": 139,
+  "email-gym": 139,
+  "freshdesk-gym": 139,
+  "jira-gym": 139,
+  "slack-gym": 116,
   "slack": 46,
   "notion-gym": 20,
   "email-calendar-gym": 10,
@@ -45,7 +45,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131408
+  "approx_bytes_read": 135360
  },
  "errors": [],
  "tasks": [
@@ -4672,15 +4672,15 @@
    "updated": "2026-09-09T13:26:58.809Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-f18-capex-opex-classification",
    "declared_short": "fin-f18-capex-opex-classification",
-   "folder": "fin-f18-capex-opex-classification",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-f18-capex-opex-classification",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0acdf5dcfc02fadaeb5d69527b0ac3995e2c36e40bd53797afa0a946c895eda4",
    "size_bytes": 8617167,
    "updated": "2026-09-19T10:08:06.447Z"
@@ -10594,6 +10594,28 @@
    "sha256": "346f42b36e3420ba9b49367a8e7ae490470a9fa85f7e29038d86b33768c2d659",
    "size_bytes": 9321536,
    "updated": "2026-09-19T00:32:27.730Z"
+  },
+  {
+   "declared_name": "harbor/file-data-fix-request-for-closed-accounts-missing-closed-at-timestamps",
+   "declared_short": "file-data-fix-request-for-closed-accounts-missing-closed-at-timestamps",
+   "folder": "task_file_data_fix_request_for_closed_accounts_missing_closed_at_timestamps",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "59d7f72f783bdd06717c261e45b704d183044cddfe5b3c88dc9240ab5ac8bc45",
+   "size_bytes": 10071818,
+   "updated": "2026-09-19T10:11:29.089Z"
   },
   {
    "connector_provenance": "real",
