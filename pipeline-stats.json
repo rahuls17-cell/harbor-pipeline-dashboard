@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-19T14:10:03+00:00",
+ "generated_at": "2026-09-19T14:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 756,
-  "scanned": 756,
-  "connector": 246,
-  "non_connector": 510,
+  "task_folders": 758,
+  "scanned": 758,
+  "connector": 247,
+  "non_connector": 511,
   "errors": 0
  },
  "connector_provenance": {
   "real": 97,
   "unknown": 91,
-  "synthetic": 58
+  "synthetic": 59
  },
  "domain": {
-  "unnamed": 273,
+  "unnamed": 274,
   "code": 145,
   "fin": 50,
-  "gen": 198,
+  "gen": 199,
   "health": 49,
   "law": 41
  },
  "name_prefix": {
-  "harbor": 250,
-  "obi": 506
+  "harbor": 251,
+  "obi": 507
  },
  "connector_services": {
   "google-drive-gym": 157,
@@ -36,8 +36,8 @@
   "slack": 46,
   "notion-gym": 21,
   "email-calendar-gym": 10,
+  "github-gym": 9,
   "outlook-gym": 8,
-  "github-gym": 8,
   "linear-gym": 6,
   "gws-gym": 6,
   "supabase-gym": 1,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131468
+  "new_archives_read": 2,
+  "approx_bytes_read": 268489
  },
  "errors": [],
  "tasks": [
@@ -4969,6 +4969,20 @@
    "updated": "2026-09-11T09:14:13.431Z"
   },
   {
+   "declared_name": "obi/gen-g1111-ebp-source-pool-inclusion-audit",
+   "declared_short": "gen-g1111-ebp-source-pool-inclusion-audit",
+   "folder": "gen-g1111-ebp-source-pool-inclusion-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "f3b2756000f28374d3dc0e077f7c03465a0218b0763322cd411c2fd85e8b9bd7",
+   "size_bytes": 18305072,
+   "updated": "2026-09-19T14:10:29.587Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g1111-ebp-source-pool-inclusion-audit",
@@ -9109,15 +9123,15 @@
    "updated": "2026-09-16T14:34:13.852Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt3-a9-ehr-comparison-table-change-audit",
    "declared_short": "health-tdt3-a9-ehr-comparison-table-change-audit",
-   "folder": "health-tdt3-a9-ehr-comparison-table-change-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt3-a9-ehr-comparison-table-change-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4cf37de63f969da2dc0886ee7739ec5fa9f03f6d154a7f93b008d6b92258e87a",
    "size_bytes": 9390404,
    "updated": "2026-09-19T14:05:06.796Z"
@@ -11345,6 +11359,22 @@
    "sha256": "7ba64fbb4b54ded4422443147488a43dcecca5c3acdf9800afab2a94774ceeea",
    "size_bytes": 12039759,
    "updated": "2026-09-18T21:00:32.266Z"
+  },
+  {
+   "declared_name": "harbor/the-plan-we-do-not-keep",
+   "declared_short": "the-plan-we-do-not-keep",
+   "folder": "the-plan-we-do-not-keep-v3",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "8c7973bd9c714721e732eb52f71277d53ca850b7a196f678f0f02676e90d2192",
+   "size_bytes": 8616641,
+   "updated": "2026-09-19T14:11:59.985Z"
   },
   {
    "connector_provenance": "synthetic",
