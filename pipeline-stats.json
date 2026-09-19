@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T14:25:02+00:00",
+ "generated_at": "2026-09-19T14:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 759,
-  "scanned": 759,
+  "task_folders": 760,
+  "scanned": 760,
   "connector": 247,
-  "non_connector": 512,
+  "non_connector": 513,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 59
  },
  "domain": {
-  "unnamed": 274,
+  "unnamed": 275,
   "code": 145,
   "fin": 50,
   "gen": 199,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 251,
-  "obi": 508
+  "obi": 509
  },
  "connector_services": {
   "google-drive-gym": 157,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131815
  },
  "errors": [],
  "tasks": [
@@ -11185,6 +11185,20 @@
    "sha256": "c5a8bec44c7e92c1c0284207fd506a0519307739c1629c4ece55826b6854aed6",
    "size_bytes": 6857328,
    "updated": "2026-09-19T08:13:51.106Z"
+  },
+  {
+   "declared_name": "obi/tech-b60-t2-cloud-first-incident-routing-adjudication",
+   "declared_short": "tech-b60-t2-cloud-first-incident-routing-adjudication",
+   "folder": "tech-b60-t2-cloud-first-incident-routing-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "bc0a5f9bdf0da1d0e9526837ec28be6543c4e250c4217b8921190c7690a1d339",
+   "size_bytes": 7075112,
+   "updated": "2026-09-19T14:35:00.195Z"
   },
   {
    "connector_provenance": null,
