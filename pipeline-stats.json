@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T17:35:03+00:00",
+ "generated_at": "2026-09-19T17:40:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 773,
-  "scanned": 773,
+  "task_folders": 774,
+  "scanned": 774,
   "connector": 252,
-  "non_connector": 521,
+  "non_connector": 522,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 280,
-  "code": 148,
+  "code": 149,
   "fin": 51,
   "gen": 200,
   "health": 52,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 256,
-  "obi": 517
+  "obi": 518
  },
  "connector_services": {
   "google-drive-gym": 160,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131526
  },
  "errors": [],
  "tasks": [
@@ -10785,6 +10785,20 @@
    "sha256": "ddfd2edd0214adbb70d6fc05316af006d1fb864e3cb15d07c445aa158a9b0215",
    "size_bytes": 15403207,
    "updated": "2026-09-19T01:23:02.097Z"
+  },
+  {
+   "declared_name": "obi/code-c129-subnet-ip-allocation-recompute",
+   "declared_short": "code-c129-subnet-ip-allocation-recompute",
+   "folder": "task",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "74390b39353d7c6503235e12c684e2006ecf9abc838e214e35a2dd40a0a7a69e",
+   "size_bytes": 9263338,
+   "updated": "2026-09-19T17:35:56.817Z"
   },
   {
    "connector_provenance": "real",
