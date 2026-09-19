@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-19T23:10:03+00:00",
+ "generated_at": "2026-09-19T23:25:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 805,
-  "scanned": 805,
-  "connector": 258,
+  "task_folders": 806,
+  "scanned": 806,
+  "connector": 259,
   "non_connector": 547,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 100,
+  "real": 101,
   "unknown": 95,
   "synthetic": 63
  },
  "domain": {
-  "unnamed": 287,
+  "unnamed": 288,
   "code": 156,
   "fin": 56,
   "gen": 207,
@@ -22,12 +22,12 @@
   "law": 45
  },
  "name_prefix": {
-  "harbor": 262,
+  "harbor": 263,
   "obi": 543
  },
  "connector_services": {
   "google-drive-gym": 164,
-  "zeta3-sql-gym": 152,
+  "zeta3-sql-gym": 153,
   "confluence-gym": 148,
   "email-gym": 147,
   "freshdesk-gym": 147,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133122
  },
  "errors": [],
  "tasks": [
@@ -11637,6 +11637,22 @@
    "sha256": "7f7a1539d4210db6fe21f0c87db53458b835ca70b57ef4dba31c55a392f96abc",
    "size_bytes": 7264043,
    "updated": "2026-09-19T01:14:19.925Z"
+  },
+  {
+   "declared_name": "harbor/vip-interest-posting-review",
+   "declared_short": "vip-interest-posting-review",
+   "folder": "task_verify_nov_dec_2024_interest_for_vip_account_1280_across_the_2_18_2_08",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "c1a708f9634756fe0abe46154ef64acd70141d1ad8b792fdc0211dcd848d2b01",
+   "size_bytes": 9591646,
+   "updated": "2026-09-19T23:21:11.227Z"
   },
   {
    "connector_provenance": "real",
