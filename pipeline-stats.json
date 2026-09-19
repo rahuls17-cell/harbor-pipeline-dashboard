@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T05:35:03+00:00",
+ "generated_at": "2026-09-19T05:40:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 714,
-  "scanned": 714,
+  "task_folders": 715,
+  "scanned": 715,
   "connector": 235,
-  "non_connector": 479,
+  "non_connector": 480,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 257,
-  "code": 139,
+  "code": 140,
   "fin": 45,
   "gen": 187,
   "health": 45,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 239,
-  "obi": 475
+  "obi": 476
  },
  "connector_services": {
   "google-drive-gym": 154,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 271525
+  "new_archives_read": 1,
+  "approx_bytes_read": 131794
  },
  "errors": [],
  "tasks": [
@@ -1486,6 +1486,20 @@
    "sha256": "96c4e388ae1dde324e89694c2c5141fa07959124dc729e98eba4b89c825993da",
    "size_bytes": 4332090,
    "updated": "2026-09-10T01:41:13.892Z"
+  },
+  {
+   "declared_name": "obi/code-c26-log-retention-pruning",
+   "declared_short": "code-c26-log-retention-pruning",
+   "folder": "code-c26-log-retention-pruning",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "b691fb0fed32571b82760aef9e1958269c627e4c22c4aad6b717f6f42a697220",
+   "size_bytes": 12722428,
+   "updated": "2026-09-19T05:38:43.447Z"
   },
   {
    "connector_provenance": null,
@@ -9970,17 +9984,17 @@
    "updated": "2026-09-18T16:56:29.186Z"
   },
   {
-   "declared_name": "harbor/sprint-board-recount",
-   "declared_short": "sprint-board-recount",
-   "folder": "sprint-board-recount",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/sprint-board-recount",
+   "declared_short": "sprint-board-recount",
    "domain": null,
+   "folder": "sprint-board-recount",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "992fa9cdfcfef9705588e026f7cd2e08467b39e50af3a7595ea160840b653e4b",
    "size_bytes": 6812962,
    "updated": "2026-09-19T05:31:27.087Z"
@@ -10516,11 +10530,7 @@
    "updated": "2026-09-19T03:43:33.105Z"
   },
   {
-   "declared_name": "harbor/verify-wire-fee-refund-amount-on-returned-wire-adjustment-73085",
-   "declared_short": "verify-wire-fee-refund-amount-on-returned-wire-adjustment-73085",
-   "folder": "task_verify_wire_fee_refund_amount_on_returned_wire_adjustment_73085",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -10530,9 +10540,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/verify-wire-fee-refund-amount-on-returned-wire-adjustment-73085",
+   "declared_short": "verify-wire-fee-refund-amount-on-returned-wire-adjustment-73085",
    "domain": null,
+   "folder": "task_verify_wire_fee_refund_amount_on_returned_wire_adjustment_73085",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7c1973feaeed5a340c484b59baf4f1ab283c0d77edc61d369b5c8b0895ad4a38",
    "size_bytes": 13133113,
    "updated": "2026-09-19T05:33:05.656Z"
