@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T08:20:03+00:00",
+ "generated_at": "2026-09-19T08:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 735,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 287539
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -6212,15 +6212,15 @@
    "updated": "2026-09-09T21:55:27.887Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g553-linkedin-headline-style-audit",
    "declared_short": "gen-g553-linkedin-headline-style-audit",
-   "folder": "gen-g553-linkedin-headline-style-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g553-linkedin-headline-style-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "07b7dbff153c74be723d2f0f200fbfe6a5de85ff3e0c349f4b6e212c6420a59e",
    "size_bytes": 8749373,
    "updated": "2026-09-19T08:15:33.036Z"
@@ -9820,17 +9820,17 @@
    "updated": "2026-09-09T04:52:15.228Z"
   },
   {
-   "declared_name": "harbor/nobody-would-have-missed-them",
-   "declared_short": "nobody-would-have-missed-them",
-   "folder": "nobody-would-have-missed-them",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/nobody-would-have-missed-them",
+   "declared_short": "nobody-would-have-missed-them",
    "domain": null,
+   "folder": "nobody-would-have-missed-them",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "36a61b495aef84febc393b2d5b9552cb6f76094d67ae9e3a2d28df0b936c3176",
    "size_bytes": 8011438,
    "updated": "2026-09-19T08:19:34.165Z"
