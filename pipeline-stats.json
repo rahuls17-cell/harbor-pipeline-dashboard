@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T17:20:02+00:00",
+ "generated_at": "2026-09-19T17:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 772,
-  "scanned": 772,
+  "task_folders": 773,
+  "scanned": 773,
   "connector": 252,
-  "non_connector": 520,
+  "non_connector": 521,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 280,
-  "code": 147,
+  "code": 148,
   "fin": 51,
   "gen": 200,
   "health": 52,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 256,
-  "obi": 516
+  "obi": 517
  },
  "connector_services": {
   "google-drive-gym": 160,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131487
  },
  "errors": [],
  "tasks": [
@@ -3035,6 +3035,20 @@
    "sha256": "98f6906911b06aa6ffaa2622592f6fa6ff72e869cc91506b400d5be3fc6c397b",
    "size_bytes": 6790243,
    "updated": "2026-09-15T00:14:45.827Z"
+  },
+  {
+   "declared_name": "obi/code-c727-brand-graphic-qa-audit",
+   "declared_short": "code-c727-brand-graphic-qa-audit",
+   "folder": "code-c727-brand-graphic-qa-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "74b93901b76f004e9598957e56c8a0aca2ccf270960faf59d5fcfa2324863b90",
+   "size_bytes": 6411442,
+   "updated": "2026-09-19T17:27:27.872Z"
   },
   {
    "connector_provenance": null,
