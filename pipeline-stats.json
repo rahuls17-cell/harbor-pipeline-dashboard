@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T18:00:02+00:00",
+ "generated_at": "2026-09-19T18:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 774,
-  "scanned": 774,
+  "task_folders": 775,
+  "scanned": 775,
   "connector": 252,
-  "non_connector": 522,
+  "non_connector": 523,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 280,
   "code": 149,
   "fin": 51,
-  "gen": 200,
+  "gen": 201,
   "health": 52,
   "law": 42
  },
  "name_prefix": {
   "harbor": 256,
-  "obi": 518
+  "obi": 519
  },
  "connector_services": {
   "google-drive-gym": 160,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131422
  },
  "errors": [],
  "tasks": [
@@ -6663,6 +6663,20 @@
    "sha256": "4fa24d5ca7e85877362d6d0e1c1c604d12da71e6ee090721f4f2f9a8f4e28a60",
    "size_bytes": 8915105,
    "updated": "2026-09-19T11:28:56.455Z"
+  },
+  {
+   "declared_name": "obi/gen-g645-ai-charter-signoff-audit",
+   "declared_short": "gen-g645-ai-charter-signoff-audit",
+   "folder": "gen-g645-ai-charter-signoff-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "ed3224b88888b60983b73f2b87997adf158c6e5b67ead700f99e8ed5392dd919",
+   "size_bytes": 6843661,
+   "updated": "2026-09-19T18:04:59.582Z"
   },
   {
    "connector_provenance": null,
