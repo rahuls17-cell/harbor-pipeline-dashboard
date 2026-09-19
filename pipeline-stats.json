@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T00:10:03+00:00",
+ "generated_at": "2026-09-19T00:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 690,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133220
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -10046,11 +10046,7 @@
    "updated": "2026-09-17T00:08:09.326Z"
   },
   {
-   "declared_name": "harbor/mobile-check-deposit-827-25k-over-limit-lifecycle-conformance-review",
-   "declared_short": "mobile-check-deposit-827-25k-over-limit-lifecycle-conformance-review",
-   "folder": "task_mobile_check_deposit_827_25k_over_limit_lifecycle_conformance_review",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -10060,9 +10056,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/mobile-check-deposit-827-25k-over-limit-lifecycle-conformance-review",
+   "declared_short": "mobile-check-deposit-827-25k-over-limit-lifecycle-conformance-review",
    "domain": null,
+   "folder": "task_mobile_check_deposit_827_25k_over_limit_lifecycle_conformance_review",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "64af985a3f8a246c956d6b7ddfced19a7bdad78dbb9bde4912280d8a950e64a4",
    "size_bytes": 10487830,
    "updated": "2026-09-19T00:06:47.691Z"
