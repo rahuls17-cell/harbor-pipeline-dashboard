@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T07:25:02+00:00",
+ "generated_at": "2026-09-19T07:30:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 729,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131583
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4952,15 +4952,15 @@
    "updated": "2026-09-18T08:44:12.598Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1128-access-lab-query-result-audit",
    "declared_short": "gen-g1128-access-lab-query-result-audit",
-   "folder": "gen-g1128-access-lab-query-result-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1128-access-lab-query-result-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ba928dd01fa89074dbda27853dc8fdc51325d52c14b577fffca27f29d5930495",
    "size_bytes": 4988302,
    "updated": "2026-09-19T07:23:13.602Z"
