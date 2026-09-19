@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T14:50:03+00:00",
+ "generated_at": "2026-09-19T14:55:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 762,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263133
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -7279,15 +7279,15 @@
    "updated": "2026-09-16T05:15:19.393Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g917-memorial-statuette-production-order-audit",
    "declared_short": "gen-g917-memorial-statuette-production-order-audit",
-   "folder": "gen-g917-memorial-statuette-production-order-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g917-memorial-statuette-production-order-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b78a468eb0e35844c611734c859cf5692341f410457a67c8daeb911948c6f0eb",
    "size_bytes": 6575717,
    "updated": "2026-09-19T14:45:36.610Z"
@@ -9235,15 +9235,15 @@
    "updated": "2026-09-19T09:14:04.998Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt7-a3-barbell-plate-loading-chart",
    "declared_short": "health-tdt7-a3-barbell-plate-loading-chart",
-   "folder": "health-tdt7-a3-barbell-plate-loading-chart",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt7-a3-barbell-plate-loading-chart",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "53459a1b12e27d0eb34aba56d1ccd326bf59862943b26162b7ab1b8be23ee738",
    "size_bytes": 6089065,
    "updated": "2026-09-19T14:48:14.516Z"
