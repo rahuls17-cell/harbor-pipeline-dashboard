@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T15:30:02+00:00",
+ "generated_at": "2026-09-19T15:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 766,
-  "scanned": 766,
+  "task_folders": 767,
+  "scanned": 767,
   "connector": 249,
-  "non_connector": 517,
+  "non_connector": 518,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 147,
   "fin": 50,
   "gen": 200,
-  "health": 50,
+  "health": 51,
   "law": 42
  },
  "name_prefix": {
   "harbor": 253,
-  "obi": 513
+  "obi": 514
  },
  "connector_services": {
   "google-drive-gym": 159,
@@ -46,7 +46,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131559
+  "approx_bytes_read": 131475
  },
  "errors": [],
  "tasks": [
@@ -1727,15 +1727,15 @@
    "updated": "2026-09-10T14:29:38.528Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c333-engagement-phase-gate-audit",
    "declared_short": "code-c333-engagement-phase-gate-audit",
-   "folder": "code-c333-engagement-phase-gate-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c333-engagement-phase-gate-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6fbac3cb7661ab1b0687339e5bd0ed1d26f8b4a9045abbec50ad329923deb013",
    "size_bytes": 10272816,
    "updated": "2026-09-19T15:25:36.996Z"
@@ -9199,6 +9199,20 @@
    "sha256": "4cf37de63f969da2dc0886ee7739ec5fa9f03f6d154a7f93b008d6b92258e87a",
    "size_bytes": 9390404,
    "updated": "2026-09-19T14:05:06.796Z"
+  },
+  {
+   "declared_name": "obi/health-tdt5-a3-fluid-schedule-slot-reconciliation",
+   "declared_short": "health-tdt5-a3-fluid-schedule-slot-reconciliation",
+   "folder": "health-tdt5-a3-fluid-schedule-slot-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "a1b4b129ee5ce7e3ec098d9c9694d48a5dbb49c17ed716476ce4404b05a66195",
+   "size_bytes": 6989921,
+   "updated": "2026-09-19T15:30:27.347Z"
   },
   {
    "connector_provenance": null,
