@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T01:25:04+00:00",
+ "generated_at": "2026-09-19T01:30:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 704,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 399511
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -10050,17 +10050,17 @@
    "updated": "2026-09-13T15:17:43.372Z"
   },
   {
-   "declared_name": "harbor/tag-estate-grade-versus-status-split",
-   "declared_short": "tag-estate-grade-versus-status-split",
-   "folder": "tag-estate-grade-versus-status-split",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "google-drive-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/tag-estate-grade-versus-status-split",
+   "declared_short": "tag-estate-grade-versus-status-split",
    "domain": null,
+   "folder": "tag-estate-grade-versus-status-split",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ddfd2edd0214adbb70d6fc05316af006d1fb864e3cb15d07c445aa158a9b0215",
    "size_bytes": 15403207,
    "updated": "2026-09-19T01:23:02.097Z"
@@ -10178,11 +10178,7 @@
    "updated": "2026-09-19T00:55:14.465Z"
   },
   {
-   "declared_name": "harbor/diagnose-failed-175-bill-payment-160045-due-2023-08-20",
-   "declared_short": "diagnose-failed-175-bill-payment-160045-due-2023-08-20",
-   "folder": "task_diagnose_failed_175_bill_payment_160045_due_2023_08_20",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -10192,9 +10188,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/diagnose-failed-175-bill-payment-160045-due-2023-08-20",
+   "declared_short": "diagnose-failed-175-bill-payment-160045-due-2023-08-20",
    "domain": null,
+   "folder": "task_diagnose_failed_175_bill_payment_160045_due_2023_08_20",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "77fb94097817211bdbf085e28434a7d17fab0338fba60793903c0fe6099f37a8",
    "size_bytes": 19289604,
    "updated": "2026-09-19T01:24:05.114Z"
@@ -10332,11 +10332,7 @@
    "updated": "2026-09-10T04:30:44.134Z"
   },
   {
-   "declared_name": "harbor/verify-duplicate-doordash-charge-and-hold-claim-for-member-62396",
-   "declared_short": "verify-duplicate-doordash-charge-and-hold-claim-for-member-62396",
-   "folder": "task_verify_duplicate_doordash_charge_and_hold_claim_for_member_62396",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -10346,9 +10342,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/verify-duplicate-doordash-charge-and-hold-claim-for-member-62396",
+   "declared_short": "verify-duplicate-doordash-charge-and-hold-claim-for-member-62396",
    "domain": null,
+   "folder": "task_verify_duplicate_doordash_charge_and_hold_claim_for_member_62396",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "bcca28d1a8140135ec504ec748e7d8c9be988f9922be2d72baaa75d8ece02d2c",
    "size_bytes": 9866371,
    "updated": "2026-09-19T01:20:04.916Z"
