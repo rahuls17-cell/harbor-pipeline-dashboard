@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T15:40:03+00:00",
+ "generated_at": "2026-09-19T16:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 767,
@@ -9,8 +9,8 @@
   "errors": 0
  },
  "connector_provenance": {
-  "real": 97,
-  "unknown": 93,
+  "real": 98,
+  "unknown": 92,
   "synthetic": 59
  },
  "domain": {
@@ -32,8 +32,8 @@
   "email-gym": 142,
   "freshdesk-gym": 142,
   "jira-gym": 142,
-  "slack-gym": 119,
-  "slack": 46,
+  "slack-gym": 118,
+  "slack": 47,
   "notion-gym": 21,
   "email-calendar-gym": 10,
   "github-gym": 9,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133225
  },
  "errors": [],
  "tasks": [
@@ -3787,26 +3787,26 @@
    "updated": "2026-09-10T04:27:46.698Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/diagnose-failed-digital-wallet-token-activation-on-card-58162-oct-24",
+   "declared_short": "diagnose-failed-digital-wallet-token-activation-on-card-58162-oct-24",
+   "folder": "diagnose-failed-digital-wallet-token-activation-on-card-58162-oct-24",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
     "freshdesk-gym",
     "google-drive-gym",
     "jira-gym",
-    "slack-gym",
+    "slack",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/diagnose-failed-digital-wallet-token-activation-on-card-58162-oct-24",
-   "declared_short": "diagnose-failed-digital-wallet-token-activation-on-card-58162-oct-24",
+   "connector_provenance": "real",
    "domain": null,
-   "folder": "diagnose-failed-digital-wallet-token-activation-on-card-58162-oct-24",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "47e6a238b296da4a59f78a492ca85580df76c77295d9b36d01558b68e9ed46ca",
-   "size_bytes": 8538285,
-   "updated": "2026-09-09T19:46:00.801Z"
+   "sha256": "b46e026db51f13892e8220d1d69e71ff24c992a5e802a80eeb8f91e7070dffdf",
+   "size_bytes": 15110522,
+   "updated": "2026-09-19T16:02:52.318Z"
   },
   {
    "connector_provenance": "real",
