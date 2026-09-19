@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-19T05:30:03+00:00",
+ "generated_at": "2026-09-19T05:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 712,
-  "scanned": 712,
-  "connector": 233,
+  "task_folders": 714,
+  "scanned": 714,
+  "connector": 235,
   "non_connector": 479,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 93,
-  "unknown": 87,
+  "real": 94,
+  "unknown": 88,
   "synthetic": 53
  },
  "domain": {
-  "unnamed": 255,
+  "unnamed": 257,
   "code": 139,
   "fin": 45,
   "gen": 187,
@@ -22,19 +22,19 @@
   "law": 41
  },
  "name_prefix": {
-  "harbor": 237,
+  "harbor": 239,
   "obi": 475
  },
  "connector_services": {
-  "google-drive-gym": 153,
-  "zeta3-sql-gym": 137,
-  "confluence-gym": 136,
-  "email-gym": 136,
-  "freshdesk-gym": 136,
-  "jira-gym": 136,
+  "google-drive-gym": 154,
+  "zeta3-sql-gym": 138,
+  "confluence-gym": 137,
+  "email-gym": 137,
+  "freshdesk-gym": 137,
+  "jira-gym": 137,
   "slack-gym": 112,
-  "slack": 45,
-  "notion-gym": 19,
+  "slack": 46,
+  "notion-gym": 20,
   "email-calendar-gym": 10,
   "outlook-gym": 8,
   "github-gym": 8,
@@ -44,8 +44,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131531
+  "new_archives_read": 2,
+  "approx_bytes_read": 271525
  },
  "errors": [],
  "tasks": [
@@ -4486,15 +4486,15 @@
    "updated": "2026-09-19T00:34:50.915Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b50-f10-sba-7a-deferral-rebaseline-brief",
    "declared_short": "fin-b50-f10-sba-7a-deferral-rebaseline-brief",
-   "folder": "fin-b50-f10-sba-7a-deferral-rebaseline-brief",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b50-f10-sba-7a-deferral-rebaseline-brief",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "783b1a9c03f92e390f8c6ce3c4618322c1916cf21a9bf0d1c09acbc2785565b0",
    "size_bytes": 10078110,
    "updated": "2026-09-19T05:28:21.939Z"
@@ -9970,6 +9970,22 @@
    "updated": "2026-09-18T16:56:29.186Z"
   },
   {
+   "declared_name": "harbor/sprint-board-recount",
+   "declared_short": "sprint-board-recount",
+   "folder": "sprint-board-recount",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "992fa9cdfcfef9705588e026f7cd2e08467b39e50af3a7595ea160840b653e4b",
+   "size_bytes": 6812962,
+   "updated": "2026-09-19T05:31:27.087Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
@@ -10498,6 +10514,28 @@
    "sha256": "b6e2b8c8f6c3c3a1b39ff992001d7919d003cdd783d780de42b0e5795f2c34a0",
    "size_bytes": 10012924,
    "updated": "2026-09-19T03:43:33.105Z"
+  },
+  {
+   "declared_name": "harbor/verify-wire-fee-refund-amount-on-returned-wire-adjustment-73085",
+   "declared_short": "verify-wire-fee-refund-amount-on-returned-wire-adjustment-73085",
+   "folder": "task_verify_wire_fee_refund_amount_on_returned_wire_adjustment_73085",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "7c1973feaeed5a340c484b59baf4f1ab283c0d77edc61d369b5c8b0895ad4a38",
+   "size_bytes": 13133113,
+   "updated": "2026-09-19T05:33:05.656Z"
   },
   {
    "connector_provenance": null,
