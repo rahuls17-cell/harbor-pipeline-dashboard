@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T02:00:03+00:00",
+ "generated_at": "2026-09-20T02:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 813,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131513
  },
  "errors": [],
  "tasks": [
@@ -2323,18 +2323,18 @@
    "updated": "2026-09-09T21:57:04.758Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/code-c453-practicum-submission-completeness-audit",
    "declared_short": "code-c453-practicum-submission-completeness-audit",
-   "domain": "code",
    "folder": "code-c453-practicum-submission-completeness-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "2300d7914a02eb0c401c91600e6bea44b05c8cd989169899ef08f8397060edff",
-   "size_bytes": 7961795,
-   "updated": "2026-09-20T00:59:38.793Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "f2bdc1bd8c87d2ca2f196c1606142816b0550ab76d30ccbb0a3a245a0afb6e53",
+   "size_bytes": 8011277,
+   "updated": "2026-09-20T02:02:28.786Z"
   },
   {
    "connector_provenance": null,
