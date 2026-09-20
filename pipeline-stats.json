@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-20T14:00:03+00:00",
+ "generated_at": "2026-09-20T14:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 859,
-  "scanned": 859,
-  "connector": 273,
+  "task_folders": 860,
+  "scanned": 860,
+  "connector": 274,
   "non_connector": 586,
   "errors": 0
  },
  "connector_provenance": {
   "real": 102,
-  "unknown": 100,
+  "unknown": 101,
   "synthetic": 71
  },
  "domain": {
-  "unnamed": 306,
+  "unnamed": 307,
   "code": 164,
   "fin": 65,
   "gen": 218,
@@ -22,7 +22,7 @@
   "law": 48
  },
  "name_prefix": {
-  "harbor": 276,
+  "harbor": 277,
   "obi": 583
  },
  "connector_services": {
@@ -40,6 +40,7 @@
   "linear-gym": 9,
   "outlook-gym": 9,
   "gws-gym": 7,
+  "microsoft_teams-gym": 1,
   "supabase-gym": 1,
   "teams-gym": 1,
   "snowflake-gym": 1,
@@ -47,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131524
+  "approx_bytes_read": 140046
  },
  "errors": [],
  "tasks": [
@@ -7608,15 +7609,15 @@
    "updated": "2026-09-05T23:30:08.346Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g739-debt-lead-buyer-compliance-audit",
    "declared_short": "gen-g739-debt-lead-buyer-compliance-audit",
-   "folder": "gen-g739-debt-lead-buyer-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g739-debt-lead-buyer-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ff1e7a7341131112ce9b7f516ae2ac21da5dbc181c1fc67e6649ff1fe6f3ef44",
    "size_bytes": 8263746,
    "updated": "2026-09-20T13:56:13.150Z"
@@ -11628,6 +11629,22 @@
    "sha256": "7906fbafb6346abbe26e2c05914162500db4d2bd908d2d99fa84ac589e5ea94a",
    "size_bytes": 11498414,
    "updated": "2026-09-17T05:59:40.407Z"
+  },
+  {
+   "declared_name": "harbor/rooms-that-were-never-on-the-list",
+   "declared_short": "rooms-that-were-never-on-the-list",
+   "folder": "rooms-that-were-never-on-the-list",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft_teams-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "28c131f45b25e1c7ed29d47fd54bbbb46b5eed5c4e963973b1fa2412a48db0f4",
+   "size_bytes": 10610249,
+   "updated": "2026-09-20T14:00:37.928Z"
   },
   {
    "connector_provenance": "real",
