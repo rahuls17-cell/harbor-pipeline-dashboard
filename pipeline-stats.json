@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T02:05:03+00:00",
+ "generated_at": "2026-09-20T02:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 813,
-  "scanned": 813,
+  "task_folders": 816,
+  "scanned": 816,
   "connector": 260,
-  "non_connector": 553,
+  "non_connector": 556,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 289,
   "code": 158,
   "fin": 58,
-  "gen": 209,
-  "health": 54,
+  "gen": 211,
+  "health": 55,
   "law": 45
  },
  "name_prefix": {
   "harbor": 264,
-  "obi": 549
+  "obi": 552
  },
  "connector_services": {
   "google-drive-gym": 164,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131513
+  "new_archives_read": 3,
+  "approx_bytes_read": 394626
  },
  "errors": [],
  "tasks": [
@@ -2323,15 +2323,15 @@
    "updated": "2026-09-09T21:57:04.758Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c453-practicum-submission-completeness-audit",
    "declared_short": "code-c453-practicum-submission-completeness-audit",
-   "folder": "code-c453-practicum-submission-completeness-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c453-practicum-submission-completeness-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f2bdc1bd8c87d2ca2f196c1606142816b0550ab76d30ccbb0a3a245a0afb6e53",
    "size_bytes": 8011277,
    "updated": "2026-09-20T02:02:28.786Z"
@@ -7121,6 +7121,20 @@
    "updated": "2026-09-10T19:12:09.704Z"
   },
   {
+   "declared_name": "obi/gen-g680-substance-of-concern-phaseout-audit",
+   "declared_short": "gen-g680-substance-of-concern-phaseout-audit",
+   "folder": "gen-g680-substance-of-concern-phaseout-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "5eb74b6d462cd259f520b95926f32a5dc0ffe51b86cdb924c421fadbff6a175d",
+   "size_bytes": 7548198,
+   "updated": "2026-09-20T02:05:06.662Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g681-investor-portfolio-valuation-disclosure-audit",
@@ -7595,6 +7609,20 @@
    "sha256": "584a2cc3e0f1a246c7d87b3e95b95ae440e8ac9f5589eb589a11d0f548b2a90e",
    "size_bytes": 6328643,
    "updated": "2026-09-16T13:10:00.301Z"
+  },
+  {
+   "declared_name": "obi/gen-g850-sdi-project-phase-sequencing-audit",
+   "declared_short": "gen-g850-sdi-project-phase-sequencing-audit",
+   "folder": "gen-g850-sdi-project-phase-sequencing-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "9ff6ffde0c16a9e1c817782e95e92b5dc3cb27b24e6df694e0bca155fddce6bf",
+   "size_bytes": 6848188,
+   "updated": "2026-09-20T02:05:49.345Z"
   },
   {
    "connector_provenance": null,
@@ -9355,6 +9383,20 @@
    "sha256": "bec24cc5ee2e06d0ebc93e3f0f7ebca57e9a40f9742af9b783e7738ed05151fd",
    "size_bytes": 5265163,
    "updated": "2026-09-19T16:50:58.554Z"
+  },
+  {
+   "declared_name": "obi/health-h569-irb-amendment-consistency-audit",
+   "declared_short": "health-h569-irb-amendment-consistency-audit",
+   "folder": "health-h569-irb-amendment-consistency-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "8d3846a1b3f5d200b9d990c62388c121ef17a80e659526857925e6c44c91a496",
+   "size_bytes": 6183252,
+   "updated": "2026-09-20T02:08:37.767Z"
   },
   {
    "connector_provenance": null,
