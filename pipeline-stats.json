@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-20T07:35:03+00:00",
+ "generated_at": "2026-09-20T07:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 830,
-  "scanned": 830,
-  "connector": 264,
+  "task_folders": 832,
+  "scanned": 832,
+  "connector": 266,
   "non_connector": 566,
   "errors": 0
  },
  "connector_provenance": {
   "real": 101,
   "unknown": 98,
-  "synthetic": 65
+  "synthetic": 67
  },
  "domain": {
-  "unnamed": 294,
+  "unnamed": 296,
   "code": 160,
   "fin": 61,
   "gen": 212,
@@ -22,7 +22,7 @@
   "law": 47
  },
  "name_prefix": {
-  "harbor": 268,
+  "harbor": 270,
   "obi": 562
  },
  "connector_services": {
@@ -36,9 +36,9 @@
   "slack": 51,
   "notion-gym": 23,
   "email-calendar-gym": 10,
+  "github-gym": 10,
   "outlook-gym": 9,
-  "github-gym": 9,
-  "linear-gym": 7,
+  "linear-gym": 8,
   "gws-gym": 6,
   "supabase-gym": 1,
   "teams-gym": 1,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131540
+  "new_archives_read": 2,
+  "approx_bytes_read": 281102
  },
  "errors": [],
  "tasks": [
@@ -3004,15 +3004,15 @@
    "updated": "2026-09-19T21:11:11.861Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c642-trial-chart-output-completeness-audit",
    "declared_short": "code-c642-trial-chart-output-completeness-audit",
-   "folder": "code-c642-trial-chart-output-completeness-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c642-trial-chart-output-completeness-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "39bca951a217fcf98c000214e273f774c0ae03fa851af8749584b20310723dee",
    "size_bytes": 7568842,
    "updated": "2026-09-20T07:34:47.629Z"
@@ -10898,6 +10898,38 @@
    "sha256": "19e5830016395d0d6be63aee84e0d44f99c2f478b7c236f6f4df1f305ee4e4ae",
    "size_bytes": 9282702,
    "updated": "2026-09-19T20:17:48.362Z"
+  },
+  {
+   "declared_name": "harbor/nobody-came-down-either-way",
+   "declared_short": "nobody-came-down-either-way",
+   "folder": "nobody-came-down-either-way",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "4f47a491eaa3276434afe6466c87d0f53ad46dbc8715d71104c094d19a0c5dcd",
+   "size_bytes": 7921071,
+   "updated": "2026-09-20T07:39:57.001Z"
+  },
+  {
+   "declared_name": "harbor/nobody-is-carrying-most-of-it",
+   "declared_short": "nobody-is-carrying-most-of-it",
+   "folder": "nobody-is-carrying-most-of-it",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2312bc67080e1d84c54cf57a0a37bc5fbd2935e4d6d87a4e95bd870638f62de3",
+   "size_bytes": 11190341,
+   "updated": "2026-09-20T07:35:11.079Z"
   },
   {
    "connector_provenance": "synthetic",
