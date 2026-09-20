@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T11:00:03+00:00",
+ "generated_at": "2026-09-20T11:05:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 846,
-  "scanned": 846,
+  "task_folders": 847,
+  "scanned": 847,
   "connector": 269,
-  "non_connector": 577,
+  "non_connector": 578,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 301,
   "code": 163,
   "fin": 63,
-  "gen": 215,
+  "gen": 216,
   "health": 56,
   "law": 48
  },
  "name_prefix": {
   "harbor": 272,
-  "obi": 574
+  "obi": 575
  },
  "connector_services": {
   "google-drive-gym": 165,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262935
+  "new_archives_read": 1,
+  "approx_bytes_read": 131407
  },
  "errors": [],
  "tasks": [
@@ -2150,15 +2150,15 @@
    "updated": "2026-09-10T09:45:27.093Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c389-launch-blane-closure-audit",
    "declared_short": "code-c389-launch-blane-closure-audit",
-   "folder": "code-c389-launch-blane-closure-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c389-launch-blane-closure-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "64c1578d511446db06bcf548dd826459af8409e8e6b0487c108f22b22d7a0feb",
    "size_bytes": 7343321,
    "updated": "2026-09-20T10:55:39.282Z"
@@ -5576,6 +5576,20 @@
    "updated": "2026-09-18T08:44:12.598Z"
   },
   {
+   "declared_name": "obi/gen-g1125-instructor-claims-substantiation-audit",
+   "declared_short": "gen-g1125-instructor-claims-substantiation-audit",
+   "folder": "gen-g1125-instructor-claims-substantiation-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "1458a3b31f304a157438ab420f1220c82a4b337168a67b0a522981865f169f04",
+   "size_bytes": 14603390,
+   "updated": "2026-09-20T11:02:30.746Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g1128-access-lab-query-result-audit",
@@ -7158,15 +7172,15 @@
    "updated": "2026-09-16T04:45:38.302Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g606-network-ad-inventory-delivery-audit",
    "declared_short": "gen-g606-network-ad-inventory-delivery-audit",
-   "folder": "gen-g606-network-ad-inventory-delivery-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g606-network-ad-inventory-delivery-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "798fc0e4d9b07f800618ffd47b81682f5cc611c414f138fab9f1c9fb030ca889",
    "size_bytes": 7484753,
    "updated": "2026-09-20T10:58:48.305Z"
