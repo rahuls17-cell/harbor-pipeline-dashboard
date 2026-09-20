@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T10:45:02+00:00",
+ "generated_at": "2026-09-20T10:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 844,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263083
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4820,15 +4820,15 @@
    "updated": "2026-09-16T10:09:36.777Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b43-a5-reversal-backtest-adjudication",
    "declared_short": "fin-b43-a5-reversal-backtest-adjudication",
-   "folder": "fin-b43-a5-reversal-backtest-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b43-a5-reversal-backtest-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "52695d9e0e5ea120a779a990129bb8f7546edbdc86132f125771554823ef9fa0",
    "size_bytes": 20827580,
    "updated": "2026-09-20T10:42:27.010Z"
@@ -6360,15 +6360,15 @@
    "updated": "2026-09-11T22:54:10.013Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g266-game-design-doc-audit",
    "declared_short": "gen-g266-game-design-doc-audit",
-   "folder": "gen-g266-game-design-doc-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g266-game-design-doc-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d29297f3beb575f8d86581d6c4840c70ec874332d48d605abca1d98d4f9daa71",
    "size_bytes": 7074990,
    "updated": "2026-09-20T10:44:37.885Z"
