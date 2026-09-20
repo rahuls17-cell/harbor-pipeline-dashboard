@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T03:40:03+00:00",
+ "generated_at": "2026-09-20T04:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 818,
-  "scanned": 818,
+  "task_folders": 819,
+  "scanned": 819,
   "connector": 261,
-  "non_connector": 557,
+  "non_connector": 558,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 290,
   "code": 158,
-  "fin": 58,
+  "fin": 59,
   "gen": 211,
   "health": 55,
   "law": 46
  },
  "name_prefix": {
   "harbor": 265,
-  "obi": 553
+  "obi": 554
  },
  "connector_services": {
   "google-drive-gym": 164,
@@ -46,7 +46,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 138242
+  "approx_bytes_read": 131438
  },
  "errors": [],
  "tasks": [
@@ -4949,6 +4949,20 @@
    "sha256": "3012dcdf49f4260f677481f99b88dbabc4531a3f310b7d847ab07f9932587362",
    "size_bytes": 5455792,
    "updated": "2026-09-19T07:17:04.138Z"
+  },
+  {
+   "declared_name": "obi/fin-b49-f10-merger-parachute-vesting-table",
+   "declared_short": "fin-b49-f10-merger-parachute-vesting-table",
+   "folder": "fin-b49-f10-merger-parachute-vesting-table-v22-FOR-QC-V2",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "57a4fa655259b71f152825fa90307a678281717f8ccfed5c322728c4c01b348d",
+   "size_bytes": 7253174,
+   "updated": "2026-09-20T04:08:41.821Z"
   },
   {
    "connector_provenance": null,
@@ -11007,11 +11021,7 @@
    "updated": "2026-09-18T20:46:46.120Z"
   },
   {
-   "declared_name": "harbor/recurring-11-99-subscription-card-declines-on-card-48320-customer-says",
-   "declared_short": "recurring-11-99-subscription-card-declines-on-card-48320-customer-says",
-   "folder": "recurring-11-99-subscription-card-declines-on-card-48320-customer-says",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -11021,9 +11031,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/recurring-11-99-subscription-card-declines-on-card-48320-customer-says",
+   "declared_short": "recurring-11-99-subscription-card-declines-on-card-48320-customer-says",
    "domain": null,
+   "folder": "recurring-11-99-subscription-card-declines-on-card-48320-customer-says",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3bd7271a60dde164afbb18f252c2efa69f162d39c4516a117ff924bcc667469c",
    "size_bytes": 10312235,
    "updated": "2026-09-20T03:38:33.994Z"
