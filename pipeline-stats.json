@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T18:55:02+00:00",
+ "generated_at": "2026-09-20T19:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 882,
-  "scanned": 882,
+  "task_folders": 883,
+  "scanned": 883,
   "connector": 281,
-  "non_connector": 601,
+  "non_connector": 602,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 315,
-  "code": 169,
+  "code": 170,
   "fin": 67,
   "gen": 220,
   "health": 60,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 284,
-  "obi": 598
+  "obi": 599
  },
  "connector_services": {
   "google-drive-gym": 168,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131446
+  "approx_bytes_read": 131613
  },
  "errors": [],
  "tasks": [
@@ -2193,6 +2193,20 @@
    "updated": "2026-09-10T09:45:27.093Z"
   },
   {
+   "declared_name": "obi/code-c387-htgcd-well-permit-compliance-audit",
+   "declared_short": "code-c387-htgcd-well-permit-compliance-audit",
+   "folder": "code-c387-htgcd-well-permit-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "9a28bda8c6738ba15fc9105efdc2780ba4c871d77c088a8e804905a87032321d",
+   "size_bytes": 9478100,
+   "updated": "2026-09-20T18:59:51.632Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c389-launch-blane-closure-audit",
@@ -2403,15 +2417,15 @@
    "updated": "2026-09-09T17:16:37.636Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c443-plan-list-field-mapping-migration-audit",
    "declared_short": "code-c443-plan-list-field-mapping-migration-audit",
-   "folder": "code-c443-plan-list-field-mapping-migration-audi-8a6ecb-v1-sna-gssv",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c443-plan-list-field-mapping-migration-audi-8a6ecb-v1-sna-gssv",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4f94f5b1f96cd7b6ae8749a25b372d633b2b2eacf9d2d2aeb82fd4c9521f4487",
    "size_bytes": 8047463,
    "updated": "2026-09-20T18:53:18.741Z"
