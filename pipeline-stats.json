@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T21:20:04+00:00",
+ "generated_at": "2026-09-20T21:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 903,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 396919
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -97,11 +97,7 @@
    "updated": "2026-09-20T12:49:59.484Z"
   },
   {
-   "declared_name": "harbor/check-deposit-1931-redeposit-review",
-   "declared_short": "check-deposit-1931-redeposit-review",
-   "folder": "100832",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -111,9 +107,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/check-deposit-1931-redeposit-review",
+   "declared_short": "check-deposit-1931-redeposit-review",
    "domain": null,
+   "folder": "100832",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1ed2ff4ea9ec9475eaaf61e953057652661a6ddb7e7bc09171fe4c8403d7d6f1",
    "size_bytes": 14469336,
    "updated": "2026-09-20T21:15:53.927Z"
@@ -1431,15 +1431,15 @@
    "updated": "2026-09-19T22:16:29.665Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c15-webhook-retry-backoff",
    "declared_short": "code-c15-webhook-retry-backoff",
-   "folder": "code-c15-webhook-retry-backoff",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c15-webhook-retry-backoff",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1bc1f4c6a56bc28e7300e3d5903720e51f68b806fc903383838ba8bb224e4902",
    "size_bytes": 6886091,
    "updated": "2026-09-20T21:15:26.576Z"
@@ -13110,15 +13110,15 @@
    "updated": "2026-09-19T05:52:19.841Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-mg-it-b5-a1-bank-reconciliation-audit-trail-repair",
    "declared_short": "tech-mg-it-b5-a1-bank-reconciliation-audit-trail-repair",
-   "folder": "tech-mg-it-b5-a1-bank-reconciliation-audit-trail-repair",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-mg-it-b5-a1-bank-reconciliation-audit-trail-repair",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1aea84c212a2e0c80d40bacc28077d4165071bf8bab853e4c84fa61499e4949b",
    "size_bytes": 6682220,
    "updated": "2026-09-20T21:20:02.621Z"
