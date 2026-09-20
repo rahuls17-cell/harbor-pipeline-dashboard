@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T12:40:03+00:00",
+ "generated_at": "2026-09-20T12:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 853,
-  "scanned": 853,
+  "task_folders": 854,
+  "scanned": 854,
   "connector": 271,
-  "non_connector": 582,
+  "non_connector": 583,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 304,
-  "code": 163,
+  "code": 164,
   "fin": 64,
   "gen": 217,
   "health": 57,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 274,
-  "obi": 579
+  "obi": 580
  },
  "connector_services": {
   "google-drive-gym": 166,
@@ -47,7 +47,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131463
+  "approx_bytes_read": 131508
  },
  "errors": [],
  "tasks": [
@@ -1672,6 +1672,20 @@
    "sha256": "b691fb0fed32571b82760aef9e1958269c627e4c22c4aad6b717f6f42a697220",
    "size_bytes": 12722428,
    "updated": "2026-09-19T05:38:43.447Z"
+  },
+  {
+   "declared_name": "obi/code-c265-print-production-order-audit",
+   "declared_short": "code-c265-print-production-order-audit",
+   "folder": "code-c265-print-production-order-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "002ec0e59e73f5ee5bdca63ebb05d92e8b1585200dd604cfe02c35065d7cf808",
+   "size_bytes": 8351609,
+   "updated": "2026-09-20T12:41:23.401Z"
   },
   {
    "connector_provenance": null,
@@ -7802,15 +7816,15 @@
    "updated": "2026-09-16T04:43:23.796Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g812-tenant-notice-period-compliance-audit",
    "declared_short": "gen-g812-tenant-notice-period-compliance-audit",
-   "folder": "gen-g812-tenant-notice-period-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g812-tenant-notice-period-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "165be425142f304023fe738788061a544c624009b5edc038ed5e68ca1192086c",
    "size_bytes": 7954390,
    "updated": "2026-09-20T12:36:31.183Z"
