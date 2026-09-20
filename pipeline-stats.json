@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T12:45:04+00:00",
+ "generated_at": "2026-09-20T12:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 854,
@@ -47,7 +47,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131508
+  "approx_bytes_read": 133337
  },
  "errors": [],
  "tasks": [
@@ -74,7 +74,11 @@
    "updated": "2026-09-18T23:52:53.865Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/ach-pull-583848-support-evidence-review",
+   "declared_short": "ach-pull-583848-support-evidence-review",
+   "folder": "100778",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -84,16 +88,12 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/ach-pull-583848-support-evidence-review",
-   "declared_short": "ach-pull-583848-support-evidence-review",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "100778",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "e68d96fdc6a1fd85d26a08403db22a1953430f618800217fdc46667c80ac4daa",
-   "size_bytes": 9193516,
-   "updated": "2026-09-18T14:56:05.069Z"
+   "sha256": "024d28bec2ca7a83c7fa47efbcefcf02f0408943e60dbfb99bb3cfb2b8d16d3f",
+   "size_bytes": 9379335,
+   "updated": "2026-09-20T12:49:59.484Z"
   },
   {
    "connector_provenance": "unknown",
@@ -1674,15 +1674,15 @@
    "updated": "2026-09-19T05:38:43.447Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c265-print-production-order-audit",
    "declared_short": "code-c265-print-production-order-audit",
-   "folder": "code-c265-print-production-order-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c265-print-production-order-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "002ec0e59e73f5ee5bdca63ebb05d92e8b1585200dd604cfe02c35065d7cf808",
    "size_bytes": 8351609,
    "updated": "2026-09-20T12:41:23.401Z"
