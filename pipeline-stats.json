@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T08:20:02+00:00",
+ "generated_at": "2026-09-20T08:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 833,
-  "scanned": 833,
+  "task_folders": 834,
+  "scanned": 834,
   "connector": 266,
-  "non_connector": 567,
+  "non_connector": 568,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 297,
-  "code": 160,
+  "code": 161,
   "fin": 61,
   "gen": 212,
   "health": 56,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 270,
-  "obi": 563
+  "obi": 564
  },
  "connector_services": {
   "google-drive-gym": 165,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131538
  },
  "errors": [],
  "tasks": [
@@ -2484,6 +2484,20 @@
    "sha256": "0b83e5cff671b66fcfcdbd3e7109996465babbc3b7f9f63d27ad2857f72e42d5",
    "size_bytes": 7667554,
    "updated": "2026-09-19T06:33:36.632Z"
+  },
+  {
+   "declared_name": "obi/code-c476-merchant-feed-margin-label-audit",
+   "declared_short": "code-c476-merchant-feed-margin-label-audit",
+   "folder": "code-c476-merchant-feed-margin-label-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "00c4c05f07fdbeb4a6f30d41de6a63d642f6eba6ad59f827f47cff11df9b0e97",
+   "size_bytes": 8449033,
+   "updated": "2026-09-20T08:49:09.978Z"
   },
   {
    "connector_provenance": null,
