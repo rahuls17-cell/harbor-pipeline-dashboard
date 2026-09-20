@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T22:15:03+00:00",
+ "generated_at": "2026-09-20T22:20:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 912,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262989
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1501,15 +1501,15 @@
    "updated": "2026-09-20T22:01:52.956Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c164-prompt-study-claims-audit",
    "declared_short": "code-c164-prompt-study-claims-audit",
-   "folder": "code-c164-prompt-study-claims-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c164-prompt-study-claims-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "09525c1cd01276008d02e4f34da63af95ce5354a8196f797a0eeaacc126a4c1e",
    "size_bytes": 6908589,
    "updated": "2026-09-20T22:11:16.182Z"
@@ -1543,15 +1543,15 @@
    "updated": "2026-09-20T21:25:16.503Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c173-building-area-calc-audit",
    "declared_short": "code-c173-building-area-calc-audit",
-   "folder": "code-c173-building-area-calc-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c173-building-area-calc-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2a9a4a253044e30295130f96c9f6e507a61b3b31fa36c7fb108edfbfe977be68",
    "size_bytes": 7339831,
    "updated": "2026-09-20T22:12:52.862Z"
