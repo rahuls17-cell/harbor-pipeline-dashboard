@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T21:05:02+00:00",
+ "generated_at": "2026-09-20T21:10:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 899,
-  "scanned": 899,
+  "task_folders": 900,
+  "scanned": 900,
   "connector": 284,
-  "non_connector": 615,
+  "non_connector": 616,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 318,
-  "code": 176,
+  "code": 177,
   "fin": 68,
   "gen": 223,
   "health": 62,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 287,
-  "obi": 612
+  "obi": 613
  },
  "connector_services": {
   "google-drive-gym": 170,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131503
+  "approx_bytes_read": 131488
  },
  "errors": [],
  "tasks": [
@@ -1499,6 +1499,20 @@
    "sha256": "90a2a873c1f1480b9888a7d78b360a305d76d131580f41fbc9aa36e45677ce33",
    "size_bytes": 6819323,
    "updated": "2026-09-09T17:43:30.580Z"
+  },
+  {
+   "declared_name": "obi/code-c175-research-figure-audit",
+   "declared_short": "code-c175-research-figure-audit",
+   "folder": "code-c175-research-figure-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "2e3a678c85ca93f587262857c1e38adb3d278a9aaab63dc93b9873eff91df59d",
+   "size_bytes": 7214296,
+   "updated": "2026-09-20T21:08:00.158Z"
   },
   {
    "connector_provenance": null,
@@ -10949,15 +10963,15 @@
    "updated": "2026-09-17T06:15:42.116Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b37-l5-records-request-deadline-register",
    "declared_short": "law-b37-l5-records-request-deadline-register",
-   "folder": "law-b37-l5-records-request-deadline-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b37-l5-records-request-deadline-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b17c775be459945559c7ee6e6e6250781e9b171ed322fa5be2f2e93eaa341d98",
    "size_bytes": 9297706,
    "updated": "2026-09-20T21:04:31.581Z"
