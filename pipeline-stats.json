@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T03:05:03+00:00",
+ "generated_at": "2026-09-20T03:10:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 818,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132340
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -12107,17 +12107,17 @@
    "updated": "2026-09-19T08:02:42.859Z"
   },
   {
-   "declared_name": "harbor/the-day-it-is-where-i-am",
-   "declared_short": "the-day-it-is-where-i-am",
-   "folder": "the-day-it-is-where-i-am",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-day-it-is-where-i-am",
+   "declared_short": "the-day-it-is-where-i-am",
    "domain": null,
+   "folder": "the-day-it-is-where-i-am",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "63da57b6ab09c2c4e5f91f8c5103f1e48e6a311e10c4c489591470de58e001f8",
    "size_bytes": 8197304,
    "updated": "2026-09-20T03:00:19.959Z"
