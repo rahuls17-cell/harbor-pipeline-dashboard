@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T01:35:03+00:00",
+ "generated_at": "2026-09-20T01:55:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 812,
-  "scanned": 812,
+  "task_folders": 813,
+  "scanned": 813,
   "connector": 260,
-  "non_connector": 552,
+  "non_connector": 553,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 289,
   "code": 158,
-  "fin": 57,
+  "fin": 58,
   "gen": 209,
   "health": 54,
   "law": 45
  },
  "name_prefix": {
   "harbor": 264,
-  "obi": 548
+  "obi": 549
  },
  "connector_services": {
   "google-drive-gym": 164,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131543
  },
  "errors": [],
  "tasks": [
@@ -4991,6 +4991,20 @@
    "sha256": "c9ec515c5833f357ba1f3f8e6f495233b8bd9104a32844b7871537920d128d94",
    "size_bytes": 6743285,
    "updated": "2026-09-19T00:34:50.915Z"
+  },
+  {
+   "declared_name": "obi/fin-b49-f7-pest-control-gl-coi-status-explainer",
+   "declared_short": "fin-b49-f7-pest-control-gl-coi-status-explainer",
+   "folder": "fin-b49-f7-pest-control-gl-coi-status-explainer",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "b1d89259cf09416363ca68ce1358658702067b4daa3f9d16d97ed6e67af5f2f6",
+   "size_bytes": 6833278,
+   "updated": "2026-09-20T01:51:15.352Z"
   },
   {
    "connector_provenance": null,
