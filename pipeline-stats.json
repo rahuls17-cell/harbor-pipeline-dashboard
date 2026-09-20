@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T01:10:03+00:00",
+ "generated_at": "2026-09-20T01:25:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 812,
@@ -46,7 +46,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131546
+  "approx_bytes_read": 131515
  },
  "errors": [],
  "tasks": [
@@ -6001,15 +6001,15 @@
    "updated": "2026-09-19T21:50:28.011Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g216-builder-lot-comparison-audit",
    "declared_short": "gen-g216-builder-lot-comparison-audit",
-   "folder": "gen-g216-builder-lot-comparison-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g216-builder-lot-comparison-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e2bd9a9f11227a433fdd90a8295f98b4c705820e96d096906e4c868146ce29bc",
    "size_bytes": 8580313,
    "updated": "2026-09-20T01:06:51.199Z"
@@ -6057,18 +6057,18 @@
    "updated": "2026-09-16T12:00:46.953Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/gen-g232-staff-assignment-sheet-audit",
    "declared_short": "gen-g232-staff-assignment-sheet-audit",
-   "domain": "gen",
    "folder": "gen-g232-staff-assignment-sheet-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "805a4f40b3eef457e040791236d4592e6d3a6294b1429b931d1d089440893acf",
-   "size_bytes": 7107429,
-   "updated": "2026-09-19T20:30:48.519Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "b891fe933e396b8726bdfa66330cecdc4e0dfb55696623becd0ba3c5c4d575fa",
+   "size_bytes": 8080155,
+   "updated": "2026-09-20T01:23:20.496Z"
   },
   {
    "connector_provenance": null,
