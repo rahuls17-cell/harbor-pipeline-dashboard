@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T04:50:02+00:00",
+ "generated_at": "2026-09-20T04:55:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 820,
-  "scanned": 820,
+  "task_folders": 821,
+  "scanned": 821,
   "connector": 261,
-  "non_connector": 559,
+  "non_connector": 560,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 290,
-  "code": 158,
+  "code": 159,
   "fin": 60,
   "gen": 211,
   "health": 55,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 265,
-  "obi": 555
+  "obi": 556
  },
  "connector_services": {
   "google-drive-gym": 164,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 265361
  },
  "errors": [],
  "tasks": [
@@ -1341,6 +1341,20 @@
    "sha256": "987fd7b1a8ae864a537f38a5849749d1e8473a3b77dddcd30ff1d4b06c8c63a8",
    "size_bytes": 3650080,
    "updated": "2026-09-05T20:02:44.934Z"
+  },
+  {
+   "declared_name": "obi/code-c146-deprecation-migration-tracker-audit",
+   "declared_short": "code-c146-deprecation-migration-tracker-audit",
+   "folder": "code-c146-deprecation-migration-tracker-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "d229bca6956557da0044dd516f7b0253a71b6e501c24c6c3d98b383e13d3e8ae",
+   "size_bytes": 9787257,
+   "updated": "2026-09-20T04:53:27.768Z"
   },
   {
    "connector_provenance": null,
@@ -12823,7 +12837,11 @@
    "updated": "2026-09-19T14:57:00.116Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/verify-single-use-virtual-card-termination-after-first-authorization-c-3",
+   "declared_short": "verify-single-use-virtual-card-termination-after-first-authorization-c-3",
+   "folder": "verify-single-use-virtual-card-termination-after-first-authorization-c-3",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -12833,16 +12851,12 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/verify-single-use-virtual-card-termination-after-first-authorization-c-3",
-   "declared_short": "verify-single-use-virtual-card-termination-after-first-authorization-c-3",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "verify-single-use-virtual-card-termination-after-first-authorization-c-3",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "a88c1ccc4936f9a09e80cca2f1e8fb457ee1f78caf1e47b4934af3fd1798ce6b",
-   "size_bytes": 5242402,
-   "updated": "2026-09-09T18:54:18.513Z"
+   "sha256": "7bfa53287611940b2e9e914ae9c6088e87fa52b20853c976a5e3936a12ec4255",
+   "size_bytes": 9757500,
+   "updated": "2026-09-20T04:51:21.106Z"
   },
   {
    "connector_provenance": "unknown",
