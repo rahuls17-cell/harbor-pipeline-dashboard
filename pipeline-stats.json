@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T13:30:03+00:00",
+ "generated_at": "2026-09-20T13:35:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 858,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133222
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -12205,11 +12205,7 @@
    "updated": "2026-09-10T04:30:44.134Z"
   },
   {
-   "declared_name": "harbor/verify-daily-debit-card-purchase-limits-for-user-846-and-temporary-rai",
-   "declared_short": "verify-daily-debit-card-purchase-limits-for-user-846-and-temporary-rai",
-   "folder": "task_verify_daily_debit_card_purchase_limits_for_user_846_and_temporary_rai",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -12219,9 +12215,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/verify-daily-debit-card-purchase-limits-for-user-846-and-temporary-rai",
+   "declared_short": "verify-daily-debit-card-purchase-limits-for-user-846-and-temporary-rai",
    "domain": null,
+   "folder": "task_verify_daily_debit_card_purchase_limits_for_user_846_and_temporary_rai",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a4aef28efdcf369099975276e70517e37729c68bbb018377c67b25df281031f8",
    "size_bytes": 16036787,
    "updated": "2026-09-20T13:29:04.747Z"
