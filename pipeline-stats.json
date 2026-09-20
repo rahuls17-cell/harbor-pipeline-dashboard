@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-20T17:30:03+00:00",
+ "generated_at": "2026-09-20T17:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 874,
-  "scanned": 874,
-  "connector": 279,
-  "non_connector": 595,
+  "task_folders": 876,
+  "scanned": 876,
+  "connector": 280,
+  "non_connector": 596,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 104,
+  "real": 105,
   "unknown": 102,
   "synthetic": 73
  },
  "domain": {
-  "unnamed": 313,
+  "unnamed": 314,
   "code": 166,
   "fin": 67,
   "gen": 220,
-  "health": 59,
+  "health": 60,
   "law": 49
  },
  "name_prefix": {
-  "harbor": 282,
-  "obi": 592
+  "harbor": 283,
+  "obi": 593
  },
  "connector_services": {
   "google-drive-gym": 168,
@@ -34,7 +34,7 @@
   "freshdesk-gym": 151,
   "slack-gym": 126,
   "slack": 53,
-  "notion-gym": 24,
+  "notion-gym": 25,
   "email-calendar-gym": 13,
   "github-gym": 10,
   "linear-gym": 9,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 269163
  },
  "errors": [],
  "tasks": [
@@ -9999,6 +9999,20 @@
    "updated": "2026-09-06T15:48:13.868Z"
   },
   {
+   "declared_name": "obi/health-h78-research-grant-coi-disclosure-audit",
+   "declared_short": "health-h78-research-grant-coi-disclosure-audit",
+   "folder": "health-h78-research-grant-coi-disclosure-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "7fbf7b1ce43379f4981397f914c840323dacaf1314153e3589b8e89f123a8796",
+   "size_bytes": 10048922,
+   "updated": "2026-09-20T17:43:05.230Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-h78-research-grant-coi-disclosure-audit",
@@ -13688,6 +13702,22 @@
    "sha256": "d9692a24789f12866fd65880a1ae27227211b741ab73ee3db63946c325ce334d",
    "size_bytes": 17347262,
    "updated": "2026-09-16T04:50:25.073Z"
+  },
+  {
+   "declared_name": "harbor/what-the-migration-runbook-settled",
+   "declared_short": "what-the-migration-runbook-settled",
+   "folder": "what-the-migration-runbook-settled",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "ad4e09edd30ee06f6ffd825fc9edde7b304105e614253b3485830f34f8a2145f",
+   "size_bytes": 17353767,
+   "updated": "2026-09-20T17:41:08.864Z"
   },
   {
    "connector_provenance": "unknown",
