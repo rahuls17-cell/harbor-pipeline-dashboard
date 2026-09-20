@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T04:15:03+00:00",
+ "generated_at": "2026-09-20T04:45:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 819,
-  "scanned": 819,
+  "task_folders": 820,
+  "scanned": 820,
   "connector": 261,
-  "non_connector": 558,
+  "non_connector": 559,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 290,
   "code": 158,
-  "fin": 59,
+  "fin": 60,
   "gen": 211,
   "health": 55,
   "law": 46
  },
  "name_prefix": {
   "harbor": 265,
-  "obi": 554
+  "obi": 555
  },
  "connector_services": {
   "google-drive-gym": 164,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 132154
  },
  "errors": [],
  "tasks": [
@@ -5019,6 +5019,20 @@
    "sha256": "b1d89259cf09416363ca68ce1358658702067b4daa3f9d16d97ed6e67af5f2f6",
    "size_bytes": 6833278,
    "updated": "2026-09-20T01:51:15.352Z"
+  },
+  {
+   "declared_name": "obi/fin-b49-f8-three-entity-lender-email-figures",
+   "declared_short": "fin-b49-f8-three-entity-lender-email-figures",
+   "folder": "fin-b49-f8-three-entity-lender-email-figures",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "dcf2c81c210c3c3222fe5832688b85672af1747d81a7091246a9e88a1790d9e1",
+   "size_bytes": 9873771,
+   "updated": "2026-09-20T04:43:16.202Z"
   },
   {
    "connector_provenance": null,
