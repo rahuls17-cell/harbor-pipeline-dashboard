@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T21:40:03+00:00",
+ "generated_at": "2026-09-20T21:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 906,
-  "scanned": 906,
+  "task_folders": 907,
+  "scanned": 907,
   "connector": 284,
-  "non_connector": 622,
+  "non_connector": 623,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 181,
   "fin": 68,
   "gen": 223,
-  "health": 63,
+  "health": 64,
   "law": 52
  },
  "name_prefix": {
   "harbor": 287,
-  "obi": 619
+  "obi": 620
  },
  "connector_services": {
   "google-drive-gym": 170,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262956
+  "new_archives_read": 1,
+  "approx_bytes_read": 131774
  },
  "errors": [],
  "tasks": [
@@ -1599,15 +1599,15 @@
    "updated": "2026-09-09T12:04:44.391Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c209-alert-escalation-tier-audit",
    "declared_short": "code-c209-alert-escalation-tier-audit",
-   "folder": "code-c209-alert-escalation-tier-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c209-alert-escalation-tier-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "bebe116cdba5cd9d44b95580f2444838170d11ad9921ab6d76255d7bd42c8515",
    "size_bytes": 7734568,
    "updated": "2026-09-20T21:35:43.042Z"
@@ -9917,15 +9917,15 @@
    "updated": "2026-09-20T13:11:45.524Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b43-h9-hyperbaric-suite-standards-contradiction",
    "declared_short": "health-b43-h9-hyperbaric-suite-standards-contradiction",
-   "folder": "health-b43-h9-hyperbaric-suite-standards-contradiction",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b43-h9-hyperbaric-suite-standards-contradiction",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c4cd8b100e3b7f24615f8e7cb5a60d7a3e93cc8335266338236663b294f42bf8",
    "size_bytes": 8076231,
    "updated": "2026-09-20T21:39:21.296Z"
@@ -9943,6 +9943,20 @@
    "sha256": "4c56f2fd3d0af32d0590a0f2fd4192d2a1003b50621ce74323fb3fb31e46f436",
    "size_bytes": 7196781,
    "updated": "2026-09-18T15:08:38.928Z"
+  },
+  {
+   "declared_name": "obi/health-b44-h2-meal-plan-energy-protein-ledger",
+   "declared_short": "health-b44-h2-meal-plan-energy-protein-ledger",
+   "folder": "health-b44-h2-meal-plan-energy-protein-ledger",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "84173134137ba9ca10fb19a5807a43f93fa20f8bc28d1b6f8b06809b36259445",
+   "size_bytes": 6726203,
+   "updated": "2026-09-20T21:44:42.391Z"
   },
   {
    "connector_provenance": null,
