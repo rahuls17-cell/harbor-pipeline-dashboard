@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T09:45:02+00:00",
+ "generated_at": "2026-09-20T09:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 837,
-  "scanned": 837,
+  "task_folders": 838,
+  "scanned": 838,
   "connector": 268,
-  "non_connector": 569,
+  "non_connector": 570,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 69
  },
  "domain": {
-  "unnamed": 299,
+  "unnamed": 300,
   "code": 162,
   "fin": 61,
   "gen": 212,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 271,
-  "obi": 566
+  "obi": 567
  },
  "connector_services": {
   "google-drive-gym": 165,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131444
  },
  "errors": [],
  "tasks": [
@@ -1168,6 +1168,20 @@
    "sha256": "35a8563dea4b89d44a6cffa0cd4ebb1484673334957e1b876a2785991302f032",
    "size_bytes": 6746808,
    "updated": "2026-09-17T22:03:05.476Z"
+  },
+  {
+   "declared_name": "obi/bus-b46-b9-quarterly-earnings-release-claims-check",
+   "declared_short": "bus-b46-b9-quarterly-earnings-release-claims-check",
+   "folder": "bus-b46-b9-quarterly-earnings-release-claims-check",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "04955c505c99b212d6d4cb5cd93a2ffa7e02e9e4f409139328eb0f8ec58f198d",
+   "size_bytes": 6454394,
+   "updated": "2026-09-20T09:49:41.440Z"
   },
   {
    "connector_provenance": "synthetic",
