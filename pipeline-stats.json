@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-20T06:15:02+00:00",
+ "generated_at": "2026-09-20T06:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 825,
-  "scanned": 825,
-  "connector": 262,
+  "task_folders": 826,
+  "scanned": 826,
+  "connector": 263,
   "non_connector": 563,
   "errors": 0
  },
  "connector_provenance": {
   "real": 100,
   "unknown": 98,
-  "synthetic": 64
+  "synthetic": 65
  },
  "domain": {
-  "unnamed": 291,
+  "unnamed": 292,
   "code": 159,
   "fin": 61,
   "gen": 212,
@@ -22,7 +22,7 @@
   "law": 46
  },
  "name_prefix": {
-  "harbor": 266,
+  "harbor": 267,
   "obi": 559
  },
  "connector_services": {
@@ -42,11 +42,12 @@
   "gws-gym": 6,
   "supabase-gym": 1,
   "teams-gym": 1,
-  "snowflake-gym": 1
+  "snowflake-gym": 1,
+  "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 140024
  },
  "errors": [],
  "tasks": [
@@ -13013,6 +13014,22 @@
    "sha256": "d9692a24789f12866fd65880a1ae27227211b741ab73ee3db63946c325ce334d",
    "size_bytes": 17347262,
    "updated": "2026-09-16T04:50:25.073Z"
+  },
+  {
+   "declared_name": "harbor/who-still-has-a-key",
+   "declared_short": "who-still-has-a-key",
+   "folder": "who-still-has-a-key",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-teams-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "14351834165496ac1d5f26293ccb143b219f78ca549c502adbb5cc03d88f22fb",
+   "size_bytes": 8077762,
+   "updated": "2026-09-20T06:45:45.207Z"
   }
  ]
 }
