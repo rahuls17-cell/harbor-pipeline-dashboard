@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T20:50:03+00:00",
+ "generated_at": "2026-09-20T20:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 892,
-  "scanned": 892,
+  "task_folders": 895,
+  "scanned": 895,
   "connector": 284,
-  "non_connector": 608,
+  "non_connector": 611,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 318,
-  "code": 172,
+  "code": 174,
   "fin": 68,
   "gen": 222,
-  "health": 61,
+  "health": 62,
   "law": 51
  },
  "name_prefix": {
   "harbor": 287,
-  "obi": 605
+  "obi": 608
  },
  "connector_services": {
   "google-drive-gym": 170,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131503
+  "new_archives_read": 3,
+  "approx_bytes_read": 394447
  },
  "errors": [],
  "tasks": [
@@ -1429,6 +1429,20 @@
    "sha256": "378a85b54f1e1d91a85e9a9f88dc088c7d6cb6ff2cb68e6da064864ed9470f27",
    "size_bytes": 4306381,
    "updated": "2026-09-19T22:16:29.665Z"
+  },
+  {
+   "declared_name": "obi/code-c151-psap-brief-format-audit",
+   "declared_short": "code-c151-psap-brief-format-audit",
+   "folder": "code-c151-psap-brief-format-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "ace54135cf75a351503dd742ff01b8cd514d7144c37c369f991235c825926cb2",
+   "size_bytes": 7880945,
+   "updated": "2026-09-20T20:54:21.400Z"
   },
   {
    "connector_provenance": null,
@@ -3123,6 +3137,20 @@
    "sha256": "6af74676f329fbeb5cfde0665671a169811ab29b5347d72fe099992ba1430ecb",
    "size_bytes": 5864648,
    "updated": "2026-09-10T02:35:38.689Z"
+  },
+  {
+   "declared_name": "obi/code-c593-crypto-index-inclusion-audit",
+   "declared_short": "code-c593-crypto-index-inclusion-audit",
+   "folder": "code-c593-crypto-index-inclusion-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "bfa39aea04a844a4c80581ff4d548d1decc03c184a49dc0e29771c979afac15a",
+   "size_bytes": 6757484,
+   "updated": "2026-09-20T20:50:20.522Z"
   },
   {
    "connector_provenance": null,
@@ -8409,15 +8437,15 @@
    "updated": "2026-09-14T10:18:04.064Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g928-custom-home-elevation-submittal-audit",
    "declared_short": "gen-g928-custom-home-elevation-submittal-audit",
-   "folder": "gen-g928-custom-home-elevation-submittal-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g928-custom-home-elevation-submittal-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c3270624ae675200c3a0d9f482a406d97372fea466312aa8480ab60deb33a009",
    "size_bytes": 7891872,
    "updated": "2026-09-20T20:46:27.293Z"
@@ -10475,6 +10503,20 @@
    "sha256": "53459a1b12e27d0eb34aba56d1ccd326bf59862943b26162b7ab1b8be23ee738",
    "size_bytes": 6089065,
    "updated": "2026-09-19T14:48:14.516Z"
+  },
+  {
+   "declared_name": "obi/health-tdt7-a5-knee-manipulation-brief-denominator-audit",
+   "declared_short": "health-tdt7-a5-knee-manipulation-brief-denominator-audit",
+   "folder": "health-tdt7-a5-knee-manipulation-brief-denominator-audit-v16-FOR-QC-V2",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "bfc526ec07746ce775af84448f9bb39d7c6d825ee7058a963661299ba7d12224",
+   "size_bytes": 5315888,
+   "updated": "2026-09-20T20:50:34.652Z"
   },
   {
    "connector_provenance": null,
