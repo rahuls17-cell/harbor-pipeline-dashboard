@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T02:10:03+00:00",
+ "generated_at": "2026-09-20T02:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 816,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 394626
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -7121,15 +7121,15 @@
    "updated": "2026-09-10T19:12:09.704Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g680-substance-of-concern-phaseout-audit",
    "declared_short": "gen-g680-substance-of-concern-phaseout-audit",
-   "folder": "gen-g680-substance-of-concern-phaseout-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g680-substance-of-concern-phaseout-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5eb74b6d462cd259f520b95926f32a5dc0ffe51b86cdb924c421fadbff6a175d",
    "size_bytes": 7548198,
    "updated": "2026-09-20T02:05:06.662Z"
@@ -7611,15 +7611,15 @@
    "updated": "2026-09-16T13:10:00.301Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g850-sdi-project-phase-sequencing-audit",
    "declared_short": "gen-g850-sdi-project-phase-sequencing-audit",
-   "folder": "gen-g850-sdi-project-phase-sequencing-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g850-sdi-project-phase-sequencing-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9ff6ffde0c16a9e1c817782e95e92b5dc3cb27b24e6df694e0bca155fddce6bf",
    "size_bytes": 6848188,
    "updated": "2026-09-20T02:05:49.345Z"
@@ -9385,15 +9385,15 @@
    "updated": "2026-09-19T16:50:58.554Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h569-irb-amendment-consistency-audit",
    "declared_short": "health-h569-irb-amendment-consistency-audit",
-   "folder": "health-h569-irb-amendment-consistency-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h569-irb-amendment-consistency-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8d3846a1b3f5d200b9d990c62388c121ef17a80e659526857925e6c44c91a496",
    "size_bytes": 6183252,
    "updated": "2026-09-20T02:08:37.767Z"
