@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-20T11:10:03+00:00",
+ "generated_at": "2026-09-20T11:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 847,
-  "scanned": 847,
-  "connector": 269,
-  "non_connector": 578,
+  "task_folders": 849,
+  "scanned": 849,
+  "connector": 270,
+  "non_connector": 579,
   "errors": 0
  },
  "connector_provenance": {
   "real": 101,
-  "unknown": 98,
+  "unknown": 99,
   "synthetic": 70
  },
  "domain": {
-  "unnamed": 301,
+  "unnamed": 302,
   "code": 163,
   "fin": 63,
   "gen": 216,
-  "health": 56,
+  "health": 57,
   "law": 48
  },
  "name_prefix": {
-  "harbor": 272,
-  "obi": 575
+  "harbor": 273,
+  "obi": 576
  },
  "connector_services": {
   "google-drive-gym": 165,
@@ -37,8 +37,8 @@
   "notion-gym": 23,
   "email-calendar-gym": 12,
   "github-gym": 10,
+  "linear-gym": 9,
   "outlook-gym": 9,
-  "linear-gym": 8,
   "gws-gym": 6,
   "supabase-gym": 1,
   "teams-gym": 1,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 268017
  },
  "errors": [],
  "tasks": [
@@ -10094,6 +10094,20 @@
    "updated": "2026-09-19T20:23:55.769Z"
   },
   {
+   "declared_name": "obi/health-tdt7-a8-teleradiology-rate-notes-structuring",
+   "declared_short": "health-tdt7-a8-teleradiology-rate-notes-structuring",
+   "folder": "health-tdt7-a8-teleradiology-rate-notes-structuring",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "1ad9f6c38c181c8e6213b5709a23e3a596b37bdb7c25bbeb077106428bb6e069",
+   "size_bytes": 7530687,
+   "updated": "2026-09-20T11:12:27.962Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "confluence-gym",
@@ -11310,6 +11324,22 @@
    "sha256": "9e34b4905c7d2d0e971ba4128d670c94650e292ef2d0f70ae6662f41dee36ec6",
    "size_bytes": 4806653,
    "updated": "2026-09-17T18:53:54.392Z"
+  },
+  {
+   "declared_name": "harbor/polish-projects-against-their-quarters",
+   "declared_short": "polish-projects-against-their-quarters",
+   "folder": "polish-projects-against-their-quarters",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "0779bc04d35d251dd38c9b59ea7f85ed7cd69069b7c25e54ee876a6329d3a9f6",
+   "size_bytes": 9071636,
+   "updated": "2026-09-20T11:12:23.167Z"
   },
   {
    "connector_provenance": "unknown",
