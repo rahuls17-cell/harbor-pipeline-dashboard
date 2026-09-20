@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-20T11:35:04+00:00",
+ "generated_at": "2026-09-20T12:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 850,
-  "scanned": 850,
-  "connector": 270,
+  "task_folders": 851,
+  "scanned": 851,
+  "connector": 271,
   "non_connector": 580,
   "errors": 0
  },
  "connector_provenance": {
   "real": 101,
-  "unknown": 99,
+  "unknown": 100,
   "synthetic": 70
  },
  "domain": {
-  "unnamed": 302,
+  "unnamed": 303,
   "code": 163,
   "fin": 64,
   "gen": 216,
@@ -22,17 +22,17 @@
   "law": 48
  },
  "name_prefix": {
-  "harbor": 273,
+  "harbor": 274,
   "obi": 577
  },
  "connector_services": {
-  "google-drive-gym": 165,
-  "zeta3-sql-gym": 155,
-  "confluence-gym": 150,
-  "jira-gym": 149,
-  "email-gym": 148,
-  "freshdesk-gym": 148,
-  "slack-gym": 124,
+  "google-drive-gym": 166,
+  "zeta3-sql-gym": 156,
+  "confluence-gym": 151,
+  "jira-gym": 150,
+  "email-gym": 149,
+  "freshdesk-gym": 149,
+  "slack-gym": 125,
   "slack": 51,
   "notion-gym": 23,
   "email-calendar-gym": 12,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 134682
  },
  "errors": [],
  "tasks": [
@@ -13383,6 +13383,28 @@
    "sha256": "14351834165496ac1d5f26293ccb143b219f78ca549c502adbb5cc03d88f22fb",
    "size_bytes": 8077762,
    "updated": "2026-09-20T06:45:45.207Z"
+  },
+  {
+   "declared_name": "harbor/why-did-the-15-95-mobile-check-deposit-for-account-12118-come-back-rej",
+   "declared_short": "why-did-the-15-95-mobile-check-deposit-for-account-12118-come-back-rej",
+   "folder": "why-did-the-15-95-mobile-check-deposit-for-account-12118-come-back-rej",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "a003f0d53c904c4da0348c72da54b0556e0960c844af9ab62344756b5bdddc50",
+   "size_bytes": 8740500,
+   "updated": "2026-09-20T12:00:31.441Z"
   }
  ]
 }
