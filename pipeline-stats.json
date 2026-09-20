@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T10:35:04+00:00",
+ "generated_at": "2026-09-20T10:40:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 841,
-  "scanned": 841,
+  "task_folders": 842,
+  "scanned": 842,
   "connector": 269,
-  "non_connector": 572,
+  "non_connector": 573,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 301,
   "code": 162,
   "fin": 62,
-  "gen": 212,
+  "gen": 213,
   "health": 56,
   "law": 48
  },
  "name_prefix": {
   "harbor": 272,
-  "obi": 569
+  "obi": 570
  },
  "connector_services": {
   "google-drive-gym": 165,
@@ -47,7 +47,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133523
+  "approx_bytes_read": 131437
  },
  "errors": [],
  "tasks": [
@@ -6288,6 +6288,20 @@
    "sha256": "6ff0393b891b8950ddea4908e7347dbf65c2165a7a6c1342ea13ba9af0a0525f",
    "size_bytes": 8245357,
    "updated": "2026-09-19T06:32:20.427Z"
+  },
+  {
+   "declared_name": "obi/gen-g249-stationery-design-audit",
+   "declared_short": "gen-g249-stationery-design-audit",
+   "folder": "gen-g249-stationery-design-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "1753a397adfa38aa6508a6ebb255ab24894766406607bd8e30e229408d2f5032",
+   "size_bytes": 8765354,
+   "updated": "2026-09-20T10:36:53.724Z"
   },
   {
    "connector_provenance": null,
@@ -13061,11 +13075,7 @@
    "updated": "2026-09-12T14:08:02.065Z"
   },
   {
-   "declared_name": "harbor/verify-missing-599-28-charge-dispute-for-account-holder-farren-payment",
-   "declared_short": "verify-missing-599-28-charge-dispute-for-account-holder-farren-payment",
-   "folder": "verify-missing-599-28-charge-dispute-for-account-holder-farren-payment",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -13075,9 +13085,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/verify-missing-599-28-charge-dispute-for-account-holder-farren-payment",
+   "declared_short": "verify-missing-599-28-charge-dispute-for-account-holder-farren-payment",
    "domain": null,
+   "folder": "verify-missing-599-28-charge-dispute-for-account-holder-farren-payment",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9defe85a70cc01e3acab2fd152a695a55925b039b598cc7341839168dccd818e",
    "size_bytes": 8242659,
    "updated": "2026-09-20T10:30:16.303Z"
