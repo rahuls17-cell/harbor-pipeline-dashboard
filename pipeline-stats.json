@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T17:10:02+00:00",
+ "generated_at": "2026-09-20T17:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 874,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134278
+  "approx_bytes_read": 135381
  },
  "errors": [],
  "tasks": [
@@ -4269,7 +4269,11 @@
    "updated": "2026-09-14T23:41:14.925Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/diagnose-returned-check-deposit-9486-16-00-customer-says-funds-never-p",
+   "declared_short": "diagnose-returned-check-deposit-9486-16-00-customer-says-funds-never-p",
+   "folder": "diagnose-returned-check-deposit-9486-16-00-customer-says-funds-never-p",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -4279,16 +4283,12 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/diagnose-returned-check-deposit-9486-16-00-customer-says-funds-never-p",
-   "declared_short": "diagnose-returned-check-deposit-9486-16-00-customer-says-funds-never-p",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "diagnose-returned-check-deposit-9486-16-00-customer-says-funds-never-p",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "4b30877906a70866b20b65bd3c2848b2d3a785bc8ac4b48f37af9329b7f921a0",
-   "size_bytes": 11468814,
-   "updated": "2026-09-17T20:43:21.317Z"
+   "sha256": "482444b83e5325d6ecd05c6cf5a9e735a1053fda768ac2e1241dd93a155de9ed",
+   "size_bytes": 12707618,
+   "updated": "2026-09-20T17:14:47.816Z"
   },
   {
    "connector_provenance": "unknown",
@@ -13690,17 +13690,17 @@
    "updated": "2026-09-16T04:50:25.073Z"
   },
   {
-   "declared_name": "harbor/whats-next-promises-kept",
-   "declared_short": "whats-next-promises-kept",
-   "folder": "whats-next-promises-kept-20260919T140028Z-1-001",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/whats-next-promises-kept",
+   "declared_short": "whats-next-promises-kept",
    "domain": null,
+   "folder": "whats-next-promises-kept-20260919T140028Z-1-001",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "98e82a29f4b052268f7bf8edd66ee461cee956ef02c7225d3c41dbe98bb84919",
    "size_bytes": 14781445,
    "updated": "2026-09-20T17:09:38.687Z"
