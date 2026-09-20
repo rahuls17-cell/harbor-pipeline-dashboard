@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-20T14:30:03+00:00",
+ "generated_at": "2026-09-20T14:35:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 862,
-  "scanned": 862,
-  "connector": 275,
+  "task_folders": 863,
+  "scanned": 863,
+  "connector": 276,
   "non_connector": 587,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 102,
+  "real": 103,
   "unknown": 101,
   "synthetic": 72
  },
  "domain": {
-  "unnamed": 308,
+  "unnamed": 309,
   "code": 165,
   "fin": 65,
   "gen": 218,
@@ -22,7 +22,7 @@
   "law": 48
  },
  "name_prefix": {
-  "harbor": 278,
+  "harbor": 279,
   "obi": 584
  },
  "connector_services": {
@@ -35,7 +35,7 @@
   "slack-gym": 126,
   "slack": 52,
   "notion-gym": 23,
-  "email-calendar-gym": 12,
+  "email-calendar-gym": 13,
   "github-gym": 10,
   "linear-gym": 9,
   "outlook-gym": 9,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133457
+  "approx_bytes_read": 144094
  },
  "errors": [],
  "tasks": [
@@ -11945,17 +11945,17 @@
    "updated": "2026-09-13T03:56:23.558Z"
   },
   {
-   "declared_name": "harbor/deploy-window-local-time-crossref",
-   "declared_short": "deploy-window-local-time-crossref",
-   "folder": "task_deploy-window-local-time-crossref-v23",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/deploy-window-local-time-crossref",
+   "declared_short": "deploy-window-local-time-crossref",
    "domain": null,
+   "folder": "task_deploy-window-local-time-crossref-v23",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "993a6509b62e7490886acd3845125695e2995171eeb0d83569dd842e3824934a",
    "size_bytes": 7512490,
    "updated": "2026-09-20T14:25:32.108Z"
@@ -12718,6 +12718,22 @@
    "sha256": "63da57b6ab09c2c4e5f91f8c5103f1e48e6a311e10c4c489591470de58e001f8",
    "size_bytes": 8197304,
    "updated": "2026-09-20T03:00:19.959Z"
+  },
+  {
+   "declared_name": "harbor/the-diary-answers-for-nobody",
+   "declared_short": "the-diary-answers-for-nobody",
+   "folder": "the-diary-answers-for-nobody",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "2ed97426c208d2c7650cd9597e84276a2f11d65d31a93f5ba2e00737116f02dd",
+   "size_bytes": 6846159,
+   "updated": "2026-09-20T14:32:35.537Z"
   },
   {
    "connector_provenance": "synthetic",
