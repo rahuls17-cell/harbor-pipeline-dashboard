@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T11:15:03+00:00",
+ "generated_at": "2026-09-20T11:20:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 849,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 268017
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -10094,15 +10094,15 @@
    "updated": "2026-09-19T20:23:55.769Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt7-a8-teleradiology-rate-notes-structuring",
    "declared_short": "health-tdt7-a8-teleradiology-rate-notes-structuring",
-   "folder": "health-tdt7-a8-teleradiology-rate-notes-structuring",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt7-a8-teleradiology-rate-notes-structuring",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1ad9f6c38c181c8e6213b5709a23e3a596b37bdb7c25bbeb077106428bb6e069",
    "size_bytes": 7530687,
    "updated": "2026-09-20T11:12:27.962Z"
@@ -11326,17 +11326,17 @@
    "updated": "2026-09-17T18:53:54.392Z"
   },
   {
-   "declared_name": "harbor/polish-projects-against-their-quarters",
-   "declared_short": "polish-projects-against-their-quarters",
-   "folder": "polish-projects-against-their-quarters",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/polish-projects-against-their-quarters",
+   "declared_short": "polish-projects-against-their-quarters",
    "domain": null,
+   "folder": "polish-projects-against-their-quarters",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0779bc04d35d251dd38c9b59ea7f85ed7cd69069b7c25e54ee876a6329d3a9f6",
    "size_bytes": 9071636,
    "updated": "2026-09-20T11:12:23.167Z"
