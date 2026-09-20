@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T12:15:02+00:00",
+ "generated_at": "2026-09-20T12:20:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 852,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131470
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4328,15 +4328,15 @@
    "updated": "2026-09-19T05:57:44.739Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-s1-a3-prophecy-citation-register",
    "declared_short": "edu-s1-a3-prophecy-citation-register",
-   "folder": "edu-s1-a3-prophecy-citation-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-s1-a3-prophecy-citation-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6473d70d454229261767533a09df661591b17f0f87b6521e6bf9834eef4bcb7d",
    "size_bytes": 5893238,
    "updated": "2026-09-20T12:13:33.874Z"
