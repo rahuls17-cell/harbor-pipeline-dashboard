@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T19:05:02+00:00",
+ "generated_at": "2026-09-20T19:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 883,
-  "scanned": 883,
+  "task_folders": 884,
+  "scanned": 884,
   "connector": 281,
-  "non_connector": 602,
+  "non_connector": 603,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 315,
   "code": 170,
-  "fin": 67,
+  "fin": 68,
   "gen": 220,
   "health": 60,
   "law": 51
  },
  "name_prefix": {
   "harbor": 284,
-  "obi": 599
+  "obi": 600
  },
  "connector_services": {
   "google-drive-gym": 168,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131441
  },
  "errors": [],
  "tasks": [
@@ -5367,6 +5367,20 @@
    "sha256": "0d988c73437d75824b821623e2f15044fc4e7ae7902d1815477ca8888ab7f4af",
    "size_bytes": 9800077,
    "updated": "2026-09-19T23:33:39.165Z"
+  },
+  {
+   "declared_name": "obi/fin-b50-f6-nyc-crypto-events-h1-2027-calendar",
+   "declared_short": "fin-b50-f6-nyc-crypto-events-h1-2027-calendar",
+   "folder": "fin-b50-f6-nyc-crypto-events-h1-2027-calendar",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "303ef0dd46b47d0c43e7864986cd728e741b00a774822995bf46bd9a4a467b4e",
+   "size_bytes": 9735822,
+   "updated": "2026-09-20T19:05:13.467Z"
   },
   {
    "connector_provenance": null,
