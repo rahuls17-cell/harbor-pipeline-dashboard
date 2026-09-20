@@ -1,39 +1,39 @@
 {
- "generated_at": "2026-09-20T07:05:02+00:00",
+ "generated_at": "2026-09-20T07:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 827,
-  "scanned": 827,
-  "connector": 263,
-  "non_connector": 564,
+  "task_folders": 829,
+  "scanned": 829,
+  "connector": 264,
+  "non_connector": 565,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 100,
+  "real": 101,
   "unknown": 98,
   "synthetic": 65
  },
  "domain": {
-  "unnamed": 293,
+  "unnamed": 294,
   "code": 159,
   "fin": 61,
   "gen": 212,
   "health": 56,
-  "law": 46
+  "law": 47
  },
  "name_prefix": {
-  "harbor": 267,
-  "obi": 560
+  "harbor": 268,
+  "obi": 561
  },
  "connector_services": {
   "google-drive-gym": 165,
-  "zeta3-sql-gym": 154,
-  "confluence-gym": 149,
+  "zeta3-sql-gym": 155,
+  "confluence-gym": 150,
+  "jira-gym": 149,
   "email-gym": 148,
   "freshdesk-gym": 148,
-  "jira-gym": 148,
   "slack-gym": 123,
-  "slack": 50,
+  "slack": 51,
   "notion-gym": 23,
   "email-calendar-gym": 10,
   "outlook-gym": 9,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 264948
  },
  "errors": [],
  "tasks": [
@@ -10706,6 +10706,20 @@
    "updated": "2026-09-09T06:54:59.581Z"
   },
   {
+   "declared_name": "obi/law-l63-founders-equity-consistency-audit",
+   "declared_short": "law-l63-founders-equity-consistency-audit",
+   "folder": "law-l63-founders-equity-consistency-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "023b240662bbff8dacf8aebde93050aa147d4efdec42609d763fe763db65fb60",
+   "size_bytes": 8344842,
+   "updated": "2026-09-20T07:15:57.025Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-l69-support-payment-reconciliation",
@@ -11686,6 +11700,25 @@
    "sha256": "59d7f72f783bdd06717c261e45b704d183044cddfe5b3c88dc9240ab5ac8bc45",
    "size_bytes": 10071818,
    "updated": "2026-09-19T10:11:29.089Z"
+  },
+  {
+   "declared_name": "harbor/file-new-data-request-for-missing-mandrill-email-delivery-open-bounce",
+   "declared_short": "file-new-data-request-for-missing-mandrill-email-delivery-open-bounce",
+   "folder": "task_file_new_data_request_for_missing_mandrill_email_delivery_open_bounce",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "b0d9630829697eb590e43fc5263d645b8cd8c91822d74092e26111c698e87ae2",
+   "size_bytes": 15636581,
+   "updated": "2026-09-20T07:18:12.478Z"
   },
   {
    "connector_provenance": "real",
