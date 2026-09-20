@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T05:00:03+00:00",
+ "generated_at": "2026-09-20T05:05:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 822,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134931
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -421,11 +421,7 @@
    "updated": "2026-09-10T14:37:38.747Z"
   },
   {
-   "declared_name": "harbor/audit-missing-due-dates-on-linked-bill-counterparties",
-   "declared_short": "audit-missing-due-dates-on-linked-bill-counterparties",
-   "folder": "audit-missing-due-dates-on-linked-bill-counterparties",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -435,9 +431,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/audit-missing-due-dates-on-linked-bill-counterparties",
+   "declared_short": "audit-missing-due-dates-on-linked-bill-counterparties",
    "domain": null,
+   "folder": "audit-missing-due-dates-on-linked-bill-counterparties",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "95c6496db57dbd590f5bdc29bd2bf6995e469177cf80eda028bb7ab94db858aa",
    "size_bytes": 13785020,
    "updated": "2026-09-20T04:57:55.290Z"
