@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T21:25:03+00:00",
+ "generated_at": "2026-09-20T21:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 903,
-  "scanned": 903,
+  "task_folders": 904,
+  "scanned": 904,
   "connector": 284,
-  "non_connector": 619,
+  "non_connector": 620,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 319,
-  "code": 179,
+  "code": 180,
   "fin": 68,
   "gen": 223,
   "health": 62,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 287,
-  "obi": 616
+  "obi": 617
  },
  "connector_services": {
   "google-drive-gym": 170,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131499
  },
  "errors": [],
  "tasks": [
@@ -1499,6 +1499,20 @@
    "sha256": "c1d8b92fa64860b8132fdab0c8e700f96026821acaa1c69575deba86554aadb9",
    "size_bytes": 3923380,
    "updated": "2026-09-05T21:23:45.441Z"
+  },
+  {
+   "declared_name": "obi/code-c171-mobile-site-compliance-audit",
+   "declared_short": "code-c171-mobile-site-compliance-audit",
+   "folder": "code-c171-mobile-site-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "b5b4b8e72d2c64361f71f5583ee99f6ab5d79241ffc0d13252246e4738ce0d08",
+   "size_bytes": 6931201,
+   "updated": "2026-09-20T21:25:16.503Z"
   },
   {
    "connector_provenance": null,
