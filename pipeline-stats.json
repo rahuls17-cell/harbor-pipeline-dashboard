@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T07:45:03+00:00",
+ "generated_at": "2026-09-20T07:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 832,
-  "scanned": 832,
+  "task_folders": 833,
+  "scanned": 833,
   "connector": 266,
-  "non_connector": 566,
+  "non_connector": 567,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 67
  },
  "domain": {
-  "unnamed": 296,
+  "unnamed": 297,
   "code": 160,
   "fin": 61,
   "gen": 212,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 270,
-  "obi": 562
+  "obi": 563
  },
  "connector_services": {
   "google-drive-gym": 165,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 267938
  },
  "errors": [],
  "tasks": [
@@ -554,7 +554,11 @@
    "updated": "2026-09-08T13:58:46.170Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/audit-virtual-card-daily-spend-limit-enforcement-breaches",
+   "declared_short": "audit-virtual-card-daily-spend-limit-enforcement-breaches",
+   "folder": "audit-virtual-card-daily-spend-limit-enforcement-breaches",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -564,16 +568,12 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/audit-virtual-card-daily-spend-limit-enforcement-breaches",
-   "declared_short": "audit-virtual-card-daily-spend-limit-enforcement-breaches",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "audit-virtual-card-daily-spend-limit-enforcement-breaches",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "755b721f8ea9d580c8473a061473bf2d5c8f5e556a3495fba9730eeb95fc11bf",
-   "size_bytes": 12458452,
-   "updated": "2026-09-18T21:59:23.095Z"
+   "sha256": "42c670d57e883909dabba2a2c39ea89089508e34ea5b59a894661ce36f6f70d6",
+   "size_bytes": 11913736,
+   "updated": "2026-09-20T07:49:00.440Z"
   },
   {
    "connector_provenance": "unknown",
@@ -12115,6 +12115,20 @@
    "sha256": "f3d3ac4617b748ff2b6e300af1b68518cda666e19ec86e7f4e6fb4be3b5fa5df",
    "size_bytes": 7996991,
    "updated": "2026-09-17T08:41:57.000Z"
+  },
+  {
+   "declared_name": "obi/tech-b45-t2-gpp-drive-map-targeting-adjudication",
+   "declared_short": "tech-b45-t2-gpp-drive-map-targeting-adjudication",
+   "folder": "tech-b45-t2-gpp-drive-map-targeting-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "712463b965f2dcb3899962f2f98a968a2ad03dcced5f53e1f031bbe2710a667b",
+   "size_bytes": 8943244,
+   "updated": "2026-09-20T07:49:09.856Z"
   },
   {
    "connector_provenance": null,
