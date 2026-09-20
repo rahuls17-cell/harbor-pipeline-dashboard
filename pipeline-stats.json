@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T13:15:03+00:00",
+ "generated_at": "2026-09-20T13:20:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 855,
-  "scanned": 855,
+  "task_folders": 856,
+  "scanned": 856,
   "connector": 271,
-  "non_connector": 584,
+  "non_connector": 585,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 304,
   "code": 164,
-  "fin": 64,
+  "fin": 65,
   "gen": 217,
   "health": 58,
   "law": 48
  },
  "name_prefix": {
   "harbor": 274,
-  "obi": 581
+  "obi": 582
  },
  "connector_services": {
   "google-drive-gym": 166,
@@ -47,7 +47,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131573
+  "approx_bytes_read": 131433
  },
  "errors": [],
  "tasks": [
@@ -5072,6 +5072,20 @@
    "updated": "2026-09-16T10:59:47.643Z"
   },
   {
+   "declared_name": "obi/fin-b47-a13-utility-charge-line-classification",
+   "declared_short": "fin-b47-a13-utility-charge-line-classification",
+   "folder": "fin-b47-a13-utility-charge-line-classification",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "19d2606e7caeb6254c0d4fb7f794fbe64106ff74ab6a64bc3a29d47d5010aed8",
+   "size_bytes": 6989246,
+   "updated": "2026-09-20T13:19:59.535Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/fin-b47-a15-sponsor-fee-revenue-schedule",
@@ -9450,15 +9464,15 @@
    "updated": "2026-09-18T16:26:02.289Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b43-h7-training-block-volume-recompute",
    "declared_short": "health-b43-h7-training-block-volume-recompute",
-   "folder": "health-b43-h7-training-block-volume-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b43-h7-training-block-volume-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "164f8a9f6b0423df68ec0d72ef4d7fdda418d11d33250ae25136d41d9c0f03cd",
    "size_bytes": 6930775,
    "updated": "2026-09-20T13:11:45.524Z"
