@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T16:35:03+00:00",
+ "generated_at": "2026-09-20T16:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 872,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133159
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -12432,11 +12432,7 @@
    "updated": "2026-09-19T23:21:11.227Z"
   },
   {
-   "declared_name": "harbor/verify-physical-card-shipping-timeline-claim-for-household-with-two-ca",
-   "declared_short": "verify-physical-card-shipping-timeline-claim-for-household-with-two-ca",
-   "folder": "task_verify_physical_card_shipping_timeline_claim_for_household_with_two_ca",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -12446,9 +12442,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/verify-physical-card-shipping-timeline-claim-for-household-with-two-ca",
+   "declared_short": "verify-physical-card-shipping-timeline-claim-for-household-with-two-ca",
    "domain": null,
+   "folder": "task_verify_physical_card_shipping_timeline_claim_for_household_with_two_ca",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7a35ade2146325a77d592872c1e1276df3b061838299b920f6d8421181963fae",
    "size_bytes": 17484434,
    "updated": "2026-09-20T16:31:54.994Z"
