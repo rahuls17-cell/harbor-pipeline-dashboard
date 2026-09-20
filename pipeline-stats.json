@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T00:40:02+00:00",
+ "generated_at": "2026-09-20T00:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 810,
-  "scanned": 810,
+  "task_folders": 811,
+  "scanned": 811,
   "connector": 260,
-  "non_connector": 550,
+  "non_connector": 551,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 289,
   "code": 157,
   "fin": 57,
-  "gen": 208,
+  "gen": 209,
   "health": 54,
   "law": 45
  },
  "name_prefix": {
   "harbor": 264,
-  "obi": 546
+  "obi": 547
  },
  "connector_services": {
   "google-drive-gym": 164,
@@ -46,7 +46,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131342
+  "approx_bytes_read": 131588
  },
  "errors": [],
  "tasks": [
@@ -5805,6 +5805,20 @@
    "updated": "2026-09-18T00:28:17.979Z"
   },
   {
+   "declared_name": "obi/gen-g1275-biologic-carton-label-conformance-audit",
+   "declared_short": "gen-g1275-biologic-carton-label-conformance-audit",
+   "folder": "gen-g1275-biologic-carton-label-conformance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "bd2d3370b19fbb7c924210efc47042f339290b7572cf511fc781a63bc853280f",
+   "size_bytes": 8804428,
+   "updated": "2026-09-20T00:47:04.870Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g128-gift-entertainment-register-threshold-audit",
@@ -11225,15 +11239,15 @@
    "updated": "2026-09-19T01:23:02.097Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c214-pod-security-context-audit",
    "declared_short": "code-c214-pod-security-context-audit",
-   "folder": "task",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "task",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ff0671b210e451a907a04ef2ff1489b2d29acf197a22d2088872d571b1bc66b2",
    "size_bytes": 6997134,
    "updated": "2026-09-20T00:38:23.027Z"
