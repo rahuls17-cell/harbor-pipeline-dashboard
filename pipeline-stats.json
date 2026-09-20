@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-20T19:35:02+00:00",
+ "generated_at": "2026-09-20T19:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 885,
-  "scanned": 885,
-  "connector": 281,
+  "task_folders": 886,
+  "scanned": 886,
+  "connector": 282,
   "non_connector": 604,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 105,
+  "real": 106,
   "unknown": 102,
   "synthetic": 74
  },
  "domain": {
-  "unnamed": 315,
+  "unnamed": 316,
   "code": 170,
   "fin": 68,
   "gen": 220,
@@ -22,18 +22,18 @@
   "law": 51
  },
  "name_prefix": {
-  "harbor": 284,
+  "harbor": 285,
   "obi": 601
  },
  "connector_services": {
-  "google-drive-gym": 168,
-  "zeta3-sql-gym": 158,
-  "confluence-gym": 153,
-  "jira-gym": 152,
-  "email-gym": 151,
-  "freshdesk-gym": 151,
+  "google-drive-gym": 169,
+  "zeta3-sql-gym": 159,
+  "confluence-gym": 154,
+  "jira-gym": 153,
+  "email-gym": 152,
+  "freshdesk-gym": 152,
   "slack-gym": 126,
-  "slack": 53,
+  "slack": 54,
   "notion-gym": 25,
   "email-calendar-gym": 13,
   "linear-gym": 10,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131537
+  "approx_bytes_read": 133673
  },
  "errors": [],
  "tasks": [
@@ -421,6 +421,28 @@
    "sha256": "ee73fd9bbe017e5b2769f79b9d717d12000f8eb0031bd7afd109fbe90c338dcd",
    "size_bytes": 3207218,
    "updated": "2026-09-10T14:37:38.747Z"
+  },
+  {
+   "declared_name": "harbor/atm-803-pulse-withdrawal-declined-on-card-18041-cardholder-escalation",
+   "declared_short": "atm-803-pulse-withdrawal-declined-on-card-18041-cardholder-escalation",
+   "folder": "atm-803-pulse-withdrawal-declined-on-card-18041-cardholder-escalation",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "5d2ff6febf68ed9725288c37cae2fe0d6b407e36db0177fa737f8f34af76762e",
+   "size_bytes": 12896463,
+   "updated": "2026-09-20T19:39:46.005Z"
   },
   {
    "connector_provenance": "unknown",
@@ -9593,15 +9615,15 @@
    "updated": "2026-09-18T16:13:25.576Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b43-h10-otc-formulary-equivalence-normalisation",
    "declared_short": "health-b43-h10-otc-formulary-equivalence-normalisation",
-   "folder": "health-b43-h10-otc-formulary-equivalence-normalisation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b43-h10-otc-formulary-equivalence-normalisation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f8548b7b8b42969d623f4ac5a19e91fc84297f58aa6d24a6012a93f618203e1c",
    "size_bytes": 4884225,
    "updated": "2026-09-20T19:32:10.372Z"
