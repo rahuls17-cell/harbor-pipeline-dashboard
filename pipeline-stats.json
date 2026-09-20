@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T14:05:03+00:00",
+ "generated_at": "2026-09-20T14:10:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 860,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 140046
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -11631,17 +11631,17 @@
    "updated": "2026-09-17T05:59:40.407Z"
   },
   {
-   "declared_name": "harbor/rooms-that-were-never-on-the-list",
-   "declared_short": "rooms-that-were-never-on-the-list",
-   "folder": "rooms-that-were-never-on-the-list",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "microsoft_teams-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/rooms-that-were-never-on-the-list",
+   "declared_short": "rooms-that-were-never-on-the-list",
    "domain": null,
+   "folder": "rooms-that-were-never-on-the-list",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "28c131f45b25e1c7ed29d47fd54bbbb46b5eed5c4e963973b1fa2412a48db0f4",
    "size_bytes": 10610249,
    "updated": "2026-09-20T14:00:37.928Z"
