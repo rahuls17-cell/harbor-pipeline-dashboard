@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-20T04:55:02+00:00",
+ "generated_at": "2026-09-20T05:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 821,
-  "scanned": 821,
-  "connector": 261,
+  "task_folders": 822,
+  "scanned": 822,
+  "connector": 262,
   "non_connector": 560,
   "errors": 0
  },
  "connector_provenance": {
   "real": 100,
-  "unknown": 97,
+  "unknown": 98,
   "synthetic": 64
  },
  "domain": {
-  "unnamed": 290,
+  "unnamed": 291,
   "code": 159,
   "fin": 60,
   "gen": 211,
@@ -22,17 +22,17 @@
   "law": 46
  },
  "name_prefix": {
-  "harbor": 265,
+  "harbor": 266,
   "obi": 556
  },
  "connector_services": {
-  "google-drive-gym": 164,
-  "zeta3-sql-gym": 153,
-  "confluence-gym": 148,
-  "email-gym": 147,
-  "freshdesk-gym": 147,
-  "jira-gym": 147,
-  "slack-gym": 122,
+  "google-drive-gym": 165,
+  "zeta3-sql-gym": 154,
+  "confluence-gym": 149,
+  "email-gym": 148,
+  "freshdesk-gym": 148,
+  "jira-gym": 148,
+  "slack-gym": 123,
   "slack": 50,
   "notion-gym": 23,
   "email-calendar-gym": 10,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 265361
+  "new_archives_read": 1,
+  "approx_bytes_read": 134931
  },
  "errors": [],
  "tasks": [
@@ -419,6 +419,28 @@
    "sha256": "ee73fd9bbe017e5b2769f79b9d717d12000f8eb0031bd7afd109fbe90c338dcd",
    "size_bytes": 3207218,
    "updated": "2026-09-10T14:37:38.747Z"
+  },
+  {
+   "declared_name": "harbor/audit-missing-due-dates-on-linked-bill-counterparties",
+   "declared_short": "audit-missing-due-dates-on-linked-bill-counterparties",
+   "folder": "audit-missing-due-dates-on-linked-bill-counterparties",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "95c6496db57dbd590f5bdc29bd2bf6995e469177cf80eda028bb7ab94db858aa",
+   "size_bytes": 13785020,
+   "updated": "2026-09-20T04:57:55.290Z"
   },
   {
    "connector_provenance": "real",
@@ -1343,15 +1365,15 @@
    "updated": "2026-09-05T20:02:44.934Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c146-deprecation-migration-tracker-audit",
    "declared_short": "code-c146-deprecation-migration-tracker-audit",
-   "folder": "code-c146-deprecation-migration-tracker-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c146-deprecation-migration-tracker-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d229bca6956557da0044dd516f7b0253a71b6e501c24c6c3d98b383e13d3e8ae",
    "size_bytes": 9787257,
    "updated": "2026-09-20T04:53:27.768Z"
@@ -12837,11 +12859,7 @@
    "updated": "2026-09-19T14:57:00.116Z"
   },
   {
-   "declared_name": "harbor/verify-single-use-virtual-card-termination-after-first-authorization-c-3",
-   "declared_short": "verify-single-use-virtual-card-termination-after-first-authorization-c-3",
-   "folder": "verify-single-use-virtual-card-termination-after-first-authorization-c-3",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -12851,9 +12869,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/verify-single-use-virtual-card-termination-after-first-authorization-c-3",
+   "declared_short": "verify-single-use-virtual-card-termination-after-first-authorization-c-3",
    "domain": null,
+   "folder": "verify-single-use-virtual-card-termination-after-first-authorization-c-3",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7bfa53287611940b2e9e914ae9c6088e87fa52b20853c976a5e3936a12ec4255",
    "size_bytes": 9757500,
    "updated": "2026-09-20T04:51:21.106Z"
