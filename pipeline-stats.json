@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T16:20:02+00:00",
+ "generated_at": "2026-09-20T16:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 867,
-  "scanned": 867,
+  "task_folders": 868,
+  "scanned": 868,
   "connector": 276,
-  "non_connector": 591,
+  "non_connector": 592,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 72
  },
  "domain": {
-  "unnamed": 309,
+  "unnamed": 310,
   "code": 166,
   "fin": 65,
   "gen": 220,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 279,
-  "obi": 588
+  "obi": 589
  },
  "connector_services": {
   "google-drive-gym": 167,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 132093
  },
  "errors": [],
  "tasks": [
@@ -13646,6 +13646,20 @@
    "sha256": "a003f0d53c904c4da0348c72da54b0556e0960c844af9ab62344756b5bdddc50",
    "size_bytes": 8740500,
    "updated": "2026-09-20T12:00:31.441Z"
+  },
+  {
+   "declared_name": "obi/writing-sc05-b9-publication-gate-review",
+   "declared_short": "writing-sc05-b9-publication-gate-review",
+   "folder": "writing-sc05-b9-publication-gate-review",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "21f92de73ec820818ee5b12ea5827dfa550734980d593ddf0c371992d567d81b",
+   "size_bytes": 7445073,
+   "updated": "2026-09-20T16:24:53.457Z"
   }
  ]
 }
