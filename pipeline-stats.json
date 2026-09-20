@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T18:40:03+00:00",
+ "generated_at": "2026-09-20T18:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 881,
-  "scanned": 881,
+  "task_folders": 882,
+  "scanned": 882,
   "connector": 281,
-  "non_connector": 600,
+  "non_connector": 601,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 315,
-  "code": 168,
+  "code": 169,
   "fin": 67,
   "gen": 220,
   "health": 60,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 284,
-  "obi": 597
+  "obi": 598
  },
  "connector_services": {
   "google-drive-gym": 168,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 137855
+  "approx_bytes_read": 131722
  },
  "errors": [],
  "tasks": [
@@ -3409,6 +3409,20 @@
    "sha256": "bdf3fdc6af65b4f0ead19e5912b53e288313075bf7ac07c0f54246d3d400e901",
    "size_bytes": 7153575,
    "updated": "2026-09-19T11:50:30.747Z"
+  },
+  {
+   "declared_name": "obi/code-c751-email-signature-brand-compliance-audit",
+   "declared_short": "code-c751-email-signature-brand-compliance-audit",
+   "folder": "code-c751-email-signature-brand-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "76ee5c09e7be77a3dfe0e0bb3a7936ebbc1c728f102b1ca6710c2393f136c9e4",
+   "size_bytes": 12616985,
+   "updated": "2026-09-20T18:44:14.123Z"
   },
   {
    "connector_provenance": null,
@@ -13054,17 +13068,17 @@
    "updated": "2026-09-18T21:00:32.266Z"
   },
   {
-   "declared_name": "harbor/the-owner-column-is-not-an-owner",
-   "declared_short": "the-owner-column-is-not-an-owner",
-   "folder": "the-owner-column-is-not-an-owner",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-owner-column-is-not-an-owner",
+   "declared_short": "the-owner-column-is-not-an-owner",
    "domain": null,
+   "folder": "the-owner-column-is-not-an-owner",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "727660f79a104c3e1f6738a4f557477c1f38d3030e314066f989f7443ee93918",
    "size_bytes": 6947489,
    "updated": "2026-09-20T18:36:25.883Z"
