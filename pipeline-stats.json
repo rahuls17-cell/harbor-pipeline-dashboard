@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T19:45:02+00:00",
+ "generated_at": "2026-09-20T19:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 887,
-  "scanned": 887,
+  "task_folders": 888,
+  "scanned": 888,
   "connector": 283,
-  "non_connector": 604,
+  "non_connector": 605,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 317,
-  "code": 170,
+  "code": 171,
   "fin": 68,
   "gen": 220,
   "health": 61,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 286,
-  "obi": 601
+  "obi": 602
  },
  "connector_services": {
   "google-drive-gym": 170,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134764
+  "approx_bytes_read": 131517
  },
  "errors": [],
  "tasks": [
@@ -3251,6 +3251,20 @@
    "updated": "2026-09-05T21:43:47.417Z"
   },
   {
+   "declared_name": "obi/code-c679-investment-commentary-disclosure-audit",
+   "declared_short": "code-c679-investment-commentary-disclosure-audit",
+   "folder": "code-c679-investment-commentary-disclosure-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "8b98082f88c71953bdb7d667faa16045205f67649e429843dc6fc498db250502",
+   "size_bytes": 6569223,
+   "updated": "2026-09-20T19:46:57.266Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c680-agent-task-routing-cost-audit",
@@ -3973,11 +3987,7 @@
    "updated": "2026-09-09T20:45:56.410Z"
   },
   {
-   "declared_name": "harbor/determine-ofac-monitoring-enrollment-next-step-for-legacy-account-owne",
-   "declared_short": "determine-ofac-monitoring-enrollment-next-step-for-legacy-account-owne",
-   "folder": "determine-ofac-monitoring-enrollment-final",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -3987,9 +3997,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/determine-ofac-monitoring-enrollment-next-step-for-legacy-account-owne",
+   "declared_short": "determine-ofac-monitoring-enrollment-next-step-for-legacy-account-owne",
    "domain": null,
+   "folder": "determine-ofac-monitoring-enrollment-final",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0c4ea090dc0e2c2d5598d728830c0f9feccadf6d31097e48b24de9aa4f7fd3cf",
    "size_bytes": 13341423,
    "updated": "2026-09-20T19:40:07.315Z"
