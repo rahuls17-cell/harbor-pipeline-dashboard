@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T15:05:02+00:00",
+ "generated_at": "2026-09-20T15:40:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 864,
-  "scanned": 864,
+  "task_folders": 865,
+  "scanned": 865,
   "connector": 276,
-  "non_connector": 588,
+  "non_connector": 589,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 165,
   "fin": 65,
   "gen": 219,
-  "health": 58,
+  "health": 59,
   "law": 48
  },
  "name_prefix": {
   "harbor": 279,
-  "obi": 585
+  "obi": 586
  },
  "connector_services": {
   "google-drive-gym": 167,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131518
  },
  "errors": [],
  "tasks": [
@@ -9577,6 +9577,20 @@
    "sha256": "99e59b4303c5203e2f42fb6416c4fb2164d09d6c551c41590689860ecc506008",
    "size_bytes": 10151163,
    "updated": "2026-09-06T14:08:09.050Z"
+  },
+  {
+   "declared_name": "obi/health-h115-salon-chemical-service-interval-audit",
+   "declared_short": "health-h115-salon-chemical-service-interval-audit",
+   "folder": "health-h115-salon-chemical-service-interval-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "8e738fd1027cf3a3e75e0461c3aaa8d1b9c1cd6f0412ab0a463e1d62cf765580",
+   "size_bytes": 11400814,
+   "updated": "2026-09-20T15:37:05.142Z"
   },
   {
    "connector_provenance": null,
