@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T03:10:02+00:00",
+ "generated_at": "2026-09-20T03:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 818,
@@ -9,8 +9,8 @@
   "errors": 0
  },
  "connector_provenance": {
-  "real": 101,
-  "unknown": 96,
+  "real": 100,
+  "unknown": 97,
   "synthetic": 64
  },
  "domain": {
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 138242
  },
  "errors": [],
  "tasks": [
@@ -11007,7 +11007,11 @@
    "updated": "2026-09-18T20:46:46.120Z"
   },
   {
-   "connector_provenance": "real",
+   "declared_name": "harbor/recurring-11-99-subscription-card-declines-on-card-48320-customer-says",
+   "declared_short": "recurring-11-99-subscription-card-declines-on-card-48320-customer-says",
+   "folder": "recurring-11-99-subscription-card-declines-on-card-48320-customer-says",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -11017,16 +11021,12 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/recurring-11-99-subscription-card-declines-on-card-48320-customer-says",
-   "declared_short": "recurring-11-99-subscription-card-declines-on-card-48320-customer-says",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "recurring-11-99-subscription-card-declines-on-card-48320-customer-says",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "bb3664f87f3b1f503d645398a296653d33f1b57f7fe4b298f4eacf3fba3cca68",
-   "size_bytes": 8342596,
-   "updated": "2026-09-09T19:10:10.737Z"
+   "sha256": "3bd7271a60dde164afbb18f252c2efa69f162d39c4516a117ff924bcc667469c",
+   "size_bytes": 10312235,
+   "updated": "2026-09-20T03:38:33.994Z"
   },
   {
    "connector_provenance": "unknown",
