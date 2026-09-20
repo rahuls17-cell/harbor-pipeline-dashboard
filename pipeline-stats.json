@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-20T09:15:02+00:00",
+ "generated_at": "2026-09-20T09:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 834,
-  "scanned": 834,
-  "connector": 266,
-  "non_connector": 568,
+  "task_folders": 837,
+  "scanned": 837,
+  "connector": 268,
+  "non_connector": 569,
   "errors": 0
  },
  "connector_provenance": {
   "real": 101,
   "unknown": 98,
-  "synthetic": 67
+  "synthetic": 69
  },
  "domain": {
-  "unnamed": 297,
-  "code": 161,
+  "unnamed": 299,
+  "code": 162,
   "fin": 61,
   "gen": 212,
   "health": 56,
   "law": 47
  },
  "name_prefix": {
-  "harbor": 270,
-  "obi": 564
+  "harbor": 271,
+  "obi": 566
  },
  "connector_services": {
   "google-drive-gym": 165,
@@ -32,10 +32,10 @@
   "jira-gym": 149,
   "email-gym": 148,
   "freshdesk-gym": 148,
-  "slack-gym": 123,
+  "slack-gym": 124,
   "slack": 51,
   "notion-gym": 23,
-  "email-calendar-gym": 10,
+  "email-calendar-gym": 11,
   "github-gym": 10,
   "outlook-gym": 9,
   "linear-gym": 8,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 407814
  },
  "errors": [],
  "tasks": [
@@ -2568,6 +2568,20 @@
    "sha256": "7b04560646ca7f6c9bdf6ecf4798964d3804602aeebaaefa142eae2b7477ad5c",
    "size_bytes": 7992611,
    "updated": "2026-09-11T07:18:26.542Z"
+  },
+  {
+   "declared_name": "obi/code-c485-podcast-autosync-job-audit",
+   "declared_short": "code-c485-podcast-autosync-job-audit",
+   "folder": "code-c485-podcast-autosync-job-audit-m-v2",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "b2993e7a4eff3dc96bae8f764a5c377149fa1ed5c05d748c8825564c23cf3b43",
+   "size_bytes": 7998071,
+   "updated": "2026-09-20T09:15:07.046Z"
   },
   {
    "connector_provenance": null,
@@ -12287,6 +12301,22 @@
    "updated": "2026-09-19T00:57:12.911Z"
   },
   {
+   "declared_name": "obi/the-approval-came-with-a-catch",
+   "declared_short": "the-approval-came-with-a-catch",
+   "folder": "the-approval-came-with-a-catch",
+   "prefix": "obi",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "9ac67892c91ec1c74439e7cdcd3f119f1b749251fdcb2814387d5549ce21cbf2",
+   "size_bytes": 7164398,
+   "updated": "2026-09-20T09:15:32.649Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -12349,6 +12379,22 @@
    "sha256": "63da57b6ab09c2c4e5f91f8c5103f1e48e6a311e10c4c489591470de58e001f8",
    "size_bytes": 8197304,
    "updated": "2026-09-20T03:00:19.959Z"
+  },
+  {
+   "declared_name": "harbor/the-draft-that-outlived-the-thread",
+   "declared_short": "the-draft-that-outlived-the-thread",
+   "folder": "the-draft-that-outlived-the-thread",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "4f1332460a95f8ed0894f3c2bcdd17c88f20d8787b0141a4b4ab187bf699ae84",
+   "size_bytes": 8571462,
+   "updated": "2026-09-20T09:19:45.439Z"
   },
   {
    "connector_provenance": "real",
