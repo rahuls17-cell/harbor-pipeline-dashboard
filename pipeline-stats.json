@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T16:05:03+00:00",
+ "generated_at": "2026-09-20T16:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 866,
-  "scanned": 866,
+  "task_folders": 867,
+  "scanned": 867,
   "connector": 276,
-  "non_connector": 590,
+  "non_connector": 591,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 309,
-  "code": 165,
+  "code": 166,
   "fin": 65,
   "gen": 220,
   "health": 59,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 279,
-  "obi": 587
+  "obi": 588
  },
  "connector_services": {
   "google-drive-gym": 167,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131505
  },
  "errors": [],
  "tasks": [
@@ -1505,6 +1505,20 @@
    "sha256": "1692616a3b2ae5559ec54721febceeca98e5c8f0431c1a713dd3401b8698fb8e",
    "size_bytes": 6326060,
    "updated": "2026-09-09T12:04:44.391Z"
+  },
+  {
+   "declared_name": "obi/code-c212-build-artifact-retention-audit",
+   "declared_short": "code-c212-build-artifact-retention-audit",
+   "folder": "code-c212-build-artifact-retention-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "66bf736567373fb3ef378af76bc607919b0238b127143b472545f99acc775751",
+   "size_bytes": 6121241,
+   "updated": "2026-09-20T16:09:00.246Z"
   },
   {
    "connector_provenance": null,
