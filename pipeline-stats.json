@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T19:30:02+00:00",
+ "generated_at": "2026-09-20T19:35:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 884,
-  "scanned": 884,
+  "task_folders": 885,
+  "scanned": 885,
   "connector": 281,
-  "non_connector": 603,
+  "non_connector": 604,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 170,
   "fin": 68,
   "gen": 220,
-  "health": 60,
+  "health": 61,
   "law": 51
  },
  "name_prefix": {
   "harbor": 284,
-  "obi": 600
+  "obi": 601
  },
  "connector_services": {
   "google-drive-gym": 168,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131537
  },
  "errors": [],
  "tasks": [
@@ -9591,6 +9591,20 @@
    "sha256": "7655e65f7100bf219078b76d97a6d72ab63b9855466d8d061b4075cbd43d876c",
    "size_bytes": 7016417,
    "updated": "2026-09-18T16:13:25.576Z"
+  },
+  {
+   "declared_name": "obi/health-b43-h10-otc-formulary-equivalence-normalisation",
+   "declared_short": "health-b43-h10-otc-formulary-equivalence-normalisation",
+   "folder": "health-b43-h10-otc-formulary-equivalence-normalisation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "f8548b7b8b42969d623f4ac5a19e91fc84297f58aa6d24a6012a93f618203e1c",
+   "size_bytes": 4884225,
+   "updated": "2026-09-20T19:32:10.372Z"
   },
   {
    "connector_provenance": null,
