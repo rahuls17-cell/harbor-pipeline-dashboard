@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T10:40:04+00:00",
+ "generated_at": "2026-09-20T10:45:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 842,
-  "scanned": 842,
+  "task_folders": 844,
+  "scanned": 844,
   "connector": 269,
-  "non_connector": 573,
+  "non_connector": 575,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 301,
   "code": 162,
-  "fin": 62,
-  "gen": 213,
+  "fin": 63,
+  "gen": 214,
   "health": 56,
   "law": 48
  },
  "name_prefix": {
   "harbor": 272,
-  "obi": 570
+  "obi": 572
  },
  "connector_services": {
   "google-drive-gym": 165,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131437
+  "new_archives_read": 2,
+  "approx_bytes_read": 263083
  },
  "errors": [],
  "tasks": [
@@ -4820,6 +4820,20 @@
    "updated": "2026-09-16T10:09:36.777Z"
   },
   {
+   "declared_name": "obi/fin-b43-a5-reversal-backtest-adjudication",
+   "declared_short": "fin-b43-a5-reversal-backtest-adjudication",
+   "folder": "fin-b43-a5-reversal-backtest-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "52695d9e0e5ea120a779a990129bb8f7546edbdc86132f125771554823ef9fa0",
+   "size_bytes": 20827580,
+   "updated": "2026-09-20T10:42:27.010Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/fin-b43-a8-gl-history-bucket-normalisation",
@@ -6290,15 +6304,15 @@
    "updated": "2026-09-19T06:32:20.427Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g249-stationery-design-audit",
    "declared_short": "gen-g249-stationery-design-audit",
-   "folder": "gen-g249-stationery-design-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g249-stationery-design-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1753a397adfa38aa6508a6ebb255ab24894766406607bd8e30e229408d2f5032",
    "size_bytes": 8765354,
    "updated": "2026-09-20T10:36:53.724Z"
@@ -6344,6 +6358,20 @@
    "sha256": "936a15edcaed47bb1bb22e0c78eb9574527ab388ae8da71f96576c0ef24444d8",
    "size_bytes": 5732601,
    "updated": "2026-09-11T22:54:10.013Z"
+  },
+  {
+   "declared_name": "obi/gen-g266-game-design-doc-audit",
+   "declared_short": "gen-g266-game-design-doc-audit",
+   "folder": "gen-g266-game-design-doc-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "d29297f3beb575f8d86581d6c4840c70ec874332d48d605abca1d98d4f9daa71",
+   "size_bytes": 7074990,
+   "updated": "2026-09-20T10:44:37.885Z"
   },
   {
    "connector_provenance": null,
