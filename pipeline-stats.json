@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T17:45:03+00:00",
+ "generated_at": "2026-09-20T17:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 876,
-  "scanned": 876,
+  "task_folders": 878,
+  "scanned": 878,
   "connector": 280,
-  "non_connector": 596,
+  "non_connector": 598,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 67,
   "gen": 220,
   "health": 60,
-  "law": 49
+  "law": 51
  },
  "name_prefix": {
   "harbor": 283,
-  "obi": 593
+  "obi": 595
  },
  "connector_services": {
   "google-drive-gym": 168,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 269163
+  "approx_bytes_read": 263036
  },
  "errors": [],
  "tasks": [
@@ -9999,15 +9999,15 @@
    "updated": "2026-09-06T15:48:13.868Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h78-research-grant-coi-disclosure-audit",
    "declared_short": "health-h78-research-grant-coi-disclosure-audit",
-   "folder": "health-h78-research-grant-coi-disclosure-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h78-research-grant-coi-disclosure-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7fbf7b1ce43379f4981397f914c840323dacaf1314153e3589b8e89f123a8796",
    "size_bytes": 10048922,
    "updated": "2026-09-20T17:43:05.230Z"
@@ -10933,6 +10933,20 @@
    "updated": "2026-09-18T22:20:51.629Z"
   },
   {
+   "declared_name": "obi/law-b44-l6-mileage-per-diem-reimbursement-recompute",
+   "declared_short": "law-b44-l6-mileage-per-diem-reimbursement-recompute",
+   "folder": "law-b44-l6-mileage-per-diem-reimbursement-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "06b8eeb51013e42e33491954c37dec039c3d31a69aba114d8e26a394ddea70c2",
+   "size_bytes": 8535294,
+   "updated": "2026-09-20T17:45:06.202Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-l12-filing-deadline-tolling",
@@ -11015,6 +11029,20 @@
    "sha256": "ca6140442b42fe52ed13cbb05f5064e6448653fe305d29aecb393f76b56911e2",
    "size_bytes": 5242697,
    "updated": "2026-09-08T06:06:24.079Z"
+  },
+  {
+   "declared_name": "obi/law-l36-litigation-hold-custodians",
+   "declared_short": "law-l36-litigation-hold-custodians",
+   "folder": "law-l36-litigation-hold-custodians-7e182e-v9-sna-jgut",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "0fa47bad722aef43ab9008d6352195458fd35cf8a3dbb615794225cf6ac057b7",
+   "size_bytes": 8545053,
+   "updated": "2026-09-20T17:45:20.467Z"
   },
   {
    "connector_provenance": null,
@@ -13704,17 +13732,17 @@
    "updated": "2026-09-16T04:50:25.073Z"
   },
   {
-   "declared_name": "harbor/what-the-migration-runbook-settled",
-   "declared_short": "what-the-migration-runbook-settled",
-   "folder": "what-the-migration-runbook-settled",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/what-the-migration-runbook-settled",
+   "declared_short": "what-the-migration-runbook-settled",
    "domain": null,
+   "folder": "what-the-migration-runbook-settled",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ad4e09edd30ee06f6ffd825fc9edde7b304105e614253b3485830f34f8a2145f",
    "size_bytes": 17353767,
    "updated": "2026-09-20T17:41:08.864Z"
