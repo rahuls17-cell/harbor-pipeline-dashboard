@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T07:50:02+00:00",
+ "generated_at": "2026-09-20T07:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 833,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 267938
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -554,11 +554,7 @@
    "updated": "2026-09-08T13:58:46.170Z"
   },
   {
-   "declared_name": "harbor/audit-virtual-card-daily-spend-limit-enforcement-breaches",
-   "declared_short": "audit-virtual-card-daily-spend-limit-enforcement-breaches",
-   "folder": "audit-virtual-card-daily-spend-limit-enforcement-breaches",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -568,9 +564,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/audit-virtual-card-daily-spend-limit-enforcement-breaches",
+   "declared_short": "audit-virtual-card-daily-spend-limit-enforcement-breaches",
    "domain": null,
+   "folder": "audit-virtual-card-daily-spend-limit-enforcement-breaches",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "42c670d57e883909dabba2a2c39ea89089508e34ea5b59a894661ce36f6f70d6",
    "size_bytes": 11913736,
    "updated": "2026-09-20T07:49:00.440Z"
@@ -12117,15 +12117,15 @@
    "updated": "2026-09-17T08:41:57.000Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b45-t2-gpp-drive-map-targeting-adjudication",
    "declared_short": "tech-b45-t2-gpp-drive-map-targeting-adjudication",
-   "folder": "tech-b45-t2-gpp-drive-map-targeting-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b45-t2-gpp-drive-map-targeting-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "712463b965f2dcb3899962f2f98a968a2ad03dcced5f53e1f031bbe2710a667b",
    "size_bytes": 8943244,
    "updated": "2026-09-20T07:49:09.856Z"
