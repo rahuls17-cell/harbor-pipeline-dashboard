@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-20T13:20:02+00:00",
+ "generated_at": "2026-09-20T13:25:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 856,
-  "scanned": 856,
-  "connector": 271,
+  "task_folders": 857,
+  "scanned": 857,
+  "connector": 272,
   "non_connector": 585,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 101,
+  "real": 102,
   "unknown": 100,
   "synthetic": 70
  },
  "domain": {
-  "unnamed": 304,
+  "unnamed": 305,
   "code": 164,
   "fin": 65,
   "gen": 217,
@@ -22,7 +22,7 @@
   "law": 48
  },
  "name_prefix": {
-  "harbor": 274,
+  "harbor": 275,
   "obi": 582
  },
  "connector_services": {
@@ -39,7 +39,7 @@
   "github-gym": 10,
   "linear-gym": 9,
   "outlook-gym": 9,
-  "gws-gym": 6,
+  "gws-gym": 7,
   "supabase-gym": 1,
   "teams-gym": 1,
   "snowflake-gym": 1,
@@ -47,7 +47,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131433
+  "approx_bytes_read": 136551
  },
  "errors": [],
  "tasks": [
@@ -3482,6 +3482,22 @@
    "updated": "2026-09-10T10:38:02.555Z"
   },
   {
+   "declared_name": "harbor/commitments-tab-audit",
+   "declared_short": "commitments-tab-audit",
+   "folder": "commitments-tab-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "e2839516a5bda78c2fdf37c59ab164330fbdae86a6935bb8a8c21bd50c9d28f7",
+   "size_bytes": 7625444,
+   "updated": "2026-09-20T13:20:07.853Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -5072,15 +5088,15 @@
    "updated": "2026-09-16T10:59:47.643Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b47-a13-utility-charge-line-classification",
    "declared_short": "fin-b47-a13-utility-charge-line-classification",
-   "folder": "fin-b47-a13-utility-charge-line-classification",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b47-a13-utility-charge-line-classification",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "19d2606e7caeb6254c0d4fb7f794fbe64106ff74ab6a64bc3a29d47d5010aed8",
    "size_bytes": 6989246,
    "updated": "2026-09-20T13:19:59.535Z"
