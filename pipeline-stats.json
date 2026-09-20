@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T00:25:03+00:00",
+ "generated_at": "2026-09-20T00:35:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 809,
-  "scanned": 809,
+  "task_folders": 810,
+  "scanned": 810,
   "connector": 260,
-  "non_connector": 549,
+  "non_connector": 550,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 289,
-  "code": 156,
+  "code": 157,
   "fin": 57,
   "gen": 208,
   "health": 54,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 264,
-  "obi": 545
+  "obi": 546
  },
  "connector_services": {
   "google-drive-gym": 164,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131655
  },
  "errors": [],
  "tasks": [
@@ -2517,6 +2517,20 @@
    "sha256": "3e131f35e3a53046ec16e2d5e6153d502618ffd3ccf23804d431a1b072bd9e0b",
    "size_bytes": 5825661,
    "updated": "2026-09-07T20:37:38.081Z"
+  },
+  {
+   "declared_name": "obi/code-c490-field-file-ingestion-sla-audit",
+   "declared_short": "code-c490-field-file-ingestion-sla-audit",
+   "folder": "code-c490-field-file-ingestion-sla-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "1cff207de31ebb4c295b8041570fc9e47151f12a5b86e3743bc11658593a63be",
+   "size_bytes": 7812628,
+   "updated": "2026-09-20T00:30:25.339Z"
   },
   {
    "connector_provenance": null,
