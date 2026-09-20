@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T20:45:02+00:00",
+ "generated_at": "2026-09-20T20:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 891,
-  "scanned": 891,
+  "task_folders": 892,
+  "scanned": 892,
   "connector": 284,
-  "non_connector": 607,
+  "non_connector": 608,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 318,
   "code": 172,
   "fin": 68,
-  "gen": 221,
+  "gen": 222,
   "health": 61,
   "law": 51
  },
  "name_prefix": {
   "harbor": 287,
-  "obi": 604
+  "obi": 605
  },
  "connector_services": {
   "google-drive-gym": 170,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131503
  },
  "errors": [],
  "tasks": [
@@ -8407,6 +8407,20 @@
    "sha256": "0cb4c4e6a9457a2864f902684f5ad787499baa29879017d421a439ea458c65d8",
    "size_bytes": 3771163,
    "updated": "2026-09-14T10:18:04.064Z"
+  },
+  {
+   "declared_name": "obi/gen-g928-custom-home-elevation-submittal-audit",
+   "declared_short": "gen-g928-custom-home-elevation-submittal-audit",
+   "folder": "gen-g928-custom-home-elevation-submittal-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "c3270624ae675200c3a0d9f482a406d97372fea466312aa8480ab60deb33a009",
+   "size_bytes": 7891872,
+   "updated": "2026-09-20T20:46:27.293Z"
   },
   {
    "connector_provenance": null,
