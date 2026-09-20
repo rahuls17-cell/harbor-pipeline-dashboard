@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T12:10:03+00:00",
+ "generated_at": "2026-09-20T12:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 851,
-  "scanned": 851,
+  "task_folders": 852,
+  "scanned": 852,
   "connector": 271,
-  "non_connector": 580,
+  "non_connector": 581,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 70
  },
  "domain": {
-  "unnamed": 303,
+  "unnamed": 304,
   "code": 163,
   "fin": 64,
   "gen": 216,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 274,
-  "obi": 577
+  "obi": 578
  },
  "connector_services": {
   "google-drive-gym": 166,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131470
  },
  "errors": [],
  "tasks": [
@@ -4326,6 +4326,20 @@
    "sha256": "3b0413a3b68cf49da69adf7eb341c51c35fa979d3ca5f441d7656794bed70b51",
    "size_bytes": 5992073,
    "updated": "2026-09-19T05:57:44.739Z"
+  },
+  {
+   "declared_name": "obi/edu-s1-a3-prophecy-citation-register",
+   "declared_short": "edu-s1-a3-prophecy-citation-register",
+   "folder": "edu-s1-a3-prophecy-citation-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "6473d70d454229261767533a09df661591b17f0f87b6521e6bf9834eef4bcb7d",
+   "size_bytes": 5893238,
+   "updated": "2026-09-20T12:13:33.874Z"
   },
   {
    "connector_provenance": null,
