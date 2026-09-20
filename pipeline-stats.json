@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T21:15:02+00:00",
+ "generated_at": "2026-09-20T21:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 901,
-  "scanned": 901,
+  "task_folders": 903,
+  "scanned": 903,
   "connector": 284,
-  "non_connector": 617,
+  "non_connector": 619,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 74
  },
  "domain": {
-  "unnamed": 318,
-  "code": 178,
+  "unnamed": 319,
+  "code": 179,
   "fin": 68,
   "gen": 223,
   "health": 62,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 287,
-  "obi": 614
+  "obi": 616
  },
  "connector_services": {
   "google-drive-gym": 170,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131493
+  "new_archives_read": 3,
+  "approx_bytes_read": 396919
  },
  "errors": [],
  "tasks": [
@@ -97,7 +97,11 @@
    "updated": "2026-09-20T12:49:59.484Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/check-deposit-1931-redeposit-review",
+   "declared_short": "check-deposit-1931-redeposit-review",
+   "folder": "100832",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -107,16 +111,12 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/check-deposit-1931-redeposit-review",
-   "declared_short": "check-deposit-1931-redeposit-review",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "100832",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "4ad724166d633f0fd1297db00fbe62260b3100af95fe5b8f73dbc5572340ca36",
-   "size_bytes": 11810274,
-   "updated": "2026-09-19T15:21:20.005Z"
+   "sha256": "1ed2ff4ea9ec9475eaaf61e953057652661a6ddb7e7bc09171fe4c8403d7d6f1",
+   "size_bytes": 14469336,
+   "updated": "2026-09-20T21:15:53.927Z"
   },
   {
    "connector_provenance": "unknown",
@@ -1431,6 +1431,20 @@
    "updated": "2026-09-19T22:16:29.665Z"
   },
   {
+   "declared_name": "obi/code-c15-webhook-retry-backoff",
+   "declared_short": "code-c15-webhook-retry-backoff",
+   "folder": "code-c15-webhook-retry-backoff",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "1bc1f4c6a56bc28e7300e3d5903720e51f68b806fc903383838ba8bb224e4902",
+   "size_bytes": 6886091,
+   "updated": "2026-09-20T21:15:26.576Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c151-psap-brief-format-audit",
@@ -1543,15 +1557,15 @@
    "updated": "2026-09-20T14:16:37.893Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c206-dns-ttl-compliance-audit",
    "declared_short": "code-c206-dns-ttl-compliance-audit",
-   "folder": "code-c206-dns-ttl-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c206-dns-ttl-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "89cbb45bc31ee177ee524a2f2c6961f6d5dde3eeaceec263aa0fc5f8f0ba13e8",
    "size_bytes": 7742434,
    "updated": "2026-09-20T21:10:07.507Z"
@@ -13094,6 +13108,20 @@
    "sha256": "472c40633578a6d6b2137be083b44ce7845eef119ef21c65ed861e64e0957a56",
    "size_bytes": 5165586,
    "updated": "2026-09-19T05:52:19.841Z"
+  },
+  {
+   "declared_name": "obi/tech-mg-it-b5-a1-bank-reconciliation-audit-trail-repair",
+   "declared_short": "tech-mg-it-b5-a1-bank-reconciliation-audit-trail-repair",
+   "folder": "tech-mg-it-b5-a1-bank-reconciliation-audit-trail-repair",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1aea84c212a2e0c80d40bacc28077d4165071bf8bab853e4c84fa61499e4949b",
+   "size_bytes": 6682220,
+   "updated": "2026-09-20T21:20:02.621Z"
   },
   {
    "connector_provenance": "unknown",
