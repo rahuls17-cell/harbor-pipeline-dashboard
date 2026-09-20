@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T00:35:02+00:00",
+ "generated_at": "2026-09-20T00:40:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 810,
@@ -46,7 +46,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131655
+  "approx_bytes_read": 131342
  },
  "errors": [],
  "tasks": [
@@ -2519,15 +2519,15 @@
    "updated": "2026-09-07T20:37:38.081Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c490-field-file-ingestion-sla-audit",
    "declared_short": "code-c490-field-file-ingestion-sla-audit",
-   "folder": "code-c490-field-file-ingestion-sla-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c490-field-file-ingestion-sla-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1cff207de31ebb4c295b8041570fc9e47151f12a5b86e3743bc11658593a63be",
    "size_bytes": 7812628,
    "updated": "2026-09-20T00:30:25.339Z"
@@ -11225,18 +11225,18 @@
    "updated": "2026-09-19T01:23:02.097Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
-   "declared_name": "obi/code-c129-subnet-ip-allocation-recompute",
-   "declared_short": "code-c129-subnet-ip-allocation-recompute",
-   "domain": "code",
+   "declared_name": "obi/code-c214-pod-security-context-audit",
+   "declared_short": "code-c214-pod-security-context-audit",
    "folder": "task",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "74390b39353d7c6503235e12c684e2006ecf9abc838e214e35a2dd40a0a7a69e",
-   "size_bytes": 9263338,
-   "updated": "2026-09-19T17:35:56.817Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "ff0671b210e451a907a04ef2ff1489b2d29acf197a22d2088872d571b1bc66b2",
+   "size_bytes": 6997134,
+   "updated": "2026-09-20T00:38:23.027Z"
   },
   {
    "connector_provenance": "real",
