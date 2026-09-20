@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T05:10:02+00:00",
+ "generated_at": "2026-09-20T05:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 822,
-  "scanned": 822,
+  "task_folders": 823,
+  "scanned": 823,
   "connector": 262,
-  "non_connector": 560,
+  "non_connector": 561,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 291,
   "code": 159,
-  "fin": 60,
+  "fin": 61,
   "gen": 211,
   "health": 55,
   "law": 46
  },
  "name_prefix": {
   "harbor": 266,
-  "obi": 556
+  "obi": 557
  },
  "connector_services": {
   "google-drive-gym": 165,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131515
  },
  "errors": [],
  "tasks": [
@@ -5111,6 +5111,20 @@
    "sha256": "0a33a4bc5d676260e49797f9bc6e896e0e6007a628f2b8e2ffb3924beaf57f6a",
    "size_bytes": 6016055,
    "updated": "2026-09-19T07:41:14.704Z"
+  },
+  {
+   "declared_name": "obi/fin-b50-f9-insurance-quote-like-for-like-worksheet",
+   "declared_short": "fin-b50-f9-insurance-quote-like-for-like-worksheet",
+   "folder": "fin-b50-f9-insurance-quote-like-for-like-worksheet",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "d19228492190d66b76202fd8a7a0be35f90052d636edf20a8879687e52ac3b2d",
+   "size_bytes": 10534300,
+   "updated": "2026-09-20T05:10:48.237Z"
   },
   {
    "connector_provenance": null,
