@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T19:00:04+00:00",
+ "generated_at": "2026-09-20T19:05:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 883,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131613
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2193,15 +2193,15 @@
    "updated": "2026-09-10T09:45:27.093Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c387-htgcd-well-permit-compliance-audit",
    "declared_short": "code-c387-htgcd-well-permit-compliance-audit",
-   "folder": "code-c387-htgcd-well-permit-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c387-htgcd-well-permit-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9a28bda8c6738ba15fc9105efdc2780ba4c871d77c088a8e804905a87032321d",
    "size_bytes": 9478100,
    "updated": "2026-09-20T18:59:51.632Z"
