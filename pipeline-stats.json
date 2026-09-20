@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-20T16:30:03+00:00",
+ "generated_at": "2026-09-20T16:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 871,
-  "scanned": 871,
-  "connector": 277,
+  "task_folders": 872,
+  "scanned": 872,
+  "connector": 278,
   "non_connector": 594,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 103,
+  "real": 104,
   "unknown": 101,
   "synthetic": 73
  },
  "domain": {
-  "unnamed": 311,
+  "unnamed": 312,
   "code": 166,
   "fin": 67,
   "gen": 220,
@@ -22,18 +22,18 @@
   "law": 48
  },
  "name_prefix": {
-  "harbor": 280,
+  "harbor": 281,
   "obi": 591
  },
  "connector_services": {
-  "google-drive-gym": 167,
-  "zeta3-sql-gym": 157,
-  "confluence-gym": 152,
-  "jira-gym": 151,
-  "email-gym": 150,
-  "freshdesk-gym": 150,
+  "google-drive-gym": 168,
+  "zeta3-sql-gym": 158,
+  "confluence-gym": 153,
+  "jira-gym": 152,
+  "email-gym": 151,
+  "freshdesk-gym": 151,
   "slack-gym": 126,
-  "slack": 52,
+  "slack": 53,
   "notion-gym": 23,
   "email-calendar-gym": 13,
   "github-gym": 10,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 400481
+  "new_archives_read": 1,
+  "approx_bytes_read": 133159
  },
  "errors": [],
  "tasks": [
@@ -4823,15 +4823,15 @@
    "updated": "2026-09-13T01:21:27.903Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b41-f15-event-market-probability-recompute",
    "declared_short": "fin-b41-f15-event-market-probability-recompute",
-   "folder": "fin-b41-f15-event-market-probability-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b41-f15-event-market-probability-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "08f0b5c26db59dca1c5e693515d0b9a6d92c15361f5d85fb69c72c92c449599e",
    "size_bytes": 5638995,
    "updated": "2026-09-20T16:25:03.813Z"
@@ -4977,15 +4977,15 @@
    "updated": "2026-09-20T11:27:07.935Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b44-a6-dividend-screen-scoring-adjudication",
    "declared_short": "fin-b44-a6-dividend-screen-scoring-adjudication",
-   "folder": "fin-b44-a6-dividend-screen-scoring-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b44-a6-dividend-screen-scoring-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "bae920d9a325826acc6d3e622e5c30b5dbfe2fcba3a1b1fb660dfb4a47b95a63",
    "size_bytes": 6030954,
    "updated": "2026-09-20T16:26:32.769Z"
@@ -12432,6 +12432,28 @@
    "updated": "2026-09-19T23:21:11.227Z"
   },
   {
+   "declared_name": "harbor/verify-physical-card-shipping-timeline-claim-for-household-with-two-ca",
+   "declared_short": "verify-physical-card-shipping-timeline-claim-for-household-with-two-ca",
+   "folder": "task_verify_physical_card_shipping_timeline_claim_for_household_with_two_ca",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "7a35ade2146325a77d592872c1e1276df3b061838299b920f6d8421181963fae",
+   "size_bytes": 17484434,
+   "updated": "2026-09-20T16:31:54.994Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
@@ -12836,17 +12858,17 @@
    "updated": "2026-09-20T09:19:45.439Z"
   },
   {
-   "declared_name": "harbor/the-endpoints-nobody-wired-to-sentry",
-   "declared_short": "the-endpoints-nobody-wired-to-sentry",
-   "folder": "the-endpoints-nobody-wired-to-sentry",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "supabase-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-endpoints-nobody-wired-to-sentry",
+   "declared_short": "the-endpoints-nobody-wired-to-sentry",
    "domain": null,
+   "folder": "the-endpoints-nobody-wired-to-sentry",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "07dc70ec42a6a18aa143632ff736a182472a82e5891987d01d5b9c6debc5b76d",
    "size_bytes": 6693113,
    "updated": "2026-09-20T16:27:41.910Z"
