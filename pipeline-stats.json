@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T22:30:03+00:00",
+ "generated_at": "2026-09-20T22:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 914,
-  "scanned": 914,
+  "task_folders": 915,
+  "scanned": 915,
   "connector": 284,
-  "non_connector": 630,
+  "non_connector": 631,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 320,
   "code": 185,
-  "fin": 68,
+  "fin": 69,
   "gen": 224,
   "health": 64,
   "law": 53
  },
  "name_prefix": {
   "harbor": 287,
-  "obi": 627
+  "obi": 628
  },
  "connector_services": {
   "google-drive-gym": 170,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131517
+  "approx_bytes_read": 131868
  },
  "errors": [],
  "tasks": [
@@ -5595,6 +5595,20 @@
    "updated": "2026-09-20T04:43:16.202Z"
   },
   {
+   "declared_name": "obi/fin-b50-f1-cross-border-remittance-account-selection",
+   "declared_short": "fin-b50-f1-cross-border-remittance-account-selection",
+   "folder": "fin-b50-f1-cross-border-remittance-account-selection",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "c1617ae29c6035688f105d3b64e7c3bfe3f31966209ee8811e1614b6ff18aa01",
+   "size_bytes": 7160924,
+   "updated": "2026-09-20T22:32:49.818Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/fin-b50-f10-sba-7a-deferral-rebaseline-brief",
@@ -7765,15 +7779,15 @@
    "updated": "2026-09-19T11:28:56.455Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g644-handbook-revision-rollout-audit",
    "declared_short": "gen-g644-handbook-revision-rollout-audit",
-   "folder": "gen-g644-handbook-revision-rollout-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g644-handbook-revision-rollout-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b21bea37f64fd31d355c54740e93ec910455fa7e654dcabc0dac70229696a9d9",
    "size_bytes": 9930069,
    "updated": "2026-09-20T22:29:57.090Z"
