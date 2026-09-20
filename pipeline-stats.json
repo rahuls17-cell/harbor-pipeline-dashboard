@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T12:25:03+00:00",
+ "generated_at": "2026-09-20T12:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 852,
-  "scanned": 852,
+  "task_folders": 853,
+  "scanned": 853,
   "connector": 271,
-  "non_connector": 581,
+  "non_connector": 582,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 304,
   "code": 163,
   "fin": 64,
-  "gen": 216,
+  "gen": 217,
   "health": 57,
   "law": 48
  },
  "name_prefix": {
   "harbor": 274,
-  "obi": 578
+  "obi": 579
  },
  "connector_services": {
   "google-drive-gym": 166,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131463
  },
  "errors": [],
  "tasks": [
@@ -7800,6 +7800,20 @@
    "sha256": "ef625232fb5c9a9986d427bc2eaff0794636f4fda60dfe1d267ee5b703ca3613",
    "size_bytes": 5177835,
    "updated": "2026-09-16T04:43:23.796Z"
+  },
+  {
+   "declared_name": "obi/gen-g812-tenant-notice-period-compliance-audit",
+   "declared_short": "gen-g812-tenant-notice-period-compliance-audit",
+   "folder": "gen-g812-tenant-notice-period-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "165be425142f304023fe738788061a544c624009b5edc038ed5e68ca1192086c",
+   "size_bytes": 7954390,
+   "updated": "2026-09-20T12:36:31.183Z"
   },
   {
    "connector_provenance": null,
