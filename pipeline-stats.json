@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T18:10:03+00:00",
+ "generated_at": "2026-09-20T18:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 878,
-  "scanned": 878,
+  "task_folders": 879,
+  "scanned": 879,
   "connector": 280,
-  "non_connector": 598,
+  "non_connector": 599,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 314,
-  "code": 166,
+  "code": 167,
   "fin": 67,
   "gen": 220,
   "health": 60,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 283,
-  "obi": 595
+  "obi": 596
  },
  "connector_services": {
   "google-drive-gym": 168,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131536
  },
  "errors": [],
  "tasks": [
@@ -2961,6 +2961,20 @@
    "sha256": "b92c3913bcb23b05d40ef505c4e1aa21d4db6a4bf59c7a4f590a6e6ca29ed8e9",
    "size_bytes": 6036546,
    "updated": "2026-09-06T18:00:35.678Z"
+  },
+  {
+   "declared_name": "obi/code-c56-config-change-traceability",
+   "declared_short": "code-c56-config-change-traceability",
+   "folder": "code-c56-config-change-traceability",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "9115757c553f661e71589efed9d3f5695155bf78c7ee4818562818fa5a1a0508",
+   "size_bytes": 5498459,
+   "updated": "2026-09-20T18:14:23.583Z"
   },
   {
    "connector_provenance": null,
