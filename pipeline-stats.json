@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T04:10:03+00:00",
+ "generated_at": "2026-09-20T04:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 819,
@@ -45,8 +45,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131438
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4951,15 +4951,15 @@
    "updated": "2026-09-19T07:17:04.138Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b49-f10-merger-parachute-vesting-table",
    "declared_short": "fin-b49-f10-merger-parachute-vesting-table",
-   "folder": "fin-b49-f10-merger-parachute-vesting-table-v22-FOR-QC-V2",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b49-f10-merger-parachute-vesting-table-v22-FOR-QC-V2",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "57a4fa655259b71f152825fa90307a678281717f8ccfed5c322728c4c01b348d",
    "size_bytes": 7253174,
    "updated": "2026-09-20T04:08:41.821Z"
