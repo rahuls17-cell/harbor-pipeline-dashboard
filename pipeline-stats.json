@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T13:00:03+00:00",
+ "generated_at": "2026-09-20T13:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 854,
-  "scanned": 854,
+  "task_folders": 855,
+  "scanned": 855,
   "connector": 271,
-  "non_connector": 583,
+  "non_connector": 584,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 164,
   "fin": 64,
   "gen": 217,
-  "health": 57,
+  "health": 58,
   "law": 48
  },
  "name_prefix": {
   "harbor": 274,
-  "obi": 580
+  "obi": 581
  },
  "connector_services": {
   "google-drive-gym": 166,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131573
  },
  "errors": [],
  "tasks": [
@@ -9448,6 +9448,20 @@
    "sha256": "71a874f577aa7148b70e771905a6461c1c6768b8fe94a47b444e7d2c1d88e250",
    "size_bytes": 7187582,
    "updated": "2026-09-18T16:26:02.289Z"
+  },
+  {
+   "declared_name": "obi/health-b43-h7-training-block-volume-recompute",
+   "declared_short": "health-b43-h7-training-block-volume-recompute",
+   "folder": "health-b43-h7-training-block-volume-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "164f8a9f6b0423df68ec0d72ef4d7fdda418d11d33250ae25136d41d9c0f03cd",
+   "size_bytes": 6930775,
+   "updated": "2026-09-20T13:11:45.524Z"
   },
   {
    "connector_provenance": null,
