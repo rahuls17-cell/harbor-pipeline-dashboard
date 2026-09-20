@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T21:35:03+00:00",
+ "generated_at": "2026-09-20T21:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 904,
-  "scanned": 904,
+  "task_folders": 906,
+  "scanned": 906,
   "connector": 284,
-  "non_connector": 620,
+  "non_connector": 622,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 319,
-  "code": 180,
+  "code": 181,
   "fin": 68,
   "gen": 223,
-  "health": 62,
+  "health": 63,
   "law": 52
  },
  "name_prefix": {
   "harbor": 287,
-  "obi": 617
+  "obi": 619
  },
  "connector_services": {
   "google-drive-gym": 170,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 262956
  },
  "errors": [],
  "tasks": [
@@ -1597,6 +1597,20 @@
    "sha256": "1692616a3b2ae5559ec54721febceeca98e5c8f0431c1a713dd3401b8698fb8e",
    "size_bytes": 6326060,
    "updated": "2026-09-09T12:04:44.391Z"
+  },
+  {
+   "declared_name": "obi/code-c209-alert-escalation-tier-audit",
+   "declared_short": "code-c209-alert-escalation-tier-audit",
+   "folder": "code-c209-alert-escalation-tier-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "bebe116cdba5cd9d44b95580f2444838170d11ad9921ab6d76255d7bd42c8515",
+   "size_bytes": 7734568,
+   "updated": "2026-09-20T21:35:43.042Z"
   },
   {
    "connector_provenance": null,
@@ -9901,6 +9915,20 @@
    "sha256": "164f8a9f6b0423df68ec0d72ef4d7fdda418d11d33250ae25136d41d9c0f03cd",
    "size_bytes": 6930775,
    "updated": "2026-09-20T13:11:45.524Z"
+  },
+  {
+   "declared_name": "obi/health-b43-h9-hyperbaric-suite-standards-contradiction",
+   "declared_short": "health-b43-h9-hyperbaric-suite-standards-contradiction",
+   "folder": "health-b43-h9-hyperbaric-suite-standards-contradiction",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "c4cd8b100e3b7f24615f8e7cb5a60d7a3e93cc8335266338236663b294f42bf8",
+   "size_bytes": 8076231,
+   "updated": "2026-09-20T21:39:21.296Z"
   },
   {
    "connector_provenance": null,
