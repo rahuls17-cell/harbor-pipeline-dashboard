@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T10:05:05+00:00",
+ "generated_at": "2026-09-20T10:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 840,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 272280
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -10510,15 +10510,15 @@
    "updated": "2026-09-18T10:42:51.563Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b42-l12-commissary-price-markup-attribution",
    "declared_short": "law-b42-l12-commissary-price-markup-attribution",
-   "folder": "law-b42-l12-commissary-price-markup-attribution",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b42-l12-commissary-price-markup-attribution",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c945c6af2cfebb6e296650b3970bea54a9d2fe1b5a8fbca8b45d7aa98c21e7f4",
    "size_bytes": 8697885,
    "updated": "2026-09-20T10:01:40.076Z"
@@ -12649,17 +12649,17 @@
    "updated": "2026-09-18T23:35:19.806Z"
   },
   {
-   "declared_name": "harbor/the-yes-that-never-came",
-   "declared_short": "the-yes-that-never-came",
-   "folder": "the-yes-that-never-came",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-yes-that-never-came",
+   "declared_short": "the-yes-that-never-came",
    "domain": null,
+   "folder": "the-yes-that-never-came",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "09816aadbfce982ad6f842f872bc4de9bd7a448eeeb92e1d34425d28460bc369",
    "size_bytes": 7717105,
    "updated": "2026-09-20T10:00:24.278Z"
