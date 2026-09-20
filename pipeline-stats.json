@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T21:10:02+00:00",
+ "generated_at": "2026-09-20T21:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 900,
-  "scanned": 900,
+  "task_folders": 901,
+  "scanned": 901,
   "connector": 284,
-  "non_connector": 616,
+  "non_connector": 617,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 318,
-  "code": 177,
+  "code": 178,
   "fin": 68,
   "gen": 223,
   "health": 62,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 287,
-  "obi": 613
+  "obi": 614
  },
  "connector_services": {
   "google-drive-gym": 170,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131488
+  "approx_bytes_read": 131493
  },
  "errors": [],
  "tasks": [
@@ -1501,15 +1501,15 @@
    "updated": "2026-09-09T17:43:30.580Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c175-research-figure-audit",
    "declared_short": "code-c175-research-figure-audit",
-   "folder": "code-c175-research-figure-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c175-research-figure-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2e3a678c85ca93f587262857c1e38adb3d278a9aaab63dc93b9873eff91df59d",
    "size_bytes": 7214296,
    "updated": "2026-09-20T21:08:00.158Z"
@@ -1541,6 +1541,20 @@
    "sha256": "ef29d9e30554fc5ec105c4bb262740b89c44e7cc8765c9e56531423cf6ce92e5",
    "size_bytes": 7961193,
    "updated": "2026-09-20T14:16:37.893Z"
+  },
+  {
+   "declared_name": "obi/code-c206-dns-ttl-compliance-audit",
+   "declared_short": "code-c206-dns-ttl-compliance-audit",
+   "folder": "code-c206-dns-ttl-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "89cbb45bc31ee177ee524a2f2c6961f6d5dde3eeaceec263aa0fc5f8f0ba13e8",
+   "size_bytes": 7742434,
+   "updated": "2026-09-20T21:10:07.507Z"
   },
   {
    "connector_provenance": null,
