@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T18:25:03+00:00",
+ "generated_at": "2026-09-20T18:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 879,
-  "scanned": 879,
+  "task_folders": 880,
+  "scanned": 880,
   "connector": 280,
-  "non_connector": 599,
+  "non_connector": 600,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 314,
-  "code": 167,
+  "code": 168,
   "fin": 67,
   "gen": 220,
   "health": 60,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 283,
-  "obi": 596
+  "obi": 597
  },
  "connector_services": {
   "google-drive-gym": 168,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131418
  },
  "errors": [],
  "tasks": [
@@ -2401,6 +2401,20 @@
    "sha256": "79b70b0c95bd0ac6330e0ca184581002961a883a286ae48e005b90e97681cb87",
    "size_bytes": 9715874,
    "updated": "2026-09-09T17:16:37.636Z"
+  },
+  {
+   "declared_name": "obi/code-c443-plan-list-field-mapping-migration-audit",
+   "declared_short": "code-c443-plan-list-field-mapping-migration-audit",
+   "folder": "code-c443-plan-list-field-mapping-migration-audi-8a6ecb-v1-sna-gssv",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "92c00c7123d76a22ff1913312b05278db465c1e79cd90e50094ce17e302a9aa7",
+   "size_bytes": 7830754,
+   "updated": "2026-09-20T18:29:05.176Z"
   },
   {
    "connector_provenance": null,
