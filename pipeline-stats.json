@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T06:55:02+00:00",
+ "generated_at": "2026-09-20T07:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 826,
-  "scanned": 826,
+  "task_folders": 827,
+  "scanned": 827,
   "connector": 263,
-  "non_connector": 563,
+  "non_connector": 564,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 65
  },
  "domain": {
-  "unnamed": 292,
+  "unnamed": 293,
   "code": 159,
   "fin": 61,
   "gen": 212,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 267,
-  "obi": 559
+  "obi": 560
  },
  "connector_services": {
   "google-drive-gym": 165,
@@ -46,8 +46,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131878
  },
  "errors": [],
  "tasks": [
@@ -12134,6 +12134,20 @@
    "sha256": "81ee5cffa2435066aa629885c8a93955bef637973b3877bdf260e6a9881fead3",
    "size_bytes": 7775879,
    "updated": "2026-09-19T09:18:01.299Z"
+  },
+  {
+   "declared_name": "obi/tech-b60-t5-paywall-design-import-normalization",
+   "declared_short": "tech-b60-t5-paywall-design-import-normalization",
+   "folder": "tech-b60-t5-paywall-design-import-normalization",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "ad3c657c43910918e930f7afc60f0aadc42dcb9b08e31711c12c148865211a96",
+   "size_bytes": 8556545,
+   "updated": "2026-09-20T06:57:01.136Z"
   },
   {
    "connector_provenance": null,
