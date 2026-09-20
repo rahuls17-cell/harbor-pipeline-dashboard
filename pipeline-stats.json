@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T22:05:03+00:00",
+ "generated_at": "2026-09-20T22:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 909,
-  "scanned": 909,
+  "task_folders": 910,
+  "scanned": 910,
   "connector": 284,
-  "non_connector": 625,
+  "non_connector": 626,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 68,
   "gen": 223,
   "health": 64,
-  "law": 52
+  "law": 53
  },
  "name_prefix": {
   "harbor": 287,
-  "obi": 622
+  "obi": 623
  },
  "connector_services": {
   "google-drive-gym": 170,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263003
+  "new_archives_read": 1,
+  "approx_bytes_read": 131420
  },
  "errors": [],
  "tasks": [
@@ -1487,15 +1487,15 @@
    "updated": "2026-09-18T22:33:03.941Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c163-rsvp-capacity-reconcile",
    "declared_short": "code-c163-rsvp-capacity-reconcile",
-   "folder": "code-c163-rsvp-capacity-reconcile",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c163-rsvp-capacity-reconcile",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "343fa05dfff019ab7d0c98394d8ba6c37804bffc828af405b21632fd768b922b",
    "size_bytes": 7576382,
    "updated": "2026-09-20T22:01:52.956Z"
@@ -2621,15 +2621,15 @@
    "updated": "2026-09-09T21:57:04.758Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c452-website-image-licensing-rights-audit",
    "declared_short": "code-c452-website-image-licensing-rights-audit",
-   "folder": "code-c452-website-image-licensing-rights-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c452-website-image-licensing-rights-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c2573eeaac9a543941d4346c03d7db9188e36d1e61c96ad4e274e140505319bc",
    "size_bytes": 6080972,
    "updated": "2026-09-20T22:04:57.780Z"
@@ -11283,6 +11283,20 @@
    "sha256": "c945c6af2cfebb6e296650b3970bea54a9d2fe1b5a8fbca8b45d7aa98c21e7f4",
    "size_bytes": 8697885,
    "updated": "2026-09-20T10:01:40.076Z"
+  },
+  {
+   "declared_name": "obi/law-b42-l13-vessel-sale-closing-package-build",
+   "declared_short": "law-b42-l13-vessel-sale-closing-package-build",
+   "folder": "law-b42-l13-vessel-sale-closing-package-build",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "5f323631e2677d8b4c4a4d0492c6ee0de326efe1eb487e80ce99a74346241673",
+   "size_bytes": 8132040,
+   "updated": "2026-09-20T22:07:39.437Z"
   },
   {
    "connector_provenance": null,
