@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T20:10:02+00:00",
+ "generated_at": "2026-09-20T20:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 889,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131569
+  "approx_bytes_read": 133655
  },
  "errors": [],
  "tasks": [
@@ -6379,15 +6379,15 @@
    "updated": "2026-09-06T12:50:03.344Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g15-moderation-policy-application",
    "declared_short": "gen-g15-moderation-policy-application",
-   "folder": "gen-g15-moderation-policy-application",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g15-moderation-policy-application",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7b75d5dcd0b49178530fbb5949509f94d0417ace87380039e7dfea31d85b36f5",
    "size_bytes": 6898065,
    "updated": "2026-09-20T20:07:50.087Z"
@@ -11411,22 +11411,22 @@
    "updated": "2026-09-06T17:22:25.364Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/lifecycle-conformance-check-for-issued-check-10003-500-ending-in-paid",
+   "declared_short": "lifecycle-conformance-check-for-issued-check-10003-500-ending-in-paid",
+   "folder": "lifecycle-conformance-check-for-issued-check-10003-500-ending-in-paid-20260821T095517Z-1-001",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/lifecycle-conformance-check-for-issued-check-10003-500-ending-in-paid",
-   "declared_short": "lifecycle-conformance-check-for-issued-check-10003-500-ending-in-paid",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "lifecycle-conformance-check-for-issued-check-10003-500-ending-in-paid-20260821T095517Z-1-001",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "65f1101972e535344ccd50327cc992589f5e20ccff0e3d7c75558b9579ea6e87",
-   "size_bytes": 11165360,
-   "updated": "2026-09-19T16:24:15.088Z"
+   "sha256": "90752c1c0164e0c530671efa048743a25a383e51eea0eba23c979c918e6d7481",
+   "size_bytes": 11456074,
+   "updated": "2026-09-20T20:12:24.412Z"
   },
   {
    "connector_provenance": "real",
