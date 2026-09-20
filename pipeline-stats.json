@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T22:50:03+00:00",
+ "generated_at": "2026-09-20T23:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 915,
-  "scanned": 915,
+  "task_folders": 916,
+  "scanned": 916,
   "connector": 284,
-  "non_connector": 631,
+  "non_connector": 632,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 320,
   "code": 185,
-  "fin": 69,
+  "fin": 70,
   "gen": 224,
   "health": 64,
   "law": 53
  },
  "name_prefix": {
   "harbor": 287,
-  "obi": 628
+  "obi": 629
  },
  "connector_services": {
   "google-drive-gym": 170,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131416
  },
  "errors": [],
  "tasks": [
@@ -5761,6 +5761,20 @@
    "sha256": "7d06c98d1f6d7715fe31546840897b32d425e2ac2c9cd6065e25a392ec7060b9",
    "size_bytes": 4546763,
    "updated": "2026-09-11T07:28:23.136Z"
+  },
+  {
+   "declared_name": "obi/fin-f35-inventory-nrv-writedown",
+   "declared_short": "fin-f35-inventory-nrv-writedown",
+   "folder": "fin-f35-inventory-nrv-writedown",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "0c092225a454d0eb5f35ce57a7e56382e62126e522f1d826f7dd81b16eaa842a",
+   "size_bytes": 7781095,
+   "updated": "2026-09-20T23:14:44.911Z"
   },
   {
    "connector_provenance": null,
