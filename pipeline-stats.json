@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T14:40:02+00:00",
+ "generated_at": "2026-09-21T14:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 948,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133021
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -13336,11 +13336,7 @@
    "updated": "2026-09-19T23:21:11.227Z"
   },
   {
-   "declared_name": "harbor/verify-per-day-ach-transfer-limit-for-member-disputing-an-inbound-fund",
-   "declared_short": "verify-per-day-ach-transfer-limit-for-member-disputing-an-inbound-fund",
-   "folder": "task_verify_per_day_ach_transfer_limit_for_member_disputing_an_inbound_fund",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -13350,9 +13346,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/verify-per-day-ach-transfer-limit-for-member-disputing-an-inbound-fund",
+   "declared_short": "verify-per-day-ach-transfer-limit-for-member-disputing-an-inbound-fund",
    "domain": null,
+   "folder": "task_verify_per_day_ach_transfer_limit_for_member_disputing_an_inbound_fund",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "81e10e2ac723fbd0e893548c74cdbe730228e3216436d25867df9e5b76cd6530",
    "size_bytes": 13270327,
    "updated": "2026-09-21T14:39:38.702Z"
