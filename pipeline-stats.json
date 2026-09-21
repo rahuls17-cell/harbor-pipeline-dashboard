@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T16:50:02+00:00",
+ "generated_at": "2026-09-21T16:55:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 986,
-  "scanned": 986,
+  "task_folders": 987,
+  "scanned": 987,
   "connector": 302,
-  "non_connector": 684,
+  "non_connector": 685,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 82
  },
  "domain": {
-  "unnamed": 344,
+  "unnamed": 345,
   "code": 194,
   "fin": 77,
   "gen": 240,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 304,
-  "obi": 682
+  "obi": 683
  },
  "connector_services": {
   "google-drive-gym": 177,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 138620
+  "approx_bytes_read": 131880
  },
  "errors": [],
  "tasks": [
@@ -12861,17 +12861,17 @@
    "updated": "2026-09-20T11:12:23.167Z"
   },
   {
-   "declared_name": "harbor/raised-and-nobody-came-back",
-   "declared_short": "raised-and-nobody-came-back",
-   "folder": "raised-and-nobody-came-back",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/raised-and-nobody-came-back",
+   "declared_short": "raised-and-nobody-came-back",
    "domain": null,
+   "folder": "raised-and-nobody-came-back",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "adec32d7ed74481e2132c97ee74b26b45c0f828f422b06f56fd331895c397420",
    "size_bytes": 6699874,
    "updated": "2026-09-21T16:46:50.851Z"
@@ -14230,6 +14230,20 @@
    "sha256": "23619c3d77f4f49a62325a408dea85bdd373b98aa0bcb039d547bf805313ab9b",
    "size_bytes": 6636182,
    "updated": "2026-09-21T00:16:05.634Z"
+  },
+  {
+   "declared_name": "obi/tech-mg-it-b5-a8-training-proposal-compliance-crosswalk",
+   "declared_short": "tech-mg-it-b5-a8-training-proposal-compliance-crosswalk",
+   "folder": "tech-mg-it-b5-a8-training-proposal-compliance-crosswalk",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "4ddeef066a45b85114800f75e756ea708fed4a7a3a50949a07bd0e77c55c3e4e",
+   "size_bytes": 8281864,
+   "updated": "2026-09-21T16:50:02.491Z"
   },
   {
    "connector_provenance": "unknown",
