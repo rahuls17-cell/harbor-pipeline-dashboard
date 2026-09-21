@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-21T19:45:03+00:00",
+ "generated_at": "2026-09-21T19:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1007,
-  "scanned": 1007,
-  "connector": 309,
+  "task_folders": 1008,
+  "scanned": 1008,
+  "connector": 310,
   "non_connector": 698,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 118,
+  "real": 119,
   "unknown": 107,
   "synthetic": 84
  },
  "domain": {
-  "unnamed": 354,
+  "unnamed": 355,
   "code": 195,
   "fin": 77,
   "gen": 243,
@@ -22,7 +22,7 @@
   "law": 66
  },
  "name_prefix": {
-  "harbor": 311,
+  "harbor": 312,
   "obi": 696
  },
  "connector_services": {
@@ -32,7 +32,7 @@
   "jira-gym": 164,
   "email-gym": 163,
   "freshdesk-gym": 163,
-  "slack-gym": 138,
+  "slack-gym": 139,
   "slack": 60,
   "notion-gym": 28,
   "email-calendar-gym": 14,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131805
+  "approx_bytes_read": 138559
  },
  "errors": [],
  "tasks": [
@@ -9505,6 +9505,22 @@
    "updated": "2026-09-10T05:17:26.117Z"
   },
   {
+   "declared_name": "harbor/half-of-it-is-machinery",
+   "declared_short": "half-of-it-is-machinery",
+   "folder": "half-of-it-is-machinery",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "3572760988791aed9cffaf6f521d677ede6cd92d4986271048cb806ecebbba4a",
+   "size_bytes": 7750671,
+   "updated": "2026-09-21T19:46:36.923Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -12353,15 +12369,15 @@
    "updated": "2026-09-21T15:03:03.506Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b47-l10-bankruptcy-notice-compliance-window",
    "declared_short": "law-b47-l10-bankruptcy-notice-compliance-window",
-   "folder": "law-b47-l10-bankruptcy-notice-compliance-window",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b47-l10-bankruptcy-notice-compliance-window",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "394e03a020185459641d28428627be25a5c62adf5a46ffd8be3d647e372dca6a",
    "size_bytes": 6262469,
    "updated": "2026-09-21T19:43:31.862Z"
