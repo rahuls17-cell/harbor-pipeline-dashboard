@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T18:25:03+00:00",
+ "generated_at": "2026-09-21T18:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 997,
-  "scanned": 997,
+  "task_folders": 998,
+  "scanned": 998,
   "connector": 305,
-  "non_connector": 692,
+  "non_connector": 693,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 348,
   "code": 195,
   "fin": 77,
-  "gen": 242,
+  "gen": 243,
   "health": 70,
   "law": 65
  },
  "name_prefix": {
   "harbor": 307,
-  "obi": 690
+  "obi": 691
  },
  "connector_services": {
   "google-drive-gym": 179,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131685
  },
  "errors": [],
  "tasks": [
@@ -9291,6 +9291,20 @@
    "sha256": "7ed4497853ddd829b5b750974e48323a4379adfd97c1173be6154eee44f0b7c9",
    "size_bytes": 6394360,
    "updated": "2026-09-06T00:05:24.996Z"
+  },
+  {
+   "declared_name": "obi/gen-g953-channel-icon-delivery-spec-audit",
+   "declared_short": "gen-g953-channel-icon-delivery-spec-audit",
+   "folder": "gen-g953-channel-icon-delivery-spec-audit-modified",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "1caac8c9f656e93d3873b004f562bf89891911dc764c325090878e2ae40c6c8f",
+   "size_bytes": 9762474,
+   "updated": "2026-09-21T18:28:59.101Z"
   },
   {
    "connector_provenance": null,
