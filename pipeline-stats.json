@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T14:45:03+00:00",
+ "generated_at": "2026-09-21T15:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 948,
-  "scanned": 948,
+  "task_folders": 949,
+  "scanned": 949,
   "connector": 292,
-  "non_connector": 656,
+  "non_connector": 657,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 333,
   "code": 189,
   "fin": 72,
-  "gen": 230,
+  "gen": 231,
   "health": 67,
   "law": 57
  },
  "name_prefix": {
   "harbor": 295,
-  "obi": 653
+  "obi": 654
  },
  "connector_services": {
   "google-drive-gym": 174,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131454
  },
  "errors": [],
  "tasks": [
@@ -8093,6 +8093,20 @@
    "sha256": "d802936065708e310c732ef00153e2180733697ecb830964e503cc57f763a294",
    "size_bytes": 6237534,
    "updated": "2026-09-18T15:33:00.653Z"
+  },
+  {
+   "declared_name": "obi/gen-g696-retail-center-cotenancy-compliance-audit",
+   "declared_short": "gen-g696-retail-center-cotenancy-compliance-audit",
+   "folder": "gen-g696-retail-center-cotenancy-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "20ac23662df4d27414a508e07e22a87ce85a30e49391692b49e24adf6c550bf3",
+   "size_bytes": 7224112,
+   "updated": "2026-09-21T14:56:13.664Z"
   },
   {
    "connector_provenance": null,
