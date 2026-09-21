@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T17:05:02+00:00",
+ "generated_at": "2026-09-21T17:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 988,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135052
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4045,11 +4045,7 @@
    "updated": "2026-09-18T23:23:37.402Z"
   },
   {
-   "declared_name": "harbor/confirm-the-current-apy-on-the-joint-account-of-member-252",
-   "declared_short": "confirm-the-current-apy-on-the-joint-account-of-member-252",
-   "folder": "confirm-current-apy-on-customer-s-joint-savings-account-user-252-v1",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -4059,9 +4055,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/confirm-the-current-apy-on-the-joint-account-of-member-252",
+   "declared_short": "confirm-the-current-apy-on-the-joint-account-of-member-252",
    "domain": null,
+   "folder": "confirm-current-apy-on-customer-s-joint-savings-account-user-252-v1",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "89837c171991c246514cc81d5e007db6f01d438758d6be7d28497deebf2ea207",
    "size_bytes": 8599217,
    "updated": "2026-09-21T17:04:11.311Z"
