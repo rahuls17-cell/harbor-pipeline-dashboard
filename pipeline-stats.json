@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T23:00:02+00:00",
+ "generated_at": "2026-09-21T23:05:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1029,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134223
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -201,17 +201,17 @@
    "updated": "2026-09-21T19:21:53.755Z"
   },
   {
-   "declared_name": "harbor/a-card-for-every-channel",
-   "declared_short": "a-card-for-every-channel",
-   "folder": "a-card-for-every-channel",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/a-card-for-every-channel",
+   "declared_short": "a-card-for-every-channel",
    "domain": null,
+   "folder": "a-card-for-every-channel",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1e9610716d2c838e22073c0c787ef81127439ed3c762d4954ed40c448e9c4511",
    "size_bytes": 16463218,
    "updated": "2026-09-21T22:56:23.875Z"
