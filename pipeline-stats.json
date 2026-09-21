@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T13:55:03+00:00",
+ "generated_at": "2026-09-21T14:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 944,
-  "scanned": 944,
+  "task_folders": 945,
+  "scanned": 945,
   "connector": 291,
-  "non_connector": 653,
+  "non_connector": 654,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 76
  },
  "domain": {
-  "unnamed": 331,
+  "unnamed": 332,
   "code": 188,
   "fin": 72,
   "gen": 230,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 294,
-  "obi": 650
+  "obi": 651
  },
  "connector_services": {
   "google-drive-gym": 173,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131429
  },
  "errors": [],
  "tasks": [
@@ -14776,6 +14776,20 @@
    "sha256": "a003f0d53c904c4da0348c72da54b0556e0960c844af9ab62344756b5bdddc50",
    "size_bytes": 8740500,
    "updated": "2026-09-20T12:00:31.441Z"
+  },
+  {
+   "declared_name": "obi/writing-sc05-b7-report-section-budget",
+   "declared_short": "writing-sc05-b7-report-section-budget",
+   "folder": "writing-sc05-b7-report-section-budget-v1",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "ca9aff1c0150a1fb73ed8dbe1022205578821798121e27109f1dbd758932136d",
+   "size_bytes": 4462480,
+   "updated": "2026-09-21T13:56:07.800Z"
   },
   {
    "connector_provenance": null,
