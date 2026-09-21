@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T13:05:02+00:00",
+ "generated_at": "2026-09-21T13:10:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 940,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132948
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -12749,17 +12749,17 @@
    "updated": "2026-09-18T22:46:02.113Z"
   },
   {
-   "declared_name": "harbor/which-bug-tickets-went-cold",
-   "declared_short": "which-bug-tickets-went-cold",
-   "folder": "task14-full-qc",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/which-bug-tickets-went-cold",
+   "declared_short": "which-bug-tickets-went-cold",
    "domain": null,
+   "folder": "task14-full-qc",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b72103bd41b7a1eef21b1c353bb6535448c04ac66c40295265ea717f5ea56256",
    "size_bytes": 11369809,
    "updated": "2026-09-21T13:02:54.816Z"
