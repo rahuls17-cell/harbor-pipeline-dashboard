@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-21T16:45:03+00:00",
+ "generated_at": "2026-09-21T16:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 985,
-  "scanned": 985,
-  "connector": 301,
+  "task_folders": 986,
+  "scanned": 986,
+  "connector": 302,
   "non_connector": 684,
   "errors": 0
  },
  "connector_provenance": {
   "real": 114,
   "unknown": 106,
-  "synthetic": 81
+  "synthetic": 82
  },
  "domain": {
-  "unnamed": 343,
+  "unnamed": 344,
   "code": 194,
   "fin": 77,
   "gen": 240,
@@ -22,7 +22,7 @@
   "law": 62
  },
  "name_prefix": {
-  "harbor": 303,
+  "harbor": 304,
   "obi": 682
  },
  "connector_services": {
@@ -32,7 +32,7 @@
   "jira-gym": 161,
   "email-gym": 160,
   "freshdesk-gym": 160,
-  "slack-gym": 133,
+  "slack-gym": 134,
   "slack": 58,
   "notion-gym": 28,
   "email-calendar-gym": 14,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131500
+  "approx_bytes_read": 138620
  },
  "errors": [],
  "tasks": [
@@ -2587,15 +2587,15 @@
    "updated": "2026-09-09T20:53:08.334Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c43-release-manifest-integrity",
    "declared_short": "code-c43-release-manifest-integrity",
-   "folder": "code-c43-release-manifest-integrity",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c43-release-manifest-integrity",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "127b967e17ab3bddde16800f742701ddb6db154ebc15264ace4173e2744b85c4",
    "size_bytes": 6933796,
    "updated": "2026-09-21T16:41:46.275Z"
@@ -12859,6 +12859,22 @@
    "sha256": "0779bc04d35d251dd38c9b59ea7f85ed7cd69069b7c25e54ee876a6329d3a9f6",
    "size_bytes": 9071636,
    "updated": "2026-09-20T11:12:23.167Z"
+  },
+  {
+   "declared_name": "harbor/raised-and-nobody-came-back",
+   "declared_short": "raised-and-nobody-came-back",
+   "folder": "raised-and-nobody-came-back",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "adec32d7ed74481e2132c97ee74b26b45c0f828f422b06f56fd331895c397420",
+   "size_bytes": 6699874,
+   "updated": "2026-09-21T16:46:50.851Z"
   },
   {
    "connector_provenance": "unknown",
