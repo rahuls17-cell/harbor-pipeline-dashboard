@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T14:30:03+00:00",
+ "generated_at": "2026-09-21T14:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 946,
-  "scanned": 946,
+  "task_folders": 947,
+  "scanned": 947,
   "connector": 291,
-  "non_connector": 655,
+  "non_connector": 656,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 189,
   "fin": 72,
   "gen": 230,
-  "health": 66,
+  "health": 67,
   "law": 57
  },
  "name_prefix": {
   "harbor": 294,
-  "obi": 652
+  "obi": 653
  },
  "connector_services": {
   "google-drive-gym": 173,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131696
  },
  "errors": [],
  "tasks": [
@@ -10301,6 +10301,20 @@
    "sha256": "8e738fd1027cf3a3e75e0461c3aaa8d1b9c1cd6f0412ab0a463e1d62cf765580",
    "size_bytes": 11400814,
    "updated": "2026-09-20T15:37:05.142Z"
+  },
+  {
+   "declared_name": "obi/health-h122-plate-calorie-reference-audit",
+   "declared_short": "health-h122-plate-calorie-reference-audit",
+   "folder": "health-h122-plate-calorie-reference-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "8e6920e7e09224b902d5f3f391902dbb88498e3e629c682d1e19eb84f45b51f3",
+   "size_bytes": 6154748,
+   "updated": "2026-09-21T14:31:51.207Z"
   },
   {
    "connector_provenance": null,
