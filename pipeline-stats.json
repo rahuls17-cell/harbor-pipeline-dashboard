@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T13:30:03+00:00",
+ "generated_at": "2026-09-21T13:35:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 944,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135223
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -14616,11 +14616,7 @@
    "updated": "2026-09-12T13:41:14.141Z"
   },
   {
-   "declared_name": "harbor/vouched-joint-application-3093-notify-approved-partner-of-delinquent-d",
-   "declared_short": "vouched-joint-application-3093-notify-approved-partner-of-delinquent-d",
-   "folder": "vouched-joint-application-3093-notify-approved-partner-of-delinquent-d",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -14630,9 +14626,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/vouched-joint-application-3093-notify-approved-partner-of-delinquent-d",
+   "declared_short": "vouched-joint-application-3093-notify-approved-partner-of-delinquent-d",
    "domain": null,
+   "folder": "vouched-joint-application-3093-notify-approved-partner-of-delinquent-d",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0a56d6c99011e7ee599c6ed4f1f7065ee3c2ea2cac172ca664398389c76ebb01",
    "size_bytes": 14372071,
    "updated": "2026-09-21T13:29:14.822Z"
