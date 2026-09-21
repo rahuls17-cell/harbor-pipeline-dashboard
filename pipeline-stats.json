@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-21T19:20:02+00:00",
+ "generated_at": "2026-09-21T19:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1005,
-  "scanned": 1005,
-  "connector": 308,
+  "task_folders": 1006,
+  "scanned": 1006,
+  "connector": 309,
   "non_connector": 697,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 117,
+  "real": 118,
   "unknown": 107,
   "synthetic": 84
  },
  "domain": {
-  "unnamed": 353,
+  "unnamed": 354,
   "code": 195,
   "fin": 77,
   "gen": 243,
@@ -22,7 +22,7 @@
   "law": 65
  },
  "name_prefix": {
-  "harbor": 310,
+  "harbor": 311,
   "obi": 695
  },
  "connector_services": {
@@ -32,7 +32,7 @@
   "jira-gym": 164,
   "email-gym": 163,
   "freshdesk-gym": 163,
-  "slack-gym": 137,
+  "slack-gym": 138,
   "slack": 60,
   "notion-gym": 28,
   "email-calendar-gym": 14,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131526
+  "approx_bytes_read": 133810
  },
  "errors": [],
  "tasks": [
@@ -183,6 +183,22 @@
    "sha256": "e250ac641c9eaac2e595cc6de5320540caa11c7e122c47cf9ab11cf4b741d472",
    "size_bytes": 6676499,
    "updated": "2026-09-18T21:57:15.239Z"
+  },
+  {
+   "declared_name": "harbor/her-threads-nobody-else-answered",
+   "declared_short": "her-threads-nobody-else-answered",
+   "folder": "ASTR_101214",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "b034233fe05a2e34abe6fba1122676847cf9119116786042f3107da5116d2e60",
+   "size_bytes": 12769227,
+   "updated": "2026-09-21T19:21:53.755Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -10689,15 +10705,15 @@
    "updated": "2026-09-18T13:32:08.624Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b43-h6-tlf-summary-statistics-recheck",
    "declared_short": "health-b43-h6-tlf-summary-statistics-recheck",
-   "folder": "health-b43-h6-tlf-summary-statistics-recheck",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b43-h6-tlf-summary-statistics-recheck",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "aa6b30f42f38dadc0719d7d2ca76d3b59ad1d83f0c6003b0a6617bc2d814fe29",
    "size_bytes": 6590564,
    "updated": "2026-09-21T19:19:00.463Z"
