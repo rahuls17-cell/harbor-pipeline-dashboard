@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-21T04:55:03+00:00",
+ "generated_at": "2026-09-21T05:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 927,
-  "scanned": 927,
-  "connector": 286,
+  "task_folders": 928,
+  "scanned": 928,
+  "connector": 287,
   "non_connector": 641,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 108,
+  "real": 109,
   "unknown": 103,
   "synthetic": 75
  },
  "domain": {
-  "unnamed": 325,
+  "unnamed": 326,
   "code": 186,
   "fin": 71,
   "gen": 226,
@@ -22,7 +22,7 @@
   "law": 55
  },
  "name_prefix": {
-  "harbor": 289,
+  "harbor": 290,
   "obi": 638
  },
  "connector_services": {
@@ -34,7 +34,7 @@
   "freshdesk-gym": 154,
   "slack-gym": 128,
   "slack": 54,
-  "notion-gym": 25,
+  "notion-gym": 26,
   "email-calendar-gym": 13,
   "linear-gym": 10,
   "outlook-gym": 10,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133477
+  "approx_bytes_read": 137700
  },
  "errors": [],
  "tasks": [
@@ -3917,11 +3917,7 @@
    "updated": "2026-09-18T18:33:58.047Z"
   },
   {
-   "declared_name": "harbor/confirm-out-of-network-atm-fee-for-card-event-4999977-on-account-10088",
-   "declared_short": "confirm-out-of-network-atm-fee-for-card-event-4999977-on-account-10088",
-   "folder": "confirm-out-of-network-atm-fee-for-card-event-4999977-on-account-10088",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -3931,9 +3927,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/confirm-out-of-network-atm-fee-for-card-event-4999977-on-account-10088",
+   "declared_short": "confirm-out-of-network-atm-fee-for-card-event-4999977-on-account-10088",
    "domain": null,
+   "folder": "confirm-out-of-network-atm-fee-for-card-event-4999977-on-account-10088",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c28594ab0c8b6e98d9872097779d6092ef63914b6a118c5f8d0ab2f495a6c84e",
    "size_bytes": 13912341,
    "updated": "2026-09-21T04:54:25.674Z"
@@ -11917,6 +11917,22 @@
    "sha256": "e63473cf0d2f1bcd43b93046029e999697b5b8c4c74572198a3265bc65e8f4c0",
    "size_bytes": 13675731,
    "updated": "2026-09-09T04:52:15.228Z"
+  },
+  {
+   "declared_name": "harbor/no-rate-on-file",
+   "declared_short": "no-rate-on-file",
+   "folder": "no-rate-on-file-COMPLETED-v4",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "3b3eec3460595cb3e00188bbc921d6e7b8b81583b7535be59a1d4c7a8e2ad7c6",
+   "size_bytes": 10391693,
+   "updated": "2026-09-21T04:57:45.703Z"
   },
   {
    "connector_provenance": "real",
