@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T15:55:03+00:00",
+ "generated_at": "2026-09-21T16:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 966,
-  "scanned": 966,
+  "task_folders": 968,
+  "scanned": 968,
   "connector": 296,
-  "non_connector": 670,
+  "non_connector": 672,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 338,
   "code": 190,
   "fin": 75,
-  "gen": 235,
+  "gen": 236,
   "health": 68,
-  "law": 60
+  "law": 61
  },
  "name_prefix": {
   "harbor": 298,
-  "obi": 668
+  "obi": 670
  },
  "connector_services": {
   "google-drive-gym": 174,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 5,
-  "approx_bytes_read": 671623
+  "new_archives_read": 2,
+  "approx_bytes_read": 263083
  },
  "errors": [],
  "tasks": [
@@ -4753,11 +4753,7 @@
    "updated": "2026-09-10T20:38:34.003Z"
   },
   {
-   "declared_name": "harbor/diagnose-why-standard-ach-transfer-305051-for-47-00-ended-in-error-on",
-   "declared_short": "diagnose-why-standard-ach-transfer-305051-for-47-00-ended-in-error-on",
-   "folder": "diagnose-why-standard-ach-transfer-305051-for-47-00-ended-in-error",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -4767,9 +4763,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/diagnose-why-standard-ach-transfer-305051-for-47-00-ended-in-error-on",
+   "declared_short": "diagnose-why-standard-ach-transfer-305051-for-47-00-ended-in-error-on",
    "domain": null,
+   "folder": "diagnose-why-standard-ach-transfer-305051-for-47-00-ended-in-error",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b7e4f1897dcf08279df7d9eb5f488bda2fc8c2a482c88b7346fbacd4bcbc2398",
    "size_bytes": 12210659,
    "updated": "2026-09-21T15:54:31.419Z"
@@ -4791,17 +4791,17 @@
    "updated": "2026-09-19T00:37:50.310Z"
   },
   {
-   "declared_name": "harbor/does-the-schedule-page-add-up",
-   "declared_short": "does-the-schedule-page-add-up",
-   "folder": "does-the-schedule-page-add-up",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/does-the-schedule-page-add-up",
+   "declared_short": "does-the-schedule-page-add-up",
    "domain": null,
+   "folder": "does-the-schedule-page-add-up",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0394a5c29d9bd6384929987089550611d7cf77cd83d5bad32d38c0e75ef5fdf1",
    "size_bytes": 8133984,
    "updated": "2026-09-21T15:51:59.465Z"
@@ -5271,15 +5271,15 @@
    "updated": "2026-09-20T16:25:03.813Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b41-f4-bonus-depreciation-placed-in-service",
    "declared_short": "fin-b41-f4-bonus-depreciation-placed-in-service",
-   "folder": "fin-b41-f4-bonus-depreciation-placed-in-service",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b41-f4-bonus-depreciation-placed-in-service",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d652a7e11efab5965efc4f1dee31ff8acc97bcdee2b7d4d7b552888e517e1ca8",
    "size_bytes": 8580430,
    "updated": "2026-09-21T15:52:41.579Z"
@@ -7859,6 +7859,20 @@
    "sha256": "a5b87a4a1856cb4825fc3f2ea2c9467eae0774d42e9bf73180326e1942047d33",
    "size_bytes": 6356709,
    "updated": "2026-09-20T14:57:56.504Z"
+  },
+  {
+   "declared_name": "obi/gen-g580-estate-sale-valuation-inventory-audit",
+   "declared_short": "gen-g580-estate-sale-valuation-inventory-audit",
+   "folder": "gen-g580-estate-sale-valuation-inventory-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "301f856fcdccef581bc18b7ba58aa078f7899937e5051643d001ffeca35d410f",
+   "size_bytes": 13627333,
+   "updated": "2026-09-21T15:56:41.973Z"
   },
   {
    "connector_provenance": null,
@@ -11843,6 +11857,20 @@
    "updated": "2026-09-18T09:41:20.627Z"
   },
   {
+   "declared_name": "obi/law-b42-l6-event-ticket-gst-liability-recompute",
+   "declared_short": "law-b42-l6-event-ticket-gst-liability-recompute",
+   "folder": "law-b42-l6-event-ticket-gst-liability-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "979be7e62f14e251ce7dc7dc4b320b76eb89f74d5abb11015d569486208d8fb2",
+   "size_bytes": 15368259,
+   "updated": "2026-09-21T15:58:48.570Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-b42-l6-event-ticket-gst-liability-recompute",
@@ -12827,15 +12855,15 @@
    "updated": "2026-09-05T21:45:46.403Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/sci-b50-a7-renewable-capacity-variance-attribution",
    "declared_short": "sci-b50-a7-renewable-capacity-variance-attribution",
-   "folder": "sci-b50-a7-renewable-capacity-variance-attribution",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "sci-b50-a7-renewable-capacity-variance-attribution",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "abfdc4ce283074d8c43b1b6d0b63233fce7fadfac09d359442de0c0fb41e38c5",
    "size_bytes": 5166443,
    "updated": "2026-09-21T15:54:56.663Z"
@@ -14354,17 +14382,17 @@
    "updated": "2026-09-19T12:27:04.857Z"
   },
   {
-   "declared_name": "obi/the-status-that-outlived-the-standup",
-   "declared_short": "the-status-that-outlived-the-standup",
-   "folder": "the-status-that-outlived-the-standup",
-   "prefix": "obi",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "obi/the-status-that-outlived-the-standup",
+   "declared_short": "the-status-that-outlived-the-standup",
    "domain": null,
+   "folder": "the-status-that-outlived-the-standup",
    "image": null,
+   "is_connector": true,
+   "prefix": "obi",
    "sha256": "2cf74410be5e28545bc5b2bfc321eaa1b97a59a3da99eea84e4c2b6809ac8749",
    "size_bytes": 8997100,
    "updated": "2026-09-21T15:54:33.600Z"
