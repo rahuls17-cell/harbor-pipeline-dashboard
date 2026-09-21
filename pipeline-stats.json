@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T21:40:02+00:00",
+ "generated_at": "2026-09-21T21:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1024,
-  "scanned": 1024,
+  "task_folders": 1025,
+  "scanned": 1025,
   "connector": 312,
-  "non_connector": 712,
+  "non_connector": 713,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 363,
-  "code": 195,
+  "code": 196,
   "fin": 79,
   "gen": 246,
   "health": 73,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 314,
-  "obi": 710
+  "obi": 711
  },
  "connector_services": {
   "google-drive-gym": 181,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131585
  },
  "errors": [],
  "tasks": [
@@ -3085,6 +3085,20 @@
    "sha256": "1cd6faed549600f3291c1a72390955301f83645ee825af778dfbbe04bbae73fd",
    "size_bytes": 6129420,
    "updated": "2026-09-05T21:26:08.387Z"
+  },
+  {
+   "declared_name": "obi/code-c505-game-animation-defect-remediation-audit",
+   "declared_short": "code-c505-game-animation-defect-remediation-audit",
+   "folder": "code-c505-game-animation-defect-remediation-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "007f3e065c55aecbd4c38137779b00f5cc8cc287fc2a6da1a714ccf0f090de63",
+   "size_bytes": 6615646,
+   "updated": "2026-09-21T21:45:39.285Z"
   },
   {
    "connector_provenance": null,
