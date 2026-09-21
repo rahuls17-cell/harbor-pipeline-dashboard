@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T05:00:03+00:00",
+ "generated_at": "2026-09-21T05:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 928,
-  "scanned": 928,
+  "task_folders": 929,
+  "scanned": 929,
   "connector": 287,
-  "non_connector": 641,
+  "non_connector": 642,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 326,
-  "code": 186,
+  "code": 187,
   "fin": 71,
   "gen": 226,
   "health": 64,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 290,
-  "obi": 638
+  "obi": 639
  },
  "connector_services": {
   "google-drive-gym": 171,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 137700
+  "approx_bytes_read": 131524
  },
  "errors": [],
  "tasks": [
@@ -3403,6 +3403,20 @@
    "sha256": "38098982f15254eca1311d1111c265a0c8700890067681398cd6470b86ef734f",
    "size_bytes": 6791790,
    "updated": "2026-09-07T15:30:42.045Z"
+  },
+  {
+   "declared_name": "obi/code-c650-booking-app-bug-remediation-audit",
+   "declared_short": "code-c650-booking-app-bug-remediation-audit",
+   "folder": "code-c650-booking-app-bug-remediation-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "0f7995f08bb4ac57fa57d060c0893ed72e9f801dc186257ba86ea18184b8d3f0",
+   "size_bytes": 8856509,
+   "updated": "2026-09-21T05:03:12.386Z"
   },
   {
    "connector_provenance": null,
@@ -11919,17 +11933,17 @@
    "updated": "2026-09-09T04:52:15.228Z"
   },
   {
-   "declared_name": "harbor/no-rate-on-file",
-   "declared_short": "no-rate-on-file",
-   "folder": "no-rate-on-file-COMPLETED-v4",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/no-rate-on-file",
+   "declared_short": "no-rate-on-file",
    "domain": null,
+   "folder": "no-rate-on-file-COMPLETED-v4",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3b3eec3460595cb3e00188bbc921d6e7b8b81583b7535be59a1d4c7a8e2ad7c6",
    "size_bytes": 10391693,
    "updated": "2026-09-21T04:57:45.703Z"
