@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T15:40:03+00:00",
+ "generated_at": "2026-09-21T15:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 952,
-  "scanned": 952,
+  "task_folders": 953,
+  "scanned": 953,
   "connector": 292,
-  "non_connector": 660,
+  "non_connector": 661,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 72,
   "gen": 232,
   "health": 68,
-  "law": 58
+  "law": 59
  },
  "name_prefix": {
   "harbor": 295,
-  "obi": 657
+  "obi": 658
  },
  "connector_services": {
   "google-drive-gym": 174,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131450
+  "approx_bytes_read": 131523
  },
  "errors": [],
  "tasks": [
@@ -11059,15 +11059,15 @@
    "updated": "2026-09-20T11:12:27.962Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt7-a9-family-history-referral-degree-register",
    "declared_short": "health-tdt7-a9-family-history-referral-degree-register",
-   "folder": "health-tdt7-a9-family-history-referral-degree-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt7-a9-family-history-referral-degree-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9f09a1e8313641d150dff0db2bb59edd421d9d0b5f5349cf2d18061594865bdf",
    "size_bytes": 7015657,
    "updated": "2026-09-21T15:35:13.926Z"
@@ -11445,6 +11445,20 @@
    "sha256": "0907b69eff9fb343129eba241b4c4c0fb056c04bc483ac7972a4b78ab8c0abd3",
    "size_bytes": 7322228,
    "updated": "2026-09-16T22:56:47.450Z"
+  },
+  {
+   "declared_name": "obi/law-b38-l2-claims-consultancy-service-menu-audit",
+   "declared_short": "law-b38-l2-claims-consultancy-service-menu-audit",
+   "folder": "law-b38-l2-claims-consultancy-service-menu-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "8e4a6eae23a849e41e7bf975d57d5a74298c7c0a9e5d52494d54b5c4d1543bd2",
+   "size_bytes": 8380305,
+   "updated": "2026-09-21T15:43:01.819Z"
   },
   {
    "connector_provenance": null,
