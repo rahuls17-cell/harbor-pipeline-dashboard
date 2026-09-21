@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-21T16:00:03+00:00",
+ "generated_at": "2026-09-21T16:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 968,
-  "scanned": 968,
-  "connector": 296,
-  "non_connector": 672,
+  "task_folders": 970,
+  "scanned": 970,
+  "connector": 297,
+  "non_connector": 673,
   "errors": 0
  },
  "connector_provenance": {
   "real": 112,
   "unknown": 105,
-  "synthetic": 79
+  "synthetic": 80
  },
  "domain": {
-  "unnamed": 338,
-  "code": 190,
+  "unnamed": 339,
+  "code": 191,
   "fin": 75,
   "gen": 236,
   "health": 68,
   "law": 61
  },
  "name_prefix": {
-  "harbor": 298,
-  "obi": 670
+  "harbor": 299,
+  "obi": 671
  },
  "connector_services": {
   "google-drive-gym": 174,
@@ -37,8 +37,8 @@
   "notion-gym": 28,
   "email-calendar-gym": 13,
   "linear-gym": 11,
+  "github-gym": 11,
   "outlook-gym": 10,
-  "github-gym": 10,
   "gws-gym": 7,
   "teams-gym": 2,
   "supabase-gym": 2,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263083
+  "new_archives_read": 5,
+  "approx_bytes_read": 669220
  },
  "errors": [],
  "tasks": [
@@ -1373,6 +1373,20 @@
    "sha256": "5b932d133d8836e849b78d9fb7481b140d81f3f1c67f35cd92ac0510112911d4",
    "size_bytes": 10630951,
    "updated": "2026-09-13T07:51:30.729Z"
+  },
+  {
+   "declared_name": "obi/code-c12-csv-schema-validator",
+   "declared_short": "code-c12-csv-schema-validator",
+   "folder": "code-c12-csv-schema-validator",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "6554b3af370bc895a80f4baeaebdc0776d1ea4049fc5fcdfdd856cd17ccebd55",
+   "size_bytes": 6224307,
+   "updated": "2026-09-21T16:03:00.341Z"
   },
   {
    "connector_provenance": null,
@@ -4511,7 +4525,11 @@
    "updated": "2026-09-09T04:54:01.098Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/diagnose-failed-543-mobile-check-deposit-1866-stuck-in-error-state",
+   "declared_short": "diagnose-failed-543-mobile-check-deposit-1866-stuck-in-error-state",
+   "folder": "diagnose-failed-543-mobile-check-deposit-1866-stuck-in-error-state",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -4521,16 +4539,12 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/diagnose-failed-543-mobile-check-deposit-1866-stuck-in-error-state",
-   "declared_short": "diagnose-failed-543-mobile-check-deposit-1866-stuck-in-error-state",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "diagnose-failed-543-mobile-check-deposit-1866-stuck-in-error-state",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "eb7108dd60756804dc0c16c8ba4f67123567ea8e2b4ccc190ae8c332f44a8800",
-   "size_bytes": 12431942,
-   "updated": "2026-09-19T00:42:22.504Z"
+   "sha256": "d906c6eedebf0103690b4206943c62c5ce4cde8a52b57c872c2208b0d28c282b",
+   "size_bytes": 16459936,
+   "updated": "2026-09-21T16:01:41.793Z"
   },
   {
    "connector_provenance": "unknown",
@@ -7301,18 +7315,18 @@
    "updated": "2026-09-12T13:35:07.830Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/gen-g309-participant-safeguards-audit",
    "declared_short": "gen-g309-participant-safeguards-audit",
-   "domain": "gen",
    "folder": "gen-g309-participant-safeguards-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "a5e3eefc7d83ff5b83b1b8ee8fa6246cc9d030eeb051a30fa19388bc39e1bd8d",
-   "size_bytes": 11051212,
-   "updated": "2026-09-20T20:57:47.096Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "47468e7ade03f1ba9d85c137037314f0983dfe998a617e3a39f261bd763b828d",
+   "size_bytes": 9536414,
+   "updated": "2026-09-21T16:00:06.268Z"
   },
   {
    "connector_provenance": null,
@@ -7861,15 +7875,15 @@
    "updated": "2026-09-20T14:57:56.504Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g580-estate-sale-valuation-inventory-audit",
    "declared_short": "gen-g580-estate-sale-valuation-inventory-audit",
-   "folder": "gen-g580-estate-sale-valuation-inventory-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g580-estate-sale-valuation-inventory-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "301f856fcdccef581bc18b7ba58aa078f7899937e5051643d001ffeca35d410f",
    "size_bytes": 13627333,
    "updated": "2026-09-21T15:56:41.973Z"
@@ -8995,18 +9009,18 @@
    "updated": "2026-09-18T12:15:26.228Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/gen-g941-closest-to-pin-promo-graphic-audit",
    "declared_short": "gen-g941-closest-to-pin-promo-graphic-audit",
-   "domain": "gen",
    "folder": "gen-g941-closest-to-pin-promo-graphic-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "04490a92e0ef90e7bee2478c3c7d8428c2c574aa5f8ce28aab9b1afb4f95b46a",
-   "size_bytes": 7560468,
-   "updated": "2026-09-18T19:46:42.621Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "8d89f911634578b02175712dea6f5980cf9ed988260efd02f38bcb682a5de20a",
+   "size_bytes": 6724266,
+   "updated": "2026-09-21T16:04:25.230Z"
   },
   {
    "connector_provenance": null,
@@ -11857,15 +11871,15 @@
    "updated": "2026-09-18T09:41:20.627Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b42-l6-event-ticket-gst-liability-recompute",
    "declared_short": "law-b42-l6-event-ticket-gst-liability-recompute",
-   "folder": "law-b42-l6-event-ticket-gst-liability-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b42-l6-event-ticket-gst-liability-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "979be7e62f14e251ce7dc7dc4b320b76eb89f74d5abb11015d569486208d8fb2",
    "size_bytes": 15368259,
    "updated": "2026-09-21T15:58:48.570Z"
@@ -14364,6 +14378,22 @@
    "sha256": "f58bceda14848a16c9c8df67238757a6a9a73d77645c9aae8e0aed5c5cfcf2ce",
    "size_bytes": 7839295,
    "updated": "2026-09-17T17:34:22.992Z"
+  },
+  {
+   "declared_name": "harbor/the-safeguard-that-never-shipped",
+   "declared_short": "the-safeguard-that-never-shipped",
+   "folder": "the-safeguard-that-never-shipped-v2",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "8a6595cacabf7b11e84fd8ce49c72fa11173d49f4f9b201c2618d80e68be4b75",
+   "size_bytes": 7568786,
+   "updated": "2026-09-21T16:04:02.252Z"
   },
   {
    "connector_provenance": "synthetic",
