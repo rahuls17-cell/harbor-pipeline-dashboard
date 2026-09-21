@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T18:05:03+00:00",
+ "generated_at": "2026-09-21T18:10:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 997,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 394626
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2791,15 +2791,15 @@
    "updated": "2026-09-06T17:27:10.691Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c469-desktop-file-dedup-categorization-audit",
    "declared_short": "code-c469-desktop-file-dedup-categorization-audit",
-   "folder": "code-c469-desktop-file-dedup-categorization-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c469-desktop-file-dedup-categorization-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8a6823c39a7598538ddf0fa22cba400c7e85d63915a9a30ae9cd8d55f9d821c9",
    "size_bytes": 17444735,
    "updated": "2026-09-21T18:03:29.309Z"
@@ -7879,15 +7879,15 @@
    "updated": "2026-09-09T09:17:52.352Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g486-drum-trigger-calibration-audit",
    "declared_short": "gen-g486-drum-trigger-calibration-audit",
-   "folder": "gen-g486-drum-trigger-calibration-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g486-drum-trigger-calibration-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e01a5f4b68d9ee5cd1b2bbc5b25d84f2acb034305fa621de90906dfcfe03c9f0",
    "size_bytes": 13745005,
    "updated": "2026-09-21T18:03:28.953Z"
@@ -10605,15 +10605,15 @@
    "updated": "2026-09-21T16:06:23.332Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b43-h2-nursing-evidence-appraisal-ratings",
    "declared_short": "health-b43-h2-nursing-evidence-appraisal-ratings",
-   "folder": "health-b43-h2-nursing-evidence-appraisal-ratings-v8",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b43-h2-nursing-evidence-appraisal-ratings-v8",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f0acd7a02ea189274d60ec7434512d06e84936ab54b9c51539506c114a9f3b75",
    "size_bytes": 7496513,
    "updated": "2026-09-21T18:00:27.200Z"
