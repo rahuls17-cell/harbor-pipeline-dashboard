@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T07:00:03+00:00",
+ "generated_at": "2026-09-21T07:05:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 935,
-  "scanned": 935,
+  "task_folders": 937,
+  "scanned": 937,
   "connector": 288,
-  "non_connector": 647,
+  "non_connector": 649,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 327,
-  "code": 187,
+  "code": 188,
   "fin": 72,
   "gen": 229,
-  "health": 65,
+  "health": 66,
   "law": 55
  },
  "name_prefix": {
   "harbor": 291,
-  "obi": 644
+  "obi": 646
  },
  "connector_services": {
   "google-drive-gym": 172,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131690
+  "new_archives_read": 2,
+  "approx_bytes_read": 262861
  },
  "errors": [],
  "tasks": [
@@ -3445,6 +3445,20 @@
    "sha256": "c1e3b6920eb2c7a1df7fc32f874130b153efccdee0cd8f80ee96f9435b553404",
    "size_bytes": 6199312,
    "updated": "2026-09-09T13:20:08.480Z"
+  },
+  {
+   "declared_name": "obi/code-c672-subaccount-onboarding-checklist-audit",
+   "declared_short": "code-c672-subaccount-onboarding-checklist-audit",
+   "folder": "code-c672-subaccount-onboarding-checklist-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "20e19dcb5ff4cf9000b33cb23ef703146624ff17f3f7d187565537a1e45318df",
+   "size_bytes": 5499246,
+   "updated": "2026-09-21T07:04:09.984Z"
   },
   {
    "connector_provenance": null,
@@ -10107,15 +10121,15 @@
    "updated": "2026-09-17T15:20:53.607Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b43-h4-county-admission-rate-variance-briefing",
    "declared_short": "health-b43-h4-county-admission-rate-variance-briefing",
-   "folder": "health-b43-h4-county-admission-rate-variance-briefing",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b43-h4-county-admission-rate-variance-briefing",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "72210b3c72fa45087cb9f02900c5ad7541ee93376d9cca92296d779a80f7fe38",
    "size_bytes": 9550063,
    "updated": "2026-09-21T06:58:49.672Z"
@@ -10721,6 +10735,20 @@
    "sha256": "91e5fd715c641a06e90ca99ef90e274361e5b6dcdafa1bca79dea9ac8cd04c9b",
    "size_bytes": 8907671,
    "updated": "2026-09-09T15:08:35.756Z"
+  },
+  {
+   "declared_name": "obi/health-hl04-a7-heat-adjusted-marathon-prediction",
+   "declared_short": "health-hl04-a7-heat-adjusted-marathon-prediction",
+   "folder": "health-hl04-a7-heat-adjusted-marathon-prediction",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "00e7f9f66e50165fe0804d37ecc3f3ecf3533ab3c4beb297cea0ef207d73e762",
+   "size_bytes": 7240354,
+   "updated": "2026-09-21T07:02:51.948Z"
   },
   {
    "connector_provenance": null,
