@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T21:30:03+00:00",
+ "generated_at": "2026-09-21T21:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1023,
-  "scanned": 1023,
+  "task_folders": 1024,
+  "scanned": 1024,
   "connector": 312,
-  "non_connector": 711,
+  "non_connector": 712,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 363,
   "code": 195,
   "fin": 79,
-  "gen": 245,
+  "gen": 246,
   "health": 73,
   "law": 68
  },
  "name_prefix": {
   "harbor": 314,
-  "obi": 709
+  "obi": 710
  },
  "connector_services": {
   "google-drive-gym": 181,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131679
  },
  "errors": [],
  "tasks": [
@@ -7349,6 +7349,20 @@
    "sha256": "6ff0393b891b8950ddea4908e7347dbf65c2165a7a6c1342ea13ba9af0a0525f",
    "size_bytes": 8245357,
    "updated": "2026-09-19T06:32:20.427Z"
+  },
+  {
+   "declared_name": "obi/gen-g248-digital-planner-audit",
+   "declared_short": "gen-g248-digital-planner-audit",
+   "folder": "gen-g248-digital-planner-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "ba2f2fb1aad52305cc84f97ae845c3b3c340e97a27a68e1a9ba2d6637065fc29",
+   "size_bytes": 12049506,
+   "updated": "2026-09-21T21:30:25.861Z"
   },
   {
    "connector_provenance": null,
