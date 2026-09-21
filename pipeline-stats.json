@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T12:55:03+00:00",
+ "generated_at": "2026-09-21T13:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 939,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131525
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -11601,15 +11601,15 @@
    "updated": "2026-09-18T09:41:20.627Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b42-l6-event-ticket-gst-liability-recompute",
    "declared_short": "law-b42-l6-event-ticket-gst-liability-recompute",
-   "folder": "law-b42-l6-event-ticket-gst-liability-recompute-r191-artifact-export-fix-direct-qc",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b42-l6-event-ticket-gst-liability-recompute-r191-artifact-export-fix-direct-qc",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f811db3aff63923a77dd8304571d85ae152995b0916c517d00b4941eeefe1d68",
    "size_bytes": 16565113,
    "updated": "2026-09-21T12:53:28.594Z"
