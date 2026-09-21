@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-21T14:35:03+00:00",
+ "generated_at": "2026-09-21T14:40:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 947,
-  "scanned": 947,
-  "connector": 291,
+  "task_folders": 948,
+  "scanned": 948,
+  "connector": 292,
   "non_connector": 656,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 111,
+  "real": 112,
   "unknown": 104,
   "synthetic": 76
  },
  "domain": {
-  "unnamed": 332,
+  "unnamed": 333,
   "code": 189,
   "fin": 72,
   "gen": 230,
@@ -22,18 +22,18 @@
   "law": 57
  },
  "name_prefix": {
-  "harbor": 294,
+  "harbor": 295,
   "obi": 653
  },
  "connector_services": {
-  "google-drive-gym": 173,
-  "zeta3-sql-gym": 163,
-  "confluence-gym": 158,
-  "jira-gym": 157,
-  "email-gym": 156,
-  "freshdesk-gym": 156,
+  "google-drive-gym": 174,
+  "zeta3-sql-gym": 164,
+  "confluence-gym": 159,
+  "jira-gym": 158,
+  "email-gym": 157,
+  "freshdesk-gym": 157,
   "slack-gym": 130,
-  "slack": 55,
+  "slack": 56,
   "notion-gym": 26,
   "email-calendar-gym": 13,
   "linear-gym": 11,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131696
+  "approx_bytes_read": 133021
  },
  "errors": [],
  "tasks": [
@@ -10303,15 +10303,15 @@
    "updated": "2026-09-20T15:37:05.142Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h122-plate-calorie-reference-audit",
    "declared_short": "health-h122-plate-calorie-reference-audit",
-   "folder": "health-h122-plate-calorie-reference-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h122-plate-calorie-reference-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8e6920e7e09224b902d5f3f391902dbb88498e3e629c682d1e19eb84f45b51f3",
    "size_bytes": 6154748,
    "updated": "2026-09-21T14:31:51.207Z"
@@ -13334,6 +13334,28 @@
    "sha256": "c1a708f9634756fe0abe46154ef64acd70141d1ad8b792fdc0211dcd848d2b01",
    "size_bytes": 9591646,
    "updated": "2026-09-19T23:21:11.227Z"
+  },
+  {
+   "declared_name": "harbor/verify-per-day-ach-transfer-limit-for-member-disputing-an-inbound-fund",
+   "declared_short": "verify-per-day-ach-transfer-limit-for-member-disputing-an-inbound-fund",
+   "folder": "task_verify_per_day_ach_transfer_limit_for_member_disputing_an_inbound_fund",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "81e10e2ac723fbd0e893548c74cdbe730228e3216436d25867df9e5b76cd6530",
+   "size_bytes": 13270327,
+   "updated": "2026-09-21T14:39:38.702Z"
   },
   {
    "connector_provenance": "real",
