@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T18:55:02+00:00",
+ "generated_at": "2026-09-21T19:00:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1001,
-  "scanned": 1001,
+  "task_folders": 1002,
+  "scanned": 1002,
   "connector": 306,
-  "non_connector": 695,
+  "non_connector": 696,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 83
  },
  "domain": {
-  "unnamed": 350,
+  "unnamed": 351,
   "code": 195,
   "fin": 77,
   "gen": 243,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 308,
-  "obi": 693
+  "obi": 694
  },
  "connector_services": {
   "google-drive-gym": 179,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131839
  },
  "errors": [],
  "tasks": [
@@ -14400,6 +14400,20 @@
    "sha256": "23619c3d77f4f49a62325a408dea85bdd373b98aa0bcb039d547bf805313ab9b",
    "size_bytes": 6636182,
    "updated": "2026-09-21T00:16:05.634Z"
+  },
+  {
+   "declared_name": "obi/tech-mg-it-b5-a5-pressure-control-trip-reconstruction",
+   "declared_short": "tech-mg-it-b5-a5-pressure-control-trip-reconstruction",
+   "folder": "tech-mg-it-b5-a5-pressure-control-trip-reconstruction",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "3009a8ca8edf01b2056993ff94367c66a701f349359ba097a0d9622cf58a1a0d",
+   "size_bytes": 9119162,
+   "updated": "2026-09-21T18:59:13.039Z"
   },
   {
    "connector_provenance": null,
