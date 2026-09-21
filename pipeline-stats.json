@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-21T17:00:03+00:00",
+ "generated_at": "2026-09-21T17:05:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 987,
-  "scanned": 987,
-  "connector": 302,
+  "task_folders": 988,
+  "scanned": 988,
+  "connector": 303,
   "non_connector": 685,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 114,
+  "real": 115,
   "unknown": 106,
   "synthetic": 82
  },
  "domain": {
-  "unnamed": 345,
+  "unnamed": 346,
   "code": 194,
   "fin": 77,
   "gen": 240,
@@ -22,18 +22,18 @@
   "law": 62
  },
  "name_prefix": {
-  "harbor": 304,
+  "harbor": 305,
   "obi": 683
  },
  "connector_services": {
-  "google-drive-gym": 177,
-  "zeta3-sql-gym": 167,
-  "confluence-gym": 162,
-  "jira-gym": 161,
-  "email-gym": 160,
-  "freshdesk-gym": 160,
+  "google-drive-gym": 178,
+  "zeta3-sql-gym": 168,
+  "confluence-gym": 163,
+  "jira-gym": 162,
+  "email-gym": 161,
+  "freshdesk-gym": 161,
   "slack-gym": 134,
-  "slack": 58,
+  "slack": 59,
   "notion-gym": 28,
   "email-calendar-gym": 14,
   "linear-gym": 11,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 135052
  },
  "errors": [],
  "tasks": [
@@ -4043,6 +4043,28 @@
    "sha256": "7c8fe21ae8fdf352f37e645c07d69cdc1840b392488db70272440a007a7f47ca",
    "size_bytes": 10103708,
    "updated": "2026-09-18T23:23:37.402Z"
+  },
+  {
+   "declared_name": "harbor/confirm-the-current-apy-on-the-joint-account-of-member-252",
+   "declared_short": "confirm-the-current-apy-on-the-joint-account-of-member-252",
+   "folder": "confirm-current-apy-on-customer-s-joint-savings-account-user-252-v1",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "89837c171991c246514cc81d5e007db6f01d438758d6be7d28497deebf2ea207",
+   "size_bytes": 8599217,
+   "updated": "2026-09-21T17:04:11.311Z"
   },
   {
    "connector_provenance": "synthetic",
