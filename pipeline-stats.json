@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T17:25:03+00:00",
+ "generated_at": "2026-09-21T17:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 990,
-  "scanned": 990,
+  "task_folders": 991,
+  "scanned": 991,
   "connector": 304,
-  "non_connector": 686,
+  "non_connector": 687,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 77,
   "gen": 240,
   "health": 69,
-  "law": 63
+  "law": 64
  },
  "name_prefix": {
   "harbor": 306,
-  "obi": 684
+  "obi": 685
  },
  "connector_services": {
   "google-drive-gym": 178,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131756
  },
  "errors": [],
  "tasks": [
@@ -12131,6 +12131,20 @@
    "sha256": "2ef570a98f73efb0d45a27cf81b2ba29d8965008b19658feaecfcf116bbc6ef8",
    "size_bytes": 8434477,
    "updated": "2026-09-18T22:20:51.629Z"
+  },
+  {
+   "declared_name": "obi/law-b44-l10-credit-dispute-reinvestigation-adjudication",
+   "declared_short": "law-b44-l10-credit-dispute-reinvestigation-adjudication",
+   "folder": "law-b44-l10-credit-dispute-reinvestigation-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "87e5f74ce5265dd32a0ff097d63c49d9145cb0348cb80b4c9ca1aa020e7720fb",
+   "size_bytes": 7107310,
+   "updated": "2026-09-21T17:34:07.957Z"
   },
   {
    "connector_provenance": null,
