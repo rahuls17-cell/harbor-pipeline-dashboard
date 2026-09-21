@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T18:45:03+00:00",
+ "generated_at": "2026-09-21T18:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1000,
-  "scanned": 1000,
+  "task_folders": 1001,
+  "scanned": 1001,
   "connector": 306,
-  "non_connector": 694,
+  "non_connector": 695,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 195,
   "fin": 77,
   "gen": 243,
-  "health": 70,
+  "health": 71,
   "law": 65
  },
  "name_prefix": {
   "harbor": 308,
-  "obi": 692
+  "obi": 693
  },
  "connector_services": {
   "google-drive-gym": 179,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134155
+  "approx_bytes_read": 131501
  },
  "errors": [],
  "tasks": [
@@ -10605,6 +10605,20 @@
    "updated": "2026-09-17T15:20:53.607Z"
   },
   {
+   "declared_name": "obi/health-b43-h14-post-procedure-food-catalog",
+   "declared_short": "health-b43-h14-post-procedure-food-catalog",
+   "folder": "health-b43-h14-post-procedure-food-catalog-v10",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "71703523948d2b293e10e8f3f6654ee20135cb61c3c5658c93a0f792a09c91f8",
+   "size_bytes": 7357255,
+   "updated": "2026-09-21T18:46:23.658Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-b43-h14-post-procedure-food-catalog",
@@ -14688,17 +14702,17 @@
    "updated": "2026-09-17T03:49:41.950Z"
   },
   {
-   "declared_name": "harbor/the-names-channels-used-to-have",
-   "declared_short": "the-names-channels-used-to-have",
-   "folder": "the-names-channels-used-to-have",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-names-channels-used-to-have",
+   "declared_short": "the-names-channels-used-to-have",
    "domain": null,
+   "folder": "the-names-channels-used-to-have",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9168977dd119bc189c86a27d884bb3cbeab21b6ebd81c285adc1ce83529736ea",
    "size_bytes": 17862821,
    "updated": "2026-09-21T18:41:38.252Z"
