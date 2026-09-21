@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T20:20:03+00:00",
+ "generated_at": "2026-09-21T20:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1012,
-  "scanned": 1012,
+  "task_folders": 1013,
+  "scanned": 1013,
   "connector": 310,
-  "non_connector": 702,
+  "non_connector": 703,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 84
  },
  "domain": {
-  "unnamed": 357,
+  "unnamed": 358,
   "code": 195,
   "fin": 77,
   "gen": 244,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 312,
-  "obi": 700
+  "obi": 701
  },
  "connector_services": {
   "google-drive-gym": 180,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131798
+  "approx_bytes_read": 131896
  },
  "errors": [],
  "tasks": [
@@ -12383,15 +12383,15 @@
    "updated": "2026-09-21T15:03:03.506Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b47-l1-annual-report-standing-penalty-reconstruction",
    "declared_short": "law-b47-l1-annual-report-standing-penalty-reconstruction",
-   "folder": "law-b47-l1-annual-report-standing-penalty-reconstruction",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b47-l1-annual-report-standing-penalty-reconstruction",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "420607be16c7cc9e267efe1b6d1d38b332b12f7d11ec96742ac47f4776bd09b5",
    "size_bytes": 7316302,
    "updated": "2026-09-21T20:15:07.265Z"
@@ -14526,6 +14526,20 @@
    "sha256": "23619c3d77f4f49a62325a408dea85bdd373b98aa0bcb039d547bf805313ab9b",
    "size_bytes": 6636182,
    "updated": "2026-09-21T00:16:05.634Z"
+  },
+  {
+   "declared_name": "obi/tech-mg-it-b5-a4-bidirectional-counter-encoder-configuration",
+   "declared_short": "tech-mg-it-b5-a4-bidirectional-counter-encoder-configuration",
+   "folder": "tech-mg-it-b5-a4-bidirectional-counter-encoder-configuration",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "296bfd4d1325ccdbb804409f39e7ec1bbc3ab6f5a58fc9f67224e49a16dc464f",
+   "size_bytes": 7156587,
+   "updated": "2026-09-21T20:21:47.291Z"
   },
   {
    "connector_provenance": null,
