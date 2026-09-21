@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T01:40:03+00:00",
+ "generated_at": "2026-09-21T01:45:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 923,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263040
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -5315,15 +5315,15 @@
    "updated": "2026-09-20T16:26:32.769Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b44-a7-net-worth-bucket-canonicalisation",
    "declared_short": "fin-b44-a7-net-worth-bucket-canonicalisation",
-   "folder": "fin-b44-a7-net-worth-bucket-canonicalisation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b44-a7-net-worth-bucket-canonicalisation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0a7564867ebf38c5eba62e21a20a1e4afafe4b716e267d8d5f2f13ff49333afc",
    "size_bytes": 7950943,
    "updated": "2026-09-21T01:36:32.796Z"
@@ -13348,15 +13348,15 @@
    "updated": "2026-09-19T05:52:19.841Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b60-t8-rcs-provider-selection-unit-economics",
    "declared_short": "tech-b60-t8-rcs-provider-selection-unit-economics",
-   "folder": "tech-b60-t8-rcs-provider-selection-unit-economics",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b60-t8-rcs-provider-selection-unit-economics",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "626ae44d4f5faa7ac300770d4f07a231809dda45fa427d3a62c89b2709799bd2",
    "size_bytes": 6539505,
    "updated": "2026-09-21T01:35:49.055Z"
