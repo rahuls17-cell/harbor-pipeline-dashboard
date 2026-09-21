@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T21:25:02+00:00",
+ "generated_at": "2026-09-21T21:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1023,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134396
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -6427,15 +6427,15 @@
    "updated": "2026-09-11T09:14:13.431Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-cold-chain-delivery-run-plan",
    "declared_short": "gen-cold-chain-delivery-run-plan",
-   "folder": "gen-cold-chain-delivery-run-plan",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-cold-chain-delivery-run-plan",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b545c339d99f6477b7e0e3ca0531dfb21e5cdc98d0025edf9f46fc9d6a973a8c",
    "size_bytes": 9434555,
    "updated": "2026-09-21T21:24:44.074Z"
