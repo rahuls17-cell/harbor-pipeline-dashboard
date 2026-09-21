@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T13:20:03+00:00",
+ "generated_at": "2026-09-21T13:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 942,
-  "scanned": 942,
+  "task_folders": 943,
+  "scanned": 943,
   "connector": 290,
-  "non_connector": 652,
+  "non_connector": 653,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 72,
   "gen": 230,
   "health": 66,
-  "law": 56
+  "law": 57
  },
  "name_prefix": {
   "harbor": 293,
-  "obi": 649
+  "obi": 650
  },
  "connector_services": {
   "google-drive-gym": 172,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131774
  },
  "errors": [],
  "tasks": [
@@ -11417,6 +11417,20 @@
    "sha256": "ab2df8d378888c3f98977ef6efdf1d9f8842500b4900a178f950781b5d56d6b7",
    "size_bytes": 13646439,
    "updated": "2026-09-18T06:47:53.163Z"
+  },
+  {
+   "declared_name": "obi/law-b39-l11-clemency-objection-deadline-register",
+   "declared_short": "law-b39-l11-clemency-objection-deadline-register",
+   "folder": "law-b39-l11-clemency-objection-deadline-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "d426daa25dca637547e96854f9c4800f635cb2d2ec4a3cbf2bd76b3b5ebc3f30",
+   "size_bytes": 6211474,
+   "updated": "2026-09-21T13:24:53.597Z"
   },
   {
    "connector_provenance": null,
