@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T20:35:03+00:00",
+ "generated_at": "2026-09-21T20:40:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1015,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262974
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -11991,15 +11991,15 @@
    "updated": "2026-09-21T15:43:01.819Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b38-l3-exemption-threshold-status-register",
    "declared_short": "law-b38-l3-exemption-threshold-status-register",
-   "folder": "law-b38-l3-exemption-threshold-status-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b38-l3-exemption-threshold-status-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9d0b1208976446692093f5b8d5bc26119bafdce3be579a47f88d6dc910a0bd06",
    "size_bytes": 9908393,
    "updated": "2026-09-21T20:33:22.855Z"
@@ -14598,15 +14598,15 @@
    "updated": "2026-09-21T16:50:02.491Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-mg-it-b6-a2-app-limit-source-attribution",
    "declared_short": "tech-mg-it-b6-a2-app-limit-source-attribution",
-   "folder": "tech-mg-it-b6-a2-app-limit-source-attribution",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-mg-it-b6-a2-app-limit-source-attribution",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "878c12f1f0f2387c7cb7aa6b1b6ac34e9c53128333c03e53c1d1db439dcaea3f",
    "size_bytes": 5329960,
    "updated": "2026-09-21T20:31:16.173Z"
