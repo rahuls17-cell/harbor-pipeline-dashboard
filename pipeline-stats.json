@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T18:00:02+00:00",
+ "generated_at": "2026-09-21T18:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 994,
-  "scanned": 994,
+  "task_folders": 997,
+  "scanned": 997,
   "connector": 305,
-  "non_connector": 689,
+  "non_connector": 692,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 348,
-  "code": 194,
+  "code": 195,
   "fin": 77,
-  "gen": 241,
-  "health": 69,
+  "gen": 242,
+  "health": 70,
   "law": 65
  },
  "name_prefix": {
   "harbor": 307,
-  "obi": 687
+  "obi": 690
  },
  "connector_services": {
   "google-drive-gym": 179,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131795
+  "new_archives_read": 3,
+  "approx_bytes_read": 394626
  },
  "errors": [],
  "tasks": [
@@ -2789,6 +2789,20 @@
    "sha256": "87df1dbaa64beba88019e77fc8b3fe1d753ba4c1da573e4a5b195e04bcfc6fc4",
    "size_bytes": 6492422,
    "updated": "2026-09-06T17:27:10.691Z"
+  },
+  {
+   "declared_name": "obi/code-c469-desktop-file-dedup-categorization-audit",
+   "declared_short": "code-c469-desktop-file-dedup-categorization-audit",
+   "folder": "code-c469-desktop-file-dedup-categorization-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "8a6823c39a7598538ddf0fa22cba400c7e85d63915a9a30ae9cd8d55f9d821c9",
+   "size_bytes": 17444735,
+   "updated": "2026-09-21T18:03:29.309Z"
   },
   {
    "connector_provenance": null,
@@ -7865,6 +7879,20 @@
    "updated": "2026-09-09T09:17:52.352Z"
   },
   {
+   "declared_name": "obi/gen-g486-drum-trigger-calibration-audit",
+   "declared_short": "gen-g486-drum-trigger-calibration-audit",
+   "folder": "gen-g486-drum-trigger-calibration-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "e01a5f4b68d9ee5cd1b2bbc5b25d84f2acb034305fa621de90906dfcfe03c9f0",
+   "size_bytes": 13745005,
+   "updated": "2026-09-21T18:03:28.953Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g486-drum-trigger-calibration-audit",
@@ -9027,15 +9055,15 @@
    "updated": "2026-09-21T16:08:28.036Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g875-fhir-mapping-conformance-audit",
    "declared_short": "gen-g875-fhir-mapping-conformance-audit",
-   "folder": "gen-g875-fhir-mapping-conformance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g875-fhir-mapping-conformance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d408dd580a23a4d2ff52fb126a1ac46a21f37df478e0a8c841b896c7c005cba9",
    "size_bytes": 9966391,
    "updated": "2026-09-21T17:56:03.404Z"
@@ -10575,6 +10603,20 @@
    "sha256": "a6ca401a3b7c6f22d633b4f667840cc82c21ce02f18ff209dda623a16751f072",
    "size_bytes": 6927368,
    "updated": "2026-09-21T16:06:23.332Z"
+  },
+  {
+   "declared_name": "obi/health-b43-h2-nursing-evidence-appraisal-ratings",
+   "declared_short": "health-b43-h2-nursing-evidence-appraisal-ratings",
+   "folder": "health-b43-h2-nursing-evidence-appraisal-ratings-v8",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "f0acd7a02ea189274d60ec7434512d06e84936ab54b9c51539506c114a9f3b75",
+   "size_bytes": 7496513,
+   "updated": "2026-09-21T18:00:27.200Z"
   },
   {
    "connector_provenance": null,
