@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T21:20:03+00:00",
+ "generated_at": "2026-09-21T21:25:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1022,
-  "scanned": 1022,
+  "task_folders": 1023,
+  "scanned": 1023,
   "connector": 312,
-  "non_connector": 710,
+  "non_connector": 711,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 363,
   "code": 195,
   "fin": 79,
-  "gen": 244,
+  "gen": 245,
   "health": 73,
   "law": 68
  },
  "name_prefix": {
   "harbor": 314,
-  "obi": 708
+  "obi": 709
  },
  "connector_services": {
   "google-drive-gym": 181,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 132641
+  "approx_bytes_read": 134396
  },
  "errors": [],
  "tasks": [
@@ -6355,17 +6355,17 @@
    "updated": "2026-09-07T21:27:11.347Z"
   },
   {
-   "declared_name": "harbor/four-called-duplicates-one-recorded",
-   "declared_short": "four-called-duplicates-one-recorded",
-   "folder": "four-called-duplicates-one-recorded",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/four-called-duplicates-one-recorded",
+   "declared_short": "four-called-duplicates-one-recorded",
    "domain": null,
+   "folder": "four-called-duplicates-one-recorded",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "adfc7ddf2fdb315523d3cf11e4e0c244de14c955f397e97889ac2dd031920035",
    "size_bytes": 7083236,
    "updated": "2026-09-21T21:15:32.246Z"
@@ -6425,6 +6425,20 @@
    "sha256": "897717dbfeed837bb82e626d73eaae1bc05e574b056828c81f5e800387fd8018",
    "size_bytes": 4768878,
    "updated": "2026-09-11T09:14:13.431Z"
+  },
+  {
+   "declared_name": "obi/gen-cold-chain-delivery-run-plan",
+   "declared_short": "gen-cold-chain-delivery-run-plan",
+   "folder": "gen-cold-chain-delivery-run-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "b545c339d99f6477b7e0e3ca0531dfb21e5cdc98d0025edf9f46fc9d6a973a8c",
+   "size_bytes": 9434555,
+   "updated": "2026-09-21T21:24:44.074Z"
   },
   {
    "connector_provenance": null,
