@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T05:55:03+00:00",
+ "generated_at": "2026-09-21T06:00:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 931,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262972
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -7745,15 +7745,15 @@
    "updated": "2026-09-09T22:41:41.863Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g594-hotel-channel-syndication-sync-audit",
    "declared_short": "gen-g594-hotel-channel-syndication-sync-audit",
-   "folder": "gen-g594-hotel-channel-syndication-sync-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g594-hotel-channel-syndication-sync-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "df04bbf2809466d99863f1cfc37f323ea86c2e8c47de2be317cc3c2377da8288",
    "size_bytes": 11903052,
    "updated": "2026-09-21T05:53:16.095Z"
@@ -8865,15 +8865,15 @@
    "updated": "2026-09-09T20:41:44.739Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g970-festival-collateral-signage-permit-audit",
    "declared_short": "gen-g970-festival-collateral-signage-permit-audit",
-   "folder": "gen-g970-festival-collateral-signage-permit-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g970-festival-collateral-signage-permit-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9a6357022442d066619aaefabec530f151a407e23a60da63888f1594ce3b7e83",
    "size_bytes": 10073015,
    "updated": "2026-09-21T05:50:29.031Z"
