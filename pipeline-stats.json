@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T06:15:03+00:00",
+ "generated_at": "2026-09-21T06:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 933,
-  "scanned": 933,
+  "task_folders": 934,
+  "scanned": 934,
   "connector": 288,
-  "non_connector": 645,
+  "non_connector": 646,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 327,
   "code": 187,
   "fin": 72,
-  "gen": 228,
+  "gen": 229,
   "health": 64,
   "law": 55
  },
  "name_prefix": {
   "harbor": 291,
-  "obi": 642
+  "obi": 643
  },
  "connector_services": {
   "google-drive-gym": 172,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133373
+  "approx_bytes_read": 131486
  },
  "errors": [],
  "tasks": [
@@ -6091,6 +6091,20 @@
    "sha256": "47c2ac46b07d49d948893879a8d47eef689de35bbef86955d1e5970e5f77f4d3",
    "size_bytes": 3601735,
    "updated": "2026-09-05T22:40:16.675Z"
+  },
+  {
+   "declared_name": "obi/gen-g1114-certification-domain-score-audit",
+   "declared_short": "gen-g1114-certification-domain-score-audit",
+   "folder": "gen-g1114-certification-domain-score-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "f5932037246194ef75469d0214ee788860c121087c7c199ac1f229a94aba5182",
+   "size_bytes": 7003252,
+   "updated": "2026-09-21T06:19:04.686Z"
   },
   {
    "connector_provenance": null,
@@ -13156,11 +13170,7 @@
    "updated": "2026-09-19T01:14:19.925Z"
   },
   {
-   "declared_name": "harbor/verify-mobile-check-deposit-eligibility-for-14k-check-on-member-accoun",
-   "declared_short": "verify-mobile-check-deposit-eligibility-for-14k-check-on-member-accoun",
-   "folder": "task_verify_mobile_check_deposit_eligibility-v11",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -13170,9 +13180,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/verify-mobile-check-deposit-eligibility-for-14k-check-on-member-accoun",
+   "declared_short": "verify-mobile-check-deposit-eligibility-for-14k-check-on-member-accoun",
    "domain": null,
+   "folder": "task_verify_mobile_check_deposit_eligibility-v11",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "bf940318c7d6ef191011658f98bbffb9858dd9189f2392137fe7f4d603ab103b",
    "size_bytes": 13522835,
    "updated": "2026-09-21T06:13:38.178Z"
