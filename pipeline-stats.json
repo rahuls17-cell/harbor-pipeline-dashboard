@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T13:10:02+00:00",
+ "generated_at": "2026-09-21T13:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 940,
-  "scanned": 940,
+  "task_folders": 942,
+  "scanned": 942,
   "connector": 290,
-  "non_connector": 650,
+  "non_connector": 652,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 76
  },
  "domain": {
-  "unnamed": 329,
+  "unnamed": 330,
   "code": 188,
   "fin": 72,
-  "gen": 229,
+  "gen": 230,
   "health": 66,
   "law": 56
  },
  "name_prefix": {
   "harbor": 293,
-  "obi": 647
+  "obi": 649
  },
  "connector_services": {
   "google-drive-gym": 172,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263362
  },
  "errors": [],
  "tasks": [
@@ -8249,6 +8249,20 @@
    "updated": "2026-09-05T23:10:37.922Z"
   },
   {
+   "declared_name": "obi/gen-g748-sop-numbering-scheme-audit",
+   "declared_short": "gen-g748-sop-numbering-scheme-audit",
+   "folder": "gen-g748-sop-numbering-scheme-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "f398ab5e6d4cadaac69c88cca99fc89b3fb7c990b6a619128feda4c48a551ce7",
+   "size_bytes": 6782946,
+   "updated": "2026-09-21T13:12:54.223Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g749-grant-report-revision-confirmation-audit",
@@ -13618,6 +13632,20 @@
    "sha256": "1aea84c212a2e0c80d40bacc28077d4165071bf8bab853e4c84fa61499e4949b",
    "size_bytes": 6682220,
    "updated": "2026-09-20T21:20:02.621Z"
+  },
+  {
+   "declared_name": "obi/tech-mg-it-b5-a2-attendance-missed-session-count",
+   "declared_short": "tech-mg-it-b5-a2-attendance-missed-session-count",
+   "folder": "tech-mg-it-b5-a2-attendance-missed-session-count",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "abcdcd89453d50e756af0cde30ab0724c16ecfbbb5d5399f8ff19a5256dbeb27",
+   "size_bytes": 7070908,
+   "updated": "2026-09-21T13:10:39.540Z"
   },
   {
    "connector_provenance": null,
