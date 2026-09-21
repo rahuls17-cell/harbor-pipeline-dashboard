@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-09-21T16:15:03+00:00",
+ "generated_at": "2026-09-21T16:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 980,
-  "scanned": 980,
-  "connector": 300,
-  "non_connector": 680,
+  "task_folders": 983,
+  "scanned": 983,
+  "connector": 301,
+  "non_connector": 682,
   "errors": 0
  },
  "connector_provenance": {
   "real": 114,
-  "unknown": 105,
+  "unknown": 106,
   "synthetic": 81
  },
  "domain": {
-  "unnamed": 342,
-  "code": 192,
+  "unnamed": 343,
+  "code": 193,
   "fin": 77,
-  "gen": 238,
+  "gen": 239,
   "health": 69,
   "law": 62
  },
  "name_prefix": {
-  "harbor": 302,
-  "obi": 678
+  "harbor": 303,
+  "obi": 680
  },
  "connector_services": {
-  "google-drive-gym": 176,
-  "zeta3-sql-gym": 166,
-  "confluence-gym": 161,
-  "jira-gym": 160,
-  "email-gym": 159,
-  "freshdesk-gym": 159,
-  "slack-gym": 132,
+  "google-drive-gym": 177,
+  "zeta3-sql-gym": 167,
+  "confluence-gym": 162,
+  "jira-gym": 161,
+  "email-gym": 160,
+  "freshdesk-gym": 160,
+  "slack-gym": 133,
   "slack": 58,
   "notion-gym": 28,
   "email-calendar-gym": 14,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 3,
-  "approx_bytes_read": 403437
+  "approx_bytes_read": 398397
  },
  "errors": [],
  "tasks": [
@@ -3091,6 +3091,20 @@
    "updated": "2026-09-10T18:24:53.470Z"
   },
   {
+   "declared_name": "obi/code-c524-pressure-washer-dealer-network-audit",
+   "declared_short": "code-c524-pressure-washer-dealer-network-audit",
+   "folder": "code-c524-pressure-washer-dealer-network-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "5e9f7cf28a3943a3793563db65f73afc0c2d7f94509e10776f692fea1178c7c9",
+   "size_bytes": 6855284,
+   "updated": "2026-09-21T16:18:51.199Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c525-deploy-promotion-readiness-audit",
@@ -3371,15 +3385,15 @@
    "updated": "2026-09-19T08:05:21.729Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c607-quality-value-screen-recompute",
    "declared_short": "code-c607-quality-value-screen-recompute",
-   "folder": "code-c607-quality-value-screen-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c607-quality-value-screen-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e471d9fedf92053c5216d876936c329abd911c7ec04ef8c3c00aedfddc1c5b72",
    "size_bytes": 9178774,
    "updated": "2026-09-21T16:14:30.307Z"
@@ -4647,6 +4661,28 @@
    "sha256": "81cff1bb558d18295c09b5fce395a3b6e7787250430f67293aacb58f7cd99d5c",
    "size_bytes": 7370145,
    "updated": "2026-09-09T20:35:56.961Z"
+  },
+  {
+   "declared_name": "harbor/diagnose-rejected-mobile-check-deposit-for-52-15-on-account-1096",
+   "declared_short": "diagnose-rejected-mobile-check-deposit-for-52-15-on-account-1096",
+   "folder": "diagnose-rejected-mobile-check-deposit-for-52-15-on-account-1096",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "8f3cb651d22305fb7984346c74ebf6e9912b25ec464026994aa8eff339de8332",
+   "size_bytes": 8614837,
+   "updated": "2026-09-21T16:16:22.787Z"
   },
   {
    "connector_provenance": "real",
@@ -7279,6 +7315,20 @@
    "sha256": "15eb13b2658547d7a4e5de254c93e29cba758f727fe11ab1f3d52760d170c3e3",
    "size_bytes": 6565625,
    "updated": "2026-09-13T13:16:52.457Z"
+  },
+  {
+   "declared_name": "obi/gen-g288-social-media-calendar-audit",
+   "declared_short": "gen-g288-social-media-calendar-audit",
+   "folder": "gen-g288-social-media-calendar-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "1cf0843dfdcb6f770670db4e3b57996e5847dee3508a721c9e74ec64d2bbea92",
+   "size_bytes": 6424208,
+   "updated": "2026-09-21T16:17:42.251Z"
   },
   {
    "connector_provenance": null,
@@ -12693,15 +12743,15 @@
    "updated": "2026-09-10T18:04:19.311Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b37-l15-petition-status-from-order-log",
    "declared_short": "law-b37-l15-petition-status-from-order-log",
-   "folder": "petition-task",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "petition-task",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2f14dae2a1181295e8fd1e466cf97f72877929a8963686a5c2d7da94bf3505de",
    "size_bytes": 16435980,
    "updated": "2026-09-21T16:11:03.121Z"
@@ -14362,17 +14412,17 @@
    "updated": "2026-09-20T23:43:54.242Z"
   },
   {
-   "declared_name": "harbor/the-meeting-that-was-never-really-mine",
-   "declared_short": "the-meeting-that-was-never-really-mine",
-   "folder": "the-meeting-that-was-never-really-mine-v2",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-meeting-that-was-never-really-mine",
+   "declared_short": "the-meeting-that-was-never-really-mine",
    "domain": null,
+   "folder": "the-meeting-that-was-never-really-mine-v2",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d9351bc36cf08da0bc8f3dca47f4bde8ab1d606823014daecedadda62a8fc7d4",
    "size_bytes": 8433982,
    "updated": "2026-09-21T16:14:18.798Z"
