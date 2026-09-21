@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T20:50:02+00:00",
+ "generated_at": "2026-09-21T20:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1018,
-  "scanned": 1018,
+  "task_folders": 1020,
+  "scanned": 1020,
   "connector": 311,
-  "non_connector": 707,
+  "non_connector": 709,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 84
  },
  "domain": {
-  "unnamed": 361,
+  "unnamed": 362,
   "code": 195,
-  "fin": 78,
+  "fin": 79,
   "gen": 244,
   "health": 72,
   "law": 68
  },
  "name_prefix": {
   "harbor": 313,
-  "obi": 705
+  "obi": 707
  },
  "connector_services": {
   "google-drive-gym": 181,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263293
  },
  "errors": [],
  "tasks": [
@@ -5625,6 +5625,20 @@
    "sha256": "0a7564867ebf38c5eba62e21a20a1e4afafe4b716e267d8d5f2f13ff49333afc",
    "size_bytes": 7950943,
    "updated": "2026-09-21T01:36:32.796Z"
+  },
+  {
+   "declared_name": "obi/fin-b44-a8-blueprint-claim-schedule-review",
+   "declared_short": "fin-b44-a8-blueprint-claim-schedule-review",
+   "folder": "fin-b44-a8-blueprint-claim-schedule-review",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "3db56a506b82a0b71ef0d9b86b1c16d1ace0d8465538810448e7a3b7bb5c9c98",
+   "size_bytes": 6258772,
+   "updated": "2026-09-21T20:53:12.536Z"
   },
   {
    "connector_provenance": null,
@@ -14666,6 +14680,20 @@
    "sha256": "a9ba51c0e457a8d6b4a5284dbc89ef1dc586f268b099bbbb1e74450fc757702a",
    "size_bytes": 6610173,
    "updated": "2026-09-21T20:06:34.549Z"
+  },
+  {
+   "declared_name": "obi/tech-mg-it-b6-a8-underfloor-area-far-response",
+   "declared_short": "tech-mg-it-b6-a8-underfloor-area-far-response",
+   "folder": "tech-mg-it-b6-a8-underfloor-area-far-response",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1cf2786a41d6a1eab35c5d579c18ee3b8d08971fca4a2fb0a6fe0b6db3c75379",
+   "size_bytes": 6591408,
+   "updated": "2026-09-21T20:50:30.272Z"
   },
   {
    "connector_provenance": "unknown",
