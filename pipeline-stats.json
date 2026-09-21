@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T17:10:03+00:00",
+ "generated_at": "2026-09-21T17:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 988,
-  "scanned": 988,
+  "task_folders": 989,
+  "scanned": 989,
   "connector": 303,
-  "non_connector": 685,
+  "non_connector": 686,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 77,
   "gen": 240,
   "health": 69,
-  "law": 62
+  "law": 63
  },
  "name_prefix": {
   "harbor": 305,
-  "obi": 683
+  "obi": 684
  },
  "connector_services": {
   "google-drive-gym": 178,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131450
  },
  "errors": [],
  "tasks": [
@@ -11963,6 +11963,20 @@
    "sha256": "93c3a6ebc113d79c1d644d93b855794fe6488838dfe5c3f8e6060dd2b02ea10c",
    "size_bytes": 5162385,
    "updated": "2026-09-18T13:56:25.338Z"
+  },
+  {
+   "declared_name": "obi/law-b39-l5-tasting-programme-checklist-audit",
+   "declared_short": "law-b39-l5-tasting-programme-checklist-audit",
+   "folder": "law-b39-l5-tasting-programme-checklist-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "7dd23d20a915a0d908ac860da8c71aac1947f0035c35585c7a9bf7e32f0cdc9e",
+   "size_bytes": 5261535,
+   "updated": "2026-09-21T17:11:53.870Z"
   },
   {
    "connector_provenance": null,
