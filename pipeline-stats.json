@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T16:35:03+00:00",
+ "generated_at": "2026-09-21T16:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 983,
-  "scanned": 983,
+  "task_folders": 984,
+  "scanned": 984,
   "connector": 301,
-  "non_connector": 682,
+  "non_connector": 683,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 343,
   "code": 193,
   "fin": 77,
-  "gen": 239,
+  "gen": 240,
   "health": 69,
   "law": 62
  },
  "name_prefix": {
   "harbor": 303,
-  "obi": 680
+  "obi": 681
  },
  "connector_services": {
   "google-drive-gym": 177,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131426
  },
  "errors": [],
  "tasks": [
@@ -8799,6 +8799,20 @@
    "sha256": "165be425142f304023fe738788061a544c624009b5edc038ed5e68ca1192086c",
    "size_bytes": 7954390,
    "updated": "2026-09-20T12:36:31.183Z"
+  },
+  {
+   "declared_name": "obi/gen-g815-door-advertising-service-fee-audit",
+   "declared_short": "gen-g815-door-advertising-service-fee-audit",
+   "folder": "gen-g815-door-advertising-service-fee-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "948698e2e60e463645a249d44f650f1c608527c25ae30b3b9a89208fc9f99fa1",
+   "size_bytes": 9243980,
+   "updated": "2026-09-21T16:39:11.832Z"
   },
   {
    "connector_provenance": null,
