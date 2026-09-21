@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T17:20:03+00:00",
+ "generated_at": "2026-09-21T17:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 990,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137839
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -14730,17 +14730,17 @@
    "updated": "2026-09-21T15:54:33.600Z"
   },
   {
-   "declared_name": "harbor/the-train-that-counts-the-same-ticket-twice",
-   "declared_short": "the-train-that-counts-the-same-ticket-twice",
-   "folder": "the-train-that-counts-the-same-ticket-twice",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-train-that-counts-the-same-ticket-twice",
+   "declared_short": "the-train-that-counts-the-same-ticket-twice",
    "domain": null,
+   "folder": "the-train-that-counts-the-same-ticket-twice",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1f4a495f4cee18b705996fe2fea51cc920cb1746187c034acf0e894c5e985682",
    "size_bytes": 7557846,
    "updated": "2026-09-21T17:16:11.101Z"
