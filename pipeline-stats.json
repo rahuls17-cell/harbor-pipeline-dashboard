@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T18:10:02+00:00",
+ "generated_at": "2026-09-21T18:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 997,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131549
  },
  "errors": [],
  "tasks": [
@@ -2469,18 +2469,18 @@
    "updated": "2026-09-20T10:55:39.282Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/code-c395-cis-subcontractor-deduction-audit",
    "declared_short": "code-c395-cis-subcontractor-deduction-audit",
-   "domain": "code",
    "folder": "code-c395-cis-subcontractor-deduction-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "ff72ce0d328e87dd7438f1793a8d722f6dfb0d868e75bc2b7cef4ad908c8d924",
-   "size_bytes": 6325985,
-   "updated": "2026-09-06T19:48:53.072Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "cc9796b182b89dec152eb9d40475c8d7d86fd574dcce4f33716eb4a4b06b5944",
+   "size_bytes": 7628140,
+   "updated": "2026-09-21T18:10:24.446Z"
   },
   {
    "connector_provenance": null,
