@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T22:10:03+00:00",
+ "generated_at": "2026-09-21T22:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1026,
-  "scanned": 1026,
+  "task_folders": 1027,
+  "scanned": 1027,
   "connector": 313,
-  "non_connector": 713,
+  "non_connector": 714,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 364,
-  "code": 196,
+  "code": 197,
   "fin": 79,
   "gen": 246,
   "health": 73,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 315,
-  "obi": 711
+  "obi": 712
  },
  "connector_services": {
   "google-drive-gym": 181,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 139604
+  "approx_bytes_read": 131625
  },
  "errors": [],
  "tasks": [
@@ -1657,6 +1657,20 @@
    "sha256": "2e3a678c85ca93f587262857c1e38adb3d278a9aaab63dc93b9873eff91df59d",
    "size_bytes": 7214296,
    "updated": "2026-09-20T21:08:00.158Z"
+  },
+  {
+   "declared_name": "obi/code-c19-record-dedupe-merge",
+   "declared_short": "code-c19-record-dedupe-merge",
+   "folder": "code-c19-record-dedupe-merge",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "a25a0aa4c182b4c5027a5eaeaa0e3086b9ba033e8da5ef558928485215e125f3",
+   "size_bytes": 11735239,
+   "updated": "2026-09-21T22:10:26.269Z"
   },
   {
    "connector_provenance": null,
@@ -11757,17 +11771,17 @@
    "updated": "2026-09-05T21:04:18.791Z"
   },
   {
-   "declared_name": "harbor/how-much-was-actually-said",
-   "declared_short": "how-much-was-actually-said",
-   "folder": "how-much-was-actually-said-final",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/how-much-was-actually-said",
+   "declared_short": "how-much-was-actually-said",
    "domain": null,
+   "folder": "how-much-was-actually-said-final",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c30e8038284c1cafbafcbb9d07eec96da4f4647a954ef6980072fdfe135b3b53",
    "size_bytes": 7996633,
    "updated": "2026-09-21T22:06:09.544Z"
