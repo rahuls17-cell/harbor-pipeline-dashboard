@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-21T17:15:02+00:00",
+ "generated_at": "2026-09-21T17:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 989,
-  "scanned": 989,
-  "connector": 303,
+  "task_folders": 990,
+  "scanned": 990,
+  "connector": 304,
   "non_connector": 686,
   "errors": 0
  },
  "connector_provenance": {
   "real": 115,
   "unknown": 106,
-  "synthetic": 82
+  "synthetic": 83
  },
  "domain": {
-  "unnamed": 346,
+  "unnamed": 347,
   "code": 194,
   "fin": 77,
   "gen": 240,
@@ -22,7 +22,7 @@
   "law": 63
  },
  "name_prefix": {
-  "harbor": 305,
+  "harbor": 306,
   "obi": 684
  },
  "connector_services": {
@@ -36,7 +36,7 @@
   "slack": 59,
   "notion-gym": 28,
   "email-calendar-gym": 14,
-  "linear-gym": 11,
+  "linear-gym": 12,
   "github-gym": 11,
   "outlook-gym": 10,
   "gws-gym": 7,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131450
+  "approx_bytes_read": 137839
  },
  "errors": [],
  "tasks": [
@@ -11965,15 +11965,15 @@
    "updated": "2026-09-18T13:56:25.338Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b39-l5-tasting-programme-checklist-audit",
    "declared_short": "law-b39-l5-tasting-programme-checklist-audit",
-   "folder": "law-b39-l5-tasting-programme-checklist-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b39-l5-tasting-programme-checklist-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7dd23d20a915a0d908ac860da8c71aac1947f0035c35585c7a9bf7e32f0cdc9e",
    "size_bytes": 5261535,
    "updated": "2026-09-21T17:11:53.870Z"
@@ -14728,6 +14728,22 @@
    "sha256": "2cf74410be5e28545bc5b2bfc321eaa1b97a59a3da99eea84e4c2b6809ac8749",
    "size_bytes": 8997100,
    "updated": "2026-09-21T15:54:33.600Z"
+  },
+  {
+   "declared_name": "harbor/the-train-that-counts-the-same-ticket-twice",
+   "declared_short": "the-train-that-counts-the-same-ticket-twice",
+   "folder": "the-train-that-counts-the-same-ticket-twice",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "1f4a495f4cee18b705996fe2fea51cc920cb1746187c034acf0e894c5e985682",
+   "size_bytes": 7557846,
+   "updated": "2026-09-21T17:16:11.101Z"
   },
   {
    "connector_provenance": "synthetic",
