@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T15:10:02+00:00",
+ "generated_at": "2026-09-21T15:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 951,
-  "scanned": 951,
+  "task_folders": 952,
+  "scanned": 952,
   "connector": 292,
-  "non_connector": 659,
+  "non_connector": 660,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 189,
   "fin": 72,
   "gen": 232,
-  "health": 67,
+  "health": 68,
   "law": 58
  },
  "name_prefix": {
   "harbor": 295,
-  "obi": 656
+  "obi": 657
  },
  "connector_services": {
   "google-drive-gym": 174,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131450
  },
  "errors": [],
  "tasks": [
@@ -11057,6 +11057,20 @@
    "sha256": "1ad9f6c38c181c8e6213b5709a23e3a596b37bdb7c25bbeb077106428bb6e069",
    "size_bytes": 7530687,
    "updated": "2026-09-20T11:12:27.962Z"
+  },
+  {
+   "declared_name": "obi/health-tdt7-a9-family-history-referral-degree-register",
+   "declared_short": "health-tdt7-a9-family-history-referral-degree-register",
+   "folder": "health-tdt7-a9-family-history-referral-degree-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "9f09a1e8313641d150dff0db2bb59edd421d9d0b5f5349cf2d18061594865bdf",
+   "size_bytes": 7015657,
+   "updated": "2026-09-21T15:35:13.926Z"
   },
   {
    "connector_provenance": "synthetic",
