@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T05:05:03+00:00",
+ "generated_at": "2026-09-21T05:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 929,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131524
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3405,15 +3405,15 @@
    "updated": "2026-09-07T15:30:42.045Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c650-booking-app-bug-remediation-audit",
    "declared_short": "code-c650-booking-app-bug-remediation-audit",
-   "folder": "code-c650-booking-app-bug-remediation-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c650-booking-app-bug-remediation-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0f7995f08bb4ac57fa57d060c0893ed72e9f801dc186257ba86ea18184b8d3f0",
    "size_bytes": 8856509,
    "updated": "2026-09-21T05:03:12.386Z"
