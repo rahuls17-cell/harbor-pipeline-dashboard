@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T06:00:02+00:00",
+ "generated_at": "2026-09-21T06:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 931,
-  "scanned": 931,
+  "task_folders": 932,
+  "scanned": 932,
   "connector": 287,
-  "non_connector": 644,
+  "non_connector": 645,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 326,
   "code": 187,
-  "fin": 71,
+  "fin": 72,
   "gen": 228,
   "health": 64,
   "law": 55
  },
  "name_prefix": {
   "harbor": 290,
-  "obi": 641
+  "obi": 642
  },
  "connector_services": {
   "google-drive-gym": 171,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131497
  },
  "errors": [],
  "tasks": [
@@ -5937,6 +5937,20 @@
    "sha256": "5da3b20dcb1f334c077c60f3e2936dc3bb5908a9ef3d012133a3ff8c07be0590",
    "size_bytes": 13978425,
    "updated": "2026-09-18T07:57:08.811Z"
+  },
+  {
+   "declared_name": "obi/fin-f62-medical-income-gst-classification-audit",
+   "declared_short": "fin-f62-medical-income-gst-classification-audit",
+   "folder": "fin-f62-medical-income-gst-classification-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "42b10d12911ca5c1eafb3c0ae1a35100a46d849e6eb60ca3d03058aa0fef2945",
+   "size_bytes": 10252716,
+   "updated": "2026-09-21T06:07:45.632Z"
   },
   {
    "connector_provenance": null,
