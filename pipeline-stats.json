@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T17:55:03+00:00",
+ "generated_at": "2026-09-21T18:00:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 993,
-  "scanned": 993,
+  "task_folders": 994,
+  "scanned": 994,
   "connector": 305,
-  "non_connector": 688,
+  "non_connector": 689,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 348,
   "code": 194,
   "fin": 77,
-  "gen": 240,
+  "gen": 241,
   "health": 69,
   "law": 65
  },
  "name_prefix": {
   "harbor": 307,
-  "obi": 686
+  "obi": 687
  },
  "connector_services": {
   "google-drive-gym": 179,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133364
+  "approx_bytes_read": 131795
  },
  "errors": [],
  "tasks": [
@@ -445,11 +445,7 @@
    "updated": "2026-09-10T14:37:38.747Z"
   },
   {
-   "declared_name": "harbor/atm-200-withdrawal-declined-on-card-50732-customer-disputes-pin-entry",
-   "declared_short": "atm-200-withdrawal-declined-on-card-50732-customer-disputes-pin-entry",
-   "folder": "atm-200-withdrawal-declined-on-card-50732-customer-disputes-pin-entry",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -459,9 +455,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/atm-200-withdrawal-declined-on-card-50732-customer-disputes-pin-entry",
+   "declared_short": "atm-200-withdrawal-declined-on-card-50732-customer-disputes-pin-entry",
    "domain": null,
+   "folder": "atm-200-withdrawal-declined-on-card-50732-customer-disputes-pin-entry",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f39de5db02128a2606e554a84a36c66adcdb2eb1c6f22b3761bb8d81acf19f03",
    "size_bytes": 9065268,
    "updated": "2026-09-21T17:52:25.933Z"
@@ -9025,6 +9025,20 @@
    "sha256": "4176056a252e2ded0fa9906d8915bfe9918efe83ce0938205d3273e1d008427b",
    "size_bytes": 7116172,
    "updated": "2026-09-21T16:08:28.036Z"
+  },
+  {
+   "declared_name": "obi/gen-g875-fhir-mapping-conformance-audit",
+   "declared_short": "gen-g875-fhir-mapping-conformance-audit",
+   "folder": "gen-g875-fhir-mapping-conformance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "d408dd580a23a4d2ff52fb126a1ac46a21f37df478e0a8c841b896c7c005cba9",
+   "size_bytes": 9966391,
+   "updated": "2026-09-21T17:56:03.404Z"
   },
   {
    "connector_provenance": null,
