@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-21T06:10:03+00:00",
+ "generated_at": "2026-09-21T06:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 932,
-  "scanned": 932,
-  "connector": 287,
+  "task_folders": 933,
+  "scanned": 933,
+  "connector": 288,
   "non_connector": 645,
   "errors": 0
  },
  "connector_provenance": {
   "real": 109,
-  "unknown": 103,
+  "unknown": 104,
   "synthetic": 75
  },
  "domain": {
-  "unnamed": 326,
+  "unnamed": 327,
   "code": 187,
   "fin": 72,
   "gen": 228,
@@ -22,17 +22,17 @@
   "law": 55
  },
  "name_prefix": {
-  "harbor": 290,
+  "harbor": 291,
   "obi": 642
  },
  "connector_services": {
-  "google-drive-gym": 171,
-  "zeta3-sql-gym": 161,
-  "confluence-gym": 156,
-  "jira-gym": 155,
-  "email-gym": 154,
-  "freshdesk-gym": 154,
-  "slack-gym": 128,
+  "google-drive-gym": 172,
+  "zeta3-sql-gym": 162,
+  "confluence-gym": 157,
+  "jira-gym": 156,
+  "email-gym": 155,
+  "freshdesk-gym": 155,
+  "slack-gym": 129,
   "slack": 54,
   "notion-gym": 26,
   "email-calendar-gym": 13,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131497
+  "approx_bytes_read": 133373
  },
  "errors": [],
  "tasks": [
@@ -5939,15 +5939,15 @@
    "updated": "2026-09-18T07:57:08.811Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-f62-medical-income-gst-classification-audit",
    "declared_short": "fin-f62-medical-income-gst-classification-audit",
-   "folder": "fin-f62-medical-income-gst-classification-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-f62-medical-income-gst-classification-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "42b10d12911ca5c1eafb3c0ae1a35100a46d849e6eb60ca3d03058aa0fef2945",
    "size_bytes": 10252716,
    "updated": "2026-09-21T06:07:45.632Z"
@@ -13154,6 +13154,28 @@
    "sha256": "7f7a1539d4210db6fe21f0c87db53458b835ca70b57ef4dba31c55a392f96abc",
    "size_bytes": 7264043,
    "updated": "2026-09-19T01:14:19.925Z"
+  },
+  {
+   "declared_name": "harbor/verify-mobile-check-deposit-eligibility-for-14k-check-on-member-accoun",
+   "declared_short": "verify-mobile-check-deposit-eligibility-for-14k-check-on-member-accoun",
+   "folder": "task_verify_mobile_check_deposit_eligibility-v11",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "bf940318c7d6ef191011658f98bbffb9858dd9189f2392137fe7f4d603ab103b",
+   "size_bytes": 13522835,
+   "updated": "2026-09-21T06:13:38.178Z"
   },
   {
    "connector_provenance": "real",
