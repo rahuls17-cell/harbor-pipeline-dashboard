@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T01:35:02+00:00",
+ "generated_at": "2026-09-21T01:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 921,
-  "scanned": 921,
+  "task_folders": 923,
+  "scanned": 923,
   "connector": 285,
-  "non_connector": 636,
+  "non_connector": 638,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 75
  },
  "domain": {
-  "unnamed": 323,
+  "unnamed": 324,
   "code": 186,
-  "fin": 70,
+  "fin": 71,
   "gen": 225,
   "health": 64,
   "law": 53
  },
  "name_prefix": {
   "harbor": 288,
-  "obi": 633
+  "obi": 635
  },
  "connector_services": {
   "google-drive-gym": 170,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131444
+  "new_archives_read": 2,
+  "approx_bytes_read": 263040
  },
  "errors": [],
  "tasks": [
@@ -5313,6 +5313,20 @@
    "sha256": "bae920d9a325826acc6d3e622e5c30b5dbfe2fcba3a1b1fb660dfb4a47b95a63",
    "size_bytes": 6030954,
    "updated": "2026-09-20T16:26:32.769Z"
+  },
+  {
+   "declared_name": "obi/fin-b44-a7-net-worth-bucket-canonicalisation",
+   "declared_short": "fin-b44-a7-net-worth-bucket-canonicalisation",
+   "folder": "fin-b44-a7-net-worth-bucket-canonicalisation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "0a7564867ebf38c5eba62e21a20a1e4afafe4b716e267d8d5f2f13ff49333afc",
+   "size_bytes": 7950943,
+   "updated": "2026-09-21T01:36:32.796Z"
   },
   {
    "connector_provenance": null,
@@ -13292,15 +13306,15 @@
    "updated": "2026-09-19T09:18:01.299Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b60-t4-pwm-solar-controller-charge-fault-timeline",
    "declared_short": "tech-b60-t4-pwm-solar-controller-charge-fault-timeline",
-   "folder": "tech-b60-t4-pwm-solar-controller-charge-fault-timeline",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b60-t4-pwm-solar-controller-charge-fault-timeline",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5888c7e74b9689f3a9975f634bd4ea2305e6daa6577e1aa3028a804dd6765cbe",
    "size_bytes": 7000808,
    "updated": "2026-09-21T01:30:40.637Z"
@@ -13332,6 +13346,20 @@
    "sha256": "472c40633578a6d6b2137be083b44ce7845eef119ef21c65ed861e64e0957a56",
    "size_bytes": 5165586,
    "updated": "2026-09-19T05:52:19.841Z"
+  },
+  {
+   "declared_name": "obi/tech-b60-t8-rcs-provider-selection-unit-economics",
+   "declared_short": "tech-b60-t8-rcs-provider-selection-unit-economics",
+   "folder": "tech-b60-t8-rcs-provider-selection-unit-economics",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "626ae44d4f5faa7ac300770d4f07a231809dda45fa427d3a62c89b2709799bd2",
+   "size_bytes": 6539505,
+   "updated": "2026-09-21T01:35:49.055Z"
   },
   {
    "connector_provenance": null,
