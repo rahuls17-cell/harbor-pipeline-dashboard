@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T17:35:03+00:00",
+ "generated_at": "2026-09-21T17:40:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 991,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131756
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -12133,15 +12133,15 @@
    "updated": "2026-09-18T22:20:51.629Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b44-l10-credit-dispute-reinvestigation-adjudication",
    "declared_short": "law-b44-l10-credit-dispute-reinvestigation-adjudication",
-   "folder": "law-b44-l10-credit-dispute-reinvestigation-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b44-l10-credit-dispute-reinvestigation-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "87e5f74ce5265dd32a0ff097d63c49d9145cb0348cb80b4c9ca1aa020e7720fb",
    "size_bytes": 7107310,
    "updated": "2026-09-21T17:34:07.957Z"
