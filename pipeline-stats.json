@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T15:00:03+00:00",
+ "generated_at": "2026-09-21T15:05:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 949,
-  "scanned": 949,
+  "task_folders": 951,
+  "scanned": 951,
   "connector": 292,
-  "non_connector": 657,
+  "non_connector": 659,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 333,
   "code": 189,
   "fin": 72,
-  "gen": 231,
+  "gen": 232,
   "health": 67,
-  "law": 57
+  "law": 58
  },
  "name_prefix": {
   "harbor": 295,
-  "obi": 654
+  "obi": 656
  },
  "connector_services": {
   "google-drive-gym": 174,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131454
+  "new_archives_read": 2,
+  "approx_bytes_read": 263290
  },
  "errors": [],
  "tasks": [
@@ -8095,15 +8095,15 @@
    "updated": "2026-09-18T15:33:00.653Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g696-retail-center-cotenancy-compliance-audit",
    "declared_short": "gen-g696-retail-center-cotenancy-compliance-audit",
-   "folder": "gen-g696-retail-center-cotenancy-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g696-retail-center-cotenancy-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "20ac23662df4d27414a508e07e22a87ce85a30e49391692b49e24adf6c550bf3",
    "size_bytes": 7224112,
    "updated": "2026-09-21T14:56:13.664Z"
@@ -8835,6 +8835,20 @@
    "sha256": "c3270624ae675200c3a0d9f482a406d97372fea466312aa8480ab60deb33a009",
    "size_bytes": 7891872,
    "updated": "2026-09-20T20:46:27.293Z"
+  },
+  {
+   "declared_name": "obi/gen-g938-family-portrait-apparel-print-qa-audit",
+   "declared_short": "gen-g938-family-portrait-apparel-print-qa-audit",
+   "folder": "gen-g938-family-portrait-apparel-print-qa-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "2d9e9d6d0278f7812d2d9bf4aeeabd39fb3960b2b92b8d8ac37b9ae0ffce4b27",
+   "size_bytes": 8375344,
+   "updated": "2026-09-21T15:00:29.390Z"
   },
   {
    "connector_provenance": null,
@@ -11725,6 +11739,20 @@
    "sha256": "c2a11f3227734ffc4bc704fc1945f1b4d5b7887bb2f85356edd0d0edeeb88ff3",
    "size_bytes": 8638618,
    "updated": "2026-09-21T02:35:15.508Z"
+  },
+  {
+   "declared_name": "obi/law-b45-l8-escrow-disbursement-waterfall-recompute",
+   "declared_short": "law-b45-l8-escrow-disbursement-waterfall-recompute",
+   "folder": "law-b45-l8-escrow-disbursement-waterfall-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "ec95db1385d9e4f82e566a1cba7e02af1aa38481f352fb16ffeaa03e60f54aa8",
+   "size_bytes": 7835145,
+   "updated": "2026-09-21T15:03:03.506Z"
   },
   {
    "connector_provenance": null,
