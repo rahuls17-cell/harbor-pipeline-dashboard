@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T17:40:02+00:00",
+ "generated_at": "2026-09-21T17:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 991,
-  "scanned": 991,
+  "task_folders": 992,
+  "scanned": 992,
   "connector": 304,
-  "non_connector": 687,
+  "non_connector": 688,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 77,
   "gen": 240,
   "health": 69,
-  "law": 64
+  "law": 65
  },
  "name_prefix": {
   "harbor": 306,
-  "obi": 685
+  "obi": 686
  },
  "connector_services": {
   "google-drive-gym": 178,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131452
  },
  "errors": [],
  "tasks": [
@@ -12187,6 +12187,20 @@
    "sha256": "31d535cddf5102b11ab5f0483dc85e66681471c1f7f747c7bd9678d896653eb7",
    "size_bytes": 5936503,
    "updated": "2026-09-21T15:45:36.430Z"
+  },
+  {
+   "declared_name": "obi/law-b45-l5-foreign-owned-llc-hiring-compliance-calendar",
+   "declared_short": "law-b45-l5-foreign-owned-llc-hiring-compliance-calendar",
+   "folder": "law-b45-l5-foreign-owned-llc-hiring-compliance-calendar",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "9cfe1690215ea4fd859af5e138bf12d06d10eb892bc0c86bda54b9d1884ee3a6",
+   "size_bytes": 6391402,
+   "updated": "2026-09-21T17:40:18.408Z"
   },
   {
    "connector_provenance": null,
