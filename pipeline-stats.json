@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-21T22:55:02+00:00",
+ "generated_at": "2026-09-21T23:00:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1028,
-  "scanned": 1028,
-  "connector": 313,
+  "task_folders": 1029,
+  "scanned": 1029,
+  "connector": 314,
   "non_connector": 715,
   "errors": 0
  },
  "connector_provenance": {
   "real": 119,
-  "unknown": 109,
+  "unknown": 110,
   "synthetic": 85
  },
  "domain": {
-  "unnamed": 364,
+  "unnamed": 365,
   "code": 197,
   "fin": 79,
   "gen": 247,
@@ -22,7 +22,7 @@
   "law": 68
  },
  "name_prefix": {
-  "harbor": 315,
+  "harbor": 316,
   "obi": 713
  },
  "connector_services": {
@@ -32,7 +32,7 @@
   "jira-gym": 165,
   "email-gym": 164,
   "freshdesk-gym": 164,
-  "slack-gym": 140,
+  "slack-gym": 141,
   "slack": 60,
   "notion-gym": 28,
   "email-calendar-gym": 14,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131456
+  "approx_bytes_read": 134223
  },
  "errors": [],
  "tasks": [
@@ -199,6 +199,22 @@
    "sha256": "b034233fe05a2e34abe6fba1122676847cf9119116786042f3107da5116d2e60",
    "size_bytes": 12769227,
    "updated": "2026-09-21T19:21:53.755Z"
+  },
+  {
+   "declared_name": "harbor/a-card-for-every-channel",
+   "declared_short": "a-card-for-every-channel",
+   "folder": "a-card-for-every-channel",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "1e9610716d2c838e22073c0c787ef81127439ed3c762d4954ed40c448e9c4511",
+   "size_bytes": 16463218,
+   "updated": "2026-09-21T22:56:23.875Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -9297,15 +9313,15 @@
    "updated": "2026-09-05T18:58:12.824Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g90-spill-report-compliance-audit",
    "declared_short": "gen-g90-spill-report-compliance-audit",
-   "folder": "gen-g90-spill-report-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g90-spill-report-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6b6d874c91f434f7b49054027994a03efe35bf9fe515dd08138eac1df83678d9",
    "size_bytes": 9226481,
    "updated": "2026-09-21T22:51:57.040Z"
