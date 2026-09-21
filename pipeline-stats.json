@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T20:45:03+00:00",
+ "generated_at": "2026-09-21T20:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1018,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 396288
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -6019,15 +6019,15 @@
    "updated": "2026-09-20T19:05:13.467Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b50-f7-german-tax-refund-source-attribution",
    "declared_short": "fin-b50-f7-german-tax-refund-source-attribution",
-   "folder": "fin-b50-f7-german-tax-refund-source-attribution",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b50-f7-german-tax-refund-source-attribution",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d1e4eab07383938be28e2097d066176f1e54cbc6ccd5758a3f1c0b3fdff74678",
    "size_bytes": 7336018,
    "updated": "2026-09-21T20:41:53.967Z"
@@ -14402,15 +14402,15 @@
    "updated": "2026-09-18T05:38:37.159Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b51-t10-registry-scanner-pod-placement-plan",
    "declared_short": "tech-b51-t10-registry-scanner-pod-placement-plan",
-   "folder": "tech-b51-t10-registry-scanner-pod-placement-plan",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b51-t10-registry-scanner-pod-placement-plan",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "354bc3e8cb2b522cd04532193103b32884850d5c136d1e8de95d93caa3262508",
    "size_bytes": 7305281,
    "updated": "2026-09-21T20:43:24.495Z"
@@ -15616,11 +15616,7 @@
    "updated": "2026-09-20T10:30:16.303Z"
   },
   {
-   "declared_name": "harbor/verify-missing-750-check-deposit-claim-for-user-14582",
-   "declared_short": "verify-missing-750-check-deposit-claim-for-user-14582",
-   "folder": "verify-missing-750-check-deposit-claim-for-user-14582",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -15630,9 +15626,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/verify-missing-750-check-deposit-claim-for-user-14582",
+   "declared_short": "verify-missing-750-check-deposit-claim-for-user-14582",
    "domain": null,
+   "folder": "verify-missing-750-check-deposit-claim-for-user-14582",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "940640b7cffe1f46b9e4caa971aba5ada5b7c1bb54e507cf0c0511f98ce02f84",
    "size_bytes": 12898913,
    "updated": "2026-09-21T20:43:53.521Z"
