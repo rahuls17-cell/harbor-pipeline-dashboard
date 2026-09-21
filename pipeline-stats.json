@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T16:20:03+00:00",
+ "generated_at": "2026-09-21T16:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 983,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 398397
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3091,15 +3091,15 @@
    "updated": "2026-09-10T18:24:53.470Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c524-pressure-washer-dealer-network-audit",
    "declared_short": "code-c524-pressure-washer-dealer-network-audit",
-   "folder": "code-c524-pressure-washer-dealer-network-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c524-pressure-washer-dealer-network-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5e9f7cf28a3943a3793563db65f73afc0c2d7f94509e10776f692fea1178c7c9",
    "size_bytes": 6855284,
    "updated": "2026-09-21T16:18:51.199Z"
@@ -4663,11 +4663,7 @@
    "updated": "2026-09-09T20:35:56.961Z"
   },
   {
-   "declared_name": "harbor/diagnose-rejected-mobile-check-deposit-for-52-15-on-account-1096",
-   "declared_short": "diagnose-rejected-mobile-check-deposit-for-52-15-on-account-1096",
-   "folder": "diagnose-rejected-mobile-check-deposit-for-52-15-on-account-1096",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -4677,9 +4673,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/diagnose-rejected-mobile-check-deposit-for-52-15-on-account-1096",
+   "declared_short": "diagnose-rejected-mobile-check-deposit-for-52-15-on-account-1096",
    "domain": null,
+   "folder": "diagnose-rejected-mobile-check-deposit-for-52-15-on-account-1096",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8f3cb651d22305fb7984346c74ebf6e9912b25ec464026994aa8eff339de8332",
    "size_bytes": 8614837,
    "updated": "2026-09-21T16:16:22.787Z"
@@ -7317,15 +7317,15 @@
    "updated": "2026-09-13T13:16:52.457Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g288-social-media-calendar-audit",
    "declared_short": "gen-g288-social-media-calendar-audit",
-   "folder": "gen-g288-social-media-calendar-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g288-social-media-calendar-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1cf0843dfdcb6f770670db4e3b57996e5847dee3508a721c9e74ec64d2bbea92",
    "size_bytes": 6424208,
    "updated": "2026-09-21T16:17:42.251Z"
