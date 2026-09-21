@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T22:30:02+00:00",
+ "generated_at": "2026-09-21T22:55:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1027,
-  "scanned": 1027,
+  "task_folders": 1028,
+  "scanned": 1028,
   "connector": 313,
-  "non_connector": 714,
+  "non_connector": 715,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 364,
   "code": 197,
   "fin": 79,
-  "gen": 246,
+  "gen": 247,
   "health": 73,
   "law": 68
  },
  "name_prefix": {
   "harbor": 315,
-  "obi": 712
+  "obi": 713
  },
  "connector_services": {
   "google-drive-gym": 181,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131456
  },
  "errors": [],
  "tasks": [
@@ -9295,6 +9295,20 @@
    "sha256": "183438ca400aa5e36ec2467600f9a20aad0663d398d769ccb44dcbdf5dcfc93d",
    "size_bytes": 18022988,
    "updated": "2026-09-05T18:58:12.824Z"
+  },
+  {
+   "declared_name": "obi/gen-g90-spill-report-compliance-audit",
+   "declared_short": "gen-g90-spill-report-compliance-audit",
+   "folder": "gen-g90-spill-report-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "6b6d874c91f434f7b49054027994a03efe35bf9fe515dd08138eac1df83678d9",
+   "size_bytes": 9226481,
+   "updated": "2026-09-21T22:51:57.040Z"
   },
   {
    "connector_provenance": null,
