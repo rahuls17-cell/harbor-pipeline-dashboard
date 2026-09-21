@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T00:15:02+00:00",
+ "generated_at": "2026-09-21T00:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 918,
-  "scanned": 918,
+  "task_folders": 919,
+  "scanned": 919,
   "connector": 285,
-  "non_connector": 633,
+  "non_connector": 634,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 75
  },
  "domain": {
-  "unnamed": 321,
+  "unnamed": 322,
   "code": 186,
   "fin": 70,
   "gen": 224,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 288,
-  "obi": 630
+  "obi": 631
  },
  "connector_services": {
   "google-drive-gym": 170,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 132810
+  "approx_bytes_read": 131810
  },
  "errors": [],
  "tasks": [
@@ -2929,15 +2929,15 @@
    "updated": "2026-09-10T14:00:58.087Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c496-gate-controller-safety-interlock-audit",
    "declared_short": "code-c496-gate-controller-safety-interlock-audit",
-   "folder": "code-c496-gate-controller-safety-interlock-audit-a9b789-v4-sna-tvqh",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c496-gate-controller-safety-interlock-audit-a9b789-v4-sna-tvqh",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f79ac61090bd859a103591cdbc1df6927191d6856e6f5452b714b824556cc3f9",
    "size_bytes": 12593638,
    "updated": "2026-09-21T00:13:17.198Z"
@@ -13318,6 +13318,20 @@
    "sha256": "1aea84c212a2e0c80d40bacc28077d4165071bf8bab853e4c84fa61499e4949b",
    "size_bytes": 6682220,
    "updated": "2026-09-20T21:20:02.621Z"
+  },
+  {
+   "declared_name": "obi/tech-mg-it-b5-a3-local-inference-latency-attribution",
+   "declared_short": "tech-mg-it-b5-a3-local-inference-latency-attribution",
+   "folder": "tech-mg-it-b5-a3-local-inference-latency-attribution",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "23619c3d77f4f49a62325a408dea85bdd373b98aa0bcb039d547bf805313ab9b",
+   "size_bytes": 6636182,
+   "updated": "2026-09-21T00:16:05.634Z"
   },
   {
    "connector_provenance": "unknown",
