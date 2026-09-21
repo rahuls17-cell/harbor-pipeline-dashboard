@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T12:50:02+00:00",
+ "generated_at": "2026-09-21T12:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 938,
-  "scanned": 938,
+  "task_folders": 939,
+  "scanned": 939,
   "connector": 289,
-  "non_connector": 649,
+  "non_connector": 650,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 72,
   "gen": 229,
   "health": 66,
-  "law": 55
+  "law": 56
  },
  "name_prefix": {
   "harbor": 292,
-  "obi": 646
+  "obi": 647
  },
  "connector_services": {
   "google-drive-gym": 172,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131525
  },
  "errors": [],
  "tasks": [
@@ -11599,6 +11599,20 @@
    "sha256": "fdc6e7da7019ac4618d7193ab1ed861f746a2c50cd4c6330bdb3a60246ea77e6",
    "size_bytes": 5108374,
    "updated": "2026-09-18T09:41:20.627Z"
+  },
+  {
+   "declared_name": "obi/law-b42-l6-event-ticket-gst-liability-recompute",
+   "declared_short": "law-b42-l6-event-ticket-gst-liability-recompute",
+   "folder": "law-b42-l6-event-ticket-gst-liability-recompute-r191-artifact-export-fix-direct-qc",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "f811db3aff63923a77dd8304571d85ae152995b0916c517d00b4941eeefe1d68",
+   "size_bytes": 16565113,
+   "updated": "2026-09-21T12:53:28.594Z"
   },
   {
    "connector_provenance": null,
