@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-21T16:10:04+00:00",
+ "generated_at": "2026-09-21T16:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 977,
-  "scanned": 977,
-  "connector": 299,
-  "non_connector": 678,
+  "task_folders": 980,
+  "scanned": 980,
+  "connector": 300,
+  "non_connector": 680,
   "errors": 0
  },
  "connector_provenance": {
   "real": 114,
   "unknown": 105,
-  "synthetic": 80
+  "synthetic": 81
  },
  "domain": {
-  "unnamed": 341,
-  "code": 191,
+  "unnamed": 342,
+  "code": 192,
   "fin": 77,
   "gen": 238,
   "health": 69,
-  "law": 61
+  "law": 62
  },
  "name_prefix": {
-  "harbor": 301,
-  "obi": 676
+  "harbor": 302,
+  "obi": 678
  },
  "connector_services": {
   "google-drive-gym": 176,
@@ -35,7 +35,7 @@
   "slack-gym": 132,
   "slack": 58,
   "notion-gym": 28,
-  "email-calendar-gym": 13,
+  "email-calendar-gym": 14,
   "linear-gym": 11,
   "github-gym": 11,
   "outlook-gym": 10,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 7,
-  "approx_bytes_read": 926227
+  "new_archives_read": 3,
+  "approx_bytes_read": 403437
  },
  "errors": [],
  "tasks": [
@@ -75,11 +75,7 @@
    "updated": "2026-09-18T23:52:53.865Z"
   },
   {
-   "declared_name": "harbor/diagnose-why-mobile-check-deposit-1224-for-1-100-ended-in-error",
-   "declared_short": "diagnose-why-mobile-check-deposit-1224-for-1-100-ended-in-error",
-   "folder": "100129_diagnose-why-mobile-check-deposit-1224-for-1-100-ended-in-error_fixed",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -89,9 +85,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/diagnose-why-mobile-check-deposit-1224-for-1-100-ended-in-error",
+   "declared_short": "diagnose-why-mobile-check-deposit-1224-for-1-100-ended-in-error",
    "domain": null,
+   "folder": "100129_diagnose-why-mobile-check-deposit-1224-for-1-100-ended-in-error_fixed",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a7ed51e2c6977eaa73def6890532c0c3420631557acc26a5c6a58045013a9bd1",
    "size_bytes": 12543531,
    "updated": "2026-09-21T16:08:40.725Z"
@@ -3371,6 +3371,20 @@
    "updated": "2026-09-19T08:05:21.729Z"
   },
   {
+   "declared_name": "obi/code-c607-quality-value-screen-recompute",
+   "declared_short": "code-c607-quality-value-screen-recompute",
+   "folder": "code-c607-quality-value-screen-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "e471d9fedf92053c5216d876936c329abd911c7ec04ef8c3c00aedfddc1c5b72",
+   "size_bytes": 9178774,
+   "updated": "2026-09-21T16:14:30.307Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c621-register-id-assignment-compliance-audit",
@@ -5685,15 +5699,15 @@
    "updated": "2026-09-19T20:26:01.493Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b47-a9-consumer-spend-local-windows",
    "declared_short": "fin-b47-a9-consumer-spend-local-windows",
-   "folder": "fin-b47-a9-consumer-spend-local-windows",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b47-a9-consumer-spend-local-windows",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5990f3bf19e4a3ad56f2f67e5a5afbff816754727276448ba836d495cc7d2d4e",
    "size_bytes": 4719777,
    "updated": "2026-09-21T16:07:37.051Z"
@@ -6007,15 +6021,15 @@
    "updated": "2026-09-20T23:14:44.911Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-f36-transaction-price-allocation",
    "declared_short": "fin-f36-transaction-price-allocation",
-   "folder": "fin-f36-transaction-price-allocation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-f36-transaction-price-allocation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "93df1f75fd203bc393e74b427cf9ea3284914f534afe8f2a249087bca59f6b47",
    "size_bytes": 9421207,
    "updated": "2026-09-21T16:05:57.022Z"
@@ -7155,15 +7169,15 @@
    "updated": "2026-09-20T10:36:53.724Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g253-suv-lease-comparison-audit",
    "declared_short": "gen-g253-suv-lease-comparison-audit",
-   "folder": "gen-g253-suv-lease-comparison-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g253-suv-lease-comparison-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "923f458afc9baa36553cfa285fad9e1a1555f0758df53d4a29041ebb74e2d5ea",
    "size_bytes": 11148155,
    "updated": "2026-09-21T16:08:35.757Z"
@@ -8877,15 +8891,15 @@
    "updated": "2026-09-19T22:32:01.085Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g874-llc-capital-call-election-compliance-audit",
    "declared_short": "gen-g874-llc-capital-call-election-compliance-audit",
-   "folder": "gen-g874-llc-capital-call-election-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g874-llc-capital-call-election-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4176056a252e2ded0fa9906d8915bfe9918efe83ce0938205d3273e1d008427b",
    "size_bytes": 7116172,
    "updated": "2026-09-21T16:08:28.036Z"
@@ -10413,15 +10427,15 @@
    "updated": "2026-09-17T15:20:53.607Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b43-h14-post-procedure-food-catalog",
    "declared_short": "health-b43-h14-post-procedure-food-catalog",
-   "folder": "health-b43-h14-post-procedure-food-catalog-v9",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b43-h14-post-procedure-food-catalog-v9",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a6ca401a3b7c6f22d633b4f667840cc82c21ce02f18ff209dda623a16751f072",
    "size_bytes": 6927368,
    "updated": "2026-09-21T16:06:23.332Z"
@@ -12679,6 +12693,20 @@
    "updated": "2026-09-10T18:04:19.311Z"
   },
   {
+   "declared_name": "obi/law-b37-l15-petition-status-from-order-log",
+   "declared_short": "law-b37-l15-petition-status-from-order-log",
+   "folder": "petition-task",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "2f14dae2a1181295e8fd1e466cf97f72877929a8963686a5c2d7da94bf3505de",
+   "size_bytes": 16435980,
+   "updated": "2026-09-21T16:11:03.121Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -13550,11 +13578,7 @@
    "updated": "2026-09-19T21:45:33.924Z"
   },
   {
-   "declared_name": "harbor/ach-pull-hold-release-audit-standard-ach-pulls-effective-2024-10-01-2024-12-31-bank-calendar-derived-from-the-warehouse",
-   "declared_short": "ach-pull-hold-release-audit-standard-ach-pulls-effective-2024-10-01-2024-12-31-bank-calendar-derived-from-the-warehouse",
-   "folder": "task_verify_ach_pull_hold_release_estimate_on_account_3826_over_veterans_da",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -13564,9 +13588,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/ach-pull-hold-release-audit-standard-ach-pulls-effective-2024-10-01-2024-12-31-bank-calendar-derived-from-the-warehouse",
+   "declared_short": "ach-pull-hold-release-audit-standard-ach-pulls-effective-2024-10-01-2024-12-31-bank-calendar-derived-from-the-warehouse",
    "domain": null,
+   "folder": "task_verify_ach_pull_hold_release_estimate_on_account_3826_over_veterans_da",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4a75a0086ee2febb17d0f2d91a6f5548fe3d3a7cc266c33fdfabac6b5d69b63e",
    "size_bytes": 14263618,
    "updated": "2026-09-21T16:05:03.383Z"
@@ -14332,6 +14360,22 @@
    "sha256": "8b354a6a4c9f016bf7e7e788f34b09c0ce69fedddde660cf5ded215100327242",
    "size_bytes": 7701764,
    "updated": "2026-09-20T23:43:54.242Z"
+  },
+  {
+   "declared_name": "harbor/the-meeting-that-was-never-really-mine",
+   "declared_short": "the-meeting-that-was-never-really-mine",
+   "folder": "the-meeting-that-was-never-really-mine-v2",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d9351bc36cf08da0bc8f3dca47f4bde8ab1d606823014daecedadda62a8fc7d4",
+   "size_bytes": 8433982,
+   "updated": "2026-09-21T16:14:18.798Z"
   },
   {
    "connector_provenance": "synthetic",
