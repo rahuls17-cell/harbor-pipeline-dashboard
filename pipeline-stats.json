@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T18:50:03+00:00",
+ "generated_at": "2026-09-21T18:55:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1001,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131501
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -10605,15 +10605,15 @@
    "updated": "2026-09-17T15:20:53.607Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b43-h14-post-procedure-food-catalog",
    "declared_short": "health-b43-h14-post-procedure-food-catalog",
-   "folder": "health-b43-h14-post-procedure-food-catalog-v10",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b43-h14-post-procedure-food-catalog-v10",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "71703523948d2b293e10e8f3f6654ee20135cb61c3c5658c93a0f792a09c91f8",
    "size_bytes": 7357255,
    "updated": "2026-09-21T18:46:23.658Z"
