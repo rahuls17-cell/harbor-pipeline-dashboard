@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-21T14:05:03+00:00",
+ "generated_at": "2026-09-21T14:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 945,
-  "scanned": 945,
+  "task_folders": 946,
+  "scanned": 946,
   "connector": 291,
-  "non_connector": 654,
+  "non_connector": 655,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 332,
-  "code": 188,
+  "code": 189,
   "fin": 72,
   "gen": 230,
   "health": 66,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 294,
-  "obi": 651
+  "obi": 652
  },
  "connector_services": {
   "google-drive-gym": 173,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131530
  },
  "errors": [],
  "tasks": [
@@ -3613,6 +3613,20 @@
    "sha256": "98f6906911b06aa6ffaa2622592f6fa6ff72e869cc91506b400d5be3fc6c397b",
    "size_bytes": 6790243,
    "updated": "2026-09-15T00:14:45.827Z"
+  },
+  {
+   "declared_name": "obi/code-c726-math-renderer-latency-audit",
+   "declared_short": "code-c726-math-renderer-latency-audit",
+   "folder": "code-c726-math-renderer-latency-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "348d272b2531eadda40c14704e7e4b68f1a1d3f63f8f9dd7b00d2d7c63e2f472",
+   "size_bytes": 4510000,
+   "updated": "2026-09-21T14:15:00.270Z"
   },
   {
    "connector_provenance": null,
