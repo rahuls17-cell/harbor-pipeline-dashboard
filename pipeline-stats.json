@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T20:55:03+00:00",
+ "generated_at": "2026-09-21T21:00:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1020,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263293
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -5627,15 +5627,15 @@
    "updated": "2026-09-21T01:36:32.796Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b44-a8-blueprint-claim-schedule-review",
    "declared_short": "fin-b44-a8-blueprint-claim-schedule-review",
-   "folder": "fin-b44-a8-blueprint-claim-schedule-review",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b44-a8-blueprint-claim-schedule-review",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "3db56a506b82a0b71ef0d9b86b1c16d1ace0d8465538810448e7a3b7bb5c9c98",
    "size_bytes": 6258772,
    "updated": "2026-09-21T20:53:12.536Z"
@@ -14682,15 +14682,15 @@
    "updated": "2026-09-21T20:06:34.549Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-mg-it-b6-a8-underfloor-area-far-response",
    "declared_short": "tech-mg-it-b6-a8-underfloor-area-far-response",
-   "folder": "tech-mg-it-b6-a8-underfloor-area-far-response",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-mg-it-b6-a8-underfloor-area-far-response",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1cf2786a41d6a1eab35c5d579c18ee3b8d08971fca4a2fb0a6fe0b6db3c75379",
    "size_bytes": 6591408,
    "updated": "2026-09-21T20:50:30.272Z"
