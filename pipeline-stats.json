@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-22T08:00:02+00:00",
+ "generated_at": "2026-09-22T08:05:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1062,
-  "scanned": 1062,
-  "connector": 321,
+  "task_folders": 1063,
+  "scanned": 1063,
+  "connector": 322,
   "non_connector": 741,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 120,
+  "real": 121,
   "unknown": 113,
   "synthetic": 88
  },
  "domain": {
-  "unnamed": 383,
+  "unnamed": 384,
   "code": 200,
   "fin": 80,
   "gen": 252,
@@ -22,7 +22,7 @@
   "law": 72
  },
  "name_prefix": {
-  "harbor": 323,
+  "harbor": 324,
   "obi": 739
  },
  "connector_services": {
@@ -32,7 +32,7 @@
   "jira-gym": 166,
   "email-gym": 165,
   "freshdesk-gym": 165,
-  "slack-gym": 143,
+  "slack-gym": 144,
   "slack": 61,
   "notion-gym": 29,
   "email-calendar-gym": 14,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 132587
+  "approx_bytes_read": 133816
  },
  "errors": [],
  "tasks": [
@@ -507,6 +507,22 @@
    "sha256": "bf6382596452b5550329567dd49f50eac59ff096ea47799e94c10b7d53ff568a",
    "size_bytes": 9043329,
    "updated": "2026-09-22T05:30:18.147Z"
+  },
+  {
+   "declared_name": "harbor/archived-without-a-notice",
+   "declared_short": "archived-without-a-notice",
+   "folder": "archived-without-a-notice",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "20aa6bd462384f7cbdb9ae2a5318eae361aab0da9be0b14208d3068dba705fb5",
+   "size_bytes": 8059219,
+   "updated": "2026-09-22T08:00:12.368Z"
   },
   {
    "connector_provenance": "real",
@@ -16338,17 +16354,17 @@
    "updated": "2026-09-12T13:41:14.141Z"
   },
   {
-   "declared_name": "harbor/visits-with-no-article-to-hand-out",
-   "declared_short": "visits-with-no-article-to-hand-out",
-   "folder": "visits-with-no-article-to-hand-out",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/visits-with-no-article-to-hand-out",
+   "declared_short": "visits-with-no-article-to-hand-out",
    "domain": null,
+   "folder": "visits-with-no-article-to-hand-out",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0500784e1080607d49a9dee05eed45a4c654913bd79b8e2a4afd4eddc9bbd04f",
    "size_bytes": 7281250,
    "updated": "2026-09-22T07:57:00.034Z"
