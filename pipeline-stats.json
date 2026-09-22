@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T20:25:03+00:00",
+ "generated_at": "2026-09-22T20:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1135,
-  "scanned": 1135,
+  "task_folders": 1136,
+  "scanned": 1136,
   "connector": 339,
-  "non_connector": 796,
+  "non_connector": 797,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 95
  },
  "domain": {
-  "unnamed": 423,
+  "unnamed": 424,
   "code": 210,
   "fin": 84,
   "gen": 260,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 342,
-  "obi": 793
+  "obi": 794
  },
  "connector_services": {
   "google-drive-gym": 186,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131756
  },
  "errors": [],
  "tasks": [
@@ -14671,6 +14671,20 @@
    "sha256": "abfdc4ce283074d8c43b1b6d0b63233fce7fadfac09d359442de0c0fb41e38c5",
    "size_bytes": 5166443,
    "updated": "2026-09-21T15:54:56.663Z"
+  },
+  {
+   "declared_name": "obi/sci-b51-a3-path-cross-section-grading-plan",
+   "declared_short": "sci-b51-a3-path-cross-section-grading-plan",
+   "folder": "sci-b51-a3-path-cross-section-grading-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "6cfe6ccd0c25cbe9f22a471b7be9862b3bf661ceb466473ddf784585a38c86c8",
+   "size_bytes": 3474649,
+   "updated": "2026-09-22T20:38:32.576Z"
   },
   {
    "connector_provenance": null,
