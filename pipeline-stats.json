@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-22T21:10:02+00:00",
+ "generated_at": "2026-09-22T21:20:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1140,
-  "scanned": 1140,
-  "connector": 340,
-  "non_connector": 800,
+  "task_folders": 1143,
+  "scanned": 1143,
+  "connector": 341,
+  "non_connector": 802,
   "errors": 0
  },
  "connector_provenance": {
   "real": 125,
   "unknown": 119,
-  "synthetic": 96
+  "synthetic": 97
  },
  "domain": {
-  "unnamed": 426,
-  "code": 212,
+  "unnamed": 427,
+  "code": 213,
   "fin": 84,
   "gen": 260,
-  "health": 81,
+  "health": 82,
   "law": 77
  },
  "name_prefix": {
-  "harbor": 343,
-  "obi": 797
+  "harbor": 344,
+  "obi": 799
  },
  "connector_services": {
   "google-drive-gym": 186,
@@ -37,7 +37,7 @@
   "notion-gym": 31,
   "email-calendar-gym": 15,
   "github-gym": 15,
-  "linear-gym": 13,
+  "linear-gym": 14,
   "outlook-gym": 12,
   "gws-gym": 7,
   "teams-gym": 4,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 400372
  },
  "errors": [],
  "tasks": [
@@ -2649,6 +2649,20 @@
    "sha256": "95e0ec74c5392aa50b5a96c189329e2c7c573d7484e64c7cbb1cd31bfad2943f",
    "size_bytes": 9565771,
    "updated": "2026-09-10T14:29:38.528Z"
+  },
+  {
+   "declared_name": "obi/code-c332-sales-awards-eligibility-audit",
+   "declared_short": "code-c332-sales-awards-eligibility-audit",
+   "folder": "code-c332-sales-awards-eligibility-audit-v1",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "de84f37e871591229f010ec3f14f23dcefd95c31af037f6ba29a6645d7b56d5b",
+   "size_bytes": 6643418,
+   "updated": "2026-09-22T21:18:54.944Z"
   },
   {
    "connector_provenance": null,
@@ -12649,6 +12663,20 @@
    "updated": "2026-09-16T22:39:53.146Z"
   },
   {
+   "declared_name": "obi/health-tdt7-a1-urinary-diet-treat-allowance-audit",
+   "declared_short": "health-tdt7-a1-urinary-diet-treat-allowance-audit",
+   "folder": "health-tdt7-a1-urinary-diet-treat-allowance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "fe63056ffe61b2646338f048baad77c042d0471b197fa5b99ac0c375867586d4",
+   "size_bytes": 11825003,
+   "updated": "2026-09-22T21:18:00.182Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt7-a10-glucose-sensor-meal-response-log",
@@ -16864,6 +16892,22 @@
    "sha256": "09816aadbfce982ad6f842f872bc4de9bd7a448eeeb92e1d34425d28460bc369",
    "size_bytes": 7717105,
    "updated": "2026-09-20T10:00:24.278Z"
+  },
+  {
+   "declared_name": "harbor/three-references-one-stays-home",
+   "declared_short": "three-references-one-stays-home",
+   "folder": "three-references-one-stays-home",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "0d84ab1de2069ee57bf733e31618a494904a7999a25489454caa1e7259fd3277",
+   "size_bytes": 7030775,
+   "updated": "2026-09-22T21:19:07.043Z"
   },
   {
    "connector_provenance": "real",
