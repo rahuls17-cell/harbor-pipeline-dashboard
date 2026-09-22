@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T16:05:04+00:00",
+ "generated_at": "2026-09-22T16:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1110,
-  "scanned": 1110,
+  "task_folders": 1111,
+  "scanned": 1111,
   "connector": 334,
-  "non_connector": 776,
+  "non_connector": 777,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 94
  },
  "domain": {
-  "unnamed": 411,
+  "unnamed": 412,
   "code": 205,
   "fin": 81,
   "gen": 259,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 337,
-  "obi": 773
+  "obi": 774
  },
  "connector_services": {
   "google-drive-gym": 184,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131413
  },
  "errors": [],
  "tasks": [
@@ -15786,6 +15786,20 @@
    "sha256": "f97ce454dce73060c331e679c5edfa3072169eba100dfe3c2a4f763c8d11148c",
    "size_bytes": 6660281,
    "updated": "2026-09-21T20:07:40.851Z"
+  },
+  {
+   "declared_name": "obi/tech-mg-it-b6-a5-manual-resource-link-normalization",
+   "declared_short": "tech-mg-it-b6-a5-manual-resource-link-normalization",
+   "folder": "tech-mg-it-b6-a5-manual-resource-link-normalization",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "7c8be2458d4f35e9930d9afab0b40d56d08c92a3f5cb22934e672b5f7decae5c",
+   "size_bytes": 6030932,
+   "updated": "2026-09-22T16:28:08.882Z"
   },
   {
    "connector_provenance": null,
