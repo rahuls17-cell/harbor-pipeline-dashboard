@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T01:45:02+00:00",
+ "generated_at": "2026-09-22T01:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1035,
-  "scanned": 1035,
+  "task_folders": 1036,
+  "scanned": 1036,
   "connector": 317,
-  "non_connector": 718,
+  "non_connector": 719,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 368,
   "code": 197,
   "fin": 79,
-  "gen": 249,
+  "gen": 250,
   "health": 74,
   "law": 68
  },
  "name_prefix": {
   "harbor": 319,
-  "obi": 716
+  "obi": 717
  },
  "connector_services": {
   "google-drive-gym": 182,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133719
+  "approx_bytes_read": 131642
  },
  "errors": [],
  "tasks": [
@@ -7227,6 +7227,20 @@
    "sha256": "741bf4cdb384f7ac330e9f90e4bbfaf6c25e2ed53818a0d21514371f1faba07a",
    "size_bytes": 8078985,
    "updated": "2026-09-20T00:16:58.508Z"
+  },
+  {
+   "declared_name": "obi/gen-g175-archival-citation-completeness-audit",
+   "declared_short": "gen-g175-archival-citation-completeness-audit",
+   "folder": "gen-g175-archival-citation-completeness-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "392a5bf910863580f1d3df7f3de2c37b279f67a79893720190638ae3ae1a61ec",
+   "size_bytes": 7200223,
+   "updated": "2026-09-22T01:49:55.336Z"
   },
   {
    "connector_provenance": null,
@@ -15740,11 +15754,7 @@
    "updated": "2026-09-19T12:05:16.575Z"
   },
   {
-   "declared_name": "harbor/duplicate-charge-dispute-49-18-ach-debits-for-member-64482-2024-06-01-2024-09-30",
-   "declared_short": "duplicate-charge-dispute-49-18-ach-debits-for-member-64482-2024-06-01-2024-09-30",
-   "folder": "verify-duplicate-ach-charge-claim-for-49-18-selina-payment-aug-2024_v2",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -15754,9 +15764,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/duplicate-charge-dispute-49-18-ach-debits-for-member-64482-2024-06-01-2024-09-30",
+   "declared_short": "duplicate-charge-dispute-49-18-ach-debits-for-member-64482-2024-06-01-2024-09-30",
    "domain": null,
+   "folder": "verify-duplicate-ach-charge-claim-for-49-18-selina-payment-aug-2024_v2",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "bc6bf8861aab2146fa4b17dc85f46bbd5a2a68f2f207aba07c4a8daefd2849a4",
    "size_bytes": 15175752,
    "updated": "2026-09-22T01:42:29.474Z"
