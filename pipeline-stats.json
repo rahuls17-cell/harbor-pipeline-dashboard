@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T22:00:04+00:00",
+ "generated_at": "2026-09-22T22:05:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1145,
-  "scanned": 1145,
+  "task_folders": 1147,
+  "scanned": 1147,
   "connector": 343,
-  "non_connector": 802,
+  "non_connector": 804,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 213,
   "fin": 84,
   "gen": 260,
-  "health": 82,
-  "law": 77
+  "health": 83,
+  "law": 78
  },
  "name_prefix": {
   "harbor": 346,
-  "obi": 799
+  "obi": 801
  },
  "connector_services": {
   "google-drive-gym": 186,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132499
+  "new_archives_read": 2,
+  "approx_bytes_read": 263034
  },
  "errors": [],
  "tasks": [
@@ -11683,6 +11683,20 @@
    "updated": "2026-09-17T15:20:53.607Z"
   },
   {
+   "declared_name": "obi/health-b43-h14-post-procedure-food-catalog",
+   "declared_short": "health-b43-h14-post-procedure-food-catalog",
+   "folder": "health-b43-h14-post-procedure-food-catalog",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "5ffd89f60fcce0f3f4f058ff581c1f9884af26f2dba4ee52f2504e9f2a197b6b",
+   "size_bytes": 5908966,
+   "updated": "2026-09-22T22:00:10.273Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-b43-h14-post-procedure-food-catalog",
@@ -13027,17 +13041,17 @@
    "updated": "2026-09-09T04:55:21.017Z"
   },
   {
-   "declared_name": "harbor/j4-emea-version-counter-reconcile-register",
-   "declared_short": "j4-emea-version-counter-reconcile-register",
-   "folder": "j4-emea-version-counter-reconcile-register",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/j4-emea-version-counter-reconcile-register",
+   "declared_short": "j4-emea-version-counter-reconcile-register",
    "domain": null,
+   "folder": "j4-emea-version-counter-reconcile-register",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d16f934def689047100bc94be60b3539a2aef84f8179a5886267f67e62c64307",
    "size_bytes": 7921659,
    "updated": "2026-09-22T21:56:24.930Z"
@@ -13573,6 +13587,20 @@
    "sha256": "2ef570a98f73efb0d45a27cf81b2ba29d8965008b19658feaecfcf116bbc6ef8",
    "size_bytes": 8434477,
    "updated": "2026-09-18T22:20:51.629Z"
+  },
+  {
+   "declared_name": "obi/law-b42-l9-governance-packet-conversion-audit",
+   "declared_short": "law-b42-l9-governance-packet-conversion-audit",
+   "folder": "law-b42-l9-governance-packet-conversion-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "bb9b9b0d90068b114fc46d657ea21777432804270fa1811c7b7bd4d875b7bda5",
+   "size_bytes": 9272169,
+   "updated": "2026-09-22T22:03:00.002Z"
   },
   {
    "connector_provenance": null,
