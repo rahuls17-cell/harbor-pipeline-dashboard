@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T13:50:05+00:00",
+ "generated_at": "2026-09-22T13:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1099,
-  "scanned": 1099,
+  "task_folders": 1100,
+  "scanned": 1100,
   "connector": 333,
-  "non_connector": 766,
+  "non_connector": 767,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 93
  },
  "domain": {
-  "unnamed": 407,
+  "unnamed": 408,
   "code": 204,
   "fin": 81,
   "gen": 255,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 335,
-  "obi": 764
+  "obi": 765
  },
  "connector_services": {
   "google-drive-gym": 184,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131606
  },
  "errors": [],
  "tasks": [
@@ -1577,6 +1577,20 @@
    "sha256": "707cb4bb6cfb6fdd70b3b1f403a7ab2d7c9eb7524105212901de812a8e8bedb6",
    "size_bytes": 5582807,
    "updated": "2026-09-22T03:26:15.948Z"
+  },
+  {
+   "declared_name": "obi/career-sc05-a5-interview-prep-budget",
+   "declared_short": "career-sc05-a5-interview-prep-budget",
+   "folder": "career-sc05-a5-interview-prep-budget",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "d447531994846b31a635695bf7fe66ebb50c20f43a7e390da1acd7c1f2d518c3",
+   "size_bytes": 7365940,
+   "updated": "2026-09-22T13:52:32.756Z"
   },
   {
    "connector_provenance": "real",
