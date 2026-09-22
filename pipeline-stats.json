@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T09:10:04+00:00",
+ "generated_at": "2026-09-22T09:15:06+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1070,
-  "scanned": 1070,
+  "task_folders": 1071,
+  "scanned": 1071,
   "connector": 326,
-  "non_connector": 744,
+  "non_connector": 745,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 390,
-  "code": 200,
+  "code": 201,
   "fin": 80,
   "gen": 253,
   "health": 75,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 328,
-  "obi": 742
+  "obi": 743
  },
  "connector_services": {
   "google-drive-gym": 183,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131491
+  "approx_bytes_read": 131509
  },
  "errors": [],
  "tasks": [
@@ -1571,6 +1571,20 @@
    "sha256": "b3b16a3de4af25fff525cc244455b19e47eef4449a4b7767cf82bc5a98cfe9eb",
    "size_bytes": 7122388,
    "updated": "2026-09-09T12:13:35.653Z"
+  },
+  {
+   "declared_name": "obi/code-c101-slo-error-budget-recompute",
+   "declared_short": "code-c101-slo-error-budget-recompute",
+   "folder": "code-c101-slo-error-budget-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "6d04951bd5d38eb88de3764d601023f45df835b54dd7f42b4cf3c736c028c2be",
+   "size_bytes": 7467632,
+   "updated": "2026-09-22T09:10:36.188Z"
   },
   {
    "connector_provenance": null,
@@ -9407,15 +9421,15 @@
    "updated": "2026-09-10T20:44:06.214Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g833-heritage-food-documentary-clearance-audit",
    "declared_short": "gen-g833-heritage-food-documentary-clearance-audit",
-   "folder": "gen-g833-heritage-food-documentary-clearance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g833-heritage-food-documentary-clearance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7beb5a73049a016beec4a2edddd0d584e452a1038186f6953d699edd1e930214",
    "size_bytes": 5996998,
    "updated": "2026-09-22T09:07:41.731Z"
