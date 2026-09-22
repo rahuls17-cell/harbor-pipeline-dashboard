@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T10:20:03+00:00",
+ "generated_at": "2026-09-22T10:25:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1082,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133816
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -233,17 +233,17 @@
    "updated": "2026-09-21T23:18:52.047Z"
   },
   {
-   "declared_name": "harbor/the-standup-apps-we-had",
-   "declared_short": "the-standup-apps-we-had",
-   "folder": "ASTR_101253",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-standup-apps-we-had",
+   "declared_short": "the-standup-apps-we-had",
    "domain": null,
+   "folder": "ASTR_101253",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "45fae49194892b58a990458cdf848742bc8aac1b437b8fe5bc85437947124d78",
    "size_bytes": 10932386,
    "updated": "2026-09-22T10:16:21.264Z"
