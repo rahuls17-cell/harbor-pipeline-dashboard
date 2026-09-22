@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T18:50:04+00:00",
+ "generated_at": "2026-09-22T18:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1124,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131531
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1369,15 +1369,15 @@
    "updated": "2026-09-18T23:24:01.966Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b31-a10-airport-lounge-outlet-master-table",
    "declared_short": "bus-b31-a10-airport-lounge-outlet-master-table",
-   "folder": "bus-b31-a10-airport-lounge-outlet-master-table",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b31-a10-airport-lounge-outlet-master-table",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c0dfc1455ca19a03b5b919238daff464ad9f3f4d13c18e304463e1b24e5fb6de",
    "size_bytes": 6488384,
    "updated": "2026-09-22T18:49:55.312Z"
