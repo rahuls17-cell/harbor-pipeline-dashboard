@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T21:00:03+00:00",
+ "generated_at": "2026-09-22T21:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1139,
-  "scanned": 1139,
+  "task_folders": 1140,
+  "scanned": 1140,
   "connector": 340,
-  "non_connector": 799,
+  "non_connector": 800,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 426,
-  "code": 211,
+  "code": 212,
   "fin": 84,
   "gen": 260,
   "health": 81,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 343,
-  "obi": 796
+  "obi": 797
  },
  "connector_services": {
   "google-drive-gym": 186,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 142873
+  "approx_bytes_read": 131516
  },
  "errors": [],
  "tasks": [
@@ -2173,6 +2173,20 @@
    "sha256": "694f7a481eb93e5dbda3d098b48aadf92982a86fd6f683ee243d7db3fc5253e1",
    "size_bytes": 12072486,
    "updated": "2026-09-22T07:30:31.809Z"
+  },
+  {
+   "declared_name": "obi/code-c196-batch-job-deadline-cap-audit",
+   "declared_short": "code-c196-batch-job-deadline-cap-audit",
+   "folder": "code-c196-batch-job-deadline-cap-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "cdc208ff1bc496a72b734a7e8936f6b66271e2d9fcf15d5938b40b795362ab12",
+   "size_bytes": 7381845,
+   "updated": "2026-09-22T21:04:31.153Z"
   },
   {
    "connector_provenance": null,
@@ -16420,17 +16434,17 @@
    "updated": "2026-09-18T18:09:18.606Z"
   },
   {
-   "declared_name": "harbor/the-loudest-voice-has-no-account",
-   "declared_short": "the-loudest-voice-has-no-account",
-   "folder": "the-loudest-voice-has-no-account",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "teams-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-loudest-voice-has-no-account",
+   "declared_short": "the-loudest-voice-has-no-account",
    "domain": null,
+   "folder": "the-loudest-voice-has-no-account",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4f641d04502eafd3c2c3c8975748fd704c2eb392c0ef2885cbd3bf34d4e64bb2",
    "size_bytes": 8853410,
    "updated": "2026-09-22T20:55:56.137Z"
