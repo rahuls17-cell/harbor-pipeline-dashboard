@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T14:30:03+00:00",
+ "generated_at": "2026-09-22T14:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1102,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131430
+  "approx_bytes_read": 131627
  },
  "errors": [],
  "tasks": [
@@ -9163,15 +9163,15 @@
    "updated": "2026-09-18T20:25:46.389Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "harbor/gen-g722-acquisition-earnout-milestone-audit",
    "declared_short": "gen-g722-acquisition-earnout-milestone-audit",
-   "folder": "gen-g722-acquisition-earnout-milestone-audit",
-   "prefix": "harbor",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g722-acquisition-earnout-milestone-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "harbor",
    "sha256": "5a4221b0287b3c22978bfeb4a8e86e1585eb3c266fb40beea47288092d33105e",
    "size_bytes": 4303108,
    "updated": "2026-09-22T14:26:55.948Z"
@@ -12899,18 +12899,18 @@
    "updated": "2026-09-19T21:43:54.330Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/law-b39-l21-exit-sign-requirement-statement-audit",
    "declared_short": "law-b39-l21-exit-sign-requirement-statement-audit",
-   "domain": "law",
    "folder": "law-b39-l21-exit-sign-requirement-statement-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "996ebd803760e607e117b9d7956111e9021bf65d9aee5e3557d5f5250962fe31",
-   "size_bytes": 8069996,
-   "updated": "2026-09-18T05:12:06.147Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "14b6a788d7e4b931d8b3485d8d8233b1f107e52005fb8c0cd7d5b50b451ae19a",
+   "size_bytes": 6673969,
+   "updated": "2026-09-22T14:32:37.235Z"
   },
   {
    "connector_provenance": null,
