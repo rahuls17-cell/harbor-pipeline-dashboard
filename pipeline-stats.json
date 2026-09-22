@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-22T17:35:04+00:00",
+ "generated_at": "2026-09-22T17:40:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1114,
-  "scanned": 1114,
-  "connector": 336,
-  "non_connector": 778,
+  "task_folders": 1116,
+  "scanned": 1116,
+  "connector": 337,
+  "non_connector": 779,
   "errors": 0
  },
  "connector_provenance": {
   "real": 125,
-  "unknown": 117,
+  "unknown": 118,
   "synthetic": 94
  },
  "domain": {
-  "unnamed": 415,
+  "unnamed": 417,
   "code": 205,
   "fin": 81,
   "gen": 259,
@@ -22,8 +22,8 @@
   "law": 76
  },
  "name_prefix": {
-  "harbor": 339,
-  "obi": 775
+  "harbor": 340,
+  "obi": 776
  },
  "connector_services": {
   "google-drive-gym": 185,
@@ -32,7 +32,7 @@
   "jira-gym": 169,
   "email-gym": 168,
   "freshdesk-gym": 168,
-  "slack-gym": 150,
+  "slack-gym": 151,
   "slack": 63,
   "notion-gym": 30,
   "email-calendar-gym": 15,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 265626
  },
  "errors": [],
  "tasks": [
@@ -1521,6 +1521,20 @@
    "sha256": "c097e2847f6b604d94e0a7ae422384810aa527d1478d09e21ed6ca42e4f73193",
    "size_bytes": 6338851,
    "updated": "2026-09-22T11:05:57.850Z"
+  },
+  {
+   "declared_name": "obi/bus-mg-bus-b8-a1-upskilling-caption-claim-verification",
+   "declared_short": "bus-mg-bus-b8-a1-upskilling-caption-claim-verification",
+   "folder": "bus-mg-bus-b8-a1-upskilling-caption-claim-verification-v11",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "5ec5834cb27fbf7062f02197e88f7e0f1206682d1e75d4e0b0ba88a8dfb1d082",
+   "size_bytes": 7464838,
+   "updated": "2026-09-22T17:39:20.961Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -16198,6 +16212,22 @@
    "sha256": "7ba64fbb4b54ded4422443147488a43dcecca5c3acdf9800afab2a94774ceeea",
    "size_bytes": 12039759,
    "updated": "2026-09-18T21:00:32.266Z"
+  },
+  {
+   "declared_name": "harbor/the-oversized-recordings",
+   "declared_short": "the-oversized-recordings",
+   "folder": "the-oversized-recordings",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "2307884d42cad0053b3779cbb8ca68e1e928d132657f1cbc275e8a3eb27713b8",
+   "size_bytes": 9939748,
+   "updated": "2026-09-22T17:39:33.755Z"
   },
   {
    "connector_provenance": "synthetic",
