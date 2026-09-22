@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T11:05:03+00:00",
+ "generated_at": "2026-09-22T11:10:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1085,
-  "scanned": 1085,
+  "task_folders": 1086,
+  "scanned": 1086,
   "connector": 330,
-  "non_connector": 755,
+  "non_connector": 756,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 91
  },
  "domain": {
-  "unnamed": 398,
+  "unnamed": 399,
   "code": 203,
   "fin": 80,
   "gen": 254,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 332,
-  "obi": 753
+  "obi": 754
  },
  "connector_services": {
   "google-drive-gym": 184,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263212
+  "new_archives_read": 1,
+  "approx_bytes_read": 132027
  },
  "errors": [],
  "tasks": [
@@ -1381,15 +1381,15 @@
    "updated": "2026-09-17T22:03:05.476Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b46-b4-surf-apparel-fall-buy-plan",
    "declared_short": "bus-b46-b4-surf-apparel-fall-buy-plan",
-   "folder": "bus-b46-b4-surf-apparel-fall-buy-plan",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b46-b4-surf-apparel-fall-buy-plan",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "03b6717568b356e0ab8de35e986be31744f65dd6c973a8621c530036ff06ad91",
    "size_bytes": 7168692,
    "updated": "2026-09-22T11:03:53.016Z"
@@ -1463,6 +1463,20 @@
    "sha256": "0d55f52275a9e0228602d17776ca4e27835cfcc6c85ebcdd597b864584ff7876",
    "size_bytes": 10094124,
    "updated": "2026-09-22T05:29:45.917Z"
+  },
+  {
+   "declared_name": "obi/bus-b50-b2-agritech-territory-manager-competency-transfer-map",
+   "declared_short": "bus-b50-b2-agritech-territory-manager-competency-transfer-map",
+   "folder": "bus-b50-b2-agritech-territory-manager-competency-transfer-map",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "c097e2847f6b604d94e0a7ae422384810aa527d1478d09e21ed6ca42e4f73193",
+   "size_bytes": 6338851,
+   "updated": "2026-09-22T11:05:57.850Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -3551,15 +3565,15 @@
    "updated": "2026-09-09T17:46:48.254Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c53-backup-retention-reconcile",
    "declared_short": "code-c53-backup-retention-reconcile",
-   "folder": "code-c53-backup-retention-reconcile",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c53-backup-retention-reconcile",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a89232b65fed449166068b5387f4c8b0da91f5c0b99ec7ce9ba8d458e8e7c98e",
    "size_bytes": 6257957,
    "updated": "2026-09-22T11:02:14.209Z"
