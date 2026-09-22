@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-22T23:00:03+00:00",
+ "generated_at": "2026-09-22T23:05:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1152,
-  "scanned": 1152,
-  "connector": 343,
+  "task_folders": 1153,
+  "scanned": 1153,
+  "connector": 344,
   "non_connector": 809,
   "errors": 0
  },
  "connector_provenance": {
   "real": 126,
-  "unknown": 119,
+  "unknown": 120,
   "synthetic": 98
  },
  "domain": {
-  "unnamed": 430,
+  "unnamed": 431,
   "code": 216,
   "fin": 84,
   "gen": 261,
@@ -22,17 +22,17 @@
   "law": 78
  },
  "name_prefix": {
-  "harbor": 346,
+  "harbor": 347,
   "obi": 806
  },
  "connector_services": {
-  "google-drive-gym": 186,
-  "zeta3-sql-gym": 176,
-  "confluence-gym": 171,
-  "jira-gym": 170,
-  "email-gym": 169,
-  "freshdesk-gym": 169,
-  "slack-gym": 152,
+  "google-drive-gym": 187,
+  "zeta3-sql-gym": 177,
+  "confluence-gym": 172,
+  "jira-gym": 171,
+  "email-gym": 170,
+  "freshdesk-gym": 170,
+  "slack-gym": 153,
   "slack": 63,
   "notion-gym": 31,
   "email-calendar-gym": 15,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 134832
  },
  "errors": [],
  "tasks": [
@@ -139,6 +139,28 @@
    "sha256": "1ed2ff4ea9ec9475eaaf61e953057652661a6ddb7e7bc09171fe4c8403d7d6f1",
    "size_bytes": 14469336,
    "updated": "2026-09-20T21:15:53.927Z"
+  },
+  {
+   "declared_name": "harbor/verify-nov-vs-dec-2022-interest-credited-on-std-tier-account-1603-acro",
+   "declared_short": "verify-nov-vs-dec-2022-interest-credited-on-std-tier-account-1603-acro",
+   "folder": "100939",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "e43167335fe5e07d3464c76ec5af77edaa9f01ff5edd4c1c81e0d9b912d55311",
+   "size_bytes": 8244443,
+   "updated": "2026-09-22T23:03:10.599Z"
   },
   {
    "connector_provenance": "unknown",
