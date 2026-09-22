@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T20:45:03+00:00",
+ "generated_at": "2026-09-22T20:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1137,
-  "scanned": 1137,
+  "task_folders": 1138,
+  "scanned": 1138,
   "connector": 339,
-  "non_connector": 798,
+  "non_connector": 799,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 425,
-  "code": 210,
+  "code": 211,
   "fin": 84,
   "gen": 260,
   "health": 81,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 342,
-  "obi": 795
+  "obi": 796
  },
  "connector_services": {
   "google-drive-gym": 186,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131826
+  "approx_bytes_read": 131495
  },
  "errors": [],
  "tasks": [
@@ -2117,6 +2117,20 @@
    "sha256": "2e3a678c85ca93f587262857c1e38adb3d278a9aaab63dc93b9873eff91df59d",
    "size_bytes": 7214296,
    "updated": "2026-09-20T21:08:00.158Z"
+  },
+  {
+   "declared_name": "obi/code-c18-rbac-policy-matrix",
+   "declared_short": "code-c18-rbac-policy-matrix",
+   "folder": "code-c18-rbac-policy-matrix",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "a829866a0377c105920efb0312177ad3c43d9c23d9bf2f3f99480aabdf76f7e0",
+   "size_bytes": 9411223,
+   "updated": "2026-09-22T20:45:30.473Z"
   },
   {
    "connector_provenance": null,
@@ -16072,15 +16086,15 @@
    "updated": "2026-09-21T18:59:13.039Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-mg-it-b5-a6-two-person-office-layout-fit",
    "declared_short": "tech-mg-it-b5-a6-two-person-office-layout-fit",
-   "folder": "tech-mg-it-b5-a6-two-person-office-layout-fit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-mg-it-b5-a6-two-person-office-layout-fit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b7887ad0db2fc7f06b59f08510f4c89f9c60e42135259f46ee51593806967285",
    "size_bytes": 6925537,
    "updated": "2026-09-22T20:41:42.472Z"
