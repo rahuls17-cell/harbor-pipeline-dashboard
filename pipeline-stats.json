@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T08:50:03+00:00",
+ "generated_at": "2026-09-22T08:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1068,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 139197
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -15708,17 +15708,17 @@
    "updated": "2026-09-17T06:05:27.586Z"
   },
   {
-   "declared_name": "harbor/the-riley-patel-i-keep-missing",
-   "declared_short": "the-riley-patel-i-keep-missing",
-   "folder": "the-riley-patel-i-keep-missing",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "teams-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-riley-patel-i-keep-missing",
+   "declared_short": "the-riley-patel-i-keep-missing",
    "domain": null,
+   "folder": "the-riley-patel-i-keep-missing",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5938d4c124910451a177f5addd912d80acf9660b42dd374f5fa5e4d310bcce7c",
    "size_bytes": 9214876,
    "updated": "2026-09-22T08:45:18.835Z"
