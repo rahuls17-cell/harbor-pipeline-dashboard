@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T11:55:04+00:00",
+ "generated_at": "2026-09-22T12:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1090,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263275
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -16912,15 +16912,15 @@
    "updated": "2026-09-20T12:00:31.441Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/writing-hl04-a6-donor-summary-condensed",
    "declared_short": "writing-hl04-a6-donor-summary-condensed",
-   "folder": "writing-hl04-a6-donor-summary-condensed",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "writing-hl04-a6-donor-summary-condensed",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5e86231d608e291995be06b994639591f12abf43c766ce1c03185f2114d895f2",
    "size_bytes": 3999884,
    "updated": "2026-09-22T11:50:47.121Z"
@@ -16940,15 +16940,15 @@
    "updated": "2026-09-22T06:07:52.900Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/writing-sc05-a2-method-section-normalization",
    "declared_short": "writing-sc05-a2-method-section-normalization",
-   "folder": "writing-sc05-a2-method-section-normalization",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "writing-sc05-a2-method-section-normalization",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c8bb13b47e4fda352dd3c5b63442c6e658e2340d91f28f9eb2d96fc5be220e08",
    "size_bytes": 5523804,
    "updated": "2026-09-22T11:54:23.364Z"
