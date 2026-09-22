@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T08:20:03+00:00",
+ "generated_at": "2026-09-22T08:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1066,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131543
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1363,15 +1363,15 @@
    "updated": "2026-09-20T09:49:41.440Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b47-b1-service-account-tracker-normalisation",
    "declared_short": "bus-b47-b1-service-account-tracker-normalisation",
-   "folder": "bus-b47-b1-service-account-tracker-normalisation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b47-b1-service-account-tracker-normalisation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "24f1a5f5ef9bea205140a40b9977db14973a4e6e1a7573928cddcaa3e052928b",
    "size_bytes": 6579949,
    "updated": "2026-09-22T08:18:43.740Z"
