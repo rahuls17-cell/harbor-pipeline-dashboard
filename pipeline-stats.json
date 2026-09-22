@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T06:55:02+00:00",
+ "generated_at": "2026-09-22T07:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1057,
-  "scanned": 1057,
+  "task_folders": 1058,
+  "scanned": 1058,
   "connector": 319,
-  "non_connector": 738,
+  "non_connector": 739,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 87
  },
  "domain": {
-  "unnamed": 380,
+  "unnamed": 381,
   "code": 199,
   "fin": 80,
   "gen": 252,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 321,
-  "obi": 736
+  "obi": 737
  },
  "connector_services": {
   "google-drive-gym": 182,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131630
  },
  "errors": [],
  "tasks": [
@@ -1329,6 +1329,20 @@
    "sha256": "04955c505c99b212d6d4cb5cd93a2ffa7e02e9e4f409139328eb0f8ec58f198d",
    "size_bytes": 6454394,
    "updated": "2026-09-20T09:49:41.440Z"
+  },
+  {
+   "declared_name": "obi/bus-b47-b1-suv-window-sticker-dealer-quote-check",
+   "declared_short": "bus-b47-b1-suv-window-sticker-dealer-quote-check",
+   "folder": "bus-b47-b1-suv-window-sticker-dealer-quote-check",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1fac1a58e4d5fa07b9e45ca29757fa81f25ec3c6a369ce3a8a4f08e6909ae004",
+   "size_bytes": 7497805,
+   "updated": "2026-09-22T07:09:57.156Z"
   },
   {
    "connector_provenance": null,
