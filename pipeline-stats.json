@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-22T12:45:04+00:00",
+ "generated_at": "2026-09-22T12:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1093,
-  "scanned": 1093,
-  "connector": 331,
-  "non_connector": 762,
+  "task_folders": 1095,
+  "scanned": 1095,
+  "connector": 332,
+  "non_connector": 763,
   "errors": 0
  },
  "connector_provenance": {
   "real": 125,
   "unknown": 115,
-  "synthetic": 91
+  "synthetic": 92
  },
  "domain": {
-  "unnamed": 402,
+  "unnamed": 404,
   "code": 204,
   "fin": 81,
   "gen": 255,
@@ -22,8 +22,8 @@
   "law": 74
  },
  "name_prefix": {
-  "harbor": 333,
-  "obi": 760
+  "harbor": 334,
+  "obi": 761
  },
  "connector_services": {
   "google-drive-gym": 184,
@@ -35,8 +35,8 @@
   "slack-gym": 148,
   "slack": 63,
   "notion-gym": 29,
+  "github-gym": 15,
   "email-calendar-gym": 14,
-  "github-gym": 14,
   "linear-gym": 13,
   "outlook-gym": 12,
   "gws-gym": 7,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131455
+  "new_archives_read": 2,
+  "approx_bytes_read": 272085
  },
  "errors": [],
  "tasks": [
@@ -13527,15 +13527,15 @@
    "updated": "2026-09-10T04:29:35.396Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-l82-jury-hardship-request-audit",
    "declared_short": "law-l82-jury-hardship-request-audit",
-   "folder": "law-l82-jury-hardship-request-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-l82-jury-hardship-request-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "503e5161e085c716801a33028ffeb69605c016982bd67dd0ff049f63471c4d48",
    "size_bytes": 6260785,
    "updated": "2026-09-22T12:43:31.043Z"
@@ -16916,6 +16916,22 @@
    "updated": "2026-09-20T17:09:38.687Z"
   },
   {
+   "declared_name": "harbor/who-let-this-one-in",
+   "declared_short": "who-let-this-one-in",
+   "folder": "who-let-this-one-in",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "09a6a937ce5929edf4a01ab5b8316960950fb3c3e7bfd9047a457b20c8e15609",
+   "size_bytes": 8529279,
+   "updated": "2026-09-22T12:46:52.759Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-teams-gym"
@@ -16994,6 +17010,20 @@
    "sha256": "c8bb13b47e4fda352dd3c5b63442c6e658e2340d91f28f9eb2d96fc5be220e08",
    "size_bytes": 5523804,
    "updated": "2026-09-22T11:54:23.364Z"
+  },
+  {
+   "declared_name": "obi/writing-sc05-a3-saf-benchmark-verification",
+   "declared_short": "writing-sc05-a3-saf-benchmark-verification",
+   "folder": "writing-sc05-a3-saf-benchmark-verification",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "75b348029ebf0ea5400f98b9549c867668b7c3fa3abf94f455b28ebc2e053934",
+   "size_bytes": 8338521,
+   "updated": "2026-09-22T12:49:25.690Z"
   },
   {
    "connector_provenance": null,
