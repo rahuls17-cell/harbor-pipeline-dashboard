@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T12:55:03+00:00",
+ "generated_at": "2026-09-22T13:00:06+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1095,
-  "scanned": 1095,
+  "task_folders": 1096,
+  "scanned": 1096,
   "connector": 332,
-  "non_connector": 763,
+  "non_connector": 764,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 92
  },
  "domain": {
-  "unnamed": 404,
+  "unnamed": 405,
   "code": 204,
   "fin": 81,
   "gen": 255,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 334,
-  "obi": 761
+  "obi": 762
  },
  "connector_services": {
   "google-drive-gym": 184,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131745
  },
  "errors": [],
  "tasks": [
@@ -14203,6 +14203,20 @@
    "sha256": "468a40f5e01bc8a4b1fd1a0b4056b1dda3c20e7baf270deb6dd01f0381f431df",
    "size_bytes": 7596591,
    "updated": "2026-09-20T22:24:30.872Z"
+  },
+  {
+   "declared_name": "obi/sci-b51-a8-significant-figure-rule-audit",
+   "declared_short": "sci-b51-a8-significant-figure-rule-audit",
+   "folder": "sci-b51-a8-significant-figure-rule-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "d95d505f1b941cda0f075b57174b5b51d7663e04bd74272c33b08636b82b2d12",
+   "size_bytes": 3789903,
+   "updated": "2026-09-22T12:58:59.813Z"
   },
   {
    "connector_provenance": "real",
