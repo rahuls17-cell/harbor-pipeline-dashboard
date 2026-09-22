@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T19:05:03+00:00",
+ "generated_at": "2026-09-22T19:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1127,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263195
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1789,15 +1789,15 @@
    "updated": "2026-09-22T18:11:21.806Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c116-storage-cost-allocation-recompute",
    "declared_short": "code-c116-storage-cost-allocation-recompute",
-   "folder": "code-c116-storage-cost-allocation-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c116-storage-cost-allocation-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "09172870c685dd280ac677c380e7eb0e2edf9fca819c8f97fb52c55d587e081b",
    "size_bytes": 5678320,
    "updated": "2026-09-22T19:00:43.926Z"
@@ -13187,15 +13187,15 @@
    "updated": "2026-09-18T13:56:25.338Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b39-l30-replevin-client-email-statement-audit",
    "declared_short": "law-b39-l30-replevin-client-email-statement-audit",
-   "folder": "law-b39-l30-replevin-client-email-statement-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b39-l30-replevin-client-email-statement-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "89407e8ead61e9a71eaa04c5b7c727a827128c0dcc3c39e4f1a1aa4f90562996",
    "size_bytes": 6673739,
    "updated": "2026-09-22T19:03:15.606Z"
