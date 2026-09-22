@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T03:30:03+00:00",
+ "generated_at": "2026-09-22T03:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1044,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262979
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1369,15 +1369,15 @@
    "updated": "2026-09-09T04:36:46.374Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/career-hl04-a8-pilot-quality-measure-recompute",
    "declared_short": "career-hl04-a8-pilot-quality-measure-recompute",
-   "folder": "career-hl04-a8-pilot-quality-measure-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "career-hl04-a8-pilot-quality-measure-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "707cb4bb6cfb6fdd70b3b1f403a7ab2d7c9eb7524105212901de812a8e8bedb6",
    "size_bytes": 5582807,
    "updated": "2026-09-22T03:26:15.948Z"
@@ -12645,15 +12645,15 @@
    "updated": "2026-09-21T17:34:07.957Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b44-l4-office-action-quotation-conformance",
    "declared_short": "law-b44-l4-office-action-quotation-conformance",
-   "folder": "law-b44-l4-office-action-quotation-conformance",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b44-l4-office-action-quotation-conformance",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "37767b5ba6690593dbcf307fbc6c82673351684bd091d519f09fc2d102d0f793",
    "size_bytes": 8488709,
    "updated": "2026-09-22T03:27:12.318Z"
