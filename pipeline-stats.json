@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T11:15:04+00:00",
+ "generated_at": "2026-09-22T11:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1087,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133854
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -217,17 +217,17 @@
    "updated": "2026-09-21T19:21:53.755Z"
   },
   {
-   "declared_name": "harbor/the-docs-their-owners-left-behind",
-   "declared_short": "the-docs-their-owners-left-behind",
-   "folder": "ASTR_101237",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-docs-their-owners-left-behind",
+   "declared_short": "the-docs-their-owners-left-behind",
    "domain": null,
+   "folder": "ASTR_101237",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "31ff42cebabe40ac803866ee821c096b6b0fc3cd1d856fc0abe6f5c7335b00a9",
    "size_bytes": 9713533,
    "updated": "2026-09-22T11:13:50.151Z"
