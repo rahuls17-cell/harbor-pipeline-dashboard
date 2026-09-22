@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T22:05:04+00:00",
+ "generated_at": "2026-09-22T22:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1147,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263034
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -11683,15 +11683,15 @@
    "updated": "2026-09-17T15:20:53.607Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b43-h14-post-procedure-food-catalog",
    "declared_short": "health-b43-h14-post-procedure-food-catalog",
-   "folder": "health-b43-h14-post-procedure-food-catalog",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b43-h14-post-procedure-food-catalog",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5ffd89f60fcce0f3f4f058ff581c1f9884af26f2dba4ee52f2504e9f2a197b6b",
    "size_bytes": 5908966,
    "updated": "2026-09-22T22:00:10.273Z"
@@ -13589,15 +13589,15 @@
    "updated": "2026-09-18T22:20:51.629Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b42-l9-governance-packet-conversion-audit",
    "declared_short": "law-b42-l9-governance-packet-conversion-audit",
-   "folder": "law-b42-l9-governance-packet-conversion-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b42-l9-governance-packet-conversion-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "bb9b9b0d90068b114fc46d657ea21777432804270fa1811c7b7bd4d875b7bda5",
    "size_bytes": 9272169,
    "updated": "2026-09-22T22:03:00.002Z"
