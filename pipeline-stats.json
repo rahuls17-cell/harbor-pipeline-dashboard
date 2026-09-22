@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T09:05:03+00:00",
+ "generated_at": "2026-09-22T09:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1069,
-  "scanned": 1069,
+  "task_folders": 1070,
+  "scanned": 1070,
   "connector": 326,
-  "non_connector": 743,
+  "non_connector": 744,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 390,
   "code": 200,
   "fin": 80,
-  "gen": 252,
+  "gen": 253,
   "health": 75,
   "law": 72
  },
  "name_prefix": {
   "harbor": 328,
-  "obi": 741
+  "obi": 742
  },
  "connector_services": {
   "google-drive-gym": 183,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135405
+  "approx_bytes_read": 131491
  },
  "errors": [],
  "tasks": [
@@ -9407,6 +9407,20 @@
    "updated": "2026-09-10T20:44:06.214Z"
   },
   {
+   "declared_name": "obi/gen-g833-heritage-food-documentary-clearance-audit",
+   "declared_short": "gen-g833-heritage-food-documentary-clearance-audit",
+   "folder": "gen-g833-heritage-food-documentary-clearance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "7beb5a73049a016beec4a2edddd0d584e452a1038186f6953d699edd1e930214",
+   "size_bytes": 5996998,
+   "updated": "2026-09-22T09:07:41.731Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g838-psogd-significance-statement-audit",
@@ -15820,17 +15834,17 @@
    "updated": "2026-09-22T07:46:43.941Z"
   },
   {
-   "declared_name": "harbor/the-tags-that-never-made-the-diary",
-   "declared_short": "the-tags-that-never-made-the-diary",
-   "folder": "the-tags-that-never-made-the-diary-v3",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-tags-that-never-made-the-diary",
+   "declared_short": "the-tags-that-never-made-the-diary",
    "domain": null,
+   "folder": "the-tags-that-never-made-the-diary-v3",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "57418d24d5bfa8c2460ac4e521cef7bd041ba53369d66238bd8fd0b983d0234b",
    "size_bytes": 6309933,
    "updated": "2026-09-22T09:04:47.531Z"
