@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T19:00:03+00:00",
+ "generated_at": "2026-09-22T19:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1125,
-  "scanned": 1125,
+  "task_folders": 1127,
+  "scanned": 1127,
   "connector": 338,
-  "non_connector": 787,
+  "non_connector": 789,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 420,
-  "code": 208,
+  "code": 209,
   "fin": 82,
   "gen": 260,
   "health": 79,
-  "law": 76
+  "law": 77
  },
  "name_prefix": {
   "harbor": 341,
-  "obi": 784
+  "obi": 786
  },
  "connector_services": {
   "google-drive-gym": 185,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131818
+  "new_archives_read": 2,
+  "approx_bytes_read": 263195
  },
  "errors": [],
  "tasks": [
@@ -1787,6 +1787,20 @@
    "sha256": "654c6baf5f884dbc8ac0a99059460603c904f9e10a66a51a0a8fed0c0c9e588d",
    "size_bytes": 8865555,
    "updated": "2026-09-22T18:11:21.806Z"
+  },
+  {
+   "declared_name": "obi/code-c116-storage-cost-allocation-recompute",
+   "declared_short": "code-c116-storage-cost-allocation-recompute",
+   "folder": "code-c116-storage-cost-allocation-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "09172870c685dd280ac677c380e7eb0e2edf9fca819c8f97fb52c55d587e081b",
+   "size_bytes": 5678320,
+   "updated": "2026-09-22T19:00:43.926Z"
   },
   {
    "connector_provenance": null,
@@ -6663,15 +6677,15 @@
    "updated": "2026-09-20T05:10:48.237Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b53-f7-equity-thesis-claim-verification",
    "declared_short": "fin-b53-f7-equity-thesis-claim-verification",
-   "folder": "fin-b53-f7-equity-thesis-claim-verification",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b53-f7-equity-thesis-claim-verification",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "60d9ab08a9aaeb3ca7173fce92d34948d0468bbfe04ddd0bb94e12626c597eca",
    "size_bytes": 7477873,
    "updated": "2026-09-22T18:58:14.581Z"
@@ -13171,6 +13185,20 @@
    "sha256": "93c3a6ebc113d79c1d644d93b855794fe6488838dfe5c3f8e6060dd2b02ea10c",
    "size_bytes": 5162385,
    "updated": "2026-09-18T13:56:25.338Z"
+  },
+  {
+   "declared_name": "obi/law-b39-l30-replevin-client-email-statement-audit",
+   "declared_short": "law-b39-l30-replevin-client-email-statement-audit",
+   "folder": "law-b39-l30-replevin-client-email-statement-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "89407e8ead61e9a71eaa04c5b7c727a827128c0dcc3c39e4f1a1aa4f90562996",
+   "size_bytes": 6673739,
+   "updated": "2026-09-22T19:03:15.606Z"
   },
   {
    "connector_provenance": null,
