@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-22T09:30:06+00:00",
+ "generated_at": "2026-09-22T09:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1074,
-  "scanned": 1074,
-  "connector": 326,
+  "task_folders": 1076,
+  "scanned": 1076,
+  "connector": 328,
   "non_connector": 748,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 122,
-  "unknown": 113,
+  "real": 123,
+  "unknown": 114,
   "synthetic": 91
  },
  "domain": {
-  "unnamed": 390,
+  "unnamed": 392,
   "code": 202,
   "fin": 80,
   "gen": 253,
@@ -22,7 +22,7 @@
   "law": 72
  },
  "name_prefix": {
-  "harbor": 328,
+  "harbor": 330,
   "obi": 746
  },
  "connector_services": {
@@ -32,7 +32,7 @@
   "jira-gym": 167,
   "email-gym": 166,
   "freshdesk-gym": 166,
-  "slack-gym": 144,
+  "slack-gym": 146,
   "slack": 62,
   "notion-gym": 29,
   "email-calendar-gym": 14,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 3,
-  "approx_bytes_read": 395200
+  "approx_bytes_read": 404955
  },
  "errors": [],
  "tasks": [
@@ -183,6 +183,22 @@
    "sha256": "e250ac641c9eaac2e595cc6de5320540caa11c7e122c47cf9ab11cf4b741d472",
    "size_bytes": 6676499,
    "updated": "2026-09-18T21:57:15.239Z"
+  },
+  {
+   "declared_name": "harbor/descriptions-nobody-owns",
+   "declared_short": "descriptions-nobody-owns",
+   "folder": "ASTR_101198",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "7a487dcdd9b87793bd21a7d41263d5002e6403e7f2c213a71831fda09273f4c1",
+   "size_bytes": 11006205,
+   "updated": "2026-09-22T09:31:13.791Z"
   },
   {
    "connector_provenance": "real",
@@ -1573,18 +1589,18 @@
    "updated": "2026-09-09T12:13:35.653Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/code-c101-slo-error-budget-recompute",
    "declared_short": "code-c101-slo-error-budget-recompute",
-   "domain": "code",
    "folder": "code-c101-slo-error-budget-recompute",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "260038fd7b670555a2355cb8753b00e09c85f1b1e7dfccc5690092493106afb2",
-   "size_bytes": 7842427,
-   "updated": "2026-09-22T09:23:21.676Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "956b932d2af7fdbec5cfdfd12ef32b728f4417e4f9e705fcacd3c798b8ba2e68",
+   "size_bytes": 6477677,
+   "updated": "2026-09-22T09:34:37.639Z"
   },
   {
    "connector_provenance": null,
@@ -11351,15 +11367,15 @@
    "updated": "2026-09-21T14:31:51.207Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h124-nonf2f-encounter-billing-audit",
    "declared_short": "health-h124-nonf2f-encounter-billing-audit",
-   "folder": "health-h124-nonf2f-encounter-billing-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h124-nonf2f-encounter-billing-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ea5058ae145177abcd688cdfcfd55f2d769c353764594f4617fb7af42f0062c0",
    "size_bytes": 6196831,
    "updated": "2026-09-22T09:25:23.966Z"
@@ -11897,15 +11913,15 @@
    "updated": "2026-09-16T14:34:13.852Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt3-a8-gastric-balloon-regulatory-timeline",
    "declared_short": "health-tdt3-a8-gastric-balloon-regulatory-timeline",
-   "folder": "health-tdt3-a8-gastric-balloon-regulatory-timeline",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt3-a8-gastric-balloon-regulatory-timeline",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4941189d3c1dd2f29b099d0e576ea9002329323aa45ea973a3c535600736dcdf",
    "size_bytes": 5446077,
    "updated": "2026-09-22T09:26:36.515Z"
@@ -15366,15 +15382,15 @@
    "updated": "2026-09-21T20:06:34.549Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-mg-it-b6-a8-underfloor-area-far-response",
    "declared_short": "tech-mg-it-b6-a8-underfloor-area-far-response",
-   "folder": "tech-mg-it-b6-a8-underfloor-area-far-response",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-mg-it-b6-a8-underfloor-area-far-response",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b9fe47f8410e17f46e1f23fb8a0b3c590313aa3ba7071c6b81b96498faa6ce03",
    "size_bytes": 7805388,
    "updated": "2026-09-22T09:29:06.696Z"
@@ -15808,6 +15824,22 @@
    "sha256": "566d11f7c466e8d56c38778cc639d9901989c6e095db6683ab7158d6a05037e4",
    "size_bytes": 14423278,
    "updated": "2026-09-09T21:00:48.024Z"
+  },
+  {
+   "declared_name": "harbor/the-room-never-says-what-they-are",
+   "declared_short": "the-room-never-says-what-they-are",
+   "folder": "the-room-never-says-what-they-are",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "e7da57a070c46857982a81c106244242a438bb02eb9317e76a08d8a990d89a5b",
+   "size_bytes": 7925565,
+   "updated": "2026-09-22T09:30:20.570Z"
   },
   {
    "connector_provenance": "synthetic",
