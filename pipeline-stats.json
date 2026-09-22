@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T11:00:04+00:00",
+ "generated_at": "2026-09-22T11:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1083,
-  "scanned": 1083,
+  "task_folders": 1085,
+  "scanned": 1085,
   "connector": 330,
-  "non_connector": 753,
+  "non_connector": 755,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 91
  },
  "domain": {
-  "unnamed": 397,
-  "code": 202,
+  "unnamed": 398,
+  "code": 203,
   "fin": 80,
   "gen": 254,
   "health": 77,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 332,
-  "obi": 751
+  "obi": 753
  },
  "connector_services": {
   "google-drive-gym": 184,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263212
  },
  "errors": [],
  "tasks": [
@@ -1379,6 +1379,20 @@
    "sha256": "35a8563dea4b89d44a6cffa0cd4ebb1484673334957e1b876a2785991302f032",
    "size_bytes": 6746808,
    "updated": "2026-09-17T22:03:05.476Z"
+  },
+  {
+   "declared_name": "obi/bus-b46-b4-surf-apparel-fall-buy-plan",
+   "declared_short": "bus-b46-b4-surf-apparel-fall-buy-plan",
+   "folder": "bus-b46-b4-surf-apparel-fall-buy-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "03b6717568b356e0ab8de35e986be31744f65dd6c973a8621c530036ff06ad91",
+   "size_bytes": 7168692,
+   "updated": "2026-09-22T11:03:53.016Z"
   },
   {
    "connector_provenance": null,
@@ -3535,6 +3549,20 @@
    "sha256": "06f40717367db36f13f4d1599e82ac8cc6d2f6bff0a9039e1beb9d96cb64ab04",
    "size_bytes": 7355188,
    "updated": "2026-09-09T17:46:48.254Z"
+  },
+  {
+   "declared_name": "obi/code-c53-backup-retention-reconcile",
+   "declared_short": "code-c53-backup-retention-reconcile",
+   "folder": "code-c53-backup-retention-reconcile",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "a89232b65fed449166068b5387f4c8b0da91f5c0b99ec7ce9ba8d458e8e7c98e",
+   "size_bytes": 6257957,
+   "updated": "2026-09-22T11:02:14.209Z"
   },
   {
    "connector_provenance": null,
