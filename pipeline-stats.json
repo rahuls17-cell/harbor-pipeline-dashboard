@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-22T08:40:03+00:00",
+ "generated_at": "2026-09-22T08:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1067,
-  "scanned": 1067,
-  "connector": 324,
+  "task_folders": 1068,
+  "scanned": 1068,
+  "connector": 325,
   "non_connector": 743,
   "errors": 0
  },
  "connector_provenance": {
   "real": 122,
   "unknown": 113,
-  "synthetic": 89
+  "synthetic": 90
  },
  "domain": {
-  "unnamed": 388,
+  "unnamed": 389,
   "code": 200,
   "fin": 80,
   "gen": 252,
@@ -22,7 +22,7 @@
   "law": 72
  },
  "name_prefix": {
-  "harbor": 326,
+  "harbor": 327,
   "obi": 741
  },
  "connector_services": {
@@ -41,14 +41,14 @@
   "outlook-gym": 11,
   "gws-gym": 7,
   "supabase-gym": 3,
-  "teams-gym": 2,
+  "teams-gym": 3,
   "microsoft_teams-gym": 1,
   "snowflake-gym": 1,
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 139197
  },
  "errors": [],
  "tasks": [
@@ -15706,6 +15706,22 @@
    "sha256": "90f8601892ec83aef1e7f907111e00b703e546ab6b586d27ae97e8e85cce5644",
    "size_bytes": 7545524,
    "updated": "2026-09-17T06:05:27.586Z"
+  },
+  {
+   "declared_name": "harbor/the-riley-patel-i-keep-missing",
+   "declared_short": "the-riley-patel-i-keep-missing",
+   "folder": "the-riley-patel-i-keep-missing",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "teams-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "5938d4c124910451a177f5addd912d80acf9660b42dd374f5fa5e4d310bcce7c",
+   "size_bytes": 9214876,
+   "updated": "2026-09-22T08:45:18.835Z"
   },
   {
    "connector_provenance": "synthetic",
