@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-21T23:25:02+00:00",
+ "generated_at": "2026-09-22T00:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1030,
-  "scanned": 1030,
-  "connector": 315,
-  "non_connector": 715,
+  "task_folders": 1032,
+  "scanned": 1032,
+  "connector": 316,
+  "non_connector": 716,
   "errors": 0
  },
  "connector_provenance": {
   "real": 119,
   "unknown": 111,
-  "synthetic": 85
+  "synthetic": 86
  },
  "domain": {
-  "unnamed": 366,
+  "unnamed": 367,
   "code": 197,
   "fin": 79,
-  "gen": 247,
+  "gen": 248,
   "health": 73,
   "law": 68
  },
  "name_prefix": {
-  "harbor": 317,
-  "obi": 713
+  "harbor": 318,
+  "obi": 714
  },
  "connector_services": {
   "google-drive-gym": 181,
@@ -37,7 +37,7 @@
   "notion-gym": 28,
   "email-calendar-gym": 14,
   "linear-gym": 13,
-  "github-gym": 12,
+  "github-gym": 13,
   "outlook-gym": 10,
   "gws-gym": 7,
   "teams-gym": 2,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 271588
  },
  "errors": [],
  "tasks": [
@@ -7383,6 +7383,20 @@
    "updated": "2026-09-18T21:48:53.602Z"
   },
   {
+   "declared_name": "obi/gen-g238-chapter-merge-apa-audit",
+   "declared_short": "gen-g238-chapter-merge-apa-audit",
+   "folder": "gen-g238-chapter-merge-apa-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "791691ff310ff1d578222d3dd09cff35398b3b0d92bf4376a5686b9abb6cdcef",
+   "size_bytes": 10119391,
+   "updated": "2026-09-22T00:12:29.777Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g244-story-timeline-consistency-audit",
@@ -11917,6 +11931,22 @@
    "sha256": "fa12051edb91b6e7817bca0e2b925af9d73067cdf3109ed36b466ea499820f36",
    "size_bytes": 7789860,
    "updated": "2026-09-19T13:20:23.277Z"
+  },
+  {
+   "declared_name": "harbor/it-went-in-under-another-number",
+   "declared_short": "it-went-in-under-another-number",
+   "folder": "it-went-in-under-another-number",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "74f63772fc45c21ecae6bbbd9c9622af8fc4760eb523ed0b766416946db99267",
+   "size_bytes": 12372526,
+   "updated": "2026-09-22T00:14:50.652Z"
   },
   {
    "connector_provenance": "synthetic",
