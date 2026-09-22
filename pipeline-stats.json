@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T00:15:03+00:00",
+ "generated_at": "2026-09-22T00:20:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1032,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 271588
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -7383,15 +7383,15 @@
    "updated": "2026-09-18T21:48:53.602Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g238-chapter-merge-apa-audit",
    "declared_short": "gen-g238-chapter-merge-apa-audit",
-   "folder": "gen-g238-chapter-merge-apa-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g238-chapter-merge-apa-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "791691ff310ff1d578222d3dd09cff35398b3b0d92bf4376a5686b9abb6cdcef",
    "size_bytes": 10119391,
    "updated": "2026-09-22T00:12:29.777Z"
@@ -11933,17 +11933,17 @@
    "updated": "2026-09-19T13:20:23.277Z"
   },
   {
-   "declared_name": "harbor/it-went-in-under-another-number",
-   "declared_short": "it-went-in-under-another-number",
-   "folder": "it-went-in-under-another-number",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/it-went-in-under-another-number",
+   "declared_short": "it-went-in-under-another-number",
    "domain": null,
+   "folder": "it-went-in-under-another-number",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "74f63772fc45c21ecae6bbbd9c9622af8fc4760eb523ed0b766416946db99267",
    "size_bytes": 12372526,
    "updated": "2026-09-22T00:14:50.652Z"
