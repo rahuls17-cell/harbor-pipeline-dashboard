@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T02:05:02+00:00",
+ "generated_at": "2026-09-22T02:10:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1040,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131576
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -7915,15 +7915,15 @@
    "updated": "2026-09-13T07:45:08.734Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g403-crf-segment-reconciliation-audit",
    "declared_short": "gen-g403-crf-segment-reconciliation-audit",
-   "folder": "gen-g403-v1",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g403-v1",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "adbf6989c6a2dba2a33233a52632655b1e6f119dd6462a506964f7a966b3d174",
    "size_bytes": 5579087,
    "updated": "2026-09-22T02:05:01.032Z"
