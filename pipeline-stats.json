@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T13:00:06+00:00",
+ "generated_at": "2026-09-22T13:05:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1096,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131745
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -14205,15 +14205,15 @@
    "updated": "2026-09-20T22:24:30.872Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/sci-b51-a8-significant-figure-rule-audit",
    "declared_short": "sci-b51-a8-significant-figure-rule-audit",
-   "folder": "sci-b51-a8-significant-figure-rule-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "sci-b51-a8-significant-figure-rule-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d95d505f1b941cda0f075b57174b5b51d7663e04bd74272c33b08636b82b2d12",
    "size_bytes": 3789903,
    "updated": "2026-09-22T12:58:59.813Z"
