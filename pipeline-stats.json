@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T09:55:04+00:00",
+ "generated_at": "2026-09-22T10:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1078,
-  "scanned": 1078,
+  "task_folders": 1079,
+  "scanned": 1079,
   "connector": 328,
-  "non_connector": 750,
+  "non_connector": 751,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 91
  },
  "domain": {
-  "unnamed": 392,
+  "unnamed": 393,
   "code": 202,
   "fin": 80,
   "gen": 254,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 330,
-  "obi": 748
+  "obi": 749
  },
  "connector_services": {
   "google-drive-gym": 183,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263717
+  "new_archives_read": 1,
+  "approx_bytes_read": 131438
  },
  "errors": [],
  "tasks": [
@@ -1405,6 +1405,20 @@
    "sha256": "1fac1a58e4d5fa07b9e45ca29757fa81f25ec3c6a369ce3a8a4f08e6909ae004",
    "size_bytes": 7497805,
    "updated": "2026-09-22T07:09:57.156Z"
+  },
+  {
+   "declared_name": "obi/bus-b49-b7-promotional-price-buildup-recompute",
+   "declared_short": "bus-b49-b7-promotional-price-buildup-recompute",
+   "folder": "bus-b49-b7-promotional-price-buildup-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "d5e0dc1601b9fcbfff92dc06f3d36bce3d09493f1229126213fb8c48c3338ab9",
+   "size_bytes": 5711217,
+   "updated": "2026-09-22T09:56:17.602Z"
   },
   {
    "connector_provenance": null,
@@ -9507,15 +9521,15 @@
    "updated": "2026-09-11T13:01:44.175Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g866-lease-termination-hardship-waiver-audit",
    "declared_short": "gen-g866-lease-termination-hardship-waiver-audit",
-   "folder": "gen-g866-lease-termination-hardship-waiver-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g866-lease-termination-hardship-waiver-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8fcfa4e1adcc42d514f41e9875e63efc19203d806c4763676ef8615d54b6f052",
    "size_bytes": 8107893,
    "updated": "2026-09-22T09:53:53.263Z"
@@ -13047,15 +13061,15 @@
    "updated": "2026-09-21T19:43:31.862Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b47-l3-term-sheet-definiteness-assessment",
    "declared_short": "law-b47-l3-term-sheet-definiteness-assessment",
-   "folder": "law-b47-l3-term-sheet-definiteness-assessment",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b47-l3-term-sheet-definiteness-assessment",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a53ffeea05745568c0202498d4e2825ed3598dbe55f3f03bc2d7a5f9f763daf6",
    "size_bytes": 6646874,
    "updated": "2026-09-22T09:50:09.594Z"
