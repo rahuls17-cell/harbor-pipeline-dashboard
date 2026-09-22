@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-09-22T19:10:03+00:00",
+ "generated_at": "2026-09-22T19:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1127,
-  "scanned": 1127,
-  "connector": 338,
-  "non_connector": 789,
+  "task_folders": 1129,
+  "scanned": 1129,
+  "connector": 339,
+  "non_connector": 790,
   "errors": 0
  },
  "connector_provenance": {
   "real": 125,
-  "unknown": 118,
+  "unknown": 119,
   "synthetic": 95
  },
  "domain": {
-  "unnamed": 420,
+  "unnamed": 421,
   "code": 209,
   "fin": 82,
   "gen": 260,
-  "health": 79,
+  "health": 80,
   "law": 77
  },
  "name_prefix": {
-  "harbor": 341,
-  "obi": 786
+  "harbor": 342,
+  "obi": 787
  },
  "connector_services": {
-  "google-drive-gym": 185,
-  "zeta3-sql-gym": 175,
-  "confluence-gym": 170,
-  "jira-gym": 169,
-  "email-gym": 168,
-  "freshdesk-gym": 168,
-  "slack-gym": 151,
+  "google-drive-gym": 186,
+  "zeta3-sql-gym": 176,
+  "confluence-gym": 171,
+  "jira-gym": 170,
+  "email-gym": 169,
+  "freshdesk-gym": 169,
+  "slack-gym": 152,
   "slack": 63,
   "notion-gym": 31,
   "email-calendar-gym": 15,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 267995
  },
  "errors": [],
  "tasks": [
@@ -757,6 +757,28 @@
    "sha256": "bccc1900a31b29be22b2d3219aeb2c5b16d4f9656b6e7a89dfc76056cc92bc1d",
    "size_bytes": 12334118,
    "updated": "2026-09-09T20:36:20.193Z"
+  },
+  {
+   "declared_name": "harbor/audit-split-allocation-goal-ats-reversal-correctness-on-cleared-authorizations",
+   "declared_short": "audit-split-allocation-goal-ats-reversal-correctness-on-cleared-authorizations",
+   "folder": "audit-split-allocation-goal-ats-reversal-correctness-on-cleared-authorizations",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "72b64388d27ac19df976864dda86f27b19027b7fba5eceefd01ee8bcfcd1cfc6",
+   "size_bytes": 10061233,
+   "updated": "2026-09-22T19:11:19.626Z"
   },
   {
    "connector_provenance": "unknown",
@@ -11673,6 +11695,20 @@
    "sha256": "164f8a9f6b0423df68ec0d72ef4d7fdda418d11d33250ae25136d41d9c0f03cd",
    "size_bytes": 6930775,
    "updated": "2026-09-20T13:11:45.524Z"
+  },
+  {
+   "declared_name": "obi/health-b43-h8-elimination-diet-trial-reconstruction",
+   "declared_short": "health-b43-h8-elimination-diet-trial-reconstruction",
+   "folder": "health-b43-h8-elimination-diet-trial-reconstruction",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "6eb7c431d1f5576b9735f3e9396f5bf5b7fd39980d030e927f553a2c7f9cb3fb",
+   "size_bytes": 4634835,
+   "updated": "2026-09-22T19:11:09.250Z"
   },
   {
    "connector_provenance": null,
