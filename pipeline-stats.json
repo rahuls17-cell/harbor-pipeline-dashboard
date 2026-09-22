@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T15:00:06+00:00",
+ "generated_at": "2026-09-22T15:05:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1105,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263709
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1719,15 +1719,15 @@
    "updated": "2026-09-13T07:51:30.729Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c118-cdc-replication-lag-reconciliation",
    "declared_short": "code-c118-cdc-replication-lag-reconciliation",
-   "folder": "code-c118-cdc-replication-lag-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c118-cdc-replication-lag-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6fde8f0f7be41033b81b3777abe6a7f1e5495ed12729b4253bee32231ba7926e",
    "size_bytes": 8662479,
    "updated": "2026-09-22T14:56:50.526Z"
@@ -13655,15 +13655,15 @@
    "updated": "2026-09-06T17:22:25.364Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-l91-lessee-tax-treatment-audit",
    "declared_short": "law-l91-lessee-tax-treatment-audit",
-   "folder": "law-l91-lessee-tax-treatment-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-l91-lessee-tax-treatment-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "af4c5acae955bb827b75f34d4cadb865c8217c94752b443675c17d4f4ff13e83",
    "size_bytes": 5069196,
    "updated": "2026-09-22T14:57:31.651Z"
