@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T17:55:06+00:00",
+ "generated_at": "2026-09-22T18:00:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1120,
-  "scanned": 1120,
+  "task_folders": 1121,
+  "scanned": 1121,
   "connector": 338,
-  "non_connector": 782,
+  "non_connector": 783,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 418,
-  "code": 206,
+  "code": 207,
   "fin": 81,
   "gen": 260,
   "health": 79,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 341,
-  "obi": 779
+  "obi": 780
  },
  "connector_services": {
   "google-drive-gym": 185,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 401653
+  "new_archives_read": 1,
+  "approx_bytes_read": 131501
  },
  "errors": [],
  "tasks": [
@@ -1787,6 +1787,20 @@
    "sha256": "6554b3af370bc895a80f4baeaebdc0776d1ea4049fc5fcdfdd856cd17ccebd55",
    "size_bytes": 6224307,
    "updated": "2026-09-21T16:03:00.341Z"
+  },
+  {
+   "declared_name": "obi/code-c13-feature-flag-cleanup",
+   "declared_short": "code-c13-feature-flag-cleanup",
+   "folder": "code-c13-feature-flag-cleanup",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "ea0adc459bbb848e7468064ffa8a34916c1528200bb05f6eeabf7c158e330e85",
+   "size_bytes": 7616276,
+   "updated": "2026-09-22T17:55:42.743Z"
   },
   {
    "connector_provenance": null,
@@ -7071,15 +7085,15 @@
    "updated": "2026-09-19T06:42:02.285Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1121-learning-path-unlock-audit",
    "declared_short": "gen-g1121-learning-path-unlock-audit",
-   "folder": "gen-g1121-learning-path-unlock-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1121-learning-path-unlock-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5a9fb23373ebb9f4dcaac3f0bc5fdc835c5ea265a40c989714e15fdd0a7c887e",
    "size_bytes": 5116120,
    "updated": "2026-09-22T17:50:26.708Z"
@@ -12235,15 +12249,15 @@
    "updated": "2026-09-21T07:02:51.948Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt3-a1-pt-licensure-english-score-adjudication",
    "declared_short": "health-tdt3-a1-pt-licensure-english-score-adjudication",
-   "folder": "health-tdt3-a1-pt-licensure-english-score-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt3-a1-pt-licensure-english-score-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4e2e28211460fefb756f83caed71a6521388834cb416cb4c595cc0ffe31f99f2",
    "size_bytes": 6206128,
    "updated": "2026-09-22T17:50:04.957Z"
@@ -14049,17 +14063,17 @@
    "updated": "2026-09-19T11:45:33.484Z"
   },
   {
-   "declared_name": "harbor/only-what-is-written-down",
-   "declared_short": "only-what-is-written-down",
-   "folder": "only-what-is-written-down",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/only-what-is-written-down",
+   "declared_short": "only-what-is-written-down",
    "domain": null,
+   "folder": "only-what-is-written-down",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0e6c238e672d8cfe7ed220d4ca1c5c89d9a20b201068da5ef47f88e2347b8605",
    "size_bytes": 6669015,
    "updated": "2026-09-22T17:52:31.774Z"
