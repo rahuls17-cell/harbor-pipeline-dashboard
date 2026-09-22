@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T00:25:02+00:00",
+ "generated_at": "2026-09-22T00:30:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1032,
-  "scanned": 1032,
+  "task_folders": 1033,
+  "scanned": 1033,
   "connector": 316,
-  "non_connector": 716,
+  "non_connector": 717,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 197,
   "fin": 79,
   "gen": 248,
-  "health": 73,
+  "health": 74,
   "law": 68
  },
  "name_prefix": {
   "harbor": 318,
-  "obi": 714
+  "obi": 715
  },
  "connector_services": {
   "google-drive-gym": 181,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131437
  },
  "errors": [],
  "tasks": [
@@ -11257,6 +11257,20 @@
    "sha256": "8d3846a1b3f5d200b9d990c62388c121ef17a80e659526857925e6c44c91a496",
    "size_bytes": 6183252,
    "updated": "2026-09-20T02:08:37.767Z"
+  },
+  {
+   "declared_name": "obi/health-h571-toucan-diet-compliance-adjudication",
+   "declared_short": "health-h571-toucan-diet-compliance-adjudication",
+   "folder": "health-h571-toucan-diet-compliance-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "07f5c13003ce38bfa7f36d3b739e9f6503d2774af508e710dd0a4b013efdeaf1",
+   "size_bytes": 7954635,
+   "updated": "2026-09-22T00:28:33.648Z"
   },
   {
    "connector_provenance": null,
