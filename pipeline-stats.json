@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T15:25:04+00:00",
+ "generated_at": "2026-09-22T15:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1107,
-  "scanned": 1107,
+  "task_folders": 1108,
+  "scanned": 1108,
   "connector": 334,
-  "non_connector": 773,
+  "non_connector": 774,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 81,
   "gen": 257,
   "health": 78,
-  "law": 75
+  "law": 76
  },
  "name_prefix": {
   "harbor": 337,
-  "obi": 770
+  "obi": 771
  },
  "connector_services": {
   "google-drive-gym": 184,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131895
  },
  "errors": [],
  "tasks": [
@@ -13247,6 +13247,20 @@
    "sha256": "31d535cddf5102b11ab5f0483dc85e66681471c1f7f747c7bd9678d896653eb7",
    "size_bytes": 5936503,
    "updated": "2026-09-21T15:45:36.430Z"
+  },
+  {
+   "declared_name": "obi/law-b45-l10-sanctions-screening-coverage-reconciliation",
+   "declared_short": "law-b45-l10-sanctions-screening-coverage-reconciliation",
+   "folder": "law-b45-l10-sanctions-screening-coverage-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "c91cfc2d6c0af0d849dfc09ca91161cb0ee7dae15a1ece9c0a6a180df891d104",
+   "size_bytes": 9965065,
+   "updated": "2026-09-22T15:26:02.442Z"
   },
   {
    "connector_provenance": null,
