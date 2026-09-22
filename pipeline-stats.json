@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T12:00:03+00:00",
+ "generated_at": "2026-09-22T12:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1090,
-  "scanned": 1090,
+  "task_folders": 1091,
+  "scanned": 1091,
   "connector": 331,
-  "non_connector": 759,
+  "non_connector": 760,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 402,
   "code": 203,
-  "fin": 80,
+  "fin": 81,
   "gen": 255,
   "health": 77,
   "law": 73
  },
  "name_prefix": {
   "harbor": 333,
-  "obi": 757
+  "obi": 758
  },
  "connector_services": {
   "google-drive-gym": 184,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263378
  },
  "errors": [],
  "tasks": [
@@ -6485,6 +6485,20 @@
    "updated": "2026-09-11T07:40:24.286Z"
   },
   {
+   "declared_name": "obi/fin-f15-deferred-tax-reconciliation",
+   "declared_short": "fin-f15-deferred-tax-reconciliation",
+   "folder": "fin-f15-deferred-tax-reconciliation-FINAL-v59-treatment-semantic-fairness-fixed",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "0edf1e06e85414f0de7d63b049802ad24cfddaf177bee4f92a98fbf4b4e1e927",
+   "size_bytes": 3832953,
+   "updated": "2026-09-22T12:07:14.359Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "harbor/fin-f16-cash-flow-indirect-rebuild",
@@ -6569,18 +6583,18 @@
    "updated": "2026-09-20T23:14:44.911Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/fin-f36-transaction-price-allocation",
    "declared_short": "fin-f36-transaction-price-allocation",
-   "domain": "fin",
    "folder": "fin-f36-transaction-price-allocation",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "93df1f75fd203bc393e74b427cf9ea3284914f534afe8f2a249087bca59f6b47",
-   "size_bytes": 9421207,
-   "updated": "2026-09-21T16:05:57.022Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "aa329c3c5d35407f6f09ca59bd420c0d5025a1bfe3bb1ffb9dc4473e2c1f5252",
+   "size_bytes": 8285942,
+   "updated": "2026-09-22T12:08:04.702Z"
   },
   {
    "connector_provenance": null,
