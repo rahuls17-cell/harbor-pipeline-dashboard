@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T11:20:04+00:00",
+ "generated_at": "2026-09-22T11:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1087,
-  "scanned": 1087,
+  "task_folders": 1088,
+  "scanned": 1088,
   "connector": 331,
-  "non_connector": 756,
+  "non_connector": 757,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 400,
   "code": 203,
   "fin": 80,
-  "gen": 254,
+  "gen": 255,
   "health": 77,
   "law": 73
  },
  "name_prefix": {
   "harbor": 333,
-  "obi": 754
+  "obi": 755
  },
  "connector_services": {
   "google-drive-gym": 184,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131540
  },
  "errors": [],
  "tasks": [
@@ -9551,6 +9551,20 @@
    "sha256": "7beb5a73049a016beec4a2edddd0d584e452a1038186f6953d699edd1e930214",
    "size_bytes": 5996998,
    "updated": "2026-09-22T09:07:41.731Z"
+  },
+  {
+   "declared_name": "obi/gen-g837-slide-template-baseline-compliance-audit",
+   "declared_short": "gen-g837-slide-template-baseline-compliance-audit",
+   "folder": "gen-g837-slide-template-baseline-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "48685640fb73d923d67e73d09f081843f2d5e6ed6bcc40ace6db7e9e2ecb0dcc",
+   "size_bytes": 7351361,
+   "updated": "2026-09-22T11:20:08.225Z"
   },
   {
    "connector_provenance": null,
