@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-22T16:40:04+00:00",
+ "generated_at": "2026-09-22T17:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1111,
-  "scanned": 1111,
-  "connector": 334,
+  "task_folders": 1112,
+  "scanned": 1112,
+  "connector": 335,
   "non_connector": 777,
   "errors": 0
  },
  "connector_provenance": {
   "real": 125,
-  "unknown": 115,
+  "unknown": 116,
   "synthetic": 94
  },
  "domain": {
-  "unnamed": 412,
+  "unnamed": 413,
   "code": 205,
   "fin": 81,
   "gen": 259,
@@ -22,17 +22,17 @@
   "law": 76
  },
  "name_prefix": {
-  "harbor": 337,
+  "harbor": 338,
   "obi": 774
  },
  "connector_services": {
-  "google-drive-gym": 184,
-  "zeta3-sql-gym": 174,
-  "confluence-gym": 169,
-  "jira-gym": 168,
-  "email-gym": 167,
-  "freshdesk-gym": 167,
-  "slack-gym": 148,
+  "google-drive-gym": 185,
+  "zeta3-sql-gym": 175,
+  "confluence-gym": 170,
+  "jira-gym": 169,
+  "email-gym": 168,
+  "freshdesk-gym": 168,
+  "slack-gym": 149,
   "slack": 63,
   "notion-gym": 30,
   "email-calendar-gym": 15,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 134610
  },
  "errors": [],
  "tasks": [
@@ -5741,6 +5741,28 @@
    "sha256": "fb9140040d665a3e7384f7517ad3c80233e5b88f62ef1660f637969c780ad588",
    "size_bytes": 11774989,
    "updated": "2026-09-19T02:45:55.967Z"
+  },
+  {
+   "declared_name": "harbor/explain-savings-interest-change-for-account-1385-between-sep-and-oct-2",
+   "declared_short": "explain-savings-interest-change-for-account-1385-between-sep-and-oct-2",
+   "folder": "explain-savings-interest-change-for-account-1385-between-sep-and-oct-2",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "a83feffa8899638344bbf1f31b9b2e3bf26be3aead8bad9b4937d4e08a4b9221",
+   "size_bytes": 5771934,
+   "updated": "2026-09-22T17:09:22.797Z"
   },
   {
    "connector_provenance": "synthetic",
