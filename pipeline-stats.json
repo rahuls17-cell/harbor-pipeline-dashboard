@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T18:20:03+00:00",
+ "generated_at": "2026-09-22T18:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1122,
-  "scanned": 1122,
+  "task_folders": 1123,
+  "scanned": 1123,
   "connector": 338,
-  "non_connector": 784,
+  "non_connector": 785,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 95
  },
  "domain": {
-  "unnamed": 418,
+  "unnamed": 419,
   "code": 208,
   "fin": 81,
   "gen": 260,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 341,
-  "obi": 781
+  "obi": 782
  },
  "connector_services": {
   "google-drive-gym": 185,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131439
  },
  "errors": [],
  "tasks": [
@@ -1311,6 +1311,20 @@
    "sha256": "d0e4ead17e583068d0710a56454b1d874c85a2097e037a6e7960b49830083a76",
    "size_bytes": 8790023,
    "updated": "2026-09-13T08:14:15.347Z"
+  },
+  {
+   "declared_name": "obi/bus-b108-b15-executive-intro-email-figure-verification",
+   "declared_short": "bus-b108-b15-executive-intro-email-figure-verification",
+   "folder": "bus-b108-b15-executive-intro-email-figure-verification",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "9fa6ef4c0fb0f2e927a85370ac3fdd096515a86b62298afee52683342043a889",
+   "size_bytes": 5854664,
+   "updated": "2026-09-22T18:21:05.895Z"
   },
   {
    "connector_provenance": null,
