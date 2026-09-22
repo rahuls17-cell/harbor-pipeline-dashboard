@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T18:55:04+00:00",
+ "generated_at": "2026-09-22T19:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1124,
-  "scanned": 1124,
+  "task_folders": 1125,
+  "scanned": 1125,
   "connector": 338,
-  "non_connector": 786,
+  "non_connector": 787,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 420,
   "code": 208,
-  "fin": 81,
+  "fin": 82,
   "gen": 260,
   "health": 79,
   "law": 76
  },
  "name_prefix": {
   "harbor": 341,
-  "obi": 783
+  "obi": 784
  },
  "connector_services": {
   "google-drive-gym": 185,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131818
  },
  "errors": [],
  "tasks": [
@@ -6661,6 +6661,20 @@
    "sha256": "d19228492190d66b76202fd8a7a0be35f90052d636edf20a8879687e52ac3b2d",
    "size_bytes": 10534300,
    "updated": "2026-09-20T05:10:48.237Z"
+  },
+  {
+   "declared_name": "obi/fin-b53-f7-equity-thesis-claim-verification",
+   "declared_short": "fin-b53-f7-equity-thesis-claim-verification",
+   "folder": "fin-b53-f7-equity-thesis-claim-verification",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "60d9ab08a9aaeb3ca7173fce92d34948d0468bbfe04ddd0bb94e12626c597eca",
+   "size_bytes": 7477873,
+   "updated": "2026-09-22T18:58:14.581Z"
   },
   {
    "connector_provenance": null,
