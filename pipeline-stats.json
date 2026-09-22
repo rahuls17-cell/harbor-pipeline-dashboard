@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T06:15:02+00:00",
+ "generated_at": "2026-09-22T06:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1055,
-  "scanned": 1055,
+  "task_folders": 1057,
+  "scanned": 1057,
   "connector": 319,
-  "non_connector": 736,
+  "non_connector": 738,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 87
  },
  "domain": {
-  "unnamed": 378,
+  "unnamed": 380,
   "code": 199,
   "fin": 80,
   "gen": 252,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 321,
-  "obi": 734
+  "obi": 736
  },
  "connector_services": {
   "google-drive-gym": 182,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263533
  },
  "errors": [],
  "tasks": [
@@ -15002,6 +15002,34 @@
    "sha256": "626ae44d4f5faa7ac300770d4f07a231809dda45fa427d3a62c89b2709799bd2",
    "size_bytes": 6539505,
    "updated": "2026-09-21T01:35:49.055Z"
+  },
+  {
+   "declared_name": "obi/tech-b61-t2-suspicious-link-triage-register",
+   "declared_short": "tech-b61-t2-suspicious-link-triage-register",
+   "folder": "tech-b61-t2-suspicious-link-triage-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "5678a42586a19b645845a0d5ecfecd0d3ea1c2a2c298a44a1520e8266ad2f5b9",
+   "size_bytes": 5250365,
+   "updated": "2026-09-22T06:48:49.143Z"
+  },
+  {
+   "declared_name": "obi/tech-b61-t3-vless-reality-client-config-mismatch-audit",
+   "declared_short": "tech-b61-t3-vless-reality-client-config-mismatch-audit",
+   "folder": "tech-b61-t3-vless-reality-client-config-mismatch-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "ebac925bf243b5c114f75cb5ea91f76d87b3adafb89a528c5eca35535799e83a",
+   "size_bytes": 7252266,
+   "updated": "2026-09-22T06:48:50.994Z"
   },
   {
    "connector_provenance": null,
