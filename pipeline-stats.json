@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T04:45:03+00:00",
+ "generated_at": "2026-09-22T04:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1047,
-  "scanned": 1047,
+  "task_folders": 1048,
+  "scanned": 1048,
   "connector": 318,
-  "non_connector": 729,
+  "non_connector": 730,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 374,
-  "code": 198,
+  "code": 199,
   "fin": 79,
   "gen": 252,
   "health": 74,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 320,
-  "obi": 727
+  "obi": 728
  },
  "connector_services": {
   "google-drive-gym": 182,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131580
  },
  "errors": [],
  "tasks": [
@@ -2153,6 +2153,20 @@
    "sha256": "f45b958149ddd258fc665960a501c9a7ddb1ba8bc19f58b15aab392b8e4ed858",
    "size_bytes": 8945004,
    "updated": "2026-09-19T06:34:52.141Z"
+  },
+  {
+   "declared_name": "obi/code-c304-cabin-component-airworthiness-audit",
+   "declared_short": "code-c304-cabin-component-airworthiness-audit",
+   "folder": "code-c304-cabin-component-airworthiness-audit-v1",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "bbefe4f345a74f03b87b211953cddb1557b69d549f58d082a3581367f7f3c53e",
+   "size_bytes": 6510306,
+   "updated": "2026-09-22T04:45:59.086Z"
   },
   {
    "connector_provenance": null,
