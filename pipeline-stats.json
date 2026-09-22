@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T15:35:02+00:00",
+ "generated_at": "2026-09-22T15:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1108,
-  "scanned": 1108,
+  "task_folders": 1109,
+  "scanned": 1109,
   "connector": 334,
-  "non_connector": 774,
+  "non_connector": 775,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 411,
   "code": 205,
   "fin": 81,
-  "gen": 257,
+  "gen": 258,
   "health": 78,
   "law": 76
  },
  "name_prefix": {
   "harbor": 337,
-  "obi": 771
+  "obi": 772
  },
  "connector_services": {
   "google-drive-gym": 184,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131622
  },
  "errors": [],
  "tasks": [
@@ -9959,6 +9959,20 @@
    "sha256": "77df8449dc916d99dc9eb1b1c56f15e1dc215425212f64ccab7a31f465989947",
    "size_bytes": 4158480,
    "updated": "2026-09-06T02:21:35.928Z"
+  },
+  {
+   "declared_name": "obi/gen-g921-hoa-entrance-signage-landscaping-audit",
+   "declared_short": "gen-g921-hoa-entrance-signage-landscaping-audit",
+   "folder": "gen-g921-hoa-entrance-signage-landscaping-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "f4c729b599c5f7597e4c28d917d563785d18a7fae422cadd85905a0c36f6e734",
+   "size_bytes": 7836503,
+   "updated": "2026-09-22T15:36:48.198Z"
   },
   {
    "connector_provenance": null,
