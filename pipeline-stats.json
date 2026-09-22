@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T22:45:04+00:00",
+ "generated_at": "2026-09-22T22:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1151,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131652
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -10593,15 +10593,15 @@
    "updated": "2026-09-22T15:52:03.164Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-sc05-a7-translation-glossary-audit",
    "declared_short": "gen-sc05-a7-translation-glossary-audit",
-   "folder": "gen-sc05-a7-translation-glossary-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-sc05-a7-translation-glossary-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "eebc4c972f7883d7db705f254d584e24d5bcd6a081f5f9493e7c6b5ae6c08eab",
    "size_bytes": 4308953,
    "updated": "2026-09-22T22:40:54.465Z"
