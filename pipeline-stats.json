@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T09:25:03+00:00",
+ "generated_at": "2026-09-22T09:30:06+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1072,
-  "scanned": 1072,
+  "task_folders": 1074,
+  "scanned": 1074,
   "connector": 326,
-  "non_connector": 746,
+  "non_connector": 748,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 202,
   "fin": 80,
   "gen": 253,
-  "health": 75,
+  "health": 77,
   "law": 72
  },
  "name_prefix": {
   "harbor": 328,
-  "obi": 744
+  "obi": 746
  },
  "connector_services": {
   "google-drive-gym": 183,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131509
+  "new_archives_read": 3,
+  "approx_bytes_read": 395200
  },
  "errors": [],
  "tasks": [
@@ -1573,15 +1573,15 @@
    "updated": "2026-09-09T12:13:35.653Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c101-slo-error-budget-recompute",
    "declared_short": "code-c101-slo-error-budget-recompute",
-   "folder": "code-c101-slo-error-budget-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c101-slo-error-budget-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "260038fd7b670555a2355cb8753b00e09c85f1b1e7dfccc5690092493106afb2",
    "size_bytes": 7842427,
    "updated": "2026-09-22T09:23:21.676Z"
@@ -11351,6 +11351,20 @@
    "updated": "2026-09-21T14:31:51.207Z"
   },
   {
+   "declared_name": "obi/health-h124-nonf2f-encounter-billing-audit",
+   "declared_short": "health-h124-nonf2f-encounter-billing-audit",
+   "folder": "health-h124-nonf2f-encounter-billing-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "ea5058ae145177abcd688cdfcfd55f2d769c353764594f4617fb7af42f0062c0",
+   "size_bytes": 6196831,
+   "updated": "2026-09-22T09:25:23.966Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-h125-eye-drop-lens-compatibility-audit",
@@ -11881,6 +11895,20 @@
    "sha256": "8414a0e702025183ef0d56ca3e01971ac95c7a9edf50fce1e8eb2dc6d88bca96",
    "size_bytes": 5280886,
    "updated": "2026-09-16T14:34:13.852Z"
+  },
+  {
+   "declared_name": "obi/health-tdt3-a8-gastric-balloon-regulatory-timeline",
+   "declared_short": "health-tdt3-a8-gastric-balloon-regulatory-timeline",
+   "folder": "health-tdt3-a8-gastric-balloon-regulatory-timeline",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "4941189d3c1dd2f29b099d0e576ea9002329323aa45ea973a3c535600736dcdf",
+   "size_bytes": 5446077,
+   "updated": "2026-09-22T09:26:36.515Z"
   },
   {
    "connector_provenance": null,
@@ -15338,18 +15366,18 @@
    "updated": "2026-09-21T20:06:34.549Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/tech-mg-it-b6-a8-underfloor-area-far-response",
    "declared_short": "tech-mg-it-b6-a8-underfloor-area-far-response",
-   "domain": null,
    "folder": "tech-mg-it-b6-a8-underfloor-area-far-response",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "1cf2786a41d6a1eab35c5d579c18ee3b8d08971fca4a2fb0a6fe0b6db3c75379",
-   "size_bytes": 6591408,
-   "updated": "2026-09-21T20:50:30.272Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "b9fe47f8410e17f46e1f23fb8a0b3c590313aa3ba7071c6b81b96498faa6ce03",
+   "size_bytes": 7805388,
+   "updated": "2026-09-22T09:29:06.696Z"
   },
   {
    "connector_provenance": null,
