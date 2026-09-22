@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T03:10:02+00:00",
+ "generated_at": "2026-09-22T03:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1041,
-  "scanned": 1041,
+  "task_folders": 1042,
+  "scanned": 1042,
   "connector": 317,
-  "non_connector": 724,
+  "non_connector": 725,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 370,
   "code": 198,
   "fin": 79,
-  "gen": 251,
+  "gen": 252,
   "health": 74,
   "law": 69
  },
  "name_prefix": {
   "harbor": 319,
-  "obi": 722
+  "obi": 723
  },
  "connector_services": {
   "google-drive-gym": 182,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131665
  },
  "errors": [],
  "tasks": [
@@ -7745,6 +7745,20 @@
    "sha256": "47468e7ade03f1ba9d85c137037314f0983dfe998a617e3a39f261bd763b828d",
    "size_bytes": 9536414,
    "updated": "2026-09-21T16:00:06.268Z"
+  },
+  {
+   "declared_name": "obi/gen-g316-consensus-variance-audit",
+   "declared_short": "gen-g316-consensus-variance-audit",
+   "folder": "gen-g316-consensus-variance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "d429ee23333adb2232c3528a6b963868bf55c65adfb05cf84a26570900a5ba63",
+   "size_bytes": 9277710,
+   "updated": "2026-09-22T03:22:50.607Z"
   },
   {
    "connector_provenance": null,
