@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T05:20:04+00:00",
+ "generated_at": "2026-09-22T05:25:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1052,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131567
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -11625,15 +11625,15 @@
    "updated": "2026-09-06T17:20:28.018Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h85-gp-endocrine-curriculum-coverage-audit",
    "declared_short": "health-h85-gp-endocrine-curriculum-coverage-audit",
-   "folder": "health-h85-gp-endocrine-curriculum-coverage-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h85-gp-endocrine-curriculum-coverage-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d95b5b8b969ad01e3bb8f5dce7fcdc52a9ce9bd9d6f040cdfa3b8bded1b45979",
    "size_bytes": 11630500,
    "updated": "2026-09-22T05:17:51.035Z"
