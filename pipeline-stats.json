@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-22T10:15:05+00:00",
+ "generated_at": "2026-09-22T10:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1081,
-  "scanned": 1081,
-  "connector": 328,
+  "task_folders": 1082,
+  "scanned": 1082,
+  "connector": 329,
   "non_connector": 753,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 123,
+  "real": 124,
   "unknown": 114,
   "synthetic": 91
  },
  "domain": {
-  "unnamed": 395,
+  "unnamed": 396,
   "code": 202,
   "fin": 80,
   "gen": 254,
@@ -22,7 +22,7 @@
   "law": 73
  },
  "name_prefix": {
-  "harbor": 330,
+  "harbor": 331,
   "obi": 751
  },
  "connector_services": {
@@ -32,7 +32,7 @@
   "jira-gym": 167,
   "email-gym": 166,
   "freshdesk-gym": 166,
-  "slack-gym": 146,
+  "slack-gym": 147,
   "slack": 62,
   "notion-gym": 29,
   "email-calendar-gym": 14,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131452
+  "approx_bytes_read": 133816
  },
  "errors": [],
  "tasks": [
@@ -231,6 +231,22 @@
    "sha256": "ca2d9cc7539bd6e5782d106ce13dc90c606ae6471401343c71734af081b9dd15",
    "size_bytes": 7750564,
    "updated": "2026-09-21T23:18:52.047Z"
+  },
+  {
+   "declared_name": "harbor/the-standup-apps-we-had",
+   "declared_short": "the-standup-apps-we-had",
+   "folder": "ASTR_101253",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "45fae49194892b58a990458cdf848742bc8aac1b437b8fe5bc85437947124d78",
+   "size_bytes": 10932386,
+   "updated": "2026-09-22T10:16:21.264Z"
   },
   {
    "connector_provenance": "unknown",
@@ -12697,15 +12713,15 @@
    "updated": "2026-09-17T10:58:54.435Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/compiler-ssa-optimization-repair",
    "declared_short": "compiler-ssa-optimization-repair",
-   "folder": "law-b39-l15-pension-annuity-eligibility-recomputation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "law-b39-l15-pension-annuity-eligibility-recomputation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "105b3653c357c149f3f3b637ed7c30b6f8e45ba0a5374042f1dea18a6d9ff027",
    "size_bytes": 8989957,
    "updated": "2026-09-22T10:12:31.629Z"
