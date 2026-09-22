@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T05:10:03+00:00",
+ "generated_at": "2026-09-22T05:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1050,
-  "scanned": 1050,
+  "task_folders": 1051,
+  "scanned": 1051,
   "connector": 318,
-  "non_connector": 732,
+  "non_connector": 733,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 375,
   "code": 199,
-  "fin": 79,
+  "fin": 80,
   "gen": 252,
   "health": 74,
   "law": 71
  },
  "name_prefix": {
   "harbor": 320,
-  "obi": 730
+  "obi": 731
  },
  "connector_services": {
   "google-drive-gym": 182,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262894
+  "new_archives_read": 1,
+  "approx_bytes_read": 131421
  },
  "errors": [],
  "tasks": [
@@ -5827,6 +5827,20 @@
    "sha256": "8d00a5837c4c76f8ba66e52b69f7be296900e1cf03bbcb3513199dc9b2e7b39e",
    "size_bytes": 6475105,
    "updated": "2026-09-17T13:37:54.918Z"
+  },
+  {
+   "declared_name": "obi/fin-b45-a8-regional-tariff-equalisation",
+   "declared_short": "fin-b45-a8-regional-tariff-equalisation",
+   "folder": "fin-b45-a8-regional-tariff-equalisation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "30cfa14f2377b1b1268217253b0aced70dd8fb2cc6235d65a905ca12a1dc90e7",
+   "size_bytes": 7359126,
+   "updated": "2026-09-22T05:13:46.175Z"
   },
   {
    "connector_provenance": null,
@@ -12801,15 +12815,15 @@
    "updated": "2026-09-21T19:43:31.862Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b47-l4-offplan-payment-schedule-recompute",
    "declared_short": "law-b47-l4-offplan-payment-schedule-recompute",
-   "folder": "law-b47-l4-offplan-payment-schedule-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b47-l4-offplan-payment-schedule-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "250b8d0a972e45f0706140fc34783a6151aeb4e045693dc592305eca74e6c8c8",
    "size_bytes": 4779871,
    "updated": "2026-09-22T05:07:22.680Z"
@@ -15100,15 +15114,15 @@
    "updated": "2026-09-21T20:50:30.272Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-mg-it-b6-a9-career-reentry-skill-gap-plan",
    "declared_short": "tech-mg-it-b6-a9-career-reentry-skill-gap-plan",
-   "folder": "tech-mg-it-b6-a9-career-reentry-skill-gap-plan-v1",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-mg-it-b6-a9-career-reentry-skill-gap-plan-v1",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "fcbab22583bee0e1bec6170aaeb584f35bdf47d0e8d503999dae9e3713dd29bb",
    "size_bytes": 4876937,
    "updated": "2026-09-22T05:05:28.353Z"
