@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T19:30:03+00:00",
+ "generated_at": "2026-09-22T19:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1129,
-  "scanned": 1129,
+  "task_folders": 1132,
+  "scanned": 1132,
   "connector": 339,
-  "non_connector": 790,
+  "non_connector": 793,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 95
  },
  "domain": {
-  "unnamed": 421,
+  "unnamed": 422,
   "code": 209,
-  "fin": 82,
+  "fin": 83,
   "gen": 260,
-  "health": 80,
+  "health": 81,
   "law": 77
  },
  "name_prefix": {
   "harbor": 342,
-  "obi": 787
+  "obi": 790
  },
  "connector_services": {
   "google-drive-gym": 186,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 395375
  },
  "errors": [],
  "tasks": [
@@ -1459,6 +1459,20 @@
    "sha256": "35a8563dea4b89d44a6cffa0cd4ebb1484673334957e1b876a2785991302f032",
    "size_bytes": 6746808,
    "updated": "2026-09-17T22:03:05.476Z"
+  },
+  {
+   "declared_name": "obi/bus-b46-b2-power-filter-return-request-adjudication",
+   "declared_short": "bus-b46-b2-power-filter-return-request-adjudication",
+   "folder": "bus-b46-b2-power-filter-return-request-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "22bef71bd3fa746136feb8d2e05953c2a0aec4b950f345f52b325dc3d5f6eb70",
+   "size_bytes": 5972976,
+   "updated": "2026-09-22T19:46:02.725Z"
   },
   {
    "connector_provenance": null,
@@ -6277,6 +6291,20 @@
    "sha256": "32c2718822fdd419788d222ff0787813a1bbd35e41bd022ab70bda4a936af2fc",
    "size_bytes": 5532802,
    "updated": "2026-09-18T16:22:19.705Z"
+  },
+  {
+   "declared_name": "obi/fin-b45-a2-card-spend-posting-backlog",
+   "declared_short": "fin-b45-a2-card-spend-posting-backlog",
+   "folder": "fin-b45-a2-card-spend-posting-backlog",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "e84cffdf83d9b0c8c42c9873ec20939fbe103a2fb797136ddb75ccf3daa57536",
+   "size_bytes": 7140758,
+   "updated": "2026-09-22T19:46:31.904Z"
   },
   {
    "connector_provenance": null,
@@ -11779,6 +11807,20 @@
    "sha256": "a0ea6f7f8a43ef4eb0cf0051370a49d34fa28f041c1e995b0055945751e43ec3",
    "size_bytes": 5270611,
    "updated": "2026-09-21T21:01:22.520Z"
+  },
+  {
+   "declared_name": "obi/health-b44-h5-monitor-epoch-alarm-classification",
+   "declared_short": "health-b44-h5-monitor-epoch-alarm-classification",
+   "folder": "health-b44-h5-monitor-epoch-alarm-classification-v22-FOR-QC-V2",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "5a9bda38b7083142ef27e3b9b522e4f90884306431edf8ea10b9dd1904e6f3dc",
+   "size_bytes": 6218761,
+   "updated": "2026-09-22T19:47:50.250Z"
   },
   {
    "connector_provenance": null,
