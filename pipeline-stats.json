@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T12:40:02+00:00",
+ "generated_at": "2026-09-22T12:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1092,
-  "scanned": 1092,
+  "task_folders": 1093,
+  "scanned": 1093,
   "connector": 331,
-  "non_connector": 761,
+  "non_connector": 762,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 81,
   "gen": 255,
   "health": 77,
-  "law": 73
+  "law": 74
  },
  "name_prefix": {
   "harbor": 333,
-  "obi": 759
+  "obi": 760
  },
  "connector_services": {
   "google-drive-gym": 184,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131455
  },
  "errors": [],
  "tasks": [
@@ -13525,6 +13525,20 @@
    "sha256": "adbadb0626f234c248ca0d0ff3a091d7eabfb1a087dbe810f1c804fbfef01e7c",
    "size_bytes": 5490895,
    "updated": "2026-09-10T04:29:35.396Z"
+  },
+  {
+   "declared_name": "obi/law-l82-jury-hardship-request-audit",
+   "declared_short": "law-l82-jury-hardship-request-audit",
+   "folder": "law-l82-jury-hardship-request-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "503e5161e085c716801a33028ffeb69605c016982bd67dd0ff049f63471c4d48",
+   "size_bytes": 6260785,
+   "updated": "2026-09-22T12:43:31.043Z"
   },
   {
    "connector_provenance": null,
