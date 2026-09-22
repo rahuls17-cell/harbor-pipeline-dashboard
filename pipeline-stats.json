@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T23:10:05+00:00",
+ "generated_at": "2026-09-22T23:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1153,
-  "scanned": 1153,
+  "task_folders": 1154,
+  "scanned": 1154,
   "connector": 344,
-  "non_connector": 809,
+  "non_connector": 810,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 431,
-  "code": 216,
+  "code": 217,
   "fin": 84,
   "gen": 261,
   "health": 83,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 347,
-  "obi": 806
+  "obi": 807
  },
  "connector_services": {
   "google-drive-gym": 187,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131589
  },
  "errors": [],
  "tasks": [
@@ -3189,6 +3189,20 @@
    "sha256": "7440db57ac6921686cb7b28eb53a163303870e998c00b459ac2152f18123c2ba",
    "size_bytes": 5704464,
    "updated": "2026-09-13T02:28:04.701Z"
+  },
+  {
+   "declared_name": "obi/code-c411-recipe-dietary-tag-compliance-audit",
+   "declared_short": "code-c411-recipe-dietary-tag-compliance-audit",
+   "folder": "code-c411-recipe-dietary-tag-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "7925d8afaf2e10aa1715df52efe3d4c80eb2759c5434098a0a679d1101e58048",
+   "size_bytes": 7955313,
+   "updated": "2026-09-22T23:19:49.232Z"
   },
   {
    "connector_provenance": null,
