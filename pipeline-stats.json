@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T14:35:03+00:00",
+ "generated_at": "2026-09-22T14:40:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1102,
-  "scanned": 1102,
+  "task_folders": 1103,
+  "scanned": 1103,
   "connector": 334,
-  "non_connector": 768,
+  "non_connector": 769,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 94
  },
  "domain": {
-  "unnamed": 409,
+  "unnamed": 410,
   "code": 204,
   "fin": 81,
   "gen": 256,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 337,
-  "obi": 765
+  "obi": 766
  },
  "connector_services": {
   "google-drive-gym": 184,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131627
+  "approx_bytes_read": 131403
  },
  "errors": [],
  "tasks": [
@@ -1311,6 +1311,20 @@
    "sha256": "d0e4ead17e583068d0710a56454b1d874c85a2097e037a6e7960b49830083a76",
    "size_bytes": 8790023,
    "updated": "2026-09-13T08:14:15.347Z"
+  },
+  {
+   "declared_name": "obi/bus-b20-b2-warranty-compliance-adjudication",
+   "declared_short": "bus-b20-b2-warranty-compliance-adjudication",
+   "folder": "bus-b20-b2-warranty-compliance-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "5d810b976ade6316cc5c170aef086a33ea1cab203db5f56ae932381eb724498e",
+   "size_bytes": 5035587,
+   "updated": "2026-09-22T14:37:22.776Z"
   },
   {
    "connector_provenance": null,
@@ -12899,15 +12913,15 @@
    "updated": "2026-09-19T21:43:54.330Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b39-l21-exit-sign-requirement-statement-audit",
    "declared_short": "law-b39-l21-exit-sign-requirement-statement-audit",
-   "folder": "law-b39-l21-exit-sign-requirement-statement-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b39-l21-exit-sign-requirement-statement-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "14b6a788d7e4b931d8b3485d8d8233b1f107e52005fb8c0cd7d5b50b451ae19a",
    "size_bytes": 6673969,
    "updated": "2026-09-22T14:32:37.235Z"
