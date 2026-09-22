@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T07:10:03+00:00",
+ "generated_at": "2026-09-22T07:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1058,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131630
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1331,15 +1331,15 @@
    "updated": "2026-09-20T09:49:41.440Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b47-b1-suv-window-sticker-dealer-quote-check",
    "declared_short": "bus-b47-b1-suv-window-sticker-dealer-quote-check",
-   "folder": "bus-b47-b1-suv-window-sticker-dealer-quote-check",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b47-b1-suv-window-sticker-dealer-quote-check",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1fac1a58e4d5fa07b9e45ca29757fa81f25ec3c6a369ce3a8a4f08e6909ae004",
    "size_bytes": 7497805,
    "updated": "2026-09-22T07:09:57.156Z"
