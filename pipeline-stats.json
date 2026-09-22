@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T07:35:04+00:00",
+ "generated_at": "2026-09-22T07:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1059,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131541
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1793,15 +1793,15 @@
    "updated": "2026-09-18T18:20:53.004Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c195-asset-inventory-count-reconcile",
    "declared_short": "code-c195-asset-inventory-count-reconcile",
-   "folder": "code-c195-asset-inventory-count-reconcile",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c195-asset-inventory-count-reconcile",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "694f7a481eb93e5dbda3d098b48aadf92982a86fd6f683ee243d7db3fc5253e1",
    "size_bytes": 12072486,
    "updated": "2026-09-22T07:30:31.809Z"
