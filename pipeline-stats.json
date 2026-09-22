@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T01:50:02+00:00",
+ "generated_at": "2026-09-22T01:55:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1036,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131642
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -7229,15 +7229,15 @@
    "updated": "2026-09-20T00:16:58.508Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g175-archival-citation-completeness-audit",
    "declared_short": "gen-g175-archival-citation-completeness-audit",
-   "folder": "gen-g175-archival-citation-completeness-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g175-archival-citation-completeness-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "392a5bf910863580f1d3df7f3de2c37b279f67a79893720190638ae3ae1a61ec",
    "size_bytes": 7200223,
    "updated": "2026-09-22T01:49:55.336Z"
