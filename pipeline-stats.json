@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T08:35:03+00:00",
+ "generated_at": "2026-09-22T08:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1067,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132821
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -14207,11 +14207,7 @@
    "updated": "2026-09-21T19:10:20.221Z"
   },
   {
-   "declared_name": "harbor/count-accounts-funded-via-push-to-debit-card-as-the-funding-transaction",
-   "declared_short": "count-accounts-funded-via-push-to-debit-card-as-the-funding-transaction",
-   "folder": "task_count_accounts_funded_via_push_to_debit_card_as_the_funding_transactio",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -14221,9 +14217,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/count-accounts-funded-via-push-to-debit-card-as-the-funding-transaction",
+   "declared_short": "count-accounts-funded-via-push-to-debit-card-as-the-funding-transaction",
    "domain": null,
+   "folder": "task_count_accounts_funded_via_push_to_debit_card_as_the_funding_transactio",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c66c41b1ad85a7097a01ec7d7a3dead5c4a0979bf6f46aca5a8a87369c40cab6",
    "size_bytes": 18573784,
    "updated": "2026-09-22T08:33:14.822Z"
