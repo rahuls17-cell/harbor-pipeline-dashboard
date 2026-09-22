@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-22T08:10:03+00:00",
+ "generated_at": "2026-09-22T08:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1063,
-  "scanned": 1063,
-  "connector": 322,
-  "non_connector": 741,
+  "task_folders": 1065,
+  "scanned": 1065,
+  "connector": 323,
+  "non_connector": 742,
   "errors": 0
  },
  "connector_provenance": {
   "real": 121,
   "unknown": 113,
-  "synthetic": 88
+  "synthetic": 89
  },
  "domain": {
-  "unnamed": 384,
+  "unnamed": 386,
   "code": 200,
   "fin": 80,
   "gen": 252,
@@ -22,8 +22,8 @@
   "law": 72
  },
  "name_prefix": {
-  "harbor": 324,
-  "obi": 739
+  "harbor": 325,
+  "obi": 740
  },
  "connector_services": {
   "google-drive-gym": 182,
@@ -40,15 +40,15 @@
   "linear-gym": 13,
   "outlook-gym": 11,
   "gws-gym": 7,
+  "supabase-gym": 3,
   "teams-gym": 2,
-  "supabase-gym": 2,
   "microsoft_teams-gym": 1,
   "snowflake-gym": 1,
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 269294
  },
  "errors": [],
  "tasks": [
@@ -263,6 +263,22 @@
    "sha256": "cf6baa0ef6ec6b3ee9d31063decf90e787520d0f738e0ff21fa69d841f419329",
    "size_bytes": 5140609,
    "updated": "2026-09-07T15:44:14.048Z"
+  },
+  {
+   "declared_name": "harbor/a-map-of-what-is-already-there",
+   "declared_short": "a-map-of-what-is-already-there",
+   "folder": "a-map-of-what-is-already-there",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "supabase-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c1b036c25ee40fcbedd6156761400e7adc22cfdec2474f86cf0e53dc6d006a46",
+   "size_bytes": 9874107,
+   "updated": "2026-09-22T08:14:11.484Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -5171,6 +5187,20 @@
    "sha256": "0394a5c29d9bd6384929987089550611d7cf77cd83d5bad32d38c0e75ef5fdf1",
    "size_bytes": 8133984,
    "updated": "2026-09-21T15:51:59.465Z"
+  },
+  {
+   "declared_name": "obi/edu-b50-a3-thesis-citation-reconciliation",
+   "declared_short": "edu-b50-a3-thesis-citation-reconciliation",
+   "folder": "edu-b50-a3-thesis-citation-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "22b365fdfaf1abf444a7d505fa3595337a2fffacc273b580a61540c707147294",
+   "size_bytes": 4058433,
+   "updated": "2026-09-22T08:12:46.152Z"
   },
   {
    "connector_provenance": null,
