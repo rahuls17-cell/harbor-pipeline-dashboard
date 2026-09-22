@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T22:30:04+00:00",
+ "generated_at": "2026-09-22T22:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1149,
-  "scanned": 1149,
+  "task_folders": 1150,
+  "scanned": 1150,
   "connector": 343,
-  "non_connector": 806,
+  "non_connector": 807,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 429,
-  "code": 215,
+  "code": 216,
   "fin": 84,
   "gen": 260,
   "health": 83,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 346,
-  "obi": 803
+  "obi": 804
  },
  "connector_services": {
   "google-drive-gym": 186,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131493
  },
  "errors": [],
  "tasks": [
@@ -1837,6 +1837,20 @@
    "sha256": "9ea4efbb7fa8359703062e4a229075029ebe5ae44f50ae3f7f732c63c65bb1b1",
    "size_bytes": 8522853,
    "updated": "2026-09-22T22:25:02.760Z"
+  },
+  {
+   "declared_name": "obi/code-c107-postmortem-action-item-tracking-audit",
+   "declared_short": "code-c107-postmortem-action-item-tracking-audit",
+   "folder": "code-c107-postmortem-action-item-tracking-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "dc2443d69f580f738d9279d14a24b2e9d5f0e37e7554978740efcf855c4cd2b1",
+   "size_bytes": 6310389,
+   "updated": "2026-09-22T22:32:16.955Z"
   },
   {
    "connector_provenance": null,
