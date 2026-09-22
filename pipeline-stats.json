@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T07:50:03+00:00",
+ "generated_at": "2026-09-22T07:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1061,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 267230
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -12901,15 +12901,15 @@
    "updated": "2026-09-22T05:07:22.680Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b47-l9-residential-code-setback-compliance",
    "declared_short": "law-b47-l9-residential-code-setback-compliance",
-   "folder": "law-b47-l9-residential-code-setback-compliance",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b47-l9-residential-code-setback-compliance",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e1dd0f18e9f03effd3a329bdc99c2dd8da4fd26491d65a5f1efcc8bb0b172703",
    "size_bytes": 6154382,
    "updated": "2026-09-22T07:49:29.479Z"
@@ -15706,17 +15706,17 @@
    "updated": "2026-09-21T15:54:33.600Z"
   },
   {
-   "declared_name": "harbor/the-tags-that-never-made-the-diary",
-   "declared_short": "the-tags-that-never-made-the-diary",
-   "folder": "the-tags-that-never-made-the-diary-v2",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-tags-that-never-made-the-diary",
+   "declared_short": "the-tags-that-never-made-the-diary",
    "domain": null,
+   "folder": "the-tags-that-never-made-the-diary-v2",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "33d2e66fec48b0bcfcf2ccd770417624ba44da14a3fafa725e0fd616fadab19f",
    "size_bytes": 6031953,
    "updated": "2026-09-22T07:46:43.941Z"
