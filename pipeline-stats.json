@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T03:35:03+00:00",
+ "generated_at": "2026-09-22T03:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1044,
-  "scanned": 1044,
+  "task_folders": 1045,
+  "scanned": 1045,
   "connector": 317,
-  "non_connector": 727,
+  "non_connector": 728,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 86
  },
  "domain": {
-  "unnamed": 371,
+  "unnamed": 372,
   "code": 198,
   "fin": 79,
   "gen": 252,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 319,
-  "obi": 725
+  "obi": 726
  },
  "connector_services": {
   "google-drive-gym": 182,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131478
  },
  "errors": [],
  "tasks": [
@@ -5165,6 +5165,20 @@
    "sha256": "24b479c08c11ee77bcc78b5ea0f7d8367b6d4d3598436aad6c9866e6bc6f45ee",
    "size_bytes": 9119521,
    "updated": "2026-09-19T00:37:23.111Z"
+  },
+  {
+   "declared_name": "obi/edu-s1-c3-attendance-policy-precedence",
+   "declared_short": "edu-s1-c3-attendance-policy-precedence",
+   "folder": "edu-s1-c3-attendance-policy-precedence",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "56a39f605223d90a568967b5b6a05c2ab8fc07aaede0361b48632d3e57ba8a3c",
+   "size_bytes": 6505139,
+   "updated": "2026-09-22T03:39:46.208Z"
   },
   {
    "connector_provenance": null,
