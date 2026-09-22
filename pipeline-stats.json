@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T15:45:04+00:00",
+ "generated_at": "2026-09-22T15:50:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1109,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131426
  },
  "errors": [],
  "tasks": [
@@ -9289,18 +9289,18 @@
    "updated": "2026-09-05T23:30:08.346Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/gen-g739-debt-lead-buyer-compliance-audit",
    "declared_short": "gen-g739-debt-lead-buyer-compliance-audit",
-   "domain": "gen",
    "folder": "gen-g739-debt-lead-buyer-compliance-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "ff1e7a7341131112ce9b7f516ae2ac21da5dbc181c1fc67e6649ff1fe6f3ef44",
-   "size_bytes": 8263746,
-   "updated": "2026-09-20T13:56:13.150Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "83c37f4991c5d4b641a9373b2e28208a58666983da6c911e3ff72d17952ff74a",
+   "size_bytes": 8153347,
+   "updated": "2026-09-22T15:46:18.012Z"
   },
   {
    "connector_provenance": null,
