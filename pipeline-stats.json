@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T02:10:02+00:00",
+ "generated_at": "2026-09-22T03:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1040,
-  "scanned": 1040,
+  "task_folders": 1041,
+  "scanned": 1041,
   "connector": 317,
-  "non_connector": 723,
+  "non_connector": 724,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 86
  },
  "domain": {
-  "unnamed": 369,
+  "unnamed": 370,
   "code": 198,
   "fin": 79,
   "gen": 251,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 319,
-  "obi": 721
+  "obi": 722
  },
  "connector_services": {
   "google-drive-gym": 182,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131453
  },
  "errors": [],
  "tasks": [
@@ -14676,6 +14676,20 @@
    "sha256": "cadc9fb48cb3e311be788eb5ee60874e9b78cccbdef01ee9aa86e6fe3955f844",
    "size_bytes": 7784730,
    "updated": "2026-09-18T05:38:37.159Z"
+  },
+  {
+   "declared_name": "obi/tech-b50-t10-ssh-access-register-transform",
+   "declared_short": "tech-b50-t10-ssh-access-register-transform",
+   "folder": "tech-b50-t10-ssh-access-register-transform",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "4565165f60e61c6a4749081bad429863eba8d979df31b5a6369419c5ae480712",
+   "size_bytes": 7738278,
+   "updated": "2026-09-22T03:02:34.204Z"
   },
   {
    "connector_provenance": null,
