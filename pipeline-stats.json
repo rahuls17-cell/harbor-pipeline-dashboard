@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T20:15:04+00:00",
+ "generated_at": "2026-09-22T20:20:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1135,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131592
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -6685,15 +6685,15 @@
    "updated": "2026-09-21T15:47:29.774Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b50-f3-mitochondria-biotech-bear-case-diligence",
    "declared_short": "fin-b50-f3-mitochondria-biotech-bear-case-diligence",
-   "folder": "fin-b50-f3-mitochondria-biotech-bear-case-diligence",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b50-f3-mitochondria-biotech-bear-case-diligence",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b2f0b602dabd636aa7679e6adb5924e742090004cc71ea4b9438fcb4788e2525",
    "size_bytes": 8299453,
    "updated": "2026-09-22T20:11:21.821Z"
