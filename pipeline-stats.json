@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T23:50:04+00:00",
+ "generated_at": "2026-09-22T23:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1156,
-  "scanned": 1156,
+  "task_folders": 1157,
+  "scanned": 1157,
   "connector": 345,
-  "non_connector": 811,
+  "non_connector": 812,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 84,
   "gen": 261,
   "health": 83,
-  "law": 78
+  "law": 79
  },
  "name_prefix": {
   "harbor": 348,
-  "obi": 808
+  "obi": 809
  },
  "connector_services": {
   "google-drive-gym": 187,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131533
+  "approx_bytes_read": 131636
  },
  "errors": [],
  "tasks": [
@@ -13849,6 +13849,20 @@
    "updated": "2026-09-21T19:43:31.862Z"
   },
   {
+   "declared_name": "obi/law-b47-l2-asbestos-notification-duty-routing",
+   "declared_short": "law-b47-l2-asbestos-notification-duty-routing",
+   "folder": "law-b47-l2-asbestos-notification-duty-routing",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "cc306ff399e0b5e6cd8d12f5cdf7621f04e2f8ee7f24dd5ea4c221a20a435bda",
+   "size_bytes": 5550386,
+   "updated": "2026-09-22T23:52:55.373Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-b47-l3-term-sheet-definiteness-assessment",
@@ -17910,15 +17924,15 @@
    "updated": "2026-09-22T12:49:25.690Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/writing-sc05-a8-leadership-rubric-levels",
    "declared_short": "writing-sc05-a8-leadership-rubric-levels",
-   "folder": "writing-sc05-a8-leadership-rubric-levels",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "writing-sc05-a8-leadership-rubric-levels",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6a21ccf1b78c8959b468ce240b935a658c70564df3d16444bb42c0bd16e14d23",
    "size_bytes": 9386575,
    "updated": "2026-09-22T23:47:04.841Z"
