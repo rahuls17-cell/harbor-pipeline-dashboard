@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-22T05:30:02+00:00",
+ "generated_at": "2026-09-22T05:35:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1053,
-  "scanned": 1053,
-  "connector": 318,
+  "task_folders": 1054,
+  "scanned": 1054,
+  "connector": 319,
   "non_connector": 735,
   "errors": 0
  },
  "connector_provenance": {
   "real": 120,
   "unknown": 112,
-  "synthetic": 86
+  "synthetic": 87
  },
  "domain": {
-  "unnamed": 376,
+  "unnamed": 377,
   "code": 199,
   "fin": 80,
   "gen": 252,
@@ -22,7 +22,7 @@
   "law": 71
  },
  "name_prefix": {
-  "harbor": 320,
+  "harbor": 321,
   "obi": 733
  },
  "connector_services": {
@@ -36,8 +36,8 @@
   "slack": 61,
   "notion-gym": 28,
   "email-calendar-gym": 14,
+  "github-gym": 14,
   "linear-gym": 13,
-  "github-gym": 13,
   "outlook-gym": 10,
   "gws-gym": 7,
   "teams-gym": 2,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131501
+  "approx_bytes_read": 142949
  },
  "errors": [],
  "tasks": [
@@ -491,6 +491,22 @@
    "sha256": "4a3b701e967964a7892a4900e28ddc0d08cdb11c73131c0b8befcdf495f226d7",
    "size_bytes": 5754906,
    "updated": "2026-09-10T13:49:17.926Z"
+  },
+  {
+   "declared_name": "harbor/approved-anyway",
+   "declared_short": "approved-anyway",
+   "folder": "approved-anyway",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "bf6382596452b5550329567dd49f50eac59ff096ea47799e94c10b7d53ff568a",
+   "size_bytes": 9043329,
+   "updated": "2026-09-22T05:30:18.147Z"
   },
   {
    "connector_provenance": "real",
@@ -1315,15 +1331,15 @@
    "updated": "2026-09-20T09:49:41.440Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b49-b8-supply-chain-planning-resume-requirement-coverage",
    "declared_short": "bus-b49-b8-supply-chain-planning-resume-requirement-coverage",
-   "folder": "bus-b49-b8-supply-chain-planning-resume-requirement-coverage",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b49-b8-supply-chain-planning-resume-requirement-coverage",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0d55f52275a9e0228602d17776ca4e27835cfcc6c85ebcdd597b864584ff7876",
    "size_bytes": 10094124,
    "updated": "2026-09-22T05:29:45.917Z"
