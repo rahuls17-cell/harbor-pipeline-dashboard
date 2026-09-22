@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T17:40:05+00:00",
+ "generated_at": "2026-09-22T17:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1116,
-  "scanned": 1116,
+  "task_folders": 1117,
+  "scanned": 1117,
   "connector": 337,
-  "non_connector": 779,
+  "non_connector": 780,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 417,
-  "code": 205,
+  "code": 206,
   "fin": 81,
   "gen": 259,
   "health": 78,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 340,
-  "obi": 776
+  "obi": 777
  },
  "connector_services": {
   "google-drive-gym": 185,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 265626
+  "new_archives_read": 1,
+  "approx_bytes_read": 131500
  },
  "errors": [],
  "tasks": [
@@ -1523,15 +1523,15 @@
    "updated": "2026-09-22T11:05:57.850Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-mg-bus-b8-a1-upskilling-caption-claim-verification",
    "declared_short": "bus-mg-bus-b8-a1-upskilling-caption-claim-verification",
-   "folder": "bus-mg-bus-b8-a1-upskilling-caption-claim-verification-v11",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-mg-bus-b8-a1-upskilling-caption-claim-verification-v11",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5ec5834cb27fbf7062f02197e88f7e0f1206682d1e75d4e0b0ba88a8dfb1d082",
    "size_bytes": 7464838,
    "updated": "2026-09-22T17:39:20.961Z"
@@ -1731,6 +1731,20 @@
    "sha256": "956b932d2af7fdbec5cfdfd12ef32b728f4417e4f9e705fcacd3c798b8ba2e68",
    "size_bytes": 6477677,
    "updated": "2026-09-22T09:34:37.639Z"
+  },
+  {
+   "declared_name": "obi/code-c103-paging-escalation-policy-audit",
+   "declared_short": "code-c103-paging-escalation-policy-audit",
+   "folder": "code-c103-paging-escalation-policy-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "3e1a23cccb6d0245c05dcc9bee18f6e699ecaa6628fd09a8a5e1871ce1f88e7b",
+   "size_bytes": 8420368,
+   "updated": "2026-09-22T17:40:56.924Z"
   },
   {
    "connector_provenance": null,
@@ -16214,17 +16228,17 @@
    "updated": "2026-09-18T21:00:32.266Z"
   },
   {
-   "declared_name": "harbor/the-oversized-recordings",
-   "declared_short": "the-oversized-recordings",
-   "folder": "the-oversized-recordings",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-oversized-recordings",
+   "declared_short": "the-oversized-recordings",
    "domain": null,
+   "folder": "the-oversized-recordings",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2307884d42cad0053b3779cbb8ca68e1e928d132657f1cbc275e8a3eb27713b8",
    "size_bytes": 9939748,
    "updated": "2026-09-22T17:39:33.755Z"
