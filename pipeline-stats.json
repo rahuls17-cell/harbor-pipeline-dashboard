@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T22:55:03+00:00",
+ "generated_at": "2026-09-22T23:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1152,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131560
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1545,15 +1545,15 @@
    "updated": "2026-09-22T07:09:57.156Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b48-b9-settlement-waterfall-ledger",
    "declared_short": "bus-b48-b9-settlement-waterfall-ledger",
-   "folder": "bus-b48-b9-settlement-waterfall-ledger",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b48-b9-settlement-waterfall-ledger",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4c2899d05c119a20637911b7cf299c79432aab4fff6c4ba7d388e8e6ef5f4ca1",
    "size_bytes": 10572196,
    "updated": "2026-09-22T22:51:24.542Z"
