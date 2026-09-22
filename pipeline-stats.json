@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T22:40:03+00:00",
+ "generated_at": "2026-09-22T22:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1150,
-  "scanned": 1150,
+  "task_folders": 1151,
+  "scanned": 1151,
   "connector": 343,
-  "non_connector": 807,
+  "non_connector": 808,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 429,
   "code": 216,
   "fin": 84,
-  "gen": 260,
+  "gen": 261,
   "health": 83,
   "law": 78
  },
  "name_prefix": {
   "harbor": 346,
-  "obi": 804
+  "obi": 805
  },
  "connector_services": {
   "google-drive-gym": 186,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131652
  },
  "errors": [],
  "tasks": [
@@ -10591,6 +10591,20 @@
    "sha256": "7f8baae6756cfbb716051999b86b0dd164ea8a8a4e36bb33aac78f7c68ba727e",
    "size_bytes": 3737979,
    "updated": "2026-09-22T15:52:03.164Z"
+  },
+  {
+   "declared_name": "obi/gen-sc05-a7-translation-glossary-audit",
+   "declared_short": "gen-sc05-a7-translation-glossary-audit",
+   "folder": "gen-sc05-a7-translation-glossary-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "eebc4c972f7883d7db705f254d584e24d5bcd6a081f5f9493e7c6b5ae6c08eab",
+   "size_bytes": 4308953,
+   "updated": "2026-09-22T22:40:54.465Z"
   },
   {
    "connector_provenance": "real",
