@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T19:55:04+00:00",
+ "generated_at": "2026-09-22T20:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1134,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262911
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1601,15 +1601,15 @@
    "updated": "2026-09-22T17:39:20.961Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-mg-bus-b8-a5-marketplace-listing-normalisation",
    "declared_short": "bus-mg-bus-b8-a5-marketplace-listing-normalisation",
-   "folder": "bus-mg-bus-b8-a5-marketplace-listing-normalisation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-mg-bus-b8-a5-marketplace-listing-normalisation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "61f5113e5d4a4722844d430ffcca537fc23400d9ccff52c2b690cb81865ed54c",
    "size_bytes": 4861896,
    "updated": "2026-09-22T19:51:26.445Z"
@@ -3197,15 +3197,15 @@
    "updated": "2026-09-05T18:35:29.293Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c44-index-coverage-audit",
    "declared_short": "code-c44-index-coverage-audit",
-   "folder": "code-c44-index-coverage-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c44-index-coverage-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "dd3a3449f1925395f5275672a188a9531c7ebc34e3f6339bda55f99bf5b1e2e7",
    "size_bytes": 7162354,
    "updated": "2026-09-22T19:51:36.965Z"
