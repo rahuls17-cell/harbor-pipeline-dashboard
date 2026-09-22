@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-22T09:00:02+00:00",
+ "generated_at": "2026-09-22T09:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1068,
-  "scanned": 1068,
-  "connector": 325,
+  "task_folders": 1069,
+  "scanned": 1069,
+  "connector": 326,
   "non_connector": 743,
   "errors": 0
  },
  "connector_provenance": {
   "real": 122,
   "unknown": 113,
-  "synthetic": 90
+  "synthetic": 91
  },
  "domain": {
-  "unnamed": 389,
+  "unnamed": 390,
   "code": 200,
   "fin": 80,
   "gen": 252,
@@ -22,7 +22,7 @@
   "law": 72
  },
  "name_prefix": {
-  "harbor": 327,
+  "harbor": 328,
   "obi": 741
  },
  "connector_services": {
@@ -38,7 +38,7 @@
   "email-calendar-gym": 14,
   "github-gym": 14,
   "linear-gym": 13,
-  "outlook-gym": 11,
+  "outlook-gym": 12,
   "gws-gym": 7,
   "supabase-gym": 3,
   "teams-gym": 3,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 135405
  },
  "errors": [],
  "tasks": [
@@ -15818,6 +15818,22 @@
    "sha256": "33d2e66fec48b0bcfcf2ccd770417624ba44da14a3fafa725e0fd616fadab19f",
    "size_bytes": 6031953,
    "updated": "2026-09-22T07:46:43.941Z"
+  },
+  {
+   "declared_name": "harbor/the-tags-that-never-made-the-diary",
+   "declared_short": "the-tags-that-never-made-the-diary",
+   "folder": "the-tags-that-never-made-the-diary-v3",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "57418d24d5bfa8c2460ac4e521cef7bd041ba53369d66238bd8fd0b983d0234b",
+   "size_bytes": 6309933,
+   "updated": "2026-09-22T09:04:47.531Z"
   },
   {
    "connector_provenance": "synthetic",
