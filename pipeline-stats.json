@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T10:55:03+00:00",
+ "generated_at": "2026-09-22T11:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1083,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134791
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -14545,11 +14545,7 @@
    "updated": "2026-09-19T00:32:27.730Z"
   },
   {
-   "declared_name": "harbor/returned-check-deposit-audit-2023-returns-reason-capture-and-hold-release-worked-example-5201",
-   "declared_short": "returned-check-deposit-audit-2023-returns-reason-capture-and-hold-release-worked-example-5201",
-   "folder": "task_diagnose_why_check_deposit_5201_for_2_000_was_returned_on_account_1061",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -14559,9 +14555,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/returned-check-deposit-audit-2023-returns-reason-capture-and-hold-release-worked-example-5201",
+   "declared_short": "returned-check-deposit-audit-2023-returns-reason-capture-and-hold-release-worked-example-5201",
    "domain": null,
+   "folder": "task_diagnose_why_check_deposit_5201_for_2_000_was_returned_on_account_1061",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "763e6020d1f316b545032e60315d89235433694b56d5a8900df98b846b605830",
    "size_bytes": 13332450,
    "updated": "2026-09-22T10:50:09.456Z"
