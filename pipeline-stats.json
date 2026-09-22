@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-22T17:10:03+00:00",
+ "generated_at": "2026-09-22T17:15:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1112,
-  "scanned": 1112,
-  "connector": 335,
-  "non_connector": 777,
+  "task_folders": 1114,
+  "scanned": 1114,
+  "connector": 336,
+  "non_connector": 778,
   "errors": 0
  },
  "connector_provenance": {
   "real": 125,
-  "unknown": 116,
+  "unknown": 117,
   "synthetic": 94
  },
  "domain": {
-  "unnamed": 413,
+  "unnamed": 415,
   "code": 205,
   "fin": 81,
   "gen": 259,
@@ -22,8 +22,8 @@
   "law": 76
  },
  "name_prefix": {
-  "harbor": 338,
-  "obi": 774
+  "harbor": 339,
+  "obi": 775
  },
  "connector_services": {
   "google-drive-gym": 185,
@@ -32,7 +32,7 @@
   "jira-gym": 169,
   "email-gym": 168,
   "freshdesk-gym": 168,
-  "slack-gym": 149,
+  "slack-gym": 150,
   "slack": 63,
   "notion-gym": 30,
   "email-calendar-gym": 15,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134610
+  "new_archives_read": 2,
+  "approx_bytes_read": 265526
  },
  "errors": [],
  "tasks": [
@@ -5743,11 +5743,7 @@
    "updated": "2026-09-19T02:45:55.967Z"
   },
   {
-   "declared_name": "harbor/explain-savings-interest-change-for-account-1385-between-sep-and-oct-2",
-   "declared_short": "explain-savings-interest-change-for-account-1385-between-sep-and-oct-2",
-   "folder": "explain-savings-interest-change-for-account-1385-between-sep-and-oct-2",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -5757,9 +5753,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/explain-savings-interest-change-for-account-1385-between-sep-and-oct-2",
+   "declared_short": "explain-savings-interest-change-for-account-1385-between-sep-and-oct-2",
    "domain": null,
+   "folder": "explain-savings-interest-change-for-account-1385-between-sep-and-oct-2",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a83feffa8899638344bbf1f31b9b2e3bf26be3aead8bad9b4937d4e08a4b9221",
    "size_bytes": 5771934,
    "updated": "2026-09-22T17:09:22.797Z"
@@ -14397,6 +14397,20 @@
    "updated": "2026-09-20T22:24:30.872Z"
   },
   {
+   "declared_name": "obi/sci-b51-a5-measurement-si-normalisation",
+   "declared_short": "sci-b51-a5-measurement-si-normalisation",
+   "folder": "sci-b51-a5-measurement-si-normalisation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1bf40cdc6f5389980c1532165f9d59c7cce86ae82f1b6bec2580834b7aa45637",
+   "size_bytes": 3656067,
+   "updated": "2026-09-22T17:13:08.925Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/sci-b51-a8-significant-figure-rule-audit",
@@ -17164,6 +17178,22 @@
    "sha256": "98e82a29f4b052268f7bf8edd66ee461cee956ef02c7225d3c41dbe98bb84919",
    "size_bytes": 14781445,
    "updated": "2026-09-20T17:09:38.687Z"
+  },
+  {
+   "declared_name": "harbor/who-carried-september",
+   "declared_short": "who-carried-september",
+   "folder": "who-carried-september-v12-qc-upload-20260921",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "8445530e8d1d36d1a95f23d63a4c863dfb95e8b8640a7e2c9ed0159f0d4f2f85",
+   "size_bytes": 10542698,
+   "updated": "2026-09-22T17:10:35.688Z"
   },
   {
    "connector_provenance": "synthetic",
