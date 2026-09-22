@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T19:15:03+00:00",
+ "generated_at": "2026-09-22T19:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1129,
@@ -47,8 +47,8 @@
   "microsoft-teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 267995
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -759,11 +759,7 @@
    "updated": "2026-09-09T20:36:20.193Z"
   },
   {
-   "declared_name": "harbor/audit-split-allocation-goal-ats-reversal-correctness-on-cleared-authorizations",
-   "declared_short": "audit-split-allocation-goal-ats-reversal-correctness-on-cleared-authorizations",
-   "folder": "audit-split-allocation-goal-ats-reversal-correctness-on-cleared-authorizations",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -773,9 +769,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/audit-split-allocation-goal-ats-reversal-correctness-on-cleared-authorizations",
+   "declared_short": "audit-split-allocation-goal-ats-reversal-correctness-on-cleared-authorizations",
    "domain": null,
+   "folder": "audit-split-allocation-goal-ats-reversal-correctness-on-cleared-authorizations",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "72b64388d27ac19df976864dda86f27b19027b7fba5eceefd01ee8bcfcd1cfc6",
    "size_bytes": 10061233,
    "updated": "2026-09-22T19:11:19.626Z"
@@ -11697,15 +11697,15 @@
    "updated": "2026-09-20T13:11:45.524Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b43-h8-elimination-diet-trial-reconstruction",
    "declared_short": "health-b43-h8-elimination-diet-trial-reconstruction",
-   "folder": "health-b43-h8-elimination-diet-trial-reconstruction",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b43-h8-elimination-diet-trial-reconstruction",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6eb7c431d1f5576b9735f3e9396f5bf5b7fd39980d030e927f553a2c7f9cb3fb",
    "size_bytes": 4634835,
    "updated": "2026-09-22T19:11:09.250Z"
