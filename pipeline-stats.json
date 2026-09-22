@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-22T13:40:05+00:00",
+ "generated_at": "2026-09-22T13:45:07+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1098,
-  "scanned": 1098,
-  "connector": 332,
+  "task_folders": 1099,
+  "scanned": 1099,
+  "connector": 333,
   "non_connector": 766,
   "errors": 0
  },
  "connector_provenance": {
   "real": 125,
   "unknown": 115,
-  "synthetic": 92
+  "synthetic": 93
  },
  "domain": {
-  "unnamed": 406,
+  "unnamed": 407,
   "code": 204,
   "fin": 81,
   "gen": 255,
@@ -22,7 +22,7 @@
   "law": 74
  },
  "name_prefix": {
-  "harbor": 334,
+  "harbor": 335,
   "obi": 764
  },
  "connector_services": {
@@ -35,8 +35,8 @@
   "slack-gym": 148,
   "slack": 63,
   "notion-gym": 29,
+  "email-calendar-gym": 15,
   "github-gym": 15,
-  "email-calendar-gym": 14,
   "linear-gym": 13,
   "outlook-gym": 12,
   "gws-gym": 7,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131534
+  "approx_bytes_read": 138712
  },
  "errors": [],
  "tasks": [
@@ -11427,15 +11427,15 @@
    "updated": "2026-09-18T15:08:38.928Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b44-h1-snf-readmission-visit-level-adjudication",
    "declared_short": "health-b44-h1-snf-readmission-visit-level-adjudication",
-   "folder": "health-b44-h1-snf-readmission-visit-level-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b44-h1-snf-readmission-visit-level-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d172a3637b791d5956ea830e770b2701fd62825225dc3f96bc2913598fc4f2cb",
    "size_bytes": 4018427,
    "updated": "2026-09-22T13:38:38.255Z"
@@ -16892,6 +16892,22 @@
    "sha256": "fa69f97bb77318b0054a6ff49f3ccc143e7934ae9cf5858b8cc144d015cb3894",
    "size_bytes": 9093328,
    "updated": "2026-09-10T02:23:03.711Z"
+  },
+  {
+   "declared_name": "harbor/weekly-series-on-days-off",
+   "declared_short": "weekly-series-on-days-off",
+   "folder": "weekly-series-on-days-off",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "f6b29c889b35e14f611c5c8ebe7a059b7ce5fb171195837c8a8a2d8bcd359499",
+   "size_bytes": 15313614,
+   "updated": "2026-09-22T13:42:09.319Z"
   },
   {
    "connector_provenance": "unknown",
