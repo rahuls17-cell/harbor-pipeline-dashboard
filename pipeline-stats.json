@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T15:50:05+00:00",
+ "generated_at": "2026-09-22T15:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1109,
-  "scanned": 1109,
+  "task_folders": 1110,
+  "scanned": 1110,
   "connector": 334,
-  "non_connector": 775,
+  "non_connector": 776,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 411,
   "code": 205,
   "fin": 81,
-  "gen": 258,
+  "gen": 259,
   "health": 78,
   "law": 76
  },
  "name_prefix": {
   "harbor": 337,
-  "obi": 772
+  "obi": 773
  },
  "connector_services": {
   "google-drive-gym": 184,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131426
+  "approx_bytes_read": 131437
  },
  "errors": [],
  "tasks": [
@@ -9289,15 +9289,15 @@
    "updated": "2026-09-05T23:30:08.346Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g739-debt-lead-buyer-compliance-audit",
    "declared_short": "gen-g739-debt-lead-buyer-compliance-audit",
-   "folder": "gen-g739-debt-lead-buyer-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g739-debt-lead-buyer-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "83c37f4991c5d4b641a9373b2e28208a58666983da6c911e3ff72d17952ff74a",
    "size_bytes": 8153347,
    "updated": "2026-09-22T15:46:18.012Z"
@@ -10253,6 +10253,20 @@
    "sha256": "e1d94221a42aab7b0be9971e4a3108db2570672b129bac6ba5b17a700772fbd4",
    "size_bytes": 7254305,
    "updated": "2026-09-10T05:17:26.117Z"
+  },
+  {
+   "declared_name": "obi/gen-g995-listing-photo-alteration-disclosure-audit",
+   "declared_short": "gen-g995-listing-photo-alteration-disclosure-audit",
+   "folder": "gen-g995-listing-photo-alteration-disclosure-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "7f8baae6756cfbb716051999b86b0dd164ea8a8a4e36bb33aac78f7c68ba727e",
+   "size_bytes": 3737979,
+   "updated": "2026-09-22T15:52:03.164Z"
   },
   {
    "connector_provenance": "real",
