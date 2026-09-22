@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-22T10:10:07+00:00",
+ "generated_at": "2026-09-22T10:15:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1080,
-  "scanned": 1080,
+  "task_folders": 1081,
+  "scanned": 1081,
   "connector": 328,
-  "non_connector": 752,
+  "non_connector": 753,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 91
  },
  "domain": {
-  "unnamed": 394,
+  "unnamed": 395,
   "code": 202,
   "fin": 80,
   "gen": 254,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 330,
-  "obi": 750
+  "obi": 751
  },
  "connector_services": {
   "google-drive-gym": 183,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131574
+  "approx_bytes_read": 131452
  },
  "errors": [],
  "tasks": [
@@ -12697,6 +12697,20 @@
    "updated": "2026-09-17T10:58:54.435Z"
   },
   {
+   "declared_name": "obi/compiler-ssa-optimization-repair",
+   "declared_short": "compiler-ssa-optimization-repair",
+   "folder": "law-b39-l15-pension-annuity-eligibility-recomputation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "105b3653c357c149f3f3b637ed7c30b6f8e45ba0a5374042f1dea18a6d9ff027",
+   "size_bytes": 8989957,
+   "updated": "2026-09-22T10:12:31.629Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-b39-l16-custody-letter-instruction-audit",
@@ -15256,15 +15270,15 @@
    "updated": "2026-09-21T01:35:49.055Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b61-t10-ad-computer-last-logon-stale-report",
    "declared_short": "tech-b61-t10-ad-computer-last-logon-stale-report",
-   "folder": "tech-b61-t10-ad-computer-last-logon-stale-report",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b61-t10-ad-computer-last-logon-stale-report",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6abf75949846374799d75a065d2af14e64757f115b210c19300941bf8391bed3",
    "size_bytes": 5511037,
    "updated": "2026-09-22T10:08:01.887Z"
