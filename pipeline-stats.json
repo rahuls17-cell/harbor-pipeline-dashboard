@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T05:20:04+00:00",
+ "generated_at": "2026-09-23T05:25:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1176,
-  "scanned": 1176,
+  "task_folders": 1177,
+  "scanned": 1177,
   "connector": 347,
-  "non_connector": 829,
+  "non_connector": 830,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 99
  },
  "domain": {
-  "unnamed": 446,
+  "unnamed": 447,
   "code": 220,
   "fin": 84,
   "gen": 262,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 350,
-  "obi": 826
+  "obi": 827
  },
  "connector_services": {
   "google-drive-gym": 189,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131438
  },
  "errors": [],
  "tasks": [
@@ -1719,6 +1719,20 @@
    "sha256": "c097e2847f6b604d94e0a7ae422384810aa527d1478d09e21ed6ca42e4f73193",
    "size_bytes": 6338851,
    "updated": "2026-09-22T11:05:57.850Z"
+  },
+  {
+   "declared_name": "obi/bus-b50-b7-bilingual-cv-page-budget-transform",
+   "declared_short": "bus-b50-b7-bilingual-cv-page-budget-transform",
+   "folder": "bus-b50-b7-bilingual-cv-page-budget-transform",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "79edd1b6e2361dbf8a0395c69812c6bdcdad567bdb0cf2d548ee4f3be3c795b2",
+   "size_bytes": 10751523,
+   "updated": "2026-09-23T05:21:38.769Z"
   },
   {
    "connector_provenance": null,
