@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T19:35:03+00:00",
+ "generated_at": "2026-09-23T19:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1251,
-  "scanned": 1251,
+  "task_folders": 1253,
+  "scanned": 1253,
   "connector": 374,
-  "non_connector": 877,
+  "non_connector": 879,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 123
  },
  "domain": {
-  "unnamed": 496,
+  "unnamed": 498,
   "code": 234,
   "fin": 89,
   "gen": 266,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 377,
-  "obi": 874
+  "obi": 876
  },
  "connector_services": {
   "google-drive-gym": 189,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131488
+  "new_archives_read": 2,
+  "approx_bytes_read": 263143
  },
  "errors": [],
  "tasks": [
@@ -1781,6 +1781,20 @@
    "sha256": "7223a95379f31d0e8d40cd6b1b801ec4ff92d15b692c7ba3579a31c913a72511",
    "size_bytes": 11625862,
    "updated": "2026-09-23T18:45:48.491Z"
+  },
+  {
+   "declared_name": "obi/bus-b48-b6-substation-pm-annexure-reporting-calendar",
+   "declared_short": "bus-b48-b6-substation-pm-annexure-reporting-calendar",
+   "folder": "bus-b48-b6-substation-pm-annexure-reporting-calendar",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "c0bfecb7b73a938bc5f9e9941994f8ed1fa75069e4909d326e5bddc2577684a5",
+   "size_bytes": 9349812,
+   "updated": "2026-09-23T19:36:41.873Z"
   },
   {
    "connector_provenance": null,
@@ -6355,6 +6369,20 @@
    "updated": "2026-09-23T16:12:01.414Z"
   },
   {
+   "declared_name": "obi/edu-b51-e4-lexical-claim-grounding",
+   "declared_short": "edu-b51-e4-lexical-claim-grounding",
+   "folder": "edu-b51-e4-lexical-claim-grounding",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "ddd78825581d5c4f2a7c31095e114fc61d03fd222f753b9b2551c1c658819221",
+   "size_bytes": 6320067,
+   "updated": "2026-09-23T19:39:34.432Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-s1-a1-ratio-reference-categorisation",
@@ -6383,15 +6411,15 @@
    "updated": "2026-09-20T12:13:33.874Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-s1-a4-control-implementation-group-mapping",
    "declared_short": "edu-s1-a4-control-implementation-group-mapping",
-   "folder": "edu-s1-a4-control-implementation-group-mapping",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-s1-a4-control-implementation-group-mapping",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "779ad7a23d68b21d8ff3125bea8455d64531a86d741fb4c256666ab1b79c4d2d",
    "size_bytes": 5472654,
    "updated": "2026-09-23T19:33:12.934Z"
