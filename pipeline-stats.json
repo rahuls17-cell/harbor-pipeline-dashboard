@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-23T07:00:05+00:00",
+ "generated_at": "2026-09-23T07:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1178,
-  "scanned": 1178,
-  "connector": 347,
-  "non_connector": 831,
+  "task_folders": 1180,
+  "scanned": 1180,
+  "connector": 348,
+  "non_connector": 832,
   "errors": 0
  },
  "connector_provenance": {
   "real": 124,
   "unknown": 122,
-  "synthetic": 101
+  "synthetic": 102
  },
  "domain": {
-  "unnamed": 447,
+  "unnamed": 449,
   "code": 220,
   "fin": 85,
   "gen": 262,
@@ -22,8 +22,8 @@
   "law": 80
  },
  "name_prefix": {
-  "harbor": 350,
-  "obi": 828
+  "harbor": 351,
+  "obi": 829
  },
  "connector_services": {
   "google-drive-gym": 187,
@@ -36,7 +36,7 @@
   "slack": 61,
   "notion-gym": 31,
   "github-gym": 17,
-  "email-calendar-gym": 15,
+  "email-calendar-gym": 16,
   "linear-gym": 14,
   "outlook-gym": 12,
   "gws-gym": 8,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133630
+  "new_archives_read": 2,
+  "approx_bytes_read": 265492
  },
  "errors": [],
  "tasks": [
@@ -1619,6 +1619,20 @@
    "sha256": "0e9579681f4ae6bf6f1bb263d6f304b07ea0533cf207ce2ad3196f25a059e0f1",
    "size_bytes": 7869233,
    "updated": "2026-09-23T02:36:48.347Z"
+  },
+  {
+   "declared_name": "obi/bus-b48-b8-briefing-claim-evidence-normalisation",
+   "declared_short": "bus-b48-b8-briefing-claim-evidence-normalisation",
+   "folder": "bus-b48-b8-briefing-claim-evidence-normalisation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "d8b9f14355c7e328f8be2b23390532d04490b8eb5670acbd3b060b7c742f502d",
+   "size_bytes": 9367261,
+   "updated": "2026-09-23T07:01:36.885Z"
   },
   {
    "connector_provenance": null,
@@ -16724,17 +16738,17 @@
    "updated": "2026-09-17T16:55:29.261Z"
   },
   {
-   "declared_name": "harbor/the-busy-threads-that-are-done",
-   "declared_short": "the-busy-threads-that-are-done",
-   "folder": "the-busy-threads-that-are-done",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-busy-threads-that-are-done",
+   "declared_short": "the-busy-threads-that-are-done",
    "domain": null,
+   "folder": "the-busy-threads-that-are-done",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c7ea33cf4afc28a83b360194bb5746552f57d2a2c034f224c437d874bb30e2a6",
    "size_bytes": 7045344,
    "updated": "2026-09-23T06:56:29.998Z"
@@ -18092,6 +18106,22 @@
    "sha256": "98e82a29f4b052268f7bf8edd66ee461cee956ef02c7225d3c41dbe98bb84919",
    "size_bytes": 14781445,
    "updated": "2026-09-20T17:09:38.687Z"
+  },
+  {
+   "declared_name": "harbor/who-actually-writes-to-me-twice",
+   "declared_short": "who-actually-writes-to-me-twice",
+   "folder": "who-actually-writes-to-me-twice",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "0fbded132970fae2adbd1ab6920d12172e12196bd4c717353afb2743ebc35da2",
+   "size_bytes": 6320918,
+   "updated": "2026-09-23T07:04:38.411Z"
   },
   {
    "connector_provenance": "unknown",
