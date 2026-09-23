@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-23T07:25:06+00:00",
+ "generated_at": "2026-09-23T07:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1192,
-  "scanned": 1192,
-  "connector": 360,
+  "task_folders": 1193,
+  "scanned": 1193,
+  "connector": 361,
   "non_connector": 832,
   "errors": 0
  },
  "connector_provenance": {
   "real": 124,
   "unknown": 122,
-  "synthetic": 114
+  "synthetic": 115
  },
  "domain": {
-  "unnamed": 461,
+  "unnamed": 462,
   "code": 220,
   "fin": 85,
   "gen": 262,
@@ -22,7 +22,7 @@
   "law": 80
  },
  "name_prefix": {
-  "harbor": 363,
+  "harbor": 364,
   "obi": 829
  },
  "connector_services": {
@@ -38,7 +38,7 @@
   "github-gym": 21,
   "email-calendar-gym": 19,
   "linear-gym": 17,
-  "outlook-gym": 13,
+  "outlook-gym": 14,
   "gws-gym": 8,
   "supabase-gym": 4,
   "teams-gym": 4,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 403169
+  "new_archives_read": 1,
+  "approx_bytes_read": 134542
  },
  "errors": [],
  "tasks": [
@@ -16946,17 +16946,17 @@
    "updated": "2026-09-18T18:09:18.606Z"
   },
   {
-   "declared_name": "harbor/the-interviews-run-from-the-script",
-   "declared_short": "the-interviews-run-from-the-script",
-   "folder": "the-interviews-run-from-the-script",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-interviews-run-from-the-script",
+   "declared_short": "the-interviews-run-from-the-script",
    "domain": null,
+   "folder": "the-interviews-run-from-the-script",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "42ffa591283e70b8bbe8b7406ada8c654b6e0917cc1eeece9ff954e0f384ede0",
    "size_bytes": 7319261,
    "updated": "2026-09-23T07:21:54.857Z"
@@ -17008,6 +17008,22 @@
    "sha256": "d9351bc36cf08da0bc8f3dca47f4bde8ab1d606823014daecedadda62a8fc7d4",
    "size_bytes": 8433982,
    "updated": "2026-09-21T16:14:18.798Z"
+  },
+  {
+   "declared_name": "harbor/the-meetings-my-calendar-shows-somewhere-else",
+   "declared_short": "the-meetings-my-calendar-shows-somewhere-else",
+   "folder": "the-meetings-my-calendar-shows-somewhere-else",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "f0ec374a025cbbefe33358038603189ee26bf47ef449714a33320ca7acb8bc41",
+   "size_bytes": 11968823,
+   "updated": "2026-09-23T07:26:19.752Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -17170,17 +17186,17 @@
    "updated": "2026-09-19T17:13:28.827Z"
   },
   {
-   "declared_name": "harbor/the-points-still-on-the-board",
-   "declared_short": "the-points-still-on-the-board",
-   "folder": "the-points-still-on-the-board",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-points-still-on-the-board",
+   "declared_short": "the-points-still-on-the-board",
    "domain": null,
+   "folder": "the-points-still-on-the-board",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "af19db06cb75009c9bd37b4bf178209f16b6b50a5551219f03792602b9c38e3e",
    "size_bytes": 7589411,
    "updated": "2026-09-23T07:23:23.676Z"
@@ -17218,17 +17234,17 @@
    "updated": "2026-09-23T07:16:51.963Z"
   },
   {
-   "declared_name": "harbor/the-projects-that-owe-more-than-they-have-shipped",
-   "declared_short": "the-projects-that-owe-more-than-they-have-shipped",
-   "folder": "the-projects-that-owe-more-than-they-have-shipped",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-projects-that-owe-more-than-they-have-shipped",
+   "declared_short": "the-projects-that-owe-more-than-they-have-shipped",
    "domain": null,
+   "folder": "the-projects-that-owe-more-than-they-have-shipped",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "89a4fbadf7bb5ef9093047d34502143cce6a736b265026975d3dd2a0d15f43d5",
    "size_bytes": 8973270,
    "updated": "2026-09-23T07:22:11.019Z"
