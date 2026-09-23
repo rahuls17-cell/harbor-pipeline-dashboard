@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T19:10:03+00:00",
+ "generated_at": "2026-09-23T19:15:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1246,
-  "scanned": 1246,
+  "task_folders": 1248,
+  "scanned": 1248,
   "connector": 374,
-  "non_connector": 872,
+  "non_connector": 874,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 122
  },
  "domain": {
-  "unnamed": 493,
-  "code": 233,
+  "unnamed": 494,
+  "code": 234,
   "fin": 89,
   "gen": 266,
   "health": 85,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 377,
-  "obi": 869
+  "obi": 871
  },
  "connector_services": {
   "google-drive-gym": 189,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131490
+  "new_archives_read": 2,
+  "approx_bytes_read": 262992
  },
  "errors": [],
  "tasks": [
@@ -1475,15 +1475,15 @@
    "updated": "2026-09-23T02:11:28.618Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b22-b8-picture-book-topic-trend",
    "declared_short": "bus-b22-b8-picture-book-topic-trend",
-   "folder": "bus-b22-b8-picture-book-topic-trend",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b22-b8-picture-book-topic-trend",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "566401210db006737bba2694a10bacf61109ec210e3deb9e3a18159906c68547",
    "size_bytes": 5148333,
    "updated": "2026-09-23T19:05:26.645Z"
@@ -3839,6 +3839,20 @@
    "sha256": "0670cadd362b78e3aa4a0550f0aa45db9ea46563454fd4f31e95de4042fed652",
    "size_bytes": 7167047,
    "updated": "2026-09-17T17:55:06.702Z"
+  },
+  {
+   "declared_name": "obi/code-c436-agent-profile-model-routing-audit",
+   "declared_short": "code-c436-agent-profile-model-routing-audit",
+   "folder": "code-c436-agent-profile-model-routing-audit-v1",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "91720fc1e84a5d1fa9cc25b7340058e55cbd0dc33d2c58364e9950073612416e",
+   "size_bytes": 6849707,
+   "updated": "2026-09-23T19:11:00.807Z"
   },
   {
    "connector_provenance": null,
@@ -6493,6 +6507,20 @@
    "sha256": "b5a681dba6a12ffbeae9ae3eef87d7540f8930d029fc5f6fa8583f5ba546cd26",
    "size_bytes": 8479224,
    "updated": "2026-09-13T01:15:44.998Z"
+  },
+  {
+   "declared_name": "obi/edu-sc09-b3-vti-task-001316",
+   "declared_short": "edu-sc09-b3-vti-task-001316",
+   "folder": "edu-sc09-b3-vti-task-001316",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "f41c134f577f1b25f80a512ed36a9c37188d48a11c32fe490d758abe422a83e1",
+   "size_bytes": 5979864,
+   "updated": "2026-09-23T19:13:43.935Z"
   },
   {
    "connector_provenance": "synthetic",
