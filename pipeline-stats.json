@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T09:30:05+00:00",
+ "generated_at": "2026-09-23T09:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1216,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131842
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -10175,15 +10175,15 @@
    "updated": "2026-09-09T12:52:10.973Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g776-health-content-style-audit",
    "declared_short": "gen-g776-health-content-style-audit",
-   "folder": "gen-g776-health-content-style-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g776-health-content-style-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "cac16d6ca635e9fc23372c0c1fbdd175bd8427e5fc04c02180b22eb154b6d9ae",
    "size_bytes": 6914494,
    "updated": "2026-09-23T09:25:16.313Z"
