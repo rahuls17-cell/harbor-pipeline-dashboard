@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-23T07:30:03+00:00",
+ "generated_at": "2026-09-23T07:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1193,
-  "scanned": 1193,
-  "connector": 361,
+  "task_folders": 1194,
+  "scanned": 1194,
+  "connector": 362,
   "non_connector": 832,
   "errors": 0
  },
  "connector_provenance": {
   "real": 124,
   "unknown": 122,
-  "synthetic": 115
+  "synthetic": 116
  },
  "domain": {
-  "unnamed": 462,
+  "unnamed": 463,
   "code": 220,
   "fin": 85,
   "gen": 262,
@@ -22,7 +22,7 @@
   "law": 80
  },
  "name_prefix": {
-  "harbor": 364,
+  "harbor": 365,
   "obi": 829
  },
  "connector_services": {
@@ -34,7 +34,7 @@
   "freshdesk-gym": 169,
   "slack-gym": 155,
   "slack": 61,
-  "notion-gym": 32,
+  "notion-gym": 33,
   "github-gym": 21,
   "email-calendar-gym": 19,
   "linear-gym": 17,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134542
+  "approx_bytes_read": 134950
  },
  "errors": [],
  "tasks": [
@@ -16754,6 +16754,22 @@
    "updated": "2026-09-17T16:55:29.261Z"
   },
   {
+   "declared_name": "harbor/the-billing-codes-that-do-not-agree-with-themselves",
+   "declared_short": "the-billing-codes-that-do-not-agree-with-themselves",
+   "folder": "the-billing-codes-that-do-not-agree-with-themselves",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "f484afa005847e68704c2d84799317614629003e6cb060dd88be22e2826e316c",
+   "size_bytes": 9225886,
+   "updated": "2026-09-23T07:34:55.792Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
@@ -17010,17 +17026,17 @@
    "updated": "2026-09-21T16:14:18.798Z"
   },
   {
-   "declared_name": "harbor/the-meetings-my-calendar-shows-somewhere-else",
-   "declared_short": "the-meetings-my-calendar-shows-somewhere-else",
-   "folder": "the-meetings-my-calendar-shows-somewhere-else",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-meetings-my-calendar-shows-somewhere-else",
+   "declared_short": "the-meetings-my-calendar-shows-somewhere-else",
    "domain": null,
+   "folder": "the-meetings-my-calendar-shows-somewhere-else",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f0ec374a025cbbefe33358038603189ee26bf47ef449714a33320ca7acb8bc41",
    "size_bytes": 11968823,
    "updated": "2026-09-23T07:26:19.752Z"
