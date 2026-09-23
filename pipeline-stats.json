@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T19:15:05+00:00",
+ "generated_at": "2026-09-23T19:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1248,
-  "scanned": 1248,
+  "task_folders": 1250,
+  "scanned": 1250,
   "connector": 374,
-  "non_connector": 874,
+  "non_connector": 876,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 122
  },
  "domain": {
-  "unnamed": 494,
+  "unnamed": 495,
   "code": 234,
   "fin": 89,
   "gen": 266,
-  "health": 85,
+  "health": 86,
   "law": 80
  },
  "name_prefix": {
   "harbor": 377,
-  "obi": 871
+  "obi": 873
  },
  "connector_services": {
   "google-drive-gym": 189,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 262992
+  "approx_bytes_read": 263182
  },
  "errors": [],
  "tasks": [
@@ -1753,6 +1753,20 @@
    "sha256": "6a139666943e84095a0f802dc5c6b4c2279041b2706f22ce34e29ad2d8b7f9e1",
    "size_bytes": 7746598,
    "updated": "2026-09-23T15:50:27.141Z"
+  },
+  {
+   "declared_name": "obi/bus-b47-b8-request-category-scorecard",
+   "declared_short": "bus-b47-b8-request-category-scorecard",
+   "folder": "bus-b47-b8-request-category-scorecard",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "3de1489155a630bfbf73efd077be66ebb579a00b6647ef9c74d8fa63742115db",
+   "size_bytes": 6041036,
+   "updated": "2026-09-23T19:17:28.342Z"
   },
   {
    "connector_provenance": null,
@@ -3841,15 +3855,15 @@
    "updated": "2026-09-17T17:55:06.702Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c436-agent-profile-model-routing-audit",
    "declared_short": "code-c436-agent-profile-model-routing-audit",
-   "folder": "code-c436-agent-profile-model-routing-audit-v1",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c436-agent-profile-model-routing-audit-v1",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "91720fc1e84a5d1fa9cc25b7340058e55cbd0dc33d2c58364e9950073612416e",
    "size_bytes": 6849707,
    "updated": "2026-09-23T19:11:00.807Z"
@@ -6509,15 +6523,15 @@
    "updated": "2026-09-13T01:15:44.998Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sc09-b3-vti-task-001316",
    "declared_short": "edu-sc09-b3-vti-task-001316",
-   "folder": "edu-sc09-b3-vti-task-001316",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sc09-b3-vti-task-001316",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f41c134f577f1b25f80a512ed36a9c37188d48a11c32fe490d758abe422a83e1",
    "size_bytes": 5979864,
    "updated": "2026-09-23T19:13:43.935Z"
@@ -12825,6 +12839,20 @@
    "sha256": "070436dccda14a31f0892ff900b64a20edf9b7f4e14ef8ce21c4f0d70ba35327",
    "size_bytes": 6340250,
    "updated": "2026-09-23T01:22:57.432Z"
+  },
+  {
+   "declared_name": "obi/health-b44-h8-colour-formulation-rule-adjudication",
+   "declared_short": "health-b44-h8-colour-formulation-rule-adjudication",
+   "folder": "health-b44-h8-colour-formulation-rule-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "1c551556e83edbe2c1d98f8c2b1369eeba12e7af27506432b9ecb0dd4b133c0f",
+   "size_bytes": 4618681,
+   "updated": "2026-09-23T19:19:59.388Z"
   },
   {
    "connector_provenance": null,
