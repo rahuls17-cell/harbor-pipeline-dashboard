@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T00:00:04+00:00",
+ "generated_at": "2026-09-23T00:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1157,
-  "scanned": 1157,
+  "task_folders": 1158,
+  "scanned": 1158,
   "connector": 345,
-  "non_connector": 812,
+  "non_connector": 813,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 99
  },
  "domain": {
-  "unnamed": 433,
+  "unnamed": 434,
   "code": 217,
   "fin": 84,
   "gen": 261,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 348,
-  "obi": 809
+  "obi": 810
  },
  "connector_services": {
   "google-drive-gym": 187,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131430
  },
  "errors": [],
  "tasks": [
@@ -1523,6 +1523,20 @@
    "sha256": "03b6717568b356e0ab8de35e986be31744f65dd6c973a8621c530036ff06ad91",
    "size_bytes": 7168692,
    "updated": "2026-09-22T11:03:53.016Z"
+  },
+  {
+   "declared_name": "obi/bus-b46-b6-launch-video-brief-scorecard",
+   "declared_short": "bus-b46-b6-launch-video-brief-scorecard",
+   "folder": "bus-b46-b6-launch-video-brief-scorecard",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "4c3bad5ba4231a1fb3e50f1d205a48da4e849d30e6dbd66a0bd7c33547149a89",
+   "size_bytes": 4076517,
+   "updated": "2026-09-23T00:18:24.352Z"
   },
   {
    "connector_provenance": null,
