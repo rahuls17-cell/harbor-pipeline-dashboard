@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T01:15:04+00:00",
+ "generated_at": "2026-09-23T01:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1161,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131635
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1371,15 +1371,15 @@
    "updated": "2026-09-22T18:21:05.895Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b19-b1-project-milestone-reconstruction",
    "declared_short": "bus-b19-b1-project-milestone-reconstruction",
-   "folder": "bus-b19-b1-project-milestone-reconstruction",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b19-b1-project-milestone-reconstruction",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "305bf59b81d8c263d7d3bbe51e12841f5a82466f68c5fc7dee4bf34c24615a1c",
    "size_bytes": 7653726,
    "updated": "2026-09-23T01:12:38.308Z"
