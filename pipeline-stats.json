@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-23T05:35:02+00:00",
+ "generated_at": "2026-09-23T05:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1177,
-  "scanned": 1177,
-  "connector": 347,
+  "task_folders": 1175,
+  "scanned": 1175,
+  "connector": 345,
   "non_connector": 830,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 127,
-  "unknown": 121,
+  "real": 124,
+  "unknown": 122,
   "synthetic": 99
  },
  "domain": {
-  "unnamed": 447,
+  "unnamed": 445,
   "code": 220,
   "fin": 84,
   "gen": 262,
@@ -22,18 +22,18 @@
   "law": 80
  },
  "name_prefix": {
-  "harbor": 350,
+  "harbor": 348,
   "obi": 827
  },
  "connector_services": {
-  "google-drive-gym": 189,
-  "zeta3-sql-gym": 179,
-  "confluence-gym": 174,
-  "jira-gym": 173,
-  "email-gym": 171,
-  "freshdesk-gym": 171,
-  "slack-gym": 154,
-  "slack": 64,
+  "google-drive-gym": 187,
+  "zeta3-sql-gym": 177,
+  "confluence-gym": 172,
+  "jira-gym": 171,
+  "email-gym": 169,
+  "freshdesk-gym": 169,
+  "slack-gym": 155,
+  "slack": 61,
   "notion-gym": 31,
   "email-calendar-gym": 15,
   "github-gym": 15,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133380
  },
  "errors": [],
  "tasks": [
@@ -1055,28 +1055,6 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/hard-09-invoice-grace-breach-cascade-boundary-gpt-defeater",
-   "declared_short": "hard-09-invoice-grace-breach-cascade-boundary-gpt-defeater",
-   "domain": null,
-   "folder": "batch3__hard-09-invoice-grace-breach-cascade-boundary-gpt-defeater-v2",
-   "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "8138cf12f2e382b973981869d1e501dabc568fdbd82783f374d32aae03b93d9e",
-   "size_bytes": 11492540,
-   "updated": "2026-09-18T21:22:10.104Z"
-  },
-  {
-   "connector_provenance": "real",
-   "connector_services": [
-    "confluence-gym",
-    "email-gym",
-    "freshdesk-gym",
-    "google-drive-gym",
-    "jira-gym",
-    "slack",
-    "zeta3-sql-gym"
-   ],
    "declared_name": "harbor/hard-regcc-01-reg-cc-large-deposit-exception-actual-funds-availability",
    "declared_short": "hard-regcc-01-reg-cc-large-deposit-exception-actual-funds-availability",
    "domain": null,
@@ -1109,28 +1087,6 @@
    "sha256": "c01018cbfff12462fb1bc515cce499651244d07269287f87cc274fad2fe56189",
    "size_bytes": 5777908,
    "updated": "2026-09-16T10:29:17.962Z"
-  },
-  {
-   "connector_provenance": "real",
-   "connector_services": [
-    "confluence-gym",
-    "email-gym",
-    "freshdesk-gym",
-    "google-drive-gym",
-    "jira-gym",
-    "slack",
-    "zeta3-sql-gym"
-   ],
-   "declared_name": "harbor/hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
-   "declared_short": "hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date",
-   "domain": null,
-   "folder": "batch3__hard-treasury-settlement-posting-reconciliation-pack-3-cores-all-or-nothing-hard-core-transfers-settlement-date-",
-   "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "9ecee60d2c5838950a7f550bbd4951cf6a200f057032c3eb8afc5a6eadbf80c4",
-   "size_bytes": 9593412,
-   "updated": "2026-09-18T20:39:54.236Z"
   },
   {
    "connector_provenance": "real",
@@ -14927,6 +14883,28 @@
    "updated": "2026-09-18T20:46:46.120Z"
   },
   {
+   "declared_name": "harbor/reconstruct-lifecycle-for-errored-230-mobile-check-deposit-74-and-veri",
+   "declared_short": "reconstruct-lifecycle-for-errored-230-mobile-check-deposit-74-and-veri",
+   "folder": "reconstruct-lifecycle-for-errored-230-mobile-check-deposit-74-and-veri",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "83be088b51b3e5964910a258d275d8e8a01a0ca1cc49bc71ea7be90b2616da25",
+   "size_bytes": 8600936,
+   "updated": "2026-09-23T05:49:45.958Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -15341,28 +15319,6 @@
    "sha256": "413bed8f02cc4b5f259ca6bb98fdc3ee0b57d984a4642f27accc4ffca4980f42",
    "size_bytes": 5512732,
    "updated": "2026-09-23T01:08:11.237Z"
-  },
-  {
-   "connector_provenance": "real",
-   "connector_services": [
-    "confluence-gym",
-    "email-gym",
-    "freshdesk-gym",
-    "google-drive-gym",
-    "jira-gym",
-    "slack",
-    "zeta3-sql-gym"
-   ],
-   "declared_name": "harbor/returned-ach-negative-balance-lock-action-and-scope-for-account-1284",
-   "declared_short": "returned-ach-negative-balance-lock-action-and-scope-for-account-1284",
-   "domain": null,
-   "folder": "task-100587-ach-returns-drove-account-2301-negat-03e1d4-v1",
-   "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "67e8be2fc18423c0e44192e7886774ca7c689988c3fe73bdd7b1a0f56348537d",
-   "size_bytes": 12720862,
-   "updated": "2026-09-18T22:46:02.113Z"
   },
   {
    "connector_provenance": "real",
