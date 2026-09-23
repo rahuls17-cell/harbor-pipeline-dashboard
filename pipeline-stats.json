@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T19:20:04+00:00",
+ "generated_at": "2026-09-23T19:25:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1250,
@@ -10,8 +10,8 @@
  },
  "connector_provenance": {
   "real": 126,
-  "unknown": 126,
-  "synthetic": 122
+  "unknown": 125,
+  "synthetic": 123
  },
  "domain": {
   "unnamed": 495,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263182
+  "new_archives_read": 1,
+  "approx_bytes_read": 135416
  },
  "errors": [],
  "tasks": [
@@ -825,7 +825,11 @@
    "updated": "2026-09-22T19:11:19.626Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/audit-stale-automation-rules-linked-to-changed-bill-envelopes",
+   "declared_short": "audit-stale-automation-rules-linked-to-changed-bill-envelopes",
+   "folder": "audit-stale-automation-rules-linked-to-changed-bill-envelopes",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -835,16 +839,12 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "declared_name": "harbor/audit-stale-automation-rules-linked-to-changed-bill-envelopes",
-   "declared_short": "audit-stale-automation-rules-linked-to-changed-bill-envelopes",
+   "connector_provenance": "synthetic",
    "domain": null,
-   "folder": "audit-stale-automation-rules-linked-to-changed-bill-envelopes",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "5e1c8cde949138b7a808b5943cd423bc6b7cf9c25df9e506cdb3a3c8ee4a361a",
-   "size_bytes": 8612938,
-   "updated": "2026-09-08T13:58:46.170Z"
+   "sha256": "16c88f5f55396be5bd590ce9bcbc14b528400d4cbfbeefdafdcb37fbae9e9552",
+   "size_bytes": 8570358,
+   "updated": "2026-09-23T19:23:28.199Z"
   },
   {
    "connector_provenance": "unknown",
@@ -1755,15 +1755,15 @@
    "updated": "2026-09-23T15:50:27.141Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b47-b8-request-category-scorecard",
    "declared_short": "bus-b47-b8-request-category-scorecard",
-   "folder": "bus-b47-b8-request-category-scorecard",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b47-b8-request-category-scorecard",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "3de1489155a630bfbf73efd077be66ebb579a00b6647ef9c74d8fa63742115db",
    "size_bytes": 6041036,
    "updated": "2026-09-23T19:17:28.342Z"
@@ -12841,15 +12841,15 @@
    "updated": "2026-09-23T01:22:57.432Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b44-h8-colour-formulation-rule-adjudication",
    "declared_short": "health-b44-h8-colour-formulation-rule-adjudication",
-   "folder": "health-b44-h8-colour-formulation-rule-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b44-h8-colour-formulation-rule-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1c551556e83edbe2c1d98f8c2b1369eeba12e7af27506432b9ecb0dd4b133c0f",
    "size_bytes": 4618681,
    "updated": "2026-09-23T19:19:59.388Z"
