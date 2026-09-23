@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T05:55:03+00:00",
+ "generated_at": "2026-09-23T06:05:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1175,
-  "scanned": 1175,
+  "task_folders": 1176,
+  "scanned": 1176,
   "connector": 345,
-  "non_connector": 830,
+  "non_connector": 831,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 445,
   "code": 220,
-  "fin": 84,
+  "fin": 85,
   "gen": 262,
   "health": 84,
   "law": 80
  },
  "name_prefix": {
   "harbor": 348,
-  "obi": 827
+  "obi": 828
  },
  "connector_services": {
   "google-drive-gym": 187,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131471
  },
  "errors": [],
  "tasks": [
@@ -6283,6 +6283,20 @@
    "sha256": "b6f9e2157e084070134516a52d31b717b91bab324eed7a0cd0ea0cf66c338573",
    "size_bytes": 9275803,
    "updated": "2026-09-19T19:38:52.900Z"
+  },
+  {
+   "declared_name": "obi/fin-b40-a3-net-revenue-variance-attribution",
+   "declared_short": "fin-b40-a3-net-revenue-variance-attribution",
+   "folder": "fin-b40-a3-net-revenue-variance-attribution-fourth-return-minimal-semantic-format-fix-20260923T0",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "56966eeb15641aedd3401e3dacc86b39345f64d3d855d78e2f5852c880f6e23b",
+   "size_bytes": 8994902,
+   "updated": "2026-09-23T06:01:46.585Z"
   },
   {
    "connector_provenance": null,
