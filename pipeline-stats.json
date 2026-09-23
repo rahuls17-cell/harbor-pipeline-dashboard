@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T16:00:04+00:00",
+ "generated_at": "2026-09-23T16:05:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1232,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 268629
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1727,15 +1727,15 @@
    "updated": "2026-09-23T07:01:36.885Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b48-b9-honor-society-pin-listing-comps-pricing",
    "declared_short": "bus-b48-b9-honor-society-pin-listing-comps-pricing",
-   "folder": "bus-b48-b9-honor-society-pin-listing-comps-pricing",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b48-b9-honor-society-pin-listing-comps-pricing",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "77f62e2f5f135db03a09c500d16aa5ec69d367b66455f00e61bfa8b18230bc5c",
    "size_bytes": 11543215,
    "updated": "2026-09-23T15:56:13.449Z"
@@ -15327,17 +15327,17 @@
    "updated": "2026-09-20T11:12:23.167Z"
   },
   {
-   "declared_name": "harbor/promotions-repeat-sender-cleanup",
-   "declared_short": "promotions-repeat-sender-cleanup",
-   "folder": "promotions-repeat-sender-cleanup",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/promotions-repeat-sender-cleanup",
+   "declared_short": "promotions-repeat-sender-cleanup",
    "domain": null,
+   "folder": "promotions-repeat-sender-cleanup",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d6230b78ab83da923398d42a81dd78c1ec5ebf06368203ebae0e47f66a429cde",
    "size_bytes": 12813430,
    "updated": "2026-09-23T15:58:22.136Z"
