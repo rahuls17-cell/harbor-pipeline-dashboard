@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-23T07:15:05+00:00",
+ "generated_at": "2026-09-23T07:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1186,
-  "scanned": 1186,
-  "connector": 354,
+  "task_folders": 1189,
+  "scanned": 1189,
+  "connector": 357,
   "non_connector": 832,
   "errors": 0
  },
  "connector_provenance": {
   "real": 124,
   "unknown": 122,
-  "synthetic": 108
+  "synthetic": 111
  },
  "domain": {
-  "unnamed": 455,
+  "unnamed": 458,
   "code": 220,
   "fin": 85,
   "gen": 262,
@@ -22,7 +22,7 @@
   "law": 80
  },
  "name_prefix": {
-  "harbor": 357,
+  "harbor": 360,
   "obi": 829
  },
  "connector_services": {
@@ -35,10 +35,10 @@
   "slack-gym": 155,
   "slack": 61,
   "notion-gym": 31,
-  "github-gym": 20,
+  "github-gym": 21,
   "email-calendar-gym": 19,
-  "linear-gym": 14,
-  "outlook-gym": 12,
+  "linear-gym": 15,
+  "outlook-gym": 13,
   "gws-gym": 8,
   "supabase-gym": 4,
   "teams-gym": 4,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 3,
-  "approx_bytes_read": 401363
+  "approx_bytes_read": 402795
  },
  "errors": [],
  "tasks": [
@@ -16802,17 +16802,17 @@
    "updated": "2026-09-19T08:02:42.859Z"
   },
   {
-   "declared_name": "harbor/the-conversations-more-than-one-person-was-in",
-   "declared_short": "the-conversations-more-than-one-person-was-in",
-   "folder": "the-conversations-more-than-one-person-was-in",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-conversations-more-than-one-person-was-in",
+   "declared_short": "the-conversations-more-than-one-person-was-in",
    "domain": null,
+   "folder": "the-conversations-more-than-one-person-was-in",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "637d21444d8bcacd974bc928b00470c015a7a8b153de4f3de2f36d6621aa1e77",
    "size_bytes": 7110690,
    "updated": "2026-09-23T07:10:54.425Z"
@@ -16896,6 +16896,22 @@
    "sha256": "07dc70ec42a6a18aa143632ff736a182472a82e5891987d01d5b9c6debc5b76d",
    "size_bytes": 6693113,
    "updated": "2026-09-20T16:27:41.910Z"
+  },
+  {
+   "declared_name": "harbor/the-files-nobody-mentioned-in-my-inbox",
+   "declared_short": "the-files-nobody-mentioned-in-my-inbox",
+   "folder": "the-files-nobody-mentioned-in-my-inbox",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "7e89b002f7b314a59bd34749087344dcfb2daaa96fb4cbfcae80c4051a23eb3a",
+   "size_bytes": 59252668,
+   "updated": "2026-09-23T07:18:06.271Z"
   },
   {
    "connector_provenance": "real",
@@ -17106,17 +17122,17 @@
    "updated": "2026-09-19T21:44:52.549Z"
   },
   {
-   "declared_name": "harbor/the-patients-who-keep-coming-back",
-   "declared_short": "the-patients-who-keep-coming-back",
-   "folder": "the-patients-who-keep-coming-back",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-patients-who-keep-coming-back",
+   "declared_short": "the-patients-who-keep-coming-back",
    "domain": null,
+   "folder": "the-patients-who-keep-coming-back",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "06a4f13ecbca04916b863a7a213cf63864e3afc79d324294ba5cf7b872e70ecd",
    "size_bytes": 7986931,
    "updated": "2026-09-23T07:10:11.780Z"
@@ -17152,6 +17168,22 @@
    "sha256": "493deac3cc605e9d2555e01cab5f6bf02621823e8776564ec57eed3e39dcf98d",
    "size_bytes": 10931127,
    "updated": "2026-09-22T21:31:36.448Z"
+  },
+  {
+   "declared_name": "harbor/the-projects-nothing-was-ever-scheduled-in",
+   "declared_short": "the-projects-nothing-was-ever-scheduled-in",
+   "folder": "the-projects-nothing-was-ever-scheduled-in",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "0fa1d24e0c199c00000f63111de44905451786d3d9509df1446d6617c8140939",
+   "size_bytes": 7808467,
+   "updated": "2026-09-23T07:16:51.963Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -18092,6 +18124,22 @@
    "updated": "2026-09-18T19:08:49.619Z"
   },
   {
+   "declared_name": "harbor/what-landed-with-writing-still-owed",
+   "declared_short": "what-landed-with-writing-still-owed",
+   "folder": "what-landed-with-writing-still-owed",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "225640baac0096126e16405c641c60e03bdc050652bdd54f3bfc98f3d226e23f",
+   "size_bytes": 9242275,
+   "updated": "2026-09-23T07:19:55.557Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "snowflake-gym"
@@ -18156,17 +18204,17 @@
    "updated": "2026-09-20T17:09:38.687Z"
   },
   {
-   "declared_name": "harbor/where-the-heavy-review-happens",
-   "declared_short": "where-the-heavy-review-happens",
-   "folder": "where-the-heavy-review-happens",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/where-the-heavy-review-happens",
+   "declared_short": "where-the-heavy-review-happens",
    "domain": null,
+   "folder": "where-the-heavy-review-happens",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7d4affbcb8b949ad9cb7ad28b50dfe94cd7236df86f8abab208e6eefaf7d787c",
    "size_bytes": 7805546,
    "updated": "2026-09-23T07:10:45.085Z"
