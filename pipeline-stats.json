@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T14:40:05+00:00",
+ "generated_at": "2026-09-23T14:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1224,
-  "scanned": 1224,
+  "task_folders": 1225,
+  "scanned": 1225,
   "connector": 370,
-  "non_connector": 854,
+  "non_connector": 855,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 479,
-  "code": 228,
+  "code": 229,
   "fin": 89,
   "gen": 264,
   "health": 84,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 373,
-  "obi": 851
+  "obi": 852
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131508
+  "approx_bytes_read": 131504
  },
  "errors": [],
  "tasks": [
@@ -2147,6 +2147,20 @@
    "updated": "2026-09-23T08:32:16.319Z"
   },
   {
+   "declared_name": "obi/code-c115-etl-watermark-reconciliation",
+   "declared_short": "code-c115-etl-watermark-reconciliation",
+   "folder": "code-c115-etl-watermark-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "574f0b0763a9be13e8fa04b55770e5410c7a10136c760905b12d7e6886727b8c",
+   "size_bytes": 8382066,
+   "updated": "2026-09-23T14:41:23.606Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c116-storage-cost-allocation-recompute",
@@ -2189,15 +2203,15 @@
    "updated": "2026-09-22T14:56:50.526Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c119-table-lineage-completeness-audit",
    "declared_short": "code-c119-table-lineage-completeness-audit",
-   "folder": "code-c119-table-lineage-completeness-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c119-table-lineage-completeness-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a5ffea7bf1d9264c44a853347d09e15631bfab546891a37e5bc4032a8d7c54c9",
    "size_bytes": 7496765,
    "updated": "2026-09-23T14:37:04.894Z"
