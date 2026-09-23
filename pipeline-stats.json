@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T09:55:03+00:00",
+ "generated_at": "2026-09-23T10:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1218,
-  "scanned": 1218,
+  "task_folders": 1219,
+  "scanned": 1219,
   "connector": 370,
-  "non_connector": 848,
+  "non_connector": 849,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 477,
   "code": 225,
   "fin": 89,
-  "gen": 263,
+  "gen": 264,
   "health": 84,
   "law": 80
  },
  "name_prefix": {
   "harbor": 373,
-  "obi": 845
+  "obi": 846
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131584
  },
  "errors": [],
  "tasks": [
@@ -8241,6 +8241,20 @@
    "sha256": "a5a4945d506acd02adad373848892c347b416b223aee28952f79167f096d1801",
    "size_bytes": 5606641,
    "updated": "2026-09-06T12:12:28.305Z"
+  },
+  {
+   "declared_name": "obi/gen-g1254-fire-rated-ladder-vendor-leadtime-recompute",
+   "declared_short": "gen-g1254-fire-rated-ladder-vendor-leadtime-recompute",
+   "folder": "gen-g1254-fire-rated-ladder-vendor-leadtime-recompute-v1",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "5f0f39e6805f03f167414bcbc11c6f57a0783ebfd2fd074467524717fa193e36",
+   "size_bytes": 8202601,
+   "updated": "2026-09-23T09:59:02.305Z"
   },
   {
    "connector_provenance": null,
