@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T04:40:04+00:00",
+ "generated_at": "2026-09-23T04:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1174,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131582
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -8865,15 +8865,15 @@
    "updated": "2026-09-08T12:37:31.395Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g370-informality-indicator-codebook-audit",
    "declared_short": "gen-g370-informality-indicator-codebook-audit",
-   "folder": "gen-g370-informality-indicator-codebook-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g370-informality-indicator-codebook-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "37a193c650411e453ac4384afed81ef46445fe2b7dbd3fc3e4a8bde692c60d94",
    "size_bytes": 6332388,
    "updated": "2026-09-23T04:39:50.132Z"
