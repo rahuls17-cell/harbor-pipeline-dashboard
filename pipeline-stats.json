@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T04:35:03+00:00",
+ "generated_at": "2026-09-23T04:40:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1173,
-  "scanned": 1173,
+  "task_folders": 1174,
+  "scanned": 1174,
   "connector": 346,
-  "non_connector": 827,
+  "non_connector": 828,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 445,
   "code": 219,
   "fin": 84,
-  "gen": 261,
+  "gen": 262,
   "health": 84,
   "law": 80
  },
  "name_prefix": {
   "harbor": 349,
-  "obi": 824
+  "obi": 825
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131429
+  "approx_bytes_read": 131582
  },
  "errors": [],
  "tasks": [
@@ -1847,15 +1847,15 @@
    "updated": "2026-09-22T03:26:15.948Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/career-hl04-b4-resume-skills-posting-match",
    "declared_short": "career-hl04-b4-resume-skills-posting-match",
-   "folder": "career-hl04-b4-resume-skills-posting-match",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "career-hl04-b4-resume-skills-posting-match",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4da73dd12de8237d10a5dbe617f400f716b95ad08ca0a2c84603a137acd40b4a",
    "size_bytes": 4581504,
    "updated": "2026-09-23T04:31:52.512Z"
@@ -8863,6 +8863,20 @@
    "sha256": "ba78097105938e22603c54851fdbcd49ae52c5cfdec7387933fa74b98af4df54",
    "size_bytes": 5207556,
    "updated": "2026-09-08T12:37:31.395Z"
+  },
+  {
+   "declared_name": "obi/gen-g370-informality-indicator-codebook-audit",
+   "declared_short": "gen-g370-informality-indicator-codebook-audit",
+   "folder": "gen-g370-informality-indicator-codebook-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "37a193c650411e453ac4384afed81ef46445fe2b7dbd3fc3e4a8bde692c60d94",
+   "size_bytes": 6332388,
+   "updated": "2026-09-23T04:39:50.132Z"
   },
   {
    "connector_provenance": null,
