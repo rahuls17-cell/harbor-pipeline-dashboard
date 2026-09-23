@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T09:50:06+00:00",
+ "generated_at": "2026-09-23T09:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1218,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262923
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1699,15 +1699,15 @@
    "updated": "2026-09-22T22:51:24.542Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b49-b4-brand-claim-verification-adjudication",
    "declared_short": "bus-b49-b4-brand-claim-verification-adjudication",
-   "folder": "bus-b49-b4-brand-claim-verification-adjudication-pipeline-output-with-provenance",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b49-b4-brand-claim-verification-adjudication-pipeline-output-with-provenance",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4f967751cd80d9171d85a6f8389ab1b690292bbab1197ca35e8a8407c87a53f7",
    "size_bytes": 8350846,
    "updated": "2026-09-23T09:47:47.621Z"
@@ -1727,15 +1727,15 @@
    "updated": "2026-09-22T09:56:17.602Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b49-b8-performance-goal-rating-adjudication",
    "declared_short": "bus-b49-b8-performance-goal-rating-adjudication",
-   "folder": "bus-b49-b8-performance-goal-rating-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b49-b8-performance-goal-rating-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ac491e67b6d8a2b02611f8b853896b6dbd36c557a2164f086fab56a9b45f467a",
    "size_bytes": 8451414,
    "updated": "2026-09-23T09:45:11.798Z"
