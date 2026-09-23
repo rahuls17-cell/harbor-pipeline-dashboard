@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-23T01:45:03+00:00",
+ "generated_at": "2026-09-23T01:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1164,
-  "scanned": 1164,
-  "connector": 345,
+  "task_folders": 1165,
+  "scanned": 1165,
+  "connector": 346,
   "non_connector": 819,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 126,
+  "real": 127,
   "unknown": 120,
   "synthetic": 99
  },
  "domain": {
-  "unnamed": 438,
+  "unnamed": 439,
   "code": 218,
   "fin": 84,
   "gen": 261,
@@ -22,18 +22,18 @@
   "law": 79
  },
  "name_prefix": {
-  "harbor": 348,
+  "harbor": 349,
   "obi": 816
  },
  "connector_services": {
-  "google-drive-gym": 187,
-  "zeta3-sql-gym": 177,
-  "confluence-gym": 172,
-  "jira-gym": 171,
+  "google-drive-gym": 188,
+  "zeta3-sql-gym": 178,
+  "confluence-gym": 173,
+  "jira-gym": 172,
   "email-gym": 170,
   "freshdesk-gym": 170,
   "slack-gym": 153,
-  "slack": 63,
+  "slack": 64,
   "notion-gym": 31,
   "email-calendar-gym": 15,
   "github-gym": 15,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133491
  },
  "errors": [],
  "tasks": [
@@ -15688,6 +15688,26 @@
    "sha256": "3bbe369471e265f8b6e28521c552a7d58a477c223bd410e7b857536c476ceef3",
    "size_bytes": 9588563,
    "updated": "2026-09-19T21:45:33.924Z"
+  },
+  {
+   "declared_name": "harbor/ach-debit-daily-limit-compliance-review",
+   "declared_short": "ach-debit-daily-limit-compliance-review",
+   "folder": "task_verify_ach_debit_daily_limit_compliance_for_account_1039_on_2023_11_14",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "e055e2b310b06ccaa913fb1e5e765b8788c75a9160c97107586f2ce308b0e083",
+   "size_bytes": 14234163,
+   "updated": "2026-09-23T01:45:29.036Z"
   },
   {
    "connector_provenance": "real",
