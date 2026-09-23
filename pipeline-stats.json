@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T02:15:05+00:00",
+ "generated_at": "2026-09-23T02:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1166,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131641
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1413,15 +1413,15 @@
    "updated": "2026-09-22T14:37:22.776Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b20-b5-property-data-reconciliation",
    "declared_short": "bus-b20-b5-property-data-reconciliation",
-   "folder": "bus-b20-b5-property-data-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b20-b5-property-data-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5fc9416c6f811a9199fa20e5bb3817729559e00b7dd5060b78882c5e5dfa4193",
    "size_bytes": 7496711,
    "updated": "2026-09-23T02:11:28.618Z"
