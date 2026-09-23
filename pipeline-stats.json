@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T12:10:03+00:00",
+ "generated_at": "2026-09-23T12:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1220,
-  "scanned": 1220,
+  "task_folders": 1221,
+  "scanned": 1221,
   "connector": 370,
-  "non_connector": 850,
+  "non_connector": 851,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 478,
-  "code": 225,
+  "code": 226,
   "fin": 89,
   "gen": 264,
   "health": 84,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 373,
-  "obi": 847
+  "obi": 848
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131448
  },
  "errors": [],
  "tasks": [
@@ -2369,6 +2369,20 @@
    "sha256": "c1d8b92fa64860b8132fdab0c8e700f96026821acaa1c69575deba86554aadb9",
    "size_bytes": 3923380,
    "updated": "2026-09-05T21:23:45.441Z"
+  },
+  {
+   "declared_name": "obi/code-c17-cache-invalidation-audit",
+   "declared_short": "code-c17-cache-invalidation-audit",
+   "folder": "code-c17-cache-invalidation-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "8106ae902b5504ed9aadfa3a2c8ff231c43fe51afb3435b44cd22e6a17c93b80",
+   "size_bytes": 11423734,
+   "updated": "2026-09-23T12:33:21.914Z"
   },
   {
    "connector_provenance": null,
