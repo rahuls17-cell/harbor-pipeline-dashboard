@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-09-23T23:05:03+00:00",
+ "generated_at": "2026-09-23T23:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1279,
-  "scanned": 1279,
-  "connector": 387,
-  "non_connector": 892,
+  "task_folders": 1281,
+  "scanned": 1281,
+  "connector": 388,
+  "non_connector": 893,
   "errors": 0
  },
  "connector_provenance": {
   "real": 126,
-  "unknown": 129,
+  "unknown": 130,
   "synthetic": 132
  },
  "domain": {
-  "unnamed": 518,
-  "code": 237,
+  "unnamed": 519,
+  "code": 238,
   "fin": 89,
   "gen": 268,
   "health": 86,
   "law": 81
  },
  "name_prefix": {
-  "harbor": 390,
-  "obi": 889
+  "harbor": 391,
+  "obi": 890
  },
  "connector_services": {
-  "google-drive-gym": 190,
-  "zeta3-sql-gym": 180,
-  "confluence-gym": 175,
-  "jira-gym": 174,
-  "email-gym": 172,
-  "freshdesk-gym": 172,
-  "slack-gym": 164,
+  "google-drive-gym": 191,
+  "zeta3-sql-gym": 181,
+  "confluence-gym": 176,
+  "jira-gym": 175,
+  "email-gym": 173,
+  "freshdesk-gym": 173,
+  "slack-gym": 165,
   "slack": 61,
   "notion-gym": 35,
   "github-gym": 24,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134769
+  "new_archives_read": 2,
+  "approx_bytes_read": 267477
  },
  "errors": [],
  "tasks": [
@@ -2573,6 +2573,20 @@
    "sha256": "378a85b54f1e1d91a85e9a9f88dc088c7d6cb6ff2cb68e6da064864ed9470f27",
    "size_bytes": 4306381,
    "updated": "2026-09-19T22:16:29.665Z"
+  },
+  {
+   "declared_name": "obi/code-c149-kb-article-accuracy-audit",
+   "declared_short": "code-c149-kb-article-accuracy-audit",
+   "folder": "code-c149-kb-article-accuracy-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "b23120e1b7e7f88a3e7930c923808c8d5f2f161ef3f6506d94044f0fa5921091",
+   "size_bytes": 7281083,
+   "updated": "2026-09-23T23:09:19.226Z"
   },
   {
    "connector_provenance": null,
@@ -5861,6 +5875,28 @@
    "sha256": "80b862ae08b5d1c58139e65e9101dd92e430f212ecc25fb0f9a97115f76c24e0",
    "size_bytes": 5305495,
    "updated": "2026-09-12T17:34:33.164Z"
+  },
+  {
+   "declared_name": "harbor/determine-next-in-app-step-for-plaid-linked-account-stuck-in-manual-ve",
+   "declared_short": "determine-next-in-app-step-for-plaid-linked-account-stuck-in-manual-ve",
+   "folder": "determine-next-in-app-step-for-plaid-linked-account-stuck-in-manual-ve",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "8dc8e2efce20bf2788398fef22769cca07247e2f5177c9c448fb3f22c3ebb8fc",
+   "size_bytes": 12178605,
+   "updated": "2026-09-23T23:05:48.005Z"
   },
   {
    "connector_provenance": "real",
@@ -17840,17 +17876,17 @@
    "updated": "2026-09-23T07:10:54.425Z"
   },
   {
-   "declared_name": "harbor/the-conversations-sitting-in-my-inbox",
-   "declared_short": "the-conversations-sitting-in-my-inbox",
-   "folder": "the-conversations-sitting-in-my-inbox",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-conversations-sitting-in-my-inbox",
+   "declared_short": "the-conversations-sitting-in-my-inbox",
    "domain": null,
+   "folder": "the-conversations-sitting-in-my-inbox",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4b5c3ecceb83038c81783cc1a51bc7c60c0eee8dcbcde05ff83df9a6edbdd20e",
    "size_bytes": 15486916,
    "updated": "2026-09-23T23:00:59.602Z"
