@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T17:00:05+00:00",
+ "generated_at": "2026-09-23T17:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1235,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263481
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1839,15 +1839,15 @@
    "updated": "2026-09-23T05:21:38.769Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b50-b8-reservation-charge-recompute",
    "declared_short": "bus-b50-b8-reservation-charge-recompute",
-   "folder": "bus-b50-b8-reservation-charge-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b50-b8-reservation-charge-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e228b882194fdcf358b642973ac3754be6f962ee50f5d58d663eedac09c23feb",
    "size_bytes": 6618536,
    "updated": "2026-09-23T16:57:45.319Z"
@@ -16970,15 +16970,15 @@
    "updated": "2026-09-22T06:48:50.994Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b61-t6-prefetcher-iso-storage-bakeoff-attribution",
    "declared_short": "tech-b61-t6-prefetcher-iso-storage-bakeoff-attribution",
-   "folder": "tech-b61-t6-prefetcher-iso-storage-bakeoff-attribution",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b61-t6-prefetcher-iso-storage-bakeoff-attribution",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7910a042547d7b1f0cc814f00f1b9c1d5040aeae54445265e697317f5d94f7a9",
    "size_bytes": 4952509,
    "updated": "2026-09-23T16:55:48.336Z"
