@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T04:30:04+00:00",
+ "generated_at": "2026-09-23T04:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1172,
-  "scanned": 1172,
+  "task_folders": 1173,
+  "scanned": 1173,
   "connector": 346,
-  "non_connector": 826,
+  "non_connector": 827,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 99
  },
  "domain": {
-  "unnamed": 444,
+  "unnamed": 445,
   "code": 219,
   "fin": 84,
   "gen": 261,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 349,
-  "obi": 823
+  "obi": 824
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131510
+  "approx_bytes_read": 131429
  },
  "errors": [],
  "tasks": [
@@ -1847,6 +1847,20 @@
    "updated": "2026-09-22T03:26:15.948Z"
   },
   {
+   "declared_name": "obi/career-hl04-b4-resume-skills-posting-match",
+   "declared_short": "career-hl04-b4-resume-skills-posting-match",
+   "folder": "career-hl04-b4-resume-skills-posting-match",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "4da73dd12de8237d10a5dbe617f400f716b95ad08ca0a2c84603a137acd40b4a",
+   "size_bytes": 4581504,
+   "updated": "2026-09-23T04:31:52.512Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/career-sc05-a5-interview-prep-budget",
@@ -2407,15 +2421,15 @@
    "updated": "2026-09-23T01:33:27.586Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c200-cron-retry-budget-audit",
    "declared_short": "code-c200-cron-retry-budget-audit",
-   "folder": "code-c200-cron-retry-budget-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c200-cron-retry-budget-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e473349f38a51d665efd7b55b6211d5ece3fc2075671348a6e1464d52b9b0c67",
    "size_bytes": 7503827,
    "updated": "2026-09-23T04:28:35.893Z"
