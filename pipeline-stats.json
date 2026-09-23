@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T15:15:04+00:00",
+ "generated_at": "2026-09-23T15:20:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1226,
-  "scanned": 1226,
+  "task_folders": 1228,
+  "scanned": 1228,
   "connector": 370,
-  "non_connector": 856,
+  "non_connector": 858,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 480,
-  "code": 229,
+  "code": 230,
   "fin": 89,
-  "gen": 264,
+  "gen": 265,
   "health": 84,
   "law": 80
  },
  "name_prefix": {
   "harbor": 373,
-  "obi": 853
+  "obi": 855
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263023
  },
  "errors": [],
  "tasks": [
@@ -2117,6 +2117,20 @@
    "sha256": "dc2443d69f580f738d9279d14a24b2e9d5f0e37e7554978740efcf855c4cd2b1",
    "size_bytes": 6310389,
    "updated": "2026-09-22T22:32:16.955Z"
+  },
+  {
+   "declared_name": "obi/code-c108-monitor-threshold-drift-audit",
+   "declared_short": "code-c108-monitor-threshold-drift-audit",
+   "folder": "code-c108-monitor-threshold-drift-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "4685e299cf20d4475874ffbacade181a9830e8d4cbb33201d7d00f2ef28808d2",
+   "size_bytes": 7703902,
+   "updated": "2026-09-23T15:16:54.990Z"
   },
   {
    "connector_provenance": null,
@@ -10215,6 +10229,20 @@
    "sha256": "b9dc11a44ebdd6b952e8ba53651eaa8a855405e31b106db8a18ba38587475013",
    "size_bytes": 5377517,
    "updated": "2026-09-05T23:10:37.922Z"
+  },
+  {
+   "declared_name": "obi/gen-g747-playbook-consolidation-toc-audit",
+   "declared_short": "gen-g747-playbook-consolidation-toc-audit",
+   "folder": "gen-g747-playbook-consolidation-toc-audit-submission",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "4db8f3d02808a0a39f219d7bd1c07423757f1b8ac62eb0378a80a019f69c560b",
+   "size_bytes": 5021189,
+   "updated": "2026-09-23T15:19:58.890Z"
   },
   {
    "connector_provenance": null,
