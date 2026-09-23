@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-23T19:50:03+00:00",
+ "generated_at": "2026-09-23T19:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1254,
-  "scanned": 1254,
-  "connector": 374,
+  "task_folders": 1255,
+  "scanned": 1255,
+  "connector": 375,
   "non_connector": 880,
   "errors": 0
  },
  "connector_provenance": {
   "real": 126,
-  "unknown": 125,
+  "unknown": 126,
   "synthetic": 123
  },
  "domain": {
-  "unnamed": 498,
+  "unnamed": 499,
   "code": 234,
   "fin": 89,
   "gen": 266,
@@ -22,7 +22,7 @@
   "law": 81
  },
  "name_prefix": {
-  "harbor": 377,
+  "harbor": 378,
   "obi": 877
  },
  "connector_services": {
@@ -32,7 +32,7 @@
   "jira-gym": 173,
   "email-gym": 171,
   "freshdesk-gym": 171,
-  "slack-gym": 160,
+  "slack-gym": 161,
   "slack": 61,
   "notion-gym": 34,
   "github-gym": 22,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131404
+  "approx_bytes_read": 133718
  },
  "errors": [],
  "tasks": [
@@ -14915,15 +14915,15 @@
    "updated": "2026-09-09T13:59:24.886Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-l41-delegated-authority-limits",
    "declared_short": "law-l41-delegated-authority-limits",
-   "folder": "law-l41-delegated-authority-limits",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-l41-delegated-authority-limits",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "abb9cde6d5e54461deec2bb98dfd4585eea7a72e12622973acfcbb9574dc7d35",
    "size_bytes": 4924620,
    "updated": "2026-09-23T19:45:56.156Z"
@@ -19162,6 +19162,22 @@
    "sha256": "8445530e8d1d36d1a95f23d63a4c863dfb95e8b8640a7e2c9ed0159f0d4f2f85",
    "size_bytes": 10542698,
    "updated": "2026-09-22T17:10:35.688Z"
+  },
+  {
+   "declared_name": "harbor/who-had-the-last-word",
+   "declared_short": "who-had-the-last-word",
+   "folder": "who-had-the-last-word",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "b3d16400e077c4cb5f047481300fd1bdcc6020c90e8bd85a185f2f2c88ff577a",
+   "size_bytes": 10503818,
+   "updated": "2026-09-23T19:51:26.460Z"
   },
   {
    "connector_provenance": "synthetic",
