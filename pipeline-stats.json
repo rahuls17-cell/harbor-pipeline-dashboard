@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-23T07:20:03+00:00",
+ "generated_at": "2026-09-23T07:25:06+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1189,
-  "scanned": 1189,
-  "connector": 357,
+  "task_folders": 1192,
+  "scanned": 1192,
+  "connector": 360,
   "non_connector": 832,
   "errors": 0
  },
  "connector_provenance": {
   "real": 124,
   "unknown": 122,
-  "synthetic": 111
+  "synthetic": 114
  },
  "domain": {
-  "unnamed": 458,
+  "unnamed": 461,
   "code": 220,
   "fin": 85,
   "gen": 262,
@@ -22,7 +22,7 @@
   "law": 80
  },
  "name_prefix": {
-  "harbor": 360,
+  "harbor": 363,
   "obi": 829
  },
  "connector_services": {
@@ -34,10 +34,10 @@
   "freshdesk-gym": 169,
   "slack-gym": 155,
   "slack": 61,
-  "notion-gym": 31,
+  "notion-gym": 32,
   "github-gym": 21,
   "email-calendar-gym": 19,
-  "linear-gym": 15,
+  "linear-gym": 17,
   "outlook-gym": 13,
   "gws-gym": 8,
   "supabase-gym": 4,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 3,
-  "approx_bytes_read": 402795
+  "approx_bytes_read": 403169
  },
  "errors": [],
  "tasks": [
@@ -16898,17 +16898,17 @@
    "updated": "2026-09-20T16:27:41.910Z"
   },
   {
-   "declared_name": "harbor/the-files-nobody-mentioned-in-my-inbox",
-   "declared_short": "the-files-nobody-mentioned-in-my-inbox",
-   "folder": "the-files-nobody-mentioned-in-my-inbox",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-files-nobody-mentioned-in-my-inbox",
+   "declared_short": "the-files-nobody-mentioned-in-my-inbox",
    "domain": null,
+   "folder": "the-files-nobody-mentioned-in-my-inbox",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7e89b002f7b314a59bd34749087344dcfb2daaa96fb4cbfcae80c4051a23eb3a",
    "size_bytes": 59252668,
    "updated": "2026-09-23T07:18:06.271Z"
@@ -16944,6 +16944,22 @@
    "sha256": "548ac7c35766b422e8780c881e93423d71b19a8af9bc4b04f868e68f0f875c5e",
    "size_bytes": 7214560,
    "updated": "2026-09-18T18:09:18.606Z"
+  },
+  {
+   "declared_name": "harbor/the-interviews-run-from-the-script",
+   "declared_short": "the-interviews-run-from-the-script",
+   "folder": "the-interviews-run-from-the-script",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "42ffa591283e70b8bbe8b7406ada8c654b6e0917cc1eeece9ff954e0f384ede0",
+   "size_bytes": 7319261,
+   "updated": "2026-09-23T07:21:54.857Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -17154,6 +17170,22 @@
    "updated": "2026-09-19T17:13:28.827Z"
   },
   {
+   "declared_name": "harbor/the-points-still-on-the-board",
+   "declared_short": "the-points-still-on-the-board",
+   "folder": "the-points-still-on-the-board",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "af19db06cb75009c9bd37b4bf178209f16b6b50a5551219f03792602b9c38e3e",
+   "size_bytes": 7589411,
+   "updated": "2026-09-23T07:23:23.676Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "microsoft-teams-gym"
@@ -17170,9 +17202,25 @@
    "updated": "2026-09-22T21:31:36.448Z"
   },
   {
+   "connector_provenance": "synthetic",
+   "connector_services": [
+    "linear-gym"
+   ],
    "declared_name": "harbor/the-projects-nothing-was-ever-scheduled-in",
    "declared_short": "the-projects-nothing-was-ever-scheduled-in",
+   "domain": null,
    "folder": "the-projects-nothing-was-ever-scheduled-in",
+   "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
+   "sha256": "0fa1d24e0c199c00000f63111de44905451786d3d9509df1446d6617c8140939",
+   "size_bytes": 7808467,
+   "updated": "2026-09-23T07:16:51.963Z"
+  },
+  {
+   "declared_name": "harbor/the-projects-that-owe-more-than-they-have-shipped",
+   "declared_short": "the-projects-that-owe-more-than-they-have-shipped",
+   "folder": "the-projects-that-owe-more-than-they-have-shipped",
    "prefix": "harbor",
    "is_connector": true,
    "connector_services": [
@@ -17181,9 +17229,9 @@
    "connector_provenance": "synthetic",
    "domain": null,
    "image": null,
-   "sha256": "0fa1d24e0c199c00000f63111de44905451786d3d9509df1446d6617c8140939",
-   "size_bytes": 7808467,
-   "updated": "2026-09-23T07:16:51.963Z"
+   "sha256": "89a4fbadf7bb5ef9093047d34502143cce6a736b265026975d3dd2a0d15f43d5",
+   "size_bytes": 8973270,
+   "updated": "2026-09-23T07:22:11.019Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -18124,17 +18172,17 @@
    "updated": "2026-09-18T19:08:49.619Z"
   },
   {
-   "declared_name": "harbor/what-landed-with-writing-still-owed",
-   "declared_short": "what-landed-with-writing-still-owed",
-   "folder": "what-landed-with-writing-still-owed",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/what-landed-with-writing-still-owed",
+   "declared_short": "what-landed-with-writing-still-owed",
    "domain": null,
+   "folder": "what-landed-with-writing-still-owed",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "225640baac0096126e16405c641c60e03bdc050652bdd54f3bfc98f3d226e23f",
    "size_bytes": 9242275,
    "updated": "2026-09-23T07:19:55.557Z"
