@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T15:25:03+00:00",
+ "generated_at": "2026-09-23T15:50:06+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1228,
-  "scanned": 1228,
+  "task_folders": 1229,
+  "scanned": 1229,
   "connector": 370,
-  "non_connector": 858,
+  "non_connector": 859,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 480,
-  "code": 230,
+  "code": 231,
   "fin": 89,
   "gen": 265,
   "health": 84,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 373,
-  "obi": 855
+  "obi": 856
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131503
  },
  "errors": [],
  "tasks": [
@@ -4525,6 +4525,20 @@
    "sha256": "0450eaa1680ef2180df4ad8b484289659c8538696eeadd0dd0f58219551ed28a",
    "size_bytes": 5717608,
    "updated": "2026-09-12T03:44:25.854Z"
+  },
+  {
+   "declared_name": "obi/code-c58-feature-flag-targeting-audit",
+   "declared_short": "code-c58-feature-flag-targeting-audit",
+   "folder": "code-c58-feature-flag-targeting-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "72174c722fde2c32477b6a26e3184b50c15d63c1e0eb962dc5532d685dbabcc8",
+   "size_bytes": 8146287,
+   "updated": "2026-09-23T15:47:34.646Z"
   },
   {
    "connector_provenance": null,
