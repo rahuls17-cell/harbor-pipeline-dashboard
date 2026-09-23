@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T20:25:03+00:00",
+ "generated_at": "2026-09-23T20:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1261,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263066
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1945,15 +1945,15 @@
    "updated": "2026-09-22T11:05:57.850Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b50-b3-product-model-identification-register",
    "declared_short": "bus-b50-b3-product-model-identification-register",
-   "folder": "bus-b50-b3-product-model-identification-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b50-b3-product-model-identification-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "42064bf15305f5fc479f426ed0c53869f19d5e7fe8d71fd4ed0e9199b0c34a06",
    "size_bytes": 7565862,
    "updated": "2026-09-23T20:22:10.100Z"
@@ -1987,15 +1987,15 @@
    "updated": "2026-09-23T16:57:45.319Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-mg-bus-b7-a2-lab-calibration-compliance-screen",
    "declared_short": "bus-mg-bus-b7-a2-lab-calibration-compliance-screen",
-   "folder": "bus-mg-bus-b7-a2-lab-calibration-compliance-screen",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-mg-bus-b7-a2-lab-calibration-compliance-screen",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a318ace80170299974ae426291d7d490a37949690d66acc5d4eddba531c10374",
    "size_bytes": 12818189,
    "updated": "2026-09-23T20:23:22.275Z"
