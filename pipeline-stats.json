@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T11:40:03+00:00",
+ "generated_at": "2026-09-23T12:05:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1219,
-  "scanned": 1219,
+  "task_folders": 1220,
+  "scanned": 1220,
   "connector": 370,
-  "non_connector": 849,
+  "non_connector": 850,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 120
  },
  "domain": {
-  "unnamed": 477,
+  "unnamed": 478,
   "code": 225,
   "fin": 89,
   "gen": 264,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 373,
-  "obi": 846
+  "obi": 847
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131622
  },
  "errors": [],
  "tasks": [
@@ -1333,6 +1333,20 @@
    "sha256": "d0e4ead17e583068d0710a56454b1d874c85a2097e037a6e7960b49830083a76",
    "size_bytes": 8790023,
    "updated": "2026-09-13T08:14:15.347Z"
+  },
+  {
+   "declared_name": "obi/bus-b108-b1-tailored-cv-claim-verification",
+   "declared_short": "bus-b108-b1-tailored-cv-claim-verification",
+   "folder": "bus-b108-b1-tailored-cv-claim-verification",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "07fcfe3e53a1ca1961812a9876e17df7bed1e9f99162cf58f8c859c73ed67fca",
+   "size_bytes": 8521601,
+   "updated": "2026-09-23T12:04:43.475Z"
   },
   {
    "connector_provenance": null,
