@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T04:15:03+00:00",
+ "generated_at": "2026-09-23T04:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1171,
-  "scanned": 1171,
+  "task_folders": 1172,
+  "scanned": 1172,
   "connector": 346,
-  "non_connector": 825,
+  "non_connector": 826,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 444,
-  "code": 218,
+  "code": 219,
   "fin": 84,
   "gen": 261,
   "health": 84,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 349,
-  "obi": 822
+  "obi": 823
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131510
  },
  "errors": [],
  "tasks": [
@@ -2405,6 +2405,20 @@
    "sha256": "d7a699c64044d23963b7ae9b81b879dd4c63e33660c18dd9a1039cf0383befe6",
    "size_bytes": 7865875,
    "updated": "2026-09-23T01:33:27.586Z"
+  },
+  {
+   "declared_name": "obi/code-c200-cron-retry-budget-audit",
+   "declared_short": "code-c200-cron-retry-budget-audit",
+   "folder": "code-c200-cron-retry-budget-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "e473349f38a51d665efd7b55b6211d5ece3fc2075671348a6e1464d52b9b0c67",
+   "size_bytes": 7503827,
+   "updated": "2026-09-23T04:28:35.893Z"
   },
   {
    "connector_provenance": null,
