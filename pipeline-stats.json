@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T20:10:03+00:00",
+ "generated_at": "2026-09-23T20:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1258,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 265916
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -405,11 +405,7 @@
    "updated": "2026-09-16T07:39:21.183Z"
   },
   {
-   "declared_name": "harbor/account-recovery-phone-recovery-caller-reports-losing-email-access-at",
-   "declared_short": "account-recovery-phone-recovery-caller-reports-losing-email-access-at",
-   "folder": "account-recovery-concierge-exposure-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -419,9 +415,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/account-recovery-phone-recovery-caller-reports-losing-email-access-at",
+   "declared_short": "account-recovery-phone-recovery-caller-reports-losing-email-access-at",
    "domain": null,
+   "folder": "account-recovery-concierge-exposure-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "21a35435cc268f1dfa47eb99f3c491c537d8efcf91ce0378c3956646feb36975",
    "size_bytes": 7653074,
    "updated": "2026-09-23T20:06:15.352Z"
@@ -1805,15 +1805,15 @@
    "updated": "2026-09-23T18:45:48.491Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b48-b5-engagement-log-invoice-reconciliation",
    "declared_short": "bus-b48-b5-engagement-log-invoice-reconciliation",
-   "folder": "bus-b48-b5-engagement-log-invoice-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b48-b5-engagement-log-invoice-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9b66e39d05407882324857300addfbfce55ca560c80883ec0148f6210a46b1ec",
    "size_bytes": 8261426,
    "updated": "2026-09-23T20:07:07.139Z"
