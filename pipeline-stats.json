@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-23T07:10:05+00:00",
+ "generated_at": "2026-09-23T07:15:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1183,
-  "scanned": 1183,
-  "connector": 351,
+  "task_folders": 1186,
+  "scanned": 1186,
+  "connector": 354,
   "non_connector": 832,
   "errors": 0
  },
  "connector_provenance": {
   "real": 124,
   "unknown": 122,
-  "synthetic": 105
+  "synthetic": 108
  },
  "domain": {
-  "unnamed": 452,
+  "unnamed": 455,
   "code": 220,
   "fin": 85,
   "gen": 262,
@@ -22,7 +22,7 @@
   "law": 80
  },
  "name_prefix": {
-  "harbor": 354,
+  "harbor": 357,
   "obi": 829
  },
  "connector_services": {
@@ -35,8 +35,8 @@
   "slack-gym": 155,
   "slack": 61,
   "notion-gym": 31,
-  "github-gym": 19,
-  "email-calendar-gym": 17,
+  "github-gym": 20,
+  "email-calendar-gym": 19,
   "linear-gym": 14,
   "outlook-gym": 12,
   "gws-gym": 8,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 3,
-  "approx_bytes_read": 402384
+  "approx_bytes_read": 401363
  },
  "errors": [],
  "tasks": [
@@ -14757,17 +14757,17 @@
    "updated": "2026-09-09T05:03:23.107Z"
   },
   {
-   "declared_name": "harbor/outside-reviewers-asking-for-tests",
-   "declared_short": "outside-reviewers-asking-for-tests",
-   "folder": "outside-reviewers-asking-for-tests",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/outside-reviewers-asking-for-tests",
+   "declared_short": "outside-reviewers-asking-for-tests",
    "domain": null,
+   "folder": "outside-reviewers-asking-for-tests",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f3471ec28f83e3bed10e2eb27ef70cdb5ea453e163f8da109943a7886654c218",
    "size_bytes": 9557074,
    "updated": "2026-09-23T07:09:30.880Z"
@@ -16802,6 +16802,22 @@
    "updated": "2026-09-19T08:02:42.859Z"
   },
   {
+   "declared_name": "harbor/the-conversations-more-than-one-person-was-in",
+   "declared_short": "the-conversations-more-than-one-person-was-in",
+   "folder": "the-conversations-more-than-one-person-was-in",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "637d21444d8bcacd974bc928b00470c015a7a8b153de4f3de2f36d6621aa1e77",
+   "size_bytes": 7110690,
+   "updated": "2026-09-23T07:10:54.425Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "teams-gym"
@@ -17088,6 +17104,22 @@
    "sha256": "5644342bc52528cb443d1a7a81429b35b82c04b440398a058b1c51323bbf4330",
    "size_bytes": 9691273,
    "updated": "2026-09-19T21:44:52.549Z"
+  },
+  {
+   "declared_name": "harbor/the-patients-who-keep-coming-back",
+   "declared_short": "the-patients-who-keep-coming-back",
+   "folder": "the-patients-who-keep-coming-back",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "06a4f13ecbca04916b863a7a213cf63864e3afc79d324294ba5cf7b872e70ecd",
+   "size_bytes": 7986931,
+   "updated": "2026-09-23T07:10:11.780Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -18124,6 +18156,22 @@
    "updated": "2026-09-20T17:09:38.687Z"
   },
   {
+   "declared_name": "harbor/where-the-heavy-review-happens",
+   "declared_short": "where-the-heavy-review-happens",
+   "folder": "where-the-heavy-review-happens",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "7d4affbcb8b949ad9cb7ad28b50dfe94cd7236df86f8abab208e6eefaf7d787c",
+   "size_bytes": 7805546,
+   "updated": "2026-09-23T07:10:45.085Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
@@ -18156,17 +18204,17 @@
    "updated": "2026-09-22T17:10:35.688Z"
   },
   {
-   "declared_name": "harbor/who-i-have-sent-a-secure-message-to",
-   "declared_short": "who-i-have-sent-a-secure-message-to",
-   "folder": "who-i-have-sent-a-secure-message-to",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/who-i-have-sent-a-secure-message-to",
+   "declared_short": "who-i-have-sent-a-secure-message-to",
    "domain": null,
+   "folder": "who-i-have-sent-a-secure-message-to",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9a14836cc42428ff20edb2472ce4f3f6e7d5f3e3ff531a73970bc7926c4e8414",
    "size_bytes": 7812361,
    "updated": "2026-09-23T07:05:53.234Z"
@@ -18204,17 +18252,17 @@
    "updated": "2026-09-20T06:45:45.207Z"
   },
   {
-   "declared_name": "harbor/who-turns-up-in-the-busy-threads",
-   "declared_short": "who-turns-up-in-the-busy-threads",
-   "folder": "who-turns-up-in-the-busy-threads",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/who-turns-up-in-the-busy-threads",
+   "declared_short": "who-turns-up-in-the-busy-threads",
    "domain": null,
+   "folder": "who-turns-up-in-the-busy-threads",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "972f316ef6c8b642e45901ad38d1d85fd866a1c56f1fc28003299e0c43631817",
    "size_bytes": 7293690,
    "updated": "2026-09-23T07:08:22.794Z"
