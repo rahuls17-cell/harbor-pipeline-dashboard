@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T03:25:03+00:00",
+ "generated_at": "2026-09-23T03:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1169,
-  "scanned": 1169,
+  "task_folders": 1170,
+  "scanned": 1170,
   "connector": 346,
-  "non_connector": 823,
+  "non_connector": 824,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 99
  },
  "domain": {
-  "unnamed": 442,
+  "unnamed": 443,
   "code": 218,
   "fin": 84,
   "gen": 261,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 349,
-  "obi": 820
+  "obi": 821
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131512
  },
  "errors": [],
  "tasks": [
@@ -1817,6 +1817,20 @@
    "sha256": "0d439f0d283c8237a88c4423cc9cb4ea1c53f78cc36fd239cd6537705f65a5d5",
    "size_bytes": 6356317,
    "updated": "2026-09-09T04:36:46.374Z"
+  },
+  {
+   "declared_name": "obi/career-hl04-a1-person-spec-cv-reconciliation",
+   "declared_short": "career-hl04-a1-person-spec-cv-reconciliation",
+   "folder": "career-hl04-a1-person-spec-cv-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "c9a2e8a50526a1315ba6aa7caa06c6c84ede9e21dad4233ccafffd8a5cd70d21",
+   "size_bytes": 6501878,
+   "updated": "2026-09-23T03:53:08.215Z"
   },
   {
    "connector_provenance": null,
