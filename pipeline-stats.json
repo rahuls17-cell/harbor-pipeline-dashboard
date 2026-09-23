@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-23T22:00:04+00:00",
+ "generated_at": "2026-09-23T22:05:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1267,
-  "scanned": 1267,
-  "connector": 378,
-  "non_connector": 889,
+  "task_folders": 1270,
+  "scanned": 1270,
+  "connector": 380,
+  "non_connector": 890,
   "errors": 0
  },
  "connector_provenance": {
   "real": 126,
   "unknown": 128,
-  "synthetic": 124
+  "synthetic": 126
  },
  "domain": {
-  "unnamed": 507,
+  "unnamed": 509,
   "code": 237,
   "fin": 89,
-  "gen": 267,
+  "gen": 268,
   "health": 86,
   "law": 81
  },
  "name_prefix": {
-  "harbor": 381,
-  "obi": 886
+  "harbor": 383,
+  "obi": 887
  },
  "connector_services": {
   "google-drive-gym": 190,
@@ -36,8 +36,8 @@
   "slack": 61,
   "notion-gym": 34,
   "github-gym": 22,
-  "email-calendar-gym": 20,
-  "linear-gym": 19,
+  "email-calendar-gym": 21,
+  "linear-gym": 20,
   "outlook-gym": 14,
   "gws-gym": 9,
   "supabase-gym": 4,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134579
+  "new_archives_read": 3,
+  "approx_bytes_read": 400377
  },
  "errors": [],
  "tasks": [
@@ -8089,17 +8089,17 @@
    "updated": "2026-09-07T21:27:11.347Z"
   },
   {
-   "declared_name": "harbor/found-or-not-found",
-   "declared_short": "found-or-not-found",
-   "folder": "found-or-not-found",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/found-or-not-found",
+   "declared_short": "found-or-not-found",
    "domain": null,
+   "folder": "found-or-not-found",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b1d58a1ead6dbdad981bf1b38a41bddcfcf2fc2cc64fea59191b36394efec9fc",
    "size_bytes": 9906048,
    "updated": "2026-09-23T21:55:30.953Z"
@@ -9617,6 +9617,20 @@
    "sha256": "37a193c650411e453ac4384afed81ef46445fe2b7dbd3fc3e4a8bde692c60d94",
    "size_bytes": 6332388,
    "updated": "2026-09-23T04:39:50.132Z"
+  },
+  {
+   "declared_name": "obi/gen-g382-altitude-acclimatization-audit",
+   "declared_short": "gen-g382-altitude-acclimatization-audit",
+   "folder": "gen-g382-altitude-acclimatization-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "62cedd83e89766bc03babb999eff366ac6cda588190bf142a0b47b97b388add7",
+   "size_bytes": 6169125,
+   "updated": "2026-09-23T22:01:13.920Z"
   },
   {
    "connector_provenance": null,
@@ -18486,6 +18500,22 @@
    "updated": "2026-09-21T12:40:34.257Z"
   },
   {
+   "declared_name": "harbor/the-work-that-crossed-the-boundary",
+   "declared_short": "the-work-that-crossed-the-boundary",
+   "folder": "the-work-that-crossed-the-boundary",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "777f376a8ab7730191ad745d6e510b3ef873c78ff4577683abd0b3c3467d3e6c",
+   "size_bytes": 7405806,
+   "updated": "2026-09-23T22:04:09.458Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
@@ -19326,6 +19356,22 @@
    "sha256": "0fbded132970fae2adbd1ab6920d12172e12196bd4c717353afb2743ebc35da2",
    "size_bytes": 6320918,
    "updated": "2026-09-23T07:04:38.411Z"
+  },
+  {
+   "declared_name": "harbor/who-books-my-time-more-than-once",
+   "declared_short": "who-books-my-time-more-than-once",
+   "folder": "who-books-my-time-more-than-once",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "679d9a7c41c107a0c0cbb7b755d9c9a0a2602c00a1c2d1756d9e64ab1595a7f0",
+   "size_bytes": 7618476,
+   "updated": "2026-09-23T22:00:15.775Z"
   },
   {
    "connector_provenance": "unknown",
