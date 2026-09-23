@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T14:55:04+00:00",
+ "generated_at": "2026-09-23T15:10:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1225,
-  "scanned": 1225,
+  "task_folders": 1226,
+  "scanned": 1226,
   "connector": 370,
-  "non_connector": 855,
+  "non_connector": 856,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 120
  },
  "domain": {
-  "unnamed": 479,
+  "unnamed": 480,
   "code": 229,
   "fin": 89,
   "gen": 264,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 373,
-  "obi": 852
+  "obi": 853
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131649
  },
  "errors": [],
  "tasks": [
@@ -1543,6 +1543,20 @@
    "sha256": "35a8563dea4b89d44a6cffa0cd4ebb1484673334957e1b876a2785991302f032",
    "size_bytes": 6746808,
    "updated": "2026-09-17T22:03:05.476Z"
+  },
+  {
+   "declared_name": "obi/bus-b43-b9-design-fee-increase-attribution",
+   "declared_short": "bus-b43-b9-design-fee-increase-attribution",
+   "folder": "bus-b43-b9-design-fee-increase-attribution",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1bd15c0040a1fecba1f0456713db9c6d14ddcb3c1f5105075ab441c81e265ae2",
+   "size_bytes": 7840776,
+   "updated": "2026-09-23T15:07:02.304Z"
   },
   {
    "connector_provenance": null,
