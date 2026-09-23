@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T08:30:04+00:00",
+ "generated_at": "2026-09-23T08:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1208,
-  "scanned": 1208,
+  "task_folders": 1209,
+  "scanned": 1209,
   "connector": 368,
-  "non_connector": 840,
+  "non_connector": 841,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 472,
-  "code": 223,
+  "code": 224,
   "fin": 87,
   "gen": 262,
   "health": 84,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 371,
-  "obi": 837
+  "obi": 838
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 396906
+  "new_archives_read": 1,
+  "approx_bytes_read": 131511
  },
  "errors": [],
  "tasks": [
@@ -1377,15 +1377,15 @@
    "updated": "2026-09-23T00:29:48.076Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b19-b3-client-segment-classification",
    "declared_short": "bus-b19-b3-client-segment-classification",
-   "folder": "bus-b19-b3-client-segment-classification-20260923T183037Z-1-001",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b19-b3-client-segment-classification-20260923T183037Z-1-001",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "808458182ff4b9e3bc4f9f9d46e5daae2ecb9bdad72fbaad1656ffeab19f96dc",
    "size_bytes": 8124846,
    "updated": "2026-09-23T08:29:39.459Z"
@@ -1755,15 +1755,15 @@
    "updated": "2026-09-23T05:21:38.769Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-mg-bus-b7-a7-fair-catalogue-proof-register",
    "declared_short": "bus-mg-bus-b7-a7-fair-catalogue-proof-register",
-   "folder": "bus-mg-bus-b7-a7-fair-catalogue-proof-register-v7",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-mg-bus-b7-a7-fair-catalogue-proof-register-v7",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2a5a6713dd93b2b7662d3c4270e3a4c5f9a0fd5dc5c1488b28cc8a1d0763dbb3",
    "size_bytes": 6622630,
    "updated": "2026-09-23T08:25:59.127Z"
@@ -2089,6 +2089,20 @@
    "sha256": "db3931e59981c5db83872691c0b39f105f44adfbe80de258a6199e6137914439",
    "size_bytes": 6472000,
    "updated": "2026-09-23T07:45:16.342Z"
+  },
+  {
+   "declared_name": "obi/code-c113-storage-tier-transition-recompute",
+   "declared_short": "code-c113-storage-tier-transition-recompute",
+   "folder": "code-c113-storage-tier-transition-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "7bb9a96eb87a00d880faf3cd32079460e606d1b67166909c56278e6394efaedf",
+   "size_bytes": 7363327,
+   "updated": "2026-09-23T08:32:16.319Z"
   },
   {
    "connector_provenance": null,
@@ -17384,17 +17398,17 @@
    "updated": "2026-09-23T07:10:11.780Z"
   },
   {
-   "declared_name": "harbor/the-pins-nobody-can-vouch-for",
-   "declared_short": "the-pins-nobody-can-vouch-for",
-   "folder": "the-pins-nobody-can-vouch-for-postfix",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-pins-nobody-can-vouch-for",
+   "declared_short": "the-pins-nobody-can-vouch-for",
    "domain": null,
+   "folder": "the-pins-nobody-can-vouch-for-postfix",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "131c45530a37e4738b1e1692525895db7645f400a52d3a47678536d0014b3c72",
    "size_bytes": 7369132,
    "updated": "2026-09-23T08:27:48.834Z"
