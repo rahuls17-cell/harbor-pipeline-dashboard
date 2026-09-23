@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T12:40:07+00:00",
+ "generated_at": "2026-09-23T12:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1221,
-  "scanned": 1221,
+  "task_folders": 1222,
+  "scanned": 1222,
   "connector": 370,
-  "non_connector": 851,
+  "non_connector": 852,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 120
  },
  "domain": {
-  "unnamed": 478,
+  "unnamed": 479,
   "code": 226,
   "fin": 89,
   "gen": 264,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 373,
-  "obi": 848
+  "obi": 849
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131555
  },
  "errors": [],
  "tasks": [
@@ -18816,6 +18816,20 @@
    "sha256": "5e86231d608e291995be06b994639591f12abf43c766ce1c03185f2114d895f2",
    "size_bytes": 3999884,
    "updated": "2026-09-22T11:50:47.121Z"
+  },
+  {
+   "declared_name": "obi/writing-hl04-b1-census-submission-audit",
+   "declared_short": "writing-hl04-b1-census-submission-audit",
+   "folder": "writing-hl04-b1-census-submission-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "61a4652a3d7bae56965bce7028dc090869c04e4591445c6fab691444862a2572",
+   "size_bytes": 4399491,
+   "updated": "2026-09-23T12:40:35.495Z"
   },
   {
    "connector_provenance": null,
