@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T21:50:04+00:00",
+ "generated_at": "2026-09-23T21:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1266,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 266229
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2841,15 +2841,15 @@
    "updated": "2026-09-23T01:33:27.586Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c20-money-precision-audit",
    "declared_short": "code-c20-money-precision-audit",
-   "folder": "code-c20-money-precision-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c20-money-precision-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9802a7165c2e3f6b3ead82aa009723779a70e3f4e849ce27aad73fd75f947293",
    "size_bytes": 10660021,
    "updated": "2026-09-23T21:46:10.587Z"
@@ -11619,17 +11619,17 @@
    "updated": "2026-09-22T22:40:54.465Z"
   },
   {
-   "declared_name": "harbor/grooming-the-biggest-teams-backlog",
-   "declared_short": "grooming-the-biggest-teams-backlog",
-   "folder": "grooming-the-biggest-teams-backlog",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/grooming-the-biggest-teams-backlog",
+   "declared_short": "grooming-the-biggest-teams-backlog",
    "domain": null,
+   "folder": "grooming-the-biggest-teams-backlog",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6767867674f176026a5da30b1133e9630e601ba37a48b1de810b2e5917d6f371",
    "size_bytes": 5733949,
    "updated": "2026-09-23T21:47:55.969Z"
