@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-23T07:35:03+00:00",
+ "generated_at": "2026-09-23T07:40:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1194,
-  "scanned": 1194,
-  "connector": 362,
+  "task_folders": 1195,
+  "scanned": 1195,
+  "connector": 363,
   "non_connector": 832,
   "errors": 0
  },
  "connector_provenance": {
   "real": 124,
   "unknown": 122,
-  "synthetic": 116
+  "synthetic": 117
  },
  "domain": {
-  "unnamed": 463,
+  "unnamed": 464,
   "code": 220,
   "fin": 85,
   "gen": 262,
@@ -22,7 +22,7 @@
   "law": 80
  },
  "name_prefix": {
-  "harbor": 365,
+  "harbor": 366,
   "obi": 829
  },
  "connector_services": {
@@ -35,7 +35,7 @@
   "slack-gym": 155,
   "slack": 61,
   "notion-gym": 33,
-  "github-gym": 21,
+  "github-gym": 22,
   "email-calendar-gym": 19,
   "linear-gym": 17,
   "outlook-gym": 14,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134950
+  "approx_bytes_read": 133988
  },
  "errors": [],
  "tasks": [
@@ -5865,6 +5865,22 @@
    "sha256": "acad5fc19ac64fd9bb7ff573dbbd4138d97d45b48bf934d0613b463359141c4e",
    "size_bytes": 11461192,
    "updated": "2026-09-19T00:37:50.310Z"
+  },
+  {
+   "declared_name": "harbor/documentation-requests-that-merged",
+   "declared_short": "documentation-requests-that-merged",
+   "folder": "documentation-requests-that-merged",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "1fba3e3ad0f2bb4c96563875fcad7016258337d13b7e9c2ed4f2dfe4cdf9036c",
+   "size_bytes": 9955248,
+   "updated": "2026-09-23T07:38:10.813Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -16754,17 +16770,17 @@
    "updated": "2026-09-17T16:55:29.261Z"
   },
   {
-   "declared_name": "harbor/the-billing-codes-that-do-not-agree-with-themselves",
-   "declared_short": "the-billing-codes-that-do-not-agree-with-themselves",
-   "folder": "the-billing-codes-that-do-not-agree-with-themselves",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-billing-codes-that-do-not-agree-with-themselves",
+   "declared_short": "the-billing-codes-that-do-not-agree-with-themselves",
    "domain": null,
+   "folder": "the-billing-codes-that-do-not-agree-with-themselves",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f484afa005847e68704c2d84799317614629003e6cb060dd88be22e2826e316c",
    "size_bytes": 9225886,
    "updated": "2026-09-23T07:34:55.792Z"
