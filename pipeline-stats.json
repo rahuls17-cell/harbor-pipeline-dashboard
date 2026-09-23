@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-23T18:05:05+00:00",
+ "generated_at": "2026-09-23T18:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1240,
-  "scanned": 1240,
-  "connector": 371,
+  "task_folders": 1241,
+  "scanned": 1241,
+  "connector": 372,
   "non_connector": 869,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 125,
+  "real": 126,
   "unknown": 125,
   "synthetic": 121
  },
  "domain": {
-  "unnamed": 488,
+  "unnamed": 489,
   "code": 232,
   "fin": 89,
   "gen": 266,
@@ -22,17 +22,17 @@
   "law": 80
  },
  "name_prefix": {
-  "harbor": 374,
+  "harbor": 375,
   "obi": 866
  },
  "connector_services": {
-  "google-drive-gym": 188,
-  "zeta3-sql-gym": 178,
-  "confluence-gym": 173,
-  "jira-gym": 172,
-  "email-gym": 170,
-  "freshdesk-gym": 170,
-  "slack-gym": 158,
+  "google-drive-gym": 189,
+  "zeta3-sql-gym": 179,
+  "confluence-gym": 174,
+  "jira-gym": 173,
+  "email-gym": 171,
+  "freshdesk-gym": 171,
+  "slack-gym": 159,
   "slack": 61,
   "notion-gym": 33,
   "github-gym": 22,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 135946
  },
  "errors": [],
  "tasks": [
@@ -6569,6 +6569,28 @@
    "sha256": "9e05bfd0eac08da37e8a68994de5c4464893c8e166653aeb7697ef705292c8d2",
    "size_bytes": 12286694,
    "updated": "2026-09-13T05:22:59.075Z"
+  },
+  {
+   "declared_name": "harbor/explain-apy-tier-eligibility-and-overdraft-handling-for-a-joint-accoun",
+   "declared_short": "explain-apy-tier-eligibility-and-overdraft-handling-for-a-joint-accoun",
+   "folder": "explain-apy-tier-eligibility-and-overdraft-handling-for-a-joint-accoun",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "092a17c8939432d1636b511756448594742250b0efae15465f6341d603674cb7",
+   "size_bytes": 16243902,
+   "updated": "2026-09-23T18:15:53.678Z"
   },
   {
    "connector_provenance": "real",
