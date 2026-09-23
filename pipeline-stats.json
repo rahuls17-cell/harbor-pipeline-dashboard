@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-23T22:30:03+00:00",
+ "generated_at": "2026-09-23T22:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1274,
-  "scanned": 1274,
-  "connector": 384,
+  "task_folders": 1275,
+  "scanned": 1275,
+  "connector": 385,
   "non_connector": 890,
   "errors": 0
  },
  "connector_provenance": {
   "real": 126,
   "unknown": 129,
-  "synthetic": 129
+  "synthetic": 130
  },
  "domain": {
-  "unnamed": 513,
+  "unnamed": 514,
   "code": 237,
   "fin": 89,
   "gen": 268,
@@ -22,7 +22,7 @@
   "law": 81
  },
  "name_prefix": {
-  "harbor": 387,
+  "harbor": 388,
   "obi": 887
  },
  "connector_services": {
@@ -38,7 +38,7 @@
   "github-gym": 24,
   "email-calendar-gym": 21,
   "linear-gym": 20,
-  "outlook-gym": 14,
+  "outlook-gym": 15,
   "gws-gym": 9,
   "supabase-gym": 4,
   "teams-gym": 4,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133874
+  "approx_bytes_read": 134591
  },
  "errors": [],
  "tasks": [
@@ -6415,17 +6415,17 @@
    "updated": "2026-09-19T00:37:50.310Z"
   },
   {
-   "declared_name": "harbor/did-the-reminders-ever-go-off",
-   "declared_short": "did-the-reminders-ever-go-off",
-   "folder": "did-the-reminders-ever-go-off",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/did-the-reminders-ever-go-off",
+   "declared_short": "did-the-reminders-ever-go-off",
    "domain": null,
+   "folder": "did-the-reminders-ever-go-off",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4ee9385f766a8e80cdd05c0f80a985ccaf3939d2af4ede3ef2d62be34ffa714e",
    "size_bytes": 10594091,
    "updated": "2026-09-23T22:25:44.720Z"
@@ -18338,6 +18338,22 @@
    "sha256": "89a4fbadf7bb5ef9093047d34502143cce6a736b265026975d3dd2a0d15f43d5",
    "size_bytes": 8973270,
    "updated": "2026-09-23T07:22:11.019Z"
+  },
+  {
+   "declared_name": "harbor/the-pull-requests-people-kept-replying-about",
+   "declared_short": "the-pull-requests-people-kept-replying-about",
+   "folder": "the-pull-requests-people-kept-replying-about",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "a5f2e46bf74ac1451672754f21bdb58b225d69fd4904c9eb3437c704a50bc1a6",
+   "size_bytes": 30156243,
+   "updated": "2026-09-23T22:34:18.890Z"
   },
   {
    "connector_provenance": "synthetic",
