@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T23:30:04+00:00",
+ "generated_at": "2026-09-23T23:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1282,
-  "scanned": 1282,
+  "task_folders": 1283,
+  "scanned": 1283,
   "connector": 388,
-  "non_connector": 894,
+  "non_connector": 895,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 520,
-  "code": 238,
+  "code": 239,
   "fin": 89,
   "gen": 268,
   "health": 86,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 391,
-  "obi": 891
+  "obi": 892
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131507
  },
  "errors": [],
  "tasks": [
@@ -3063,6 +3063,20 @@
    "sha256": "254ca4ba7f60a2c35ab7d2b8522cf6fea771993842777b7cff5a9d6024720f6d",
    "size_bytes": 7088688,
    "updated": "2026-09-20T20:59:54.983Z"
+  },
+  {
+   "declared_name": "obi/code-c214-pod-security-context-audit",
+   "declared_short": "code-c214-pod-security-context-audit",
+   "folder": "code-c214-pod-security-context-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "3de46cd7a95850d33612973ae03ac149a91157e61768a2ee911d507c2727c8bd",
+   "size_bytes": 7696605,
+   "updated": "2026-09-23T23:40:52.081Z"
   },
   {
    "connector_provenance": null,
