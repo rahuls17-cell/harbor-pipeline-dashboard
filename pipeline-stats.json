@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T17:45:05+00:00",
+ "generated_at": "2026-09-23T17:50:06+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1238,
-  "scanned": 1238,
+  "task_folders": 1239,
+  "scanned": 1239,
   "connector": 371,
-  "non_connector": 867,
+  "non_connector": 868,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 121
  },
  "domain": {
-  "unnamed": 487,
+  "unnamed": 488,
   "code": 231,
   "fin": 89,
   "gen": 266,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 374,
-  "obi": 864
+  "obi": 865
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131657
+  "approx_bytes_read": 131659
  },
  "errors": [],
  "tasks": [
@@ -1433,18 +1433,32 @@
    "updated": "2026-09-22T14:37:22.776Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b20-b3-calendar-event-reconstruction",
    "declared_short": "bus-b20-b3-calendar-event-reconstruction",
+   "domain": null,
    "folder": "bus-b20-b3-calendar-event-reconstruction",
+   "image": null,
+   "is_connector": false,
+   "prefix": "obi",
+   "sha256": "f26ef1cbf8024be102e6d44abf7ade32526deaab00fc2400540929b114f99d68",
+   "size_bytes": 5978683,
+   "updated": "2026-09-23T17:44:04.303Z"
+  },
+  {
+   "declared_name": "obi/bus-b20-b4-concrete-phase-schedule",
+   "declared_short": "bus-b20-b4-concrete-phase-schedule",
+   "folder": "bus-b20-b4-concrete-phase-schedule",
    "prefix": "obi",
    "is_connector": false,
    "connector_services": [],
    "connector_provenance": null,
    "domain": null,
    "image": null,
-   "sha256": "f26ef1cbf8024be102e6d44abf7ade32526deaab00fc2400540929b114f99d68",
-   "size_bytes": 5978683,
-   "updated": "2026-09-23T17:44:04.303Z"
+   "sha256": "5eb26efb9a028ef327252cb2b4b9a669605261362e390aaed70063a7d0b67f92",
+   "size_bytes": 6419129,
+   "updated": "2026-09-23T17:45:16.444Z"
   },
   {
    "connector_provenance": null,
