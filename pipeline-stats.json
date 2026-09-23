@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T22:45:03+00:00",
+ "generated_at": "2026-09-23T22:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1278,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 397583
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1441,15 +1441,15 @@
    "updated": "2026-09-23T08:11:55.033Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b20-a3-clearance-tolerance-normalization",
    "declared_short": "bus-b20-a3-clearance-tolerance-normalization",
-   "folder": "bus-b20-a3-clearance-tolerance-normalization",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b20-a3-clearance-tolerance-normalization",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "34ac81075b2d8200ed47b4e4029c213871641f9cdda0324fc773adf24ffc307f",
    "size_bytes": 11249804,
    "updated": "2026-09-23T22:41:58.392Z"
@@ -17260,15 +17260,15 @@
    "updated": "2026-09-23T20:15:09.143Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b54-a1-authenticator-enrolment-reconciliation",
    "declared_short": "tech-b54-a1-authenticator-enrolment-reconciliation",
-   "folder": "tech-b54-a1-authenticator-enrolment-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b54-a1-authenticator-enrolment-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1075175e117530b061b196205f4fe464f95cfd753ff9f0e3f7c6f604924ad364",
    "size_bytes": 7232514,
    "updated": "2026-09-23T22:41:12.405Z"
@@ -18096,17 +18096,17 @@
    "updated": "2026-09-23T07:26:19.752Z"
   },
   {
-   "declared_name": "harbor/the-meetings-nobody-has-answered",
-   "declared_short": "the-meetings-nobody-has-answered",
-   "folder": "the-meetings-nobody-has-answered",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-meetings-nobody-has-answered",
+   "declared_short": "the-meetings-nobody-has-answered",
    "domain": null,
+   "folder": "the-meetings-nobody-has-answered",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2d370eddd049338a7feb11623d2817df96d2fddbb908d865d783d5062269633e",
    "size_bytes": 12543973,
    "updated": "2026-09-23T22:41:19.569Z"
