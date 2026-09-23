@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T17:55:03+00:00",
+ "generated_at": "2026-09-23T18:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1239,
-  "scanned": 1239,
+  "task_folders": 1240,
+  "scanned": 1240,
   "connector": 371,
-  "non_connector": 868,
+  "non_connector": 869,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 488,
-  "code": 231,
+  "code": 232,
   "fin": 89,
   "gen": 266,
   "health": 85,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 374,
-  "obi": 865
+  "obi": 866
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131528
+  "approx_bytes_read": 131560
  },
  "errors": [],
  "tasks": [
@@ -2243,6 +2243,20 @@
    "sha256": "7bb9a96eb87a00d880faf3cd32079460e606d1b67166909c56278e6394efaedf",
    "size_bytes": 7363327,
    "updated": "2026-09-23T08:32:16.319Z"
+  },
+  {
+   "declared_name": "obi/code-c114-schema-registry-compatibility-audit",
+   "declared_short": "code-c114-schema-registry-compatibility-audit",
+   "folder": "code-c114-schema-registry-compatibility-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "fe52ddcd7f7572878be867343f2aec74ffbcd0b6fa71f4b0bf769b887a9c18d0",
+   "size_bytes": 7908365,
+   "updated": "2026-09-23T17:56:39.585Z"
   },
   {
    "connector_provenance": null,
@@ -10189,15 +10203,15 @@
    "updated": "2026-09-20T08:59:49.617Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g715-staff-directory-send-eligibility-audit",
    "declared_short": "gen-g715-staff-directory-send-eligibility-audit",
-   "folder": "gen-g715-staff-directory-send-eligibility-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g715-staff-directory-send-eligibility-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e3648fb97bec5916327bc96390b86fd711efc8a7fccd669354a5049f4cadf5a4",
    "size_bytes": 8740999,
    "updated": "2026-09-23T17:50:16.217Z"
