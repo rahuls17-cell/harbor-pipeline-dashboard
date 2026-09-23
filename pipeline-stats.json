@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T19:05:03+00:00",
+ "generated_at": "2026-09-23T19:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1245,
-  "scanned": 1245,
+  "task_folders": 1246,
+  "scanned": 1246,
   "connector": 374,
-  "non_connector": 871,
+  "non_connector": 872,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 122
  },
  "domain": {
-  "unnamed": 492,
+  "unnamed": 493,
   "code": 233,
   "fin": 89,
   "gen": 266,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 377,
-  "obi": 868
+  "obi": 869
  },
  "connector_services": {
   "google-drive-gym": 189,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 400218
+  "new_archives_read": 1,
+  "approx_bytes_read": 131490
  },
  "errors": [],
  "tasks": [
@@ -1475,6 +1475,20 @@
    "updated": "2026-09-23T02:11:28.618Z"
   },
   {
+   "declared_name": "obi/bus-b22-b8-picture-book-topic-trend",
+   "declared_short": "bus-b22-b8-picture-book-topic-trend",
+   "folder": "bus-b22-b8-picture-book-topic-trend",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "566401210db006737bba2694a10bacf61109ec210e3deb9e3a18159906c68547",
+   "size_bytes": 5148333,
+   "updated": "2026-09-23T19:05:26.645Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b30-t1-support-ticket-auto-close-audit",
@@ -2231,15 +2245,15 @@
    "updated": "2026-09-22T18:11:21.806Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c111-incident-severity-classification-audit",
    "declared_short": "code-c111-incident-severity-classification-audit",
-   "folder": "code-c111-incident-severity-classification-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c111-incident-severity-classification-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4206f0bc5c582c9c86ca0ea47a7702df46429e482c47224bb639cd2646767f4f",
    "size_bytes": 7980470,
    "updated": "2026-09-23T19:02:08.483Z"
@@ -17380,17 +17394,17 @@
    "updated": "2026-09-23T07:34:55.792Z"
   },
   {
-   "declared_name": "harbor/the-bugs-that-became-issues",
-   "declared_short": "the-bugs-that-became-issues",
-   "folder": "the-bugs-that-became-issues",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-bugs-that-became-issues",
+   "declared_short": "the-bugs-that-became-issues",
    "domain": null,
+   "folder": "the-bugs-that-became-issues",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9990c1b225b86879d91856a9c8d77b4cbe35b1e7f17f8904e24948335be06481",
    "size_bytes": 5843874,
    "updated": "2026-09-23T19:03:03.477Z"
@@ -19086,17 +19100,17 @@
    "updated": "2026-09-20T06:45:45.207Z"
   },
   {
-   "declared_name": "harbor/who-the-pilot-was-waiting-on",
-   "declared_short": "who-the-pilot-was-waiting-on",
-   "folder": "who-the-pilot-was-waiting-on_v2",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/who-the-pilot-was-waiting-on",
+   "declared_short": "who-the-pilot-was-waiting-on",
    "domain": null,
+   "folder": "who-the-pilot-was-waiting-on_v2",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b6c920fbcb6116c60bb74954118bba33bace3d10bc4dd5d86978ee5c1948849e",
    "size_bytes": 6406094,
    "updated": "2026-09-23T19:01:14.179Z"
