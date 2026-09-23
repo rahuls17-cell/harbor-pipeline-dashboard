@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T18:20:04+00:00",
+ "generated_at": "2026-09-23T18:25:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1241,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135946
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -6571,11 +6571,7 @@
    "updated": "2026-09-13T05:22:59.075Z"
   },
   {
-   "declared_name": "harbor/explain-apy-tier-eligibility-and-overdraft-handling-for-a-joint-accoun",
-   "declared_short": "explain-apy-tier-eligibility-and-overdraft-handling-for-a-joint-accoun",
-   "folder": "explain-apy-tier-eligibility-and-overdraft-handling-for-a-joint-accoun",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -6585,9 +6581,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/explain-apy-tier-eligibility-and-overdraft-handling-for-a-joint-accoun",
+   "declared_short": "explain-apy-tier-eligibility-and-overdraft-handling-for-a-joint-accoun",
    "domain": null,
+   "folder": "explain-apy-tier-eligibility-and-overdraft-handling-for-a-joint-accoun",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "092a17c8939432d1636b511756448594742250b0efae15465f6341d603674cb7",
    "size_bytes": 16243902,
    "updated": "2026-09-23T18:15:53.678Z"
