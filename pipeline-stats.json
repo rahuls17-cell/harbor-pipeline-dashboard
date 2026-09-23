@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T20:55:05+00:00",
+ "generated_at": "2026-09-23T21:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1262,
-  "scanned": 1262,
+  "task_folders": 1264,
+  "scanned": 1264,
   "connector": 376,
-  "non_connector": 886,
+  "non_connector": 888,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 505,
-  "code": 235,
+  "code": 236,
   "fin": 89,
-  "gen": 266,
+  "gen": 267,
   "health": 86,
   "law": 81
  },
  "name_prefix": {
   "harbor": 379,
-  "obi": 883
+  "obi": 885
  },
  "connector_services": {
   "google-drive-gym": 190,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 262970
  },
  "errors": [],
  "tasks": [
@@ -2951,6 +2951,20 @@
    "sha256": "bebe116cdba5cd9d44b95580f2444838170d11ad9921ab6d76255d7bd42c8515",
    "size_bytes": 7734568,
    "updated": "2026-09-20T21:35:43.042Z"
+  },
+  {
+   "declared_name": "obi/code-c210-webhook-retry-policy-audit",
+   "declared_short": "code-c210-webhook-retry-policy-audit",
+   "folder": "code-c210-webhook-retry-policy-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "5b5c0254cf7fc99f1add6f00c7b0f2e224a37fed4c253966d01ead02217f8490",
+   "size_bytes": 6150227,
+   "updated": "2026-09-23T20:58:07.419Z"
   },
   {
    "connector_provenance": null,
@@ -10511,6 +10525,20 @@
    "sha256": "1597f1419b016a30a94dcb846eaf12e6fc2fa4a1d9b222d21a804c6feb1325c6",
    "size_bytes": 4429553,
    "updated": "2026-09-10T09:11:10.155Z"
+  },
+  {
+   "declared_name": "obi/gen-g733-outreach-batch-compliance-audit",
+   "declared_short": "gen-g733-outreach-batch-compliance-audit",
+   "folder": "gen-g733-outreach-batch-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "561498ac5c09ef5aa42318189f90044249825be2253efc6a216e2733163661dc",
+   "size_bytes": 4555409,
+   "updated": "2026-09-23T20:55:06.774Z"
   },
   {
    "connector_provenance": null,
