@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T18:30:03+00:00",
+ "generated_at": "2026-09-23T18:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1241,
-  "scanned": 1241,
+  "task_folders": 1242,
+  "scanned": 1242,
   "connector": 372,
-  "non_connector": 869,
+  "non_connector": 870,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 121
  },
  "domain": {
-  "unnamed": 489,
+  "unnamed": 490,
   "code": 232,
   "fin": 89,
   "gen": 266,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 375,
-  "obi": 866
+  "obi": 867
  },
  "connector_services": {
   "google-drive-gym": 189,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131679
  },
  "errors": [],
  "tasks": [
@@ -1739,6 +1739,20 @@
    "sha256": "6a139666943e84095a0f802dc5c6b4c2279041b2706f22ce34e29ad2d8b7f9e1",
    "size_bytes": 7746598,
    "updated": "2026-09-23T15:50:27.141Z"
+  },
+  {
+   "declared_name": "obi/bus-b48-b10-eye-evolution-caption-claims-check",
+   "declared_short": "bus-b48-b10-eye-evolution-caption-claims-check",
+   "folder": "bus-b48-b10-eye-evolution-caption-claims-check",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "7223a95379f31d0e8d40cd6b1b801ec4ff92d15b692c7ba3579a31c913a72511",
+   "size_bytes": 11625862,
+   "updated": "2026-09-23T18:45:48.491Z"
   },
   {
    "connector_provenance": null,
