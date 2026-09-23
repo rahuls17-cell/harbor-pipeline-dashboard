@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T19:25:04+00:00",
+ "generated_at": "2026-09-23T19:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1250,
-  "scanned": 1250,
+  "task_folders": 1251,
+  "scanned": 1251,
   "connector": 374,
-  "non_connector": 876,
+  "non_connector": 877,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 123
  },
  "domain": {
-  "unnamed": 495,
+  "unnamed": 496,
   "code": 234,
   "fin": 89,
   "gen": 266,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 377,
-  "obi": 873
+  "obi": 874
  },
  "connector_services": {
   "google-drive-gym": 189,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135416
+  "approx_bytes_read": 131488
  },
  "errors": [],
  "tasks": [
@@ -825,11 +825,7 @@
    "updated": "2026-09-22T19:11:19.626Z"
   },
   {
-   "declared_name": "harbor/audit-stale-automation-rules-linked-to-changed-bill-envelopes",
-   "declared_short": "audit-stale-automation-rules-linked-to-changed-bill-envelopes",
-   "folder": "audit-stale-automation-rules-linked-to-changed-bill-envelopes",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -839,9 +835,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/audit-stale-automation-rules-linked-to-changed-bill-envelopes",
+   "declared_short": "audit-stale-automation-rules-linked-to-changed-bill-envelopes",
    "domain": null,
+   "folder": "audit-stale-automation-rules-linked-to-changed-bill-envelopes",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "16c88f5f55396be5bd590ce9bcbc14b528400d4cbfbeefdafdcb37fbae9e9552",
    "size_bytes": 8570358,
    "updated": "2026-09-23T19:23:28.199Z"
@@ -6381,6 +6381,20 @@
    "sha256": "6473d70d454229261767533a09df661591b17f0f87b6521e6bf9834eef4bcb7d",
    "size_bytes": 5893238,
    "updated": "2026-09-20T12:13:33.874Z"
+  },
+  {
+   "declared_name": "obi/edu-s1-a4-control-implementation-group-mapping",
+   "declared_short": "edu-s1-a4-control-implementation-group-mapping",
+   "folder": "edu-s1-a4-control-implementation-group-mapping",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "779ad7a23d68b21d8ff3125bea8455d64531a86d741fb4c256666ab1b79c4d2d",
+   "size_bytes": 5472654,
+   "updated": "2026-09-23T19:33:12.934Z"
   },
   {
    "connector_provenance": null,
