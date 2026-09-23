@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T08:00:05+00:00",
+ "generated_at": "2026-09-23T08:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1199,
-  "scanned": 1199,
+  "task_folders": 1200,
+  "scanned": 1200,
   "connector": 363,
-  "non_connector": 836,
+  "non_connector": 837,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 464,
-  "code": 222,
+  "code": 223,
   "fin": 87,
   "gen": 262,
   "health": 84,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 366,
-  "obi": 833
+  "obi": 834
  },
  "connector_services": {
   "google-drive-gym": 187,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262919
+  "new_archives_read": 1,
+  "approx_bytes_read": 131567
  },
  "errors": [],
  "tasks": [
@@ -2461,15 +2461,15 @@
    "updated": "2026-09-23T05:06:39.877Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c202-failover-readiness-audit",
    "declared_short": "code-c202-failover-readiness-audit",
-   "folder": "code-c202-failover-readiness-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c202-failover-readiness-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5a0c03dd57e1a24bae19c9251aa2e5e32ee83f2be5c76e871eac90ad5f7f668c",
    "size_bytes": 8297596,
    "updated": "2026-09-23T07:59:48.174Z"
@@ -4293,6 +4293,20 @@
    "sha256": "55a0797d0c996fa40a87076e4de256cefc35e74e31642121069d9409f4f79ffa",
    "size_bytes": 6405115,
    "updated": "2026-09-06T16:34:19.238Z"
+  },
+  {
+   "declared_name": "obi/code-c57-api-rate-limit-headers-recompute",
+   "declared_short": "code-c57-api-rate-limit-headers-recompute",
+   "folder": "code-c57-api-rate-limit-headers-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "2016b5bff08aee6d3120a4380825a11130354b9d028aafea7516ae383bd1d2fb",
+   "size_bytes": 8262087,
+   "updated": "2026-09-23T08:03:40.456Z"
   },
   {
    "connector_provenance": null,
@@ -6609,15 +6623,15 @@
    "updated": "2026-09-18T13:10:29.387Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b44-a4-conversion-ladder-incremental-tax",
    "declared_short": "fin-b44-a4-conversion-ladder-incremental-tax",
-   "folder": "fin-b44-a4-conversion-ladder-incremental-tax",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b44-a4-conversion-ladder-incremental-tax",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8ba3c582a9e720d14fa807e90cc9b511b32bf61d0b3c9b61e307dfc6c8aa60c7",
    "size_bytes": 4180174,
    "updated": "2026-09-23T07:58:57.616Z"
