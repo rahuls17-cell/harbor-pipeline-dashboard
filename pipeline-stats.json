@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T00:35:04+00:00",
+ "generated_at": "2026-09-23T01:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1160,
@@ -14,8 +14,8 @@
   "synthetic": 99
  },
  "domain": {
-  "unnamed": 436,
-  "code": 217,
+  "unnamed": 437,
+  "code": 216,
   "fin": 84,
   "gen": 261,
   "health": 83,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131417
  },
  "errors": [],
  "tasks": [
@@ -15133,18 +15133,18 @@
    "updated": "2026-09-19T01:23:02.097Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
-   "declared_name": "obi/code-c214-pod-security-context-audit",
-   "declared_short": "code-c214-pod-security-context-audit",
-   "domain": "code",
+   "declared_name": "obi/bus-mg-bus-b7-a4-same-day-power-cord-sourcing",
+   "declared_short": "bus-mg-bus-b7-a4-same-day-power-cord-sourcing",
    "folder": "task",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "ff0671b210e451a907a04ef2ff1489b2d29acf197a22d2088872d571b1bc66b2",
-   "size_bytes": 6997134,
-   "updated": "2026-09-20T00:38:23.027Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "413bed8f02cc4b5f259ca6bb98fdc3ee0b57d984a4642f27accc4ffca4980f42",
+   "size_bytes": 5512732,
+   "updated": "2026-09-23T01:08:11.237Z"
   },
   {
    "connector_provenance": "real",
