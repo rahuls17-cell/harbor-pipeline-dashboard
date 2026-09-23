@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T17:05:03+00:00",
+ "generated_at": "2026-09-23T17:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1235,
-  "scanned": 1235,
+  "task_folders": 1236,
+  "scanned": 1236,
   "connector": 371,
-  "non_connector": 864,
+  "non_connector": 865,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 486,
   "code": 231,
   "fin": 89,
-  "gen": 265,
+  "gen": 266,
   "health": 84,
   "law": 80
  },
  "name_prefix": {
   "harbor": 374,
-  "obi": 861
+  "obi": 862
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131435
  },
  "errors": [],
  "tasks": [
@@ -10565,6 +10565,20 @@
    "sha256": "ef625232fb5c9a9986d427bc2eaff0794636f4fda60dfe1d267ee5b703ca3613",
    "size_bytes": 5177835,
    "updated": "2026-09-16T04:43:23.796Z"
+  },
+  {
+   "declared_name": "obi/gen-g811-rural-health-clinic-site-designation-audit",
+   "declared_short": "gen-g811-rural-health-clinic-site-designation-audit",
+   "folder": "gen-g811-rural-health-clinic-site-designation-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "e55eb50081805dd785e4adae5a42ba05fa43b01795b204072c2d90eb52f7209d",
+   "size_bytes": 4876094,
+   "updated": "2026-09-23T17:09:39.922Z"
   },
   {
    "connector_provenance": null,
