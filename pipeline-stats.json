@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T08:35:04+00:00",
+ "generated_at": "2026-09-23T08:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1209,
-  "scanned": 1209,
+  "task_folders": 1210,
+  "scanned": 1210,
   "connector": 368,
-  "non_connector": 841,
+  "non_connector": 842,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 119
  },
  "domain": {
-  "unnamed": 472,
+  "unnamed": 473,
   "code": 224,
   "fin": 87,
   "gen": 262,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 371,
-  "obi": 838
+  "obi": 839
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131511
+  "approx_bytes_read": 131422
  },
  "errors": [],
  "tasks": [
@@ -2091,15 +2091,15 @@
    "updated": "2026-09-23T07:45:16.342Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c113-storage-tier-transition-recompute",
    "declared_short": "code-c113-storage-tier-transition-recompute",
-   "folder": "code-c113-storage-tier-transition-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c113-storage-tier-transition-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7bb9a96eb87a00d880faf3cd32079460e606d1b67166909c56278e6394efaedf",
    "size_bytes": 7363327,
    "updated": "2026-09-23T08:32:16.319Z"
@@ -18714,6 +18714,20 @@
    "sha256": "6a21ccf1b78c8959b468ce240b935a658c70564df3d16444bb42c0bd16e14d23",
    "size_bytes": 9386575,
    "updated": "2026-09-22T23:47:04.841Z"
+  },
+  {
+   "declared_name": "obi/writing-sc05-b6-attrition-variance",
+   "declared_short": "writing-sc05-b6-attrition-variance",
+   "folder": "writing-sc05-b6-attrition-variance-v1",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "7040261fee2a6c79f7c49793139fcdd2b39b1d6cc72d2d0f1c71be2a795c6745",
+   "size_bytes": 4621945,
+   "updated": "2026-09-23T08:37:03.442Z"
   },
   {
    "connector_provenance": null,
