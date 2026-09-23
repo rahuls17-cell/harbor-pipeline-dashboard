@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-23T08:40:03+00:00",
+ "generated_at": "2026-09-23T08:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1210,
-  "scanned": 1210,
-  "connector": 368,
+  "task_folders": 1211,
+  "scanned": 1211,
+  "connector": 369,
   "non_connector": 842,
   "errors": 0
  },
  "connector_provenance": {
   "real": 124,
   "unknown": 125,
-  "synthetic": 119
+  "synthetic": 120
  },
  "domain": {
-  "unnamed": 473,
+  "unnamed": 474,
   "code": 224,
   "fin": 87,
   "gen": 262,
@@ -22,7 +22,7 @@
   "law": 80
  },
  "name_prefix": {
-  "harbor": 371,
+  "harbor": 372,
   "obi": 839
  },
  "connector_services": {
@@ -43,12 +43,12 @@
   "supabase-gym": 4,
   "teams-gym": 4,
   "microsoft-teams-gym": 2,
-  "microsoft_teams-gym": 1,
-  "snowflake-gym": 1
+  "snowflake-gym": 2,
+  "microsoft_teams-gym": 1
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131422
+  "approx_bytes_read": 136626
  },
  "errors": [],
  "tasks": [
@@ -17750,6 +17750,22 @@
    "updated": "2026-09-20T10:00:24.278Z"
   },
   {
+   "declared_name": "harbor/three-marts-gone-cold",
+   "declared_short": "three-marts-gone-cold",
+   "folder": "three-marts-gone-cold",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3919f564f9d6cd5e113a8a216cf1fd2e0a2893f0f6b203a3730020bbdb4774ad",
+   "size_bytes": 10055949,
+   "updated": "2026-09-23T08:45:02.264Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
@@ -18716,15 +18732,15 @@
    "updated": "2026-09-22T23:47:04.841Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/writing-sc05-b6-attrition-variance",
    "declared_short": "writing-sc05-b6-attrition-variance",
-   "folder": "writing-sc05-b6-attrition-variance-v1",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "writing-sc05-b6-attrition-variance-v1",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7040261fee2a6c79f7c49793139fcdd2b39b1d6cc72d2d0f1c71be2a795c6745",
    "size_bytes": 4621945,
    "updated": "2026-09-23T08:37:03.442Z"
