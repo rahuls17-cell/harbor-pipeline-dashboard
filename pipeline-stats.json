@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T16:05:04+00:00",
+ "generated_at": "2026-09-23T16:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1232,
-  "scanned": 1232,
+  "task_folders": 1233,
+  "scanned": 1233,
   "connector": 371,
-  "non_connector": 861,
+  "non_connector": 862,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 121
  },
  "domain": {
-  "unnamed": 483,
+  "unnamed": 484,
   "code": 231,
   "fin": 89,
   "gen": 265,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 374,
-  "obi": 858
+  "obi": 859
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131704
  },
  "errors": [],
  "tasks": [
@@ -6213,6 +6213,20 @@
    "sha256": "22b365fdfaf1abf444a7d505fa3595337a2fffacc273b580a61540c707147294",
    "size_bytes": 4058433,
    "updated": "2026-09-22T08:12:46.152Z"
+  },
+  {
+   "declared_name": "obi/edu-b51-a6-language-quiz-marking-adjudication",
+   "declared_short": "edu-b51-a6-language-quiz-marking-adjudication",
+   "folder": "edu-b51-a6-language-quiz-marking-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "20e4fdb13d25c7917f606c8cc9a87c137d98a57a3007448906fd013c2a51d259",
+   "size_bytes": 7355190,
+   "updated": "2026-09-23T16:12:01.414Z"
   },
   {
    "connector_provenance": null,
