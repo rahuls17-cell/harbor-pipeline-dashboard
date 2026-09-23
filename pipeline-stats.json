@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T20:30:03+00:00",
+ "generated_at": "2026-09-23T20:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1261,
-  "scanned": 1261,
+  "task_folders": 1262,
+  "scanned": 1262,
   "connector": 376,
-  "non_connector": 885,
+  "non_connector": 886,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 505,
-  "code": 234,
+  "code": 235,
   "fin": 89,
   "gen": 266,
   "health": 86,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 379,
-  "obi": 882
+  "obi": 883
  },
  "connector_services": {
   "google-drive-gym": 190,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131576
  },
  "errors": [],
  "tasks": [
@@ -2293,6 +2293,20 @@
    "sha256": "9ea4efbb7fa8359703062e4a229075029ebe5ae44f50ae3f7f732c63c65bb1b1",
    "size_bytes": 8522853,
    "updated": "2026-09-22T22:25:02.760Z"
+  },
+  {
+   "declared_name": "obi/code-c106-runbook-coverage-audit",
+   "declared_short": "code-c106-runbook-coverage-audit",
+   "folder": "code-c106-runbook-coverage-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "787ee019735ccb8150b9f83d0297d99501657f06cf7921aed2f0c70c8d09337a",
+   "size_bytes": 6841890,
+   "updated": "2026-09-23T20:45:27.511Z"
   },
   {
    "connector_provenance": null,
