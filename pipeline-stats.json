@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T22:20:04+00:00",
+ "generated_at": "2026-09-23T22:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1273,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135777
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -18276,17 +18276,17 @@
    "updated": "2026-09-22T21:31:36.448Z"
   },
   {
-   "declared_name": "harbor/the-practices-that-left-without-a-note",
-   "declared_short": "the-practices-that-left-without-a-note",
-   "folder": "the-practices-that-left-without-a-note",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-practices-that-left-without-a-note",
+   "declared_short": "the-practices-that-left-without-a-note",
    "domain": null,
+   "folder": "the-practices-that-left-without-a-note",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "453c12f3812e5050e57ac9474da5931be06d5859b81556d4318a3cdc393062ee",
    "size_bytes": 13019434,
    "updated": "2026-09-23T22:20:01.025Z"
