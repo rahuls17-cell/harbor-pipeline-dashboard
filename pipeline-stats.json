@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T19:55:03+00:00",
+ "generated_at": "2026-09-23T20:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1255,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133718
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -19164,17 +19164,17 @@
    "updated": "2026-09-22T17:10:35.688Z"
   },
   {
-   "declared_name": "harbor/who-had-the-last-word",
-   "declared_short": "who-had-the-last-word",
-   "folder": "who-had-the-last-word",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/who-had-the-last-word",
+   "declared_short": "who-had-the-last-word",
    "domain": null,
+   "folder": "who-had-the-last-word",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b3d16400e077c4cb5f047481300fd1bdcc6020c90e8bd85a185f2f2c88ff577a",
    "size_bytes": 10503818,
    "updated": "2026-09-23T19:51:26.460Z"
