@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T09:25:03+00:00",
+ "generated_at": "2026-09-23T09:30:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1215,
-  "scanned": 1215,
+  "task_folders": 1216,
+  "scanned": 1216,
   "connector": 370,
-  "non_connector": 845,
+  "non_connector": 846,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 475,
   "code": 225,
   "fin": 89,
-  "gen": 262,
+  "gen": 263,
   "health": 84,
   "law": 80
  },
  "name_prefix": {
   "harbor": 373,
-  "obi": 842
+  "obi": 843
  },
  "connector_services": {
   "google-drive-gym": 188,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131787
+  "approx_bytes_read": 131842
  },
  "errors": [],
  "tasks": [
@@ -7261,15 +7261,15 @@
    "updated": "2026-09-20T05:10:48.237Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b53-f6-mechanic-invoice-coverage-split",
    "declared_short": "fin-b53-f6-mechanic-invoice-coverage-split",
-   "folder": "fin-b53-f6-mechanic-invoice-coverage-split",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b53-f6-mechanic-invoice-coverage-split",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "cb0e05c4f773a6ab9983272f749354fe15d750dc0ad5be0399ee36d04473ee19",
    "size_bytes": 7966057,
    "updated": "2026-09-23T09:20:31.324Z"
@@ -10173,6 +10173,20 @@
    "sha256": "7aa061195be0bb668b0adefe83005703cb57892eb60e43465466b78140319434",
    "size_bytes": 10298112,
    "updated": "2026-09-09T12:52:10.973Z"
+  },
+  {
+   "declared_name": "obi/gen-g776-health-content-style-audit",
+   "declared_short": "gen-g776-health-content-style-audit",
+   "folder": "gen-g776-health-content-style-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "cac16d6ca635e9fc23372c0c1fbdd175bd8427e5fc04c02180b22eb154b6d9ae",
+   "size_bytes": 6914494,
+   "updated": "2026-09-23T09:25:16.313Z"
   },
   {
    "connector_provenance": null,
