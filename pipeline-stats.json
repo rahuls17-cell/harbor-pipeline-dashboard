@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T04:10:03+00:00",
+ "generated_at": "2026-09-23T04:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1171,
@@ -47,8 +47,8 @@
   "snowflake-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131484
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -16368,15 +16368,15 @@
    "updated": "2026-09-22T13:32:59.814Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b607-t8-mesh-band-assignment-plan",
    "declared_short": "tech-b607-t8-mesh-band-assignment-plan",
-   "folder": "tech-b607-t8-mesh-band-assignment-plan-v5",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b607-t8-mesh-band-assignment-plan-v5",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8008b2fdd912ad6e6d4677eebf499136de77d4af55ed56a01af50b9cbe1865ec",
    "size_bytes": 5384543,
    "updated": "2026-09-23T04:09:44.220Z"
