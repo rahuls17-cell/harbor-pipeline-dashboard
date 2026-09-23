@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T20:00:04+00:00",
+ "generated_at": "2026-09-23T20:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1255,
-  "scanned": 1255,
+  "task_folders": 1256,
+  "scanned": 1256,
   "connector": 375,
-  "non_connector": 880,
+  "non_connector": 881,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 123
  },
  "domain": {
-  "unnamed": 499,
+  "unnamed": 500,
   "code": 234,
   "fin": 89,
   "gen": 266,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 378,
-  "obi": 877
+  "obi": 878
  },
  "connector_services": {
   "google-drive-gym": 189,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131422
  },
  "errors": [],
  "tasks": [
@@ -17032,6 +17032,20 @@
    "sha256": "848e93a821633d3baa64dc53c2de21e5e90b9ac095d005396ea9ff4d942a310b",
    "size_bytes": 7821857,
    "updated": "2026-09-22T04:10:05.493Z"
+  },
+  {
+   "declared_name": "obi/tech-b54-a5-hosting-inventory-register",
+   "declared_short": "tech-b54-a5-hosting-inventory-register",
+   "folder": "tech-b54-a5-hosting-inventory-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "46756d78fe6873e17a8069ef2450c75a276dd86c8a2982996c6122beb9cd039b",
+   "size_bytes": 6060085,
+   "updated": "2026-09-23T20:02:13.530Z"
   },
   {
    "connector_provenance": null,
