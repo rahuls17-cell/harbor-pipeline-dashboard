@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T22:10:03+00:00",
+ "generated_at": "2026-09-23T22:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1272,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 267654
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -13945,17 +13945,17 @@
    "updated": "2026-09-21T15:35:13.926Z"
   },
   {
-   "declared_name": "harbor/heavily-reviewed-and-merged-anyway",
-   "declared_short": "heavily-reviewed-and-merged-anyway",
-   "folder": "heavily-reviewed-and-merged-anyway",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/heavily-reviewed-and-merged-anyway",
+   "declared_short": "heavily-reviewed-and-merged-anyway",
    "domain": null,
+   "folder": "heavily-reviewed-and-merged-anyway",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3a06c64d1de8d6916142800a6a4f34e280449daadc567514db80f30db91f98fd",
    "size_bytes": 8963405,
    "updated": "2026-09-23T22:08:00.960Z"
@@ -17956,17 +17956,17 @@
    "updated": "2026-09-23T07:21:54.857Z"
   },
   {
-   "declared_name": "harbor/the-issues-that-came-back-and-who-owns-them",
-   "declared_short": "the-issues-that-came-back-and-who-owns-them",
-   "folder": "the-issues-that-came-back-and-who-owns-them",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-issues-that-came-back-and-who-owns-them",
+   "declared_short": "the-issues-that-came-back-and-who-owns-them",
    "domain": null,
+   "folder": "the-issues-that-came-back-and-who-owns-them",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "01e10d2dec87cb5617d69621a9a391cfdee4f5c35b01d97030f0cf17015898a1",
    "size_bytes": 8166624,
    "updated": "2026-09-23T22:05:44.216Z"
