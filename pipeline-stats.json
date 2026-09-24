@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-24T21:20:03+00:00",
+ "generated_at": "2026-09-24T21:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1393,
-  "scanned": 1393,
-  "connector": 405,
+  "task_folders": 1394,
+  "scanned": 1394,
+  "connector": 406,
   "non_connector": 988,
   "errors": 0
  },
  "connector_provenance": {
   "real": 127,
-  "unknown": 134,
+  "unknown": 135,
   "synthetic": 144
  },
  "domain": {
-  "unnamed": 581,
+  "unnamed": 582,
   "code": 258,
   "fin": 97,
   "gen": 279,
@@ -22,17 +22,17 @@
   "law": 85
  },
  "name_prefix": {
-  "harbor": 407,
+  "harbor": 408,
   "obi": 986
  },
  "connector_services": {
-  "google-drive-gym": 193,
-  "zeta3-sql-gym": 183,
-  "confluence-gym": 178,
-  "jira-gym": 177,
-  "email-gym": 175,
-  "freshdesk-gym": 175,
-  "slack-gym": 170,
+  "google-drive-gym": 194,
+  "zeta3-sql-gym": 184,
+  "confluence-gym": 179,
+  "jira-gym": 178,
+  "email-gym": 176,
+  "freshdesk-gym": 176,
+  "slack-gym": 171,
   "slack": 62,
   "notion-gym": 37,
   "github-gym": 27,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131759
+  "approx_bytes_read": 134210
  },
  "errors": [],
  "tasks": [
@@ -10905,15 +10905,15 @@
    "updated": "2026-09-06T20:47:24.340Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g533-logo-embroidery-digitization-audit",
    "declared_short": "gen-g533-logo-embroidery-digitization-audit",
-   "folder": "gen-g533-logo-embroidery-digitization-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g533-logo-embroidery-digitization-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c3e7cda566098b73028ced19820afeb5c47db9beae77f678bc23d96cf3a540c4",
    "size_bytes": 8082746,
    "updated": "2026-09-24T21:15:20.892Z"
@@ -18038,6 +18038,28 @@
    "sha256": "3bbe369471e265f8b6e28521c552a7d58a477c223bd410e7b857536c476ceef3",
    "size_bytes": 9588563,
    "updated": "2026-09-19T21:45:33.924Z"
+  },
+  {
+   "declared_name": "harbor/verify-6-30-amount-correction-request-on-pending-check-deposit-for-acc",
+   "declared_short": "verify-6-30-amount-correction-request-on-pending-check-deposit-for-acc",
+   "folder": "task_verify_6_30_amount_correction_request_on_pending_check_deposit_for_acc",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "f857f9f38613ba1ae57fc3ff69459672cd47f890c7a9ca6dff1aaa848c94faeb",
+   "size_bytes": 9605842,
+   "updated": "2026-09-24T21:24:08.174Z"
   },
   {
    "connector_provenance": "real",
