@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T13:05:03+00:00",
+ "generated_at": "2026-09-24T13:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1348,
-  "scanned": 1348,
+  "task_folders": 1349,
+  "scanned": 1349,
   "connector": 399,
-  "non_connector": 949,
+  "non_connector": 950,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 556,
   "code": 252,
-  "fin": 90,
+  "fin": 91,
   "gen": 277,
   "health": 89,
   "law": 84
  },
  "name_prefix": {
   "harbor": 401,
-  "obi": 947
+  "obi": 948
  },
  "connector_services": {
   "google-drive-gym": 192,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 394869
+  "new_archives_read": 1,
+  "approx_bytes_read": 131453
  },
  "errors": [],
  "tasks": [
@@ -7145,15 +7145,15 @@
    "updated": "2026-09-24T09:12:21.719Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sc09-b2-vti-task-000676",
    "declared_short": "edu-sc09-b2-vti-task-000676",
-   "folder": "edu-sc09-b2-vti-task-000676-v6",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sc09-b2-vti-task-000676-v6",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "055a8b73961074036a5ddbe29579cc8acb8b749bc605dbda8b60028486b02abd",
    "size_bytes": 7735164,
    "updated": "2026-09-24T13:02:27.773Z"
@@ -7805,6 +7805,20 @@
    "sha256": "e84cffdf83d9b0c8c42c9873ec20939fbe103a2fb797136ddb75ccf3daa57536",
    "size_bytes": 7140758,
    "updated": "2026-09-22T19:46:31.904Z"
+  },
+  {
+   "declared_name": "obi/fin-b45-a3-contribution-room-adjudication",
+   "declared_short": "fin-b45-a3-contribution-room-adjudication",
+   "folder": "fin-b45-a3-contribution-room-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "ee9f828837de6e7b0736dff7e73c2fd5c95c68d608c177bcf982f45b2ee065d1",
+   "size_bytes": 6492558,
+   "updated": "2026-09-24T13:06:41.726Z"
   },
   {
    "connector_provenance": null,
@@ -10583,15 +10597,15 @@
    "updated": "2026-09-05T18:51:56.607Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g566-facility-redaction-audit",
    "declared_short": "gen-g566-facility-redaction-audit",
-   "folder": "gen-g566-facility-redaction-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g566-facility-redaction-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "cbce00bf204dae0357f50db27be1735c00e5de7f90ee89a2b447bee1160badee",
    "size_bytes": 5583587,
    "updated": "2026-09-24T13:00:20.466Z"
@@ -18340,15 +18354,15 @@
    "updated": "2026-09-24T08:13:34.245Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-mg-it-b10-a3-portfolio-builder-price-gap-bridge",
    "declared_short": "tech-mg-it-b10-a3-portfolio-builder-price-gap-bridge",
-   "folder": "tech-mg-it-b10-a3-portfolio-builder-price-gap-bridge",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-mg-it-b10-a3-portfolio-builder-price-gap-bridge",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "bbad57222dc1ad498273c2e44984da4f8b691032366b6f713f9fd0c8ead5d658",
    "size_bytes": 7346990,
    "updated": "2026-09-24T13:03:41.746Z"
