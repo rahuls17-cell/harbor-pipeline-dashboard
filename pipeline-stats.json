@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T15:10:04+00:00",
+ "generated_at": "2026-09-24T15:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1362,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135013
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -97,11 +97,7 @@
    "updated": "2026-09-21T16:08:40.725Z"
   },
   {
-   "declared_name": "harbor/explain-savings-boost-change-for-account-16119-between-sep-and-oct-2024",
-   "declared_short": "explain-savings-boost-change-for-account-16119-between-sep-and-oct-2024",
-   "folder": "100770",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -111,9 +107,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/explain-savings-boost-change-for-account-16119-between-sep-and-oct-2024",
+   "declared_short": "explain-savings-boost-change-for-account-16119-between-sep-and-oct-2024",
    "domain": null,
+   "folder": "100770",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "08310f8cbf9d7983f08b96ca107d054710d514d32912610015df0cd288db142b",
    "size_bytes": 9996255,
    "updated": "2026-09-24T15:05:32.573Z"
