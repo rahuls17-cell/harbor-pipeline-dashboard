@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T10:05:02+00:00",
+ "generated_at": "2026-09-24T10:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1323,
-  "scanned": 1323,
+  "task_folders": 1325,
+  "scanned": 1325,
   "connector": 389,
-  "non_connector": 934,
+  "non_connector": 936,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 133
  },
  "domain": {
-  "unnamed": 541,
+  "unnamed": 542,
   "code": 251,
   "fin": 90,
-  "gen": 271,
+  "gen": 272,
   "health": 88,
   "law": 82
  },
  "name_prefix": {
   "harbor": 391,
-  "obi": 932
+  "obi": 934
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263236
  },
  "errors": [],
  "tasks": [
@@ -2127,6 +2127,20 @@
    "sha256": "9d6b8bb972bd93609d7eed501b1879cc97756b39d8bce497fac6e9963c4b8996",
    "size_bytes": 6542470,
    "updated": "2026-09-24T02:51:59.910Z"
+  },
+  {
+   "declared_name": "obi/bus-b67-b10-roofing-labor-only-estimate",
+   "declared_short": "bus-b67-b10-roofing-labor-only-estimate",
+   "folder": "bus-b67-b10-roofing-labor-only-estimate",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "8db9c86ef2e55bb32f2f70a012d32494f520663717b708c69d614489b8bce1a3",
+   "size_bytes": 7470703,
+   "updated": "2026-09-24T10:08:15.612Z"
   },
   {
    "connector_provenance": null,
@@ -12079,6 +12093,20 @@
    "sha256": "ea9e346be90eb280a02413ad65c234124f69b713e11d45f5d076faf5860b918a",
    "size_bytes": 8020572,
    "updated": "2026-09-05T18:54:44.810Z"
+  },
+  {
+   "declared_name": "obi/gen-g981-background-art-continuity-audit",
+   "declared_short": "gen-g981-background-art-continuity-audit",
+   "folder": "gen-g981-background-art-continuity-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "c21021e9a3aed3e1e1148b67e6bd4cc84bdd713483b1330d3836f79c586f360e",
+   "size_bytes": 7739085,
+   "updated": "2026-09-24T10:09:04.588Z"
   },
   {
    "connector_provenance": null,
