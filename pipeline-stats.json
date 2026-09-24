@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T18:10:03+00:00",
+ "generated_at": "2026-09-24T18:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1377,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263313
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1563,15 +1563,15 @@
    "updated": "2026-09-23T02:11:28.618Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b22-b14-rideshare-brand-palette-normalization",
    "declared_short": "bus-b22-b14-rideshare-brand-palette-normalization",
-   "folder": "bus-b22-b14-rideshare-brand-palette-normalization",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b22-b14-rideshare-brand-palette-normalization",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "aaac8b590bbde1c988d390984558d4b4644e6ad839662e406ebee25e1bfa172a",
    "size_bytes": 5852764,
    "updated": "2026-09-24T18:07:20.562Z"
@@ -18882,15 +18882,15 @@
    "updated": "2026-09-21T20:31:16.173Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-mg-it-b6-a3-game-voice-audio-route-trace",
    "declared_short": "tech-mg-it-b6-a3-game-voice-audio-route-trace",
-   "folder": "tech-mg-it-b6-a3-game-voice-audio-route-trace",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-mg-it-b6-a3-game-voice-audio-route-trace",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "92c246a1e8fd96be8610c8bb5dd49cab64b29ef89bfdd2f7e9b07aec5266c518",
    "size_bytes": 5509180,
    "updated": "2026-09-24T18:07:46.679Z"
