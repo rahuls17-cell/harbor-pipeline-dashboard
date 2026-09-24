@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T03:00:03+00:00",
+ "generated_at": "2026-09-24T03:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1296,
-  "scanned": 1296,
+  "task_folders": 1298,
+  "scanned": 1298,
   "connector": 388,
-  "non_connector": 908,
+  "non_connector": 910,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 132
  },
  "domain": {
-  "unnamed": 525,
-  "code": 244,
+  "unnamed": 526,
+  "code": 245,
   "fin": 89,
   "gen": 271,
   "health": 86,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 391,
-  "obi": 905
+  "obi": 907
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 262966
  },
  "errors": [],
  "tasks": [
@@ -2685,6 +2685,20 @@
    "sha256": "ace54135cf75a351503dd742ff01b8cd514d7144c37c369f991235c825926cb2",
    "size_bytes": 7880945,
    "updated": "2026-09-20T20:54:21.400Z"
+  },
+  {
+   "declared_name": "obi/code-c152-battery-sku-compatibility-audit",
+   "declared_short": "code-c152-battery-sku-compatibility-audit",
+   "folder": "code-c152-battery-sku-compatibility-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "cc0bbffe306ddcc8ae482eb2d44871f137f9fde41440d6cb1290fda898fce142",
+   "size_bytes": 5839808,
+   "updated": "2026-09-24T03:03:44.665Z"
   },
   {
    "connector_provenance": null,
@@ -17532,6 +17546,20 @@
    "sha256": "46756d78fe6873e17a8069ef2450c75a276dd86c8a2982996c6122beb9cd039b",
    "size_bytes": 6060085,
    "updated": "2026-09-23T20:02:13.530Z"
+  },
+  {
+   "declared_name": "obi/tech-b54-t2-automation-window-schedule-plan",
+   "declared_short": "tech-b54-t2-automation-window-schedule-plan",
+   "folder": "tech-b54-t2-automation-window-schedule-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "b56a80f58c2d11870b3c4fa09d698105b2fb7b48a7518376d23e33b9570a57b6",
+   "size_bytes": 8737959,
+   "updated": "2026-09-24T03:04:12.398Z"
   },
   {
    "connector_provenance": null,
