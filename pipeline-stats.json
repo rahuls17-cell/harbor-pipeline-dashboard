@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T17:00:03+00:00",
+ "generated_at": "2026-09-24T17:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1368,
-  "scanned": 1368,
+  "task_folders": 1369,
+  "scanned": 1369,
   "connector": 402,
-  "non_connector": 966,
+  "non_connector": 967,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 143
  },
  "domain": {
-  "unnamed": 566,
+  "unnamed": 567,
   "code": 254,
   "fin": 94,
   "gen": 277,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 404,
-  "obi": 964
+  "obi": 965
  },
  "connector_services": {
   "google-drive-gym": 193,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131416
+  "approx_bytes_read": 131453
  },
  "errors": [],
  "tasks": [
@@ -17133,15 +17133,15 @@
    "updated": "2026-09-22T12:58:59.813Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/sci-sc09-a6-vti-task-001376",
    "declared_short": "sci-sc09-a6-vti-task-001376",
-   "folder": "sci-sc09-a6-vti-task-001376",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "sci-sc09-a6-vti-task-001376",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "70a8964615e3b3ccd32859886ea1985714c51b8469838aae8614b089b567011e",
    "size_bytes": 5011798,
    "updated": "2026-09-24T16:55:43.343Z"
@@ -18278,6 +18278,20 @@
    "sha256": "e3ab00bc737e7fe4237caff45102d3895766e1243313106ad6feaa5cceb9097c",
    "size_bytes": 10010185,
    "updated": "2026-09-23T20:15:09.143Z"
+  },
+  {
+   "declared_name": "obi/tech-b53-t2-runtime-fault-step-adjudication",
+   "declared_short": "tech-b53-t2-runtime-fault-step-adjudication",
+   "folder": "tech-b53-t2-runtime-fault-step-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "6906ee74f2dca947403e0d7880c8e2ab72102e3cbd61a28fbd8ebbe5baa04973",
+   "size_bytes": 8652234,
+   "updated": "2026-09-24T17:01:48.502Z"
   },
   {
    "connector_provenance": null,
