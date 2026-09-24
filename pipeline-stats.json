@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T14:35:03+00:00",
+ "generated_at": "2026-09-24T14:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1357,
-  "scanned": 1357,
+  "task_folders": 1358,
+  "scanned": 1358,
   "connector": 400,
-  "non_connector": 957,
+  "non_connector": 958,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 559,
   "code": 254,
-  "fin": 92,
+  "fin": 93,
   "gen": 277,
   "health": 91,
   "law": 84
  },
  "name_prefix": {
   "harbor": 402,
-  "obi": 955
+  "obi": 956
  },
  "connector_services": {
   "google-drive-gym": 192,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131573
+  "approx_bytes_read": 131652
  },
  "errors": [],
  "tasks": [
@@ -3431,15 +3431,15 @@
    "updated": "2026-09-19T19:21:24.250Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c239-queue-backpressure-threshold-audit",
    "declared_short": "code-c239-queue-backpressure-threshold-audit",
-   "folder": "code-c239-queue-backpressure-threshold-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c239-queue-backpressure-threshold-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a61cefb869a7fa4ddc04b55043d8392e9c60b6aec7e68d9b262efb11e9a35811",
    "size_bytes": 5583173,
    "updated": "2026-09-24T14:30:46.971Z"
@@ -8379,6 +8379,20 @@
    "sha256": "257286edac69ab7373b91607fcf49dc0a6c4c8e79b2cbab8646bcd6f9f2ebd47",
    "size_bytes": 4913004,
    "updated": "2026-09-23T09:03:42.528Z"
+  },
+  {
+   "declared_name": "obi/fin-b54-f8-loi-red-flag-insurance-product-review",
+   "declared_short": "fin-b54-f8-loi-red-flag-insurance-product-review",
+   "folder": "fin-b54-f8-loi-red-flag-insurance-product-review",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "22407767707aa70007ba713b1326261685fc8ee765941c69905461e4a14d2386",
+   "size_bytes": 14499742,
+   "updated": "2026-09-24T14:36:12.105Z"
   },
   {
    "connector_provenance": null,
