@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T17:55:03+00:00",
+ "generated_at": "2026-09-24T18:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1374,
-  "scanned": 1374,
+  "task_folders": 1375,
+  "scanned": 1375,
   "connector": 402,
-  "non_connector": 972,
+  "non_connector": 973,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 569,
   "code": 256,
-  "fin": 94,
+  "fin": 95,
   "gen": 278,
   "health": 92,
   "law": 85
  },
  "name_prefix": {
   "harbor": 404,
-  "obi": 970
+  "obi": 971
  },
  "connector_services": {
   "google-drive-gym": 193,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131506
+  "approx_bytes_read": 131515
  },
  "errors": [],
  "tasks": [
@@ -2769,15 +2769,15 @@
    "updated": "2026-09-05T20:02:44.934Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c143-reserved-instance-coverage-recompute",
    "declared_short": "code-c143-reserved-instance-coverage-recompute",
-   "folder": "code-c143-reserved-instance-coverage-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c143-reserved-instance-coverage-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9fd49da53fcc20053f35f068bf3b73240768bb7364f1d50957f0266961de49a0",
    "size_bytes": 8787329,
    "updated": "2026-09-24T17:54:40.076Z"
@@ -8529,6 +8529,20 @@
    "sha256": "257286edac69ab7373b91607fcf49dc0a6c4c8e79b2cbab8646bcd6f9f2ebd47",
    "size_bytes": 4913004,
    "updated": "2026-09-23T09:03:42.528Z"
+  },
+  {
+   "declared_name": "obi/fin-b54-f6-collectible-disposal-route-model",
+   "declared_short": "fin-b54-f6-collectible-disposal-route-model",
+   "folder": "fin-b54-f6-collectible-disposal-route-model",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "a8781b118793aa60d2192b8001665a60180491643ed9ce86d9e511ec770be77d",
+   "size_bytes": 10612120,
+   "updated": "2026-09-24T17:59:20.300Z"
   },
   {
    "connector_provenance": null,
