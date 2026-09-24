@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-24T11:05:04+00:00",
+ "generated_at": "2026-09-24T11:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1334,
-  "scanned": 1334,
-  "connector": 391,
+  "task_folders": 1336,
+  "scanned": 1336,
+  "connector": 393,
   "non_connector": 943,
   "errors": 0
  },
  "connector_provenance": {
   "real": 126,
-  "unknown": 130,
-  "synthetic": 135
+  "unknown": 131,
+  "synthetic": 136
  },
  "domain": {
-  "unnamed": 546,
+  "unnamed": 548,
   "code": 251,
   "fin": 90,
   "gen": 275,
@@ -22,7 +22,7 @@
   "law": 83
  },
  "name_prefix": {
-  "harbor": 393,
+  "harbor": 395,
   "obi": 941
  },
  "connector_services": {
@@ -32,7 +32,7 @@
   "jira-gym": 175,
   "email-gym": 173,
   "freshdesk-gym": 173,
-  "slack-gym": 167,
+  "slack-gym": 169,
   "slack": 61,
   "notion-gym": 35,
   "github-gym": 24,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 273791
  },
  "errors": [],
  "tasks": [
@@ -18576,6 +18576,22 @@
    "updated": "2026-09-23T06:56:29.998Z"
   },
   {
+   "declared_name": "harbor/the-channel-that-runs-itself",
+   "declared_short": "the-channel-that-runs-itself",
+   "folder": "the-channel-that-runs-itself",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "1a3607e571b6613340942ab97fb53e979d4807a2c5e395d7e70709c70cf9bf94",
+   "size_bytes": 8030236,
+   "updated": "2026-09-24T11:05:56.426Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -20264,6 +20280,22 @@
    "sha256": "7d4affbcb8b949ad9cb7ad28b50dfe94cd7236df86f8abab208e6eefaf7d787c",
    "size_bytes": 7805546,
    "updated": "2026-09-23T07:10:45.085Z"
+  },
+  {
+   "declared_name": "harbor/where-the-talking-moved",
+   "declared_short": "where-the-talking-moved",
+   "folder": "where-the-talking-moved",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "41ab4a9addb8581f30a3afef519dfa1496d523680179d658506a5c7c0d4bacc2",
+   "size_bytes": 31351445,
+   "updated": "2026-09-24T11:09:37.289Z"
   },
   {
    "connector_provenance": "synthetic",
