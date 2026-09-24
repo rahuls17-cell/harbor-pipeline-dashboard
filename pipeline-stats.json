@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-24T12:30:05+00:00",
+ "generated_at": "2026-09-24T12:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1341,
-  "scanned": 1341,
-  "connector": 398,
-  "non_connector": 943,
+  "task_folders": 1343,
+  "scanned": 1343,
+  "connector": 399,
+  "non_connector": 944,
   "errors": 0
  },
  "connector_provenance": {
   "real": 127,
   "unknown": 131,
-  "synthetic": 140
+  "synthetic": 141
  },
  "domain": {
-  "unnamed": 553,
+  "unnamed": 554,
   "code": 251,
   "fin": 90,
   "gen": 275,
   "health": 89,
-  "law": 83
+  "law": 84
  },
  "name_prefix": {
-  "harbor": 400,
-  "obi": 941
+  "harbor": 401,
+  "obi": 942
  },
  "connector_services": {
   "google-drive-gym": 192,
@@ -35,7 +35,7 @@
   "slack-gym": 169,
   "slack": 62,
   "notion-gym": 36,
-  "github-gym": 26,
+  "github-gym": 27,
   "email-calendar-gym": 23,
   "linear-gym": 20,
   "outlook-gym": 16,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133809
+  "new_archives_read": 2,
+  "approx_bytes_read": 265224
  },
  "errors": [],
  "tasks": [
@@ -15053,6 +15053,20 @@
    "updated": "2026-09-17T17:28:07.817Z"
   },
   {
+   "declared_name": "obi/law-b38-l5-consultant-fee-basis-recomputation",
+   "declared_short": "law-b38-l5-consultant-fee-basis-recomputation",
+   "folder": "law-b38-l5-consultant-fee-basis-recomputation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "b95ef8b24106e883d30b78494ef33bf66f37fc98da972a4a1a47b223533ef2eb",
+   "size_bytes": 10524078,
+   "updated": "2026-09-24T12:32:11.194Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-b38-l7-lease-draft-source-audit",
@@ -20336,9 +20350,25 @@
    "updated": "2026-09-20T17:09:38.687Z"
   },
   {
+   "connector_provenance": "synthetic",
+   "connector_services": [
+    "github-gym"
+   ],
    "declared_name": "harbor/where-outside-review-lands",
    "declared_short": "where-outside-review-lands",
+   "domain": null,
    "folder": "where-outside-review-lands",
+   "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
+   "sha256": "b44f50f1d3abb44f59c5fcf7645deac947e50da501d6a240b63464173f442304",
+   "size_bytes": 8450983,
+   "updated": "2026-09-24T12:29:30.097Z"
+  },
+  {
+   "declared_name": "harbor/where-review-turns-into-conversation",
+   "declared_short": "where-review-turns-into-conversation",
+   "folder": "where-review-turns-into-conversation",
    "prefix": "harbor",
    "is_connector": true,
    "connector_services": [
@@ -20347,9 +20377,9 @@
    "connector_provenance": "synthetic",
    "domain": null,
    "image": null,
-   "sha256": "b44f50f1d3abb44f59c5fcf7645deac947e50da501d6a240b63464173f442304",
-   "size_bytes": 8450983,
-   "updated": "2026-09-24T12:29:30.097Z"
+   "sha256": "10bb8813b1f557cf29f1f5ae8e5d57c1d68fd7a933db3985dbf28be175ae9fad",
+   "size_bytes": 8992030,
+   "updated": "2026-09-24T12:30:34.030Z"
   },
   {
    "connector_provenance": "synthetic",
