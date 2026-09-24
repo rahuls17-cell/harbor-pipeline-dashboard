@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T10:00:03+00:00",
+ "generated_at": "2026-09-24T10:05:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1323,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 264106
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1737,15 +1737,15 @@
    "updated": "2026-09-22T11:03:53.016Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b46-b5-data-hall-three-week-lookahead-consolidation",
    "declared_short": "bus-b46-b5-data-hall-three-week-lookahead-consolidation",
-   "folder": "bus-b46-b5-data-hall-three-week-lookahead-consolidation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b46-b5-data-hall-three-week-lookahead-consolidation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "15938e3eb9fff9bd3ff7f6d27d2532dd1c6dd272d988c601b36e426a89ac2cbb",
    "size_bytes": 8684216,
    "updated": "2026-09-24T09:56:38.975Z"
@@ -1947,15 +1947,15 @@
    "updated": "2026-09-23T07:01:36.885Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b48-b8-revolver-auction-listing-fields-fees",
    "declared_short": "bus-b48-b8-revolver-auction-listing-fields-fees",
-   "folder": "bus-b48-b8-revolver-auction-listing-fields-fees",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b48-b8-revolver-auction-listing-fields-fees",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5dbe6f7762b3bf3b50b3be0f5cf193a9d66828b4b54bfbf1e35c860a8d496634",
    "size_bytes": 10327089,
    "updated": "2026-09-24T09:59:54.389Z"
