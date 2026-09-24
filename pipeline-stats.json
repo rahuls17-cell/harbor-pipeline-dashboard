@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T07:45:03+00:00",
+ "generated_at": "2026-09-24T07:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1314,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131501
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2785,15 +2785,15 @@
    "updated": "2026-09-24T05:18:36.426Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c158-sports-feed-outage-reconcile",
    "declared_short": "code-c158-sports-feed-outage-reconcile",
-   "folder": "code-c158-sports-feed-outage-reconcile",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c158-sports-feed-outage-reconcile",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4b8ed42ba07b1a5519e5a6f015ec8e8f9419b0a06b157a9d7c0b9061af5b6541",
    "size_bytes": 6544204,
    "updated": "2026-09-24T07:43:34.425Z"
