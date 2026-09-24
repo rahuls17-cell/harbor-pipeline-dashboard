@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T01:55:03+00:00",
+ "generated_at": "2026-09-24T02:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1290,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262895
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -8859,15 +8859,15 @@
    "updated": "2026-09-23T09:59:02.305Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1255-audiobook-voice-cast-compliance-audit",
    "declared_short": "gen-g1255-audiobook-voice-cast-compliance-audit",
-   "folder": "gen-g1255-audiobook-voice-cast-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1255-audiobook-voice-cast-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9021953a58c88c77407dada8029493d66fb60f52de6c24c60a44968c71f93cc2",
    "size_bytes": 5282157,
    "updated": "2026-09-24T01:53:46.283Z"
@@ -17408,15 +17408,15 @@
    "updated": "2026-09-24T00:54:59.615Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b53-t8-settings-path-adjudication",
    "declared_short": "tech-b53-t8-settings-path-adjudication",
-   "folder": "tech-b53-t8-settings-path-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b53-t8-settings-path-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a7208b520ea143c9222363d76db0df1412ab6446335c27a9cdbd647050200e2e",
    "size_bytes": 8203289,
    "updated": "2026-09-24T01:55:00.352Z"
