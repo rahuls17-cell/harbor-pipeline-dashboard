@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T12:40:02+00:00",
+ "generated_at": "2026-09-24T13:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1343,
-  "scanned": 1343,
+  "task_folders": 1345,
+  "scanned": 1345,
   "connector": 399,
-  "non_connector": 944,
+  "non_connector": 946,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 554,
-  "code": 251,
+  "code": 252,
   "fin": 90,
-  "gen": 275,
+  "gen": 276,
   "health": 89,
   "law": 84
  },
  "name_prefix": {
   "harbor": 401,
-  "obi": 942
+  "obi": 944
  },
  "connector_services": {
   "google-drive-gym": 192,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263150
  },
  "errors": [],
  "tasks": [
@@ -3037,6 +3037,20 @@
    "sha256": "a25a0aa4c182b4c5027a5eaeaa0e3086b9ba033e8da5ef558928485215e125f3",
    "size_bytes": 11735239,
    "updated": "2026-09-21T22:10:26.269Z"
+  },
+  {
+   "declared_name": "obi/code-c190-weather-alert-threshold-audit",
+   "declared_short": "code-c190-weather-alert-threshold-audit",
+   "folder": "code-c190-weather-alert-threshold-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "9a0c6d8511a0a71161ec780159f61cb28fb22a594be28fe5174754efe1849db1",
+   "size_bytes": 6866492,
+   "updated": "2026-09-24T12:59:35.282Z"
   },
   {
    "connector_provenance": null,
@@ -9769,6 +9783,20 @@
    "sha256": "2d08fe6a0c4fabf0bdf323021ba8e5d0b111fc41a1b9d902c7a240d9cd0b1192",
    "size_bytes": 5454460,
    "updated": "2026-09-10T13:01:38.293Z"
+  },
+  {
+   "declared_name": "obi/gen-g275-gift-form-compliance-audit",
+   "declared_short": "gen-g275-gift-form-compliance-audit",
+   "folder": "gen-g275-gift-form-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "04dc518386b9b5b39dd73c56529bde02d4147ccb9582154bdb4608a750f8e430",
+   "size_bytes": 6229189,
+   "updated": "2026-09-24T12:59:11.302Z"
   },
   {
    "connector_provenance": null,
