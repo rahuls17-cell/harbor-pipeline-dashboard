@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T02:05:03+00:00",
+ "generated_at": "2026-09-24T02:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1290,
-  "scanned": 1290,
+  "task_folders": 1291,
+  "scanned": 1291,
   "connector": 388,
-  "non_connector": 902,
+  "non_connector": 903,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 132
  },
  "domain": {
-  "unnamed": 522,
+  "unnamed": 523,
   "code": 241,
   "fin": 89,
   "gen": 271,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 391,
-  "obi": 899
+  "obi": 900
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131724
  },
  "errors": [],
  "tasks": [
@@ -6581,6 +6581,20 @@
    "sha256": "22b365fdfaf1abf444a7d505fa3595337a2fffacc273b580a61540c707147294",
    "size_bytes": 4058433,
    "updated": "2026-09-22T08:12:46.152Z"
+  },
+  {
+   "declared_name": "obi/edu-b51-a1-simulation-session-run-sheet",
+   "declared_short": "edu-b51-a1-simulation-session-run-sheet",
+   "folder": "edu-b51-a1-simulation-session-run-sheet",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "302441192e3f5a3d0b0d41a372fa1d70206ed01b44f81ddc04e686652f8b755d",
+   "size_bytes": 7284929,
+   "updated": "2026-09-24T02:12:37.935Z"
   },
   {
    "connector_provenance": null,
