@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T14:05:03+00:00",
+ "generated_at": "2026-09-24T14:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1351,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138995
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -19520,17 +19520,17 @@
    "updated": "2026-09-21T15:54:33.600Z"
   },
   {
-   "declared_name": "harbor/the-tags-that-named-nobody",
-   "declared_short": "the-tags-that-named-nobody",
-   "folder": "the-tags-that-named-nobody-v7",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-teams-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-tags-that-named-nobody",
+   "declared_short": "the-tags-that-named-nobody",
    "domain": null,
+   "folder": "the-tags-that-named-nobody-v7",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "648852fc8983b61d1dcff912e0a4be07705d8663ab0c96c358e8e7ee05fe78ca",
    "size_bytes": 11215181,
    "updated": "2026-09-24T14:00:52.314Z"
