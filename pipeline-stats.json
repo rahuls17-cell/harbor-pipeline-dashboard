@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T14:25:05+00:00",
+ "generated_at": "2026-09-24T14:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1354,
-  "scanned": 1354,
+  "task_folders": 1356,
+  "scanned": 1356,
   "connector": 400,
-  "non_connector": 954,
+  "non_connector": 956,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 142
  },
  "domain": {
-  "unnamed": 558,
+  "unnamed": 559,
   "code": 253,
-  "fin": 91,
+  "fin": 92,
   "gen": 277,
   "health": 91,
   "law": 84
  },
  "name_prefix": {
   "harbor": 402,
-  "obi": 952
+  "obi": 954
  },
  "connector_services": {
   "google-drive-gym": 192,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 394350
+  "new_archives_read": 2,
+  "approx_bytes_read": 263067
  },
  "errors": [],
  "tasks": [
@@ -3333,15 +3333,15 @@
    "updated": "2026-09-23T23:40:52.081Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c216-runbook-freshness-audit",
    "declared_short": "code-c216-runbook-freshness-audit",
-   "folder": "code-c216-runbook-freshness-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c216-runbook-freshness-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d49bb03553ec33b38ec06e096982dbc50b42489e983eac2dddafd126022361fe",
    "size_bytes": 7166099,
    "updated": "2026-09-24T14:21:54.306Z"
@@ -6949,6 +6949,20 @@
    "updated": "2026-09-24T04:43:02.245Z"
   },
   {
+   "declared_name": "obi/edu-b51-e7-item-bank-tag-normalisation",
+   "declared_short": "edu-b51-e7-item-bank-tag-normalisation",
+   "folder": "edu-b51-e7-item-bank-tag-normalisation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "bba5df137a4e72954990ed2914e353318c8ec33f87a786427109be83fd5c24e0",
+   "size_bytes": 6991274,
+   "updated": "2026-09-24T14:29:27.764Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-s1-a1-ratio-reference-categorisation",
@@ -7145,15 +7159,15 @@
    "updated": "2026-09-13T01:15:44.998Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sc09-a9-test-calendar",
    "declared_short": "edu-sc09-a9-test-calendar",
-   "folder": "edu-sc09-a9-test-calendar",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sc09-a9-test-calendar",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c62b9a8035b9dedc4a2dcb6a1c1612654487517a37b9eaf774d5284c9069d862",
    "size_bytes": 4847950,
    "updated": "2026-09-24T14:24:31.556Z"
@@ -8309,6 +8323,20 @@
    "sha256": "60d9ab08a9aaeb3ca7173fce92d34948d0468bbfe04ddd0bb94e12626c597eca",
    "size_bytes": 7477873,
    "updated": "2026-09-22T18:58:14.581Z"
+  },
+  {
+   "declared_name": "obi/fin-b53-f8-mortgage-product-reset-path-comparison",
+   "declared_short": "fin-b53-f8-mortgage-product-reset-path-comparison",
+   "folder": "fin-b53-f8-mortgage-product-reset-path-comparison",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "c87767bd9d8ff67faad47b1c6c84594ba4a9939afc7fe4cc110e48212e3497a3",
+   "size_bytes": 7510719,
+   "updated": "2026-09-24T14:29:57.584Z"
   },
   {
    "connector_provenance": null,
@@ -13425,15 +13453,15 @@
    "updated": "2026-09-06T04:19:33.735Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b43-h1-medicaid-remittance-claim-reconciliation-v1",
    "declared_short": "health-b43-h1-medicaid-remittance-claim-reconciliation-v1",
-   "folder": "health-b43-h1-medicaid-remittance-claim-reconciliation-v1",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b43-h1-medicaid-remittance-claim-reconciliation-v1",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8df921efc61e92a73c7862455c9910ab1c124928cb53746ff5826139a7bf4e71",
    "size_bytes": 6064851,
    "updated": "2026-09-24T14:21:52.355Z"
