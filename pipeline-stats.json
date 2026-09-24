@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T07:50:03+00:00",
+ "generated_at": "2026-09-24T08:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1314,
-  "scanned": 1314,
+  "task_folders": 1315,
+  "scanned": 1315,
   "connector": 388,
-  "non_connector": 926,
+  "non_connector": 927,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 132
  },
  "domain": {
-  "unnamed": 533,
+  "unnamed": 534,
   "code": 251,
   "fin": 90,
   "gen": 271,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 390,
-  "obi": 924
+  "obi": 925
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133251
  },
  "errors": [],
  "tasks": [
@@ -17980,6 +17980,20 @@
    "sha256": "7910a042547d7b1f0cc814f00f1b9c1d5040aeae54445265e697317f5d94f7a9",
    "size_bytes": 4952509,
    "updated": "2026-09-23T16:55:48.336Z"
+  },
+  {
+   "declared_name": "obi/tech-b61-t7-scanned-notice-ocr-transcript-normalization",
+   "declared_short": "tech-b61-t7-scanned-notice-ocr-transcript-normalization",
+   "folder": "tech-b61-t7-scanned-notice-ocr-transcript-normalization",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "5d195e01fe1e9c46e52e1a44402a3e80abdd21ba6d7e5fdbaa7439a497e978ff",
+   "size_bytes": 9900710,
+   "updated": "2026-09-24T08:13:34.245Z"
   },
   {
    "connector_provenance": null,
