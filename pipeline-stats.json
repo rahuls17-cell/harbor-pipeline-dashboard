@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T07:35:02+00:00",
+ "generated_at": "2026-09-24T07:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1313,
-  "scanned": 1313,
+  "task_folders": 1314,
+  "scanned": 1314,
   "connector": 388,
-  "non_connector": 925,
+  "non_connector": 926,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 533,
-  "code": 250,
+  "code": 251,
   "fin": 90,
   "gen": 271,
   "health": 88,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 390,
-  "obi": 923
+  "obi": 924
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131501
  },
  "errors": [],
  "tasks": [
@@ -2783,6 +2783,20 @@
    "sha256": "c6464f7051bed602f11ed6219a24b6b87b9577ba774b3d9e7ad81fa38ec1b814",
    "size_bytes": 6841444,
    "updated": "2026-09-24T05:18:36.426Z"
+  },
+  {
+   "declared_name": "obi/code-c158-sports-feed-outage-reconcile",
+   "declared_short": "code-c158-sports-feed-outage-reconcile",
+   "folder": "code-c158-sports-feed-outage-reconcile",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "4b8ed42ba07b1a5519e5a6f015ec8e8f9419b0a06b157a9d7c0b9061af5b6541",
+   "size_bytes": 6544204,
+   "updated": "2026-09-24T07:43:34.425Z"
   },
   {
    "connector_provenance": null,
