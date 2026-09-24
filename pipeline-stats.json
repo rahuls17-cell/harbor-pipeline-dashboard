@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T21:00:02+00:00",
+ "generated_at": "2026-09-24T21:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1390,
-  "scanned": 1390,
+  "task_folders": 1391,
+  "scanned": 1391,
   "connector": 405,
-  "non_connector": 985,
+  "non_connector": 986,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 144
  },
  "domain": {
-  "unnamed": 579,
+  "unnamed": 580,
   "code": 258,
   "fin": 97,
   "gen": 278,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 407,
-  "obi": 983
+  "obi": 984
  },
  "connector_services": {
   "google-drive-gym": 193,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131560
  },
  "errors": [],
  "tasks": [
@@ -1605,6 +1605,20 @@
    "sha256": "a52005079524e53120ad8e2289a71b34b90692ca7ce11efb26d39f0a6a848aeb",
    "size_bytes": 7756005,
    "updated": "2026-09-24T04:21:49.441Z"
+  },
+  {
+   "declared_name": "obi/bus-b22-b5-lsa-pitch-script-audit",
+   "declared_short": "bus-b22-b5-lsa-pitch-script-audit",
+   "folder": "bus-b22-b5-lsa-pitch-script-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "ed47aa48dca419f449c5d3239f340ee9c1260cf140c3dcd34f7f3f4bbd9d93a0",
+   "size_bytes": 7150995,
+   "updated": "2026-09-24T21:01:08.803Z"
   },
   {
    "connector_provenance": null,
