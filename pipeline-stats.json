@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-24T09:30:05+00:00",
+ "generated_at": "2026-09-24T09:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1320,
-  "scanned": 1320,
-  "connector": 388,
+  "task_folders": 1321,
+  "scanned": 1321,
+  "connector": 389,
   "non_connector": 932,
   "errors": 0
  },
  "connector_provenance": {
   "real": 126,
   "unknown": 130,
-  "synthetic": 132
+  "synthetic": 133
  },
  "domain": {
-  "unnamed": 538,
+  "unnamed": 539,
   "code": 251,
   "fin": 90,
   "gen": 271,
@@ -22,7 +22,7 @@
   "law": 82
  },
  "name_prefix": {
-  "harbor": 390,
+  "harbor": 391,
   "obi": 930
  },
  "connector_services": {
@@ -36,7 +36,7 @@
   "slack": 61,
   "notion-gym": 35,
   "github-gym": 24,
-  "email-calendar-gym": 22,
+  "email-calendar-gym": 23,
   "linear-gym": 20,
   "outlook-gym": 16,
   "gws-gym": 9,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 137833
  },
  "errors": [],
  "tasks": [
@@ -637,6 +637,22 @@
    "sha256": "bf6382596452b5550329567dd49f50eac59ff096ea47799e94c10b7d53ff568a",
    "size_bytes": 9043329,
    "updated": "2026-09-22T05:30:18.147Z"
+  },
+  {
+   "declared_name": "harbor/archived-senders-safe-to-clear",
+   "declared_short": "archived-senders-safe-to-clear",
+   "folder": "archived-senders-safe-to-clear",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "78d0f25f254c52744fd40008674c521192cc7691cda1af5a59c7d2b9b359f53c",
+   "size_bytes": 12301427,
+   "updated": "2026-09-24T09:30:14.301Z"
   },
   {
    "connector_provenance": "real",
