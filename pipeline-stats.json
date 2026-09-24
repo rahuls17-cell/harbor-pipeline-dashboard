@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T10:15:03+00:00",
+ "generated_at": "2026-09-24T10:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1327,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 407097
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -10989,15 +10989,15 @@
    "updated": "2026-09-20T08:59:49.617Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g714-startup-opportunity-feasibility-audit",
    "declared_short": "gen-g714-startup-opportunity-feasibility-audit",
-   "folder": "gen-g714-startup-opportunity-feasibility-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g714-startup-opportunity-feasibility-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "175dab2ff2f30e5e79d8d4732a22a545292dfe6cb5d9416293c4c01d04105775",
    "size_bytes": 7147693,
    "updated": "2026-09-24T10:13:57.590Z"
@@ -16855,17 +16855,17 @@
    "updated": "2026-09-19T01:23:02.097Z"
   },
   {
-   "declared_name": "harbor/the-only-eyes-on-it-were-our-own",
-   "declared_short": "the-only-eyes-on-it-were-our-own",
-   "folder": "task",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-only-eyes-on-it-were-our-own",
+   "declared_short": "the-only-eyes-on-it-were-our-own",
    "domain": null,
+   "folder": "task",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9f7edaa95c74281bfc99450c5afb0596ccc1949e03faa1176a35c49015245c67",
    "size_bytes": 6770674,
    "updated": "2026-09-24T10:11:13.959Z"
@@ -18154,15 +18154,15 @@
    "updated": "2026-09-24T08:13:34.245Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-mg-it-b10-a8-practice-log-spring-redating",
    "declared_short": "tech-mg-it-b10-a8-practice-log-spring-redating",
-   "folder": "tech-mg-it-b10-a8-practice-log-spring-redating",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-mg-it-b10-a8-practice-log-spring-redating",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ffe583e2ef7305577f7ef1c8c37a008a3ed77e74fed542f14ce58163440bb3a0",
    "size_bytes": 7446052,
    "updated": "2026-09-24T10:12:41.843Z"
