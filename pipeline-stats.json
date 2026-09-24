@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T19:30:03+00:00",
+ "generated_at": "2026-09-24T19:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1383,
-  "scanned": 1383,
+  "task_folders": 1384,
+  "scanned": 1384,
   "connector": 404,
-  "non_connector": 979,
+  "non_connector": 980,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 144
  },
  "domain": {
-  "unnamed": 575,
+  "unnamed": 576,
   "code": 256,
   "fin": 96,
   "gen": 278,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 406,
-  "obi": 977
+  "obi": 978
  },
  "connector_services": {
   "google-drive-gym": 193,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131561
  },
  "errors": [],
  "tasks": [
@@ -19022,6 +19022,20 @@
    "sha256": "fcbab22583bee0e1bec6170aaeb584f35bdf47d0e8d503999dae9e3713dd29bb",
    "size_bytes": 4876937,
    "updated": "2026-09-22T05:05:28.353Z"
+  },
+  {
+   "declared_name": "obi/tech-mg-it-b9-a7-summer-trending-repo-leaderboard",
+   "declared_short": "tech-mg-it-b9-a7-summer-trending-repo-leaderboard",
+   "folder": "tech-mg-it-b9-a7-summer-trending-repo-leaderboard",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "998bc0e771c9d147d93f162902f1de96e0e3b0484ce10e510d83c771e9c48e97",
+   "size_bytes": 5668595,
+   "updated": "2026-09-24T19:34:05.798Z"
   },
   {
    "connector_provenance": "unknown",
