@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T05:25:03+00:00",
+ "generated_at": "2026-09-24T05:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1308,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263101
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4087,15 +4087,15 @@
    "updated": "2026-09-05T20:55:58.599Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c419-operating-room-case-assignment-audit",
    "declared_short": "code-c419-operating-room-case-assignment-audit",
-   "folder": "code-c419-operating-room-case-assignment-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c419-operating-room-case-assignment-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4e46737dcb941b17c26452dda19403671d50497708c7ce25437f5b78957a5bc6",
    "size_bytes": 5359995,
    "updated": "2026-09-24T05:21:23.270Z"
@@ -8085,15 +8085,15 @@
    "updated": "2026-09-22T18:58:14.581Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b54-f10-learner-explanation-reference-assessment",
    "declared_short": "fin-b54-f10-learner-explanation-reference-assessment",
-   "folder": "fin-b54-f10-learner-explanation-reference-assessment",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b54-f10-learner-explanation-reference-assessment",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f41b28972058e4edb6e6c83269df863387ec16afc05bcf52e53d94fa0351f50a",
    "size_bytes": 10543383,
    "updated": "2026-09-24T05:20:35.777Z"
