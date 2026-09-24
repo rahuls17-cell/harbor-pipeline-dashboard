@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T07:30:03+00:00",
+ "generated_at": "2026-09-24T07:35:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1313,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263345
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1651,15 +1651,15 @@
    "updated": "2026-09-17T22:03:05.476Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b43-b12-assessment-answer-key-recompute",
    "declared_short": "bus-b43-b12-assessment-answer-key-recompute",
-   "folder": "bus-b43-b12-assessment-answer-key-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b43-b12-assessment-answer-key-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c36dc1645479ff715fd7c16e60bcfcf96219291edc579e9e8b8a03613e6f6bf9",
    "size_bytes": 7783016,
    "updated": "2026-09-24T07:26:19.036Z"
@@ -6793,15 +6793,15 @@
    "updated": "2026-09-23T16:12:01.414Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-b51-e10-reading-schedule-reconstruction",
    "declared_short": "edu-b51-e10-reading-schedule-reconstruction",
-   "folder": "edu-b51-e10-reading-schedule-reconstruction",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-b51-e10-reading-schedule-reconstruction",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e3eeb3be19d92b3226d4f7e1b70dd03809889848d374f214a461c41c37f7b20c",
    "size_bytes": 7789058,
    "updated": "2026-09-24T07:27:01.984Z"
