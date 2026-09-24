@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T03:20:02+00:00",
+ "generated_at": "2026-09-24T03:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1300,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131509
  },
  "errors": [],
  "tasks": [
@@ -2701,18 +2701,18 @@
    "updated": "2026-09-24T03:03:44.665Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/code-c153-content-pipeline-schedule-audit",
    "declared_short": "code-c153-content-pipeline-schedule-audit",
-   "domain": "code",
    "folder": "code-c153-content-pipeline-schedule-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "56b2be255760c20b4e63e1e3a15c4cee197f204e3894bffcf73f4f9df937ed08",
-   "size_bytes": 5137519,
-   "updated": "2026-09-05T18:36:31.098Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "d98f1ff82954dca57e2f4c55def6fdb7193b0a31338a6576acecc05cac6d10e2",
+   "size_bytes": 5438065,
+   "updated": "2026-09-24T03:49:55.350Z"
   },
   {
    "connector_provenance": null,
