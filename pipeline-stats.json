@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T00:55:03+00:00",
+ "generated_at": "2026-09-24T01:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1287,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 394314
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4759,15 +4759,15 @@
    "updated": "2026-09-10T12:16:19.577Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c55-certificate-chain-traceability",
    "declared_short": "code-c55-certificate-chain-traceability",
-   "folder": "code-c55-certificate-chain-traceability",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c55-certificate-chain-traceability",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b8a1cd6fef88e81c454f99ecd4c1eea4380540c79eae67202d7e534a937a31d4",
    "size_bytes": 7812401,
    "updated": "2026-09-24T00:54:38.437Z"
@@ -9475,15 +9475,15 @@
    "updated": "2026-09-16T05:13:34.869Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g290-photo-printing-service-audit",
    "declared_short": "gen-g290-photo-printing-service-audit",
-   "folder": "gen-g290-photo-printing-service-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g290-photo-printing-service-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5ccb6821fcc5f4489348c37cbc6ed360fe6ac0e7b712a9544ec05458db4e6707",
    "size_bytes": 9425291,
    "updated": "2026-09-24T00:51:33.763Z"
@@ -17366,15 +17366,15 @@
    "updated": "2026-09-23T20:15:09.143Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b53-t5-controller-wiring-compatibility-register",
    "declared_short": "tech-b53-t5-controller-wiring-compatibility-register",
-   "folder": "tech-b53-t5-controller-wiring-compatibility-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b53-t5-controller-wiring-compatibility-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9fb0b57a20a439abfc3e8642b0d91b92710c7c148283b444e240490112e9d9a9",
    "size_bytes": 8014756,
    "updated": "2026-09-24T00:54:59.615Z"
