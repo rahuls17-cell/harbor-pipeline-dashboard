@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T20:35:03+00:00",
+ "generated_at": "2026-09-24T20:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1389,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 264557
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -411,17 +411,17 @@
    "updated": "2026-09-09T12:54:53.849Z"
   },
   {
-   "declared_name": "harbor/a-three-issue-chain-all-archived",
-   "declared_short": "a-three-issue-chain-all-archived",
-   "folder": "a-three-issue-chain-all-archived",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/a-three-issue-chain-all-archived",
+   "declared_short": "a-three-issue-chain-all-archived",
    "domain": null,
+   "folder": "a-three-issue-chain-all-archived",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f252f88ff3f9deafd50ce41759036c3e13be8b9e7c037d662a523bd66f94488b",
    "size_bytes": 7746797,
    "updated": "2026-09-24T20:33:52.509Z"
@@ -8563,15 +8563,15 @@
    "updated": "2026-09-20T05:10:48.237Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b53-f5-equity-resistance-level-derivation",
    "declared_short": "fin-b53-f5-equity-resistance-level-derivation",
-   "folder": "fin-b53-f5-equity-resistance-level-derivation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b53-f5-equity-resistance-level-derivation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "229a22626bc2b47dffd3d299ce583adc727c823a2975dc5ab36f5d92db46b7f1",
    "size_bytes": 8672836,
    "updated": "2026-09-24T20:30:05.898Z"
