@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T23:30:02+00:00",
+ "generated_at": "2026-09-24T23:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1407,
-  "scanned": 1407,
+  "task_folders": 1408,
+  "scanned": 1408,
   "connector": 407,
-  "non_connector": 1000,
+  "non_connector": 1001,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 589,
   "code": 262,
   "fin": 97,
-  "gen": 280,
+  "gen": 281,
   "health": 93,
   "law": 86
  },
  "name_prefix": {
   "harbor": 409,
-  "obi": 998
+  "obi": 999
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131350
  },
  "errors": [],
  "tasks": [
@@ -11127,6 +11127,20 @@
    "sha256": "8825d6591c129461fa0c67586d0ce0c47267dde914a58d35b895620bd6c26ce9",
    "size_bytes": 3311485,
    "updated": "2026-09-05T18:49:48.769Z"
+  },
+  {
+   "declared_name": "obi/gen-g555-competency-response-readiness-audit",
+   "declared_short": "gen-g555-competency-response-readiness-audit",
+   "folder": "gen-g555-competency-response-readiness-audit-d44643-v8-sna-fivy",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "722147a9c97bb5450ae1989ac2dd28a883c8d87cbe3cc22563ca1f384021c9c7",
+   "size_bytes": 4613044,
+   "updated": "2026-09-24T23:33:15.763Z"
   },
   {
    "connector_provenance": null,
