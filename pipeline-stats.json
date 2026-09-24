@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T13:10:03+00:00",
+ "generated_at": "2026-09-24T13:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1349,
-  "scanned": 1349,
+  "task_folders": 1350,
+  "scanned": 1350,
   "connector": 399,
-  "non_connector": 950,
+  "non_connector": 951,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 252,
   "fin": 91,
   "gen": 277,
-  "health": 89,
+  "health": 90,
   "law": 84
  },
  "name_prefix": {
   "harbor": 401,
-  "obi": 948
+  "obi": 949
  },
  "connector_services": {
   "google-drive-gym": 192,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131453
+  "approx_bytes_read": 131506
  },
  "errors": [],
  "tasks": [
@@ -7807,15 +7807,15 @@
    "updated": "2026-09-22T19:46:31.904Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b45-a3-contribution-room-adjudication",
    "declared_short": "fin-b45-a3-contribution-room-adjudication",
-   "folder": "fin-b45-a3-contribution-room-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b45-a3-contribution-room-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ee9f828837de6e7b0736dff7e73c2fd5c95c68d608c177bcf982f45b2ee065d1",
    "size_bytes": 6492558,
    "updated": "2026-09-24T13:06:41.726Z"
@@ -14501,6 +14501,20 @@
    "sha256": "56f01c5b326e332a4429a085a84d41bf81e249b8d88553a10069f0197d8932a8",
    "size_bytes": 6501438,
    "updated": "2026-09-17T20:46:23.016Z"
+  },
+  {
+   "declared_name": "obi/health-tdt6-a7-home-bp-lability-log-reconstruction",
+   "declared_short": "health-tdt6-a7-home-bp-lability-log-reconstruction",
+   "folder": "health-tdt6-a7-home-bp-lability-log-reconstruction",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "ecdf599d7f8665724d7535eccbbd25b0b81d66af2c01c928021270ea028e9e1f",
+   "size_bytes": 7614637,
+   "updated": "2026-09-24T13:11:05.281Z"
   },
   {
    "connector_provenance": null,
