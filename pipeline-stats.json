@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T02:50:03+00:00",
+ "generated_at": "2026-09-24T02:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1295,
-  "scanned": 1295,
+  "task_folders": 1296,
+  "scanned": 1296,
   "connector": 388,
-  "non_connector": 907,
+  "non_connector": 908,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 132
  },
  "domain": {
-  "unnamed": 524,
+  "unnamed": 525,
   "code": 244,
   "fin": 89,
   "gen": 271,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 391,
-  "obi": 904
+  "obi": 905
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131502
+  "approx_bytes_read": 131446
  },
  "errors": [],
  "tasks": [
@@ -2015,6 +2015,20 @@
    "updated": "2026-09-23T16:57:45.319Z"
   },
   {
+   "declared_name": "obi/bus-b609-t8-festival-stock-purchase-plan",
+   "declared_short": "bus-b609-t8-festival-stock-purchase-plan",
+   "folder": "bus-b609-t8-festival-stock-purchase-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "9d6b8bb972bd93609d7eed501b1879cc97756b39d8bce497fac6e9963c4b8996",
+   "size_bytes": 6542470,
+   "updated": "2026-09-24T02:51:59.910Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-mg-bus-b7-a2-lab-calibration-compliance-screen",
@@ -2645,15 +2659,15 @@
    "updated": "2026-09-20T21:15:26.576Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c150-ai-inference-claims-audit",
    "declared_short": "code-c150-ai-inference-claims-audit",
-   "folder": "code-c150-ai-inference-claims-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c150-ai-inference-claims-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2615e454fffc7e0bc30262f66d574e395619caafb17177bee23d3454d71a2c66",
    "size_bytes": 8057494,
    "updated": "2026-09-24T02:49:03.946Z"
