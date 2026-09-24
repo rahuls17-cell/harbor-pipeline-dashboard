@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T23:45:03+00:00",
+ "generated_at": "2026-09-24T23:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1410,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131505
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1649,15 +1649,15 @@
    "updated": "2026-09-23T19:05:26.645Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b23-b6-token-listing-outreach-audit",
    "declared_short": "bus-b23-b6-token-listing-outreach-audit",
-   "folder": "bus-b23-b6-token-listing-outreach-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b23-b6-token-listing-outreach-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4a61bca76fccee706350781c6691a1f98f45f3905be90d9e2b9bbdbb3e666c97",
    "size_bytes": 8261493,
    "updated": "2026-09-24T23:41:19.824Z"
