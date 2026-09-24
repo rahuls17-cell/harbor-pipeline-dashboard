@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-24T12:15:03+00:00",
+ "generated_at": "2026-09-24T12:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1339,
-  "scanned": 1339,
-  "connector": 396,
+  "task_folders": 1340,
+  "scanned": 1340,
+  "connector": 397,
   "non_connector": 943,
   "errors": 0
  },
  "connector_provenance": {
   "real": 127,
   "unknown": 131,
-  "synthetic": 138
+  "synthetic": 139
  },
  "domain": {
-  "unnamed": 551,
+  "unnamed": 552,
   "code": 251,
   "fin": 90,
   "gen": 275,
@@ -22,7 +22,7 @@
   "law": 83
  },
  "name_prefix": {
-  "harbor": 398,
+  "harbor": 399,
   "obi": 941
  },
  "connector_services": {
@@ -34,7 +34,7 @@
   "freshdesk-gym": 174,
   "slack-gym": 169,
   "slack": 62,
-  "notion-gym": 35,
+  "notion-gym": 36,
   "github-gym": 25,
   "email-calendar-gym": 23,
   "linear-gym": 20,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133661
+  "approx_bytes_read": 134767
  },
  "errors": [],
  "tasks": [
@@ -18576,17 +18576,17 @@
    "updated": "2026-09-23T19:03:03.477Z"
   },
   {
-   "declared_name": "harbor/the-busy-threads-and-who-owns-them",
-   "declared_short": "the-busy-threads-and-who-owns-them",
-   "folder": "the-busy-threads-and-who-owns-them",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-busy-threads-and-who-owns-them",
+   "declared_short": "the-busy-threads-and-who-owns-them",
    "domain": null,
+   "folder": "the-busy-threads-and-who-owns-them",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7db1e35f92b6fcb908600253448909358db9589c01027a8d0882c1c2af088cfe",
    "size_bytes": 7055069,
    "updated": "2026-09-24T12:14:41.443Z"
@@ -19198,6 +19198,22 @@
    "sha256": "453c12f3812e5050e57ac9474da5931be06d5859b81556d4318a3cdc393062ee",
    "size_bytes": 13019434,
    "updated": "2026-09-23T22:20:01.025Z"
+  },
+  {
+   "declared_name": "harbor/the-product-specs-with-nothing-written-in-them",
+   "declared_short": "the-product-specs-with-nothing-written-in-them",
+   "folder": "the-product-specs-with-nothing-written-in-them",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "05b5d0b4c8ee5ba2ff797dbccffade0ba570238300efc49f62e488740e1ae97b",
+   "size_bytes": 8419636,
+   "updated": "2026-09-24T12:19:17.420Z"
   },
   {
    "connector_provenance": "synthetic",
