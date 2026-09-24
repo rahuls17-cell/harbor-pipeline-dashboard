@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T03:05:03+00:00",
+ "generated_at": "2026-09-24T03:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1298,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262966
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2687,15 +2687,15 @@
    "updated": "2026-09-20T20:54:21.400Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c152-battery-sku-compatibility-audit",
    "declared_short": "code-c152-battery-sku-compatibility-audit",
-   "folder": "code-c152-battery-sku-compatibility-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c152-battery-sku-compatibility-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "cc0bbffe306ddcc8ae482eb2d44871f137f9fde41440d6cb1290fda898fce142",
    "size_bytes": 5839808,
    "updated": "2026-09-24T03:03:44.665Z"
@@ -17548,15 +17548,15 @@
    "updated": "2026-09-23T20:02:13.530Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b54-t2-automation-window-schedule-plan",
    "declared_short": "tech-b54-t2-automation-window-schedule-plan",
-   "folder": "tech-b54-t2-automation-window-schedule-plan",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b54-t2-automation-window-schedule-plan",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b56a80f58c2d11870b3c4fa09d698105b2fb7b48a7518376d23e33b9570a57b6",
    "size_bytes": 8737959,
    "updated": "2026-09-24T03:04:12.398Z"
