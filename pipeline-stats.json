@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T09:45:04+00:00",
+ "generated_at": "2026-09-24T10:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1321,
-  "scanned": 1321,
+  "task_folders": 1323,
+  "scanned": 1323,
   "connector": 389,
-  "non_connector": 932,
+  "non_connector": 934,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 133
  },
  "domain": {
-  "unnamed": 539,
+  "unnamed": 541,
   "code": 251,
   "fin": 90,
   "gen": 271,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 391,
-  "obi": 930
+  "obi": 932
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 264106
  },
  "errors": [],
  "tasks": [
@@ -1737,6 +1737,20 @@
    "updated": "2026-09-22T11:03:53.016Z"
   },
   {
+   "declared_name": "obi/bus-b46-b5-data-hall-three-week-lookahead-consolidation",
+   "declared_short": "bus-b46-b5-data-hall-three-week-lookahead-consolidation",
+   "folder": "bus-b46-b5-data-hall-three-week-lookahead-consolidation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "15938e3eb9fff9bd3ff7f6d27d2532dd1c6dd272d988c601b36e426a89ac2cbb",
+   "size_bytes": 8684216,
+   "updated": "2026-09-24T09:56:38.975Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b46-b6-launch-video-brief-scorecard",
@@ -1931,6 +1945,20 @@
    "sha256": "d8b9f14355c7e328f8be2b23390532d04490b8eb5670acbd3b060b7c742f502d",
    "size_bytes": 9367261,
    "updated": "2026-09-23T07:01:36.885Z"
+  },
+  {
+   "declared_name": "obi/bus-b48-b8-revolver-auction-listing-fields-fees",
+   "declared_short": "bus-b48-b8-revolver-auction-listing-fields-fees",
+   "folder": "bus-b48-b8-revolver-auction-listing-fields-fees",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "5dbe6f7762b3bf3b50b3be0f5cf193a9d66828b4b54bfbf1e35c860a8d496634",
+   "size_bytes": 10327089,
+   "updated": "2026-09-24T09:59:54.389Z"
   },
   {
    "connector_provenance": null,
