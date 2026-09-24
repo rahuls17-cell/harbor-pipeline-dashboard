@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T17:30:03+00:00",
+ "generated_at": "2026-09-24T17:40:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1372,
-  "scanned": 1372,
+  "task_folders": 1373,
+  "scanned": 1373,
   "connector": 402,
-  "non_connector": 970,
+  "non_connector": 971,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 143
  },
  "domain": {
-  "unnamed": 568,
+  "unnamed": 569,
   "code": 255,
   "fin": 94,
   "gen": 278,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 404,
-  "obi": 968
+  "obi": 969
  },
  "connector_services": {
   "google-drive-gym": 193,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 262910
  },
  "errors": [],
  "tasks": [
@@ -17175,18 +17175,18 @@
    "updated": "2026-09-22T12:58:59.813Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/sci-sc09-a6-vti-task-001376",
    "declared_short": "sci-sc09-a6-vti-task-001376",
-   "domain": null,
    "folder": "sci-sc09-a6-vti-task-001376",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "70a8964615e3b3ccd32859886ea1985714c51b8469838aae8614b089b567011e",
-   "size_bytes": 5011798,
-   "updated": "2026-09-24T16:55:43.343Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "685d582b284413582e62897cf9bb5f1a359ca572ba10e11c9b5bed0911fd27a1",
+   "size_bytes": 5507820,
+   "updated": "2026-09-24T17:37:58.978Z"
   },
   {
    "connector_provenance": "real",
@@ -18432,6 +18432,20 @@
    "sha256": "113738f193fa26b4fd8f2a94cd04dac8d6c800896d1128029accc9eac69c9ab4",
    "size_bytes": 6042482,
    "updated": "2026-09-24T08:19:18.200Z"
+  },
+  {
+   "declared_name": "obi/tech-b54-a8-rig-footage-variance-attribution",
+   "declared_short": "tech-b54-a8-rig-footage-variance-attribution",
+   "folder": "tech-b54-a8-rig-footage-variance-attribution",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "f632791385efcc5f30607c4d656bf2a0afb4f305cd9faaaef69ad651a52aff71",
+   "size_bytes": 9894982,
+   "updated": "2026-09-24T17:39:49.089Z"
   },
   {
    "connector_provenance": null,
