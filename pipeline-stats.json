@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T22:30:03+00:00",
+ "generated_at": "2026-09-24T22:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1404,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131505
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1635,15 +1635,15 @@
    "updated": "2026-09-23T19:05:26.645Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b23-b8-integration-delivery-cost-model",
    "declared_short": "bus-b23-b8-integration-delivery-cost-model",
-   "folder": "bus-b23-b8-integration-delivery-cost-model",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b23-b8-integration-delivery-cost-model",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6b21da361143b7098caa78c9600329f25577a1615ea94483e61f7de13c5c4975",
    "size_bytes": 8284315,
    "updated": "2026-09-24T22:25:21.878Z"
