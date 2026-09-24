@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T03:15:03+00:00",
+ "generated_at": "2026-09-24T03:20:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1300,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263151
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4493,15 +4493,15 @@
    "updated": "2026-09-07T20:37:38.081Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c49-health-check-config-audit",
    "declared_short": "code-c49-health-check-config-audit",
-   "folder": "code-c49-health-check-config-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c49-health-check-config-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "89939c4d5f06ce1f73e26c59f7bc0e613b06271789cb4f822ce9f36f8b52c606",
    "size_bytes": 7264025,
    "updated": "2026-09-24T03:12:10.388Z"
@@ -13731,15 +13731,15 @@
    "updated": "2026-09-06T12:49:53.041Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h64-skinfold-body-fat-recompute-audit",
    "declared_short": "health-h64-skinfold-body-fat-recompute-audit",
-   "folder": "health-h64-skinfold-body-fat-recompute-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h64-skinfold-body-fat-recompute-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a1e9f400a9655a8151e5bfb4f0a4e8e7a3a2b4f6e3e3544e333c77f4c3051e95",
    "size_bytes": 5694569,
    "updated": "2026-09-24T03:14:41.829Z"
