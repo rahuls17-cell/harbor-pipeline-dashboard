@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T22:15:03+00:00",
+ "generated_at": "2026-09-24T22:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1399,
-  "scanned": 1399,
+  "task_folders": 1400,
+  "scanned": 1400,
   "connector": 406,
-  "non_connector": 993,
+  "non_connector": 994,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 585,
-  "code": 260,
+  "code": 261,
   "fin": 97,
   "gen": 279,
   "health": 93,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 408,
-  "obi": 991
+  "obi": 992
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131546
  },
  "errors": [],
  "tasks": [
@@ -3219,6 +3219,20 @@
    "sha256": "a829866a0377c105920efb0312177ad3c43d9c23d9bf2f3f99480aabdf76f7e0",
    "size_bytes": 9411223,
    "updated": "2026-09-22T20:45:30.473Z"
+  },
+  {
+   "declared_name": "obi/code-c188-ci-mirror-pipeline-audit",
+   "declared_short": "code-c188-ci-mirror-pipeline-audit",
+   "folder": "code-c188-ci-mirror-pipeline-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "6d1e34d9d616952a3bb310681a605e47976ad931057e2b279c8100fccac224f0",
+   "size_bytes": 7419064,
+   "updated": "2026-09-24T22:16:07.683Z"
   },
   {
    "connector_provenance": null,
