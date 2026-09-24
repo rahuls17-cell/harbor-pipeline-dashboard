@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T13:15:02+00:00",
+ "generated_at": "2026-09-24T13:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1350,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131506
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -14503,15 +14503,15 @@
    "updated": "2026-09-17T20:46:23.016Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt6-a7-home-bp-lability-log-reconstruction",
    "declared_short": "health-tdt6-a7-home-bp-lability-log-reconstruction",
-   "folder": "health-tdt6-a7-home-bp-lability-log-reconstruction",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt6-a7-home-bp-lability-log-reconstruction",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ecdf599d7f8665724d7535eccbbd25b0b81d66af2c01c928021270ea028e9e1f",
    "size_bytes": 7614637,
    "updated": "2026-09-24T13:11:05.281Z"
