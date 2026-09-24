@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T06:50:04+00:00",
+ "generated_at": "2026-09-24T06:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1310,
-  "scanned": 1310,
+  "task_folders": 1311,
+  "scanned": 1311,
   "connector": 388,
-  "non_connector": 922,
+  "non_connector": 923,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 132
  },
  "domain": {
-  "unnamed": 530,
+  "unnamed": 531,
   "code": 250,
   "fin": 90,
   "gen": 271,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 390,
-  "obi": 920
+  "obi": 921
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131457
+  "approx_bytes_read": 131450
  },
  "errors": [],
  "tasks": [
@@ -1425,6 +1425,20 @@
    "sha256": "808458182ff4b9e3bc4f9f9d46e5daae2ecb9bdad72fbaad1656ffeab19f96dc",
    "size_bytes": 8124846,
    "updated": "2026-09-23T08:29:39.459Z"
+  },
+  {
+   "declared_name": "obi/bus-b19-b5-club-transaction-reconciliation",
+   "declared_short": "bus-b19-b5-club-transaction-reconciliation",
+   "folder": "bus-b19-b5-club-transaction-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "12e8e30e3f830e023f3ac3dfea487bdbe5438e80f344a9b8e26044810fea58e1",
+   "size_bytes": 7998295,
+   "updated": "2026-09-24T06:50:30.002Z"
   },
   {
    "connector_provenance": null,
@@ -17828,15 +17842,15 @@
    "updated": "2026-09-21T01:35:49.055Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b60-t9-sleep-tracker-nightly-rating-recompute",
    "declared_short": "tech-b60-t9-sleep-tracker-nightly-rating-recompute",
-   "folder": "tech-b60-t9-sleep-tracker-nightly-rating-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b60-t9-sleep-tracker-nightly-rating-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "41e3e6874311dc77fbf39f5ebd622e0e4f7b858060510026462fcdd553d671bd",
    "size_bytes": 5947315,
    "updated": "2026-09-24T06:45:59.150Z"
