@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T18:40:03+00:00",
+ "generated_at": "2026-09-24T18:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1379,
-  "scanned": 1379,
+  "task_folders": 1382,
+  "scanned": 1382,
   "connector": 403,
-  "non_connector": 976,
+  "non_connector": 979,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 144
  },
  "domain": {
-  "unnamed": 572,
+  "unnamed": 574,
   "code": 256,
   "fin": 96,
   "gen": 278,
-  "health": 92,
+  "health": 93,
   "law": 85
  },
  "name_prefix": {
   "harbor": 405,
-  "obi": 974
+  "obi": 977
  },
  "connector_services": {
   "google-drive-gym": 193,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 141401
+  "new_archives_read": 3,
+  "approx_bytes_read": 394567
  },
  "errors": [],
  "tasks": [
@@ -1911,6 +1911,20 @@
    "sha256": "6a139666943e84095a0f802dc5c6b4c2279041b2706f22ce34e29ad2d8b7f9e1",
    "size_bytes": 7746598,
    "updated": "2026-09-23T15:50:27.141Z"
+  },
+  {
+   "declared_name": "obi/bus-b47-b5-research-equipment-landed-cost-quote-email-ja",
+   "declared_short": "bus-b47-b5-research-equipment-landed-cost-quote-email-ja",
+   "folder": "bus-b47-b5-research-equipment-landed-cost-quote-email-ja",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "dbc5896fe74ed0a27b440919516786e573094ba14771822e4d3c30c4076ddcbe",
+   "size_bytes": 8446733,
+   "updated": "2026-09-24T18:43:19.406Z"
   },
   {
    "connector_provenance": null,
@@ -14009,6 +14023,20 @@
    "updated": "2026-09-23T01:22:57.432Z"
   },
   {
+   "declared_name": "obi/health-b44-h7-clinician-directory-roster-reconciliation",
+   "declared_short": "health-b44-h7-clinician-directory-roster-reconciliation",
+   "folder": "health-b44-h7-clinician-directory-roster-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "7941b834d8e6f6f37f6929da56c01c29e5bc23d922ed6520d975de08e77e1012",
+   "size_bytes": 4187541,
+   "updated": "2026-09-24T18:40:18.135Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-b44-h8-colour-formulation-rule-adjudication",
@@ -19844,17 +19872,17 @@
    "updated": "2026-09-22T09:30:20.570Z"
   },
   {
-   "declared_name": "harbor/the-room-was-loud-and-empty",
-   "declared_short": "the-room-was-loud-and-empty",
-   "folder": "the-room-was-loud-and-empty",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "teams-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-room-was-loud-and-empty",
+   "declared_short": "the-room-was-loud-and-empty",
    "domain": null,
+   "folder": "the-room-was-loud-and-empty",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "29ce949d71587b18ef091c4160ef12092e4c5c827d53ad42e43b29203213f979",
    "size_bytes": 8390198,
    "updated": "2026-09-24T18:37:28.300Z"
@@ -21180,6 +21208,20 @@
    "sha256": "6a21ccf1b78c8959b468ce240b935a658c70564df3d16444bb42c0bd16e14d23",
    "size_bytes": 9386575,
    "updated": "2026-09-22T23:47:04.841Z"
+  },
+  {
+   "declared_name": "obi/writing-sc05-a9-novel-scene-timeline",
+   "declared_short": "writing-sc05-a9-novel-scene-timeline",
+   "folder": "writing-sc05-a9-novel-scene-timeline",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "35ae1ac8fb2171a45af5df3f594d5067cf4eff0c5fae7c4e8c65f61e55d9b6fb",
+   "size_bytes": 6886697,
+   "updated": "2026-09-24T18:43:50.245Z"
   },
   {
    "connector_provenance": null,
