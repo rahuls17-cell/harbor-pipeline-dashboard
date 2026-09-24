@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T20:05:03+00:00",
+ "generated_at": "2026-09-24T20:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1385,
-  "scanned": 1385,
+  "task_folders": 1386,
+  "scanned": 1386,
   "connector": 404,
-  "non_connector": 981,
+  "non_connector": 982,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 577,
-  "code": 256,
+  "code": 257,
   "fin": 96,
   "gen": 278,
   "health": 93,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 406,
-  "obi": 979
+  "obi": 980
  },
  "connector_services": {
   "google-drive-gym": 193,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131456
+  "approx_bytes_read": 131571
  },
  "errors": [],
  "tasks": [
@@ -2249,15 +2249,15 @@
    "updated": "2026-09-23T08:25:59.127Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-mg-bus-b7-a9-assistant-buyer-fit-scorecard",
    "declared_short": "bus-mg-bus-b7-a9-assistant-buyer-fit-scorecard",
-   "folder": "bus-mg-bus-b7-a9-assistant-buyer-fit-scorecard",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-mg-bus-b7-a9-assistant-buyer-fit-scorecard",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "13924fd0c99cdcd0c70da2eb5be40a84970f3c1fdcaa6581d14b98791a348f52",
    "size_bytes": 8336839,
    "updated": "2026-09-24T20:04:53.305Z"
@@ -3539,6 +3539,20 @@
    "sha256": "6000496303f91c9de4e0a4e2919c5f71fdc3cc472d1351afef34e62a8bd3b206",
    "size_bytes": 5840928,
    "updated": "2026-09-11T14:00:48.392Z"
+  },
+  {
+   "declared_name": "obi/code-c233-build-signing-reproducibility-audit",
+   "declared_short": "code-c233-build-signing-reproducibility-audit",
+   "folder": "code-c233-build-signing-reproducibility-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "9b31b1c5631e16a6711ef0e3e4dfde7a7e1e96634946811a576b43a5100cdbab",
+   "size_bytes": 7656764,
+   "updated": "2026-09-24T20:08:34.149Z"
   },
   {
    "connector_provenance": null,
