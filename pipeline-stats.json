@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T04:30:03+00:00",
+ "generated_at": "2026-09-24T04:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1302,
-  "scanned": 1302,
+  "task_folders": 1303,
+  "scanned": 1303,
   "connector": 388,
-  "non_connector": 914,
+  "non_connector": 915,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 132
  },
  "domain": {
-  "unnamed": 527,
+  "unnamed": 528,
   "code": 247,
   "fin": 89,
   "gen": 271,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 391,
-  "obi": 911
+  "obi": 912
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131470
  },
  "errors": [],
  "tasks": [
@@ -17588,6 +17588,20 @@
    "sha256": "1075175e117530b061b196205f4fe464f95cfd753ff9f0e3f7c6f604924ad364",
    "size_bytes": 7232514,
    "updated": "2026-09-23T22:41:12.405Z"
+  },
+  {
+   "declared_name": "obi/tech-b54-a3-feeder-conductor-adjudication",
+   "declared_short": "tech-b54-a3-feeder-conductor-adjudication",
+   "folder": "tech-b54-a3-feeder-conductor-adjudication-v16",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "2006d006706d65bbcbf8448a8a1f54eac084f67f43102b5e8769fa8c53fc03e2",
+   "size_bytes": 8280159,
+   "updated": "2026-09-24T04:35:28.386Z"
   },
   {
    "connector_provenance": null,
