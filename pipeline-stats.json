@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T22:25:04+00:00",
+ "generated_at": "2026-09-24T22:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1403,
-  "scanned": 1403,
+  "task_folders": 1404,
+  "scanned": 1404,
   "connector": 407,
-  "non_connector": 996,
+  "non_connector": 997,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 144
  },
  "domain": {
-  "unnamed": 587,
+  "unnamed": 588,
   "code": 261,
   "fin": 97,
   "gen": 280,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 409,
-  "obi": 994
+  "obi": 995
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 398828
+  "new_archives_read": 1,
+  "approx_bytes_read": 131505
  },
  "errors": [],
  "tasks": [
@@ -1633,6 +1633,20 @@
    "sha256": "566401210db006737bba2694a10bacf61109ec210e3deb9e3a18159906c68547",
    "size_bytes": 5148333,
    "updated": "2026-09-23T19:05:26.645Z"
+  },
+  {
+   "declared_name": "obi/bus-b23-b8-integration-delivery-cost-model",
+   "declared_short": "bus-b23-b8-integration-delivery-cost-model",
+   "folder": "bus-b23-b8-integration-delivery-cost-model",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "6b21da361143b7098caa78c9600329f25577a1615ea94483e61f7de13c5c4975",
+   "size_bytes": 8284315,
+   "updated": "2026-09-24T22:25:21.878Z"
   },
   {
    "connector_provenance": null,
@@ -7523,15 +7537,15 @@
    "updated": "2026-09-24T14:24:31.556Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sc09-b1-vocal-health-scope-of-practice-checkin",
    "declared_short": "edu-sc09-b1-vocal-health-scope-of-practice-checkin",
-   "folder": "edu-sc09-b1-vocal-health-scope-of-practice-checkin-v7",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sc09-b1-vocal-health-scope-of-practice-checkin-v7",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "875cf67f46b4ba6d05a731891284d020da61d10981e31fd84c18baa2a8ab1218",
    "size_bytes": 6660258,
    "updated": "2026-09-24T22:25:02.143Z"
@@ -9883,15 +9897,15 @@
    "updated": "2026-09-12T13:41:25.159Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1299-migratory-bird-population-label-audit",
    "declared_short": "gen-g1299-migratory-bird-population-label-audit",
-   "folder": "gen-g1299-migratory-bird-population-label-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1299-migratory-bird-population-label-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "00d690d53a4cffa5c1912451fea007be20a2fa75ae813093ac884b6eddd6fb54",
    "size_bytes": 3702936,
    "updated": "2026-09-24T22:24:33.674Z"
@@ -19364,17 +19378,17 @@
    "updated": "2026-09-17T16:55:29.261Z"
   },
   {
-   "declared_name": "harbor/the-biggest-videos-in-marketing",
-   "declared_short": "the-biggest-videos-in-marketing",
-   "folder": "the-biggest-videos-in-marketing",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-biggest-videos-in-marketing",
+   "declared_short": "the-biggest-videos-in-marketing",
    "domain": null,
+   "folder": "the-biggest-videos-in-marketing",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8fa5495da668e182ec95c1ccd6455363d3022927b4d120c8e014ba3b09636ba8",
    "size_bytes": 13395349,
    "updated": "2026-09-24T22:20:49.789Z"
