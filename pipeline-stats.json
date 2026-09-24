@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T11:15:04+00:00",
+ "generated_at": "2026-09-24T11:20:06+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1337,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136760
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -16009,17 +16009,17 @@
    "updated": "2026-09-20T20:12:24.412Z"
   },
   {
-   "declared_name": "harbor/litigation-promised-fix-custody-trace",
-   "declared_short": "litigation-promised-fix-custody-trace",
-   "folder": "litigation-promised-fix-custody-trace",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/litigation-promised-fix-custody-trace",
+   "declared_short": "litigation-promised-fix-custody-trace",
    "domain": null,
+   "folder": "litigation-promised-fix-custody-trace",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b54e2eddc0ab7c00e27caec18757cbddec8236689cb49a6b8cbf9efed4aa88fa",
    "size_bytes": 8525850,
    "updated": "2026-09-24T11:15:00.964Z"
