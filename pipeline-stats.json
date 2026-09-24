@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T08:25:03+00:00",
+ "generated_at": "2026-09-24T08:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1316,
-  "scanned": 1316,
+  "task_folders": 1317,
+  "scanned": 1317,
   "connector": 388,
-  "non_connector": 928,
+  "non_connector": 929,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 90,
   "gen": 271,
   "health": 88,
-  "law": 81
+  "law": 82
  },
  "name_prefix": {
   "harbor": 390,
-  "obi": 926
+  "obi": 927
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131529
  },
  "errors": [],
  "tasks": [
@@ -14825,6 +14825,20 @@
    "sha256": "b17c775be459945559c7ee6e6e6250781e9b171ed322fa5be2f2e93eaa341d98",
    "size_bytes": 9297706,
    "updated": "2026-09-20T21:04:31.581Z"
+  },
+  {
+   "declared_name": "obi/law-b37-l6-agency-letter-claim-audit",
+   "declared_short": "law-b37-l6-agency-letter-claim-audit",
+   "folder": "law-b37-l6-agency-letter-claim-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "35db6bede37f2fa347e16450e95a12e5519176d1e205922308a3f4adae7543ff",
+   "size_bytes": 12361871,
+   "updated": "2026-09-24T08:30:30.751Z"
   },
   {
    "connector_provenance": null,
