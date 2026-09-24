@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T21:40:03+00:00",
+ "generated_at": "2026-09-24T21:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1396,
-  "scanned": 1396,
+  "task_folders": 1397,
+  "scanned": 1397,
   "connector": 406,
-  "non_connector": 990,
+  "non_connector": 991,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 144
  },
  "domain": {
-  "unnamed": 583,
+  "unnamed": 584,
   "code": 259,
   "fin": 97,
   "gen": 279,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 408,
-  "obi": 988
+  "obi": 989
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131454
  },
  "errors": [],
  "tasks": [
@@ -18962,6 +18962,20 @@
    "sha256": "5d195e01fe1e9c46e52e1a44402a3e80abdd21ba6d7e5fdbaa7439a497e978ff",
    "size_bytes": 9900710,
    "updated": "2026-09-24T08:13:34.245Z"
+  },
+  {
+   "declared_name": "obi/tech-b61-t9-planning-api-export-request-error-diagnosis",
+   "declared_short": "tech-b61-t9-planning-api-export-request-error-diagnosis",
+   "folder": "tech-b61-t9-planning-api-export-request-error-diagnosis",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "82e75aee145d79b5a66bdfbc36dad7088b9c4ee00c826574869717b664941f08",
+   "size_bytes": 5467665,
+   "updated": "2026-09-24T21:43:54.598Z"
   },
   {
    "connector_provenance": null,
