@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T17:45:03+00:00",
+ "generated_at": "2026-09-24T17:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1373,
-  "scanned": 1373,
+  "task_folders": 1374,
+  "scanned": 1374,
   "connector": 402,
-  "non_connector": 971,
+  "non_connector": 972,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 569,
-  "code": 255,
+  "code": 256,
   "fin": 94,
   "gen": 278,
   "health": 92,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 404,
-  "obi": 969
+  "obi": 970
  },
  "connector_services": {
   "google-drive-gym": 193,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131506
  },
  "errors": [],
  "tasks": [
@@ -2767,6 +2767,20 @@
    "sha256": "987fd7b1a8ae864a537f38a5849749d1e8473a3b77dddcd30ff1d4b06c8c63a8",
    "size_bytes": 3650080,
    "updated": "2026-09-05T20:02:44.934Z"
+  },
+  {
+   "declared_name": "obi/code-c143-reserved-instance-coverage-recompute",
+   "declared_short": "code-c143-reserved-instance-coverage-recompute",
+   "folder": "code-c143-reserved-instance-coverage-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "9fd49da53fcc20053f35f068bf3b73240768bb7364f1d50957f0266961de49a0",
+   "size_bytes": 8787329,
+   "updated": "2026-09-24T17:54:40.076Z"
   },
   {
    "connector_provenance": null,
