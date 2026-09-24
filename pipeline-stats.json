@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T22:40:02+00:00",
+ "generated_at": "2026-09-24T23:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1404,
-  "scanned": 1404,
+  "task_folders": 1405,
+  "scanned": 1405,
   "connector": 407,
-  "non_connector": 997,
+  "non_connector": 998,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 97,
   "gen": 280,
   "health": 93,
-  "law": 85
+  "law": 86
  },
  "name_prefix": {
   "harbor": 409,
-  "obi": 995
+  "obi": 996
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131351
  },
  "errors": [],
  "tasks": [
@@ -16647,6 +16647,20 @@
    "sha256": "503e5161e085c716801a33028ffeb69605c016982bd67dd0ff049f63471c4d48",
    "size_bytes": 6260785,
    "updated": "2026-09-22T12:43:31.043Z"
+  },
+  {
+   "declared_name": "obi/law-l83-cost-bill-recoverability-audit",
+   "declared_short": "law-l83-cost-bill-recoverability-audit",
+   "folder": "law-l83-cost-bill-recoverability-audit-91e817-v2-sna-bpxh",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "3fea25e33cd9237f0b5039f3ecbe14c83cb49decd50058ff55aca62bdf0b1b7d",
+   "size_bytes": 3828693,
+   "updated": "2026-09-24T23:09:15.492Z"
   },
   {
    "connector_provenance": null,
