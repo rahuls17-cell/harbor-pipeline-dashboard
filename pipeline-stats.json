@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T08:15:03+00:00",
+ "generated_at": "2026-09-24T08:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1315,
-  "scanned": 1315,
+  "task_folders": 1316,
+  "scanned": 1316,
   "connector": 388,
-  "non_connector": 927,
+  "non_connector": 928,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 132
  },
  "domain": {
-  "unnamed": 534,
+  "unnamed": 535,
   "code": 251,
   "fin": 90,
   "gen": 271,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 390,
-  "obi": 925
+  "obi": 926
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133251
+  "approx_bytes_read": 131518
  },
  "errors": [],
  "tasks": [
@@ -17758,6 +17758,20 @@
    "updated": "2026-09-23T20:02:13.530Z"
   },
   {
+   "declared_name": "obi/tech-b54-a7-remote-action-adjudication",
+   "declared_short": "tech-b54-a7-remote-action-adjudication",
+   "folder": "tech-b54-a7-remote-action-adjudication-v4",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "113738f193fa26b4fd8f2a94cd04dac8d6c800896d1128029accc9eac69c9ab4",
+   "size_bytes": 6042482,
+   "updated": "2026-09-24T08:19:18.200Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/tech-b54-t2-automation-window-schedule-plan",
@@ -17982,15 +17996,15 @@
    "updated": "2026-09-23T16:55:48.336Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b61-t7-scanned-notice-ocr-transcript-normalization",
    "declared_short": "tech-b61-t7-scanned-notice-ocr-transcript-normalization",
-   "folder": "tech-b61-t7-scanned-notice-ocr-transcript-normalization",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b61-t7-scanned-notice-ocr-transcript-normalization",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5d195e01fe1e9c46e52e1a44402a3e80abdd21ba6d7e5fdbaa7439a497e978ff",
    "size_bytes": 9900710,
    "updated": "2026-09-24T08:13:34.245Z"
