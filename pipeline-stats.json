@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-24T15:05:03+00:00",
+ "generated_at": "2026-09-24T15:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1361,
-  "scanned": 1361,
-  "connector": 401,
+  "task_folders": 1362,
+  "scanned": 1362,
+  "connector": 402,
   "non_connector": 960,
   "errors": 0
  },
  "connector_provenance": {
   "real": 127,
-  "unknown": 131,
+  "unknown": 132,
   "synthetic": 143
  },
  "domain": {
-  "unnamed": 561,
+  "unnamed": 562,
   "code": 254,
   "fin": 93,
   "gen": 277,
@@ -22,17 +22,17 @@
   "law": 84
  },
  "name_prefix": {
-  "harbor": 403,
+  "harbor": 404,
   "obi": 958
  },
  "connector_services": {
-  "google-drive-gym": 192,
-  "zeta3-sql-gym": 182,
-  "confluence-gym": 177,
-  "jira-gym": 176,
-  "email-gym": 174,
-  "freshdesk-gym": 174,
-  "slack-gym": 169,
+  "google-drive-gym": 193,
+  "zeta3-sql-gym": 183,
+  "confluence-gym": 178,
+  "jira-gym": 177,
+  "email-gym": 175,
+  "freshdesk-gym": 175,
+  "slack-gym": 170,
   "slack": 62,
   "notion-gym": 36,
   "github-gym": 27,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131440
+  "approx_bytes_read": 135013
  },
  "errors": [],
  "tasks": [
@@ -95,6 +95,28 @@
    "sha256": "a7ed51e2c6977eaa73def6890532c0c3420631557acc26a5c6a58045013a9bd1",
    "size_bytes": 12543531,
    "updated": "2026-09-21T16:08:40.725Z"
+  },
+  {
+   "declared_name": "harbor/explain-savings-boost-change-for-account-16119-between-sep-and-oct-2024",
+   "declared_short": "explain-savings-boost-change-for-account-16119-between-sep-and-oct-2024",
+   "folder": "100770",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "08310f8cbf9d7983f08b96ca107d054710d514d32912610015df0cd288db142b",
+   "size_bytes": 9996255,
+   "updated": "2026-09-24T15:05:32.573Z"
   },
   {
    "connector_provenance": "unknown",
@@ -14449,15 +14471,15 @@
    "updated": "2026-09-09T15:08:35.756Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-hl04-a5-altitude-training-week",
    "declared_short": "health-hl04-a5-altitude-training-week",
-   "folder": "health-hl04-a5-altitude-training-week",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-hl04-a5-altitude-training-week",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e289ae531df187f4bda09f03fe070f17724c3d79a323d9d24ad5304b107c7613",
    "size_bytes": 4256289,
    "updated": "2026-09-24T15:04:45.210Z"
