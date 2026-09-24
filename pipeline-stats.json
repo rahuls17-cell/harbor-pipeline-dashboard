@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T18:05:03+00:00",
+ "generated_at": "2026-09-24T18:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1375,
-  "scanned": 1375,
+  "task_folders": 1377,
+  "scanned": 1377,
   "connector": 402,
-  "non_connector": 973,
+  "non_connector": 975,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 143
  },
  "domain": {
-  "unnamed": 569,
+  "unnamed": 571,
   "code": 256,
   "fin": 95,
   "gen": 278,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 404,
-  "obi": 971
+  "obi": 973
  },
  "connector_services": {
   "google-drive-gym": 193,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263313
  },
  "errors": [],
  "tasks": [
@@ -1561,6 +1561,20 @@
    "sha256": "5fc9416c6f811a9199fa20e5bb3817729559e00b7dd5060b78882c5e5dfa4193",
    "size_bytes": 7496711,
    "updated": "2026-09-23T02:11:28.618Z"
+  },
+  {
+   "declared_name": "obi/bus-b22-b14-rideshare-brand-palette-normalization",
+   "declared_short": "bus-b22-b14-rideshare-brand-palette-normalization",
+   "folder": "bus-b22-b14-rideshare-brand-palette-normalization",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "aaac8b590bbde1c988d390984558d4b4644e6ad839662e406ebee25e1bfa172a",
+   "size_bytes": 5852764,
+   "updated": "2026-09-24T18:07:20.562Z"
   },
   {
    "connector_provenance": null,
@@ -18866,6 +18880,20 @@
    "sha256": "878c12f1f0f2387c7cb7aa6b1b6ac34e9c53128333c03e53c1d1db439dcaea3f",
    "size_bytes": 5329960,
    "updated": "2026-09-21T20:31:16.173Z"
+  },
+  {
+   "declared_name": "obi/tech-mg-it-b6-a3-game-voice-audio-route-trace",
+   "declared_short": "tech-mg-it-b6-a3-game-voice-audio-route-trace",
+   "folder": "tech-mg-it-b6-a3-game-voice-audio-route-trace",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "92c246a1e8fd96be8610c8bb5dd49cab64b29ef89bfdd2f7e9b07aec5266c518",
+   "size_bytes": 5509180,
+   "updated": "2026-09-24T18:07:46.679Z"
   },
   {
    "connector_provenance": null,
