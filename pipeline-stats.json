@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T16:25:03+00:00",
+ "generated_at": "2026-09-24T16:30:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1366,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131541
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -8461,15 +8461,15 @@
    "updated": "2026-09-24T05:20:35.777Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b54-f2-assumable-loan-equity-gap-screen",
    "declared_short": "fin-b54-f2-assumable-loan-equity-gap-screen",
-   "folder": "fin-b54-f2-assumable-loan-equity-gap-screen",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b54-f2-assumable-loan-equity-gap-screen",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "06baa1659ea6ff22dae8943ee8827cbe3e3622ee705ba3bc4f41af5e0b8ba7b7",
    "size_bytes": 10476198,
    "updated": "2026-09-24T16:20:03.663Z"
