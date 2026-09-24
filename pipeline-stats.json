@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T14:30:03+00:00",
+ "generated_at": "2026-09-24T14:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1356,
-  "scanned": 1356,
+  "task_folders": 1357,
+  "scanned": 1357,
   "connector": 400,
-  "non_connector": 956,
+  "non_connector": 957,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 559,
-  "code": 253,
+  "code": 254,
   "fin": 92,
   "gen": 277,
   "health": 91,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 402,
-  "obi": 954
+  "obi": 955
  },
  "connector_services": {
   "google-drive-gym": 192,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263067
+  "new_archives_read": 1,
+  "approx_bytes_read": 131573
  },
  "errors": [],
  "tasks": [
@@ -3429,6 +3429,20 @@
    "sha256": "c711486485e4e7cbafc9c5d03e0296d61043ceb708cbe16c86361c725a2d4133",
    "size_bytes": 10992179,
    "updated": "2026-09-19T19:21:24.250Z"
+  },
+  {
+   "declared_name": "obi/code-c239-queue-backpressure-threshold-audit",
+   "declared_short": "code-c239-queue-backpressure-threshold-audit",
+   "folder": "code-c239-queue-backpressure-threshold-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "a61cefb869a7fa4ddc04b55043d8392e9c60b6aec7e68d9b262efb11e9a35811",
+   "size_bytes": 5583173,
+   "updated": "2026-09-24T14:30:46.971Z"
   },
   {
    "connector_provenance": null,
@@ -6949,15 +6963,15 @@
    "updated": "2026-09-24T04:43:02.245Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-b51-e7-item-bank-tag-normalisation",
    "declared_short": "edu-b51-e7-item-bank-tag-normalisation",
-   "folder": "edu-b51-e7-item-bank-tag-normalisation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-b51-e7-item-bank-tag-normalisation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "bba5df137a4e72954990ed2914e353318c8ec33f87a786427109be83fd5c24e0",
    "size_bytes": 6991274,
    "updated": "2026-09-24T14:29:27.764Z"
@@ -8325,15 +8339,15 @@
    "updated": "2026-09-22T18:58:14.581Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b53-f8-mortgage-product-reset-path-comparison",
    "declared_short": "fin-b53-f8-mortgage-product-reset-path-comparison",
-   "folder": "fin-b53-f8-mortgage-product-reset-path-comparison",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b53-f8-mortgage-product-reset-path-comparison",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c87767bd9d8ff67faad47b1c6c84594ba4a9939afc7fe4cc110e48212e3497a3",
    "size_bytes": 7510719,
    "updated": "2026-09-24T14:29:57.584Z"
