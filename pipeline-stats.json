@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T10:50:04+00:00",
+ "generated_at": "2026-09-24T10:55:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1334,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131451
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -17988,15 +17988,15 @@
    "updated": "2026-09-23T20:02:13.530Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b54-a6-release-roundup-extraction",
    "declared_short": "tech-b54-a6-release-roundup-extraction",
-   "folder": "tech-b54-a6-release-roundup-extraction",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b54-a6-release-roundup-extraction",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e5559e0b68da4c13ee226d2ff5ebb347d8a86224c7745e971c164018f3041138",
    "size_bytes": 10177608,
    "updated": "2026-09-24T10:50:02.588Z"
