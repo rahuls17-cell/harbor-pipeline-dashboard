@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T02:25:02+00:00",
+ "generated_at": "2026-09-24T02:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1292,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131500
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2673,15 +2673,15 @@
    "updated": "2026-09-18T22:33:03.941Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c162-multisite-pricing-reconcile",
    "declared_short": "code-c162-multisite-pricing-reconcile",
-   "folder": "code-c162-multisite-pricing-reconcile",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c162-multisite-pricing-reconcile",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b62ea3874e96c18cc998f1217c5a8234beff07b91c8463d0bd2ffe09cc166718",
    "size_bytes": 7674017,
    "updated": "2026-09-24T02:23:08.072Z"
