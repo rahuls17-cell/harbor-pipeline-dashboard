@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-24T23:35:03+00:00",
+ "generated_at": "2026-09-24T23:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1408,
-  "scanned": 1408,
-  "connector": 407,
+  "task_folders": 1409,
+  "scanned": 1409,
+  "connector": 408,
   "non_connector": 1001,
   "errors": 0
  },
  "connector_provenance": {
   "real": 127,
   "unknown": 136,
-  "synthetic": 144
+  "synthetic": 145
  },
  "domain": {
-  "unnamed": 589,
+  "unnamed": 590,
   "code": 262,
   "fin": 97,
   "gen": 281,
@@ -22,7 +22,7 @@
   "law": 86
  },
  "name_prefix": {
-  "harbor": 409,
+  "harbor": 410,
   "obi": 999
  },
  "connector_services": {
@@ -40,15 +40,15 @@
   "linear-gym": 22,
   "outlook-gym": 16,
   "gws-gym": 10,
+  "supabase-gym": 5,
   "teams-gym": 5,
-  "supabase-gym": 4,
   "microsoft-teams-gym": 4,
   "snowflake-gym": 2,
   "microsoft_teams-gym": 1
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131350
+  "approx_bytes_read": 137944
  },
  "errors": [],
  "tasks": [
@@ -11129,15 +11129,15 @@
    "updated": "2026-09-05T18:49:48.769Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g555-competency-response-readiness-audit",
    "declared_short": "gen-g555-competency-response-readiness-audit",
-   "folder": "gen-g555-competency-response-readiness-audit-d44643-v8-sna-fivy",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g555-competency-response-readiness-audit-d44643-v8-sna-fivy",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "722147a9c97bb5450ae1989ac2dd28a883c8d87cbe3cc22563ca1f384021c9c7",
    "size_bytes": 4613044,
    "updated": "2026-09-24T23:33:15.763Z"
@@ -19656,6 +19656,22 @@
    "sha256": "4f1332460a95f8ed0894f3c2bcdd17c88f20d8787b0141a4b4ab187bf699ae84",
    "size_bytes": 8571462,
    "updated": "2026-09-20T09:19:45.439Z"
+  },
+  {
+   "declared_name": "harbor/the-edge-function-nobody-locked-down",
+   "declared_short": "the-edge-function-nobody-locked-down",
+   "folder": "the-edge-function-nobody-locked-down",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "supabase-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "4217b102b5b2d1e72c3d742957e889453866d33d3b06809d1c357ea83e8d55d3",
+   "size_bytes": 9653233,
+   "updated": "2026-09-24T23:38:24.241Z"
   },
   {
    "connector_provenance": "synthetic",
