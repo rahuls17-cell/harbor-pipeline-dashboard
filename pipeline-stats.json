@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T21:05:03+00:00",
+ "generated_at": "2026-09-24T21:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1391,
-  "scanned": 1391,
+  "task_folders": 1392,
+  "scanned": 1392,
   "connector": 405,
-  "non_connector": 986,
+  "non_connector": 987,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 144
  },
  "domain": {
-  "unnamed": 580,
+  "unnamed": 581,
   "code": 258,
   "fin": 97,
   "gen": 278,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 407,
-  "obi": 984
+  "obi": 985
  },
  "connector_services": {
   "google-drive-gym": 193,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131560
+  "approx_bytes_read": 131433
  },
  "errors": [],
  "tasks": [
@@ -1607,15 +1607,15 @@
    "updated": "2026-09-24T04:21:49.441Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b22-b5-lsa-pitch-script-audit",
    "declared_short": "bus-b22-b5-lsa-pitch-script-audit",
-   "folder": "bus-b22-b5-lsa-pitch-script-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b22-b5-lsa-pitch-script-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ed47aa48dca419f449c5d3239f340ee9c1260cf140c3dcd34f7f3f4bbd9d93a0",
    "size_bytes": 7150995,
    "updated": "2026-09-24T21:01:08.803Z"
@@ -2319,6 +2319,20 @@
    "sha256": "61f5113e5d4a4722844d430ffcca537fc23400d9ccff52c2b690cb81865ed54c",
    "size_bytes": 4861896,
    "updated": "2026-09-22T19:51:26.445Z"
+  },
+  {
+   "declared_name": "obi/bus-mg-bus-b8-a6-process-improvement-experience-screen",
+   "declared_short": "bus-mg-bus-b8-a6-process-improvement-experience-screen",
+   "folder": "bus-mg-bus-b8-a6-process-improvement-experience-screen",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "2a7e1664cfb24e9131954f2fbefb588df6b5c7fdc60a887484f945f74f61dec0",
+   "size_bytes": 7510489,
+   "updated": "2026-09-24T21:08:21.628Z"
   },
   {
    "connector_provenance": "synthetic",
