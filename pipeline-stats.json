@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T21:30:03+00:00",
+ "generated_at": "2026-09-24T21:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1394,
-  "scanned": 1394,
+  "task_folders": 1396,
+  "scanned": 1396,
   "connector": 406,
-  "non_connector": 988,
+  "non_connector": 990,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 144
  },
  "domain": {
-  "unnamed": 582,
-  "code": 258,
+  "unnamed": 583,
+  "code": 259,
   "fin": 97,
   "gen": 279,
   "health": 93,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 408,
-  "obi": 986
+  "obi": 988
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263021
  },
  "errors": [],
  "tasks": [
@@ -3555,6 +3555,20 @@
    "sha256": "c894efcacfd060778cb18105d7d4d8edf21f7a10dcd9b784b128eb893310b8b9",
    "size_bytes": 9657394,
    "updated": "2026-09-24T19:36:25.674Z"
+  },
+  {
+   "declared_name": "obi/code-c228-terraform-state-drift-audit",
+   "declared_short": "code-c228-terraform-state-drift-audit",
+   "folder": "code-c228-terraform-state-drift-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "934ea21717b0e319d663fe92dc9123d57a97798785c5a069399ca5db5fa1e703",
+   "size_bytes": 6674630,
+   "updated": "2026-09-24T21:33:14.647Z"
   },
   {
    "connector_provenance": null,
@@ -18864,6 +18878,20 @@
    "sha256": "8008b2fdd912ad6e6d4677eebf499136de77d4af55ed56a01af50b9cbe1865ec",
    "size_bytes": 5384543,
    "updated": "2026-09-23T04:09:44.220Z"
+  },
+  {
+   "declared_name": "obi/tech-b61-t1-gpu-node-fabric-cabling-plan-validation",
+   "declared_short": "tech-b61-t1-gpu-node-fabric-cabling-plan-validation",
+   "folder": "tech-b61-t1-gpu-node-fabric-cabling-plan-validation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "4c76a17d2c98573bd64c7be0b30cb818457e593e0fe86a995cbb91f7f1fe3f5d",
+   "size_bytes": 5998968,
+   "updated": "2026-09-24T21:34:21.524Z"
   },
   {
    "connector_provenance": null,
