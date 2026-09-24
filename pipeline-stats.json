@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T19:55:05+00:00",
+ "generated_at": "2026-09-24T20:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1384,
-  "scanned": 1384,
+  "task_folders": 1385,
+  "scanned": 1385,
   "connector": 404,
-  "non_connector": 980,
+  "non_connector": 981,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 144
  },
  "domain": {
-  "unnamed": 576,
+  "unnamed": 577,
   "code": 256,
   "fin": 96,
   "gen": 278,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 406,
-  "obi": 978
+  "obi": 979
  },
  "connector_services": {
   "google-drive-gym": 193,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131456
  },
  "errors": [],
  "tasks": [
@@ -2247,6 +2247,20 @@
    "sha256": "2a5a6713dd93b2b7662d3c4270e3a4c5f9a0fd5dc5c1488b28cc8a1d0763dbb3",
    "size_bytes": 6622630,
    "updated": "2026-09-23T08:25:59.127Z"
+  },
+  {
+   "declared_name": "obi/bus-mg-bus-b7-a9-assistant-buyer-fit-scorecard",
+   "declared_short": "bus-mg-bus-b7-a9-assistant-buyer-fit-scorecard",
+   "folder": "bus-mg-bus-b7-a9-assistant-buyer-fit-scorecard",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "13924fd0c99cdcd0c70da2eb5be40a84970f3c1fdcaa6581d14b98791a348f52",
+   "size_bytes": 8336839,
+   "updated": "2026-09-24T20:04:53.305Z"
   },
   {
    "connector_provenance": null,
