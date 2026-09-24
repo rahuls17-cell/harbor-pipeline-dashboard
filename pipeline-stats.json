@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T15:30:03+00:00",
+ "generated_at": "2026-09-24T16:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1363,
-  "scanned": 1363,
+  "task_folders": 1364,
+  "scanned": 1364,
   "connector": 402,
-  "non_connector": 961,
+  "non_connector": 962,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 143
  },
  "domain": {
-  "unnamed": 563,
+  "unnamed": 564,
   "code": 254,
   "fin": 93,
   "gen": 277,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 404,
-  "obi": 959
+  "obi": 960
  },
  "connector_services": {
   "google-drive-gym": 193,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131634
  },
  "errors": [],
  "tasks": [
@@ -7041,6 +7041,20 @@
    "sha256": "bba5df137a4e72954990ed2914e353318c8ec33f87a786427109be83fd5c24e0",
    "size_bytes": 6991274,
    "updated": "2026-09-24T14:29:27.764Z"
+  },
+  {
+   "declared_name": "obi/edu-b51-e8-source-list-reconciliation",
+   "declared_short": "edu-b51-e8-source-list-reconciliation",
+   "folder": "edu-b51-e8-source-list-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "66150f0cb44148a7f2524378e3711e1804daa537278522bed386dbbdb61a7640",
+   "size_bytes": 5998288,
+   "updated": "2026-09-24T16:04:20.141Z"
   },
   {
    "connector_provenance": null,
