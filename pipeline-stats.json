@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T23:10:03+00:00",
+ "generated_at": "2026-09-24T23:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1405,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131351
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -16649,15 +16649,15 @@
    "updated": "2026-09-22T12:43:31.043Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-l83-cost-bill-recoverability-audit",
    "declared_short": "law-l83-cost-bill-recoverability-audit",
-   "folder": "law-l83-cost-bill-recoverability-audit-91e817-v2-sna-bpxh",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-l83-cost-bill-recoverability-audit-91e817-v2-sna-bpxh",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "3fea25e33cd9237f0b5039f3ecbe14c83cb49decd50058ff55aca62bdf0b1b7d",
    "size_bytes": 3828693,
    "updated": "2026-09-24T23:09:15.492Z"
