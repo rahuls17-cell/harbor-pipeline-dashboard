@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T15:00:03+00:00",
+ "generated_at": "2026-09-24T15:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1360,
-  "scanned": 1360,
+  "task_folders": 1361,
+  "scanned": 1361,
   "connector": 401,
-  "non_connector": 959,
+  "non_connector": 960,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 254,
   "fin": 93,
   "gen": 277,
-  "health": 91,
+  "health": 92,
   "law": 84
  },
  "name_prefix": {
   "harbor": 403,
-  "obi": 957
+  "obi": 958
  },
  "connector_services": {
   "google-drive-gym": 192,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 141029
+  "approx_bytes_read": 131440
  },
  "errors": [],
  "tasks": [
@@ -2393,17 +2393,17 @@
    "updated": "2026-09-13T04:17:00.613Z"
   },
   {
-   "declared_name": "harbor/closed-as-duplicate-of-nothing",
-   "declared_short": "closed-as-duplicate-of-nothing",
-   "folder": "closed-as-duplicate-of-nothing",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/closed-as-duplicate-of-nothing",
+   "declared_short": "closed-as-duplicate-of-nothing",
    "domain": null,
+   "folder": "closed-as-duplicate-of-nothing",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "23a253d453489fb4013f13a568d3ff3d9aa650f1120453856ea92bb0a9fbf000",
    "size_bytes": 10449444,
    "updated": "2026-09-24T14:57:55.478Z"
@@ -14447,6 +14447,20 @@
    "sha256": "91e5fd715c641a06e90ca99ef90e274361e5b6dcdafa1bca79dea9ac8cd04c9b",
    "size_bytes": 8907671,
    "updated": "2026-09-09T15:08:35.756Z"
+  },
+  {
+   "declared_name": "obi/health-hl04-a5-altitude-training-week",
+   "declared_short": "health-hl04-a5-altitude-training-week",
+   "folder": "health-hl04-a5-altitude-training-week",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "e289ae531df187f4bda09f03fe070f17724c3d79a323d9d24ad5304b107c7613",
+   "size_bytes": 4256289,
+   "updated": "2026-09-24T15:04:45.210Z"
   },
   {
    "connector_provenance": null,
