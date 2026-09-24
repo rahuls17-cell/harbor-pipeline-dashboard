@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T07:00:04+00:00",
+ "generated_at": "2026-09-24T07:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1311,
-  "scanned": 1311,
+  "task_folders": 1313,
+  "scanned": 1313,
   "connector": 388,
-  "non_connector": 923,
+  "non_connector": 925,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 132
  },
  "domain": {
-  "unnamed": 531,
+  "unnamed": 533,
   "code": 250,
   "fin": 90,
   "gen": 271,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 390,
-  "obi": 921
+  "obi": 923
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263345
  },
  "errors": [],
  "tasks": [
@@ -1649,6 +1649,20 @@
    "sha256": "35a8563dea4b89d44a6cffa0cd4ebb1484673334957e1b876a2785991302f032",
    "size_bytes": 6746808,
    "updated": "2026-09-17T22:03:05.476Z"
+  },
+  {
+   "declared_name": "obi/bus-b43-b12-assessment-answer-key-recompute",
+   "declared_short": "bus-b43-b12-assessment-answer-key-recompute",
+   "folder": "bus-b43-b12-assessment-answer-key-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "c36dc1645479ff715fd7c16e60bcfcf96219291edc579e9e8b8a03613e6f6bf9",
+   "size_bytes": 7783016,
+   "updated": "2026-09-24T07:26:19.036Z"
   },
   {
    "connector_provenance": null,
@@ -6777,6 +6791,20 @@
    "sha256": "20e4fdb13d25c7917f606c8cc9a87c137d98a57a3007448906fd013c2a51d259",
    "size_bytes": 7355190,
    "updated": "2026-09-23T16:12:01.414Z"
+  },
+  {
+   "declared_name": "obi/edu-b51-e10-reading-schedule-reconstruction",
+   "declared_short": "edu-b51-e10-reading-schedule-reconstruction",
+   "folder": "edu-b51-e10-reading-schedule-reconstruction",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "e3eeb3be19d92b3226d4f7e1b70dd03809889848d374f214a461c41c37f7b20c",
+   "size_bytes": 7789058,
+   "updated": "2026-09-24T07:27:01.984Z"
   },
   {
    "connector_provenance": null,
