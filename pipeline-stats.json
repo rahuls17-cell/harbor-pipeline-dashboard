@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T22:00:03+00:00",
+ "generated_at": "2026-09-24T22:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1398,
-  "scanned": 1398,
+  "task_folders": 1399,
+  "scanned": 1399,
   "connector": 406,
-  "non_connector": 992,
+  "non_connector": 993,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 585,
-  "code": 259,
+  "code": 260,
   "fin": 97,
   "gen": 279,
   "health": 93,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 408,
-  "obi": 990
+  "obi": 991
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131732
  },
  "errors": [],
  "tasks": [
@@ -4577,6 +4577,20 @@
    "sha256": "127b967e17ab3bddde16800f742701ddb6db154ebc15264ace4173e2744b85c4",
    "size_bytes": 6933796,
    "updated": "2026-09-21T16:41:46.275Z"
+  },
+  {
+   "declared_name": "obi/code-c433-blast-interlock-safety-audit",
+   "declared_short": "code-c433-blast-interlock-safety-audit",
+   "folder": "code-c433-blast-interlock-safety-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "d1a300de189412644235fc5e8c171b59f91e242cea2a5166c443bed6ebb6b16c",
+   "size_bytes": 6866882,
+   "updated": "2026-09-24T22:08:56.037Z"
   },
   {
    "connector_provenance": null,
