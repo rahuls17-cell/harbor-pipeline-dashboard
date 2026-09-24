@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T23:20:02+00:00",
+ "generated_at": "2026-09-24T23:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1405,
-  "scanned": 1405,
+  "task_folders": 1407,
+  "scanned": 1407,
   "connector": 407,
-  "non_connector": 998,
+  "non_connector": 1000,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 144
  },
  "domain": {
-  "unnamed": 588,
-  "code": 261,
+  "unnamed": 589,
+  "code": 262,
   "fin": 97,
   "gen": 280,
   "health": 93,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 409,
-  "obi": 996
+  "obi": 998
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 262988
  },
  "errors": [],
  "tasks": [
@@ -1577,6 +1577,20 @@
    "sha256": "5fc9416c6f811a9199fa20e5bb3817729559e00b7dd5060b78882c5e5dfa4193",
    "size_bytes": 7496711,
    "updated": "2026-09-23T02:11:28.618Z"
+  },
+  {
+   "declared_name": "obi/bus-b22-b11-contracting-business-sale-comparison",
+   "declared_short": "bus-b22-b11-contracting-business-sale-comparison",
+   "folder": "bus-b22-b11-contracting-business-sale-comparison",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "49786d90d84278f8b127e72dc3ddb2b4625386a551d146fc8707613abcc4e7a3",
+   "size_bytes": 12717141,
+   "updated": "2026-09-24T23:23:06.313Z"
   },
   {
    "connector_provenance": null,
@@ -3583,6 +3597,20 @@
    "sha256": "a8fc27089a6e89a65acee2abdcef0a99164d022b6f1078558e8050eb9c10e1cb",
    "size_bytes": 7294551,
    "updated": "2026-09-12T14:16:29.191Z"
+  },
+  {
+   "declared_name": "obi/code-c219-vulnerability-remediation-sla-audit",
+   "declared_short": "code-c219-vulnerability-remediation-sla-audit",
+   "folder": "code-c219-vulnerability-remediation-sla-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "bb938d3c7f7c74bf8b03fe85e9a9d6a696f3814237482d2b97c09c3b4397417e",
+   "size_bytes": 7032307,
+   "updated": "2026-09-24T23:24:30.314Z"
   },
   {
    "connector_provenance": null,
