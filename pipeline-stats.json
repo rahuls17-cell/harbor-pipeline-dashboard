@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T03:55:03+00:00",
+ "generated_at": "2026-09-24T04:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1300,
-  "scanned": 1300,
+  "task_folders": 1302,
+  "scanned": 1302,
   "connector": 388,
-  "non_connector": 912,
+  "non_connector": 914,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 132
  },
  "domain": {
-  "unnamed": 526,
-  "code": 246,
+  "unnamed": 527,
+  "code": 247,
   "fin": 89,
   "gen": 271,
   "health": 87,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 391,
-  "obi": 909
+  "obi": 911
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263192
  },
  "errors": [],
  "tasks": [
@@ -1509,6 +1509,20 @@
    "sha256": "5fc9416c6f811a9199fa20e5bb3817729559e00b7dd5060b78882c5e5dfa4193",
    "size_bytes": 7496711,
    "updated": "2026-09-23T02:11:28.618Z"
+  },
+  {
+   "declared_name": "obi/bus-b22-b3-therapist-brand-launch-plan",
+   "declared_short": "bus-b22-b3-therapist-brand-launch-plan",
+   "folder": "bus-b22-b3-therapist-brand-launch-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "a52005079524e53120ad8e2289a71b34b90692ca7ce11efb26d39f0a6a848aeb",
+   "size_bytes": 7756005,
+   "updated": "2026-09-24T04:21:49.441Z"
   },
   {
    "connector_provenance": null,
@@ -3735,6 +3749,20 @@
    "sha256": "80a404bb438856ab30e63d9d1318ea908a8ca5875be97ad37fda31ceb5dd5068",
    "size_bytes": 9082386,
    "updated": "2026-09-06T20:28:16.733Z"
+  },
+  {
+   "declared_name": "obi/code-c364-brand-wave-deck-qc-audit",
+   "declared_short": "code-c364-brand-wave-deck-qc-audit",
+   "folder": "code-c364-brand-wave-deck-qc-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "e5e39f252f43bb1bcfde2e93c58bc0651f162bf23ac9d3c59492e25fa6ecbb27",
+   "size_bytes": 7190776,
+   "updated": "2026-09-24T04:22:43.558Z"
   },
   {
    "connector_provenance": null,
