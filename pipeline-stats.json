@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T10:45:03+00:00",
+ "generated_at": "2026-09-24T10:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1333,
-  "scanned": 1333,
+  "task_folders": 1334,
+  "scanned": 1334,
   "connector": 391,
-  "non_connector": 942,
+  "non_connector": 943,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 135
  },
  "domain": {
-  "unnamed": 545,
+  "unnamed": 546,
   "code": 251,
   "fin": 90,
   "gen": 275,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 393,
-  "obi": 940
+  "obi": 941
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 269192
+  "new_archives_read": 1,
+  "approx_bytes_read": 131451
  },
  "errors": [],
  "tasks": [
@@ -13565,15 +13565,15 @@
    "updated": "2026-09-22T13:38:38.255Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b44-h10-propagation-guide-contradiction-sop",
    "declared_short": "health-b44-h10-propagation-guide-contradiction-sop",
-   "folder": "health-b44-h10-propagation-guide-contradiction-sop",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b44-h10-propagation-guide-contradiction-sop",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e177b7df4900cc111d77b041f659e188cff75ca3fd9848384c2d61d9c845910b",
    "size_bytes": 6571607,
    "updated": "2026-09-24T10:43:28.433Z"
@@ -16239,17 +16239,17 @@
    "updated": "2026-09-19T11:45:33.484Z"
   },
   {
-   "declared_name": "harbor/only-the-integrations-answered",
-   "declared_short": "only-the-integrations-answered",
-   "folder": "only-the-integrations-answered",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/only-the-integrations-answered",
+   "declared_short": "only-the-integrations-answered",
    "domain": null,
+   "folder": "only-the-integrations-answered",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a9672d6a01c5c6bc6492dc70baa02725363356ca0b971990d00be38db3341d39",
    "size_bytes": 8327256,
    "updated": "2026-09-24T10:45:03.231Z"
@@ -17986,6 +17986,20 @@
    "sha256": "46756d78fe6873e17a8069ef2450c75a276dd86c8a2982996c6122beb9cd039b",
    "size_bytes": 6060085,
    "updated": "2026-09-23T20:02:13.530Z"
+  },
+  {
+   "declared_name": "obi/tech-b54-a6-release-roundup-extraction",
+   "declared_short": "tech-b54-a6-release-roundup-extraction",
+   "folder": "tech-b54-a6-release-roundup-extraction",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "e5559e0b68da4c13ee226d2ff5ebb347d8a86224c7745e971c164018f3041138",
+   "size_bytes": 10177608,
+   "updated": "2026-09-24T10:50:02.588Z"
   },
   {
    "connector_provenance": null,
