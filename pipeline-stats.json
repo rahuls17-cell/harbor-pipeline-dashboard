@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T21:15:03+00:00",
+ "generated_at": "2026-09-24T21:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1392,
-  "scanned": 1392,
+  "task_folders": 1393,
+  "scanned": 1393,
   "connector": 405,
-  "non_connector": 987,
+  "non_connector": 988,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 581,
   "code": 258,
   "fin": 97,
-  "gen": 278,
+  "gen": 279,
   "health": 93,
   "law": 85
  },
  "name_prefix": {
   "harbor": 407,
-  "obi": 985
+  "obi": 986
  },
  "connector_services": {
   "google-drive-gym": 193,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131759
  },
  "errors": [],
  "tasks": [
@@ -10903,6 +10903,20 @@
    "sha256": "2e3857860555ac7af3681c643a832183e14c5b310d57d35b986e62b48376fda2",
    "size_bytes": 19900345,
    "updated": "2026-09-06T20:47:24.340Z"
+  },
+  {
+   "declared_name": "obi/gen-g533-logo-embroidery-digitization-audit",
+   "declared_short": "gen-g533-logo-embroidery-digitization-audit",
+   "folder": "gen-g533-logo-embroidery-digitization-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "c3e7cda566098b73028ced19820afeb5c47db9beae77f678bc23d96cf3a540c4",
+   "size_bytes": 8082746,
+   "updated": "2026-09-24T21:15:20.892Z"
   },
   {
    "connector_provenance": null,
