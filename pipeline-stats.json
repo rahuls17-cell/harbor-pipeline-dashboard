@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T09:15:03+00:00",
+ "generated_at": "2026-09-24T09:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1319,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263075
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -7045,15 +7045,15 @@
    "updated": "2026-09-13T01:15:44.998Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sc09-b2-vti-task-000676",
    "declared_short": "edu-sc09-b2-vti-task-000676",
-   "folder": "edu-sc09-b2-vti-task-000676-v2",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sc09-b2-vti-task-000676-v2",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "924d8cc876d085419b054568b8078b7a32e68c11c2aff9aa11ba90b2a230d25b",
    "size_bytes": 5862195,
    "updated": "2026-09-24T09:12:21.719Z"
@@ -16543,15 +16543,15 @@
    "updated": "2026-09-21T15:54:56.663Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/sci-b51-a2-market-penetration-table-recompute",
    "declared_short": "sci-b51-a2-market-penetration-table-recompute",
-   "folder": "sci-b51-a2-market-penetration-table-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "sci-b51-a2-market-penetration-table-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "22e0f659154a9001a963c7a31ea89e21f109e5542031da0b404355a0a661433e",
    "size_bytes": 5536885,
    "updated": "2026-09-24T09:10:27.487Z"
