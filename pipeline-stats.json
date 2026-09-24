@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T17:20:03+00:00",
+ "generated_at": "2026-09-24T17:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1371,
-  "scanned": 1371,
+  "task_folders": 1372,
+  "scanned": 1372,
   "connector": 402,
-  "non_connector": 969,
+  "non_connector": 970,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 568,
   "code": 255,
   "fin": 94,
-  "gen": 277,
+  "gen": 278,
   "health": 92,
   "law": 85
  },
  "name_prefix": {
   "harbor": 404,
-  "obi": 967
+  "obi": 968
  },
  "connector_services": {
   "google-drive-gym": 193,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131435
  },
  "errors": [],
  "tasks": [
@@ -11417,6 +11417,20 @@
    "sha256": "e4b00b575703a2e45b4fecccc36a33b665d2d65eec0062455f0aef3addb86be0",
    "size_bytes": 4385657,
    "updated": "2026-09-05T23:30:08.346Z"
+  },
+  {
+   "declared_name": "obi/gen-g735-sponsorship-measurement-lock-audit",
+   "declared_short": "gen-g735-sponsorship-measurement-lock-audit",
+   "folder": "gen-g735-sponsorship-measurement-lock-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "3ee91cf366dae6c97ff4e36b6f846cfee79b96df04ec08bbbe01391641abb1cc",
+   "size_bytes": 8355004,
+   "updated": "2026-09-24T17:21:06.489Z"
   },
   {
    "connector_provenance": null,
