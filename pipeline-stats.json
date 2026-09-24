@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T19:35:03+00:00",
+ "generated_at": "2026-09-24T19:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1384,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131561
+  "approx_bytes_read": 131437
  },
  "errors": [],
  "tasks": [
@@ -3485,18 +3485,18 @@
    "updated": "2026-09-12T14:16:29.191Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/code-c221-api-auth-method-compliance-audit",
    "declared_short": "code-c221-api-auth-method-compliance-audit",
-   "domain": "code",
    "folder": "code-c221-api-auth-method-compliance-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "9bb27e8fb7de09e57d1f3819abd1957393ac2dad1557451a0a079ec87d10258d",
-   "size_bytes": 4235787,
-   "updated": "2026-09-05T21:27:25.569Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "c894efcacfd060778cb18105d7d4d8edf21f7a10dcd9b784b128eb893310b8b9",
+   "size_bytes": 9657394,
+   "updated": "2026-09-24T19:36:25.674Z"
   },
   {
    "connector_provenance": null,
@@ -19024,15 +19024,15 @@
    "updated": "2026-09-22T05:05:28.353Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-mg-it-b9-a7-summer-trending-repo-leaderboard",
    "declared_short": "tech-mg-it-b9-a7-summer-trending-repo-leaderboard",
-   "folder": "tech-mg-it-b9-a7-summer-trending-repo-leaderboard",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-mg-it-b9-a7-summer-trending-repo-leaderboard",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "998bc0e771c9d147d93f162902f1de96e0e3b0484ce10e510d83c771e9c48e97",
    "size_bytes": 5668595,
    "updated": "2026-09-24T19:34:05.798Z"
