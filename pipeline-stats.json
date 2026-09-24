@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-24T10:40:03+00:00",
+ "generated_at": "2026-09-24T10:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1331,
-  "scanned": 1331,
-  "connector": 390,
-  "non_connector": 941,
+  "task_folders": 1333,
+  "scanned": 1333,
+  "connector": 391,
+  "non_connector": 942,
   "errors": 0
  },
  "connector_provenance": {
   "real": 126,
   "unknown": 130,
-  "synthetic": 134
+  "synthetic": 135
  },
  "domain": {
-  "unnamed": 544,
+  "unnamed": 545,
   "code": 251,
   "fin": 90,
   "gen": 275,
-  "health": 88,
+  "health": 89,
   "law": 83
  },
  "name_prefix": {
-  "harbor": 392,
-  "obi": 939
+  "harbor": 393,
+  "obi": 940
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -32,7 +32,7 @@
   "jira-gym": 175,
   "email-gym": 173,
   "freshdesk-gym": 173,
-  "slack-gym": 166,
+  "slack-gym": 167,
   "slack": 61,
   "notion-gym": 35,
   "github-gym": 24,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132126
+  "new_archives_read": 2,
+  "approx_bytes_read": 269192
  },
  "errors": [],
  "tasks": [
@@ -11899,15 +11899,15 @@
    "updated": "2026-09-20T20:46:27.293Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g937-wallpaper-stock-asset-reuse-audit",
    "declared_short": "gen-g937-wallpaper-stock-asset-reuse-audit",
-   "folder": "gen-g937-wallpaper-stock-asset-reuse-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g937-wallpaper-stock-asset-reuse-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "95ea2f4c4682b717cc5132298fc27bd5e9f2c2298704f5fc2bf2dacae1e79e11",
    "size_bytes": 12824926,
    "updated": "2026-09-24T10:36:02.701Z"
@@ -13563,6 +13563,20 @@
    "sha256": "d172a3637b791d5956ea830e770b2701fd62825225dc3f96bc2913598fc4f2cb",
    "size_bytes": 4018427,
    "updated": "2026-09-22T13:38:38.255Z"
+  },
+  {
+   "declared_name": "obi/health-b44-h10-propagation-guide-contradiction-sop",
+   "declared_short": "health-b44-h10-propagation-guide-contradiction-sop",
+   "folder": "health-b44-h10-propagation-guide-contradiction-sop",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "e177b7df4900cc111d77b041f659e188cff75ca3fd9848384c2d61d9c845910b",
+   "size_bytes": 6571607,
+   "updated": "2026-09-24T10:43:28.433Z"
   },
   {
    "connector_provenance": null,
@@ -16223,6 +16237,22 @@
    "sha256": "6b2c552bdf6852d37ed503e4f95aa9beb91067d1e919c3a3965978d52c8ac3c5",
    "size_bytes": 7073193,
    "updated": "2026-09-19T11:45:33.484Z"
+  },
+  {
+   "declared_name": "harbor/only-the-integrations-answered",
+   "declared_short": "only-the-integrations-answered",
+   "folder": "only-the-integrations-answered",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "a9672d6a01c5c6bc6492dc70baa02725363356ca0b971990d00be38db3341d39",
+   "size_bytes": 8327256,
+   "updated": "2026-09-24T10:45:03.231Z"
   },
   {
    "connector_provenance": "synthetic",
