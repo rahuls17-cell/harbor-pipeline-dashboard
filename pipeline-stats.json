@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T17:40:04+00:00",
+ "generated_at": "2026-09-24T17:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1373,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262910
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -17175,15 +17175,15 @@
    "updated": "2026-09-22T12:58:59.813Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/sci-sc09-a6-vti-task-001376",
    "declared_short": "sci-sc09-a6-vti-task-001376",
-   "folder": "sci-sc09-a6-vti-task-001376",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "sci-sc09-a6-vti-task-001376",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "685d582b284413582e62897cf9bb5f1a359ca572ba10e11c9b5bed0911fd27a1",
    "size_bytes": 5507820,
    "updated": "2026-09-24T17:37:58.978Z"
@@ -18434,15 +18434,15 @@
    "updated": "2026-09-24T08:19:18.200Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b54-a8-rig-footage-variance-attribution",
    "declared_short": "tech-b54-a8-rig-footage-variance-attribution",
-   "folder": "tech-b54-a8-rig-footage-variance-attribution",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b54-a8-rig-footage-variance-attribution",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f632791385efcc5f30607c4d656bf2a0afb4f305cd9faaaef69ad651a52aff71",
    "size_bytes": 9894982,
    "updated": "2026-09-24T17:39:49.089Z"
