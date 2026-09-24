@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T03:10:03+00:00",
+ "generated_at": "2026-09-24T03:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1298,
-  "scanned": 1298,
+  "task_folders": 1300,
+  "scanned": 1300,
   "connector": 388,
-  "non_connector": 910,
+  "non_connector": 912,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 526,
-  "code": 245,
+  "code": 246,
   "fin": 89,
   "gen": 271,
-  "health": 86,
+  "health": 87,
   "law": 81
  },
  "name_prefix": {
   "harbor": 391,
-  "obi": 907
+  "obi": 909
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263151
  },
  "errors": [],
  "tasks": [
@@ -4491,6 +4491,20 @@
    "sha256": "3e131f35e3a53046ec16e2d5e6153d502618ffd3ccf23804d431a1b072bd9e0b",
    "size_bytes": 5825661,
    "updated": "2026-09-07T20:37:38.081Z"
+  },
+  {
+   "declared_name": "obi/code-c49-health-check-config-audit",
+   "declared_short": "code-c49-health-check-config-audit",
+   "folder": "code-c49-health-check-config-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "89939c4d5f06ce1f73e26c59f7bc0e613b06271789cb4f822ce9f36f8b52c606",
+   "size_bytes": 7264025,
+   "updated": "2026-09-24T03:12:10.388Z"
   },
   {
    "connector_provenance": null,
@@ -13715,6 +13729,20 @@
    "sha256": "ffe9691959712337d8d8dd7d0daba921e0bdbe07027abdc37386c00c0c879b9d",
    "size_bytes": 6948029,
    "updated": "2026-09-06T12:49:53.041Z"
+  },
+  {
+   "declared_name": "obi/health-h64-skinfold-body-fat-recompute-audit",
+   "declared_short": "health-h64-skinfold-body-fat-recompute-audit",
+   "folder": "health-h64-skinfold-body-fat-recompute-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "a1e9f400a9655a8151e5bfb4f0a4e8e7a3a2b4f6e3e3544e333c77f4c3051e95",
+   "size_bytes": 5694569,
+   "updated": "2026-09-24T03:14:41.829Z"
   },
   {
    "connector_provenance": null,
