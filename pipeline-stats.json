@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T21:25:03+00:00",
+ "generated_at": "2026-09-24T21:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1394,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134210
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -18040,11 +18040,7 @@
    "updated": "2026-09-19T21:45:33.924Z"
   },
   {
-   "declared_name": "harbor/verify-6-30-amount-correction-request-on-pending-check-deposit-for-acc",
-   "declared_short": "verify-6-30-amount-correction-request-on-pending-check-deposit-for-acc",
-   "folder": "task_verify_6_30_amount_correction_request_on_pending_check_deposit_for_acc",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -18054,9 +18050,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/verify-6-30-amount-correction-request-on-pending-check-deposit-for-acc",
+   "declared_short": "verify-6-30-amount-correction-request-on-pending-check-deposit-for-acc",
    "domain": null,
+   "folder": "task_verify_6_30_amount_correction_request_on_pending_check_deposit_for_acc",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f857f9f38613ba1ae57fc3ff69459672cd47f890c7a9ca6dff1aaa848c94faeb",
    "size_bytes": 9605842,
    "updated": "2026-09-24T21:24:08.174Z"
