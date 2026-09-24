@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-24T10:35:04+00:00",
+ "generated_at": "2026-09-24T10:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1330,
-  "scanned": 1330,
+  "task_folders": 1331,
+  "scanned": 1331,
   "connector": 390,
-  "non_connector": 940,
+  "non_connector": 941,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 544,
   "code": 251,
   "fin": 90,
-  "gen": 274,
+  "gen": 275,
   "health": 88,
   "law": 83
  },
  "name_prefix": {
   "harbor": 392,
-  "obi": 938
+  "obi": 939
  },
  "connector_services": {
   "google-drive-gym": 191,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263274
+  "new_archives_read": 1,
+  "approx_bytes_read": 132126
  },
  "errors": [],
  "tasks": [
@@ -11479,15 +11479,15 @@
    "updated": "2026-09-21T16:39:11.832Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g818-vendor-recipe-card-completeness-audit",
    "declared_short": "gen-g818-vendor-recipe-card-completeness-audit",
-   "folder": "gen-g818-vendor-recipe-card-completeness-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g818-vendor-recipe-card-completeness-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "872270eede036dbbfcd87f0061f104dae5c6715b0e57e82f89614a6eb05d32e4",
    "size_bytes": 8127276,
    "updated": "2026-09-24T10:31:48.044Z"
@@ -11897,6 +11897,20 @@
    "sha256": "c3270624ae675200c3a0d9f482a406d97372fea466312aa8480ab60deb33a009",
    "size_bytes": 7891872,
    "updated": "2026-09-20T20:46:27.293Z"
+  },
+  {
+   "declared_name": "obi/gen-g937-wallpaper-stock-asset-reuse-audit",
+   "declared_short": "gen-g937-wallpaper-stock-asset-reuse-audit",
+   "folder": "gen-g937-wallpaper-stock-asset-reuse-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "95ea2f4c4682b717cc5132298fc27bd5e9f2c2298704f5fc2bf2dacae1e79e11",
+   "size_bytes": 12824926,
+   "updated": "2026-09-24T10:36:02.701Z"
   },
   {
    "connector_provenance": null,
@@ -15697,15 +15711,15 @@
    "updated": "2026-09-09T13:59:24.886Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-l39-classification-marking-audit",
    "declared_short": "law-l39-classification-marking-audit",
-   "folder": "law-l39-classification-marking-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-l39-classification-marking-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "57dae79072bacef20fb0f688bb57bf088cf1d7051eebff5acc79917a0482d867",
    "size_bytes": 12931699,
    "updated": "2026-09-24T10:30:30.481Z"
