@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T00:15:03+00:00",
+ "generated_at": "2026-09-24T00:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1284,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131507
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2575,15 +2575,15 @@
    "updated": "2026-09-20T04:53:27.768Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c147-api-version-sunset-compliance-audit",
    "declared_short": "code-c147-api-version-sunset-compliance-audit",
-   "folder": "code-c147-api-version-sunset-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c147-api-version-sunset-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "3031c4b6f155088561d44418e4b5fd7eb7ea79fb1c3c510a7c2b52ba7fc72633",
    "size_bytes": 7413799,
    "updated": "2026-09-24T00:10:06.753Z"
