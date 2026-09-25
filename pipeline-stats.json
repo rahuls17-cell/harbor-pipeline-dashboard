@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T15:05:02+00:00",
+ "generated_at": "2026-09-25T15:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1506,
-  "scanned": 1506,
+  "task_folders": 1508,
+  "scanned": 1508,
   "connector": 416,
-  "non_connector": 1090,
+  "non_connector": 1092,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 148
  },
  "domain": {
-  "unnamed": 640,
+  "unnamed": 641,
   "code": 286,
   "fin": 103,
   "gen": 287,
-  "health": 100,
+  "health": 101,
   "law": 90
  },
  "name_prefix": {
   "harbor": 419,
-  "obi": 1086,
+  "obi": 1088,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263071
  },
  "errors": [],
  "tasks": [
@@ -16259,6 +16259,20 @@
    "updated": "2026-09-21T15:35:13.926Z"
   },
   {
+   "declared_name": "obi/health-tdt8-a10-allergy-shelf-unit-price-ledger",
+   "declared_short": "health-tdt8-a10-allergy-shelf-unit-price-ledger",
+   "folder": "health-tdt8-a10-allergy-shelf-unit-price-ledger",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "da7c25f2214fbe42c3d74b1ccfc196637f44c61d53dc0a84bcfef29ec1ff9eef",
+   "size_bytes": 6221816,
+   "updated": "2026-09-25T15:15:50.618Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt9-a5-retail-plan-service-area-catalogue",
@@ -18625,6 +18639,20 @@
    "sha256": "d95d505f1b941cda0f075b57174b5b51d7663e04bd74272c33b08636b82b2d12",
    "size_bytes": 3789903,
    "updated": "2026-09-22T12:58:59.813Z"
+  },
+  {
+   "declared_name": "obi/sci-sc07-a7-frost-southern-limits",
+   "declared_short": "sci-sc07-a7-frost-southern-limits",
+   "folder": "sci-sc07-a7-frost-southern-limits-v1",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1f83b5d1a77c66e48aac0973ae7f24c01fe9abb6ff6784d03396263200557181",
+   "size_bytes": 10772175,
+   "updated": "2026-09-25T15:19:44.503Z"
   },
   {
    "connector_provenance": null,
