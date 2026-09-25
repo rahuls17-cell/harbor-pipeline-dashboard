@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-25T02:00:02+00:00",
+ "generated_at": "2026-09-25T02:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1419,
-  "scanned": 1419,
-  "connector": 408,
+  "task_folders": 1420,
+  "scanned": 1420,
+  "connector": 409,
   "non_connector": 1011,
   "errors": 0
  },
  "connector_provenance": {
   "real": 127,
-  "unknown": 136,
+  "unknown": 137,
   "synthetic": 145
  },
  "domain": {
-  "unnamed": 593,
+  "unnamed": 594,
   "code": 266,
   "fin": 97,
   "gen": 281,
@@ -22,12 +22,12 @@
   "law": 88
  },
  "name_prefix": {
-  "harbor": 410,
+  "harbor": 411,
   "obi": 1009
  },
  "connector_services": {
   "google-drive-gym": 194,
-  "zeta3-sql-gym": 184,
+  "zeta3-sql-gym": 185,
   "confluence-gym": 179,
   "jira-gym": 178,
   "email-gym": 176,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 132770
  },
  "errors": [],
  "tasks": [
@@ -95,6 +95,22 @@
    "sha256": "a7ed51e2c6977eaa73def6890532c0c3420631557acc26a5c6a58045013a9bd1",
    "size_bytes": 12543531,
    "updated": "2026-09-21T16:08:40.725Z"
+  },
+  {
+   "declared_name": "harbor/verify-daily-check-issuing-limit-compliance-for-account-8263-on-2025-0",
+   "declared_short": "verify-daily-check-issuing-limit-compliance-for-account-8263-on-2025-0",
+   "folder": "100260",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "c2973344deb9d278ddefc0751f2ade0fd1e02d4709853f4f4f610a309e467fcb",
+   "size_bytes": 8568527,
+   "updated": "2026-09-25T02:06:52.885Z"
   },
   {
    "connector_provenance": "unknown",
