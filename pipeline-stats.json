@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T22:45:03+00:00",
+ "generated_at": "2026-09-25T23:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1554,
-  "scanned": 1554,
+  "task_folders": 1555,
+  "scanned": 1555,
   "connector": 427,
-  "non_connector": 1127,
+  "non_connector": 1128,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 668,
   "code": 294,
   "fin": 104,
-  "gen": 291,
+  "gen": 292,
   "health": 105,
   "law": 92
  },
  "name_prefix": {
   "harbor": 430,
-  "obi": 1123,
+  "obi": 1124,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131415
  },
  "errors": [],
  "tasks": [
@@ -12285,6 +12285,20 @@
    "sha256": "4adcce3d316db1a7d5b2f8717002a00c838f7bd612371668d11246db1c1daf09",
    "size_bytes": 9128679,
    "updated": "2026-09-18T23:33:03.681Z"
+  },
+  {
+   "declared_name": "obi/gen-g56-sku-pricetier-reconcile",
+   "declared_short": "gen-g56-sku-pricetier-reconcile",
+   "folder": "gen-g56-sku-pricetier-reconcile-v7",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "149c32299fd552a3154c63e69f0a3c028444ff623c3ea41d81a5a2e31c79146e",
+   "size_bytes": 6442384,
+   "updated": "2026-09-25T23:11:16.713Z"
   },
   {
    "connector_provenance": null,
