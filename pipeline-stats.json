@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T22:10:03+00:00",
+ "generated_at": "2026-09-25T22:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1553,
-  "scanned": 1553,
+  "task_folders": 1554,
+  "scanned": 1554,
   "connector": 427,
-  "non_connector": 1126,
+  "non_connector": 1127,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 294,
   "fin": 104,
   "gen": 291,
-  "health": 104,
+  "health": 105,
   "law": 92
  },
  "name_prefix": {
   "harbor": 430,
-  "obi": 1122,
+  "obi": 1123,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131484
  },
  "errors": [],
  "tasks": [
@@ -16627,6 +16627,20 @@
    "sha256": "da7c25f2214fbe42c3d74b1ccfc196637f44c61d53dc0a84bcfef29ec1ff9eef",
    "size_bytes": 6221816,
    "updated": "2026-09-25T15:15:50.618Z"
+  },
+  {
+   "declared_name": "obi/health-tdt9-a10-clipping-packet-rolling-window",
+   "declared_short": "health-tdt9-a10-clipping-packet-rolling-window",
+   "folder": "health-tdt9-a10-clipping-packet-rolling-window",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "9c766399965dfdcc42399778707b0a2746003b63e6690cb235bf55b6be44f60f",
+   "size_bytes": 3988968,
+   "updated": "2026-09-25T22:30:12.188Z"
   },
   {
    "connector_provenance": null,
