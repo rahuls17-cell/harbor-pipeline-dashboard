@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T08:45:04+00:00",
+ "generated_at": "2026-09-25T08:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1452,
-  "scanned": 1452,
+  "task_folders": 1454,
+  "scanned": 1454,
   "connector": 409,
-  "non_connector": 1043,
+  "non_connector": 1045,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 145
  },
  "domain": {
-  "unnamed": 607,
+  "unnamed": 608,
   "code": 277,
   "fin": 100,
   "gen": 283,
   "health": 97,
-  "law": 88
+  "law": 89
  },
  "name_prefix": {
   "harbor": 411,
-  "obi": 1040,
+  "obi": 1042,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131479
+  "new_archives_read": 2,
+  "approx_bytes_read": 262917
  },
  "errors": [],
  "tasks": [
@@ -13274,15 +13274,15 @@
    "updated": "2026-09-24T10:09:04.588Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "vankamasthanamma/gen-g985-finance-publication-header-art-spec-audit",
    "declared_short": "gen-g985-finance-publication-header-art-spec-audit",
-   "folder": "gen-g985-finance-publication-header-art-spec-audit",
-   "prefix": "vankamasthanamma",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g985-finance-publication-header-art-spec-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "vankamasthanamma",
    "sha256": "edebf586d96f672cbb0b79a78b8dbf79237e03dbc34073f8a0d84d7c9524ee0d",
    "size_bytes": 7905741,
    "updated": "2026-09-25T08:41:52.165Z"
@@ -16428,6 +16428,20 @@
    "updated": "2026-09-19T21:43:54.330Z"
   },
   {
+   "declared_name": "obi/law-b39-l18-limitation-status-count-register",
+   "declared_short": "law-b39-l18-limitation-status-count-register",
+   "folder": "law-b39-l18-limitation-status-count-register-private-rules-layout-parity-20260925",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "e20bab7e9f0be7c426a87f450d66f1406bece3e0ef97c87e1b01a77b2a7beb17",
+   "size_bytes": 7689026,
+   "updated": "2026-09-25T08:45:05.422Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-b39-l21-exit-sign-requirement-statement-audit",
@@ -18146,6 +18160,20 @@
    "sha256": "685d582b284413582e62897cf9bb5f1a359ca572ba10e11c9b5bed0911fd27a1",
    "size_bytes": 5507820,
    "updated": "2026-09-24T17:37:58.978Z"
+  },
+  {
+   "declared_name": "obi/sci-sc09-b10-vti-task-001698",
+   "declared_short": "sci-sc09-b10-vti-task-001698",
+   "folder": "sci-sc09-b10-vti-task-001698",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "d055bc86f35e04a9dae3fb8ef3b95a82f1a5505bab538e8938620a762741b92e",
+   "size_bytes": 6880183,
+   "updated": "2026-09-25T08:45:22.375Z"
   },
   {
    "connector_provenance": "real",
