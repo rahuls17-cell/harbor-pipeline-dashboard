@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-25T10:50:03+00:00",
+ "generated_at": "2026-09-25T11:05:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1471,
-  "scanned": 1471,
-  "connector": 410,
+  "task_folders": 1472,
+  "scanned": 1472,
+  "connector": 411,
   "non_connector": 1061,
   "errors": 0
  },
  "connector_provenance": {
   "real": 127,
-  "unknown": 138,
+  "unknown": 139,
   "synthetic": 145
  },
  "domain": {
-  "unnamed": 617,
+  "unnamed": 618,
   "code": 281,
   "fin": 100,
   "gen": 285,
@@ -22,14 +22,14 @@
   "law": 89
  },
  "name_prefix": {
-  "harbor": 412,
+  "harbor": 413,
   "obi": 1058,
   "vankamasthanamma": 1
  },
  "connector_services": {
   "google-drive-gym": 194,
-  "zeta3-sql-gym": 185,
-  "confluence-gym": 179,
+  "zeta3-sql-gym": 186,
+  "confluence-gym": 180,
   "jira-gym": 178,
   "email-gym": 176,
   "freshdesk-gym": 176,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 132975
  },
  "errors": [],
  "tasks": [
@@ -74,6 +74,23 @@
    "sha256": "cf691e63012d98126cdc1570b9542d3ff4703d1b8281ee97e8cb56c73fb06256",
    "size_bytes": 12767270,
    "updated": "2026-09-18T23:52:53.865Z"
+  },
+  {
+   "declared_name": "harbor/determine-remaining-check-deposit-headroom-for-account-1047-on-2025-04",
+   "declared_short": "determine-remaining-check-deposit-headroom-for-account-1047-on-2025-04",
+   "folder": "100067",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "02cc02438020f4b370851fb02e31b63e8b649caad4dc40a92ac301c0ff6fe61d",
+   "size_bytes": 8699711,
+   "updated": "2026-09-25T11:04:53.766Z"
   },
   {
    "connector_provenance": "real",
