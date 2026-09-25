@@ -1,40 +1,40 @@
 {
- "generated_at": "2026-09-25T12:05:03+00:00",
+ "generated_at": "2026-09-25T12:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1481,
-  "scanned": 1481,
-  "connector": 412,
-  "non_connector": 1069,
+  "task_folders": 1484,
+  "scanned": 1484,
+  "connector": 413,
+  "non_connector": 1071,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 127,
+  "real": 128,
   "unknown": 139,
   "synthetic": 146
  },
  "domain": {
-  "unnamed": 623,
+  "unnamed": 625,
   "code": 282,
   "fin": 101,
   "gen": 286,
   "health": 100,
-  "law": 89
+  "law": 90
  },
  "name_prefix": {
-  "harbor": 415,
-  "obi": 1065,
+  "harbor": 416,
+  "obi": 1067,
   "vankamasthanamma": 1
  },
  "connector_services": {
-  "google-drive-gym": 194,
-  "zeta3-sql-gym": 186,
-  "confluence-gym": 180,
-  "jira-gym": 178,
-  "email-gym": 176,
-  "freshdesk-gym": 176,
+  "google-drive-gym": 195,
+  "zeta3-sql-gym": 187,
+  "confluence-gym": 181,
+  "jira-gym": 179,
+  "email-gym": 177,
+  "freshdesk-gym": 177,
   "slack-gym": 172,
-  "slack": 62,
+  "slack": 63,
   "notion-gym": 37,
   "github-gym": 28,
   "linear-gym": 23,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131562
+  "new_archives_read": 3,
+  "approx_bytes_read": 395958
  },
  "errors": [],
  "tasks": [
@@ -1627,15 +1627,15 @@
    "updated": "2026-09-23T02:11:28.618Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b22-b1-business-card-variant-catalogue",
    "declared_short": "bus-b22-b1-business-card-variant-catalogue",
-   "folder": "bus-b22-b1-business-card-variant-catalogue",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b22-b1-business-card-variant-catalogue",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a539cf70588f7de56fbdc293c03ebddb9546382f18bda299dad369c42b5e681d",
    "size_bytes": 8811555,
    "updated": "2026-09-25T12:04:04.282Z"
@@ -1681,6 +1681,20 @@
    "sha256": "a52005079524e53120ad8e2289a71b34b90692ca7ce11efb26d39f0a6a848aeb",
    "size_bytes": 7756005,
    "updated": "2026-09-24T04:21:49.441Z"
+  },
+  {
+   "declared_name": "obi/bus-b22-b4-smart-table-ordering-tco",
+   "declared_short": "bus-b22-b4-smart-table-ordering-tco",
+   "folder": "bus-b22-b4-smart-table-ordering-tco",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "2a8e579447fbdfcf51740bf775897d23cc268b8df1bfa8c8d36d6fb7b389055d",
+   "size_bytes": 10091326,
+   "updated": "2026-09-25T12:05:48.769Z"
   },
   {
    "connector_provenance": null,
@@ -16921,6 +16935,20 @@
    "updated": "2026-09-18T09:41:20.627Z"
   },
   {
+   "declared_name": "obi/law-b42-l3-right-to-rent-follow-up-check-schedule",
+   "declared_short": "law-b42-l3-right-to-rent-follow-up-check-schedule",
+   "folder": "law-b42-l3-right-to-rent-follow-up-check-schedule",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "8514ed147c57bcbc168fb6e818e15da433b0d438432f2170a4e8944e243db154",
+   "size_bytes": 6065899,
+   "updated": "2026-09-25T12:08:59.037Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-b42-l6-event-ticket-gst-liability-recompute",
@@ -18645,6 +18673,28 @@
    "sha256": "320db6c0de053bc660f386ba8a9dd252f29f7cb7f7d17b2c9e0d73adff3261ba",
    "size_bytes": 3616459,
    "updated": "2026-09-08T17:12:15.691Z"
+  },
+  {
+   "declared_name": "harbor/ach-counterparty-investigation-lock-true-scope-across-owners-accounts-and-unlocked-gaps",
+   "declared_short": "ach-counterparty-investigation-lock-true-scope-across-owners-accounts-and-unlocked-gaps",
+   "folder": "task_ach_counterparty_investigation_lock_determine_scope_across_owner_s_oth",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "c12da019af031bb908ab291835682809c9c2e7532ac86f0b564f9c453e7b3bde",
+   "size_bytes": 26667495,
+   "updated": "2026-09-25T12:05:10.386Z"
   },
   {
    "connector_provenance": "real",
