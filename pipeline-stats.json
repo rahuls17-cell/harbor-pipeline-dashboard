@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T02:50:02+00:00",
+ "generated_at": "2026-09-25T03:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1422,
-  "scanned": 1422,
+  "task_folders": 1423,
+  "scanned": 1423,
   "connector": 409,
-  "non_connector": 1013,
+  "non_connector": 1014,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 145
  },
  "domain": {
-  "unnamed": 594,
+  "unnamed": 595,
   "code": 268,
   "fin": 97,
   "gen": 281,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 411,
-  "obi": 1011
+  "obi": 1012
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131445
  },
  "errors": [],
  "tasks": [
@@ -7439,6 +7439,20 @@
    "sha256": "17a7555a8cf6ee8277af9e90a375a74dfee4564a0052a94bcfde3a5308e696dc",
    "size_bytes": 6913727,
    "updated": "2026-09-24T04:43:02.245Z"
+  },
+  {
+   "declared_name": "obi/edu-b51-e6-survey-short-form-trim",
+   "declared_short": "edu-b51-e6-survey-short-form-trim",
+   "folder": "edu-b51-e6-survey-short-form-trim",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "2787134ac650b1f252126d9482a9517b6b9b6c62f4ffbe8f799dffa482184123",
+   "size_bytes": 13960583,
+   "updated": "2026-09-25T03:14:40.209Z"
   },
   {
    "connector_provenance": null,
