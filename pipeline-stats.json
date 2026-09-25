@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T13:45:03+00:00",
+ "generated_at": "2026-09-25T13:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1499,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131542
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3577,15 +3577,15 @@
    "updated": "2026-09-20T21:08:00.158Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c176-floorplan-dimension-audit",
    "declared_short": "code-c176-floorplan-dimension-audit",
-   "folder": "code-c176-floorplan-dimension-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c176-floorplan-dimension-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6dd3d00dd621f2bacca37ca9738977f44274fbbf6b952ff16cdd7e50d26cbf3f",
    "size_bytes": 8107014,
    "updated": "2026-09-25T13:44:02.089Z"
