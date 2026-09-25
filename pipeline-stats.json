@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T23:15:03+00:00",
+ "generated_at": "2026-09-25T23:20:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1555,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131415
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -12287,15 +12287,15 @@
    "updated": "2026-09-18T23:33:03.681Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g56-sku-pricetier-reconcile",
    "declared_short": "gen-g56-sku-pricetier-reconcile",
-   "folder": "gen-g56-sku-pricetier-reconcile-v7",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g56-sku-pricetier-reconcile-v7",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "149c32299fd552a3154c63e69f0a3c028444ff623c3ea41d81a5a2e31c79146e",
    "size_bytes": 6442384,
    "updated": "2026-09-25T23:11:16.713Z"
