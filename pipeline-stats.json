@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T05:50:02+00:00",
+ "generated_at": "2026-09-25T05:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1430,
-  "scanned": 1430,
+  "task_folders": 1431,
+  "scanned": 1431,
   "connector": 409,
-  "non_connector": 1021,
+  "non_connector": 1022,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 145
  },
  "domain": {
-  "unnamed": 599,
+  "unnamed": 600,
   "code": 270,
   "fin": 98,
   "gen": 281,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 411,
-  "obi": 1019
+  "obi": 1020
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131614
  },
  "errors": [],
  "tasks": [
@@ -17837,6 +17837,20 @@
    "sha256": "d95d505f1b941cda0f075b57174b5b51d7663e04bd74272c33b08636b82b2d12",
    "size_bytes": 3789903,
    "updated": "2026-09-22T12:58:59.813Z"
+  },
+  {
+   "declared_name": "obi/sci-sc09-a5-philosophy-salon-roster-reconciliation",
+   "declared_short": "sci-sc09-a5-philosophy-salon-roster-reconciliation",
+   "folder": "sci-sc09-a5-philosophy-salon-roster-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "9818694e4e71bd21a94d24562148c4cfe334bb228dd8b257eb9d3b3a38bfe655",
+   "size_bytes": 7017540,
+   "updated": "2026-09-25T05:54:19.985Z"
   },
   {
    "connector_provenance": null,
