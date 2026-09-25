@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T10:00:03+00:00",
+ "generated_at": "2026-09-25T10:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1467,
-  "scanned": 1467,
+  "task_folders": 1468,
+  "scanned": 1468,
   "connector": 410,
-  "non_connector": 1057,
+  "non_connector": 1058,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 616,
   "code": 279,
   "fin": 100,
-  "gen": 284,
+  "gen": 285,
   "health": 99,
   "law": 89
  },
  "name_prefix": {
   "harbor": 412,
-  "obi": 1054,
+  "obi": 1055,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131559
  },
  "errors": [],
  "tasks": [
@@ -10066,6 +10066,20 @@
    "sha256": "898b47c0df07d17467e53c801342a90a249964b304dcedb3aabe2425f572736f",
    "size_bytes": 13533904,
    "updated": "2026-09-13T14:50:54.254Z"
+  },
+  {
+   "declared_name": "obi/gen-g1184-founder-post-style-compliance-audit",
+   "declared_short": "gen-g1184-founder-post-style-compliance-audit",
+   "folder": "gen-g1184-founder-post-style-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "a8dace1e6a96019f8bfe810635d313507178c46f3911b0ce883903054a6ac628",
+   "size_bytes": 15298807,
+   "updated": "2026-09-25T10:01:03.644Z"
   },
   {
    "connector_provenance": null,
