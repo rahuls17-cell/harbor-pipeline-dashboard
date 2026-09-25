@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T08:50:04+00:00",
+ "generated_at": "2026-09-25T08:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1454,
-  "scanned": 1454,
+  "task_folders": 1456,
+  "scanned": 1456,
   "connector": 409,
-  "non_connector": 1045,
+  "non_connector": 1047,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 145
  },
  "domain": {
-  "unnamed": 608,
+  "unnamed": 610,
   "code": 277,
   "fin": 100,
   "gen": 283,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 411,
-  "obi": 1042,
+  "obi": 1044,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 262917
+  "approx_bytes_read": 263115
  },
  "errors": [],
  "tasks": [
@@ -1706,6 +1706,20 @@
    "sha256": "4a61bca76fccee706350781c6691a1f98f45f3905be90d9e2b9bbdbb3e666c97",
    "size_bytes": 8261493,
    "updated": "2026-09-24T23:41:19.824Z"
+  },
+  {
+   "declared_name": "obi/bus-b23-b7-small-retail-product-shortlist",
+   "declared_short": "bus-b23-b7-small-retail-product-shortlist",
+   "folder": "bus-b23-b7-small-retail-product-shortlist",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "17958bedddc199b718675041045b58cf78a27d33c72cc2146fc0e621a78a9c70",
+   "size_bytes": 9017012,
+   "updated": "2026-09-25T08:54:17.312Z"
   },
   {
    "connector_provenance": null,
@@ -16428,15 +16442,15 @@
    "updated": "2026-09-19T21:43:54.330Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b39-l18-limitation-status-count-register",
    "declared_short": "law-b39-l18-limitation-status-count-register",
-   "folder": "law-b39-l18-limitation-status-count-register-private-rules-layout-parity-20260925",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b39-l18-limitation-status-count-register-private-rules-layout-parity-20260925",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e20bab7e9f0be7c426a87f450d66f1406bece3e0ef97c87e1b01a77b2a7beb17",
    "size_bytes": 7689026,
    "updated": "2026-09-25T08:45:05.422Z"
@@ -18162,15 +18176,15 @@
    "updated": "2026-09-24T17:37:58.978Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/sci-sc09-b10-vti-task-001698",
    "declared_short": "sci-sc09-b10-vti-task-001698",
-   "folder": "sci-sc09-b10-vti-task-001698",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "sci-sc09-b10-vti-task-001698",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d055bc86f35e04a9dae3fb8ef3b95a82f1a5505bab538e8938620a762741b92e",
    "size_bytes": 6880183,
    "updated": "2026-09-25T08:45:22.375Z"
@@ -19287,6 +19301,20 @@
    "sha256": "354bc3e8cb2b522cd04532193103b32884850d5c136d1e8de95d93caa3262508",
    "size_bytes": 7305281,
    "updated": "2026-09-21T20:43:24.495Z"
+  },
+  {
+   "declared_name": "obi/tech-b51-t2-ai-video-tool-capability-scorecard",
+   "declared_short": "tech-b51-t2-ai-video-tool-capability-scorecard",
+   "folder": "tech-b51-t2-ai-video-tool-capability-scorecard",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "6c7f5cadf1dfb6f2c171f8ef840fb591200b75395754419a663d674a041ae3cc",
+   "size_bytes": 4280037,
+   "updated": "2026-09-25T08:51:55.220Z"
   },
   {
    "connector_provenance": null,
