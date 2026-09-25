@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T09:05:04+00:00",
+ "generated_at": "2026-09-25T09:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1463,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 527318
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -6248,15 +6248,15 @@
    "updated": "2026-09-17T12:28:26.365Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c717-tv-channel-remote-compatibility-audit",
    "declared_short": "code-c717-tv-channel-remote-compatibility-audit",
-   "folder": "code-c717-tv-channel-remote-compatibility-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c717-tv-channel-remote-compatibility-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d2bebb685805a8b32ec56f7e87aabddb2e6c2604de50784cfc54baeb3e8dfb45",
    "size_bytes": 6848307,
    "updated": "2026-09-25T09:04:28.245Z"
@@ -11804,15 +11804,15 @@
    "updated": "2026-09-09T22:41:41.863Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g592-sop-review-cycle-compliance-audit",
    "declared_short": "gen-g592-sop-review-cycle-compliance-audit",
-   "folder": "gen-g592-sop-review-cycle-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g592-sop-review-cycle-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "38ad74e7fc20dee66c4adb69af4f72d48c2b4b187f22b60c2c79b304d7982883",
    "size_bytes": 8497824,
    "updated": "2026-09-25T09:02:33.965Z"
@@ -19681,15 +19681,15 @@
    "updated": "2026-09-20T06:57:01.136Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b60-t6-lead-bot-transcript-rule-compliance-audit",
    "declared_short": "tech-b60-t6-lead-bot-transcript-rule-compliance-audit",
-   "folder": "tech-b60-t6-lead-bot-transcript-rule-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b60-t6-lead-bot-transcript-rule-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "342d5fd92b2b17686f0cc12edffef53fc4639c3195244af51db068b7467a8ca0",
    "size_bytes": 7896583,
    "updated": "2026-09-25T09:02:33.243Z"
@@ -21235,17 +21235,17 @@
    "updated": "2026-09-20T10:00:24.278Z"
   },
   {
-   "declared_name": "harbor/thirteen-tidied-away-two-links-left",
-   "declared_short": "thirteen-tidied-away-two-links-left",
-   "folder": "thirteen-tidied-away-two-links-left",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/thirteen-tidied-away-two-links-left",
+   "declared_short": "thirteen-tidied-away-two-links-left",
    "domain": null,
+   "folder": "thirteen-tidied-away-two-links-left",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ee05f2384553259551cab2e04615c5c3fffe500d0410e45590ab17a561d6d74e",
    "size_bytes": 9880322,
    "updated": "2026-09-25T09:04:00.249Z"
