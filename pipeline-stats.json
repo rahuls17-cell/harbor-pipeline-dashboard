@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T13:15:04+00:00",
+ "generated_at": "2026-09-25T13:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1495,
-  "scanned": 1495,
+  "task_folders": 1496,
+  "scanned": 1496,
   "connector": 415,
-  "non_connector": 1080,
+  "non_connector": 1081,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 633,
-  "code": 283,
+  "code": 284,
   "fin": 102,
   "gen": 287,
   "health": 100,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 418,
-  "obi": 1076,
+  "obi": 1077,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131509
+  "approx_bytes_read": 131454
  },
  "errors": [],
  "tasks": [
@@ -1753,15 +1753,15 @@
    "updated": "2026-09-25T03:25:04.308Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b23-b11-smb-frustration-post-coding",
    "declared_short": "bus-b23-b11-smb-frustration-post-coding",
-   "folder": "bus-b23-b11-smb-frustration-post-coding",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b23-b11-smb-frustration-post-coding",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c9cf3ffc7cbfe4ce6e9db098ac7cdd79a121a7a58db67394e595210d41ade554",
    "size_bytes": 10537674,
    "updated": "2026-09-25T13:13:00.636Z"
@@ -4037,6 +4037,20 @@
    "sha256": "51fa9041e766488f4c838a71db00f4c29edf4551fb1311987faad66aa91070c5",
    "size_bytes": 7709536,
    "updated": "2026-09-24T21:50:43.513Z"
+  },
+  {
+   "declared_name": "obi/code-c229-mesh-mtls-enforcement-audit",
+   "declared_short": "code-c229-mesh-mtls-enforcement-audit",
+   "folder": "code-c229-mesh-mtls-enforcement-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "6fd92f16996a4ecb1f76dc03a36a30218f4adc6b35662c4e86c0a34d9e1d9f0d",
+   "size_bytes": 6652373,
+   "updated": "2026-09-25T13:19:14.991Z"
   },
   {
    "connector_provenance": null,
