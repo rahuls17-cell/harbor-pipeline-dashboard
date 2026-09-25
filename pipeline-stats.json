@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-25T14:45:03+00:00",
+ "generated_at": "2026-09-25T14:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1504,
-  "scanned": 1504,
-  "connector": 415,
-  "non_connector": 1089,
+  "task_folders": 1506,
+  "scanned": 1506,
+  "connector": 416,
+  "non_connector": 1090,
   "errors": 0
  },
  "connector_provenance": {
   "real": 128,
   "unknown": 140,
-  "synthetic": 147
+  "synthetic": 148
  },
  "domain": {
-  "unnamed": 638,
+  "unnamed": 640,
   "code": 286,
   "fin": 103,
   "gen": 287,
@@ -22,8 +22,8 @@
   "law": 90
  },
  "name_prefix": {
-  "harbor": 418,
-  "obi": 1085,
+  "harbor": 419,
+  "obi": 1086,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -40,7 +40,7 @@
   "email-calendar-gym": 24,
   "linear-gym": 23,
   "outlook-gym": 16,
-  "gws-gym": 10,
+  "gws-gym": 11,
   "supabase-gym": 5,
   "teams-gym": 5,
   "microsoft-teams-gym": 4,
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 263066
+  "approx_bytes_read": 265910
  },
  "errors": [],
  "tasks": [
@@ -19888,29 +19888,43 @@
    "updated": "2026-09-25T06:32:53.136Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b51-t7-sending-quota-recompute",
    "declared_short": "tech-b51-t7-sending-quota-recompute",
-   "folder": "tech-b51-t7-sending-quota-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b51-t7-sending-quota-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "247e45f1085be74772bed307c83d265cc80a7a62a36a4eaa22d8d51a7d0fe526",
    "size_bytes": 14838935,
    "updated": "2026-09-25T14:44:50.371Z"
   },
   {
-   "declared_name": "obi/tech-b52-t2-device-service-eligibility-adjudication",
-   "declared_short": "tech-b52-t2-device-service-eligibility-adjudication",
-   "folder": "tech-b52-t2-device-service-eligibility-adjudication",
+   "declared_name": "obi/tech-b51-t8-voice-agent-shift-routing-reconciliation",
+   "declared_short": "tech-b51-t8-voice-agent-shift-routing-reconciliation",
+   "folder": "tech-b51-t8-voice-agent-shift-routing-reconciliation-v2",
    "prefix": "obi",
    "is_connector": false,
    "connector_services": [],
    "connector_provenance": null,
    "domain": null,
    "image": null,
+   "sha256": "87e218c711c66577d23408134c139ef151f556da7f0f9b1c385e3c1036819cd7",
+   "size_bytes": 8925459,
+   "updated": "2026-09-25T14:45:38.007Z"
+  },
+  {
+   "connector_provenance": null,
+   "connector_services": [],
+   "declared_name": "obi/tech-b52-t2-device-service-eligibility-adjudication",
+   "declared_short": "tech-b52-t2-device-service-eligibility-adjudication",
+   "domain": null,
+   "folder": "tech-b52-t2-device-service-eligibility-adjudication",
+   "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2a024d781f9e18f3fd40e5d50b1abb2c1a0a340066b956b0cdc8ca545f5ac02b",
    "size_bytes": 5145736,
    "updated": "2026-09-25T14:40:35.503Z"
@@ -21010,6 +21024,22 @@
    "sha256": "6f9eb886192a808503639fbd4bf7628a45ccf510e4ef09470bf1c6096d1a3f44",
    "size_bytes": 6716786,
    "updated": "2026-09-18T08:43:14.115Z"
+  },
+  {
+   "declared_name": "harbor/the-header-already-in-use",
+   "declared_short": "the-header-already-in-use",
+   "folder": "the-header-already-in-use",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "73e1354f7bf5468379332e2c3f297cda538c6424f542c55e2605237012229bb3",
+   "size_bytes": 7007540,
+   "updated": "2026-09-25T14:47:12.521Z"
   },
   {
    "connector_provenance": "unknown",
