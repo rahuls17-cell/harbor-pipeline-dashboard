@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T06:40:03+00:00",
+ "generated_at": "2026-09-25T06:45:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1439,
-  "scanned": 1439,
+  "task_folders": 1440,
+  "scanned": 1440,
   "connector": 409,
-  "non_connector": 1030,
+  "non_connector": 1031,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 603,
   "code": 272,
-  "fin": 99,
+  "fin": 100,
   "gen": 281,
   "health": 96,
   "law": 88
  },
  "name_prefix": {
   "harbor": 411,
-  "obi": 1028
+  "obi": 1029
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131882
  },
  "errors": [],
  "tasks": [
@@ -9081,6 +9081,20 @@
    "sha256": "c87767bd9d8ff67faad47b1c6c84594ba4a9939afc7fe4cc110e48212e3497a3",
    "size_bytes": 7510719,
    "updated": "2026-09-24T14:29:57.584Z"
+  },
+  {
+   "declared_name": "obi/fin-b53-f9-homeowners-carrier-appetite-screen",
+   "declared_short": "fin-b53-f9-homeowners-carrier-appetite-screen",
+   "folder": "fin-b53-f9-homeowners-carrier-appetite-screen",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "5b54c1d62d260620a653aa9a3c420e10c7679110bc2d39acd360f5419fa42056",
+   "size_bytes": 7206998,
+   "updated": "2026-09-25T06:41:57.573Z"
   },
   {
    "connector_provenance": null,
