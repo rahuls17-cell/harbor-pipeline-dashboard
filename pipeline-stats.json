@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T13:05:03+00:00",
+ "generated_at": "2026-09-25T13:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1492,
-  "scanned": 1492,
+  "task_folders": 1494,
+  "scanned": 1494,
   "connector": 415,
-  "non_connector": 1077,
+  "non_connector": 1079,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 147
  },
  "domain": {
-  "unnamed": 630,
+  "unnamed": 632,
   "code": 283,
   "fin": 102,
   "gen": 287,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 418,
-  "obi": 1073,
+  "obi": 1075,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 262858
  },
  "errors": [],
  "tasks": [
@@ -19636,6 +19636,20 @@
    "updated": "2026-09-17T19:10:45.671Z"
   },
   {
+   "declared_name": "obi/tech-b45-t6-handoff-vs-transcript-close-the-gaps",
+   "declared_short": "tech-b45-t6-handoff-vs-transcript-close-the-gaps",
+   "folder": "tech-b45-t6-handoff-vs-transcript-close-the-gaps-v6",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "15b350deb9a0d9fc41d08927d751fa4c2e21dc8bf7c319b5b8d2df8aa6e28d3f",
+   "size_bytes": 9191512,
+   "updated": "2026-09-25T13:07:55.033Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/tech-b45-t7-human-auth-vs-m2m-auth-standards-disagree",
@@ -19942,6 +19956,20 @@
    "sha256": "b56a80f58c2d11870b3c4fa09d698105b2fb7b48a7518376d23e33b9570a57b6",
    "size_bytes": 8737959,
    "updated": "2026-09-24T03:04:12.398Z"
+  },
+  {
+   "declared_name": "obi/tech-b54-t8-filter-group-membership-register",
+   "declared_short": "tech-b54-t8-filter-group-membership-register",
+   "folder": "tech-b54-t8-filter-group-membership-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "90c6d6248d385cbd6e8cbe16be48fcf6e06cc2afa083cea0e2b3e96a384313f4",
+   "size_bytes": 8931152,
+   "updated": "2026-09-25T13:09:08.147Z"
   },
   {
    "connector_provenance": null,
