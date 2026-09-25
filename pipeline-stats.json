@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T01:35:02+00:00",
+ "generated_at": "2026-09-25T01:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1416,
-  "scanned": 1416,
+  "task_folders": 1417,
+  "scanned": 1417,
   "connector": 408,
-  "non_connector": 1008,
+  "non_connector": 1009,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 593,
-  "code": 264,
+  "code": 265,
   "fin": 97,
   "gen": 281,
   "health": 94,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 410,
-  "obi": 1006
+  "obi": 1007
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131510
+  "approx_bytes_read": 131513
  },
  "errors": [],
  "tasks": [
@@ -3879,15 +3879,15 @@
    "updated": "2026-09-20T12:41:23.401Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c266-saas-tool-procurement-audit",
    "declared_short": "code-c266-saas-tool-procurement-audit",
-   "folder": "code-c266-saas-tool-procurement-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c266-saas-tool-procurement-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9861797484a7f12c7d78134de0c82213f10ee2322aa3917b784b6cdd822dc19f",
    "size_bytes": 7255807,
    "updated": "2026-09-25T01:34:06.731Z"
@@ -3905,6 +3905,20 @@
    "sha256": "43b773129d33ac0703bc680cff402e3325c6f0179a0bb89d77521309a3f35f0b",
    "size_bytes": 6240302,
    "updated": "2026-09-10T22:00:39.465Z"
+  },
+  {
+   "declared_name": "obi/code-c270-ai-model-endpoint-governance-audit",
+   "declared_short": "code-c270-ai-model-endpoint-governance-audit",
+   "folder": "code-c270-ai-model-endpoint-governance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "dcc016d3a7da17129c435e7e29c52a012d0dbb91e5b234fe4e45a7a8c82bf06e",
+   "size_bytes": 6918885,
+   "updated": "2026-09-25T01:35:15.952Z"
   },
   {
    "connector_provenance": null,
