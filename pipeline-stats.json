@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T07:15:03+00:00",
+ "generated_at": "2026-09-25T07:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1443,
-  "scanned": 1443,
+  "task_folders": 1444,
+  "scanned": 1444,
   "connector": 409,
-  "non_connector": 1034,
+  "non_connector": 1035,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 604,
-  "code": 274,
+  "code": 275,
   "fin": 100,
   "gen": 281,
   "health": 96,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 411,
-  "obi": 1032
+  "obi": 1033
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131540
+  "approx_bytes_read": 131581
  },
  "errors": [],
  "tasks": [
@@ -2113,15 +2113,15 @@
    "updated": "2026-09-25T03:22:50.578Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b48-b4-storage-specification-shortlist",
    "declared_short": "bus-b48-b4-storage-specification-shortlist",
-   "folder": "bus-b48-b4-storage-specification-shortlist",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b48-b4-storage-specification-shortlist",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "213b74b21b8f29c2e9f033ba81a881ec310e19d7a9d1a9f0755e4a9acd226904",
    "size_bytes": 3632275,
    "updated": "2026-09-25T07:10:11.393Z"
@@ -3389,6 +3389,20 @@
    "sha256": "15fff273b37861ac27c31709b56524c1fb2712a2d5bfd494bdd57a02bf909398",
    "size_bytes": 7366027,
    "updated": "2026-09-25T06:04:36.625Z"
+  },
+  {
+   "declared_name": "obi/code-c182-automation-suite-handoff-audit",
+   "declared_short": "code-c182-automation-suite-handoff-audit",
+   "folder": "code-c182-automation-suite-handoff-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "0bcb3ade475a6a1f82806e3974bfb60af9ba404eab5d51fe6011071fbe609ff1",
+   "size_bytes": 7521742,
+   "updated": "2026-09-25T07:19:45.117Z"
   },
   {
    "connector_provenance": null,
