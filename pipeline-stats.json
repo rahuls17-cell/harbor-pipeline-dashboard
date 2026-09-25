@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T18:35:05+00:00",
+ "generated_at": "2026-09-25T18:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1519,
-  "scanned": 1519,
+  "task_folders": 1520,
+  "scanned": 1520,
   "connector": 419,
-  "non_connector": 1100,
+  "non_connector": 1101,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 150
  },
  "domain": {
-  "unnamed": 647,
+  "unnamed": 648,
   "code": 290,
   "fin": 103,
   "gen": 288,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 422,
-  "obi": 1096,
+  "obi": 1097,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 274551
+  "new_archives_read": 1,
+  "approx_bytes_read": 131599
  },
  "errors": [],
  "tasks": [
@@ -13865,17 +13865,17 @@
    "updated": "2026-09-22T22:40:54.465Z"
   },
   {
-   "declared_name": "harbor/global-claims-ready-to-file",
-   "declared_short": "global-claims-ready-to-file",
-   "folder": "global-claims-ready-to-file",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/global-claims-ready-to-file",
+   "declared_short": "global-claims-ready-to-file",
    "domain": null,
+   "folder": "global-claims-ready-to-file",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3979128cfe0ed10515b433dd1ac7903085ec7b997516caa0556ed24f652e41f3",
    "size_bytes": 9858204,
    "updated": "2026-09-25T18:31:53.562Z"
@@ -18755,6 +18755,20 @@
    "updated": "2026-09-25T15:19:44.503Z"
   },
   {
+   "declared_name": "obi/sci-sc07-b10-ontology-pruning",
+   "declared_short": "sci-sc07-b10-ontology-pruning",
+   "folder": "sci-sc07-b10-ontology-pruning-v3",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "308a2dd5921cfee53ec066bd48549010bc30024b5a389c37ca8db5359f931b09",
+   "size_bytes": 11546594,
+   "updated": "2026-09-25T18:36:37.952Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/sci-sc09-a5-philosophy-salon-roster-reconciliation",
@@ -20894,17 +20908,17 @@
    "updated": "2026-09-17T16:55:29.261Z"
   },
   {
-   "declared_name": "harbor/the-big-old-attachments-worth-clearing",
-   "declared_short": "the-big-old-attachments-worth-clearing",
-   "folder": "the-big-old-attachments-worth-clearing",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-big-old-attachments-worth-clearing",
+   "declared_short": "the-big-old-attachments-worth-clearing",
    "domain": null,
+   "folder": "the-big-old-attachments-worth-clearing",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7757ff4fc278b6e4de4f3f8e7c0b0112d5761b110231069dce3270dc08dab083",
    "size_bytes": 9568891,
    "updated": "2026-09-25T18:30:58.618Z"
