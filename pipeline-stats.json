@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T12:55:03+00:00",
+ "generated_at": "2026-09-25T13:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1491,
-  "scanned": 1491,
+  "task_folders": 1492,
+  "scanned": 1492,
   "connector": 415,
-  "non_connector": 1076,
+  "non_connector": 1077,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 630,
-  "code": 282,
+  "code": 283,
   "fin": 102,
   "gen": 287,
   "health": 100,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 418,
-  "obi": 1072,
+  "obi": 1073,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134487
+  "approx_bytes_read": 131613
  },
  "errors": [],
  "tasks": [
@@ -6389,6 +6389,20 @@
    "sha256": "0d8a7ad1c6d402f66d6cad7fd8e7d555028ff35403ed0b3c04567810b5b56570",
    "size_bytes": 13745062,
    "updated": "2026-09-17T19:13:39.208Z"
+  },
+  {
+   "declared_name": "obi/code-c705-interface-feature-tier-access-audit",
+   "declared_short": "code-c705-interface-feature-tier-access-audit",
+   "folder": "code-c705-interface-feature-tier-access-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "43edbc44f0a8dfbdab95f9479ef9bbb9f2ea46334a13fb90e773d770f78b6d7e",
+   "size_bytes": 8364341,
+   "updated": "2026-09-25T12:57:48.881Z"
   },
   {
    "connector_provenance": null,
@@ -22814,11 +22828,7 @@
    "updated": "2026-09-20T16:24:53.457Z"
   },
   {
-   "declared_name": "harbor/zeta-subscription-840-canceled-after-failed-may-billing-trace-the-dunn",
-   "declared_short": "zeta-subscription-840-canceled-after-failed-may-billing-trace-the-dunn",
-   "folder": "zeta-subscription-840-canceled-after-failed-may-billing-trace-the-dunn-qc",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -22827,9 +22837,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/zeta-subscription-840-canceled-after-failed-may-billing-trace-the-dunn",
+   "declared_short": "zeta-subscription-840-canceled-after-failed-may-billing-trace-the-dunn",
    "domain": null,
+   "folder": "zeta-subscription-840-canceled-after-failed-may-billing-trace-the-dunn-qc",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4ccd270747bc7a9ad9aca49789081ea9fc9ee23e69a74c566c706f8f7b68e4d3",
    "size_bytes": 8464026,
    "updated": "2026-09-25T12:54:39.380Z"
