@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T08:15:04+00:00",
+ "generated_at": "2026-09-25T08:20:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1448,
-  "scanned": 1448,
+  "task_folders": 1449,
+  "scanned": 1449,
   "connector": 409,
-  "non_connector": 1039,
+  "non_connector": 1040,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 606,
-  "code": 276,
+  "code": 277,
   "fin": 100,
   "gen": 281,
   "health": 97,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 411,
-  "obi": 1037
+  "obi": 1038
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131489
  },
  "errors": [],
  "tasks": [
@@ -6133,6 +6133,20 @@
    "sha256": "e1b9820a2571b0779c1920b7437cb0e05a14fa938848b7f6e439e383dee19bdc",
    "size_bytes": 4617145,
    "updated": "2026-09-05T21:44:56.715Z"
+  },
+  {
+   "declared_name": "obi/code-c703-thumbnail-creative-brief-qc-audit",
+   "declared_short": "code-c703-thumbnail-creative-brief-qc-audit",
+   "folder": "code-c703-thumbnail-creative-brief-qc-audit-r7",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "8a6f4674c13a616e9859381dd36bf8589b704b7cceca8e60f6d5e9931ec2f3dc",
+   "size_bytes": 6194821,
+   "updated": "2026-09-25T08:19:07.424Z"
   },
   {
    "connector_provenance": null,
