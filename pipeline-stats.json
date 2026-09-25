@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T11:20:03+00:00",
+ "generated_at": "2026-09-25T11:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1473,
-  "scanned": 1473,
+  "task_folders": 1475,
+  "scanned": 1475,
   "connector": 411,
-  "non_connector": 1062,
+  "non_connector": 1064,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 145
  },
  "domain": {
-  "unnamed": 618,
+  "unnamed": 620,
   "code": 281,
   "fin": 101,
   "gen": 285,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 414,
-  "obi": 1058,
+  "obi": 1060,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131351
+  "new_archives_read": 2,
+  "approx_bytes_read": 263092
  },
  "errors": [],
  "tasks": [
@@ -9479,15 +9479,15 @@
    "updated": "2026-09-09T13:26:58.809Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "harbor/fin-f16-cash-flow-indirect-rebuild",
    "declared_short": "fin-f16-cash-flow-indirect-rebuild",
-   "folder": "fin-f16-cash-flow-indirect-rebuild-9e08d9-v1-sna-gvwi",
-   "prefix": "harbor",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-f16-cash-flow-indirect-rebuild-9e08d9-v1-sna-gvwi",
    "image": null,
+   "is_connector": false,
+   "prefix": "harbor",
    "sha256": "b9e75ac5e0778c71d68d16351c188d40041205abbeab1c9d65ae1087201b29aa",
    "size_bytes": 8211087,
    "updated": "2026-09-25T11:18:13.209Z"
@@ -19544,6 +19544,20 @@
    "updated": "2026-09-22T04:10:05.493Z"
   },
   {
+   "declared_name": "obi/tech-b51-t4-grid-event-dataset-availability-register",
+   "declared_short": "tech-b51-t4-grid-event-dataset-availability-register",
+   "folder": "tech-b51-t4-grid-event-dataset-availability-register-v2",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "7dccf173de41124d59c0628438f643aeb48e2df7f5c9a96f08f9046f9222c22a",
+   "size_bytes": 12623128,
+   "updated": "2026-09-25T11:21:14.109Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/tech-b51-t5-compose-env-config-reconciliation",
@@ -20242,6 +20256,20 @@
    "sha256": "fcbab22583bee0e1bec6170aaeb584f35bdf47d0e8d503999dae9e3713dd29bb",
    "size_bytes": 4876937,
    "updated": "2026-09-22T05:05:28.353Z"
+  },
+  {
+   "declared_name": "obi/tech-mg-it-b9-a3-phone-data-counter-gap-english-reply",
+   "declared_short": "tech-mg-it-b9-a3-phone-data-counter-gap-english-reply",
+   "folder": "tech-mg-it-b9-a3-phone-data-counter-gap-english-reply",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "6321d4cdb87a857729b72184aa946d0c5d23fc29cf54e5716f4142c824944204",
+   "size_bytes": 8873377,
+   "updated": "2026-09-25T11:20:51.993Z"
   },
   {
    "connector_provenance": null,
