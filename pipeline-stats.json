@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T21:30:03+00:00",
+ "generated_at": "2026-09-25T21:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1547,
-  "scanned": 1547,
+  "task_folders": 1548,
+  "scanned": 1548,
   "connector": 426,
-  "non_connector": 1121,
+  "non_connector": 1122,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 666,
   "code": 293,
-  "fin": 103,
+  "fin": 104,
   "gen": 290,
   "health": 103,
   "law": 92
  },
  "name_prefix": {
   "harbor": 429,
-  "obi": 1117,
+  "obi": 1118,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131732
  },
  "errors": [],
  "tasks": [
@@ -9117,6 +9117,20 @@
    "sha256": "ad11d7a39d4e0a5b32a6db699c6be645001e16344009e1a3492ee9c51dac9e64",
    "size_bytes": 5226348,
    "updated": "2026-09-18T13:10:29.387Z"
+  },
+  {
+   "declared_name": "obi/fin-b44-a3-counterparty-cash-flow-bridge",
+   "declared_short": "fin-b44-a3-counterparty-cash-flow-bridge",
+   "folder": "fin-b44-a3-counterparty-cash-flow-bridge",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "814df3c12413e0ab3de971e2d756aaa61339bc585ad48d538b7c0daa07098735",
+   "size_bytes": 7483038,
+   "updated": "2026-09-25T21:30:04.095Z"
   },
   {
    "connector_provenance": null,
