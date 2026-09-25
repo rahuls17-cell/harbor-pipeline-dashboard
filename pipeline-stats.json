@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T19:20:03+00:00",
+ "generated_at": "2026-09-25T19:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1529,
-  "scanned": 1529,
+  "task_folders": 1530,
+  "scanned": 1530,
   "connector": 421,
-  "non_connector": 1108,
+  "non_connector": 1109,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 151
  },
  "domain": {
-  "unnamed": 652,
+  "unnamed": 653,
   "code": 292,
   "fin": 103,
   "gen": 289,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 424,
-  "obi": 1104,
+  "obi": 1105,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131608
  },
  "errors": [],
  "tasks": [
@@ -2565,6 +2565,20 @@
    "sha256": "2f9ae72dd65b42d50b9d19dd7a6a45a5912687c900a92b15cb5458a42bc7fe50",
    "size_bytes": 13200690,
    "updated": "2026-09-24T17:14:44.435Z"
+  },
+  {
+   "declared_name": "obi/bus-b609-t4-sales-follow-up-weekday-date-audit",
+   "declared_short": "bus-b609-t4-sales-follow-up-weekday-date-audit",
+   "folder": "bus-b609-t4-sales-follow-up-weekday-date-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "9f3c388a81cedc0342d8bac839f1225b1d74eb67371eec1263d2a628ab21559e",
+   "size_bytes": 7114261,
+   "updated": "2026-09-25T19:20:29.280Z"
   },
   {
    "connector_provenance": null,
