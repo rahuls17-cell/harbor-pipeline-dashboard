@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T20:40:02+00:00",
+ "generated_at": "2026-09-25T20:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1539,
-  "scanned": 1539,
+  "task_folders": 1540,
+  "scanned": 1540,
   "connector": 424,
-  "non_connector": 1115,
+  "non_connector": 1116,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 154
  },
  "domain": {
-  "unnamed": 661,
+  "unnamed": 662,
   "code": 292,
   "fin": 103,
   "gen": 289,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 427,
-  "obi": 1111,
+  "obi": 1112,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131401
  },
  "errors": [],
  "tasks": [
@@ -8525,6 +8525,20 @@
    "sha256": "f41c134f577f1b25f80a512ed36a9c37188d48a11c32fe490d758abe422a83e1",
    "size_bytes": 5979864,
    "updated": "2026-09-23T19:13:43.935Z"
+  },
+  {
+   "declared_name": "obi/edu-sc09-b4-dasha-timeline-reconciliation",
+   "declared_short": "edu-sc09-b4-dasha-timeline-reconciliation",
+   "folder": "edu-sc09-b4-dasha-timeline-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "292ceb406b0d06a1fd9e6069a1318eda5658154d922ec4c46fdfb08ab2e60426",
+   "size_bytes": 4612573,
+   "updated": "2026-09-25T20:49:28.487Z"
   },
   {
    "connector_provenance": null,
