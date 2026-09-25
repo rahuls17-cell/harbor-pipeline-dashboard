@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T10:15:03+00:00",
+ "generated_at": "2026-09-25T10:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1469,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 265255
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3602,15 +3602,15 @@
    "updated": "2026-09-23T01:33:27.720Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c199-iam-role-least-privilege-audit",
    "declared_short": "code-c199-iam-role-least-privilege-audit",
-   "folder": "code-c199-iam-role-least-privilege-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c199-iam-role-least-privilege-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "3767869ce408aa48fceb0135a5e1bb1cab15fd133006a0d12200dd8bc9611147",
    "size_bytes": 6329828,
    "updated": "2026-09-25T10:10:14.061Z"
@@ -19821,15 +19821,15 @@
    "updated": "2026-09-22T13:32:59.814Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b607-t7-solar-circuit-conductor-sizing",
    "declared_short": "tech-b607-t7-solar-circuit-conductor-sizing",
-   "folder": "tech-b607-t7-solar-circuit-conductor-sizing",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b607-t7-solar-circuit-conductor-sizing",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2a7d6656b42ee9a740225b994273acac58929449e0eb62b16a6b27a9f5440d40",
    "size_bytes": 5661944,
    "updated": "2026-09-25T10:10:36.021Z"
