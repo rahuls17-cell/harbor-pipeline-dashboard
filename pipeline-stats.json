@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T14:50:04+00:00",
+ "generated_at": "2026-09-25T14:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1506,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 265910
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -19902,15 +19902,15 @@
    "updated": "2026-09-25T14:44:50.371Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b51-t8-voice-agent-shift-routing-reconciliation",
    "declared_short": "tech-b51-t8-voice-agent-shift-routing-reconciliation",
-   "folder": "tech-b51-t8-voice-agent-shift-routing-reconciliation-v2",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b51-t8-voice-agent-shift-routing-reconciliation-v2",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "87e218c711c66577d23408134c139ef151f556da7f0f9b1c385e3c1036819cd7",
    "size_bytes": 8925459,
    "updated": "2026-09-25T14:45:38.007Z"
@@ -21026,17 +21026,17 @@
    "updated": "2026-09-18T08:43:14.115Z"
   },
   {
-   "declared_name": "harbor/the-header-already-in-use",
-   "declared_short": "the-header-already-in-use",
-   "folder": "the-header-already-in-use",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-header-already-in-use",
+   "declared_short": "the-header-already-in-use",
    "domain": null,
+   "folder": "the-header-already-in-use",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "73e1354f7bf5468379332e2c3f297cda538c6424f542c55e2605237012229bb3",
    "size_bytes": 7007540,
    "updated": "2026-09-25T14:47:12.521Z"
