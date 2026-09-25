@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T22:05:04+00:00",
+ "generated_at": "2026-09-25T22:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1553,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263050
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4309,15 +4309,15 @@
    "updated": "2026-09-19T19:21:24.250Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c238-dependency-license-compliance-audit",
    "declared_short": "code-c238-dependency-license-compliance-audit",
-   "folder": "code-c238-dependency-license-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c238-dependency-license-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "afc22dae4af64f53e2035986821398e59dd157644feca1ed73d41858b4926152",
    "size_bytes": 6056898,
    "updated": "2026-09-25T22:00:41.731Z"
@@ -10495,15 +10495,15 @@
    "updated": "2026-09-18T11:19:29.904Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1140-executive-response-communication-audit",
    "declared_short": "gen-g1140-executive-response-communication-audit",
-   "folder": "gen-g1140-executive-response-communication-audit-final",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1140-executive-response-communication-audit-final",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "341fe721c29a37406e8b2060908e442eec97d07399fd279dc778368449dcd897",
    "size_bytes": 5766521,
    "updated": "2026-09-25T22:02:32.619Z"
