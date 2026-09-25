@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T09:15:06+00:00",
+ "generated_at": "2026-09-25T09:20:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1464,
-  "scanned": 1464,
+  "task_folders": 1465,
+  "scanned": 1465,
   "connector": 410,
-  "non_connector": 1054,
+  "non_connector": 1055,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 615,
-  "code": 278,
+  "code": 279,
   "fin": 100,
   "gen": 284,
   "health": 98,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 412,
-  "obi": 1051,
+  "obi": 1052,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131570
+  "approx_bytes_read": 131600
  },
  "errors": [],
  "tasks": [
@@ -4734,6 +4734,20 @@
    "sha256": "89041bd8108a07cc4dcdeee64962c86c373cea9d99f4ba9a140e2f7c5e34d23c",
    "size_bytes": 5024522,
    "updated": "2026-09-13T13:58:52.242Z"
+  },
+  {
+   "declared_name": "obi/code-c372-shellfish-harvest-zone-compliance-audit",
+   "declared_short": "code-c372-shellfish-harvest-zone-compliance-audit",
+   "folder": "code-c372-shellfish-harvest-zone-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "1a189f77a59f54f7755b2640b51502106be532eb79d0f84d5d1936dfe6a3b8fd",
+   "size_bytes": 6209699,
+   "updated": "2026-09-25T09:16:32.316Z"
   },
   {
    "connector_provenance": null,
@@ -14646,15 +14660,15 @@
    "updated": "2026-09-21T16:06:23.332Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b43-h15-cme-grant-cycle-calendar",
    "declared_short": "health-b43-h15-cme-grant-cycle-calendar",
-   "folder": "health-b43-h15-cme-grant-cycle-calendar",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b43-h15-cme-grant-cycle-calendar",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a8f94c0d74ab531d77853709445564f7088bd6df9679af410c450a17ee385652",
    "size_bytes": 7042992,
    "updated": "2026-09-25T09:12:09.217Z"
