@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T10:35:04+00:00",
+ "generated_at": "2026-09-25T10:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1470,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131456
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3882,15 +3882,15 @@
    "updated": "2026-09-24T19:36:25.674Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c225-sbom-vulnerability-waiver-audit",
    "declared_short": "code-c225-sbom-vulnerability-waiver-audit",
-   "folder": "code-c225-sbom-vulnerability-waiver-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c225-sbom-vulnerability-waiver-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "18d8b489d1f73c88c9cd8feff1680e661d00e38e15c4e36d1480b186f5b3f37f",
    "size_bytes": 6283472,
    "updated": "2026-09-25T10:32:25.188Z"
