@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T23:20:02+00:00",
+ "generated_at": "2026-09-25T23:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1555,
-  "scanned": 1555,
+  "task_folders": 1557,
+  "scanned": 1557,
   "connector": 427,
-  "non_connector": 1128,
+  "non_connector": 1130,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 157
  },
  "domain": {
-  "unnamed": 668,
-  "code": 294,
+  "unnamed": 669,
+  "code": 295,
   "fin": 104,
   "gen": 292,
   "health": 105,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 430,
-  "obi": 1124,
+  "obi": 1126,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263004
  },
  "errors": [],
  "tasks": [
@@ -1811,6 +1811,20 @@
    "sha256": "c9cf3ffc7cbfe4ce6e9db098ac7cdd79a121a7a58db67394e595210d41ade554",
    "size_bytes": 10537674,
    "updated": "2026-09-25T13:13:00.636Z"
+  },
+  {
+   "declared_name": "obi/bus-b23-b15-power-dialer-license-quote",
+   "declared_short": "bus-b23-b15-power-dialer-license-quote",
+   "folder": "bus-b23-b15-power-dialer-license-quote",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "ef3abd71f3955cdd7a5aef42fd1e7b2f2a9f214911c65651fe9530ca45aa4ec0",
+   "size_bytes": 8234493,
+   "updated": "2026-09-25T23:44:04.486Z"
   },
   {
    "connector_provenance": null,
@@ -4153,6 +4167,20 @@
    "sha256": "c894efcacfd060778cb18105d7d4d8edf21f7a10dcd9b784b128eb893310b8b9",
    "size_bytes": 9657394,
    "updated": "2026-09-24T19:36:25.674Z"
+  },
+  {
+   "declared_name": "obi/code-c222-branch-protection-policy-audit",
+   "declared_short": "code-c222-branch-protection-policy-audit",
+   "folder": "code-c222-branch-protection-policy-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "bbd78cb23bc9244bcdae9c775ba8039c0f4124a9fd6d5c5f51a7ed5527365671",
+   "size_bytes": 6552920,
+   "updated": "2026-09-25T23:44:05.607Z"
   },
   {
    "connector_provenance": null,
