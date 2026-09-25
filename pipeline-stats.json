@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-25T21:15:04+00:00",
+ "generated_at": "2026-09-25T21:20:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1545,
-  "scanned": 1545,
-  "connector": 425,
+  "task_folders": 1546,
+  "scanned": 1546,
+  "connector": 426,
   "non_connector": 1120,
   "errors": 0
  },
  "connector_provenance": {
   "real": 128,
   "unknown": 142,
-  "synthetic": 155
+  "synthetic": 156
  },
  "domain": {
-  "unnamed": 665,
+  "unnamed": 666,
   "code": 293,
   "fin": 103,
   "gen": 290,
@@ -22,7 +22,7 @@
   "law": 92
  },
  "name_prefix": {
-  "harbor": 428,
+  "harbor": 429,
   "obi": 1116,
   "vankamasthanamma": 1
  },
@@ -39,7 +39,7 @@
   "github-gym": 30,
   "linear-gym": 24,
   "email-calendar-gym": 24,
-  "outlook-gym": 18,
+  "outlook-gym": 19,
   "gws-gym": 12,
   "supabase-gym": 5,
   "teams-gym": 5,
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136925
+  "approx_bytes_read": 135023
  },
  "errors": [],
  "tasks": [
@@ -18409,6 +18409,22 @@
    "updated": "2026-09-09T20:24:40.236Z"
   },
   {
+   "declared_name": "harbor/one-name-twenty-four-mailboxes",
+   "declared_short": "one-name-twenty-four-mailboxes",
+   "folder": "one-name-twenty-four-mailboxes",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "50a4b8bd60f453b6670a18d46edd039e2cd3a4788eeecdf9d76716aa0e5d869f",
+   "size_bytes": 18720428,
+   "updated": "2026-09-25T21:17:32.120Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
@@ -23160,17 +23176,17 @@
    "updated": "2026-09-20T17:09:38.687Z"
   },
   {
-   "declared_name": "harbor/where-my-meetings-happen",
-   "declared_short": "where-my-meetings-happen",
-   "folder": "where-my-meetings-happen",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/where-my-meetings-happen",
+   "declared_short": "where-my-meetings-happen",
    "domain": null,
+   "folder": "where-my-meetings-happen",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8b2ea5f2854eb8f9960c4c2fd8815e67b81e046a473a98a1d165e5a4f2d00227",
    "size_bytes": 12764022,
    "updated": "2026-09-25T21:11:08.169Z"
