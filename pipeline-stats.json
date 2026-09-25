@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T13:10:04+00:00",
+ "generated_at": "2026-09-25T13:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1494,
-  "scanned": 1494,
+  "task_folders": 1495,
+  "scanned": 1495,
   "connector": 415,
-  "non_connector": 1079,
+  "non_connector": 1080,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 147
  },
  "domain": {
-  "unnamed": 632,
+  "unnamed": 633,
   "code": 283,
   "fin": 102,
   "gen": 287,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 418,
-  "obi": 1075,
+  "obi": 1076,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262858
+  "new_archives_read": 1,
+  "approx_bytes_read": 131509
  },
  "errors": [],
  "tasks": [
@@ -1751,6 +1751,20 @@
    "sha256": "8dff9c38bb5487e87e21c1819d61c2dc82d5fa9beea265fa4ed8a2bafd1a6c5d",
    "size_bytes": 10540845,
    "updated": "2026-09-25T03:25:04.308Z"
+  },
+  {
+   "declared_name": "obi/bus-b23-b11-smb-frustration-post-coding",
+   "declared_short": "bus-b23-b11-smb-frustration-post-coding",
+   "folder": "bus-b23-b11-smb-frustration-post-coding",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "c9cf3ffc7cbfe4ce6e9db098ac7cdd79a121a7a58db67394e595210d41ade554",
+   "size_bytes": 10537674,
+   "updated": "2026-09-25T13:13:00.636Z"
   },
   {
    "connector_provenance": null,
@@ -19636,15 +19650,15 @@
    "updated": "2026-09-17T19:10:45.671Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b45-t6-handoff-vs-transcript-close-the-gaps",
    "declared_short": "tech-b45-t6-handoff-vs-transcript-close-the-gaps",
-   "folder": "tech-b45-t6-handoff-vs-transcript-close-the-gaps-v6",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b45-t6-handoff-vs-transcript-close-the-gaps-v6",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "15b350deb9a0d9fc41d08927d751fa4c2e21dc8bf7c319b5b8d2df8aa6e28d3f",
    "size_bytes": 9191512,
    "updated": "2026-09-25T13:07:55.033Z"
@@ -19958,15 +19972,15 @@
    "updated": "2026-09-24T03:04:12.398Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b54-t8-filter-group-membership-register",
    "declared_short": "tech-b54-t8-filter-group-membership-register",
-   "folder": "tech-b54-t8-filter-group-membership-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b54-t8-filter-group-membership-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "90c6d6248d385cbd6e8cbe16be48fcf6e06cc2afa083cea0e2b3e96a384313f4",
    "size_bytes": 8931152,
    "updated": "2026-09-25T13:09:08.147Z"
