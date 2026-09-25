@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-25T21:50:04+00:00",
+ "generated_at": "2026-09-25T21:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1549,
-  "scanned": 1549,
-  "connector": 426,
-  "non_connector": 1123,
+  "task_folders": 1551,
+  "scanned": 1551,
+  "connector": 427,
+  "non_connector": 1124,
   "errors": 0
  },
  "connector_provenance": {
   "real": 128,
   "unknown": 142,
-  "synthetic": 156
+  "synthetic": 157
  },
  "domain": {
-  "unnamed": 667,
+  "unnamed": 668,
   "code": 293,
   "fin": 104,
   "gen": 290,
-  "health": 103,
+  "health": 104,
   "law": 92
  },
  "name_prefix": {
-  "harbor": 429,
-  "obi": 1119,
+  "harbor": 430,
+  "obi": 1120,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -40,7 +40,7 @@
   "linear-gym": 24,
   "email-calendar-gym": 24,
   "outlook-gym": 19,
-  "gws-gym": 12,
+  "gws-gym": 13,
   "supabase-gym": 5,
   "teams-gym": 5,
   "microsoft-teams-gym": 4,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131464
+  "new_archives_read": 2,
+  "approx_bytes_read": 265070
  },
  "errors": [],
  "tasks": [
@@ -16251,6 +16251,20 @@
    "updated": "2026-09-25T21:21:57.345Z"
   },
   {
+   "declared_name": "obi/health-tdt11-a1-elbow-effusion-referral-adjudication",
+   "declared_short": "health-tdt11-a1-elbow-effusion-referral-adjudication",
+   "folder": "health-tdt11-a1-elbow-effusion-referral-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "f2dab4d282f4a608d4118bf75e9cca4f4b9eb33135486185393c8b9dc006f04f",
+   "size_bytes": 7239705,
+   "updated": "2026-09-25T21:53:41.738Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt3-a1-pt-licensure-english-score-adjudication",
@@ -18739,6 +18753,22 @@
    "sha256": "83be088b51b3e5964910a258d275d8e8a01a0ca1cc49bc71ea7be90b2616da25",
    "size_bytes": 8600936,
    "updated": "2026-09-23T05:49:45.958Z"
+  },
+  {
+   "declared_name": "harbor/recount-the-lead-spreadsheets",
+   "declared_short": "recount-the-lead-spreadsheets",
+   "folder": "recount-the-lead-spreadsheets",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "7e2e48d5857a2646258a1365500dca0f89e869970bc9992275cc9ab545860444",
+   "size_bytes": 13176552,
+   "updated": "2026-09-25T21:50:14.744Z"
   },
   {
    "connector_provenance": "unknown",
@@ -23550,15 +23580,15 @@
    "updated": "2026-09-22T12:49:25.690Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/writing-sc05-a4-chapter-submission-readiness-v2",
    "declared_short": "writing-sc05-a4-chapter-submission-readiness-v2",
-   "folder": "writing-sc05-a4-chapter-submission-readiness-v2",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "writing-sc05-a4-chapter-submission-readiness-v2",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0a2eb50f4fb9492cc0d3ab601d4f4f501aa0177057563729678a63a9757da7cc",
    "size_bytes": 3771257,
    "updated": "2026-09-25T21:47:33.397Z"
