@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T03:25:03+00:00",
+ "generated_at": "2026-09-25T03:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1424,
-  "scanned": 1424,
+  "task_folders": 1425,
+  "scanned": 1425,
   "connector": 409,
-  "non_connector": 1015,
+  "non_connector": 1016,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 145
  },
  "domain": {
-  "unnamed": 596,
+  "unnamed": 597,
   "code": 268,
   "fin": 97,
   "gen": 281,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 411,
-  "obi": 1013
+  "obi": 1014
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131472
+  "approx_bytes_read": 131412
  },
  "errors": [],
  "tasks": [
@@ -1665,6 +1665,20 @@
    "updated": "2026-09-23T19:05:26.645Z"
   },
   {
+   "declared_name": "obi/bus-b22-b9-seo-tool-setup-status-audit",
+   "declared_short": "bus-b22-b9-seo-tool-setup-status-audit",
+   "folder": "bus-b22-b9-seo-tool-setup-status-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "8dff9c38bb5487e87e21c1819d61c2dc82d5fa9beea265fa4ed8a2bafd1a6c5d",
+   "size_bytes": 10540845,
+   "updated": "2026-09-25T03:25:04.308Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b23-b6-token-listing-outreach-audit",
@@ -2071,15 +2085,15 @@
    "updated": "2026-09-23T18:45:48.491Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b48-b2-driveway-garage-concrete-replacement-estimates",
    "declared_short": "bus-b48-b2-driveway-garage-concrete-replacement-estimates",
-   "folder": "bus-b48-b2-driveway-garage-concrete-replacement-estimates",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b48-b2-driveway-garage-concrete-replacement-estimates",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7581f77a11f846effb291fac42ceddfa4a4b1d2a5bb2e6676a253acc4e4a09ef",
    "size_bytes": 11508845,
    "updated": "2026-09-25T03:22:50.578Z"
