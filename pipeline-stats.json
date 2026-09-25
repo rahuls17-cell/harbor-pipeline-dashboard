@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T10:40:03+00:00",
+ "generated_at": "2026-09-25T10:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1470,
-  "scanned": 1470,
+  "task_folders": 1471,
+  "scanned": 1471,
   "connector": 410,
-  "non_connector": 1060,
+  "non_connector": 1061,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 617,
-  "code": 280,
+  "code": 281,
   "fin": 100,
   "gen": 285,
   "health": 99,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 412,
-  "obi": 1057,
+  "obi": 1058,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131586
  },
  "errors": [],
  "tasks": [
@@ -4398,6 +4398,20 @@
    "sha256": "7004272cc9d14457b0411f0aca19d2bf7fe8ab9a578f6c86732cb7806809e49c",
    "size_bytes": 7213723,
    "updated": "2026-09-16T05:52:53.634Z"
+  },
+  {
+   "declared_name": "obi/code-c321-auto-apply-queue-routing-audit",
+   "declared_short": "code-c321-auto-apply-queue-routing-audit",
+   "folder": "code-c321-auto-apply-queue-routing-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "b9764196617f1e392609a2900a5fdd0528ac1abdcada675e833c49efc9de5e79",
+   "size_bytes": 6125432,
+   "updated": "2026-09-25T10:40:39.018Z"
   },
   {
    "connector_provenance": null,
