@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T15:55:03+00:00",
+ "generated_at": "2026-09-25T16:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1510,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137758
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -18791,17 +18791,17 @@
    "updated": "2026-09-05T19:15:52.856Z"
   },
   {
-   "declared_name": "harbor/strangers-with-a-say",
-   "declared_short": "strangers-with-a-say",
-   "folder": "strangers-with-a-say",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/strangers-with-a-say",
+   "declared_short": "strangers-with-a-say",
    "domain": null,
+   "folder": "strangers-with-a-say",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0af97dd2e8765013f4ecc734cb25363e0c593b1865b461e559da1ab2895275e0",
    "size_bytes": 10629558,
    "updated": "2026-09-25T15:51:30.622Z"
