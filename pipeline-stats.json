@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-25T20:20:06+00:00",
+ "generated_at": "2026-09-25T20:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1534,
-  "scanned": 1534,
-  "connector": 423,
-  "non_connector": 1111,
+  "task_folders": 1536,
+  "scanned": 1536,
+  "connector": 424,
+  "non_connector": 1112,
   "errors": 0
  },
  "connector_provenance": {
   "real": 128,
   "unknown": 142,
-  "synthetic": 153
+  "synthetic": 154
  },
  "domain": {
-  "unnamed": 657,
+  "unnamed": 659,
   "code": 292,
   "fin": 103,
   "gen": 289,
@@ -22,8 +22,8 @@
   "law": 91
  },
  "name_prefix": {
-  "harbor": 426,
-  "obi": 1107,
+  "harbor": 427,
+  "obi": 1108,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -33,7 +33,7 @@
   "jira-gym": 180,
   "email-gym": 178,
   "freshdesk-gym": 178,
-  "slack-gym": 174,
+  "slack-gym": 175,
   "slack": 63,
   "notion-gym": 38,
   "github-gym": 30,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133797
+  "new_archives_read": 2,
+  "approx_bytes_read": 266949
  },
  "errors": [],
  "tasks": [
@@ -533,6 +533,22 @@
    "sha256": "d6819598590b02d52ede29815b6dde8c40c80044a7c7eacd5884c4fbf1d433c0",
    "size_bytes": 7462480,
    "updated": "2026-09-19T11:46:50.618Z"
+  },
+  {
+   "declared_name": "harbor/accounts-in-the-wrong-shape",
+   "declared_short": "accounts-in-the-wrong-shape",
+   "folder": "accounts-in-the-wrong-shape",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d6d0c5cf1d350b49e55173b4e6e1c1eb767b562a2d65428f62a873c81c5ea35e",
+   "size_bytes": 6388108,
+   "updated": "2026-09-25T20:22:45.758Z"
   },
   {
    "connector_provenance": "unknown",
@@ -16553,17 +16569,17 @@
    "updated": "2026-09-18T00:03:42.402Z"
   },
   {
-   "declared_name": "harbor/how-deep-the-000-main-folder-goes",
-   "declared_short": "how-deep-the-000-main-folder-goes",
-   "folder": "how-deep-the-000-main-folder-goes",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/how-deep-the-000-main-folder-goes",
+   "declared_short": "how-deep-the-000-main-folder-goes",
    "domain": null,
+   "folder": "how-deep-the-000-main-folder-goes",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "48712480aa02d3272e50f22da13101acc9103956522e4b78286479e12b8d1926",
    "size_bytes": 12156113,
    "updated": "2026-09-25T20:16:58.833Z"
@@ -23276,6 +23292,20 @@
    "sha256": "a003f0d53c904c4da0348c72da54b0556e0960c844af9ab62344756b5bdddc50",
    "size_bytes": 8740500,
    "updated": "2026-09-20T12:00:31.441Z"
+  },
+  {
+   "declared_name": "obi/writing-b52-a5-proposal-paragraph-adjudication",
+   "declared_short": "writing-b52-a5-proposal-paragraph-adjudication",
+   "folder": "writing-b52-a5-proposal-paragraph-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "d1f16c188a4e1e9a70043672cad002e821c2d9cec3137735ed8204105593c044",
+   "size_bytes": 5376556,
+   "updated": "2026-09-25T20:22:19.881Z"
   },
   {
    "connector_provenance": null,
