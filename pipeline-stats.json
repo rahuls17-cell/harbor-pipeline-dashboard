@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T19:25:03+00:00",
+ "generated_at": "2026-09-25T19:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1530,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131608
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2567,15 +2567,15 @@
    "updated": "2026-09-24T17:14:44.435Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b609-t4-sales-follow-up-weekday-date-audit",
    "declared_short": "bus-b609-t4-sales-follow-up-weekday-date-audit",
-   "folder": "bus-b609-t4-sales-follow-up-weekday-date-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b609-t4-sales-follow-up-weekday-date-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9f3c388a81cedc0342d8bac839f1225b1d74eb67371eec1263d2a628ab21559e",
    "size_bytes": 7114261,
    "updated": "2026-09-25T19:20:29.280Z"
