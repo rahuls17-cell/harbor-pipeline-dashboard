@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T18:25:03+00:00",
+ "generated_at": "2026-09-25T18:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1515,
-  "scanned": 1515,
+  "task_folders": 1517,
+  "scanned": 1517,
   "connector": 417,
-  "non_connector": 1098,
+  "non_connector": 1100,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 149
  },
  "domain": {
-  "unnamed": 644,
-  "code": 289,
+  "unnamed": 645,
+  "code": 290,
   "fin": 103,
   "gen": 288,
   "health": 101,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 420,
-  "obi": 1094,
+  "obi": 1096,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 394490
+  "new_archives_read": 2,
+  "approx_bytes_read": 263184
  },
  "errors": [],
  "tasks": [
@@ -3185,15 +3185,15 @@
    "updated": "2026-09-21T16:03:00.341Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c121-compaction-small-file-policy-audit",
    "declared_short": "code-c121-compaction-small-file-policy-audit",
-   "folder": "code-c121-compaction-small-file-policy-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c121-compaction-small-file-policy-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1044b2e90ae04c7c59203bb5b98786c7816a936f0204f1ac43ad9667a60f6331",
    "size_bytes": 7649225,
    "updated": "2026-09-25T18:22:03.429Z"
@@ -4529,15 +4529,15 @@
    "updated": "2026-09-09T04:37:57.104Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c293-account-lockout-policy-audit",
    "declared_short": "code-c293-account-lockout-policy-audit",
-   "folder": "code-c293-account-lockout-policy-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c293-account-lockout-policy-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "dfbb2a737297f21787275f843248d0c82fa8d649a2f057755c70f014b8ff2839",
    "size_bytes": 6499190,
    "updated": "2026-09-25T18:20:59.051Z"
@@ -5087,6 +5087,20 @@
    "sha256": "a5cd9de93772a1d969252cd10170d3b7d39ce727103c125468a2bcd40e25268d",
    "size_bytes": 8795814,
    "updated": "2026-09-22T01:58:16.187Z"
+  },
+  {
+   "declared_name": "obi/code-c394-card-resale-ledger-reconciliation-audit",
+   "declared_short": "code-c394-card-resale-ledger-reconciliation-audit",
+   "folder": "code-c394-card-resale-ledger-reconciliation-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "f58cc76ab95c555074b167df71de55e3dc3c15044b008ce08719e7b4e7821f5e",
+   "size_bytes": 6332869,
+   "updated": "2026-09-25T18:27:57.522Z"
   },
   {
    "connector_provenance": null,
@@ -7975,6 +7989,20 @@
    "sha256": "ba630fad4924efe024885b98e84bf3eda33364ba0697418fffc5c3bbb0b72214",
    "size_bytes": 8355236,
    "updated": "2026-09-25T00:45:40.475Z"
+  },
+  {
+   "declared_name": "obi/edu-b51-e1-community-desk-enquiry-routing",
+   "declared_short": "edu-b51-e1-community-desk-enquiry-routing",
+   "folder": "edu-b51-e1-community-desk-enquiry-routing",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "084796269a903d4072c4034251415bc9ee235fd0e1eb801b8ae434fc418d9efb",
+   "size_bytes": 5804289,
+   "updated": "2026-09-25T18:28:57.490Z"
   },
   {
    "connector_provenance": null,
@@ -20058,15 +20086,15 @@
    "updated": "2026-09-23T20:15:09.143Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b53-t10-model-hardware-fit-reconciliation",
    "declared_short": "tech-b53-t10-model-hardware-fit-reconciliation",
-   "folder": "tech-b53-t10-model-hardware-fit-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b53-t10-model-hardware-fit-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "881ca511664268d34fefed5d44ef282aee3fe1a4740285cf7c207013ddc66340",
    "size_bytes": 8516777,
    "updated": "2026-09-25T18:22:01.899Z"
