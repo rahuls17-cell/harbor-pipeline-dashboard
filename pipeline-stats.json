@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T03:35:03+00:00",
+ "generated_at": "2026-09-25T03:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1426,
-  "scanned": 1426,
+  "task_folders": 1427,
+  "scanned": 1427,
   "connector": 409,
-  "non_connector": 1017,
+  "non_connector": 1018,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 597,
-  "code": 269,
+  "code": 270,
   "fin": 97,
   "gen": 281,
   "health": 94,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 411,
-  "obi": 1015
+  "obi": 1016
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131520
+  "approx_bytes_read": 131508
  },
  "errors": [],
  "tasks": [
@@ -3965,15 +3965,15 @@
    "updated": "2026-09-25T01:34:06.731Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c267-support-call-qa-compliance-audit",
    "declared_short": "code-c267-support-call-qa-compliance-audit",
-   "folder": "code-c267-support-call-qa-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c267-support-call-qa-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "608ba7e61dcff21b5736558543c457116d77ed52824e785aa15857f0bb997ccb",
    "size_bytes": 6077970,
    "updated": "2026-09-25T03:34:03.963Z"
@@ -3991,6 +3991,20 @@
    "sha256": "43b773129d33ac0703bc680cff402e3325c6f0179a0bb89d77521309a3f35f0b",
    "size_bytes": 6240302,
    "updated": "2026-09-10T22:00:39.465Z"
+  },
+  {
+   "declared_name": "obi/code-c269-security-vendor-control-audit",
+   "declared_short": "code-c269-security-vendor-control-audit",
+   "folder": "code-c269-security-vendor-control-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "0c83bc7f0bd69da8e6ab53bc7f14a29721eca04103f15e40bfa15b4e2a9bc3d2",
+   "size_bytes": 7549627,
+   "updated": "2026-09-25T03:38:30.231Z"
   },
   {
    "connector_provenance": null,
