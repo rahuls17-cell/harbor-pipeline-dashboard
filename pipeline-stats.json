@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T22:00:03+00:00",
+ "generated_at": "2026-09-25T22:05:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1551,
-  "scanned": 1551,
+  "task_folders": 1553,
+  "scanned": 1553,
   "connector": 427,
-  "non_connector": 1124,
+  "non_connector": 1126,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 668,
-  "code": 293,
+  "code": 294,
   "fin": 104,
-  "gen": 290,
+  "gen": 291,
   "health": 104,
   "law": 92
  },
  "name_prefix": {
   "harbor": 430,
-  "obi": 1120,
+  "obi": 1122,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263050
  },
  "errors": [],
  "tasks": [
@@ -4307,6 +4307,20 @@
    "sha256": "c711486485e4e7cbafc9c5d03e0296d61043ceb708cbe16c86361c725a2d4133",
    "size_bytes": 10992179,
    "updated": "2026-09-19T19:21:24.250Z"
+  },
+  {
+   "declared_name": "obi/code-c238-dependency-license-compliance-audit",
+   "declared_short": "code-c238-dependency-license-compliance-audit",
+   "folder": "code-c238-dependency-license-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "afc22dae4af64f53e2035986821398e59dd157644feca1ed73d41858b4926152",
+   "size_bytes": 6056898,
+   "updated": "2026-09-25T22:00:41.731Z"
   },
   {
    "connector_provenance": null,
@@ -10479,6 +10493,20 @@
    "sha256": "6ebe17da3ff32a8bc524729edd570c82b0e62edc2dc4214be6474e860f94748d",
    "size_bytes": 8959875,
    "updated": "2026-09-18T11:19:29.904Z"
+  },
+  {
+   "declared_name": "obi/gen-g1140-executive-response-communication-audit",
+   "declared_short": "gen-g1140-executive-response-communication-audit",
+   "folder": "gen-g1140-executive-response-communication-audit-final",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "341fe721c29a37406e8b2060908e442eec97d07399fd279dc778368449dcd897",
+   "size_bytes": 5766521,
+   "updated": "2026-09-25T22:02:32.619Z"
   },
   {
    "connector_provenance": null,
