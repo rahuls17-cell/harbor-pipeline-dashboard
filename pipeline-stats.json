@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T09:30:04+00:00",
+ "generated_at": "2026-09-25T09:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1465,
-  "scanned": 1465,
+  "task_folders": 1466,
+  "scanned": 1466,
   "connector": 410,
-  "non_connector": 1055,
+  "non_connector": 1056,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 279,
   "fin": 100,
   "gen": 284,
-  "health": 98,
+  "health": 99,
   "law": 89
  },
  "name_prefix": {
   "harbor": 412,
-  "obi": 1052,
+  "obi": 1053,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131470
  },
  "errors": [],
  "tasks": [
@@ -15918,6 +15918,20 @@
    "sha256": "9f09a1e8313641d150dff0db2bb59edd421d9d0b5f5349cf2d18061594865bdf",
    "size_bytes": 7015657,
    "updated": "2026-09-21T15:35:13.926Z"
+  },
+  {
+   "declared_name": "obi/health-tdt9-a5-retail-plan-service-area-catalogue",
+   "declared_short": "health-tdt9-a5-retail-plan-service-area-catalogue",
+   "folder": "health-tdt9-a5-retail-plan-service-area-catalogue",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "3d6742c308cf5ff5364c6d78e7877f75c7578ddccd8b863ef1ea62d8c3e1bd3a",
+   "size_bytes": 5827255,
+   "updated": "2026-09-25T09:37:06.299Z"
   },
   {
    "connector_provenance": "synthetic",
