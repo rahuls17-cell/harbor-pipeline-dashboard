@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T01:20:02+00:00",
+ "generated_at": "2026-09-25T01:35:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1415,
-  "scanned": 1415,
+  "task_folders": 1416,
+  "scanned": 1416,
   "connector": 408,
-  "non_connector": 1007,
+  "non_connector": 1008,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 593,
-  "code": 263,
+  "code": 264,
   "fin": 97,
   "gen": 281,
   "health": 94,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 410,
-  "obi": 1005
+  "obi": 1006
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131510
  },
  "errors": [],
  "tasks": [
@@ -3877,6 +3877,20 @@
    "sha256": "002ec0e59e73f5ee5bdca63ebb05d92e8b1585200dd604cfe02c35065d7cf808",
    "size_bytes": 8351609,
    "updated": "2026-09-20T12:41:23.401Z"
+  },
+  {
+   "declared_name": "obi/code-c266-saas-tool-procurement-audit",
+   "declared_short": "code-c266-saas-tool-procurement-audit",
+   "folder": "code-c266-saas-tool-procurement-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "9861797484a7f12c7d78134de0c82213f10ee2322aa3917b784b6cdd822dc19f",
+   "size_bytes": 7255807,
+   "updated": "2026-09-25T01:34:06.731Z"
   },
   {
    "connector_provenance": null,
