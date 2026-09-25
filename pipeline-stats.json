@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T07:25:04+00:00",
+ "generated_at": "2026-09-25T07:30:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1444,
-  "scanned": 1444,
+  "task_folders": 1445,
+  "scanned": 1445,
   "connector": 409,
-  "non_connector": 1035,
+  "non_connector": 1036,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 145
  },
  "domain": {
-  "unnamed": 604,
+  "unnamed": 605,
   "code": 275,
   "fin": 100,
   "gen": 281,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 411,
-  "obi": 1033
+  "obi": 1034
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131563
  },
  "errors": [],
  "tasks": [
@@ -7873,6 +7873,20 @@
    "sha256": "b5a681dba6a12ffbeae9ae3eef87d7540f8930d029fc5f6fa8583f5ba546cd26",
    "size_bytes": 8479224,
    "updated": "2026-09-13T01:15:44.998Z"
+  },
+  {
+   "declared_name": "obi/edu-sc09-a10-vti-task-000928",
+   "declared_short": "edu-sc09-a10-vti-task-000928",
+   "folder": "edu-sc09-a10-vti-task-000928",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1ccc9583c55eb7df29c4731ae45782f12317017babd4c864a931cdf38ee618b6",
+   "size_bytes": 5231552,
+   "updated": "2026-09-25T07:29:46.367Z"
   },
   {
    "connector_provenance": null,
