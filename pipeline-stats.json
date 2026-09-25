@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T19:15:04+00:00",
+ "generated_at": "2026-09-25T19:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1529,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 266251
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -645,17 +645,17 @@
    "updated": "2026-09-10T12:18:25.696Z"
   },
   {
-   "declared_name": "harbor/always-active-but-never-posted",
-   "declared_short": "always-active-but-never-posted",
-   "folder": "always-active-but-never-posted",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/always-active-but-never-posted",
+   "declared_short": "always-active-but-never-posted",
    "domain": null,
+   "folder": "always-active-but-never-posted",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5b337bc52cce80e2c27d0357b36286c36c6f833a0f8ac6fb53ea818bfc32527e",
    "size_bytes": 9874859,
    "updated": "2026-09-25T19:12:41.721Z"
@@ -2259,15 +2259,15 @@
    "updated": "2026-09-23T19:17:28.342Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b47-b9-quantity-takeoff-cost-reconciliation",
    "declared_short": "bus-b47-b9-quantity-takeoff-cost-reconciliation",
-   "folder": "bus-b47-b9-quantity-takeoff-cost-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b47-b9-quantity-takeoff-cost-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f7c03a05b751816ad4a1c667f690da0bad37f49d13ec9cfb910962c13a0abc1f",
    "size_bytes": 4152413,
    "updated": "2026-09-25T19:12:53.216Z"
