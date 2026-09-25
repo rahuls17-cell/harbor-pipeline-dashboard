@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-25T12:10:04+00:00",
+ "generated_at": "2026-09-25T12:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1484,
-  "scanned": 1484,
-  "connector": 413,
-  "non_connector": 1071,
+  "task_folders": 1487,
+  "scanned": 1487,
+  "connector": 414,
+  "non_connector": 1073,
   "errors": 0
  },
  "connector_provenance": {
   "real": 128,
   "unknown": 139,
-  "synthetic": 146
+  "synthetic": 147
  },
  "domain": {
-  "unnamed": 625,
+  "unnamed": 627,
   "code": 282,
   "fin": 101,
-  "gen": 286,
+  "gen": 287,
   "health": 100,
   "law": 90
  },
  "name_prefix": {
-  "harbor": 416,
-  "obi": 1067,
+  "harbor": 417,
+  "obi": 1069,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -37,8 +37,8 @@
   "slack": 63,
   "notion-gym": 37,
   "github-gym": 28,
+  "email-calendar-gym": 24,
   "linear-gym": 23,
-  "email-calendar-gym": 23,
   "outlook-gym": 16,
   "gws-gym": 10,
   "supabase-gym": 5,
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 3,
-  "approx_bytes_read": 395958
+  "approx_bytes_read": 400686
  },
  "errors": [],
  "tasks": [
@@ -1683,15 +1683,15 @@
    "updated": "2026-09-24T04:21:49.441Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b22-b4-smart-table-ordering-tco",
    "declared_short": "bus-b22-b4-smart-table-ordering-tco",
-   "folder": "bus-b22-b4-smart-table-ordering-tco",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b22-b4-smart-table-ordering-tco",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2a8e579447fbdfcf51740bf775897d23cc268b8df1bfa8c8d36d6fb7b389055d",
    "size_bytes": 10091326,
    "updated": "2026-09-25T12:05:48.769Z"
@@ -2143,6 +2143,20 @@
    "sha256": "f27e78637c0e039f65213bdb9470c93f46ef562ccabe993f8704ff368474495f",
    "size_bytes": 5416770,
    "updated": "2026-09-25T09:52:39.903Z"
+  },
+  {
+   "declared_name": "obi/bus-b47-b8-credits-deal-expansion-commission-statement",
+   "declared_short": "bus-b47-b8-credits-deal-expansion-commission-statement",
+   "folder": "bus-b47-b8-credits-deal-expansion-commission-statement",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "d62bc601005b4499ce5b6d93e0ea53a1a16e6964ffd986f3525699f16faeb795",
+   "size_bytes": 4583208,
+   "updated": "2026-09-25T12:11:35.758Z"
   },
   {
    "connector_provenance": null,
@@ -12045,6 +12059,20 @@
    "updated": "2026-09-20T10:58:48.305Z"
   },
   {
+   "declared_name": "obi/gen-g607-security-post-assignment-eligibility-audit",
+   "declared_short": "gen-g607-security-post-assignment-eligibility-audit",
+   "folder": "gen-g607-security-post-assignment-eligibility-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "59223e765388851911b7cc3beeb289d0f5ae7824a67b846556a8decd7b6ff2b2",
+   "size_bytes": 6041583,
+   "updated": "2026-09-25T12:10:20.008Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g609-river-cyanotoxin-advisory-audit",
@@ -16935,15 +16963,15 @@
    "updated": "2026-09-18T09:41:20.627Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b42-l3-right-to-rent-follow-up-check-schedule",
    "declared_short": "law-b42-l3-right-to-rent-follow-up-check-schedule",
-   "folder": "law-b42-l3-right-to-rent-follow-up-check-schedule",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b42-l3-right-to-rent-follow-up-check-schedule",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8514ed147c57bcbc168fb6e818e15da433b0d438432f2170a4e8944e243db154",
    "size_bytes": 6065899,
    "updated": "2026-09-25T12:08:59.037Z"
@@ -18675,11 +18703,7 @@
    "updated": "2026-09-08T17:12:15.691Z"
   },
   {
-   "declared_name": "harbor/ach-counterparty-investigation-lock-true-scope-across-owners-accounts-and-unlocked-gaps",
-   "declared_short": "ach-counterparty-investigation-lock-true-scope-across-owners-accounts-and-unlocked-gaps",
-   "folder": "task_ach_counterparty_investigation_lock_determine_scope_across_owner_s_oth",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -18689,9 +18713,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/ach-counterparty-investigation-lock-true-scope-across-owners-accounts-and-unlocked-gaps",
+   "declared_short": "ach-counterparty-investigation-lock-true-scope-across-owners-accounts-and-unlocked-gaps",
    "domain": null,
+   "folder": "task_ach_counterparty_investigation_lock_determine_scope_across_owner_s_oth",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c12da019af031bb908ab291835682809c9c2e7532ac86f0b564f9c453e7b3bde",
    "size_bytes": 26667495,
    "updated": "2026-09-25T12:05:10.386Z"
@@ -22420,6 +22448,22 @@
    "sha256": "41ab4a9addb8581f30a3afef519dfa1496d523680179d658506a5c7c0d4bacc2",
    "size_bytes": 31351445,
    "updated": "2026-09-24T11:09:37.289Z"
+  },
+  {
+   "declared_name": "harbor/which-alert-keeps-coming-back",
+   "declared_short": "which-alert-keeps-coming-back",
+   "folder": "which-alert-keeps-coming-back",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "eed8991a22e3a49d67df9862b42ce7775e8a15571a6f373f024f2af7fc502cad",
+   "size_bytes": 8708985,
+   "updated": "2026-09-25T12:12:54.362Z"
   },
   {
    "connector_provenance": "synthetic",
