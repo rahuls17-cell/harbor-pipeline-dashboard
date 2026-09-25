@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T06:45:02+00:00",
+ "generated_at": "2026-09-25T06:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1440,
-  "scanned": 1440,
+  "task_folders": 1441,
+  "scanned": 1441,
   "connector": 409,
-  "non_connector": 1031,
+  "non_connector": 1032,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 603,
-  "code": 272,
+  "code": 273,
   "fin": 100,
   "gen": 281,
   "health": 96,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 411,
-  "obi": 1029
+  "obi": 1030
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131882
+  "approx_bytes_read": 131546
  },
  "errors": [],
  "tasks": [
@@ -3753,6 +3753,20 @@
    "sha256": "c894efcacfd060778cb18105d7d4d8edf21f7a10dcd9b784b128eb893310b8b9",
    "size_bytes": 9657394,
    "updated": "2026-09-24T19:36:25.674Z"
+  },
+  {
+   "declared_name": "obi/code-c226-database-grant-recertification-audit",
+   "declared_short": "code-c226-database-grant-recertification-audit",
+   "folder": "code-c226-database-grant-recertification-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "fb0156f7ea10ac8ecacf237fb024412a15ddcac9440062240f49237a9e28d4b6",
+   "size_bytes": 5847120,
+   "updated": "2026-09-25T06:48:14.096Z"
   },
   {
    "connector_provenance": null,
@@ -9083,15 +9097,15 @@
    "updated": "2026-09-24T14:29:57.584Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b53-f9-homeowners-carrier-appetite-screen",
    "declared_short": "fin-b53-f9-homeowners-carrier-appetite-screen",
-   "folder": "fin-b53-f9-homeowners-carrier-appetite-screen",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b53-f9-homeowners-carrier-appetite-screen",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5b54c1d62d260620a653aa9a3c420e10c7679110bc2d39acd360f5419fa42056",
    "size_bytes": 7206998,
    "updated": "2026-09-25T06:41:57.573Z"
