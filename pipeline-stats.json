@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T03:30:04+00:00",
+ "generated_at": "2026-09-25T03:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1425,
-  "scanned": 1425,
+  "task_folders": 1426,
+  "scanned": 1426,
   "connector": 409,
-  "non_connector": 1016,
+  "non_connector": 1017,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 597,
-  "code": 268,
+  "code": 269,
   "fin": 97,
   "gen": 281,
   "health": 94,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 411,
-  "obi": 1014
+  "obi": 1015
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -48,7 +48,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131412
+  "approx_bytes_read": 131520
  },
  "errors": [],
  "tasks": [
@@ -1665,15 +1665,15 @@
    "updated": "2026-09-23T19:05:26.645Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b22-b9-seo-tool-setup-status-audit",
    "declared_short": "bus-b22-b9-seo-tool-setup-status-audit",
-   "folder": "bus-b22-b9-seo-tool-setup-status-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b22-b9-seo-tool-setup-status-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8dff9c38bb5487e87e21c1819d61c2dc82d5fa9beea265fa4ed8a2bafd1a6c5d",
    "size_bytes": 10540845,
    "updated": "2026-09-25T03:25:04.308Z"
@@ -3963,6 +3963,20 @@
    "sha256": "9861797484a7f12c7d78134de0c82213f10ee2322aa3917b784b6cdd822dc19f",
    "size_bytes": 7255807,
    "updated": "2026-09-25T01:34:06.731Z"
+  },
+  {
+   "declared_name": "obi/code-c267-support-call-qa-compliance-audit",
+   "declared_short": "code-c267-support-call-qa-compliance-audit",
+   "folder": "code-c267-support-call-qa-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "608ba7e61dcff21b5736558543c457116d77ed52824e785aa15857f0bb997ccb",
+   "size_bytes": 6077970,
+   "updated": "2026-09-25T03:34:03.963Z"
   },
   {
    "connector_provenance": null,
