@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-25T19:35:03+00:00",
+ "generated_at": "2026-09-25T19:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1531,
-  "scanned": 1531,
-  "connector": 421,
-  "non_connector": 1110,
+  "task_folders": 1533,
+  "scanned": 1533,
+  "connector": 422,
+  "non_connector": 1111,
   "errors": 0
  },
  "connector_provenance": {
   "real": 128,
   "unknown": 142,
-  "synthetic": 151
+  "synthetic": 152
  },
  "domain": {
-  "unnamed": 654,
+  "unnamed": 656,
   "code": 292,
   "fin": 103,
   "gen": 289,
@@ -22,8 +22,8 @@
   "law": 91
  },
  "name_prefix": {
-  "harbor": 424,
-  "obi": 1106,
+  "harbor": 425,
+  "obi": 1107,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -36,7 +36,7 @@
   "slack-gym": 174,
   "slack": 63,
   "notion-gym": 38,
-  "github-gym": 29,
+  "github-gym": 30,
   "linear-gym": 24,
   "email-calendar-gym": 24,
   "outlook-gym": 17,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132076
+  "new_archives_read": 2,
+  "approx_bytes_read": 269630
  },
  "errors": [],
  "tasks": [
@@ -2453,6 +2453,20 @@
    "sha256": "4f967751cd80d9171d85a6f8389ab1b690292bbab1197ca35e8a8407c87a53f7",
    "size_bytes": 8350846,
    "updated": "2026-09-23T09:47:47.621Z"
+  },
+  {
+   "declared_name": "obi/bus-b49-b6-warehouse-hazmat-resume-style-certification-review",
+   "declared_short": "bus-b49-b6-warehouse-hazmat-resume-style-certification-review",
+   "folder": "bus-b49-b6-warehouse-hazmat-resume-style-certification-review",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "d30c7592bdb2c8604c50a0f9051a69b91b9e5664a2fe8f0b073170cc024915a8",
+   "size_bytes": 6262237,
+   "updated": "2026-09-25T19:36:06.375Z"
   },
   {
    "connector_provenance": null,
@@ -20720,15 +20734,15 @@
    "updated": "2026-09-24T13:03:41.746Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-mg-it-b10-a4-adviser-note-violation-register",
    "declared_short": "tech-mg-it-b10-a4-adviser-note-violation-register",
-   "folder": "tech-mg-it-b10-a4-adviser-note-violation-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-mg-it-b10-a4-adviser-note-violation-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "59397bcf605f14c16388bf1ed644edac51dfc6da34a4dae8b6a72e6ce9233062",
    "size_bytes": 7107567,
    "updated": "2026-09-25T19:33:53.867Z"
@@ -21560,6 +21574,22 @@
    "sha256": "78281dac908701f7e1f71cb3764ded5f7691efb343757af89c5b44250d79948e",
    "size_bytes": 7335395,
    "updated": "2026-09-18T02:08:00.456Z"
+  },
+  {
+   "declared_name": "harbor/the-merges-a-signing-rule-would-have-stopped",
+   "declared_short": "the-merges-a-signing-rule-would-have-stopped",
+   "folder": "the-merges-a-signing-rule-would-have-stopped",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "ce229a41fc8a49134a294a471ab3e562c07647cc5367720cc4389257fdd2b34c",
+   "size_bytes": 9867512,
+   "updated": "2026-09-25T19:39:53.597Z"
   },
   {
    "connector_provenance": "synthetic",
