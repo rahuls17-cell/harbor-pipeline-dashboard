@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T20:50:03+00:00",
+ "generated_at": "2026-09-25T20:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1540,
-  "scanned": 1540,
+  "task_folders": 1541,
+  "scanned": 1541,
   "connector": 424,
-  "non_connector": 1116,
+  "non_connector": 1117,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 662,
   "code": 292,
   "fin": 103,
-  "gen": 289,
+  "gen": 290,
   "health": 102,
   "law": 92
  },
  "name_prefix": {
   "harbor": 427,
-  "obi": 1112,
+  "obi": 1113,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131401
+  "approx_bytes_read": 131511
  },
  "errors": [],
  "tasks": [
@@ -8527,15 +8527,15 @@
    "updated": "2026-09-23T19:13:43.935Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sc09-b4-dasha-timeline-reconciliation",
    "declared_short": "edu-sc09-b4-dasha-timeline-reconciliation",
-   "folder": "edu-sc09-b4-dasha-timeline-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sc09-b4-dasha-timeline-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "292ceb406b0d06a1fd9e6069a1318eda5658154d922ec4c46fdfb08ab2e60426",
    "size_bytes": 4612573,
    "updated": "2026-09-25T20:49:28.487Z"
@@ -12691,6 +12691,20 @@
    "sha256": "fbf25c7b90bdff7305d8390f7e3d056f7d6f2e60949be8e323037100de3a0bb5",
    "size_bytes": 6485165,
    "updated": "2026-09-10T02:35:39.455Z"
+  },
+  {
+   "declared_name": "obi/gen-g704-appliance-service-quote-scope-audit",
+   "declared_short": "gen-g704-appliance-service-quote-scope-audit",
+   "folder": "gen-g704-appliance-service-quote-scope-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "0f4878f15168672c13a328cf1fff97aba2ebf566c84bf92a64dc37e63710c0f1",
+   "size_bytes": 4171270,
+   "updated": "2026-09-25T20:50:24.137Z"
   },
   {
    "connector_provenance": null,
