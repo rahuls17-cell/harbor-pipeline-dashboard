@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-25T21:10:04+00:00",
+ "generated_at": "2026-09-25T21:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1544,
-  "scanned": 1544,
-  "connector": 424,
+  "task_folders": 1545,
+  "scanned": 1545,
+  "connector": 425,
   "non_connector": 1120,
   "errors": 0
  },
  "connector_provenance": {
   "real": 128,
   "unknown": 142,
-  "synthetic": 154
+  "synthetic": 155
  },
  "domain": {
-  "unnamed": 664,
+  "unnamed": 665,
   "code": 293,
   "fin": 103,
   "gen": 290,
@@ -22,7 +22,7 @@
   "law": 92
  },
  "name_prefix": {
-  "harbor": 427,
+  "harbor": 428,
   "obi": 1116,
   "vankamasthanamma": 1
  },
@@ -39,7 +39,7 @@
   "github-gym": 30,
   "linear-gym": 24,
   "email-calendar-gym": 24,
-  "outlook-gym": 17,
+  "outlook-gym": 18,
   "gws-gym": 12,
   "supabase-gym": 5,
   "teams-gym": 5,
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131509
+  "approx_bytes_read": 136925
  },
  "errors": [],
  "tasks": [
@@ -1827,15 +1827,15 @@
    "updated": "2026-09-25T12:27:44.394Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b23-b5-cardiology-editorial-calendar",
    "declared_short": "bus-b23-b5-cardiology-editorial-calendar",
-   "folder": "bus-b23-b5-cardiology-editorial-calendar",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b23-b5-cardiology-editorial-calendar",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5b1563aaa03519235875b26eeeaa2fe9749ac9a42cf4bc085da89b46a72bff4c",
    "size_bytes": 9863947,
    "updated": "2026-09-25T21:05:54.516Z"
@@ -23158,6 +23158,22 @@
    "sha256": "98e82a29f4b052268f7bf8edd66ee461cee956ef02c7225d3c41dbe98bb84919",
    "size_bytes": 14781445,
    "updated": "2026-09-20T17:09:38.687Z"
+  },
+  {
+   "declared_name": "harbor/where-my-meetings-happen",
+   "declared_short": "where-my-meetings-happen",
+   "folder": "where-my-meetings-happen",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "8b2ea5f2854eb8f9960c4c2fd8815e67b81e046a473a98a1d165e5a4f2d00227",
+   "size_bytes": 12764022,
+   "updated": "2026-09-25T21:11:08.169Z"
   },
   {
    "connector_provenance": "synthetic",
