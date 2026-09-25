@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T19:05:03+00:00",
+ "generated_at": "2026-09-25T19:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1525,
-  "scanned": 1525,
+  "task_folders": 1527,
+  "scanned": 1527,
   "connector": 420,
-  "non_connector": 1105,
+  "non_connector": 1107,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 650,
   "code": 292,
   "fin": 103,
-  "gen": 288,
-  "health": 101,
+  "gen": 289,
+  "health": 102,
   "law": 91
  },
  "name_prefix": {
   "harbor": 423,
-  "obi": 1101,
+  "obi": 1103,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 263035
+  "approx_bytes_read": 263222
  },
  "errors": [],
  "tasks": [
@@ -1669,15 +1669,15 @@
    "updated": "2026-09-24T23:23:06.313Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b22-b12-lihtc-developer-award-verification",
    "declared_short": "bus-b22-b12-lihtc-developer-award-verification",
-   "folder": "bus-b22-b12-lihtc-developer-award-verification",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b22-b12-lihtc-developer-award-verification",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5d0b245d2341b9f4c2128e40e8972918b42714fbe9d1cb5247ae8bb3b6a18a33",
    "size_bytes": 7202745,
    "updated": "2026-09-25T19:00:34.548Z"
@@ -6601,15 +6601,15 @@
    "updated": "2026-09-25T09:04:28.245Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c720-print-upscale-readiness-audit",
    "declared_short": "code-c720-print-upscale-readiness-audit",
-   "folder": "code-c720-print-upscale-readiness-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c720-print-upscale-readiness-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6aac48b1772abf5cf095048ce9d723b366bbd1551e682edbdd39367d912dbc3b",
    "size_bytes": 5761641,
    "updated": "2026-09-25T19:04:39.270Z"
@@ -13011,6 +13011,20 @@
    "updated": "2026-09-15T00:11:29.068Z"
   },
   {
+   "declared_name": "obi/gen-g792-grant-preproposal-team-cap-audit",
+   "declared_short": "gen-g792-grant-preproposal-team-cap-audit",
+   "folder": "gen-g792-grant-preproposal-team-cap-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "63ce84b2155b0c2306defee45ccb8e012971edac6c7291195f9d55e39e1ffeeb",
+   "size_bytes": 5515679,
+   "updated": "2026-09-25T19:06:33.883Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g794-lecture-transcript-slide-crossref-audit",
@@ -16413,6 +16427,20 @@
    "sha256": "da7c25f2214fbe42c3d74b1ccfc196637f44c61d53dc0a84bcfef29ec1ff9eef",
    "size_bytes": 6221816,
    "updated": "2026-09-25T15:15:50.618Z"
+  },
+  {
+   "declared_name": "obi/health-tdt9-a4-supervision-hours-credit-ledger",
+   "declared_short": "health-tdt9-a4-supervision-hours-credit-ledger",
+   "folder": "health-tdt9-a4-supervision-hours-credit-ledger",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "e860de454be6b1f77595dde5ff00e17f31a3f18962e5b79588bce8988f710e73",
+   "size_bytes": 7098865,
+   "updated": "2026-09-25T19:07:00.083Z"
   },
   {
    "connector_provenance": null,
