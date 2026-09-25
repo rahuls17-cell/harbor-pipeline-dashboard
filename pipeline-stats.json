@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T18:40:03+00:00",
+ "generated_at": "2026-09-25T18:45:06+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1520,
-  "scanned": 1520,
+  "task_folders": 1522,
+  "scanned": 1522,
   "connector": 419,
-  "non_connector": 1101,
+  "non_connector": 1103,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 648,
-  "code": 290,
+  "code": 291,
   "fin": 103,
   "gen": 288,
   "health": 101,
-  "law": 90
+  "law": 91
  },
  "name_prefix": {
   "harbor": 422,
-  "obi": 1097,
+  "obi": 1099,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131599
+  "new_archives_read": 2,
+  "approx_bytes_read": 263131
  },
  "errors": [],
  "tasks": [
@@ -4331,6 +4331,20 @@
    "sha256": "b691fb0fed32571b82760aef9e1958269c627e4c22c4aad6b717f6f42a697220",
    "size_bytes": 12722428,
    "updated": "2026-09-19T05:38:43.447Z"
+  },
+  {
+   "declared_name": "obi/code-c260-shot-block-continuity-export-compliance-audit",
+   "declared_short": "code-c260-shot-block-continuity-export-compliance-audit",
+   "folder": "code-c260-shot-block-continuity-export-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "08494d344b0313277a2b9b6a4930a76afee72b0251f02d8cec1c866cee2831f9",
+   "size_bytes": 6605258,
+   "updated": "2026-09-25T18:40:17.116Z"
   },
   {
    "connector_provenance": null,
@@ -17777,6 +17791,20 @@
    "updated": "2026-09-09T13:08:36.604Z"
   },
   {
+   "declared_name": "obi/law-l7-msa-sow-precedence",
+   "declared_short": "law-l7-msa-sow-precedence",
+   "folder": "law-l7-msa-sow-precedence",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "eb3a9c808cc0d4757109c375ef8be4f222f8ffdaaff4822ca83af20828536dd4",
+   "size_bytes": 7044638,
+   "updated": "2026-09-25T18:41:25.726Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-l71-charity-separation-package-audit",
@@ -18755,15 +18783,15 @@
    "updated": "2026-09-25T15:19:44.503Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/sci-sc07-b10-ontology-pruning",
    "declared_short": "sci-sc07-b10-ontology-pruning",
-   "folder": "sci-sc07-b10-ontology-pruning-v3",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "sci-sc07-b10-ontology-pruning-v3",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "308a2dd5921cfee53ec066bd48549010bc30024b5a389c37ca8db5359f931b09",
    "size_bytes": 11546594,
    "updated": "2026-09-25T18:36:37.952Z"
