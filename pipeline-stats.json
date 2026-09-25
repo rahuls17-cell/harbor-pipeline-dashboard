@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T16:00:03+00:00",
+ "generated_at": "2026-09-25T17:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1510,
-  "scanned": 1510,
+  "task_folders": 1511,
+  "scanned": 1511,
   "connector": 417,
-  "non_connector": 1093,
+  "non_connector": 1094,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 149
  },
  "domain": {
-  "unnamed": 642,
+  "unnamed": 643,
   "code": 287,
   "fin": 103,
   "gen": 287,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 420,
-  "obi": 1089,
+  "obi": 1090,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131628
  },
  "errors": [],
  "tasks": [
@@ -19972,6 +19972,20 @@
    "sha256": "87e218c711c66577d23408134c139ef151f556da7f0f9b1c385e3c1036819cd7",
    "size_bytes": 8925459,
    "updated": "2026-09-25T14:45:38.007Z"
+  },
+  {
+   "declared_name": "obi/tech-b52-t1-wellness-hub-metric-coverage",
+   "declared_short": "tech-b52-t1-wellness-hub-metric-coverage",
+   "folder": "tech-b52-t1-wellness-hub-metric-coverage",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "de0a8ce3b71beaf2167661484f6a758bdffb479c8c199322c673e784eddd264f",
+   "size_bytes": 4678654,
+   "updated": "2026-09-25T17:38:23.734Z"
   },
   {
    "connector_provenance": null,
