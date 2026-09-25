@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T19:30:03+00:00",
+ "generated_at": "2026-09-25T19:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1530,
-  "scanned": 1530,
+  "task_folders": 1531,
+  "scanned": 1531,
   "connector": 421,
-  "non_connector": 1109,
+  "non_connector": 1110,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 151
  },
  "domain": {
-  "unnamed": 653,
+  "unnamed": 654,
   "code": 292,
   "fin": 103,
   "gen": 289,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 424,
-  "obi": 1105,
+  "obi": 1106,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 132076
  },
  "errors": [],
  "tasks": [
@@ -20718,6 +20718,20 @@
    "sha256": "bbad57222dc1ad498273c2e44984da4f8b691032366b6f713f9fd0c8ead5d658",
    "size_bytes": 7346990,
    "updated": "2026-09-24T13:03:41.746Z"
+  },
+  {
+   "declared_name": "obi/tech-mg-it-b10-a4-adviser-note-violation-register",
+   "declared_short": "tech-mg-it-b10-a4-adviser-note-violation-register",
+   "folder": "tech-mg-it-b10-a4-adviser-note-violation-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "59397bcf605f14c16388bf1ed644edac51dfc6da34a4dae8b6a72e6ce9233062",
+   "size_bytes": 7107567,
+   "updated": "2026-09-25T19:33:53.867Z"
   },
   {
    "connector_provenance": null,
