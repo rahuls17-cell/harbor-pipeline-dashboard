@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T03:45:03+00:00",
+ "generated_at": "2026-09-25T04:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1427,
-  "scanned": 1427,
+  "task_folders": 1428,
+  "scanned": 1428,
   "connector": 409,
-  "non_connector": 1018,
+  "non_connector": 1019,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 597,
   "code": 270,
-  "fin": 97,
+  "fin": 98,
   "gen": 281,
   "health": 94,
   "law": 88
  },
  "name_prefix": {
   "harbor": 411,
-  "obi": 1016
+  "obi": 1017
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131494
  },
  "errors": [],
  "tasks": [
@@ -8913,6 +8913,20 @@
    "sha256": "d19228492190d66b76202fd8a7a0be35f90052d636edf20a8879687e52ac3b2d",
    "size_bytes": 10534300,
    "updated": "2026-09-20T05:10:48.237Z"
+  },
+  {
+   "declared_name": "obi/fin-b53-f1-perp-notional-volume-fee-recompute",
+   "declared_short": "fin-b53-f1-perp-notional-volume-fee-recompute",
+   "folder": "fin-b53-f1-perp-notional-volume-fee-recompute-finalqc-date-title-fix-20260925T061635-IST",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "156830da939d480026d7d823e660711c94191185086dfe080275c577913ffc21",
+   "size_bytes": 6024827,
+   "updated": "2026-09-25T04:27:52.431Z"
   },
   {
    "connector_provenance": null,
