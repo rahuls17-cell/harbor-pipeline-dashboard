@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T01:10:02+00:00",
+ "generated_at": "2026-09-25T01:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1414,
-  "scanned": 1414,
+  "task_folders": 1415,
+  "scanned": 1415,
   "connector": 408,
-  "non_connector": 1006,
+  "non_connector": 1007,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 263,
   "fin": 97,
   "gen": 281,
-  "health": 93,
+  "health": 94,
   "law": 87
  },
  "name_prefix": {
   "harbor": 410,
-  "obi": 1004
+  "obi": 1005
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131451
  },
  "errors": [],
  "tasks": [
@@ -14781,6 +14781,20 @@
    "sha256": "ffe9691959712337d8d8dd7d0daba921e0bdbe07027abdc37386c00c0c879b9d",
    "size_bytes": 6948029,
    "updated": "2026-09-06T12:49:53.041Z"
+  },
+  {
+   "declared_name": "obi/health-h60-hydration-target-compliance-audit",
+   "declared_short": "health-h60-hydration-target-compliance-audit",
+   "folder": "health-h60-hydration-target-compliance-audit-88a276-v1-sna-agnd",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "e31f58eb2cd6ab2e5127cff3eac6abb42f948b0f5e46613cd7b41981bc8787ab",
+   "size_bytes": 5791088,
+   "updated": "2026-09-25T01:11:19.034Z"
   },
   {
    "connector_provenance": null,
