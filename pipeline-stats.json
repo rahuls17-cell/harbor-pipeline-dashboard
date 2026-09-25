@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T08:55:03+00:00",
+ "generated_at": "2026-09-25T09:00:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1456,
-  "scanned": 1456,
+  "task_folders": 1459,
+  "scanned": 1459,
   "connector": 409,
-  "non_connector": 1047,
+  "non_connector": 1050,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 145
  },
  "domain": {
-  "unnamed": 610,
+  "unnamed": 613,
   "code": 277,
   "fin": 100,
   "gen": 283,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 411,
-  "obi": 1044,
+  "obi": 1047,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263115
+  "new_archives_read": 3,
+  "approx_bytes_read": 394691
  },
  "errors": [],
  "tasks": [
@@ -1708,15 +1708,15 @@
    "updated": "2026-09-24T23:41:19.824Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b23-b7-small-retail-product-shortlist",
    "declared_short": "bus-b23-b7-small-retail-product-shortlist",
-   "folder": "bus-b23-b7-small-retail-product-shortlist",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b23-b7-small-retail-product-shortlist",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "17958bedddc199b718675041045b58cf78a27d33c72cc2146fc0e621a78a9c70",
    "size_bytes": 9017012,
    "updated": "2026-09-25T08:54:17.312Z"
@@ -1734,6 +1734,20 @@
    "sha256": "6b21da361143b7098caa78c9600329f25577a1615ea94483e61f7de13c5c4975",
    "size_bytes": 8284315,
    "updated": "2026-09-24T22:25:21.878Z"
+  },
+  {
+   "declared_name": "obi/bus-b23-b9-trade-fair-exhibitor-brief",
+   "declared_short": "bus-b23-b9-trade-fair-exhibitor-brief",
+   "folder": "bus-b23-b9-trade-fair-exhibitor-brief",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "bd4eac174e43b14266783caa8336bef724943faaf470134764f2dd63dc572c8f",
+   "size_bytes": 13235048,
+   "updated": "2026-09-25T08:59:04.660Z"
   },
   {
    "connector_provenance": null,
@@ -2406,6 +2420,20 @@
    "sha256": "8db9c86ef2e55bb32f2f70a012d32494f520663717b708c69d614489b8bce1a3",
    "size_bytes": 7470703,
    "updated": "2026-09-24T10:08:15.612Z"
+  },
+  {
+   "declared_name": "obi/bus-b67-b7-parcel-shipping-billable-cost",
+   "declared_short": "bus-b67-b7-parcel-shipping-billable-cost",
+   "folder": "bus-b67-b7-parcel-shipping-billable-cost",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "80c82e89ab9e8d0501963957faf3ea70ad0272227d8fe8cc60cfebfc02f2ff73",
+   "size_bytes": 7782881,
+   "updated": "2026-09-25T08:55:10.319Z"
   },
   {
    "connector_provenance": null,
@@ -7944,6 +7972,20 @@
    "sha256": "b5a681dba6a12ffbeae9ae3eef87d7540f8930d029fc5f6fa8583f5ba546cd26",
    "size_bytes": 8479224,
    "updated": "2026-09-13T01:15:44.998Z"
+  },
+  {
+   "declared_name": "obi/edu-sc05-a1-lesson-arc-plan",
+   "declared_short": "edu-sc05-a1-lesson-arc-plan",
+   "folder": "edu-sc05-a1-lesson-arc-plan-frontier-transition-difficulty-20260925",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "b56ae62baac5b6569b47621d1aeaa3b00bda9b5ac3f9dc97a08f90a6949d83be",
+   "size_bytes": 9980990,
+   "updated": "2026-09-25T08:55:36.884Z"
   },
   {
    "connector_provenance": null,
@@ -19303,15 +19345,15 @@
    "updated": "2026-09-21T20:43:24.495Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b51-t2-ai-video-tool-capability-scorecard",
    "declared_short": "tech-b51-t2-ai-video-tool-capability-scorecard",
-   "folder": "tech-b51-t2-ai-video-tool-capability-scorecard",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b51-t2-ai-video-tool-capability-scorecard",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6c7f5cadf1dfb6f2c171f8ef840fb591200b75395754419a663d674a041ae3cc",
    "size_bytes": 4280037,
    "updated": "2026-09-25T08:51:55.220Z"
