@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T21:35:03+00:00",
+ "generated_at": "2026-09-25T21:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1548,
-  "scanned": 1548,
+  "task_folders": 1549,
+  "scanned": 1549,
   "connector": 426,
-  "non_connector": 1122,
+  "non_connector": 1123,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 156
  },
  "domain": {
-  "unnamed": 666,
+  "unnamed": 667,
   "code": 293,
   "fin": 104,
   "gen": 290,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 429,
-  "obi": 1118,
+  "obi": 1119,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131732
+  "approx_bytes_read": 131464
  },
  "errors": [],
  "tasks": [
@@ -9119,15 +9119,15 @@
    "updated": "2026-09-18T13:10:29.387Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b44-a3-counterparty-cash-flow-bridge",
    "declared_short": "fin-b44-a3-counterparty-cash-flow-bridge",
-   "folder": "fin-b44-a3-counterparty-cash-flow-bridge",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b44-a3-counterparty-cash-flow-bridge",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "814df3c12413e0ab3de971e2d756aaa61339bc585ad48d538b7c0daa07098735",
    "size_bytes": 7483038,
    "updated": "2026-09-25T21:30:04.095Z"
@@ -23548,6 +23548,20 @@
    "sha256": "75b348029ebf0ea5400f98b9549c867668b7c3fa3abf94f455b28ebc2e053934",
    "size_bytes": 8338521,
    "updated": "2026-09-22T12:49:25.690Z"
+  },
+  {
+   "declared_name": "obi/writing-sc05-a4-chapter-submission-readiness-v2",
+   "declared_short": "writing-sc05-a4-chapter-submission-readiness-v2",
+   "folder": "writing-sc05-a4-chapter-submission-readiness-v2",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "0a2eb50f4fb9492cc0d3ab601d4f4f501aa0177057563729678a63a9757da7cc",
+   "size_bytes": 3771257,
+   "updated": "2026-09-25T21:47:33.397Z"
   },
   {
    "connector_provenance": null,
