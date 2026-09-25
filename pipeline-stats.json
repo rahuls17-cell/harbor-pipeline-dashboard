@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T05:55:03+00:00",
+ "generated_at": "2026-09-25T06:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1431,
-  "scanned": 1431,
+  "task_folders": 1433,
+  "scanned": 1433,
   "connector": 409,
-  "non_connector": 1022,
+  "non_connector": 1024,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 145
  },
  "domain": {
-  "unnamed": 600,
-  "code": 270,
+  "unnamed": 601,
+  "code": 271,
   "fin": 98,
   "gen": 281,
   "health": 94,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 411,
-  "obi": 1020
+  "obi": 1022
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131614
+  "new_archives_read": 2,
+  "approx_bytes_read": 262876
  },
  "errors": [],
  "tasks": [
@@ -2421,6 +2421,20 @@
    "updated": "2026-09-22T17:39:20.961Z"
   },
   {
+   "declared_name": "obi/bus-mg-bus-b8-a2-ps-leadership-requirement-crosswalk",
+   "declared_short": "bus-mg-bus-b8-a2-ps-leadership-requirement-crosswalk",
+   "folder": "bus-mg-bus-b8-a2-ps-leadership-requirement-crosswalk",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "e56eee5bc04d3a9e6704bec255641b7155d96a6ca660c9426beba6aa0fccd04b",
+   "size_bytes": 10500917,
+   "updated": "2026-09-25T05:56:05.787Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-mg-bus-b8-a5-marketplace-listing-normalisation",
@@ -4145,6 +4159,20 @@
    "sha256": "f45b958149ddd258fc665960a501c9a7ddb1ba8bc19f58b15aab392b8e4ed858",
    "size_bytes": 8945004,
    "updated": "2026-09-19T06:34:52.141Z"
+  },
+  {
+   "declared_name": "obi/code-c303-digital-signage-asset-audit",
+   "declared_short": "code-c303-digital-signage-asset-audit",
+   "folder": "code-c303-digital-signage-asset-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "64b483467224fd149b4e7ef6c275f50c0de246fe381ba4045c3be885fe0dd418",
+   "size_bytes": 8335633,
+   "updated": "2026-09-25T05:58:37.643Z"
   },
   {
    "connector_provenance": null,
@@ -17839,15 +17867,15 @@
    "updated": "2026-09-22T12:58:59.813Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/sci-sc09-a5-philosophy-salon-roster-reconciliation",
    "declared_short": "sci-sc09-a5-philosophy-salon-roster-reconciliation",
-   "folder": "sci-sc09-a5-philosophy-salon-roster-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "sci-sc09-a5-philosophy-salon-roster-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9818694e4e71bd21a94d24562148c4cfe334bb228dd8b257eb9d3b3a38bfe655",
    "size_bytes": 7017540,
    "updated": "2026-09-25T05:54:19.985Z"
