@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T08:20:05+00:00",
+ "generated_at": "2026-09-25T08:25:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1449,
-  "scanned": 1449,
+  "task_folders": 1451,
+  "scanned": 1451,
   "connector": 409,
-  "non_connector": 1040,
+  "non_connector": 1042,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 145
  },
  "domain": {
-  "unnamed": 606,
+  "unnamed": 607,
   "code": 277,
   "fin": 100,
-  "gen": 281,
+  "gen": 282,
   "health": 97,
   "law": 88
  },
  "name_prefix": {
   "harbor": 411,
-  "obi": 1038
+  "obi": 1040
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131489
+  "new_archives_read": 2,
+  "approx_bytes_read": 263033
  },
  "errors": [],
  "tasks": [
@@ -2391,6 +2391,20 @@
    "sha256": "8db9c86ef2e55bb32f2f70a012d32494f520663717b708c69d614489b8bce1a3",
    "size_bytes": 7470703,
    "updated": "2026-09-24T10:08:15.612Z"
+  },
+  {
+   "declared_name": "obi/bus-b67-b9-hospital-feasibility-summary-claim-audit",
+   "declared_short": "bus-b67-b9-hospital-feasibility-summary-claim-audit",
+   "folder": "bus-b67-b9-hospital-feasibility-summary-claim-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "c2c9c5192cf630f0ccceee0665c6a77d3b7e5fab387ac2efbe8af6e42f298d3a",
+   "size_bytes": 7490641,
+   "updated": "2026-09-25T08:22:32.835Z"
   },
   {
    "connector_provenance": null,
@@ -6135,15 +6149,15 @@
    "updated": "2026-09-05T21:44:56.715Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c703-thumbnail-creative-brief-qc-audit",
    "declared_short": "code-c703-thumbnail-creative-brief-qc-audit",
-   "folder": "code-c703-thumbnail-creative-brief-qc-audit-r7",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c703-thumbnail-creative-brief-qc-audit-r7",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8a6f4674c13a616e9859381dd36bf8589b704b7cceca8e60f6d5e9931ec2f3dc",
    "size_bytes": 6194821,
    "updated": "2026-09-25T08:19:07.424Z"
@@ -11087,6 +11101,20 @@
    "sha256": "7307ab701a3db61edf2cedc2c325545c4cc9cf8da1c2d12918fedc90e0ce70a2",
    "size_bytes": 7778901,
    "updated": "2026-09-09T13:53:37.842Z"
+  },
+  {
+   "declared_name": "obi/gen-g361-rangefinder-case-compatibility-audit",
+   "declared_short": "gen-g361-rangefinder-case-compatibility-audit",
+   "folder": "gen-g361-rangefinder-case-compatibility-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "54c47fe86b12963147cec4ea805db9655b3a82d219c489cf04450536dd3387db",
+   "size_bytes": 5754846,
+   "updated": "2026-09-25T08:20:06.024Z"
   },
   {
    "connector_provenance": null,
