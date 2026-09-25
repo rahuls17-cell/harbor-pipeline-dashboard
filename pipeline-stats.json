@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T21:20:05+00:00",
+ "generated_at": "2026-09-25T21:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1546,
-  "scanned": 1546,
+  "task_folders": 1547,
+  "scanned": 1547,
   "connector": 426,
-  "non_connector": 1120,
+  "non_connector": 1121,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 293,
   "fin": 103,
   "gen": 290,
-  "health": 102,
+  "health": 103,
   "law": 92
  },
  "name_prefix": {
   "harbor": 429,
-  "obi": 1116,
+  "obi": 1117,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135023
+  "approx_bytes_read": 131433
  },
  "errors": [],
  "tasks": [
@@ -16223,6 +16223,20 @@
    "updated": "2026-09-25T11:33:26.074Z"
   },
   {
+   "declared_name": "obi/health-tdt10-a3-shelf-claim-basis-catalogue",
+   "declared_short": "health-tdt10-a3-shelf-claim-basis-catalogue",
+   "folder": "health-tdt10-a3-shelf-claim-basis-catalogue",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "48f5a2842f9ad0936d030625c7f1a11bd2c48819c6760a8a8b94372900590d7a",
+   "size_bytes": 3990375,
+   "updated": "2026-09-25T21:21:57.345Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt3-a1-pt-licensure-english-score-adjudication",
@@ -18409,17 +18423,17 @@
    "updated": "2026-09-09T20:24:40.236Z"
   },
   {
-   "declared_name": "harbor/one-name-twenty-four-mailboxes",
-   "declared_short": "one-name-twenty-four-mailboxes",
-   "folder": "one-name-twenty-four-mailboxes",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/one-name-twenty-four-mailboxes",
+   "declared_short": "one-name-twenty-four-mailboxes",
    "domain": null,
+   "folder": "one-name-twenty-four-mailboxes",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "50a4b8bd60f453b6670a18d46edd039e2cd3a4788eeecdf9d76716aa0e5d869f",
    "size_bytes": 18720428,
    "updated": "2026-09-25T21:17:32.120Z"
