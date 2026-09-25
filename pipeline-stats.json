@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T14:15:02+00:00",
+ "generated_at": "2026-09-25T14:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1501,
-  "scanned": 1501,
+  "task_folders": 1502,
+  "scanned": 1502,
   "connector": 415,
-  "non_connector": 1086,
+  "non_connector": 1087,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 147
  },
  "domain": {
-  "unnamed": 635,
+  "unnamed": 636,
   "code": 286,
   "fin": 103,
   "gen": 287,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 418,
-  "obi": 1082,
+  "obi": 1083,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131426
  },
  "errors": [],
  "tasks": [
@@ -22910,6 +22910,20 @@
    "sha256": "35ae1ac8fb2171a45af5df3f594d5067cf4eff0c5fae7c4e8c65f61e55d9b6fb",
    "size_bytes": 6886697,
    "updated": "2026-09-24T18:43:50.245Z"
+  },
+  {
+   "declared_name": "obi/writing-sc05-b4-incident-timeline",
+   "declared_short": "writing-sc05-b4-incident-timeline",
+   "folder": "writing-sc05-b4-incident-timeline",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "ba4750903467e9646675e3e53d683908035a5dab610d762488eb3393f73c830e",
+   "size_bytes": 5384044,
+   "updated": "2026-09-25T14:17:57.628Z"
   },
   {
    "connector_provenance": null,
