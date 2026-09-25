@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T13:40:03+00:00",
+ "generated_at": "2026-09-25T13:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1498,
-  "scanned": 1498,
+  "task_folders": 1499,
+  "scanned": 1499,
   "connector": 415,
-  "non_connector": 1083,
+  "non_connector": 1084,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 635,
-  "code": 284,
+  "code": 285,
   "fin": 102,
   "gen": 287,
   "health": 100,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 418,
-  "obi": 1079,
+  "obi": 1080,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131542
  },
  "errors": [],
  "tasks": [
@@ -3575,6 +3575,20 @@
    "sha256": "2e3a678c85ca93f587262857c1e38adb3d278a9aaab63dc93b9873eff91df59d",
    "size_bytes": 7214296,
    "updated": "2026-09-20T21:08:00.158Z"
+  },
+  {
+   "declared_name": "obi/code-c176-floorplan-dimension-audit",
+   "declared_short": "code-c176-floorplan-dimension-audit",
+   "folder": "code-c176-floorplan-dimension-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "6dd3d00dd621f2bacca37ca9738977f44274fbbf6b952ff16cdd7e50d26cbf3f",
+   "size_bytes": 8107014,
+   "updated": "2026-09-25T13:44:02.089Z"
   },
   {
    "connector_provenance": null,
