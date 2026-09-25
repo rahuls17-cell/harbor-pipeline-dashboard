@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T13:30:03+00:00",
+ "generated_at": "2026-09-25T13:35:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1497,
-  "scanned": 1497,
+  "task_folders": 1498,
+  "scanned": 1498,
   "connector": 415,
-  "non_connector": 1082,
+  "non_connector": 1083,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 147
  },
  "domain": {
-  "unnamed": 634,
+  "unnamed": 635,
   "code": 284,
   "fin": 102,
   "gen": 287,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 418,
-  "obi": 1078,
+  "obi": 1079,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131653
  },
  "errors": [],
  "tasks": [
@@ -18485,6 +18485,20 @@
    "sha256": "71782d26849e1cadea87a3eecb46a545d23fdec0a723f6ecf1c9247aec06ec49",
    "size_bytes": 7895768,
    "updated": "2026-09-05T21:45:46.403Z"
+  },
+  {
+   "declared_name": "obi/sci-b50-a6-biostimulant-results-recompute",
+   "declared_short": "sci-b50-a6-biostimulant-results-recompute",
+   "folder": "sci-b50-a6-biostimulant-results-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "cb22cf917286e3ae46620c81910837f2883a64d9434c0c75d0c18d57cc67cfa2",
+   "size_bytes": 7392670,
+   "updated": "2026-09-25T13:32:59.002Z"
   },
   {
    "connector_provenance": null,
