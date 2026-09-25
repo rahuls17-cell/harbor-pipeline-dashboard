@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T11:30:04+00:00",
+ "generated_at": "2026-09-25T11:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1475,
-  "scanned": 1475,
+  "task_folders": 1477,
+  "scanned": 1477,
   "connector": 411,
-  "non_connector": 1064,
+  "non_connector": 1066,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 145
  },
  "domain": {
-  "unnamed": 620,
+  "unnamed": 621,
   "code": 281,
   "fin": 101,
   "gen": 285,
-  "health": 99,
+  "health": 100,
   "law": 89
  },
  "name_prefix": {
   "harbor": 414,
-  "obi": 1060,
+  "obi": 1062,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263183
  },
  "errors": [],
  "tasks": [
@@ -2451,6 +2451,20 @@
    "sha256": "8db9c86ef2e55bb32f2f70a012d32494f520663717b708c69d614489b8bce1a3",
    "size_bytes": 7470703,
    "updated": "2026-09-24T10:08:15.612Z"
+  },
+  {
+   "declared_name": "obi/bus-b67-b4-mobile-notary-launch-income-plan",
+   "declared_short": "bus-b67-b4-mobile-notary-launch-income-plan",
+   "folder": "bus-b67-b4-mobile-notary-launch-income-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "4afb6a6b5aa161d5632d273ce418c75b243cab3cc80170e0d40c002f756d48a7",
+   "size_bytes": 5737103,
+   "updated": "2026-09-25T11:34:46.733Z"
   },
   {
    "connector_provenance": null,
@@ -15683,6 +15697,20 @@
    "sha256": "10e6192f1147dbe7232d9f7d14bb019d7de5e5e82d531e57d42f130058c5ac88",
    "size_bytes": 6188847,
    "updated": "2026-09-25T06:33:22.053Z"
+  },
+  {
+   "declared_name": "obi/health-hl04-b5-pplul-run-schedule",
+   "declared_short": "health-hl04-b5-pplul-run-schedule",
+   "folder": "health-hl04-b5-pplul-run-schedule",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "13d23f3874722d26692adf54cc8c4f72f9eb8c2804976bcc49076058f64a7621",
+   "size_bytes": 4292944,
+   "updated": "2026-09-25T11:33:26.074Z"
   },
   {
    "connector_provenance": null,
