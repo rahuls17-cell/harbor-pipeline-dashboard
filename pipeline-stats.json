@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T09:50:03+00:00",
+ "generated_at": "2026-09-25T09:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1466,
-  "scanned": 1466,
+  "task_folders": 1467,
+  "scanned": 1467,
   "connector": 410,
-  "non_connector": 1056,
+  "non_connector": 1057,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 145
  },
  "domain": {
-  "unnamed": 615,
+  "unnamed": 616,
   "code": 279,
   "fin": 100,
   "gen": 284,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 412,
-  "obi": 1053,
+  "obi": 1054,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131454
  },
  "errors": [],
  "tasks": [
@@ -2084,6 +2084,20 @@
    "sha256": "dbc5896fe74ed0a27b440919516786e573094ba14771822e4d3c30c4076ddcbe",
    "size_bytes": 8446733,
    "updated": "2026-09-24T18:43:19.406Z"
+  },
+  {
+   "declared_name": "obi/bus-b47-b6-travel-backpack-fabric-tier-price-comparison",
+   "declared_short": "bus-b47-b6-travel-backpack-fabric-tier-price-comparison",
+   "folder": "bus-b47-b6-travel-backpack-fabric-tier-price-comparison",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "f27e78637c0e039f65213bdb9470c93f46ef562ccabe993f8704ff368474495f",
+   "size_bytes": 5416770,
+   "updated": "2026-09-25T09:52:39.903Z"
   },
   {
    "connector_provenance": null,
