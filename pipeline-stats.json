@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T22:35:03+00:00",
+ "generated_at": "2026-09-25T22:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1554,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131484
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -16629,15 +16629,15 @@
    "updated": "2026-09-25T15:15:50.618Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt9-a10-clipping-packet-rolling-window",
    "declared_short": "health-tdt9-a10-clipping-packet-rolling-window",
-   "folder": "health-tdt9-a10-clipping-packet-rolling-window",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt9-a10-clipping-packet-rolling-window",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9c766399965dfdcc42399778707b0a2746003b63e6690cb235bf55b6be44f60f",
    "size_bytes": 3988968,
    "updated": "2026-09-25T22:30:12.188Z"
