@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T21:55:04+00:00",
+ "generated_at": "2026-09-25T22:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1551,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 265070
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -16251,15 +16251,15 @@
    "updated": "2026-09-25T21:21:57.345Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt11-a1-elbow-effusion-referral-adjudication",
    "declared_short": "health-tdt11-a1-elbow-effusion-referral-adjudication",
-   "folder": "health-tdt11-a1-elbow-effusion-referral-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt11-a1-elbow-effusion-referral-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f2dab4d282f4a608d4118bf75e9cca4f4b9eb33135486185393c8b9dc006f04f",
    "size_bytes": 7239705,
    "updated": "2026-09-25T21:53:41.738Z"
@@ -18755,17 +18755,17 @@
    "updated": "2026-09-23T05:49:45.958Z"
   },
   {
-   "declared_name": "harbor/recount-the-lead-spreadsheets",
-   "declared_short": "recount-the-lead-spreadsheets",
-   "folder": "recount-the-lead-spreadsheets",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/recount-the-lead-spreadsheets",
+   "declared_short": "recount-the-lead-spreadsheets",
    "domain": null,
+   "folder": "recount-the-lead-spreadsheets",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7e2e48d5857a2646258a1365500dca0f89e869970bc9992275cc9ab545860444",
    "size_bytes": 13176552,
    "updated": "2026-09-25T21:50:14.744Z"
