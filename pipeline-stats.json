@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-25T18:30:03+00:00",
+ "generated_at": "2026-09-25T18:35:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1517,
-  "scanned": 1517,
-  "connector": 417,
+  "task_folders": 1519,
+  "scanned": 1519,
+  "connector": 419,
   "non_connector": 1100,
   "errors": 0
  },
  "connector_provenance": {
   "real": 128,
-  "unknown": 140,
-  "synthetic": 149
+  "unknown": 141,
+  "synthetic": 150
  },
  "domain": {
-  "unnamed": 645,
+  "unnamed": 647,
   "code": 290,
   "fin": 103,
   "gen": 288,
@@ -22,7 +22,7 @@
   "law": 90
  },
  "name_prefix": {
-  "harbor": 420,
+  "harbor": 422,
   "obi": 1096,
   "vankamasthanamma": 1
  },
@@ -35,11 +35,11 @@
   "freshdesk-gym": 178,
   "slack-gym": 173,
   "slack": 63,
-  "notion-gym": 37,
+  "notion-gym": 38,
   "github-gym": 29,
   "email-calendar-gym": 24,
   "linear-gym": 23,
-  "outlook-gym": 16,
+  "outlook-gym": 17,
   "gws-gym": 11,
   "supabase-gym": 5,
   "teams-gym": 5,
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 263184
+  "approx_bytes_read": 274551
  },
  "errors": [],
  "tasks": [
@@ -5089,15 +5089,15 @@
    "updated": "2026-09-22T01:58:16.187Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c394-card-resale-ledger-reconciliation-audit",
    "declared_short": "code-c394-card-resale-ledger-reconciliation-audit",
-   "folder": "code-c394-card-resale-ledger-reconciliation-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c394-card-resale-ledger-reconciliation-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f58cc76ab95c555074b167df71de55e3dc3c15044b008ce08719e7b4e7821f5e",
    "size_bytes": 6332869,
    "updated": "2026-09-25T18:27:57.522Z"
@@ -7991,15 +7991,15 @@
    "updated": "2026-09-25T00:45:40.475Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-b51-e1-community-desk-enquiry-routing",
    "declared_short": "edu-b51-e1-community-desk-enquiry-routing",
-   "folder": "edu-b51-e1-community-desk-enquiry-routing",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-b51-e1-community-desk-enquiry-routing",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "084796269a903d4072c4034251415bc9ee235fd0e1eb801b8ae434fc418d9efb",
    "size_bytes": 5804289,
    "updated": "2026-09-25T18:28:57.490Z"
@@ -13863,6 +13863,22 @@
    "sha256": "eebc4c972f7883d7db705f254d584e24d5bcd6a081f5f9493e7c6b5ae6c08eab",
    "size_bytes": 4308953,
    "updated": "2026-09-22T22:40:54.465Z"
+  },
+  {
+   "declared_name": "harbor/global-claims-ready-to-file",
+   "declared_short": "global-claims-ready-to-file",
+   "folder": "global-claims-ready-to-file",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3979128cfe0ed10515b433dd1ac7903085ec7b997516caa0556ed24f652e41f3",
+   "size_bytes": 9858204,
+   "updated": "2026-09-25T18:31:53.562Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -20876,6 +20892,22 @@
    "sha256": "f97507370707e58f13737409c1e6c3e5c5dd39fd7c97ccae1041ebc31986ea51",
    "size_bytes": 7718115,
    "updated": "2026-09-17T16:55:29.261Z"
+  },
+  {
+   "declared_name": "harbor/the-big-old-attachments-worth-clearing",
+   "declared_short": "the-big-old-attachments-worth-clearing",
+   "folder": "the-big-old-attachments-worth-clearing",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "7757ff4fc278b6e4de4f3f8e7c0b0112d5761b110231069dce3270dc08dab083",
+   "size_bytes": 9568891,
+   "updated": "2026-09-25T18:30:58.618Z"
   },
   {
    "connector_provenance": "unknown",
