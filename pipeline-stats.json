@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T06:20:03+00:00",
+ "generated_at": "2026-09-25T06:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1435,
-  "scanned": 1435,
+  "task_folders": 1437,
+  "scanned": 1437,
   "connector": 409,
-  "non_connector": 1026,
+  "non_connector": 1028,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 602,
   "code": 272,
-  "fin": 98,
+  "fin": 99,
   "gen": 281,
-  "health": 94,
+  "health": 95,
   "law": 88
  },
  "name_prefix": {
   "harbor": 411,
-  "obi": 1024
+  "obi": 1026
  },
  "connector_services": {
   "google-drive-gym": 194,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131465
+  "new_archives_read": 2,
+  "approx_bytes_read": 263518
  },
  "errors": [],
  "tasks": [
@@ -1441,15 +1441,15 @@
    "updated": "2026-09-23T12:04:43.475Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b108-b11-flatbed-upfit-invoice-recompute",
    "declared_short": "bus-b108-b11-flatbed-upfit-invoice-recompute",
-   "folder": "bus-b108-b11-flatbed-upfit-invoice-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b108-b11-flatbed-upfit-invoice-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b95b3d2d64a7c1076a83f26f57961cd4902f140ed4a1b486c5cd16e54c41bcbd",
    "size_bytes": 11133783,
    "updated": "2026-09-25T06:17:55.833Z"
@@ -8943,6 +8943,20 @@
    "updated": "2026-09-19T23:33:39.165Z"
   },
   {
+   "declared_name": "obi/fin-b50-f5-mega-backdoor-roth-contribution-plan",
+   "declared_short": "fin-b50-f5-mega-backdoor-roth-contribution-plan",
+   "folder": "fin-b50-f5-mega-backdoor-roth-contribution-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "5f5b829b6fce51ae90e387092e59c6eee9d6fa0a72130313dcbcd64831b41041",
+   "size_bytes": 4786298,
+   "updated": "2026-09-25T06:20:59.156Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/fin-b50-f6-nyc-crypto-events-h1-2027-calendar",
@@ -14377,6 +14391,20 @@
    "sha256": "a6ca401a3b7c6f22d633b4f667840cc82c21ce02f18ff209dda623a16751f072",
    "size_bytes": 6927368,
    "updated": "2026-09-21T16:06:23.332Z"
+  },
+  {
+   "declared_name": "obi/health-b43-h2-brachial-plexus-teaching-table",
+   "declared_short": "health-b43-h2-brachial-plexus-teaching-table",
+   "folder": "health-b43-h2-brachial-plexus-teaching-table-v10",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "02e0c2507f8328b1f25e6bbedb3d31db51541fce10c82bd7989100690b525b45",
+   "size_bytes": 8246585,
+   "updated": "2026-09-25T06:24:45.754Z"
   },
   {
    "connector_provenance": null,
