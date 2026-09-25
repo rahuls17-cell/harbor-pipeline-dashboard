@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T15:20:03+00:00",
+ "generated_at": "2026-09-25T15:25:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1508,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263071
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -16259,15 +16259,15 @@
    "updated": "2026-09-21T15:35:13.926Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt8-a10-allergy-shelf-unit-price-ledger",
    "declared_short": "health-tdt8-a10-allergy-shelf-unit-price-ledger",
-   "folder": "health-tdt8-a10-allergy-shelf-unit-price-ledger",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt8-a10-allergy-shelf-unit-price-ledger",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "da7c25f2214fbe42c3d74b1ccfc196637f44c61d53dc0a84bcfef29ec1ff9eef",
    "size_bytes": 6221816,
    "updated": "2026-09-25T15:15:50.618Z"
@@ -18641,15 +18641,15 @@
    "updated": "2026-09-22T12:58:59.813Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/sci-sc07-a7-frost-southern-limits",
    "declared_short": "sci-sc07-a7-frost-southern-limits",
-   "folder": "sci-sc07-a7-frost-southern-limits-v1",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "sci-sc07-a7-frost-southern-limits-v1",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1f83b5d1a77c66e48aac0973ae7f24c01fe9abb6ff6784d03396263200557181",
    "size_bytes": 10772175,
    "updated": "2026-09-25T15:19:44.503Z"
