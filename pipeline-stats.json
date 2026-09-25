@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T14:00:03+00:00",
+ "generated_at": "2026-09-25T14:05:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1500,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131434
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -9269,15 +9269,15 @@
    "updated": "2026-09-19T21:16:43.411Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b49-f5-cost-seg-bonus-depreciation-at-risk",
    "declared_short": "fin-b49-f5-cost-seg-bonus-depreciation-at-risk",
-   "folder": "fin-b49-f5-cost-seg-bonus-depreciation-at-risk",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b49-f5-cost-seg-bonus-depreciation-at-risk",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5373ca73132461c6dfd6c6e9cd732c3b737cd77bec94a36816c949d9715174f6",
    "size_bytes": 6832969,
    "updated": "2026-09-25T13:57:24.905Z"
