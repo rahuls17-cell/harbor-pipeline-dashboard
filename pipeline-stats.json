@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-25T23:45:03+00:00",
+ "generated_at": "2026-09-25T23:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1557,
-  "scanned": 1557,
-  "connector": 427,
-  "non_connector": 1130,
+  "task_folders": 1559,
+  "scanned": 1559,
+  "connector": 428,
+  "non_connector": 1131,
   "errors": 0
  },
  "connector_provenance": {
   "real": 128,
   "unknown": 142,
-  "synthetic": 157
+  "synthetic": 158
  },
  "domain": {
-  "unnamed": 669,
+  "unnamed": 670,
   "code": 295,
-  "fin": 104,
+  "fin": 105,
   "gen": 292,
   "health": 105,
   "law": 92
  },
  "name_prefix": {
-  "harbor": 430,
-  "obi": 1126,
+  "harbor": 431,
+  "obi": 1127,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -40,7 +40,7 @@
   "linear-gym": 24,
   "email-calendar-gym": 24,
   "outlook-gym": 19,
-  "gws-gym": 13,
+  "gws-gym": 14,
   "supabase-gym": 5,
   "teams-gym": 5,
   "microsoft-teams-gym": 4,
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 263004
+  "approx_bytes_read": 266035
  },
  "errors": [],
  "tasks": [
@@ -1813,15 +1813,15 @@
    "updated": "2026-09-25T13:13:00.636Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b23-b15-power-dialer-license-quote",
    "declared_short": "bus-b23-b15-power-dialer-license-quote",
-   "folder": "bus-b23-b15-power-dialer-license-quote",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b23-b15-power-dialer-license-quote",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ef3abd71f3955cdd7a5aef42fd1e7b2f2a9f214911c65651fe9530ca45aa4ec0",
    "size_bytes": 8234493,
    "updated": "2026-09-25T23:44:04.486Z"
@@ -4169,15 +4169,15 @@
    "updated": "2026-09-24T19:36:25.674Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c222-branch-protection-policy-audit",
    "declared_short": "code-c222-branch-protection-policy-audit",
-   "folder": "code-c222-branch-protection-policy-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c222-branch-protection-policy-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "bbd78cb23bc9244bcdae9c775ba8039c0f4124a9fd6d5c5f51a7ed5527365671",
    "size_bytes": 6552920,
    "updated": "2026-09-25T23:44:05.607Z"
@@ -9789,6 +9789,20 @@
    "sha256": "156830da939d480026d7d823e660711c94191185086dfe080275c577913ffc21",
    "size_bytes": 6024827,
    "updated": "2026-09-25T04:27:52.431Z"
+  },
+  {
+   "declared_name": "obi/fin-b53-f3-utility-deductibility-contract-mismatch-review",
+   "declared_short": "fin-b53-f3-utility-deductibility-contract-mismatch-review",
+   "folder": "fin-b53-f3-utility-deductibility-contract-mismatch-review",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "50665f23f7160007d8e8ef41b183629c4b5c83391952ecfd79480edcd32494b2",
+   "size_bytes": 6997192,
+   "updated": "2026-09-25T23:46:17.169Z"
   },
   {
    "connector_provenance": null,
@@ -21300,6 +21314,22 @@
    "sha256": "998bc0e771c9d147d93f162902f1de96e0e3b0484ce10e510d83c771e9c48e97",
    "size_bytes": 5668595,
    "updated": "2026-09-24T19:34:05.798Z"
+  },
+  {
+   "declared_name": "harbor/the-2023-clinical-files-still-open-to-edits",
+   "declared_short": "the-2023-clinical-files-still-open-to-edits",
+   "folder": "the-2023-clinical-files-still-open-to-edits",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c67adf32d656a6687bb2e28fb0d722a523867d0b69cccb29259f4c59905d549a",
+   "size_bytes": 6933421,
+   "updated": "2026-09-25T23:45:28.363Z"
   },
   {
    "connector_provenance": "unknown",
