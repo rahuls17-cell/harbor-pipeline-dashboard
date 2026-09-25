@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T21:05:03+00:00",
+ "generated_at": "2026-09-25T21:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1543,
-  "scanned": 1543,
+  "task_folders": 1544,
+  "scanned": 1544,
   "connector": 424,
-  "non_connector": 1119,
+  "non_connector": 1120,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 154
  },
  "domain": {
-  "unnamed": 663,
+  "unnamed": 664,
   "code": 293,
   "fin": 103,
   "gen": 290,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 427,
-  "obi": 1115,
+  "obi": 1116,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131621
+  "approx_bytes_read": 131509
  },
  "errors": [],
  "tasks": [
@@ -1825,6 +1825,20 @@
    "sha256": "d0661baec5dbc8892ce1f0c8280ed8593339994d3e59a8546f21c50791378c86",
    "size_bytes": 8731029,
    "updated": "2026-09-25T12:27:44.394Z"
+  },
+  {
+   "declared_name": "obi/bus-b23-b5-cardiology-editorial-calendar",
+   "declared_short": "bus-b23-b5-cardiology-editorial-calendar",
+   "folder": "bus-b23-b5-cardiology-editorial-calendar",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "5b1563aaa03519235875b26eeeaa2fe9749ac9a42cf4bc085da89b46a72bff4c",
+   "size_bytes": 9863947,
+   "updated": "2026-09-25T21:05:54.516Z"
   },
   {
    "connector_provenance": null,
@@ -20234,15 +20248,15 @@
    "updated": "2026-09-25T08:51:55.220Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b51-t3-build-spec-chart-contradiction",
    "declared_short": "tech-b51-t3-build-spec-chart-contradiction",
-   "folder": "tech-b51-t3-build-spec-chart-contradiction",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b51-t3-build-spec-chart-contradiction",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2eccc31ce2241575b3674064905d15c176176178204cd35fd727800bda5703bd",
    "size_bytes": 3889219,
    "updated": "2026-09-25T21:02:43.715Z"
