@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T19:00:03+00:00",
+ "generated_at": "2026-09-25T19:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1523,
-  "scanned": 1523,
+  "task_folders": 1525,
+  "scanned": 1525,
   "connector": 420,
-  "non_connector": 1103,
+  "non_connector": 1105,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 151
  },
  "domain": {
-  "unnamed": 649,
-  "code": 291,
+  "unnamed": 650,
+  "code": 292,
   "fin": 103,
   "gen": 288,
   "health": 101,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 423,
-  "obi": 1099,
+  "obi": 1101,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136937
+  "new_archives_read": 2,
+  "approx_bytes_read": 263035
  },
  "errors": [],
  "tasks": [
@@ -1667,6 +1667,20 @@
    "sha256": "49786d90d84278f8b127e72dc3ddb2b4625386a551d146fc8707613abcc4e7a3",
    "size_bytes": 12717141,
    "updated": "2026-09-24T23:23:06.313Z"
+  },
+  {
+   "declared_name": "obi/bus-b22-b12-lihtc-developer-award-verification",
+   "declared_short": "bus-b22-b12-lihtc-developer-award-verification",
+   "folder": "bus-b22-b12-lihtc-developer-award-verification",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "5d0b245d2341b9f4c2128e40e8972918b42714fbe9d1cb5247ae8bb3b6a18a33",
+   "size_bytes": 7202745,
+   "updated": "2026-09-25T19:00:34.548Z"
   },
   {
    "connector_provenance": null,
@@ -6585,6 +6599,20 @@
    "sha256": "d2bebb685805a8b32ec56f7e87aabddb2e6c2604de50784cfc54baeb3e8dfb45",
    "size_bytes": 6848307,
    "updated": "2026-09-25T09:04:28.245Z"
+  },
+  {
+   "declared_name": "obi/code-c720-print-upscale-readiness-audit",
+   "declared_short": "code-c720-print-upscale-readiness-audit",
+   "folder": "code-c720-print-upscale-readiness-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "6aac48b1772abf5cf095048ce9d723b366bbd1551e682edbdd39367d912dbc3b",
+   "size_bytes": 5761641,
+   "updated": "2026-09-25T19:04:39.270Z"
   },
   {
    "connector_provenance": null,
@@ -21768,17 +21796,17 @@
    "updated": "2026-09-23T06:31:37.991Z"
   },
   {
-   "declared_name": "harbor/the-review-queue-nobody-drained",
-   "declared_short": "the-review-queue-nobody-drained",
-   "folder": "the-review-queue-nobody-drained",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-review-queue-nobody-drained",
+   "declared_short": "the-review-queue-nobody-drained",
    "domain": null,
+   "folder": "the-review-queue-nobody-drained",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "bf41fb845cad3f4b93599e7bdc0a7062a87b783d9c820b7dc67ae093e03d4b9c",
    "size_bytes": 7353511,
    "updated": "2026-09-25T18:57:50.953Z"
