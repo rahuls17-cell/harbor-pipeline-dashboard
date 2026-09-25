@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T02:10:03+00:00",
+ "generated_at": "2026-09-25T02:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1420,
@@ -47,8 +47,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132770
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -97,17 +97,17 @@
    "updated": "2026-09-21T16:08:40.725Z"
   },
   {
-   "declared_name": "harbor/verify-daily-check-issuing-limit-compliance-for-account-8263-on-2025-0",
-   "declared_short": "verify-daily-check-issuing-limit-compliance-for-account-8263-on-2025-0",
-   "folder": "100260",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/verify-daily-check-issuing-limit-compliance-for-account-8263-on-2025-0",
+   "declared_short": "verify-daily-check-issuing-limit-compliance-for-account-8263-on-2025-0",
    "domain": null,
+   "folder": "100260",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c2973344deb9d278ddefc0751f2ade0fd1e02d4709853f4f4f610a309e467fcb",
    "size_bytes": 8568527,
    "updated": "2026-09-25T02:06:52.885Z"
