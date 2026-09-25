@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T14:25:03+00:00",
+ "generated_at": "2026-09-25T14:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1502,
-  "scanned": 1502,
+  "task_folders": 1504,
+  "scanned": 1504,
   "connector": 415,
-  "non_connector": 1087,
+  "non_connector": 1089,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 147
  },
  "domain": {
-  "unnamed": 636,
+  "unnamed": 638,
   "code": 286,
   "fin": 103,
   "gen": 287,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 418,
-  "obi": 1083,
+  "obi": 1085,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263066
  },
  "errors": [],
  "tasks": [
@@ -19886,6 +19886,34 @@
    "sha256": "f10b5bc1d07a606ccb6dd838e7d6ee6012bdb5b3b4d4ba3e21f2381011d7521a",
    "size_bytes": 9765426,
    "updated": "2026-09-25T06:32:53.136Z"
+  },
+  {
+   "declared_name": "obi/tech-b51-t7-sending-quota-recompute",
+   "declared_short": "tech-b51-t7-sending-quota-recompute",
+   "folder": "tech-b51-t7-sending-quota-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "247e45f1085be74772bed307c83d265cc80a7a62a36a4eaa22d8d51a7d0fe526",
+   "size_bytes": 14838935,
+   "updated": "2026-09-25T14:44:50.371Z"
+  },
+  {
+   "declared_name": "obi/tech-b52-t2-device-service-eligibility-adjudication",
+   "declared_short": "tech-b52-t2-device-service-eligibility-adjudication",
+   "folder": "tech-b52-t2-device-service-eligibility-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "2a024d781f9e18f3fd40e5d50b1abb2c1a0a340066b956b0cdc8ca545f5ac02b",
+   "size_bytes": 5145736,
+   "updated": "2026-09-25T14:40:35.503Z"
   },
   {
    "connector_provenance": null,
