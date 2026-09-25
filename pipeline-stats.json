@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T20:25:03+00:00",
+ "generated_at": "2026-09-25T20:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1536,
-  "scanned": 1536,
+  "task_folders": 1539,
+  "scanned": 1539,
   "connector": 424,
-  "non_connector": 1112,
+  "non_connector": 1115,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 154
  },
  "domain": {
-  "unnamed": 659,
+  "unnamed": 661,
   "code": 292,
   "fin": 103,
   "gen": 289,
   "health": 102,
-  "law": 91
+  "law": 92
  },
  "name_prefix": {
   "harbor": 427,
-  "obi": 1108,
+  "obi": 1111,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 266949
+  "new_archives_read": 3,
+  "approx_bytes_read": 394583
  },
  "errors": [],
  "tasks": [
@@ -535,17 +535,17 @@
    "updated": "2026-09-19T11:46:50.618Z"
   },
   {
-   "declared_name": "harbor/accounts-in-the-wrong-shape",
-   "declared_short": "accounts-in-the-wrong-shape",
-   "folder": "accounts-in-the-wrong-shape",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/accounts-in-the-wrong-shape",
+   "declared_short": "accounts-in-the-wrong-shape",
    "domain": null,
+   "folder": "accounts-in-the-wrong-shape",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d6d0c5cf1d350b49e55173b4e6e1c1eb767b562a2d65428f62a873c81c5ea35e",
    "size_bytes": 6388108,
    "updated": "2026-09-25T20:22:45.758Z"
@@ -16859,6 +16859,20 @@
    "updated": "2026-09-13T13:12:30.899Z"
   },
   {
+   "declared_name": "obi/law-b36-l11-foreign-judgment-registration-audit",
+   "declared_short": "law-b36-l11-foreign-judgment-registration-audit",
+   "folder": "law-b36-l11-foreign-judgment-registration-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "816181b64bcefdaeb034d1478a521630f9aa1cc1a52f7678529082365e7eb7b2",
+   "size_bytes": 9919777,
+   "updated": "2026-09-25T20:26:52.559Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-b36-l4-finished-area-recomputation",
@@ -20136,6 +20150,20 @@
    "updated": "2026-09-22T03:02:34.204Z"
   },
   {
+   "declared_name": "obi/tech-b51-t1-channel-video-retention-link-list",
+   "declared_short": "tech-b51-t1-channel-video-retention-link-list",
+   "folder": "tech-b51-t1-channel-video-retention-link-list",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "c7efda38a1f3f5f31fd59a662118d53715291b395d035f503965f725a9fca769",
+   "size_bytes": 4195834,
+   "updated": "2026-09-25T20:27:27.186Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/tech-b51-t10-registry-scanner-pod-placement-plan",
@@ -21002,6 +21030,20 @@
    "sha256": "fcbab22583bee0e1bec6170aaeb584f35bdf47d0e8d503999dae9e3713dd29bb",
    "size_bytes": 4876937,
    "updated": "2026-09-22T05:05:28.353Z"
+  },
+  {
+   "declared_name": "obi/tech-mg-it-b9-a1-feedback-api-request-signing",
+   "declared_short": "tech-mg-it-b9-a1-feedback-api-request-signing",
+   "folder": "tech-mg-it-b9-a1-feedback-api-request-signing",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "76110b0998dc259e6546cd6a5dec7ccec52f6c905a024411c9822578bef1e4c4",
+   "size_bytes": 10551178,
+   "updated": "2026-09-25T20:26:59.724Z"
   },
   {
    "connector_provenance": null,
@@ -23294,15 +23336,15 @@
    "updated": "2026-09-20T12:00:31.441Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/writing-b52-a5-proposal-paragraph-adjudication",
    "declared_short": "writing-b52-a5-proposal-paragraph-adjudication",
-   "folder": "writing-b52-a5-proposal-paragraph-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "writing-b52-a5-proposal-paragraph-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d1f16c188a4e1e9a70043672cad002e821c2d9cec3137735ed8204105593c044",
    "size_bytes": 5376556,
    "updated": "2026-09-25T20:22:19.881Z"
