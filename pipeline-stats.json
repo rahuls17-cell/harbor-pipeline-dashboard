@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T14:05:05+00:00",
+ "generated_at": "2026-09-25T14:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1500,
-  "scanned": 1500,
+  "task_folders": 1501,
+  "scanned": 1501,
   "connector": 415,
-  "non_connector": 1085,
+  "non_connector": 1086,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 635,
-  "code": 285,
+  "code": 286,
   "fin": 103,
   "gen": 287,
   "health": 100,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 418,
-  "obi": 1081,
+  "obi": 1082,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131560
  },
  "errors": [],
  "tasks": [
@@ -3631,6 +3631,20 @@
    "sha256": "0bcb3ade475a6a1f82806e3974bfb60af9ba404eab5d51fe6011071fbe609ff1",
    "size_bytes": 7521742,
    "updated": "2026-09-25T07:19:45.117Z"
+  },
+  {
+   "declared_name": "obi/code-c184-plant-companion-matrix-audit",
+   "declared_short": "code-c184-plant-companion-matrix-audit",
+   "folder": "code-c184-plant-companion-matrix-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "17f7626b7bd47225a1b45eea4a65da945f1cc13de7b7a83ca1c1c5b9945dee8a",
+   "size_bytes": 8383990,
+   "updated": "2026-09-25T14:05:14.872Z"
   },
   {
    "connector_provenance": null,
