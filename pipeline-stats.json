@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T10:25:03+00:00",
+ "generated_at": "2026-09-25T10:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1469,
-  "scanned": 1469,
+  "task_folders": 1470,
+  "scanned": 1470,
   "connector": 410,
-  "non_connector": 1059,
+  "non_connector": 1060,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 617,
-  "code": 279,
+  "code": 280,
   "fin": 100,
   "gen": 285,
   "health": 99,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 412,
-  "obi": 1056,
+  "obi": 1057,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131456
  },
  "errors": [],
  "tasks": [
@@ -3880,6 +3880,20 @@
    "sha256": "c894efcacfd060778cb18105d7d4d8edf21f7a10dcd9b784b128eb893310b8b9",
    "size_bytes": 9657394,
    "updated": "2026-09-24T19:36:25.674Z"
+  },
+  {
+   "declared_name": "obi/code-c225-sbom-vulnerability-waiver-audit",
+   "declared_short": "code-c225-sbom-vulnerability-waiver-audit",
+   "folder": "code-c225-sbom-vulnerability-waiver-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "18d8b489d1f73c88c9cd8feff1680e661d00e38e15c4e36d1480b186f5b3f37f",
+   "size_bytes": 6283472,
+   "updated": "2026-09-25T10:32:25.188Z"
   },
   {
    "connector_provenance": null,
