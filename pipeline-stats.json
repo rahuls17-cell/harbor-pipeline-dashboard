@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T15:25:04+00:00",
+ "generated_at": "2026-09-25T15:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1508,
-  "scanned": 1508,
+  "task_folders": 1509,
+  "scanned": 1509,
   "connector": 416,
-  "non_connector": 1092,
+  "non_connector": 1093,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 641,
-  "code": 286,
+  "code": 287,
   "fin": 103,
   "gen": 287,
   "health": 101,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 419,
-  "obi": 1088,
+  "obi": 1089,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131539
  },
  "errors": [],
  "tasks": [
@@ -4317,6 +4317,20 @@
    "sha256": "b691fb0fed32571b82760aef9e1958269c627e4c22c4aad6b717f6f42a697220",
    "size_bytes": 12722428,
    "updated": "2026-09-19T05:38:43.447Z"
+  },
+  {
+   "declared_name": "obi/code-c262-ai-resource-link-accessibility-audit",
+   "declared_short": "code-c262-ai-resource-link-accessibility-audit",
+   "folder": "code-c262-ai-resource-link-accessibility-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "69d2689830057c4dbcbf4cd8586845280584dbc068c2625bb3ba910643d400cb",
+   "size_bytes": 6133857,
+   "updated": "2026-09-25T15:26:11.715Z"
   },
   {
    "connector_provenance": null,
