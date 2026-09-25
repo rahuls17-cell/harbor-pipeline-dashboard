@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-25T11:35:03+00:00",
+ "generated_at": "2026-09-25T11:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1477,
-  "scanned": 1477,
-  "connector": 411,
-  "non_connector": 1066,
+  "task_folders": 1480,
+  "scanned": 1480,
+  "connector": 412,
+  "non_connector": 1068,
   "errors": 0
  },
  "connector_provenance": {
   "real": 127,
   "unknown": 139,
-  "synthetic": 145
+  "synthetic": 146
  },
  "domain": {
-  "unnamed": 621,
-  "code": 281,
+  "unnamed": 622,
+  "code": 282,
   "fin": 101,
-  "gen": 285,
+  "gen": 286,
   "health": 100,
   "law": 89
  },
  "name_prefix": {
-  "harbor": 414,
-  "obi": 1062,
+  "harbor": 415,
+  "obi": 1064,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -36,7 +36,7 @@
   "slack-gym": 172,
   "slack": 62,
   "notion-gym": 37,
-  "github-gym": 27,
+  "github-gym": 28,
   "linear-gym": 23,
   "email-calendar-gym": 23,
   "outlook-gym": 16,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263183
+  "new_archives_read": 3,
+  "approx_bytes_read": 404993
  },
  "errors": [],
  "tasks": [
@@ -2453,15 +2453,15 @@
    "updated": "2026-09-24T10:08:15.612Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b67-b4-mobile-notary-launch-income-plan",
    "declared_short": "bus-b67-b4-mobile-notary-launch-income-plan",
-   "folder": "bus-b67-b4-mobile-notary-launch-income-plan",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b67-b4-mobile-notary-launch-income-plan",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4afb6a6b5aa161d5632d273ce418c75b243cab3cc80170e0d40c002f756d48a7",
    "size_bytes": 5737103,
    "updated": "2026-09-25T11:34:46.733Z"
@@ -4177,6 +4177,20 @@
    "sha256": "b691fb0fed32571b82760aef9e1958269c627e4c22c4aad6b717f6f42a697220",
    "size_bytes": 12722428,
    "updated": "2026-09-19T05:38:43.447Z"
+  },
+  {
+   "declared_name": "obi/code-c264-knowledge-vault-maintenance-audit",
+   "declared_short": "code-c264-knowledge-vault-maintenance-audit",
+   "folder": "code-c264-knowledge-vault-maintenance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "0897fdf198fe649d24e9fd5970454a682cc8d03eefb185706c34fb1e1536eeed",
+   "size_bytes": 7489259,
+   "updated": "2026-09-25T11:35:47.793Z"
   },
   {
    "connector_provenance": null,
@@ -13543,6 +13557,20 @@
    "updated": "2026-09-22T15:52:03.164Z"
   },
   {
+   "declared_name": "obi/gen-g864-regional-price-list-governance-audit",
+   "declared_short": "gen-g864-regional-price-list-governance-audit",
+   "folder": "gen-regional-price-list-governance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "575eaec5224d7e8fab865cd9174803926ebd6558b8930ead7329c08828d9bcef",
+   "size_bytes": 5499777,
+   "updated": "2026-09-25T11:38:05.425Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-sc05-a7-translation-glossary-audit",
@@ -15699,15 +15727,15 @@
    "updated": "2026-09-25T06:33:22.053Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-hl04-b5-pplul-run-schedule",
    "declared_short": "health-hl04-b5-pplul-run-schedule",
-   "folder": "health-hl04-b5-pplul-run-schedule",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-hl04-b5-pplul-run-schedule",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "13d23f3874722d26692adf54cc8c4f72f9eb8c2804976bcc49076058f64a7621",
    "size_bytes": 4292944,
    "updated": "2026-09-25T11:33:26.074Z"
@@ -20536,6 +20564,22 @@
    "sha256": "4b5c3ecceb83038c81783cc1a51bc7c60c0eee8dcbcde05ff83df9a6edbdd20e",
    "size_bytes": 15486916,
    "updated": "2026-09-23T23:00:59.602Z"
+  },
+  {
+   "declared_name": "harbor/the-counter-is-not-the-backlog",
+   "declared_short": "the-counter-is-not-the-backlog",
+   "folder": "the-counter-is-not-the-backlog",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "1c952b9fed2bfed0ea443f62e4dd9f8815290021560da6549143cb7496f35cda",
+   "size_bytes": 9571335,
+   "updated": "2026-09-25T11:38:31.011Z"
   },
   {
    "connector_provenance": "real",
