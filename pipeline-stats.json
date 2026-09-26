@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-26T21:55:04+00:00",
+ "generated_at": "2026-09-26T22:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1782,
-  "scanned": 1782,
-  "connector": 478,
+  "task_folders": 1784,
+  "scanned": 1784,
+  "connector": 480,
   "non_connector": 1304,
   "errors": 0
  },
  "connector_provenance": {
   "real": 135,
   "unknown": 154,
-  "synthetic": 189
+  "synthetic": 191
  },
  "domain": {
-  "unnamed": 790,
+  "unnamed": 792,
   "code": 348,
   "fin": 112,
   "gen": 301,
@@ -22,15 +22,15 @@
   "law": 99
  },
  "name_prefix": {
-  "harbor": 481,
+  "harbor": 483,
   "obi": 1300,
   "vankamasthanamma": 1
  },
  "connector_services": {
   "google-drive-gym": 197,
   "zeta3-sql-gym": 191,
+  "slack-gym": 186,
   "confluence-gym": 185,
-  "slack-gym": 185,
   "jira-gym": 183,
   "email-gym": 180,
   "freshdesk-gym": 180,
@@ -39,7 +39,7 @@
   "github-gym": 32,
   "outlook-gym": 31,
   "email-calendar-gym": 29,
-  "linear-gym": 28,
+  "linear-gym": 29,
   "gws-gym": 23,
   "supabase-gym": 6,
   "teams-gym": 5,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 394635
+  "new_archives_read": 2,
+  "approx_bytes_read": 272776
  },
  "errors": [],
  "tasks": [
@@ -379,6 +379,22 @@
    "sha256": "e766510c89e0274f7db2e905c77b4c4158e730b2e38ba4d643005b9400c38420",
    "size_bytes": 9014799,
    "updated": "2026-09-22T04:33:50.874Z"
+  },
+  {
+   "declared_name": "harbor/a-channel-nobody-talks-in",
+   "declared_short": "a-channel-nobody-talks-in",
+   "folder": "ASTR_101456",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "8c6f7a6c4ca473c03671780849e4cb9220908c34c1a42727e1bda93e56f69add",
+   "size_bytes": 11232187,
+   "updated": "2026-09-26T21:57:29.565Z"
   },
   {
    "connector_provenance": "real",
@@ -3137,15 +3153,15 @@
    "updated": "2026-09-24T10:08:15.612Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b67-b3-processing-order-cut-option-normalization",
    "declared_short": "bus-b67-b3-processing-order-cut-option-normalization",
-   "folder": "bus-b67-b3-processing-order-cut-option-normalization",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b67-b3-processing-order-cut-option-normalization",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "322d13149554565701ecc9a496db1e149b2dd780ff00c61c75eb9ed0eb77b37f",
    "size_bytes": 10417097,
    "updated": "2026-09-26T21:51:25.790Z"
@@ -9995,6 +10011,22 @@
    "sha256": "8f5bd7b67c255786ecb55be8a36c8134d898f9c0572966de18d96a12343f942d",
    "size_bytes": 5755992,
    "updated": "2026-09-09T09:20:38.761Z"
+  },
+  {
+   "declared_name": "harbor/eighteen-projects-that-are-done-but-open",
+   "declared_short": "eighteen-projects-that-are-done-but-open",
+   "folder": "eighteen-projects-that-are-done-but-open",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "400be9f3bff90fb23cf21125e7a1e21530a0997d0e297515a6a7a61a07655e50",
+   "size_bytes": 8032181,
+   "updated": "2026-09-26T21:58:03.693Z"
   },
   {
    "connector_provenance": "unknown",
@@ -23090,15 +23122,15 @@
    "updated": "2026-09-25T14:45:38.007Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b51-t9-mobile-plan-bill-variance-attribution",
    "declared_short": "tech-b51-t9-mobile-plan-bill-variance-attribution",
-   "folder": "tech-b51-t9-mobile-plan-bill-variance-attribution-v2",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b51-t9-mobile-plan-bill-variance-attribution-v2",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "fb9a448a3cefba1d0d360bda2f37d3fc4698631b2d546eaf7fe13f4019445a51",
    "size_bytes": 9749389,
    "updated": "2026-09-26T21:54:01.574Z"
@@ -26930,15 +26962,15 @@
    "updated": "2026-09-24T18:43:50.245Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/writing-sc05-b2-citation-rule-audit",
    "declared_short": "writing-sc05-b2-citation-rule-audit",
-   "folder": "writing-sc05-b2-citation-rule-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "writing-sc05-b2-citation-rule-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "91af6bfec783f7a47351d4667ff3132f6a6ae62ed1f3eeda8928127bb704becf",
    "size_bytes": 5661652,
    "updated": "2026-09-26T21:50:25.101Z"
