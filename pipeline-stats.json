@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-26T15:25:03+00:00",
+ "generated_at": "2026-09-26T15:30:06+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1690,
-  "scanned": 1690,
-  "connector": 459,
+  "task_folders": 1692,
+  "scanned": 1692,
+  "connector": 461,
   "non_connector": 1231,
   "errors": 0
  },
  "connector_provenance": {
   "real": 134,
   "unknown": 149,
-  "synthetic": 176
+  "synthetic": 178
  },
  "domain": {
-  "unnamed": 745,
+  "unnamed": 747,
   "code": 331,
   "fin": 106,
   "gen": 296,
@@ -22,7 +22,7 @@
   "law": 93
  },
  "name_prefix": {
-  "harbor": 462,
+  "harbor": 464,
   "obi": 1227,
   "vankamasthanamma": 1
  },
@@ -35,11 +35,11 @@
   "email-gym": 179,
   "freshdesk-gym": 179,
   "slack": 64,
-  "notion-gym": 42,
+  "notion-gym": 43,
   "github-gym": 31,
   "email-calendar-gym": 28,
+  "linear-gym": 27,
   "outlook-gym": 27,
-  "linear-gym": 26,
   "gws-gym": 17,
   "supabase-gym": 5,
   "teams-gym": 5,
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 273116
+  "approx_bytes_read": 271558
  },
  "errors": [],
  "tasks": [
@@ -1493,6 +1493,22 @@
    "sha256": "d96df1b729603bf04e067c4dc11968fbc33b12c3a71602f0184a2d85f8cd002d",
    "size_bytes": 16880964,
    "updated": "2026-09-18T23:01:02.230Z"
+  },
+  {
+   "declared_name": "harbor/billing-codes-the-cpt-table-lacks",
+   "declared_short": "billing-codes-the-cpt-table-lacks",
+   "folder": "billing-codes-the-cpt-table-lacks",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c7ed784d8109f78a4b1e2d83c1487305f379ae4bb3254fd4e831ad27c56aec1d",
+   "size_bytes": 12677799,
+   "updated": "2026-09-26T15:28:55.205Z"
   },
   {
    "connector_provenance": "unknown",
@@ -7269,15 +7285,15 @@
    "updated": "2026-09-23T08:47:48.474Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c6-deploy-remediation",
    "declared_short": "code-c6-deploy-remediation",
-   "folder": "code-c6-deploy-remediation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c6-deploy-remediation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7964b0bd39ff46712df50a2af29df611bbb5d34c19284c244c6112644c67135c",
    "size_bytes": 7110579,
    "updated": "2026-09-26T15:20:05.963Z"
@@ -19715,6 +19731,22 @@
    "updated": "2026-09-19T17:11:12.762Z"
   },
   {
+   "declared_name": "harbor/member-of-twenty-seven-alone-on-six",
+   "declared_short": "member-of-twenty-seven-alone-on-six",
+   "folder": "member-of-twenty-seven-alone-on-six",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "bb78a261037f66dca796ba487af646546288151f83280843abfa9b58b270653f",
+   "size_bytes": 6477131,
+   "updated": "2026-09-26T15:27:43.914Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "google-drive-gym"
@@ -23286,17 +23318,17 @@
    "updated": "2026-09-20T20:35:34.839Z"
   },
   {
-   "declared_name": "harbor/the-crash-went-away-because-the-check-did",
-   "declared_short": "the-crash-went-away-because-the-check-did",
-   "folder": "the-crash-went-away-because-the-check-did",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-crash-went-away-because-the-check-did",
+   "declared_short": "the-crash-went-away-because-the-check-did",
    "domain": null,
+   "folder": "the-crash-went-away-because-the-check-did",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5e25546a5cbfd1da09bca60740f5a982eb7162275b58274ee064ec2cf0e626c1",
    "size_bytes": 6885622,
    "updated": "2026-09-26T15:22:41.761Z"
