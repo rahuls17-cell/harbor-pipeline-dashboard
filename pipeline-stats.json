@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T21:45:03+00:00",
+ "generated_at": "2026-09-26T21:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1778,
-  "scanned": 1778,
+  "task_folders": 1779,
+  "scanned": 1779,
   "connector": 478,
-  "non_connector": 1300,
+  "non_connector": 1301,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 189
  },
  "domain": {
-  "unnamed": 786,
+  "unnamed": 787,
   "code": 348,
   "fin": 112,
   "gen": 301,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 481,
-  "obi": 1296,
+  "obi": 1297,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263133
+  "new_archives_read": 1,
+  "approx_bytes_read": 131535
  },
  "errors": [],
  "tasks": [
@@ -5745,15 +5745,15 @@
    "updated": "2026-09-19T10:46:57.161Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c295-access-request-approval-audit",
    "declared_short": "code-c295-access-request-approval-audit",
-   "folder": "code-c295-access-request-approval-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c295-access-request-approval-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "02cf78b0d7ee8a028b4531bc61b2d1b326d94b456cd279a131f9af1bbb947e22",
    "size_bytes": 5765364,
    "updated": "2026-09-26T21:41:30.736Z"
@@ -18091,15 +18091,15 @@
    "updated": "2026-09-26T19:20:13.504Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt10-a6-away-session-slot-plan",
    "declared_short": "health-tdt10-a6-away-session-slot-plan",
-   "folder": "health-tdt10-a6-away-session-slot-plan",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt10-a6-away-session-slot-plan",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "05ce6b88bd4ea4f4dece31c3478bda99cc3300bf015d938ea86d069098d78c33",
    "size_bytes": 6974845,
    "updated": "2026-09-26T21:43:32.710Z"
@@ -23676,6 +23676,20 @@
    "sha256": "82e75aee145d79b5a66bdfbc36dad7088b9c4ee00c826574869717b664941f08",
    "size_bytes": 5467665,
    "updated": "2026-09-24T21:43:54.598Z"
+  },
+  {
+   "declared_name": "obi/tech-mg-it-b10-a2-background-job-credit-audit",
+   "declared_short": "tech-mg-it-b10-a2-background-job-credit-audit",
+   "folder": "tech-mg-it-b10-a2-background-job-credit-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1fc76a87d74c50ab3eae25920378215f21724f064e4d225bee733918654a3d7d",
+   "size_bytes": 5706526,
+   "updated": "2026-09-26T21:49:40.238Z"
   },
   {
    "connector_provenance": null,
