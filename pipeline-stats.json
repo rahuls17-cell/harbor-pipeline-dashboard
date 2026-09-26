@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T05:35:05+00:00",
+ "generated_at": "2026-09-26T05:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1591,
-  "scanned": 1591,
+  "task_folders": 1592,
+  "scanned": 1592,
   "connector": 436,
-  "non_connector": 1155,
+  "non_connector": 1156,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 162
  },
  "domain": {
-  "unnamed": 688,
+  "unnamed": 689,
   "code": 308,
   "fin": 105,
   "gen": 293,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 439,
-  "obi": 1151,
+  "obi": 1152,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131545
+  "approx_bytes_read": 131489
  },
  "errors": [],
  "tasks": [
@@ -2839,15 +2839,15 @@
    "updated": "2026-09-22T17:39:20.961Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-mg-bus-b8-a10-inspection-lead-qualification-handoff",
    "declared_short": "bus-mg-bus-b8-a10-inspection-lead-qualification-handoff",
-   "folder": "bus-mg-bus-b8-a10-inspection-lead-qualification-handoff",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-mg-bus-b8-a10-inspection-lead-qualification-handoff",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "02011c2795f604f77567a535dc4ee40b559e2371fd9b0a31ddd2c5f2f6294fce",
    "size_bytes": 4721992,
    "updated": "2026-09-26T05:33:10.300Z"
@@ -20890,6 +20890,20 @@
    "sha256": "f10b5bc1d07a606ccb6dd838e7d6ee6012bdb5b3b4d4ba3e21f2381011d7521a",
    "size_bytes": 9765426,
    "updated": "2026-09-25T06:32:53.136Z"
+  },
+  {
+   "declared_name": "obi/tech-b51-t5-unpaid-bills-recurring-template-reconciliation",
+   "declared_short": "tech-b51-t5-unpaid-bills-recurring-template-reconciliation",
+   "folder": "tech-b51-t5-unpaid-bills-recurring-template-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "d0cca7cd6eab0c7a919c78be7cccc5aba54174c035f2ca0bbbfcace3d201b06d",
+   "size_bytes": 10201437,
+   "updated": "2026-09-26T05:37:26.141Z"
   },
   {
    "connector_provenance": null,
