@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T09:50:04+00:00",
+ "generated_at": "2026-09-26T09:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1633,
-  "scanned": 1633,
+  "task_folders": 1634,
+  "scanned": 1634,
   "connector": 448,
-  "non_connector": 1185,
+  "non_connector": 1186,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 709,
-  "code": 322,
+  "code": 323,
   "fin": 106,
   "gen": 295,
   "health": 109,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 451,
-  "obi": 1181,
+  "obi": 1182,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262960
+  "new_archives_read": 1,
+  "approx_bytes_read": 131534
  },
  "errors": [],
  "tasks": [
@@ -2727,15 +2727,15 @@
    "updated": "2026-09-26T05:49:50.729Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b609-t3-esg-definition-source-review-status-reconciliation",
    "declared_short": "bus-b609-t3-esg-definition-source-review-status-reconciliation",
-   "folder": "bus-b609-t3-esg-definition-source-review-status-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b609-t3-esg-definition-source-review-status-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "080bacb8a4d0cf829e610bae910e215f45e9424e4f16f48945da493d079ace8f",
    "size_bytes": 4206436,
    "updated": "2026-09-26T09:48:24.157Z"
@@ -5125,15 +5125,15 @@
    "updated": "2026-09-26T08:58:57.801Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c283-deck-style-guide-slide-audit",
    "declared_short": "code-c283-deck-style-guide-slide-audit",
-   "folder": "code-c283-deck-style-guide-slide-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c283-deck-style-guide-slide-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1e6f3ac6580520038a24e11776164fd1115ce9fd8483df94b955e2fd249ae7ce",
    "size_bytes": 5282668,
    "updated": "2026-09-26T09:48:30.207Z"
@@ -5165,6 +5165,20 @@
    "sha256": "f1cf3773cd37df6f087e5d53ff9c362261045291172e77a0c928cca76d8bbcdf",
    "size_bytes": 6916133,
    "updated": "2026-09-26T09:15:03.962Z"
+  },
+  {
+   "declared_name": "obi/code-c286-video-delivery-spec-compliance-audit",
+   "declared_short": "code-c286-video-delivery-spec-compliance-audit",
+   "folder": "code-c286-video-delivery-spec-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "f325af3b7a7279509550688ea5a6b21a01d896b804f8b2f200787e31c33906c0",
+   "size_bytes": 7431176,
+   "updated": "2026-09-26T09:53:15.703Z"
   },
   {
    "connector_provenance": null,
