@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-26T14:35:02+00:00",
+ "generated_at": "2026-09-26T14:40:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1676,
-  "scanned": 1676,
-  "connector": 455,
-  "non_connector": 1221,
+  "task_folders": 1678,
+  "scanned": 1678,
+  "connector": 456,
+  "non_connector": 1222,
   "errors": 0
  },
  "connector_provenance": {
   "real": 134,
   "unknown": 148,
-  "synthetic": 173
+  "synthetic": 174
  },
  "domain": {
-  "unnamed": 734,
+  "unnamed": 736,
   "code": 328,
   "fin": 106,
   "gen": 296,
@@ -22,8 +22,8 @@
   "law": 93
  },
  "name_prefix": {
-  "harbor": 458,
-  "obi": 1217,
+  "harbor": 459,
+  "obi": 1218,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -39,7 +39,7 @@
   "github-gym": 30,
   "email-calendar-gym": 28,
   "outlook-gym": 27,
-  "linear-gym": 25,
+  "linear-gym": 26,
   "gws-gym": 17,
   "supabase-gym": 5,
   "teams-gym": 5,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 267219
  },
  "errors": [],
  "tasks": [
@@ -1677,6 +1677,20 @@
    "sha256": "34ac81075b2d8200ed47b4e4029c213871641f9cdda0324fc773adf24ffc307f",
    "size_bytes": 11249804,
    "updated": "2026-09-23T22:41:58.392Z"
+  },
+  {
+   "declared_name": "obi/bus-b20-a5-newsletter-claim-verification",
+   "declared_short": "bus-b20-a5-newsletter-claim-verification",
+   "folder": "bus-b20-a5-newsletter-claim-verification",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "659cd80145ae57911596ea48a789060ad11579a5f90ff738c62e83eb8978ee30",
+   "size_bytes": 3721276,
+   "updated": "2026-09-26T14:38:27.589Z"
   },
   {
    "connector_provenance": null,
@@ -11135,6 +11149,22 @@
    "sha256": "adfc7ddf2fdb315523d3cf11e4e0c244de14c955f397e97889ac2dd031920035",
    "size_bytes": 7083236,
    "updated": "2026-09-21T21:15:32.246Z"
+  },
+  {
+   "declared_name": "harbor/four-points-that-never-landed",
+   "declared_short": "four-points-that-never-landed",
+   "folder": "four-points-that-never-landed",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2235603faf2aa6310d84abf45ceb4b09144c9bc0ab1074607e1e80907272457f",
+   "size_bytes": 6425046,
+   "updated": "2026-09-26T14:36:37.130Z"
   },
   {
    "connector_provenance": null,
