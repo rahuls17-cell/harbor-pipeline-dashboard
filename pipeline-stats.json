@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T03:35:06+00:00",
+ "generated_at": "2026-09-26T03:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1579,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 394610
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3905,15 +3905,15 @@
    "updated": "2026-09-24T12:59:35.282Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c192-solar-access-simulation-audit",
    "declared_short": "code-c192-solar-access-simulation-audit",
-   "folder": "code-c192-solar-access-simulation-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c192-solar-access-simulation-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "3a1924ca1b2d9a58d01d6b918f322a9320f0ada11139d0b43d1ee94da9ea095d",
    "size_bytes": 5495039,
    "updated": "2026-09-26T03:34:46.962Z"
@@ -19387,15 +19387,15 @@
    "updated": "2026-09-22T12:58:59.813Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/sci-sc07-a4-flood-claim-check",
    "declared_short": "sci-sc07-a4-flood-claim-check",
-   "folder": "sci-sc07-a4-flood-claim-check-v1",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "sci-sc07-a4-flood-claim-check-v1",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5159527b56a49f9fb7c2715ccf85391395e7b0c6893b74833dc1963acd4184f2",
    "size_bytes": 7734490,
    "updated": "2026-09-26T03:32:46.211Z"
@@ -20636,15 +20636,15 @@
    "updated": "2026-09-25T20:27:27.186Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b51-t10-printer-queue-driver-diagnostic-audit",
    "declared_short": "tech-b51-t10-printer-queue-driver-diagnostic-audit",
-   "folder": "tech-b51-t10-printer-queue-driver-diagnostic-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b51-t10-printer-queue-driver-diagnostic-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "106a8c794d08d440689aa325d10e215352ec59e3931de0a9e06c9ddb9e2e601d",
    "size_bytes": 9299380,
    "updated": "2026-09-26T03:32:38.537Z"
