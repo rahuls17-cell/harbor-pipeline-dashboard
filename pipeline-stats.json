@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T15:55:03+00:00",
+ "generated_at": "2026-09-26T16:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1699,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134939
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -24348,17 +24348,17 @@
    "updated": "2026-09-26T06:01:41.398Z"
   },
   {
-   "declared_name": "harbor/the-ten-fattest-files-that-all-weigh-the-same",
-   "declared_short": "the-ten-fattest-files-that-all-weigh-the-same",
-   "folder": "the-ten-fattest-files-that-all-weigh-the-same",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-ten-fattest-files-that-all-weigh-the-same",
+   "declared_short": "the-ten-fattest-files-that-all-weigh-the-same",
    "domain": null,
+   "folder": "the-ten-fattest-files-that-all-weigh-the-same",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "984acef0e1ddc0a22b4d7c2abab6e23e7a8dae999fe7e8be32df7e234c1934ba",
    "size_bytes": 13112384,
    "updated": "2026-09-26T15:55:01.164Z"
