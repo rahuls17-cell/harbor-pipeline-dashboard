@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T08:45:03+00:00",
+ "generated_at": "2026-09-26T08:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1619,
-  "scanned": 1619,
+  "task_folders": 1620,
+  "scanned": 1620,
   "connector": 443,
-  "non_connector": 1176,
+  "non_connector": 1177,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 701,
-  "code": 318,
+  "code": 319,
   "fin": 106,
   "gen": 293,
   "health": 109,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 446,
-  "obi": 1172,
+  "obi": 1173,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131502
  },
  "errors": [],
  "tasks": [
@@ -3457,6 +3457,20 @@
    "sha256": "526228cf5287a768143aebcebc1df7e639b46b6dd7c634516bca38ae01be51d2",
    "size_bytes": 5176987,
    "updated": "2026-09-26T07:55:28.118Z"
+  },
+  {
+   "declared_name": "obi/code-c127-iam-privilege-escalation-path-audit",
+   "declared_short": "code-c127-iam-privilege-escalation-path-audit",
+   "folder": "code-c127-iam-privilege-escalation-path-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "1c53544a0b075b82c03441cf5ed7970d5c4a0ecb65951ef58c97a4b049a9434b",
+   "size_bytes": 4725278,
+   "updated": "2026-09-26T08:45:53.271Z"
   },
   {
    "connector_provenance": null,
