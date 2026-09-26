@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-26T14:55:04+00:00",
+ "generated_at": "2026-09-26T15:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1679,
-  "scanned": 1679,
-  "connector": 457,
-  "non_connector": 1222,
+  "task_folders": 1683,
+  "scanned": 1683,
+  "connector": 458,
+  "non_connector": 1225,
   "errors": 0
  },
  "connector_provenance": {
   "real": 134,
   "unknown": 149,
-  "synthetic": 174
+  "synthetic": 175
  },
  "domain": {
-  "unnamed": 737,
-  "code": 328,
+  "unnamed": 740,
+  "code": 329,
   "fin": 106,
   "gen": 296,
   "health": 119,
   "law": 93
  },
  "name_prefix": {
-  "harbor": 460,
-  "obi": 1218,
+  "harbor": 461,
+  "obi": 1221,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -35,7 +35,7 @@
   "email-gym": 179,
   "freshdesk-gym": 179,
   "slack": 64,
-  "notion-gym": 41,
+  "notion-gym": 42,
   "github-gym": 30,
   "email-calendar-gym": 28,
   "outlook-gym": 27,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 4,
+  "approx_bytes_read": 532163
  },
  "errors": [],
  "tasks": [
@@ -1803,6 +1803,20 @@
    "sha256": "aaac8b590bbde1c988d390984558d4b4644e6ad839662e406ebee25e1bfa172a",
    "size_bytes": 5852764,
    "updated": "2026-09-24T18:07:20.562Z"
+  },
+  {
+   "declared_name": "obi/bus-b22-b18-peptide-market-size-estimate",
+   "declared_short": "bus-b22-b18-peptide-market-size-estimate",
+   "folder": "bus-b22-b18-peptide-market-size-estimate",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "4e7df0100f23b07f24186ac55eea2739edb529a3340d2e57f0c0d5ade4ed5f57",
+   "size_bytes": 4800797,
+   "updated": "2026-09-26T14:58:23.155Z"
   },
   {
    "connector_provenance": null,
@@ -4943,6 +4957,20 @@
    "sha256": "aabdb63ad8f6ff81bb6cb8af91069a0148ba94c5bcc616e6568dbcb7f5d3c1bd",
    "size_bytes": 7731311,
    "updated": "2026-09-24T17:11:07.618Z"
+  },
+  {
+   "declared_name": "obi/code-c25-idempotent-write-semantics",
+   "declared_short": "code-c25-idempotent-write-semantics",
+   "folder": "code-c25-idempotent-write-semantics",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "f0719f9d1c67997afac57710b1eae38808fb227094f70b910e0aa745173622ac",
+   "size_bytes": 5625284,
+   "updated": "2026-09-26T14:58:48.761Z"
   },
   {
    "connector_provenance": null,
@@ -20399,6 +20427,20 @@
    "updated": "2026-09-26T12:21:49.356Z"
   },
   {
+   "declared_name": "obi/sci-b50-s8-wetland-plan-cycle-reconstruction",
+   "declared_short": "sci-b50-s8-wetland-plan-cycle-reconstruction",
+   "folder": "sci-b50-s8-wetland-plan-cycle-reconstruction-v4",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "dcd7d71db1b67d13fd7411268f29fa14ce5bb68b36aed346241b33f3e372aa31",
+   "size_bytes": 16610975,
+   "updated": "2026-09-26T14:58:57.261Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/sci-b51-a2-market-penetration-table-recompute",
@@ -20643,6 +20685,22 @@
    "sha256": "06ba60bd8561fe936a6650c21082b5b6f70f865305fa40f54a8c05e89f068972",
    "size_bytes": 3959882,
    "updated": "2026-09-09T05:04:46.000Z"
+  },
+  {
+   "declared_name": "harbor/still-waiting-on-a-reply",
+   "declared_short": "still-waiting-on-a-reply",
+   "folder": "still-waiting-on-a-reply",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "731585e306b4f1f11488802d4202b94c1ba1b2e84f95e050709fafea1ffd9259",
+   "size_bytes": 6941288,
+   "updated": "2026-09-26T14:59:27.632Z"
   },
   {
    "connector_provenance": "real",
