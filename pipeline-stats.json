@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T17:50:03+00:00",
+ "generated_at": "2026-09-26T17:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1720,
-  "scanned": 1720,
+  "task_folders": 1723,
+  "scanned": 1723,
   "connector": 466,
-  "non_connector": 1254,
+  "non_connector": 1257,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 761,
-  "code": 337,
+  "code": 338,
   "fin": 109,
   "gen": 298,
-  "health": 120,
+  "health": 122,
   "law": 95
  },
  "name_prefix": {
   "harbor": 469,
-  "obi": 1250,
+  "obi": 1253,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131448
+  "new_archives_read": 3,
+  "approx_bytes_read": 394535
  },
  "errors": [],
  "tasks": [
@@ -4399,6 +4399,20 @@
    "sha256": "9a0c6d8511a0a71161ec780159f61cb28fb22a594be28fe5174754efe1849db1",
    "size_bytes": 6866492,
    "updated": "2026-09-24T12:59:35.282Z"
+  },
+  {
+   "declared_name": "obi/code-c191-ocr-deliverable-audit",
+   "declared_short": "code-c191-ocr-deliverable-audit",
+   "folder": "code-c191-ocr-deliverable-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "aa837a1b75534e675186e8ce41aec117b1c802728b32cd31a822a6a6e1ab1d0f",
+   "size_bytes": 6843448,
+   "updated": "2026-09-26T17:53:07.530Z"
   },
   {
    "connector_provenance": null,
@@ -12905,15 +12919,15 @@
    "updated": "2026-09-22T03:22:50.607Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g324-qualifying-agent-license-audit",
    "declared_short": "gen-g324-qualifying-agent-license-audit",
-   "folder": "gen-g324-qualifying-agent-license-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g324-qualifying-agent-license-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "fc2a14c7170c39c606e050c49d9d337d636a32d72430e2e83bfcbe3ea5c31b05",
    "size_bytes": 6033324,
    "updated": "2026-09-26T17:49:49.285Z"
@@ -17755,6 +17769,20 @@
    "updated": "2026-09-26T14:12:58.227Z"
   },
   {
+   "declared_name": "obi/health-tdt11-a4-eaa-serving-content-ledger",
+   "declared_short": "health-tdt11-a4-eaa-serving-content-ledger",
+   "folder": "health-tdt11-a4-eaa-serving-content-ledger",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "bbcf001a12dff0090319818b474bc3f435f22fee824354a167bac855719ef26f",
+   "size_bytes": 6212231,
+   "updated": "2026-09-26T17:54:13.047Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt11-a5-bin-abatement-dose-ledger",
@@ -17851,6 +17879,20 @@
    "sha256": "8498344014856937543c7bbca5eb6c5ffe276477c92c217b18cf46474e885a69",
    "size_bytes": 7715183,
    "updated": "2026-09-19T20:10:54.355Z"
+  },
+  {
+   "declared_name": "obi/health-tdt5-a13-clinical-note-transcript-audit",
+   "declared_short": "health-tdt5-a13-clinical-note-transcript-audit",
+   "folder": "health-tdt5-a13-clinical-note-transcript-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "ea5ca8dd26fa449509fc4663f3a14addc5ac61e9cf58c91e261a9281394b4d12",
+   "size_bytes": 6056088,
+   "updated": "2026-09-26T17:52:44.461Z"
   },
   {
    "connector_provenance": null,
