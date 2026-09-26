@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T13:35:03+00:00",
+ "generated_at": "2026-09-26T13:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1667,
-  "scanned": 1667,
+  "task_folders": 1668,
+  "scanned": 1668,
   "connector": 454,
-  "non_connector": 1213,
+  "non_connector": 1214,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 328,
   "fin": 106,
   "gen": 295,
-  "health": 117,
+  "health": 118,
   "law": 93
  },
  "name_prefix": {
   "harbor": 457,
-  "obi": 1209,
+  "obi": 1210,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131462
  },
  "errors": [],
  "tasks": [
@@ -17243,6 +17243,20 @@
    "sha256": "cf5d592eeebaa0822a97e0333813311f5a8912b30c5258148107b90513ae19f5",
    "size_bytes": 6645337,
    "updated": "2026-09-26T06:36:24.320Z"
+  },
+  {
+   "declared_name": "obi/health-tdt10-a8-recovery-contact-window-register",
+   "declared_short": "health-tdt10-a8-recovery-contact-window-register",
+   "folder": "health-tdt10-a8-recovery-contact-window-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "33bb2d75ecde5c4d2cd3e3d464a28ebceccb2fbfd0c8ce257d9e86a7a7d4d76a",
+   "size_bytes": 9139898,
+   "updated": "2026-09-26T13:36:10.535Z"
   },
   {
    "connector_provenance": null,
