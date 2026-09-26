@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T17:15:03+00:00",
+ "generated_at": "2026-09-26T17:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1715,
-  "scanned": 1715,
+  "task_folders": 1716,
+  "scanned": 1716,
   "connector": 466,
-  "non_connector": 1249,
+  "non_connector": 1250,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 182
  },
  "domain": {
-  "unnamed": 759,
+  "unnamed": 760,
   "code": 335,
   "fin": 109,
   "gen": 297,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 469,
-  "obi": 1245,
+  "obi": 1246,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262854
+  "new_archives_read": 1,
+  "approx_bytes_read": 131379
  },
  "errors": [],
  "tasks": [
@@ -19367,15 +19367,15 @@
    "updated": "2026-09-22T07:49:29.479Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b49-l9-plan-breach-dispute-positions",
    "declared_short": "law-b49-l9-plan-breach-dispute-positions",
-   "folder": "law-b49-l9-plan-breach-dispute-positions",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b49-l9-plan-breach-dispute-positions",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "181c53cfde58427a26262b0868c2d3cafc56dd01b671822e4588709c36c4f84b",
    "size_bytes": 6847183,
    "updated": "2026-09-26T17:13:17.109Z"
@@ -25850,6 +25850,20 @@
    "updated": "2026-09-20T12:00:31.441Z"
   },
   {
+   "declared_name": "obi/writing-b49-l2-survey-scope-coverage-review",
+   "declared_short": "writing-b49-l2-survey-scope-coverage-review",
+   "folder": "writing-b49-l2-survey-scope-coverage-review",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "4a5047b9e422a07d25696e0ebc1ac991eddd1ba1c6739200a90e711fd26f4fcc",
+   "size_bytes": 10201884,
+   "updated": "2026-09-26T17:17:29.536Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/writing-b52-a5-proposal-paragraph-adjudication",
@@ -25864,15 +25878,15 @@
    "updated": "2026-09-25T20:22:19.881Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/writing-b53-a4-study-abstract-figure-recompute",
    "declared_short": "writing-b53-a4-study-abstract-figure-recompute",
-   "folder": "writing-b53-a4-study-abstract-figure-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "writing-b53-a4-study-abstract-figure-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f98595c213cfba37ec8f86975296ef94467e0a342501f7ddc3fc920b5624b202",
    "size_bytes": 6694020,
    "updated": "2026-09-26T17:14:52.503Z"
