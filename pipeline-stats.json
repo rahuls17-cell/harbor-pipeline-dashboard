@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T20:55:03+00:00",
+ "generated_at": "2026-09-26T21:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1762,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263081
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2997,15 +2997,15 @@
    "updated": "2026-09-26T05:49:50.729Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b53-b4-affiliate-launch-cost-breakeven-plan",
    "declared_short": "bus-b53-b4-affiliate-launch-cost-breakeven-plan",
-   "folder": "bus-b53-b4-affiliate-launch-cost-breakeven-plan",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b53-b4-affiliate-launch-cost-breakeven-plan",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2ce84f0b3c3d5d61f7b7e29f345f280ef82e27405bd40f3b329152d128e03f3a",
    "size_bytes": 11450334,
    "updated": "2026-09-26T20:54:52.576Z"
@@ -5647,15 +5647,15 @@
    "updated": "2026-09-26T19:59:11.520Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c288-intent-routing-compliance-audit",
    "declared_short": "code-c288-intent-routing-compliance-audit",
-   "folder": "code-c288-intent-routing-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c288-intent-routing-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e98c09bd54480d848825c4871581758e690238ed4fa64d29e2a54cf0003910c3",
    "size_bytes": 6970172,
    "updated": "2026-09-26T20:52:51.775Z"
