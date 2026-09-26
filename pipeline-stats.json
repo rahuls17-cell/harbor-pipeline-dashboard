@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T19:00:04+00:00",
+ "generated_at": "2026-09-26T19:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1741,
-  "scanned": 1741,
+  "task_folders": 1742,
+  "scanned": 1742,
   "connector": 472,
-  "non_connector": 1269,
+  "non_connector": 1270,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 770,
-  "code": 340,
+  "code": 341,
   "fin": 110,
   "gen": 298,
   "health": 127,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 475,
-  "obi": 1265,
+  "obi": 1266,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 529214
+  "new_archives_read": 1,
+  "approx_bytes_read": 131549
  },
  "errors": [],
  "tasks": [
@@ -2297,15 +2297,15 @@
    "updated": "2026-09-26T13:50:56.302Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b44-b17-time-tracking-option-fit-adjudication",
    "declared_short": "bus-b44-b17-time-tracking-option-fit-adjudication",
-   "folder": "bus-b44-b17-time-tracking-option-fit-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b44-b17-time-tracking-option-fit-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "314ba7d0a565f26c9569a856a8ba006d76baa2d89be47a5a513ad9e672b9cd97",
    "size_bytes": 10514453,
    "updated": "2026-09-26T18:56:34.608Z"
@@ -4149,15 +4149,15 @@
    "updated": "2026-09-24T06:18:52.641Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c16-dst-schedule-correctness",
    "declared_short": "code-c16-dst-schedule-correctness",
-   "folder": "code-c16-dst-schedule-correctness",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c16-dst-schedule-correctness",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "22aa8eb5c6e097d0a80de2794d0416dcea057b483d0c9e55272867fa45a54820",
    "size_bytes": 5035443,
    "updated": "2026-09-26T18:59:33.014Z"
@@ -7493,6 +7493,20 @@
    "sha256": "7964b0bd39ff46712df50a2af29df611bbb5d34c19284c244c6112644c67135c",
    "size_bytes": 7110579,
    "updated": "2026-09-26T15:20:05.963Z"
+  },
+  {
+   "declared_name": "obi/code-c601-epi-report-pipeline-step-audit",
+   "declared_short": "code-c601-epi-report-pipeline-step-audit",
+   "folder": "code-c601-epi-report-pipeline-step-audit-v33",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "da390b3f1d90efb7babfe08f6d6117a5085cf15bb2f94b058fb086e9d108f84c",
+   "size_bytes": 15276414,
+   "updated": "2026-09-26T19:01:15.437Z"
   },
   {
    "connector_provenance": null,
@@ -16705,15 +16719,15 @@
    "updated": "2026-09-17T15:20:53.607Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-b43-h13-drug-channel-price-variance",
    "declared_short": "health-b43-h13-drug-channel-price-variance",
-   "folder": "health-b43-h13-drug-channel-price-variance",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-b43-h13-drug-channel-price-variance",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f253fd706ec2bf296f441dfabc5bed095bf0ca80a98b149c3f7efe99f9b72178",
    "size_bytes": 4740561,
    "updated": "2026-09-26T18:58:52.440Z"
@@ -18467,17 +18481,17 @@
    "updated": "2026-09-25T20:16:58.833Z"
   },
   {
-   "declared_name": "harbor/how-long-each-sharing-list-is",
-   "declared_short": "how-long-each-sharing-list-is",
-   "folder": "how-long-each-sharing-list-is",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/how-long-each-sharing-list-is",
+   "declared_short": "how-long-each-sharing-list-is",
    "domain": null,
+   "folder": "how-long-each-sharing-list-is",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ddd54c39b507078c1bd29825745061e8fc7872387aa15e37c247fa1e02384334",
    "size_bytes": 11072363,
    "updated": "2026-09-26T18:59:12.755Z"
