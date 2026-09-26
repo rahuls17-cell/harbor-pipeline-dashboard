@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T06:35:03+00:00",
+ "generated_at": "2026-09-26T06:40:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1601,
-  "scanned": 1601,
+  "task_folders": 1605,
+  "scanned": 1605,
   "connector": 438,
-  "non_connector": 1163,
+  "non_connector": 1167,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 163
  },
  "domain": {
-  "unnamed": 693,
-  "code": 313,
+  "unnamed": 694,
+  "code": 315,
   "fin": 105,
   "gen": 293,
-  "health": 105,
+  "health": 106,
   "law": 92
  },
  "name_prefix": {
   "harbor": 441,
-  "obi": 1159,
+  "obi": 1163,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131626
+  "new_archives_read": 4,
+  "approx_bytes_read": 528074
  },
  "errors": [],
  "tasks": [
@@ -4999,6 +4999,20 @@
    "updated": "2026-09-26T06:16:30.159Z"
   },
   {
+   "declared_name": "obi/code-c280-video-edit-delivery-qa-audit",
+   "declared_short": "code-c280-video-edit-delivery-qa-audit",
+   "folder": "code-c280-video-edit-delivery-qa-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "f511c99513b6bd34f254224208514070704199a3730e9becd229f7cb40e37084",
+   "size_bytes": 6623634,
+   "updated": "2026-09-26T06:35:31.973Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c281-ai-release-digest-run-audit",
@@ -6565,6 +6579,20 @@
    "sha256": "c4fb99b5364dfca8b9d9ed0c23d9928b45d9a2eb42348c379b1ad6cd207e1ca5",
    "size_bytes": 5595871,
    "updated": "2026-09-06T19:07:03.739Z"
+  },
+  {
+   "declared_name": "obi/code-c54-dlq-source-reconcile",
+   "declared_short": "code-c54-dlq-source-reconcile",
+   "folder": "code-c54-dlq-source-reconcile",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "36c53f9ecfaabb86eb2c88cf7c86b3b1db52c68602dc5f83f591c8b63c54162e",
+   "size_bytes": 7096431,
+   "updated": "2026-09-26T06:39:12.587Z"
   },
   {
    "connector_provenance": null,
@@ -16761,6 +16789,20 @@
    "updated": "2026-09-25T21:21:57.345Z"
   },
   {
+   "declared_name": "obi/health-tdt10-a7-supplement-slot-booking-plan",
+   "declared_short": "health-tdt10-a7-supplement-slot-booking-plan",
+   "folder": "health-tdt10-a7-supplement-slot-booking-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "cf5d592eeebaa0822a97e0333813311f5a8912b30c5258148107b90513ae19f5",
+   "size_bytes": 6645337,
+   "updated": "2026-09-26T06:36:24.320Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt11-a1-elbow-effusion-referral-adjudication",
@@ -21018,15 +21060,15 @@
    "updated": "2026-09-25T14:45:38.007Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b52-t1-accelerator-memory-fit-adjudication",
    "declared_short": "tech-b52-t1-accelerator-memory-fit-adjudication",
-   "folder": "tech-b52-t1-accelerator-memory-fit-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b52-t1-accelerator-memory-fit-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2c77797a20c63aaa463dcd5c661bea282b8aef1218517a8257faee28f791bc1d",
    "size_bytes": 4304226,
    "updated": "2026-09-26T06:33:56.516Z"
@@ -21506,6 +21548,20 @@
    "sha256": "ebac925bf243b5c114f75cb5ea91f76d87b3adafb89a528c5eca35535799e83a",
    "size_bytes": 7252266,
    "updated": "2026-09-22T06:48:50.994Z"
+  },
+  {
+   "declared_name": "obi/tech-b61-t4-faculty-roster-email-list-cleanup",
+   "declared_short": "tech-b61-t4-faculty-roster-email-list-cleanup",
+   "folder": "tech-b61-t4-faculty-roster-email-list-cleanup",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1260079966c4751fa951122c6bdb6a60e63e29e770851010fbb1238b25cbac2d",
+   "size_bytes": 4764054,
+   "updated": "2026-09-26T06:35:46.195Z"
   },
   {
    "connector_provenance": null,
