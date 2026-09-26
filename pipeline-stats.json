@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T04:45:03+00:00",
+ "generated_at": "2026-09-26T04:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1587,
-  "scanned": 1587,
+  "task_folders": 1588,
+  "scanned": 1588,
   "connector": 435,
-  "non_connector": 1152,
+  "non_connector": 1153,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 685,
-  "code": 307,
+  "code": 308,
   "fin": 105,
   "gen": 293,
   "health": 105,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 438,
-  "obi": 1148,
+  "obi": 1149,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131515
+  "approx_bytes_read": 131502
  },
  "errors": [],
  "tasks": [
@@ -2097,15 +2097,15 @@
    "updated": "2026-09-23T15:07:02.304Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b44-b9-company-metric-claim-reconciliation",
    "declared_short": "bus-b44-b9-company-metric-claim-reconciliation",
-   "folder": "bus-b44-b9-company-metric-claim-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b44-b9-company-metric-claim-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e0d2500a70229dc880bcc76340577bc53d07bb754abd204b4861b9ba036a77e4",
    "size_bytes": 8472813,
    "updated": "2026-09-26T04:41:12.950Z"
@@ -5095,6 +5095,20 @@
    "sha256": "b24765786eb2b08400df1ceb10b404c293cdf77dae0faec09f3473ffafab4db2",
    "size_bytes": 6792286,
    "updated": "2026-09-24T20:43:50.220Z"
+  },
+  {
+   "declared_name": "obi/code-c33-upload-validation-audit",
+   "declared_short": "code-c33-upload-validation-audit",
+   "folder": "code-c33-upload-validation-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "72c94ec9a5601757a9fa1105e04ff699b5d8a1d74cbb248a71760e6ec914fd6d",
+   "size_bytes": 6919944,
+   "updated": "2026-09-26T04:47:33.304Z"
   },
   {
    "connector_provenance": null,
