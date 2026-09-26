@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T11:25:03+00:00",
+ "generated_at": "2026-09-26T11:30:06+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1643,
-  "scanned": 1643,
+  "task_folders": 1644,
+  "scanned": 1644,
   "connector": 450,
-  "non_connector": 1193,
+  "non_connector": 1194,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 324,
   "fin": 106,
   "gen": 295,
-  "health": 110,
+  "health": 111,
   "law": 92
  },
  "name_prefix": {
   "harbor": 453,
-  "obi": 1189,
+  "obi": 1190,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131603
  },
  "errors": [],
  "tasks": [
@@ -17071,6 +17071,20 @@
    "sha256": "f2dab4d282f4a608d4118bf75e9cca4f4b9eb33135486185393c8b9dc006f04f",
    "size_bytes": 7239705,
    "updated": "2026-09-25T21:53:41.738Z"
+  },
+  {
+   "declared_name": "obi/health-tdt11-a2-aip-protein-bar-formulary",
+   "declared_short": "health-tdt11-a2-aip-protein-bar-formulary",
+   "folder": "health-tdt11-a2-aip-protein-bar-formulary",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "2f88a295b7e80f3a2c40110489bb5a072a60f3b791f927c2e87f776da395ab7a",
+   "size_bytes": 5798837,
+   "updated": "2026-09-26T11:26:24.785Z"
   },
   {
    "connector_provenance": null,
