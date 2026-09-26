@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T20:35:02+00:00",
+ "generated_at": "2026-09-26T20:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1757,
-  "scanned": 1757,
+  "task_folders": 1759,
+  "scanned": 1759,
   "connector": 475,
-  "non_connector": 1282,
+  "non_connector": 1284,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 188
  },
  "domain": {
-  "unnamed": 775,
-  "code": 343,
+  "unnamed": 776,
+  "code": 344,
   "fin": 111,
   "gen": 300,
   "health": 130,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 478,
-  "obi": 1278,
+  "obi": 1280,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263124
  },
  "errors": [],
  "tasks": [
@@ -5703,6 +5703,20 @@
    "updated": "2026-09-19T06:34:52.141Z"
   },
   {
+   "declared_name": "obi/code-c300-chat-log-message-attribution-audit",
+   "declared_short": "code-c300-chat-log-message-attribution-audit",
+   "folder": "code-c300-chat-log-message-attribution-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "2fd869ca742c2bc3e011a85b02a64ce442cb5e00d053f23d651c1937a847e092",
+   "size_bytes": 5069690,
+   "updated": "2026-09-26T20:39:16.119Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c303-digital-signage-asset-audit",
@@ -9713,6 +9727,20 @@
    "sha256": "b56ae62baac5b6569b47621d1aeaa3b00bda9b5ac3f9dc97a08f90a6949d83be",
    "size_bytes": 9980990,
    "updated": "2026-09-25T08:55:36.884Z"
+  },
+  {
+   "declared_name": "obi/edu-sc06-a9-division-two-roster",
+   "declared_short": "edu-sc06-a9-division-two-roster",
+   "folder": "edu-sc06-a9-division-two-roster",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "004c6ce7c64c8381eda39da9ac1f26936d0ffae115977147d0b1d3439f38babb",
+   "size_bytes": 5394714,
+   "updated": "2026-09-26T20:39:46.067Z"
   },
   {
    "connector_provenance": null,
