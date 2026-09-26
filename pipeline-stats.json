@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T16:40:05+00:00",
+ "generated_at": "2026-09-26T16:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1708,
-  "scanned": 1708,
+  "task_folders": 1710,
+  "scanned": 1710,
   "connector": 466,
-  "non_connector": 1242,
+  "non_connector": 1244,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 182
  },
  "domain": {
-  "unnamed": 757,
+  "unnamed": 758,
   "code": 333,
-  "fin": 108,
+  "fin": 109,
   "gen": 296,
   "health": 120,
   "law": 94
  },
  "name_prefix": {
   "harbor": 469,
-  "obi": 1238,
+  "obi": 1240,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131484
+  "new_archives_read": 2,
+  "approx_bytes_read": 262857
  },
  "errors": [],
  "tasks": [
@@ -10701,6 +10701,20 @@
    "updated": "2026-09-24T18:16:00.914Z"
   },
   {
+   "declared_name": "obi/fin-b49-f9-lbo-returns-bridge-attribution",
+   "declared_short": "fin-b49-f9-lbo-returns-bridge-attribution",
+   "folder": "fin-b49-f9-lbo-returns-bridge-attribution",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "8880384c181f43bfb8a65f885d515820dcbc4672abb5d5b74cf3d0ee0a8c2a2c",
+   "size_bytes": 4585583,
+   "updated": "2026-09-26T16:40:22.289Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/fin-b50-f1-cross-border-remittance-account-selection",
@@ -17601,15 +17615,15 @@
    "updated": "2026-09-26T13:27:19.953Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt11-a14-bereavement-service-variance",
    "declared_short": "health-tdt11-a14-bereavement-service-variance",
-   "folder": "health-tdt11-a14-bereavement-service-variance",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt11-a14-bereavement-service-variance",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9b2fd7329dcaa2c7bcc25b0229fe98e373c59ced3cac1a12ac907f5eb857a21b",
    "size_bytes": 4949018,
    "updated": "2026-09-26T16:37:27.623Z"
@@ -22464,6 +22478,20 @@
    "sha256": "1075175e117530b061b196205f4fe464f95cfd753ff9f0e3f7c6f604924ad364",
    "size_bytes": 7232514,
    "updated": "2026-09-23T22:41:12.405Z"
+  },
+  {
+   "declared_name": "obi/tech-b54-a2-orbital-workload-placement-plan",
+   "declared_short": "tech-b54-a2-orbital-workload-placement-plan",
+   "folder": "tech-b54-a2-orbital-workload-placement-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "4de323ac954ea481ad5983f3436ec4898ffef5f4cd4b2737262541ec2612bead",
+   "size_bytes": 5191115,
+   "updated": "2026-09-26T16:40:07.919Z"
   },
   {
    "connector_provenance": null,
