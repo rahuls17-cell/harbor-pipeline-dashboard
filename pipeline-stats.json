@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T05:55:03+00:00",
+ "generated_at": "2026-09-26T06:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1595,
-  "scanned": 1595,
+  "task_folders": 1596,
+  "scanned": 1596,
   "connector": 437,
-  "non_connector": 1158,
+  "non_connector": 1159,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 691,
-  "code": 309,
+  "code": 310,
   "fin": 105,
   "gen": 293,
   "health": 105,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 440,
-  "obi": 1154,
+  "obi": 1155,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 265354
+  "new_archives_read": 1,
+  "approx_bytes_read": 131522
  },
  "errors": [],
  "tasks": [
@@ -4481,15 +4481,15 @@
    "updated": "2026-09-09T15:46:59.049Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c231-queue-consumer-lag-sla-audit",
    "declared_short": "code-c231-queue-consumer-lag-sla-audit",
-   "folder": "code-c231-queue-consumer-lag-sla-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c231-queue-consumer-lag-sla-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "11166bc416c9ea0c109a9d4e996775c297ae122bcc0fc9501e2c793ba427a497",
    "size_bytes": 6915104,
    "updated": "2026-09-26T05:52:39.517Z"
@@ -4885,6 +4885,20 @@
    "sha256": "dd31c334b9b53f6b6875f804c4cad9dbd3f8d2f0809ad9fa4094a88168fddbf5",
    "size_bytes": 5945714,
    "updated": "2026-09-25T01:50:42.083Z"
+  },
+  {
+   "declared_name": "obi/code-c273-datasheet-header-format-audit",
+   "declared_short": "code-c273-datasheet-header-format-audit",
+   "folder": "code-c273-datasheet-header-format-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "dcfc001cc8a58b42e4e7df4503c3edad0a1224e2a93ce4186cabcc7693d886f5",
+   "size_bytes": 6652789,
+   "updated": "2026-09-26T05:56:53.349Z"
   },
   {
    "connector_provenance": null,
@@ -22110,17 +22124,17 @@
    "updated": "2026-09-20T14:32:35.537Z"
   },
   {
-   "declared_name": "harbor/the-docs-only-the-archive-holds",
-   "declared_short": "the-docs-only-the-archive-holds",
-   "folder": "the-docs-only-the-archive-holds",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-docs-only-the-archive-holds",
+   "declared_short": "the-docs-only-the-archive-holds",
    "domain": null,
+   "folder": "the-docs-only-the-archive-holds",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "298d667e7f89a553fd92853dc23706bca80aecc8bb1bbeea87cfe7a776610e86",
    "size_bytes": 11665418,
    "updated": "2026-09-26T05:54:05.447Z"
