@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T11:20:04+00:00",
+ "generated_at": "2026-09-26T11:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1643,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 394449
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2097,15 +2097,15 @@
    "updated": "2026-09-23T15:07:02.304Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b44-b12-colisting-outreach-day-plan",
    "declared_short": "bus-b44-b12-colisting-outreach-day-plan",
-   "folder": "bus-b44-b12-colisting-outreach-day-plan",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b44-b12-colisting-outreach-day-plan",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6255e28ef4d78afd04e939dd2f0a78f4af9366fec64e48b2473180007ed84a9a",
    "size_bytes": 10338346,
    "updated": "2026-09-26T11:15:24.295Z"
@@ -20079,15 +20079,15 @@
    "updated": "2026-09-25T18:36:37.952Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/sci-sc09-a1-formula-sheet-layout",
    "declared_short": "sci-sc09-a1-formula-sheet-layout",
-   "folder": "sci-sc09-a1-formula-sheet-layout",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "sci-sc09-a1-formula-sheet-layout",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "428f28a02059f4e7ea54ede6e57e207f3de8c79d9c43fda0fd32daa8f0cdd749",
    "size_bytes": 5502895,
    "updated": "2026-09-26T11:19:55.699Z"
@@ -21482,15 +21482,15 @@
    "updated": "2026-09-25T14:45:38.007Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b51-t9-spectrum-holdings-reconciliation",
    "declared_short": "tech-b51-t9-spectrum-holdings-reconciliation",
-   "folder": "tech-b51-t9-spectrum-holdings-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b51-t9-spectrum-holdings-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1d587f0fe706473947c4912936adde8ac77d19e5f4a77396fbde923291dc87a7",
    "size_bytes": 10256966,
    "updated": "2026-09-26T11:19:13.187Z"
