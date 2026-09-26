@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-26T09:10:04+00:00",
+ "generated_at": "2026-09-26T09:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1628,
-  "scanned": 1628,
-  "connector": 446,
+  "task_folders": 1629,
+  "scanned": 1629,
+  "connector": 447,
   "non_connector": 1182,
   "errors": 0
  },
  "connector_provenance": {
   "real": 132,
   "unknown": 147,
-  "synthetic": 167
+  "synthetic": 168
  },
  "domain": {
-  "unnamed": 706,
+  "unnamed": 707,
   "code": 320,
   "fin": 106,
   "gen": 295,
@@ -22,7 +22,7 @@
   "law": 92
  },
  "name_prefix": {
-  "harbor": 449,
+  "harbor": 450,
   "obi": 1178,
   "vankamasthanamma": 1
  },
@@ -31,7 +31,7 @@
   "zeta3-sql-gym": 188,
   "confluence-gym": 182,
   "jira-gym": 180,
-  "slack-gym": 179,
+  "slack-gym": 180,
   "email-gym": 178,
   "freshdesk-gym": 178,
   "slack": 63,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 534860
+  "new_archives_read": 1,
+  "approx_bytes_read": 145992
  },
  "errors": [],
  "tasks": [
@@ -12433,15 +12433,15 @@
    "updated": "2026-09-08T12:37:31.395Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g369-assay-reproducibility-audit",
    "declared_short": "gen-g369-assay-reproducibility-audit",
-   "folder": "gen-g369-assay-reproducibility-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g369-assay-reproducibility-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "319a582d543614c37409a4b49119bb8bd1d90b6c26a43047d80f2b6cbff06fbb",
    "size_bytes": 5967319,
    "updated": "2026-09-26T09:07:27.591Z"
@@ -19163,6 +19163,22 @@
    "updated": "2026-09-20T07:35:11.079Z"
   },
   {
+   "declared_name": "harbor/nobody-was-on-the-other-end",
+   "declared_short": "nobody-was-on-the-other-end",
+   "folder": "nobody-was-on-the-other-end",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "4d9f0d9d4409ffaaf82f185dff4384d6773802daef9cb475cb266106a7c7ea4a",
+   "size_bytes": 7370129,
+   "updated": "2026-09-26T09:11:59.484Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -21290,15 +21306,15 @@
    "updated": "2026-09-25T14:44:50.371Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b51-t8-component-marking-replacement-register",
    "declared_short": "tech-b51-t8-component-marking-replacement-register",
-   "folder": "tech-b51-t8-component-marking-replacement-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b51-t8-component-marking-replacement-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8d4483fbfc959e9e24c0e2a73a3857a188bdd498df9961bf1e35f304273810b0",
    "size_bytes": 4756063,
    "updated": "2026-09-26T09:08:01.259Z"
@@ -22238,17 +22254,17 @@
    "updated": "2026-09-18T22:03:01.470Z"
   },
   {
-   "declared_name": "harbor/the-archive-box-with-the-documents-in",
-   "declared_short": "the-archive-box-with-the-documents-in",
-   "folder": "the-archive-box-with-the-documents-in",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-archive-box-with-the-documents-in",
+   "declared_short": "the-archive-box-with-the-documents-in",
    "domain": null,
+   "folder": "the-archive-box-with-the-documents-in",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e6ea64138e4244194b5334cee9564c92a5068aafa57e1974242d5031cca0832e",
    "size_bytes": 83611154,
    "updated": "2026-09-26T09:08:21.899Z"
@@ -22590,17 +22606,17 @@
    "updated": "2026-09-23T07:18:06.271Z"
   },
   {
-   "declared_name": "harbor/the-form-shelf-that-lost-its-columns",
-   "declared_short": "the-form-shelf-that-lost-its-columns",
-   "folder": "the-form-shelf-that-lost-its-columns",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-form-shelf-that-lost-its-columns",
+   "declared_short": "the-form-shelf-that-lost-its-columns",
    "domain": null,
+   "folder": "the-form-shelf-that-lost-its-columns",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ff448c795c7033026d4ad98aa892f8354aab4c40196f95fea93bf925f27464d3",
    "size_bytes": 7096326,
    "updated": "2026-09-26T09:07:37.601Z"
