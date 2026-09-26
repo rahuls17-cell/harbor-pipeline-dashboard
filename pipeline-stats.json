@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-26T15:20:03+00:00",
+ "generated_at": "2026-09-26T15:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1688,
-  "scanned": 1688,
-  "connector": 458,
-  "non_connector": 1230,
+  "task_folders": 1690,
+  "scanned": 1690,
+  "connector": 459,
+  "non_connector": 1231,
   "errors": 0
  },
  "connector_provenance": {
   "real": 134,
   "unknown": 149,
-  "synthetic": 175
+  "synthetic": 176
  },
  "domain": {
-  "unnamed": 744,
-  "code": 330,
+  "unnamed": 745,
+  "code": 331,
   "fin": 106,
   "gen": 296,
   "health": 119,
   "law": 93
  },
  "name_prefix": {
-  "harbor": 461,
-  "obi": 1226,
+  "harbor": 462,
+  "obi": 1227,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -36,7 +36,7 @@
   "freshdesk-gym": 179,
   "slack": 64,
   "notion-gym": 42,
-  "github-gym": 30,
+  "github-gym": 31,
   "email-calendar-gym": 28,
   "outlook-gym": 27,
   "linear-gym": 26,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131511
+  "new_archives_read": 2,
+  "approx_bytes_read": 273116
  },
  "errors": [],
  "tasks": [
@@ -3797,15 +3797,15 @@
    "updated": "2026-09-26T03:51:29.354Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c14-pii-redaction-fix",
    "declared_short": "code-c14-pii-redaction-fix",
-   "folder": "code-c14-pii-redaction-fix",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c14-pii-redaction-fix",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "965b5fae49ddb947c0d222a03e0d664c764eee1028d7547e8e60ceff8ce13293",
    "size_bytes": 5243088,
    "updated": "2026-09-26T15:19:01.094Z"
@@ -7267,6 +7267,20 @@
    "sha256": "24c382e673a3f09c0b0df63eaf238c3623855001a8ae7f4697f8f671325eafee",
    "size_bytes": 7449389,
    "updated": "2026-09-23T08:47:48.474Z"
+  },
+  {
+   "declared_name": "obi/code-c6-deploy-remediation",
+   "declared_short": "code-c6-deploy-remediation",
+   "folder": "code-c6-deploy-remediation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "7964b0bd39ff46712df50a2af29df611bbb5d34c19284c244c6112644c67135c",
+   "size_bytes": 7110579,
+   "updated": "2026-09-26T15:20:05.963Z"
   },
   {
    "connector_provenance": null,
@@ -23270,6 +23284,22 @@
    "sha256": "83ac9016479847aa541fd6fa806f0326af4da8991ed2225b4dcc8b40c280365b",
    "size_bytes": 7497215,
    "updated": "2026-09-20T20:35:34.839Z"
+  },
+  {
+   "declared_name": "harbor/the-crash-went-away-because-the-check-did",
+   "declared_short": "the-crash-went-away-because-the-check-did",
+   "folder": "the-crash-went-away-because-the-check-did",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "5e25546a5cbfd1da09bca60740f5a982eb7162275b58274ee064ec2cf0e626c1",
+   "size_bytes": 6885622,
+   "updated": "2026-09-26T15:22:41.761Z"
   },
   {
    "connector_provenance": "unknown",
