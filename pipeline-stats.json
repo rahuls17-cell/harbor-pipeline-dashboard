@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T04:30:03+00:00",
+ "generated_at": "2026-09-26T04:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1585,
-  "scanned": 1585,
+  "task_folders": 1586,
+  "scanned": 1586,
   "connector": 435,
-  "non_connector": 1150,
+  "non_connector": 1151,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 684,
-  "code": 306,
+  "code": 307,
   "fin": 105,
   "gen": 293,
   "health": 105,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 438,
-  "obi": 1146,
+  "obi": 1147,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131453
  },
  "errors": [],
  "tasks": [
@@ -3877,6 +3877,20 @@
    "sha256": "0bcb3ade475a6a1f82806e3974bfb60af9ba404eab5d51fe6011071fbe609ff1",
    "size_bytes": 7521742,
    "updated": "2026-09-25T07:19:45.117Z"
+  },
+  {
+   "declared_name": "obi/code-c183-dns-zone-config-audit",
+   "declared_short": "code-c183-dns-zone-config-audit",
+   "folder": "code-c183-dns-zone-config-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "782999cacb561064d250af3aedde99227e4a9ed7bcf16d0d4b87dc048ca7e9ca",
+   "size_bytes": 6675606,
+   "updated": "2026-09-26T04:33:55.915Z"
   },
   {
    "connector_provenance": null,
