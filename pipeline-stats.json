@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T09:45:03+00:00",
+ "generated_at": "2026-09-26T09:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1631,
-  "scanned": 1631,
+  "task_folders": 1633,
+  "scanned": 1633,
   "connector": 448,
-  "non_connector": 1183,
+  "non_connector": 1185,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 168
  },
  "domain": {
-  "unnamed": 708,
-  "code": 321,
+  "unnamed": 709,
+  "code": 322,
   "fin": 106,
   "gen": 295,
   "health": 109,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 451,
-  "obi": 1179,
+  "obi": 1181,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 262960
  },
  "errors": [],
  "tasks": [
@@ -2727,6 +2727,20 @@
    "updated": "2026-09-26T05:49:50.729Z"
   },
   {
+   "declared_name": "obi/bus-b609-t3-esg-definition-source-review-status-reconciliation",
+   "declared_short": "bus-b609-t3-esg-definition-source-review-status-reconciliation",
+   "folder": "bus-b609-t3-esg-definition-source-review-status-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "080bacb8a4d0cf829e610bae910e215f45e9424e4f16f48945da493d079ace8f",
+   "size_bytes": 4206436,
+   "updated": "2026-09-26T09:48:24.157Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b609-t4-sales-follow-up-weekday-date-audit",
@@ -5109,6 +5123,20 @@
    "sha256": "f606fb754c21fde9dfe1ec2b346a2a62839c113cc5ad532ede9b9fabfd16347d",
    "size_bytes": 6174657,
    "updated": "2026-09-26T08:58:57.801Z"
+  },
+  {
+   "declared_name": "obi/code-c283-deck-style-guide-slide-audit",
+   "declared_short": "code-c283-deck-style-guide-slide-audit",
+   "folder": "code-c283-deck-style-guide-slide-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "1e6f3ac6580520038a24e11776164fd1115ce9fd8483df94b955e2fd249ae7ce",
+   "size_bytes": 5282668,
+   "updated": "2026-09-26T09:48:30.207Z"
   },
   {
    "connector_provenance": null,
