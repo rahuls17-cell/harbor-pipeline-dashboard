@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T23:10:02+00:00",
+ "generated_at": "2026-09-26T23:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1800,
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131617
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -7554,15 +7554,15 @@
    "updated": "2026-09-06T18:00:35.678Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c556-strategy-migration-parameter-carryover-audit",
    "declared_short": "code-c556-strategy-migration-parameter-carryover-audit",
-   "folder": "code-c556-strategy-migration-parameter-carryover-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c556-strategy-migration-parameter-carryover-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8792f5756e6bd6c890bebb254e1fd64a5baa47091f4ec791af236a7fcb7cdc1a",
    "size_bytes": 5106221,
    "updated": "2026-09-26T23:05:15.354Z"
