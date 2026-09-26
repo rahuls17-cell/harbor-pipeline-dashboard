@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T07:40:04+00:00",
+ "generated_at": "2026-09-26T07:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1612,
-  "scanned": 1612,
+  "task_folders": 1613,
+  "scanned": 1613,
   "connector": 441,
-  "non_connector": 1171,
+  "non_connector": 1172,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 316,
   "fin": 105,
   "gen": 293,
-  "health": 107,
+  "health": 108,
   "law": 92
  },
  "name_prefix": {
   "harbor": 444,
-  "obi": 1167,
+  "obi": 1168,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131415
  },
  "errors": [],
  "tasks": [
@@ -17195,6 +17195,20 @@
    "sha256": "9c766399965dfdcc42399778707b0a2746003b63e6690cb235bf55b6be44f60f",
    "size_bytes": 3988968,
    "updated": "2026-09-25T22:30:12.188Z"
+  },
+  {
+   "declared_name": "obi/health-tdt9-a12-formulary-request-adjudication",
+   "declared_short": "health-tdt9-a12-formulary-request-adjudication",
+   "folder": "health-tdt9-a12-formulary-request-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "78611d069adfa5ae18245b0caaf0d9cad6f3783e16bd6c044c97d208045a75d5",
+   "size_bytes": 4767903,
+   "updated": "2026-09-26T07:47:28.903Z"
   },
   {
    "connector_provenance": null,
