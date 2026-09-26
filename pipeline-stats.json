@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-26T18:40:03+00:00",
+ "generated_at": "2026-09-26T18:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1734,
-  "scanned": 1734,
-  "connector": 470,
+  "task_folders": 1735,
+  "scanned": 1735,
+  "connector": 471,
   "non_connector": 1264,
   "errors": 0
  },
  "connector_provenance": {
   "real": 134,
-  "unknown": 150,
+  "unknown": 151,
   "synthetic": 186
  },
  "domain": {
-  "unnamed": 767,
+  "unnamed": 768,
   "code": 338,
   "fin": 110,
   "gen": 298,
@@ -22,7 +22,7 @@
   "law": 96
  },
  "name_prefix": {
-  "harbor": 473,
+  "harbor": 474,
   "obi": 1260,
   "vankamasthanamma": 1
  },
@@ -38,7 +38,7 @@
   "notion-gym": 43,
   "github-gym": 32,
   "outlook-gym": 30,
-  "email-calendar-gym": 28,
+  "email-calendar-gym": 29,
   "linear-gym": 28,
   "gws-gym": 21,
   "supabase-gym": 5,
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136624
+  "approx_bytes_read": 133758
  },
  "errors": [],
  "tasks": [
@@ -23704,6 +23704,22 @@
    "updated": "2026-09-23T06:56:29.998Z"
   },
   {
+   "declared_name": "harbor/the-case-for-keeping-the-date",
+   "declared_short": "the-case-for-keeping-the-date",
+   "folder": "the-case-for-keeping-the-date",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "d011dfaf5c42e2e80108ea418ef67b6349186fffa7741863398d4a88c765c067",
+   "size_bytes": 22726127,
+   "updated": "2026-09-26T18:42:03.434Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -25688,17 +25704,17 @@
    "updated": "2026-09-10T02:23:03.711Z"
   },
   {
-   "declared_name": "harbor/waiting-on-the-reviewer",
-   "declared_short": "waiting-on-the-reviewer",
-   "folder": "waiting-on-the-reviewer",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/waiting-on-the-reviewer",
+   "declared_short": "waiting-on-the-reviewer",
    "domain": null,
+   "folder": "waiting-on-the-reviewer",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7804735f993052aca583de09105541ac722dfda8e916f5c9c8daad2e6e0f1621",
    "size_bytes": 8633957,
    "updated": "2026-09-26T18:39:09.474Z"
