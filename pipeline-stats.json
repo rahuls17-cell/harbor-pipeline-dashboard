@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T20:25:03+00:00",
+ "generated_at": "2026-09-26T20:30:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1756,
-  "scanned": 1756,
+  "task_folders": 1757,
+  "scanned": 1757,
   "connector": 475,
-  "non_connector": 1281,
+  "non_connector": 1282,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 775,
   "code": 343,
   "fin": 111,
-  "gen": 299,
+  "gen": 300,
   "health": 130,
   "law": 98
  },
  "name_prefix": {
   "harbor": 478,
-  "obi": 1277,
+  "obi": 1278,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131643
+  "approx_bytes_read": 131893
  },
  "errors": [],
  "tasks": [
@@ -10785,15 +10785,15 @@
    "updated": "2026-09-19T07:17:04.138Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b49-f10-investor-report-claim-audit",
    "declared_short": "fin-b49-f10-investor-report-claim-audit",
-   "folder": "fin-b49-f10-investor-report-claim-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b49-f10-investor-report-claim-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "cc3825728faebcc7662655436a2af4691a721372ff249cc37b57a238582e425c",
    "size_bytes": 7895989,
    "updated": "2026-09-26T20:24:37.659Z"
@@ -15577,6 +15577,20 @@
    "sha256": "52a7a081d4a5ef55fd311100aa9b478959d0c61cd1bb53cf4826a9c6353ab569",
    "size_bytes": 7833651,
    "updated": "2026-09-26T09:03:39.998Z"
+  },
+  {
+   "declared_name": "obi/gen-sc06-b4-bagua-sectors",
+   "declared_short": "gen-sc06-b4-bagua-sectors",
+   "folder": "gen-sc06-b4-bagua-sectors",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "59e49360bdaf0a18e55c25fd2342d2259e3025aefae2b8d97fa293735f7ad3b3",
+   "size_bytes": 9036894,
+   "updated": "2026-09-26T20:29:37.035Z"
   },
   {
    "connector_provenance": "synthetic",
