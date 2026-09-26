@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T14:10:04+00:00",
+ "generated_at": "2026-09-26T14:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1675,
-  "scanned": 1675,
+  "task_folders": 1676,
+  "scanned": 1676,
   "connector": 455,
-  "non_connector": 1220,
+  "non_connector": 1221,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 328,
   "fin": 106,
   "gen": 296,
-  "health": 118,
+  "health": 119,
   "law": 93
  },
  "name_prefix": {
   "harbor": 458,
-  "obi": 1216,
+  "obi": 1217,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131633
  },
  "errors": [],
  "tasks": [
@@ -17385,6 +17385,20 @@
    "sha256": "2f88a295b7e80f3a2c40110489bb5a072a60f3b791f927c2e87f776da395ab7a",
    "size_bytes": 5798837,
    "updated": "2026-09-26T11:26:24.785Z"
+  },
+  {
+   "declared_name": "obi/health-tdt11-a3-hypoallergenic-lubricant-catalogue",
+   "declared_short": "health-tdt11-a3-hypoallergenic-lubricant-catalogue",
+   "folder": "health-tdt11-a3-hypoallergenic-lubricant-catalogue",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "f8ca4c09f5631124fd16eeb948a1b4537e345166d0c741cf3f9fc87f656c15b6",
+   "size_bytes": 5270599,
+   "updated": "2026-09-26T14:12:58.227Z"
   },
   {
    "connector_provenance": null,
