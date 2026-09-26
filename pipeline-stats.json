@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T03:30:03+00:00",
+ "generated_at": "2026-09-26T03:35:06+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1576,
-  "scanned": 1576,
+  "task_folders": 1579,
+  "scanned": 1579,
   "connector": 432,
-  "non_connector": 1144,
+  "non_connector": 1147,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 160
  },
  "domain": {
-  "unnamed": 679,
-  "code": 302,
+  "unnamed": 681,
+  "code": 303,
   "fin": 105,
   "gen": 293,
   "health": 105,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 435,
-  "obi": 1140,
+  "obi": 1143,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 394610
  },
  "errors": [],
  "tasks": [
@@ -3903,6 +3903,20 @@
    "sha256": "9a0c6d8511a0a71161ec780159f61cb28fb22a594be28fe5174754efe1849db1",
    "size_bytes": 6866492,
    "updated": "2026-09-24T12:59:35.282Z"
+  },
+  {
+   "declared_name": "obi/code-c192-solar-access-simulation-audit",
+   "declared_short": "code-c192-solar-access-simulation-audit",
+   "folder": "code-c192-solar-access-simulation-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "3a1924ca1b2d9a58d01d6b918f322a9320f0ada11139d0b43d1ee94da9ea095d",
+   "size_bytes": 5495039,
+   "updated": "2026-09-26T03:34:46.962Z"
   },
   {
    "connector_provenance": null,
@@ -19373,6 +19387,20 @@
    "updated": "2026-09-22T12:58:59.813Z"
   },
   {
+   "declared_name": "obi/sci-sc07-a4-flood-claim-check",
+   "declared_short": "sci-sc07-a4-flood-claim-check",
+   "folder": "sci-sc07-a4-flood-claim-check-v1",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "5159527b56a49f9fb7c2715ccf85391395e7b0c6893b74833dc1963acd4184f2",
+   "size_bytes": 7734490,
+   "updated": "2026-09-26T03:32:46.211Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/sci-sc07-a7-frost-southern-limits",
@@ -20606,6 +20634,20 @@
    "sha256": "c7efda38a1f3f5f31fd59a662118d53715291b395d035f503965f725a9fca769",
    "size_bytes": 4195834,
    "updated": "2026-09-25T20:27:27.186Z"
+  },
+  {
+   "declared_name": "obi/tech-b51-t10-printer-queue-driver-diagnostic-audit",
+   "declared_short": "tech-b51-t10-printer-queue-driver-diagnostic-audit",
+   "folder": "tech-b51-t10-printer-queue-driver-diagnostic-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "106a8c794d08d440689aa325d10e215352ec59e3931de0a9e06c9ddb9e2e601d",
+   "size_bytes": 9299380,
+   "updated": "2026-09-26T03:32:38.537Z"
   },
   {
    "connector_provenance": null,
