@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T20:50:03+00:00",
+ "generated_at": "2026-09-26T20:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1760,
-  "scanned": 1760,
+  "task_folders": 1762,
+  "scanned": 1762,
   "connector": 475,
-  "non_connector": 1285,
+  "non_connector": 1287,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 188
  },
  "domain": {
-  "unnamed": 776,
-  "code": 345,
+  "unnamed": 777,
+  "code": 346,
   "fin": 111,
   "gen": 300,
   "health": 130,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 478,
-  "obi": 1281,
+  "obi": 1283,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263081
  },
  "errors": [],
  "tasks": [
@@ -2997,6 +2997,20 @@
    "updated": "2026-09-26T05:49:50.729Z"
   },
   {
+   "declared_name": "obi/bus-b53-b4-affiliate-launch-cost-breakeven-plan",
+   "declared_short": "bus-b53-b4-affiliate-launch-cost-breakeven-plan",
+   "folder": "bus-b53-b4-affiliate-launch-cost-breakeven-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "2ce84f0b3c3d5d61f7b7e29f345f280ef82e27405bd40f3b329152d128e03f3a",
+   "size_bytes": 11450334,
+   "updated": "2026-09-26T20:54:52.576Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b56-a8-brand-fact-divergence-audit",
@@ -5631,6 +5645,20 @@
    "sha256": "e991295c41047d45c58db8fbef70ce02db5be8bccfa51b464e98f82ded911488",
    "size_bytes": 5051591,
    "updated": "2026-09-26T19:59:11.520Z"
+  },
+  {
+   "declared_name": "obi/code-c288-intent-routing-compliance-audit",
+   "declared_short": "code-c288-intent-routing-compliance-audit",
+   "folder": "code-c288-intent-routing-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "e98c09bd54480d848825c4871581758e690238ed4fa64d29e2a54cf0003910c3",
+   "size_bytes": 6970172,
+   "updated": "2026-09-26T20:52:51.775Z"
   },
   {
    "connector_provenance": null,
