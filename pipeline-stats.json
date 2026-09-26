@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T16:55:03+00:00",
+ "generated_at": "2026-09-26T17:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1710,
-  "scanned": 1710,
+  "task_folders": 1711,
+  "scanned": 1711,
   "connector": 466,
-  "non_connector": 1244,
+  "non_connector": 1245,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 758,
-  "code": 333,
+  "code": 334,
   "fin": 109,
   "gen": 296,
   "health": 120,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 469,
-  "obi": 1240,
+  "obi": 1241,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131505
+  "approx_bytes_read": 131511
  },
  "errors": [],
  "tasks": [
@@ -5269,6 +5269,20 @@
    "updated": "2026-09-25T03:38:30.231Z"
   },
   {
+   "declared_name": "obi/code-c27-schema-evolution-compat",
+   "declared_short": "code-c27-schema-evolution-compat",
+   "folder": "code-c27-schema-evolution-compat",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "e4f969768cb84d68c181ee221c440b105f5902e980239c8a970632690e52bb76",
+   "size_bytes": 7129745,
+   "updated": "2026-09-26T16:55:22.973Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c270-ai-model-endpoint-governance-audit",
@@ -6179,15 +6193,15 @@
    "updated": "2026-09-21T18:10:24.446Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c40-resource-lifecycle-audit",
    "declared_short": "code-c40-resource-lifecycle-audit",
-   "folder": "code-c40-resource-lifecycle-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c40-resource-lifecycle-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "eba1f59ff04394c8f42157cdf0b5af412f5a2f755eb4248dffb7f0260d0cdd14",
    "size_bytes": 6164282,
    "updated": "2026-09-26T16:50:36.543Z"
