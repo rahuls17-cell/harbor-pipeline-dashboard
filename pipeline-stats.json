@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T12:45:02+00:00",
+ "generated_at": "2026-09-26T12:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1660,
-  "scanned": 1660,
+  "task_folders": 1663,
+  "scanned": 1663,
   "connector": 454,
-  "non_connector": 1206,
+  "non_connector": 1209,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 172
  },
  "domain": {
-  "unnamed": 725,
+  "unnamed": 727,
   "code": 327,
   "fin": 106,
   "gen": 295,
-  "health": 114,
+  "health": 115,
   "law": 93
  },
  "name_prefix": {
   "harbor": 457,
-  "obi": 1202,
+  "obi": 1205,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 394554
  },
  "errors": [],
  "tasks": [
@@ -2109,6 +2109,20 @@
    "sha256": "1bd15c0040a1fecba1f0456713db9c6d14ddcb3c1f5105075ab441c81e265ae2",
    "size_bytes": 7840776,
    "updated": "2026-09-23T15:07:02.304Z"
+  },
+  {
+   "declared_name": "obi/bus-b44-b11-weekly-status-carryover-reconstruction",
+   "declared_short": "bus-b44-b11-weekly-status-carryover-reconstruction",
+   "folder": "bus-b44-b11-weekly-status-carryover-reconstruction",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "c460663bbfd0ecff9349e7e6dea690a997b5b8788e4f8e7c96cb324438501907",
+   "size_bytes": 8670007,
+   "updated": "2026-09-26T12:48:03.721Z"
   },
   {
    "connector_provenance": null,
@@ -17245,6 +17259,20 @@
    "updated": "2026-09-26T11:26:24.785Z"
   },
   {
+   "declared_name": "obi/health-tdt11-a5-bin-abatement-dose-ledger",
+   "declared_short": "health-tdt11-a5-bin-abatement-dose-ledger",
+   "folder": "health-tdt11-a5-bin-abatement-dose-ledger",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "e2e6d260701fd73323878a909bdd520d9d427c8250cdf42e9140ba011d123d2c",
+   "size_bytes": 4599393,
+   "updated": "2026-09-26T12:45:37.866Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt3-a1-pt-licensure-english-score-adjudication",
@@ -21852,6 +21880,20 @@
    "sha256": "9fb0b57a20a439abfc3e8642b0d91b92710c7c148283b444e240490112e9d9a9",
    "size_bytes": 8014756,
    "updated": "2026-09-24T00:54:59.615Z"
+  },
+  {
+   "declared_name": "obi/tech-b53-t6-consumption-variance-attribution",
+   "declared_short": "tech-b53-t6-consumption-variance-attribution",
+   "folder": "tech-b53-t6-consumption-variance-attribution",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "70b8f4e4e8be9440d15ec084e61bae724eb528c83c163f86e334383aa46a48bf",
+   "size_bytes": 6615474,
+   "updated": "2026-09-26T12:48:47.720Z"
   },
   {
    "connector_provenance": null,
