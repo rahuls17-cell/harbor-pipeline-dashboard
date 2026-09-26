@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T17:00:03+00:00",
+ "generated_at": "2026-09-26T17:05:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1711,
-  "scanned": 1711,
+  "task_folders": 1712,
+  "scanned": 1712,
   "connector": 466,
-  "non_connector": 1245,
+  "non_connector": 1246,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 758,
   "code": 334,
   "fin": 109,
-  "gen": 296,
+  "gen": 297,
   "health": 120,
   "law": 94
  },
  "name_prefix": {
   "harbor": 469,
-  "obi": 1241,
+  "obi": 1242,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131511
+  "approx_bytes_read": 131797
  },
  "errors": [],
  "tasks": [
@@ -5269,15 +5269,15 @@
    "updated": "2026-09-25T03:38:30.231Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c27-schema-evolution-compat",
    "declared_short": "code-c27-schema-evolution-compat",
-   "folder": "code-c27-schema-evolution-compat",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c27-schema-evolution-compat",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e4f969768cb84d68c181ee221c440b105f5902e980239c8a970632690e52bb76",
    "size_bytes": 7129745,
    "updated": "2026-09-26T16:55:22.973Z"
@@ -15031,6 +15031,20 @@
    "sha256": "1caac8c9f656e93d3873b004f562bf89891911dc764c325090878e2ae40c6c8f",
    "size_bytes": 9762474,
    "updated": "2026-09-21T18:28:59.101Z"
+  },
+  {
+   "declared_name": "obi/gen-g956-glass-panel-fabrication-batch-qc-audit",
+   "declared_short": "gen-g956-glass-panel-fabrication-batch-qc-audit",
+   "folder": "gen-g956-glass-panel-fabrication-batch-qc-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "68f40b7ea85f8af00e2251a7a92c3d2d5dc530c03274e9377c46e68557b0f147",
+   "size_bytes": 6375694,
+   "updated": "2026-09-26T17:02:02.700Z"
   },
   {
    "connector_provenance": null,
