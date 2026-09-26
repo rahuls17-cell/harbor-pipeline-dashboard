@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T22:00:04+00:00",
+ "generated_at": "2026-09-26T22:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1784,
-  "scanned": 1784,
+  "task_folders": 1785,
+  "scanned": 1785,
   "connector": 480,
-  "non_connector": 1304,
+  "non_connector": 1305,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 191
  },
  "domain": {
-  "unnamed": 792,
+  "unnamed": 793,
   "code": 348,
   "fin": 112,
   "gen": 301,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 483,
-  "obi": 1300,
+  "obi": 1301,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 272776
+  "new_archives_read": 1,
+  "approx_bytes_read": 131551
  },
  "errors": [],
  "tasks": [
@@ -381,17 +381,17 @@
    "updated": "2026-09-22T04:33:50.874Z"
   },
   {
-   "declared_name": "harbor/a-channel-nobody-talks-in",
-   "declared_short": "a-channel-nobody-talks-in",
-   "folder": "ASTR_101456",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/a-channel-nobody-talks-in",
+   "declared_short": "a-channel-nobody-talks-in",
    "domain": null,
+   "folder": "ASTR_101456",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8c6f7a6c4ca473c03671780849e4cb9220908c34c1a42727e1bda93e56f69add",
    "size_bytes": 11232187,
    "updated": "2026-09-26T21:57:29.565Z"
@@ -3123,6 +3123,20 @@
    "sha256": "9d6b8bb972bd93609d7eed501b1879cc97756b39d8bce497fac6e9963c4b8996",
    "size_bytes": 6542470,
    "updated": "2026-09-24T02:51:59.910Z"
+  },
+  {
+   "declared_name": "obi/bus-b66-b3-digital-shop-refund-requests-adjudication",
+   "declared_short": "bus-b66-b3-digital-shop-refund-requests-adjudication",
+   "folder": "bus-b66-b3-digital-shop-refund-requests-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "3aab7954e3d2207d80ac6cbc8d81647adfe77a973ce6d8c9bf181dd390407ea5",
+   "size_bytes": 12655812,
+   "updated": "2026-09-26T22:01:18.705Z"
   },
   {
    "connector_provenance": null,
@@ -10013,17 +10027,17 @@
    "updated": "2026-09-09T09:20:38.761Z"
   },
   {
-   "declared_name": "harbor/eighteen-projects-that-are-done-but-open",
-   "declared_short": "eighteen-projects-that-are-done-but-open",
-   "folder": "eighteen-projects-that-are-done-but-open",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/eighteen-projects-that-are-done-but-open",
+   "declared_short": "eighteen-projects-that-are-done-but-open",
    "domain": null,
+   "folder": "eighteen-projects-that-are-done-but-open",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "400be9f3bff90fb23cf21125e7a1e21530a0997d0e297515a6a7a61a07655e50",
    "size_bytes": 8032181,
    "updated": "2026-09-26T21:58:03.693Z"
