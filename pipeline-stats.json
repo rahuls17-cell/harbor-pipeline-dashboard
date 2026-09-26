@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-26T11:55:03+00:00",
+ "generated_at": "2026-09-26T12:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1647,
-  "scanned": 1647,
-  "connector": 450,
-  "non_connector": 1197,
+  "task_folders": 1649,
+  "scanned": 1649,
+  "connector": 451,
+  "non_connector": 1198,
   "errors": 0
  },
  "connector_provenance": {
   "real": 133,
   "unknown": 147,
-  "synthetic": 170
+  "synthetic": 171
  },
  "domain": {
-  "unnamed": 717,
+  "unnamed": 718,
   "code": 324,
   "fin": 106,
   "gen": 295,
-  "health": 112,
+  "health": 113,
   "law": 93
  },
  "name_prefix": {
-  "harbor": 453,
-  "obi": 1193,
+  "harbor": 454,
+  "obi": 1194,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -38,8 +38,8 @@
   "notion-gym": 40,
   "github-gym": 30,
   "email-calendar-gym": 28,
+  "outlook-gym": 26,
   "linear-gym": 25,
-  "outlook-gym": 25,
   "gws-gym": 17,
   "supabase-gym": 5,
   "teams-gym": 5,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 267000
  },
  "errors": [],
  "tasks": [
@@ -17045,6 +17045,20 @@
    "updated": "2026-09-25T11:33:26.074Z"
   },
   {
+   "declared_name": "obi/health-tdt10-a11-circuit-charge-sheet",
+   "declared_short": "health-tdt10-a11-circuit-charge-sheet",
+   "folder": "health-tdt10-a11-circuit-charge-sheet",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "32d25ac76ec1cbb011a2cf80632051e506293464928935c9bc2e31748285ce07",
+   "size_bytes": 4848704,
+   "updated": "2026-09-26T12:02:16.189Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt10-a3-shelf-claim-basis-catalogue",
@@ -23782,6 +23796,22 @@
    "sha256": "ee05f2384553259551cab2e04615c5c3fffe500d0410e45590ab17a561d6d74e",
    "size_bytes": 9880322,
    "updated": "2026-09-25T09:04:00.249Z"
+  },
+  {
+   "declared_name": "harbor/thirty-eight-records-with-nobody-on-them",
+   "declared_short": "thirty-eight-records-with-nobody-on-them",
+   "folder": "thirty-eight-records-with-nobody-on-them",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "1115cac878307893c1955e5b21f29df0fc17829bf39b2be719d7f5059ab7cebd",
+   "size_bytes": 173978160,
+   "updated": "2026-09-26T12:04:53.739Z"
   },
   {
    "connector_provenance": "synthetic",
