@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T14:40:05+00:00",
+ "generated_at": "2026-09-26T14:45:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1678,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 267219
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1679,15 +1679,15 @@
    "updated": "2026-09-23T22:41:58.392Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b20-a5-newsletter-claim-verification",
    "declared_short": "bus-b20-a5-newsletter-claim-verification",
-   "folder": "bus-b20-a5-newsletter-claim-verification",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b20-a5-newsletter-claim-verification",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "659cd80145ae57911596ea48a789060ad11579a5f90ff738c62e83eb8978ee30",
    "size_bytes": 3721276,
    "updated": "2026-09-26T14:38:27.589Z"
@@ -11151,17 +11151,17 @@
    "updated": "2026-09-21T21:15:32.246Z"
   },
   {
-   "declared_name": "harbor/four-points-that-never-landed",
-   "declared_short": "four-points-that-never-landed",
-   "folder": "four-points-that-never-landed",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/four-points-that-never-landed",
+   "declared_short": "four-points-that-never-landed",
    "domain": null,
+   "folder": "four-points-that-never-landed",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2235603faf2aa6310d84abf45ceb4b09144c9bc0ab1074607e1e80907272457f",
    "size_bytes": 6425046,
    "updated": "2026-09-26T14:36:37.130Z"
