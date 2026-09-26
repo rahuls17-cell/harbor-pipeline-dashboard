@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-26T21:10:04+00:00",
+ "generated_at": "2026-09-26T21:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1763,
-  "scanned": 1763,
-  "connector": 475,
-  "non_connector": 1288,
+  "task_folders": 1766,
+  "scanned": 1766,
+  "connector": 476,
+  "non_connector": 1290,
   "errors": 0
  },
  "connector_provenance": {
   "real": 135,
   "unknown": 152,
-  "synthetic": 188
+  "synthetic": 189
  },
  "domain": {
-  "unnamed": 777,
+  "unnamed": 778,
   "code": 346,
   "fin": 112,
-  "gen": 300,
-  "health": 130,
+  "gen": 301,
+  "health": 131,
   "law": 98
  },
  "name_prefix": {
-  "harbor": 478,
-  "obi": 1284,
+  "harbor": 479,
+  "obi": 1286,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -40,7 +40,7 @@
   "outlook-gym": 31,
   "email-calendar-gym": 29,
   "linear-gym": 28,
-  "gws-gym": 22,
+  "gws-gym": 23,
   "supabase-gym": 6,
   "teams-gym": 5,
   "microsoft-teams-gym": 4,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131420
+  "new_archives_read": 3,
+  "approx_bytes_read": 397045
  },
  "errors": [],
  "tasks": [
@@ -10953,15 +10953,15 @@
    "updated": "2026-09-19T00:34:50.915Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b49-f6-macro-book-risk-budget-sizing",
    "declared_short": "fin-b49-f6-macro-book-risk-budget-sizing",
-   "folder": "fin-b49-f6-macro-book-risk-budget-verifier-coverage-fix-final-20260926T192001-IST",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b49-f6-macro-book-risk-budget-verifier-coverage-fix-final-20260926T192001-IST",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "16f876107876bc186e491009305028a69ddd048a55cf8a993f3c2d134328afa7",
    "size_bytes": 12465798,
    "updated": "2026-09-26T21:06:14.841Z"
@@ -14753,6 +14753,20 @@
    "updated": "2026-09-19T13:29:05.899Z"
   },
   {
+   "declared_name": "obi/gen-g803-catastrophe-report-priority-tier-audit",
+   "declared_short": "gen-g803-catastrophe-report-priority-tier-audit",
+   "folder": "gen-g803-catastrophe-report-priority-tier-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "a1bda350dcabb2193c6e472746ac2a650c11a153c0d9cb526d92ed7c2017d865",
+   "size_bytes": 5416422,
+   "updated": "2026-09-26T21:12:36.504Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g804-vascular-biomarker-figure-prep-audit-hard-v10am",
@@ -17265,6 +17279,20 @@
    "updated": "2026-09-26T17:58:23.444Z"
   },
   {
+   "declared_name": "obi/health-h109-anesthesia-lecture-timebudget-audit",
+   "declared_short": "health-h109-anesthesia-lecture-timebudget-audit",
+   "folder": "health-h109-anesthesia-lecture-timebudget-audit-d002a2-v1-sna-vtnt",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "b68dfb3fc1b41fefeac1a7ed9ee1549fdf4d8e6063988851fe9e7c9c4d47d165",
+   "size_bytes": 5009425,
+   "updated": "2026-09-26T21:13:30.289Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-h115-salon-chemical-service-interval-audit",
@@ -18877,6 +18905,22 @@
    "sha256": "89e9fb8b9151b87aac95f7d6b77066fa509e4104d23f3df27fde292653f6cee4",
    "size_bytes": 9240220,
    "updated": "2026-09-26T09:26:58.478Z"
+  },
+  {
+   "declared_name": "harbor/investor-updates-or-talent-pool",
+   "declared_short": "investor-updates-or-talent-pool",
+   "folder": "investor-updates-or-talent-pool",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "da067c1f9ba91c0a73b482f1bade83c6f07a415e8e87d1eba6571365931e3aba",
+   "size_bytes": 9269342,
+   "updated": "2026-09-26T21:10:58.353Z"
   },
   {
    "connector_provenance": "synthetic",
