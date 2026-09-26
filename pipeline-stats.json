@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T16:20:04+00:00",
+ "generated_at": "2026-09-26T16:25:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1702,
-  "scanned": 1702,
+  "task_folders": 1704,
+  "scanned": 1704,
   "connector": 464,
-  "non_connector": 1238,
+  "non_connector": 1240,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 754,
-  "code": 331,
+  "code": 333,
   "fin": 108,
   "gen": 296,
   "health": 119,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 467,
-  "obi": 1234,
+  "obi": 1236,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135908
+  "new_archives_read": 2,
+  "approx_bytes_read": 263055
  },
  "errors": [],
  "tasks": [
@@ -5493,6 +5493,20 @@
    "updated": "2026-09-26T09:53:15.703Z"
   },
   {
+   "declared_name": "obi/code-c29-patch-application-correctness",
+   "declared_short": "code-c29-patch-application-correctness",
+   "folder": "code-c29-patch-application-correctness",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "f9c4f2303bae2e273f4e508b05c04fbd1f8eba41215a8efdd51e1347e1e3e79d",
+   "size_bytes": 5237315,
+   "updated": "2026-09-26T16:23:53.158Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c290-breach-notification-deadline-audit",
@@ -5575,6 +5589,20 @@
    "sha256": "bbefe4f345a74f03b87b211953cddb1557b69d549f58d082a3581367f7f3c53e",
    "size_bytes": 6510306,
    "updated": "2026-09-22T04:45:59.086Z"
+  },
+  {
+   "declared_name": "obi/code-c31-query-builder-injection-safety",
+   "declared_short": "code-c31-query-builder-injection-safety",
+   "folder": "code-c31-query-builder-injection-safety",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "4990aecd6381ebbbdeaf7e564211de8a43fce729ff211ab609ee65fb0a83c4f4",
+   "size_bytes": 6413964,
+   "updated": "2026-09-26T16:23:25.224Z"
   },
   {
    "connector_provenance": null,
@@ -25592,17 +25620,17 @@
    "updated": "2026-09-22T12:46:52.759Z"
   },
   {
-   "declared_name": "harbor/who-never-answered-the-invitation",
-   "declared_short": "who-never-answered-the-invitation",
-   "folder": "who-never-answered-the-invitation",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/who-never-answered-the-invitation",
+   "declared_short": "who-never-answered-the-invitation",
    "domain": null,
+   "folder": "who-never-answered-the-invitation",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a9df03248b0f18bc30a6befc7dc9c40cc6a0a1e21dd5935365d7ed54ddbc8904",
    "size_bytes": 188982086,
    "updated": "2026-09-26T16:18:16.003Z"
