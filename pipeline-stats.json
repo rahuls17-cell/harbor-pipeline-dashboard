@@ -1,39 +1,39 @@
 {
- "generated_at": "2026-09-26T21:20:04+00:00",
+ "generated_at": "2026-09-26T21:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1769,
-  "scanned": 1769,
-  "connector": 476,
-  "non_connector": 1293,
+  "task_folders": 1771,
+  "scanned": 1771,
+  "connector": 477,
+  "non_connector": 1294,
   "errors": 0
  },
  "connector_provenance": {
   "real": 135,
-  "unknown": 152,
+  "unknown": 153,
   "synthetic": 189
  },
  "domain": {
-  "unnamed": 781,
+  "unnamed": 782,
   "code": 346,
   "fin": 112,
   "gen": 301,
   "health": 131,
-  "law": 98
+  "law": 99
  },
  "name_prefix": {
-  "harbor": 479,
-  "obi": 1289,
+  "harbor": 480,
+  "obi": 1290,
   "vankamasthanamma": 1
  },
  "connector_services": {
-  "google-drive-gym": 196,
-  "zeta3-sql-gym": 190,
-  "confluence-gym": 184,
-  "slack-gym": 183,
-  "jira-gym": 182,
-  "email-gym": 179,
-  "freshdesk-gym": 179,
+  "google-drive-gym": 197,
+  "zeta3-sql-gym": 191,
+  "confluence-gym": 185,
+  "slack-gym": 184,
+  "jira-gym": 183,
+  "email-gym": 180,
+  "freshdesk-gym": 180,
   "slack": 64,
   "notion-gym": 43,
   "github-gym": 32,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 394802
+  "new_archives_read": 2,
+  "approx_bytes_read": 267205
  },
  "errors": [],
  "tasks": [
@@ -3011,15 +3011,15 @@
    "updated": "2026-09-26T20:54:52.576Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b56-a7-service-line-compliance-adjudication",
    "declared_short": "bus-b56-a7-service-line-compliance-adjudication",
-   "folder": "bus-b56-a7-service-line-compliance-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b56-a7-service-line-compliance-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "60ebf89c3a6c635ec97953f8419b74d71b9917b348736f4574bdada873a7afee",
    "size_bytes": 9401236,
    "updated": "2026-09-26T21:16:40.818Z"
@@ -20243,6 +20243,20 @@
    "updated": "2026-09-09T06:54:59.581Z"
   },
   {
+   "declared_name": "obi/law-l53-proof-of-loss-timeliness-audit",
+   "declared_short": "law-l53-proof-of-loss-timeliness-audit",
+   "folder": "law-l53-QC-f38c34-v1-sna-qqlt",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "011f8b57c5f0514f5a0f11c871102a2deb7bc6fe1d4081a8efa03b115c7ab7c9",
+   "size_bytes": 15874331,
+   "updated": "2026-09-26T21:22:10.459Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-l62-llc-documentation-gap-audit",
@@ -23608,15 +23622,15 @@
    "updated": "2026-09-25T19:33:53.867Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-mg-it-b10-a7-feed-target-list-movement-review",
    "declared_short": "tech-mg-it-b10-a7-feed-target-list-movement-review",
-   "folder": "tech-mg-it-b10-a7-feed-target-list-movement-review",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-mg-it-b10-a7-feed-target-list-movement-review",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7b496ccae2419442875fcb44a813c1a3c49aabbdf995df9e8cf24af78563c8ed",
    "size_bytes": 5877440,
    "updated": "2026-09-26T21:19:49.349Z"
@@ -26176,6 +26190,28 @@
    "updated": "2026-09-26T18:39:09.474Z"
   },
   {
+   "declared_name": "harbor/weekly-on-call-system-health-survey-for-week-of-mar-4-2024",
+   "declared_short": "weekly-on-call-system-health-survey-for-week-of-mar-4-2024",
+   "folder": "weekly-on-call-system-health-survey-for-week-of-mar-4-2024",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "820828998551b6623f2503a02bf6536e415ec894f3a7133538732333876c3446",
+   "size_bytes": 8101277,
+   "updated": "2026-09-26T21:20:18.592Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
@@ -26752,15 +26788,15 @@
    "updated": "2026-09-24T18:43:50.245Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/writing-sc05-b3-data-table-recheck",
    "declared_short": "writing-sc05-b3-data-table-recheck",
-   "folder": "writing-sc05-b3-data-table-recheck",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "writing-sc05-b3-data-table-recheck",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b5d5a295a14387cc93d408a4e711fb64c5203ad2736bc8b10512b1f5e1df889b",
    "size_bytes": 6034575,
    "updated": "2026-09-26T21:15:05.596Z"
