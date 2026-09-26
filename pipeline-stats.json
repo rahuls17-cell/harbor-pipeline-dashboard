@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-26T18:20:03+00:00",
+ "generated_at": "2026-09-26T18:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1730,
-  "scanned": 1730,
-  "connector": 468,
-  "non_connector": 1262,
+  "task_folders": 1732,
+  "scanned": 1732,
+  "connector": 469,
+  "non_connector": 1263,
   "errors": 0
  },
  "connector_provenance": {
   "real": 134,
   "unknown": 150,
-  "synthetic": 184
+  "synthetic": 185
  },
  "domain": {
-  "unnamed": 764,
+  "unnamed": 765,
   "code": 338,
   "fin": 110,
   "gen": 298,
   "health": 125,
-  "law": 95
+  "law": 96
  },
  "name_prefix": {
-  "harbor": 471,
-  "obi": 1258,
+  "harbor": 472,
+  "obi": 1259,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -40,7 +40,7 @@
   "outlook-gym": 30,
   "email-calendar-gym": 28,
   "linear-gym": 28,
-  "gws-gym": 20,
+  "gws-gym": 21,
   "supabase-gym": 5,
   "teams-gym": 5,
   "microsoft-teams-gym": 4,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133668
+  "new_archives_read": 2,
+  "approx_bytes_read": 265854
  },
  "errors": [],
  "tasks": [
@@ -18431,17 +18431,17 @@
    "updated": "2026-09-21T22:06:09.544Z"
   },
   {
-   "declared_name": "harbor/how-my-birth-center-sheets-split-into-tabs",
-   "declared_short": "how-my-birth-center-sheets-split-into-tabs",
-   "folder": "how-my-birth-center-sheets-split-into-tabs",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/how-my-birth-center-sheets-split-into-tabs",
+   "declared_short": "how-my-birth-center-sheets-split-into-tabs",
    "domain": null,
+   "folder": "how-my-birth-center-sheets-split-into-tabs",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5b7c11df06f3ae2ca92c2bac2dfc6b9d712b6207f376f5df4d999b7c34a8ed0c",
    "size_bytes": 7094003,
    "updated": "2026-09-26T18:19:53.396Z"
@@ -18617,6 +18617,22 @@
    "sha256": "c98b996748170580c3e59147c0715b641362771a3adc91ddee93f80f944d6516",
    "size_bytes": 6122457,
    "updated": "2026-09-09T04:46:25.607Z"
+  },
+  {
+   "declared_name": "harbor/j1-mydrive-redundant-copy-crossref",
+   "declared_short": "j1-mydrive-redundant-copy-crossref",
+   "folder": "j1-mydrive-redundant-copy-crossref",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "96dfdae8a158e3f488d7ecf58ca39cb1473496b225b76e01ed2716fc5b839621",
+   "size_bytes": 7136004,
+   "updated": "2026-09-26T18:23:35.987Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -19549,6 +19565,20 @@
    "sha256": "e1dd0f18e9f03effd3a329bdc99c2dd8da4fd26491d65a5f1efcc8bb0b172703",
    "size_bytes": 6154382,
    "updated": "2026-09-22T07:49:29.479Z"
+  },
+  {
+   "declared_name": "obi/law-b48-l6-power-of-attorney-act-authority",
+   "declared_short": "law-b48-l6-power-of-attorney-act-authority",
+   "folder": "law-b48-l6-power-of-attorney-act-authority",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "3fdc304e255173d64cbc74915a746d9343b75063dead5637319e128fac9c2c02",
+   "size_bytes": 3955910,
+   "updated": "2026-09-26T18:21:39.895Z"
   },
   {
    "connector_provenance": null,
