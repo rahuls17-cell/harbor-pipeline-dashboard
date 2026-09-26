@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T12:50:04+00:00",
+ "generated_at": "2026-09-26T12:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1663,
-  "scanned": 1663,
+  "task_folders": 1664,
+  "scanned": 1664,
   "connector": 454,
-  "non_connector": 1209,
+  "non_connector": 1210,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 172
  },
  "domain": {
-  "unnamed": 727,
+  "unnamed": 728,
   "code": 327,
   "fin": 106,
   "gen": 295,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 457,
-  "obi": 1205,
+  "obi": 1206,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 394554
+  "new_archives_read": 1,
+  "approx_bytes_read": 131542
  },
  "errors": [],
  "tasks": [
@@ -2111,15 +2111,15 @@
    "updated": "2026-09-23T15:07:02.304Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b44-b11-weekly-status-carryover-reconstruction",
    "declared_short": "bus-b44-b11-weekly-status-carryover-reconstruction",
-   "folder": "bus-b44-b11-weekly-status-carryover-reconstruction",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b44-b11-weekly-status-carryover-reconstruction",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c460663bbfd0ecff9349e7e6dea690a997b5b8788e4f8e7c96cb324438501907",
    "size_bytes": 8670007,
    "updated": "2026-09-26T12:48:03.721Z"
@@ -2137,6 +2137,20 @@
    "sha256": "6255e28ef4d78afd04e939dd2f0a78f4af9366fec64e48b2473180007ed84a9a",
    "size_bytes": 10338346,
    "updated": "2026-09-26T11:15:24.295Z"
+  },
+  {
+   "declared_name": "obi/bus-b44-b14-presentation-outline-restructure",
+   "declared_short": "bus-b44-b14-presentation-outline-restructure",
+   "folder": "bus-b44-b14-presentation-outline-restructure",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "f1de5499b82768457921757042085a4013eb02188cebcfe786becfa2ccca79b4",
+   "size_bytes": 10135292,
+   "updated": "2026-09-26T12:53:37.090Z"
   },
   {
    "connector_provenance": null,
@@ -17259,15 +17273,15 @@
    "updated": "2026-09-26T11:26:24.785Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt11-a5-bin-abatement-dose-ledger",
    "declared_short": "health-tdt11-a5-bin-abatement-dose-ledger",
-   "folder": "health-tdt11-a5-bin-abatement-dose-ledger",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt11-a5-bin-abatement-dose-ledger",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e2e6d260701fd73323878a909bdd520d9d427c8250cdf42e9140ba011d123d2c",
    "size_bytes": 4599393,
    "updated": "2026-09-26T12:45:37.866Z"
@@ -21882,15 +21896,15 @@
    "updated": "2026-09-24T00:54:59.615Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b53-t6-consumption-variance-attribution",
    "declared_short": "tech-b53-t6-consumption-variance-attribution",
-   "folder": "tech-b53-t6-consumption-variance-attribution",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b53-t6-consumption-variance-attribution",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "70b8f4e4e8be9440d15ec084e61bae724eb528c83c163f86e334383aa46a48bf",
    "size_bytes": 6615474,
    "updated": "2026-09-26T12:48:47.720Z"
