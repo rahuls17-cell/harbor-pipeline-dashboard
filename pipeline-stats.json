@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T13:10:03+00:00",
+ "generated_at": "2026-09-26T13:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1665,
-  "scanned": 1665,
+  "task_folders": 1666,
+  "scanned": 1666,
   "connector": 454,
-  "non_connector": 1211,
+  "non_connector": 1212,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 328,
   "fin": 106,
   "gen": 295,
-  "health": 115,
+  "health": 116,
   "law": 93
  },
  "name_prefix": {
   "harbor": 457,
-  "obi": 1207,
+  "obi": 1208,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131437
  },
  "errors": [],
  "tasks": [
@@ -17635,6 +17635,20 @@
    "sha256": "da7c25f2214fbe42c3d74b1ccfc196637f44c61d53dc0a84bcfef29ec1ff9eef",
    "size_bytes": 6221816,
    "updated": "2026-09-25T15:15:50.618Z"
+  },
+  {
+   "declared_name": "obi/health-tdt9-a1-intake-block-day-plan",
+   "declared_short": "health-tdt9-a1-intake-block-day-plan",
+   "folder": "health-tdt9-a1-intake-block-day-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "cae047095ea86a921fcae73181d90b6766df1d7d85942d0178f6d3d0a00af155",
+   "size_bytes": 4502968,
+   "updated": "2026-09-26T13:18:08.442Z"
   },
   {
    "connector_provenance": null,
