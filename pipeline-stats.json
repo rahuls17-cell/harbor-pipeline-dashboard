@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T10:50:03+00:00",
+ "generated_at": "2026-09-26T11:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1638,
-  "scanned": 1638,
+  "task_folders": 1639,
+  "scanned": 1639,
   "connector": 450,
-  "non_connector": 1188,
+  "non_connector": 1189,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 170
  },
  "domain": {
-  "unnamed": 711,
+  "unnamed": 712,
   "code": 324,
   "fin": 106,
   "gen": 295,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 453,
-  "obi": 1184,
+  "obi": 1185,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131451
  },
  "errors": [],
  "tasks": [
@@ -2095,6 +2095,20 @@
    "sha256": "1bd15c0040a1fecba1f0456713db9c6d14ddcb3c1f5105075ab441c81e265ae2",
    "size_bytes": 7840776,
    "updated": "2026-09-23T15:07:02.304Z"
+  },
+  {
+   "declared_name": "obi/bus-b44-b6-brand-name-availability-screening",
+   "declared_short": "bus-b44-b6-brand-name-availability-screening",
+   "folder": "bus-b44-b6-brand-name-availability-screening",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "b9032cda33d05b51d2bd81503e6d67c0bbcfe4dc36af839d0fe1f294105cd5a5",
+   "size_bytes": 4055379,
+   "updated": "2026-09-26T11:02:30.413Z"
   },
   {
    "connector_provenance": null,
