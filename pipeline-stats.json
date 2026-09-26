@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T08:00:04+00:00",
+ "generated_at": "2026-09-26T08:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1615,
-  "scanned": 1615,
+  "task_folders": 1616,
+  "scanned": 1616,
   "connector": 441,
-  "non_connector": 1174,
+  "non_connector": 1175,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 318,
   "fin": 105,
   "gen": 293,
-  "health": 108,
+  "health": 109,
   "law": 92
  },
  "name_prefix": {
   "harbor": 444,
-  "obi": 1170,
+  "obi": 1171,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 262963
+  "approx_bytes_read": 263004
  },
  "errors": [],
  "tasks": [
@@ -3445,15 +3445,15 @@
    "updated": "2026-09-25T18:22:03.429Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c123-metric-cardinality-budget-recompute",
    "declared_short": "code-c123-metric-cardinality-budget-recompute",
-   "folder": "code-c123-metric-cardinality-budget-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c123-metric-cardinality-budget-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "526228cf5287a768143aebcebc1df7e639b46b6dd7c634516bca38ae01be51d2",
    "size_bytes": 5176987,
    "updated": "2026-09-26T07:55:28.118Z"
@@ -3907,15 +3907,15 @@
    "updated": "2026-09-25T13:44:02.089Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c179-network-failover-config-audit",
    "declared_short": "code-c179-network-failover-config-audit",
-   "folder": "code-c179-network-failover-config-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c179-network-failover-config-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e6c34f7cd9aa014518b9f0ab29c24273ccdfc39b89839998cdbf7b1aaec12c72",
    "size_bytes": 5301102,
    "updated": "2026-09-26T07:58:21.376Z"
@@ -5657,18 +5657,18 @@
    "updated": "2026-09-20T10:55:39.282Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/code-c39-metric-instrumentation-audit",
    "declared_short": "code-c39-metric-instrumentation-audit",
-   "domain": "code",
    "folder": "code-c39-metric-instrumentation-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "a5cd9de93772a1d969252cd10170d3b7d39ce727103c125468a2bcd40e25268d",
-   "size_bytes": 8795814,
-   "updated": "2026-09-22T01:58:16.187Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "8be5107a14dffc5dd5d36aa7dcdaf91444886cef79ebbf8bdea449ca87a81484",
+   "size_bytes": 6190832,
+   "updated": "2026-09-26T08:01:49.205Z"
   },
   {
    "connector_provenance": null,
@@ -17279,6 +17279,20 @@
    "sha256": "3d6742c308cf5ff5364c6d78e7877f75c7578ddccd8b863ef1ea62d8c3e1bd3a",
    "size_bytes": 5827255,
    "updated": "2026-09-25T09:37:06.299Z"
+  },
+  {
+   "declared_name": "obi/health-tdt9-a6-peptide-vendor-basis-catalogue",
+   "declared_short": "health-tdt9-a6-peptide-vendor-basis-catalogue",
+   "folder": "health-tdt9-a6-peptide-vendor-basis-catalogue",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "6f0f9aa37e8ebbd4fcc10a8536396f7c63024fed864f11a220bb3002aaa01db4",
+   "size_bytes": 3962319,
+   "updated": "2026-09-26T08:03:21.461Z"
   },
   {
    "connector_provenance": "synthetic",
