@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-26T23:20:02+00:00",
+ "generated_at": "2026-09-26T23:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1800,
-  "scanned": 1800,
-  "connector": 482,
-  "non_connector": 1318,
+  "task_folders": 1802,
+  "scanned": 1802,
+  "connector": 483,
+  "non_connector": 1319,
   "errors": 0
  },
  "connector_provenance": {
   "real": 135,
   "unknown": 154,
-  "synthetic": 193
+  "synthetic": 194
  },
  "domain": {
-  "unnamed": 798,
+  "unnamed": 800,
   "code": 354,
   "fin": 112,
   "gen": 303,
@@ -22,8 +22,8 @@
   "law": 99
  },
  "name_prefix": {
-  "harbor": 485,
-  "obi": 1313,
+  "harbor": 486,
+  "obi": 1314,
   "vankamasthanamma": 1,
   "health": 1
  },
@@ -41,7 +41,7 @@
   "outlook-gym": 31,
   "email-calendar-gym": 29,
   "linear-gym": 29,
-  "gws-gym": 24,
+  "gws-gym": 25,
   "supabase-gym": 6,
   "teams-gym": 5,
   "microsoft-teams-gym": 4,
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 265772
  },
  "errors": [],
  "tasks": [
@@ -23977,6 +23977,20 @@
    "updated": "2026-09-25T19:33:53.867Z"
   },
   {
+   "declared_name": "obi/tech-mg-it-b10-a5-mic-modelling-feature-matrix-audit",
+   "declared_short": "tech-mg-it-b10-a5-mic-modelling-feature-matrix-audit",
+   "folder": "tech-mg-it-b10-a5-mic-modelling-feature-matrix-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "a9dd181ac17e71177d7a57ca9384426fc8ffdd314b1e76997edf60a12d34706a",
+   "size_bytes": 4695467,
+   "updated": "2026-09-26T23:24:36.433Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/tech-mg-it-b10-a7-feed-target-list-movement-review",
@@ -25135,6 +25149,22 @@
    "sha256": "7ba64fbb4b54ded4422443147488a43dcecca5c3acdf9800afab2a94774ceeea",
    "size_bytes": 12039759,
    "updated": "2026-09-18T21:00:32.266Z"
+  },
+  {
+   "declared_name": "harbor/the-outbound-tracker-dictionary",
+   "declared_short": "the-outbound-tracker-dictionary",
+   "folder": "the-outbound-tracker-dictionary",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d3dc8cabd7fbc786986deaca74480de151035266e6945e3982f0dc26ac10607c",
+   "size_bytes": 7794447,
+   "updated": "2026-09-26T23:20:43.968Z"
   },
   {
    "connector_provenance": "unknown",
