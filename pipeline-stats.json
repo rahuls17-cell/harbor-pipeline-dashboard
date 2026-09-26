@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T11:35:04+00:00",
+ "generated_at": "2026-09-26T11:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1647,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 394711
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2111,15 +2111,15 @@
    "updated": "2026-09-26T11:15:24.295Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b44-b3-review-exchange-policy-adjudication",
    "declared_short": "bus-b44-b3-review-exchange-policy-adjudication",
-   "folder": "bus-b44-b3-review-exchange-policy-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b44-b3-review-exchange-policy-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2749739f942342e10ad1347ba36095e98f43923371c2e8159744b57d3040bdb0",
    "size_bytes": 6265125,
    "updated": "2026-09-26T11:34:12.990Z"
@@ -17059,15 +17059,15 @@
    "updated": "2026-09-25T21:21:57.345Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt10-a4-component-folate-coverage-ledger",
    "declared_short": "health-tdt10-a4-component-folate-coverage-ledger",
-   "folder": "health-tdt10-a4-component-folate-coverage-ledger",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt10-a4-component-folate-coverage-ledger",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d239bd42035becf62c61f41f01ac705142e34f916f172cb2e066fd803dbef1a1",
    "size_bytes": 4946333,
    "updated": "2026-09-26T11:30:13.147Z"
@@ -17971,15 +17971,15 @@
    "updated": "2026-09-18T11:59:17.706Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b36-l9-divorce-response-deadline-register",
    "declared_short": "law-b36-l9-divorce-response-deadline-register",
-   "folder": "law-b36-l9-divorce-response-deadline-register-detail-id-grammar-final-20260925T191437-IST",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b36-l9-divorce-response-deadline-register-detail-id-grammar-final-20260925T191437-IST",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "769d230fddd2708895b667963433ff467308c66cd930aa19137e1b01412bc4f8",
    "size_bytes": 11336787,
    "updated": "2026-09-26T11:32:19.549Z"
