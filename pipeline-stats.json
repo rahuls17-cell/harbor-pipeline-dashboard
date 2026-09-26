@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T22:25:03+00:00",
+ "generated_at": "2026-09-26T22:30:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1790,
-  "scanned": 1790,
+  "task_folders": 1793,
+  "scanned": 1793,
   "connector": 482,
-  "non_connector": 1308,
+  "non_connector": 1311,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 193
  },
  "domain": {
-  "unnamed": 796,
-  "code": 348,
+  "unnamed": 797,
+  "code": 350,
   "fin": 112,
   "gen": 302,
   "health": 133,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 485,
-  "obi": 1304,
+  "obi": 1307,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134088
+  "new_archives_read": 3,
+  "approx_bytes_read": 394438
  },
  "errors": [],
  "tasks": [
@@ -5775,6 +5775,20 @@
    "updated": "2026-09-09T04:37:57.104Z"
   },
   {
+   "declared_name": "obi/code-c292-pdf-form-scripting-security-audit",
+   "declared_short": "code-c292-pdf-form-scripting-security-audit",
+   "folder": "code-c292-pdf-form-scripting-security-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "1176fb36d8a532cbe72ad325982453e7cc7961c3f25d6f06f1086bdbf363c729",
+   "size_bytes": 5674664,
+   "updated": "2026-09-26T22:25:44.253Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c293-account-lockout-policy-audit",
@@ -5829,6 +5843,20 @@
    "sha256": "f45b958149ddd258fc665960a501c9a7ddb1ba8bc19f58b15aab392b8e4ed858",
    "size_bytes": 8945004,
    "updated": "2026-09-19T06:34:52.141Z"
+  },
+  {
+   "declared_name": "obi/code-c299-deck-export-handoff-audit",
+   "declared_short": "code-c299-deck-export-handoff-audit",
+   "folder": "code-c299-deck-export-handoff-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "97241f5ef90b7f25cb3d8e220e4132117ade8bd48f41ed35d4ff3bb8eb2fa1c4",
+   "size_bytes": 4629194,
+   "updated": "2026-09-26T22:25:16.869Z"
   },
   {
    "connector_provenance": null,
@@ -21493,6 +21521,20 @@
    "updated": "2026-09-26T15:10:37.395Z"
   },
   {
+   "declared_name": "obi/sci-b21-g11-particulate-concentration-variance",
+   "declared_short": "sci-b21-g11-particulate-concentration-variance",
+   "folder": "sci-b21-g11-particulate-concentration-variance",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "ff4e24d661175bc40a6ccd59fab81b3a796833ca5a181c3851fec08f14a1de8f",
+   "size_bytes": 8139218,
+   "updated": "2026-09-26T22:29:38.934Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/sci-b50-a6-biostimulant-results-recompute",
@@ -24420,17 +24462,17 @@
    "updated": "2026-09-19T08:02:42.859Z"
   },
   {
-   "declared_name": "harbor/the-checkboxes-that-are-real",
-   "declared_short": "the-checkboxes-that-are-real",
-   "folder": "the-checkboxes-that-are-real",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-checkboxes-that-are-real",
+   "declared_short": "the-checkboxes-that-are-real",
    "domain": null,
+   "folder": "the-checkboxes-that-are-real",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "158d761d047cdb8ee45536834757e55ee111b577f141a27233fadd625afd10d6",
    "size_bytes": 8804763,
    "updated": "2026-09-26T22:20:31.213Z"
