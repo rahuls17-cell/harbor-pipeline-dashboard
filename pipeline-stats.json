@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T15:00:04+00:00",
+ "generated_at": "2026-09-26T15:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1683,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 532163
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1805,15 +1805,15 @@
    "updated": "2026-09-24T18:07:20.562Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b22-b18-peptide-market-size-estimate",
    "declared_short": "bus-b22-b18-peptide-market-size-estimate",
-   "folder": "bus-b22-b18-peptide-market-size-estimate",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b22-b18-peptide-market-size-estimate",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4e7df0100f23b07f24186ac55eea2739edb529a3340d2e57f0c0d5ade4ed5f57",
    "size_bytes": 4800797,
    "updated": "2026-09-26T14:58:23.155Z"
@@ -4959,15 +4959,15 @@
    "updated": "2026-09-24T17:11:07.618Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c25-idempotent-write-semantics",
    "declared_short": "code-c25-idempotent-write-semantics",
-   "folder": "code-c25-idempotent-write-semantics",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c25-idempotent-write-semantics",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f0719f9d1c67997afac57710b1eae38808fb227094f70b910e0aa745173622ac",
    "size_bytes": 5625284,
    "updated": "2026-09-26T14:58:48.761Z"
@@ -20427,15 +20427,15 @@
    "updated": "2026-09-26T12:21:49.356Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/sci-b50-s8-wetland-plan-cycle-reconstruction",
    "declared_short": "sci-b50-s8-wetland-plan-cycle-reconstruction",
-   "folder": "sci-b50-s8-wetland-plan-cycle-reconstruction-v4",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "sci-b50-s8-wetland-plan-cycle-reconstruction-v4",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "dcd7d71db1b67d13fd7411268f29fa14ce5bb68b36aed346241b33f3e372aa31",
    "size_bytes": 16610975,
    "updated": "2026-09-26T14:58:57.261Z"
@@ -20687,17 +20687,17 @@
    "updated": "2026-09-09T05:04:46.000Z"
   },
   {
-   "declared_name": "harbor/still-waiting-on-a-reply",
-   "declared_short": "still-waiting-on-a-reply",
-   "folder": "still-waiting-on-a-reply",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/still-waiting-on-a-reply",
+   "declared_short": "still-waiting-on-a-reply",
    "domain": null,
+   "folder": "still-waiting-on-a-reply",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "731585e306b4f1f11488802d4202b94c1ba1b2e84f95e050709fafea1ffd9259",
    "size_bytes": 6941288,
    "updated": "2026-09-26T14:59:27.632Z"
