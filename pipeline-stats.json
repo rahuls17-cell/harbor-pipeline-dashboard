@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T22:15:04+00:00",
+ "generated_at": "2026-09-26T22:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1788,
-  "scanned": 1788,
+  "task_folders": 1789,
+  "scanned": 1789,
   "connector": 481,
-  "non_connector": 1307,
+  "non_connector": 1308,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 795,
   "code": 348,
   "fin": 112,
-  "gen": 301,
+  "gen": 302,
   "health": 133,
   "law": 99
  },
  "name_prefix": {
   "harbor": 484,
-  "obi": 1303,
+  "obi": 1304,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263116
+  "new_archives_read": 1,
+  "approx_bytes_read": 131643
  },
  "errors": [],
  "tasks": [
@@ -3041,15 +3041,15 @@
    "updated": "2026-09-26T20:54:52.576Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b56-a3-raci-accountability-invariant-audit",
    "declared_short": "bus-b56-a3-raci-accountability-invariant-audit",
-   "folder": "bus-b56-a3-raci-accountability-invariant-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b56-a3-raci-accountability-invariant-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "bf44646c95f52f5902b3e3ee8b3d92973318999615b3329cf823f318d4072fe2",
    "size_bytes": 7775862,
    "updated": "2026-09-26T22:11:21.197Z"
@@ -11887,6 +11887,20 @@
    "updated": "2026-09-11T09:14:13.431Z"
   },
   {
+   "declared_name": "obi/gen-b49-l5-press-release-charge-element-mapping",
+   "declared_short": "gen-b49-l5-press-release-charge-element-mapping",
+   "folder": "gen-b49-l5-press-release-charge-element-mapping",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "1f9d71423d060a91bf62c1dc518c87c6c231d05001712ca87a0682e27045454a",
+   "size_bytes": 9904487,
+   "updated": "2026-09-26T22:16:23.039Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-cold-chain-delivery-run-plan",
@@ -17549,15 +17563,15 @@
    "updated": "2026-09-18T09:44:48.604Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h36-equipment-calibration-intervals",
    "declared_short": "health-h36-equipment-calibration-intervals",
-   "folder": "health-h36-equipment-calibration-intervals-a73ff7-v6-sna-nery",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h36-equipment-calibration-intervals-a73ff7-v6-sna-nery",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0402a35bc4d78dd5a1c33f11509debf649d958691563edf1b461e163610fa95e",
    "size_bytes": 5232011,
    "updated": "2026-09-26T22:13:37.794Z"
