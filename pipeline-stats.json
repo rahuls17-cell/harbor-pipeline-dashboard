@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-26T22:20:03+00:00",
+ "generated_at": "2026-09-26T22:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1789,
-  "scanned": 1789,
-  "connector": 481,
+  "task_folders": 1790,
+  "scanned": 1790,
+  "connector": 482,
   "non_connector": 1308,
   "errors": 0
  },
  "connector_provenance": {
   "real": 135,
   "unknown": 154,
-  "synthetic": 192
+  "synthetic": 193
  },
  "domain": {
-  "unnamed": 795,
+  "unnamed": 796,
   "code": 348,
   "fin": 112,
   "gen": 302,
@@ -22,7 +22,7 @@
   "law": 99
  },
  "name_prefix": {
-  "harbor": 484,
+  "harbor": 485,
   "obi": 1304,
   "vankamasthanamma": 1
  },
@@ -40,7 +40,7 @@
   "outlook-gym": 31,
   "email-calendar-gym": 29,
   "linear-gym": 29,
-  "gws-gym": 23,
+  "gws-gym": 24,
   "supabase-gym": 6,
   "teams-gym": 5,
   "microsoft-teams-gym": 4,
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131643
+  "approx_bytes_read": 134088
  },
  "errors": [],
  "tasks": [
@@ -11887,15 +11887,15 @@
    "updated": "2026-09-11T09:14:13.431Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-b49-l5-press-release-charge-element-mapping",
    "declared_short": "gen-b49-l5-press-release-charge-element-mapping",
-   "folder": "gen-b49-l5-press-release-charge-element-mapping",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-b49-l5-press-release-charge-element-mapping",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1f9d71423d060a91bf62c1dc518c87c6c231d05001712ca87a0682e27045454a",
    "size_bytes": 9904487,
    "updated": "2026-09-26T22:16:23.039Z"
@@ -24418,6 +24418,22 @@
    "sha256": "9e38e4fed5d5bcb80e0b8ce7958dc76803bfc1c1d07102f3314d4d156eacd1b1",
    "size_bytes": 9492805,
    "updated": "2026-09-19T08:02:42.859Z"
+  },
+  {
+   "declared_name": "harbor/the-checkboxes-that-are-real",
+   "declared_short": "the-checkboxes-that-are-real",
+   "folder": "the-checkboxes-that-are-real",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "158d761d047cdb8ee45536834757e55ee111b577f141a27233fadd625afd10d6",
+   "size_bytes": 8804763,
+   "updated": "2026-09-26T22:20:31.213Z"
   },
   {
    "connector_provenance": "synthetic",
