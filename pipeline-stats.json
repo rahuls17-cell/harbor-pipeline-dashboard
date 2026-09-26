@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T20:20:02+00:00",
+ "generated_at": "2026-09-26T20:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1755,
-  "scanned": 1755,
+  "task_folders": 1756,
+  "scanned": 1756,
   "connector": 475,
-  "non_connector": 1280,
+  "non_connector": 1281,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 775,
   "code": 343,
-  "fin": 110,
+  "fin": 111,
   "gen": 299,
   "health": 130,
   "law": 98
  },
  "name_prefix": {
   "harbor": 478,
-  "obi": 1276,
+  "obi": 1277,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131643
  },
  "errors": [],
  "tasks": [
@@ -10783,6 +10783,20 @@
    "sha256": "3012dcdf49f4260f677481f99b88dbabc4531a3f310b7d847ab07f9932587362",
    "size_bytes": 5455792,
    "updated": "2026-09-19T07:17:04.138Z"
+  },
+  {
+   "declared_name": "obi/fin-b49-f10-investor-report-claim-audit",
+   "declared_short": "fin-b49-f10-investor-report-claim-audit",
+   "folder": "fin-b49-f10-investor-report-claim-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "cc3825728faebcc7662655436a2af4691a721372ff249cc37b57a238582e425c",
+   "size_bytes": 7895989,
+   "updated": "2026-09-26T20:24:37.659Z"
   },
   {
    "connector_provenance": null,
