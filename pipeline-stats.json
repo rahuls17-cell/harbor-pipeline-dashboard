@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T13:25:02+00:00",
+ "generated_at": "2026-09-26T13:30:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1666,
-  "scanned": 1666,
+  "task_folders": 1667,
+  "scanned": 1667,
   "connector": 454,
-  "non_connector": 1212,
+  "non_connector": 1213,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 328,
   "fin": 106,
   "gen": 295,
-  "health": 116,
+  "health": 117,
   "law": 93
  },
  "name_prefix": {
   "harbor": 457,
-  "obi": 1208,
+  "obi": 1209,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131485
  },
  "errors": [],
  "tasks": [
@@ -17271,6 +17271,20 @@
    "sha256": "f2dab4d282f4a608d4118bf75e9cca4f4b9eb33135486185393c8b9dc006f04f",
    "size_bytes": 7239705,
    "updated": "2026-09-25T21:53:41.738Z"
+  },
+  {
+   "declared_name": "obi/health-tdt11-a10-shepherd-breed-list-reconciliation",
+   "declared_short": "health-tdt11-a10-shepherd-breed-list-reconciliation",
+   "folder": "health-tdt11-a10-shepherd-breed-list-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "1e13d3758ed6c2f8e867469e28949583ed2a2da8898e5a6d0470682a60318529",
+   "size_bytes": 5297391,
+   "updated": "2026-09-26T13:27:19.953Z"
   },
   {
    "connector_provenance": null,
