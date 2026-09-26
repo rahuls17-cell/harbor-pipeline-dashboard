@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T07:55:04+00:00",
+ "generated_at": "2026-09-26T08:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1613,
-  "scanned": 1613,
+  "task_folders": 1615,
+  "scanned": 1615,
   "connector": 441,
-  "non_connector": 1172,
+  "non_connector": 1174,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 699,
-  "code": 316,
+  "code": 318,
   "fin": 105,
   "gen": 293,
   "health": 108,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 444,
-  "obi": 1168,
+  "obi": 1170,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 262963
  },
  "errors": [],
  "tasks": [
@@ -3445,6 +3445,20 @@
    "updated": "2026-09-25T18:22:03.429Z"
   },
   {
+   "declared_name": "obi/code-c123-metric-cardinality-budget-recompute",
+   "declared_short": "code-c123-metric-cardinality-budget-recompute",
+   "folder": "code-c123-metric-cardinality-budget-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "526228cf5287a768143aebcebc1df7e639b46b6dd7c634516bca38ae01be51d2",
+   "size_bytes": 5176987,
+   "updated": "2026-09-26T07:55:28.118Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c129-subnet-ip-allocation-recompute",
@@ -3891,6 +3905,20 @@
    "sha256": "6dd3d00dd621f2bacca37ca9738977f44274fbbf6b952ff16cdd7e50d26cbf3f",
    "size_bytes": 8107014,
    "updated": "2026-09-25T13:44:02.089Z"
+  },
+  {
+   "declared_name": "obi/code-c179-network-failover-config-audit",
+   "declared_short": "code-c179-network-failover-config-audit",
+   "folder": "code-c179-network-failover-config-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "e6c34f7cd9aa014518b9f0ab29c24273ccdfc39b89839998cdbf7b1aaec12c72",
+   "size_bytes": 5301102,
+   "updated": "2026-09-26T07:58:21.376Z"
   },
   {
    "connector_provenance": null,
