@@ -1,37 +1,37 @@
 {
- "generated_at": "2026-09-26T19:55:03+00:00",
+ "generated_at": "2026-09-26T20:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1751,
-  "scanned": 1751,
-  "connector": 472,
-  "non_connector": 1279,
+  "task_folders": 1754,
+  "scanned": 1754,
+  "connector": 474,
+  "non_connector": 1280,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 134,
+  "real": 135,
   "unknown": 151,
-  "synthetic": 187
+  "synthetic": 188
  },
  "domain": {
-  "unnamed": 772,
-  "code": 342,
+  "unnamed": 774,
+  "code": 343,
   "fin": 110,
   "gen": 299,
   "health": 130,
   "law": 98
  },
  "name_prefix": {
-  "harbor": 475,
-  "obi": 1275,
+  "harbor": 477,
+  "obi": 1276,
   "vankamasthanamma": 1
  },
  "connector_services": {
   "google-drive-gym": 196,
   "zeta3-sql-gym": 190,
   "confluence-gym": 184,
+  "slack-gym": 183,
   "jira-gym": 182,
-  "slack-gym": 182,
   "email-gym": 179,
   "freshdesk-gym": 179,
   "slack": 64,
@@ -41,15 +41,15 @@
   "email-calendar-gym": 29,
   "linear-gym": 28,
   "gws-gym": 22,
-  "supabase-gym": 5,
+  "supabase-gym": 6,
   "teams-gym": 5,
   "microsoft-teams-gym": 4,
   "snowflake-gym": 2,
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 405755
  },
  "errors": [],
  "tasks": [
@@ -5617,6 +5617,20 @@
    "sha256": "f325af3b7a7279509550688ea5a6b21a01d896b804f8b2f200787e31c33906c0",
    "size_bytes": 7431176,
    "updated": "2026-09-26T09:53:15.703Z"
+  },
+  {
+   "declared_name": "obi/code-c287-subprocessor-security-review-audit",
+   "declared_short": "code-c287-subprocessor-security-review-audit",
+   "folder": "code-c287-subprocessor-security-review-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "e991295c41047d45c58db8fbef70ce02db5be8bccfa51b464e98f82ded911488",
+   "size_bytes": 5051591,
+   "updated": "2026-09-26T19:59:11.520Z"
   },
   {
    "connector_provenance": null,
@@ -24298,6 +24312,22 @@
    "updated": "2026-09-23T22:05:44.216Z"
   },
   {
+   "declared_name": "harbor/the-lights-are-still-on",
+   "declared_short": "the-lights-are-still-on",
+   "folder": "the-lights-are-still-on",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "supabase-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "e1d673557a866001654dc6f6c49c447a157abaa01c512aaba5baf63832bf1d16",
+   "size_bytes": 7186271,
+   "updated": "2026-09-26T19:56:37.351Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "microsoft-teams-gym"
@@ -24952,6 +24982,22 @@
    "sha256": "b847bb4e459368431d5fa4fec35fe5ec8d19e2bd4e7c337bd909353f8240c4e1",
    "size_bytes": 10026296,
    "updated": "2026-09-19T12:27:04.857Z"
+  },
+  {
+   "declared_name": "harbor/the-status-board-nobody-maintains",
+   "declared_short": "the-status-board-nobody-maintains",
+   "folder": "the-status-board-nobody-maintains",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "a36be095e4812943c5f70128fc5e30aba1086db67ba5e07d5f00c8df46348b16",
+   "size_bytes": 8840229,
+   "updated": "2026-09-26T19:58:51.807Z"
   },
   {
    "connector_provenance": "synthetic",
