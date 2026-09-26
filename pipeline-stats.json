@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T13:55:05+00:00",
+ "generated_at": "2026-09-26T14:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1671,
-  "scanned": 1671,
+  "task_folders": 1674,
+  "scanned": 1674,
   "connector": 455,
-  "non_connector": 1216,
+  "non_connector": 1219,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 173
  },
  "domain": {
-  "unnamed": 731,
+  "unnamed": 733,
   "code": 328,
   "fin": 106,
-  "gen": 295,
+  "gen": 296,
   "health": 118,
   "law": 93
  },
  "name_prefix": {
   "harbor": 458,
-  "obi": 1212,
+  "obi": 1215,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 398300
+  "new_archives_read": 4,
+  "approx_bytes_read": 526002
  },
  "errors": [],
  "tasks": [
@@ -821,17 +821,17 @@
    "updated": "2026-09-22T08:00:12.368Z"
   },
   {
-   "declared_name": "harbor/are-we-keeping-core-hours",
-   "declared_short": "are-we-keeping-core-hours",
-   "folder": "are-we-keeping-core-hours",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/are-we-keeping-core-hours",
+   "declared_short": "are-we-keeping-core-hours",
    "domain": null,
+   "folder": "are-we-keeping-core-hours",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0d5d9b5bc61eeaec638c00f1d5d27c975c6c8b17803b07721c90be760a345cac",
    "size_bytes": 9476807,
    "updated": "2026-09-26T13:54:30.912Z"
@@ -1567,6 +1567,20 @@
    "updated": "2026-09-25T06:17:55.833Z"
   },
   {
+   "declared_name": "obi/bus-b108-b14-canopy-tent-catalog-normalization",
+   "declared_short": "bus-b108-b14-canopy-tent-catalog-normalization",
+   "folder": "bus-b108-b14-canopy-tent-catalog-normalization",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "ee044e8072f42687b2d2dd04b3ae7a418f7df31d8517872b2b345879b776a797",
+   "size_bytes": 4575536,
+   "updated": "2026-09-26T13:56:14.219Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b108-b15-executive-intro-email-figure-verification",
@@ -2169,29 +2183,29 @@
    "updated": "2026-09-26T12:53:37.090Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b44-b15-subscription-commitment-audit",
    "declared_short": "bus-b44-b15-subscription-commitment-audit",
-   "folder": "bus-b44-b15-subscription-commitment-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b44-b15-subscription-commitment-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1acb99cf007df7b01a0097e0f3e6640e9ca044f9e2322dacb15d61163bd7cbae",
    "size_bytes": 7887682,
    "updated": "2026-09-26T13:50:56.473Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b44-b16-midmonth-sales-runrate-scorecard",
    "declared_short": "bus-b44-b16-midmonth-sales-runrate-scorecard",
-   "folder": "bus-b44-b16-midmonth-sales-runrate-scorecard",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b44-b16-midmonth-sales-runrate-scorecard",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "80351283c7a4eb73f777cb54df3db75d9380155b2e96b1cff1fd01b7f288382f",
    "size_bytes": 6296225,
    "updated": "2026-09-26T13:50:56.302Z"
@@ -5519,18 +5533,18 @@
    "updated": "2026-09-24T20:43:50.220Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/code-c33-upload-validation-audit",
    "declared_short": "code-c33-upload-validation-audit",
-   "domain": "code",
    "folder": "code-c33-upload-validation-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "72c94ec9a5601757a9fa1105e04ff699b5d8a1d74cbb248a71760e6ec914fd6d",
-   "size_bytes": 6919944,
-   "updated": "2026-09-26T04:47:33.304Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "d5764c84a65fb2f1fe56546914a94fbb8bec0b38148b2df46cf322941fee1644",
+   "size_bytes": 5547880,
+   "updated": "2026-09-26T13:55:20.309Z"
   },
   {
    "connector_provenance": null,
@@ -14567,6 +14581,20 @@
    "updated": "2026-09-05T18:58:12.824Z"
   },
   {
+   "declared_name": "obi/gen-g899-athletics-sponsor-logo-rights-audit",
+   "declared_short": "gen-g899-athletics-sponsor-logo-rights-audit",
+   "folder": "gen-g899-athletics-sponsor-logo-rights-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "5c9a9e8bc911ac9ef0a6c86dd3e0d479fea6c2c35e12663fa3436814e55e3b9f",
+   "size_bytes": 10298666,
+   "updated": "2026-09-26T13:55:50.475Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g90-spill-report-compliance-audit",
@@ -21924,6 +21952,20 @@
    "sha256": "cf72b5331cde1849d256255acfc90eabb5bb03198003f6e6f64a194fef31e282",
    "size_bytes": 4066463,
    "updated": "2026-09-26T02:25:47.061Z"
+  },
+  {
+   "declared_name": "obi/tech-b52-t3-procedure-media-match-register",
+   "declared_short": "tech-b52-t3-procedure-media-match-register",
+   "folder": "tech-b52-t3-procedure-media-match-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "466c1308ff9e7b6eaafca8b12647c9b76cc52e77e6693074acfb36cea973965c",
+   "size_bytes": 4817390,
+   "updated": "2026-09-26T13:56:24.908Z"
   },
   {
    "connector_provenance": null,
