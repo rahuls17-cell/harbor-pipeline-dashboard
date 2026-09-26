@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-26T18:10:03+00:00",
+ "generated_at": "2026-09-26T18:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1726,
-  "scanned": 1726,
-  "connector": 466,
-  "non_connector": 1260,
+  "task_folders": 1729,
+  "scanned": 1729,
+  "connector": 467,
+  "non_connector": 1262,
   "errors": 0
  },
  "connector_provenance": {
   "real": 134,
   "unknown": 150,
-  "synthetic": 182
+  "synthetic": 183
  },
  "domain": {
-  "unnamed": 761,
+  "unnamed": 763,
   "code": 338,
   "fin": 110,
   "gen": 298,
-  "health": 124,
+  "health": 125,
   "law": 95
  },
  "name_prefix": {
-  "harbor": 469,
-  "obi": 1256,
+  "harbor": 470,
+  "obi": 1258,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -37,7 +37,7 @@
   "slack": 64,
   "notion-gym": 43,
   "github-gym": 31,
-  "outlook-gym": 29,
+  "outlook-gym": 30,
   "email-calendar-gym": 28,
   "linear-gym": 28,
   "gws-gym": 19,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131535
+  "new_archives_read": 3,
+  "approx_bytes_read": 399117
  },
  "errors": [],
  "tasks": [
@@ -2995,6 +2995,20 @@
    "sha256": "c1a656fd8d006147fc7570f9578e85bc9767814828eebd19558211e2ff6e45d3",
    "size_bytes": 10002423,
    "updated": "2026-09-26T15:09:36.902Z"
+  },
+  {
+   "declared_name": "obi/bus-b609-t10-automaker-holdings-control-classification-check",
+   "declared_short": "bus-b609-t10-automaker-holdings-control-classification-check",
+   "folder": "bus-b609-t10-automaker-holdings-control-classification-check",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "9c6034505a20feaa972d8d049b3541a5701eaa5f6e82ac48b7a048c45c089a1b",
+   "size_bytes": 10687721,
+   "updated": "2026-09-26T18:10:30.763Z"
   },
   {
    "connector_provenance": null,
@@ -10197,15 +10211,15 @@
    "updated": "2026-09-19T10:20:46.951Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b43-a10-fx-cross-quote-check",
    "declared_short": "fin-b43-a10-fx-cross-quote-check",
-   "folder": "fin-b43-a10-fx-cross-quote-check-behavioral-regression-fix-final-20260926T173804-IST",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b43-a10-fx-cross-quote-check-behavioral-regression-fix-final-20260926T173804-IST",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0db85cff5f4810a30922a6ecc488f024c1ea2689fc6c88118d1955b53cb4c115",
    "size_bytes": 10981666,
    "updated": "2026-09-26T18:08:58.967Z"
@@ -17965,6 +17979,20 @@
    "updated": "2026-09-19T15:30:27.347Z"
   },
   {
+   "declared_name": "obi/health-tdt5-a6-provider-directory-status-reconcile",
+   "declared_short": "health-tdt5-a6-provider-directory-status-reconcile",
+   "folder": "health-tdt5-a6-provider-directory-status-reconcile",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "909708ab954d14147293ab3046666fc6a354aabdf382c8f4ff5f09ab517772aa",
+   "size_bytes": 4982101,
+   "updated": "2026-09-26T18:13:37.366Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt5-a8-supplement-listing-claim-audit",
@@ -24366,6 +24394,22 @@
    "sha256": "453c12f3812e5050e57ac9474da5931be06d5859b81556d4318a3cdc393062ee",
    "size_bytes": 13019434,
    "updated": "2026-09-23T22:20:01.025Z"
+  },
+  {
+   "declared_name": "harbor/the-private-entries-on-my-calendar",
+   "declared_short": "the-private-entries-on-my-calendar",
+   "folder": "the-private-entries-on-my-calendar",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c140509dc7d28de429360528d8a9a304721b00b1d14f1cfd05dbc1b8f7022a82",
+   "size_bytes": 12069279,
+   "updated": "2026-09-26T18:12:22.799Z"
   },
   {
    "connector_provenance": "synthetic",
