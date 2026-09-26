@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-26T22:05:03+00:00",
+ "generated_at": "2026-09-26T22:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1785,
-  "scanned": 1785,
-  "connector": 480,
+  "task_folders": 1786,
+  "scanned": 1786,
+  "connector": 481,
   "non_connector": 1305,
   "errors": 0
  },
  "connector_provenance": {
   "real": 135,
   "unknown": 154,
-  "synthetic": 191
+  "synthetic": 192
  },
  "domain": {
-  "unnamed": 793,
+  "unnamed": 794,
   "code": 348,
   "fin": 112,
   "gen": 301,
@@ -22,7 +22,7 @@
   "law": 99
  },
  "name_prefix": {
-  "harbor": 483,
+  "harbor": 484,
   "obi": 1301,
   "vankamasthanamma": 1
  },
@@ -44,12 +44,12 @@
   "supabase-gym": 6,
   "teams-gym": 5,
   "microsoft-teams-gym": 4,
-  "snowflake-gym": 2,
-  "microsoft_teams-gym": 1
+  "microsoft_teams-gym": 2,
+  "snowflake-gym": 2
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131551
+  "approx_bytes_read": 139131
  },
  "errors": [],
  "tasks": [
@@ -3125,15 +3125,15 @@
    "updated": "2026-09-24T02:51:59.910Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b66-b3-digital-shop-refund-requests-adjudication",
    "declared_short": "bus-b66-b3-digital-shop-refund-requests-adjudication",
-   "folder": "bus-b66-b3-digital-shop-refund-requests-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b66-b3-digital-shop-refund-requests-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "3aab7954e3d2207d80ac6cbc8d81647adfe77a973ce6d8c9bf181dd390407ea5",
    "size_bytes": 12655812,
    "updated": "2026-09-26T22:01:18.705Z"
@@ -24856,6 +24856,22 @@
    "sha256": "b4b92fdec01bac351490d198692fd8d97139f4f1300ab88e386209da191348c0",
    "size_bytes": 9092384,
    "updated": "2026-09-17T03:49:41.950Z"
+  },
+  {
+   "declared_name": "harbor/the-name-is-not-the-person",
+   "declared_short": "the-name-is-not-the-person",
+   "folder": "the-name-is-not-the-person",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft_teams-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "6023f8a12130939a2ac8d6b9521e2c27c54a8b9c364ab5d7ec1e7caf2907f541",
+   "size_bytes": 10266054,
+   "updated": "2026-09-26T22:08:48.953Z"
   },
   {
    "connector_provenance": "real",
