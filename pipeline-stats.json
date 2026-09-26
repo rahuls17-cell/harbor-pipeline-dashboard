@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T02:30:03+00:00",
+ "generated_at": "2026-09-26T02:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1574,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131646
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -20732,15 +20732,15 @@
    "updated": "2026-09-25T14:40:35.503Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b52-t3-access-policy-board-adjudication",
    "declared_short": "tech-b52-t3-access-policy-board-adjudication",
-   "folder": "tech-b52-t3-access-policy-board-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b52-t3-access-policy-board-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "cf72b5331cde1849d256255acfc90eabb5bb03198003f6e6f64a194fef31e282",
    "size_bytes": 4066463,
    "updated": "2026-09-26T02:25:47.061Z"
