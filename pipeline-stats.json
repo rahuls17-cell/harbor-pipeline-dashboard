@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T02:10:04+00:00",
+ "generated_at": "2026-09-26T02:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1572,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131543
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4605,15 +4605,15 @@
    "updated": "2026-09-25T18:40:17.116Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c261-residential-circuit-protection-compliance-audit",
    "declared_short": "code-c261-residential-circuit-protection-compliance-audit",
-   "folder": "code-c261-residential-circuit-protection-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c261-residential-circuit-protection-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b3d9378cd880c857824df27609f186af05c7f42c7d77f361c5a36e0451d7cbd3",
    "size_bytes": 6345256,
    "updated": "2026-09-26T02:06:24.853Z"
