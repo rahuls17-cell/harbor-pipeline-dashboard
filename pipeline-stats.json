@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T06:10:04+00:00",
+ "generated_at": "2026-09-26T06:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1597,
-  "scanned": 1597,
+  "task_folders": 1598,
+  "scanned": 1598,
   "connector": 438,
-  "non_connector": 1159,
+  "non_connector": 1160,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 692,
-  "code": 310,
+  "code": 311,
   "fin": 105,
   "gen": 293,
   "health": 105,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 441,
-  "obi": 1155,
+  "obi": 1156,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131527
  },
  "errors": [],
  "tasks": [
@@ -4969,6 +4969,20 @@
    "sha256": "92812da60a2476db3ea80a7882d41f1616c01b99de4e7fc4484638fa179d8d79",
    "size_bytes": 6644960,
    "updated": "2026-09-26T03:21:36.164Z"
+  },
+  {
+   "declared_name": "obi/code-c279-extracted-hyperlink-safety-audit",
+   "declared_short": "code-c279-extracted-hyperlink-safety-audit",
+   "folder": "code-c279-extracted-hyperlink-safety-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "d7a80221ad76ff60e426a9caa7cf60ad645e2039a373317ac49a30fdffe09437",
+   "size_bytes": 5867708,
+   "updated": "2026-09-26T06:16:30.159Z"
   },
   {
    "connector_provenance": null,
