@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T11:05:03+00:00",
+ "generated_at": "2026-09-26T11:10:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1639,
-  "scanned": 1639,
+  "task_folders": 1640,
+  "scanned": 1640,
   "connector": 450,
-  "non_connector": 1189,
+  "non_connector": 1190,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 170
  },
  "domain": {
-  "unnamed": 712,
+  "unnamed": 713,
   "code": 324,
   "fin": 106,
   "gen": 295,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 453,
-  "obi": 1185,
+  "obi": 1186,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131451
+  "new_archives_read": 2,
+  "approx_bytes_read": 263022
  },
  "errors": [],
  "tasks": [
@@ -2097,15 +2097,15 @@
    "updated": "2026-09-23T15:07:02.304Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b44-b6-brand-name-availability-screening",
    "declared_short": "bus-b44-b6-brand-name-availability-screening",
-   "folder": "bus-b44-b6-brand-name-availability-screening",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b44-b6-brand-name-availability-screening",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b9032cda33d05b51d2bd81503e6d67c0bbcfe4dc36af839d0fe1f294105cd5a5",
    "size_bytes": 4055379,
    "updated": "2026-09-26T11:02:30.413Z"
@@ -5853,18 +5853,18 @@
    "updated": "2026-09-09T11:16:19.674Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/code-c402-breakout-screener-eligibility-audit",
    "declared_short": "code-c402-breakout-screener-eligibility-audit",
-   "domain": "code",
    "folder": "code-c402-breakout-screener-eligibility-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "c5b80ad2b850fdc7454b0249c49706af29f3e951d4b72d8a1af5d15f48385372",
-   "size_bytes": 6011080,
-   "updated": "2026-09-10T05:19:24.554Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "ab116fb5b1f19b2e6a6b1a6a4c40af2049d01927cd34d1aa48a2980935b037bf",
+   "size_bytes": 7712285,
+   "updated": "2026-09-26T11:06:50.503Z"
   },
   {
    "connector_provenance": null,
@@ -24918,6 +24918,20 @@
    "sha256": "ba4750903467e9646675e3e53d683908035a5dab610d762488eb3393f73c830e",
    "size_bytes": 5384044,
    "updated": "2026-09-25T14:17:57.628Z"
+  },
+  {
+   "declared_name": "obi/writing-sc05-b5-abstract-word-budget",
+   "declared_short": "writing-sc05-b5-abstract-word-budget",
+   "folder": "writing-sc05-b5-abstract-word-budget",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "a8cc31907617243b37fc511a98476c91b84ea3f216ffa12c74ae915944b4afc5",
+   "size_bytes": 3699508,
+   "updated": "2026-09-26T11:09:56.729Z"
   },
   {
    "connector_provenance": null,
