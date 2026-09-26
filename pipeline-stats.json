@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T21:30:05+00:00",
+ "generated_at": "2026-09-26T21:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1773,
-  "scanned": 1773,
+  "task_folders": 1775,
+  "scanned": 1775,
   "connector": 478,
-  "non_connector": 1295,
+  "non_connector": 1297,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 189
  },
  "domain": {
-  "unnamed": 784,
-  "code": 346,
+  "unnamed": 785,
+  "code": 347,
   "fin": 112,
   "gen": 301,
   "health": 131,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 481,
-  "obi": 1291,
+  "obi": 1293,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 265867
+  "approx_bytes_read": 263213
  },
  "errors": [],
  "tasks": [
@@ -2477,6 +2477,20 @@
    "sha256": "1fac1a58e4d5fa07b9e45ca29757fa81f25ec3c6a369ce3a8a4f08e6909ae004",
    "size_bytes": 7497805,
    "updated": "2026-09-22T07:09:57.156Z"
+  },
+  {
+   "declared_name": "obi/bus-b47-b10-programme-fee-buildup-recompute",
+   "declared_short": "bus-b47-b10-programme-fee-buildup-recompute",
+   "folder": "bus-b47-b10-programme-fee-buildup-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "ab18b8dd2a5aa73c331e0f8f8f0621e621d09d3abf441e398ddeb4d69507c8ac",
+   "size_bytes": 6774694,
+   "updated": "2026-09-26T21:34:45.738Z"
   },
   {
    "connector_provenance": null,
@@ -7409,6 +7423,20 @@
    "sha256": "b92c3913bcb23b05d40ef505c4e1aa21d4db6a4bf59c7a4f590a6e6ca29ed8e9",
    "size_bytes": 6036546,
    "updated": "2026-09-06T18:00:35.678Z"
+  },
+  {
+   "declared_name": "obi/code-c558-pipeline-path-handoff-audit",
+   "declared_short": "code-c558-pipeline-path-handoff-audit",
+   "folder": "code-c558-pipeline-path-handoff-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "06afde266f9ceef974a1001e20624aaed42aa1744461484636e97c59a328063d",
+   "size_bytes": 4277103,
+   "updated": "2026-09-26T21:31:32.203Z"
   },
   {
    "connector_provenance": null,
@@ -22754,15 +22782,15 @@
    "updated": "2026-09-26T19:11:54.783Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b50-t7-mfa-retirement-remediation-waves",
    "declared_short": "tech-b50-t7-mfa-retirement-remediation-waves",
-   "folder": "tech-b50-t7-mfa-retirement-remediation-waves-v7",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b50-t7-mfa-retirement-remediation-waves-v7",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "89e4526592fc99d32322c4c9b1c89cbfe4c30ab696e586e58a10afceb85170b7",
    "size_bytes": 14061171,
    "updated": "2026-09-26T21:25:44.185Z"
@@ -26498,17 +26526,17 @@
    "updated": "2026-09-22T17:10:35.688Z"
   },
   {
-   "declared_name": "harbor/who-covers-the-uruguay-side",
-   "declared_short": "who-covers-the-uruguay-side",
-   "folder": "who-covers-the-uruguay-side",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/who-covers-the-uruguay-side",
+   "declared_short": "who-covers-the-uruguay-side",
    "domain": null,
+   "folder": "who-covers-the-uruguay-side",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "26d18c8cedacda357901664601096bd0516c082ddf7fa9e9407cd1e86369155e",
    "size_bytes": 10599772,
    "updated": "2026-09-26T21:29:28.374Z"
