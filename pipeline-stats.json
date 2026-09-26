@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-26T18:15:04+00:00",
+ "generated_at": "2026-09-26T18:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1729,
-  "scanned": 1729,
-  "connector": 467,
+  "task_folders": 1730,
+  "scanned": 1730,
+  "connector": 468,
   "non_connector": 1262,
   "errors": 0
  },
  "connector_provenance": {
   "real": 134,
   "unknown": 150,
-  "synthetic": 183
+  "synthetic": 184
  },
  "domain": {
-  "unnamed": 763,
+  "unnamed": 764,
   "code": 338,
   "fin": 110,
   "gen": 298,
@@ -22,7 +22,7 @@
   "law": 95
  },
  "name_prefix": {
-  "harbor": 470,
+  "harbor": 471,
   "obi": 1258,
   "vankamasthanamma": 1
  },
@@ -40,7 +40,7 @@
   "outlook-gym": 30,
   "email-calendar-gym": 28,
   "linear-gym": 28,
-  "gws-gym": 19,
+  "gws-gym": 20,
   "supabase-gym": 5,
   "teams-gym": 5,
   "microsoft-teams-gym": 4,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 399117
+  "new_archives_read": 1,
+  "approx_bytes_read": 133668
  },
  "errors": [],
  "tasks": [
@@ -2997,15 +2997,15 @@
    "updated": "2026-09-26T15:09:36.902Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b609-t10-automaker-holdings-control-classification-check",
    "declared_short": "bus-b609-t10-automaker-holdings-control-classification-check",
-   "folder": "bus-b609-t10-automaker-holdings-control-classification-check",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b609-t10-automaker-holdings-control-classification-check",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9c6034505a20feaa972d8d049b3541a5701eaa5f6e82ac48b7a048c45c089a1b",
    "size_bytes": 10687721,
    "updated": "2026-09-26T18:10:30.763Z"
@@ -17979,15 +17979,15 @@
    "updated": "2026-09-19T15:30:27.347Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt5-a6-provider-directory-status-reconcile",
    "declared_short": "health-tdt5-a6-provider-directory-status-reconcile",
-   "folder": "health-tdt5-a6-provider-directory-status-reconcile",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt5-a6-provider-directory-status-reconcile",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "909708ab954d14147293ab3046666fc6a354aabdf382c8f4ff5f09ab517772aa",
    "size_bytes": 4982101,
    "updated": "2026-09-26T18:13:37.366Z"
@@ -18429,6 +18429,22 @@
    "sha256": "c30e8038284c1cafbafcbb9d07eec96da4f4647a954ef6980072fdfe135b3b53",
    "size_bytes": 7996633,
    "updated": "2026-09-21T22:06:09.544Z"
+  },
+  {
+   "declared_name": "harbor/how-my-birth-center-sheets-split-into-tabs",
+   "declared_short": "how-my-birth-center-sheets-split-into-tabs",
+   "folder": "how-my-birth-center-sheets-split-into-tabs",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "5b7c11df06f3ae2ca92c2bac2dfc6b9d712b6207f376f5df4d999b7c34a8ed0c",
+   "size_bytes": 7094003,
+   "updated": "2026-09-26T18:19:53.396Z"
   },
   {
    "connector_provenance": "real",
@@ -24396,17 +24412,17 @@
    "updated": "2026-09-23T22:20:01.025Z"
   },
   {
-   "declared_name": "harbor/the-private-entries-on-my-calendar",
-   "declared_short": "the-private-entries-on-my-calendar",
-   "folder": "the-private-entries-on-my-calendar",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-private-entries-on-my-calendar",
+   "declared_short": "the-private-entries-on-my-calendar",
    "domain": null,
+   "folder": "the-private-entries-on-my-calendar",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c140509dc7d28de429360528d8a9a304721b00b1d14f1cfd05dbc1b8f7022a82",
    "size_bytes": 12069279,
    "updated": "2026-09-26T18:12:22.799Z"
