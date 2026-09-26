@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T11:10:05+00:00",
+ "generated_at": "2026-09-26T11:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1640,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263022
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -5853,15 +5853,15 @@
    "updated": "2026-09-09T11:16:19.674Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c402-breakout-screener-eligibility-audit",
    "declared_short": "code-c402-breakout-screener-eligibility-audit",
-   "folder": "code-c402-breakout-screener-eligibility-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c402-breakout-screener-eligibility-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ab116fb5b1f19b2e6a6b1a6a4c40af2049d01927cd34d1aa48a2980935b037bf",
    "size_bytes": 7712285,
    "updated": "2026-09-26T11:06:50.503Z"
@@ -24920,15 +24920,15 @@
    "updated": "2026-09-25T14:17:57.628Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/writing-sc05-b5-abstract-word-budget",
    "declared_short": "writing-sc05-b5-abstract-word-budget",
-   "folder": "writing-sc05-b5-abstract-word-budget",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "writing-sc05-b5-abstract-word-budget",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a8cc31907617243b37fc511a98476c91b84ea3f216ffa12c74ae915944b4afc5",
    "size_bytes": 3699508,
    "updated": "2026-09-26T11:09:56.729Z"
