@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T14:05:03+00:00",
+ "generated_at": "2026-09-26T14:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1675,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131445
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -21688,15 +21688,15 @@
    "updated": "2026-09-22T03:02:34.204Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b50-t8-cloud-storage-reclaim-ledger",
    "declared_short": "tech-b50-t8-cloud-storage-reclaim-ledger",
-   "folder": "tech-b50-t8-cloud-storage-reclaim-ledger",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b50-t8-cloud-storage-reclaim-ledger",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "177649ef0fc23a3820fb1093c6a22473a30cd886eae742885d5fc2d5372f4162",
    "size_bytes": 5212711,
    "updated": "2026-09-26T14:02:11.996Z"
