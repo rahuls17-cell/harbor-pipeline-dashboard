@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T21:35:03+00:00",
+ "generated_at": "2026-09-26T21:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1775,
-  "scanned": 1775,
+  "task_folders": 1776,
+  "scanned": 1776,
   "connector": 478,
-  "non_connector": 1297,
+  "non_connector": 1298,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 189
  },
  "domain": {
-  "unnamed": 785,
+  "unnamed": 786,
   "code": 347,
   "fin": 112,
   "gen": 301,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 481,
-  "obi": 1293,
+  "obi": 1294,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263213
+  "new_archives_read": 1,
+  "approx_bytes_read": 131727
  },
  "errors": [],
  "tasks": [
@@ -2479,15 +2479,15 @@
    "updated": "2026-09-22T07:09:57.156Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b47-b10-programme-fee-buildup-recompute",
    "declared_short": "bus-b47-b10-programme-fee-buildup-recompute",
-   "folder": "bus-b47-b10-programme-fee-buildup-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b47-b10-programme-fee-buildup-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ab18b8dd2a5aa73c331e0f8f8f0621e621d09d3abf441e398ddeb4d69507c8ac",
    "size_bytes": 6774694,
    "updated": "2026-09-26T21:34:45.738Z"
@@ -7425,15 +7425,15 @@
    "updated": "2026-09-06T18:00:35.678Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c558-pipeline-path-handoff-audit",
    "declared_short": "code-c558-pipeline-path-handoff-audit",
-   "folder": "code-c558-pipeline-path-handoff-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c558-pipeline-path-handoff-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "06afde266f9ceef974a1001e20624aaed42aa1744461484636e97c59a328063d",
    "size_bytes": 4277103,
    "updated": "2026-09-26T21:31:32.203Z"
@@ -21089,6 +21089,20 @@
    "sha256": "adec32d7ed74481e2132c97ee74b26b45c0f828f422b06f56fd331895c397420",
    "size_bytes": 6699874,
    "updated": "2026-09-21T16:46:50.851Z"
+  },
+  {
+   "declared_name": "obi/realty-b49-l3-commercial-offer-terms-precedence",
+   "declared_short": "realty-b49-l3-commercial-offer-terms-precedence",
+   "folder": "realty-b49-l3-commercial-offer-terms-precedence-v3",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "53e18c0aba0b5b52ad5008d28c7f569a66081582197daa91d5ba5a9d0321e17c",
+   "size_bytes": 7571497,
+   "updated": "2026-09-26T21:36:27.920Z"
   },
   {
    "connector_provenance": "unknown",
