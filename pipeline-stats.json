@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-26T08:35:04+00:00",
+ "generated_at": "2026-09-26T08:40:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1618,
-  "scanned": 1618,
-  "connector": 442,
+  "task_folders": 1619,
+  "scanned": 1619,
+  "connector": 443,
   "non_connector": 1176,
   "errors": 0
  },
  "connector_provenance": {
   "real": 132,
   "unknown": 146,
-  "synthetic": 164
+  "synthetic": 165
  },
  "domain": {
-  "unnamed": 700,
+  "unnamed": 701,
   "code": 318,
   "fin": 106,
   "gen": 293,
@@ -22,7 +22,7 @@
   "law": 92
  },
  "name_prefix": {
-  "harbor": 445,
+  "harbor": 446,
   "obi": 1172,
   "vankamasthanamma": 1
  },
@@ -40,7 +40,7 @@
   "email-calendar-gym": 28,
   "linear-gym": 24,
   "outlook-gym": 24,
-  "gws-gym": 15,
+  "gws-gym": 16,
   "supabase-gym": 5,
   "teams-gym": 5,
   "microsoft-teams-gym": 4,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 134166
  },
  "errors": [],
  "tasks": [
@@ -23272,6 +23272,22 @@
    "sha256": "1f4a495f4cee18b705996fe2fea51cc920cb1746187c034acf0e894c5e985682",
    "size_bytes": 7557846,
    "updated": "2026-09-21T17:16:11.101Z"
+  },
+  {
+   "declared_name": "harbor/the-two-copies-shared-differently",
+   "declared_short": "the-two-copies-shared-differently",
+   "folder": "the-two-copies-shared-differently",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "bb7f2820d324bd0ea7033f537c02cc885a72c5d6966a97c32907e40c73e012ea",
+   "size_bytes": 9058193,
+   "updated": "2026-09-26T08:35:54.198Z"
   },
   {
    "connector_provenance": "synthetic",
