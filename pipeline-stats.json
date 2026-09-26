@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-26T16:25:04+00:00",
+ "generated_at": "2026-09-26T16:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1704,
-  "scanned": 1704,
-  "connector": 464,
-  "non_connector": 1240,
+  "task_folders": 1706,
+  "scanned": 1706,
+  "connector": 465,
+  "non_connector": 1241,
   "errors": 0
  },
  "connector_provenance": {
   "real": 134,
   "unknown": 150,
-  "synthetic": 180
+  "synthetic": 181
  },
  "domain": {
-  "unnamed": 754,
+  "unnamed": 756,
   "code": 333,
   "fin": 108,
   "gen": 296,
@@ -22,8 +22,8 @@
   "law": 94
  },
  "name_prefix": {
-  "harbor": 467,
-  "obi": 1236,
+  "harbor": 468,
+  "obi": 1237,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -39,7 +39,7 @@
   "github-gym": 31,
   "outlook-gym": 29,
   "email-calendar-gym": 28,
-  "linear-gym": 27,
+  "linear-gym": 28,
   "gws-gym": 18,
   "supabase-gym": 5,
   "teams-gym": 5,
@@ -49,7 +49,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 263055
+  "approx_bytes_read": 267299
  },
  "errors": [],
  "tasks": [
@@ -1973,6 +1973,20 @@
    "sha256": "ef3abd71f3955cdd7a5aef42fd1e7b2f2a9f214911c65651fe9530ca45aa4ec0",
    "size_bytes": 8234493,
    "updated": "2026-09-25T23:44:04.486Z"
+  },
+  {
+   "declared_name": "obi/bus-b23-b16-swimwear-market-sizing-review",
+   "declared_short": "bus-b23-b16-swimwear-market-sizing-review",
+   "folder": "bus-b23-b16-swimwear-market-sizing-review",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "87299856a49e5c96e56faa27096bfd3db39bb2d101e6ee9986a0df4b803f2c38",
+   "size_bytes": 6288529,
+   "updated": "2026-09-26T16:28:37.977Z"
   },
   {
    "connector_provenance": null,
@@ -5493,15 +5507,15 @@
    "updated": "2026-09-26T09:53:15.703Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c29-patch-application-correctness",
    "declared_short": "code-c29-patch-application-correctness",
-   "folder": "code-c29-patch-application-correctness",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c29-patch-application-correctness",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f9c4f2303bae2e273f4e508b05c04fbd1f8eba41215a8efdd51e1347e1e3e79d",
    "size_bytes": 5237315,
    "updated": "2026-09-26T16:23:53.158Z"
@@ -5591,15 +5605,15 @@
    "updated": "2026-09-22T04:45:59.086Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c31-query-builder-injection-safety",
    "declared_short": "code-c31-query-builder-injection-safety",
-   "folder": "code-c31-query-builder-injection-safety",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c31-query-builder-injection-safety",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4990aecd6381ebbbdeaf7e564211de8a43fce729ff211ab609ee65fb0a83c4f4",
    "size_bytes": 6413964,
    "updated": "2026-09-26T16:23:25.224Z"
@@ -23122,6 +23136,22 @@
    "sha256": "998bc0e771c9d147d93f162902f1de96e0e3b0484ce10e510d83c771e9c48e97",
    "size_bytes": 5668595,
    "updated": "2026-09-24T19:34:05.798Z"
+  },
+  {
+   "declared_name": "harbor/ten-dropped-three-filed-twice",
+   "declared_short": "ten-dropped-three-filed-twice",
+   "folder": "ten-dropped-three-filed-twice",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "b5360efed2564c74ee3fcdb225b137bcdba089e3e7b216a951bde756be058a3f",
+   "size_bytes": 11253900,
+   "updated": "2026-09-26T16:25:50.244Z"
   },
   {
    "connector_provenance": "synthetic",
