@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T22:10:03+00:00",
+ "generated_at": "2026-09-26T22:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1786,
-  "scanned": 1786,
+  "task_folders": 1788,
+  "scanned": 1788,
   "connector": 481,
-  "non_connector": 1305,
+  "non_connector": 1307,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 192
  },
  "domain": {
-  "unnamed": 794,
+  "unnamed": 795,
   "code": 348,
   "fin": 112,
   "gen": 301,
-  "health": 132,
+  "health": 133,
   "law": 99
  },
  "name_prefix": {
   "harbor": 484,
-  "obi": 1301,
+  "obi": 1303,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 139131
+  "new_archives_read": 2,
+  "approx_bytes_read": 263116
  },
  "errors": [],
  "tasks": [
@@ -3039,6 +3039,20 @@
    "sha256": "2ce84f0b3c3d5d61f7b7e29f345f280ef82e27405bd40f3b329152d128e03f3a",
    "size_bytes": 11450334,
    "updated": "2026-09-26T20:54:52.576Z"
+  },
+  {
+   "declared_name": "obi/bus-b56-a3-raci-accountability-invariant-audit",
+   "declared_short": "bus-b56-a3-raci-accountability-invariant-audit",
+   "folder": "bus-b56-a3-raci-accountability-invariant-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "bf44646c95f52f5902b3e3ee8b3d92973318999615b3329cf823f318d4072fe2",
+   "size_bytes": 7775862,
+   "updated": "2026-09-26T22:11:21.197Z"
   },
   {
    "connector_provenance": null,
@@ -17535,6 +17549,20 @@
    "updated": "2026-09-18T09:44:48.604Z"
   },
   {
+   "declared_name": "obi/health-h36-equipment-calibration-intervals",
+   "declared_short": "health-h36-equipment-calibration-intervals",
+   "folder": "health-h36-equipment-calibration-intervals-a73ff7-v6-sna-nery",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "0402a35bc4d78dd5a1c33f11509debf649d958691563edf1b461e163610fa95e",
+   "size_bytes": 5232011,
+   "updated": "2026-09-26T22:13:37.794Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-h37-waiting-time-clock",
@@ -24858,17 +24886,17 @@
    "updated": "2026-09-17T03:49:41.950Z"
   },
   {
-   "declared_name": "harbor/the-name-is-not-the-person",
-   "declared_short": "the-name-is-not-the-person",
-   "folder": "the-name-is-not-the-person",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft_teams-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-name-is-not-the-person",
+   "declared_short": "the-name-is-not-the-person",
    "domain": null,
+   "folder": "the-name-is-not-the-person",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6023f8a12130939a2ac8d6b9521e2c27c54a8b9c364ab5d7ec1e7caf2907f541",
    "size_bytes": 10266054,
    "updated": "2026-09-26T22:08:48.953Z"
