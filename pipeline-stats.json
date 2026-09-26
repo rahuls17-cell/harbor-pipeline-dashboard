@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T15:05:03+00:00",
+ "generated_at": "2026-09-26T15:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1683,
-  "scanned": 1683,
+  "task_folders": 1684,
+  "scanned": 1684,
   "connector": 458,
-  "non_connector": 1225,
+  "non_connector": 1226,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 175
  },
  "domain": {
-  "unnamed": 740,
+  "unnamed": 741,
   "code": 329,
   "fin": 106,
   "gen": 296,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 461,
-  "obi": 1221,
+  "obi": 1222,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131544
  },
  "errors": [],
  "tasks": [
@@ -2923,6 +2923,20 @@
    "sha256": "34ef58e4d85dda4c36e0a049442c1507700834621de5827f536ef8af7aa23d4e",
    "size_bytes": 6228828,
    "updated": "2026-09-26T05:49:50.729Z"
+  },
+  {
+   "declared_name": "obi/bus-b56-a8-brand-fact-divergence-audit",
+   "declared_short": "bus-b56-a8-brand-fact-divergence-audit",
+   "folder": "bus-b56-a8-brand-fact-divergence-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "c1a656fd8d006147fc7570f9578e85bc9767814828eebd19558211e2ff6e45d3",
+   "size_bytes": 10002423,
+   "updated": "2026-09-26T15:09:36.902Z"
   },
   {
    "connector_provenance": null,
