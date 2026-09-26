@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T04:40:04+00:00",
+ "generated_at": "2026-09-26T04:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1586,
-  "scanned": 1586,
+  "task_folders": 1587,
+  "scanned": 1587,
   "connector": 435,
-  "non_connector": 1151,
+  "non_connector": 1152,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 161
  },
  "domain": {
-  "unnamed": 684,
+  "unnamed": 685,
   "code": 307,
   "fin": 105,
   "gen": 293,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 438,
-  "obi": 1147,
+  "obi": 1148,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131515
  },
  "errors": [],
  "tasks": [
@@ -2095,6 +2095,20 @@
    "sha256": "1bd15c0040a1fecba1f0456713db9c6d14ddcb3c1f5105075ab441c81e265ae2",
    "size_bytes": 7840776,
    "updated": "2026-09-23T15:07:02.304Z"
+  },
+  {
+   "declared_name": "obi/bus-b44-b9-company-metric-claim-reconciliation",
+   "declared_short": "bus-b44-b9-company-metric-claim-reconciliation",
+   "folder": "bus-b44-b9-company-metric-claim-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "e0d2500a70229dc880bcc76340577bc53d07bb754abd204b4861b9ba036a77e4",
+   "size_bytes": 8472813,
+   "updated": "2026-09-26T04:41:12.950Z"
   },
   {
    "connector_provenance": null,
