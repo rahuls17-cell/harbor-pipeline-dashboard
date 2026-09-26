@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T00:40:03+00:00",
+ "generated_at": "2026-09-26T00:50:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1564,
-  "scanned": 1564,
+  "task_folders": 1565,
+  "scanned": 1565,
   "connector": 429,
-  "non_connector": 1135,
+  "non_connector": 1136,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 159
  },
  "domain": {
-  "unnamed": 674,
+  "unnamed": 675,
   "code": 295,
   "fin": 105,
   "gen": 293,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 432,
-  "obi": 1131,
+  "obi": 1132,
   "vankamasthanamma": 1
  },
  "connector_services": {
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131506
  },
  "errors": [],
  "tasks": [
@@ -1825,6 +1825,20 @@
    "sha256": "bc716ee14261fae49b2af12a0451d7403e4c9c6a89bcad372953556762e39686",
    "size_bytes": 12051366,
    "updated": "2026-09-26T00:07:47.836Z"
+  },
+  {
+   "declared_name": "obi/bus-b23-b13-isotope-supplier-claim-audit",
+   "declared_short": "bus-b23-b13-isotope-supplier-claim-audit",
+   "folder": "bus-b23-b13-isotope-supplier-claim-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "d24203575d23721610bed51d953f80564503a7529c219a521bf1d716cbc4ba3d",
+   "size_bytes": 11520575,
+   "updated": "2026-09-26T00:47:56.128Z"
   },
   {
    "connector_provenance": null,
