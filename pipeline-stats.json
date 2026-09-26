@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T18:00:03+00:00",
+ "generated_at": "2026-09-26T18:05:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1725,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263210
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -16971,15 +16971,15 @@
    "updated": "2026-09-06T14:08:09.050Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h108-asc-unlisted-code-billing-audit",
    "declared_short": "health-h108-asc-unlisted-code-billing-audit",
-   "folder": "health-h108-asc-unlisted-code-billing-audit-harbor-gate-566207-v6-sna-qouh",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h108-asc-unlisted-code-billing-audit-harbor-gate-566207-v6-sna-qouh",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8bc5698c33a25ef5d853cf2783bcc2a88dd53c29f6140069f1d52cfa58543d26",
    "size_bytes": 5377270,
    "updated": "2026-09-26T17:58:23.444Z"
@@ -17629,15 +17629,15 @@
    "updated": "2026-09-25T11:33:26.074Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt10-a1-home-access-grant-adjudication",
    "declared_short": "health-tdt10-a1-home-access-grant-adjudication",
-   "folder": "health-tdt10-a1-home-access-grant-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt10-a1-home-access-grant-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "3f989eb305d0b99dd8a397866eb422777a038d6e01098fa0909bc0a6da9e3684",
    "size_bytes": 7612896,
    "updated": "2026-09-26T17:59:19.527Z"
