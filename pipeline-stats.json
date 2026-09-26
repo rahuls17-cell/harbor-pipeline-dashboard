@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T12:10:04+00:00",
+ "generated_at": "2026-09-26T12:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1652,
@@ -48,8 +48,8 @@
   "microsoft_teams-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 397975
+  "new_archives_read": 1,
+  "approx_bytes_read": 131526
  },
  "errors": [],
  "tasks": [
@@ -2671,15 +2671,15 @@
    "updated": "2026-09-22T05:29:45.917Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b49-b9-mosaiq-pin-grid-layout-and-copy-spec",
    "declared_short": "bus-b49-b9-mosaiq-pin-grid-layout-and-copy-spec",
-   "folder": "bus-b49-b9-mosaiq-pin-grid-layout-and-copy-spec",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b49-b9-mosaiq-pin-grid-layout-and-copy-spec",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ac869eb0c266d8177a9f8940ac23c5c75394dc8efc03d90db092bf86fe03dccd",
    "size_bytes": 7532652,
    "updated": "2026-09-26T12:08:51.367Z"
@@ -3697,18 +3697,18 @@
    "updated": "2026-09-19T22:16:29.665Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/code-c149-kb-article-accuracy-audit",
    "declared_short": "code-c149-kb-article-accuracy-audit",
-   "domain": "code",
    "folder": "code-c149-kb-article-accuracy-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "b23120e1b7e7f88a3e7930c923808c8d5f2f161ef3f6506d94044f0fa5921091",
-   "size_bytes": 7281083,
-   "updated": "2026-09-23T23:09:19.226Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "19d86b2458c6c0259ed42b1c36637e87aabfe7752fb9c3d83806de9bb72ae2d9",
+   "size_bytes": 6699975,
+   "updated": "2026-09-26T12:13:40.107Z"
   },
   {
    "connector_provenance": null,
@@ -3809,15 +3809,15 @@
    "updated": "2026-09-24T05:18:36.426Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c156-proxmox-role-realm-audit",
    "declared_short": "code-c156-proxmox-role-realm-audit",
-   "folder": "code-c156-proxmox-role-realm-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c156-proxmox-role-realm-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c7c6fa68c93a7e12e7e8fa1af229915f74c39c906e655fc6614f7063637d64e4",
    "size_bytes": 6781091,
    "updated": "2026-09-26T12:06:57.642Z"
@@ -7951,19 +7951,19 @@
    "updated": "2026-09-13T04:12:35.381Z"
   },
   {
-   "declared_name": "harbor/data-change-request-add-derived-in-network-boolean-to-card-events-atm",
-   "declared_short": "data-change-request-add-derived-in-network-boolean-to-card-events-atm",
-   "folder": "data-change-request-add-derived-in-network-boolean-to-card-events-atm",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "jira-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/data-change-request-add-derived-in-network-boolean-to-card-events-atm",
+   "declared_short": "data-change-request-add-derived-in-network-boolean-to-card-events-atm",
    "domain": null,
+   "folder": "data-change-request-add-derived-in-network-boolean-to-card-events-atm",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8a5511afad25cf140471fe2ae4ee5c8c4f83cc1d3b5c5fb1649d7c83a4a4dd5d",
    "size_bytes": 7125824,
    "updated": "2026-09-26T12:05:41.764Z"
