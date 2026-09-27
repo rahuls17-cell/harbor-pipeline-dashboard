@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T14:05:03+00:00",
+ "generated_at": "2026-09-27T14:10:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1872,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134106
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -9703,17 +9703,17 @@
    "updated": "2026-09-21T15:54:31.419Z"
   },
   {
-   "declared_name": "harbor/did-eng-keep-core-hours",
-   "declared_short": "did-eng-keep-core-hours",
-   "folder": "did-eng-keep-core-hours",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/did-eng-keep-core-hours",
+   "declared_short": "did-eng-keep-core-hours",
    "domain": null,
+   "folder": "did-eng-keep-core-hours",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8a0d9f3eaeb147845f90ec7f718e1b8238136577cf9f35947fc86f90bb156296",
    "size_bytes": 6904834,
    "updated": "2026-09-27T14:04:07.843Z"
