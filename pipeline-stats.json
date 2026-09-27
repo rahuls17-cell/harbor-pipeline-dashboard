@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T03:15:03+00:00",
+ "generated_at": "2026-09-27T03:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1822,
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134476
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -26031,17 +26031,17 @@
    "updated": "2026-09-21T12:40:34.257Z"
   },
   {
-   "declared_name": "harbor/the-weeks-general-went-quiet",
-   "declared_short": "the-weeks-general-went-quiet",
-   "folder": "the-weeks-general-went-quiet",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-weeks-general-went-quiet",
+   "declared_short": "the-weeks-general-went-quiet",
    "domain": null,
+   "folder": "the-weeks-general-went-quiet",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5a6931445cd67e12bcb23a645e66154432f2fe8b67e5a7fee8fdcf42deecac2e",
    "size_bytes": 12183745,
    "updated": "2026-09-27T03:12:40.209Z"
