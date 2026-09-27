@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-27T06:25:03+00:00",
+ "generated_at": "2026-09-27T06:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1846,
-  "scanned": 1846,
-  "connector": 494,
-  "non_connector": 1352,
+  "task_folders": 1849,
+  "scanned": 1849,
+  "connector": 495,
+  "non_connector": 1354,
   "errors": 0
  },
  "connector_provenance": {
   "real": 137,
   "unknown": 154,
-  "synthetic": 203
+  "synthetic": 204
  },
  "domain": {
-  "unnamed": 826,
+  "unnamed": 829,
   "code": 357,
   "fin": 114,
   "gen": 311,
@@ -22,10 +22,11 @@
   "law": 100
  },
  "name_prefix": {
-  "harbor": 497,
-  "obi": 1345,
+  "harbor": 498,
+  "obi": 1346,
   "vankamasthanamma": 1,
-  "health": 3
+  "health": 3,
+  "writing": 1
  },
  "connector_services": {
   "google-drive-gym": 197,
@@ -41,7 +42,7 @@
   "outlook-gym": 32,
   "linear-gym": 31,
   "email-calendar-gym": 30,
-  "gws-gym": 27,
+  "gws-gym": 28,
   "supabase-gym": 6,
   "teams-gym": 5,
   "microsoft-teams-gym": 4,
@@ -49,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131500
+  "new_archives_read": 3,
+  "approx_bytes_read": 400667
  },
  "errors": [],
  "tasks": [
@@ -7502,15 +7503,15 @@
    "updated": "2026-09-11T22:52:21.055Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c51-cron-overlap-computation",
    "declared_short": "code-c51-cron-overlap-computation",
-   "folder": "code-c51-cron-overlap-computation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c51-cron-overlap-computation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d76c703d8ffa64270ddf0fe6e8299f9604ce3ca5f6b55461f348c6bf4f8edbc9",
    "size_bytes": 7582107,
    "updated": "2026-09-27T06:21:02.064Z"
@@ -24451,6 +24452,20 @@
    "updated": "2026-09-26T06:35:46.195Z"
   },
   {
+   "declared_name": "obi/tech-b61-t5-agent-trajectory-claim-verification-audit",
+   "declared_short": "tech-b61-t5-agent-trajectory-claim-verification-audit",
+   "folder": "tech-b61-t5-agent-trajectory-claim-verification-audit-nested-transaction-difficulty-final-20260925T192307-IST",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "e63cf8906d54a29477efead0fa685bb598759745c663f232abee4147bb36535c",
+   "size_bytes": 7526168,
+   "updated": "2026-09-27T06:25:36.521Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/tech-b61-t6-prefetcher-iso-storage-bakeoff-attribution",
@@ -25275,6 +25290,22 @@
    "sha256": "298d667e7f89a553fd92853dc23706bca80aecc8bb1bbeea87cfe7a776610e86",
    "size_bytes": 11665418,
    "updated": "2026-09-26T05:54:05.447Z"
+  },
+  {
+   "declared_name": "harbor/the-download-that-came-back-empty",
+   "declared_short": "the-download-that-came-back-empty",
+   "folder": "the-download-that-came-back-empty",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3aed691beb99d0464807ba460303739332a1ae81e611d124f931d1f1efc19af1",
+   "size_bytes": 7867242,
+   "updated": "2026-09-27T06:26:56.163Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -27731,6 +27762,20 @@
    "sha256": "d1f16c188a4e1e9a70043672cad002e821c2d9cec3137735ed8204105593c044",
    "size_bytes": 5376556,
    "updated": "2026-09-25T20:22:19.881Z"
+  },
+  {
+   "declared_name": "writing/b52-a8-interview-guide-contents-reconciliation",
+   "declared_short": "b52-a8-interview-guide-contents-reconciliation",
+   "folder": "writing-b52-a8-interview-guide-contents-reconciliation",
+   "prefix": "writing",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "99792b42ed7fdd57397252eafb5b4414c0b08cbc4b0daa9d0ff0de1f81281dc4",
+   "size_bytes": 4002280,
+   "updated": "2026-09-27T06:26:13.694Z"
   },
   {
    "connector_provenance": null,
