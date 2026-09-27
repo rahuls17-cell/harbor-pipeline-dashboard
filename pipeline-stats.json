@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T12:55:03+00:00",
+ "generated_at": "2026-09-27T13:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1867,
-  "scanned": 1867,
+  "task_folders": 1869,
+  "scanned": 1869,
   "connector": 508,
-  "non_connector": 1359,
+  "non_connector": 1361,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 214
  },
  "domain": {
-  "unnamed": 844,
+  "unnamed": 846,
   "code": 357,
   "fin": 114,
   "gen": 312,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 511,
-  "obi": 1351,
+  "obi": 1353,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -51,7 +51,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 273182
+  "approx_bytes_read": 262817
  },
  "errors": [],
  "tasks": [
@@ -287,17 +287,17 @@
    "updated": "2026-09-18T21:57:15.239Z"
   },
   {
-   "declared_name": "harbor/who-we-said-wanted-it",
-   "declared_short": "who-we-said-wanted-it",
-   "folder": "ASTR_101141",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/who-we-said-wanted-it",
+   "declared_short": "who-we-said-wanted-it",
    "domain": null,
+   "folder": "ASTR_101141",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "42bb1260f8ba1d725fe4bf0a1db4a0d6ee573a0cd6ecdc4dd8bcd83375bd25fe",
    "size_bytes": 7667236,
    "updated": "2026-09-27T12:52:39.967Z"
@@ -10369,6 +10369,20 @@
    "updated": "2026-09-25T05:42:57.781Z"
   },
   {
+   "declared_name": "obi/edu-sc09-b8-self-monitoring-items",
+   "declared_short": "edu-sc09-b8-self-monitoring-items",
+   "folder": "edu-sc09-b8-self-monitoring-items",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "b127e37e6e9317682e209873ef883fe22efc0cb0661e8f6fd307388d31490c44",
+   "size_bytes": 3855220,
+   "updated": "2026-09-27T12:59:04.663Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-sca-b33-06f58cb5-0f9f-4faf-832c-0f3240cc3a4f",
@@ -12249,17 +12263,17 @@
    "updated": "2026-09-26T14:36:37.130Z"
   },
   {
-   "declared_name": "harbor/four-things-are-moving",
-   "declared_short": "four-things-are-moving",
-   "folder": "four-things-are-moving",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/four-things-are-moving",
+   "declared_short": "four-things-are-moving",
    "domain": null,
+   "folder": "four-things-are-moving",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e9bf5dc9e31aea6ee9c3b95bb2f60162d00ae54c222aa61350dd9a463a707779",
    "size_bytes": 7535799,
    "updated": "2026-09-27T12:54:27.170Z"
@@ -28110,6 +28124,20 @@
    "sha256": "d80de369e903a225cacfbc10ad860eff9417f763d138f3c2eed37c4e8cdbcd89",
    "size_bytes": 6784511,
    "updated": "2026-09-22T06:07:52.900Z"
+  },
+  {
+   "declared_name": "obi/writing-sc05-a10-slide-content-transform",
+   "declared_short": "writing-sc05-a10-slide-content-transform",
+   "folder": "writing-sc05-a10-slide-content-transform",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "86b0b4b94214d5275679db12bf273870a13ac68d91a891059ac49dda4f2c50e5",
+   "size_bytes": 3379423,
+   "updated": "2026-09-27T12:57:01.851Z"
   },
   {
    "connector_provenance": null,
