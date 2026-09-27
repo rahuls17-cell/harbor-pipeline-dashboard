@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T06:10:03+00:00",
+ "generated_at": "2026-09-27T06:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1845,
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131426
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -11424,15 +11424,15 @@
    "updated": "2026-09-20T01:51:15.352Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b49-f8-tax-arrears-payment-arrangement",
    "declared_short": "fin-b49-f8-tax-arrears-payment-arrangement",
-   "folder": "fin-b49-f8-tax-arrears-payment-arrangement",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b49-f8-tax-arrears-payment-arrangement",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5e0f7baed0b6c02e2473a84319b23e372d775e6aa3d527e119d7dc14064494bb",
    "size_bytes": 5568583,
    "updated": "2026-09-27T06:09:34.588Z"
