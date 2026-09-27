@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T04:45:03+00:00",
+ "generated_at": "2026-09-27T04:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1831,
-  "scanned": 1831,
+  "task_folders": 1832,
+  "scanned": 1832,
   "connector": 490,
-  "non_connector": 1341,
+  "non_connector": 1342,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 199
  },
  "domain": {
-  "unnamed": 818,
+  "unnamed": 819,
   "code": 356,
   "fin": 112,
   "gen": 310,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 493,
-  "obi": 1334,
+  "obi": 1335,
   "vankamasthanamma": 1,
   "health": 3
  },
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131501
  },
  "errors": [],
  "tasks": [
@@ -3266,6 +3266,20 @@
    "sha256": "3aab7954e3d2207d80ac6cbc8d81647adfe77a973ce6d8c9bf181dd390407ea5",
    "size_bytes": 12655812,
    "updated": "2026-09-26T22:01:18.705Z"
+  },
+  {
+   "declared_name": "obi/bus-b66-b4-project-budget-variance-attribution",
+   "declared_short": "bus-b66-b4-project-budget-variance-attribution",
+   "folder": "bus-b66-b4-project-budget-variance-attribution",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "2420f99cbb10ebb6bef2fd606565c29c4546dfede2f8e0692bedef8e3f199048",
+   "size_bytes": 7143086,
+   "updated": "2026-09-27T04:45:16.221Z"
   },
   {
    "connector_provenance": null,
