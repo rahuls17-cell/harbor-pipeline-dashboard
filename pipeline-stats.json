@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T06:30:04+00:00",
+ "generated_at": "2026-09-27T06:35:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1849,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 400667
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -24452,15 +24452,15 @@
    "updated": "2026-09-26T06:35:46.195Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b61-t5-agent-trajectory-claim-verification-audit",
    "declared_short": "tech-b61-t5-agent-trajectory-claim-verification-audit",
-   "folder": "tech-b61-t5-agent-trajectory-claim-verification-audit-nested-transaction-difficulty-final-20260925T192307-IST",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b61-t5-agent-trajectory-claim-verification-audit-nested-transaction-difficulty-final-20260925T192307-IST",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e63cf8906d54a29477efead0fa685bb598759745c663f232abee4147bb36535c",
    "size_bytes": 7526168,
    "updated": "2026-09-27T06:25:36.521Z"
@@ -25292,17 +25292,17 @@
    "updated": "2026-09-26T05:54:05.447Z"
   },
   {
-   "declared_name": "harbor/the-download-that-came-back-empty",
-   "declared_short": "the-download-that-came-back-empty",
-   "folder": "the-download-that-came-back-empty",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-download-that-came-back-empty",
+   "declared_short": "the-download-that-came-back-empty",
    "domain": null,
+   "folder": "the-download-that-came-back-empty",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3aed691beb99d0464807ba460303739332a1ae81e611d124f931d1f1efc19af1",
    "size_bytes": 7867242,
    "updated": "2026-09-27T06:26:56.163Z"
@@ -27764,15 +27764,15 @@
    "updated": "2026-09-25T20:22:19.881Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "writing/b52-a8-interview-guide-contents-reconciliation",
    "declared_short": "b52-a8-interview-guide-contents-reconciliation",
-   "folder": "writing-b52-a8-interview-guide-contents-reconciliation",
-   "prefix": "writing",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "writing-b52-a8-interview-guide-contents-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "writing",
    "sha256": "99792b42ed7fdd57397252eafb5b4414c0b08cbc4b0daa9d0ff0de1f81281dc4",
    "size_bytes": 4002280,
    "updated": "2026-09-27T06:26:13.694Z"
