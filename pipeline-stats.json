@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T05:15:03+00:00",
+ "generated_at": "2026-09-27T05:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1837,
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135494
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -382,17 +382,17 @@
    "updated": "2026-09-22T04:33:50.874Z"
   },
   {
-   "declared_name": "harbor/working-patterns-of-a-member",
-   "declared_short": "working-patterns-of-a-member",
-   "folder": "ASTR_101455",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/working-patterns-of-a-member",
+   "declared_short": "working-patterns-of-a-member",
    "domain": null,
+   "folder": "ASTR_101455",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e979670774f16762fecb3ee7e193351d027cda52a6ae6ab4a73714f730ad607e",
    "size_bytes": 7701255,
    "updated": "2026-09-27T05:11:38.930Z"
