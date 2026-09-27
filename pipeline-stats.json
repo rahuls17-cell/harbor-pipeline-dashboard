@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T05:50:03+00:00",
+ "generated_at": "2026-09-27T05:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1841,
-  "scanned": 1841,
+  "task_folders": 1843,
+  "scanned": 1843,
   "connector": 494,
-  "non_connector": 1347,
+  "non_connector": 1349,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 825,
   "code": 356,
   "fin": 113,
-  "gen": 310,
-  "health": 137,
+  "gen": 311,
+  "health": 138,
   "law": 100
  },
  "name_prefix": {
   "harbor": 497,
-  "obi": 1340,
+  "obi": 1342,
   "vankamasthanamma": 1,
   "health": 3
  },
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134640
+  "new_archives_read": 2,
+  "approx_bytes_read": 263012
  },
  "errors": [],
  "tasks": [
@@ -16078,6 +16078,20 @@
    "updated": "2026-09-26T19:15:04.078Z"
   },
   {
+   "declared_name": "obi/gen-g982-render-change-order-revision-audit",
+   "declared_short": "gen-g982-render-change-order-revision-audit",
+   "folder": "gen-g982-render-change-order-revision-audit-HARDENED-V20-20260926",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "18911e3996fbb4ba6e1f14fe06559e194ac9d08566091e98e272f5c17bc07d6e",
+   "size_bytes": 6307891,
+   "updated": "2026-09-27T05:51:54.624Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "vankamasthanamma/gen-g985-finance-publication-header-art-spec-audit",
@@ -18770,6 +18784,20 @@
    "sha256": "e2e6d260701fd73323878a909bdd520d9d427c8250cdf42e9140ba011d123d2c",
    "size_bytes": 4599393,
    "updated": "2026-09-26T12:45:37.866Z"
+  },
+  {
+   "declared_name": "obi/health-tdt11-a6-jump-progression-block-plan",
+   "declared_short": "health-tdt11-a6-jump-progression-block-plan",
+   "folder": "health-tdt11-a6-jump-progression-block-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "4f3140a90fe6b062b8905c8bf8c4834117c9bf121917c97d1adb22a0d1cdd44b",
+   "size_bytes": 7130515,
+   "updated": "2026-09-27T05:54:45.295Z"
   },
   {
    "connector_provenance": null,
@@ -21744,17 +21772,17 @@
    "updated": "2026-09-20T11:12:23.167Z"
   },
   {
-   "declared_name": "harbor/priorities-board-against-the-updates",
-   "declared_short": "priorities-board-against-the-updates",
-   "folder": "priorities-board-against-the-updates-20260920T063930Z-1-001",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/priorities-board-against-the-updates",
+   "declared_short": "priorities-board-against-the-updates",
    "domain": null,
+   "folder": "priorities-board-against-the-updates-20260920T063930Z-1-001",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5ff48e8293185b9a8a69699e51be8b2efbbfb2bd4a981a1500c22de954358177",
    "size_bytes": 10962335,
    "updated": "2026-09-27T05:45:28.820Z"
