@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T15:00:03+00:00",
+ "generated_at": "2026-09-27T15:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1875,
-  "scanned": 1875,
+  "task_folders": 1876,
+  "scanned": 1876,
   "connector": 511,
-  "non_connector": 1364,
+  "non_connector": 1365,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 216
  },
  "domain": {
-  "unnamed": 851,
+  "unnamed": 852,
   "code": 358,
   "fin": 114,
   "gen": 312,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 514,
-  "obi": 1356,
+  "obi": 1357,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131448
  },
  "errors": [],
  "tasks": [
@@ -10427,6 +10427,20 @@
    "sha256": "b127e37e6e9317682e209873ef883fe22efc0cb0661e8f6fd307388d31490c44",
    "size_bytes": 3855220,
    "updated": "2026-09-27T12:59:04.663Z"
+  },
+  {
+   "declared_name": "obi/edu-sca-b23-standard-download-source-register",
+   "declared_short": "edu-sca-b23-standard-download-source-register",
+   "folder": "edu-sca-b23-standard-download-source-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "a153fb6222d67c56d69d6e7d400ff4841334899ebb672130159e6d8f5a2c71df",
+   "size_bytes": 2731122,
+   "updated": "2026-09-27T15:21:46.828Z"
   },
   {
    "connector_provenance": null,
