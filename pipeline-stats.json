@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T14:50:03+00:00",
+ "generated_at": "2026-09-27T14:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1875,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131451
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -10443,15 +10443,15 @@
    "updated": "2026-09-27T11:54:42.789Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sch-b13-career-counseling-committee-reconciliation",
    "declared_short": "edu-sch-b13-career-counseling-committee-reconciliation",
-   "folder": "edu-sch-b13-career-counseling-committee-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sch-b13-career-counseling-committee-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2ffac26f8f3dc40c3a07bf7a41ed9a5937aa61595e60919986553adc825809fc",
    "size_bytes": 2965683,
    "updated": "2026-09-27T14:48:30.498Z"
