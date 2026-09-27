@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T05:30:03+00:00",
+ "generated_at": "2026-09-27T05:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1840,
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 265318
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -19066,15 +19066,15 @@
    "updated": "2026-09-19T09:14:04.998Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt7-a2-pull-day-session-time-ledger",
    "declared_short": "health-tdt7-a2-pull-day-session-time-ledger",
-   "folder": "health-tdt7-a2-pull-day-session-time-ledger",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt7-a2-pull-day-session-time-ledger",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "30cad9962c6112c9e078709e6a26ea89a6bdf44c6e8e19f8843351184d8d5e9e",
    "size_bytes": 11823300,
    "updated": "2026-09-27T05:27:12.829Z"
@@ -25831,17 +25831,17 @@
    "updated": "2026-09-23T22:20:01.025Z"
   },
   {
-   "declared_name": "harbor/the-prds-intake-by-year",
-   "declared_short": "the-prds-intake-by-year",
-   "folder": "the-prds-intake-by-year",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-prds-intake-by-year",
+   "declared_short": "the-prds-intake-by-year",
    "domain": null,
+   "folder": "the-prds-intake-by-year",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3880dc9d13341fca367366ee39e260b9267e25872bdf51571f158338260b1c8d",
    "size_bytes": 8182192,
    "updated": "2026-09-27T05:26:04.388Z"
