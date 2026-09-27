@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-27T14:10:02+00:00",
+ "generated_at": "2026-09-27T14:30:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1872,
-  "scanned": 1872,
-  "connector": 510,
-  "non_connector": 1362,
+  "task_folders": 1874,
+  "scanned": 1874,
+  "connector": 511,
+  "non_connector": 1363,
   "errors": 0
  },
  "connector_provenance": {
   "real": 139,
   "unknown": 156,
-  "synthetic": 215
+  "synthetic": 216
  },
  "domain": {
-  "unnamed": 849,
-  "code": 357,
+  "unnamed": 850,
+  "code": 358,
   "fin": 114,
   "gen": 312,
   "health": 139,
   "law": 101
  },
  "name_prefix": {
-  "harbor": 513,
-  "obi": 1354,
+  "harbor": 514,
+  "obi": 1355,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -40,7 +40,7 @@
   "notion-gym": 46,
   "outlook-gym": 36,
   "github-gym": 35,
-  "linear-gym": 33,
+  "linear-gym": 34,
   "email-calendar-gym": 31,
   "gws-gym": 31,
   "supabase-gym": 6,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 266828
  },
  "errors": [],
  "tasks": [
@@ -301,6 +301,22 @@
    "sha256": "42bb1260f8ba1d725fe4bf0a1db4a0d6ee573a0cd6ecdc4dd8bcd83375bd25fe",
    "size_bytes": 7667236,
    "updated": "2026-09-27T12:52:39.967Z"
+  },
+  {
+   "declared_name": "harbor/cycle-twenty-retro",
+   "declared_short": "cycle-twenty-retro",
+   "folder": "ASTR_101145",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2955b6b92ca7ab21a8a776be0eb0693b00ca3c7711283b3070c6bcdb330a6ec6",
+   "size_bytes": 5510327,
+   "updated": "2026-09-27T14:29:00.913Z"
   },
   {
    "connector_provenance": "unknown",
@@ -3863,6 +3879,20 @@
    "sha256": "2f5f6858df180163f9687c6c16fd995d336cd66a54b53827ebb7af08e364178c",
    "size_bytes": 6859289,
    "updated": "2026-09-26T06:30:02.277Z"
+  },
+  {
+   "declared_name": "obi/code-c100-alert-routing-coverage-audit",
+   "declared_short": "code-c100-alert-routing-coverage-audit",
+   "folder": "code-c100-alert-routing-coverage-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "5323e9a9f7b1344e2163ea93162f017ca3fd759d4d4cb7acc006446724c453fe",
+   "size_bytes": 5299172,
+   "updated": "2026-09-27T14:26:13.840Z"
   },
   {
    "connector_provenance": null,
