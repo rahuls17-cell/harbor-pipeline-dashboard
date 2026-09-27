@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T06:05:03+00:00",
+ "generated_at": "2026-09-27T06:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1844,
-  "scanned": 1844,
+  "task_folders": 1845,
+  "scanned": 1845,
   "connector": 494,
-  "non_connector": 1350,
+  "non_connector": 1351,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 826,
   "code": 356,
-  "fin": 113,
+  "fin": 114,
   "gen": 311,
   "health": 138,
   "law": 100
  },
  "name_prefix": {
   "harbor": 497,
-  "obi": 1343,
+  "obi": 1344,
   "vankamasthanamma": 1,
   "health": 3
  },
@@ -50,7 +50,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131439
+  "approx_bytes_read": 131426
  },
  "errors": [],
  "tasks": [
@@ -2892,15 +2892,15 @@
    "updated": "2026-09-22T22:51:24.542Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b49-b10-national-accounts-resume-line-budget",
    "declared_short": "bus-b49-b10-national-accounts-resume-line-budget",
-   "folder": "bus-b49-b10-national-accounts-resume-line-budget",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b49-b10-national-accounts-resume-line-budget",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c2d9890389a6f327f13b5e53f8a0baed5c4dc085c066828628c2bb728f8c7091",
    "size_bytes": 7078455,
    "updated": "2026-09-27T06:02:42.443Z"
@@ -11422,6 +11422,20 @@
    "sha256": "b1d89259cf09416363ca68ce1358658702067b4daa3f9d16d97ed6e67af5f2f6",
    "size_bytes": 6833278,
    "updated": "2026-09-20T01:51:15.352Z"
+  },
+  {
+   "declared_name": "obi/fin-b49-f8-tax-arrears-payment-arrangement",
+   "declared_short": "fin-b49-f8-tax-arrears-payment-arrangement",
+   "folder": "fin-b49-f8-tax-arrears-payment-arrangement",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "5e0f7baed0b6c02e2473a84319b23e372d775e6aa3d527e119d7dc14064494bb",
+   "size_bytes": 5568583,
+   "updated": "2026-09-27T06:09:34.588Z"
   },
   {
    "connector_provenance": null,
