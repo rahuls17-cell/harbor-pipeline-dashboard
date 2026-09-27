@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T03:20:03+00:00",
+ "generated_at": "2026-09-27T03:25:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1822,
-  "scanned": 1822,
+  "task_folders": 1824,
+  "scanned": 1824,
   "connector": 487,
-  "non_connector": 1335,
+  "non_connector": 1337,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 196
  },
  "domain": {
-  "unnamed": 812,
+  "unnamed": 813,
   "code": 355,
   "fin": 112,
-  "gen": 308,
+  "gen": 309,
   "health": 136,
   "law": 99
  },
  "name_prefix": {
   "harbor": 490,
-  "obi": 1328,
+  "obi": 1330,
   "vankamasthanamma": 1,
   "health": 3
  },
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 262952
  },
  "errors": [],
  "tasks": [
@@ -14954,6 +14954,20 @@
    "updated": "2026-09-09T12:52:10.973Z"
   },
   {
+   "declared_name": "obi/gen-g770-lender-outreach-engagement-tier-audit",
+   "declared_short": "gen-g770-lender-outreach-engagement-tier-audit",
+   "folder": "gen-g770-lender-outreach-engagement-tier-audit-Q-6a9e4d-v2-sna-sxkm",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "f7a9b525300fcd76acd6fa64e7967efb2295f12fa62f4246d99a2f7c236064a2",
+   "size_bytes": 8128213,
+   "updated": "2026-09-27T03:23:35.086Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g776-health-content-style-audit",
@@ -23613,6 +23627,20 @@
    "sha256": "de0a8ce3b71beaf2167661484f6a758bdffb479c8c199322c673e784eddd264f",
    "size_bytes": 4678654,
    "updated": "2026-09-25T17:38:23.734Z"
+  },
+  {
+   "declared_name": "obi/tech-b52-t2-clarifying-question-skill-spec-brief",
+   "declared_short": "tech-b52-t2-clarifying-question-skill-spec-brief",
+   "folder": "tech-b52-t2-clarifying-question-skill-spec-brief",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "51f57680f2160d7d19fd1c25f6cc8d20e218be9708550b0c8c7a97260f1cc4ec",
+   "size_bytes": 7348754,
+   "updated": "2026-09-27T03:20:24.370Z"
   },
   {
    "connector_provenance": null,
