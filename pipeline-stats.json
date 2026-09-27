@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-27T05:25:03+00:00",
+ "generated_at": "2026-09-27T05:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1838,
-  "scanned": 1838,
-  "connector": 492,
-  "non_connector": 1346,
+  "task_folders": 1840,
+  "scanned": 1840,
+  "connector": 493,
+  "non_connector": 1347,
   "errors": 0
  },
  "connector_provenance": {
   "real": 137,
   "unknown": 154,
-  "synthetic": 201
+  "synthetic": 202
  },
  "domain": {
-  "unnamed": 823,
+  "unnamed": 824,
   "code": 356,
   "fin": 113,
   "gen": 310,
-  "health": 136,
+  "health": 137,
   "law": 100
  },
  "name_prefix": {
-  "harbor": 495,
-  "obi": 1339,
+  "harbor": 496,
+  "obi": 1340,
   "vankamasthanamma": 1,
   "health": 3
  },
@@ -41,7 +41,7 @@
   "outlook-gym": 32,
   "linear-gym": 31,
   "email-calendar-gym": 30,
-  "gws-gym": 26,
+  "gws-gym": 27,
   "supabase-gym": 6,
   "teams-gym": 5,
   "microsoft-teams-gym": 4,
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131592
+  "new_archives_read": 2,
+  "approx_bytes_read": 265318
  },
  "errors": [],
  "tasks": [
@@ -11872,15 +11872,15 @@
    "updated": "2026-09-11T07:28:23.136Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-f28-provision-recognition",
    "declared_short": "fin-f28-provision-recognition",
-   "folder": "fin-f28-provision-recognition-b71b92-v1-sna-ybmd",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-f28-provision-recognition-b71b92-v1-sna-ybmd",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "80e68ea972d341f454ca6c45f4c7ea92cdb5b7f0dfe9c749073c0f839cae006a",
    "size_bytes": 7090195,
    "updated": "2026-09-27T05:21:30.395Z"
@@ -19066,6 +19066,20 @@
    "updated": "2026-09-19T09:14:04.998Z"
   },
   {
+   "declared_name": "obi/health-tdt7-a2-pull-day-session-time-ledger",
+   "declared_short": "health-tdt7-a2-pull-day-session-time-ledger",
+   "folder": "health-tdt7-a2-pull-day-session-time-ledger",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "30cad9962c6112c9e078709e6a26ea89a6bdf44c6e8e19f8843351184d8d5e9e",
+   "size_bytes": 11823300,
+   "updated": "2026-09-27T05:27:12.829Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt7-a3-barbell-plate-loading-chart",
@@ -25815,6 +25829,22 @@
    "sha256": "453c12f3812e5050e57ac9474da5931be06d5859b81556d4318a3cdc393062ee",
    "size_bytes": 13019434,
    "updated": "2026-09-23T22:20:01.025Z"
+  },
+  {
+   "declared_name": "harbor/the-prds-intake-by-year",
+   "declared_short": "the-prds-intake-by-year",
+   "folder": "the-prds-intake-by-year",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3880dc9d13341fca367366ee39e260b9267e25872bdf51571f158338260b1c8d",
+   "size_bytes": 8182192,
+   "updated": "2026-09-27T05:26:04.388Z"
   },
   {
    "connector_provenance": "synthetic",
