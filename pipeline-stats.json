@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T01:55:03+00:00",
+ "generated_at": "2026-09-27T02:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1817,
-  "scanned": 1817,
+  "task_folders": 1818,
+  "scanned": 1818,
   "connector": 486,
-  "non_connector": 1331,
+  "non_connector": 1332,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 811,
   "code": 354,
   "fin": 112,
-  "gen": 306,
+  "gen": 307,
   "health": 135,
   "law": 99
  },
  "name_prefix": {
   "harbor": 489,
-  "obi": 1324,
+  "obi": 1325,
   "vankamasthanamma": 1,
   "health": 3
  },
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131836
  },
  "errors": [],
  "tasks": [
@@ -16016,6 +16016,20 @@
    "sha256": "52a7a081d4a5ef55fd311100aa9b478959d0c61cd1bb53cf4826a9c6353ab569",
    "size_bytes": 7833651,
    "updated": "2026-09-26T09:03:39.998Z"
+  },
+  {
+   "declared_name": "obi/gen-sc06-b10-well-gantry-cut-list",
+   "declared_short": "gen-sc06-b10-well-gantry-cut-list",
+   "folder": "gen-sc06-b10-well-gantry-cut-list",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "1a06a77aaed425724b77c536877f1822ea13ba447ebbb0a3de9868650ab6ece8",
+   "size_bytes": 7117029,
+   "updated": "2026-09-27T02:06:29.174Z"
   },
   {
    "connector_provenance": null,
