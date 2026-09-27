@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T06:15:03+00:00",
+ "generated_at": "2026-09-27T06:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1845,
-  "scanned": 1845,
+  "task_folders": 1846,
+  "scanned": 1846,
   "connector": 494,
-  "non_connector": 1351,
+  "non_connector": 1352,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 826,
-  "code": 356,
+  "code": 357,
   "fin": 114,
   "gen": 311,
   "health": 138,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 497,
-  "obi": 1344,
+  "obi": 1345,
   "vankamasthanamma": 1,
   "health": 3
  },
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131500
  },
  "errors": [],
  "tasks": [
@@ -7500,6 +7500,20 @@
    "sha256": "d4f94e53dd9a12f2ea71e67d9a6e393e4532ec93ab8378129f90a69a29058dfc",
    "size_bytes": 11872427,
    "updated": "2026-09-11T22:52:21.055Z"
+  },
+  {
+   "declared_name": "obi/code-c51-cron-overlap-computation",
+   "declared_short": "code-c51-cron-overlap-computation",
+   "folder": "code-c51-cron-overlap-computation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "d76c703d8ffa64270ddf0fe6e8299f9604ce3ca5f6b55461f348c6bf4f8edbc9",
+   "size_bytes": 7582107,
+   "updated": "2026-09-27T06:21:02.064Z"
   },
   {
    "connector_provenance": null,
