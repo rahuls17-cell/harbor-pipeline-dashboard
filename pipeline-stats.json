@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T13:05:03+00:00",
+ "generated_at": "2026-09-27T13:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1869,
-  "scanned": 1869,
+  "task_folders": 1870,
+  "scanned": 1870,
   "connector": 508,
-  "non_connector": 1361,
+  "non_connector": 1362,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 214
  },
  "domain": {
-  "unnamed": 846,
+  "unnamed": 847,
   "code": 357,
   "fin": 114,
   "gen": 312,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 511,
-  "obi": 1353,
+  "obi": 1354,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131536
  },
  "errors": [],
  "tasks": [
@@ -10395,6 +10395,20 @@
    "sha256": "3eeea72f270be1840b418ece04e46303fe3bcfdf40b68c19b7ba77e82db92d09",
    "size_bytes": 4595079,
    "updated": "2026-09-27T11:54:42.789Z"
+  },
+  {
+   "declared_name": "obi/edu-sch-b2-ncea-derived-grade-study-timetable",
+   "declared_short": "edu-sch-b2-ncea-derived-grade-study-timetable",
+   "folder": "edu-sch-b2-ncea-derived-grade-study-timetable",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "14d5cd23406199ebba2477e9445f10d2d0e59b4862ed2eeda354486a6d517cc5",
+   "size_bytes": 4423426,
+   "updated": "2026-09-27T13:22:12.525Z"
   },
   {
    "connector_provenance": "synthetic",
