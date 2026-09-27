@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-27T05:40:04+00:00",
+ "generated_at": "2026-09-27T05:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1840,
-  "scanned": 1840,
-  "connector": 493,
+  "task_folders": 1841,
+  "scanned": 1841,
+  "connector": 494,
   "non_connector": 1347,
   "errors": 0
  },
  "connector_provenance": {
   "real": 137,
   "unknown": 154,
-  "synthetic": 202
+  "synthetic": 203
  },
  "domain": {
-  "unnamed": 824,
+  "unnamed": 825,
   "code": 356,
   "fin": 113,
   "gen": 310,
@@ -22,7 +22,7 @@
   "law": 100
  },
  "name_prefix": {
-  "harbor": 496,
+  "harbor": 497,
   "obi": 1340,
   "vankamasthanamma": 1,
   "health": 3
@@ -36,7 +36,7 @@
   "email-gym": 180,
   "freshdesk-gym": 180,
   "slack": 64,
-  "notion-gym": 43,
+  "notion-gym": 44,
   "github-gym": 34,
   "outlook-gym": 32,
   "linear-gym": 31,
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 134640
  },
  "errors": [],
  "tasks": [
@@ -21742,6 +21742,22 @@
    "sha256": "0779bc04d35d251dd38c9b59ea7f85ed7cd69069b7c25e54ee876a6329d3a9f6",
    "size_bytes": 9071636,
    "updated": "2026-09-20T11:12:23.167Z"
+  },
+  {
+   "declared_name": "harbor/priorities-board-against-the-updates",
+   "declared_short": "priorities-board-against-the-updates",
+   "folder": "priorities-board-against-the-updates-20260920T063930Z-1-001",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "5ff48e8293185b9a8a69699e51be8b2efbbfb2bd4a981a1500c22de954358177",
+   "size_bytes": 10962335,
+   "updated": "2026-09-27T05:45:28.820Z"
   },
   {
    "connector_provenance": "synthetic",
