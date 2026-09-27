@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T02:40:02+00:00",
+ "generated_at": "2026-09-27T02:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1820,
-  "scanned": 1820,
+  "task_folders": 1821,
+  "scanned": 1821,
   "connector": 486,
-  "non_connector": 1334,
+  "non_connector": 1335,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 811,
-  "code": 354,
+  "code": 355,
   "fin": 112,
   "gen": 308,
   "health": 136,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 489,
-  "obi": 1327,
+  "obi": 1328,
   "vankamasthanamma": 1,
   "health": 3
  },
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131521
  },
  "errors": [],
  "tasks": [
@@ -5998,6 +5998,20 @@
    "sha256": "8526747690770657b708b4fe91013d1139c704988222762ad21b72f5af9bca5a",
    "size_bytes": 5019287,
    "updated": "2026-09-26T20:41:31.784Z"
+  },
+  {
+   "declared_name": "obi/code-c302-partner-badge-asset-audit",
+   "declared_short": "code-c302-partner-badge-asset-audit",
+   "folder": "code-c302-partner-badge-asset-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "ae47e5bc70ed32f685b2ebb2fa37d94427cfff23beecfef5bc2a5c283e6ac9ff",
+   "size_bytes": 7371148,
+   "updated": "2026-09-27T02:44:56.164Z"
   },
   {
    "connector_provenance": null,
