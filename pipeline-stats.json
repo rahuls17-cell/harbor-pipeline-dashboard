@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T14:45:04+00:00",
+ "generated_at": "2026-09-27T14:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1874,
-  "scanned": 1874,
+  "task_folders": 1875,
+  "scanned": 1875,
   "connector": 511,
-  "non_connector": 1363,
+  "non_connector": 1364,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 216
  },
  "domain": {
-  "unnamed": 850,
+  "unnamed": 851,
   "code": 358,
   "fin": 114,
   "gen": 312,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 514,
-  "obi": 1355,
+  "obi": 1356,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131451
  },
  "errors": [],
  "tasks": [
@@ -10441,6 +10441,20 @@
    "sha256": "3eeea72f270be1840b418ece04e46303fe3bcfdf40b68c19b7ba77e82db92d09",
    "size_bytes": 4595079,
    "updated": "2026-09-27T11:54:42.789Z"
+  },
+  {
+   "declared_name": "obi/edu-sch-b13-career-counseling-committee-reconciliation",
+   "declared_short": "edu-sch-b13-career-counseling-committee-reconciliation",
+   "folder": "edu-sch-b13-career-counseling-committee-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "2ffac26f8f3dc40c3a07bf7a41ed9a5937aa61595e60919986553adc825809fc",
+   "size_bytes": 2965683,
+   "updated": "2026-09-27T14:48:30.498Z"
   },
   {
    "connector_provenance": null,
