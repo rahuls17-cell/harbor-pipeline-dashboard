@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-27T01:25:03+00:00",
+ "generated_at": "2026-09-27T01:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1813,
-  "scanned": 1813,
-  "connector": 485,
-  "non_connector": 1328,
+  "task_folders": 1816,
+  "scanned": 1816,
+  "connector": 486,
+  "non_connector": 1330,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 135,
+  "real": 136,
   "unknown": 154,
   "synthetic": 196
  },
  "domain": {
-  "unnamed": 807,
+  "unnamed": 810,
   "code": 354,
   "fin": 112,
   "gen": 306,
@@ -22,8 +22,8 @@
   "law": 99
  },
  "name_prefix": {
-  "harbor": 488,
-  "obi": 1321,
+  "harbor": 489,
+  "obi": 1323,
   "vankamasthanamma": 1,
   "health": 3
  },
@@ -38,7 +38,7 @@
   "slack": 64,
   "notion-gym": 43,
   "github-gym": 34,
-  "outlook-gym": 31,
+  "outlook-gym": 32,
   "email-calendar-gym": 29,
   "linear-gym": 29,
   "gws-gym": 25,
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 395859
  },
  "errors": [],
  "tasks": [
@@ -2230,6 +2230,20 @@
    "updated": "2026-09-23T15:07:02.304Z"
   },
   {
+   "declared_name": "obi/bus-b44-b1-vehicle-import-duty-adjudication",
+   "declared_short": "bus-b44-b1-vehicle-import-duty-adjudication",
+   "folder": "bus-b44-b1-vehicle-import-duty-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "84452d15465bafdf1b49b0783b1487333e7d06ed5fdb15a085b1d654ccd30ff5",
+   "size_bytes": 3712249,
+   "updated": "2026-09-27T01:27:57.064Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b44-b11-weekly-status-carryover-reconstruction",
@@ -2844,6 +2858,20 @@
    "sha256": "4f967751cd80d9171d85a6f8389ab1b690292bbab1197ca35e8a8407c87a53f7",
    "size_bytes": 8350846,
    "updated": "2026-09-23T09:47:47.621Z"
+  },
+  {
+   "declared_name": "obi/bus-b49-b5-reunion-group-post-event-fact-reconciliation",
+   "declared_short": "bus-b49-b5-reunion-group-post-event-fact-reconciliation",
+   "folder": "bus-b49-b5-reunion-group-post-event-fact-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "0d610205c22c04f888e4467d88a5dd9565a2c77a0b9e64e74ccff8cb0bf6c5c5",
+   "size_bytes": 11952866,
+   "updated": "2026-09-27T01:25:42.221Z"
   },
   {
    "connector_provenance": null,
@@ -26993,6 +27021,22 @@
    "sha256": "eed8991a22e3a49d67df9862b42ce7775e8a15571a6f373f024f2af7fc502cad",
    "size_bytes": 8708985,
    "updated": "2026-09-25T12:12:54.362Z"
+  },
+  {
+   "declared_name": "harbor/which-sender-repeats-itself",
+   "declared_short": "which-sender-repeats-itself",
+   "folder": "which-sender-repeats-itself",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "c0a842fb1ea0c4967f2ca41f2fb48ee26e26ea6a41a5ef2934ec025e032c1683",
+   "size_bytes": 25631330,
+   "updated": "2026-09-27T01:29:09.019Z"
   },
   {
    "connector_provenance": "synthetic",
