@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T00:25:03+00:00",
+ "generated_at": "2026-09-27T00:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1809,
-  "scanned": 1809,
+  "task_folders": 1811,
+  "scanned": 1811,
   "connector": 485,
-  "non_connector": 1324,
+  "non_connector": 1326,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 196
  },
  "domain": {
-  "unnamed": 806,
+  "unnamed": 807,
   "code": 354,
   "fin": 112,
-  "gen": 304,
+  "gen": 305,
   "health": 134,
   "law": 99
  },
  "name_prefix": {
   "harbor": 488,
-  "obi": 1317,
+  "obi": 1319,
   "vankamasthanamma": 1,
   "health": 3
  },
@@ -50,7 +50,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 268124
+  "approx_bytes_read": 263422
  },
  "errors": [],
  "tasks": [
@@ -3014,6 +3014,20 @@
    "updated": "2026-09-26T09:00:09.336Z"
   },
   {
+   "declared_name": "obi/bus-b53-b10-commercial-hvac-maintenance-contract-schedule",
+   "declared_short": "bus-b53-b10-commercial-hvac-maintenance-contract-schedule",
+   "folder": "bus-b53-b10-commercial-hvac-maintenance-contract-schedule",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "23f91771fc7f047f761b775e23d66eae53c06c2b16fe390b6153241f9e78c9a9",
+   "size_bytes": 10255418,
+   "updated": "2026-09-27T00:25:25.752Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b53-b2-competitor-query-cluster-conflict-report",
@@ -3042,15 +3056,15 @@
    "updated": "2026-09-26T20:54:52.576Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b53-b9-behavior-primitive-kernel-synthesis",
    "declared_short": "bus-b53-b9-behavior-primitive-kernel-synthesis",
-   "folder": "bus-b53-b9-behavior-primitive-kernel-synthesis",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b53-b9-behavior-primitive-kernel-synthesis",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1509d444a0d3f4912c072ef5fcdb2ffd3fa41cbfd363aa1f4fc930a1efc584ae",
    "size_bytes": 10110166,
    "updated": "2026-09-27T00:24:19.627Z"
@@ -15962,6 +15976,20 @@
    "updated": "2026-09-26T20:29:37.035Z"
   },
   {
+   "declared_name": "obi/gen-sc06-b5-imputation-figures",
+   "declared_short": "gen-sc06-b5-imputation-figures",
+   "folder": "gen-sc06-b5-imputation-figures",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "6bbacfd5e93eee9360bc9a5246945ba95db17b6990a83251dd0ff91df72e7e4b",
+   "size_bytes": 9457456,
+   "updated": "2026-09-27T00:26:25.942Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-sc06-b9-return-chart-aspects",
@@ -20938,17 +20966,17 @@
    "updated": "2026-09-09T04:52:15.228Z"
   },
   {
-   "declared_name": "harbor/nine-approvals-that-flagged-it-anyway",
-   "declared_short": "nine-approvals-that-flagged-it-anyway",
-   "folder": "nine-approvals-that-flagged-it-anyway",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/nine-approvals-that-flagged-it-anyway",
+   "declared_short": "nine-approvals-that-flagged-it-anyway",
    "domain": null,
+   "folder": "nine-approvals-that-flagged-it-anyway",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "efec4526a52651deac75146a4fb239f8af646e52a0b98642120af556afd94aee",
    "size_bytes": 10206413,
    "updated": "2026-09-27T00:20:45.277Z"
