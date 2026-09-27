@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T05:20:03+00:00",
+ "generated_at": "2026-09-27T05:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1837,
-  "scanned": 1837,
+  "task_folders": 1838,
+  "scanned": 1838,
   "connector": 492,
-  "non_connector": 1345,
+  "non_connector": 1346,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 823,
   "code": 356,
-  "fin": 112,
+  "fin": 113,
   "gen": 310,
   "health": 136,
   "law": 100
  },
  "name_prefix": {
   "harbor": 495,
-  "obi": 1338,
+  "obi": 1339,
   "vankamasthanamma": 1,
   "health": 3
  },
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131592
  },
  "errors": [],
  "tasks": [
@@ -11870,6 +11870,20 @@
    "sha256": "7d06c98d1f6d7715fe31546840897b32d425e2ac2c9cd6065e25a392ec7060b9",
    "size_bytes": 4546763,
    "updated": "2026-09-11T07:28:23.136Z"
+  },
+  {
+   "declared_name": "obi/fin-f28-provision-recognition",
+   "declared_short": "fin-f28-provision-recognition",
+   "folder": "fin-f28-provision-recognition-b71b92-v1-sna-ybmd",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "80e68ea972d341f454ca6c45f4c7ea92cdb5b7f0dfe9c749073c0f839cae006a",
+   "size_bytes": 7090195,
+   "updated": "2026-09-27T05:21:30.395Z"
   },
   {
    "connector_provenance": null,
