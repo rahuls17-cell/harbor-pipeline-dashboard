@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-27T12:40:03+00:00",
+ "generated_at": "2026-09-27T12:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1862,
-  "scanned": 1862,
-  "connector": 503,
+  "task_folders": 1864,
+  "scanned": 1864,
+  "connector": 505,
   "non_connector": 1359,
   "errors": 0
  },
  "connector_provenance": {
   "real": 138,
   "unknown": 155,
-  "synthetic": 210
+  "synthetic": 212
  },
  "domain": {
-  "unnamed": 839,
+  "unnamed": 841,
   "code": 357,
   "fin": 114,
   "gen": 312,
@@ -22,7 +22,7 @@
   "law": 101
  },
  "name_prefix": {
-  "harbor": 506,
+  "harbor": 508,
   "obi": 1351,
   "vankamasthanamma": 1,
   "health": 3,
@@ -37,12 +37,12 @@
   "email-gym": 180,
   "freshdesk-gym": 180,
   "slack": 64,
-  "notion-gym": 44,
+  "notion-gym": 45,
   "outlook-gym": 35,
   "github-gym": 35,
   "linear-gym": 32,
+  "email-calendar-gym": 31,
   "gws-gym": 31,
-  "email-calendar-gym": 30,
   "supabase-gym": 6,
   "teams-gym": 5,
   "microsoft-teams-gym": 4,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 271276
  },
  "errors": [],
  "tasks": [
@@ -10461,6 +10461,22 @@
    "sha256": "88dcc6de3b1d235d5bd5d40f073d53a5591d642bfd20ff8676af255a7200e6ec",
    "size_bytes": 18215978,
    "updated": "2026-09-05T22:15:41.160Z"
+  },
+  {
+   "declared_name": "harbor/every-post-is-in-here-twice",
+   "declared_short": "every-post-is-in-here-twice",
+   "folder": "every-post-is-in-here-twice",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "b08f1b8e345bccbee91cdb0d02387f11fc7fd530e2dd940b6a035873cb77d519",
+   "size_bytes": 6431615,
+   "updated": "2026-09-27T12:40:14.680Z"
   },
   {
    "connector_provenance": "unknown",
@@ -27494,6 +27510,22 @@
    "sha256": "e278dc0c5343abaa573bdd6ad67c0b52a3df8969915caac83fe2308136d676a0",
    "size_bytes": 8840710,
    "updated": "2026-09-18T19:08:49.619Z"
+  },
+  {
+   "declared_name": "harbor/what-i-kept-going-back-to",
+   "declared_short": "what-i-kept-going-back-to",
+   "folder": "what-i-kept-going-back-to",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "a7d442a3aa7c184c0ba3ec68540b21930e6c41df6812d11ac909c848547f1ad1",
+   "size_bytes": 29350127,
+   "updated": "2026-09-27T12:43:46.694Z"
   },
   {
    "connector_provenance": "synthetic",
