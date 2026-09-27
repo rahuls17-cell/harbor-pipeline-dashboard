@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-27T00:05:02+00:00",
+ "generated_at": "2026-09-27T00:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1807,
-  "scanned": 1807,
-  "connector": 484,
-  "non_connector": 1323,
+  "task_folders": 1809,
+  "scanned": 1809,
+  "connector": 485,
+  "non_connector": 1324,
   "errors": 0
  },
  "connector_provenance": {
   "real": 135,
   "unknown": 154,
-  "synthetic": 195
+  "synthetic": 196
  },
  "domain": {
-  "unnamed": 804,
+  "unnamed": 806,
   "code": 354,
   "fin": 112,
   "gen": 304,
@@ -22,8 +22,8 @@
   "law": 99
  },
  "name_prefix": {
-  "harbor": 487,
-  "obi": 1316,
+  "harbor": 488,
+  "obi": 1317,
   "vankamasthanamma": 1,
   "health": 3
  },
@@ -37,7 +37,7 @@
   "freshdesk-gym": 180,
   "slack": 64,
   "notion-gym": 43,
-  "github-gym": 33,
+  "github-gym": 34,
   "outlook-gym": 31,
   "email-calendar-gym": 29,
   "linear-gym": 29,
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 268124
  },
  "errors": [],
  "tasks": [
@@ -3040,6 +3040,20 @@
    "sha256": "2ce84f0b3c3d5d61f7b7e29f345f280ef82e27405bd40f3b329152d128e03f3a",
    "size_bytes": 11450334,
    "updated": "2026-09-26T20:54:52.576Z"
+  },
+  {
+   "declared_name": "obi/bus-b53-b9-behavior-primitive-kernel-synthesis",
+   "declared_short": "bus-b53-b9-behavior-primitive-kernel-synthesis",
+   "folder": "bus-b53-b9-behavior-primitive-kernel-synthesis",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1509d444a0d3f4912c072ef5fcdb2ffd3fa41cbfd363aa1f4fc930a1efc584ae",
+   "size_bytes": 10110166,
+   "updated": "2026-09-27T00:24:19.627Z"
   },
   {
    "connector_provenance": null,
@@ -20922,6 +20936,22 @@
    "sha256": "e63473cf0d2f1bcd43b93046029e999697b5b8c4c74572198a3265bc65e8f4c0",
    "size_bytes": 13675731,
    "updated": "2026-09-09T04:52:15.228Z"
+  },
+  {
+   "declared_name": "harbor/nine-approvals-that-flagged-it-anyway",
+   "declared_short": "nine-approvals-that-flagged-it-anyway",
+   "folder": "nine-approvals-that-flagged-it-anyway",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "efec4526a52651deac75146a4fb239f8af646e52a0b98642120af556afd94aee",
+   "size_bytes": 10206413,
+   "updated": "2026-09-27T00:20:45.277Z"
   },
   {
    "connector_provenance": "synthetic",
