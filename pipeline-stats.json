@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T02:10:03+00:00",
+ "generated_at": "2026-09-27T02:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1818,
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131836
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -16018,15 +16018,15 @@
    "updated": "2026-09-26T09:03:39.998Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-sc06-b10-well-gantry-cut-list",
    "declared_short": "gen-sc06-b10-well-gantry-cut-list",
-   "folder": "gen-sc06-b10-well-gantry-cut-list",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-sc06-b10-well-gantry-cut-list",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1a06a77aaed425724b77c536877f1822ea13ba447ebbb0a3de9868650ab6ece8",
    "size_bytes": 7117029,
    "updated": "2026-09-27T02:06:29.174Z"
