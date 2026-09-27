@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-27T04:30:03+00:00",
+ "generated_at": "2026-09-27T04:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1829,
-  "scanned": 1829,
-  "connector": 489,
-  "non_connector": 1340,
+  "task_folders": 1831,
+  "scanned": 1831,
+  "connector": 490,
+  "non_connector": 1341,
   "errors": 0
  },
  "connector_provenance": {
   "real": 137,
   "unknown": 154,
-  "synthetic": 198
+  "synthetic": 199
  },
  "domain": {
-  "unnamed": 817,
+  "unnamed": 818,
   "code": 356,
   "fin": 112,
-  "gen": 309,
+  "gen": 310,
   "health": 136,
   "law": 99
  },
  "name_prefix": {
-  "harbor": 492,
-  "obi": 1333,
+  "harbor": 493,
+  "obi": 1334,
   "vankamasthanamma": 1,
   "health": 3
  },
@@ -39,8 +39,8 @@
   "notion-gym": 43,
   "github-gym": 34,
   "outlook-gym": 32,
+  "linear-gym": 31,
   "email-calendar-gym": 30,
-  "linear-gym": 30,
   "gws-gym": 25,
   "supabase-gym": 6,
   "teams-gym": 5,
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 268829
  },
  "errors": [],
  "tasks": [
@@ -15614,6 +15614,20 @@
    "updated": "2026-09-21T22:51:57.040Z"
   },
   {
+   "declared_name": "obi/gen-g901-channel-thumbnail-style-audit",
+   "declared_short": "gen-g901-channel-thumbnail-style-audit",
+   "folder": "gen-g901-channel-thumbnail-style-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "8640996e64530e583905d5ab9476c0dcfd7bc4bc04fd5594c697435e9618f2dc",
+   "size_bytes": 9897024,
+   "updated": "2026-09-27T04:30:37.378Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g902-wrestling-promo-image-release-audit",
@@ -22198,6 +22212,22 @@
    "sha256": "d055bc86f35e04a9dae3fb8ef3b95a82f1a5505bab538e8938620a762741b92e",
    "size_bytes": 6880183,
    "updated": "2026-09-25T08:45:22.375Z"
+  },
+  {
+   "declared_name": "harbor/seventeen-unsized-on-the-worst-project",
+   "declared_short": "seventeen-unsized-on-the-worst-project",
+   "folder": "seventeen-unsized-on-the-worst-project",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "215c518a213a6e76659043995d62eaa58b936f98775220a75cc3bb1914a24e5b",
+   "size_bytes": 10153222,
+   "updated": "2026-09-27T04:31:12.339Z"
   },
   {
    "connector_provenance": "real",
