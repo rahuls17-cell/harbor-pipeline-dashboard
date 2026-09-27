@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T01:15:03+00:00",
+ "generated_at": "2026-09-27T01:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1813,
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131577
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -15528,15 +15528,15 @@
    "updated": "2026-09-06T02:21:35.928Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g918-fop-lodge-campaign-badge-title-audit",
    "declared_short": "gen-g918-fop-lodge-campaign-badge-title-audit",
-   "folder": "gen-g918-fop-lodge-campaign-badge-title-audit-df2d5d-v7-sna-jqoz",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g918-fop-lodge-campaign-badge-title-audit-df2d5d-v7-sna-jqoz",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "23788da196b6724b16623883d96ea8c8a13e109e3b642027390088b18b9d720d",
    "size_bytes": 5651457,
    "updated": "2026-09-27T01:11:02.220Z"
