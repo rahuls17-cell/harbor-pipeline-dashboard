@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-27T03:50:04+00:00",
+ "generated_at": "2026-09-27T03:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1825,
-  "scanned": 1825,
-  "connector": 487,
+  "task_folders": 1826,
+  "scanned": 1826,
+  "connector": 488,
   "non_connector": 1338,
   "errors": 0
  },
  "connector_provenance": {
   "real": 137,
   "unknown": 154,
-  "synthetic": 196
+  "synthetic": 197
  },
  "domain": {
-  "unnamed": 814,
+  "unnamed": 815,
   "code": 355,
   "fin": 112,
   "gen": 309,
@@ -22,7 +22,7 @@
   "law": 99
  },
  "name_prefix": {
-  "harbor": 490,
+  "harbor": 491,
   "obi": 1331,
   "vankamasthanamma": 1,
   "health": 3
@@ -39,8 +39,8 @@
   "notion-gym": 43,
   "github-gym": 34,
   "outlook-gym": 32,
+  "linear-gym": 30,
   "email-calendar-gym": 29,
-  "linear-gym": 29,
   "gws-gym": 25,
   "supabase-gym": 6,
   "teams-gym": 5,
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 136374
  },
  "errors": [],
  "tasks": [
@@ -490,6 +490,22 @@
    "sha256": "c1b036c25ee40fcbedd6156761400e7adc22cfdec2474f86cf0e53dc6d006a46",
    "size_bytes": 9874107,
    "updated": "2026-09-22T08:14:11.484Z"
+  },
+  {
+   "declared_name": "harbor/a-refine-queue-where-seven-are-finished",
+   "declared_short": "a-refine-queue-where-seven-are-finished",
+   "folder": "a-refine-queue-where-seven-are-finished",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c688012417d1687b3b70a8f43b8f1ed3d11a8ca7b3d4312f453d6758e52f769c",
+   "size_bytes": 13368676,
+   "updated": "2026-09-27T03:51:59.750Z"
   },
   {
    "connector_provenance": "synthetic",
