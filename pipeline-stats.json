@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T07:10:03+00:00",
+ "generated_at": "2026-09-27T07:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1855,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 266767
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -25372,17 +25372,17 @@
    "updated": "2026-09-24T23:38:24.241Z"
   },
   {
-   "declared_name": "harbor/the-empty-tabs-in-my-trackers",
-   "declared_short": "the-empty-tabs-in-my-trackers",
-   "folder": "the-empty-tabs-in-my-trackers",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-empty-tabs-in-my-trackers",
+   "declared_short": "the-empty-tabs-in-my-trackers",
    "domain": null,
+   "folder": "the-empty-tabs-in-my-trackers",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8d017e25ffc51ce381c13f361dbae2915d82ddc673757e214fd224d61ac53a71",
    "size_bytes": 12379168,
    "updated": "2026-09-27T07:09:10.662Z"
@@ -26524,17 +26524,17 @@
    "updated": "2026-09-23T22:04:09.458Z"
   },
   {
-   "declared_name": "harbor/the-work-that-is-actually-blocked",
-   "declared_short": "the-work-that-is-actually-blocked",
-   "folder": "the-work-that-is-actually-blocked",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-work-that-is-actually-blocked",
+   "declared_short": "the-work-that-is-actually-blocked",
    "domain": null,
+   "folder": "the-work-that-is-actually-blocked",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "098d196e7b2fb62f2230a3e100c0831037afdda24a846dcef5517a978759c03d",
    "size_bytes": 7926374,
    "updated": "2026-09-27T07:09:20.040Z"
