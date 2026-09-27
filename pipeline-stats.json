@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-27T05:10:03+00:00",
+ "generated_at": "2026-09-27T05:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1836,
-  "scanned": 1836,
-  "connector": 491,
+  "task_folders": 1837,
+  "scanned": 1837,
+  "connector": 492,
   "non_connector": 1345,
   "errors": 0
  },
  "connector_provenance": {
   "real": 137,
   "unknown": 154,
-  "synthetic": 200
+  "synthetic": 201
  },
  "domain": {
-  "unnamed": 822,
+  "unnamed": 823,
   "code": 356,
   "fin": 112,
   "gen": 310,
@@ -22,7 +22,7 @@
   "law": 100
  },
  "name_prefix": {
-  "harbor": 494,
+  "harbor": 495,
   "obi": 1338,
   "vankamasthanamma": 1,
   "health": 3
@@ -30,7 +30,7 @@
  "connector_services": {
   "google-drive-gym": 197,
   "zeta3-sql-gym": 191,
-  "slack-gym": 187,
+  "slack-gym": 188,
   "confluence-gym": 185,
   "jira-gym": 183,
   "email-gym": 180,
@@ -49,8 +49,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263007
+  "new_archives_read": 1,
+  "approx_bytes_read": 135494
  },
  "errors": [],
  "tasks": [
@@ -380,6 +380,22 @@
    "sha256": "e766510c89e0274f7db2e905c77b4c4158e730b2e38ba4d643005b9400c38420",
    "size_bytes": 9014799,
    "updated": "2026-09-22T04:33:50.874Z"
+  },
+  {
+   "declared_name": "harbor/working-patterns-of-a-member",
+   "declared_short": "working-patterns-of-a-member",
+   "folder": "ASTR_101455",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "e979670774f16762fecb3ee7e193351d027cda52a6ae6ab4a73714f730ad607e",
+   "size_bytes": 7701255,
+   "updated": "2026-09-27T05:11:38.930Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -3156,15 +3172,15 @@
    "updated": "2026-09-27T00:24:19.627Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b54-b10-goods-donation-network-metric-comparison",
    "declared_short": "bus-b54-b10-goods-donation-network-metric-comparison",
-   "folder": "bus-b54-b10-goods-donation-network-metric-comparison",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b54-b10-goods-donation-network-metric-comparison",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "73509f2a7a79da6e462dddb5fd90be8394835554285d710644fc2d18ca18559c",
    "size_bytes": 5309968,
    "updated": "2026-09-27T05:07:49.213Z"
@@ -20644,15 +20660,15 @@
    "updated": "2026-09-26T17:13:17.109Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-l11-citation-authority-audit",
    "declared_short": "law-l11-citation-authority-audit",
-   "folder": "law-l11-citation-authority-audit-m-v2-44b956-v1-sna-twly",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-l11-citation-authority-audit-m-v2-44b956-v1-sna-twly",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2994ea97f812a51af682caaf8955961f211cbb9f7ffa116e0e858e7051b3de63",
    "size_bytes": 7152445,
    "updated": "2026-09-27T05:09:11.855Z"
