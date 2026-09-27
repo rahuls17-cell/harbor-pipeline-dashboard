@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T08:20:04+00:00",
+ "generated_at": "2026-09-27T09:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1856,
-  "scanned": 1856,
+  "task_folders": 1857,
+  "scanned": 1857,
   "connector": 502,
-  "non_connector": 1354,
+  "non_connector": 1355,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 357,
   "fin": 114,
   "gen": 311,
-  "health": 138,
+  "health": 139,
   "law": 100
  },
  "name_prefix": {
   "harbor": 505,
-  "obi": 1346,
+  "obi": 1347,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131456
  },
  "errors": [],
  "tasks": [
@@ -17863,6 +17863,20 @@
    "sha256": "1c551556e83edbe2c1d98f8c2b1369eeba12e7af27506432b9ecb0dd4b133c0f",
    "size_bytes": 4618681,
    "updated": "2026-09-23T19:19:59.388Z"
+  },
+  {
+   "declared_name": "obi/health-h101-psa-flare-trigger-audit",
+   "declared_short": "health-h101-psa-flare-trigger-audit",
+   "folder": "health-h101-psa-flare-trigger-audit-6ecacd-v1-sna-ucfp",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "cfe628d525544d39b8e91bbab4c683c968c7d1a347fdc02e5f903b74b91a8f76",
+   "size_bytes": 5605209,
+   "updated": "2026-09-27T09:24:36.959Z"
   },
   {
    "connector_provenance": null,
