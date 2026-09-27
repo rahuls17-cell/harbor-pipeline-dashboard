@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T09:35:02+00:00",
+ "generated_at": "2026-09-27T09:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1857,
-  "scanned": 1857,
+  "task_folders": 1858,
+  "scanned": 1858,
   "connector": 502,
-  "non_connector": 1355,
+  "non_connector": 1356,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 209
  },
  "domain": {
-  "unnamed": 836,
+  "unnamed": 837,
   "code": 357,
   "fin": 114,
   "gen": 311,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 505,
-  "obi": 1347,
+  "obi": 1348,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131438
  },
  "errors": [],
  "tasks": [
@@ -2947,6 +2947,20 @@
    "sha256": "4f967751cd80d9171d85a6f8389ab1b690292bbab1197ca35e8a8407c87a53f7",
    "size_bytes": 8350846,
    "updated": "2026-09-23T09:47:47.621Z"
+  },
+  {
+   "declared_name": "obi/bus-b49-b5-resume-audit-finding-normalisation",
+   "declared_short": "bus-b49-b5-resume-audit-finding-normalisation",
+   "folder": "bus-b49-b5-resume-audit-finding-normalisation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "387b985a87c4dbb4250338839cd9b0ef095a03a1bad444bc9013673bb3801022",
+   "size_bytes": 3280307,
+   "updated": "2026-09-27T09:42:27.370Z"
   },
   {
    "connector_provenance": null,
