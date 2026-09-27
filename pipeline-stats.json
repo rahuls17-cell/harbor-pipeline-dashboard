@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-27T06:35:02+00:00",
+ "generated_at": "2026-09-27T06:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1849,
-  "scanned": 1849,
-  "connector": 495,
+  "task_folders": 1852,
+  "scanned": 1852,
+  "connector": 498,
   "non_connector": 1354,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 137,
+  "real": 138,
   "unknown": 154,
-  "synthetic": 204
+  "synthetic": 206
  },
  "domain": {
-  "unnamed": 829,
+  "unnamed": 832,
   "code": 357,
   "fin": 114,
   "gen": 311,
@@ -22,7 +22,7 @@
   "law": 100
  },
  "name_prefix": {
-  "harbor": 498,
+  "harbor": 501,
   "obi": 1346,
   "vankamasthanamma": 1,
   "health": 3,
@@ -38,8 +38,8 @@
   "freshdesk-gym": 180,
   "slack": 64,
   "notion-gym": 44,
+  "outlook-gym": 35,
   "github-gym": 34,
-  "outlook-gym": 32,
   "linear-gym": 31,
   "email-calendar-gym": 30,
   "gws-gym": 28,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 405862
  },
  "errors": [],
  "tasks": [
@@ -12125,6 +12125,22 @@
    "updated": "2026-09-07T21:27:11.347Z"
   },
   {
+   "declared_name": "harbor/forty-two-bare-addresses-eight-names",
+   "declared_short": "forty-two-bare-addresses-eight-names",
+   "folder": "forty-two-bare-addresses-eight-names",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "5b72a1193235f9764b9f601629852b5aafb34c2f6c8143ad74c89054c10433be",
+   "size_bytes": 90494399,
+   "updated": "2026-09-27T06:36:11.530Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
@@ -22433,6 +22449,22 @@
    "updated": "2026-09-18T16:56:29.186Z"
   },
   {
+   "declared_name": "harbor/sixteen-junked-under-a-name-you-know",
+   "declared_short": "sixteen-junked-under-a-name-you-know",
+   "folder": "sixteen-junked-under-a-name-you-know",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "ff0caf3734d63a3fabb03a5f5e8a73b9cf068248252228fee4b852fe70f244c3",
+   "size_bytes": 43701640,
+   "updated": "2026-09-27T06:35:29.984Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
@@ -26218,6 +26250,22 @@
    "sha256": "b847bb4e459368431d5fa4fec35fe5ec8d19e2bd4e7c337bd909353f8240c4e1",
    "size_bytes": 10026296,
    "updated": "2026-09-19T12:27:04.857Z"
+  },
+  {
+   "declared_name": "harbor/the-standing-meetings-and-who-owes-a-yes",
+   "declared_short": "the-standing-meetings-and-who-owes-a-yes",
+   "folder": "the-standing-meetings-and-who-owes-a-yes",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "ef012e9f248a060dc7647084f0a2422c551d0c2522e183e9451fc1f5162ef903",
+   "size_bytes": 11531267,
+   "updated": "2026-09-27T06:38:15.902Z"
   },
   {
    "connector_provenance": "synthetic",
