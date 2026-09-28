@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T23:40:03+00:00",
+ "generated_at": "2026-09-28T23:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2069,
-  "scanned": 2069,
+  "task_folders": 2070,
+  "scanned": 2070,
   "connector": 552,
-  "non_connector": 1517,
+  "non_connector": 1518,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 985,
-  "code": 374,
+  "code": 375,
   "fin": 116,
   "gen": 336,
   "health": 154,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 555,
-  "obi": 1502,
+  "obi": 1503,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 265404
+  "new_archives_read": 1,
+  "approx_bytes_read": 131605
  },
  "errors": [],
  "tasks": [
@@ -7133,6 +7133,20 @@
    "sha256": "b9764196617f1e392609a2900a5fdd0528ac1abdcada675e833c49efc9de5e79",
    "size_bytes": 6125432,
    "updated": "2026-09-25T10:40:39.018Z"
+  },
+  {
+   "declared_name": "obi/code-c322-directory-listing-billing-audit",
+   "declared_short": "code-c322-directory-listing-billing-audit",
+   "folder": "code-c322-directory-listing-billing-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "924ffa9163400b4c03c6f131685ecd16603093c805c6efd4830e136c8acd27bc",
+   "size_bytes": 10202960,
+   "updated": "2026-09-28T23:41:48.313Z"
   },
   {
    "connector_provenance": null,
@@ -18318,15 +18332,15 @@
    "updated": "2026-09-27T02:06:29.174Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-sc06-b2-spin-transport-evidence",
    "declared_short": "gen-sc06-b2-spin-transport-evidence",
-   "folder": "gen-sc06-b2-spin-transport-evidence",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-sc06-b2-spin-transport-evidence",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "628bb1e080bb7308ee1a0e0f739f81820846262483bab79b9b3a6f216ebec703",
    "size_bytes": 12138346,
    "updated": "2026-09-28T23:39:22.709Z"
@@ -28887,17 +28901,17 @@
    "updated": "2026-09-23T06:31:37.991Z"
   },
   {
-   "declared_name": "harbor/the-repositories-behind-my-inbox",
-   "declared_short": "the-repositories-behind-my-inbox",
-   "folder": "the-repositories-behind-my-inbox",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-repositories-behind-my-inbox",
+   "declared_short": "the-repositories-behind-my-inbox",
    "domain": null,
+   "folder": "the-repositories-behind-my-inbox",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1c8c7788de32373d5447b11de6154bd4b94c6b0469c9a0231d015b79dde8d235",
    "size_bytes": 169539760,
    "updated": "2026-09-28T23:36:42.489Z"
