@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T02:40:03+00:00",
+ "generated_at": "2026-09-28T02:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1886,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 271723
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3819,17 +3819,17 @@
    "updated": "2026-09-13T04:17:00.613Z"
   },
   {
-   "declared_name": "harbor/clinic-days-i-lost",
-   "declared_short": "clinic-days-i-lost",
-   "folder": "clinic-days-i-lost",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/clinic-days-i-lost",
+   "declared_short": "clinic-days-i-lost",
    "domain": null,
+   "folder": "clinic-days-i-lost",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8b3f5b0604cd70ebfc42373a3e1098b4fdaa7098b49c498cb325f3b4d330baaa",
    "size_bytes": 11871209,
    "updated": "2026-09-28T02:37:30.543Z"
@@ -26568,17 +26568,17 @@
    "updated": "2026-09-22T08:45:18.835Z"
   },
   {
-   "declared_name": "harbor/the-roadmap-still-on-track",
-   "declared_short": "the-roadmap-still-on-track",
-   "folder": "the-roadmap-still-on-track",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-roadmap-still-on-track",
+   "declared_short": "the-roadmap-still-on-track",
    "domain": null,
+   "folder": "the-roadmap-still-on-track",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ffeb5a943542dce8bb550e0dbe47753b7c99024567485b370e13c9cf48e43d5b",
    "size_bytes": 8608702,
    "updated": "2026-09-28T02:38:46.543Z"
