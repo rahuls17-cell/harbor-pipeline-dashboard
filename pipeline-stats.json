@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T05:15:03+00:00",
+ "generated_at": "2026-09-28T05:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1895,
@@ -51,7 +51,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131545
+  "approx_bytes_read": 131422
  },
  "errors": [],
  "tasks": [
@@ -4219,15 +4219,15 @@
    "updated": "2026-09-26T07:55:28.118Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c125-dns-record-hygiene-audit",
    "declared_short": "code-c125-dns-record-hygiene-audit",
-   "folder": "code-c125-dns-record-hygiene-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c125-dns-record-hygiene-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6d0569d93cb4c67fb1682e889b1836437e22428820619a9946a2b82623546b7c",
    "size_bytes": 6967494,
    "updated": "2026-09-28T05:12:08.481Z"
@@ -19321,18 +19321,18 @@
    "updated": "2026-09-27T05:54:45.295Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "health/tdt11-a7-heater-service-interval-plan",
    "declared_short": "tdt11-a7-heater-service-interval-plan",
-   "domain": null,
    "folder": "health-tdt11-a7-heater-service-interval-plan",
-   "image": null,
-   "is_connector": false,
    "prefix": "health",
-   "sha256": "f2197165a45d35c94eeca6f7fdefba7e2f82cc56282d6e1011eb28b438ecd8fd",
-   "size_bytes": 5885678,
-   "updated": "2026-09-26T22:32:46.036Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "8d24eaaf9a8d4789749c2d5f297e6906f6159ce2e84b99f7dcb861e6b11c7ce3",
+   "size_bytes": 6767738,
+   "updated": "2026-09-28T05:18:37.217Z"
   },
   {
    "connector_provenance": null,
