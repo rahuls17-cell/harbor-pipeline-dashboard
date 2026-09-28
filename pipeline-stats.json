@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T09:35:04+00:00",
+ "generated_at": "2026-09-28T09:40:09+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1946,
-  "scanned": 1946,
+  "task_folders": 1947,
+  "scanned": 1947,
   "connector": 524,
-  "non_connector": 1422,
+  "non_connector": 1423,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 894,
   "code": 371,
   "fin": 114,
-  "gen": 322,
+  "gen": 323,
   "health": 143,
   "law": 102
  },
  "name_prefix": {
   "harbor": 527,
-  "obi": 1414,
+  "obi": 1415,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263162
+  "new_archives_read": 1,
+  "approx_bytes_read": 131452
  },
  "errors": [],
  "tasks": [
@@ -14235,6 +14235,20 @@
    "updated": "2026-09-26T00:31:22.600Z"
   },
   {
+   "declared_name": "obi/gen-g268-shadow-economy-paper-audit",
+   "declared_short": "gen-g268-shadow-economy-paper-audit",
+   "folder": "gen-g268-shadow-economy-paper-audit-342f16-v4-sna-dzro",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "9d607b9774b31c7f49585da4bd66b4fc108ee6ba9e2d6e6b0f3419963ba7da51",
+   "size_bytes": 6612683,
+   "updated": "2026-09-28T09:38:38.700Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g275-gift-form-compliance-audit",
@@ -16307,15 +16321,15 @@
    "updated": "2026-09-18T13:22:57.782Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g826-tender-document-brand-style-audit",
    "declared_short": "gen-g826-tender-document-brand-style-audit",
-   "folder": "gen-g826-tender-document-brand-style-audit-v37",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g826-tender-document-brand-style-audit-v37",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "42412a592e09329c6a6be98c0b6f639e84b948a6ce2eee8d3edc71ad2cd7d9b2",
    "size_bytes": 4298541,
    "updated": "2026-09-28T09:31:14.174Z"
@@ -25664,15 +25678,15 @@
    "updated": "2026-09-24T10:12:41.843Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-mg-it-b10-a9-api-prompt-retention-grid",
    "declared_short": "tech-mg-it-b10-a9-api-prompt-retention-grid",
-   "folder": "tech-mg-it-b10-a9-api-prompt-retention-grid",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-mg-it-b10-a9-api-prompt-retention-grid",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c2c91516f412e2d01cfa38634c8e59eca991bc51840996c8d94a5542dea3e92b",
    "size_bytes": 5195460,
    "updated": "2026-09-28T09:30:32.056Z"
