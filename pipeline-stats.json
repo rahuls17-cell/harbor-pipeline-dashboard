@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T22:05:02+00:00",
+ "generated_at": "2026-09-28T22:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2049,
-  "scanned": 2049,
+  "task_folders": 2050,
+  "scanned": 2050,
   "connector": 546,
-  "non_connector": 1503,
+  "non_connector": 1504,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 234
  },
  "domain": {
-  "unnamed": 969,
+  "unnamed": 970,
   "code": 373,
   "fin": 116,
   "gen": 334,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 549,
-  "obi": 1489,
+  "obi": 1490,
   "bus": 1,
   "edu": 2,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131442
  },
  "errors": [],
  "tasks": [
@@ -10751,6 +10751,20 @@
    "sha256": "4a23b0e2d7fe8751aebd60f6be0c1e20b855937833408f64cd349993a02035f6",
    "size_bytes": 7098677,
    "updated": "2026-09-28T08:26:37.272Z"
+  },
+  {
+   "declared_name": "obi/edu-b50-e5-verse-reading-adjudication",
+   "declared_short": "edu-b50-e5-verse-reading-adjudication",
+   "folder": "edu-b50-e5-verse-reading-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "005bebfb826f1818ddb849d09c85eb842c9a4a840f05a8765a243ba06e11f2ed",
+   "size_bytes": 6481361,
+   "updated": "2026-09-28T22:06:30.406Z"
   },
   {
    "connector_provenance": null,
