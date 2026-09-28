@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T09:45:04+00:00",
+ "generated_at": "2026-09-28T09:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1947,
-  "scanned": 1947,
+  "task_folders": 1948,
+  "scanned": 1948,
   "connector": 524,
-  "non_connector": 1423,
+  "non_connector": 1424,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 222
  },
  "domain": {
-  "unnamed": 894,
+  "unnamed": 895,
   "code": 371,
   "fin": 114,
   "gen": 323,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 527,
-  "obi": 1415,
+  "obi": 1416,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131519
  },
  "errors": [],
  "tasks": [
@@ -11019,6 +11019,20 @@
    "sha256": "14d5cd23406199ebba2477e9445f10d2d0e59b4862ed2eeda354486a6d517cc5",
    "size_bytes": 4423426,
    "updated": "2026-09-27T13:22:12.525Z"
+  },
+  {
+   "declared_name": "obi/edu-sch-b5-fy2024-net-position-ratios-and-workbook-issue-log",
+   "declared_short": "edu-sch-b5-fy2024-net-position-ratios-and-workbook-issue-log",
+   "folder": "edu-sch-b5-fy2024-net-position-ratios-and-workbook-issue-log",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1c13ed41eacf584adba2be6cee528dfec86f78952ec446c5f131361eea99e9af",
+   "size_bytes": 4634054,
+   "updated": "2026-09-28T09:47:54.670Z"
   },
   {
    "connector_provenance": null,
