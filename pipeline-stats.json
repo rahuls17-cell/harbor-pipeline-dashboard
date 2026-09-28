@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-28T17:15:04+00:00",
+ "generated_at": "2026-09-28T17:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2001,
-  "scanned": 2001,
-  "connector": 530,
-  "non_connector": 1471,
+  "task_folders": 2003,
+  "scanned": 2003,
+  "connector": 531,
+  "non_connector": 1472,
   "errors": 0
  },
  "connector_provenance": {
   "real": 141,
   "unknown": 163,
-  "synthetic": 226
+  "synthetic": 227
  },
  "domain": {
-  "unnamed": 937,
+  "unnamed": 938,
   "code": 372,
   "fin": 116,
-  "gen": 325,
+  "gen": 326,
   "health": 148,
   "law": 103
  },
  "name_prefix": {
-  "harbor": 533,
-  "obi": 1459,
+  "harbor": 534,
+  "obi": 1460,
   "bus": 1,
   "edu": 1,
   "vankamasthanamma": 1,
@@ -43,8 +43,8 @@
   "notion-gym": 46,
   "linear-gym": 38,
   "outlook-gym": 37,
+  "gws-gym": 36,
   "github-gym": 36,
-  "gws-gym": 35,
   "email-calendar-gym": 34,
   "supabase-gym": 6,
   "teams-gym": 5,
@@ -53,8 +53,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 533158
+  "new_archives_read": 2,
+  "approx_bytes_read": 265490
  },
  "errors": [],
  "tasks": [
@@ -13508,6 +13508,20 @@
    "updated": "2026-09-21T21:24:44.074Z"
   },
   {
+   "declared_name": "obi/gen-g1000-stock-photo-license-usage-audit",
+   "declared_short": "gen-g1000-stock-photo-license-usage-audit",
+   "folder": "gen-g1000-stock-photo-license-usage-audit-harden-e95255-v4-sna-hees",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "49bb558f2f3fca31ade7b5f8b5aedde02570aa3195ace8317e8ec133c36f6a6c",
+   "size_bytes": 5896517,
+   "updated": "2026-09-28T17:15:15.653Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g1111-ebp-source-pool-inclusion-audit",
@@ -17814,17 +17828,17 @@
    "updated": "2026-09-21T19:46:36.923Z"
   },
   {
-   "declared_name": "harbor/half-of-what-it-points-at-is-itself",
-   "declared_short": "half-of-what-it-points-at-is-itself",
-   "folder": "half-of-what-it-points-at-is-itself",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/half-of-what-it-points-at-is-itself",
+   "declared_short": "half-of-what-it-points-at-is-itself",
    "domain": null,
+   "folder": "half-of-what-it-points-at-is-itself",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "aac4fb757d000b8f6877ca12038ad8b0b55b90a96051c0c03d1ae3761bccac43",
    "size_bytes": 6720599,
    "updated": "2026-09-28T17:13:07.337Z"
@@ -19410,15 +19424,15 @@
    "updated": "2026-09-24T05:18:44.010Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h12-formulary-interaction-screen",
    "declared_short": "health-h12-formulary-interaction-screen",
-   "folder": "health-h12-formulary-interaction-screen",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h12-formulary-interaction-screen",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b9bd2e94ea2165f8c6dc7f315983694528bbd0bff870a9e4738561b7f0e9f679",
    "size_bytes": 6493345,
    "updated": "2026-09-28T17:12:20.063Z"
@@ -19816,15 +19830,15 @@
    "updated": "2026-09-06T12:49:53.041Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h6-visit-window-compliance",
    "declared_short": "health-h6-visit-window-compliance",
-   "folder": "health-h6-visit-window-compliance",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h6-visit-window-compliance",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "555e30ca38b73169362be83efdd9744c470ae16445cd11b4736becca8b363a79",
    "size_bytes": 6493776,
    "updated": "2026-09-28T17:14:47.147Z"
@@ -26777,6 +26791,22 @@
    "updated": "2026-09-17T16:55:29.261Z"
   },
   {
+   "declared_name": "harbor/the-atlas-docs-kept-twice",
+   "declared_short": "the-atlas-docs-kept-twice",
+   "folder": "the-atlas-docs-kept-twice",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "772c16b49a9f53290bb3f96d8058943dda6982fb2f98d1ea8aa42050d9ae00e3",
+   "size_bytes": 10176107,
+   "updated": "2026-09-28T17:16:34.605Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
@@ -27289,17 +27319,17 @@
    "updated": "2026-09-23T07:21:54.857Z"
   },
   {
-   "declared_name": "harbor/the-investor-contacts-held-twice",
-   "declared_short": "the-investor-contacts-held-twice",
-   "folder": "the-investor-contacts-held-twice",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-investor-contacts-held-twice",
+   "declared_short": "the-investor-contacts-held-twice",
    "domain": null,
+   "folder": "the-investor-contacts-held-twice",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "095f6646dbc18e1778a4067cab21f27747f875d8244261ea6e58debc02a745c9",
    "size_bytes": 13413139,
    "updated": "2026-09-28T17:10:52.738Z"
