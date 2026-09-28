@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T11:50:04+00:00",
+ "generated_at": "2026-09-28T11:55:06+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1962,
-  "scanned": 1962,
+  "task_folders": 1963,
+  "scanned": 1963,
   "connector": 526,
-  "non_connector": 1436,
+  "non_connector": 1437,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 223
  },
  "domain": {
-  "unnamed": 906,
+  "unnamed": 907,
   "code": 371,
   "fin": 115,
   "gen": 323,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 529,
-  "obi": 1428,
+  "obi": 1429,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263251
  },
  "errors": [],
  "tasks": [
@@ -2993,6 +2993,20 @@
    "updated": "2026-09-23T19:36:41.873Z"
   },
   {
+   "declared_name": "obi/bus-b48-b7-valuation-comparable-contradiction",
+   "declared_short": "bus-b48-b7-valuation-comparable-contradiction",
+   "folder": "bus-b48-b7-valuation-comparable-contradiction",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "ba93f9b4818cc831f2695f93a560bf2ec520772fe36dc609b2910bb1b392388b",
+   "size_bytes": 8183776,
+   "updated": "2026-09-28T11:54:48.101Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b48-b8-briefing-claim-evidence-normalisation",
@@ -3903,18 +3917,18 @@
    "updated": "2026-09-09T04:36:46.374Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/career-b49-l7-eeo-competency-evidence-coverage",
    "declared_short": "career-b49-l7-eeo-competency-evidence-coverage",
-   "domain": null,
    "folder": "career-b49-l7-eeo-competency-evidence-coverage",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "ef84d12c3200cb0836e33a797598c763a399a82910503c41aeed9ec73797e1c3",
-   "size_bytes": 9099678,
-   "updated": "2026-09-28T07:23:59.348Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1bd359da9b12bd2092291e8add84e1357665b1949265cce1209b8bd47f5e50f2",
+   "size_bytes": 7850612,
+   "updated": "2026-09-28T11:54:50.907Z"
   },
   {
    "connector_provenance": null,
