@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T07:45:04+00:00",
+ "generated_at": "2026-09-28T07:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1914,
-  "scanned": 1914,
+  "task_folders": 1915,
+  "scanned": 1915,
   "connector": 519,
-  "non_connector": 1395,
+  "non_connector": 1396,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 368,
   "fin": 114,
   "gen": 318,
-  "health": 140,
+  "health": 141,
   "law": 101
  },
  "name_prefix": {
   "harbor": 522,
-  "obi": 1387,
+  "obi": 1388,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131477
  },
  "errors": [],
  "tasks": [
@@ -19907,6 +19907,20 @@
    "sha256": "e950546f53df85c17f90f5f3bec80507436d5c3f890ee47d6e30da9380527078",
    "size_bytes": 5755845,
    "updated": "2026-09-26T19:15:53.105Z"
+  },
+  {
+   "declared_name": "obi/health-tdt8-a6-home-health-service-line-adjudication",
+   "declared_short": "health-tdt8-a6-home-health-service-line-adjudication",
+   "folder": "health-tdt8-a6-home-health-service-line-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "794b04c7aabd0e8a4cce9af3a0c8dd36f5c75b62b1e55b1cc2e9749e80d14b36",
+   "size_bytes": 4287270,
+   "updated": "2026-09-28T07:47:02.834Z"
   },
   {
    "connector_provenance": null,
