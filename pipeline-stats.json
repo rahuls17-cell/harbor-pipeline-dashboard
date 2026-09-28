@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T21:55:03+00:00",
+ "generated_at": "2026-09-28T22:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2048,
-  "scanned": 2048,
+  "task_folders": 2049,
+  "scanned": 2049,
   "connector": 546,
-  "non_connector": 1502,
+  "non_connector": 1503,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 234
  },
  "domain": {
-  "unnamed": 968,
+  "unnamed": 969,
   "code": 373,
   "fin": 116,
   "gen": 334,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 549,
-  "obi": 1488,
+  "obi": 1489,
   "bus": 1,
   "edu": 2,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131585
+  "approx_bytes_read": 131599
  },
  "errors": [],
  "tasks": [
@@ -10725,6 +10725,20 @@
    "updated": "2026-09-28T08:20:10.715Z"
   },
   {
+   "declared_name": "obi/edu-b50-e1-exam-question-blueprint",
+   "declared_short": "edu-b50-e1-exam-question-blueprint",
+   "folder": "edu-b50-e1-exam-question-blueprint",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "cd9fd9c1c2dab430087306c265d9b2fa11a2955d88f674cba897251f3b9d68d2",
+   "size_bytes": 8754505,
+   "updated": "2026-09-28T21:58:22.549Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-b50-e4-pd-catalogue-normalisation",
@@ -15507,15 +15521,15 @@
    "updated": "2026-09-08T12:37:31.395Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g368-assignment-submission-compliance-audit",
    "declared_short": "gen-g368-assignment-submission-compliance-audit",
-   "folder": "gen-g368-assignment-submission-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g368-assignment-submission-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "86a50fe41dc52683c69ab4cd9c96437158cc202cd494cd11b05a10cbc97b5bb7",
    "size_bytes": 6011816,
    "updated": "2026-09-28T21:50:28.374Z"
