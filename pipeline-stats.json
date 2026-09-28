@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T19:45:04+00:00",
+ "generated_at": "2026-09-28T19:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2025,
-  "scanned": 2025,
+  "task_folders": 2027,
+  "scanned": 2027,
   "connector": 540,
-  "non_connector": 1485,
+  "non_connector": 1487,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 230
  },
  "domain": {
-  "unnamed": 952,
+  "unnamed": 954,
   "code": 373,
   "fin": 116,
   "gen": 329,
@@ -25,10 +25,10 @@
   "harbor": 543,
   "obi": 1473,
   "bus": 1,
-  "edu": 1,
+  "edu": 2,
   "vankamasthanamma": 1,
   "health": 3,
-  "tech": 1,
+  "tech": 2,
   "writing": 2
  },
  "connector_services": {
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 262822
+  "approx_bytes_read": 263005
  },
  "errors": [],
  "tasks": [
@@ -10869,6 +10869,20 @@
    "updated": "2026-09-28T12:13:11.410Z"
   },
   {
+   "declared_name": "edu/mg-edu-b16-a1-reading-list-citation-handback",
+   "declared_short": "mg-edu-b16-a1-reading-list-citation-handback",
+   "folder": "edu-mg-edu-b16-a1-reading-list-citation-handback",
+   "prefix": "edu",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "d83626de60af087f372bc46ef763e3ed9ba9fa4885bed60bd85cb859ae4abe90",
+   "size_bytes": 4675604,
+   "updated": "2026-09-28T19:46:12.557Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-s1-a1-ratio-reference-categorisation",
@@ -13985,15 +13999,15 @@
    "updated": "2026-09-25T10:01:03.644Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1186-subscription-tier-marketing-claim-audit",
    "declared_short": "gen-g1186-subscription-tier-marketing-claim-audit",
-   "folder": "gen-g1186-subscription-tier-marketing-claim-audit-96fd64-v17-sna-uysu",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1186-subscription-tier-marketing-claim-audit-96fd64-v17-sna-uysu",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d05465c3616e6dfa72f33f1f479501e1127489f9a7570612afcd4cae6b990d5f",
    "size_bytes": 5853551,
    "updated": "2026-09-28T19:44:22.687Z"
@@ -15343,15 +15357,15 @@
    "updated": "2026-09-23T04:39:50.132Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g374-land-disposition-notification-audit",
    "declared_short": "gen-g374-land-disposition-notification-audit",
-   "folder": "gen-g374-land-disposition-notification-audit-60efc7-v7-sna-fayg",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g374-land-disposition-notification-audit-60efc7-v7-sna-fayg",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "bc83e0560c0c1621949db9748a16dc724ef087b58688ce741ee53b72e8046374",
    "size_bytes": 4968338,
    "updated": "2026-09-28T19:40:10.730Z"
@@ -25962,6 +25976,20 @@
    "sha256": "6906ee74f2dca947403e0d7880c8e2ab72102e3cbd61a28fbd8ebbe5baa04973",
    "size_bytes": 8652234,
    "updated": "2026-09-24T17:01:48.502Z"
+  },
+  {
+   "declared_name": "tech/b53-t3-monitor-feed-output-plan",
+   "declared_short": "b53-t3-monitor-feed-output-plan",
+   "folder": "tech-b53-t3-monitor-feed-output-plan",
+   "prefix": "tech",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "3a8a4dc1dcc900e99ff5f1d13500ee0179b0bc9247488fca8604de6f32dbe03f",
+   "size_bytes": 5637285,
+   "updated": "2026-09-28T19:49:53.575Z"
   },
   {
    "connector_provenance": null,
