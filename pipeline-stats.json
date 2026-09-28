@@ -1,41 +1,41 @@
 {
- "generated_at": "2026-09-28T11:15:03+00:00",
+ "generated_at": "2026-09-28T11:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1958,
-  "scanned": 1958,
-  "connector": 525,
-  "non_connector": 1433,
+  "task_folders": 1960,
+  "scanned": 1960,
+  "connector": 526,
+  "non_connector": 1434,
   "errors": 0
  },
  "connector_provenance": {
   "real": 141,
-  "unknown": 161,
+  "unknown": 162,
   "synthetic": 223
  },
  "domain": {
-  "unnamed": 903,
+  "unnamed": 904,
   "code": 371,
   "fin": 115,
   "gen": 323,
-  "health": 144,
+  "health": 145,
   "law": 102
  },
  "name_prefix": {
-  "harbor": 528,
-  "obi": 1425,
+  "harbor": 529,
+  "obi": 1426,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
  },
  "connector_services": {
-  "google-drive-gym": 197,
-  "slack-gym": 194,
-  "zeta3-sql-gym": 191,
-  "confluence-gym": 185,
-  "jira-gym": 183,
-  "email-gym": 180,
-  "freshdesk-gym": 180,
+  "google-drive-gym": 198,
+  "slack-gym": 195,
+  "zeta3-sql-gym": 192,
+  "confluence-gym": 186,
+  "jira-gym": 184,
+  "email-gym": 181,
+  "freshdesk-gym": 181,
   "slack": 64,
   "notion-gym": 46,
   "linear-gym": 37,
@@ -51,7 +51,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 262880
+  "approx_bytes_read": 265990
  },
  "errors": [],
  "tasks": [
@@ -1231,6 +1231,28 @@
    "updated": "2026-09-13T04:16:24.903Z"
   },
   {
+   "declared_name": "harbor/automation-edit-spawning-a-duplicate-active-automation",
+   "declared_short": "automation-edit-spawning-a-duplicate-active-automation",
+   "folder": "automation-edit-spawning-a-duplicate-active-automation",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "0805a7736c38d2fc0cf62014c2c51b4887f05ac546e7acfe2c24309ecd882dcd",
+   "size_bytes": 10708841,
+   "updated": "2026-09-28T11:16:05.645Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
@@ -1977,15 +1999,15 @@
    "updated": "2026-09-25T19:00:34.548Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b22-b13-wellness-content-funnel-calendar",
    "declared_short": "bus-b22-b13-wellness-content-funnel-calendar",
-   "folder": "bus-b22-b13-wellness-content-funnel-calendar",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b22-b13-wellness-content-funnel-calendar",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b4670da26559e85a3a23bc48986aa44502b83e48c2b457c3d729e1c95baad4c3",
    "size_bytes": 7640899,
    "updated": "2026-09-28T11:13:57.264Z"
@@ -10995,15 +11017,15 @@
    "updated": "2026-09-28T10:21:20.537Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sca-b25-first-session-back-placement-reconciliation",
    "declared_short": "edu-sca-b25-first-session-back-placement-reconciliation",
-   "folder": "edu-sca-b25-first-session-back-placement-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sca-b25-first-session-back-placement-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d66839fda3c9c7d0102ed7a0d1cf66bd944b2a8cce901bd67ddbbac7090b9607",
    "size_bytes": 8148225,
    "updated": "2026-09-28T11:14:44.039Z"
@@ -19043,6 +19065,20 @@
    "sha256": "a26305ef8765b26670780952c4b14b441e3ed67b8f6b410bde459503654a42a3",
    "size_bytes": 6463469,
    "updated": "2026-09-06T15:30:03.413Z"
+  },
+  {
+   "declared_name": "obi/health-h14-sample-stability-audit",
+   "declared_short": "health-h14-sample-stability-audit",
+   "folder": "health-h14-sample-stability-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "377ad65be75cc2e9dfc2ed764e3bdce8b9580a5ad2659bf3d557e4114330dacb",
+   "size_bytes": 6258905,
+   "updated": "2026-09-28T11:17:04.416Z"
   },
   {
    "connector_provenance": null,
