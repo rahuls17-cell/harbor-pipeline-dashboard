@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T06:15:03+00:00",
+ "generated_at": "2026-09-28T06:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1899,
-  "scanned": 1899,
+  "task_folders": 1900,
+  "scanned": 1900,
   "connector": 515,
-  "non_connector": 1384,
+  "non_connector": 1385,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 216
  },
  "domain": {
-  "unnamed": 863,
+  "unnamed": 864,
   "code": 364,
   "fin": 114,
   "gen": 317,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 518,
-  "obi": 1376,
+  "obi": 1377,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -51,7 +51,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131730
+  "approx_bytes_read": 131499
  },
  "errors": [],
  "tasks": [
@@ -10179,15 +10179,15 @@
    "updated": "2026-09-24T16:07:00.067Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-mg-edu-b13-a3-feed-enzyme-mentoring-plan-order",
    "declared_short": "edu-mg-edu-b13-a3-feed-enzyme-mentoring-plan-order",
-   "folder": "edu-mg-edu-b13-a3-feed-enzyme-mentoring-plan-order",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-mg-edu-b13-a3-feed-enzyme-mentoring-plan-order",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7bc921851d31bd06f3561acf2562a60e581244329b9aea5ad15291d05b15d1fa",
    "size_bytes": 5151579,
    "updated": "2026-09-28T06:14:11.604Z"
@@ -10653,6 +10653,20 @@
    "sha256": "12ce425fbc016cc99f4533c4a353d97316c5278aeec85dfda7230ddfafa2c147",
    "size_bytes": 6066905,
    "updated": "2026-09-27T23:38:31.872Z"
+  },
+  {
+   "declared_name": "obi/edu-sch-b12-labour-survey-ledger-recompute",
+   "declared_short": "edu-sch-b12-labour-survey-ledger-recompute",
+   "folder": "edu-sch-b12-labour-survey-ledger-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "7b701aa68d6cd590a699da906033e633ac6e0379ac11c1e130a69f421ce541d6",
+   "size_bytes": 5344051,
+   "updated": "2026-09-28T06:16:05.854Z"
   },
   {
    "connector_provenance": null,
