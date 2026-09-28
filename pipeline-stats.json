@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T08:30:04+00:00",
+ "generated_at": "2026-09-28T08:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1926,
-  "scanned": 1926,
+  "task_folders": 1929,
+  "scanned": 1929,
   "connector": 522,
-  "non_connector": 1404,
+  "non_connector": 1407,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 221
  },
  "domain": {
-  "unnamed": 883,
-  "code": 368,
+  "unnamed": 885,
+  "code": 369,
   "fin": 114,
   "gen": 318,
   "health": 142,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 525,
-  "obi": 1396,
+  "obi": 1399,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262937
+  "new_archives_read": 3,
+  "approx_bytes_read": 394713
  },
  "errors": [],
  "tasks": [
@@ -3403,15 +3403,15 @@
    "updated": "2026-09-28T06:27:59.271Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b58-t7-investor-deal-lead-attribution",
    "declared_short": "bus-b58-t7-investor-deal-lead-attribution",
-   "folder": "bus-b58-t7-investor-deal-lead-attribution",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b58-t7-investor-deal-lead-attribution",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a7f05b044d5ce11ca5c17c1217afa0081ba43ce8ca40c68d773234c7ba0b5ede",
    "size_bytes": 4025183,
    "updated": "2026-09-28T08:25:49.327Z"
@@ -8155,6 +8155,20 @@
    "updated": "2026-09-26T23:05:15.354Z"
   },
   {
+   "declared_name": "obi/code-c557-investor-benchmark-governance-audit",
+   "declared_short": "code-c557-investor-benchmark-governance-audit",
+   "folder": "code-c557-investor-benchmark-governance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "e2d23f4ea64f200605a57cdf032736f085ccb4974a20a29742299a1c6cd0445a",
+   "size_bytes": 6050694,
+   "updated": "2026-09-28T08:32:18.606Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c558-pipeline-path-handoff-audit",
@@ -10181,15 +10195,15 @@
    "updated": "2026-09-28T08:20:10.715Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-b50-e4-pd-catalogue-normalisation",
    "declared_short": "edu-b50-e4-pd-catalogue-normalisation",
-   "folder": "edu-b50-e4-pd-catalogue-normalisation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-b50-e4-pd-catalogue-normalisation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4a23b0e2d7fe8751aebd60f6be0c1e20b855937833408f64cd349993a02035f6",
    "size_bytes": 7098677,
    "updated": "2026-09-28T08:26:37.272Z"
@@ -10893,6 +10907,20 @@
    "sha256": "2ffac26f8f3dc40c3a07bf7a41ed9a5937aa61595e60919986553adc825809fc",
    "size_bytes": 2965683,
    "updated": "2026-09-27T14:48:30.498Z"
+  },
+  {
+   "declared_name": "obi/edu-sch-b17-5dd7aed2-5fcc-4744-8284-b73121d8ffba",
+   "declared_short": "edu-sch-b17-5dd7aed2-5fcc-4744-8284-b73121d8ffba",
+   "folder": "edu-sch-b17-5dd7aed2-5fcc-4744-8284-b73121d8ffba",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "38db776a8e1049578a87088af08208d102efc6eb341fd1223926f689e2088eca",
+   "size_bytes": 2978201,
+   "updated": "2026-09-28T08:34:04.265Z"
   },
   {
    "connector_provenance": null,
@@ -23161,6 +23189,20 @@
    "sha256": "308a2dd5921cfee53ec066bd48549010bc30024b5a389c37ca8db5359f931b09",
    "size_bytes": 11546594,
    "updated": "2026-09-25T18:36:37.952Z"
+  },
+  {
+   "declared_name": "obi/sci-sc07-b7-benchmark-file-manifest",
+   "declared_short": "sci-sc07-b7-benchmark-file-manifest",
+   "folder": "sci-sc07-b7-benchmark-file-manifest-v6",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "204c1f65cab43b9c87e407cfd3500db07a3b37abcecf7c417418cd25e624f260",
+   "size_bytes": 14805472,
+   "updated": "2026-09-28T08:32:47.399Z"
   },
   {
    "connector_provenance": null,
