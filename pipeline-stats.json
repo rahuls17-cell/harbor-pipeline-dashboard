@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-28T19:20:03+00:00",
+ "generated_at": "2026-09-28T19:25:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2019,
-  "scanned": 2019,
-  "connector": 537,
+  "task_folders": 2021,
+  "scanned": 2021,
+  "connector": 539,
   "non_connector": 1482,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 141,
-  "unknown": 166,
+  "real": 142,
+  "unknown": 167,
   "synthetic": 230
  },
  "domain": {
-  "unnamed": 949,
+  "unnamed": 951,
   "code": 373,
   "fin": 116,
   "gen": 327,
@@ -22,7 +22,7 @@
   "law": 104
  },
  "name_prefix": {
-  "harbor": 540,
+  "harbor": 542,
   "obi": 1470,
   "bus": 1,
   "edu": 1,
@@ -33,7 +33,7 @@
  },
  "connector_services": {
   "google-drive-gym": 199,
-  "slack-gym": 197,
+  "slack-gym": 199,
   "zeta3-sql-gym": 193,
   "confluence-gym": 187,
   "jira-gym": 185,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131585
+  "new_archives_read": 3,
+  "approx_bytes_read": 400831
  },
  "errors": [],
  "tasks": [
@@ -10533,15 +10533,15 @@
    "updated": "2026-09-21T15:51:59.465Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-b21-g17-aclp-activity-plan-transform",
    "declared_short": "edu-b21-g17-aclp-activity-plan-transform",
-   "folder": "edu-b21-g17-aclp-activity-plan-transform",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-b21-g17-aclp-activity-plan-transform",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a8238b248408ecd7d1672d57202eadbd7a43373c7f1510d8cba790f94e16d0a1",
    "size_bytes": 8181012,
    "updated": "2026-09-28T19:15:24.197Z"
@@ -20139,18 +20139,18 @@
    "updated": "2026-09-10T02:25:07.107Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/health-h9-vaccine-interval-compliance",
    "declared_short": "health-h9-vaccine-interval-compliance",
-   "domain": "health",
    "folder": "health-h9-vaccine-interval-compliance",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "4ea2e872323eec467bdf72fb297b8b78fb9136f7d5a7b2cc02719bff60f79284",
-   "size_bytes": 5727262,
-   "updated": "2026-09-28T18:28:42.452Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "1e14ad20b51178498d67951c2af47a87bfd8d0a3db0cfbbe8e679bf88b446ee1",
+   "size_bytes": 6070162,
+   "updated": "2026-09-28T19:23:29.825Z"
   },
   {
    "connector_provenance": null,
@@ -28164,6 +28164,22 @@
    "updated": "2026-09-23T22:34:18.890Z"
   },
   {
+   "declared_name": "harbor/the-replies-sent-to-the-whole-channel",
+   "declared_short": "the-replies-sent-to-the-whole-channel",
+   "folder": "the-replies-sent-to-the-whole-channel",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "e1fc41688ba42743f4712dacb64d889292357fe68e144a584d6dad075b7e6963",
+   "size_bytes": 23827423,
+   "updated": "2026-09-28T19:24:03.387Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -28418,6 +28434,22 @@
    "sha256": "b847bb4e459368431d5fa4fec35fe5ec8d19e2bd4e7c337bd909353f8240c4e1",
    "size_bytes": 10026296,
    "updated": "2026-09-19T12:27:04.857Z"
+  },
+  {
+   "declared_name": "harbor/the-screenshot-pile",
+   "declared_short": "the-screenshot-pile",
+   "folder": "the-screenshot-pile",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "d5d10337384f020a5866873dfec57f0ca49b0c45660d4991f10e4a45fa3cbffa",
+   "size_bytes": 7633565,
+   "updated": "2026-09-28T19:24:58.194Z"
   },
   {
    "connector_provenance": "synthetic",
