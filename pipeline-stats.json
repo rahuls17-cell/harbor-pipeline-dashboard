@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T11:00:05+00:00",
+ "generated_at": "2026-09-28T11:05:06+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1954,
-  "scanned": 1954,
+  "task_folders": 1955,
+  "scanned": 1955,
   "connector": 525,
-  "non_connector": 1429,
+  "non_connector": 1430,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 223
  },
  "domain": {
-  "unnamed": 899,
+  "unnamed": 900,
   "code": 371,
   "fin": 115,
   "gen": 323,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 528,
-  "obi": 1421,
+  "obi": 1422,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131451
  },
  "errors": [],
  "tasks": [
@@ -25902,6 +25902,20 @@
    "sha256": "4ddeef066a45b85114800f75e756ea708fed4a7a3a50949a07bd0e77c55c3e4e",
    "size_bytes": 8281864,
    "updated": "2026-09-21T16:50:02.491Z"
+  },
+  {
+   "declared_name": "obi/tech-mg-it-b5-a9-basement-network-option-explainer",
+   "declared_short": "tech-mg-it-b5-a9-basement-network-option-explainer",
+   "folder": "tech-mg-it-b5-a9-basement-network-option-explainer",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "3aeaf4eb8a774e2d4edb914e88d7465a95e7831677917bc7fb7a1bd0cbaec855",
+   "size_bytes": 4535313,
+   "updated": "2026-09-28T11:01:09.185Z"
   },
   {
    "connector_provenance": null,
