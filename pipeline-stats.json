@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T17:00:04+00:00",
+ "generated_at": "2026-09-28T17:05:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1994,
-  "scanned": 1994,
+  "task_folders": 1997,
+  "scanned": 1997,
   "connector": 528,
-  "non_connector": 1466,
+  "non_connector": 1469,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 224
  },
  "domain": {
-  "unnamed": 934,
-  "code": 371,
+  "unnamed": 935,
+  "code": 372,
   "fin": 116,
-  "gen": 324,
+  "gen": 325,
   "health": 146,
   "law": 103
  },
  "name_prefix": {
   "harbor": 531,
-  "obi": 1454,
+  "obi": 1457,
   "bus": 1,
   "edu": 1,
   "vankamasthanamma": 1,
@@ -53,8 +53,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131825
+  "new_archives_read": 3,
+  "approx_bytes_read": 394758
  },
  "errors": [],
  "tasks": [
@@ -6868,6 +6868,20 @@
    "updated": "2026-09-27T23:08:08.911Z"
   },
   {
+   "declared_name": "obi/code-c315-backrun-candidate-promotion-gate-audit",
+   "declared_short": "code-c315-backrun-candidate-promotion-gate-audit",
+   "folder": "code-c315-backrun-candidate-promotion-gate-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "c55563d1dcf931d02ad49aa8223d7c6e8ec6b72fc17f0982f5547db4e767c903",
+   "size_bytes": 5405200,
+   "updated": "2026-09-28T17:03:16.181Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c317-msp-backup-verification-audit",
@@ -11344,15 +11358,15 @@
    "updated": "2026-09-27T11:54:42.789Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sca-b34-aerospace-wrestling-shortlist-review",
    "declared_short": "edu-sca-b34-aerospace-wrestling-shortlist-review",
-   "folder": "edu-sca-b34-aerospace-wrestling-shortlist-review-v1",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sca-b34-aerospace-wrestling-shortlist-review-v1",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a9e6ecd400f6b4277b665fed7ea48be458c54ebefb59eb398327752be10c379c",
    "size_bytes": 11515486,
    "updated": "2026-09-28T16:58:22.934Z"
@@ -13688,6 +13702,20 @@
    "sha256": "046bd6f86a8e5daec77246551ebb4aef60d3b2a645efe31c17daf7ae5931397e",
    "size_bytes": 6124317,
    "updated": "2026-09-09T13:40:51.980Z"
+  },
+  {
+   "declared_name": "obi/gen-g1137-closing-entries-reconciliation-audit",
+   "declared_short": "gen-g1137-closing-entries-reconciliation-audit",
+   "folder": "gen-g1137-closing-entries-reconciliation-audit-D-37080f-v1-s96-oyzt",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "37a828ca9e7e78671a879a4c871d37d71afc63d13d2416f6c6e2771e11b1f9c8",
+   "size_bytes": 6337169,
+   "updated": "2026-09-28T17:02:50.750Z"
   },
   {
    "connector_provenance": null,
@@ -25229,6 +25257,20 @@
    "sha256": "59a63be5c6b554127f3d1493dd26c4d77edf0b54b153a4a95360e721cb9a2db2",
    "size_bytes": 10728434,
    "updated": "2026-09-26T15:45:04.265Z"
+  },
+  {
+   "declared_name": "obi/tech-b50-t5-packaged-goods-weight-overcharge-attribution",
+   "declared_short": "tech-b50-t5-packaged-goods-weight-overcharge-attribution",
+   "folder": "tech-b50-t5-packaged-goods-weight-overcharge-attribution-v3",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "7696e448b5913e0f26697e1710480aeda8ffde86d65b74890d567e1d7ba008fc",
+   "size_bytes": 11316095,
+   "updated": "2026-09-28T17:04:20.941Z"
   },
   {
    "connector_provenance": null,
