@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-28T19:50:03+00:00",
+ "generated_at": "2026-09-28T19:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2027,
-  "scanned": 2027,
-  "connector": 540,
+  "task_folders": 2028,
+  "scanned": 2028,
+  "connector": 541,
   "non_connector": 1487,
   "errors": 0
  },
  "connector_provenance": {
   "real": 142,
   "unknown": 168,
-  "synthetic": 230
+  "synthetic": 231
  },
  "domain": {
-  "unnamed": 954,
+  "unnamed": 955,
   "code": 373,
   "fin": 116,
   "gen": 329,
@@ -22,7 +22,7 @@
   "law": 104
  },
  "name_prefix": {
-  "harbor": 543,
+  "harbor": 544,
   "obi": 1473,
   "bus": 1,
   "edu": 2,
@@ -43,8 +43,8 @@
   "notion-gym": 46,
   "linear-gym": 39,
   "outlook-gym": 38,
+  "email-calendar-gym": 37,
   "gws-gym": 37,
-  "email-calendar-gym": 36,
   "github-gym": 36,
   "supabase-gym": 6,
   "teams-gym": 5,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263005
+  "new_archives_read": 1,
+  "approx_bytes_read": 138050
  },
  "errors": [],
  "tasks": [
@@ -10869,15 +10869,15 @@
    "updated": "2026-09-28T12:13:11.410Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "edu/mg-edu-b16-a1-reading-list-citation-handback",
    "declared_short": "mg-edu-b16-a1-reading-list-citation-handback",
-   "folder": "edu-mg-edu-b16-a1-reading-list-citation-handback",
-   "prefix": "edu",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-mg-edu-b16-a1-reading-list-citation-handback",
    "image": null,
+   "is_connector": false,
+   "prefix": "edu",
    "sha256": "d83626de60af087f372bc46ef763e3ed9ba9fa4885bed60bd85cb859ae4abe90",
    "size_bytes": 4675604,
    "updated": "2026-09-28T19:46:12.557Z"
@@ -25978,15 +25978,15 @@
    "updated": "2026-09-24T17:01:48.502Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "tech/b53-t3-monitor-feed-output-plan",
    "declared_short": "b53-t3-monitor-feed-output-plan",
-   "folder": "tech-b53-t3-monitor-feed-output-plan",
-   "prefix": "tech",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b53-t3-monitor-feed-output-plan",
    "image": null,
+   "is_connector": false,
+   "prefix": "tech",
    "sha256": "3a8a4dc1dcc900e99ff5f1d13500ee0179b0bc9247488fca8604de6f32dbe03f",
    "size_bytes": 5637285,
    "updated": "2026-09-28T19:49:53.575Z"
@@ -29940,6 +29940,22 @@
    "sha256": "eed8991a22e3a49d67df9862b42ce7775e8a15571a6f373f024f2af7fc502cad",
    "size_bytes": 8708985,
    "updated": "2026-09-25T12:12:54.362Z"
+  },
+  {
+   "declared_name": "harbor/which-fax-line-rings-most",
+   "declared_short": "which-fax-line-rings-most",
+   "folder": "which-fax-line-rings-most",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "87751448df4e9b8ed935848bf70b614bd42e27ec8bfcd8209bd3d9c8e990b282",
+   "size_bytes": 7155523,
+   "updated": "2026-09-28T19:51:03.056Z"
   },
   {
    "connector_provenance": "real",
