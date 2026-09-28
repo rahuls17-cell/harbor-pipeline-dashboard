@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T06:45:02+00:00",
+ "generated_at": "2026-09-28T06:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1905,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135840
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -26908,17 +26908,17 @@
    "updated": "2026-09-21T16:04:02.252Z"
   },
   {
-   "declared_name": "harbor/the-same-mail-over-and-over",
-   "declared_short": "the-same-mail-over-and-over",
-   "folder": "the-same-mail-over-and-over",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-same-mail-over-and-over",
+   "declared_short": "the-same-mail-over-and-over",
    "domain": null,
+   "folder": "the-same-mail-over-and-over",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8581862fd05e9435e7e9b0d57065ae16539035b2628110e47d70eac9346f7712",
    "size_bytes": 163949026,
    "updated": "2026-09-28T06:40:53.963Z"
