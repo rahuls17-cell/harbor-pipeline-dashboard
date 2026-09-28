@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-28T11:55:06+00:00",
+ "generated_at": "2026-09-28T12:00:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1963,
-  "scanned": 1963,
-  "connector": 526,
-  "non_connector": 1437,
+  "task_folders": 1966,
+  "scanned": 1966,
+  "connector": 527,
+  "non_connector": 1439,
   "errors": 0
  },
  "connector_provenance": {
   "real": 141,
-  "unknown": 162,
+  "unknown": 163,
   "synthetic": 223
  },
  "domain": {
-  "unnamed": 907,
+  "unnamed": 910,
   "code": 371,
   "fin": 115,
   "gen": 323,
@@ -22,8 +22,8 @@
   "law": 102
  },
  "name_prefix": {
-  "harbor": 529,
-  "obi": 1429,
+  "harbor": 530,
+  "obi": 1431,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -40,7 +40,7 @@
   "notion-gym": 46,
   "linear-gym": 37,
   "outlook-gym": 37,
-  "github-gym": 35,
+  "github-gym": 36,
   "email-calendar-gym": 34,
   "gws-gym": 34,
   "supabase-gym": 6,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263251
+  "new_archives_read": 3,
+  "approx_bytes_read": 397399
  },
  "errors": [],
  "tasks": [
@@ -2139,6 +2139,20 @@
    "updated": "2026-09-28T07:56:52.994Z"
   },
   {
+   "declared_name": "obi/bus-b23-b10-partner-tier-classification-deck",
+   "declared_short": "bus-b23-b10-partner-tier-classification-deck",
+   "folder": "bus-b23-b10-partner-tier-classification-deck",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "f53fea23c898680a67f895febbacd501f06cbe26cdd5010fb4d6ebd34d712397",
+   "size_bytes": 7961979,
+   "updated": "2026-09-28T11:56:52.654Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b23-b11-smb-frustration-post-coding",
@@ -2207,6 +2221,20 @@
    "sha256": "87299856a49e5c96e56faa27096bfd3db39bb2d101e6ee9986a0df4b803f2c38",
    "size_bytes": 6288529,
    "updated": "2026-09-26T16:28:37.977Z"
+  },
+  {
+   "declared_name": "obi/bus-b23-b2-comic-con-booth-merch-plan",
+   "declared_short": "bus-b23-b2-comic-con-booth-merch-plan",
+   "folder": "bus-b23-b2-comic-con-booth-merch-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "4930e9a695eac5de1ced0edb570468a0a7147127d282f9face181c01258d0208",
+   "size_bytes": 9638827,
+   "updated": "2026-09-28T11:59:58.283Z"
   },
   {
    "connector_provenance": null,
@@ -2993,15 +3021,15 @@
    "updated": "2026-09-23T19:36:41.873Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b48-b7-valuation-comparable-contradiction",
    "declared_short": "bus-b48-b7-valuation-comparable-contradiction",
-   "folder": "bus-b48-b7-valuation-comparable-contradiction",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b48-b7-valuation-comparable-contradiction",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ba93f9b4818cc831f2695f93a560bf2ec520772fe36dc609b2910bb1b392388b",
    "size_bytes": 8183776,
    "updated": "2026-09-28T11:54:48.101Z"
@@ -3917,15 +3945,15 @@
    "updated": "2026-09-09T04:36:46.374Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/career-b49-l7-eeo-competency-evidence-coverage",
    "declared_short": "career-b49-l7-eeo-competency-evidence-coverage",
-   "folder": "career-b49-l7-eeo-competency-evidence-coverage",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "career-b49-l7-eeo-competency-evidence-coverage",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1bd359da9b12bd2092291e8add84e1357665b1949265cce1209b8bd47f5e50f2",
    "size_bytes": 7850612,
    "updated": "2026-09-28T11:54:50.907Z"
@@ -29270,6 +29298,22 @@
    "sha256": "a9df03248b0f18bc30a6befc7dc9c40cc6a0a1e21dd5935365d7ed54ddbc8904",
    "size_bytes": 188982086,
    "updated": "2026-09-26T16:18:16.003Z"
+  },
+  {
+   "declared_name": "harbor/who-owns-the-backlog",
+   "declared_short": "who-owns-the-backlog",
+   "folder": "who-owns-the-backlog",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "3f52c3d1b4b8d825762fcc59e23bfce92e6f63b58306fe74ec12b8630d7dda95",
+   "size_bytes": 8694664,
+   "updated": "2026-09-28T11:59:37.716Z"
   },
   {
    "connector_provenance": "synthetic",
