@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T12:15:06+00:00",
+ "generated_at": "2026-09-28T12:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1980,
-  "scanned": 1980,
+  "task_folders": 1982,
+  "scanned": 1982,
   "connector": 528,
-  "non_connector": 1452,
+  "non_connector": 1454,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 224
  },
  "domain": {
-  "unnamed": 922,
+  "unnamed": 924,
   "code": 371,
   "fin": 115,
   "gen": 323,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 531,
-  "obi": 1441,
+  "obi": 1443,
   "bus": 1,
   "vankamasthanamma": 1,
   "health": 3,
@@ -52,8 +52,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 394413
+  "new_archives_read": 2,
+  "approx_bytes_read": 262855
  },
  "errors": [],
  "tasks": [
@@ -3107,6 +3107,20 @@
    "updated": "2026-09-22T22:51:24.542Z"
   },
   {
+   "declared_name": "obi/bus-b49-b1-motorcycle-stock-unit-caption-claim-screening",
+   "declared_short": "bus-b49-b1-motorcycle-stock-unit-caption-claim-screening",
+   "folder": "bus-b49-b1-motorcycle-stock-unit-caption-claim-screening",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "e2221d7dede543773abaebd8a929d403099ce4b74ce702e2197dcdbea0dfd37c",
+   "size_bytes": 3891249,
+   "updated": "2026-09-28T12:17:36.272Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b49-b10-national-accounts-resume-line-budget",
@@ -3611,15 +3625,15 @@
    "updated": "2026-09-28T07:57:32.570Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "bus/b59-t4-source-recency-label-audit",
    "declared_short": "b59-t4-source-recency-label-audit",
-   "folder": "bus-b59-t4-source-recency-label-audit",
-   "prefix": "bus",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b59-t4-source-recency-label-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "bus",
    "sha256": "ed23aa20f26a3eb4d855c5bf7be160e19db2ebdb91c2461e63b32e8c9ccba769",
    "size_bytes": 4558884,
    "updated": "2026-09-28T12:14:47.120Z"
@@ -10699,15 +10713,15 @@
    "updated": "2026-09-28T06:14:11.604Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-mg-edu-b15-a1-konsequenzenregister-aktenabgleich",
    "declared_short": "edu-mg-edu-b15-a1-konsequenzenregister-aktenabgleich",
-   "folder": "edu-mg-edu-b15-a1-konsequenzenregister-aktenabgleich",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-mg-edu-b15-a1-konsequenzenregister-aktenabgleich",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e1854d28f75cb06b9be17cb4a579bcefdeb809a7cb929339cdb144b216121154",
    "size_bytes": 4948674,
    "updated": "2026-09-28T12:13:11.410Z"
@@ -21899,15 +21913,15 @@
    "updated": "2026-09-22T22:03:00.002Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b44-l1-chat-evidence-export-reconciliation",
    "declared_short": "law-b44-l1-chat-evidence-export-reconciliation",
-   "folder": "law-b44-l1-chat-evidence-export-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b44-l1-chat-evidence-export-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2895dba5a09977e1274d4fa8fd02ae3afdaccd19d85090c12019f6aead37fe08",
    "size_bytes": 15586775,
    "updated": "2026-09-28T12:10:51.838Z"
@@ -29782,6 +29796,20 @@
    "sha256": "0a2eb50f4fb9492cc0d3ab601d4f4f501aa0177057563729678a63a9757da7cc",
    "size_bytes": 3771257,
    "updated": "2026-09-25T21:47:33.397Z"
+  },
+  {
+   "declared_name": "obi/writing-sc05-a6-three-move-classification",
+   "declared_short": "writing-sc05-a6-three-move-classification",
+   "folder": "writing-sc05-a6-three-move-classification",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "4dcfe532bf8bc77b6285b0b0ef8c2ca2b35c7e19195c94553c287830f702a5c8",
+   "size_bytes": 3534884,
+   "updated": "2026-09-28T12:15:50.119Z"
   },
   {
    "connector_provenance": null,
