@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T17:25:04+00:00",
+ "generated_at": "2026-09-28T17:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2003,
-  "scanned": 2003,
+  "task_folders": 2004,
+  "scanned": 2004,
   "connector": 531,
-  "non_connector": 1472,
+  "non_connector": 1473,
   "errors": 0
  },
  "connector_provenance": {
@@ -19,11 +19,11 @@
   "fin": 116,
   "gen": 326,
   "health": 148,
-  "law": 103
+  "law": 104
  },
  "name_prefix": {
   "harbor": 534,
-  "obi": 1460,
+  "obi": 1461,
   "bus": 1,
   "edu": 1,
   "vankamasthanamma": 1,
@@ -53,8 +53,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131475
  },
  "errors": [],
  "tasks": [
@@ -22418,6 +22418,20 @@
    "sha256": "705a07083a101cf95bd5846fb55c7249076d46880e426ebf28e1770a8eaef94e",
    "size_bytes": 5211029,
    "updated": "2026-09-26T19:46:08.919Z"
+  },
+  {
+   "declared_name": "obi/law-b49-l10-appellate-costs-bill-survival",
+   "declared_short": "law-b49-l10-appellate-costs-bill-survival",
+   "folder": "law-b49-l10-appellate-costs-bill-survival",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "d9747d86ae4936cb1dc7cf88fb2865666a805a8f6d8e319f861830d03e704f07",
+   "size_bytes": 3963927,
+   "updated": "2026-09-28T17:53:35.325Z"
   },
   {
    "connector_provenance": null,
