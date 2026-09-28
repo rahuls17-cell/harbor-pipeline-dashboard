@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-28T22:55:03+00:00",
+ "generated_at": "2026-09-28T23:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2056,
-  "scanned": 2056,
-  "connector": 547,
-  "non_connector": 1509,
+  "task_folders": 2058,
+  "scanned": 2058,
+  "connector": 548,
+  "non_connector": 1510,
   "errors": 0
  },
  "connector_provenance": {
   "real": 143,
   "unknown": 169,
-  "synthetic": 235
+  "synthetic": 236
  },
  "domain": {
-  "unnamed": 974,
-  "code": 373,
+  "unnamed": 975,
+  "code": 374,
   "fin": 116,
   "gen": 335,
   "health": 154,
   "law": 104
  },
  "name_prefix": {
-  "harbor": 550,
-  "obi": 1494,
+  "harbor": 551,
+  "obi": 1495,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -42,7 +42,7 @@
   "slack": 64,
   "notion-gym": 46,
   "linear-gym": 41,
-  "email-calendar-gym": 40,
+  "email-calendar-gym": 41,
   "outlook-gym": 38,
   "gws-gym": 37,
   "github-gym": 36,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 265724
  },
  "errors": [],
  "tasks": [
@@ -9525,6 +9525,20 @@
    "sha256": "90af73309e4a5391004f6fd44d3ce7d9055114124b7f68f7c83a832f50355623",
    "size_bytes": 6690364,
    "updated": "2026-09-18T19:42:02.545Z"
+  },
+  {
+   "declared_name": "obi/code-c782-device-storage-migration-audit",
+   "declared_short": "code-c782-device-storage-migration-audit",
+   "folder": "code-c782-device-storage-migration-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "c3e8463aface671121039d49566ee947cdd02c397d230c52fc89ed5a90e2c6e8",
+   "size_bytes": 5017544,
+   "updated": "2026-09-28T22:55:29.989Z"
   },
   {
    "connector_provenance": null,
@@ -27538,6 +27552,22 @@
    "sha256": "c7ea33cf4afc28a83b360194bb5746552f57d2a2c034f224c437d874bb30e2a6",
    "size_bytes": 7045344,
    "updated": "2026-09-23T06:56:29.998Z"
+  },
+  {
+   "declared_name": "harbor/the-calendar-blocks-that-only-look-like-meetings",
+   "declared_short": "the-calendar-blocks-that-only-look-like-meetings",
+   "folder": "the-calendar-blocks-that-only-look-like-meetings",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d1085103b30f101bae2a56f31c4e123524347bd89a7a38d375c1d9616964aa03",
+   "size_bytes": 5726420,
+   "updated": "2026-09-28T22:57:18.137Z"
   },
   {
    "connector_provenance": "unknown",
