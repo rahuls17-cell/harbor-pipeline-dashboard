@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-28T23:05:03+00:00",
+ "generated_at": "2026-09-28T23:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2059,
-  "scanned": 2059,
-  "connector": 548,
+  "task_folders": 2060,
+  "scanned": 2060,
+  "connector": 549,
   "non_connector": 1511,
   "errors": 0
  },
  "connector_provenance": {
   "real": 143,
   "unknown": 169,
-  "synthetic": 236
+  "synthetic": 237
  },
  "domain": {
-  "unnamed": 976,
+  "unnamed": 977,
   "code": 374,
   "fin": 116,
   "gen": 335,
@@ -22,7 +22,7 @@
   "law": 104
  },
  "name_prefix": {
-  "harbor": 551,
+  "harbor": 552,
   "obi": 1496,
   "bus": 1,
   "edu": 3,
@@ -41,8 +41,8 @@
   "freshdesk-gym": 183,
   "slack": 64,
   "notion-gym": 46,
+  "email-calendar-gym": 42,
   "linear-gym": 41,
-  "email-calendar-gym": 41,
   "outlook-gym": 38,
   "gws-gym": 37,
   "github-gym": 36,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131517
+  "approx_bytes_read": 136262
  },
  "errors": [],
  "tasks": [
@@ -401,6 +401,22 @@
    "sha256": "6acd96b54763d26816f5ddd2a5396eb05b16a2e1d0ed3bb0877197308aa34b94",
    "size_bytes": 6769938,
    "updated": "2026-09-28T22:45:57.219Z"
+  },
+  {
+   "declared_name": "harbor/partners-only-on-the-calendar",
+   "declared_short": "partners-only-on-the-calendar",
+   "folder": "ASTR_101223",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "ad396aaef1216ca9c6c5fc64e2748a84efc21af11af7bc8819a78ba3ef9d948e",
+   "size_bytes": 9320633,
+   "updated": "2026-09-28T23:07:04.755Z"
   },
   {
    "connector_provenance": "unknown",
@@ -3737,15 +3753,15 @@
    "updated": "2026-09-28T12:02:20.785Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b58-t10-copy-word-limit-compliance",
    "declared_short": "bus-b58-t10-copy-word-limit-compliance",
-   "folder": "bus-b58-t10-copy-word-limit-compliance",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b58-t10-copy-word-limit-compliance",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4fd3292f4b6714823d8788c589194ddcb2d3da309cb727cde2f3f466c88daff6",
    "size_bytes": 6633230,
    "updated": "2026-09-28T23:00:10.597Z"
