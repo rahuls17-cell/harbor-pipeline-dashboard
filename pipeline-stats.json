@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T20:10:03+00:00",
+ "generated_at": "2026-09-28T20:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2032,
-  "scanned": 2032,
+  "task_folders": 2033,
+  "scanned": 2033,
   "connector": 542,
-  "non_connector": 1490,
+  "non_connector": 1491,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 958,
   "code": 373,
   "fin": 116,
-  "gen": 330,
+  "gen": 331,
   "health": 151,
   "law": 104
  },
  "name_prefix": {
   "harbor": 545,
-  "obi": 1476,
+  "obi": 1477,
   "bus": 1,
   "edu": 2,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131767
+  "approx_bytes_read": 131599
  },
  "errors": [],
  "tasks": [
@@ -15105,6 +15105,20 @@
    "updated": "2026-09-06T12:43:38.266Z"
   },
   {
+   "declared_name": "obi/gen-g301-powerball-deduction-audit",
+   "declared_short": "gen-g301-powerball-deduction-audit",
+   "folder": "gen-g301-powerball-deduction-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "e144742dd5307904de835ef645a6ff51bdb5edea6bdd3fa649e7e8c7b6d0d035",
+   "size_bytes": 6372136,
+   "updated": "2026-09-28T20:10:32.622Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g303-dissertation-section-audit",
@@ -16281,15 +16295,15 @@
    "updated": "2026-09-10T19:14:03.737Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g661-trade-association-member-profile-completeness-audit",
    "declared_short": "gen-g661-trade-association-member-profile-completeness-audit",
-   "folder": "gen-g661-trade-association-member-profile-completeness-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g661-trade-association-member-profile-completeness-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "526e6d748b373c6c0b75d46448d172dff0991fa2f1de323c90cadfeeb01e1221",
    "size_bytes": 3452513,
    "updated": "2026-09-28T20:07:16.266Z"
