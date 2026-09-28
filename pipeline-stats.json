@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T10:25:04+00:00",
+ "generated_at": "2026-09-28T10:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1950,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131475
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -10923,15 +10923,15 @@
    "updated": "2026-09-27T15:21:46.828Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sca-b24-leadership-evidence-reading-guide",
    "declared_short": "edu-sca-b24-leadership-evidence-reading-guide",
-   "folder": "edu-sca-b24-leadership-evidence-reading-guide",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sca-b24-leadership-evidence-reading-guide",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8cadf18a4f089cb51b9d80c97d8cfc908b8e9dd877e58390bb786eb5daaa9d75",
    "size_bytes": 3401506,
    "updated": "2026-09-28T10:21:20.537Z"
