@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T09:25:05+00:00",
+ "generated_at": "2026-09-28T09:30:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1942,
-  "scanned": 1942,
+  "task_folders": 1944,
+  "scanned": 1944,
   "connector": 524,
-  "non_connector": 1418,
+  "non_connector": 1420,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 222
  },
  "domain": {
-  "unnamed": 892,
+  "unnamed": 893,
   "code": 371,
   "fin": 114,
-  "gen": 320,
+  "gen": 321,
   "health": 143,
   "law": 102
  },
  "name_prefix": {
   "harbor": 527,
-  "obi": 1410,
+  "obi": 1412,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 394683
+  "new_archives_read": 2,
+  "approx_bytes_read": 263222
  },
  "errors": [],
  "tasks": [
@@ -3361,6 +3361,20 @@
    "updated": "2026-09-26T23:56:53.478Z"
   },
   {
+   "declared_name": "obi/bus-b54-b9-multichannel-sku-reorder-variance",
+   "declared_short": "bus-b54-b9-multichannel-sku-reorder-variance",
+   "folder": "bus-b54-b9-multichannel-sku-reorder-variance",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "879da49ee87c1eee51e41036d96be1565fe07e1428b7c29d6905b1665966d867",
+   "size_bytes": 11481355,
+   "updated": "2026-09-28T09:26:55.376Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b56-a2-ipo-signal-grounding-audit",
@@ -3459,15 +3473,15 @@
    "updated": "2026-09-28T07:57:32.570Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b609-t1-phase-qc-checklist-import-build",
    "declared_short": "bus-b609-t1-phase-qc-checklist-import-build",
-   "folder": "bus-b609-t1-phase-qc-checklist-import-build",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b609-t1-phase-qc-checklist-import-build",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "06e8c4324ea12ac177f87062e6dca48f687abe3bc2669827ee0bee8e2cedc1aa",
    "size_bytes": 7215721,
    "updated": "2026-09-28T09:21:15.282Z"
@@ -11007,15 +11021,15 @@
    "updated": "2026-09-27T13:22:12.525Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sch-b8-water-offering-mantra-handout-register",
    "declared_short": "edu-sch-b8-water-offering-mantra-handout-register",
-   "folder": "edu-sch-b8-water-offering-mantra-handout-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sch-b8-water-offering-mantra-handout-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "96da3bd8ffde493e36e851933663eebd04fa8ca666589a5749280071193788c6",
    "size_bytes": 5289661,
    "updated": "2026-09-28T09:20:50.117Z"
@@ -14557,15 +14571,15 @@
    "updated": "2026-09-09T13:53:37.842Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g359-property-loss-replacement-value-audit",
    "declared_short": "gen-g359-property-loss-replacement-value-audit",
-   "folder": "gen-g359-property-loss-replacement-value-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g359-property-loss-replacement-value-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7508b504cdb4cc3823ee495e8ab07f99361c1fa238a94b6505d7b7292eb1449a",
    "size_bytes": 5437899,
    "updated": "2026-09-28T09:20:04.894Z"
@@ -15003,6 +15017,20 @@
    "sha256": "11c62ebf4e92f7eb0f7248b75f61e5089c9a16a5055eb645e3125864495dc53a",
    "size_bytes": 6276676,
    "updated": "2026-09-28T03:36:02.725Z"
+  },
+  {
+   "declared_name": "obi/gen-g528-electrosorption-lambda-classification-audit",
+   "declared_short": "gen-g528-electrosorption-lambda-classification-audit",
+   "folder": "gen-g528-electrosorption-lambda-classification-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "704c833578c04061dba22ad509035077b874eb3a4abe9a67d941fa5f3e83641b",
+   "size_bytes": 5214949,
+   "updated": "2026-09-28T09:28:10.344Z"
   },
   {
    "connector_provenance": null,
