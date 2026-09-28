@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T20:35:04+00:00",
+ "generated_at": "2026-09-28T20:40:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2035,
-  "scanned": 2035,
+  "task_folders": 2038,
+  "scanned": 2038,
   "connector": 542,
-  "non_connector": 1493,
+  "non_connector": 1496,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 231
  },
  "domain": {
-  "unnamed": 959,
+  "unnamed": 961,
   "code": 373,
   "fin": 116,
-  "gen": 332,
+  "gen": 333,
   "health": 151,
   "law": 104
  },
  "name_prefix": {
   "harbor": 545,
-  "obi": 1479,
+  "obi": 1482,
   "bus": 1,
   "edu": 2,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263130
+  "new_archives_read": 3,
+  "approx_bytes_read": 396213
  },
  "errors": [],
  "tasks": [
@@ -1779,15 +1779,15 @@
    "updated": "2026-09-28T13:01:46.347Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b108-b8-vacant-unit-walking-order-refresh",
    "declared_short": "bus-b108-b8-vacant-unit-walking-order-refresh",
-   "folder": "bus-b108-b8-vacant-unit-walking-order-refresh",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b108-b8-vacant-unit-walking-order-refresh",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "299f8485e39057654e2a3468f58237b08eafb4ecc0a855d0f460606e409584e7",
    "size_bytes": 4479293,
    "updated": "2026-09-28T20:33:44.100Z"
@@ -2057,6 +2057,20 @@
    "sha256": "aaac8b590bbde1c988d390984558d4b4644e6ad839662e406ebee25e1bfa172a",
    "size_bytes": 5852764,
    "updated": "2026-09-24T18:07:20.562Z"
+  },
+  {
+   "declared_name": "obi/bus-b22-b16-vape-sku-mtd-performance",
+   "declared_short": "bus-b22-b16-vape-sku-mtd-performance",
+   "folder": "bus-b22-b16-vape-sku-mtd-performance",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "938ea0dacd55552f705d4fece070aa354cafefce7caca74b2c6ea5d3c6d4851b",
+   "size_bytes": 6512093,
+   "updated": "2026-09-28T20:38:17.171Z"
   },
   {
    "connector_provenance": null,
@@ -3835,6 +3849,20 @@
    "sha256": "2420f99cbb10ebb6bef2fd606565c29c4546dfede2f8e0692bedef8e3f199048",
    "size_bytes": 7143086,
    "updated": "2026-09-27T04:45:16.221Z"
+  },
+  {
+   "declared_name": "obi/bus-b66-b5-expansion-site-shortlist-scoring",
+   "declared_short": "bus-b66-b5-expansion-site-shortlist-scoring",
+   "folder": "bus-b66-b5-expansion-site-shortlist-scoring",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "0a294312c6ebebb757b2ecdfd1853175e064853b92eb07351a2d79b237eb81d3",
+   "size_bytes": 9037775,
+   "updated": "2026-09-28T20:36:10.719Z"
   },
   {
    "connector_provenance": null,
@@ -14377,6 +14405,20 @@
    "updated": "2026-09-06T18:36:58.612Z"
   },
   {
+   "declared_name": "obi/gen-g127-insurance-coi-expiry-audit",
+   "declared_short": "gen-g127-insurance-coi-expiry-audit",
+   "folder": "gen-g127-insurance-coi-expiry-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "66292680fee48c52a74d8bdcf662456f32a7dd9c89e24be290e8c03a8324f2a7",
+   "size_bytes": 5950340,
+   "updated": "2026-09-28T20:37:31.997Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g1272-production-fact-check-audit",
@@ -15959,15 +16001,15 @@
    "updated": "2026-09-05T18:53:05.115Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g569-slidedeck-translation-figure-audit",
    "declared_short": "gen-g569-slidedeck-translation-figure-audit",
-   "folder": "gen-g569-slidedeck-translation-figure-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g569-slidedeck-translation-figure-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4612a8a047415fbdcdfb1caa8a4e19f12ed67f64eda4e006c8d590a407675098",
    "size_bytes": 5408116,
    "updated": "2026-09-28T20:30:04.847Z"
