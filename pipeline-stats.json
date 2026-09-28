@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T22:20:03+00:00",
+ "generated_at": "2026-09-28T22:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2053,
-  "scanned": 2053,
+  "task_folders": 2054,
+  "scanned": 2054,
   "connector": 546,
-  "non_connector": 1507,
+  "non_connector": 1508,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 973,
   "code": 373,
   "fin": 116,
-  "gen": 334,
+  "gen": 335,
   "health": 153,
   "law": 104
  },
  "name_prefix": {
   "harbor": 549,
-  "obi": 1492,
+  "obi": 1493,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131495
+  "approx_bytes_read": 131541
  },
  "errors": [],
  "tasks": [
@@ -11593,15 +11593,15 @@
    "updated": "2026-09-28T11:14:44.039Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "edu/sca-b27-nursing-sim-route-case-catalog",
    "declared_short": "sca-b27-nursing-sim-route-case-catalog",
-   "folder": "edu-sca-b27-nursing-sim-route-case-catalog",
-   "prefix": "edu",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sca-b27-nursing-sim-route-case-catalog",
    "image": null,
+   "is_connector": false,
+   "prefix": "edu",
    "sha256": "52fac16fc243abca634fc91053be28f3407c8bc6c7d1d5956cdba0a67735ef0f",
    "size_bytes": 4762499,
    "updated": "2026-09-28T22:19:39.294Z"
@@ -14385,6 +14385,20 @@
    "sha256": "8d8e0a5668b7e854f264a4dc0634b5dc6d99ab177cd6b8cd912fb0f563162a79",
    "size_bytes": 8272697,
    "updated": "2026-09-06T15:17:03.655Z"
+  },
+  {
+   "declared_name": "obi/gen-g1230-furniture-arrangement-validity-audit",
+   "declared_short": "gen-g1230-furniture-arrangement-validity-audit",
+   "folder": "gen-g1230-furniture-arrangement-validity-audit-de2029-v1-sna-cpyo",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "225f802b7ad37b1bcf8f63f141be7910208e9f0dd3b55b8b34bb10f7e6139ac4",
+   "size_bytes": 8989858,
+   "updated": "2026-09-28T22:22:46.235Z"
   },
   {
    "connector_provenance": null,
