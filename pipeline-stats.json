@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T18:00:03+00:00",
+ "generated_at": "2026-09-28T18:05:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2005,
-  "scanned": 2005,
+  "task_folders": 2006,
+  "scanned": 2006,
   "connector": 532,
-  "non_connector": 1473,
+  "non_connector": 1474,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 227
  },
  "domain": {
-  "unnamed": 939,
+  "unnamed": 940,
   "code": 372,
   "fin": 116,
   "gen": 326,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 535,
-  "obi": 1461,
+  "obi": 1462,
   "bus": 1,
   "edu": 1,
   "vankamasthanamma": 1,
@@ -54,7 +54,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 132295
+  "approx_bytes_read": 131558
  },
  "errors": [],
  "tasks": [
@@ -11076,6 +11076,20 @@
    "sha256": "b56ae62baac5b6569b47621d1aeaa3b00bda9b5ac3f9dc97a08f90a6949d83be",
    "size_bytes": 9980990,
    "updated": "2026-09-25T08:55:36.884Z"
+  },
+  {
+   "declared_name": "obi/edu-sc06-a5-study-guide-citations",
+   "declared_short": "edu-sc06-a5-study-guide-citations",
+   "folder": "edu-sc06-a5-study-guide-citations",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "0996a0a4c886d179a6c1354cf725fec8b0a6d40fe92e0b037603c205f5f6ed66",
+   "size_bytes": 9084064,
+   "updated": "2026-09-28T18:00:44.399Z"
   },
   {
    "connector_provenance": null,
@@ -28629,17 +28643,17 @@
    "updated": "2026-09-22T21:19:07.043Z"
   },
   {
-   "declared_name": "harbor/timeline-off-the-weekends",
-   "declared_short": "timeline-off-the-weekends",
-   "folder": "timeline-off-the-weekends",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/timeline-off-the-weekends",
+   "declared_short": "timeline-off-the-weekends",
    "domain": null,
+   "folder": "timeline-off-the-weekends",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "48b1ea916cdf771bccf6386d32e5d73ef5afd0029c41e8d96f2feddaf5631196",
    "size_bytes": 7779069,
    "updated": "2026-09-28T17:58:38.346Z"
