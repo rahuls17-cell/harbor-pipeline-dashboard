@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T12:50:06+00:00",
+ "generated_at": "2026-09-28T12:55:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1990,
-  "scanned": 1990,
+  "task_folders": 1991,
+  "scanned": 1991,
   "connector": 528,
-  "non_connector": 1462,
+  "non_connector": 1463,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 224
  },
  "domain": {
-  "unnamed": 930,
+  "unnamed": 931,
   "code": 371,
   "fin": 116,
   "gen": 324,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 531,
-  "obi": 1450,
+  "obi": 1451,
   "bus": 1,
   "edu": 1,
   "vankamasthanamma": 1,
@@ -53,8 +53,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 5,
-  "approx_bytes_read": 657249
+  "new_archives_read": 2,
+  "approx_bytes_read": 262897
  },
  "errors": [],
  "tasks": [
@@ -2100,18 +2100,18 @@
    "updated": "2026-09-28T06:53:39.490Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/bus-b22-b7-solo-offer-portfolio-plan",
    "declared_short": "bus-b22-b7-solo-offer-portfolio-plan",
-   "domain": null,
    "folder": "bus-b22-b7-solo-offer-portfolio-plan",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "b08f7f09ac7c763cefd7fd299950abed1067358d03246a866bdbc599b5e8fb40",
-   "size_bytes": 6067070,
-   "updated": "2026-09-28T12:29:11.982Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1416bfb9056aef86d92f25ee9803978d2800fac115620c7e8ac989bfb636164a",
+   "size_bytes": 5697431,
+   "updated": "2026-09-28T12:51:22.082Z"
   },
   {
    "connector_provenance": null,
@@ -2646,15 +2646,15 @@
    "updated": "2026-09-26T11:02:30.413Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b44-b7-franchise-initial-investment-schedule",
    "declared_short": "bus-b44-b7-franchise-initial-investment-schedule",
-   "folder": "bus-b44-b7-franchise-initial-investment-schedule",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b44-b7-franchise-initial-investment-schedule",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d848acd579c2c7a46621e2b59cbcbece354f82dd3c2e51268152f5d094456d82",
    "size_bytes": 6622531,
    "updated": "2026-09-28T12:46:31.447Z"
@@ -3192,15 +3192,15 @@
    "updated": "2026-09-24T09:21:39.490Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b49-b2-property-room-schedule-reconciliation",
    "declared_short": "bus-b49-b2-property-room-schedule-reconciliation",
-   "folder": "bus-b49-b2-property-room-schedule-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b49-b2-property-room-schedule-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8b1e3a3fb9ea45312048cd818422c1274038425246d05b87c372fcaeda5649d7",
    "size_bytes": 5018208,
    "updated": "2026-09-28T12:48:09.614Z"
@@ -10756,15 +10756,15 @@
    "updated": "2026-09-24T16:07:00.067Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "edu/mg-edu-b13-a10-registro-sin-contexto-previo",
    "declared_short": "mg-edu-b13-a10-registro-sin-contexto-previo",
-   "folder": "edu-mg-edu-b13-a10-registro-sin-contexto-previo",
-   "prefix": "edu",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-mg-edu-b13-a10-registro-sin-contexto-previo",
    "image": null,
+   "is_connector": false,
+   "prefix": "edu",
    "sha256": "270101b6bec1897042ec701889d51bf4c7b4b91c2aa597572713b3059926f8cd",
    "size_bytes": 3735465,
    "updated": "2026-09-28T12:46:49.195Z"
@@ -12502,15 +12502,15 @@
    "updated": "2026-09-19T21:16:43.411Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b49-f4-futures-margin-position-audit",
    "declared_short": "fin-b49-f4-futures-margin-position-audit",
-   "folder": "fin-b49-f4-futures-margin-position-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b49-f4-futures-margin-position-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "441aed62705fefeeb6a1d1c2300238af44345c3bc72768946b894b6b9ef342df",
    "size_bytes": 13254879,
    "updated": "2026-09-28T12:46:20.720Z"
@@ -13620,15 +13620,15 @@
    "updated": "2026-09-19T07:23:13.602Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1130-teaching-article-editorial-audit",
    "declared_short": "gen-g1130-teaching-article-editorial-audit",
-   "folder": "gen-g1130-teaching-article-editorial-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1130-teaching-article-editorial-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "148b4fa778547ef4254bab2f45fddc553269519141a34315022f039516b9422e",
    "size_bytes": 6992419,
    "updated": "2026-09-28T12:49:46.987Z"
@@ -23862,6 +23862,20 @@
    "sha256": "5159527b56a49f9fb7c2715ccf85391395e7b0c6893b74833dc1963acd4184f2",
    "size_bytes": 7734490,
    "updated": "2026-09-26T03:32:46.211Z"
+  },
+  {
+   "declared_name": "obi/sci-sc07-a6-ice-cap-bibliography",
+   "declared_short": "sci-sc07-a6-ice-cap-bibliography",
+   "folder": "sci-sc07-a6-ice-cap-bibliography",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "ae2ace44d63878b2779876b5cfddeef226f913ebb906476ab0a5b18937dad20e",
+   "size_bytes": 9335952,
+   "updated": "2026-09-28T12:50:06.137Z"
   },
   {
    "connector_provenance": null,
