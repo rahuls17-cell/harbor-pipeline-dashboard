@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T12:00:05+00:00",
+ "generated_at": "2026-09-28T12:05:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1966,
-  "scanned": 1966,
+  "task_folders": 1970,
+  "scanned": 1970,
   "connector": 527,
-  "non_connector": 1439,
+  "non_connector": 1443,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,19 +14,19 @@
   "synthetic": 223
  },
  "domain": {
-  "unnamed": 910,
+  "unnamed": 913,
   "code": 371,
   "fin": 115,
   "gen": 323,
-  "health": 145,
+  "health": 146,
   "law": 102
  },
  "name_prefix": {
   "harbor": 530,
-  "obi": 1431,
+  "obi": 1434,
   "vankamasthanamma": 1,
   "health": 3,
-  "writing": 1
+  "writing": 2
  },
  "connector_services": {
   "google-drive-gym": 198,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 397399
+  "new_archives_read": 4,
+  "approx_bytes_read": 526113
  },
  "errors": [],
  "tasks": [
@@ -2139,15 +2139,15 @@
    "updated": "2026-09-28T07:56:52.994Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b23-b10-partner-tier-classification-deck",
    "declared_short": "bus-b23-b10-partner-tier-classification-deck",
-   "folder": "bus-b23-b10-partner-tier-classification-deck",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b23-b10-partner-tier-classification-deck",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f53fea23c898680a67f895febbacd501f06cbe26cdd5010fb4d6ebd34d712397",
    "size_bytes": 7961979,
    "updated": "2026-09-28T11:56:52.654Z"
@@ -2223,15 +2223,15 @@
    "updated": "2026-09-26T16:28:37.977Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b23-b2-comic-con-booth-merch-plan",
    "declared_short": "bus-b23-b2-comic-con-booth-merch-plan",
-   "folder": "bus-b23-b2-comic-con-booth-merch-plan",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b23-b2-comic-con-booth-merch-plan",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4930e9a695eac5de1ced0edb570468a0a7147127d282f9face181c01258d0208",
    "size_bytes": 9638827,
    "updated": "2026-09-28T11:59:58.283Z"
@@ -3469,6 +3469,20 @@
    "updated": "2026-09-28T09:26:55.376Z"
   },
   {
+   "declared_name": "obi/bus-b55-b4-deck-content-compliance-audit",
+   "declared_short": "bus-b55-b4-deck-content-compliance-audit",
+   "folder": "bus-b55-b4-deck-content-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "7688021e4d50e9627de3b7b27fd7353943a5d9d404941ca9cbdad0bd62356afc",
+   "size_bytes": 8440341,
+   "updated": "2026-09-28T12:03:38.739Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b56-a2-ipo-signal-grounding-audit",
@@ -3523,6 +3537,20 @@
    "sha256": "c1a656fd8d006147fc7570f9578e85bc9767814828eebd19558211e2ff6e45d3",
    "size_bytes": 10002423,
    "updated": "2026-09-26T15:09:36.902Z"
+  },
+  {
+   "declared_name": "obi/bus-b58-t1-dining-launch-recency-window",
+   "declared_short": "bus-b58-t1-dining-launch-recency-window",
+   "folder": "bus-b58-t1-dining-launch-recency-window",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "b4c6fc0cbb6ba20a7e1cb036fc2ce7313cc0abcf91da89a6387b3283b166281c",
+   "size_bytes": 4305968,
+   "updated": "2026-09-28T12:02:20.785Z"
   },
   {
    "connector_provenance": null,
@@ -19949,6 +19977,20 @@
    "updated": "2026-09-26T13:27:19.953Z"
   },
   {
+   "declared_name": "obi/health-tdt11-a12-apa-reference-list-transform",
+   "declared_short": "health-tdt11-a12-apa-reference-list-transform",
+   "folder": "health-tdt11-a12-apa-reference-list-transform",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "536c2ecf39d35221316abd52ffb3b5c7933082e7118fa8992c3c1b6983720ed6",
+   "size_bytes": 6082255,
+   "updated": "2026-09-28T12:03:11.633Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt11-a14-bereavement-service-variance",
@@ -29300,17 +29342,17 @@
    "updated": "2026-09-26T16:18:16.003Z"
   },
   {
-   "declared_name": "harbor/who-owns-the-backlog",
-   "declared_short": "who-owns-the-backlog",
-   "folder": "who-owns-the-backlog",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/who-owns-the-backlog",
+   "declared_short": "who-owns-the-backlog",
    "domain": null,
+   "folder": "who-owns-the-backlog",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3f52c3d1b4b8d825762fcc59e23bfce92e6f63b58306fe74ec12b8630d7dda95",
    "size_bytes": 8694664,
    "updated": "2026-09-28T11:59:37.716Z"
@@ -29470,6 +29512,20 @@
    "sha256": "99792b42ed7fdd57397252eafb5b4414c0b08cbc4b0daa9d0ff0de1f81281dc4",
    "size_bytes": 4002280,
    "updated": "2026-09-27T06:26:13.694Z"
+  },
+  {
+   "declared_name": "writing/b52-a9-manuscript-page-ledger-recompute",
+   "declared_short": "b52-a9-manuscript-page-ledger-recompute",
+   "folder": "writing-b52-a9-manuscript-page-ledger-recompute",
+   "prefix": "writing",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "dd6fc0243dd27d7229c5eabe3c3d634e2c737657a4fb452f8102c08ab7e6bf71",
+   "size_bytes": 6527927,
+   "updated": "2026-09-28T12:02:41.902Z"
   },
   {
    "connector_provenance": null,
