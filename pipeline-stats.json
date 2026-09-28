@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T09:55:03+00:00",
+ "generated_at": "2026-09-28T10:05:07+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1948,
-  "scanned": 1948,
+  "task_folders": 1949,
+  "scanned": 1949,
   "connector": 524,
-  "non_connector": 1424,
+  "non_connector": 1425,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 371,
   "fin": 114,
   "gen": 323,
-  "health": 143,
+  "health": 144,
   "law": 102
  },
  "name_prefix": {
   "harbor": 527,
-  "obi": 1416,
+  "obi": 1417,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131461
  },
  "errors": [],
  "tasks": [
@@ -20245,6 +20245,20 @@
    "sha256": "da7c25f2214fbe42c3d74b1ccfc196637f44c61d53dc0a84bcfef29ec1ff9eef",
    "size_bytes": 6221816,
    "updated": "2026-09-25T15:15:50.618Z"
+  },
+  {
+   "declared_name": "obi/health-tdt8-a3-legume-protein-basis-conversion",
+   "declared_short": "health-tdt8-a3-legume-protein-basis-conversion",
+   "folder": "health-tdt8-a3-legume-protein-basis-conversion",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "95df9fe437992a68244707697319cb307126ef9b68af1f861e2aa64427fbbab6",
+   "size_bytes": 4946972,
+   "updated": "2026-09-28T10:02:47.047Z"
   },
   {
    "connector_provenance": null,
