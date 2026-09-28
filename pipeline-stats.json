@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T03:10:02+00:00",
+ "generated_at": "2026-09-28T03:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1888,
-  "scanned": 1888,
+  "task_folders": 1890,
+  "scanned": 1890,
   "connector": 513,
-  "non_connector": 1375,
+  "non_connector": 1377,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 857,
   "code": 362,
   "fin": 114,
-  "gen": 315,
+  "gen": 317,
   "health": 139,
   "law": 101
  },
  "name_prefix": {
   "harbor": 516,
-  "obi": 1367,
+  "obi": 1369,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 262834
  },
  "errors": [],
  "tasks": [
@@ -12833,6 +12833,20 @@
    "updated": "2026-09-08T14:39:12.106Z"
   },
   {
+   "declared_name": "obi/gen-g1166-executive-lexicon-compliance-audit",
+   "declared_short": "gen-g1166-executive-lexicon-compliance-audit",
+   "folder": "gen-g1166-executive-lexicon-compliance-audit-5-f96fcc-v8-sna-altq",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "03cb552ce7bcfab209c9ee4f0b1668333f589fb0011d70a8116f59a987058252",
+   "size_bytes": 6607009,
+   "updated": "2026-09-28T03:36:55.837Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g1171-needs-ledger-evidence-audit",
@@ -14525,6 +14539,20 @@
    "sha256": "2e3857860555ac7af3681c643a832183e14c5b310d57d35b986e62b48376fda2",
    "size_bytes": 19900345,
    "updated": "2026-09-06T20:47:24.340Z"
+  },
+  {
+   "declared_name": "obi/gen-g526-wnt-pathway-component-classification-audit",
+   "declared_short": "gen-g526-wnt-pathway-component-classification-audit",
+   "folder": "gen-g526-wnt-pathway-component-classification-au-27a52a-v2-sna-yoxu",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "11c62ebf4e92f7eb0f7248b75f61e5089c9a16a5055eb645e3125864495dc53a",
+   "size_bytes": 6276676,
+   "updated": "2026-09-28T03:36:02.725Z"
   },
   {
    "connector_provenance": null,
