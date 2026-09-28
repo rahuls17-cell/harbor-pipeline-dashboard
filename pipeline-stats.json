@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T08:20:05+00:00",
+ "generated_at": "2026-09-28T08:25:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1922,
-  "scanned": 1922,
+  "task_folders": 1924,
+  "scanned": 1924,
   "connector": 522,
-  "non_connector": 1400,
+  "non_connector": 1402,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 221
  },
  "domain": {
-  "unnamed": 879,
+  "unnamed": 881,
   "code": 368,
   "fin": 114,
   "gen": 318,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 525,
-  "obi": 1392,
+  "obi": 1394,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263430
  },
  "errors": [],
  "tasks": [
@@ -10153,6 +10153,20 @@
    "updated": "2026-09-26T15:14:18.325Z"
   },
   {
+   "declared_name": "obi/edu-b50-a9-subject-revalidation-reconciliation",
+   "declared_short": "edu-b50-a9-subject-revalidation-reconciliation",
+   "folder": "edu-b50-a9-subject-revalidation-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "a382ef88a1080c5e5ac900496d634bbe297dae0ffcb3248e9638fbd938a97523",
+   "size_bytes": 7315294,
+   "updated": "2026-09-28T08:20:10.715Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-b51-a1-simulation-session-run-sheet",
@@ -10585,6 +10599,20 @@
    "sha256": "004c6ce7c64c8381eda39da9ac1f26936d0ffae115977147d0b1d3439f38babb",
    "size_bytes": 5394714,
    "updated": "2026-09-26T20:39:46.067Z"
+  },
+  {
+   "declared_name": "obi/edu-sc07-a9-cracked-the-system-rulings",
+   "declared_short": "edu-sc07-a9-cracked-the-system-rulings",
+   "folder": "edu-sc07-a9-cracked-the-system-rulings",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "8d13238743cfc8fcc9f13ecbc80aa54c1c2280fff64a3d5f88c874e46ad02669",
+   "size_bytes": 9188941,
+   "updated": "2026-09-28T08:22:02.669Z"
   },
   {
    "connector_provenance": null,
