@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T19:30:05+00:00",
+ "generated_at": "2026-09-28T19:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2022,
-  "scanned": 2022,
+  "task_folders": 2023,
+  "scanned": 2023,
   "connector": 540,
-  "non_connector": 1482,
+  "non_connector": 1483,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 373,
   "fin": 116,
   "gen": 327,
-  "health": 150,
+  "health": 151,
   "law": 104
  },
  "name_prefix": {
   "harbor": 543,
-  "obi": 1470,
+  "obi": 1471,
   "bus": 1,
   "edu": 1,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133839
+  "approx_bytes_read": 134045
  },
  "errors": [],
  "tasks": [
@@ -19593,6 +19593,20 @@
    "updated": "2026-09-28T11:17:04.416Z"
   },
   {
+   "declared_name": "obi/health-h17-antimicrobial-duration-review",
+   "declared_short": "health-h17-antimicrobial-duration-review",
+   "folder": "health-h17-antimicrobial-duration-review",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "9cc1bc8bc54e3e3ded0684dd9fe12d4e3b4b6ef8a27df683b1642a97d5d9c994",
+   "size_bytes": 6820246,
+   "updated": "2026-09-28T19:32:08.618Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-h20-cold-chain-excursion",
@@ -23151,17 +23165,17 @@
    "updated": "2026-09-26T15:27:43.914Z"
   },
   {
-   "declared_name": "harbor/my-calendars-audited",
-   "declared_short": "my-calendars-audited",
-   "folder": "my-calendars-audited",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/my-calendars-audited",
+   "declared_short": "my-calendars-audited",
    "domain": null,
+   "folder": "my-calendars-audited",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ec0d41d1b4462bc4aa6719b81756036744c66d5e6611f2d9b954ba14ee9d0872",
    "size_bytes": 19780231,
    "updated": "2026-09-28T19:25:06.844Z"
