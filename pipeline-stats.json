@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T08:15:03+00:00",
+ "generated_at": "2026-09-28T08:20:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1922,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134307
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -27092,17 +27092,17 @@
    "updated": "2026-09-17T17:34:22.992Z"
   },
   {
-   "declared_name": "harbor/the-runbook-that-forgot-patient-data",
-   "declared_short": "the-runbook-that-forgot-patient-data",
-   "folder": "the-runbook-that-forgot-patient-data",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-runbook-that-forgot-patient-data",
+   "declared_short": "the-runbook-that-forgot-patient-data",
    "domain": null,
+   "folder": "the-runbook-that-forgot-patient-data",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "810fa29431d4c33c6d088c63b740f0e48b20de17b44f395f58896750ce4c9b63",
    "size_bytes": 13508178,
    "updated": "2026-09-28T08:10:34.284Z"
