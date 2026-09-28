@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T22:50:04+00:00",
+ "generated_at": "2026-09-28T22:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2056,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 267989
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -387,17 +387,17 @@
    "updated": "2026-09-28T21:42:07.905Z"
   },
   {
-   "declared_name": "harbor/nothing-here-is-urgent",
-   "declared_short": "nothing-here-is-urgent",
-   "folder": "ASTR_101221",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/nothing-here-is-urgent",
+   "declared_short": "nothing-here-is-urgent",
    "domain": null,
+   "folder": "ASTR_101221",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6acd96b54763d26816f5ddd2a5396eb05b16a2e1d0ed3bb0877197308aa34b94",
    "size_bytes": 6769938,
    "updated": "2026-09-28T22:45:57.219Z"
@@ -21425,15 +21425,15 @@
    "updated": "2026-09-26T22:54:18.339Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt8-a9-elemental-mineral-label-gap-attribution",
    "declared_short": "health-tdt8-a9-elemental-mineral-label-gap-attribution",
-   "folder": "health-tdt8-a9-elemental-mineral-label-gap-attribution",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt8-a9-elemental-mineral-label-gap-attribution",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "bcf8881720bc4787f76391645a88606b93377890597e55cfb68a791f33e449ae",
    "size_bytes": 5237350,
    "updated": "2026-09-28T22:49:16.172Z"
