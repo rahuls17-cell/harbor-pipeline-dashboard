@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-28T06:40:03+00:00",
+ "generated_at": "2026-09-28T06:45:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1904,
-  "scanned": 1904,
-  "connector": 517,
+  "task_folders": 1905,
+  "scanned": 1905,
+  "connector": 518,
   "non_connector": 1387,
   "errors": 0
  },
  "connector_provenance": {
   "real": 140,
   "unknown": 160,
-  "synthetic": 217
+  "synthetic": 218
  },
  "domain": {
-  "unnamed": 867,
+  "unnamed": 868,
   "code": 364,
   "fin": 114,
   "gen": 318,
@@ -22,7 +22,7 @@
   "law": 101
  },
  "name_prefix": {
-  "harbor": 520,
+  "harbor": 521,
   "obi": 1379,
   "vankamasthanamma": 1,
   "health": 3,
@@ -38,7 +38,7 @@
   "freshdesk-gym": 180,
   "slack": 64,
   "notion-gym": 46,
-  "outlook-gym": 36,
+  "outlook-gym": 37,
   "linear-gym": 35,
   "github-gym": 35,
   "email-calendar-gym": 34,
@@ -51,7 +51,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133929
+  "approx_bytes_read": 135840
  },
  "errors": [],
  "tasks": [
@@ -26124,17 +26124,17 @@
    "updated": "2026-09-23T22:05:44.216Z"
   },
   {
-   "declared_name": "harbor/the-last-three-months-by-channel",
-   "declared_short": "the-last-three-months-by-channel",
-   "folder": "the-last-three-months-by-channel",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-last-three-months-by-channel",
+   "declared_short": "the-last-three-months-by-channel",
    "domain": null,
+   "folder": "the-last-three-months-by-channel",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "30a453159185c4ada23d9837519f1edc5ffcc04d6250fc6283f5c3d1267f45f5",
    "size_bytes": 12316515,
    "updated": "2026-09-28T06:39:45.604Z"
@@ -26906,6 +26906,22 @@
    "sha256": "8a6595cacabf7b11e84fd8ce49c72fa11173d49f4f9b201c2618d80e68be4b75",
    "size_bytes": 7568786,
    "updated": "2026-09-21T16:04:02.252Z"
+  },
+  {
+   "declared_name": "harbor/the-same-mail-over-and-over",
+   "declared_short": "the-same-mail-over-and-over",
+   "folder": "the-same-mail-over-and-over",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "8581862fd05e9435e7e9b0d57065ae16539035b2628110e47d70eac9346f7712",
+   "size_bytes": 163949026,
+   "updated": "2026-09-28T06:40:53.963Z"
   },
   {
    "connector_provenance": "synthetic",
