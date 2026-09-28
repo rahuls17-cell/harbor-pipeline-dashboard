@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T22:25:03+00:00",
+ "generated_at": "2026-09-28T22:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2054,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131541
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -14387,15 +14387,15 @@
    "updated": "2026-09-06T15:17:03.655Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1230-furniture-arrangement-validity-audit",
    "declared_short": "gen-g1230-furniture-arrangement-validity-audit",
-   "folder": "gen-g1230-furniture-arrangement-validity-audit-de2029-v1-sna-cpyo",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1230-furniture-arrangement-validity-audit-de2029-v1-sna-cpyo",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "225f802b7ad37b1bcf8f63f141be7910208e9f0dd3b55b8b34bb10f7e6139ac4",
    "size_bytes": 8989858,
    "updated": "2026-09-28T22:22:46.235Z"
