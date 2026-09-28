@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T18:05:04+00:00",
+ "generated_at": "2026-09-28T18:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2006,
-  "scanned": 2006,
+  "task_folders": 2008,
+  "scanned": 2008,
   "connector": 532,
-  "non_connector": 1474,
+  "non_connector": 1476,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 940,
-  "code": 372,
+  "code": 373,
   "fin": 116,
-  "gen": 326,
+  "gen": 327,
   "health": 148,
   "law": 104
  },
  "name_prefix": {
   "harbor": 535,
-  "obi": 1462,
+  "obi": 1464,
   "bus": 1,
   "edu": 1,
   "vankamasthanamma": 1,
@@ -53,8 +53,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131558
+  "new_archives_read": 2,
+  "approx_bytes_read": 262897
  },
  "errors": [],
  "tasks": [
@@ -7218,6 +7218,20 @@
    "updated": "2026-09-20T20:39:03.210Z"
   },
   {
+   "declared_name": "obi/code-c359-paint-catalog-compliance-audit",
+   "declared_short": "code-c359-paint-catalog-compliance-audit",
+   "folder": "code-c359-paint-catalog-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "2bafcef424123ecb9be53487b4204db3574b35db633809020aed539a87fea178",
+   "size_bytes": 4783104,
+   "updated": "2026-09-28T18:05:36.045Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c36-provisioning-state-machine",
@@ -11078,15 +11092,15 @@
    "updated": "2026-09-25T08:55:36.884Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sc06-a5-study-guide-citations",
    "declared_short": "edu-sc06-a5-study-guide-citations",
-   "folder": "edu-sc06-a5-study-guide-citations",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sc06-a5-study-guide-citations",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0996a0a4c886d179a6c1354cf725fec8b0a6d40fe92e0b037603c205f5f6ed66",
    "size_bytes": 9084064,
    "updated": "2026-09-28T18:00:44.399Z"
@@ -14892,6 +14906,20 @@
    "sha256": "5ccb6821fcc5f4489348c37cbc6ed360fe6ac0e7b712a9544ec05458db4e6707",
    "size_bytes": 9425291,
    "updated": "2026-09-24T00:51:33.763Z"
+  },
+  {
+   "declared_name": "obi/gen-g292-grazing-cup-design-audit",
+   "declared_short": "gen-g292-grazing-cup-design-audit",
+   "folder": "gen-g292-grazing-cup-design-audit-Error-Fixed-340e7f-v1-sna-irvn",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "0d62ceac00264e547f8fe84ea5a9438458291dc474a785799380c650d2946030",
+   "size_bytes": 13490265,
+   "updated": "2026-09-28T18:06:19.501Z"
   },
   {
    "connector_provenance": null,
