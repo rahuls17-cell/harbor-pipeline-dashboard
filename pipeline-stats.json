@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-28T07:55:06+00:00",
+ "generated_at": "2026-09-28T08:00:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1915,
-  "scanned": 1915,
-  "connector": 519,
-  "non_connector": 1396,
+  "task_folders": 1919,
+  "scanned": 1919,
+  "connector": 521,
+  "non_connector": 1398,
   "errors": 0
  },
  "connector_provenance": {
   "real": 140,
   "unknown": 160,
-  "synthetic": 219
+  "synthetic": 221
  },
  "domain": {
-  "unnamed": 873,
+  "unnamed": 877,
   "code": 368,
   "fin": 114,
   "gen": 318,
@@ -22,8 +22,8 @@
   "law": 101
  },
  "name_prefix": {
-  "harbor": 522,
-  "obi": 1388,
+  "harbor": 524,
+  "obi": 1390,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -38,11 +38,11 @@
   "freshdesk-gym": 180,
   "slack": 64,
   "notion-gym": 46,
+  "linear-gym": 37,
   "outlook-gym": 37,
-  "linear-gym": 36,
   "github-gym": 35,
   "email-calendar-gym": 34,
-  "gws-gym": 31,
+  "gws-gym": 32,
   "supabase-gym": 6,
   "teams-gym": 5,
   "microsoft-teams-gym": 4,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 4,
+  "approx_bytes_read": 533425
  },
  "errors": [],
  "tasks": [
@@ -333,6 +333,22 @@
    "sha256": "7a487dcdd9b87793bd21a7d41263d5002e6403e7f2c213a71831fda09273f4c1",
    "size_bytes": 11006205,
    "updated": "2026-09-22T09:31:13.791Z"
+  },
+  {
+   "declared_name": "harbor/five-of-twelve-wear-nothing",
+   "declared_short": "five-of-twelve-wear-nothing",
+   "folder": "ASTR_101204-v2-final-r5",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "49db26790cc55d0bbe1890bc72c5376cd3f2ee125c7968ae460ad0153aae49c0",
+   "size_bytes": 7874867,
+   "updated": "2026-09-28T07:58:37.809Z"
   },
   {
    "connector_provenance": "real",
@@ -2057,6 +2073,20 @@
    "updated": "2026-09-25T03:25:04.308Z"
   },
   {
+   "declared_name": "obi/bus-b23-b1-crm-drip-enrollment-audit",
+   "declared_short": "bus-b23-b1-crm-drip-enrollment-audit",
+   "folder": "bus-b23-b1-crm-drip-enrollment-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "a4013ad915fee2ab5200a5f19a1ee50801b6f6895a68e662d74307bf211f095f",
+   "size_bytes": 6396814,
+   "updated": "2026-09-28T07:56:52.994Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b23-b11-smb-frustration-post-coding",
@@ -3371,6 +3401,20 @@
    "sha256": "d7a2afb85e9bc615f289f2f1a5cbc2f417cde5a98a65445c5f8f3b581e29c98b",
    "size_bytes": 4438882,
    "updated": "2026-09-28T06:27:59.271Z"
+  },
+  {
+   "declared_name": "obi/bus-b59-t2-concept-template-order-audit",
+   "declared_short": "bus-b59-t2-concept-template-order-audit",
+   "folder": "bus-b59-t2-concept-template-order-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "2a6b5a60d388158f06213e72af191e44cf55a16a9d0b7b86c0c9c60b4d97f164",
+   "size_bytes": 5222874,
+   "updated": "2026-09-28T07:57:32.570Z"
   },
   {
    "connector_provenance": null,
@@ -26250,6 +26294,22 @@
    "sha256": "30a453159185c4ada23d9837519f1edc5ffcc04d6250fc6283f5c3d1267f45f5",
    "size_bytes": 12316515,
    "updated": "2026-09-28T06:39:45.604Z"
+  },
+  {
+   "declared_name": "harbor/the-lead-board-exports-by-group",
+   "declared_short": "the-lead-board-exports-by-group",
+   "folder": "the-lead-board-exports-by-group",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2e4ad1710b182323221fb027e3725e6985d28ff7e215cd9c350f8eaec0919688",
+   "size_bytes": 11161459,
+   "updated": "2026-09-28T07:56:14.518Z"
   },
   {
    "connector_provenance": "real",
