@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T12:30:05+00:00",
+ "generated_at": "2026-09-28T12:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1984,
-  "scanned": 1984,
+  "task_folders": 1985,
+  "scanned": 1985,
   "connector": 528,
-  "non_connector": 1456,
+  "non_connector": 1457,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 224
  },
  "domain": {
-  "unnamed": 926,
+  "unnamed": 927,
   "code": 371,
   "fin": 115,
   "gen": 323,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 531,
-  "obi": 1445,
+  "obi": 1446,
   "bus": 1,
   "vankamasthanamma": 1,
   "health": 3,
@@ -52,8 +52,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262937
+  "new_archives_read": 1,
+  "approx_bytes_read": 131392
  },
  "errors": [],
  "tasks": [
@@ -2099,15 +2099,15 @@
    "updated": "2026-09-28T06:53:39.490Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b22-b7-solo-offer-portfolio-plan",
    "declared_short": "bus-b22-b7-solo-offer-portfolio-plan",
-   "folder": "bus-b22-b7-solo-offer-portfolio-plan",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b22-b7-solo-offer-portfolio-plan",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b08f7f09ac7c763cefd7fd299950abed1067358d03246a866bdbc599b5e8fb40",
    "size_bytes": 6067070,
    "updated": "2026-09-28T12:29:11.982Z"
@@ -3555,15 +3555,15 @@
    "updated": "2026-09-26T22:11:21.197Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b56-a6-brand-name-availability-reconciliation",
    "declared_short": "bus-b56-a6-brand-name-availability-reconciliation",
-   "folder": "bus-b56-a6-brand-name-availability-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b56-a6-brand-name-availability-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e2844744b4a04027a9d62f6106d4ce25eff7f305ce1038e14a835d8b8f739cb6",
    "size_bytes": 3353243,
    "updated": "2026-09-28T12:26:21.150Z"
@@ -29698,6 +29698,20 @@
    "sha256": "dd6fc0243dd27d7229c5eabe3c3d634e2c737657a4fb452f8102c08ab7e6bf71",
    "size_bytes": 6527927,
    "updated": "2026-09-28T12:02:41.902Z"
+  },
+  {
+   "declared_name": "obi/writing-b53-a1-editorial-summary-support-audit",
+   "declared_short": "writing-b53-a1-editorial-summary-support-audit",
+   "folder": "writing-b53-a1-editorial-summary-support-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "8d370f093cf3e4a83542356f17242d007f73d8283fea2b11a367f35f6795b711",
+   "size_bytes": 8112779,
+   "updated": "2026-09-28T12:34:26.527Z"
   },
   {
    "connector_provenance": null,
