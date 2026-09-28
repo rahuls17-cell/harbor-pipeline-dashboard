@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-28T23:25:03+00:00",
+ "generated_at": "2026-09-28T23:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2065,
-  "scanned": 2065,
-  "connector": 550,
-  "non_connector": 1515,
+  "task_folders": 2067,
+  "scanned": 2067,
+  "connector": 551,
+  "non_connector": 1516,
   "errors": 0
  },
  "connector_provenance": {
   "real": 144,
   "unknown": 169,
-  "synthetic": 237
+  "synthetic": 238
  },
  "domain": {
-  "unnamed": 982,
+  "unnamed": 984,
   "code": 374,
   "fin": 116,
   "gen": 335,
@@ -22,8 +22,8 @@
   "law": 104
  },
  "name_prefix": {
-  "harbor": 553,
-  "obi": 1500,
+  "harbor": 554,
+  "obi": 1501,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -41,8 +41,8 @@
   "freshdesk-gym": 183,
   "slack": 64,
   "notion-gym": 46,
+  "linear-gym": 42,
   "email-calendar-gym": 42,
-  "linear-gym": 41,
   "outlook-gym": 38,
   "gws-gym": 37,
   "github-gym": 36,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 267438
+  "approx_bytes_read": 268058
  },
  "errors": [],
  "tasks": [
@@ -3711,15 +3711,15 @@
    "updated": "2026-09-26T22:11:21.197Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b56-a5-campaign-budget-allocation-plan",
    "declared_short": "bus-b56-a5-campaign-budget-allocation-plan",
-   "folder": "bus-b56-a5-campaign-budget-allocation-plan",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b56-a5-campaign-budget-allocation-plan",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1e6fd1d4efc69a8217456948779beb531c9de9682ce8cfb5613023630083a4ba",
    "size_bytes": 7382236,
    "updated": "2026-09-28T23:20:14.860Z"
@@ -10757,6 +10757,20 @@
    "updated": "2026-09-28T19:15:24.197Z"
   },
   {
+   "declared_name": "obi/edu-b21-g19-worksheet-answer-key-recompute",
+   "declared_short": "edu-b21-g19-worksheet-answer-key-recompute",
+   "folder": "edu-b21-g19-worksheet-answer-key-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1835059b745be214250d54744aaa51bcc4efe80f6fbc053ad0acb9522238697e",
+   "size_bytes": 8342163,
+   "updated": "2026-09-28T23:29:13.304Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-b50-a10-number-system-worksheet-normalisation",
@@ -12181,20 +12195,20 @@
    "updated": "2026-09-26T07:04:11.671Z"
   },
   {
-   "declared_name": "harbor/file-new-data-request-for-slack-data-intake-audit-trail-no-warehouse-t",
-   "declared_short": "file-new-data-request-for-slack-data-intake-audit-trail-no-warehouse-t",
-   "folder": "file-new-data-request-for-slack-data-intake-audit-trail-no-warehouse-t",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "jira-gym",
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/file-new-data-request-for-slack-data-intake-audit-trail-no-warehouse-t",
+   "declared_short": "file-new-data-request-for-slack-data-intake-audit-trail-no-warehouse-t",
    "domain": null,
+   "folder": "file-new-data-request-for-slack-data-intake-audit-trail-no-warehouse-t",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "cba2b1a9cd4e3d6d66f74433c99407ac1590f649b12afb984337444201041ecd",
    "size_bytes": 9848750,
    "updated": "2026-09-28T23:22:29.076Z"
@@ -13828,6 +13842,22 @@
    "sha256": "adfc7ddf2fdb315523d3cf11e4e0c244de14c955f397e97889ac2dd031920035",
    "size_bytes": 7083236,
    "updated": "2026-09-21T21:15:32.246Z"
+  },
+  {
+   "declared_name": "harbor/four-labels-and-thirty-one-stickers",
+   "declared_short": "four-labels-and-thirty-one-stickers",
+   "folder": "four-labels-and-thirty-one-stickers",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3107b6db58eeb9cefae1f3767c6b50daa6a50a9918de2e14fe7bb73dc31f9b6b",
+   "size_bytes": 6120658,
+   "updated": "2026-09-28T23:29:55.525Z"
   },
   {
    "connector_provenance": "synthetic",
