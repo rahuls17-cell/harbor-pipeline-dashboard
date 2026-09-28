@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T04:50:03+00:00",
+ "generated_at": "2026-09-28T05:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1893,
-  "scanned": 1893,
+  "task_folders": 1894,
+  "scanned": 1894,
   "connector": 513,
-  "non_connector": 1380,
+  "non_connector": 1381,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 859,
-  "code": 362,
+  "code": 363,
   "fin": 114,
   "gen": 317,
   "health": 140,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 516,
-  "obi": 1372,
+  "obi": 1373,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131732
  },
  "errors": [],
  "tasks": [
@@ -6961,6 +6961,20 @@
    "sha256": "ab116fb5b1f19b2e6a6b1a6a4c40af2049d01927cd34d1aa48a2980935b037bf",
    "size_bytes": 7712285,
    "updated": "2026-09-26T11:06:50.503Z"
+  },
+  {
+   "declared_name": "obi/code-c403-afcfta-competition-protocol-notification-audit",
+   "declared_short": "code-c403-afcfta-competition-protocol-notification-audit",
+   "folder": "code-c403-afcfta-competition-protocol-notification-audit-FINAL-V64-FIXED",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "fa3bc3c515a30d3a55c6e2aad436dff6f30aa3d375494527e0670ed143a04f0a",
+   "size_bytes": 6062516,
+   "updated": "2026-09-28T05:08:10.113Z"
   },
   {
    "connector_provenance": null,
