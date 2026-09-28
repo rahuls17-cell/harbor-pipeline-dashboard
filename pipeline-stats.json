@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T19:35:03+00:00",
+ "generated_at": "2026-09-28T19:40:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2023,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134045
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -19593,15 +19593,15 @@
    "updated": "2026-09-28T11:17:04.416Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h17-antimicrobial-duration-review",
    "declared_short": "health-h17-antimicrobial-duration-review",
-   "folder": "health-h17-antimicrobial-duration-review",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h17-antimicrobial-duration-review",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9cc1bc8bc54e3e3ded0684dd9fe12d4e3b4b6ef8a27df683b1642a97d5d9c994",
    "size_bytes": 6820246,
    "updated": "2026-09-28T19:32:08.618Z"
