@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T12:55:05+00:00",
+ "generated_at": "2026-09-28T13:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1991,
@@ -53,8 +53,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262897
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2100,15 +2100,15 @@
    "updated": "2026-09-28T06:53:39.490Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b22-b7-solo-offer-portfolio-plan",
    "declared_short": "bus-b22-b7-solo-offer-portfolio-plan",
-   "folder": "bus-b22-b7-solo-offer-portfolio-plan",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b22-b7-solo-offer-portfolio-plan",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1416bfb9056aef86d92f25ee9803978d2800fac115620c7e8ac989bfb636164a",
    "size_bytes": 5697431,
    "updated": "2026-09-28T12:51:22.082Z"
@@ -23864,15 +23864,15 @@
    "updated": "2026-09-26T03:32:46.211Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/sci-sc07-a6-ice-cap-bibliography",
    "declared_short": "sci-sc07-a6-ice-cap-bibliography",
-   "folder": "sci-sc07-a6-ice-cap-bibliography",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "sci-sc07-a6-ice-cap-bibliography",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ae2ace44d63878b2779876b5cfddeef226f913ebb906476ab0a5b18937dad20e",
    "size_bytes": 9335952,
    "updated": "2026-09-28T12:50:06.137Z"
