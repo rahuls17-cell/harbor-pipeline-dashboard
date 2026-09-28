@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T12:35:04+00:00",
+ "generated_at": "2026-09-28T12:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1985,
@@ -52,8 +52,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131392
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -29700,15 +29700,15 @@
    "updated": "2026-09-28T12:02:41.902Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/writing-b53-a1-editorial-summary-support-audit",
    "declared_short": "writing-b53-a1-editorial-summary-support-audit",
-   "folder": "writing-b53-a1-editorial-summary-support-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "writing-b53-a1-editorial-summary-support-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8d370f093cf3e4a83542356f17242d007f73d8283fea2b11a367f35f6795b711",
    "size_bytes": 8112779,
    "updated": "2026-09-28T12:34:26.527Z"
