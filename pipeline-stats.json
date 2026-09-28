@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T09:30:05+00:00",
+ "generated_at": "2026-09-28T09:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1944,
-  "scanned": 1944,
+  "task_folders": 1946,
+  "scanned": 1946,
   "connector": 524,
-  "non_connector": 1420,
+  "non_connector": 1422,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 222
  },
  "domain": {
-  "unnamed": 893,
+  "unnamed": 894,
   "code": 371,
   "fin": 114,
-  "gen": 321,
+  "gen": 322,
   "health": 143,
   "law": 102
  },
  "name_prefix": {
   "harbor": 527,
-  "obi": 1412,
+  "obi": 1414,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -51,7 +51,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 263222
+  "approx_bytes_read": 263162
  },
  "errors": [],
  "tasks": [
@@ -3361,15 +3361,15 @@
    "updated": "2026-09-26T23:56:53.478Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b54-b9-multichannel-sku-reorder-variance",
    "declared_short": "bus-b54-b9-multichannel-sku-reorder-variance",
-   "folder": "bus-b54-b9-multichannel-sku-reorder-variance",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b54-b9-multichannel-sku-reorder-variance",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "879da49ee87c1eee51e41036d96be1565fe07e1428b7c29d6905b1665966d867",
    "size_bytes": 11481355,
    "updated": "2026-09-28T09:26:55.376Z"
@@ -15019,15 +15019,15 @@
    "updated": "2026-09-28T03:36:02.725Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g528-electrosorption-lambda-classification-audit",
    "declared_short": "gen-g528-electrosorption-lambda-classification-audit",
-   "folder": "gen-g528-electrosorption-lambda-classification-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g528-electrosorption-lambda-classification-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "704c833578c04061dba22ad509035077b874eb3a4abe9a67d941fa5f3e83641b",
    "size_bytes": 5214949,
    "updated": "2026-09-28T09:28:10.344Z"
@@ -16305,6 +16305,20 @@
    "sha256": "978dc87f4c3507e1bcd24cc1cbebf4dc11e317f5474aef5ff7686dfc7c174537",
    "size_bytes": 5554010,
    "updated": "2026-09-18T13:22:57.782Z"
+  },
+  {
+   "declared_name": "obi/gen-g826-tender-document-brand-style-audit",
+   "declared_short": "gen-g826-tender-document-brand-style-audit",
+   "folder": "gen-g826-tender-document-brand-style-audit-v37",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "42412a592e09329c6a6be98c0b6f639e84b948a6ce2eee8d3edc71ad2cd7d9b2",
+   "size_bytes": 4298541,
+   "updated": "2026-09-28T09:31:14.174Z"
   },
   {
    "connector_provenance": null,
@@ -25648,6 +25662,20 @@
    "sha256": "ffe583e2ef7305577f7ef1c8c37a008a3ed77e74fed542f14ce58163440bb3a0",
    "size_bytes": 7446052,
    "updated": "2026-09-24T10:12:41.843Z"
+  },
+  {
+   "declared_name": "obi/tech-mg-it-b10-a9-api-prompt-retention-grid",
+   "declared_short": "tech-mg-it-b10-a9-api-prompt-retention-grid",
+   "folder": "tech-mg-it-b10-a9-api-prompt-retention-grid",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "c2c91516f412e2d01cfa38634c8e59eca991bc51840996c8d94a5542dea3e92b",
+   "size_bytes": 5195460,
+   "updated": "2026-09-28T09:30:32.056Z"
   },
   {
    "connector_provenance": null,
