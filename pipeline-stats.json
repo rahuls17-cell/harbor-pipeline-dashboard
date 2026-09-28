@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T08:40:04+00:00",
+ "generated_at": "2026-09-28T08:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1932,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 397080
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4081,15 +4081,15 @@
    "updated": "2026-09-22T17:40:56.924Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c104-log-sampling-ingestion-volume-recompute",
    "declared_short": "code-c104-log-sampling-ingestion-volume-recompute",
-   "folder": "code-c104-log-sampling-ingestion-volume-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c104-log-sampling-ingestion-volume-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "25d78fc7f5172e0a203a42401f0db5141cf7812b43d66a6d7c495145ab0ffaa4",
    "size_bytes": 6713631,
    "updated": "2026-09-28T08:35:59.554Z"
@@ -28778,17 +28778,17 @@
    "updated": "2026-09-26T07:13:50.746Z"
   },
   {
-   "declared_name": "harbor/who-keeps-pinging-everyone",
-   "declared_short": "who-keeps-pinging-everyone",
-   "folder": "who-keeps-pinging-everyone",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/who-keeps-pinging-everyone",
+   "declared_short": "who-keeps-pinging-everyone",
    "domain": null,
+   "folder": "who-keeps-pinging-everyone",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "cfa76e9bbe5330f9baf5c551a21fd9a79bcf82db515f70d6bcc9043d2667d0d3",
    "size_bytes": 10945179,
    "updated": "2026-09-28T08:35:51.293Z"
@@ -28926,15 +28926,15 @@
    "updated": "2026-09-26T17:17:29.536Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/writing-b52-a10-ethics-lens-application-audit",
    "declared_short": "writing-b52-a10-ethics-lens-application-audit",
-   "folder": "writing-b52-a10-ethics-lens-application-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "writing-b52-a10-ethics-lens-application-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a039dd588398841ea27865fbefde5f85592f616c4874131bdbf1d2f1b20c3c5b",
    "size_bytes": 6391705,
    "updated": "2026-09-28T08:36:32.032Z"
