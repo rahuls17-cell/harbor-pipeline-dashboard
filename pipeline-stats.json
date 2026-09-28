@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T22:10:03+00:00",
+ "generated_at": "2026-09-28T22:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2050,
-  "scanned": 2050,
+  "task_folders": 2052,
+  "scanned": 2052,
   "connector": 546,
-  "non_connector": 1504,
+  "non_connector": 1506,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 234
  },
  "domain": {
-  "unnamed": 970,
+  "unnamed": 972,
   "code": 373,
   "fin": 116,
   "gen": 334,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 549,
-  "obi": 1490,
+  "obi": 1492,
   "bus": 1,
   "edu": 2,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131442
+  "new_archives_read": 2,
+  "approx_bytes_read": 262979
  },
  "errors": [],
  "tasks": [
@@ -10753,18 +10753,32 @@
    "updated": "2026-09-28T08:26:37.272Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-b50-e5-verse-reading-adjudication",
    "declared_short": "edu-b50-e5-verse-reading-adjudication",
+   "domain": null,
    "folder": "edu-b50-e5-verse-reading-adjudication",
+   "image": null,
+   "is_connector": false,
+   "prefix": "obi",
+   "sha256": "005bebfb826f1818ddb849d09c85eb842c9a4a840f05a8765a243ba06e11f2ed",
+   "size_bytes": 6481361,
+   "updated": "2026-09-28T22:06:30.406Z"
+  },
+  {
+   "declared_name": "obi/edu-b50-e6-first-aid-kit-selection",
+   "declared_short": "edu-b50-e6-first-aid-kit-selection",
+   "folder": "edu-b50-e6-first-aid-kit-selection",
    "prefix": "obi",
    "is_connector": false,
    "connector_services": [],
    "connector_provenance": null,
    "domain": null,
    "image": null,
-   "sha256": "005bebfb826f1818ddb849d09c85eb842c9a4a840f05a8765a243ba06e11f2ed",
-   "size_bytes": 6481361,
-   "updated": "2026-09-28T22:06:30.406Z"
+   "sha256": "55e3892eeed4a441f83fcfddaf3c66a2cded4013907c9937aac492bd1219065a",
+   "size_bytes": 3886480,
+   "updated": "2026-09-28T22:11:58.248Z"
   },
   {
    "connector_provenance": null,
@@ -11731,6 +11745,20 @@
    "sha256": "38db776a8e1049578a87088af08208d102efc6eb341fd1223926f689e2088eca",
    "size_bytes": 2978201,
    "updated": "2026-09-28T08:34:04.265Z"
+  },
+  {
+   "declared_name": "obi/edu-sch-b18-dental-apprentice-task-card-catalog-recode",
+   "declared_short": "edu-sch-b18-dental-apprentice-task-card-catalog-recode",
+   "folder": "edu-sch-b18-dental-apprentice-task-card-catalog-recode",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "e014f0a29d478a84afd5a46a366022474cc0763cdc237a7c2f9d69df5702b3fd",
+   "size_bytes": 5223609,
+   "updated": "2026-09-28T22:14:35.336Z"
   },
   {
    "connector_provenance": null,
