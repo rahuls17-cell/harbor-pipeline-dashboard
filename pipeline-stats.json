@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T05:20:03+00:00",
+ "generated_at": "2026-09-28T05:25:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1895,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131422
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -19321,15 +19321,15 @@
    "updated": "2026-09-27T05:54:45.295Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "health/tdt11-a7-heater-service-interval-plan",
    "declared_short": "tdt11-a7-heater-service-interval-plan",
-   "folder": "health-tdt11-a7-heater-service-interval-plan",
-   "prefix": "health",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "health-tdt11-a7-heater-service-interval-plan",
    "image": null,
+   "is_connector": false,
+   "prefix": "health",
    "sha256": "8d24eaaf9a8d4789749c2d5f297e6906f6159ce2e84b99f7dcb861e6b11c7ce3",
    "size_bytes": 6767738,
    "updated": "2026-09-28T05:18:37.217Z"
