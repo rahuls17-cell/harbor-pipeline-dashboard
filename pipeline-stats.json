@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T20:50:03+00:00",
+ "generated_at": "2026-09-28T20:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2040,
-  "scanned": 2040,
+  "task_folders": 2041,
+  "scanned": 2041,
   "connector": 543,
-  "non_connector": 1497,
+  "non_connector": 1498,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 373,
   "fin": 116,
   "gen": 333,
-  "health": 151,
+  "health": 152,
   "law": 104
  },
  "name_prefix": {
   "harbor": 546,
-  "obi": 1483,
+  "obi": 1484,
   "bus": 1,
   "edu": 2,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131611
  },
  "errors": [],
  "tasks": [
@@ -20641,6 +20641,20 @@
    "sha256": "536c2ecf39d35221316abd52ffb3b5c7933082e7118fa8992c3c1b6983720ed6",
    "size_bytes": 6082255,
    "updated": "2026-09-28T12:03:11.633Z"
+  },
+  {
+   "declared_name": "obi/health-tdt11-a13-vision-therapy-evidence-transform",
+   "declared_short": "health-tdt11-a13-vision-therapy-evidence-transform",
+   "folder": "health-tdt11-a13-vision-therapy-evidence-transform",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "68ab3bf5d2fc63161e77800ba8ead1b842489a9125a3b11dca1b983d14b35901",
+   "size_bytes": 5929632,
+   "updated": "2026-09-28T20:54:50.402Z"
   },
   {
    "connector_provenance": null,
