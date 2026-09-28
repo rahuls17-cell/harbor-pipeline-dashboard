@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T00:30:03+00:00",
+ "generated_at": "2026-09-28T00:35:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1880,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131551
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3261,15 +3261,15 @@
    "updated": "2026-09-26T23:56:53.478Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b56-a2-ipo-signal-grounding-audit",
    "declared_short": "bus-b56-a2-ipo-signal-grounding-audit",
-   "folder": "bus-b56-a2-ipo-signal-grounding-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b56-a2-ipo-signal-grounding-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e31c677f5c69729fdc9803f7e7215e7d327d9353ecfcbbbca8edb6165b7d870c",
    "size_bytes": 5550307,
    "updated": "2026-09-28T00:26:13.087Z"
