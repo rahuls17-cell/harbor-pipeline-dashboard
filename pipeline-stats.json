@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T21:50:03+00:00",
+ "generated_at": "2026-09-28T21:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2047,
-  "scanned": 2047,
+  "task_folders": 2048,
+  "scanned": 2048,
   "connector": 546,
-  "non_connector": 1501,
+  "non_connector": 1502,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 968,
   "code": 373,
   "fin": 116,
-  "gen": 333,
+  "gen": 334,
   "health": 153,
   "law": 104
  },
  "name_prefix": {
   "harbor": 549,
-  "obi": 1487,
+  "obi": 1488,
   "bus": 1,
   "edu": 2,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131585
  },
  "errors": [],
  "tasks": [
@@ -15505,6 +15505,20 @@
    "sha256": "ba78097105938e22603c54851fdbcd49ae52c5cfdec7387933fa74b98af4df54",
    "size_bytes": 5207556,
    "updated": "2026-09-08T12:37:31.395Z"
+  },
+  {
+   "declared_name": "obi/gen-g368-assignment-submission-compliance-audit",
+   "declared_short": "gen-g368-assignment-submission-compliance-audit",
+   "folder": "gen-g368-assignment-submission-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "86a50fe41dc52683c69ab4cd9c96437158cc202cd494cd11b05a10cbc97b5bb7",
+   "size_bytes": 6011816,
+   "updated": "2026-09-28T21:50:28.374Z"
   },
   {
    "connector_provenance": null,
