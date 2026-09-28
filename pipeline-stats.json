@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T19:15:05+00:00",
+ "generated_at": "2026-09-28T19:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2018,
-  "scanned": 2018,
+  "task_folders": 2019,
+  "scanned": 2019,
   "connector": 537,
-  "non_connector": 1481,
+  "non_connector": 1482,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 230
  },
  "domain": {
-  "unnamed": 948,
+  "unnamed": 949,
   "code": 373,
   "fin": 116,
   "gen": 327,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 540,
-  "obi": 1469,
+  "obi": 1470,
   "bus": 1,
   "edu": 1,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 267942
+  "new_archives_read": 1,
+  "approx_bytes_read": 131585
  },
  "errors": [],
  "tasks": [
@@ -10533,6 +10533,20 @@
    "updated": "2026-09-21T15:51:59.465Z"
   },
   {
+   "declared_name": "obi/edu-b21-g17-aclp-activity-plan-transform",
+   "declared_short": "edu-b21-g17-aclp-activity-plan-transform",
+   "folder": "edu-b21-g17-aclp-activity-plan-transform",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "a8238b248408ecd7d1672d57202eadbd7a43373c7f1510d8cba790f94e16d0a1",
+   "size_bytes": 8181012,
+   "updated": "2026-09-28T19:15:24.197Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-b50-a10-number-system-worksheet-normalisation",
@@ -11149,15 +11163,15 @@
    "updated": "2026-09-28T08:22:02.669Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sc07-b1-cad-programme-applications",
    "declared_short": "edu-sc07-b1-cad-programme-applications",
-   "folder": "edu-sc07-b1-cad-programme-applications",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sc07-b1-cad-programme-applications",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0c61bff4726e498063037247492d00813b48f0d23025700fb4db835a0eb3c019",
    "size_bytes": 8794607,
    "updated": "2026-09-28T19:14:16.873Z"
@@ -27750,17 +27764,17 @@
    "updated": "2026-09-21T18:41:38.252Z"
   },
   {
-   "declared_name": "harbor/the-news-nobody-could-answer",
-   "declared_short": "the-news-nobody-could-answer",
-   "folder": "the-news-nobody-could-answer",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-news-nobody-could-answer",
+   "declared_short": "the-news-nobody-could-answer",
    "domain": null,
+   "folder": "the-news-nobody-could-answer",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e5ed1900dc1000b941f7994a8582cfb622ae6f69482ea1631b0c9018a25b6323",
    "size_bytes": 7811435,
    "updated": "2026-09-28T19:13:45.616Z"
