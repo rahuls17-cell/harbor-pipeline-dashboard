@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T12:20:04+00:00",
+ "generated_at": "2026-09-28T12:25:06+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1982,
@@ -52,8 +52,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262855
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3107,15 +3107,15 @@
    "updated": "2026-09-22T22:51:24.542Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b49-b1-motorcycle-stock-unit-caption-claim-screening",
    "declared_short": "bus-b49-b1-motorcycle-stock-unit-caption-claim-screening",
-   "folder": "bus-b49-b1-motorcycle-stock-unit-caption-claim-screening",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b49-b1-motorcycle-stock-unit-caption-claim-screening",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e2221d7dede543773abaebd8a929d403099ce4b74ce702e2197dcdbea0dfd37c",
    "size_bytes": 3891249,
    "updated": "2026-09-28T12:17:36.272Z"
@@ -29798,15 +29798,15 @@
    "updated": "2026-09-25T21:47:33.397Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/writing-sc05-a6-three-move-classification",
    "declared_short": "writing-sc05-a6-three-move-classification",
-   "folder": "writing-sc05-a6-three-move-classification",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "writing-sc05-a6-three-move-classification",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4dcfe532bf8bc77b6285b0b0ef8c2ca2b35c7e19195c94553c287830f702a5c8",
    "size_bytes": 3534884,
    "updated": "2026-09-28T12:15:50.119Z"
