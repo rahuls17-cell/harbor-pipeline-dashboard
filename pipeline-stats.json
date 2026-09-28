@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T09:10:03+00:00",
+ "generated_at": "2026-09-28T09:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1936,
-  "scanned": 1936,
+  "task_folders": 1938,
+  "scanned": 1938,
   "connector": 524,
-  "non_connector": 1412,
+  "non_connector": 1414,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,15 +15,15 @@
  },
  "domain": {
   "unnamed": 890,
-  "code": 370,
+  "code": 371,
   "fin": 114,
   "gen": 318,
-  "health": 142,
+  "health": 143,
   "law": 102
  },
  "name_prefix": {
   "harbor": 527,
-  "obi": 1404,
+  "obi": 1406,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131430
+  "new_archives_read": 2,
+  "approx_bytes_read": 263040
  },
  "errors": [],
  "tasks": [
@@ -3291,15 +3291,15 @@
    "updated": "2026-09-26T20:54:52.576Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b53-b8-transformation-programme-action-plan-workbook",
    "declared_short": "bus-b53-b8-transformation-programme-action-plan-workbook",
-   "folder": "bus-b53-b8-transformation-programme-action-plan-workbook",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b53-b8-transformation-programme-action-plan-workbook",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "3b24ef9c2860346836b766c51f1eae4f5e3c1c57a8eff340f3d311a704c3d4c9",
    "size_bytes": 5573182,
    "updated": "2026-09-28T09:06:57.772Z"
@@ -4177,6 +4177,20 @@
    "sha256": "4685e299cf20d4475874ffbacade181a9830e8d4cbb33201d7d00f2ef28808d2",
    "size_bytes": 7703902,
    "updated": "2026-09-23T15:16:54.990Z"
+  },
+  {
+   "declared_name": "obi/code-c109-synthetic-check-coverage-audit",
+   "declared_short": "code-c109-synthetic-check-coverage-audit",
+   "folder": "code-c109-synthetic-check-coverage-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "80bf6327aed3a3b7cf94b3fd114e0100571cf77323b24066a7869044337b35ac",
+   "size_bytes": 5212548,
+   "updated": "2026-09-28T09:14:17.735Z"
   },
   {
    "connector_provenance": null,
@@ -19839,6 +19853,20 @@
    "sha256": "a1b4b129ee5ce7e3ec098d9c9694d48a5dbb49c17ed716476ce4404b05a66195",
    "size_bytes": 6989921,
    "updated": "2026-09-19T15:30:27.347Z"
+  },
+  {
+   "declared_name": "obi/health-tdt5-a5-topical-routine-label-audit",
+   "declared_short": "health-tdt5-a5-topical-routine-label-audit",
+   "folder": "health-tdt5-a5-topical-routine-label-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "4310f3822a287e3a48f0a76c6a136781af3800fb2e54737acdbaa15ed28ff168",
+   "size_bytes": 5527790,
+   "updated": "2026-09-28T09:14:57.916Z"
   },
   {
    "connector_provenance": null,
