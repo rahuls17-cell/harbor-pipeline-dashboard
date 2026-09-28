@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-28T02:35:03+00:00",
+ "generated_at": "2026-09-28T02:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1884,
-  "scanned": 1884,
-  "connector": 511,
+  "task_folders": 1886,
+  "scanned": 1886,
+  "connector": 513,
   "non_connector": 1373,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 139,
-  "unknown": 156,
+  "real": 140,
+  "unknown": 157,
   "synthetic": 216
  },
  "domain": {
-  "unnamed": 855,
+  "unnamed": 857,
   "code": 361,
   "fin": 114,
   "gen": 314,
@@ -22,7 +22,7 @@
   "law": 101
  },
  "name_prefix": {
-  "harbor": 514,
+  "harbor": 516,
   "obi": 1365,
   "vankamasthanamma": 1,
   "health": 3,
@@ -31,7 +31,7 @@
  "connector_services": {
   "google-drive-gym": 197,
   "zeta3-sql-gym": 191,
-  "slack-gym": 190,
+  "slack-gym": 191,
   "confluence-gym": 185,
   "jira-gym": 183,
   "email-gym": 180,
@@ -41,7 +41,7 @@
   "outlook-gym": 36,
   "github-gym": 35,
   "linear-gym": 34,
-  "email-calendar-gym": 31,
+  "email-calendar-gym": 32,
   "gws-gym": 31,
   "supabase-gym": 6,
   "teams-gym": 5,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131511
+  "new_archives_read": 2,
+  "approx_bytes_read": 271723
  },
  "errors": [],
  "tasks": [
@@ -3819,6 +3819,22 @@
    "updated": "2026-09-13T04:17:00.613Z"
   },
   {
+   "declared_name": "harbor/clinic-days-i-lost",
+   "declared_short": "clinic-days-i-lost",
+   "folder": "clinic-days-i-lost",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "8b3f5b0604cd70ebfc42373a3e1098b4fdaa7098b49c498cb325f3b4d330baaa",
+   "size_bytes": 11871209,
+   "updated": "2026-09-28T02:37:30.543Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
@@ -6359,15 +6375,15 @@
    "updated": "2026-09-10T14:29:38.528Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c325-data-source-refresh-cadence-audit",
    "declared_short": "code-c325-data-source-refresh-cadence-audit",
-   "folder": "code-c325-data-source-refresh-cadence-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c325-data-source-refresh-cadence-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1cfbb47ff0990dff2df22522ea6eb9b2d5b0e2dd98c1d9a8eae91fac5ff0afd5",
    "size_bytes": 7043409,
    "updated": "2026-09-28T02:32:58.542Z"
@@ -26550,6 +26566,22 @@
    "sha256": "5938d4c124910451a177f5addd912d80acf9660b42dd374f5fa5e4d310bcce7c",
    "size_bytes": 9214876,
    "updated": "2026-09-22T08:45:18.835Z"
+  },
+  {
+   "declared_name": "harbor/the-roadmap-still-on-track",
+   "declared_short": "the-roadmap-still-on-track",
+   "folder": "the-roadmap-still-on-track",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "ffeb5a943542dce8bb550e0dbe47753b7c99024567485b370e13c9cf48e43d5b",
+   "size_bytes": 8608702,
+   "updated": "2026-09-28T02:38:46.543Z"
   },
   {
    "connector_provenance": "synthetic",
