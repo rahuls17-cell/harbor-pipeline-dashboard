@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-28T23:20:03+00:00",
+ "generated_at": "2026-09-28T23:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2063,
-  "scanned": 2063,
-  "connector": 549,
-  "non_connector": 1514,
+  "task_folders": 2065,
+  "scanned": 2065,
+  "connector": 550,
+  "non_connector": 1515,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 143,
+  "real": 144,
   "unknown": 169,
   "synthetic": 237
  },
  "domain": {
-  "unnamed": 980,
+  "unnamed": 982,
   "code": 374,
   "fin": 116,
   "gen": 335,
@@ -22,8 +22,8 @@
   "law": 104
  },
  "name_prefix": {
-  "harbor": 552,
-  "obi": 1499,
+  "harbor": 553,
+  "obi": 1500,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -32,11 +32,11 @@
   "writing": 2
  },
  "connector_services": {
+  "slack-gym": 201,
   "google-drive-gym": 200,
-  "slack-gym": 200,
-  "zeta3-sql-gym": 194,
-  "confluence-gym": 188,
-  "jira-gym": 186,
+  "zeta3-sql-gym": 195,
+  "confluence-gym": 189,
+  "jira-gym": 187,
   "email-gym": 183,
   "freshdesk-gym": 183,
   "slack": 64,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131811
+  "new_archives_read": 2,
+  "approx_bytes_read": 267438
  },
  "errors": [],
  "tasks": [
@@ -3709,6 +3709,20 @@
    "sha256": "bf44646c95f52f5902b3e3ee8b3d92973318999615b3329cf823f318d4072fe2",
    "size_bytes": 7775862,
    "updated": "2026-09-26T22:11:21.197Z"
+  },
+  {
+   "declared_name": "obi/bus-b56-a5-campaign-budget-allocation-plan",
+   "declared_short": "bus-b56-a5-campaign-budget-allocation-plan",
+   "folder": "bus-b56-a5-campaign-budget-allocation-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1e6fd1d4efc69a8217456948779beb531c9de9682ce8cfb5613023630083a4ba",
+   "size_bytes": 7382236,
+   "updated": "2026-09-28T23:20:14.860Z"
   },
   {
    "connector_provenance": null,
@@ -11471,15 +11485,15 @@
    "updated": "2026-09-28T08:04:26.572Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sc07-b6-introduction-screening",
    "declared_short": "edu-sc07-b6-introduction-screening",
-   "folder": "edu-sc07-b6-introduction-screening",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sc07-b6-introduction-screening",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "cef5506704797c153fd07940404ec241951738684567cc2f48ee99e2926a2806",
    "size_bytes": 11548760,
    "updated": "2026-09-28T23:15:03.388Z"
@@ -12165,6 +12179,25 @@
    "sha256": "70466904e53e2725654a96326c03accc3c63ecb9bbdfd3bac5dab7a65dcdbcc1",
    "size_bytes": 9187616,
    "updated": "2026-09-26T07:04:11.671Z"
+  },
+  {
+   "declared_name": "harbor/file-new-data-request-for-slack-data-intake-audit-trail-no-warehouse-t",
+   "declared_short": "file-new-data-request-for-slack-data-intake-audit-trail-no-warehouse-t",
+   "folder": "file-new-data-request-for-slack-data-intake-audit-trail-no-warehouse-t",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "cba2b1a9cd4e3d6d66f74433c99407ac1590f649b12afb984337444201041ecd",
+   "size_bytes": 9848750,
+   "updated": "2026-09-28T23:22:29.076Z"
   },
   {
    "connector_provenance": null,
