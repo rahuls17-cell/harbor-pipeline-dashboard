@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T10:35:05+00:00",
+ "generated_at": "2026-09-28T10:45:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1950,
-  "scanned": 1950,
+  "task_folders": 1951,
+  "scanned": 1951,
   "connector": 524,
-  "non_connector": 1426,
+  "non_connector": 1427,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 896,
   "code": 371,
-  "fin": 114,
+  "fin": 115,
   "gen": 323,
   "health": 144,
   "law": 102
  },
  "name_prefix": {
   "harbor": 527,
-  "obi": 1418,
+  "obi": 1419,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131430
  },
  "errors": [],
  "tasks": [
@@ -11631,6 +11631,20 @@
    "sha256": "52695d9e0e5ea120a779a990129bb8f7546edbdc86132f125771554823ef9fa0",
    "size_bytes": 20827580,
    "updated": "2026-09-20T10:42:27.010Z"
+  },
+  {
+   "declared_name": "obi/fin-b43-a6-budget-ledger-account-review",
+   "declared_short": "fin-b43-a6-budget-ledger-account-review",
+   "folder": "fin-b43-a6-budget-ledger-account-review",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "700d39677d1e87ac07d52cdb9d7b19794da8a67dea07018f2ea2647335cdcdd9",
+   "size_bytes": 5301448,
+   "updated": "2026-09-28T10:43:17.806Z"
   },
   {
    "connector_provenance": null,
