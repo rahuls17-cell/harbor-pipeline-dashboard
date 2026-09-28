@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T23:00:04+00:00",
+ "generated_at": "2026-09-28T23:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2058,
-  "scanned": 2058,
+  "task_folders": 2059,
+  "scanned": 2059,
   "connector": 548,
-  "non_connector": 1510,
+  "non_connector": 1511,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 236
  },
  "domain": {
-  "unnamed": 975,
+  "unnamed": 976,
   "code": 374,
   "fin": 116,
   "gen": 335,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 551,
-  "obi": 1495,
+  "obi": 1496,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 265724
+  "new_archives_read": 1,
+  "approx_bytes_read": 131517
  },
  "errors": [],
  "tasks": [
@@ -3735,6 +3735,20 @@
    "sha256": "b4c6fc0cbb6ba20a7e1cb036fc2ce7313cc0abcf91da89a6387b3283b166281c",
    "size_bytes": 4305968,
    "updated": "2026-09-28T12:02:20.785Z"
+  },
+  {
+   "declared_name": "obi/bus-b58-t10-copy-word-limit-compliance",
+   "declared_short": "bus-b58-t10-copy-word-limit-compliance",
+   "folder": "bus-b58-t10-copy-word-limit-compliance",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "4fd3292f4b6714823d8788c589194ddcb2d3da309cb727cde2f3f466c88daff6",
+   "size_bytes": 6633230,
+   "updated": "2026-09-28T23:00:10.597Z"
   },
   {
    "connector_provenance": null,
@@ -9527,15 +9541,15 @@
    "updated": "2026-09-18T19:42:02.545Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c782-device-storage-migration-audit",
    "declared_short": "code-c782-device-storage-migration-audit",
-   "folder": "code-c782-device-storage-migration-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c782-device-storage-migration-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c3e8463aface671121039d49566ee947cdd02c397d230c52fc89ed5a90e2c6e8",
    "size_bytes": 5017544,
    "updated": "2026-09-28T22:55:29.989Z"
@@ -27554,17 +27568,17 @@
    "updated": "2026-09-23T06:56:29.998Z"
   },
   {
-   "declared_name": "harbor/the-calendar-blocks-that-only-look-like-meetings",
-   "declared_short": "the-calendar-blocks-that-only-look-like-meetings",
-   "folder": "the-calendar-blocks-that-only-look-like-meetings",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-calendar-blocks-that-only-look-like-meetings",
+   "declared_short": "the-calendar-blocks-that-only-look-like-meetings",
    "domain": null,
+   "folder": "the-calendar-blocks-that-only-look-like-meetings",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d1085103b30f101bae2a56f31c4e123524347bd89a7a38d375c1d9616964aa03",
    "size_bytes": 5726420,
    "updated": "2026-09-28T22:57:18.137Z"
