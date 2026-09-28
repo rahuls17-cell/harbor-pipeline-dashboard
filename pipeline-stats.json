@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-28T21:40:03+00:00",
+ "generated_at": "2026-09-28T21:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2046,
-  "scanned": 2046,
-  "connector": 545,
+  "task_folders": 2047,
+  "scanned": 2047,
+  "connector": 546,
   "non_connector": 1501,
   "errors": 0
  },
  "connector_provenance": {
   "real": 143,
   "unknown": 169,
-  "synthetic": 233
+  "synthetic": 234
  },
  "domain": {
-  "unnamed": 967,
+  "unnamed": 968,
   "code": 373,
   "fin": 116,
   "gen": 333,
@@ -22,7 +22,7 @@
   "law": 104
  },
  "name_prefix": {
-  "harbor": 548,
+  "harbor": 549,
   "obi": 1487,
   "bus": 1,
   "edu": 2,
@@ -41,8 +41,8 @@
   "freshdesk-gym": 183,
   "slack": 64,
   "notion-gym": 46,
+  "linear-gym": 40,
   "email-calendar-gym": 40,
-  "linear-gym": 39,
   "outlook-gym": 38,
   "gws-gym": 37,
   "github-gym": 36,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 138921
+  "approx_bytes_read": 135666
  },
  "errors": [],
  "tasks": [
@@ -369,6 +369,22 @@
    "sha256": "b034233fe05a2e34abe6fba1122676847cf9119116786042f3107da5116d2e60",
    "size_bytes": 12769227,
    "updated": "2026-09-21T19:21:53.755Z"
+  },
+  {
+   "declared_name": "harbor/nine-urgent-four-people",
+   "declared_short": "nine-urgent-four-people",
+   "folder": "ASTR_101218",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d1d48f074278ddd7df5bb6458534b2236f68f35a5d054932e3a10b24f05f8f78",
+   "size_bytes": 5562101,
+   "updated": "2026-09-28T21:42:07.905Z"
   },
   {
    "connector_provenance": "unknown",
@@ -21505,17 +21521,17 @@
    "updated": "2026-09-26T18:59:12.755Z"
   },
   {
-   "declared_name": "harbor/how-many-people-i-chased",
-   "declared_short": "how-many-people-i-chased",
-   "folder": "how-many-people-i-chased",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/how-many-people-i-chased",
+   "declared_short": "how-many-people-i-chased",
    "domain": null,
+   "folder": "how-many-people-i-chased",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "265e9ae8ba2c36f488462c093c5678e919dfe85c7bac7e70b5a8e193d61c6cd2",
    "size_bytes": 8186876,
    "updated": "2026-09-28T21:40:01.286Z"
