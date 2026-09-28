@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T00:45:03+00:00",
+ "generated_at": "2026-09-28T01:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1880,
-  "scanned": 1880,
+  "task_folders": 1881,
+  "scanned": 1881,
   "connector": 511,
-  "non_connector": 1369,
+  "non_connector": 1370,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 854,
   "code": 359,
   "fin": 114,
-  "gen": 313,
+  "gen": 314,
   "health": 139,
   "law": 101
  },
  "name_prefix": {
   "harbor": 514,
-  "obi": 1361,
+  "obi": 1362,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131446
  },
  "errors": [],
  "tasks": [
@@ -12619,6 +12619,20 @@
    "sha256": "cf6c6d7f6a6d48781017b46e3e96593274e9b0fb0b26387150ca3cd3b50c1e17",
    "size_bytes": 6950209,
    "updated": "2026-09-18T08:44:12.598Z"
+  },
+  {
+   "declared_name": "obi/gen-g1123-governance-workshop-outline-audit",
+   "declared_short": "gen-g1123-governance-workshop-outline-audit",
+   "folder": "gen-g1123-governance-workshop-outline-audit-165d5b-v1-sna-fdhm",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "3a0e0e72c9f8f3ef6d05d1a4551defcc688c6767b56855898bc28ac27d5beedf",
+   "size_bytes": 4514997,
+   "updated": "2026-09-28T01:52:47.262Z"
   },
   {
    "connector_provenance": null,
