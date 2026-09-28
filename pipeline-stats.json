@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T09:00:05+00:00",
+ "generated_at": "2026-09-28T09:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1934,
-  "scanned": 1934,
+  "task_folders": 1935,
+  "scanned": 1935,
   "connector": 524,
-  "non_connector": 1410,
+  "non_connector": 1411,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 222
  },
  "domain": {
-  "unnamed": 888,
+  "unnamed": 889,
   "code": 370,
   "fin": 114,
   "gen": 318,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 527,
-  "obi": 1402,
+  "obi": 1403,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131438
  },
  "errors": [],
  "tasks": [
@@ -3317,6 +3317,20 @@
    "sha256": "73509f2a7a79da6e462dddb5fd90be8394835554285d710644fc2d18ca18559c",
    "size_bytes": 5309968,
    "updated": "2026-09-27T05:07:49.213Z"
+  },
+  {
+   "declared_name": "obi/bus-b54-b10-training-doc-step-renumbering",
+   "declared_short": "bus-b54-b10-training-doc-step-renumbering",
+   "folder": "bus-b54-b10-training-doc-step-renumbering",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "5bafbf32e0cde8b3d234a6ff93090f0050fd6736cf43021ef4788623c5a0f95a",
+   "size_bytes": 4289499,
+   "updated": "2026-09-28T09:01:04.358Z"
   },
   {
    "connector_provenance": null,
