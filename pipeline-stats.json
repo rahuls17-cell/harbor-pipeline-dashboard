@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T09:05:03+00:00",
+ "generated_at": "2026-09-28T09:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1935,
-  "scanned": 1935,
+  "task_folders": 1936,
+  "scanned": 1936,
   "connector": 524,
-  "non_connector": 1411,
+  "non_connector": 1412,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 222
  },
  "domain": {
-  "unnamed": 889,
+  "unnamed": 890,
   "code": 370,
   "fin": 114,
   "gen": 318,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 527,
-  "obi": 1403,
+  "obi": 1404,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -51,7 +51,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131438
+  "approx_bytes_read": 131430
  },
  "errors": [],
  "tasks": [
@@ -3291,6 +3291,20 @@
    "updated": "2026-09-26T20:54:52.576Z"
   },
   {
+   "declared_name": "obi/bus-b53-b8-transformation-programme-action-plan-workbook",
+   "declared_short": "bus-b53-b8-transformation-programme-action-plan-workbook",
+   "folder": "bus-b53-b8-transformation-programme-action-plan-workbook",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "3b24ef9c2860346836b766c51f1eae4f5e3c1c57a8eff340f3d311a704c3d4c9",
+   "size_bytes": 5573182,
+   "updated": "2026-09-28T09:06:57.772Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b53-b9-behavior-primitive-kernel-synthesis",
@@ -3319,15 +3333,15 @@
    "updated": "2026-09-27T05:07:49.213Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b54-b10-training-doc-step-renumbering",
    "declared_short": "bus-b54-b10-training-doc-step-renumbering",
-   "folder": "bus-b54-b10-training-doc-step-renumbering",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b54-b10-training-doc-step-renumbering",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5bafbf32e0cde8b3d234a6ff93090f0050fd6736cf43021ef4788623c5a0f95a",
    "size_bytes": 4289499,
    "updated": "2026-09-28T09:01:04.358Z"
