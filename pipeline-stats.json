@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T08:05:04+00:00",
+ "generated_at": "2026-09-28T08:10:08+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1920,
-  "scanned": 1920,
+  "task_folders": 1921,
+  "scanned": 1921,
   "connector": 521,
-  "non_connector": 1399,
+  "non_connector": 1400,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 368,
   "fin": 114,
   "gen": 318,
-  "health": 141,
+  "health": 142,
   "law": 101
  },
  "name_prefix": {
   "harbor": 524,
-  "obi": 1391,
+  "obi": 1392,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -51,7 +51,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131587
+  "approx_bytes_read": 131515
  },
  "errors": [],
  "tasks": [
@@ -10601,15 +10601,15 @@
    "updated": "2026-09-28T04:29:55.249Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sc07-b5-german-year-plan",
    "declared_short": "edu-sc07-b5-german-year-plan",
-   "folder": "edu-sc07-b5-german-year-plan",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sc07-b5-german-year-plan",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "46c323a2ca2ab15eb3836425c9b20c9b2bd0e7751d50b921c2b0722671531495",
    "size_bytes": 7708816,
    "updated": "2026-09-28T08:04:26.572Z"
@@ -19321,6 +19321,20 @@
    "sha256": "9d22258f88a4bd3dc6be4482b600aff238a3e61a305aee3885dfda7ac5ac58af",
    "size_bytes": 5233634,
    "updated": "2026-09-26T19:35:39.608Z"
+  },
+  {
+   "declared_name": "obi/health-tdt10-a2-lice-formulary-catalogue",
+   "declared_short": "health-tdt10-a2-lice-formulary-catalogue",
+   "folder": "health-tdt10-a2-lice-formulary-catalogue",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "a5328e2ade7f9349f7cd46ce795a4bc82189311794022a3b8437c941a6ed2dc6",
+   "size_bytes": 9440569,
+   "updated": "2026-09-28T08:07:53.803Z"
   },
   {
    "connector_provenance": null,
