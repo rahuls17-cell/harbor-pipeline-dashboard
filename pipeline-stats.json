@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T07:25:03+00:00",
+ "generated_at": "2026-09-28T07:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 1913,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131569
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3737,15 +3737,15 @@
    "updated": "2026-09-09T04:36:46.374Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/career-b49-l7-eeo-competency-evidence-coverage",
    "declared_short": "career-b49-l7-eeo-competency-evidence-coverage",
-   "folder": "career-b49-l7-eeo-competency-evidence-coverage",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "career-b49-l7-eeo-competency-evidence-coverage",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ef84d12c3200cb0836e33a797598c763a399a82910503c41aeed9ec73797e1c3",
    "size_bytes": 9099678,
    "updated": "2026-09-28T07:23:59.348Z"
