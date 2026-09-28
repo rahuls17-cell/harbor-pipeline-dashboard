@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T07:10:03+00:00",
+ "generated_at": "2026-09-28T07:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1912,
-  "scanned": 1912,
+  "task_folders": 1913,
+  "scanned": 1913,
   "connector": 519,
-  "non_connector": 1393,
+  "non_connector": 1394,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 219
  },
  "domain": {
-  "unnamed": 871,
+  "unnamed": 872,
   "code": 368,
   "fin": 114,
   "gen": 318,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 522,
-  "obi": 1385,
+  "obi": 1386,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131569
  },
  "errors": [],
  "tasks": [
@@ -3735,6 +3735,20 @@
    "sha256": "0d439f0d283c8237a88c4423cc9cb4ea1c53f78cc36fd239cd6537705f65a5d5",
    "size_bytes": 6356317,
    "updated": "2026-09-09T04:36:46.374Z"
+  },
+  {
+   "declared_name": "obi/career-b49-l7-eeo-competency-evidence-coverage",
+   "declared_short": "career-b49-l7-eeo-competency-evidence-coverage",
+   "folder": "career-b49-l7-eeo-competency-evidence-coverage",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "ef84d12c3200cb0836e33a797598c763a399a82910503c41aeed9ec73797e1c3",
+   "size_bytes": 9099678,
+   "updated": "2026-09-28T07:23:59.348Z"
   },
   {
    "connector_provenance": null,
