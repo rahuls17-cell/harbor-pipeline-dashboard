@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-28T06:35:03+00:00",
+ "generated_at": "2026-09-28T06:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1903,
-  "scanned": 1903,
-  "connector": 516,
+  "task_folders": 1904,
+  "scanned": 1904,
+  "connector": 517,
   "non_connector": 1387,
   "errors": 0
  },
  "connector_provenance": {
   "real": 140,
-  "unknown": 159,
+  "unknown": 160,
   "synthetic": 217
  },
  "domain": {
-  "unnamed": 866,
+  "unnamed": 867,
   "code": 364,
   "fin": 114,
   "gen": 318,
@@ -22,7 +22,7 @@
   "law": 101
  },
  "name_prefix": {
-  "harbor": 519,
+  "harbor": 520,
   "obi": 1379,
   "vankamasthanamma": 1,
   "health": 3,
@@ -30,8 +30,8 @@
  },
  "connector_services": {
   "google-drive-gym": 197,
+  "slack-gym": 192,
   "zeta3-sql-gym": 191,
-  "slack-gym": 191,
   "confluence-gym": 185,
   "jira-gym": 183,
   "email-gym": 180,
@@ -51,7 +51,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136665
+  "approx_bytes_read": 133929
  },
  "errors": [],
  "tasks": [
@@ -26124,6 +26124,22 @@
    "updated": "2026-09-23T22:05:44.216Z"
   },
   {
+   "declared_name": "harbor/the-last-three-months-by-channel",
+   "declared_short": "the-last-three-months-by-channel",
+   "folder": "the-last-three-months-by-channel",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "30a453159185c4ada23d9837519f1edc5ffcc04d6250fc6283f5c3d1267f45f5",
+   "size_bytes": 12316515,
+   "updated": "2026-09-28T06:39:45.604Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "supabase-gym"
@@ -26908,17 +26924,17 @@
    "updated": "2026-09-19T12:27:04.857Z"
   },
   {
-   "declared_name": "harbor/the-slowest-ten-all-on-one-board",
-   "declared_short": "the-slowest-ten-all-on-one-board",
-   "folder": "the-slowest-ten-all-on-one-board",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-slowest-ten-all-on-one-board",
+   "declared_short": "the-slowest-ten-all-on-one-board",
    "domain": null,
+   "folder": "the-slowest-ten-all-on-one-board",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6326575109fc93499da58b0785cdecfaaddde3faed8921bc076e4088aa520825",
    "size_bytes": 8033590,
    "updated": "2026-09-28T06:32:47.634Z"
