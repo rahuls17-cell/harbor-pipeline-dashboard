@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T11:20:04+00:00",
+ "generated_at": "2026-09-28T11:25:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1960,
-  "scanned": 1960,
+  "task_folders": 1961,
+  "scanned": 1961,
   "connector": 526,
-  "non_connector": 1434,
+  "non_connector": 1435,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 223
  },
  "domain": {
-  "unnamed": 904,
+  "unnamed": 905,
   "code": 371,
   "fin": 115,
   "gen": 323,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 529,
-  "obi": 1426,
+  "obi": 1427,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 265990
+  "new_archives_read": 1,
+  "approx_bytes_read": 131488
  },
  "errors": [],
  "tasks": [
@@ -1231,11 +1231,7 @@
    "updated": "2026-09-13T04:16:24.903Z"
   },
   {
-   "declared_name": "harbor/automation-edit-spawning-a-duplicate-active-automation",
-   "declared_short": "automation-edit-spawning-a-duplicate-active-automation",
-   "folder": "automation-edit-spawning-a-duplicate-active-automation",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -1245,9 +1241,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/automation-edit-spawning-a-duplicate-active-automation",
+   "declared_short": "automation-edit-spawning-a-duplicate-active-automation",
    "domain": null,
+   "folder": "automation-edit-spawning-a-duplicate-active-automation",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0805a7736c38d2fc0cf62014c2c51b4887f05ac546e7acfe2c24309ecd882dcd",
    "size_bytes": 10708841,
    "updated": "2026-09-28T11:16:05.645Z"
@@ -10415,6 +10415,20 @@
    "updated": "2026-09-24T07:27:01.984Z"
   },
   {
+   "declared_name": "obi/edu-b51-e2-ancestry-claim-audit",
+   "declared_short": "edu-b51-e2-ancestry-claim-audit",
+   "folder": "edu-b51-e2-ancestry-claim-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "d0ff79a66351b59edeeba6c0841fd82b7efb71f10f1d3b6f2f183b1cfe026863",
+   "size_bytes": 7729668,
+   "updated": "2026-09-28T11:22:30.095Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-b51-e3-online-programme-cost-recomputation",
@@ -19067,15 +19081,15 @@
    "updated": "2026-09-06T15:30:03.413Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h14-sample-stability-audit",
    "declared_short": "health-h14-sample-stability-audit",
-   "folder": "health-h14-sample-stability-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h14-sample-stability-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "377ad65be75cc2e9dfc2ed764e3bdce8b9580a5ad2659bf3d557e4114330dacb",
    "size_bytes": 6258905,
    "updated": "2026-09-28T11:17:04.416Z"
