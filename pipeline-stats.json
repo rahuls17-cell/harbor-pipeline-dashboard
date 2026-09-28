@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T21:05:03+00:00",
+ "generated_at": "2026-09-28T21:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2041,
-  "scanned": 2041,
+  "task_folders": 2043,
+  "scanned": 2043,
   "connector": 543,
-  "non_connector": 1498,
+  "non_connector": 1500,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 232
  },
  "domain": {
-  "unnamed": 963,
+  "unnamed": 964,
   "code": 373,
   "fin": 116,
   "gen": 333,
-  "health": 152,
+  "health": 153,
   "law": 104
  },
  "name_prefix": {
   "harbor": 546,
-  "obi": 1484,
+  "obi": 1486,
   "bus": 1,
   "edu": 2,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263283
  },
  "errors": [],
  "tasks": [
@@ -11513,6 +11513,20 @@
    "updated": "2026-09-28T04:15:13.274Z"
   },
   {
+   "declared_name": "obi/edu-sca-b31-seminar-video-relevance-match",
+   "declared_short": "edu-sca-b31-seminar-video-relevance-match",
+   "folder": "edu-sca-b31-seminar-video-relevance-match-v2",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "29df2ce06ffbe85c1c906e9d81ea9558aee41d9b99dc62e13981b0170a2fffc6",
+   "size_bytes": 7845297,
+   "updated": "2026-09-28T21:20:28.768Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-sca-b33-06f58cb5-0f9f-4faf-832c-0f3240cc3a4f",
@@ -21201,6 +21215,20 @@
    "sha256": "e950546f53df85c17f90f5f3bec80507436d5c3f890ee47d6e30da9380527078",
    "size_bytes": 5755845,
    "updated": "2026-09-26T19:15:53.105Z"
+  },
+  {
+   "declared_name": "obi/health-tdt8-a5-cytometer-detector-slot-assignment",
+   "declared_short": "health-tdt8-a5-cytometer-detector-slot-assignment",
+   "folder": "health-tdt8-a5-cytometer-detector-slot-assignment",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "1b018dee30e26095a62110d952ad5ac08e70602b2452dae265334139b032fb6c",
+   "size_bytes": 4720715,
+   "updated": "2026-09-28T21:20:48.034Z"
   },
   {
    "connector_provenance": null,
