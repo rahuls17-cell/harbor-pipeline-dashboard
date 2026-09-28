@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T06:50:03+00:00",
+ "generated_at": "2026-09-28T06:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1905,
-  "scanned": 1905,
+  "task_folders": 1907,
+  "scanned": 1907,
   "connector": 518,
-  "non_connector": 1387,
+  "non_connector": 1389,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 218
  },
  "domain": {
-  "unnamed": 868,
-  "code": 364,
+  "unnamed": 869,
+  "code": 365,
   "fin": 114,
   "gen": 318,
   "health": 140,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 521,
-  "obi": 1379,
+  "obi": 1381,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263278
  },
  "errors": [],
  "tasks": [
@@ -2013,6 +2013,20 @@
    "sha256": "ed47aa48dca419f449c5d3239f340ee9c1260cf140c3dcd34f7f3f4bbd9d93a0",
    "size_bytes": 7150995,
    "updated": "2026-09-24T21:01:08.803Z"
+  },
+  {
+   "declared_name": "obi/bus-b22-b6-pest-marketplace-name-screen",
+   "declared_short": "bus-b22-b6-pest-marketplace-name-screen",
+   "folder": "bus-b22-b6-pest-marketplace-name-screen",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "a828e82572d96f0bc11928c45264398384cf502582f76a9eb3de928f4c81d8e2",
+   "size_bytes": 6669239,
+   "updated": "2026-09-28T06:53:39.490Z"
   },
   {
    "connector_provenance": null,
@@ -4665,6 +4679,20 @@
    "sha256": "c1d8b92fa64860b8132fdab0c8e700f96026821acaa1c69575deba86554aadb9",
    "size_bytes": 3923380,
    "updated": "2026-09-05T21:23:45.441Z"
+  },
+  {
+   "declared_name": "obi/code-c167-fpga-board-spec-audit",
+   "declared_short": "code-c167-fpga-board-spec-audit",
+   "folder": "code-c167-fpga-board-spec-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "0bd5e10b3cd45469517ad7a46c286e173b99753dfdc57a6642503dd9f337cfc2",
+   "size_bytes": 6620065,
+   "updated": "2026-09-28T06:51:47.648Z"
   },
   {
    "connector_provenance": null,
