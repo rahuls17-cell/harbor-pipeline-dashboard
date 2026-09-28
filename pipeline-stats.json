@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-28T19:10:03+00:00",
+ "generated_at": "2026-09-28T19:15:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2016,
-  "scanned": 2016,
-  "connector": 536,
-  "non_connector": 1480,
+  "task_folders": 2018,
+  "scanned": 2018,
+  "connector": 537,
+  "non_connector": 1481,
   "errors": 0
  },
  "connector_provenance": {
   "real": 141,
   "unknown": 166,
-  "synthetic": 229
+  "synthetic": 230
  },
  "domain": {
-  "unnamed": 946,
+  "unnamed": 948,
   "code": 373,
   "fin": 116,
   "gen": 327,
@@ -22,8 +22,8 @@
   "law": 104
  },
  "name_prefix": {
-  "harbor": 539,
-  "obi": 1468,
+  "harbor": 540,
+  "obi": 1469,
   "bus": 1,
   "edu": 1,
   "vankamasthanamma": 1,
@@ -50,11 +50,12 @@
   "teams-gym": 5,
   "microsoft-teams-gym": 4,
   "microsoft_teams-gym": 2,
-  "snowflake-gym": 2
+  "snowflake-gym": 2,
+  "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 267942
  },
  "errors": [],
  "tasks": [
@@ -11146,6 +11147,20 @@
    "sha256": "8d13238743cfc8fcc9f13ecbc80aa54c1c2280fff64a3d5f88c874e46ad02669",
    "size_bytes": 9188941,
    "updated": "2026-09-28T08:22:02.669Z"
+  },
+  {
+   "declared_name": "obi/edu-sc07-b1-cad-programme-applications",
+   "declared_short": "edu-sc07-b1-cad-programme-applications",
+   "folder": "edu-sc07-b1-cad-programme-applications",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "0c61bff4726e498063037247492d00813b48f0d23025700fb4db835a0eb3c019",
+   "size_bytes": 8794607,
+   "updated": "2026-09-28T19:14:16.873Z"
   },
   {
    "connector_provenance": null,
@@ -27733,6 +27748,22 @@
    "sha256": "9168977dd119bc189c86a27d884bb3cbeab21b6ebd81c285adc1ce83529736ea",
    "size_bytes": 17862821,
    "updated": "2026-09-21T18:41:38.252Z"
+  },
+  {
+   "declared_name": "harbor/the-news-nobody-could-answer",
+   "declared_short": "the-news-nobody-could-answer",
+   "folder": "the-news-nobody-could-answer",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "e5ed1900dc1000b941f7994a8582cfb622ae6f69482ea1631b0c9018a25b6323",
+   "size_bytes": 7811435,
+   "updated": "2026-09-28T19:13:45.616Z"
   },
   {
    "connector_provenance": "synthetic",
