@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T06:20:03+00:00",
+ "generated_at": "2026-09-28T06:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1900,
-  "scanned": 1900,
+  "task_folders": 1901,
+  "scanned": 1901,
   "connector": 515,
-  "non_connector": 1385,
+  "non_connector": 1386,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 864,
   "code": 364,
   "fin": 114,
-  "gen": 317,
+  "gen": 318,
   "health": 140,
   "law": 101
  },
  "name_prefix": {
   "harbor": 518,
-  "obi": 1377,
+  "obi": 1378,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -51,7 +51,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131499
+  "approx_bytes_read": 131465
  },
  "errors": [],
  "tasks": [
@@ -10655,15 +10655,15 @@
    "updated": "2026-09-27T23:38:31.872Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sch-b12-labour-survey-ledger-recompute",
    "declared_short": "edu-sch-b12-labour-survey-ledger-recompute",
-   "folder": "edu-sch-b12-labour-survey-ledger-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sch-b12-labour-survey-ledger-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7b701aa68d6cd590a699da906033e633ac6e0379ac11c1e130a69f421ce541d6",
    "size_bytes": 5344051,
    "updated": "2026-09-28T06:16:05.854Z"
@@ -14357,6 +14357,20 @@
    "sha256": "7320f6f711728dfa6a375d060be0273c38cf9729a85dd64fe4b72a37815b7a34",
    "size_bytes": 3604981,
    "updated": "2026-09-13T04:29:28.248Z"
+  },
+  {
+   "declared_name": "obi/gen-g394-cdf-guideline-version-audit",
+   "declared_short": "gen-g394-cdf-guideline-version-audit",
+   "folder": "gen-g394-cdf-guideline-version-audit-v44-policy-wave-hardened",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "2a0d0db6ad3643d06ddf42659d9b29dacab0b171431f72a10f55e79b8be3e1bc",
+   "size_bytes": 9403684,
+   "updated": "2026-09-28T06:24:32.134Z"
   },
   {
    "connector_provenance": null,
