@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T19:05:04+00:00",
+ "generated_at": "2026-09-28T19:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2016,
@@ -53,8 +53,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262942
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -4600,15 +4600,15 @@
    "updated": "2026-09-23T17:56:39.585Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c115-etl-watermark-reconciliation",
    "declared_short": "code-c115-etl-watermark-reconciliation",
-   "folder": "code-c115-etl-watermark-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c115-etl-watermark-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e1c0ce5877e6014d5c91d0658e7810d4c237cfa86f5df96681e9b7e437de7033",
    "size_bytes": 5921574,
    "updated": "2026-09-28T19:01:11.368Z"
@@ -11428,15 +11428,15 @@
    "updated": "2026-09-28T11:09:21.571Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sca-b38-workplace-nvc-role-play-scheduling",
    "declared_short": "edu-sca-b38-workplace-nvc-role-play-scheduling",
-   "folder": "edu-sca-b38-workplace-nvc-role-play-scheduling",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sca-b38-workplace-nvc-role-play-scheduling",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b1e1259477cce06fa7c12df0607d0829d1deb4408388e1f65cbfef162426f66a",
    "size_bytes": 6345971,
    "updated": "2026-09-28T19:02:34.690Z"
