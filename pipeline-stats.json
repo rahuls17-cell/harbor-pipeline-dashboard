@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T21:30:03+00:00",
+ "generated_at": "2026-09-28T21:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2045,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 271058
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1591,11 +1591,7 @@
    "updated": "2026-09-10T03:35:43.838Z"
   },
   {
-   "declared_name": "harbor/bill-reserve-window-bounded-1-31-days",
-   "declared_short": "bill-reserve-window-bounded-1-31-days",
-   "folder": "bill-reserve-window-bounded-1-31-days",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -1605,9 +1601,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/bill-reserve-window-bounded-1-31-days",
+   "declared_short": "bill-reserve-window-bounded-1-31-days",
    "domain": null,
+   "folder": "bill-reserve-window-bounded-1-31-days",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5c1dc8a28f3bb0c767331f525c4e608de6864ecde451903c682fc6f3b3439b94",
    "size_bytes": 10202033,
    "updated": "2026-09-28T21:28:52.261Z"
@@ -3719,15 +3719,15 @@
    "updated": "2026-09-28T06:27:59.271Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b58-t5-event-link-attribution",
    "declared_short": "bus-b58-t5-event-link-attribution",
-   "folder": "bus-b58-t5-event-link-attribution",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b58-t5-event-link-attribution",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "22e90374caa91ee56ca9b83296d4fe37d3b37775d45e9e1ee2935a58393dac98",
    "size_bytes": 4697541,
    "updated": "2026-09-28T21:29:23.901Z"
