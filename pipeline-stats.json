@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T11:10:06+00:00",
+ "generated_at": "2026-09-28T11:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1956,
-  "scanned": 1956,
+  "task_folders": 1958,
+  "scanned": 1958,
   "connector": 525,
-  "non_connector": 1431,
+  "non_connector": 1433,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 223
  },
  "domain": {
-  "unnamed": 901,
+  "unnamed": 903,
   "code": 371,
   "fin": 115,
   "gen": 323,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 528,
-  "obi": 1423,
+  "obi": 1425,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131536
+  "new_archives_read": 2,
+  "approx_bytes_read": 262880
  },
  "errors": [],
  "tasks": [
@@ -1975,6 +1975,20 @@
    "sha256": "5d0b245d2341b9f4c2128e40e8972918b42714fbe9d1cb5247ae8bb3b6a18a33",
    "size_bytes": 7202745,
    "updated": "2026-09-25T19:00:34.548Z"
+  },
+  {
+   "declared_name": "obi/bus-b22-b13-wellness-content-funnel-calendar",
+   "declared_short": "bus-b22-b13-wellness-content-funnel-calendar",
+   "folder": "bus-b22-b13-wellness-content-funnel-calendar",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "b4670da26559e85a3a23bc48986aa44502b83e48c2b457c3d729e1c95baad4c3",
+   "size_bytes": 7640899,
+   "updated": "2026-09-28T11:13:57.264Z"
   },
   {
    "connector_provenance": null,
@@ -10981,6 +10995,20 @@
    "updated": "2026-09-28T10:21:20.537Z"
   },
   {
+   "declared_name": "obi/edu-sca-b25-first-session-back-placement-reconciliation",
+   "declared_short": "edu-sca-b25-first-session-back-placement-reconciliation",
+   "folder": "edu-sca-b25-first-session-back-placement-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "d66839fda3c9c7d0102ed7a0d1cf66bd944b2a8cce901bd67ddbbac7090b9607",
+   "size_bytes": 8148225,
+   "updated": "2026-09-28T11:14:44.039Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-sca-b30-funded-masters-credit-threshold-ledger",
@@ -11009,15 +11037,15 @@
    "updated": "2026-09-27T11:54:42.789Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sca-b37-revision-flashcard-slot-adjudication",
    "declared_short": "edu-sca-b37-revision-flashcard-slot-adjudication",
-   "folder": "edu-sca-b37-revision-flashcard-slot-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sca-b37-revision-flashcard-slot-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "15cd3a7a13a4fb37d8f4e701c5a1d792515530eb65f3d3a9ae47057ed4229811",
    "size_bytes": 4626108,
    "updated": "2026-09-28T11:09:21.571Z"
