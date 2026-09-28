@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T08:25:05+00:00",
+ "generated_at": "2026-09-28T08:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1924,
-  "scanned": 1924,
+  "task_folders": 1926,
+  "scanned": 1926,
   "connector": 522,
-  "non_connector": 1402,
+  "non_connector": 1404,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 221
  },
  "domain": {
-  "unnamed": 881,
+  "unnamed": 883,
   "code": 368,
   "fin": 114,
   "gen": 318,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 525,
-  "obi": 1394,
+  "obi": 1396,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -51,7 +51,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 263430
+  "approx_bytes_read": 262937
  },
  "errors": [],
  "tasks": [
@@ -3401,6 +3401,20 @@
    "sha256": "d7a2afb85e9bc615f289f2f1a5cbc2f417cde5a98a65445c5f8f3b581e29c98b",
    "size_bytes": 4438882,
    "updated": "2026-09-28T06:27:59.271Z"
+  },
+  {
+   "declared_name": "obi/bus-b58-t7-investor-deal-lead-attribution",
+   "declared_short": "bus-b58-t7-investor-deal-lead-attribution",
+   "folder": "bus-b58-t7-investor-deal-lead-attribution",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "a7f05b044d5ce11ca5c17c1217afa0081ba43ce8ca40c68d773234c7ba0b5ede",
+   "size_bytes": 4025183,
+   "updated": "2026-09-28T08:25:49.327Z"
   },
   {
    "connector_provenance": null,
@@ -10153,18 +10167,32 @@
    "updated": "2026-09-26T15:14:18.325Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-b50-a9-subject-revalidation-reconciliation",
    "declared_short": "edu-b50-a9-subject-revalidation-reconciliation",
+   "domain": null,
    "folder": "edu-b50-a9-subject-revalidation-reconciliation",
+   "image": null,
+   "is_connector": false,
+   "prefix": "obi",
+   "sha256": "a382ef88a1080c5e5ac900496d634bbe297dae0ffcb3248e9638fbd938a97523",
+   "size_bytes": 7315294,
+   "updated": "2026-09-28T08:20:10.715Z"
+  },
+  {
+   "declared_name": "obi/edu-b50-e4-pd-catalogue-normalisation",
+   "declared_short": "edu-b50-e4-pd-catalogue-normalisation",
+   "folder": "edu-b50-e4-pd-catalogue-normalisation",
    "prefix": "obi",
    "is_connector": false,
    "connector_services": [],
    "connector_provenance": null,
    "domain": null,
    "image": null,
-   "sha256": "a382ef88a1080c5e5ac900496d634bbe297dae0ffcb3248e9638fbd938a97523",
-   "size_bytes": 7315294,
-   "updated": "2026-09-28T08:20:10.715Z"
+   "sha256": "4a23b0e2d7fe8751aebd60f6be0c1e20b855937833408f64cd349993a02035f6",
+   "size_bytes": 7098677,
+   "updated": "2026-09-28T08:26:37.272Z"
   },
   {
    "connector_provenance": null,
@@ -10601,15 +10629,15 @@
    "updated": "2026-09-26T20:39:46.067Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sc07-a9-cracked-the-system-rulings",
    "declared_short": "edu-sc07-a9-cracked-the-system-rulings",
-   "folder": "edu-sc07-a9-cracked-the-system-rulings",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sc07-a9-cracked-the-system-rulings",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8d13238743cfc8fcc9f13ecbc80aa54c1c2280fff64a3d5f88c874e46ad02669",
    "size_bytes": 9188941,
    "updated": "2026-09-28T08:22:02.669Z"
