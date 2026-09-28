@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-28T10:45:05+00:00",
+ "generated_at": "2026-09-28T10:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1951,
-  "scanned": 1951,
-  "connector": 524,
-  "non_connector": 1427,
+  "task_folders": 1954,
+  "scanned": 1954,
+  "connector": 525,
+  "non_connector": 1429,
   "errors": 0
  },
  "connector_provenance": {
   "real": 141,
   "unknown": 161,
-  "synthetic": 222
+  "synthetic": 223
  },
  "domain": {
-  "unnamed": 896,
+  "unnamed": 899,
   "code": 371,
   "fin": 115,
   "gen": 323,
@@ -22,8 +22,8 @@
   "law": 102
  },
  "name_prefix": {
-  "harbor": 527,
-  "obi": 1419,
+  "harbor": 528,
+  "obi": 1421,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -42,7 +42,7 @@
   "outlook-gym": 37,
   "github-gym": 35,
   "email-calendar-gym": 34,
-  "gws-gym": 33,
+  "gws-gym": 34,
   "supabase-gym": 6,
   "teams-gym": 5,
   "microsoft-teams-gym": 4,
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131430
+  "new_archives_read": 3,
+  "approx_bytes_read": 399473
  },
  "errors": [],
  "tasks": [
@@ -789,6 +789,22 @@
    "sha256": "4a02cff879a51bab2d46ec8c42836fab5d4d8541275f865acf4dc6b7b4f4c682",
    "size_bytes": 4444515,
    "updated": "2026-09-10T12:18:25.696Z"
+  },
+  {
+   "declared_name": "harbor/all-i-can-do-is-watch",
+   "declared_short": "all-i-can-do-is-watch",
+   "folder": "all-i-can-do-is-watch",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "f5a6e4dfb2eef0988e75f0d73889e56afb17e4e9fedfe5254f305091b341b740",
+   "size_bytes": 7199711,
+   "updated": "2026-09-28T10:46:46.752Z"
   },
   {
    "connector_provenance": "unknown",
@@ -10489,6 +10505,20 @@
    "updated": "2026-09-19T05:57:44.739Z"
   },
   {
+   "declared_name": "obi/edu-s1-a2-social-story-milestone-coverage",
+   "declared_short": "edu-s1-a2-social-story-milestone-coverage",
+   "folder": "edu-s1-a2-social-story-milestone-coverage",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "ddabb6747ba277887a1c6f7ebf58a2510e5dee73461ffff4d97acd83681aba1e",
+   "size_bytes": 4504713,
+   "updated": "2026-09-28T10:47:00.708Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-s1-a3-prophecy-citation-register",
@@ -10907,6 +10937,20 @@
    "sha256": "b127e37e6e9317682e209873ef883fe22efc0cb0661e8f6fd307388d31490c44",
    "size_bytes": 3855220,
    "updated": "2026-09-27T12:59:04.663Z"
+  },
+  {
+   "declared_name": "obi/edu-sca-b16-sports-kit-order-reconciliation",
+   "declared_short": "edu-sca-b16-sports-kit-order-reconciliation",
+   "folder": "edu-sca-b16-sports-kit-order-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1c029bbd9ce20a3608959f9f1977fe4da81f0fc5ea6512fe1eca04903813a119",
+   "size_bytes": 3101282,
+   "updated": "2026-09-28T10:48:47.048Z"
   },
   {
    "connector_provenance": null,
@@ -11633,15 +11677,15 @@
    "updated": "2026-09-20T10:42:27.010Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b43-a6-budget-ledger-account-review",
    "declared_short": "fin-b43-a6-budget-ledger-account-review",
-   "folder": "fin-b43-a6-budget-ledger-account-review",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b43-a6-budget-ledger-account-review",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "700d39677d1e87ac07d52cdb9d7b19794da8a67dea07018f2ea2647335cdcdd9",
    "size_bytes": 5301448,
    "updated": "2026-09-28T10:43:17.806Z"
