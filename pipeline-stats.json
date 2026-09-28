@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T07:00:04+00:00",
+ "generated_at": "2026-09-28T07:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1910,
-  "scanned": 1910,
+  "task_folders": 1912,
+  "scanned": 1912,
   "connector": 519,
-  "non_connector": 1391,
+  "non_connector": 1393,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 219
  },
  "domain": {
-  "unnamed": 870,
-  "code": 367,
+  "unnamed": 871,
+  "code": 368,
   "fin": 114,
   "gen": 318,
   "health": 140,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 522,
-  "obi": 1383,
+  "obi": 1385,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 400222
+  "new_archives_read": 2,
+  "approx_bytes_read": 263093
  },
  "errors": [],
  "tasks": [
@@ -4681,15 +4681,15 @@
    "updated": "2026-09-05T21:23:45.441Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c166-safety-gate-rule-review-audit",
    "declared_short": "code-c166-safety-gate-rule-review-audit",
-   "folder": "code-c166-safety-gate-rule-review-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c166-safety-gate-rule-review-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "f707f7f59da213613e2e35a017d88eca170f1854e324bd9987b9f6f0c2327cd8",
    "size_bytes": 7104931,
    "updated": "2026-09-28T06:55:35.995Z"
@@ -4763,6 +4763,20 @@
    "sha256": "b5b4b8e72d2c64361f71f5583ee99f6ab5d79241ffc0d13252246e4738ce0d08",
    "size_bytes": 6931201,
    "updated": "2026-09-20T21:25:16.503Z"
+  },
+  {
+   "declared_name": "obi/code-c172-av-takeoff-quantity-audit",
+   "declared_short": "code-c172-av-takeoff-quantity-audit",
+   "folder": "code-c172-av-takeoff-quantity-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "eaee1b5438a2bdfdd1cbe53248fcbf43f19991f373a62164deb88aa0e740d34e",
+   "size_bytes": 6716261,
+   "updated": "2026-09-28T07:00:53.092Z"
   },
   {
    "connector_provenance": null,
@@ -4919,15 +4933,15 @@
    "updated": "2026-09-25T14:05:14.872Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c186-video-chapter-map-audit",
    "declared_short": "code-c186-video-chapter-map-audit",
-   "folder": "code-c186-video-chapter-map-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c186-video-chapter-map-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9cc45edd8b969334b3807c377ab67b28d0f1fdcc918e1196391ad8a62ad8c68a",
    "size_bytes": 7930146,
    "updated": "2026-09-28T06:59:39.484Z"
@@ -25228,6 +25242,20 @@
    "updated": "2026-09-26T23:24:36.433Z"
   },
   {
+   "declared_name": "obi/tech-mg-it-b10-a6-newsletter-issue-launch-audit",
+   "declared_short": "tech-mg-it-b10-a6-newsletter-issue-launch-audit",
+   "folder": "tech-mg-it-b10-a6-newsletter-issue-launch-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "82c9aff9da238f912b5b136c6d1a8b400e9e0ba6bdae44aef0f5e1f69479d45e",
+   "size_bytes": 10233727,
+   "updated": "2026-09-28T07:04:14.356Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/tech-mg-it-b10-a7-feed-target-list-movement-review",
@@ -27462,17 +27490,17 @@
    "updated": "2026-09-19T01:40:37.786Z"
   },
   {
-   "declared_name": "harbor/twenty-unfiled-features-three-unsized",
-   "declared_short": "twenty-unfiled-features-three-unsized",
-   "folder": "twenty-unfiled-features-three-unsized",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/twenty-unfiled-features-three-unsized",
+   "declared_short": "twenty-unfiled-features-three-unsized",
    "domain": null,
+   "folder": "twenty-unfiled-features-three-unsized",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "89e02284c0e81081d43a6e7e52d71cea6050906d68efa41abf997fa8e432b20b",
    "size_bytes": 6988747,
    "updated": "2026-09-28T06:55:27.235Z"
