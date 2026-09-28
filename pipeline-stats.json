@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T02:20:03+00:00",
+ "generated_at": "2026-09-28T02:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 1883,
-  "scanned": 1883,
+  "task_folders": 1884,
+  "scanned": 1884,
   "connector": 511,
-  "non_connector": 1372,
+  "non_connector": 1373,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 855,
-  "code": 360,
+  "code": 361,
   "fin": 114,
   "gen": 314,
   "health": 139,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 514,
-  "obi": 1364,
+  "obi": 1365,
   "vankamasthanamma": 1,
   "health": 3,
   "writing": 1
@@ -50,8 +50,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131511
  },
  "errors": [],
  "tasks": [
@@ -6357,6 +6357,20 @@
    "sha256": "95e0ec74c5392aa50b5a96c189329e2c7c573d7484e64c7cbb1cd31bfad2943f",
    "size_bytes": 9565771,
    "updated": "2026-09-10T14:29:38.528Z"
+  },
+  {
+   "declared_name": "obi/code-c325-data-source-refresh-cadence-audit",
+   "declared_short": "code-c325-data-source-refresh-cadence-audit",
+   "folder": "code-c325-data-source-refresh-cadence-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "1cfbb47ff0990dff2df22522ea6eb9b2d5b0e2dd98c1d9a8eae91fac5ff0afd5",
+   "size_bytes": 7043409,
+   "updated": "2026-09-28T02:32:58.542Z"
   },
   {
    "connector_provenance": null,
