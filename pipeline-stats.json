@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T20:30:03+00:00",
+ "generated_at": "2026-09-28T20:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2033,
-  "scanned": 2033,
+  "task_folders": 2035,
+  "scanned": 2035,
   "connector": 542,
-  "non_connector": 1491,
+  "non_connector": 1493,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 231
  },
  "domain": {
-  "unnamed": 958,
+  "unnamed": 959,
   "code": 373,
   "fin": 116,
-  "gen": 331,
+  "gen": 332,
   "health": 151,
   "law": 104
  },
  "name_prefix": {
   "harbor": 545,
-  "obi": 1477,
+  "obi": 1479,
   "bus": 1,
   "edu": 2,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263130
  },
  "errors": [],
  "tasks": [
@@ -1777,6 +1777,20 @@
    "sha256": "54de5685c7306555f526e8511fc81c3facf0e548bc36b9e416f45aba378e920f",
    "size_bytes": 5398392,
    "updated": "2026-09-28T13:01:46.347Z"
+  },
+  {
+   "declared_name": "obi/bus-b108-b8-vacant-unit-walking-order-refresh",
+   "declared_short": "bus-b108-b8-vacant-unit-walking-order-refresh",
+   "folder": "bus-b108-b8-vacant-unit-walking-order-refresh",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "299f8485e39057654e2a3468f58237b08eafb4ecc0a855d0f460606e409584e7",
+   "size_bytes": 4479293,
+   "updated": "2026-09-28T20:33:44.100Z"
   },
   {
    "connector_provenance": null,
@@ -15943,6 +15957,20 @@
    "sha256": "ea7e36b76f4a0d4da5b91ee8134f9f3adde3711aaa7e163ce39da6c24ebb52a4",
    "size_bytes": 5470297,
    "updated": "2026-09-05T18:53:05.115Z"
+  },
+  {
+   "declared_name": "obi/gen-g569-slidedeck-translation-figure-audit",
+   "declared_short": "gen-g569-slidedeck-translation-figure-audit",
+   "folder": "gen-g569-slidedeck-translation-figure-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "4612a8a047415fbdcdfb1caa8a4e19f12ed67f64eda4e006c8d590a407675098",
+   "size_bytes": 5408116,
+   "updated": "2026-09-28T20:30:04.847Z"
   },
   {
    "connector_provenance": null,
