@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T18:35:04+00:00",
+ "generated_at": "2026-09-28T18:40:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2014,
@@ -53,8 +53,8 @@
   "snowflake-gym": 2
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 533552
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -10616,15 +10616,15 @@
    "updated": "2026-09-28T08:26:37.272Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-b50-e9-adviser-headcount-reconciliation",
    "declared_short": "edu-b50-e9-adviser-headcount-reconciliation",
-   "folder": "edu-b50-e9-adviser-headcount-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-b50-e9-adviser-headcount-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e0e1a990d3fe346fddb9966b6104aa4de6edb1ba4c45c7ff0b097a5a5751c8a6",
    "size_bytes": 4981475,
    "updated": "2026-09-28T18:31:27.934Z"
@@ -20054,15 +20054,15 @@
    "updated": "2026-09-06T17:20:28.018Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h84-malnutrition",
    "declared_short": "health-h84-malnutrition",
-   "folder": "health-h84-malnutrition-severity-staging-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h84-malnutrition-severity-staging-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "cd72dad499dfb1dcfa02f4ee2aae45708eb26b78dd1a32c0009508cd7abe46d9",
    "size_bytes": 9352440,
    "updated": "2026-09-28T18:33:51.792Z"
@@ -27385,17 +27385,17 @@
    "updated": "2026-09-23T08:09:11.454Z"
   },
   {
-   "declared_name": "harbor/the-inbox-really-is-the-big-folder",
-   "declared_short": "the-inbox-really-is-the-big-folder",
-   "folder": "the-inbox-really-is-the-big-folder",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-inbox-really-is-the-big-folder",
+   "declared_short": "the-inbox-really-is-the-big-folder",
    "domain": null,
+   "folder": "the-inbox-really-is-the-big-folder",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "caff1b89cea4a375c169d9ce58c93ba790fcb58c3136d99d9fe0162f319c3914",
    "size_bytes": 49925563,
    "updated": "2026-09-28T18:33:31.294Z"
@@ -27881,17 +27881,17 @@
    "updated": "2026-09-23T07:10:11.780Z"
   },
   {
-   "declared_name": "harbor/the-pdf-someone-signed",
-   "declared_short": "the-pdf-someone-signed",
-   "folder": "the-pdf-someone-signed",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-pdf-someone-signed",
+   "declared_short": "the-pdf-someone-signed",
    "domain": null,
+   "folder": "the-pdf-someone-signed",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "360ca67a1c65b4931db2b2b0aa40b5bd9e1e41f26df3ac757ddd2062df402569",
    "size_bytes": 7756911,
    "updated": "2026-09-28T18:32:35.174Z"
