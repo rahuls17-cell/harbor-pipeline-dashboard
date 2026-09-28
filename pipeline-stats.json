@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-28T22:15:03+00:00",
+ "generated_at": "2026-09-28T22:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2052,
-  "scanned": 2052,
+  "task_folders": 2053,
+  "scanned": 2053,
   "connector": 546,
-  "non_connector": 1506,
+  "non_connector": 1507,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 234
  },
  "domain": {
-  "unnamed": 972,
+  "unnamed": 973,
   "code": 373,
   "fin": 116,
   "gen": 334,
@@ -25,7 +25,7 @@
   "harbor": 549,
   "obi": 1492,
   "bus": 1,
-  "edu": 2,
+  "edu": 3,
   "vankamasthanamma": 1,
   "health": 3,
   "tech": 2,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262979
+  "new_archives_read": 1,
+  "approx_bytes_read": 131495
  },
  "errors": [],
  "tasks": [
@@ -10767,15 +10767,15 @@
    "updated": "2026-09-28T22:06:30.406Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-b50-e6-first-aid-kit-selection",
    "declared_short": "edu-b50-e6-first-aid-kit-selection",
-   "folder": "edu-b50-e6-first-aid-kit-selection",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-b50-e6-first-aid-kit-selection",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "55e3892eeed4a441f83fcfddaf3c66a2cded4013907c9937aac492bd1219065a",
    "size_bytes": 3886480,
    "updated": "2026-09-28T22:11:58.248Z"
@@ -11593,6 +11593,20 @@
    "updated": "2026-09-28T11:14:44.039Z"
   },
   {
+   "declared_name": "edu/sca-b27-nursing-sim-route-case-catalog",
+   "declared_short": "sca-b27-nursing-sim-route-case-catalog",
+   "folder": "edu-sca-b27-nursing-sim-route-case-catalog",
+   "prefix": "edu",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "52fac16fc243abca634fc91053be28f3407c8bc6c7d1d5956cdba0a67735ef0f",
+   "size_bytes": 4762499,
+   "updated": "2026-09-28T22:19:39.294Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-sca-b30-funded-masters-credit-threshold-ledger",
@@ -11747,15 +11761,15 @@
    "updated": "2026-09-28T08:34:04.265Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sch-b18-dental-apprentice-task-card-catalog-recode",
    "declared_short": "edu-sch-b18-dental-apprentice-task-card-catalog-recode",
-   "folder": "edu-sch-b18-dental-apprentice-task-card-catalog-recode",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sch-b18-dental-apprentice-task-card-catalog-recode",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e014f0a29d478a84afd5a46a366022474cc0763cdc237a7c2f9d69df5702b3fd",
    "size_bytes": 5223609,
    "updated": "2026-09-28T22:14:35.336Z"
