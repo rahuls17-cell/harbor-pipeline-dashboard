@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T17:55:04+00:00",
+ "generated_at": "2026-09-29T18:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2237,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 267303
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -22798,15 +22798,15 @@
    "updated": "2026-09-20T06:08:50.758Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt5-a2-canine-supplement-dose-sheet",
    "declared_short": "health-tdt5-a2-canine-supplement-dose-sheet",
-   "folder": "health-tdt5-a2-canine-supplement-dose-sheet-v8",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt5-a2-canine-supplement-dose-sheet-v8",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8a8e63307b4f89bf09c803b3b118ab3da73a65e82266a4c4eccb825527400106",
    "size_bytes": 6236164,
    "updated": "2026-09-29T17:54:55.460Z"
@@ -26062,17 +26062,17 @@
    "updated": "2026-09-26T21:36:27.920Z"
   },
   {
-   "declared_name": "harbor/rebuild-the-design-cycle-report",
-   "declared_short": "rebuild-the-design-cycle-report",
-   "folder": "rebuild-the-design-cycle-report",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/rebuild-the-design-cycle-report",
+   "declared_short": "rebuild-the-design-cycle-report",
    "domain": null,
+   "folder": "rebuild-the-design-cycle-report",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "76273562ba95d36ef20e4500f05e0e876886e9cc317418a0134d9c2269c29cf0",
    "size_bytes": 8153856,
    "updated": "2026-09-29T17:52:26.720Z"
