@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T19:35:04+00:00",
+ "generated_at": "2026-09-29T19:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2242,
-  "scanned": 2242,
+  "task_folders": 2243,
+  "scanned": 2243,
   "connector": 617,
-  "non_connector": 1625,
+  "non_connector": 1626,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 1118,
   "code": 379,
   "fin": 120,
-  "gen": 354,
+  "gen": 355,
   "health": 163,
   "law": 108
  },
  "name_prefix": {
   "harbor": 619,
-  "obi": 1611,
+  "obi": 1612,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134811
+  "approx_bytes_read": 131450
  },
  "errors": [],
  "tasks": [
@@ -17400,6 +17400,20 @@
    "updated": "2026-09-09T09:17:52.352Z"
   },
   {
+   "declared_name": "obi/gen-g478-apparel-finishing-qc-audit",
+   "declared_short": "gen-g478-apparel-finishing-qc-audit",
+   "folder": "gen-g478-apparel-finishing-qc-audit-20260903T165-65bb21-v2-sna-fhyp",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "7c87c2fa39805399055262e727ba0a677ac0fa9adc8b5e3cf32b2e84cdf57c8c",
+   "size_bytes": 5957544,
+   "updated": "2026-09-29T19:39:04.051Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g486-drum-trigger-calibration-audit",
@@ -29719,17 +29733,17 @@
    "updated": "2026-09-28T22:57:18.137Z"
   },
   {
-   "declared_name": "harbor/the-calendar-i-should-be-booking-on",
-   "declared_short": "the-calendar-i-should-be-booking-on",
-   "folder": "the-calendar-i-should-be-booking-on",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-calendar-i-should-be-booking-on",
+   "declared_short": "the-calendar-i-should-be-booking-on",
    "domain": null,
+   "folder": "the-calendar-i-should-be-booking-on",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d160b91866e8d69be598ec090cb8e58a05ca5aefd3288df0a2d4da1aa31fe05c",
    "size_bytes": 9125211,
    "updated": "2026-09-29T19:33:26.253Z"
