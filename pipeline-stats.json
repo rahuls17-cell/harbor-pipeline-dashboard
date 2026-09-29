@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T02:00:03+00:00",
+ "generated_at": "2026-09-29T02:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2088,
-  "scanned": 2088,
+  "task_folders": 2089,
+  "scanned": 2089,
   "connector": 559,
-  "non_connector": 1529,
+  "non_connector": 1530,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 1000,
   "code": 375,
-  "fin": 116,
+  "fin": 117,
   "gen": 339,
   "health": 154,
   "law": 104
  },
  "name_prefix": {
   "harbor": 562,
-  "obi": 1514,
+  "obi": 1515,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131437
  },
  "errors": [],
  "tasks": [
@@ -13184,6 +13184,20 @@
    "sha256": "4dac2a9c02cfd1bfca40c52ef7d2291a30cbefeaecae8731a59fa5b5e54a230b",
    "size_bytes": 5683077,
    "updated": "2026-09-19T20:24:51.079Z"
+  },
+  {
+   "declared_name": "obi/fin-b49-f3-lp-briefing-fund-reconciliation",
+   "declared_short": "fin-b49-f3-lp-briefing-fund-reconciliation",
+   "folder": "fin-b49-f3-lp-briefing-fund-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "38fe01f0d65a743e508203df4f1db14bee225b13cb6f63a275186273ad7ed44b",
+   "size_bytes": 15814967,
+   "updated": "2026-09-29T02:27:13.935Z"
   },
   {
    "connector_provenance": null,
