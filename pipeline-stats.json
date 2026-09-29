@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T23:35:03+00:00",
+ "generated_at": "2026-09-29T23:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2271,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131407
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -17754,15 +17754,15 @@
    "updated": "2026-09-06T00:34:05.038Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g541-dispersed-camping-permit-audit",
    "declared_short": "gen-g541-dispersed-camping-permit-audit",
-   "folder": "gen-g541-dispersed-camping-permit-audit-QC-Fixes-c21525-v1-sna-klqt",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g541-dispersed-camping-permit-audit-QC-Fixes-c21525-v1-sna-klqt",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "74da55fde7a6891e0f60ba7a1e1ca2e9826900c15599284175db0e0e2bbdaa23",
    "size_bytes": 8131171,
    "updated": "2026-09-29T23:33:44.904Z"
