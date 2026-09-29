@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T17:20:04+00:00",
+ "generated_at": "2026-09-29T17:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2230,
-  "scanned": 2230,
-  "connector": 610,
+  "task_folders": 2231,
+  "scanned": 2231,
+  "connector": 611,
   "non_connector": 1620,
   "errors": 0
  },
  "connector_provenance": {
   "real": 152,
   "unknown": 187,
-  "synthetic": 271
+  "synthetic": 272
  },
  "domain": {
-  "unnamed": 1109,
+  "unnamed": 1110,
   "code": 379,
   "fin": 120,
   "gen": 354,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 612,
+  "harbor": 613,
   "obi": 1606,
   "bus": 1,
   "edu": 3,
@@ -41,8 +41,8 @@
   "freshdesk-gym": 185,
   "slack": 65,
   "linear-gym": 55,
+  "email-calendar-gym": 51,
   "outlook-gym": 51,
-  "email-calendar-gym": 50,
   "notion-gym": 47,
   "gws-gym": 43,
   "github-gym": 37,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 266106
+  "new_archives_read": 1,
+  "approx_bytes_read": 137903
  },
  "errors": [],
  "tasks": [
@@ -137,11 +137,7 @@
    "updated": "2026-09-25T02:06:52.885Z"
   },
   {
-   "declared_name": "harbor/plaid-linked-accounts-stuck-in-pending-manual-verification-open-queue-and-next-step-2021-01-01-2025-05-31",
-   "declared_short": "plaid-linked-accounts-stuck-in-pending-manual-verification-open-queue-and-next-step-2021-01-01-2025-05-31",
-   "folder": "100677-determine-next-step-for-plaid-linked-acco-89fc39-v6",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -151,9 +147,13 @@
     "slack",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/plaid-linked-accounts-stuck-in-pending-manual-verification-open-queue-and-next-step-2021-01-01-2025-05-31",
+   "declared_short": "plaid-linked-accounts-stuck-in-pending-manual-verification-open-queue-and-next-step-2021-01-01-2025-05-31",
    "domain": null,
+   "folder": "100677-determine-next-step-for-plaid-linked-acco-89fc39-v6",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6add36fd0d643627f7f8e746e6b0651094d6f76e6ebcc4a7f661033a0b884285",
    "size_bytes": 6679654,
    "updated": "2026-09-29T17:16:02.073Z"
@@ -5011,6 +5011,22 @@
    "sha256": "61adc53666a64f18ebc12fe1e04ee2b872e4138e720d07a97eaa244cdf17c61a",
    "size_bytes": 7040247,
    "updated": "2026-09-13T03:57:23.586Z"
+  },
+  {
+   "declared_name": "harbor/call-off-half-empty-sessions",
+   "declared_short": "call-off-half-empty-sessions",
+   "folder": "call-off-half-empty-sessions",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "10fd09dd46160c007b600e2b36567ef74d74687f24c5089bb2dd85fac6cc8896",
+   "size_bytes": 6266581,
+   "updated": "2026-09-29T17:23:24.628Z"
   },
   {
    "connector_provenance": "unknown",
@@ -11621,15 +11637,15 @@
    "updated": "2026-09-28T19:15:24.197Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-b21-g18-school-supply-consolidation",
    "declared_short": "edu-b21-g18-school-supply-consolidation",
-   "folder": "edu-b21-g18-school-supply-consolidation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-b21-g18-school-supply-consolidation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "feed47f036569a1248c9846f4be61a4a3062d7dfd36ce122e1dbb271b4d698d8",
    "size_bytes": 3771905,
    "updated": "2026-09-29T17:15:43.517Z"
