@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T22:25:03+00:00",
+ "generated_at": "2026-09-29T22:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2264,
-  "scanned": 2264,
+  "task_folders": 2265,
+  "scanned": 2265,
   "connector": 624,
-  "non_connector": 1640,
+  "non_connector": 1641,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 1135,
   "code": 379,
   "fin": 120,
-  "gen": 359,
+  "gen": 360,
   "health": 163,
   "law": 108
  },
  "name_prefix": {
   "harbor": 626,
-  "obi": 1626,
+  "obi": 1627,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131363
+  "approx_bytes_read": 131569
  },
  "errors": [],
  "tasks": [
@@ -15850,15 +15850,15 @@
    "updated": "2026-09-18T10:41:15.060Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1191-newsletter-referral-reward-recompute",
    "declared_short": "gen-g1191-newsletter-referral-reward-recompute",
-   "folder": "gen-g1191-newsletter-referral-reward-recompute-634227-v4-sna-uoby",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1191-newsletter-referral-reward-recompute-634227-v4-sna-uoby",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "348de15583bdafee37ea0f28b18955ae36efd94c48acbd215e1d194baa54768b",
    "size_bytes": 4664239,
    "updated": "2026-09-29T22:24:52.561Z"
@@ -16086,6 +16086,20 @@
    "sha256": "bda0a8013398c058de52ca22cf28bd9f41fbeed3bcf15c32344eb821499598fc",
    "size_bytes": 7297341,
    "updated": "2026-09-18T11:48:55.947Z"
+  },
+  {
+   "declared_name": "obi/gen-g1247-basement-bedroom-egress-compliance-audit",
+   "declared_short": "gen-g1247-basement-bedroom-egress-compliance-audit",
+   "folder": "gen-g1247-basement-bedroom-egress-compliance-aud-deb580-v1-sna-exvu",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "087e468aca0b38f9124f869c1dac24ec14bc6cca59bf0743706bb98ab9e59b3b",
+   "size_bytes": 5630973,
+   "updated": "2026-09-29T22:27:25.937Z"
   },
   {
    "connector_provenance": null,
