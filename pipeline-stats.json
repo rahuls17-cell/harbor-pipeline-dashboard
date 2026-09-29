@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T16:20:04+00:00",
+ "generated_at": "2026-09-29T16:25:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2211,
-  "scanned": 2211,
-  "connector": 601,
-  "non_connector": 1610,
+  "task_folders": 2214,
+  "scanned": 2214,
+  "connector": 602,
+  "non_connector": 1612,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 150,
+  "real": 151,
   "unknown": 186,
   "synthetic": 265
  },
  "domain": {
-  "unnamed": 1093,
+  "unnamed": 1096,
   "code": 379,
   "fin": 120,
   "gen": 353,
@@ -22,8 +22,8 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 603,
-  "obi": 1596,
+  "harbor": 604,
+  "obi": 1598,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -48,14 +48,14 @@
   "github-gym": 37,
   "supabase-gym": 7,
   "teams-gym": 5,
+  "microsoft-teams-gym": 5,
   "snowflake-gym": 4,
-  "microsoft-teams-gym": 4,
   "microsoft_teams-gym": 2,
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 527201
+  "new_archives_read": 3,
+  "approx_bytes_read": 402143
  },
  "errors": [],
  "tasks": [
@@ -3961,6 +3961,20 @@
    "updated": "2026-09-26T20:54:52.576Z"
   },
   {
+   "declared_name": "obi/bus-b53-b5-edo-site-outreach-email-compliance",
+   "declared_short": "bus-b53-b5-edo-site-outreach-email-compliance",
+   "folder": "bus-b53-b5-edo-site-outreach-email-compliance",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "946fe9e87136efaa59589ff21e2b4e76408b678c195bf097c7222b7e56ebdc4e",
+   "size_bytes": 10113283,
+   "updated": "2026-09-29T16:20:09.721Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b53-b6-pipeline-project-disclosure-comparison",
@@ -4059,6 +4073,20 @@
    "updated": "2026-09-26T23:56:53.478Z"
   },
   {
+   "declared_name": "obi/bus-b54-b7-service-journey-inventory-normalisation",
+   "declared_short": "bus-b54-b7-service-journey-inventory-normalisation",
+   "folder": "bus-b54-b7-service-journey-inventory-normalisation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "eab5710f2d2fea9f65437e426ec26a478be9ddfc4a0726a0958a04f01edae08f",
+   "size_bytes": 6724608,
+   "updated": "2026-09-29T16:23:22.612Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b54-b8-competitor-claim-fineprint-check",
@@ -4129,15 +4157,15 @@
    "updated": "2026-09-29T01:10:13.427Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b55-b8-landing-copy-block-review",
    "declared_short": "bus-b55-b8-landing-copy-block-review",
-   "folder": "bus-b55-b8-landing-copy-block-review",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b55-b8-landing-copy-block-review",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "dc3a0c26ea61e0d64d8b42e61a8c473ce9526533bfcc4511bd1f712daebb2a96",
    "size_bytes": 10738701,
    "updated": "2026-09-29T16:16:01.984Z"
@@ -26348,15 +26376,15 @@
    "updated": "2026-09-26T11:19:55.699Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/sci-sc09-a4-vti-task-000835",
    "declared_short": "sci-sc09-a4-vti-task-000835",
-   "folder": "sci-sc09-a4-vti-task-000835",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "sci-sc09-a4-vti-task-000835",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "478e6e9bb842df701ac68d5f121032d34ee8fc11f79e68e4cfc55abd9e08ec00",
    "size_bytes": 5409243,
    "updated": "2026-09-29T16:17:00.059Z"
@@ -28219,15 +28247,15 @@
    "updated": "2026-09-24T01:55:00.352Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b53-t9-tool-support-matrix-shortlist",
    "declared_short": "tech-b53-t9-tool-support-matrix-shortlist",
-   "folder": "tech-b53-t9-tool-support-matrix-shortlist",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b53-t9-tool-support-matrix-shortlist",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "543ccaa33c27c6e4e723bac387e6d9ee86a9455726bcb100fc2bfaeca4d09d90",
    "size_bytes": 6076704,
    "updated": "2026-09-29T16:15:50.804Z"
@@ -29711,17 +29739,17 @@
    "updated": "2026-09-20T16:27:41.910Z"
   },
   {
-   "declared_name": "harbor/the-estate-handover",
-   "declared_short": "the-estate-handover",
-   "folder": "the-estate-handover",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-estate-handover",
+   "declared_short": "the-estate-handover",
    "domain": null,
+   "folder": "the-estate-handover",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f65060c4cd534ca3aaacce96b5946a5ad2ffb8dc3bc29877bcfee0f3e78abe76",
    "size_bytes": 9702329,
    "updated": "2026-09-29T16:17:18.216Z"
@@ -30621,6 +30649,22 @@
    "sha256": "a5f2e46bf74ac1451672754f21bdb58b225d69fd4904c9eb3437c704a50bc1a6",
    "size_bytes": 30156243,
    "updated": "2026-09-23T22:34:18.890Z"
+  },
+  {
+   "declared_name": "harbor/the-quarter-nobody-asked-for",
+   "declared_short": "the-quarter-nobody-asked-for",
+   "folder": "the-quarter-nobody-asked-for",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-teams-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "00b90ad99e6ebd0f040975bd69b0f417a71819378b8e81697c663d1641e7a6ca",
+   "size_bytes": 10736386,
+   "updated": "2026-09-29T16:23:59.047Z"
   },
   {
    "connector_provenance": "real",
