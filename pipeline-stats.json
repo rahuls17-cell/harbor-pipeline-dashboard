@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T17:30:04+00:00",
+ "generated_at": "2026-09-29T17:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2232,
-  "scanned": 2232,
+  "task_folders": 2233,
+  "scanned": 2233,
   "connector": 612,
-  "non_connector": 1620,
+  "non_connector": 1621,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 273
  },
  "domain": {
-  "unnamed": 1111,
+  "unnamed": 1112,
   "code": 379,
   "fin": 120,
   "gen": 354,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 614,
-  "obi": 1606,
+  "obi": 1607,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 147354
+  "approx_bytes_read": 131443
  },
  "errors": [],
  "tasks": [
@@ -26574,6 +26574,20 @@
    "updated": "2026-09-26T11:19:55.699Z"
   },
   {
+   "declared_name": "obi/sci-sc09-a2-chart-register",
+   "declared_short": "sci-sc09-a2-chart-register",
+   "folder": "sci-sc09-a2-chart-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "25df9fb0b02232438ad9aff6341de9ebe0e5be22d763d7e4bb86f9bcd816c5f6",
+   "size_bytes": 5518541,
+   "updated": "2026-09-29T17:32:55.192Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/sci-sc09-a4-vti-task-000835",
@@ -30641,17 +30655,17 @@
    "updated": "2026-09-28T18:32:35.174Z"
   },
   {
-   "declared_name": "harbor/the-people-who-were-only-ever-copied",
-   "declared_short": "the-people-who-were-only-ever-copied",
-   "folder": "the-people-who-were-only-ever-copied",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-people-who-were-only-ever-copied",
+   "declared_short": "the-people-who-were-only-ever-copied",
    "domain": null,
+   "folder": "the-people-who-were-only-ever-copied",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6aa2cc23d93cd00db82c235e9ccd8d05996b65838170ea5f80a7e6eeed5cbd70",
    "size_bytes": 6699026,
    "updated": "2026-09-29T17:26:10.979Z"
