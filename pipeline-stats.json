@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T05:45:04+00:00",
+ "generated_at": "2026-09-29T05:50:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2115,
-  "scanned": 2115,
-  "connector": 567,
+  "task_folders": 2117,
+  "scanned": 2117,
+  "connector": 569,
   "non_connector": 1548,
   "errors": 0
  },
  "connector_provenance": {
   "real": 148,
-  "unknown": 172,
-  "synthetic": 247
+  "unknown": 173,
+  "synthetic": 248
  },
  "domain": {
-  "unnamed": 1018,
+  "unnamed": 1020,
   "code": 378,
   "fin": 118,
   "gen": 340,
@@ -22,7 +22,7 @@
   "law": 105
  },
  "name_prefix": {
-  "harbor": 570,
+  "harbor": 572,
   "obi": 1533,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 205,
+  "slack-gym": 206,
   "google-drive-gym": 201,
   "zeta3-sql-gym": 196,
   "confluence-gym": 190,
@@ -42,7 +42,7 @@
   "slack": 64,
   "linear-gym": 50,
   "notion-gym": 46,
-  "email-calendar-gym": 44,
+  "email-calendar-gym": 45,
   "outlook-gym": 40,
   "gws-gym": 37,
   "github-gym": 36,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 263017
+  "approx_bytes_read": 275237
  },
  "errors": [],
  "tasks": [
@@ -3349,15 +3349,15 @@
    "updated": "2026-09-25T03:22:50.578Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b48-b3-attainment-gap-variance-attribution",
    "declared_short": "bus-b48-b3-attainment-gap-variance-attribution",
-   "folder": "bus-b48-b3-attainment-gap-variance-attribution",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b48-b3-attainment-gap-variance-attribution",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "68a92064eca3800f8c1f167646c5b334eb542ea06a6f1fcda5effbcd291dcff8",
    "size_bytes": 5058294,
    "updated": "2026-09-29T05:43:55.482Z"
@@ -11151,15 +11151,15 @@
    "updated": "2026-09-28T23:29:13.304Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-b21-g20-head-to-toe-assessment-grading",
    "declared_short": "edu-b21-g20-head-to-toe-assessment-grading",
-   "folder": "edu-b21-g20-head-to-toe-assessment-grading",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-b21-g20-head-to-toe-assessment-grading",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "48d7b4a589280224203ced6b6078d8196e464ed2cd588169958cfe2c4cfc8041",
    "size_bytes": 8607788,
    "updated": "2026-09-29T05:42:35.494Z"
@@ -28313,6 +28313,22 @@
    "updated": "2026-09-28T22:57:18.137Z"
   },
   {
+   "declared_name": "harbor/the-card-that-came-last",
+   "declared_short": "the-card-that-came-last",
+   "folder": "the-card-that-came-last",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "a7e8b4dc0605e4472dcd0e60dcdb8fec3e04c365899e34373317e7246c9841b1",
+   "size_bytes": 8317748,
+   "updated": "2026-09-29T05:48:38.454Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
@@ -28775,6 +28791,22 @@
    "sha256": "095f6646dbc18e1778a4067cab21f27747f875d8244261ea6e58debc02a745c9",
    "size_bytes": 13413139,
    "updated": "2026-09-28T17:10:52.738Z"
+  },
+  {
+   "declared_name": "harbor/the-invites-with-gaps",
+   "declared_short": "the-invites-with-gaps",
+   "folder": "the-invites-with-gaps",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "5819d8cf9c6920b87fd0e73eab781cdbead7d19831934ad604d9e6a3a55a3332",
+   "size_bytes": 20470904,
+   "updated": "2026-09-29T05:46:17.635Z"
   },
   {
    "connector_provenance": "synthetic",
