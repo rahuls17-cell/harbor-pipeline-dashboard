@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-29T17:50:03+00:00",
+ "generated_at": "2026-09-29T17:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2235,
-  "scanned": 2235,
-  "connector": 613,
-  "non_connector": 1622,
+  "task_folders": 2237,
+  "scanned": 2237,
+  "connector": 614,
+  "non_connector": 1623,
   "errors": 0
  },
  "connector_provenance": {
   "real": 152,
-  "unknown": 187,
+  "unknown": 188,
   "synthetic": 274
  },
  "domain": {
-  "unnamed": 1113,
+  "unnamed": 1114,
   "code": 379,
   "fin": 120,
   "gen": 354,
-  "health": 161,
+  "health": 162,
   "law": 108
  },
  "name_prefix": {
-  "harbor": 615,
-  "obi": 1608,
+  "harbor": 616,
+  "obi": 1609,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -40,7 +40,7 @@
   "email-gym": 185,
   "freshdesk-gym": 185,
   "slack": 65,
-  "linear-gym": 55,
+  "linear-gym": 56,
   "email-calendar-gym": 52,
   "outlook-gym": 51,
   "notion-gym": 47,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 267303
  },
  "errors": [],
  "tasks": [
@@ -22798,6 +22798,20 @@
    "updated": "2026-09-20T06:08:50.758Z"
   },
   {
+   "declared_name": "obi/health-tdt5-a2-canine-supplement-dose-sheet",
+   "declared_short": "health-tdt5-a2-canine-supplement-dose-sheet",
+   "folder": "health-tdt5-a2-canine-supplement-dose-sheet-v8",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "8a8e63307b4f89bf09c803b3b118ab3da73a65e82266a4c4eccb825527400106",
+   "size_bytes": 6236164,
+   "updated": "2026-09-29T17:54:55.460Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt5-a3-fluid-schedule-slot-reconciliation",
@@ -26046,6 +26060,22 @@
    "sha256": "53e18c0aba0b5b52ad5008d28c7f569a66081582197daa91d5ba5a9d0321e17c",
    "size_bytes": 7571497,
    "updated": "2026-09-26T21:36:27.920Z"
+  },
+  {
+   "declared_name": "harbor/rebuild-the-design-cycle-report",
+   "declared_short": "rebuild-the-design-cycle-report",
+   "folder": "rebuild-the-design-cycle-report",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "76273562ba95d36ef20e4500f05e0e876886e9cc317418a0134d9c2269c29cf0",
+   "size_bytes": 8153856,
+   "updated": "2026-09-29T17:52:26.720Z"
   },
   {
    "connector_provenance": "unknown",
