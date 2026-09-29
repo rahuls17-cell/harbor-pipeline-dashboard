@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T05:25:03+00:00",
+ "generated_at": "2026-09-29T05:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2111,
-  "scanned": 2111,
+  "task_folders": 2113,
+  "scanned": 2113,
   "connector": 567,
-  "non_connector": 1544,
+  "non_connector": 1546,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 247
  },
  "domain": {
-  "unnamed": 1014,
+  "unnamed": 1016,
   "code": 378,
   "fin": 118,
   "gen": 340,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 570,
-  "obi": 1529,
+  "obi": 1531,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134305
+  "new_archives_read": 2,
+  "approx_bytes_read": 263025
  },
  "errors": [],
  "tasks": [
@@ -595,17 +595,17 @@
    "updated": "2026-09-26T21:57:29.565Z"
   },
   {
-   "declared_name": "harbor/anyone-but-sawyer",
-   "declared_short": "anyone-but-sawyer",
-   "folder": "ASTR_101459",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/anyone-but-sawyer",
+   "declared_short": "anyone-but-sawyer",
    "domain": null,
+   "folder": "ASTR_101459",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0aae7d6b0cf72681a6c4653d3e8a2c6e3cb99017fca575bfdd05c8cb90ba35b1",
    "size_bytes": 12183346,
    "updated": "2026-09-29T05:23:35.274Z"
@@ -2509,6 +2509,20 @@
    "updated": "2026-09-26T16:28:37.977Z"
   },
   {
+   "declared_name": "obi/bus-b23-b17-privacy-film-project-selection",
+   "declared_short": "bus-b23-b17-privacy-film-project-selection",
+   "folder": "bus-b23-b17-privacy-film-project-selection",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "de1461a05c0d3614850bb85090a572ccbba0921cadf5f95b1cd9470940a01c6f",
+   "size_bytes": 10797799,
+   "updated": "2026-09-29T05:27:17.469Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b23-b2-comic-con-booth-merch-plan",
@@ -4103,6 +4117,20 @@
    "sha256": "2a6b5a60d388158f06213e72af191e44cf55a16a9d0b7b86c0c9c60b4d97f164",
    "size_bytes": 5222874,
    "updated": "2026-09-28T07:57:32.570Z"
+  },
+  {
+   "declared_name": "obi/bus-b59-t3-research-skill-sequence-audit",
+   "declared_short": "bus-b59-t3-research-skill-sequence-audit",
+   "folder": "bus-b59-t3-research-skill-sequence-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "eb7ce5f3dfd036c5e2f9dc1d87f9a1c038302b3893267c7055e9056780c5579c",
+   "size_bytes": 5197294,
+   "updated": "2026-09-29T05:29:09.502Z"
   },
   {
    "connector_provenance": null,
