@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T03:40:03+00:00",
+ "generated_at": "2026-09-29T03:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2094,
-  "scanned": 2094,
+  "task_folders": 2095,
+  "scanned": 2095,
   "connector": 561,
-  "non_connector": 1533,
+  "non_connector": 1534,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 244
  },
  "domain": {
-  "unnamed": 1002,
+  "unnamed": 1003,
   "code": 375,
   "fin": 118,
   "gen": 339,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 564,
-  "obi": 1518,
+  "obi": 1519,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131468
  },
  "errors": [],
  "tasks": [
@@ -11281,6 +11281,20 @@
    "sha256": "7bc921851d31bd06f3561acf2562a60e581244329b9aea5ad15291d05b15d1fa",
    "size_bytes": 5151579,
    "updated": "2026-09-28T06:14:11.604Z"
+  },
+  {
+   "declared_name": "obi/edu-mg-edu-b14-a3-board-chapter-coverage-plan",
+   "declared_short": "edu-mg-edu-b14-a3-board-chapter-coverage-plan",
+   "folder": "edu-mg-edu-b14-a3-board-chapter-coverage-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "f1aac3270c95505c9319deb8c3a8bad2af79349c4da8c428b3da7fd269e2e52d",
+   "size_bytes": 4596367,
+   "updated": "2026-09-29T03:43:10.693Z"
   },
   {
    "connector_provenance": null,
