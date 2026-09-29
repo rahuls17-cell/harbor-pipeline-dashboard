@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T08:30:03+00:00",
+ "generated_at": "2026-09-29T08:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2143,
-  "scanned": 2143,
+  "task_folders": 2145,
+  "scanned": 2145,
   "connector": 582,
-  "non_connector": 1561,
+  "non_connector": 1563,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 255
  },
  "domain": {
-  "unnamed": 1042,
+  "unnamed": 1043,
   "code": 378,
   "fin": 119,
   "gen": 342,
-  "health": 156,
+  "health": 157,
   "law": 106
  },
  "name_prefix": {
   "harbor": 585,
-  "obi": 1546,
+  "obi": 1548,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 262989
  },
  "errors": [],
  "tasks": [
@@ -12261,6 +12261,20 @@
    "updated": "2026-09-28T11:14:44.039Z"
   },
   {
+   "declared_name": "obi/edu-sca-b26-study-group-marginal-advantage-qa",
+   "declared_short": "edu-sca-b26-study-group-marginal-advantage-qa",
+   "folder": "edu-sca-b26-study-group-marginal-advantage-qa",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "8b936d808c6768a172e3ab48dc163c19bcb83306bfa494cddf763b9274e045f9",
+   "size_bytes": 4671606,
+   "updated": "2026-09-29T08:30:56.791Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "edu/sca-b27-nursing-sim-route-case-catalog",
@@ -21692,6 +21706,20 @@
    "sha256": "1e13d3758ed6c2f8e867469e28949583ed2a2da8898e5a6d0470682a60318529",
    "size_bytes": 5297391,
    "updated": "2026-09-26T13:27:19.953Z"
+  },
+  {
+   "declared_name": "obi/health-tdt11-a11-quiet-knee-protocol-lookup",
+   "declared_short": "health-tdt11-a11-quiet-knee-protocol-lookup",
+   "folder": "health-tdt11-a11-quiet-knee-protocol-lookup",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "9d566d6414ad4d1c708a896f9b783b7bd91d01a1bf120736ed2b2014897ec8b3",
+   "size_bytes": 5689663,
+   "updated": "2026-09-29T08:33:40.809Z"
   },
   {
    "connector_provenance": null,
