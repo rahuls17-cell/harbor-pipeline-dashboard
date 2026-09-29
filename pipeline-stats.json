@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T22:15:03+00:00",
+ "generated_at": "2026-09-29T22:20:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2260,
-  "scanned": 2260,
-  "connector": 623,
-  "non_connector": 1637,
+  "task_folders": 2263,
+  "scanned": 2263,
+  "connector": 624,
+  "non_connector": 1639,
   "errors": 0
  },
  "connector_provenance": {
   "real": 153,
   "unknown": 189,
-  "synthetic": 281
+  "synthetic": 282
  },
  "domain": {
-  "unnamed": 1132,
+  "unnamed": 1135,
   "code": 379,
   "fin": 120,
   "gen": 358,
@@ -22,8 +22,8 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 625,
-  "obi": 1623,
+  "harbor": 626,
+  "obi": 1625,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -44,7 +44,7 @@
   "outlook-gym": 54,
   "email-calendar-gym": 53,
   "notion-gym": 48,
-  "gws-gym": 45,
+  "gws-gym": 46,
   "github-gym": 38,
   "supabase-gym": 7,
   "teams-gym": 6,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132814
+  "new_archives_read": 3,
+  "approx_bytes_read": 398312
  },
  "errors": [],
  "tasks": [
@@ -2167,6 +2167,20 @@
    "sha256": "299f8485e39057654e2a3468f58237b08eafb4ecc0a855d0f460606e409584e7",
    "size_bytes": 4479293,
    "updated": "2026-09-28T20:33:44.100Z"
+  },
+  {
+   "declared_name": "obi/bus-b19-a3-venue-schedule-plan",
+   "declared_short": "bus-b19-a3-venue-schedule-plan",
+   "folder": "bus-b19-a3-venue-schedule-plan",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "9728f1eebf376f2fa0a7b384ccd766477720abc19c0368ef1795617c41f83c8a",
+   "size_bytes": 5019387,
+   "updated": "2026-09-29T22:17:59.619Z"
   },
   {
    "connector_provenance": null,
@@ -12491,6 +12505,20 @@
    "sha256": "b56ae62baac5b6569b47621d1aeaa3b00bda9b5ac3f9dc97a08f90a6949d83be",
    "size_bytes": 9980990,
    "updated": "2026-09-25T08:55:36.884Z"
+  },
+  {
+   "declared_name": "obi/edu-sc06-a1-settlement-colony-catalog",
+   "declared_short": "edu-sc06-a1-settlement-colony-catalog",
+   "folder": "edu-sc06-a1-settlement-colony-catalog",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "9ad247ec45b6307950a3278480c4a2ae1cf1f00659f6d852aa09365927914795",
+   "size_bytes": 6820270,
+   "updated": "2026-09-29T22:19:48.411Z"
   },
   {
    "connector_provenance": null,
@@ -31601,6 +31629,22 @@
    "updated": "2026-09-28T06:32:47.634Z"
   },
   {
+   "declared_name": "harbor/the-social-posts-filed-twice",
+   "declared_short": "the-social-posts-filed-twice",
+   "folder": "the-social-posts-filed-twice",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3c6621b1ba833e7200bd825fd769d45dc10882e3b2ed9572b985293f687571c6",
+   "size_bytes": 8068786,
+   "updated": "2026-09-29T22:17:42.363Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "outlook-gym"
@@ -34033,17 +34077,17 @@
    "updated": "2026-09-20T16:24:53.457Z"
   },
   {
-   "declared_name": "harbor/year-end-lab-statement-sweep",
-   "declared_short": "year-end-lab-statement-sweep",
-   "folder": "year-end-lab-statement-sweep",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/year-end-lab-statement-sweep",
+   "declared_short": "year-end-lab-statement-sweep",
    "domain": null,
+   "folder": "year-end-lab-statement-sweep",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f9729bf4721a0411151713ba98f8c536dbf42ad998ade25e23b65e938d0211e2",
    "size_bytes": 10146630,
    "updated": "2026-09-29T22:10:30.769Z"
