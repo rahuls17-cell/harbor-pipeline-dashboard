@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T15:55:03+00:00",
+ "generated_at": "2026-09-29T16:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2203,
-  "scanned": 2203,
+  "task_folders": 2204,
+  "scanned": 2204,
   "connector": 598,
-  "non_connector": 1605,
+  "non_connector": 1606,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 264
  },
  "domain": {
-  "unnamed": 1085,
+  "unnamed": 1086,
   "code": 379,
   "fin": 120,
   "gen": 353,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 600,
-  "obi": 1591,
+  "obi": 1592,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131546
  },
  "errors": [],
  "tasks": [
@@ -4209,6 +4209,20 @@
    "sha256": "c1a656fd8d006147fc7570f9578e85bc9767814828eebd19558211e2ff6e45d3",
    "size_bytes": 10002423,
    "updated": "2026-09-26T15:09:36.902Z"
+  },
+  {
+   "declared_name": "obi/bus-b56-a9-ownership-stake-variance-attribution",
+   "declared_short": "bus-b56-a9-ownership-stake-variance-attribution",
+   "folder": "bus-b56-a9-ownership-stake-variance-attribution",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "c6779aa8db9ba8582cd7fede5d44b9723d54be888aa791438a132e9975aee128",
+   "size_bytes": 7349830,
+   "updated": "2026-09-29T16:06:56.594Z"
   },
   {
    "connector_provenance": null,
