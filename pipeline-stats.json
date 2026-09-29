@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T21:45:03+00:00",
+ "generated_at": "2026-09-29T21:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2257,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131439
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -18706,15 +18706,15 @@
    "updated": "2026-09-11T13:57:20.968Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g77-price-tag-accuracy-reconcile",
    "declared_short": "gen-g77-price-tag-accuracy-reconcile",
-   "folder": "gen-g77-price-tag-accuracy-reconcile-solution-dr-3278f7-v1-sna-lzju",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g77-price-tag-accuracy-reconcile-solution-dr-3278f7-v1-sna-lzju",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "46deab9f994689b6a2ac95899e7796e24a8868c1773d30657bc348f8f6592751",
    "size_bytes": 6319174,
    "updated": "2026-09-29T21:43:11.405Z"
