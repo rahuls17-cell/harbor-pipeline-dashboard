@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T00:15:02+00:00",
+ "generated_at": "2026-09-29T00:25:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2073,
-  "scanned": 2073,
+  "task_folders": 2075,
+  "scanned": 2075,
   "connector": 554,
-  "non_connector": 1519,
+  "non_connector": 1521,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 239
  },
  "domain": {
-  "unnamed": 988,
+  "unnamed": 990,
   "code": 375,
   "fin": 116,
   "gen": 336,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 557,
-  "obi": 1504,
+  "obi": 1506,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263107
  },
  "errors": [],
  "tasks": [
@@ -3629,6 +3629,20 @@
    "updated": "2026-09-27T00:24:19.627Z"
   },
   {
+   "declared_name": "obi/bus-b54-b1-outreach-principle-instruction-rollout",
+   "declared_short": "bus-b54-b1-outreach-principle-instruction-rollout",
+   "folder": "bus-b54-b1-outreach-principle-instruction-rollout",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "59d7159c2299eb8dbad4f924c61efbd0170df2ff1fb186ce3db2e82b0d810763",
+   "size_bytes": 9994925,
+   "updated": "2026-09-29T00:24:59.705Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b54-b10-goods-donation-network-metric-comparison",
@@ -3851,6 +3865,20 @@
    "sha256": "a7f05b044d5ce11ca5c17c1217afa0081ba43ce8ca40c68d773234c7ba0b5ede",
    "size_bytes": 4025183,
    "updated": "2026-09-28T08:25:49.327Z"
+  },
+  {
+   "declared_name": "obi/bus-b59-t1-resort-unit-mix-revenue",
+   "declared_short": "bus-b59-t1-resort-unit-mix-revenue",
+   "folder": "bus-b59-t1-resort-unit-mix-revenue",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "5ddd71f5a9ef77b856e200e98111c1fe1184202e3cdc371bfe49a0ce49a1a70c",
+   "size_bytes": 4881415,
+   "updated": "2026-09-29T00:22:12.400Z"
   },
   {
    "connector_provenance": null,
