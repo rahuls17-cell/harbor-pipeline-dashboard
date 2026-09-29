@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T04:30:04+00:00",
+ "generated_at": "2026-09-29T04:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2102,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131590
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -7805,15 +7805,15 @@
    "updated": "2026-09-25T09:16:32.316Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c375-polish-review-ticket-closure-audit",
    "declared_short": "code-c375-polish-review-ticket-closure-audit",
-   "folder": "code-c375-polish-review-ticket-closure-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c375-polish-review-ticket-closure-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e221bd9a1145aac1578be45460bfadbb9d4d3f132f8c753b68c5e467ec9ba90c",
    "size_bytes": 5566356,
    "updated": "2026-09-29T04:26:49.168Z"
