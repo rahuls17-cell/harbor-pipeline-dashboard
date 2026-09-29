@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T06:55:03+00:00",
+ "generated_at": "2026-09-29T07:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2125,
-  "scanned": 2125,
-  "connector": 574,
+  "task_folders": 2126,
+  "scanned": 2126,
+  "connector": 575,
   "non_connector": 1551,
   "errors": 0
  },
  "connector_provenance": {
   "real": 148,
   "unknown": 176,
-  "synthetic": 250
+  "synthetic": 251
  },
  "domain": {
-  "unnamed": 1026,
+  "unnamed": 1027,
   "code": 378,
   "fin": 118,
   "gen": 342,
@@ -22,7 +22,7 @@
   "law": 105
  },
  "name_prefix": {
-  "harbor": 577,
+  "harbor": 578,
   "obi": 1536,
   "bus": 1,
   "edu": 3,
@@ -43,7 +43,7 @@
   "linear-gym": 50,
   "notion-gym": 46,
   "email-calendar-gym": 45,
-  "outlook-gym": 42,
+  "outlook-gym": 43,
   "gws-gym": 38,
   "github-gym": 36,
   "supabase-gym": 6,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134171
+  "approx_bytes_read": 135450
  },
  "errors": [],
  "tasks": [
@@ -657,6 +657,22 @@
    "sha256": "12dd01b9ee566ae74ba1819a9d714377d1c0954e7ebc52771c34f53951b0b6da",
    "size_bytes": 7845311,
    "updated": "2026-09-26T04:23:04.131Z"
+  },
+  {
+   "declared_name": "harbor/three-silences-in-a-daily-digest",
+   "declared_short": "three-silences-in-a-daily-digest",
+   "folder": "ASTR_101580",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "0e2d1cac6271af17970e5ab037a763788bf9d5baacab363a1886fa705e226068",
+   "size_bytes": 17252708,
+   "updated": "2026-09-29T06:58:37.546Z"
   },
   {
    "connector_provenance": null,
@@ -29619,17 +29635,17 @@
    "updated": "2026-09-28T08:48:09.615Z"
   },
   {
-   "declared_name": "harbor/the-response-i-never-gave",
-   "declared_short": "the-response-i-never-gave",
-   "folder": "the-response-i-never-gave",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-response-i-never-gave",
+   "declared_short": "the-response-i-never-gave",
    "domain": null,
+   "folder": "the-response-i-never-gave",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "32fc3c1e3e64d8f91ea8b6324204d143634a09398040a806a0a129337f08a8b2",
    "size_bytes": 10750572,
    "updated": "2026-09-29T06:51:33.266Z"
