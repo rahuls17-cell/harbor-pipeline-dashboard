@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T01:10:03+00:00",
+ "generated_at": "2026-09-29T01:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2081,
-  "scanned": 2081,
-  "connector": 555,
-  "non_connector": 1526,
+  "task_folders": 2083,
+  "scanned": 2083,
+  "connector": 556,
+  "non_connector": 1527,
   "errors": 0
  },
  "connector_provenance": {
   "real": 146,
   "unknown": 170,
-  "synthetic": 239
+  "synthetic": 240
  },
  "domain": {
-  "unnamed": 993,
+  "unnamed": 995,
   "code": 375,
   "fin": 116,
   "gen": 339,
@@ -22,8 +22,8 @@
   "law": 104
  },
  "name_prefix": {
-  "harbor": 558,
-  "obi": 1511,
+  "harbor": 559,
+  "obi": 1512,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 183,
   "slack": 64,
   "notion-gym": 46,
-  "linear-gym": 43,
+  "linear-gym": 44,
   "email-calendar-gym": 42,
   "outlook-gym": 40,
   "gws-gym": 37,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 267406
  },
  "errors": [],
  "tasks": [
@@ -3725,6 +3725,20 @@
    "sha256": "7688021e4d50e9627de3b7b27fd7353943a5d9d404941ca9cbdad0bd62356afc",
    "size_bytes": 8440341,
    "updated": "2026-09-28T12:03:38.739Z"
+  },
+  {
+   "declared_name": "obi/bus-b55-b5-guest-workflow-tool-selection",
+   "declared_short": "bus-b55-b5-guest-workflow-tool-selection",
+   "folder": "bus-b55-b5-guest-workflow-tool-selection",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "febac03f4653b8e8e5293dd9bf073c9b3e1a2302352b69acd2617f8422868928",
+   "size_bytes": 7280415,
+   "updated": "2026-09-29T01:10:13.427Z"
   },
   {
    "connector_provenance": null,
@@ -29699,6 +29713,22 @@
    "sha256": "3919f564f9d6cd5e113a8a216cf1fd2e0a2893f0f6b203a3730020bbdb4774ad",
    "size_bytes": 10055949,
    "updated": "2026-09-23T08:45:02.264Z"
+  },
+  {
+   "declared_name": "harbor/three-of-nineteen-shipped-unsized",
+   "declared_short": "three-of-nineteen-shipped-unsized",
+   "folder": "three-of-nineteen-shipped-unsized",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c78afba6deb639cec5b2e19c2de09351cf74f78587eb4c97e6ff302e187f0773",
+   "size_bytes": 5870518,
+   "updated": "2026-09-29T01:14:27.416Z"
   },
   {
    "connector_provenance": "synthetic",
