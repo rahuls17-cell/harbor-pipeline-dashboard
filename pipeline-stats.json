@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T01:30:03+00:00",
+ "generated_at": "2026-09-29T01:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2085,
-  "scanned": 2085,
-  "connector": 558,
+  "task_folders": 2086,
+  "scanned": 2086,
+  "connector": 559,
   "non_connector": 1527,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 146,
+  "real": 147,
   "unknown": 170,
   "synthetic": 242
  },
  "domain": {
-  "unnamed": 997,
+  "unnamed": 998,
   "code": 375,
   "fin": 116,
   "gen": 339,
@@ -22,7 +22,7 @@
   "law": 104
  },
  "name_prefix": {
-  "harbor": 561,
+  "harbor": 562,
   "obi": 1512,
   "bus": 1,
   "edu": 3,
@@ -32,13 +32,13 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 203,
-  "google-drive-gym": 200,
-  "zeta3-sql-gym": 195,
-  "confluence-gym": 189,
-  "jira-gym": 187,
-  "email-gym": 183,
-  "freshdesk-gym": 183,
+  "slack-gym": 204,
+  "google-drive-gym": 201,
+  "zeta3-sql-gym": 196,
+  "confluence-gym": 190,
+  "jira-gym": 188,
+  "email-gym": 184,
+  "freshdesk-gym": 184,
   "slack": 64,
   "notion-gym": 46,
   "linear-gym": 45,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135825
+  "approx_bytes_read": 137096
  },
  "errors": [],
  "tasks": [
@@ -435,17 +435,17 @@
    "updated": "2026-09-28T23:07:04.755Z"
   },
   {
-   "declared_name": "harbor/seven-unsized-eight-unlabelled",
-   "declared_short": "seven-unsized-eight-unlabelled",
-   "folder": "ASTR_101226",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/seven-unsized-eight-unlabelled",
+   "declared_short": "seven-unsized-eight-unlabelled",
    "domain": null,
+   "folder": "ASTR_101226",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b0db68271e1492628117b01e342b906394b4d5e5d460535ba023bfc1714f132c",
    "size_bytes": 5632044,
    "updated": "2026-09-29T01:26:49.149Z"
@@ -30361,6 +30361,28 @@
    "sha256": "851aff9007edaaae92d52b4b0130f78f034270cf37ec98546db850a3c575c16e",
    "size_bytes": 7126018,
    "updated": "2026-09-19T14:57:00.116Z"
+  },
+  {
+   "declared_name": "harbor/verify-oon-atm-fee-on-june-2022-withdrawal-card-8995-account-3323",
+   "declared_short": "verify-oon-atm-fee-on-june-2022-withdrawal-card-8995-account-3323",
+   "folder": "verify-oon-atm-fee-on-june-2022-withdrawal-card--631831-v3",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "de9129112d66d813328a45f0c2dc7dc5b24122f0f30073527f3481e7389ee363",
+   "size_bytes": 9452003,
+   "updated": "2026-09-29T01:30:24.893Z"
   },
   {
    "connector_provenance": "real",
