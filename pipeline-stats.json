@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T03:00:04+00:00",
+ "generated_at": "2026-09-29T03:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2092,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135729
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -451,17 +451,17 @@
    "updated": "2026-09-29T01:26:49.149Z"
   },
   {
-   "declared_name": "harbor/sixteen-of-eighteen-already-archived",
-   "declared_short": "sixteen-of-eighteen-already-archived",
-   "folder": "ASTR_101229",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/sixteen-of-eighteen-already-archived",
+   "declared_short": "sixteen-of-eighteen-already-archived",
    "domain": null,
+   "folder": "ASTR_101229",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0451ff7413e6d7c941dcd900531976c88eaacbd9f65ea7f7a49927e606bd6782",
    "size_bytes": 6243452,
    "updated": "2026-09-29T02:57:36.074Z"
