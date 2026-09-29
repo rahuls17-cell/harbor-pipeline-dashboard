@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T21:20:03+00:00",
+ "generated_at": "2026-09-29T21:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2252,
-  "scanned": 2252,
+  "task_folders": 2253,
+  "scanned": 2253,
   "connector": 620,
-  "non_connector": 1632,
+  "non_connector": 1633,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 279
  },
  "domain": {
-  "unnamed": 1127,
+  "unnamed": 1128,
   "code": 379,
   "fin": 120,
   "gen": 355,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 622,
-  "obi": 1618,
+  "obi": 1619,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131439
+  "approx_bytes_read": 131512
  },
  "errors": [],
  "tasks": [
@@ -2979,6 +2979,20 @@
    "sha256": "84452d15465bafdf1b49b0783b1487333e7d06ed5fdb15a085b1d654ccd30ff5",
    "size_bytes": 3712249,
    "updated": "2026-09-27T01:27:57.064Z"
+  },
+  {
+   "declared_name": "obi/bus-b44-b10-cod-shipping-method-config-audit",
+   "declared_short": "bus-b44-b10-cod-shipping-method-config-audit",
+   "folder": "bus-b44-b10-cod-shipping-method-config-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "4030734803f5b9946850eee3ce8ec490aa12b20a647e8f64b358294995867629",
+   "size_bytes": 7700156,
+   "updated": "2026-09-29T21:24:23.448Z"
   },
   {
    "connector_provenance": null,
@@ -12115,15 +12129,15 @@
    "updated": "2026-09-29T09:34:53.390Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-mg-edu-b13-a9-holiday-weekend-reply-day-check",
    "declared_short": "edu-mg-edu-b13-a9-holiday-weekend-reply-day-check",
-   "folder": "edu-mg-edu-b13-a9-holiday-weekend-reply-day-check",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-mg-edu-b13-a9-holiday-weekend-reply-day-check",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ef4e7ce3bce3404f8a82e3e666bddd518610a39487ea8379bb9be8575d52c2b1",
    "size_bytes": 4603627,
    "updated": "2026-09-29T21:18:07.337Z"
