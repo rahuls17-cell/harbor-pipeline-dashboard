@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T01:35:03+00:00",
+ "generated_at": "2026-09-29T01:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2086,
-  "scanned": 2086,
+  "task_folders": 2087,
+  "scanned": 2087,
   "connector": 559,
-  "non_connector": 1527,
+  "non_connector": 1528,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 242
  },
  "domain": {
-  "unnamed": 998,
+  "unnamed": 999,
   "code": 375,
   "fin": 116,
   "gen": 339,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 562,
-  "obi": 1512,
+  "obi": 1513,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 137096
+  "approx_bytes_read": 131498
  },
  "errors": [],
  "tasks": [
@@ -11559,6 +11559,20 @@
    "sha256": "004c6ce7c64c8381eda39da9ac1f26936d0ffae115977147d0b1d3439f38babb",
    "size_bytes": 5394714,
    "updated": "2026-09-26T20:39:46.067Z"
+  },
+  {
+   "declared_name": "obi/edu-sc07-a10-mantra-register",
+   "declared_short": "edu-sc07-a10-mantra-register",
+   "folder": "edu-sc07-a10-mantra-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "b0b463b1e5cbd2a8d65bb7bade0c8e4a2d6ffc395763f3111ecb2cd10c0c1fc7",
+   "size_bytes": 6829004,
+   "updated": "2026-09-29T01:38:44.611Z"
   },
   {
    "connector_provenance": null,
@@ -30363,11 +30377,7 @@
    "updated": "2026-09-19T14:57:00.116Z"
   },
   {
-   "declared_name": "harbor/verify-oon-atm-fee-on-june-2022-withdrawal-card-8995-account-3323",
-   "declared_short": "verify-oon-atm-fee-on-june-2022-withdrawal-card-8995-account-3323",
-   "folder": "verify-oon-atm-fee-on-june-2022-withdrawal-card--631831-v3",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -30377,9 +30387,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/verify-oon-atm-fee-on-june-2022-withdrawal-card-8995-account-3323",
+   "declared_short": "verify-oon-atm-fee-on-june-2022-withdrawal-card-8995-account-3323",
    "domain": null,
+   "folder": "verify-oon-atm-fee-on-june-2022-withdrawal-card--631831-v3",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "de9129112d66d813328a45f0c2dc7dc5b24122f0f30073527f3481e7389ee363",
    "size_bytes": 9452003,
    "updated": "2026-09-29T01:30:24.893Z"
