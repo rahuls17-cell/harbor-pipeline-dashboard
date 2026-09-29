@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T01:45:03+00:00",
+ "generated_at": "2026-09-29T01:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2087,
-  "scanned": 2087,
+  "task_folders": 2088,
+  "scanned": 2088,
   "connector": 559,
-  "non_connector": 1528,
+  "non_connector": 1529,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 242
  },
  "domain": {
-  "unnamed": 999,
+  "unnamed": 1000,
   "code": 375,
   "fin": 116,
   "gen": 339,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 562,
-  "obi": 1513,
+  "obi": 1514,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131964
  },
  "errors": [],
  "tasks": [
@@ -3113,6 +3113,20 @@
    "sha256": "dbc5896fe74ed0a27b440919516786e573094ba14771822e4d3c30c4076ddcbe",
    "size_bytes": 8446733,
    "updated": "2026-09-24T18:43:19.406Z"
+  },
+  {
+   "declared_name": "obi/bus-b47-b5-sop-clause-criteria-adjudication",
+   "declared_short": "bus-b47-b5-sop-clause-criteria-adjudication",
+   "folder": "bus-b47-b5-sop-clause-criteria-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "0131a19b75c7f851153f5ed468db0e2ca348501bb6c17b445446f6a67335a99b",
+   "size_bytes": 5575528,
+   "updated": "2026-09-29T01:51:10.090Z"
   },
   {
    "connector_provenance": null,
