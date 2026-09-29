@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T12:00:03+00:00",
+ "generated_at": "2026-09-29T12:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2183,
-  "scanned": 2183,
+  "task_folders": 2184,
+  "scanned": 2184,
   "connector": 596,
-  "non_connector": 1587,
+  "non_connector": 1588,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 262
  },
  "domain": {
-  "unnamed": 1073,
+  "unnamed": 1074,
   "code": 379,
   "fin": 119,
   "gen": 347,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 598,
-  "obi": 1573,
+  "obi": 1574,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 266306
+  "new_archives_read": 1,
+  "approx_bytes_read": 131460
  },
  "errors": [],
  "tasks": [
@@ -643,17 +643,17 @@
    "updated": "2026-09-29T05:23:35.274Z"
   },
   {
-   "declared_name": "harbor/the-organisers-who-called-more-than-once",
-   "declared_short": "the-organisers-who-called-more-than-once",
-   "folder": "ASTR_101548",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-organisers-who-called-more-than-once",
+   "declared_short": "the-organisers-who-called-more-than-once",
    "domain": null,
+   "folder": "ASTR_101548",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "fc3fbe395916b1d8087728d6879eee98bdfca125f3472591a2911cad57ba81b9",
    "size_bytes": 10018130,
    "updated": "2026-09-29T11:58:03.227Z"
@@ -23474,15 +23474,15 @@
    "updated": "2026-09-20T16:58:25.980Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b37-l14-abstention-rules-table-audit",
    "declared_short": "law-b37-l14-abstention-rules-table-audit",
-   "folder": "law-b37-l14-abstention-rules-table-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b37-l14-abstention-rules-table-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "bc7bab76790127be60c28a3ff12a87970cb525801fc54a2fb0e0d25e99a20779",
    "size_bytes": 6577021,
    "updated": "2026-09-29T11:55:47.409Z"
@@ -27777,6 +27777,20 @@
    "sha256": "e3ab00bc737e7fe4237caff45102d3895766e1243313106ad6feaa5cceb9097c",
    "size_bytes": 10010185,
    "updated": "2026-09-23T20:15:09.143Z"
+  },
+  {
+   "declared_name": "obi/tech-b53-t10-app-advert-claim-diligence",
+   "declared_short": "tech-b53-t10-app-advert-claim-diligence",
+   "folder": "tech-b53-t10-app-advert-claim-diligence",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "6f3631a6da232b3956d78f800ebad9b64aeca78f4de6fbb05eef757c4dd79055",
+   "size_bytes": 4033538,
+   "updated": "2026-09-29T12:03:23.851Z"
   },
   {
    "connector_provenance": null,
