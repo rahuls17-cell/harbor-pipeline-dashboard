@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T19:50:03+00:00",
+ "generated_at": "2026-09-29T19:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2244,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137406
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -30805,17 +30805,17 @@
    "updated": "2026-09-29T17:26:10.979Z"
   },
   {
-   "declared_name": "harbor/the-pin-that-never-got-closed-out",
-   "declared_short": "the-pin-that-never-got-closed-out",
-   "folder": "the-pin-that-never-got-closed-out",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-pin-that-never-got-closed-out",
+   "declared_short": "the-pin-that-never-got-closed-out",
    "domain": null,
+   "folder": "the-pin-that-never-got-closed-out",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "486f2e68876a16c77ea6a7a99c7c750cbe5b2297a9901feaae2debfee9d6ee55",
    "size_bytes": 7958261,
    "updated": "2026-09-29T19:46:55.341Z"
