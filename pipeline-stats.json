@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T22:35:03+00:00",
+ "generated_at": "2026-09-29T22:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2265,
-  "scanned": 2265,
+  "task_folders": 2266,
+  "scanned": 2266,
   "connector": 624,
-  "non_connector": 1641,
+  "non_connector": 1642,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 1135,
   "code": 379,
   "fin": 120,
-  "gen": 360,
+  "gen": 361,
   "health": 163,
   "law": 108
  },
  "name_prefix": {
   "harbor": 626,
-  "obi": 1627,
+  "obi": 1628,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133442
  },
  "errors": [],
  "tasks": [
@@ -19250,6 +19250,20 @@
    "sha256": "ef9444e17a4d9936f0e97fe33440f9ecb7332462597e9cc465fabfca531389e8",
    "size_bytes": 7109584,
    "updated": "2026-09-11T13:01:44.175Z"
+  },
+  {
+   "declared_name": "obi/gen-g856-internal-messaging-tone-register-audit",
+   "declared_short": "gen-g856-internal-messaging-tone-register-audit",
+   "folder": "gen-g856-internal-messaging-tone-register-audit-7d8ac1-v11-sna-ozrq",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "14720b50f03feab4b8342a3c700ec65a147eab2af92d8d1ece3e8fc1e3b2d708",
+   "size_bytes": 5667636,
+   "updated": "2026-09-29T22:37:35.387Z"
   },
   {
    "connector_provenance": null,
