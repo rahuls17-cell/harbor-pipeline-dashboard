@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T09:40:04+00:00",
+ "generated_at": "2026-09-29T09:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2153,
-  "scanned": 2153,
-  "connector": 584,
+  "task_folders": 2154,
+  "scanned": 2154,
+  "connector": 585,
   "non_connector": 1569,
   "errors": 0
  },
  "connector_provenance": {
   "real": 149,
   "unknown": 179,
-  "synthetic": 256
+  "synthetic": 257
  },
  "domain": {
-  "unnamed": 1050,
+  "unnamed": 1051,
   "code": 378,
   "fin": 119,
   "gen": 343,
@@ -22,7 +22,7 @@
   "law": 106
  },
  "name_prefix": {
-  "harbor": 587,
+  "harbor": 588,
   "obi": 1554,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "email-gym": 184,
   "freshdesk-gym": 184,
   "slack": 64,
-  "linear-gym": 51,
+  "linear-gym": 52,
   "email-calendar-gym": 47,
   "notion-gym": 46,
   "outlook-gym": 46,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131449
+  "approx_bytes_read": 137812
  },
  "errors": [],
  "tasks": [
@@ -15444,15 +15444,15 @@
    "updated": "2026-09-24T01:53:46.283Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g1258-audio-mastering-loudness-audit",
    "declared_short": "gen-g1258-audio-mastering-loudness-audit",
-   "folder": "gen-g1258-audio-mastering-loudness-audit-db27d1-v1-sna-gmil",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g1258-audio-mastering-loudness-audit-db27d1-v1-sna-gmil",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "16ec6818145b1893f956ddf590941854d4ef4858ed91e3b1da86e707c6b11b8c",
    "size_bytes": 4721651,
    "updated": "2026-09-29T09:36:22.563Z"
@@ -30773,6 +30773,22 @@
    "sha256": "c49fc3a43c3afce3da9701096d9363037b310560d6b55cef25de4b92538ce56d",
    "size_bytes": 16365198,
    "updated": "2026-09-19T01:40:37.786Z"
+  },
+  {
+   "declared_name": "harbor/twenty-three-dropped-twenty-one-say-so",
+   "declared_short": "twenty-three-dropped-twenty-one-say-so",
+   "folder": "twenty-three-dropped-twenty-one-say-so",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "14501510ff5425258b9e03c808b65b2007b83941a26c6c29da30c1d77fbea4f5",
+   "size_bytes": 11255123,
+   "updated": "2026-09-29T09:44:50.255Z"
   },
   {
    "connector_provenance": "synthetic",
