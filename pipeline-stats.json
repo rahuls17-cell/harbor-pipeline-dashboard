@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T13:40:03+00:00",
+ "generated_at": "2026-09-29T13:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2192,
-  "scanned": 2192,
+  "task_folders": 2194,
+  "scanned": 2194,
   "connector": 598,
-  "non_connector": 1594,
+  "non_connector": 1596,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 1081,
   "code": 379,
   "fin": 119,
-  "gen": 348,
-  "health": 157,
+  "gen": 349,
+  "health": 158,
   "law": 108
  },
  "name_prefix": {
   "harbor": 600,
-  "obi": 1580,
+  "obi": 1582,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 262803
  },
  "errors": [],
  "tasks": [
@@ -17662,6 +17662,20 @@
    "updated": "2026-09-09T08:48:39.302Z"
   },
   {
+   "declared_name": "obi/gen-g63-environmental-permit-audit",
+   "declared_short": "gen-g63-environmental-permit-audit",
+   "folder": "gen-g63-environmental-permit-audit-6c589b-v3-sna-qzad",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "dc8c9b56f659b4b3a924af7e51d4dfc1b02789609d59879363f5172b9ac1988f",
+   "size_bytes": 4612812,
+   "updated": "2026-09-29T13:48:10.954Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g636-data-room-update-log-compliance-audit",
@@ -21756,6 +21770,20 @@
    "sha256": "8ccd443b322e2ae46bb3601531594349d9aa61dd12f77938795ade6b7a68c128",
    "size_bytes": 2982356,
    "updated": "2026-09-11T11:30:13.816Z"
+  },
+  {
+   "declared_name": "obi/health-h80-trial-monitoring-visit-cadence-audit",
+   "declared_short": "health-h80-trial-monitoring-visit-cadence-audit",
+   "folder": "health-h80-trial-monitoring-visit-cadence-audit-d3fbb5-v1-sna-jwvu",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "05f8bc6c3310bfb546a285c0605a1659ffafd7da78b340c30351691fb78459a9",
+   "size_bytes": 4080109,
+   "updated": "2026-09-29T13:48:37.214Z"
   },
   {
    "connector_provenance": null,
