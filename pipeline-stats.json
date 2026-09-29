@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T00:50:03+00:00",
+ "generated_at": "2026-09-29T01:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2079,
-  "scanned": 2079,
+  "task_folders": 2081,
+  "scanned": 2081,
   "connector": 555,
-  "non_connector": 1524,
+  "non_connector": 1526,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 993,
   "code": 375,
   "fin": 116,
-  "gen": 337,
+  "gen": 339,
   "health": 154,
   "law": 104
  },
  "name_prefix": {
   "harbor": 558,
-  "obi": 1509,
+  "obi": 1511,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 262900
  },
  "errors": [],
  "tasks": [
@@ -14232,6 +14232,20 @@
    "updated": "2026-09-28T01:52:47.262Z"
   },
   {
+   "declared_name": "obi/gen-g1123-governance-workshop-outline-audit",
+   "declared_short": "gen-g1123-governance-workshop-outline-audit",
+   "folder": "gen-g1123-governance-workshop-outline-audit-165d5b-v1-sna-fuvo",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "f2feba9a5696c5abeb3db894917eb099612a98e69098fa4c66e9bedc354fefa4",
+   "size_bytes": 5267039,
+   "updated": "2026-09-29T01:02:22.543Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g1124-facilitator-guide-vetting-audit",
@@ -15742,6 +15756,20 @@
    "sha256": "f759815c964ebbcb03079b52a2585ba34a9df890e98b1604960559d11e317a55",
    "size_bytes": 10566991,
    "updated": "2026-09-19T12:02:12.113Z"
+  },
+  {
+   "declared_name": "obi/gen-g353-brand-asset-usage-audit",
+   "declared_short": "gen-g353-brand-asset-usage-audit",
+   "folder": "gen-g353-brand-asset-usage-audit-231ce6-v1-sna-vvgl",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "3441359e3bb451d57367274ebab97bd158d598e16f780ed6c63d75c25b172b6f",
+   "size_bytes": 15966206,
+   "updated": "2026-09-29T01:04:24.647Z"
   },
   {
    "connector_provenance": null,
