@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T10:30:03+00:00",
+ "generated_at": "2026-09-29T10:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2162,
-  "scanned": 2162,
+  "task_folders": 2164,
+  "scanned": 2164,
   "connector": 589,
-  "non_connector": 1573,
+  "non_connector": 1575,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 258
  },
  "domain": {
-  "unnamed": 1058,
-  "code": 378,
+  "unnamed": 1059,
+  "code": 379,
   "fin": 119,
   "gen": 344,
   "health": 157,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 592,
-  "obi": 1558,
+  "obi": 1560,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 262909
  },
  "errors": [],
  "tasks": [
@@ -9479,6 +9479,20 @@
    "updated": "2026-09-21T16:14:30.307Z"
   },
   {
+   "declared_name": "obi/code-c618-audio-plugin-qa-bug-remediation-audit",
+   "declared_short": "code-c618-audio-plugin-qa-bug-remediation-audit",
+   "folder": "code-c618-audio-plugin-qa-bug-remediation-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "8789769e1f2459ff57cd955ff2b5992ca6321ed9c6e8f69090316825e98e1b69",
+   "size_bytes": 12051309,
+   "updated": "2026-09-29T10:31:39.812Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c621-register-id-assignment-compliance-audit",
@@ -11643,6 +11657,20 @@
    "sha256": "a7713fb02fa5398fc5c395d87d38ff6ff2e22dee9957f851b74cd1a723f95c05",
    "size_bytes": 5224594,
    "updated": "2026-09-29T09:34:53.390Z"
+  },
+  {
+   "declared_name": "obi/edu-mg-edu-b14-a10-literaturliste-belegstatus-rueckfrage",
+   "declared_short": "edu-mg-edu-b14-a10-literaturliste-belegstatus-rueckfrage",
+   "folder": "edu-mg-edu-b14-a10-literaturliste-belegstatus-rueckfrage",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1bed550d3183efd7f85d550fe6a490081f898c88ed6a5bee97f1a60b9c0b9b01",
+   "size_bytes": 6315414,
+   "updated": "2026-09-29T10:31:59.966Z"
   },
   {
    "connector_provenance": null,
