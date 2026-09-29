@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T06:30:03+00:00",
+ "generated_at": "2026-09-29T06:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2121,
-  "scanned": 2121,
+  "task_folders": 2122,
+  "scanned": 2122,
   "connector": 572,
-  "non_connector": 1549,
+  "non_connector": 1550,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 1024,
   "code": 378,
   "fin": 118,
-  "gen": 340,
+  "gen": 341,
   "health": 156,
   "law": 105
  },
  "name_prefix": {
   "harbor": 575,
-  "obi": 1534,
+  "obi": 1535,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131479
  },
  "errors": [],
  "tasks": [
@@ -16904,6 +16904,20 @@
    "sha256": "a5b87a4a1856cb4825fc3f2ea2c9467eae0774d42e9bf73180326e1942047d33",
    "size_bytes": 6356709,
    "updated": "2026-09-20T14:57:56.504Z"
+  },
+  {
+   "declared_name": "obi/gen-g58-course-prerequisite-audit",
+   "declared_short": "gen-g58-course-prerequisite-audit",
+   "folder": "gen-g58-course-prerequisite-audit-m-v1-9351c1-v4-sna-ktul",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "a3809fe63604dc5d133da4445e4c63732408d70df640d1e928a6cfb3c0d85550",
+   "size_bytes": 4754779,
+   "updated": "2026-09-29T06:31:05.994Z"
   },
   {
    "connector_provenance": null,
