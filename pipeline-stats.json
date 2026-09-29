@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T20:45:02+00:00",
+ "generated_at": "2026-09-29T20:50:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2250,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131516
  },
  "errors": [],
  "tasks": [
@@ -2253,18 +2253,18 @@
    "updated": "2026-09-23T08:11:55.033Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/bus-b20-a3-clearance-tolerance-normalization",
    "declared_short": "bus-b20-a3-clearance-tolerance-normalization",
-   "domain": null,
    "folder": "bus-b20-a3-clearance-tolerance-normalization",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "34ac81075b2d8200ed47b4e4029c213871641f9cdda0324fc773adf24ffc307f",
-   "size_bytes": 11249804,
-   "updated": "2026-09-23T22:41:58.392Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "2fa3c96d57991dd120ddfaf72de557086d8abf99a1ef43e6918fea91824ad863",
+   "size_bytes": 10179855,
+   "updated": "2026-09-29T20:49:10.540Z"
   },
   {
    "connector_provenance": null,
