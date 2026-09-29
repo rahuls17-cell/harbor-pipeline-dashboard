@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T11:25:03+00:00",
+ "generated_at": "2026-09-29T11:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2176,
-  "scanned": 2176,
+  "task_folders": 2178,
+  "scanned": 2178,
   "connector": 594,
-  "non_connector": 1582,
+  "non_connector": 1584,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 262
  },
  "domain": {
-  "unnamed": 1068,
+  "unnamed": 1070,
   "code": 379,
   "fin": 119,
   "gen": 346,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 596,
-  "obi": 1568,
+  "obi": 1570,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131452
+  "new_archives_read": 2,
+  "approx_bytes_read": 263637
  },
  "errors": [],
  "tasks": [
@@ -3341,6 +3341,20 @@
    "updated": "2026-09-25T09:52:39.903Z"
   },
   {
+   "declared_name": "obi/bus-b47-b7-collection-performance-variance",
+   "declared_short": "bus-b47-b7-collection-performance-variance",
+   "folder": "bus-b47-b7-collection-performance-variance",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "381f77dcd954f499681594576b28e4a0dae5128560eeb7e5997937ea672f1d0c",
+   "size_bytes": 8513879,
+   "updated": "2026-09-29T11:28:10.550Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b47-b8-credits-deal-expansion-commission-statement",
@@ -4391,15 +4405,15 @@
    "updated": "2026-09-25T19:20:29.280Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b609-t6-clinic-competitor-market-normalisation-hero",
    "declared_short": "bus-b609-t6-clinic-competitor-market-normalisation-hero",
-   "folder": "bus-b609-t6-clinic-competitor-market-normalisation-hero",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b609-t6-clinic-competitor-market-normalisation-hero",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "963edbd3ccf837a83a421bf655d4813846a5acc0e5add3154ff55c0ffb7bca48",
    "size_bytes": 5145694,
    "updated": "2026-09-29T11:24:20.511Z"
@@ -12611,6 +12625,20 @@
    "sha256": "12ce425fbc016cc99f4533c4a353d97316c5278aeec85dfda7230ddfafa2c147",
    "size_bytes": 6066905,
    "updated": "2026-09-27T23:38:31.872Z"
+  },
+  {
+   "declared_name": "obi/edu-sch-a9-csat-regular-round-cutoff-eligibility",
+   "declared_short": "edu-sch-a9-csat-regular-round-cutoff-eligibility",
+   "folder": "edu-sch-a9-csat-regular-round-cutoff-eligibility",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "b30233a6ac873c4edd92dd81eb938473f1ef3109ad08711f37346d496c17ade6",
+   "size_bytes": 4664492,
+   "updated": "2026-09-29T11:25:50.237Z"
   },
   {
    "connector_provenance": null,
