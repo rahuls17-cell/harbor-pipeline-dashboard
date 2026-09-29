@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T18:45:04+00:00",
+ "generated_at": "2026-09-29T18:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2241,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 275284
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -29639,17 +29639,17 @@
    "updated": "2026-09-23T07:34:55.792Z"
   },
   {
-   "declared_name": "harbor/the-body-said-otherwise",
-   "declared_short": "the-body-said-otherwise",
-   "folder": "the-body-said-otherwise",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-body-said-otherwise",
+   "declared_short": "the-body-said-otherwise",
    "domain": null,
+   "folder": "the-body-said-otherwise",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "cd753bd6149c87d204e7b086d32d9c09ed4f2246b24c212c780f0a12053aedcf",
    "size_bytes": 5341432,
    "updated": "2026-09-29T18:43:41.381Z"
@@ -31639,17 +31639,17 @@
    "updated": "2026-09-21T12:40:34.257Z"
   },
   {
-   "declared_name": "harbor/the-vendor-notes-nobody-read",
-   "declared_short": "the-vendor-notes-nobody-read",
-   "folder": "the-vendor-notes-nobody-read",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-vendor-notes-nobody-read",
+   "declared_short": "the-vendor-notes-nobody-read",
    "domain": null,
+   "folder": "the-vendor-notes-nobody-read",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2f20ed8e8cc59ce1e4639a9d9d72882be695b707ae3c5e1f3731182033ede06b",
    "size_bytes": 7831954,
    "updated": "2026-09-29T18:42:08.651Z"
