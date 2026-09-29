@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T11:35:03+00:00",
+ "generated_at": "2026-09-29T11:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2178,
-  "scanned": 2178,
+  "task_folders": 2179,
+  "scanned": 2179,
   "connector": 594,
-  "non_connector": 1584,
+  "non_connector": 1585,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 1070,
   "code": 379,
   "fin": 119,
-  "gen": 346,
+  "gen": 347,
   "health": 157,
   "law": 107
  },
  "name_prefix": {
   "harbor": 596,
-  "obi": 1570,
+  "obi": 1571,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 132071
  },
  "errors": [],
  "tasks": [
@@ -17952,6 +17952,20 @@
    "sha256": "027ceacc3015973e214afe63943b80ea3f01242a707d3e1b1a5aa51ebfba5a1e",
    "size_bytes": 7272111,
    "updated": "2026-09-05T18:19:21.583Z"
+  },
+  {
+   "declared_name": "obi/gen-g727-multi-stream-revenue-recognition-audit",
+   "declared_short": "gen-g727-multi-stream-revenue-recognition-audit",
+   "folder": "gen-g727-multi-stream-revenue-recognition-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "4731de6f2dd6f57271b8aed805688f129a0883f1b8a894d3a68050f01f161391",
+   "size_bytes": 11531027,
+   "updated": "2026-09-29T11:35:43.061Z"
   },
   {
    "connector_provenance": null,
