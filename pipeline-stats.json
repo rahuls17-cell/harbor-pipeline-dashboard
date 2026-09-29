@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T11:00:03+00:00",
+ "generated_at": "2026-09-29T11:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2171,
-  "scanned": 2171,
-  "connector": 591,
+  "task_folders": 2172,
+  "scanned": 2172,
+  "connector": 592,
   "non_connector": 1580,
   "errors": 0
  },
  "connector_provenance": {
   "real": 150,
   "unknown": 181,
-  "synthetic": 260
+  "synthetic": 261
  },
  "domain": {
-  "unnamed": 1063,
+  "unnamed": 1064,
   "code": 379,
   "fin": 119,
   "gen": 346,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 594,
-  "obi": 1565,
+  "obi": 1566,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -46,7 +46,7 @@
   "notion-gym": 46,
   "gws-gym": 40,
   "github-gym": 36,
-  "supabase-gym": 6,
+  "supabase-gym": 7,
   "teams-gym": 5,
   "snowflake-gym": 4,
   "microsoft-teams-gym": 4,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134693
+  "approx_bytes_read": 145893
  },
  "errors": [],
  "tasks": [
@@ -563,17 +563,17 @@
    "updated": "2026-09-29T04:18:38.600Z"
   },
   {
-   "declared_name": "harbor/the-files-marked-shared-that-nobody-else-can-open",
-   "declared_short": "the-files-marked-shared-that-nobody-else-can-open",
-   "folder": "ASTR_101358",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-files-marked-shared-that-nobody-else-can-open",
+   "declared_short": "the-files-marked-shared-that-nobody-else-can-open",
    "domain": null,
+   "folder": "ASTR_101358",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6754a86ae2b1a69e6ab40b79872955361db8658ccd82886896f77e36d9f3b576",
    "size_bytes": 10673563,
    "updated": "2026-09-29T10:57:59.589Z"
@@ -30519,6 +30519,22 @@
    "sha256": "2cf74410be5e28545bc5b2bfc321eaa1b97a59a3da99eea84e4c2b6809ac8749",
    "size_bytes": 8997100,
    "updated": "2026-09-21T15:54:33.600Z"
+  },
+  {
+   "declared_name": "obi/the-subdomain-rollout-that-skipped-a-tier",
+   "declared_short": "the-subdomain-rollout-that-skipped-a-tier",
+   "folder": "the-subdomain-rollout-that-skipped-a-tier",
+   "prefix": "obi",
+   "is_connector": true,
+   "connector_services": [
+    "supabase-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2182c96872182eafe876b1d48cb8730b36a5637bddf151be4227c7278f7253de",
+   "size_bytes": 7767156,
+   "updated": "2026-09-29T11:01:51.876Z"
   },
   {
    "connector_provenance": "synthetic",
