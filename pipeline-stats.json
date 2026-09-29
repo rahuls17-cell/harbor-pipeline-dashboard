@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T14:55:03+00:00",
+ "generated_at": "2026-09-29T15:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2200,
-  "scanned": 2200,
+  "task_folders": 2201,
+  "scanned": 2201,
   "connector": 598,
-  "non_connector": 1602,
+  "non_connector": 1603,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 1085,
   "code": 379,
   "fin": 120,
-  "gen": 350,
+  "gen": 351,
   "health": 158,
   "law": 108
  },
  "name_prefix": {
   "harbor": 600,
-  "obi": 1588,
+  "obi": 1589,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131350
  },
  "errors": [],
  "tasks": [
@@ -19312,6 +19312,20 @@
    "sha256": "6453676b14c6abb98a7ea9430133290ae5c896738b67e8cce997749fb07a924e",
    "size_bytes": 7945990,
    "updated": "2026-09-24T01:13:16.407Z"
+  },
+  {
+   "declared_name": "obi/gen-g980-greenhouse-as-built-compliance-audit",
+   "declared_short": "gen-g980-greenhouse-as-built-compliance-audit",
+   "folder": "gen-g980-greenhouse-as-built-compliance-audit-v3-4d7a1c-v2-sna-qcqn",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "10067b28033a8aa3b3fc0308c0d9f86dd68e73015e1a52fdc78776fa4cf04dd1",
+   "size_bytes": 7309190,
+   "updated": "2026-09-29T14:56:38.547Z"
   },
   {
    "connector_provenance": null,
