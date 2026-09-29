@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T14:15:03+00:00",
+ "generated_at": "2026-09-29T14:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2196,
-  "scanned": 2196,
+  "task_folders": 2197,
+  "scanned": 2197,
   "connector": 598,
-  "non_connector": 1598,
+  "non_connector": 1599,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 264
  },
  "domain": {
-  "unnamed": 1083,
+  "unnamed": 1084,
   "code": 379,
   "fin": 119,
   "gen": 349,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 600,
-  "obi": 1584,
+  "obi": 1585,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131448
  },
  "errors": [],
  "tasks": [
@@ -3467,6 +3467,20 @@
    "sha256": "68a92064eca3800f8c1f167646c5b334eb542ea06a6f1fcda5effbcd291dcff8",
    "size_bytes": 5058294,
    "updated": "2026-09-29T05:43:55.482Z"
+  },
+  {
+   "declared_name": "obi/bus-b48-b4-municipal-officials-contact-table-fill",
+   "declared_short": "bus-b48-b4-municipal-officials-contact-table-fill",
+   "folder": "bus-b48-b4-municipal-officials-contact-table-fill",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "631ae97c85723e7b547d6c28d3f9ff8064236e64cb2782a746f651e01b108da4",
+   "size_bytes": 4484264,
+   "updated": "2026-09-29T14:15:45.242Z"
   },
   {
    "connector_provenance": null,
