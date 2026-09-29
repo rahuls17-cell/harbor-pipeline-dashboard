@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T08:05:03+00:00",
+ "generated_at": "2026-09-29T08:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2141,
-  "scanned": 2141,
-  "connector": 581,
+  "task_folders": 2142,
+  "scanned": 2142,
+  "connector": 582,
   "non_connector": 1560,
   "errors": 0
  },
  "connector_provenance": {
   "real": 149,
   "unknown": 178,
-  "synthetic": 254
+  "synthetic": 255
  },
  "domain": {
-  "unnamed": 1040,
+  "unnamed": 1041,
   "code": 378,
   "fin": 119,
   "gen": 342,
@@ -22,7 +22,7 @@
   "law": 106
  },
  "name_prefix": {
-  "harbor": 584,
+  "harbor": 585,
   "obi": 1545,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "email-gym": 184,
   "freshdesk-gym": 184,
   "slack": 64,
-  "linear-gym": 50,
+  "linear-gym": 51,
   "notion-gym": 46,
   "email-calendar-gym": 46,
   "outlook-gym": 45,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 400695
+  "new_archives_read": 1,
+  "approx_bytes_read": 136158
  },
  "errors": [],
  "tasks": [
@@ -11603,15 +11603,15 @@
    "updated": "2026-09-29T03:43:10.693Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-mg-edu-b14-a7-listening-key-synonym-marking",
    "declared_short": "edu-mg-edu-b14-a7-listening-key-synonym-marking",
-   "folder": "edu-mg-edu-b14-a7-listening-key-synonym-marking",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-mg-edu-b14-a7-listening-key-synonym-marking",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "dc1722262e02c8ee34b0971893841fe1a646213747b8c1b844416985adabe879",
    "size_bytes": 6553393,
    "updated": "2026-09-29T08:02:36.355Z"
@@ -24400,15 +24400,15 @@
    "updated": "2026-09-22T14:57:31.651Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-l94-workplace-conduct-characterization-audit",
    "declared_short": "law-l94-workplace-conduct-characterization-audit",
-   "folder": "law-l94-workplace-conduct-characterization-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-l94-workplace-conduct-characterization-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "561f47770d7ef033bd54b43aec63cb558069eead68782a4c2104c67e6752a5ea",
    "size_bytes": 5949298,
    "updated": "2026-09-29T08:00:29.924Z"
@@ -28737,17 +28737,17 @@
    "updated": "2026-09-20T03:00:19.959Z"
   },
   {
-   "declared_name": "harbor/the-decisions-nobody-wrote-down",
-   "declared_short": "the-decisions-nobody-wrote-down",
-   "folder": "the-decisions-nobody-wrote-down",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-decisions-nobody-wrote-down",
+   "declared_short": "the-decisions-nobody-wrote-down",
    "domain": null,
+   "folder": "the-decisions-nobody-wrote-down",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6aad06bfb84baeaee6094fdcbcf02e05816078881d27b747c29d5cafcd39c99c",
    "size_bytes": 7552581,
    "updated": "2026-09-29T08:01:11.291Z"
@@ -30663,6 +30663,22 @@
    "sha256": "a0daee1f49c6b196c58dbed87b874c8a26b9f56a58b451de1033a1aef6e176a1",
    "size_bytes": 11726340,
    "updated": "2026-09-20T00:04:50.049Z"
+  },
+  {
+   "declared_name": "harbor/two-of-eighteen-carry-a-file",
+   "declared_short": "two-of-eighteen-carry-a-file",
+   "folder": "two-of-eighteen-carry-a-file",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "91fc0599bcbd577b4d1101fa355435d5e1dc7b34102ab45d0534b2d353b9d517",
+   "size_bytes": 6181139,
+   "updated": "2026-09-29T08:08:42.758Z"
   },
   {
    "connector_provenance": "real",
