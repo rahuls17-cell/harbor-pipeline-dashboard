@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T15:00:04+00:00",
+ "generated_at": "2026-09-29T15:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2201,
-  "scanned": 2201,
+  "task_folders": 2202,
+  "scanned": 2202,
   "connector": 598,
-  "non_connector": 1603,
+  "non_connector": 1604,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 1085,
   "code": 379,
   "fin": 120,
-  "gen": 351,
+  "gen": 352,
   "health": 158,
   "law": 108
  },
  "name_prefix": {
   "harbor": 600,
-  "obi": 1589,
+  "obi": 1590,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131350
+  "approx_bytes_read": 131444
  },
  "errors": [],
  "tasks": [
@@ -17718,6 +17718,20 @@
    "updated": "2026-09-29T13:48:10.954Z"
   },
   {
+   "declared_name": "obi/gen-g63-environmental-permit-audit",
+   "declared_short": "gen-g63-environmental-permit-audit",
+   "folder": "gen-g63-environmental-permit-audit-6c589b-v8-sna-oytt",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "d0f0e0f0eaea51de5340f1e408bfc429e8c727234b546ae3723f92080e31f0f4",
+   "size_bytes": 4296166,
+   "updated": "2026-09-29T15:00:27.200Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g636-data-room-update-log-compliance-audit",
@@ -19314,15 +19328,15 @@
    "updated": "2026-09-24T01:13:16.407Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g980-greenhouse-as-built-compliance-audit",
    "declared_short": "gen-g980-greenhouse-as-built-compliance-audit",
-   "folder": "gen-g980-greenhouse-as-built-compliance-audit-v3-4d7a1c-v2-sna-qcqn",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g980-greenhouse-as-built-compliance-audit-v3-4d7a1c-v2-sna-qcqn",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "10067b28033a8aa3b3fc0308c0d9f86dd68e73015e1a52fdc78776fa4cf04dd1",
    "size_bytes": 7309190,
    "updated": "2026-09-29T14:56:38.547Z"
