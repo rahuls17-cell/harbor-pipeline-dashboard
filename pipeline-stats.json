@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T21:15:03+00:00",
+ "generated_at": "2026-09-29T21:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2251,
-  "scanned": 2251,
+  "task_folders": 2252,
+  "scanned": 2252,
   "connector": 620,
-  "non_connector": 1631,
+  "non_connector": 1632,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 279
  },
  "domain": {
-  "unnamed": 1126,
+  "unnamed": 1127,
   "code": 379,
   "fin": 120,
   "gen": 355,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 622,
-  "obi": 1617,
+  "obi": 1618,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131439
  },
  "errors": [],
  "tasks": [
@@ -12113,6 +12113,20 @@
    "sha256": "a7713fb02fa5398fc5c395d87d38ff6ff2e22dee9957f851b74cd1a723f95c05",
    "size_bytes": 5224594,
    "updated": "2026-09-29T09:34:53.390Z"
+  },
+  {
+   "declared_name": "obi/edu-mg-edu-b13-a9-holiday-weekend-reply-day-check",
+   "declared_short": "edu-mg-edu-b13-a9-holiday-weekend-reply-day-check",
+   "folder": "edu-mg-edu-b13-a9-holiday-weekend-reply-day-check",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "ef4e7ce3bce3404f8a82e3e666bddd518610a39487ea8379bb9be8575d52c2b1",
+   "size_bytes": 4603627,
+   "updated": "2026-09-29T21:18:07.337Z"
   },
   {
    "connector_provenance": null,
