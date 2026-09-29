@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T04:20:03+00:00",
+ "generated_at": "2026-09-29T04:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2100,
-  "scanned": 2100,
-  "connector": 563,
+  "task_folders": 2101,
+  "scanned": 2101,
+  "connector": 564,
   "non_connector": 1537,
   "errors": 0
  },
  "connector_provenance": {
   "real": 147,
   "unknown": 171,
-  "synthetic": 245
+  "synthetic": 246
  },
  "domain": {
-  "unnamed": 1007,
+  "unnamed": 1008,
   "code": 375,
   "fin": 118,
   "gen": 339,
@@ -22,7 +22,7 @@
   "law": 105
  },
  "name_prefix": {
-  "harbor": 566,
+  "harbor": 567,
   "obi": 1522,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "email-gym": 184,
   "freshdesk-gym": 184,
   "slack": 64,
-  "linear-gym": 48,
+  "linear-gym": 49,
   "notion-gym": 46,
   "email-calendar-gym": 43,
   "outlook-gym": 40,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136014
+  "approx_bytes_read": 136138
  },
  "errors": [],
  "tasks": [
@@ -499,6 +499,22 @@
    "updated": "2026-09-21T23:18:52.047Z"
   },
   {
+   "declared_name": "harbor/the-sprint-number-that-belongs-to-two-teams",
+   "declared_short": "the-sprint-number-that-belongs-to-two-teams",
+   "folder": "ASTR_101252",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "7d393e983cb5207b0e3cd91f81aef5f546e8c909b98290f92ab2958984058a28",
+   "size_bytes": 6404462,
+   "updated": "2026-09-29T04:22:04.670Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
@@ -531,17 +547,17 @@
    "updated": "2026-09-22T04:33:50.874Z"
   },
   {
-   "declared_name": "harbor/two-of-twenty-five-from-another-board",
-   "declared_short": "two-of-twenty-five-from-another-board",
-   "folder": "ASTR_101268",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/two-of-twenty-five-from-another-board",
+   "declared_short": "two-of-twenty-five-from-another-board",
    "domain": null,
+   "folder": "ASTR_101268",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "cb574d968dd615e1095ca1ac2c3104a57b2b3b6075cdcea2e9b30c9e0926a2b2",
    "size_bytes": 5783843,
    "updated": "2026-09-29T04:18:38.600Z"
