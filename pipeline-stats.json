@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T16:30:03+00:00",
+ "generated_at": "2026-09-29T16:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2215,
-  "scanned": 2215,
+  "task_folders": 2216,
+  "scanned": 2216,
   "connector": 602,
-  "non_connector": 1613,
+  "non_connector": 1614,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 265
  },
  "domain": {
-  "unnamed": 1096,
+  "unnamed": 1097,
   "code": 379,
   "fin": 120,
   "gen": 354,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 604,
-  "obi": 1599,
+  "obi": 1600,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131471
+  "approx_bytes_read": 131867
  },
  "errors": [],
  "tasks": [
@@ -4057,6 +4057,20 @@
    "sha256": "5bafbf32e0cde8b3d234a6ff93090f0050fd6736cf43021ef4788623c5a0f95a",
    "size_bytes": 4289499,
    "updated": "2026-09-28T09:01:04.358Z"
+  },
+  {
+   "declared_name": "obi/bus-b54-b4-executive-draft-style-conformance",
+   "declared_short": "bus-b54-b4-executive-draft-style-conformance",
+   "folder": "bus-b54-b4-executive-draft-style-conformance",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "cbaaaddd93ae04292a5fdaf8ed9d1a09616f752720bb69af71e0516fc380ad95",
+   "size_bytes": 11135176,
+   "updated": "2026-09-29T16:32:17.083Z"
   },
   {
    "connector_provenance": null,
@@ -18070,15 +18084,15 @@
    "updated": "2026-09-10T02:35:39.455Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g700-data-platform-decision-signoff-audit",
    "declared_short": "gen-g700-data-platform-decision-signoff-audit",
-   "folder": "gen-g700-data-platform-decision-signoff-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g700-data-platform-decision-signoff-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c11148f9460f2412e8e0c7567e57edd1295b2b24388ca2946e0aa12f17d58132",
    "size_bytes": 4836362,
    "updated": "2026-09-29T16:25:46.035Z"
