@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T00:00:03+00:00",
+ "generated_at": "2026-09-29T00:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2071,
-  "scanned": 2071,
+  "task_folders": 2072,
+  "scanned": 2072,
   "connector": 553,
-  "non_connector": 1518,
+  "non_connector": 1519,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 238
  },
  "domain": {
-  "unnamed": 986,
+  "unnamed": 987,
   "code": 375,
   "fin": 116,
   "gen": 336,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 556,
-  "obi": 1503,
+  "obi": 1504,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 139115
+  "approx_bytes_read": 131455
  },
  "errors": [],
  "tasks": [
@@ -11525,6 +11525,20 @@
    "sha256": "cef5506704797c153fd07940404ec241951738684567cc2f48ee99e2926a2806",
    "size_bytes": 11548760,
    "updated": "2026-09-28T23:15:03.388Z"
+  },
+  {
+   "declared_name": "obi/edu-sc07-b8-admissions-rate-recompute",
+   "declared_short": "edu-sc07-b8-admissions-rate-recompute",
+   "folder": "edu-sc07-b8-admissions-rate-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "8d0c8ffaacc5628b43a94b8d00172925cbc5a88e32bce7c8d57b131829887ebb",
+   "size_bytes": 7411126,
+   "updated": "2026-09-29T00:01:13.468Z"
   },
   {
    "connector_provenance": null,
@@ -27525,17 +27539,17 @@
    "updated": "2026-09-25T23:45:28.363Z"
   },
   {
-   "declared_name": "harbor/the-all-day-bookings-that-are-not-days",
-   "declared_short": "the-all-day-bookings-that-are-not-days",
-   "folder": "the-all-day-bookings-that-are-not-days",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-all-day-bookings-that-are-not-days",
+   "declared_short": "the-all-day-bookings-that-are-not-days",
    "domain": null,
+   "folder": "the-all-day-bookings-that-are-not-days",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d2b19435f405ff3cad47ec89d0c6f0505fbac6dc3fd8a30ea8b60f1dad25d594",
    "size_bytes": 11523845,
    "updated": "2026-09-28T23:59:38.280Z"
