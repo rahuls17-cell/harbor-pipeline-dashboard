@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T14:45:03+00:00",
+ "generated_at": "2026-09-29T14:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2199,
-  "scanned": 2199,
+  "task_folders": 2200,
+  "scanned": 2200,
   "connector": 598,
-  "non_connector": 1601,
+  "non_connector": 1602,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 1085,
   "code": 379,
   "fin": 120,
-  "gen": 349,
+  "gen": 350,
   "health": 158,
   "law": 108
  },
  "name_prefix": {
   "harbor": 600,
-  "obi": 1587,
+  "obi": 1588,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 268178
  },
  "errors": [],
  "tasks": [
@@ -18838,6 +18838,20 @@
    "updated": "2026-09-28T02:54:01.104Z"
   },
   {
+   "declared_name": "obi/gen-g882-church-partner-flyer-brand-audit",
+   "declared_short": "gen-g882-church-partner-flyer-brand-audit",
+   "folder": "gen-g882-church-partner-flyer-brand-audit-v1-f897d3-v4-sna-rbje",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "37058839980e8d5d9d0a0dcbca106cbcaa4d846786af543ae3d2742187fcb577",
+   "size_bytes": 5822721,
+   "updated": "2026-09-29T14:48:38.155Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g885-embassy-conference-signage-protocol-audit",
@@ -32093,20 +32107,20 @@
    "updated": "2026-09-10T02:23:03.711Z"
   },
   {
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/waiting-on-the-reviewer",
+   "declared_short": "waiting-on-the-reviewer",
+   "folder": "waiting-on-the-reviewer",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "github-gym"
    ],
-   "declared_name": "harbor/waiting-on-the-reviewer",
-   "declared_short": "waiting-on-the-reviewer",
+   "connector_provenance": "synthetic",
    "domain": null,
-   "folder": "waiting-on-the-reviewer",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "7804735f993052aca583de09105541ac722dfda8e916f5c9c8daad2e6e0f1621",
-   "size_bytes": 8633957,
-   "updated": "2026-09-26T18:39:09.474Z"
+   "sha256": "2654434af87c7cfc7ce49ff967644541ae655cb9c9975b5f8a410c7b1388eab8",
+   "size_bytes": 9848399,
+   "updated": "2026-09-29T14:45:29.738Z"
   },
   {
    "connector_provenance": "unknown",
