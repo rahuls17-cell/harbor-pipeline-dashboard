@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T04:25:03+00:00",
+ "generated_at": "2026-09-29T04:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2101,
-  "scanned": 2101,
+  "task_folders": 2102,
+  "scanned": 2102,
   "connector": 564,
-  "non_connector": 1537,
+  "non_connector": 1538,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 1008,
-  "code": 375,
+  "code": 376,
   "fin": 118,
   "gen": 339,
   "health": 156,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 567,
-  "obi": 1522,
+  "obi": 1523,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136138
+  "approx_bytes_read": 131590
  },
  "errors": [],
  "tasks": [
@@ -499,17 +499,17 @@
    "updated": "2026-09-21T23:18:52.047Z"
   },
   {
-   "declared_name": "harbor/the-sprint-number-that-belongs-to-two-teams",
-   "declared_short": "the-sprint-number-that-belongs-to-two-teams",
-   "folder": "ASTR_101252",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-sprint-number-that-belongs-to-two-teams",
+   "declared_short": "the-sprint-number-that-belongs-to-two-teams",
    "domain": null,
+   "folder": "ASTR_101252",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7d393e983cb5207b0e3cd91f81aef5f546e8c909b98290f92ab2958984058a28",
    "size_bytes": 6404462,
    "updated": "2026-09-29T04:22:04.670Z"
@@ -7803,6 +7803,20 @@
    "sha256": "1a189f77a59f54f7755b2640b51502106be532eb79d0f84d5d1936dfe6a3b8fd",
    "size_bytes": 6209699,
    "updated": "2026-09-25T09:16:32.316Z"
+  },
+  {
+   "declared_name": "obi/code-c375-polish-review-ticket-closure-audit",
+   "declared_short": "code-c375-polish-review-ticket-closure-audit",
+   "folder": "code-c375-polish-review-ticket-closure-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "e221bd9a1145aac1578be45460bfadbb9d4d3f132f8c753b68c5e467ec9ba90c",
+   "size_bytes": 5566356,
+   "updated": "2026-09-29T04:26:49.168Z"
   },
   {
    "connector_provenance": null,
