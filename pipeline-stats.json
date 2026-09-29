@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T11:05:03+00:00",
+ "generated_at": "2026-09-29T11:10:08+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2172,
-  "scanned": 2172,
-  "connector": 592,
+  "task_folders": 2173,
+  "scanned": 2173,
+  "connector": 593,
   "non_connector": 1580,
   "errors": 0
  },
  "connector_provenance": {
   "real": 150,
   "unknown": 181,
-  "synthetic": 261
+  "synthetic": 262
  },
  "domain": {
-  "unnamed": 1064,
+  "unnamed": 1065,
   "code": 379,
   "fin": 119,
   "gen": 346,
@@ -22,7 +22,7 @@
   "law": 107
  },
  "name_prefix": {
-  "harbor": 594,
+  "harbor": 595,
   "obi": 1566,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "email-gym": 184,
   "freshdesk-gym": 184,
   "slack": 64,
-  "linear-gym": 52,
+  "linear-gym": 53,
   "email-calendar-gym": 49,
   "outlook-gym": 48,
   "notion-gym": 46,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 145893
+  "approx_bytes_read": 141047
  },
  "errors": [],
  "tasks": [
@@ -22766,6 +22766,22 @@
    "updated": "2026-09-23T22:08:00.960Z"
   },
   {
+   "declared_name": "harbor/honest-completion-figure",
+   "declared_short": "honest-completion-figure",
+   "folder": "honest-completion-figure",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "bfee2fb7466159558c6cdce95d5356858b8cb3c075f1606cf1978b22b62ab9e9",
+   "size_bytes": 7984411,
+   "updated": "2026-09-29T11:07:36.650Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "confluence-gym",
@@ -30521,17 +30537,17 @@
    "updated": "2026-09-21T15:54:33.600Z"
   },
   {
-   "declared_name": "obi/the-subdomain-rollout-that-skipped-a-tier",
-   "declared_short": "the-subdomain-rollout-that-skipped-a-tier",
-   "folder": "the-subdomain-rollout-that-skipped-a-tier",
-   "prefix": "obi",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "supabase-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "obi/the-subdomain-rollout-that-skipped-a-tier",
+   "declared_short": "the-subdomain-rollout-that-skipped-a-tier",
    "domain": null,
+   "folder": "the-subdomain-rollout-that-skipped-a-tier",
    "image": null,
+   "is_connector": true,
+   "prefix": "obi",
    "sha256": "2182c96872182eafe876b1d48cb8730b36a5637bddf151be4227c7278f7253de",
    "size_bytes": 7767156,
    "updated": "2026-09-29T11:01:51.876Z"
