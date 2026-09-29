@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T07:50:03+00:00",
+ "generated_at": "2026-09-29T07:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2133,
-  "scanned": 2133,
-  "connector": 577,
-  "non_connector": 1556,
+  "task_folders": 2136,
+  "scanned": 2136,
+  "connector": 579,
+  "non_connector": 1557,
   "errors": 0
  },
  "connector_provenance": {
   "real": 148,
   "unknown": 178,
-  "synthetic": 251
+  "synthetic": 253
  },
  "domain": {
-  "unnamed": 1033,
+  "unnamed": 1036,
   "code": 378,
   "fin": 119,
   "gen": 342,
@@ -22,8 +22,8 @@
   "law": 105
  },
  "name_prefix": {
-  "harbor": 580,
-  "obi": 1541,
+  "harbor": 582,
+  "obi": 1542,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -43,7 +43,7 @@
   "linear-gym": 50,
   "notion-gym": 46,
   "email-calendar-gym": 46,
-  "outlook-gym": 43,
+  "outlook-gym": 45,
   "gws-gym": 38,
   "github-gym": 36,
   "supabase-gym": 6,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 402675
  },
  "errors": [],
  "tasks": [
@@ -12329,6 +12329,20 @@
    "updated": "2026-09-28T19:02:34.690Z"
   },
   {
+   "declared_name": "obi/edu-sca-b38-workplace-nvc-role-play-scheduling",
+   "declared_short": "edu-sca-b38-workplace-nvc-role-play-scheduling",
+   "folder": "edu-sca-b38-workplace-nvc-role-play-scheduling-v3",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "7f21d48db53990b15ad80bbe97c45aab63614ae98cb9cdba23bbbf3a678505e7",
+   "size_bytes": 9242874,
+   "updated": "2026-09-29T07:53:49.755Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-sch-a2-l1-l2-concept-attribution-audit",
@@ -14440,6 +14454,22 @@
    "sha256": "e9bf5dc9e31aea6ee9c3b95bb2f60162d00ae54c222aa61350dd9a463a707779",
    "size_bytes": 7535799,
    "updated": "2026-09-27T12:54:27.170Z"
+  },
+  {
+   "declared_name": "harbor/four-thousand-nine-hundred-and-twelve-ways-out",
+   "declared_short": "four-thousand-nine-hundred-and-twelve-ways-out",
+   "folder": "four-thousand-nine-hundred-and-twelve-ways-out-v7-20260929",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2e789840bcb5922b8cdf9e911ed8965a02f7ad8ee9c48660804882838b33a552",
+   "size_bytes": 74978509,
+   "updated": "2026-09-29T07:52:34.951Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -30375,6 +30405,22 @@
    "sha256": "0d84ab1de2069ee57bf733e31618a494904a7999a25489454caa1e7259fd3277",
    "size_bytes": 7030775,
    "updated": "2026-09-22T21:19:07.043Z"
+  },
+  {
+   "declared_name": "harbor/three-unopened-threads-that-moved-on",
+   "declared_short": "three-unopened-threads-that-moved-on",
+   "folder": "three-unopened-threads-that-moved-on",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "1227a75b788f486f7d5bcd53ee36de7864dc9c7b3eeca21ace7e90557759a850",
+   "size_bytes": 116099648,
+   "updated": "2026-09-29T07:53:42.620Z"
   },
   {
    "connector_provenance": "unknown",
