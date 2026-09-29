@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T09:50:04+00:00",
+ "generated_at": "2026-09-29T09:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2155,
-  "scanned": 2155,
-  "connector": 586,
-  "non_connector": 1569,
+  "task_folders": 2157,
+  "scanned": 2157,
+  "connector": 587,
+  "non_connector": 1570,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 149,
+  "real": 150,
   "unknown": 179,
   "synthetic": 258
  },
  "domain": {
-  "unnamed": 1052,
+  "unnamed": 1054,
   "code": 378,
   "fin": 119,
   "gen": 343,
@@ -22,8 +22,8 @@
   "law": 106
  },
  "name_prefix": {
-  "harbor": 589,
-  "obi": 1554,
+  "harbor": 590,
+  "obi": 1555,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 184,
   "slack": 64,
   "linear-gym": 52,
-  "email-calendar-gym": 47,
+  "email-calendar-gym": 48,
   "outlook-gym": 47,
   "notion-gym": 46,
   "gws-gym": 39,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135027
+  "new_archives_read": 2,
+  "approx_bytes_read": 270054
  },
  "errors": [],
  "tasks": [
@@ -12135,6 +12135,20 @@
    "updated": "2026-09-25T23:54:12.383Z"
   },
   {
+   "declared_name": "obi/edu-sc09-a8-vti-task-000242",
+   "declared_short": "edu-sc09-a8-vti-task-000242",
+   "folder": "edu-sc09-a8-vti-task-000242",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "873a16ab0d52295b80256aeeebb456c4f695621ab1e5fde2d00deaebd30333d7",
+   "size_bytes": 4870815,
+   "updated": "2026-09-29T09:54:36.227Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-sc09-a9-test-calendar",
@@ -12599,17 +12613,17 @@
    "updated": "2026-09-09T09:20:38.761Z"
   },
   {
-   "declared_name": "harbor/eighteen-bare-addresses-five-names",
-   "declared_short": "eighteen-bare-addresses-five-names",
-   "folder": "eighteen-bare-addresses-five-names",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/eighteen-bare-addresses-five-names",
+   "declared_short": "eighteen-bare-addresses-five-names",
    "domain": null,
+   "folder": "eighteen-bare-addresses-five-names",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "fd708a9cd150ae2e8f4601dec8549384a55294060db645789ee7b5b6b1c81db6",
    "size_bytes": 324478207,
    "updated": "2026-09-29T09:46:29.338Z"
@@ -30269,6 +30283,22 @@
    "sha256": "ef012e9f248a060dc7647084f0a2422c551d0c2522e183e9451fc1f5162ef903",
    "size_bytes": 11531267,
    "updated": "2026-09-27T06:38:15.902Z"
+  },
+  {
+   "declared_name": "harbor/the-standup-that-cloned-itself",
+   "declared_short": "the-standup-that-cloned-itself",
+   "folder": "the-standup-that-cloned-itself",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "470a0b2b8a0cd79954f1753291d0394ee08468a4fcad6505399361fc8d4c8837",
+   "size_bytes": 25074510,
+   "updated": "2026-09-29T09:51:45.632Z"
   },
   {
    "connector_provenance": "synthetic",
