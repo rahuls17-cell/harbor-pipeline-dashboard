@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T19:55:03+00:00",
+ "generated_at": "2026-09-29T20:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2244,
-  "scanned": 2244,
-  "connector": 618,
-  "non_connector": 1626,
+  "task_folders": 2246,
+  "scanned": 2246,
+  "connector": 619,
+  "non_connector": 1627,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 152,
+  "real": 153,
   "unknown": 188,
   "synthetic": 278
  },
  "domain": {
-  "unnamed": 1119,
+  "unnamed": 1121,
   "code": 379,
   "fin": 120,
   "gen": 355,
@@ -22,8 +22,8 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 620,
-  "obi": 1612,
+  "harbor": 621,
+  "obi": 1613,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 185,
   "slack": 65,
   "linear-gym": 56,
-  "email-calendar-gym": 52,
+  "email-calendar-gym": 53,
   "outlook-gym": 52,
   "notion-gym": 48,
   "gws-gym": 44,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 268406
  },
  "errors": [],
  "tasks": [
@@ -4239,6 +4239,20 @@
    "sha256": "879da49ee87c1eee51e41036d96be1565fe07e1428b7c29d6905b1665966d867",
    "size_bytes": 11481355,
    "updated": "2026-09-28T09:26:55.376Z"
+  },
+  {
+   "declared_name": "obi/bus-b55-b1-predevelopment-fee-rollup",
+   "declared_short": "bus-b55-b1-predevelopment-fee-rollup",
+   "folder": "bus-b55-b1-predevelopment-fee-rollup",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "d42e0e2add12080948f49b0f14c6946ccb10a25aee18d23ad1d53bf032eacad7",
+   "size_bytes": 4599426,
+   "updated": "2026-09-29T19:55:55.547Z"
   },
   {
    "connector_provenance": null,
@@ -29843,6 +29857,22 @@
    "sha256": "158d761d047cdb8ee45536834757e55ee111b577f141a27233fadd625afd10d6",
    "size_bytes": 8804763,
    "updated": "2026-09-26T22:20:31.213Z"
+  },
+  {
+   "declared_name": "harbor/the-completeness-review",
+   "declared_short": "the-completeness-review",
+   "folder": "the-completeness-review",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "fede308f6479198eccf6b9c94f337d2e75c89548aba65988b62a489c8cbdf370",
+   "size_bytes": 26036874,
+   "updated": "2026-09-29T19:59:53.216Z"
   },
   {
    "connector_provenance": "synthetic",
