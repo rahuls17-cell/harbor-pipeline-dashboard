@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T00:05:03+00:00",
+ "generated_at": "2026-09-29T00:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2072,
-  "scanned": 2072,
-  "connector": 553,
+  "task_folders": 2073,
+  "scanned": 2073,
+  "connector": 554,
   "non_connector": 1519,
   "errors": 0
  },
  "connector_provenance": {
   "real": 146,
   "unknown": 169,
-  "synthetic": 238
+  "synthetic": 239
  },
  "domain": {
-  "unnamed": 987,
+  "unnamed": 988,
   "code": 375,
   "fin": 116,
   "gen": 336,
@@ -22,7 +22,7 @@
   "law": 104
  },
  "name_prefix": {
-  "harbor": 556,
+  "harbor": 557,
   "obi": 1504,
   "bus": 1,
   "edu": 3,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 183,
   "slack": 64,
   "notion-gym": 46,
-  "linear-gym": 42,
+  "linear-gym": 43,
   "email-calendar-gym": 42,
   "outlook-gym": 40,
   "gws-gym": 37,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131455
+  "approx_bytes_read": 136036
  },
  "errors": [],
  "tasks": [
@@ -401,6 +401,22 @@
    "sha256": "6acd96b54763d26816f5ddd2a5396eb05b16a2e1d0ed3bb0877197308aa34b94",
    "size_bytes": 6769938,
    "updated": "2026-09-28T22:45:57.219Z"
+  },
+  {
+   "declared_name": "harbor/one-link-in-one-link-out",
+   "declared_short": "one-link-in-one-link-out",
+   "folder": "ASTR_101222",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d4a663fcc5e96a12bfe549c6c2e4e0683e3d6fdd1886b788458b59b3d8917798",
+   "size_bytes": 5976854,
+   "updated": "2026-09-29T00:05:56.179Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -11527,15 +11543,15 @@
    "updated": "2026-09-28T23:15:03.388Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sc07-b8-admissions-rate-recompute",
    "declared_short": "edu-sc07-b8-admissions-rate-recompute",
-   "folder": "edu-sc07-b8-admissions-rate-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sc07-b8-admissions-rate-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8d0c8ffaacc5628b43a94b8d00172925cbc5a88e32bce7c8d57b131829887ebb",
    "size_bytes": 7411126,
    "updated": "2026-09-29T00:01:13.468Z"
