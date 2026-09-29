@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T05:50:05+00:00",
+ "generated_at": "2026-09-29T05:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2117,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 275237
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -28313,17 +28313,17 @@
    "updated": "2026-09-28T22:57:18.137Z"
   },
   {
-   "declared_name": "harbor/the-card-that-came-last",
-   "declared_short": "the-card-that-came-last",
-   "folder": "the-card-that-came-last",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-card-that-came-last",
+   "declared_short": "the-card-that-came-last",
    "domain": null,
+   "folder": "the-card-that-came-last",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a7e8b4dc0605e4472dcd0e60dcdb8fec3e04c365899e34373317e7246c9841b1",
    "size_bytes": 8317748,
    "updated": "2026-09-29T05:48:38.454Z"
@@ -28793,17 +28793,17 @@
    "updated": "2026-09-28T17:10:52.738Z"
   },
   {
-   "declared_name": "harbor/the-invites-with-gaps",
-   "declared_short": "the-invites-with-gaps",
-   "folder": "the-invites-with-gaps",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-invites-with-gaps",
+   "declared_short": "the-invites-with-gaps",
    "domain": null,
+   "folder": "the-invites-with-gaps",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5819d8cf9c6920b87fd0e73eab781cdbead7d19831934ad604d9e6a3a55a3332",
    "size_bytes": 20470904,
    "updated": "2026-09-29T05:46:17.635Z"
