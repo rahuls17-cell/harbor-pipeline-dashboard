@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T21:25:03+00:00",
+ "generated_at": "2026-09-29T21:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2253,
-  "scanned": 2253,
+  "task_folders": 2254,
+  "scanned": 2254,
   "connector": 620,
-  "non_connector": 1633,
+  "non_connector": 1634,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 279
  },
  "domain": {
-  "unnamed": 1128,
+  "unnamed": 1129,
   "code": 379,
   "fin": 120,
   "gen": 355,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 622,
-  "obi": 1619,
+  "obi": 1620,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131512
+  "approx_bytes_read": 131459
  },
  "errors": [],
  "tasks": [
@@ -2981,15 +2981,15 @@
    "updated": "2026-09-27T01:27:57.064Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b44-b10-cod-shipping-method-config-audit",
    "declared_short": "bus-b44-b10-cod-shipping-method-config-audit",
-   "folder": "bus-b44-b10-cod-shipping-method-config-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b44-b10-cod-shipping-method-config-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4030734803f5b9946850eee3ce8ec490aa12b20a647e8f64b358294995867629",
    "size_bytes": 7700156,
    "updated": "2026-09-29T21:24:23.448Z"
@@ -4561,6 +4561,20 @@
    "sha256": "5af99349c28f633daea56e271e54f1cc4155f990d48a91c287bf5864d9ef6937",
    "size_bytes": 5095488,
    "updated": "2026-09-29T11:14:28.256Z"
+  },
+  {
+   "declared_name": "obi/bus-b58-t9-competitor-required-list-coverage",
+   "declared_short": "bus-b58-t9-competitor-required-list-coverage",
+   "folder": "bus-b58-t9-competitor-required-list-coverage",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "9f109bdf473296d0b41ce9be78ca20fd751b44051589c5197add10e5f0a49ed3",
+   "size_bytes": 4844005,
+   "updated": "2026-09-29T21:25:21.062Z"
   },
   {
    "connector_provenance": null,
