@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T02:55:03+00:00",
+ "generated_at": "2026-09-29T03:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2091,
-  "scanned": 2091,
-  "connector": 559,
+  "task_folders": 2092,
+  "scanned": 2092,
+  "connector": 560,
   "non_connector": 1532,
   "errors": 0
  },
  "connector_provenance": {
   "real": 147,
   "unknown": 170,
-  "synthetic": 242
+  "synthetic": 243
  },
  "domain": {
-  "unnamed": 1000,
+  "unnamed": 1001,
   "code": 375,
   "fin": 117,
   "gen": 339,
@@ -22,7 +22,7 @@
   "law": 105
  },
  "name_prefix": {
-  "harbor": 562,
+  "harbor": 563,
   "obi": 1517,
   "bus": 1,
   "edu": 3,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 184,
   "slack": 64,
   "notion-gym": 46,
-  "linear-gym": 45,
+  "linear-gym": 46,
   "email-calendar-gym": 42,
   "outlook-gym": 40,
   "gws-gym": 37,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262865
+  "new_archives_read": 1,
+  "approx_bytes_read": 135729
  },
  "errors": [],
  "tasks": [
@@ -449,6 +449,22 @@
    "sha256": "b0db68271e1492628117b01e342b906394b4d5e5d460535ba023bfc1714f132c",
    "size_bytes": 5632044,
    "updated": "2026-09-29T01:26:49.149Z"
+  },
+  {
+   "declared_name": "harbor/sixteen-of-eighteen-already-archived",
+   "declared_short": "sixteen-of-eighteen-already-archived",
+   "folder": "ASTR_101229",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "0451ff7413e6d7c941dcd900531976c88eaacbd9f65ea7f7a49927e606bd6782",
+   "size_bytes": 6243452,
+   "updated": "2026-09-29T02:57:36.074Z"
   },
   {
    "connector_provenance": "unknown",
@@ -21734,15 +21750,15 @@
    "updated": "2026-09-21T15:35:13.926Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt8-a1-if-run-background-attribution",
    "declared_short": "health-tdt8-a1-if-run-background-attribution",
-   "folder": "health-tdt8-a1-if-run-background-attribution",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt8-a1-if-run-background-attribution",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7322765e3c91f0de2b3e12ed7116a01d278d196f746a051662bc5f3c6a135ca9",
    "size_bytes": 4529754,
    "updated": "2026-09-29T02:55:00.902Z"
@@ -23348,15 +23364,15 @@
    "updated": "2026-09-22T07:49:29.479Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b48-l1-tsca-import-conformance-declaration",
    "declared_short": "law-b48-l1-tsca-import-conformance-declaration",
-   "folder": "law-b48-l1-tsca-import-conformance-declaration",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b48-l1-tsca-import-conformance-declaration",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b8b91bff3547f8ca8fc3880f4e728aef03493dee5bfacb6d8dc618f3cf5777bf",
    "size_bytes": 3873289,
    "updated": "2026-09-29T02:51:50.535Z"
