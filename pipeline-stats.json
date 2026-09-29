@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T09:25:04+00:00",
+ "generated_at": "2026-09-29T09:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2149,
-  "scanned": 2149,
-  "connector": 582,
+  "task_folders": 2151,
+  "scanned": 2151,
+  "connector": 584,
   "non_connector": 1567,
   "errors": 0
  },
  "connector_provenance": {
   "real": 149,
-  "unknown": 178,
-  "synthetic": 255
+  "unknown": 179,
+  "synthetic": 256
  },
  "domain": {
-  "unnamed": 1047,
+  "unnamed": 1049,
   "code": 378,
   "fin": 119,
   "gen": 342,
@@ -22,7 +22,7 @@
   "law": 106
  },
  "name_prefix": {
-  "harbor": 585,
+  "harbor": 587,
   "obi": 1552,
   "bus": 1,
   "edu": 3,
@@ -41,9 +41,9 @@
   "freshdesk-gym": 184,
   "slack": 64,
   "linear-gym": 51,
+  "email-calendar-gym": 47,
   "notion-gym": 46,
-  "email-calendar-gym": 46,
-  "outlook-gym": 45,
+  "outlook-gym": 46,
   "gws-gym": 39,
   "github-gym": 36,
   "supabase-gym": 6,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 263007
+  "approx_bytes_read": 279009
  },
  "errors": [],
  "tasks": [
@@ -4235,29 +4235,29 @@
    "updated": "2026-09-28T12:14:47.120Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b59-t5-download-link-availability",
    "declared_short": "bus-b59-t5-download-link-availability",
-   "folder": "bus-b59-t5-download-link-availability",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b59-t5-download-link-availability",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "03f4891dc6de45b50220e20568baa168fc2847ecc4e655bb52d4d310340c634c",
    "size_bytes": 4699717,
    "updated": "2026-09-29T09:24:38.175Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b59-t7-parent-quote-verbatim-check",
    "declared_short": "bus-b59-t7-parent-quote-verbatim-check",
-   "folder": "bus-b59-t7-parent-quote-verbatim-check",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b59-t7-parent-quote-verbatim-check",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b302937926a08ce5cf8d8f9700c301013811dce2b3f9415a6a4359ad983c94aa",
    "size_bytes": 5044508,
    "updated": "2026-09-29T09:21:40.023Z"
@@ -14538,6 +14538,22 @@
    "sha256": "2235603faf2aa6310d84abf45ceb4b09144c9bc0ab1074607e1e80907272457f",
    "size_bytes": 6425046,
    "updated": "2026-09-26T14:36:37.130Z"
+  },
+  {
+   "declared_name": "harbor/four-stale-conversations-that-moved-on",
+   "declared_short": "four-stale-conversations-that-moved-on",
+   "folder": "four-stale-conversations-that-moved-on",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "72da6ab5729dd5a53ecafe951fc322908e5479ca5d88e1892fef2626107c5a8e",
+   "size_bytes": 169123367,
+   "updated": "2026-09-29T09:26:51.440Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -29649,6 +29665,22 @@
    "sha256": "131c45530a37e4738b1e1692525895db7645f400a52d3a47678536d0014b3c72",
    "size_bytes": 7369132,
    "updated": "2026-09-23T08:27:48.834Z"
+  },
+  {
+   "declared_name": "harbor/the-places-my-diary-would-not-hand-over",
+   "declared_short": "the-places-my-diary-would-not-hand-over",
+   "folder": "the-places-my-diary-would-not-hand-over",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "62d768e18622a50665a1a01b045367d3268363910816b28ba2d63cfc1023c31b",
+   "size_bytes": 7631198,
+   "updated": "2026-09-29T09:27:56.378Z"
   },
   {
    "connector_provenance": "real",
