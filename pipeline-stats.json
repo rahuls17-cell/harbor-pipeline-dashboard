@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T04:40:03+00:00",
+ "generated_at": "2026-09-29T04:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2102,
-  "scanned": 2102,
+  "task_folders": 2104,
+  "scanned": 2104,
   "connector": 564,
-  "non_connector": 1538,
+  "non_connector": 1540,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 246
  },
  "domain": {
-  "unnamed": 1008,
+  "unnamed": 1009,
   "code": 376,
   "fin": 118,
-  "gen": 339,
+  "gen": 340,
   "health": 156,
   "law": 105
  },
  "name_prefix": {
   "harbor": 567,
-  "obi": 1523,
+  "obi": 1525,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132560
+  "new_archives_read": 2,
+  "approx_bytes_read": 263036
  },
  "errors": [],
  "tasks": [
@@ -2699,6 +2699,20 @@
    "sha256": "998eb17de7e2e51a921a5feff88133ae66f0aa6a40469188e5c287dc84849993",
    "size_bytes": 7548508,
    "updated": "2026-09-26T12:38:56.736Z"
+  },
+  {
+   "declared_name": "obi/bus-b43-b2-risk-policy-rebrand-change-log",
+   "declared_short": "bus-b43-b2-risk-policy-rebrand-change-log",
+   "folder": "bus-b43-b2-risk-policy-rebrand-change-log",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "8b5ebf58f89f2dc66ff8abe6e0fe8904ff919c2db6df45770c18e80630b3bccc",
+   "size_bytes": 7867351,
+   "updated": "2026-09-29T04:41:54.832Z"
   },
   {
    "connector_provenance": null,
@@ -14534,6 +14548,20 @@
    "sha256": "37a828ca9e7e78671a879a4c871d37d71afc63d13d2416f6c6e2771e11b1f9c8",
    "size_bytes": 6337169,
    "updated": "2026-09-28T17:02:50.750Z"
+  },
+  {
+   "declared_name": "obi/gen-g1137-closing-entries-reconciliation-audit",
+   "declared_short": "gen-g1137-closing-entries-reconciliation-audit",
+   "folder": "gen-g1137-closing-entries-reconciliation-audit-D-37080f-v6-sna-bhgz",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "347e7f20bbc636fc8bfc9c73feeaaf1150c4dcce17226520d088424bf8adb053",
+   "size_bytes": 6648310,
+   "updated": "2026-09-29T04:44:35.927Z"
   },
   {
    "connector_provenance": null,
@@ -31183,17 +31211,17 @@
    "updated": "2026-09-23T07:05:53.234Z"
   },
   {
-   "declared_name": "harbor/who-is-actually-in-the-room",
-   "declared_short": "who-is-actually-in-the-room",
-   "folder": "who-is-actually-in-the-room",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/who-is-actually-in-the-room",
+   "declared_short": "who-is-actually-in-the-room",
    "domain": null,
+   "folder": "who-is-actually-in-the-room",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "79fa3cbd9095f3dce2a9b4d276145e96ef6809f87d5f9c5a859f4f27dd0adb17",
    "size_bytes": 12209279,
    "updated": "2026-09-29T04:36:18.368Z"
