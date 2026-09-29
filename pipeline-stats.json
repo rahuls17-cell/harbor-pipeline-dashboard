@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T21:05:03+00:00",
+ "generated_at": "2026-09-29T21:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2250,
-  "scanned": 2250,
+  "task_folders": 2251,
+  "scanned": 2251,
   "connector": 620,
-  "non_connector": 1630,
+  "non_connector": 1631,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 279
  },
  "domain": {
-  "unnamed": 1125,
+  "unnamed": 1126,
   "code": 379,
   "fin": 120,
   "gen": 355,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 622,
-  "obi": 1616,
+  "obi": 1617,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131527
  },
  "errors": [],
  "tasks": [
@@ -4295,6 +4295,20 @@
    "sha256": "febac03f4653b8e8e5293dd9bf073c9b3e1a2302352b69acd2617f8422868928",
    "size_bytes": 7280415,
    "updated": "2026-09-29T01:10:13.427Z"
+  },
+  {
+   "declared_name": "obi/bus-b55-b6-escalation-index-coverage-audit",
+   "declared_short": "bus-b55-b6-escalation-index-coverage-audit",
+   "folder": "bus-b55-b6-escalation-index-coverage-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "7e36dfe3707f86d94da4af14f62534aefd5586ac093c8ba97d0341d4e5182939",
+   "size_bytes": 7085815,
+   "updated": "2026-09-29T21:09:49.512Z"
   },
   {
    "connector_provenance": null,
