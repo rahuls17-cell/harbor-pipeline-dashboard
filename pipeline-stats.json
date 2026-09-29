@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T22:10:03+00:00",
+ "generated_at": "2026-09-29T22:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2259,
-  "scanned": 2259,
-  "connector": 622,
+  "task_folders": 2260,
+  "scanned": 2260,
+  "connector": 623,
   "non_connector": 1637,
   "errors": 0
  },
  "connector_provenance": {
   "real": 153,
-  "unknown": 188,
+  "unknown": 189,
   "synthetic": 281
  },
  "domain": {
-  "unnamed": 1131,
+  "unnamed": 1132,
   "code": 379,
   "fin": 120,
   "gen": 358,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 624,
+  "harbor": 625,
   "obi": 1623,
   "bus": 1,
   "edu": 3,
@@ -44,7 +44,7 @@
   "outlook-gym": 54,
   "email-calendar-gym": 53,
   "notion-gym": 48,
-  "gws-gym": 44,
+  "gws-gym": 45,
   "github-gym": 38,
   "supabase-gym": 7,
   "teams-gym": 6,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131451
+  "approx_bytes_read": 132814
  },
  "errors": [],
  "tasks": [
@@ -19112,15 +19112,15 @@
    "updated": "2026-09-22T09:07:41.731Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g834-newsletter-prepress-qc-audit",
    "declared_short": "gen-g834-newsletter-prepress-qc-audit",
-   "folder": "gen-g834-newsletter-prepress-qc-audit-7e475e-v5-sna-ifuv",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g834-newsletter-prepress-qc-audit-7e475e-v5-sna-ifuv",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6ff470e8d587ac13de313c80628aaa5f70c76f6a3134dc079fb3fefe10196b03",
    "size_bytes": 4065255,
    "updated": "2026-09-29T22:09:29.892Z"
@@ -34031,6 +34031,22 @@
    "sha256": "21f92de73ec820818ee5b12ea5827dfa550734980d593ddf0c371992d567d81b",
    "size_bytes": 7445073,
    "updated": "2026-09-20T16:24:53.457Z"
+  },
+  {
+   "declared_name": "harbor/year-end-lab-statement-sweep",
+   "declared_short": "year-end-lab-statement-sweep",
+   "folder": "year-end-lab-statement-sweep",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "f9729bf4721a0411151713ba98f8c536dbf42ad998ade25e23b65e938d0211e2",
+   "size_bytes": 10146630,
+   "updated": "2026-09-29T22:10:30.769Z"
   },
   {
    "connector_provenance": "unknown",
