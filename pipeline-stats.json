@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T17:35:03+00:00",
+ "generated_at": "2026-09-29T17:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2233,
-  "scanned": 2233,
-  "connector": 612,
+  "task_folders": 2234,
+  "scanned": 2234,
+  "connector": 613,
   "non_connector": 1621,
   "errors": 0
  },
  "connector_provenance": {
   "real": 152,
   "unknown": 187,
-  "synthetic": 273
+  "synthetic": 274
  },
  "domain": {
-  "unnamed": 1112,
+  "unnamed": 1113,
   "code": 379,
   "fin": 120,
   "gen": 354,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 614,
+  "harbor": 615,
   "obi": 1607,
   "bus": 1,
   "edu": 3,
@@ -44,7 +44,7 @@
   "email-calendar-gym": 52,
   "outlook-gym": 51,
   "notion-gym": 47,
-  "gws-gym": 43,
+  "gws-gym": 44,
   "github-gym": 37,
   "supabase-gym": 7,
   "teams-gym": 6,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131443
+  "approx_bytes_read": 134878
  },
  "errors": [],
  "tasks": [
@@ -615,6 +615,22 @@
    "sha256": "6754a86ae2b1a69e6ab40b79872955361db8658ccd82886896f77e36d9f3b576",
    "size_bytes": 10673563,
    "updated": "2026-09-29T10:57:59.589Z"
+  },
+  {
+   "declared_name": "harbor/the-folders-that-hold-a-bit-of-everything",
+   "declared_short": "the-folders-that-hold-a-bit-of-everything",
+   "folder": "ASTR_101364",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "226c854addbefff20d228cfa5f488559b414ec28b9e2bd2abfd5ee91dcf53394",
+   "size_bytes": 15714113,
+   "updated": "2026-09-29T17:39:57.269Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -26574,15 +26590,15 @@
    "updated": "2026-09-26T11:19:55.699Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/sci-sc09-a2-chart-register",
    "declared_short": "sci-sc09-a2-chart-register",
-   "folder": "sci-sc09-a2-chart-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "sci-sc09-a2-chart-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "25df9fb0b02232438ad9aff6341de9ebe0e5be22d763d7e4bb86f9bcd816c5f6",
    "size_bytes": 5518541,
    "updated": "2026-09-29T17:32:55.192Z"
