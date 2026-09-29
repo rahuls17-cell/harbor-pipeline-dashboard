@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T06:15:05+00:00",
+ "generated_at": "2026-09-29T06:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2119,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135813
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -31291,17 +31291,17 @@
    "updated": "2026-09-28T19:51:03.056Z"
   },
   {
-   "declared_name": "harbor/which-lead-lists-hold-real-numbers",
-   "declared_short": "which-lead-lists-hold-real-numbers",
-   "folder": "which-lead-lists-hold-real-numbers",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/which-lead-lists-hold-real-numbers",
+   "declared_short": "which-lead-lists-hold-real-numbers",
    "domain": null,
+   "folder": "which-lead-lists-hold-real-numbers",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "65385678795639b35615bcf7accb4abb0dab6ef12b953e405af44ad42a972237",
    "size_bytes": 12589377,
    "updated": "2026-09-29T06:12:28.275Z"
