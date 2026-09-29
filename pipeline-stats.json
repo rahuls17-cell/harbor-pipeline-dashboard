@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T18:40:02+00:00",
+ "generated_at": "2026-09-29T18:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2239,
-  "scanned": 2239,
-  "connector": 614,
+  "task_folders": 2241,
+  "scanned": 2241,
+  "connector": 616,
   "non_connector": 1625,
   "errors": 0
  },
  "connector_provenance": {
   "real": 152,
   "unknown": 188,
-  "synthetic": 274
+  "synthetic": 276
  },
  "domain": {
-  "unnamed": 1115,
+  "unnamed": 1117,
   "code": 379,
   "fin": 120,
   "gen": 354,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 616,
+  "harbor": 618,
   "obi": 1611,
   "bus": 1,
   "edu": 3,
@@ -43,9 +43,9 @@
   "linear-gym": 56,
   "email-calendar-gym": 52,
   "outlook-gym": 51,
-  "notion-gym": 47,
+  "notion-gym": 48,
   "gws-gym": 44,
-  "github-gym": 37,
+  "github-gym": 38,
   "supabase-gym": 7,
   "teams-gym": 6,
   "microsoft-teams-gym": 5,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 275284
  },
  "errors": [],
  "tasks": [
@@ -29639,6 +29639,22 @@
    "updated": "2026-09-23T07:34:55.792Z"
   },
   {
+   "declared_name": "harbor/the-body-said-otherwise",
+   "declared_short": "the-body-said-otherwise",
+   "folder": "the-body-said-otherwise",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "cd753bd6149c87d204e7b086d32d9c09ed4f2246b24c212c780f0a12053aedcf",
+   "size_bytes": 5341432,
+   "updated": "2026-09-29T18:43:41.381Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
@@ -31621,6 +31637,22 @@
    "sha256": "2a752a134752991e319155bf781a0c637c10a6d2bfe9de78b673bfc2ccadfb56",
    "size_bytes": 7203191,
    "updated": "2026-09-21T12:40:34.257Z"
+  },
+  {
+   "declared_name": "harbor/the-vendor-notes-nobody-read",
+   "declared_short": "the-vendor-notes-nobody-read",
+   "folder": "the-vendor-notes-nobody-read",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2f20ed8e8cc59ce1e4639a9d9d72882be695b707ae3c5e1f3731182033ede06b",
+   "size_bytes": 7831954,
+   "updated": "2026-09-29T18:42:08.651Z"
   },
   {
    "connector_provenance": "unknown",
