@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T20:40:03+00:00",
+ "generated_at": "2026-09-29T20:45:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2250,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135712
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -13357,17 +13357,17 @@
    "updated": "2026-09-10T14:24:31.771Z"
   },
   {
-   "declared_name": "harbor/feeds-nobody-wired",
-   "declared_short": "feeds-nobody-wired",
-   "folder": "feeds-nobody-wired",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/feeds-nobody-wired",
+   "declared_short": "feeds-nobody-wired",
    "domain": null,
+   "folder": "feeds-nobody-wired",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1a1d0c3d2ea8964b7ebde29383cbbfbfe1176f0967e6f3612a6ed3197c5d7576",
    "size_bytes": 10466044,
    "updated": "2026-09-29T20:36:16.742Z"
