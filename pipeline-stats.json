@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T09:05:03+00:00",
+ "generated_at": "2026-09-29T09:25:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2147,
-  "scanned": 2147,
+  "task_folders": 2149,
+  "scanned": 2149,
   "connector": 582,
-  "non_connector": 1565,
+  "non_connector": 1567,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 255
  },
  "domain": {
-  "unnamed": 1045,
+  "unnamed": 1047,
   "code": 378,
   "fin": 119,
   "gen": 342,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 585,
-  "obi": 1550,
+  "obi": 1552,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 263007
  },
  "errors": [],
  "tasks": [
@@ -4233,6 +4233,34 @@
    "sha256": "ed23aa20f26a3eb4d855c5bf7be160e19db2ebdb91c2461e63b32e8c9ccba769",
    "size_bytes": 4558884,
    "updated": "2026-09-28T12:14:47.120Z"
+  },
+  {
+   "declared_name": "obi/bus-b59-t5-download-link-availability",
+   "declared_short": "bus-b59-t5-download-link-availability",
+   "folder": "bus-b59-t5-download-link-availability",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "03f4891dc6de45b50220e20568baa168fc2847ecc4e655bb52d4d310340c634c",
+   "size_bytes": 4699717,
+   "updated": "2026-09-29T09:24:38.175Z"
+  },
+  {
+   "declared_name": "obi/bus-b59-t7-parent-quote-verbatim-check",
+   "declared_short": "bus-b59-t7-parent-quote-verbatim-check",
+   "folder": "bus-b59-t7-parent-quote-verbatim-check",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "b302937926a08ce5cf8d8f9700c301013811dce2b3f9415a6a4359ad983c94aa",
+   "size_bytes": 5044508,
+   "updated": "2026-09-29T09:21:40.023Z"
   },
   {
    "connector_provenance": null,
