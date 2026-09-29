@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T10:55:03+00:00",
+ "generated_at": "2026-09-29T11:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2170,
-  "scanned": 2170,
-  "connector": 590,
+  "task_folders": 2171,
+  "scanned": 2171,
+  "connector": 591,
   "non_connector": 1580,
   "errors": 0
  },
  "connector_provenance": {
   "real": 150,
   "unknown": 181,
-  "synthetic": 259
+  "synthetic": 260
  },
  "domain": {
-  "unnamed": 1062,
+  "unnamed": 1063,
   "code": 379,
   "fin": 119,
   "gen": 346,
@@ -22,7 +22,7 @@
   "law": 107
  },
  "name_prefix": {
-  "harbor": 593,
+  "harbor": 594,
   "obi": 1565,
   "bus": 1,
   "edu": 3,
@@ -44,7 +44,7 @@
   "email-calendar-gym": 49,
   "outlook-gym": 48,
   "notion-gym": 46,
-  "gws-gym": 39,
+  "gws-gym": 40,
   "github-gym": 36,
   "supabase-gym": 6,
   "teams-gym": 5,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131521
+  "approx_bytes_read": 134693
  },
  "errors": [],
  "tasks": [
@@ -561,6 +561,22 @@
    "sha256": "cb574d968dd615e1095ca1ac2c3104a57b2b3b6075cdcea2e9b30c9e0926a2b2",
    "size_bytes": 5783843,
    "updated": "2026-09-29T04:18:38.600Z"
+  },
+  {
+   "declared_name": "harbor/the-files-marked-shared-that-nobody-else-can-open",
+   "declared_short": "the-files-marked-shared-that-nobody-else-can-open",
+   "folder": "ASTR_101358",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "6754a86ae2b1a69e6ab40b79872955361db8658ccd82886896f77e36d9f3b576",
+   "size_bytes": 10673563,
+   "updated": "2026-09-29T10:57:59.589Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -20462,15 +20478,15 @@
    "updated": "2026-09-10T04:15:40.938Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g708-sensor-bom-mounting-compliance-audit",
    "declared_short": "gen-g708-sensor-bom-mounting-compliance-audit",
-   "folder": "harbor-single-task-z1l7s4cn",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "harbor-single-task-z1l7s4cn",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "688919c4d04422f0de9f4dc0158eccff87eae3ad6f7b17450b335b8b7392759d",
    "size_bytes": 11947600,
    "updated": "2026-09-29T10:52:01.847Z"
