@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T07:40:04+00:00",
+ "generated_at": "2026-09-29T07:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2132,
-  "scanned": 2132,
+  "task_folders": 2133,
+  "scanned": 2133,
   "connector": 577,
-  "non_connector": 1555,
+  "non_connector": 1556,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 1033,
   "code": 378,
-  "fin": 118,
+  "fin": 119,
   "gen": 342,
   "health": 156,
   "law": 105
  },
  "name_prefix": {
   "harbor": 580,
-  "obi": 1540,
+  "obi": 1541,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131448
  },
  "errors": [],
  "tasks": [
@@ -13588,6 +13588,20 @@
    "sha256": "5373ca73132461c6dfd6c6e9cd732c3b737cd77bec94a36816c949d9715174f6",
    "size_bytes": 6832969,
    "updated": "2026-09-25T13:57:24.905Z"
+  },
+  {
+   "declared_name": "obi/fin-b49-f5-holdco-asset-thesis-review",
+   "declared_short": "fin-b49-f5-holdco-asset-thesis-review",
+   "folder": "fin-b49-f5-holdco-asset-thesis-review",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "61d60de675369fd446822438e46b8a635390225e4e74c3266e5395729ff4054a",
+   "size_bytes": 4651096,
+   "updated": "2026-09-29T07:40:47.671Z"
   },
   {
    "connector_provenance": null,
