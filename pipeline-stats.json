@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T17:40:03+00:00",
+ "generated_at": "2026-09-29T17:45:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2234,
-  "scanned": 2234,
+  "task_folders": 2235,
+  "scanned": 2235,
   "connector": 613,
-  "non_connector": 1621,
+  "non_connector": 1622,
   "errors": 0
  },
  "connector_provenance": {
@@ -18,12 +18,12 @@
   "code": 379,
   "fin": 120,
   "gen": 354,
-  "health": 160,
+  "health": 161,
   "law": 108
  },
  "name_prefix": {
   "harbor": 615,
-  "obi": 1607,
+  "obi": 1608,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134878
+  "approx_bytes_read": 131631
  },
  "errors": [],
  "tasks": [
@@ -617,17 +617,17 @@
    "updated": "2026-09-29T10:57:59.589Z"
   },
   {
-   "declared_name": "harbor/the-folders-that-hold-a-bit-of-everything",
-   "declared_short": "the-folders-that-hold-a-bit-of-everything",
-   "folder": "ASTR_101364",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-folders-that-hold-a-bit-of-everything",
+   "declared_short": "the-folders-that-hold-a-bit-of-everything",
    "domain": null,
+   "folder": "ASTR_101364",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "226c854addbefff20d228cfa5f488559b414ec28b9e2bd2abfd5ee91dcf53394",
    "size_bytes": 15714113,
    "updated": "2026-09-29T17:39:57.269Z"
@@ -22152,6 +22152,20 @@
    "sha256": "db1af1918efd1898a2efe6ea3be371eb85074fe6bc8e983d5685439d8de19ea6",
    "size_bytes": 7478820,
    "updated": "2026-09-06T17:20:28.018Z"
+  },
+  {
+   "declared_name": "obi/health-h84-malnutrition-severity-staging-audit",
+   "declared_short": "health-h84-malnutrition-severity-staging-audit",
+   "folder": "health-h84-malnutrition-f26e78-v10-sna-pien",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "fb292c33d3f3c29c79c3eebe2af3b3dc8ab51c417226e132493be1b5aad4fc42",
+   "size_bytes": 6491520,
+   "updated": "2026-09-29T17:43:21.638Z"
   },
   {
    "connector_provenance": null,
