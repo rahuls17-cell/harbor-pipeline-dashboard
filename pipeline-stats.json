@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T07:15:04+00:00",
+ "generated_at": "2026-09-29T07:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2130,
-  "scanned": 2130,
+  "task_folders": 2131,
+  "scanned": 2131,
   "connector": 577,
-  "non_connector": 1553,
+  "non_connector": 1554,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 251
  },
  "domain": {
-  "unnamed": 1031,
+  "unnamed": 1032,
   "code": 378,
   "fin": 118,
   "gen": 342,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 580,
-  "obi": 1538,
+  "obi": 1539,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134016
+  "approx_bytes_read": 131529
  },
  "errors": [],
  "tasks": [
@@ -25144,17 +25144,17 @@
    "updated": "2026-09-19T00:43:44.550Z"
   },
   {
-   "declared_name": "harbor/replies-with-nothing-above-them",
-   "declared_short": "replies-with-nothing-above-them",
-   "folder": "replies-with-nothing-above-them",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/replies-with-nothing-above-them",
+   "declared_short": "replies-with-nothing-above-them",
    "domain": null,
+   "folder": "replies-with-nothing-above-them",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6150d913dcf3d40e329bf9e4dfd7da2ab1a4f31a645af7865fabae4f46a790f5",
    "size_bytes": 10695105,
    "updated": "2026-09-29T07:12:34.859Z"
@@ -27299,6 +27299,20 @@
    "sha256": "a7208b520ea143c9222363d76db0df1412ab6446335c27a9cdbd647050200e2e",
    "size_bytes": 8203289,
    "updated": "2026-09-24T01:55:00.352Z"
+  },
+  {
+   "declared_name": "obi/tech-b53-t9-water-system-fitting-takeoff",
+   "declared_short": "tech-b53-t9-water-system-fitting-takeoff",
+   "folder": "tech-b53-t9-water-system-fitting-takeoff",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "b809f8572f6c608880c8e64bf0ccab930ba41df025e9cea8d29795a60013b68c",
+   "size_bytes": 4867433,
+   "updated": "2026-09-29T07:18:19.639Z"
   },
   {
    "connector_provenance": null,
