@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T00:40:03+00:00",
+ "generated_at": "2026-09-29T00:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2078,
-  "scanned": 2078,
+  "task_folders": 2079,
+  "scanned": 2079,
   "connector": 555,
-  "non_connector": 1523,
+  "non_connector": 1524,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 993,
   "code": 375,
   "fin": 116,
-  "gen": 336,
+  "gen": 337,
   "health": 154,
   "law": 104
  },
  "name_prefix": {
   "harbor": 558,
-  "obi": 1508,
+  "obi": 1509,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131437
+  "approx_bytes_read": 131453
  },
  "errors": [],
  "tasks": [
@@ -10815,15 +10815,15 @@
    "updated": "2026-09-21T15:51:59.465Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-b21-g14-iep-academic-services-roster",
    "declared_short": "edu-b21-g14-iep-academic-services-roster",
-   "folder": "edu-b21-g14-iep-academic-services-roster",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-b21-g14-iep-academic-services-roster",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ea0bf15f2035a98c888f822b6f32c6a2747bbbc8f0f6bfb2696b3f13d34f8bce",
    "size_bytes": 6984220,
    "updated": "2026-09-29T00:35:11.028Z"
@@ -15742,6 +15742,20 @@
    "sha256": "f759815c964ebbcb03079b52a2585ba34a9df890e98b1604960559d11e317a55",
    "size_bytes": 10566991,
    "updated": "2026-09-19T12:02:12.113Z"
+  },
+  {
+   "declared_name": "obi/gen-g355-quickref-table-integrity-audit",
+   "declared_short": "gen-g355-quickref-table-integrity-audit",
+   "folder": "gen-g355-quickref-table-integrity-audit-v3-bfa808-v1-sna-znno",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "666eef14f1f41f1079eba6ed4e8e399f9131b5704dbad561a55d445d6616e54c",
+   "size_bytes": 5137344,
+   "updated": "2026-09-29T00:42:24.056Z"
   },
   {
    "connector_provenance": null,
