@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T09:45:03+00:00",
+ "generated_at": "2026-09-29T09:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2154,
-  "scanned": 2154,
-  "connector": 585,
+  "task_folders": 2155,
+  "scanned": 2155,
+  "connector": 586,
   "non_connector": 1569,
   "errors": 0
  },
  "connector_provenance": {
   "real": 149,
   "unknown": 179,
-  "synthetic": 257
+  "synthetic": 258
  },
  "domain": {
-  "unnamed": 1051,
+  "unnamed": 1052,
   "code": 378,
   "fin": 119,
   "gen": 343,
@@ -22,7 +22,7 @@
   "law": 106
  },
  "name_prefix": {
-  "harbor": 588,
+  "harbor": 589,
   "obi": 1554,
   "bus": 1,
   "edu": 3,
@@ -42,8 +42,8 @@
   "slack": 64,
   "linear-gym": 52,
   "email-calendar-gym": 47,
+  "outlook-gym": 47,
   "notion-gym": 46,
-  "outlook-gym": 46,
   "gws-gym": 39,
   "github-gym": 36,
   "supabase-gym": 6,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 137812
+  "approx_bytes_read": 135027
  },
  "errors": [],
  "tasks": [
@@ -12597,6 +12597,22 @@
    "sha256": "8f5bd7b67c255786ecb55be8a36c8134d898f9c0572966de18d96a12343f942d",
    "size_bytes": 5755992,
    "updated": "2026-09-09T09:20:38.761Z"
+  },
+  {
+   "declared_name": "harbor/eighteen-bare-addresses-five-names",
+   "declared_short": "eighteen-bare-addresses-five-names",
+   "folder": "eighteen-bare-addresses-five-names",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "fd708a9cd150ae2e8f4601dec8549384a55294060db645789ee7b5b6b1c81db6",
+   "size_bytes": 324478207,
+   "updated": "2026-09-29T09:46:29.338Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -30775,17 +30791,17 @@
    "updated": "2026-09-19T01:40:37.786Z"
   },
   {
-   "declared_name": "harbor/twenty-three-dropped-twenty-one-say-so",
-   "declared_short": "twenty-three-dropped-twenty-one-say-so",
-   "folder": "twenty-three-dropped-twenty-one-say-so",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/twenty-three-dropped-twenty-one-say-so",
+   "declared_short": "twenty-three-dropped-twenty-one-say-so",
    "domain": null,
+   "folder": "twenty-three-dropped-twenty-one-say-so",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "14501510ff5425258b9e03c808b65b2007b83941a26c6c29da30c1d77fbea4f5",
    "size_bytes": 11255123,
    "updated": "2026-09-29T09:44:50.255Z"
