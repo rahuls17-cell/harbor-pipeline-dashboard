@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T07:00:03+00:00",
+ "generated_at": "2026-09-29T07:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2126,
-  "scanned": 2126,
+  "task_folders": 2128,
+  "scanned": 2128,
   "connector": 575,
-  "non_connector": 1551,
+  "non_connector": 1553,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 251
  },
  "domain": {
-  "unnamed": 1027,
+  "unnamed": 1029,
   "code": 378,
   "fin": 118,
   "gen": 342,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 578,
-  "obi": 1536,
+  "obi": 1538,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135450
+  "new_archives_read": 2,
+  "approx_bytes_read": 263266
  },
  "errors": [],
  "tasks": [
@@ -659,17 +659,17 @@
    "updated": "2026-09-26T04:23:04.131Z"
   },
   {
-   "declared_name": "harbor/three-silences-in-a-daily-digest",
-   "declared_short": "three-silences-in-a-daily-digest",
-   "folder": "ASTR_101580",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/three-silences-in-a-daily-digest",
+   "declared_short": "three-silences-in-a-daily-digest",
    "domain": null,
+   "folder": "ASTR_101580",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0e2d1cac6271af17970e5ab037a763788bf9d5baacab363a1886fa705e226068",
    "size_bytes": 17252708,
    "updated": "2026-09-29T06:58:37.546Z"
@@ -2959,6 +2959,20 @@
    "updated": "2026-09-26T11:34:12.990Z"
   },
   {
+   "declared_name": "obi/bus-b44-b5-nurture-email-field-normalization",
+   "declared_short": "bus-b44-b5-nurture-email-field-normalization",
+   "folder": "bus-b44-b5-nurture-email-field-normalization",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1e599e057463dc130368848cadad1b3b52eb56988cef1968c2028b77e92c431e",
+   "size_bytes": 7674730,
+   "updated": "2026-09-29T07:00:10.588Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b44-b6-brand-name-availability-screening",
@@ -3909,6 +3923,20 @@
    "sha256": "d12fbba43a306a8db24d8f74ac2270f2f569d065e7092e1347af59b78d49a337",
    "size_bytes": 4563245,
    "updated": "2026-09-29T03:49:04.821Z"
+  },
+  {
+   "declared_name": "obi/bus-b54-b9-job-proposal-cost-rollup",
+   "declared_short": "bus-b54-b9-job-proposal-cost-rollup",
+   "folder": "bus-b54-b9-job-proposal-cost-rollup",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "2eac7b6aa60df3f70e217a04b89de5d5dad1e172d71c5e5f0542e24cbfc5deed",
+   "size_bytes": 5399942,
+   "updated": "2026-09-29T07:00:26.263Z"
   },
   {
    "connector_provenance": null,
