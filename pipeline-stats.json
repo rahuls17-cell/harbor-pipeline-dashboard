@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T11:40:03+00:00",
+ "generated_at": "2026-09-29T11:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2179,
-  "scanned": 2179,
+  "task_folders": 2180,
+  "scanned": 2180,
   "connector": 594,
-  "non_connector": 1585,
+  "non_connector": 1586,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 262
  },
  "domain": {
-  "unnamed": 1070,
+  "unnamed": 1071,
   "code": 379,
   "fin": 119,
   "gen": 347,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 596,
-  "obi": 1571,
+  "obi": 1572,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 132071
+  "approx_bytes_read": 132162
  },
  "errors": [],
  "tasks": [
@@ -17954,15 +17954,15 @@
    "updated": "2026-09-05T18:19:21.583Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g727-multi-stream-revenue-recognition-audit",
    "declared_short": "gen-g727-multi-stream-revenue-recognition-audit",
-   "folder": "gen-g727-multi-stream-revenue-recognition-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g727-multi-stream-revenue-recognition-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4731de6f2dd6f57271b8aed805688f129a0883f1b8a894d3a68050f01f161391",
    "size_bytes": 11531027,
    "updated": "2026-09-29T11:35:43.061Z"
@@ -27719,6 +27719,20 @@
    "sha256": "466c1308ff9e7b6eaafca8b12647c9b76cc52e77e6693074acfb36cea973965c",
    "size_bytes": 4817390,
    "updated": "2026-09-26T13:56:24.908Z"
+  },
+  {
+   "declared_name": "obi/tech-b52-t4-notebook-share-link-retrieval",
+   "declared_short": "tech-b52-t4-notebook-share-link-retrieval",
+   "folder": "tech-b52-t4-notebook-share-link-retrieval",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "2fc7118d2bcc1bf31d805d397d221464a68b21703792d538b4d69de88af542aa",
+   "size_bytes": 5766622,
+   "updated": "2026-09-29T11:45:02.604Z"
   },
   {
    "connector_provenance": null,
