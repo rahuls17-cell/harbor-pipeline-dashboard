@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T01:25:02+00:00",
+ "generated_at": "2026-09-29T01:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2084,
-  "scanned": 2084,
-  "connector": 557,
+  "task_folders": 2085,
+  "scanned": 2085,
+  "connector": 558,
   "non_connector": 1527,
   "errors": 0
  },
  "connector_provenance": {
   "real": 146,
   "unknown": 170,
-  "synthetic": 241
+  "synthetic": 242
  },
  "domain": {
-  "unnamed": 996,
+  "unnamed": 997,
   "code": 375,
   "fin": 116,
   "gen": 339,
@@ -22,7 +22,7 @@
   "law": 104
  },
  "name_prefix": {
-  "harbor": 560,
+  "harbor": 561,
   "obi": 1512,
   "bus": 1,
   "edu": 3,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 183,
   "slack": 64,
   "notion-gym": 46,
-  "linear-gym": 44,
+  "linear-gym": 45,
   "email-calendar-gym": 42,
   "outlook-gym": 40,
   "gws-gym": 37,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135356
+  "approx_bytes_read": 135825
  },
  "errors": [],
  "tasks": [
@@ -435,6 +435,22 @@
    "updated": "2026-09-28T23:07:04.755Z"
   },
   {
+   "declared_name": "harbor/seven-unsized-eight-unlabelled",
+   "declared_short": "seven-unsized-eight-unlabelled",
+   "folder": "ASTR_101226",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "b0db68271e1492628117b01e342b906394b4d5e5d460535ba023bfc1714f132c",
+   "size_bytes": 5632044,
+   "updated": "2026-09-29T01:26:49.149Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
@@ -531,17 +547,17 @@
    "updated": "2026-09-26T21:57:29.565Z"
   },
   {
-   "declared_name": "harbor/the-posts-that-shout-at-everyone",
-   "declared_short": "the-posts-that-shout-at-everyone",
-   "folder": "ASTR_101551",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-posts-that-shout-at-everyone",
+   "declared_short": "the-posts-that-shout-at-everyone",
    "domain": null,
+   "folder": "ASTR_101551",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0f604f585e1f12d1ccf9315cb856ecbdc84c8548cf3c57b77cf5f6064745c9eb",
    "size_bytes": 9365777,
    "updated": "2026-09-29T01:21:41.011Z"
