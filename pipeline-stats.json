@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T22:00:03+00:00",
+ "generated_at": "2026-09-29T22:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2257,
-  "scanned": 2257,
-  "connector": 621,
+  "task_folders": 2258,
+  "scanned": 2258,
+  "connector": 622,
   "non_connector": 1636,
   "errors": 0
  },
  "connector_provenance": {
   "real": 153,
   "unknown": 188,
-  "synthetic": 280
+  "synthetic": 281
  },
  "domain": {
-  "unnamed": 1130,
+  "unnamed": 1131,
   "code": 379,
   "fin": 120,
   "gen": 357,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 623,
+  "harbor": 624,
   "obi": 1622,
   "bus": 1,
   "edu": 3,
@@ -41,8 +41,8 @@
   "freshdesk-gym": 185,
   "slack": 65,
   "linear-gym": 56,
+  "outlook-gym": 54,
   "email-calendar-gym": 53,
-  "outlook-gym": 53,
   "notion-gym": 48,
   "gws-gym": 44,
   "github-gym": 38,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 136756
  },
  "errors": [],
  "tasks": [
@@ -31553,6 +31553,22 @@
    "sha256": "d5d10337384f020a5866873dfec57f0ca49b0c45660d4991f10e4a45fa3cbffa",
    "size_bytes": 7633565,
    "updated": "2026-09-28T19:24:58.194Z"
+  },
+  {
+   "declared_name": "harbor/the-seat-my-invitations-put-me-in",
+   "declared_short": "the-seat-my-invitations-put-me-in",
+   "folder": "the-seat-my-invitations-put-me-in",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3dc0dcb75d517cd70a3c99de5a61573e9e06f5509952894cb54d629323594f82",
+   "size_bytes": 4725612,
+   "updated": "2026-09-29T22:04:11.656Z"
   },
   {
    "connector_provenance": "synthetic",
