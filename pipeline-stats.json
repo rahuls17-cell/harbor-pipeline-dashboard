@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T13:10:03+00:00",
+ "generated_at": "2026-09-29T13:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2188,
-  "scanned": 2188,
-  "connector": 597,
+  "task_folders": 2189,
+  "scanned": 2189,
+  "connector": 598,
   "non_connector": 1591,
   "errors": 0
  },
  "connector_provenance": {
   "real": 150,
   "unknown": 184,
-  "synthetic": 263
+  "synthetic": 264
  },
  "domain": {
-  "unnamed": 1078,
+  "unnamed": 1079,
   "code": 379,
   "fin": 119,
   "gen": 347,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 599,
+  "harbor": 600,
   "obi": 1577,
   "bus": 1,
   "edu": 3,
@@ -41,8 +41,8 @@
   "freshdesk-gym": 184,
   "slack": 64,
   "linear-gym": 54,
+  "outlook-gym": 50,
   "email-calendar-gym": 49,
-  "outlook-gym": 49,
   "notion-gym": 46,
   "gws-gym": 41,
   "github-gym": 36,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133746
+  "approx_bytes_read": 143212
  },
  "errors": [],
  "tasks": [
@@ -23346,17 +23346,17 @@
    "updated": "2026-09-22T21:56:24.930Z"
   },
   {
-   "declared_name": "harbor/labels-cincinnati-keeps-reusing",
-   "declared_short": "labels-cincinnati-keeps-reusing",
-   "folder": "labels-cincinnati-keeps-reusing",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/labels-cincinnati-keeps-reusing",
+   "declared_short": "labels-cincinnati-keeps-reusing",
    "domain": null,
+   "folder": "labels-cincinnati-keeps-reusing",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "aa7bee00acf79a1802497b46330f208e7bf7cef07166c9b0089700a8fbeceedd",
    "size_bytes": 6857644,
    "updated": "2026-09-29T13:09:18.594Z"
@@ -24972,6 +24972,22 @@
    "sha256": "f9fec4d4b57a129aa78b0dd1e3aafabb24b3ec3d6196109bc65179b19f3fd767",
    "size_bytes": 7657686,
    "updated": "2026-09-19T17:11:12.762Z"
+  },
+  {
+   "declared_name": "harbor/meeting-declines-for-my-leave",
+   "declared_short": "meeting-declines-for-my-leave",
+   "folder": "meeting-declines-for-my-leave",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "7eb0d11fad4c424a51525a65cb994bd7b7d3ad941e803403eb111b33b61448e8",
+   "size_bytes": 8346133,
+   "updated": "2026-09-29T13:11:24.342Z"
   },
   {
    "connector_provenance": "synthetic",
