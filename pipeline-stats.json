@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-29T21:30:03+00:00",
+ "generated_at": "2026-09-29T21:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2254,
-  "scanned": 2254,
-  "connector": 620,
-  "non_connector": 1634,
+  "task_folders": 2256,
+  "scanned": 2256,
+  "connector": 621,
+  "non_connector": 1635,
   "errors": 0
  },
  "connector_provenance": {
   "real": 153,
   "unknown": 188,
-  "synthetic": 279
+  "synthetic": 280
  },
  "domain": {
-  "unnamed": 1129,
+  "unnamed": 1130,
   "code": 379,
   "fin": 120,
-  "gen": 355,
+  "gen": 356,
   "health": 163,
   "law": 108
  },
  "name_prefix": {
-  "harbor": 622,
-  "obi": 1620,
+  "harbor": 623,
+  "obi": 1621,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -42,7 +42,7 @@
   "slack": 65,
   "linear-gym": 56,
   "email-calendar-gym": 53,
-  "outlook-gym": 52,
+  "outlook-gym": 53,
   "notion-gym": 48,
   "gws-gym": 44,
   "github-gym": 38,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131459
+  "new_archives_read": 2,
+  "approx_bytes_read": 267052
  },
  "errors": [],
  "tasks": [
@@ -4563,15 +4563,15 @@
    "updated": "2026-09-29T11:14:28.256Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b58-t9-competitor-required-list-coverage",
    "declared_short": "bus-b58-t9-competitor-required-list-coverage",
-   "folder": "bus-b58-t9-competitor-required-list-coverage",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b58-t9-competitor-required-list-coverage",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9f109bdf473296d0b41ce9be78ca20fd751b44051589c5197add10e5f0a49ed3",
    "size_bytes": 4844005,
    "updated": "2026-09-29T21:25:21.062Z"
@@ -15246,6 +15246,22 @@
    "updated": "2026-09-27T12:47:10.976Z"
   },
   {
+   "declared_name": "harbor/fourteen-senders-the-filter-treats-both-ways",
+   "declared_short": "fourteen-senders-the-filter-treats-both-ways",
+   "folder": "fourteen-senders-the-filter-treats-both-ways",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "767b2e91f27eb461ede69d41c2e4c796b3fb9f78f4f7f127f3fa6d8d544b300d",
+   "size_bytes": 220304274,
+   "updated": "2026-09-29T21:32:53.949Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g747-playbook-consolidation-toc-audit",
@@ -15734,6 +15750,20 @@
    "sha256": "898b47c0df07d17467e53c801342a90a249964b304dcedb3aabe2425f572736f",
    "size_bytes": 13533904,
    "updated": "2026-09-13T14:50:54.254Z"
+  },
+  {
+   "declared_name": "obi/gen-g1181-live-sale-promo-style-compliance-audit",
+   "declared_short": "gen-g1181-live-sale-promo-style-compliance-audit",
+   "folder": "gen-g1181-live-sale-promo-style-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "e170118fb9e72d9c658ef094956106f10e5a039a8c9a4f20c382b500eee608e6",
+   "size_bytes": 7087569,
+   "updated": "2026-09-29T21:34:04.887Z"
   },
   {
    "connector_provenance": null,
