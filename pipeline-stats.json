@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T22:55:03+00:00",
+ "generated_at": "2026-09-29T23:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2268,
-  "scanned": 2268,
-  "connector": 626,
+  "task_folders": 2270,
+  "scanned": 2270,
+  "connector": 628,
   "non_connector": 1642,
   "errors": 0
  },
  "connector_provenance": {
   "real": 153,
   "unknown": 190,
-  "synthetic": 283
+  "synthetic": 285
  },
  "domain": {
-  "unnamed": 1137,
+  "unnamed": 1139,
   "code": 379,
   "fin": 120,
   "gen": 361,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 628,
+  "harbor": 630,
   "obi": 1628,
   "bus": 1,
   "edu": 3,
@@ -43,9 +43,9 @@
   "linear-gym": 57,
   "outlook-gym": 55,
   "email-calendar-gym": 53,
-  "notion-gym": 48,
+  "notion-gym": 49,
   "gws-gym": 46,
-  "github-gym": 38,
+  "github-gym": 39,
   "supabase-gym": 7,
   "teams-gym": 6,
   "snowflake-gym": 5,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 266695
+  "approx_bytes_read": 268882
  },
  "errors": [],
  "tasks": [
@@ -30711,17 +30711,17 @@
    "updated": "2026-09-21T16:14:18.798Z"
   },
   {
-   "declared_name": "harbor/the-meetings-an-import-left-on-two-calendars",
-   "declared_short": "the-meetings-an-import-left-on-two-calendars",
-   "folder": "the-meetings-an-import-left-on-two-calendars",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-meetings-an-import-left-on-two-calendars",
+   "declared_short": "the-meetings-an-import-left-on-two-calendars",
    "domain": null,
+   "folder": "the-meetings-an-import-left-on-two-calendars",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ba7595de9e8164d9ff6232ab223365ca5701b0fabd7a66e36bef0a533689eb2d",
    "size_bytes": 10190133,
    "updated": "2026-09-29T22:50:55.148Z"
@@ -30949,6 +30949,22 @@
    "sha256": "d3dc8cabd7fbc786986deaca74480de151035266e6945e3982f0dc26ac10607c",
    "size_bytes": 7794447,
    "updated": "2026-09-26T23:20:43.968Z"
+  },
+  {
+   "declared_name": "harbor/the-outsiders-reviewing-our-code",
+   "declared_short": "the-outsiders-reviewing-our-code",
+   "folder": "the-outsiders-reviewing-our-code",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "abc2c8d413055dae10f34ee718b7aa6b97b0c0c008b286832dd9fb3785812278",
+   "size_bytes": 6390859,
+   "updated": "2026-09-29T22:56:06.068Z"
   },
   {
    "connector_provenance": "unknown",
@@ -31687,17 +31703,17 @@
    "updated": "2026-09-28T06:32:47.634Z"
   },
   {
-   "declared_name": "harbor/the-small-projects-that-never-got-scheduled",
-   "declared_short": "the-small-projects-that-never-got-scheduled",
-   "folder": "the-small-projects-that-never-got-scheduled",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-small-projects-that-never-got-scheduled",
+   "declared_short": "the-small-projects-that-never-got-scheduled",
    "domain": null,
+   "folder": "the-small-projects-that-never-got-scheduled",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "35ba40da745d96f9e9a7eff2ded8ff9e3e51d6ba8402285d3a467688c0d46a9b",
    "size_bytes": 6196472,
    "updated": "2026-09-29T22:54:31.125Z"
@@ -31877,6 +31893,22 @@
    "sha256": "91a8776616b4924a3dc0b39ff373601fa47f9b368b7619381e09922712cb75d2",
    "size_bytes": 7277006,
    "updated": "2026-09-26T06:01:41.398Z"
+  },
+  {
+   "declared_name": "harbor/the-task-summaries-that-went-stale",
+   "declared_short": "the-task-summaries-that-went-stale",
+   "folder": "the-task-summaries-that-went-stale",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "a56900a647f1fc82312a5c488e710d06fac68fbee65a2580fc321a2406a5ce63",
+   "size_bytes": 7698847,
+   "updated": "2026-09-29T22:55:54.959Z"
   },
   {
    "connector_provenance": "synthetic",
