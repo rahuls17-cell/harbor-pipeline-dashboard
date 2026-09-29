@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T07:55:03+00:00",
+ "generated_at": "2026-09-29T08:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2136,
-  "scanned": 2136,
-  "connector": 579,
-  "non_connector": 1557,
+  "task_folders": 2138,
+  "scanned": 2138,
+  "connector": 580,
+  "non_connector": 1558,
   "errors": 0
  },
  "connector_provenance": {
   "real": 148,
   "unknown": 178,
-  "synthetic": 253
+  "synthetic": 254
  },
  "domain": {
-  "unnamed": 1036,
+  "unnamed": 1038,
   "code": 378,
   "fin": 119,
   "gen": 342,
@@ -22,8 +22,8 @@
   "law": 105
  },
  "name_prefix": {
-  "harbor": 582,
-  "obi": 1542,
+  "harbor": 583,
+  "obi": 1543,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -44,7 +44,7 @@
   "notion-gym": 46,
   "email-calendar-gym": 46,
   "outlook-gym": 45,
-  "gws-gym": 38,
+  "gws-gym": 39,
   "github-gym": 36,
   "supabase-gym": 6,
   "teams-gym": 5,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 402675
+  "new_archives_read": 2,
+  "approx_bytes_read": 265426
  },
  "errors": [],
  "tasks": [
@@ -561,6 +561,22 @@
    "sha256": "cb574d968dd615e1095ca1ac2c3104a57b2b3b6075cdcea2e9b30c9e0926a2b2",
    "size_bytes": 5783843,
    "updated": "2026-09-29T04:18:38.600Z"
+  },
+  {
+   "declared_name": "harbor/who-can-reach-the-pilot-program",
+   "declared_short": "who-can-reach-the-pilot-program",
+   "folder": "ASTR_101447",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3d9e2efa8cf3d41ff028609f38930657f864f5d3ec27f459d6eba98e8711f874",
+   "size_bytes": 10813656,
+   "updated": "2026-09-29T07:56:16.315Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -12329,18 +12345,32 @@
    "updated": "2026-09-28T19:02:34.690Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sca-b38-workplace-nvc-role-play-scheduling",
    "declared_short": "edu-sca-b38-workplace-nvc-role-play-scheduling",
+   "domain": null,
    "folder": "edu-sca-b38-workplace-nvc-role-play-scheduling-v3",
+   "image": null,
+   "is_connector": false,
+   "prefix": "obi",
+   "sha256": "7f21d48db53990b15ad80bbe97c45aab63614ae98cb9cdba23bbbf3a678505e7",
+   "size_bytes": 9242874,
+   "updated": "2026-09-29T07:53:49.755Z"
+  },
+  {
+   "declared_name": "obi/edu-sca-b5-pitch-deck-cheat-sheet-condensation",
+   "declared_short": "edu-sca-b5-pitch-deck-cheat-sheet-condensation",
+   "folder": "edu-sca-b5-pitch-deck-cheat-sheet-condensation",
    "prefix": "obi",
    "is_connector": false,
    "connector_services": [],
    "connector_provenance": null,
    "domain": null,
    "image": null,
-   "sha256": "7f21d48db53990b15ad80bbe97c45aab63614ae98cb9cdba23bbbf3a678505e7",
-   "size_bytes": 9242874,
-   "updated": "2026-09-29T07:53:49.755Z"
+   "sha256": "444a9effa3616c07bafd7d207ff0a3b809252287a05800be2f0878a8acfad09f",
+   "size_bytes": 6746739,
+   "updated": "2026-09-29T07:56:46.016Z"
   },
   {
    "connector_provenance": null,
@@ -14456,17 +14486,17 @@
    "updated": "2026-09-27T12:54:27.170Z"
   },
   {
-   "declared_name": "harbor/four-thousand-nine-hundred-and-twelve-ways-out",
-   "declared_short": "four-thousand-nine-hundred-and-twelve-ways-out",
-   "folder": "four-thousand-nine-hundred-and-twelve-ways-out-v7-20260929",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/four-thousand-nine-hundred-and-twelve-ways-out",
+   "declared_short": "four-thousand-nine-hundred-and-twelve-ways-out",
    "domain": null,
+   "folder": "four-thousand-nine-hundred-and-twelve-ways-out-v7-20260929",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2e789840bcb5922b8cdf9e911ed8965a02f7ad8ee9c48660804882838b33a552",
    "size_bytes": 74978509,
    "updated": "2026-09-29T07:52:34.951Z"
@@ -30407,17 +30437,17 @@
    "updated": "2026-09-22T21:19:07.043Z"
   },
   {
-   "declared_name": "harbor/three-unopened-threads-that-moved-on",
-   "declared_short": "three-unopened-threads-that-moved-on",
-   "folder": "three-unopened-threads-that-moved-on",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/three-unopened-threads-that-moved-on",
+   "declared_short": "three-unopened-threads-that-moved-on",
    "domain": null,
+   "folder": "three-unopened-threads-that-moved-on",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1227a75b788f486f7d5bcd53ee36de7864dc9c7b3eeca21ace7e90557759a850",
    "size_bytes": 116099648,
    "updated": "2026-09-29T07:53:42.620Z"
