@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T16:45:03+00:00",
+ "generated_at": "2026-09-29T16:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2221,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 398190
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2043,15 +2043,15 @@
    "updated": "2026-09-26T15:43:08.989Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b108-b17-entry-level-resume-profile-normalization",
    "declared_short": "bus-b108-b17-entry-level-resume-profile-normalization",
-   "folder": "bus-b108-b17-entry-level-resume-profile-normalization",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b108-b17-entry-level-resume-profile-normalization",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "cbdc36969a5a120e9c107175eeff92723126ee3e5cf324db03a8e58cd196753c",
    "size_bytes": 6677044,
    "updated": "2026-09-29T16:43:14.058Z"
@@ -22530,15 +22530,15 @@
    "updated": "2026-09-22T17:50:04.957Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt3-a10-laying-flock-egg-withdrawal-compliance",
    "declared_short": "health-tdt3-a10-laying-flock-egg-withdrawal-compliance",
-   "folder": "health-tdt3-a10-laying-flock-egg-withdrawal-compliance",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt3-a10-laying-flock-egg-withdrawal-compliance",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4742a8e610a614251f45d5b9924dd4b2fb5c1a3c97b220746db7dd90e4a5c557",
    "size_bytes": 4308126,
    "updated": "2026-09-29T16:40:34.349Z"
@@ -31363,17 +31363,17 @@
    "updated": "2026-09-21T12:40:34.257Z"
   },
   {
-   "declared_name": "harbor/the-week-ahead-and-what-is-still-open",
-   "declared_short": "the-week-ahead-and-what-is-still-open",
-   "folder": "the-week-ahead-and-what-is-still-open",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-week-ahead-and-what-is-still-open",
+   "declared_short": "the-week-ahead-and-what-is-still-open",
    "domain": null,
+   "folder": "the-week-ahead-and-what-is-still-open",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "31f84248eaa2849f1f377327911d07b4b5b0f83d34183e89db29c986d1ac97ce",
    "size_bytes": 11143117,
    "updated": "2026-09-29T16:40:15.493Z"
