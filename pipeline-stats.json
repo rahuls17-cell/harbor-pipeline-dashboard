@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T06:35:03+00:00",
+ "generated_at": "2026-09-29T06:40:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2122,
-  "scanned": 2122,
-  "connector": 572,
+  "task_folders": 2123,
+  "scanned": 2123,
+  "connector": 573,
   "non_connector": 1550,
   "errors": 0
  },
  "connector_provenance": {
   "real": 148,
-  "unknown": 174,
+  "unknown": 175,
   "synthetic": 250
  },
  "domain": {
-  "unnamed": 1024,
+  "unnamed": 1025,
   "code": 378,
   "fin": 118,
   "gen": 341,
@@ -22,7 +22,7 @@
   "law": 105
  },
  "name_prefix": {
-  "harbor": 575,
+  "harbor": 576,
   "obi": 1535,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 206,
+  "slack-gym": 207,
   "google-drive-gym": 201,
   "zeta3-sql-gym": 196,
   "confluence-gym": 190,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131479
+  "approx_bytes_read": 132961
  },
  "errors": [],
  "tasks": [
@@ -16906,15 +16906,15 @@
    "updated": "2026-09-20T14:57:56.504Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g58-course-prerequisite-audit",
    "declared_short": "gen-g58-course-prerequisite-audit",
-   "folder": "gen-g58-course-prerequisite-audit-m-v1-9351c1-v4-sna-ktul",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g58-course-prerequisite-audit-m-v1-9351c1-v4-sna-ktul",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "a3809fe63604dc5d133da4445e4c63732408d70df640d1e928a6cfb3c0d85550",
    "size_bytes": 4754779,
    "updated": "2026-09-29T06:31:05.994Z"
@@ -30325,6 +30325,22 @@
    "sha256": "d27741f6adc4e47b70becf10e7fe8191bab5b4a6032670f2d62e25d0ef8ad424",
    "size_bytes": 9944400,
    "updated": "2026-09-28T18:29:38.676Z"
+  },
+  {
+   "declared_name": "harbor/tracker-feed-revival-followup-audit",
+   "declared_short": "tracker-feed-revival-followup-audit",
+   "folder": "tracker-feed-revival-followup-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "6080c07d9be49955f1b3749cb55edf642779f7e9c7428512de5752bb7130b08c",
+   "size_bytes": 11572807,
+   "updated": "2026-09-29T06:38:10.076Z"
   },
   {
    "connector_provenance": "real",
