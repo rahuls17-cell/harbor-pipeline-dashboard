@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T22:50:03+00:00",
+ "generated_at": "2026-09-29T22:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2266,
-  "scanned": 2266,
-  "connector": 624,
+  "task_folders": 2268,
+  "scanned": 2268,
+  "connector": 626,
   "non_connector": 1642,
   "errors": 0
  },
  "connector_provenance": {
   "real": 153,
-  "unknown": 189,
-  "synthetic": 282
+  "unknown": 190,
+  "synthetic": 283
  },
  "domain": {
-  "unnamed": 1135,
+  "unnamed": 1137,
   "code": 379,
   "fin": 120,
   "gen": 361,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 626,
+  "harbor": 628,
   "obi": 1628,
   "bus": 1,
   "edu": 3,
@@ -40,8 +40,8 @@
   "email-gym": 185,
   "freshdesk-gym": 185,
   "slack": 65,
-  "linear-gym": 56,
-  "outlook-gym": 54,
+  "linear-gym": 57,
+  "outlook-gym": 55,
   "email-calendar-gym": 53,
   "notion-gym": 48,
   "gws-gym": 46,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 266695
  },
  "errors": [],
  "tasks": [
@@ -30711,6 +30711,22 @@
    "updated": "2026-09-21T16:14:18.798Z"
   },
   {
+   "declared_name": "harbor/the-meetings-an-import-left-on-two-calendars",
+   "declared_short": "the-meetings-an-import-left-on-two-calendars",
+   "folder": "the-meetings-an-import-left-on-two-calendars",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "ba7595de9e8164d9ff6232ab223365ca5701b0fabd7a66e36bef0a533689eb2d",
+   "size_bytes": 10190133,
+   "updated": "2026-09-29T22:50:55.148Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
@@ -31669,6 +31685,22 @@
    "sha256": "6326575109fc93499da58b0785cdecfaaddde3faed8921bc076e4088aa520825",
    "size_bytes": 8033590,
    "updated": "2026-09-28T06:32:47.634Z"
+  },
+  {
+   "declared_name": "harbor/the-small-projects-that-never-got-scheduled",
+   "declared_short": "the-small-projects-that-never-got-scheduled",
+   "folder": "the-small-projects-that-never-got-scheduled",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "35ba40da745d96f9e9a7eff2ded8ff9e3e51d6ba8402285d3a467688c0d46a9b",
+   "size_bytes": 6196472,
+   "updated": "2026-09-29T22:54:31.125Z"
   },
   {
    "connector_provenance": "synthetic",
