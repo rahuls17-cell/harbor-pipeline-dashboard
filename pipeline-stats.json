@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T17:25:03+00:00",
+ "generated_at": "2026-09-29T17:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2231,
-  "scanned": 2231,
-  "connector": 611,
+  "task_folders": 2232,
+  "scanned": 2232,
+  "connector": 612,
   "non_connector": 1620,
   "errors": 0
  },
  "connector_provenance": {
   "real": 152,
   "unknown": 187,
-  "synthetic": 272
+  "synthetic": 273
  },
  "domain": {
-  "unnamed": 1110,
+  "unnamed": 1111,
   "code": 379,
   "fin": 120,
   "gen": 354,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 613,
+  "harbor": 614,
   "obi": 1606,
   "bus": 1,
   "edu": 3,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 185,
   "slack": 65,
   "linear-gym": 55,
-  "email-calendar-gym": 51,
+  "email-calendar-gym": 52,
   "outlook-gym": 51,
   "notion-gym": 47,
   "gws-gym": 43,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 137903
+  "approx_bytes_read": 147354
  },
  "errors": [],
  "tasks": [
@@ -5013,17 +5013,17 @@
    "updated": "2026-09-13T03:57:23.586Z"
   },
   {
-   "declared_name": "harbor/call-off-half-empty-sessions",
-   "declared_short": "call-off-half-empty-sessions",
-   "folder": "call-off-half-empty-sessions",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/call-off-half-empty-sessions",
+   "declared_short": "call-off-half-empty-sessions",
    "domain": null,
+   "folder": "call-off-half-empty-sessions",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "10fd09dd46160c007b600e2b36567ef74d74687f24c5089bb2dd85fac6cc8896",
    "size_bytes": 6266581,
    "updated": "2026-09-29T17:23:24.628Z"
@@ -30639,6 +30639,22 @@
    "sha256": "360ca67a1c65b4931db2b2b0aa40b5bd9e1e41f26df3ac757ddd2062df402569",
    "size_bytes": 7756911,
    "updated": "2026-09-28T18:32:35.174Z"
+  },
+  {
+   "declared_name": "harbor/the-people-who-were-only-ever-copied",
+   "declared_short": "the-people-who-were-only-ever-copied",
+   "folder": "the-people-who-were-only-ever-copied",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "6aa2cc23d93cd00db82c235e9ccd8d05996b65838170ea5f80a7e6eeed5cbd70",
+   "size_bytes": 6699026,
+   "updated": "2026-09-29T17:26:10.979Z"
   },
   {
    "connector_provenance": "unknown",
