@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T00:30:02+00:00",
+ "generated_at": "2026-09-29T00:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2075,
-  "scanned": 2075,
-  "connector": 554,
-  "non_connector": 1521,
+  "task_folders": 2077,
+  "scanned": 2077,
+  "connector": 555,
+  "non_connector": 1522,
   "errors": 0
  },
  "connector_provenance": {
   "real": 146,
-  "unknown": 169,
+  "unknown": 170,
   "synthetic": 239
  },
  "domain": {
-  "unnamed": 990,
+  "unnamed": 992,
   "code": 375,
   "fin": 116,
   "gen": 336,
@@ -22,8 +22,8 @@
   "law": 104
  },
  "name_prefix": {
-  "harbor": 557,
-  "obi": 1506,
+  "harbor": 558,
+  "obi": 1507,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 201,
+  "slack-gym": 202,
   "google-drive-gym": 200,
   "zeta3-sql-gym": 195,
   "confluence-gym": 189,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 267109
  },
  "errors": [],
  "tasks": [
@@ -1863,6 +1863,20 @@
    "sha256": "54de5685c7306555f526e8511fc81c3facf0e548bc36b9e416f45aba378e920f",
    "size_bytes": 5398392,
    "updated": "2026-09-28T13:01:46.347Z"
+  },
+  {
+   "declared_name": "obi/bus-b108-b6-nnn-property-cash-out-refinance-recompute",
+   "declared_short": "bus-b108-b6-nnn-property-cash-out-refinance-recompute",
+   "folder": "bus-b108-b6-nnn-property-cash-out-refinance-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "d99bf2cc79a7c31e98e0d8087a0b9e28494688d811ade44bc2a7f47307f80977",
+   "size_bytes": 14812682,
+   "updated": "2026-09-29T00:34:50.453Z"
   },
   {
    "connector_provenance": null,
@@ -28061,6 +28075,22 @@
    "sha256": "4217b102b5b2d1e72c3d742957e889453866d33d3b06809d1c357ea83e8d55d3",
    "size_bytes": 9653233,
    "updated": "2026-09-24T23:38:24.241Z"
+  },
+  {
+   "declared_name": "harbor/the-emails-hiding-in-support",
+   "declared_short": "the-emails-hiding-in-support",
+   "folder": "the-emails-hiding-in-support",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "63c0add7d5342af480aa102787beb3805eaf515536ef72f167ef3c3b2779f43c",
+   "size_bytes": 15066612,
+   "updated": "2026-09-29T00:30:59.650Z"
   },
   {
    "connector_provenance": "synthetic",
