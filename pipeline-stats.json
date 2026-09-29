@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T11:30:04+00:00",
+ "generated_at": "2026-09-29T11:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2178,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263637
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -3341,15 +3341,15 @@
    "updated": "2026-09-25T09:52:39.903Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b47-b7-collection-performance-variance",
    "declared_short": "bus-b47-b7-collection-performance-variance",
-   "folder": "bus-b47-b7-collection-performance-variance",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b47-b7-collection-performance-variance",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "381f77dcd954f499681594576b28e4a0dae5128560eeb7e5997937ea672f1d0c",
    "size_bytes": 8513879,
    "updated": "2026-09-29T11:28:10.550Z"
@@ -12627,15 +12627,15 @@
    "updated": "2026-09-27T23:38:31.872Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sch-a9-csat-regular-round-cutoff-eligibility",
    "declared_short": "edu-sch-a9-csat-regular-round-cutoff-eligibility",
-   "folder": "edu-sch-a9-csat-regular-round-cutoff-eligibility",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sch-a9-csat-regular-round-cutoff-eligibility",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b30233a6ac873c4edd92dd81eb938473f1ef3109ad08711f37346d496c17ade6",
    "size_bytes": 4664492,
    "updated": "2026-09-29T11:25:50.237Z"
