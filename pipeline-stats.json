@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T08:10:03+00:00",
+ "generated_at": "2026-09-29T08:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2142,
-  "scanned": 2142,
+  "task_folders": 2143,
+  "scanned": 2143,
   "connector": 582,
-  "non_connector": 1560,
+  "non_connector": 1561,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 255
  },
  "domain": {
-  "unnamed": 1041,
+  "unnamed": 1042,
   "code": 378,
   "fin": 119,
   "gen": 342,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 585,
-  "obi": 1545,
+  "obi": 1546,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136158
+  "approx_bytes_read": 131489
  },
  "errors": [],
  "tasks": [
@@ -27193,6 +27193,20 @@
    "updated": "2026-09-26T21:54:01.574Z"
   },
   {
+   "declared_name": "obi/tech-b51-t9-multi-model-pipeline-stage-eligibility-fr",
+   "declared_short": "tech-b51-t9-multi-model-pipeline-stage-eligibility-fr",
+   "folder": "tech-b51-t9-multi-model-pipeline-stage-eligibility-fr",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "54a28894491e0f27c3272de6e1a07fd89a199b6cdae28ee5ba711f3d12896085",
+   "size_bytes": 5917646,
+   "updated": "2026-09-29T08:13:52.646Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/tech-b51-t9-spectrum-holdings-reconciliation",
@@ -30665,17 +30679,17 @@
    "updated": "2026-09-20T00:04:50.049Z"
   },
   {
-   "declared_name": "harbor/two-of-eighteen-carry-a-file",
-   "declared_short": "two-of-eighteen-carry-a-file",
-   "folder": "two-of-eighteen-carry-a-file",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/two-of-eighteen-carry-a-file",
+   "declared_short": "two-of-eighteen-carry-a-file",
    "domain": null,
+   "folder": "two-of-eighteen-carry-a-file",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "91fc0599bcbd577b4d1101fa355435d5e1dc7b34102ab45d0534b2d353b9d517",
    "size_bytes": 6181139,
    "updated": "2026-09-29T08:08:42.758Z"
