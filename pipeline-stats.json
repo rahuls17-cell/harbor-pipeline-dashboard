@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T09:30:04+00:00",
+ "generated_at": "2026-09-29T09:35:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2151,
-  "scanned": 2151,
+  "task_folders": 2152,
+  "scanned": 2152,
   "connector": 584,
-  "non_connector": 1567,
+  "non_connector": 1568,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 256
  },
  "domain": {
-  "unnamed": 1049,
+  "unnamed": 1050,
   "code": 378,
   "fin": 119,
   "gen": 342,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 587,
-  "obi": 1552,
+  "obi": 1553,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 279009
+  "new_archives_read": 1,
+  "approx_bytes_read": 131477
  },
  "errors": [],
  "tasks": [
@@ -11617,6 +11617,20 @@
    "updated": "2026-09-28T06:14:11.604Z"
   },
   {
+   "declared_name": "obi/edu-mg-edu-b13-a5-matrix-test-mark-sheet-recount",
+   "declared_short": "edu-mg-edu-b13-a5-matrix-test-mark-sheet-recount",
+   "folder": "edu-mg-edu-b13-a5-matrix-test-mark-sheet-recount",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "a7713fb02fa5398fc5c395d87d38ff6ff2e22dee9957f851b74cd1a723f95c05",
+   "size_bytes": 5224594,
+   "updated": "2026-09-29T09:34:53.390Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-mg-edu-b14-a3-board-chapter-coverage-plan",
@@ -14540,17 +14554,17 @@
    "updated": "2026-09-26T14:36:37.130Z"
   },
   {
-   "declared_name": "harbor/four-stale-conversations-that-moved-on",
-   "declared_short": "four-stale-conversations-that-moved-on",
-   "folder": "four-stale-conversations-that-moved-on",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/four-stale-conversations-that-moved-on",
+   "declared_short": "four-stale-conversations-that-moved-on",
    "domain": null,
+   "folder": "four-stale-conversations-that-moved-on",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "72da6ab5729dd5a53ecafe951fc322908e5479ca5d88e1892fef2626107c5a8e",
    "size_bytes": 169123367,
    "updated": "2026-09-29T09:26:51.440Z"
@@ -29667,17 +29681,17 @@
    "updated": "2026-09-23T08:27:48.834Z"
   },
   {
-   "declared_name": "harbor/the-places-my-diary-would-not-hand-over",
-   "declared_short": "the-places-my-diary-would-not-hand-over",
-   "folder": "the-places-my-diary-would-not-hand-over",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-places-my-diary-would-not-hand-over",
+   "declared_short": "the-places-my-diary-would-not-hand-over",
    "domain": null,
+   "folder": "the-places-my-diary-would-not-hand-over",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "62d768e18622a50665a1a01b045367d3268363910816b28ba2d63cfc1023c31b",
    "size_bytes": 7631198,
    "updated": "2026-09-29T09:27:56.378Z"
