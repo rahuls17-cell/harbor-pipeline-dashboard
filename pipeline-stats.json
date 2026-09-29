@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T09:55:04+00:00",
+ "generated_at": "2026-09-29T10:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2157,
-  "scanned": 2157,
-  "connector": 587,
-  "non_connector": 1570,
+  "task_folders": 2159,
+  "scanned": 2159,
+  "connector": 588,
+  "non_connector": 1571,
   "errors": 0
  },
  "connector_provenance": {
   "real": 150,
-  "unknown": 179,
+  "unknown": 180,
   "synthetic": 258
  },
  "domain": {
-  "unnamed": 1054,
+  "unnamed": 1056,
   "code": 378,
   "fin": 119,
   "gen": 343,
@@ -22,8 +22,8 @@
   "law": 106
  },
  "name_prefix": {
-  "harbor": 590,
-  "obi": 1555,
+  "harbor": 591,
+  "obi": 1556,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -48,14 +48,14 @@
   "github-gym": 36,
   "supabase-gym": 6,
   "teams-gym": 5,
+  "snowflake-gym": 4,
   "microsoft-teams-gym": 4,
-  "snowflake-gym": 3,
   "microsoft_teams-gym": 2,
   "microsoft-365-gym": 1
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 270054
+  "approx_bytes_read": 265828
  },
  "errors": [],
  "tasks": [
@@ -12135,15 +12135,15 @@
    "updated": "2026-09-25T23:54:12.383Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sc09-a8-vti-task-000242",
    "declared_short": "edu-sc09-a8-vti-task-000242",
-   "folder": "edu-sc09-a8-vti-task-000242",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sc09-a8-vti-task-000242",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "873a16ab0d52295b80256aeeebb456c4f695621ab1e5fde2d00deaebd30333d7",
    "size_bytes": 4870815,
    "updated": "2026-09-29T09:54:36.227Z"
@@ -28415,6 +28415,20 @@
    "updated": "2026-09-24T19:34:05.798Z"
   },
   {
+   "declared_name": "obi/tech-mg-it-b9-a9-assistant-platform-database-explainer",
+   "declared_short": "tech-mg-it-b9-a9-assistant-platform-database-explainer",
+   "folder": "tech-mg-it-b9-a9-assistant-platform-database-explainer",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "6f4b991d45c4d5913967e608219e1691440cb22dcabeb7286a2a954943727185",
+   "size_bytes": 11724109,
+   "updated": "2026-09-29T09:58:12.842Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b20-a4-product-spec-contradiction-audit",
@@ -29067,6 +29081,22 @@
    "sha256": "7e89b002f7b314a59bd34749087344dcfb2daaa96fb4cbfcae80c4051a23eb3a",
    "size_bytes": 59252668,
    "updated": "2026-09-23T07:18:06.271Z"
+  },
+  {
+   "declared_name": "harbor/the-finance-marts-running-on-broken-inputs",
+   "declared_short": "the-finance-marts-running-on-broken-inputs",
+   "folder": "the-finance-marts-running-on-broken-inputs",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "snowflake-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "f38e3bc486b0e4fb906f9c5b571124acd1bb5ba008320f27a83f2bc499153227",
+   "size_bytes": 7176844,
+   "updated": "2026-09-29T09:57:07.669Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -30285,17 +30315,17 @@
    "updated": "2026-09-27T06:38:15.902Z"
   },
   {
-   "declared_name": "harbor/the-standup-that-cloned-itself",
-   "declared_short": "the-standup-that-cloned-itself",
-   "folder": "the-standup-that-cloned-itself",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-standup-that-cloned-itself",
+   "declared_short": "the-standup-that-cloned-itself",
    "domain": null,
+   "folder": "the-standup-that-cloned-itself",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "470a0b2b8a0cd79954f1753291d0394ee08468a4fcad6505399361fc8d4c8837",
    "size_bytes": 25074510,
    "updated": "2026-09-29T09:51:45.632Z"
