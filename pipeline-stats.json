@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-29T05:10:03+00:00",
+ "generated_at": "2026-09-29T05:15:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2105,
-  "scanned": 2105,
-  "connector": 565,
-  "non_connector": 1540,
+  "task_folders": 2109,
+  "scanned": 2109,
+  "connector": 566,
+  "non_connector": 1543,
   "errors": 0
  },
  "connector_provenance": {
   "real": 147,
-  "unknown": 171,
+  "unknown": 172,
   "synthetic": 247
  },
  "domain": {
-  "unnamed": 1010,
-  "code": 376,
+  "unnamed": 1012,
+  "code": 378,
   "fin": 118,
   "gen": 340,
   "health": 156,
   "law": 105
  },
  "name_prefix": {
-  "harbor": 568,
-  "obi": 1525,
+  "harbor": 569,
+  "obi": 1528,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 204,
+  "slack-gym": 205,
   "google-drive-gym": 201,
   "zeta3-sql-gym": 196,
   "confluence-gym": 190,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 4,
+  "approx_bytes_read": 527295
  },
  "errors": [],
  "tasks": [
@@ -4523,6 +4523,20 @@
    "updated": "2026-09-09T04:36:46.374Z"
   },
   {
+   "declared_name": "obi/career-b49-l4-employment-counter-position-board",
+   "declared_short": "career-b49-l4-employment-counter-position-board",
+   "folder": "career-b49-l4-employment-counter-position-board",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1dfcea20069dcf2953e406fbc33d3931966cc6c0cd4381b329545926b68dcde3",
+   "size_bytes": 7991444,
+   "updated": "2026-09-29T05:13:59.604Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/career-b49-l7-eeo-competency-evidence-coverage",
@@ -7275,6 +7289,20 @@
    "updated": "2026-09-26T16:23:25.224Z"
   },
   {
+   "declared_name": "obi/code-c310-k2-module-qa-defect-closure-audit",
+   "declared_short": "code-c310-k2-module-qa-defect-closure-audit",
+   "folder": "code-c310-k2-module-qa-defect-closure-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "35148ea46f5fea6c3cfa056c0ca6e3216046ab3a4812d290d5d23f1577ea9819",
+   "size_bytes": 6116578,
+   "updated": "2026-09-29T05:14:42.032Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c311-portal-database-cutover-parity-audit",
@@ -7623,6 +7651,20 @@
    "sha256": "af34f12d55fb6dc05301f999f09e4fd158578fb2ca3d88220cee6db014b721da",
    "size_bytes": 5831422,
    "updated": "2026-09-19T23:02:32.225Z"
+  },
+  {
+   "declared_name": "obi/code-c352-agent-shakedown-gate-completion-audit",
+   "declared_short": "code-c352-agent-shakedown-gate-completion-audit",
+   "folder": "code-c352-agent-shakedown-gate-completion-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "b7bf8cfb3ea63bd537e9b7787253b39940d8c3e68f931e2caee308d36f19d769",
+   "size_bytes": 4409857,
+   "updated": "2026-09-29T05:11:30.011Z"
   },
   {
    "connector_provenance": null,
@@ -31033,6 +31075,22 @@
    "sha256": "10bb8813b1f557cf29f1f5ae8e5d57c1d68fd7a933db3985dbf28be175ae9fad",
    "size_bytes": 8992030,
    "updated": "2026-09-24T12:30:34.030Z"
+  },
+  {
+   "declared_name": "harbor/where-the-calls-happen",
+   "declared_short": "where-the-calls-happen",
+   "folder": "where-the-calls-happen",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "ffc45ddf02e9d00311e6e6af1a9c5b8eb1248fea2f935d8441423f4d63b50406",
+   "size_bytes": 99972200,
+   "updated": "2026-09-29T05:10:34.394Z"
   },
   {
    "connector_provenance": "synthetic",
