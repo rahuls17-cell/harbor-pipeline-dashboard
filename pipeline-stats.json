@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T14:00:03+00:00",
+ "generated_at": "2026-09-29T14:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2196,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131586
+  "approx_bytes_read": 131495
  },
  "errors": [],
  "tasks": [
@@ -4463,15 +4463,15 @@
    "updated": "2026-09-24T02:51:59.910Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b66-b1-podcast-sponsor-entitlement-audit",
    "declared_short": "bus-b66-b1-podcast-sponsor-entitlement-audit",
-   "folder": "bus-b66-b1-podcast-sponsor-entitlement-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b66-b1-podcast-sponsor-entitlement-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "118013a0d929331ed7c6b94eddc31e3dab8874f1f438a6aaa748ce8031c64b11",
    "size_bytes": 8390473,
    "updated": "2026-09-29T13:56:51.717Z"
@@ -12559,18 +12559,18 @@
    "updated": "2026-09-29T08:30:56.791Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "edu/sca-b27-nursing-sim-route-case-catalog",
    "declared_short": "sca-b27-nursing-sim-route-case-catalog",
-   "domain": null,
    "folder": "edu-sca-b27-nursing-sim-route-case-catalog",
-   "image": null,
-   "is_connector": false,
    "prefix": "edu",
-   "sha256": "52fac16fc243abca634fc91053be28f3407c8bc6c7d1d5956cdba0a67735ef0f",
-   "size_bytes": 4762499,
-   "updated": "2026-09-28T22:19:39.294Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1fc39b20d88965c3e2f1f880124dc50bd063add1519e5216288d43dbc8478f85",
+   "size_bytes": 3866954,
+   "updated": "2026-09-29T14:00:51.169Z"
   },
   {
    "connector_provenance": null,
