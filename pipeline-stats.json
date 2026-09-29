@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T12:25:03+00:00",
+ "generated_at": "2026-09-29T12:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2185,
-  "scanned": 2185,
+  "task_folders": 2186,
+  "scanned": 2186,
   "connector": 596,
-  "non_connector": 1589,
+  "non_connector": 1590,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 262
  },
  "domain": {
-  "unnamed": 1075,
+  "unnamed": 1076,
   "code": 379,
   "fin": 119,
   "gen": 347,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 598,
-  "obi": 1575,
+  "obi": 1576,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131434
+  "approx_bytes_read": 131608
  },
  "errors": [],
  "tasks": [
@@ -4587,6 +4587,20 @@
    "sha256": "80c82e89ab9e8d0501963957faf3ea70ad0272227d8fe8cc60cfebfc02f2ff73",
    "size_bytes": 7782881,
    "updated": "2026-09-25T08:55:10.319Z"
+  },
+  {
+   "declared_name": "obi/bus-b67-b8-grant-research-project-schedule",
+   "declared_short": "bus-b67-b8-grant-research-project-schedule",
+   "folder": "bus-b67-b8-grant-research-project-schedule",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "3f20927a878258fe173c28b903ba79707560e1d5ee8846ac95fa61b2774689d2",
+   "size_bytes": 5257808,
+   "updated": "2026-09-29T12:27:44.659Z"
   },
   {
    "connector_provenance": null,
@@ -27401,15 +27415,15 @@
    "updated": "2026-09-25T20:27:27.186Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b51-t1-tooling-resource-approval-register",
    "declared_short": "tech-b51-t1-tooling-resource-approval-register",
-   "folder": "tech-b51-t1-tooling-resource-approval-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b51-t1-tooling-resource-approval-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "2283372d92863fbf790d9dbc55d1b80039e1f72d12393309c693c0d13bac3d45",
    "size_bytes": 5592570,
    "updated": "2026-09-29T12:24:05.981Z"
