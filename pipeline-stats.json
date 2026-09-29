@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T06:45:03+00:00",
+ "generated_at": "2026-09-29T06:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2123,
-  "scanned": 2123,
+  "task_folders": 2124,
+  "scanned": 2124,
   "connector": 573,
-  "non_connector": 1550,
+  "non_connector": 1551,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 1025,
   "code": 378,
   "fin": 118,
-  "gen": 341,
+  "gen": 342,
   "health": 156,
   "law": 105
  },
  "name_prefix": {
   "harbor": 576,
-  "obi": 1535,
+  "obi": 1536,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131426
  },
  "errors": [],
  "tasks": [
@@ -15406,6 +15406,20 @@
    "sha256": "7b75d5dcd0b49178530fbb5949509f94d0417ace87380039e7dfea31d85b36f5",
    "size_bytes": 6898065,
    "updated": "2026-09-20T20:07:50.087Z"
+  },
+  {
+   "declared_name": "obi/gen-g158-hoa-special-assessment-recompute",
+   "declared_short": "gen-g158-hoa-special-assessment-recompute",
+   "folder": "gen-g158-hoa-special-assessment-recompute-82b521-v1-s100-ckkn",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "f5093431a6cf70634c51be06f5c2a8c03febb82282abae17fe6b172d248203cb",
+   "size_bytes": 4696379,
+   "updated": "2026-09-29T06:45:39.446Z"
   },
   {
    "connector_provenance": null,
