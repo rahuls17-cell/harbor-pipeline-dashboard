@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T03:25:03+00:00",
+ "generated_at": "2026-09-29T03:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2094,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131490
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -12978,15 +12978,15 @@
    "updated": "2026-09-16T22:58:48.955Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b46-a2-vessel-cash-waterfall",
    "declared_short": "fin-b46-a2-vessel-cash-waterfall",
-   "folder": "fin-b46-a2-vessel-cash-waterfall",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b46-a2-vessel-cash-waterfall",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "64a815500e288bc2d35b246bb58ffa8e1688722301a76858e58e22318d191474",
    "size_bytes": 18640633,
    "updated": "2026-09-29T03:20:38.495Z"
