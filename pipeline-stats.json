@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T16:35:04+00:00",
+ "generated_at": "2026-09-29T16:40:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2216,
-  "scanned": 2216,
-  "connector": 602,
+  "task_folders": 2218,
+  "scanned": 2218,
+  "connector": 604,
   "non_connector": 1614,
   "errors": 0
  },
  "connector_provenance": {
   "real": 151,
   "unknown": 186,
-  "synthetic": 265
+  "synthetic": 267
  },
  "domain": {
-  "unnamed": 1097,
+  "unnamed": 1099,
   "code": 379,
   "fin": 120,
   "gen": 354,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 604,
+  "harbor": 606,
   "obi": 1600,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 211,
+  "slack-gym": 212,
   "google-drive-gym": 201,
   "zeta3-sql-gym": 196,
   "confluence-gym": 190,
@@ -41,8 +41,8 @@
   "freshdesk-gym": 184,
   "slack": 64,
   "linear-gym": 54,
+  "email-calendar-gym": 50,
   "outlook-gym": 50,
-  "email-calendar-gym": 49,
   "notion-gym": 47,
   "gws-gym": 41,
   "github-gym": 37,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131867
+  "new_archives_read": 2,
+  "approx_bytes_read": 278386
  },
  "errors": [],
  "tasks": [
@@ -4059,15 +4059,15 @@
    "updated": "2026-09-28T09:01:04.358Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b54-b4-executive-draft-style-conformance",
    "declared_short": "bus-b54-b4-executive-draft-style-conformance",
-   "folder": "bus-b54-b4-executive-draft-style-conformance",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b54-b4-executive-draft-style-conformance",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "cbaaaddd93ae04292a5fdaf8ed9d1a09616f752720bb69af71e0516fc380ad95",
    "size_bytes": 11135176,
    "updated": "2026-09-29T16:32:17.083Z"
@@ -31287,6 +31287,22 @@
    "updated": "2026-09-26T08:35:54.198Z"
   },
   {
+   "declared_name": "harbor/the-two-things-that-slipped-through",
+   "declared_short": "the-two-things-that-slipped-through",
+   "folder": "the-two-things-that-slipped-through",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2cff117626c03a089896e88e7fd7e84c67a24823de868e2b62f8cfacd3822ff0",
+   "size_bytes": 7016350,
+   "updated": "2026-09-29T16:37:48.810Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
@@ -32679,6 +32695,22 @@
    "sha256": "87751448df4e9b8ed935848bf70b614bd42e27ec8bfcd8209bd3d9c8e990b282",
    "size_bytes": 7155523,
    "updated": "2026-09-28T19:51:03.056Z"
+  },
+  {
+   "declared_name": "harbor/which-jj-do-you-mean",
+   "declared_short": "which-jj-do-you-mean",
+   "folder": "which-jj-do-you-mean",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "23c5f6a880aa4ea00c340e4162db15cc27e2079f037eb8175607439912872e1b",
+   "size_bytes": 6969527,
+   "updated": "2026-09-29T16:37:09.071Z"
   },
   {
    "connector_provenance": "synthetic",
