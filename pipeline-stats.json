@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T05:20:04+00:00",
+ "generated_at": "2026-09-29T05:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2110,
-  "scanned": 2110,
-  "connector": 566,
+  "task_folders": 2111,
+  "scanned": 2111,
+  "connector": 567,
   "non_connector": 1544,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 147,
+  "real": 148,
   "unknown": 172,
   "synthetic": 247
  },
  "domain": {
-  "unnamed": 1013,
+  "unnamed": 1014,
   "code": 378,
   "fin": 118,
   "gen": 340,
@@ -22,7 +22,7 @@
   "law": 105
  },
  "name_prefix": {
-  "harbor": 569,
+  "harbor": 570,
   "obi": 1529,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "slack": 64,
   "linear-gym": 50,
   "notion-gym": 46,
-  "email-calendar-gym": 43,
+  "email-calendar-gym": 44,
   "outlook-gym": 40,
   "gws-gym": 37,
   "github-gym": 36,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131459
+  "approx_bytes_read": 134305
  },
  "errors": [],
  "tasks": [
@@ -593,6 +593,22 @@
    "sha256": "8c6f7a6c4ca473c03671780849e4cb9220908c34c1a42727e1bda93e56f69add",
    "size_bytes": 11232187,
    "updated": "2026-09-26T21:57:29.565Z"
+  },
+  {
+   "declared_name": "harbor/anyone-but-sawyer",
+   "declared_short": "anyone-but-sawyer",
+   "folder": "ASTR_101459",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "0aae7d6b0cf72681a6c4653d3e8a2c6e3cb99017fca575bfdd05c8cb90ba35b1",
+   "size_bytes": 12183346,
+   "updated": "2026-09-29T05:23:35.274Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -4005,15 +4021,15 @@
    "updated": "2026-09-28T23:00:10.597Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b58-t3-distributor-category-grounding",
    "declared_short": "bus-b58-t3-distributor-category-grounding",
-   "folder": "bus-b58-t3-distributor-category-grounding",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b58-t3-distributor-category-grounding",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4a218f2b6beafaaad67bd4438ae1a9192f5bef02bc7a5170b42a4576dfe0d9a9",
    "size_bytes": 4555537,
    "updated": "2026-09-29T05:16:38.214Z"
