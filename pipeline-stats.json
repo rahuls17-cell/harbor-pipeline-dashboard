@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-29T20:35:03+00:00",
+ "generated_at": "2026-09-29T20:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2249,
-  "scanned": 2249,
-  "connector": 619,
+  "task_folders": 2250,
+  "scanned": 2250,
+  "connector": 620,
   "non_connector": 1630,
   "errors": 0
  },
  "connector_provenance": {
   "real": 153,
   "unknown": 188,
-  "synthetic": 278
+  "synthetic": 279
  },
  "domain": {
-  "unnamed": 1124,
+  "unnamed": 1125,
   "code": 379,
   "fin": 120,
   "gen": 355,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 621,
+  "harbor": 622,
   "obi": 1616,
   "bus": 1,
   "edu": 3,
@@ -48,14 +48,14 @@
   "github-gym": 38,
   "supabase-gym": 7,
   "teams-gym": 6,
+  "snowflake-gym": 5,
   "microsoft-teams-gym": 5,
-  "snowflake-gym": 4,
   "microsoft_teams-gym": 2,
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263598
+  "new_archives_read": 1,
+  "approx_bytes_read": 135712
  },
  "errors": [],
  "tasks": [
@@ -12857,15 +12857,15 @@
    "updated": "2026-09-28T04:15:13.274Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sca-b31-seminar-video-relevance-match",
    "declared_short": "edu-sca-b31-seminar-video-relevance-match",
-   "folder": "edu-sca-b31-seminar-video-relevance-match-v1",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sca-b31-seminar-video-relevance-match-v1",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d95d22ea2fe3708a717d59a076cd28c40156213bdd0f8c56f04510de89467532",
    "size_bytes": 7687173,
    "updated": "2026-09-29T20:32:27.720Z"
@@ -13355,6 +13355,22 @@
    "sha256": "197726fe8150b0a921c4fba57d4e7e545a4e9fd7889371440f3830c24901545e",
    "size_bytes": 3109659,
    "updated": "2026-09-10T14:24:31.771Z"
+  },
+  {
+   "declared_name": "harbor/feeds-nobody-wired",
+   "declared_short": "feeds-nobody-wired",
+   "folder": "feeds-nobody-wired",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "1a1d0c3d2ea8964b7ebde29383cbbfbfe1176f0967e6f3612a6ed3197c5d7576",
+   "size_bytes": 10466044,
+   "updated": "2026-09-29T20:36:16.742Z"
   },
   {
    "connector_provenance": "real",
@@ -28421,15 +28437,15 @@
    "updated": "2026-09-25T14:40:35.503Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b52-t2-fuel-site-inspection-cadence",
    "declared_short": "tech-b52-t2-fuel-site-inspection-cadence",
-   "folder": "tech-b52-t2-fuel-site-inspection-cadence",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b52-t2-fuel-site-inspection-cadence",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "4b881aee027b1d325a8eab4b0ad0333babfa1a8659b819884d5ef2cd6cf058a4",
    "size_bytes": 6296898,
    "updated": "2026-09-29T20:31:33.440Z"
