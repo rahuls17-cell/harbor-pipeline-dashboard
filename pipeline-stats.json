@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T19:40:03+00:00",
+ "generated_at": "2026-09-29T19:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2243,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131450
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -17400,15 +17400,15 @@
    "updated": "2026-09-09T09:17:52.352Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g478-apparel-finishing-qc-audit",
    "declared_short": "gen-g478-apparel-finishing-qc-audit",
-   "folder": "gen-g478-apparel-finishing-qc-audit-20260903T165-65bb21-v2-sna-fhyp",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g478-apparel-finishing-qc-audit-20260903T165-65bb21-v2-sna-fhyp",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7c87c2fa39805399055262e727ba0a677ac0fa9adc8b5e3cf32b2e84cdf57c8c",
    "size_bytes": 5957544,
    "updated": "2026-09-29T19:39:04.051Z"
