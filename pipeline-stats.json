@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T13:20:03+00:00",
+ "generated_at": "2026-09-29T13:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2191,
-  "scanned": 2191,
+  "task_folders": 2192,
+  "scanned": 2192,
   "connector": 598,
-  "non_connector": 1593,
+  "non_connector": 1594,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 264
  },
  "domain": {
-  "unnamed": 1080,
+  "unnamed": 1081,
   "code": 379,
   "fin": 119,
   "gen": 348,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 600,
-  "obi": 1579,
+  "obi": 1580,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 262998
+  "new_archives_read": 1,
+  "approx_bytes_read": 131413
  },
  "errors": [],
  "tasks": [
@@ -4127,15 +4127,15 @@
    "updated": "2026-09-26T22:11:21.197Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b56-a4-lift-quote-ledger-recompute",
    "declared_short": "bus-b56-a4-lift-quote-ledger-recompute",
-   "folder": "bus-b56-a4-lift-quote-ledger-recompute",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b56-a4-lift-quote-ledger-recompute",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e49881c9466b702bb20c60ebcd46cdfe97936a8937a3ce045ab2e692a4a609cb",
    "size_bytes": 4303989,
    "updated": "2026-09-29T13:17:23.540Z"
@@ -11439,6 +11439,20 @@
    "updated": "2026-09-29T05:42:35.494Z"
   },
   {
+   "declared_name": "obi/edu-b21-g6-rite-question-bank-assembly",
+   "declared_short": "edu-b21-g6-rite-question-bank-assembly",
+   "folder": "edu-b21-g6-rite-question-bank-assembly",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "4e9b4a0b188572f96189ab1e99b3513cb6273f62937625bbbafc9fa8743ba223",
+   "size_bytes": 4024562,
+   "updated": "2026-09-29T13:23:38.443Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-b50-a10-number-system-worksheet-normalisation",
@@ -18628,15 +18642,15 @@
    "updated": "2026-09-16T13:10:00.301Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g847-cpe-verbatim-documentation-audit",
    "declared_short": "gen-g847-cpe-verbatim-documentation-audit",
-   "folder": "gen-g847-cpe-verbatim-documentation-audit-9d17aa-v7-sna-pgjg",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g847-cpe-verbatim-documentation-audit-9d17aa-v7-sna-pgjg",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ee06a9d7ea61e4cf130f088e9f4ccadf026bf98d2e74b87a6fa87dc37f60e321",
    "size_bytes": 6169712,
    "updated": "2026-09-29T13:17:57.259Z"
