@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T10:45:04+00:00",
+ "generated_at": "2026-09-29T10:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2169,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 272129
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -23522,15 +23522,15 @@
    "updated": "2026-09-19T19:21:10.551Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/law-b39-l13-vendor-contract-status-register",
    "declared_short": "law-b39-l13-vendor-contract-status-register",
-   "folder": "law-b39-l13-vendor-contract-status-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "law",
+   "folder": "law-b39-l13-vendor-contract-status-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "1e603a1935e640fb0a87dfb7ac792e1718e164b6e3073d7b31a42bb9b7dbc271",
    "size_bytes": 5816225,
    "updated": "2026-09-29T10:44:58.613Z"
@@ -31789,17 +31789,17 @@
    "updated": "2026-09-23T07:19:55.557Z"
   },
   {
-   "declared_name": "harbor/what-my-calendar-costs-everyone-else",
-   "declared_short": "what-my-calendar-costs-everyone-else",
-   "folder": "what-my-calendar-costs-everyone-else",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/what-my-calendar-costs-everyone-else",
+   "declared_short": "what-my-calendar-costs-everyone-else",
    "domain": null,
+   "folder": "what-my-calendar-costs-everyone-else",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b99b69e2bed7990bc14efac5643d7b88933d6150932609d774ac4e7970128327",
    "size_bytes": 16651585,
    "updated": "2026-09-29T10:41:35.852Z"
