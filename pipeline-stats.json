@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T15:05:03+00:00",
+ "generated_at": "2026-09-29T15:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2202,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131444
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -17718,15 +17718,15 @@
    "updated": "2026-09-29T13:48:10.954Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g63-environmental-permit-audit",
    "declared_short": "gen-g63-environmental-permit-audit",
-   "folder": "gen-g63-environmental-permit-audit-6c589b-v8-sna-oytt",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g63-environmental-permit-audit-6c589b-v8-sna-oytt",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d0f0e0f0eaea51de5340f1e408bfc429e8c727234b546ae3723f92080e31f0f4",
    "size_bytes": 4296166,
    "updated": "2026-09-29T15:00:27.200Z"
