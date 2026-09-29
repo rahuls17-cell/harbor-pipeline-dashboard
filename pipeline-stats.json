@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T13:15:03+00:00",
+ "generated_at": "2026-09-29T13:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2189,
-  "scanned": 2189,
+  "task_folders": 2191,
+  "scanned": 2191,
   "connector": 598,
-  "non_connector": 1591,
+  "non_connector": 1593,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,16 +14,16 @@
   "synthetic": 264
  },
  "domain": {
-  "unnamed": 1079,
+  "unnamed": 1080,
   "code": 379,
   "fin": 119,
-  "gen": 347,
+  "gen": 348,
   "health": 157,
   "law": 108
  },
  "name_prefix": {
   "harbor": 600,
-  "obi": 1577,
+  "obi": 1579,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 143212
+  "new_archives_read": 2,
+  "approx_bytes_read": 262998
  },
  "errors": [],
  "tasks": [
@@ -4125,6 +4125,20 @@
    "sha256": "bf44646c95f52f5902b3e3ee8b3d92973318999615b3329cf823f318d4072fe2",
    "size_bytes": 7775862,
    "updated": "2026-09-26T22:11:21.197Z"
+  },
+  {
+   "declared_name": "obi/bus-b56-a4-lift-quote-ledger-recompute",
+   "declared_short": "bus-b56-a4-lift-quote-ledger-recompute",
+   "folder": "bus-b56-a4-lift-quote-ledger-recompute",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "e49881c9466b702bb20c60ebcd46cdfe97936a8937a3ce045ab2e692a4a609cb",
+   "size_bytes": 4303989,
+   "updated": "2026-09-29T13:17:23.540Z"
   },
   {
    "connector_provenance": null,
@@ -18614,6 +18628,20 @@
    "updated": "2026-09-16T13:10:00.301Z"
   },
   {
+   "declared_name": "obi/gen-g847-cpe-verbatim-documentation-audit",
+   "declared_short": "gen-g847-cpe-verbatim-documentation-audit",
+   "folder": "gen-g847-cpe-verbatim-documentation-audit-9d17aa-v7-sna-pgjg",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "ee06a9d7ea61e4cf130f088e9f4ccadf026bf98d2e74b87a6fa87dc37f60e321",
+   "size_bytes": 6169712,
+   "updated": "2026-09-29T13:17:57.259Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g850-sdi-project-phase-sequencing-audit",
@@ -24974,17 +25002,17 @@
    "updated": "2026-09-19T17:11:12.762Z"
   },
   {
-   "declared_name": "harbor/meeting-declines-for-my-leave",
-   "declared_short": "meeting-declines-for-my-leave",
-   "folder": "meeting-declines-for-my-leave",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/meeting-declines-for-my-leave",
+   "declared_short": "meeting-declines-for-my-leave",
    "domain": null,
+   "folder": "meeting-declines-for-my-leave",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7eb0d11fad4c424a51525a65cb994bd7b7d3ad941e803403eb111b33b61448e8",
    "size_bytes": 8346133,
    "updated": "2026-09-29T13:11:24.342Z"
