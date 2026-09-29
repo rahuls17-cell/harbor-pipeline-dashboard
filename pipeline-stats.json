@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T12:20:03+00:00",
+ "generated_at": "2026-09-29T12:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2184,
-  "scanned": 2184,
+  "task_folders": 2185,
+  "scanned": 2185,
   "connector": 596,
-  "non_connector": 1588,
+  "non_connector": 1589,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 262
  },
  "domain": {
-  "unnamed": 1074,
+  "unnamed": 1075,
   "code": 379,
   "fin": 119,
   "gen": 347,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 598,
-  "obi": 1574,
+  "obi": 1575,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131434
  },
  "errors": [],
  "tasks": [
@@ -27399,6 +27399,20 @@
    "sha256": "c7efda38a1f3f5f31fd59a662118d53715291b395d035f503965f725a9fca769",
    "size_bytes": 4195834,
    "updated": "2026-09-25T20:27:27.186Z"
+  },
+  {
+   "declared_name": "obi/tech-b51-t1-tooling-resource-approval-register",
+   "declared_short": "tech-b51-t1-tooling-resource-approval-register",
+   "folder": "tech-b51-t1-tooling-resource-approval-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "2283372d92863fbf790d9dbc55d1b80039e1f72d12393309c693c0d13bac3d45",
+   "size_bytes": 5592570,
+   "updated": "2026-09-29T12:24:05.981Z"
   },
   {
    "connector_provenance": null,
