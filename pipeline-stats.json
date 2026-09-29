@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-29T08:00:03+00:00",
+ "generated_at": "2026-09-29T08:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2138,
-  "scanned": 2138,
-  "connector": 580,
-  "non_connector": 1558,
+  "task_folders": 2141,
+  "scanned": 2141,
+  "connector": 581,
+  "non_connector": 1560,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 148,
+  "real": 149,
   "unknown": 178,
   "synthetic": 254
  },
  "domain": {
-  "unnamed": 1038,
+  "unnamed": 1040,
   "code": 378,
   "fin": 119,
   "gen": 342,
   "health": 156,
-  "law": 105
+  "law": 106
  },
  "name_prefix": {
-  "harbor": 583,
-  "obi": 1543,
+  "harbor": 584,
+  "obi": 1545,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 208,
+  "slack-gym": 209,
   "google-drive-gym": 201,
   "zeta3-sql-gym": 196,
   "confluence-gym": 190,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 265426
+  "new_archives_read": 3,
+  "approx_bytes_read": 400695
  },
  "errors": [],
  "tasks": [
@@ -563,17 +563,17 @@
    "updated": "2026-09-29T04:18:38.600Z"
   },
   {
-   "declared_name": "harbor/who-can-reach-the-pilot-program",
-   "declared_short": "who-can-reach-the-pilot-program",
-   "folder": "ASTR_101447",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/who-can-reach-the-pilot-program",
+   "declared_short": "who-can-reach-the-pilot-program",
    "domain": null,
+   "folder": "ASTR_101447",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3d9e2efa8cf3d41ff028609f38930657f864f5d3ec27f459d6eba98e8711f874",
    "size_bytes": 10813656,
    "updated": "2026-09-29T07:56:16.315Z"
@@ -11603,6 +11603,20 @@
    "updated": "2026-09-29T03:43:10.693Z"
   },
   {
+   "declared_name": "obi/edu-mg-edu-b14-a7-listening-key-synonym-marking",
+   "declared_short": "edu-mg-edu-b14-a7-listening-key-synonym-marking",
+   "folder": "edu-mg-edu-b14-a7-listening-key-synonym-marking",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "dc1722262e02c8ee34b0971893841fe1a646213747b8c1b844416985adabe879",
+   "size_bytes": 6553393,
+   "updated": "2026-09-29T08:02:36.355Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-mg-edu-b15-a1-konsequenzenregister-aktenabgleich",
@@ -12359,15 +12373,15 @@
    "updated": "2026-09-29T07:53:49.755Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sca-b5-pitch-deck-cheat-sheet-condensation",
    "declared_short": "edu-sca-b5-pitch-deck-cheat-sheet-condensation",
-   "folder": "edu-sca-b5-pitch-deck-cheat-sheet-condensation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sca-b5-pitch-deck-cheat-sheet-condensation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "444a9effa3616c07bafd7d207ff0a3b809252287a05800be2f0878a8acfad09f",
    "size_bytes": 6746739,
    "updated": "2026-09-29T07:56:46.016Z"
@@ -24386,6 +24400,20 @@
    "updated": "2026-09-22T14:57:31.651Z"
   },
   {
+   "declared_name": "obi/law-l94-workplace-conduct-characterization-audit",
+   "declared_short": "law-l94-workplace-conduct-characterization-audit",
+   "folder": "law-l94-workplace-conduct-characterization-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "law",
+   "image": null,
+   "sha256": "561f47770d7ef033bd54b43aec63cb558069eead68782a4c2104c67e6752a5ea",
+   "size_bytes": 5949298,
+   "updated": "2026-09-29T08:00:29.924Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -28707,6 +28735,22 @@
    "sha256": "63da57b6ab09c2c4e5f91f8c5103f1e48e6a311e10c4c489591470de58e001f8",
    "size_bytes": 8197304,
    "updated": "2026-09-20T03:00:19.959Z"
+  },
+  {
+   "declared_name": "harbor/the-decisions-nobody-wrote-down",
+   "declared_short": "the-decisions-nobody-wrote-down",
+   "folder": "the-decisions-nobody-wrote-down",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "6aad06bfb84baeaee6094fdcbcf02e05816078881d27b747c29d5cafcd39c99c",
+   "size_bytes": 7552581,
+   "updated": "2026-09-29T08:01:11.291Z"
   },
   {
    "connector_provenance": "real",
