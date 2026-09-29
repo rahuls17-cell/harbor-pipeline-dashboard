@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T03:20:03+00:00",
+ "generated_at": "2026-09-29T03:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2093,
-  "scanned": 2093,
+  "task_folders": 2094,
+  "scanned": 2094,
   "connector": 561,
-  "non_connector": 1532,
+  "non_connector": 1533,
   "errors": 0
  },
  "connector_provenance": {
@@ -16,14 +16,14 @@
  "domain": {
   "unnamed": 1002,
   "code": 375,
-  "fin": 117,
+  "fin": 118,
   "gen": 339,
   "health": 155,
   "law": 105
  },
  "name_prefix": {
   "harbor": 564,
-  "obi": 1517,
+  "obi": 1518,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 138375
+  "approx_bytes_read": 131490
  },
  "errors": [],
  "tasks": [
@@ -12978,6 +12978,20 @@
    "updated": "2026-09-16T22:58:48.955Z"
   },
   {
+   "declared_name": "obi/fin-b46-a2-vessel-cash-waterfall",
+   "declared_short": "fin-b46-a2-vessel-cash-waterfall",
+   "folder": "fin-b46-a2-vessel-cash-waterfall",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "64a815500e288bc2d35b246bb58ffa8e1688722301a76858e58e22318d191474",
+   "size_bytes": 18640633,
+   "updated": "2026-09-29T03:20:38.495Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/fin-b46-a4-pro-forma-revenue-audit",
@@ -24808,17 +24822,17 @@
    "updated": "2026-09-13T19:25:18.912Z"
   },
   {
-   "declared_name": "harbor/reviews-that-lost-their-original",
-   "declared_short": "reviews-that-lost-their-original",
-   "folder": "reviews-that-lost-their-original",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/reviews-that-lost-their-original",
+   "declared_short": "reviews-that-lost-their-original",
    "domain": null,
+   "folder": "reviews-that-lost-their-original",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7e3533a7145798927c7ccea7fd5a2a15fa7a175550f0e7e6542a81eaa823067e",
    "size_bytes": 11290064,
    "updated": "2026-09-29T03:17:50.807Z"
