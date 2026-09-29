@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T17:45:05+00:00",
+ "generated_at": "2026-09-29T17:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2235,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131631
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -22154,15 +22154,15 @@
    "updated": "2026-09-06T17:20:28.018Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-h84-malnutrition-severity-staging-audit",
    "declared_short": "health-h84-malnutrition-severity-staging-audit",
-   "folder": "health-h84-malnutrition-f26e78-v10-sna-pien",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-h84-malnutrition-f26e78-v10-sna-pien",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "fb292c33d3f3c29c79c3eebe2af3b3dc8ab51c417226e132493be1b5aad4fc42",
    "size_bytes": 6491520,
    "updated": "2026-09-29T17:43:21.638Z"
