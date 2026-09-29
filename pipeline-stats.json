@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29T22:05:03+00:00",
+ "generated_at": "2026-09-29T22:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2258,
-  "scanned": 2258,
+  "task_folders": 2259,
+  "scanned": 2259,
   "connector": 622,
-  "non_connector": 1636,
+  "non_connector": 1637,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 1131,
   "code": 379,
   "fin": 120,
-  "gen": 357,
+  "gen": 358,
   "health": 163,
   "law": 108
  },
  "name_prefix": {
   "harbor": 624,
-  "obi": 1622,
+  "obi": 1623,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136756
+  "approx_bytes_read": 131451
  },
  "errors": [],
  "tasks": [
@@ -19112,6 +19112,20 @@
    "updated": "2026-09-22T09:07:41.731Z"
   },
   {
+   "declared_name": "obi/gen-g834-newsletter-prepress-qc-audit",
+   "declared_short": "gen-g834-newsletter-prepress-qc-audit",
+   "folder": "gen-g834-newsletter-prepress-qc-audit-7e475e-v5-sna-ifuv",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "6ff470e8d587ac13de313c80628aaa5f70c76f6a3134dc079fb3fefe10196b03",
+   "size_bytes": 4065255,
+   "updated": "2026-09-29T22:09:29.892Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g837-slide-template-baseline-compliance-audit",
@@ -31555,17 +31569,17 @@
    "updated": "2026-09-28T19:24:58.194Z"
   },
   {
-   "declared_name": "harbor/the-seat-my-invitations-put-me-in",
-   "declared_short": "the-seat-my-invitations-put-me-in",
-   "folder": "the-seat-my-invitations-put-me-in",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-seat-my-invitations-put-me-in",
+   "declared_short": "the-seat-my-invitations-put-me-in",
    "domain": null,
+   "folder": "the-seat-my-invitations-put-me-in",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3dc0dcb75d517cd70a3c99de5a61573e9e06f5509952894cb54d629323594f82",
    "size_bytes": 4725612,
    "updated": "2026-09-29T22:04:11.656Z"
