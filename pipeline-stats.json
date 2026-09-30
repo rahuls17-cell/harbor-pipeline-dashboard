@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-30T09:30:03+00:00",
+ "generated_at": "2026-09-30T09:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2308,
-  "scanned": 2308,
-  "connector": 657,
+  "task_folders": 2309,
+  "scanned": 2309,
+  "connector": 658,
   "non_connector": 1651,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 155,
+  "real": 156,
   "unknown": 194,
   "synthetic": 308
  },
  "domain": {
-  "unnamed": 1170,
+  "unnamed": 1171,
   "code": 379,
   "fin": 120,
   "gen": 368,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 659,
+  "harbor": 660,
   "obi": 1637,
   "bus": 1,
   "edu": 3,
@@ -43,7 +43,7 @@
   "email-calendar-gym": 60,
   "outlook-gym": 60,
   "linear-gym": 58,
-  "notion-gym": 50,
+  "notion-gym": 51,
   "gws-gym": 50,
   "github-gym": 44,
   "supabase-gym": 8,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136951
+  "approx_bytes_read": 137314
  },
  "errors": [],
  "tasks": [
@@ -26524,6 +26524,22 @@
    "updated": "2026-09-27T05:45:28.820Z"
   },
   {
+   "declared_name": "harbor/projects-left-in-progress-past-their-dates",
+   "declared_short": "projects-left-in-progress-past-their-dates",
+   "folder": "projects-left-in-progress-past-their-dates",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "14307e90c61acf14cbcf9f09bf6d4075671b486e249b1913665adcb2be7c7d84",
+   "size_bytes": 8058980,
+   "updated": "2026-09-30T09:30:39.600Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
@@ -34311,17 +34327,17 @@
    "updated": "2026-09-23T07:08:22.794Z"
   },
   {
-   "declared_name": "harbor/whose-spend-is-whose",
-   "declared_short": "whose-spend-is-whose",
-   "folder": "whose-spend-is-whose",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/whose-spend-is-whose",
+   "declared_short": "whose-spend-is-whose",
    "domain": null,
+   "folder": "whose-spend-is-whose",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "75eace5c67425b4fde34f715a026b5f0acf2d7e27bb5652e29c5e2b327ff2a11",
    "size_bytes": 10244372,
    "updated": "2026-09-30T09:29:32.571Z"
