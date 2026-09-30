@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-30T07:00:04+00:00",
+ "generated_at": "2026-09-30T07:05:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2276,
-  "scanned": 2276,
-  "connector": 631,
+  "task_folders": 2279,
+  "scanned": 2279,
+  "connector": 634,
   "non_connector": 1645,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 153,
+  "real": 154,
   "unknown": 191,
-  "synthetic": 287
+  "synthetic": 289
  },
  "domain": {
-  "unnamed": 1142,
+  "unnamed": 1145,
   "code": 379,
   "fin": 120,
   "gen": 364,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 633,
+  "harbor": 636,
   "obi": 1631,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 213,
+  "slack-gym": 214,
   "google-drive-gym": 202,
   "zeta3-sql-gym": 197,
   "confluence-gym": 191,
@@ -42,10 +42,10 @@
   "slack": 65,
   "linear-gym": 57,
   "outlook-gym": 56,
-  "email-calendar-gym": 54,
+  "email-calendar-gym": 55,
   "notion-gym": 49,
   "gws-gym": 47,
-  "github-gym": 39,
+  "github-gym": 40,
   "supabase-gym": 7,
   "teams-gym": 6,
   "snowflake-gym": 5,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 263995
+  "new_archives_read": 3,
+  "approx_bytes_read": 407143
  },
  "errors": [],
  "tasks": [
@@ -10795,6 +10795,22 @@
    "updated": "2026-09-23T11:31:43.809Z"
   },
   {
+   "declared_name": "harbor/crowded-review-that-went-wide",
+   "declared_short": "crowded-review-that-went-wide",
+   "folder": "crowded-review-that-went-wide",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "87e4ce660b28522db58fa64eb93107f20769536d1b982c7d186bb0f39da37a41",
+   "size_bytes": 9189932,
+   "updated": "2026-09-30T07:01:36.200Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "confluence-gym",
@@ -17460,15 +17476,15 @@
    "updated": "2026-09-10T10:45:06.977Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g431-engagement-outcome-metric-disclosure-audit",
    "declared_short": "gen-g431-engagement-outcome-metric-disclosure-audit",
-   "folder": "gen-g431-engagement-outcome-metric-disclosure-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g431-engagement-outcome-metric-disclosure-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e0611616967c59c0f14dbaee3833ba8c932a40b322eda134c672890cd4a7bca5",
    "size_bytes": 6899362,
    "updated": "2026-09-30T06:55:27.557Z"
@@ -30209,6 +30225,22 @@
    "updated": "2026-09-23T23:00:59.602Z"
   },
   {
+   "declared_name": "harbor/the-conversations-that-went-somewhere",
+   "declared_short": "the-conversations-that-went-somewhere",
+   "folder": "the-conversations-that-went-somewhere",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "85066ae9591b1dee9a60625aeeca0a3f62a8df132e88dfa8e9f1f83e474dac4e",
+   "size_bytes": 11770984,
+   "updated": "2026-09-30T07:02:23.253Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
@@ -30895,6 +30927,22 @@
    "sha256": "b4b92fdec01bac351490d198692fd8d97139f4f1300ab88e386209da191348c0",
    "size_bytes": 9092384,
    "updated": "2026-09-17T03:49:41.950Z"
+  },
+  {
+   "declared_name": "harbor/the-money-nobody-signed-for",
+   "declared_short": "the-money-nobody-signed-for",
+   "folder": "the-money-nobody-signed-for",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "9dcfbb4a3f1cf34959c27fcf4f5830cc21c17c3add64fc650ccd0ba60d676013",
+   "size_bytes": 6021847,
+   "updated": "2026-09-30T07:02:42.153Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -33849,17 +33897,17 @@
    "updated": "2026-09-20T12:00:31.441Z"
   },
   {
-   "declared_name": "harbor/winter-lab-result-turnaround",
-   "declared_short": "winter-lab-result-turnaround",
-   "folder": "winter-lab-result-turnaround",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/winter-lab-result-turnaround",
+   "declared_short": "winter-lab-result-turnaround",
    "domain": null,
+   "folder": "winter-lab-result-turnaround",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8df14c4513aaea9130ece904dd19cb1a6be9dcd000249b3c1b9e6635502fc69f",
    "size_bytes": 9734487,
    "updated": "2026-09-30T06:59:44.729Z"
