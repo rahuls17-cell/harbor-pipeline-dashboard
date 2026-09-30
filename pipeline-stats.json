@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-30T09:05:03+00:00",
+ "generated_at": "2026-09-30T09:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2300,
-  "scanned": 2300,
-  "connector": 650,
-  "non_connector": 1650,
+  "task_folders": 2302,
+  "scanned": 2302,
+  "connector": 651,
+  "non_connector": 1651,
   "errors": 0
  },
  "connector_provenance": {
   "real": 154,
   "unknown": 194,
-  "synthetic": 302
+  "synthetic": 303
  },
  "domain": {
-  "unnamed": 1162,
+  "unnamed": 1164,
   "code": 379,
   "fin": 120,
   "gen": 368,
@@ -22,8 +22,8 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 652,
-  "obi": 1636,
+  "harbor": 653,
+  "obi": 1637,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -45,7 +45,7 @@
   "linear-gym": 57,
   "notion-gym": 50,
   "gws-gym": 48,
-  "github-gym": 43,
+  "github-gym": 44,
   "supabase-gym": 8,
   "teams-gym": 6,
   "snowflake-gym": 5,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 269399
+  "approx_bytes_read": 272301
  },
  "errors": [],
  "tasks": [
@@ -3233,15 +3233,15 @@
    "updated": "2026-09-26T04:41:12.950Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b46-b1-used-lens-ebay-comps-pricing",
    "declared_short": "bus-b46-b1-used-lens-ebay-comps-pricing",
-   "folder": "bus-b46-b1-used-lens-ebay-comps-pricing",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b46-b1-used-lens-ebay-comps-pricing",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0f461a6677e9a865ee86504ba636f00cd580495eba87beb2afda13a96caceb05",
    "size_bytes": 5969920,
    "updated": "2026-09-30T09:04:37.209Z"
@@ -4155,6 +4155,20 @@
    "sha256": "1509d444a0d3f4912c072ef5fcdb2ffd3fa41cbfd363aa1f4fc930a1efc584ae",
    "size_bytes": 10110166,
    "updated": "2026-09-27T00:24:19.627Z"
+  },
+  {
+   "declared_name": "obi/bus-b54-b1-ad-headline-slot-audit",
+   "declared_short": "bus-b54-b1-ad-headline-slot-audit",
+   "folder": "bus-b54-b1-ad-headline-slot-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "8f34b28e9d4293904cfb2663dcc9b85a4f743bcf79ec1bf10ef80619d588e74a",
+   "size_bytes": 8100436,
+   "updated": "2026-09-30T09:06:35.002Z"
   },
   {
    "connector_provenance": null,
@@ -30087,6 +30101,22 @@
    "updated": "2026-09-28T17:16:34.605Z"
   },
   {
+   "declared_name": "harbor/the-backlog-we-can-actually-work",
+   "declared_short": "the-backlog-we-can-actually-work",
+   "folder": "the-backlog-we-can-actually-work",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "035b9cc4109901ade468b5cf9c00638d0632fdc0a7ecc80122cd34abd205933d",
+   "size_bytes": 9870487,
+   "updated": "2026-09-30T09:07:53.401Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
@@ -30807,17 +30837,17 @@
    "updated": "2026-09-25T14:47:12.521Z"
   },
   {
-   "declared_name": "harbor/the-hour-that-was-not-an-hour",
-   "declared_short": "the-hour-that-was-not-an-hour",
-   "folder": "the-hour-that-was-not-an-hour",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-hour-that-was-not-an-hour",
+   "declared_short": "the-hour-that-was-not-an-hour",
    "domain": null,
+   "folder": "the-hour-that-was-not-an-hour",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "14163b60a911bac8958f6ea6c5ea6b0a8a8ac9a135b96fac95a0b3b1b04c902c",
    "size_bytes": 8749975,
    "updated": "2026-09-30T09:03:03.565Z"
