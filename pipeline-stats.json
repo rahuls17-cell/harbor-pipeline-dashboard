@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-30T09:10:03+00:00",
+ "generated_at": "2026-09-30T09:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2302,
-  "scanned": 2302,
-  "connector": 651,
+  "task_folders": 2303,
+  "scanned": 2303,
+  "connector": 652,
   "non_connector": 1651,
   "errors": 0
  },
  "connector_provenance": {
   "real": 154,
   "unknown": 194,
-  "synthetic": 303
+  "synthetic": 304
  },
  "domain": {
-  "unnamed": 1164,
+  "unnamed": 1165,
   "code": 379,
   "fin": 120,
   "gen": 368,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 653,
+  "harbor": 654,
   "obi": 1637,
   "bus": 1,
   "edu": 3,
@@ -40,8 +40,8 @@
   "email-gym": 185,
   "freshdesk-gym": 185,
   "slack": 65,
+  "outlook-gym": 60,
   "email-calendar-gym": 59,
-  "outlook-gym": 59,
   "linear-gym": 57,
   "notion-gym": 50,
   "gws-gym": 48,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 272301
+  "new_archives_read": 1,
+  "approx_bytes_read": 139570
  },
  "errors": [],
  "tasks": [
@@ -1087,6 +1087,22 @@
    "sha256": "4a02cff879a51bab2d46ec8c42836fab5d4d8541275f865acf4dc6b7b4f4c682",
    "size_bytes": 4444515,
    "updated": "2026-09-10T12:18:25.696Z"
+  },
+  {
+   "declared_name": "harbor/advisory-board-pre-brief",
+   "declared_short": "advisory-board-pre-brief",
+   "folder": "advisory-board-pre-brief",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "283aeff331cc437bc2575d49b4bfe8c04cbdf36aeea1919be5a8105d9929bd70",
+   "size_bytes": 5238675,
+   "updated": "2026-09-30T09:12:04.212Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -4157,15 +4173,15 @@
    "updated": "2026-09-27T00:24:19.627Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b54-b1-ad-headline-slot-audit",
    "declared_short": "bus-b54-b1-ad-headline-slot-audit",
-   "folder": "bus-b54-b1-ad-headline-slot-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b54-b1-ad-headline-slot-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8f34b28e9d4293904cfb2663dcc9b85a4f743bcf79ec1bf10ef80619d588e74a",
    "size_bytes": 8100436,
    "updated": "2026-09-30T09:06:35.002Z"
@@ -30101,17 +30117,17 @@
    "updated": "2026-09-28T17:16:34.605Z"
   },
   {
-   "declared_name": "harbor/the-backlog-we-can-actually-work",
-   "declared_short": "the-backlog-we-can-actually-work",
-   "folder": "the-backlog-we-can-actually-work",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-backlog-we-can-actually-work",
+   "declared_short": "the-backlog-we-can-actually-work",
    "domain": null,
+   "folder": "the-backlog-we-can-actually-work",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "035b9cc4109901ade468b5cf9c00638d0632fdc0a7ecc80122cd34abd205933d",
    "size_bytes": 9870487,
    "updated": "2026-09-30T09:07:53.401Z"
