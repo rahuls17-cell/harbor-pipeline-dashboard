@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T07:35:03+00:00",
+ "generated_at": "2026-09-30T07:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2285,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135567
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -30719,17 +30719,17 @@
    "updated": "2026-09-29T05:46:17.635Z"
   },
   {
-   "declared_name": "harbor/the-issues-nobody-owns",
-   "declared_short": "the-issues-nobody-owns",
-   "folder": "the-issues-nobody-owns",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-issues-nobody-owns",
+   "declared_short": "the-issues-nobody-owns",
    "domain": null,
+   "folder": "the-issues-nobody-owns",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "19e29f285b0fef06e11cd5c0dad8fb81bf6cd67bac57bd57de2b3d60cd899520",
    "size_bytes": 4186538,
    "updated": "2026-09-30T07:30:08.684Z"
