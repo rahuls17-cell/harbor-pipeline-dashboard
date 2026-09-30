@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-30T11:45:03+00:00",
+ "generated_at": "2026-09-30T11:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2315,
-  "scanned": 2315,
-  "connector": 664,
+  "task_folders": 2316,
+  "scanned": 2316,
+  "connector": 665,
   "non_connector": 1651,
   "errors": 0
  },
  "connector_provenance": {
   "real": 156,
-  "unknown": 197,
+  "unknown": 198,
   "synthetic": 311
  },
  "domain": {
-  "unnamed": 1177,
+  "unnamed": 1178,
   "code": 379,
   "fin": 120,
   "gen": 368,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 666,
+  "harbor": 667,
   "obi": 1637,
   "bus": 1,
   "edu": 3,
@@ -32,13 +32,13 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 217,
-  "google-drive-gym": 202,
-  "zeta3-sql-gym": 198,
-  "confluence-gym": 192,
-  "jira-gym": 189,
-  "email-gym": 185,
-  "freshdesk-gym": 185,
+  "slack-gym": 218,
+  "google-drive-gym": 203,
+  "zeta3-sql-gym": 199,
+  "confluence-gym": 193,
+  "jira-gym": 190,
+  "email-gym": 186,
+  "freshdesk-gym": 186,
   "slack": 65,
   "outlook-gym": 62,
   "email-calendar-gym": 61,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 135605
  },
  "errors": [],
  "tasks": [
@@ -1915,6 +1915,28 @@
    "sha256": "3a6d835f82d026cca52bc9b7ebc2e99a05446cdef0d23e3fb179af05adc75913",
    "size_bytes": 18171366,
    "updated": "2026-09-10T03:35:43.838Z"
+  },
+  {
+   "declared_name": "harbor/bill-payment-send-dates-must-avoid-weekends-and-holidays",
+   "declared_short": "bill-payment-send-dates-must-avoid-weekends-and-holidays",
+   "folder": "bill-payment-send-dates-must-avoid-weekends-and-holidays",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "9753e12889f8c7eb93091d6a0435a29cd4ad35703309332dd77d9e1446e6a5ca",
+   "size_bytes": 7517486,
+   "updated": "2026-09-30T11:49:47.747Z"
   },
   {
    "connector_provenance": "real",
