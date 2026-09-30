@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-30T16:50:03+00:00",
+ "generated_at": "2026-09-30T19:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2320,
-  "scanned": 2320,
+  "task_folders": 2321,
+  "scanned": 2321,
   "connector": 668,
-  "non_connector": 1652,
+  "non_connector": 1653,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 1182,
-  "code": 379,
+  "code": 380,
   "fin": 120,
   "gen": 368,
   "health": 163,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 670,
-  "obi": 1638,
+  "obi": 1639,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131583
  },
  "errors": [],
  "tasks": [
@@ -8781,6 +8781,20 @@
    "sha256": "fa3bc3c515a30d3a55c6e2aad436dff6f30aa3d375494527e0670ed143a04f0a",
    "size_bytes": 6062516,
    "updated": "2026-09-28T05:08:10.113Z"
+  },
+  {
+   "declared_name": "obi/code-c406-fair-event-schedule-compliance-audit",
+   "declared_short": "code-c406-fair-event-schedule-compliance-audit",
+   "folder": "code-c406-fair-event-schedule-compliance-audit-fixed",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "56ad884c04681afdcad646fce8f372bf5b19de05e63f5b0037bb713a7af93e72",
+   "size_bytes": 3152238,
+   "updated": "2026-09-30T19:23:26.210Z"
   },
   {
    "connector_provenance": null,
