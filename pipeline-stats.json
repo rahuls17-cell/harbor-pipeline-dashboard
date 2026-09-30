@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T07:25:04+00:00",
+ "generated_at": "2026-09-30T07:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2284,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 274731
+  "new_archives_read": 1,
+  "approx_bytes_read": 131439
  },
  "errors": [],
  "tasks": [
@@ -18820,18 +18820,18 @@
    "updated": "2026-09-11T13:57:20.968Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/gen-g77-price-tag-accuracy-reconcile",
    "declared_short": "gen-g77-price-tag-accuracy-reconcile",
-   "domain": "gen",
    "folder": "gen-g77-price-tag-accuracy-reconcile-solution-dr-3278f7-v1-sna-lzju",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "46deab9f994689b6a2ac95899e7796e24a8868c1773d30657bc348f8f6592751",
-   "size_bytes": 6319174,
-   "updated": "2026-09-29T21:43:11.405Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "e9f486b7e2fa8afc2c8dcf3419e0afe5bed82119211b9b01828a73eed196e2dd",
+   "size_bytes": 7186239,
+   "updated": "2026-09-30T07:25:33.621Z"
   },
   {
    "connector_provenance": null,
@@ -19394,15 +19394,15 @@
    "updated": "2026-09-21T17:56:03.404Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g877-vendor-price-disclosure-compliance-audit",
    "declared_short": "gen-g877-vendor-price-disclosure-compliance-audit",
-   "folder": "gen-g877-vendor-price-disclosure-compliance-audit-434018-v5-sna-clin",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g877-vendor-price-disclosure-compliance-audit-434018-v5-sna-clin",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "3925bd71b819e8f66f36db68acaaafe2f523bff9af907f32a23bf4238c344cfa",
    "size_bytes": 7231263,
    "updated": "2026-09-30T07:24:38.911Z"
@@ -30351,17 +30351,17 @@
    "updated": "2026-09-29T08:01:11.291Z"
   },
   {
-   "declared_name": "harbor/the-decline-that-still-asks-for-something",
-   "declared_short": "the-decline-that-still-asks-for-something",
-   "folder": "the-decline-that-still-asks-for-something",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-decline-that-still-asks-for-something",
+   "declared_short": "the-decline-that-still-asks-for-something",
    "domain": null,
+   "folder": "the-decline-that-still-asks-for-something",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b563c2f2c1079f70b04176bac1aef94162311063d65806d988007ef991a4b1ff",
    "size_bytes": 9900788,
    "updated": "2026-09-30T07:24:42.232Z"
