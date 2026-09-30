@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-30T11:55:03+00:00",
+ "generated_at": "2026-09-30T15:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2316,
-  "scanned": 2316,
-  "connector": 665,
+  "task_folders": 2317,
+  "scanned": 2317,
+  "connector": 666,
   "non_connector": 1651,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 156,
+  "real": 157,
   "unknown": 198,
   "synthetic": 311
  },
  "domain": {
-  "unnamed": 1178,
+  "unnamed": 1179,
   "code": 379,
   "fin": 120,
   "gen": 368,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 667,
+  "harbor": 668,
   "obi": 1637,
   "bus": 1,
   "edu": 3,
@@ -45,7 +45,7 @@
   "linear-gym": 58,
   "notion-gym": 52,
   "gws-gym": 51,
-  "github-gym": 44,
+  "github-gym": 45,
   "supabase-gym": 8,
   "teams-gym": 6,
   "snowflake-gym": 5,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 132972
  },
  "errors": [],
  "tasks": [
@@ -27917,6 +27917,22 @@
    "sha256": "763e6020d1f316b545032e60315d89235433694b56d5a8900df98b846b605830",
    "size_bytes": 13332450,
    "updated": "2026-09-22T10:50:09.456Z"
+  },
+  {
+   "declared_name": "harbor/ephyra-january-shared-file-contention-audit",
+   "declared_short": "ephyra-january-shared-file-contention-audit",
+   "folder": "task_ephyra_january_shared_file_contention_audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "b9eb1d8615237420917173c76699f640b2db4bde65d35659af832ba427849171",
+   "size_bytes": 9654794,
+   "updated": "2026-09-30T15:34:21.445Z"
   },
   {
    "connector_provenance": "unknown",
