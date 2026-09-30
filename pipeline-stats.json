@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-30T08:30:03+00:00",
+ "generated_at": "2026-09-30T08:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2288,
-  "scanned": 2288,
-  "connector": 640,
+  "task_folders": 2290,
+  "scanned": 2290,
+  "connector": 642,
   "non_connector": 1648,
   "errors": 0
  },
  "connector_provenance": {
   "real": 154,
   "unknown": 192,
-  "synthetic": 294
+  "synthetic": 296
  },
  "domain": {
-  "unnamed": 1151,
+  "unnamed": 1153,
   "code": 379,
   "fin": 120,
   "gen": 367,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 642,
+  "harbor": 644,
   "obi": 1634,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 215,
+  "slack-gym": 216,
   "google-drive-gym": 202,
   "zeta3-sql-gym": 197,
   "confluence-gym": 191,
@@ -40,9 +40,9 @@
   "email-gym": 185,
   "freshdesk-gym": 185,
   "slack": 65,
+  "outlook-gym": 58,
   "linear-gym": 57,
   "email-calendar-gym": 57,
-  "outlook-gym": 57,
   "notion-gym": 49,
   "gws-gym": 47,
   "github-gym": 42,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 277542
  },
  "errors": [],
  "tasks": [
@@ -15144,6 +15144,22 @@
    "sha256": "0065758acf9c5f8084505dd168f11ed6c718f8b6ad7cd19fc71ea68ff3be4b7c",
    "size_bytes": 5834024,
    "updated": "2026-09-07T21:27:11.347Z"
+  },
+  {
+   "declared_name": "harbor/follow-ups-i-still-owe",
+   "declared_short": "follow-ups-i-still-owe",
+   "folder": "follow-ups-i-still-owe-submission-v8",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c38e2513e49a121298dba97d1a76adbfb42bde530e9a0998ac6324cdb9eaddc1",
+   "size_bytes": 6317514,
+   "updated": "2026-09-30T08:30:36.739Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -31001,6 +31017,22 @@
    "sha256": "ce229a41fc8a49134a294a471ab3e562c07647cc5367720cc4389257fdd2b34c",
    "size_bytes": 9867512,
    "updated": "2026-09-25T19:39:53.597Z"
+  },
+  {
+   "declared_name": "harbor/the-mockup-nobody-signed-off-on",
+   "declared_short": "the-mockup-nobody-signed-off-on",
+   "folder": "the-mockup-nobody-signed-off-on",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "9058adfd67c9c75f23a7ca69640117ea775b8eecdfd4be92e19b34d5751cf6b3",
+   "size_bytes": 9740063,
+   "updated": "2026-09-30T08:33:40.180Z"
   },
   {
    "connector_provenance": "synthetic",
