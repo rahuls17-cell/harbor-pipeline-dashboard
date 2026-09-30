@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-30T08:55:03+00:00",
+ "generated_at": "2026-09-30T09:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2296,
-  "scanned": 2296,
-  "connector": 647,
+  "task_folders": 2298,
+  "scanned": 2298,
+  "connector": 649,
   "non_connector": 1649,
   "errors": 0
  },
  "connector_provenance": {
   "real": 154,
   "unknown": 194,
-  "synthetic": 299
+  "synthetic": 301
  },
  "domain": {
-  "unnamed": 1158,
+  "unnamed": 1160,
   "code": 379,
   "fin": 120,
   "gen": 368,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 649,
+  "harbor": 651,
   "obi": 1635,
   "bus": 1,
   "edu": 3,
@@ -41,9 +41,9 @@
   "freshdesk-gym": 185,
   "slack": 65,
   "outlook-gym": 59,
+  "email-calendar-gym": 58,
   "linear-gym": 57,
-  "email-calendar-gym": 57,
-  "notion-gym": 49,
+  "notion-gym": 50,
   "gws-gym": 48,
   "github-gym": 43,
   "supabase-gym": 8,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 274851
  },
  "errors": [],
  "tasks": [
@@ -30121,6 +30121,22 @@
    "updated": "2026-09-23T07:34:55.792Z"
   },
   {
+   "declared_name": "harbor/the-blog-posts-with-nothing-to-look-at",
+   "declared_short": "the-blog-posts-with-nothing-to-look-at",
+   "folder": "the-blog-posts-with-nothing-to-look-at",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "988685b23a086c4a2fc130c294652805eabb5fc577bb75ab520fe2c5ae748761",
+   "size_bytes": 5966389,
+   "updated": "2026-09-30T08:56:31.983Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
@@ -30695,6 +30711,22 @@
    "sha256": "ff448c795c7033026d4ad98aa892f8354aab4c40196f95fea93bf925f27464d3",
    "size_bytes": 7096326,
    "updated": "2026-09-26T09:07:37.601Z"
+  },
+  {
+   "declared_name": "harbor/the-guest-i-marked-both-ways",
+   "declared_short": "the-guest-i-marked-both-ways",
+   "folder": "the-guest-i-marked-both-ways",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "7167667cb5c77294b7268e8bd4101381314ebb4de0b3a45e76aff7517db6425c",
+   "size_bytes": 5658184,
+   "updated": "2026-09-30T08:57:18.131Z"
   },
   {
    "connector_provenance": "unknown",
