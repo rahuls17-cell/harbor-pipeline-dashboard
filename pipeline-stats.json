@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T05:50:03+00:00",
+ "generated_at": "2026-09-30T05:55:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2271,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 145761
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -31829,17 +31829,17 @@
    "updated": "2026-09-21T15:54:33.600Z"
   },
   {
-   "declared_name": "obi/the-subdomain-rollout-that-skipped-a-tier",
-   "declared_short": "the-subdomain-rollout-that-skipped-a-tier",
-   "folder": "the-subdomain-rollout-that-skipped-a-tier",
-   "prefix": "obi",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "supabase-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "obi/the-subdomain-rollout-that-skipped-a-tier",
+   "declared_short": "the-subdomain-rollout-that-skipped-a-tier",
    "domain": null,
+   "folder": "the-subdomain-rollout-that-skipped-a-tier",
    "image": null,
+   "is_connector": true,
+   "prefix": "obi",
    "sha256": "f1ca9448ae7e30760ec55841b2896cf5c2f1230ed3a2d938d50588517980be95",
    "size_bytes": 8763120,
    "updated": "2026-09-30T05:49:57.199Z"
