@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-30T09:50:03+00:00",
+ "generated_at": "2026-09-30T09:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2310,
-  "scanned": 2310,
-  "connector": 659,
+  "task_folders": 2311,
+  "scanned": 2311,
+  "connector": 660,
   "non_connector": 1651,
   "errors": 0
  },
  "connector_provenance": {
   "real": 156,
   "unknown": 195,
-  "synthetic": 308
+  "synthetic": 309
  },
  "domain": {
-  "unnamed": 1172,
+  "unnamed": 1173,
   "code": 379,
   "fin": 120,
   "gen": 368,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 661,
+  "harbor": 662,
   "obi": 1637,
   "bus": 1,
   "edu": 3,
@@ -40,8 +40,8 @@
   "email-gym": 185,
   "freshdesk-gym": 185,
   "slack": 65,
+  "outlook-gym": 61,
   "email-calendar-gym": 60,
-  "outlook-gym": 60,
   "linear-gym": 58,
   "notion-gym": 52,
   "gws-gym": 50,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135353
+  "approx_bytes_read": 135580
  },
  "errors": [],
  "tasks": [
@@ -10669,17 +10669,17 @@
    "updated": "2026-09-20T13:20:07.853Z"
   },
   {
-   "declared_name": "harbor/comparable-patient-export-paths",
-   "declared_short": "comparable-patient-export-paths",
-   "folder": "comparable-patient-export-paths",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/comparable-patient-export-paths",
+   "declared_short": "comparable-patient-export-paths",
    "domain": null,
+   "folder": "comparable-patient-export-paths",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ed03ec53ff20af7eeae98efa273fc81114acc290275e4df217cbae3d1b0c24fb",
    "size_bytes": 8681364,
    "updated": "2026-09-30T09:46:54.507Z"
@@ -31587,6 +31587,22 @@
    "sha256": "360ca67a1c65b4931db2b2b0aa40b5bd9e1e41f26df3ac757ddd2062df402569",
    "size_bytes": 7756911,
    "updated": "2026-09-28T18:32:35.174Z"
+  },
+  {
+   "declared_name": "harbor/the-people-on-both-sides-of-my-account",
+   "declared_short": "the-people-on-both-sides-of-my-account",
+   "folder": "the-people-on-both-sides-of-my-account",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "f1c29588b2d64cf02ebc969c8aff13413522e3126c4dc8cad6ba61c10c3ffcf3",
+   "size_bytes": 197330639,
+   "updated": "2026-09-30T09:54:48.585Z"
   },
   {
    "connector_provenance": "synthetic",
