@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-30T06:55:04+00:00",
+ "generated_at": "2026-09-30T07:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2274,
-  "scanned": 2274,
-  "connector": 630,
-  "non_connector": 1644,
+  "task_folders": 2276,
+  "scanned": 2276,
+  "connector": 631,
+  "non_connector": 1645,
   "errors": 0
  },
  "connector_provenance": {
   "real": 153,
-  "unknown": 190,
+  "unknown": 191,
   "synthetic": 287
  },
  "domain": {
-  "unnamed": 1141,
+  "unnamed": 1142,
   "code": 379,
   "fin": 120,
-  "gen": 363,
+  "gen": 364,
   "health": 163,
   "law": 108
  },
  "name_prefix": {
-  "harbor": 632,
-  "obi": 1630,
+  "harbor": 633,
+  "obi": 1631,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -44,7 +44,7 @@
   "outlook-gym": 56,
   "email-calendar-gym": 54,
   "notion-gym": 49,
-  "gws-gym": 46,
+  "gws-gym": 47,
   "github-gym": 39,
   "supabase-gym": 7,
   "teams-gym": 6,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 269172
+  "approx_bytes_read": 263995
  },
  "errors": [],
  "tasks": [
@@ -17460,6 +17460,20 @@
    "updated": "2026-09-10T10:45:06.977Z"
   },
   {
+   "declared_name": "obi/gen-g431-engagement-outcome-metric-disclosure-audit",
+   "declared_short": "gen-g431-engagement-outcome-metric-disclosure-audit",
+   "folder": "gen-g431-engagement-outcome-metric-disclosure-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "e0611616967c59c0f14dbaee3833ba8c932a40b322eda134c672890cd4a7bca5",
+   "size_bytes": 6899362,
+   "updated": "2026-09-30T06:55:27.557Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g431-engagement-outcome-metric-disclosure-audit",
@@ -17838,15 +17852,15 @@
    "updated": "2026-09-18T23:33:03.681Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g558-renovation-materials-cost-audit",
    "declared_short": "gen-g558-renovation-materials-cost-audit",
-   "folder": "gen-g558-renovation-materials-cost-audit-ebd2e4-v5-sna-ellg",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g558-renovation-materials-cost-audit-ebd2e4-v5-sna-ellg",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "94e80c79d74c9eaff53c4269093a18a677708e3e9a7b740eccae888047bdcf58",
    "size_bytes": 3050910,
    "updated": "2026-09-30T06:51:41.474Z"
@@ -26330,17 +26344,17 @@
    "updated": "2026-09-23T15:58:22.136Z"
   },
   {
-   "declared_name": "harbor/quietly-on-the-copy-line",
-   "declared_short": "quietly-on-the-copy-line",
-   "folder": "quietly-on-the-copy-line",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/quietly-on-the-copy-line",
+   "declared_short": "quietly-on-the-copy-line",
    "domain": null,
+   "folder": "quietly-on-the-copy-line",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b98f147f26d04dd80207e2d15b5e5bb1cfe48047e50608d6c42cc26311c09174",
    "size_bytes": 5440392,
    "updated": "2026-09-30T06:51:56.703Z"
@@ -33833,6 +33847,22 @@
    "sha256": "a003f0d53c904c4da0348c72da54b0556e0960c844af9ab62344756b5bdddc50",
    "size_bytes": 8740500,
    "updated": "2026-09-20T12:00:31.441Z"
+  },
+  {
+   "declared_name": "harbor/winter-lab-result-turnaround",
+   "declared_short": "winter-lab-result-turnaround",
+   "folder": "winter-lab-result-turnaround",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "8df14c4513aaea9130ece904dd19cb1a6be9dcd000249b3c1b9e6635502fc69f",
+   "size_bytes": 9734487,
+   "updated": "2026-09-30T06:59:44.729Z"
   },
   {
    "connector_provenance": "synthetic",
