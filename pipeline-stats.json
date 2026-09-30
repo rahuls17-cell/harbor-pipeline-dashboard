@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-30T09:20:04+00:00",
+ "generated_at": "2026-09-30T09:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2304,
-  "scanned": 2304,
-  "connector": 653,
+  "task_folders": 2307,
+  "scanned": 2307,
+  "connector": 656,
   "non_connector": 1651,
   "errors": 0
  },
  "connector_provenance": {
   "real": 155,
   "unknown": 194,
-  "synthetic": 304
+  "synthetic": 307
  },
  "domain": {
-  "unnamed": 1166,
+  "unnamed": 1169,
   "code": 379,
   "fin": 120,
   "gen": 368,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 655,
+  "harbor": 658,
   "obi": 1637,
   "bus": 1,
   "edu": 3,
@@ -40,11 +40,11 @@
   "email-gym": 185,
   "freshdesk-gym": 185,
   "slack": 65,
+  "email-calendar-gym": 60,
   "outlook-gym": 60,
-  "email-calendar-gym": 59,
-  "linear-gym": 57,
+  "linear-gym": 58,
   "notion-gym": 50,
-  "gws-gym": 48,
+  "gws-gym": 49,
   "github-gym": 44,
   "supabase-gym": 8,
   "teams-gym": 6,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134998
+  "new_archives_read": 3,
+  "approx_bytes_read": 415002
  },
  "errors": [],
  "tasks": [
@@ -24020,6 +24020,22 @@
    "updated": "2026-09-12T15:57:58.084Z"
   },
   {
+   "declared_name": "harbor/in-flight-release-go-no-go",
+   "declared_short": "in-flight-release-go-no-go",
+   "folder": "in-flight-release-go-no-go",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "a20cb89d9765033acf266b6417e5149dfa8730e3df77992f153a94d8c30f9f1f",
+   "size_bytes": 7013556,
+   "updated": "2026-09-30T09:23:18.995Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
@@ -30133,17 +30149,17 @@
    "updated": "2026-09-30T09:07:53.401Z"
   },
   {
-   "declared_name": "harbor/the-badge-that-still-opens-the-door",
-   "declared_short": "the-badge-that-still-opens-the-door",
-   "folder": "the-badge-that-still-opens-the-door",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-badge-that-still-opens-the-door",
+   "declared_short": "the-badge-that-still-opens-the-door",
    "domain": null,
+   "folder": "the-badge-that-still-opens-the-door",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "676eaad3b270fd50f09907b11800480229ae6d3fa2f75c029b97d345b0bfcd2d",
    "size_bytes": 7485655,
    "updated": "2026-09-30T09:16:38.691Z"
@@ -31539,6 +31555,22 @@
    "sha256": "360ca67a1c65b4931db2b2b0aa40b5bd9e1e41f26df3ac757ddd2062df402569",
    "size_bytes": 7756911,
    "updated": "2026-09-28T18:32:35.174Z"
+  },
+  {
+   "declared_name": "harbor/the-people-still-waiting-on-me",
+   "declared_short": "the-people-still-waiting-on-me",
+   "folder": "the-people-still-waiting-on-me",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "cb84e6dc9367ec8a5020dc4113a824396f3f39a831e547e3e4d43adbd82a6cb2",
+   "size_bytes": 6680414,
+   "updated": "2026-09-30T09:20:49.570Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -33973,6 +34005,22 @@
    "sha256": "c0a842fb1ea0c4967f2ca41f2fb48ee26e26ea6a41a5ef2934ec025e032c1683",
    "size_bytes": 25631330,
    "updated": "2026-09-27T01:29:09.019Z"
+  },
+  {
+   "declared_name": "harbor/which-sheets-never-got-filled-in",
+   "declared_short": "which-sheets-never-got-filled-in",
+   "folder": "which-sheets-never-got-filled-in",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2b7d965316dc3f1774ab4f686a7bb97dd3068bc5390fde6d90e0bb6936cc21e7",
+   "size_bytes": 10266420,
+   "updated": "2026-09-30T09:24:39.222Z"
   },
   {
    "connector_provenance": "synthetic",
