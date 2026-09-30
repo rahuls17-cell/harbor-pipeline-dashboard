@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T09:35:03+00:00",
+ "generated_at": "2026-09-30T09:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2309,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137314
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -26524,17 +26524,17 @@
    "updated": "2026-09-27T05:45:28.820Z"
   },
   {
-   "declared_name": "harbor/projects-left-in-progress-past-their-dates",
-   "declared_short": "projects-left-in-progress-past-their-dates",
-   "folder": "projects-left-in-progress-past-their-dates",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/projects-left-in-progress-past-their-dates",
+   "declared_short": "projects-left-in-progress-past-their-dates",
    "domain": null,
+   "folder": "projects-left-in-progress-past-their-dates",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "14307e90c61acf14cbcf9f09bf6d4075671b486e249b1913665adcb2be7c7d84",
    "size_bytes": 8058980,
    "updated": "2026-09-30T09:30:39.600Z"
