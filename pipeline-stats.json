@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-30T07:30:04+00:00",
+ "generated_at": "2026-09-30T07:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2284,
-  "scanned": 2284,
-  "connector": 638,
+  "task_folders": 2285,
+  "scanned": 2285,
+  "connector": 639,
   "non_connector": 1646,
   "errors": 0
  },
  "connector_provenance": {
   "real": 154,
   "unknown": 192,
-  "synthetic": 292
+  "synthetic": 293
  },
  "domain": {
-  "unnamed": 1149,
+  "unnamed": 1150,
   "code": 379,
   "fin": 120,
   "gen": 365,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 640,
+  "harbor": 641,
   "obi": 1632,
   "bus": 1,
   "edu": 3,
@@ -45,7 +45,7 @@
   "outlook-gym": 57,
   "notion-gym": 49,
   "gws-gym": 47,
-  "github-gym": 41,
+  "github-gym": 42,
   "supabase-gym": 7,
   "teams-gym": 6,
   "snowflake-gym": 5,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131439
+  "approx_bytes_read": 135567
  },
  "errors": [],
  "tasks": [
@@ -18820,15 +18820,15 @@
    "updated": "2026-09-11T13:57:20.968Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g77-price-tag-accuracy-reconcile",
    "declared_short": "gen-g77-price-tag-accuracy-reconcile",
-   "folder": "gen-g77-price-tag-accuracy-reconcile-solution-dr-3278f7-v1-sna-lzju",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g77-price-tag-accuracy-reconcile-solution-dr-3278f7-v1-sna-lzju",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e9f486b7e2fa8afc2c8dcf3419e0afe5bed82119211b9b01828a73eed196e2dd",
    "size_bytes": 7186239,
    "updated": "2026-09-30T07:25:33.621Z"
@@ -30717,6 +30717,22 @@
    "sha256": "5819d8cf9c6920b87fd0e73eab781cdbead7d19831934ad604d9e6a3a55a3332",
    "size_bytes": 20470904,
    "updated": "2026-09-29T05:46:17.635Z"
+  },
+  {
+   "declared_name": "harbor/the-issues-nobody-owns",
+   "declared_short": "the-issues-nobody-owns",
+   "folder": "the-issues-nobody-owns",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "19e29f285b0fef06e11cd5c0dad8fb81bf6cd67bac57bd57de2b3d60cd899520",
+   "size_bytes": 4186538,
+   "updated": "2026-09-30T07:30:08.684Z"
   },
   {
    "connector_provenance": "synthetic",
