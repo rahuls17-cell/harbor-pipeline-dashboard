@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T07:55:03+00:00",
+ "generated_at": "2026-09-30T08:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2286,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135317
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -33697,17 +33697,17 @@
    "updated": "2026-09-27T01:29:09.019Z"
   },
   {
-   "declared_name": "harbor/which-team-talks-about-compliance",
-   "declared_short": "which-team-talks-about-compliance",
-   "folder": "which-team-talks-about-compliance",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/which-team-talks-about-compliance",
+   "declared_short": "which-team-talks-about-compliance",
    "domain": null,
+   "folder": "which-team-talks-about-compliance",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e378b533574e635b0fbc7ff46b8964ab050500089afd2d6c78389a827d44d0d5",
    "size_bytes": 8737599,
    "updated": "2026-09-30T07:53:15.841Z"
