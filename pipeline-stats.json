@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-30T06:10:03+00:00",
+ "generated_at": "2026-09-30T06:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2272,
-  "scanned": 2272,
-  "connector": 629,
-  "non_connector": 1643,
+  "task_folders": 2274,
+  "scanned": 2274,
+  "connector": 630,
+  "non_connector": 1644,
   "errors": 0
  },
  "connector_provenance": {
   "real": 153,
   "unknown": 190,
-  "synthetic": 286
+  "synthetic": 287
  },
  "domain": {
-  "unnamed": 1140,
+  "unnamed": 1141,
   "code": 379,
   "fin": 120,
-  "gen": 362,
+  "gen": 363,
   "health": 163,
   "law": 108
  },
  "name_prefix": {
-  "harbor": 631,
-  "obi": 1629,
+  "harbor": 632,
+  "obi": 1630,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 185,
   "slack": 65,
   "linear-gym": 57,
-  "outlook-gym": 55,
+  "outlook-gym": 56,
   "email-calendar-gym": 54,
   "notion-gym": 49,
   "gws-gym": 46,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 269172
  },
  "errors": [],
  "tasks": [
@@ -17838,6 +17838,20 @@
    "updated": "2026-09-18T23:33:03.681Z"
   },
   {
+   "declared_name": "obi/gen-g558-renovation-materials-cost-audit",
+   "declared_short": "gen-g558-renovation-materials-cost-audit",
+   "folder": "gen-g558-renovation-materials-cost-audit-ebd2e4-v5-sna-ellg",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "94e80c79d74c9eaff53c4269093a18a677708e3e9a7b740eccae888047bdcf58",
+   "size_bytes": 3050910,
+   "updated": "2026-09-30T06:51:41.474Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g56-sku-pricetier-reconcile",
@@ -26314,6 +26328,22 @@
    "sha256": "d6230b78ab83da923398d42a81dd78c1ec5ebf06368203ebae0e47f66a429cde",
    "size_bytes": 12813430,
    "updated": "2026-09-23T15:58:22.136Z"
+  },
+  {
+   "declared_name": "harbor/quietly-on-the-copy-line",
+   "declared_short": "quietly-on-the-copy-line",
+   "folder": "quietly-on-the-copy-line",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "b98f147f26d04dd80207e2d15b5e5bb1cfe48047e50608d6c42cc26311c09174",
+   "size_bytes": 5440392,
+   "updated": "2026-09-30T06:51:56.703Z"
   },
   {
    "connector_provenance": "synthetic",
