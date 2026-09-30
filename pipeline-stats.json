@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-30T07:05:04+00:00",
+ "generated_at": "2026-09-30T07:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2279,
-  "scanned": 2279,
-  "connector": 634,
+  "task_folders": 2281,
+  "scanned": 2281,
+  "connector": 636,
   "non_connector": 1645,
   "errors": 0
  },
  "connector_provenance": {
   "real": 154,
-  "unknown": 191,
-  "synthetic": 289
+  "unknown": 192,
+  "synthetic": 290
  },
  "domain": {
-  "unnamed": 1145,
+  "unnamed": 1147,
   "code": 379,
   "fin": 120,
   "gen": 364,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 636,
+  "harbor": 638,
   "obi": 1631,
   "bus": 1,
   "edu": 3,
@@ -41,8 +41,8 @@
   "freshdesk-gym": 185,
   "slack": 65,
   "linear-gym": 57,
-  "outlook-gym": 56,
-  "email-calendar-gym": 55,
+  "outlook-gym": 57,
+  "email-calendar-gym": 56,
   "notion-gym": 49,
   "gws-gym": 47,
   "github-gym": 40,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 407143
+  "new_archives_read": 2,
+  "approx_bytes_read": 272735
  },
  "errors": [],
  "tasks": [
@@ -10795,17 +10795,17 @@
    "updated": "2026-09-23T11:31:43.809Z"
   },
   {
-   "declared_name": "harbor/crowded-review-that-went-wide",
-   "declared_short": "crowded-review-that-went-wide",
-   "folder": "crowded-review-that-went-wide",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/crowded-review-that-went-wide",
+   "declared_short": "crowded-review-that-went-wide",
    "domain": null,
+   "folder": "crowded-review-that-went-wide",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "87e4ce660b28522db58fa64eb93107f20769536d1b982c7d186bb0f39da37a41",
    "size_bytes": 9189932,
    "updated": "2026-09-30T07:01:36.200Z"
@@ -29889,6 +29889,22 @@
    "updated": "2026-09-26T09:08:21.899Z"
   },
   {
+   "declared_name": "harbor/the-archive-march-and-who-filled-it",
+   "declared_short": "the-archive-march-and-who-filled-it",
+   "folder": "the-archive-march-and-who-filled-it",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "e818a0837adb4876f8234e0667c466b2c4544f913552812491389f04d77906bf",
+   "size_bytes": 207809752,
+   "updated": "2026-09-30T07:08:10.409Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -30225,17 +30241,17 @@
    "updated": "2026-09-23T23:00:59.602Z"
   },
   {
-   "declared_name": "harbor/the-conversations-that-went-somewhere",
-   "declared_short": "the-conversations-that-went-somewhere",
-   "folder": "the-conversations-that-went-somewhere",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-conversations-that-went-somewhere",
+   "declared_short": "the-conversations-that-went-somewhere",
    "domain": null,
+   "folder": "the-conversations-that-went-somewhere",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "85066ae9591b1dee9a60625aeeca0a3f62a8df132e88dfa8e9f1f83e474dac4e",
    "size_bytes": 11770984,
    "updated": "2026-09-30T07:02:23.253Z"
@@ -30929,17 +30945,17 @@
    "updated": "2026-09-17T03:49:41.950Z"
   },
   {
-   "declared_name": "harbor/the-money-nobody-signed-for",
-   "declared_short": "the-money-nobody-signed-for",
-   "folder": "the-money-nobody-signed-for",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-money-nobody-signed-for",
+   "declared_short": "the-money-nobody-signed-for",
    "domain": null,
+   "folder": "the-money-nobody-signed-for",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9dcfbb4a3f1cf34959c27fcf4f5830cc21c17c3add64fc650ccd0ba60d676013",
    "size_bytes": 6021847,
    "updated": "2026-09-30T07:02:42.153Z"
@@ -31807,6 +31823,22 @@
    "sha256": "3dc0dcb75d517cd70a3c99de5a61573e9e06f5509952894cb54d629323594f82",
    "size_bytes": 4725612,
    "updated": "2026-09-29T22:04:11.656Z"
+  },
+  {
+   "declared_name": "harbor/the-sign-ups-that-needed-chasing",
+   "declared_short": "the-sign-ups-that-needed-chasing",
+   "folder": "the-sign-ups-that-needed-chasing",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "a5c52f381e4e7fb5199ff3df7f2b55639f034cbd4e1111a00a79a122659c2c9b",
+   "size_bytes": 10002863,
+   "updated": "2026-09-30T07:06:06.281Z"
   },
   {
    "connector_provenance": "synthetic",
