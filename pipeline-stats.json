@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T00:25:04+00:00",
+ "generated_at": "2026-09-30T05:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2271,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135262
+  "approx_bytes_read": 145761
  },
  "errors": [],
  "tasks": [
@@ -13305,17 +13305,17 @@
    "updated": "2026-09-05T22:15:41.160Z"
   },
   {
-   "declared_name": "harbor/every-post-is-in-here-twice",
-   "declared_short": "every-post-is-in-here-twice",
-   "folder": "every-post-is-in-here-twice",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/every-post-is-in-here-twice",
+   "declared_short": "every-post-is-in-here-twice",
    "domain": null,
+   "folder": "every-post-is-in-here-twice",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4e75a06fc180c1353c465d178eb7f4b3f6c51084bdac681c7980232297efa9d3",
    "size_bytes": 7744017,
    "updated": "2026-09-30T00:20:06.709Z"
@@ -31829,20 +31829,20 @@
    "updated": "2026-09-21T15:54:33.600Z"
   },
   {
-   "connector_provenance": "synthetic",
+   "declared_name": "obi/the-subdomain-rollout-that-skipped-a-tier",
+   "declared_short": "the-subdomain-rollout-that-skipped-a-tier",
+   "folder": "the-subdomain-rollout-that-skipped-a-tier",
+   "prefix": "obi",
+   "is_connector": true,
    "connector_services": [
     "supabase-gym"
    ],
-   "declared_name": "obi/the-subdomain-rollout-that-skipped-a-tier",
-   "declared_short": "the-subdomain-rollout-that-skipped-a-tier",
+   "connector_provenance": "synthetic",
    "domain": null,
-   "folder": "the-subdomain-rollout-that-skipped-a-tier",
    "image": null,
-   "is_connector": true,
-   "prefix": "obi",
-   "sha256": "2182c96872182eafe876b1d48cb8730b36a5637bddf151be4227c7278f7253de",
-   "size_bytes": 7767156,
-   "updated": "2026-09-29T11:01:51.876Z"
+   "sha256": "f1ca9448ae7e30760ec55841b2896cf5c2f1230ed3a2d938d50588517980be95",
+   "size_bytes": 8763120,
+   "updated": "2026-09-30T05:49:57.199Z"
   },
   {
    "connector_provenance": "synthetic",
