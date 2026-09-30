@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-30T15:50:03+00:00",
+ "generated_at": "2026-09-30T16:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2318,
-  "scanned": 2318,
+  "task_folders": 2319,
+  "scanned": 2319,
   "connector": 667,
-  "non_connector": 1651,
+  "non_connector": 1652,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 311
  },
  "domain": {
-  "unnamed": 1180,
+  "unnamed": 1181,
   "code": 379,
   "fin": 120,
   "gen": 368,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 669,
-  "obi": 1637,
+  "obi": 1638,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 132109
  },
  "errors": [],
  "tasks": [
@@ -3283,6 +3283,20 @@
    "sha256": "0f461a6677e9a865ee86504ba636f00cd580495eba87beb2afda13a96caceb05",
    "size_bytes": 5969920,
    "updated": "2026-09-30T09:04:37.209Z"
+  },
+  {
+   "declared_name": "obi/bus-b46-b10-sales-vertical-backlog-quality-summary",
+   "declared_short": "bus-b46-b10-sales-vertical-backlog-quality-summary",
+   "folder": "bus-b46-b10-sales-vertical-backlog-quality-summary",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "d0d21b2599508432323713e75e4a20d4d545bcb30ee3bc5bab1c2e40488adddb",
+   "size_bytes": 7243876,
+   "updated": "2026-09-30T16:30:34.665Z"
   },
   {
    "connector_provenance": null,
