@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T10:40:03+00:00",
+ "generated_at": "2026-09-30T10:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2314,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132414
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -23909,17 +23909,17 @@
    "updated": "2026-09-25T20:16:58.833Z"
   },
   {
-   "declared_name": "harbor/how-far-each-order-got",
-   "declared_short": "how-far-each-order-got",
-   "folder": "how-far-each-order-got",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/how-far-each-order-got",
+   "declared_short": "how-far-each-order-got",
    "domain": null,
+   "folder": "how-far-each-order-got",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c2e7a4e5dd7abd0cdff3326c6252dc08768c96aa7573ac120d97e6d94f9cd987",
    "size_bytes": 12016826,
    "updated": "2026-09-30T10:36:14.887Z"
