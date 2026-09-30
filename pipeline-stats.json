@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-30T07:20:05+00:00",
+ "generated_at": "2026-09-30T07:25:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2282,
-  "scanned": 2282,
-  "connector": 637,
-  "non_connector": 1645,
+  "task_folders": 2284,
+  "scanned": 2284,
+  "connector": 638,
+  "non_connector": 1646,
   "errors": 0
  },
  "connector_provenance": {
   "real": 154,
   "unknown": 192,
-  "synthetic": 291
+  "synthetic": 292
  },
  "domain": {
-  "unnamed": 1148,
+  "unnamed": 1149,
   "code": 379,
   "fin": 120,
-  "gen": 364,
+  "gen": 365,
   "health": 163,
   "law": 108
  },
  "name_prefix": {
-  "harbor": 639,
-  "obi": 1631,
+  "harbor": 640,
+  "obi": 1632,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -41,8 +41,8 @@
   "freshdesk-gym": 185,
   "slack": 65,
   "linear-gym": 57,
+  "email-calendar-gym": 57,
   "outlook-gym": 57,
-  "email-calendar-gym": 56,
   "notion-gym": 49,
   "gws-gym": 47,
   "github-gym": 41,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 274731
  },
  "errors": [],
  "tasks": [
@@ -19394,6 +19394,20 @@
    "updated": "2026-09-21T17:56:03.404Z"
   },
   {
+   "declared_name": "obi/gen-g877-vendor-price-disclosure-compliance-audit",
+   "declared_short": "gen-g877-vendor-price-disclosure-compliance-audit",
+   "folder": "gen-g877-vendor-price-disclosure-compliance-audit-434018-v5-sna-clin",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "3925bd71b819e8f66f36db68acaaafe2f523bff9af907f32a23bf4238c344cfa",
+   "size_bytes": 7231263,
+   "updated": "2026-09-30T07:24:38.911Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g878-employee-bio-directory-style-audit",
@@ -30335,6 +30349,22 @@
    "sha256": "6aad06bfb84baeaee6094fdcbcf02e05816078881d27b747c29d5cafcd39c99c",
    "size_bytes": 7552581,
    "updated": "2026-09-29T08:01:11.291Z"
+  },
+  {
+   "declared_name": "harbor/the-decline-that-still-asks-for-something",
+   "declared_short": "the-decline-that-still-asks-for-something",
+   "folder": "the-decline-that-still-asks-for-something",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "b563c2f2c1079f70b04176bac1aef94162311063d65806d988007ef991a4b1ff",
+   "size_bytes": 9900788,
+   "updated": "2026-09-30T07:24:42.232Z"
   },
   {
    "connector_provenance": "real",
