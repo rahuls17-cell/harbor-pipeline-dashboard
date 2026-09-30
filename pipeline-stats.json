@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-30T09:55:03+00:00",
+ "generated_at": "2026-09-30T10:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2311,
-  "scanned": 2311,
-  "connector": 660,
+  "task_folders": 2312,
+  "scanned": 2312,
+  "connector": 661,
   "non_connector": 1651,
   "errors": 0
  },
  "connector_provenance": {
   "real": 156,
   "unknown": 195,
-  "synthetic": 309
+  "synthetic": 310
  },
  "domain": {
-  "unnamed": 1173,
+  "unnamed": 1174,
   "code": 379,
   "fin": 120,
   "gen": 368,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 662,
+  "harbor": 663,
   "obi": 1637,
   "bus": 1,
   "edu": 3,
@@ -40,8 +40,8 @@
   "email-gym": 185,
   "freshdesk-gym": 185,
   "slack": 65,
+  "email-calendar-gym": 61,
   "outlook-gym": 61,
-  "email-calendar-gym": 60,
   "linear-gym": 58,
   "notion-gym": 52,
   "gws-gym": 50,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135580
+  "approx_bytes_read": 137823
  },
  "errors": [],
  "tasks": [
@@ -15252,6 +15252,22 @@
    "sha256": "5b72a1193235f9764b9f601629852b5aafb34c2f6c8143ad74c89054c10433be",
    "size_bytes": 90494399,
    "updated": "2026-09-27T06:36:11.530Z"
+  },
+  {
+   "declared_name": "harbor/forum-senders-by-frequency",
+   "declared_short": "forum-senders-by-frequency",
+   "folder": "forum-senders-by-frequency",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "aeaec781919993e0cb2ab39c51882c098ab07083658a9a038e1f4f155409733b",
+   "size_bytes": 352172580,
+   "updated": "2026-09-30T09:57:55.090Z"
   },
   {
    "connector_provenance": "unknown",
@@ -31589,17 +31605,17 @@
    "updated": "2026-09-28T18:32:35.174Z"
   },
   {
-   "declared_name": "harbor/the-people-on-both-sides-of-my-account",
-   "declared_short": "the-people-on-both-sides-of-my-account",
-   "folder": "the-people-on-both-sides-of-my-account",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-people-on-both-sides-of-my-account",
+   "declared_short": "the-people-on-both-sides-of-my-account",
    "domain": null,
+   "folder": "the-people-on-both-sides-of-my-account",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f1c29588b2d64cf02ebc969c8aff13413522e3126c4dc8cad6ba61c10c3ffcf3",
    "size_bytes": 197330639,
    "updated": "2026-09-30T09:54:48.585Z"
