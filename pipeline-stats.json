@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-30T08:40:04+00:00",
+ "generated_at": "2026-09-30T08:45:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2293,
-  "scanned": 2293,
-  "connector": 645,
-  "non_connector": 1648,
+  "task_folders": 2295,
+  "scanned": 2295,
+  "connector": 646,
+  "non_connector": 1649,
   "errors": 0
  },
  "connector_provenance": {
   "real": 154,
-  "unknown": 193,
+  "unknown": 194,
   "synthetic": 298
  },
  "domain": {
-  "unnamed": 1156,
+  "unnamed": 1157,
   "code": 379,
   "fin": 120,
-  "gen": 367,
+  "gen": 368,
   "health": 163,
   "law": 108
  },
  "name_prefix": {
-  "harbor": 647,
-  "obi": 1634,
+  "harbor": 648,
+  "obi": 1635,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -40,7 +40,7 @@
   "email-gym": 185,
   "freshdesk-gym": 185,
   "slack": 65,
-  "outlook-gym": 58,
+  "outlook-gym": 59,
   "linear-gym": 57,
   "email-calendar-gym": 57,
   "notion-gym": 49,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 409729
+  "new_archives_read": 2,
+  "approx_bytes_read": 265838
  },
  "errors": [],
  "tasks": [
@@ -15146,17 +15146,17 @@
    "updated": "2026-09-07T21:27:11.347Z"
   },
   {
-   "declared_name": "harbor/five-merges-over-a-standing-objection",
-   "declared_short": "five-merges-over-a-standing-objection",
-   "folder": "five-merges-over-a-standing-objection",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/five-merges-over-a-standing-objection",
+   "declared_short": "five-merges-over-a-standing-objection",
    "domain": null,
+   "folder": "five-merges-over-a-standing-objection",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8e0fb3406afe355c1dbc3312575e1e829d8ebc9747afa058475a1fa91484569e",
    "size_bytes": 9151105,
    "updated": "2026-09-30T08:36:12.507Z"
@@ -17562,6 +17562,20 @@
    "sha256": "cfe1a48d4ceaa9886f46953b07760a9b7148cdcb51fd6b074945598450bfd912",
    "size_bytes": 5119805,
    "updated": "2026-09-19T07:07:49.126Z"
+  },
+  {
+   "declared_name": "obi/gen-g446-tour-booking-recognition-audit",
+   "declared_short": "gen-g446-tour-booking-recognition-audit",
+   "folder": "gen-g446-tour-booking-recognition-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "f7b190bf9b8daf5621363d73cf5454aaf38154f3a631e53872b0b404b3de44ce",
+   "size_bytes": 6611083,
+   "updated": "2026-09-30T08:43:21.541Z"
   },
   {
    "connector_provenance": null,
@@ -24246,17 +24260,17 @@
    "updated": "2026-09-27T04:22:11.860Z"
   },
   {
-   "declared_name": "harbor/last-week-in-five-channels",
-   "declared_short": "last-week-in-five-channels",
-   "folder": "last-week-in-five-channels",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/last-week-in-five-channels",
+   "declared_short": "last-week-in-five-channels",
    "domain": null,
+   "folder": "last-week-in-five-channels",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2ad5434b33cb5ac79277ef96797b93b8486d50a016305393ed8caa9ea01c9fdf",
    "size_bytes": 11815439,
    "updated": "2026-09-30T08:36:42.698Z"
@@ -26386,17 +26400,17 @@
    "updated": "2026-09-19T22:04:15.292Z"
   },
   {
-   "declared_name": "harbor/plaintext-credentials-lockdown",
-   "declared_short": "plaintext-credentials-lockdown",
-   "folder": "plaintext-credentials-lockdown",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "supabase-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/plaintext-credentials-lockdown",
+   "declared_short": "plaintext-credentials-lockdown",
    "domain": null,
+   "folder": "plaintext-credentials-lockdown",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "10dd726c8cf545a4db5c43568f7550fa65e9fa227551b45252dce95609540ceb",
    "size_bytes": 9618073,
    "updated": "2026-09-30T08:37:44.268Z"
@@ -30665,6 +30679,22 @@
    "sha256": "ff448c795c7033026d4ad98aa892f8354aab4c40196f95fea93bf925f27464d3",
    "size_bytes": 7096326,
    "updated": "2026-09-26T09:07:37.601Z"
+  },
+  {
+   "declared_name": "harbor/the-guests-i-never-write-to",
+   "declared_short": "the-guests-i-never-write-to",
+   "folder": "the-guests-i-never-write-to",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "f087b0eb4a6de2f758ec79a5feec3b9daa8bcd25814bfc1783127f8ee229ed64",
+   "size_bytes": 192200314,
+   "updated": "2026-09-30T08:42:06.785Z"
   },
   {
    "connector_provenance": "unknown",
