@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-30T09:00:04+00:00",
+ "generated_at": "2026-09-30T09:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2298,
-  "scanned": 2298,
-  "connector": 649,
-  "non_connector": 1649,
+  "task_folders": 2300,
+  "scanned": 2300,
+  "connector": 650,
+  "non_connector": 1650,
   "errors": 0
  },
  "connector_provenance": {
   "real": 154,
   "unknown": 194,
-  "synthetic": 301
+  "synthetic": 302
  },
  "domain": {
-  "unnamed": 1160,
+  "unnamed": 1162,
   "code": 379,
   "fin": 120,
   "gen": 368,
@@ -22,8 +22,8 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 651,
-  "obi": 1635,
+  "harbor": 652,
+  "obi": 1636,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -40,8 +40,8 @@
   "email-gym": 185,
   "freshdesk-gym": 185,
   "slack": 65,
+  "email-calendar-gym": 59,
   "outlook-gym": 59,
-  "email-calendar-gym": 58,
   "linear-gym": 57,
   "notion-gym": 50,
   "gws-gym": 48,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 274851
+  "approx_bytes_read": 269399
  },
  "errors": [],
  "tasks": [
@@ -3231,6 +3231,20 @@
    "sha256": "e0d2500a70229dc880bcc76340577bc53d07bb754abd204b4861b9ba036a77e4",
    "size_bytes": 8472813,
    "updated": "2026-09-26T04:41:12.950Z"
+  },
+  {
+   "declared_name": "obi/bus-b46-b1-used-lens-ebay-comps-pricing",
+   "declared_short": "bus-b46-b1-used-lens-ebay-comps-pricing",
+   "folder": "bus-b46-b1-used-lens-ebay-comps-pricing",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "0f461a6677e9a865ee86504ba636f00cd580495eba87beb2afda13a96caceb05",
+   "size_bytes": 5969920,
+   "updated": "2026-09-30T09:04:37.209Z"
   },
   {
    "connector_provenance": null,
@@ -30121,17 +30135,17 @@
    "updated": "2026-09-23T07:34:55.792Z"
   },
   {
-   "declared_name": "harbor/the-blog-posts-with-nothing-to-look-at",
-   "declared_short": "the-blog-posts-with-nothing-to-look-at",
-   "folder": "the-blog-posts-with-nothing-to-look-at",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-blog-posts-with-nothing-to-look-at",
+   "declared_short": "the-blog-posts-with-nothing-to-look-at",
    "domain": null,
+   "folder": "the-blog-posts-with-nothing-to-look-at",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "988685b23a086c4a2fc130c294652805eabb5fc577bb75ab520fe2c5ae748761",
    "size_bytes": 5966389,
    "updated": "2026-09-30T08:56:31.983Z"
@@ -30713,17 +30727,17 @@
    "updated": "2026-09-26T09:07:37.601Z"
   },
   {
-   "declared_name": "harbor/the-guest-i-marked-both-ways",
-   "declared_short": "the-guest-i-marked-both-ways",
-   "folder": "the-guest-i-marked-both-ways",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-guest-i-marked-both-ways",
+   "declared_short": "the-guest-i-marked-both-ways",
    "domain": null,
+   "folder": "the-guest-i-marked-both-ways",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7167667cb5c77294b7268e8bd4101381314ebb4de0b3a45e76aff7517db6425c",
    "size_bytes": 5658184,
    "updated": "2026-09-30T08:57:18.131Z"
@@ -30791,6 +30805,22 @@
    "sha256": "73e1354f7bf5468379332e2c3f297cda538c6424f542c55e2605237012229bb3",
    "size_bytes": 7007540,
    "updated": "2026-09-25T14:47:12.521Z"
+  },
+  {
+   "declared_name": "harbor/the-hour-that-was-not-an-hour",
+   "declared_short": "the-hour-that-was-not-an-hour",
+   "folder": "the-hour-that-was-not-an-hour",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "14163b60a911bac8958f6ea6c5ea6b0a8a8ac9a135b96fac95a0b3b1b04c902c",
+   "size_bytes": 8749975,
+   "updated": "2026-09-30T09:03:03.565Z"
   },
   {
    "connector_provenance": "unknown",
