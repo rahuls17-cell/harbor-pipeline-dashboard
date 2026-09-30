@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T11:50:04+00:00",
+ "generated_at": "2026-09-30T11:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2316,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135605
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1917,11 +1917,7 @@
    "updated": "2026-09-10T03:35:43.838Z"
   },
   {
-   "declared_name": "harbor/bill-payment-send-dates-must-avoid-weekends-and-holidays",
-   "declared_short": "bill-payment-send-dates-must-avoid-weekends-and-holidays",
-   "folder": "bill-payment-send-dates-must-avoid-weekends-and-holidays",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
     "email-gym",
@@ -1931,9 +1927,13 @@
     "slack-gym",
     "zeta3-sql-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/bill-payment-send-dates-must-avoid-weekends-and-holidays",
+   "declared_short": "bill-payment-send-dates-must-avoid-weekends-and-holidays",
    "domain": null,
+   "folder": "bill-payment-send-dates-must-avoid-weekends-and-holidays",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9753e12889f8c7eb93091d6a0435a29cd4ad35703309332dd77d9e1446e6a5ca",
    "size_bytes": 7517486,
    "updated": "2026-09-30T11:49:47.747Z"
