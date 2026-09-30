@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T15:35:04+00:00",
+ "generated_at": "2026-09-30T15:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2317,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132972
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -27919,17 +27919,17 @@
    "updated": "2026-09-22T10:50:09.456Z"
   },
   {
-   "declared_name": "harbor/ephyra-january-shared-file-contention-audit",
-   "declared_short": "ephyra-january-shared-file-contention-audit",
-   "folder": "task_ephyra_january_shared_file_contention_audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/ephyra-january-shared-file-contention-audit",
+   "declared_short": "ephyra-january-shared-file-contention-audit",
    "domain": null,
+   "folder": "task_ephyra_january_shared_file_contention_audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b9eb1d8615237420917173c76699f640b2db4bde65d35659af832ba427849171",
    "size_bytes": 9654794,
    "updated": "2026-09-30T15:34:21.445Z"
