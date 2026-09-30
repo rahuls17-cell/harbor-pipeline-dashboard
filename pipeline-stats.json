@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-30T07:50:04+00:00",
+ "generated_at": "2026-09-30T07:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2285,
-  "scanned": 2285,
-  "connector": 639,
+  "task_folders": 2286,
+  "scanned": 2286,
+  "connector": 640,
   "non_connector": 1646,
   "errors": 0
  },
  "connector_provenance": {
   "real": 154,
   "unknown": 192,
-  "synthetic": 293
+  "synthetic": 294
  },
  "domain": {
-  "unnamed": 1150,
+  "unnamed": 1151,
   "code": 379,
   "fin": 120,
   "gen": 365,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 641,
+  "harbor": 642,
   "obi": 1632,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 214,
+  "slack-gym": 215,
   "google-drive-gym": 202,
   "zeta3-sql-gym": 197,
   "confluence-gym": 191,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 135317
  },
  "errors": [],
  "tasks": [
@@ -33695,6 +33695,22 @@
    "sha256": "c0a842fb1ea0c4967f2ca41f2fb48ee26e26ea6a41a5ef2934ec025e032c1683",
    "size_bytes": 25631330,
    "updated": "2026-09-27T01:29:09.019Z"
+  },
+  {
+   "declared_name": "harbor/which-team-talks-about-compliance",
+   "declared_short": "which-team-talks-about-compliance",
+   "folder": "which-team-talks-about-compliance",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "e378b533574e635b0fbc7ff46b8964ab050500089afd2d6c78389a827d44d0d5",
+   "size_bytes": 8737599,
+   "updated": "2026-09-30T07:53:15.841Z"
   },
   {
    "connector_provenance": "synthetic",
