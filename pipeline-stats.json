@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T16:35:03+00:00",
+ "generated_at": "2026-09-30T16:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2319,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 132109
+  "approx_bytes_read": 135317
  },
  "errors": [],
  "tasks": [
@@ -3285,15 +3285,15 @@
    "updated": "2026-09-30T09:04:37.209Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b46-b10-sales-vertical-backlog-quality-summary",
    "declared_short": "bus-b46-b10-sales-vertical-backlog-quality-summary",
-   "folder": "bus-b46-b10-sales-vertical-backlog-quality-summary",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b46-b10-sales-vertical-backlog-quality-summary",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d0d21b2599508432323713e75e4a20d4d545bcb30ee3bc5bab1c2e40488adddb",
    "size_bytes": 7243876,
    "updated": "2026-09-30T16:30:34.665Z"
@@ -34210,20 +34210,20 @@
    "updated": "2026-09-30T09:24:39.222Z"
   },
   {
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/which-team-talks-about-compliance",
+   "declared_short": "which-team-talks-about-compliance",
+   "folder": "which-team-talks-about-compliance",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "slack-gym"
    ],
-   "declared_name": "harbor/which-team-talks-about-compliance",
-   "declared_short": "which-team-talks-about-compliance",
+   "connector_provenance": "synthetic",
    "domain": null,
-   "folder": "which-team-talks-about-compliance",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "e378b533574e635b0fbc7ff46b8964ab050500089afd2d6c78389a827d44d0d5",
-   "size_bytes": 8737599,
-   "updated": "2026-09-30T07:53:15.841Z"
+   "sha256": "53665ef6db58e946a894c0cbf546a4f97bee6d4568ad6593ae8d5dd1ecbeb537",
+   "size_bytes": 8478405,
+   "updated": "2026-09-30T16:35:25.289Z"
   },
   {
    "connector_provenance": "synthetic",
