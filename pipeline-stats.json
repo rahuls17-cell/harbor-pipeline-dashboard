@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T06:05:05+00:00",
+ "generated_at": "2026-09-30T06:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2272,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133916
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -29989,17 +29989,17 @@
    "updated": "2026-09-28T22:57:18.137Z"
   },
   {
-   "declared_name": "harbor/the-calendar-blocks-that-only-look-like-meetings",
-   "declared_short": "the-calendar-blocks-that-only-look-like-meetings",
-   "folder": "the-calendar-blocks-that-only-look-like-meetings-20260923T124555Z-1-001",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-calendar-blocks-that-only-look-like-meetings",
+   "declared_short": "the-calendar-blocks-that-only-look-like-meetings",
    "domain": null,
+   "folder": "the-calendar-blocks-that-only-look-like-meetings-20260923T124555Z-1-001",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e6f84ae8f54364ae1014d06b980711f37298bf0d192eedddce0869e5c2581f16",
    "size_bytes": 57720371,
    "updated": "2026-09-30T06:03:21.878Z"
