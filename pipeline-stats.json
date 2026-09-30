@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-30T07:10:03+00:00",
+ "generated_at": "2026-09-30T07:15:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2281,
-  "scanned": 2281,
-  "connector": 636,
+  "task_folders": 2282,
+  "scanned": 2282,
+  "connector": 637,
   "non_connector": 1645,
   "errors": 0
  },
  "connector_provenance": {
   "real": 154,
   "unknown": 192,
-  "synthetic": 290
+  "synthetic": 291
  },
  "domain": {
-  "unnamed": 1147,
+  "unnamed": 1148,
   "code": 379,
   "fin": 120,
   "gen": 364,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 638,
+  "harbor": 639,
   "obi": 1631,
   "bus": 1,
   "edu": 3,
@@ -45,7 +45,7 @@
   "email-calendar-gym": 56,
   "notion-gym": 49,
   "gws-gym": 47,
-  "github-gym": 40,
+  "github-gym": 41,
   "supabase-gym": 7,
   "teams-gym": 6,
   "snowflake-gym": 5,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 1
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 272735
+  "new_archives_read": 1,
+  "approx_bytes_read": 134091
  },
  "errors": [],
  "tasks": [
@@ -29889,17 +29889,17 @@
    "updated": "2026-09-26T09:08:21.899Z"
   },
   {
-   "declared_name": "harbor/the-archive-march-and-who-filled-it",
-   "declared_short": "the-archive-march-and-who-filled-it",
-   "folder": "the-archive-march-and-who-filled-it",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-archive-march-and-who-filled-it",
+   "declared_short": "the-archive-march-and-who-filled-it",
    "domain": null,
+   "folder": "the-archive-march-and-who-filled-it",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e818a0837adb4876f8234e0667c466b2c4544f913552812491389f04d77906bf",
    "size_bytes": 207809752,
    "updated": "2026-09-30T07:08:10.409Z"
@@ -31825,17 +31825,17 @@
    "updated": "2026-09-29T22:04:11.656Z"
   },
   {
-   "declared_name": "harbor/the-sign-ups-that-needed-chasing",
-   "declared_short": "the-sign-ups-that-needed-chasing",
-   "folder": "the-sign-ups-that-needed-chasing",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-sign-ups-that-needed-chasing",
+   "declared_short": "the-sign-ups-that-needed-chasing",
    "domain": null,
+   "folder": "the-sign-ups-that-needed-chasing",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a5c52f381e4e7fb5199ff3df7f2b55639f034cbd4e1111a00a79a122659c2c9b",
    "size_bytes": 10002863,
    "updated": "2026-09-30T07:06:06.281Z"
@@ -33361,6 +33361,22 @@
    "sha256": "b99b69e2bed7990bc14efac5643d7b88933d6150932609d774ac4e7970128327",
    "size_bytes": 16651585,
    "updated": "2026-09-29T10:41:35.852Z"
+  },
+  {
+   "declared_name": "harbor/what-reviewers-asked-us-to-write-down",
+   "declared_short": "what-reviewers-asked-us-to-write-down",
+   "folder": "what-reviewers-asked-us-to-write-down",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "a2a6985709bff09f8d7ba948d468a9fa0daf5d7c0949c827f32de82b1507f68b",
+   "size_bytes": 9916039,
+   "updated": "2026-09-30T07:10:08.582Z"
   },
   {
    "connector_provenance": "synthetic",
