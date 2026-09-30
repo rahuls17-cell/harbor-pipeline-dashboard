@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-09-30T09:15:03+00:00",
+ "generated_at": "2026-09-30T09:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2303,
-  "scanned": 2303,
-  "connector": 652,
+  "task_folders": 2304,
+  "scanned": 2304,
+  "connector": 653,
   "non_connector": 1651,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 154,
+  "real": 155,
   "unknown": 194,
   "synthetic": 304
  },
  "domain": {
-  "unnamed": 1165,
+  "unnamed": 1166,
   "code": 379,
   "fin": 120,
   "gen": 368,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 654,
+  "harbor": 655,
   "obi": 1637,
   "bus": 1,
   "edu": 3,
@@ -51,11 +51,11 @@
   "snowflake-gym": 5,
   "microsoft-teams-gym": 5,
   "microsoft_teams-gym": 2,
-  "microsoft-365-gym": 1
+  "microsoft-365-gym": 2
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 139570
+  "approx_bytes_read": 134998
  },
  "errors": [],
  "tasks": [
@@ -1089,17 +1089,17 @@
    "updated": "2026-09-10T12:18:25.696Z"
   },
   {
-   "declared_name": "harbor/advisory-board-pre-brief",
-   "declared_short": "advisory-board-pre-brief",
-   "folder": "advisory-board-pre-brief",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/advisory-board-pre-brief",
+   "declared_short": "advisory-board-pre-brief",
    "domain": null,
+   "folder": "advisory-board-pre-brief",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "283aeff331cc437bc2575d49b4bfe8c04cbdf36aeea1919be5a8105d9929bd70",
    "size_bytes": 5238675,
    "updated": "2026-09-30T09:12:04.212Z"
@@ -30131,6 +30131,22 @@
    "sha256": "035b9cc4109901ade468b5cf9c00638d0632fdc0a7ecc80122cd34abd205933d",
    "size_bytes": 9870487,
    "updated": "2026-09-30T09:07:53.401Z"
+  },
+  {
+   "declared_name": "harbor/the-badge-that-still-opens-the-door",
+   "declared_short": "the-badge-that-still-opens-the-door",
+   "folder": "the-badge-that-still-opens-the-door",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "676eaad3b270fd50f09907b11800480229ae6d3fa2f75c029b97d345b0bfcd2d",
+   "size_bytes": 7485655,
+   "updated": "2026-09-30T09:16:38.691Z"
   },
   {
    "connector_provenance": "unknown",
