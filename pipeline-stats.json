@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T14:55:03+00:00",
+ "generated_at": "2026-10-01T15:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2415,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135839
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -855,17 +855,17 @@
    "updated": "2026-09-07T15:44:14.048Z"
   },
   {
-   "declared_name": "harbor/a-green-review-is-not-a-green-light",
-   "declared_short": "a-green-review-is-not-a-green-light",
-   "folder": "a-green-review-is-not-a-green-light",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/a-green-review-is-not-a-green-light",
+   "declared_short": "a-green-review-is-not-a-green-light",
    "domain": null,
+   "folder": "a-green-review-is-not-a-green-light",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "dcbfc2fc5995857807e71d42e79f4cf41fa0ecdb9844924fb9693fd0f0a06b66",
    "size_bytes": 16194758,
    "updated": "2026-10-01T14:54:49.957Z"
