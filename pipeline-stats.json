@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T11:10:03+00:00",
+ "generated_at": "2026-10-01T11:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2374,
-  "scanned": 2374,
-  "connector": 701,
+  "task_folders": 2375,
+  "scanned": 2375,
+  "connector": 702,
   "non_connector": 1673,
   "errors": 0
  },
  "connector_provenance": {
   "real": 164,
-  "unknown": 210,
+  "unknown": 211,
   "synthetic": 327
  },
  "domain": {
-  "unnamed": 1225,
+  "unnamed": 1226,
   "code": 385,
   "fin": 120,
   "gen": 372,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 703,
+  "harbor": 704,
   "obi": 1659,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 72,
+  "email-calendar-gym": 73,
   "outlook-gym": 67,
   "slack": 66,
   "linear-gym": 60,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135338
+  "approx_bytes_read": 132702
  },
  "errors": [],
  "tasks": [
@@ -697,17 +697,17 @@
    "updated": "2026-09-29T05:23:35.274Z"
   },
   {
-   "declared_name": "harbor/eight-replies-with-nothing-behind-them",
-   "declared_short": "eight-replies-with-nothing-behind-them",
-   "folder": "ASTR_101463",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/eight-replies-with-nothing-behind-them",
+   "declared_short": "eight-replies-with-nothing-behind-them",
    "domain": null,
+   "folder": "ASTR_101463",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "94122118ba2f0b99c8dbdea2769d09e9dfa34ecae5dfbb82e8d558777ccb1374",
    "size_bytes": 273058300,
    "updated": "2026-10-01T11:05:46.715Z"
@@ -31786,6 +31786,22 @@
    "sha256": "01e10d2dec87cb5617d69621a9a391cfdee4f5c35b01d97030f0cf17015898a1",
    "size_bytes": 8166624,
    "updated": "2026-09-23T22:05:44.216Z"
+  },
+  {
+   "declared_name": "harbor/the-last-three-from-each-of-them",
+   "declared_short": "the-last-three-from-each-of-them",
+   "folder": "the-last-three-from-each-of-them",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "e5a960601ef5f4214f3da9476a77fc35aa752f204cbfb48c6a2590f8edff4923",
+   "size_bytes": 9509283,
+   "updated": "2026-10-01T11:14:10.498Z"
   },
   {
    "connector_provenance": "unknown",
