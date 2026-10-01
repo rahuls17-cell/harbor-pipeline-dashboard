@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T10:45:04+00:00",
+ "generated_at": "2026-10-01T10:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2370,
-  "scanned": 2370,
-  "connector": 697,
+  "task_folders": 2371,
+  "scanned": 2371,
+  "connector": 698,
   "non_connector": 1673,
   "errors": 0
  },
  "connector_provenance": {
   "real": 164,
-  "unknown": 207,
+  "unknown": 208,
   "synthetic": 326
  },
  "domain": {
-  "unnamed": 1221,
+  "unnamed": 1222,
   "code": 385,
   "fin": 120,
   "gen": 372,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 699,
+  "harbor": 700,
   "obi": 1659,
   "bus": 1,
   "edu": 3,
@@ -32,13 +32,13 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 220,
-  "google-drive-gym": 204,
-  "zeta3-sql-gym": 200,
-  "confluence-gym": 194,
-  "jira-gym": 191,
-  "email-gym": 187,
-  "freshdesk-gym": 187,
+  "slack-gym": 221,
+  "google-drive-gym": 205,
+  "zeta3-sql-gym": 201,
+  "confluence-gym": 195,
+  "jira-gym": 192,
+  "email-gym": 188,
+  "freshdesk-gym": 188,
   "email-calendar-gym": 72,
   "slack": 66,
   "outlook-gym": 65,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 404002
+  "new_archives_read": 1,
+  "approx_bytes_read": 133856
  },
  "errors": [],
  "tasks": [
@@ -20277,15 +20277,15 @@
    "updated": "2026-09-20T20:46:27.293Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g929-summit-track-color-logo-audit",
    "declared_short": "gen-g929-summit-track-color-logo-audit",
-   "folder": "gen-g929-v100-qc-v101-cld3",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g929-v100-qc-v101-cld3",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "67decdf68187b6a09da883b1b396687fdc382fcc85c4b174d132360a08da6dac",
    "size_bytes": 4943384,
    "updated": "2026-10-01T10:43:02.145Z"
@@ -24377,6 +24377,28 @@
    "sha256": "706945d9bf30b594ab9b7582b226e44f5ec09e50fe866f4c2355a51872fd627d",
    "size_bytes": 13795649,
    "updated": "2026-09-30T15:43:39.309Z"
+  },
+  {
+   "declared_name": "harbor/archival-request-for-household-member-with-open-accounts-in-household",
+   "declared_short": "archival-request-for-household-member-with-open-accounts-in-household",
+   "folder": "household_archival_companybench_v52_task_content_cardinality_fixed",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "confluence-gym",
+    "email-gym",
+    "freshdesk-gym",
+    "google-drive-gym",
+    "jira-gym",
+    "slack-gym",
+    "zeta3-sql-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "d863b59a294bce867c6c1f8def2cc2472cdf54ecbf8f194b252be93db5030a77",
+   "size_bytes": 9011068,
+   "updated": "2026-10-01T10:49:46.935Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -32886,17 +32908,17 @@
    "updated": "2026-09-17T17:34:22.992Z"
   },
   {
-   "declared_name": "harbor/the-rule-that-stopped-at-the-first-tab",
-   "declared_short": "the-rule-that-stopped-at-the-first-tab",
-   "folder": "the-rule-that-stopped-at-the-first-tab",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-rule-that-stopped-at-the-first-tab",
+   "declared_short": "the-rule-that-stopped-at-the-first-tab",
    "domain": null,
+   "folder": "the-rule-that-stopped-at-the-first-tab",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a7e45ebe7680cfe46b1e5fc0d70d2eedf55d19b34637158f8cc494a3441e067d",
    "size_bytes": 9418351,
    "updated": "2026-10-01T10:44:15.568Z"
@@ -33190,17 +33212,17 @@
    "updated": "2026-10-01T10:01:03.289Z"
   },
   {
-   "declared_name": "harbor/the-tagged-specs-that-are-one-line-long",
-   "declared_short": "the-tagged-specs-that-are-one-line-long",
-   "folder": "the-tagged-specs-that-are-one-line-long",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-tagged-specs-that-are-one-line-long",
+   "declared_short": "the-tagged-specs-that-are-one-line-long",
    "domain": null,
+   "folder": "the-tagged-specs-that-are-one-line-long",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "98d2ecbf4b5f2cd2dd65a3b11df218fa57527e131319bcdddfc1c39972b361fe",
    "size_bytes": 6158299,
    "updated": "2026-10-01T10:41:26.748Z"
