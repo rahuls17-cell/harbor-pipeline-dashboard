@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T17:10:03+00:00",
+ "generated_at": "2026-10-01T17:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2437,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134602
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -34196,17 +34196,17 @@
    "updated": "2026-09-27T03:12:40.209Z"
   },
   {
-   "declared_name": "harbor/the-weeks-my-mail-surged",
-   "declared_short": "the-weeks-my-mail-surged",
-   "folder": "the-weeks-my-mail-surged",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-weeks-my-mail-surged",
+   "declared_short": "the-weeks-my-mail-surged",
    "domain": null,
+   "folder": "the-weeks-my-mail-surged",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1e9dec3c5cf27761ce9db7c8a270ceee483d194e68c5b0a9007f5d47ce38792c",
    "size_bytes": 208157922,
    "updated": "2026-10-01T17:05:52.934Z"
