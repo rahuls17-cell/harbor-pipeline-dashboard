@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-01T14:00:03+00:00",
+ "generated_at": "2026-10-01T14:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2403,
-  "scanned": 2403,
+  "task_folders": 2404,
+  "scanned": 2404,
   "connector": 724,
-  "non_connector": 1679,
+  "non_connector": 1680,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 1251,
   "code": 386,
   "fin": 121,
-  "gen": 372,
+  "gen": 373,
   "health": 165,
   "law": 108
  },
  "name_prefix": {
   "harbor": 726,
-  "obi": 1665,
+  "obi": 1666,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131524
+  "approx_bytes_read": 131521
  },
  "errors": [],
  "tasks": [
@@ -8799,15 +8799,15 @@
    "updated": "2026-09-25T09:16:32.316Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c373-cycle-translation-mismatch-audit",
    "declared_short": "code-c373-cycle-translation-mismatch-audit",
-   "folder": "code-c373-cycle-translation-mismatch-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c373-cycle-translation-mismatch-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c1185914abb11c814602cd469dd305d65f8539d5b0e8a4057f17dbcd24a3da24",
    "size_bytes": 4239812,
    "updated": "2026-10-01T13:57:30.347Z"
@@ -18085,6 +18085,20 @@
    "sha256": "e1e62c6d13d30bc4454b591538d9be709c5c0047660c23fd60f57e535a62cb4c",
    "size_bytes": 3010515,
    "updated": "2026-09-13T07:45:08.734Z"
+  },
+  {
+   "declared_name": "obi/gen-g402-grazing-cup-batch-yield-audit",
+   "declared_short": "gen-g402-grazing-cup-batch-yield-audit",
+   "folder": "gen-g402-grazing-cup-batch-yield-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "8ec5cb9e4ad7e247884ff8cf0e76a84a49b0ba0880219c901268d41bdc08bc27",
+   "size_bytes": 5089444,
+   "updated": "2026-10-01T14:02:45.589Z"
   },
   {
    "connector_provenance": null,
