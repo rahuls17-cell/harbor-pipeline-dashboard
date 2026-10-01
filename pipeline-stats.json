@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T16:25:03+00:00",
+ "generated_at": "2026-10-01T16:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2427,
-  "scanned": 2427,
-  "connector": 744,
+  "task_folders": 2428,
+  "scanned": 2428,
+  "connector": 745,
   "non_connector": 1683,
   "errors": 0
  },
  "connector_provenance": {
   "real": 169,
   "unknown": 227,
-  "synthetic": 348
+  "synthetic": 349
  },
  "domain": {
-  "unnamed": 1273,
+  "unnamed": 1274,
   "code": 386,
   "fin": 121,
   "gen": 374,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 746,
+  "harbor": 747,
   "obi": 1669,
   "bus": 1,
   "edu": 3,
@@ -44,7 +44,7 @@
   "slack": 66,
   "linear-gym": 65,
   "gws-gym": 64,
-  "notion-gym": 61,
+  "notion-gym": 62,
   "github-gym": 49,
   "supabase-gym": 9,
   "teams-gym": 9,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134198
+  "approx_bytes_read": 138675
  },
  "errors": [],
  "tasks": [
@@ -35722,6 +35722,22 @@
    "updated": "2026-09-30T09:24:39.222Z"
   },
   {
+   "declared_name": "harbor/which-specs-outlived-their-owners",
+   "declared_short": "which-specs-outlived-their-owners",
+   "folder": "which-specs-outlived-their-owners",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "7b4656da0d056c5af42176f946cdc38d2ad22cc42305ad2d6d6844a737871919",
+   "size_bytes": 9729527,
+   "updated": "2026-10-01T16:27:18.629Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -36058,17 +36074,17 @@
    "updated": "2026-09-23T19:01:14.179Z"
   },
   {
-   "declared_name": "harbor/who-to-ask-in-the-team-channels",
-   "declared_short": "who-to-ask-in-the-team-channels",
-   "folder": "who-to-ask-in-the-team-channels",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/who-to-ask-in-the-team-channels",
+   "declared_short": "who-to-ask-in-the-team-channels",
    "domain": null,
+   "folder": "who-to-ask-in-the-team-channels",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "fc156e59ffc6dd6f60463fa42f89fe8111813f25e4b4de27f7034cf7c118ac5f",
    "size_bytes": 11922791,
    "updated": "2026-10-01T16:21:31.929Z"
