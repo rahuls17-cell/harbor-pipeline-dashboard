@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T14:15:03+00:00",
+ "generated_at": "2026-10-01T14:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2406,
-  "scanned": 2406,
-  "connector": 725,
+  "task_folders": 2408,
+  "scanned": 2408,
+  "connector": 727,
   "non_connector": 1681,
   "errors": 0
  },
  "connector_provenance": {
   "real": 168,
-  "unknown": 219,
-  "synthetic": 338
+  "unknown": 220,
+  "synthetic": 339
  },
  "domain": {
-  "unnamed": 1253,
+  "unnamed": 1255,
   "code": 386,
   "fin": 121,
   "gen": 373,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 727,
+  "harbor": 729,
   "obi": 1667,
   "bus": 1,
   "edu": 3,
@@ -43,8 +43,8 @@
   "outlook-gym": 70,
   "slack": 66,
   "linear-gym": 63,
-  "notion-gym": 59,
-  "gws-gym": 59,
+  "notion-gym": 60,
+  "gws-gym": 60,
   "github-gym": 47,
   "supabase-gym": 9,
   "teams-gym": 8,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136784
+  "new_archives_read": 2,
+  "approx_bytes_read": 274767
  },
  "errors": [],
  "tasks": [
@@ -1957,6 +1957,22 @@
    "sha256": "e2e787c7a2098304650c13d245d464cfc4b37fba0db0845a5fbc0e8db0ce7a28",
    "size_bytes": 17104671,
    "updated": "2026-10-01T10:11:12.899Z"
+  },
+  {
+   "declared_name": "harbor/beta-clinics-open-asks",
+   "declared_short": "beta-clinics-open-asks",
+   "folder": "beta-clinics-open-asks",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "8d1fc0d63914620a40c89bab8fb05e9c1cf1f8f0c5c9ba221926767398d8ba24",
+   "size_bytes": 6631188,
+   "updated": "2026-10-01T14:17:47.139Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -31436,17 +31452,17 @@
    "updated": "2026-09-30T07:02:23.253Z"
   },
   {
-   "declared_name": "harbor/the-copy-we-kept-was-the-old-one",
-   "declared_short": "the-copy-we-kept-was-the-old-one",
-   "folder": "the-copy-we-kept-was-the-old-one",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-copy-we-kept-was-the-old-one",
+   "declared_short": "the-copy-we-kept-was-the-old-one",
    "domain": null,
+   "folder": "the-copy-we-kept-was-the-old-one",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b66db01f9b8729ad78cfb2d185087a58701f277f3f5390675e1a8a33643b96c2",
    "size_bytes": 8287588,
    "updated": "2026-10-01T14:10:44.515Z"
@@ -31626,6 +31642,22 @@
    "sha256": "4217b102b5b2d1e72c3d742957e889453866d33d3b06809d1c357ea83e8d55d3",
    "size_bytes": 9653233,
    "updated": "2026-09-24T23:38:24.241Z"
+  },
+  {
+   "declared_name": "harbor/the-edit-no-version-remembers",
+   "declared_short": "the-edit-no-version-remembers",
+   "folder": "the-edit-no-version-remembers",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "60a95438b382c7e1342c546e6f4a7ff83238fd386b05ef289ca50f5552c8ca2f",
+   "size_bytes": 8538454,
+   "updated": "2026-10-01T14:18:57.283Z"
   },
   {
    "connector_provenance": "unknown",
