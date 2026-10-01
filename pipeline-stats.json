@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T15:20:03+00:00",
+ "generated_at": "2026-10-01T15:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2419,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136313
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -24907,17 +24907,17 @@
    "updated": "2026-09-26T09:26:58.478Z"
   },
   {
-   "declared_name": "harbor/investor-data-room-register",
-   "declared_short": "investor-data-room-register",
-   "folder": "investor-data-room-register",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/investor-data-room-register",
+   "declared_short": "investor-data-room-register",
    "domain": null,
+   "folder": "investor-data-room-register",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4ff1f286ee2d7d34f231385b6791228d896ad27f71feb534266132fe162cdfa3",
    "size_bytes": 18882057,
    "updated": "2026-10-01T15:15:47.571Z"
