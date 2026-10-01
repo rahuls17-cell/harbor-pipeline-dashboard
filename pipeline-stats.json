@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T17:50:03+00:00",
+ "generated_at": "2026-10-01T17:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2444,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137585
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -13876,17 +13876,17 @@
    "updated": "2026-09-29T09:46:29.338Z"
   },
   {
-   "declared_name": "harbor/eighteen-breaches-stamped-at-the-closing-bell",
-   "declared_short": "eighteen-breaches-stamped-at-the-closing-bell",
-   "folder": "eighteen-breaches-stamped-at-the-closing-bell",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/eighteen-breaches-stamped-at-the-closing-bell",
+   "declared_short": "eighteen-breaches-stamped-at-the-closing-bell",
    "domain": null,
+   "folder": "eighteen-breaches-stamped-at-the-closing-bell",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0113f8e2e4730bf366513153ace196fe35e28e1acc4dfb0d3005b870fa60793e",
    "size_bytes": 7226096,
    "updated": "2026-10-01T17:45:25.273Z"
