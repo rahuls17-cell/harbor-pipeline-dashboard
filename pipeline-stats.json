@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T13:50:03+00:00",
+ "generated_at": "2026-10-01T13:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2401,
-  "scanned": 2401,
-  "connector": 723,
+  "task_folders": 2402,
+  "scanned": 2402,
+  "connector": 724,
   "non_connector": 1678,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 167,
+  "real": 168,
   "unknown": 219,
   "synthetic": 337
  },
  "domain": {
-  "unnamed": 1250,
+  "unnamed": 1251,
   "code": 385,
   "fin": 121,
   "gen": 372,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 725,
+  "harbor": 726,
   "obi": 1664,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 78,
-  "outlook-gym": 69,
+  "outlook-gym": 70,
   "slack": 66,
   "linear-gym": 63,
   "notion-gym": 59,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 140128
+  "approx_bytes_read": 137313
  },
  "errors": [],
  "tasks": [
@@ -917,6 +917,22 @@
    "sha256": "f252f88ff3f9deafd50ce41759036c3e13be8b9e7c037d662a523bd66f94488b",
    "size_bytes": 7746797,
    "updated": "2026-09-24T20:33:52.509Z"
+  },
+  {
+   "declared_name": "harbor/accelerator-sessions-i-said-yes-to",
+   "declared_short": "accelerator-sessions-i-said-yes-to",
+   "folder": "accelerator-sessions-i-said-yes-to",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "72690edaf2d0d72232210727ea6dcb1e65a1fba364bcb86660e99925004c9bcb",
+   "size_bytes": 31360763,
+   "updated": "2026-10-01T13:52:55.911Z"
   },
   {
    "connector_provenance": "real",
@@ -35396,17 +35412,17 @@
    "updated": "2026-10-01T10:58:03.071Z"
   },
   {
-   "declared_name": "harbor/which-trackers-fell-out-of-date",
-   "declared_short": "which-trackers-fell-out-of-date",
-   "folder": "which-trackers-fell-out-of-date",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/which-trackers-fell-out-of-date",
+   "declared_short": "which-trackers-fell-out-of-date",
    "domain": null,
+   "folder": "which-trackers-fell-out-of-date",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "791da2b03262dd4acd3022487b7d29355a2544bb08f295a4cafa5164b47174ce",
    "size_bytes": 10630968,
    "updated": "2026-10-01T13:46:35.827Z"
