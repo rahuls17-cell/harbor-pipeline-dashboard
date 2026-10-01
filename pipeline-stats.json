@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T11:55:04+00:00",
+ "generated_at": "2026-10-01T12:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2382,
-  "scanned": 2382,
-  "connector": 708,
+  "task_folders": 2383,
+  "scanned": 2383,
+  "connector": 709,
   "non_connector": 1674,
   "errors": 0
  },
  "connector_provenance": {
   "real": 165,
-  "unknown": 213,
+  "unknown": 214,
   "synthetic": 330
  },
  "domain": {
-  "unnamed": 1233,
+  "unnamed": 1234,
   "code": 385,
   "fin": 120,
   "gen": 372,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 710,
+  "harbor": 711,
   "obi": 1660,
   "bus": 1,
   "edu": 3,
@@ -43,7 +43,7 @@
   "outlook-gym": 68,
   "slack": 66,
   "linear-gym": 61,
-  "notion-gym": 56,
+  "notion-gym": 57,
   "gws-gym": 56,
   "github-gym": 46,
   "supabase-gym": 9,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 543348
+  "new_archives_read": 1,
+  "approx_bytes_read": 137815
  },
  "errors": [],
  "tasks": [
@@ -1533,17 +1533,17 @@
    "updated": "2026-09-20T07:49:00.440Z"
   },
   {
-   "declared_name": "harbor/august-lab-order-copies-counted-once",
-   "declared_short": "august-lab-order-copies-counted-once",
-   "folder": "august-lab-order-copies-counted-once",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/august-lab-order-copies-counted-once",
+   "declared_short": "august-lab-order-copies-counted-once",
    "domain": null,
+   "folder": "august-lab-order-copies-counted-once",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "886a9cc371deb508ca9396b3750ab555767053378097f88b883fd5b0ea6de7a7",
    "size_bytes": 11784719,
    "updated": "2026-10-01T11:52:19.609Z"
@@ -21099,6 +21099,22 @@
    "updated": "2026-09-06T02:55:36.504Z"
   },
   {
+   "declared_name": "harbor/threads-still-waiting-before-the-archive",
+   "declared_short": "threads-still-waiting-before-the-archive",
+   "folder": "harbor-single-task-8k7ulkrz",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "7dce690a40e1d88630fc05c805c7920ef87759e63256806bc25368c9dda61de9",
+   "size_bytes": 7064674,
+   "updated": "2026-10-01T11:59:18.241Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g960-nonprofit-tradeshow-asset-sourcing-audit",
@@ -32666,17 +32682,17 @@
    "updated": "2026-09-23T07:16:51.963Z"
   },
   {
-   "declared_name": "harbor/the-projects-only-one-person-is-on",
-   "declared_short": "the-projects-only-one-person-is-on",
-   "folder": "the-projects-only-one-person-is-on",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-projects-only-one-person-is-on",
+   "declared_short": "the-projects-only-one-person-is-on",
    "domain": null,
+   "folder": "the-projects-only-one-person-is-on",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8755f2391f15be9a518e9cd3ea26b513b853fcd63b819e9195cd073ee16d779a",
    "size_bytes": 7799211,
    "updated": "2026-10-01T11:52:16.169Z"
@@ -34844,17 +34860,17 @@
    "updated": "2026-09-22T23:38:58.090Z"
   },
   {
-   "declared_name": "harbor/what-the-summariser-actually-gets",
-   "declared_short": "what-the-summariser-actually-gets",
-   "folder": "what-the-summariser-actually-gets",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "teams-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/what-the-summariser-actually-gets",
+   "declared_short": "what-the-summariser-actually-gets",
    "domain": null,
+   "folder": "what-the-summariser-actually-gets",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9801f1e5bec611703154183ff77f0d6876ed310a68b65255d3a92dc14958dbee",
    "size_bytes": 7778657,
    "updated": "2026-10-01T11:52:01.673Z"
@@ -35420,17 +35436,17 @@
    "updated": "2026-09-23T07:08:22.794Z"
   },
   {
-   "declared_name": "harbor/who-wrote-while-i-was-heads-down",
-   "declared_short": "who-wrote-while-i-was-heads-down",
-   "folder": "who-wrote-while-i-was-heads-down",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "teams-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/who-wrote-while-i-was-heads-down",
+   "declared_short": "who-wrote-while-i-was-heads-down",
    "domain": null,
+   "folder": "who-wrote-while-i-was-heads-down",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c3f50b4c55a9203d48bcc911585212a7b3940c47cbae4e83343989dba7264781",
    "size_bytes": 8313005,
    "updated": "2026-10-01T11:50:39.192Z"
