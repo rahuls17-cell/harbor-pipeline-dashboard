@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T19:05:03+00:00",
+ "generated_at": "2026-10-01T19:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2464,
-  "scanned": 2464,
-  "connector": 777,
+  "task_folders": 2466,
+  "scanned": 2466,
+  "connector": 779,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 175,
-  "unknown": 237,
+  "real": 176,
+  "unknown": 238,
   "synthetic": 365
  },
  "domain": {
-  "unnamed": 1306,
+  "unnamed": 1308,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 779,
+  "harbor": 781,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -43,8 +43,8 @@
   "gws-gym": 73,
   "outlook-gym": 72,
   "linear-gym": 69,
+  "notion-gym": 68,
   "slack": 66,
-  "notion-gym": 66,
   "github-gym": 50,
   "supabase-gym": 9,
   "teams-gym": 9,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136941
+  "new_archives_read": 2,
+  "approx_bytes_read": 274098
  },
  "errors": [],
  "tasks": [
@@ -1597,17 +1597,17 @@
    "updated": "2026-09-20T07:49:00.440Z"
   },
   {
-   "declared_name": "harbor/august-lab-order-copies-counted-once",
-   "declared_short": "august-lab-order-copies-counted-once",
-   "folder": "august-lab-order-copies-counted-once",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/august-lab-order-copies-counted-once",
+   "declared_short": "august-lab-order-copies-counted-once",
    "domain": null,
+   "folder": "august-lab-order-copies-counted-once",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "15583bcbfffff4966b0e0686630d376e3ea09ae80fc6639cb738b8b1cb7679d5",
    "size_bytes": 18825211,
    "updated": "2026-10-01T19:02:09.436Z"
@@ -34432,6 +34432,22 @@
    "updated": "2026-10-01T14:21:15.875Z"
   },
   {
+   "declared_name": "harbor/the-visit-schedule-we-tell-patients",
+   "declared_short": "the-visit-schedule-we-tell-patients",
+   "folder": "the-visit-schedule-we-tell-patients-v12",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "755c138306f80a9011d544cb9e6c0ce71552e009b7e3d7c35c9f1247fe63eec3",
+   "size_bytes": 7272096,
+   "updated": "2026-10-01T19:08:33.136Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
@@ -35502,6 +35518,22 @@
    "sha256": "d32a3cd0cd1cb13bf9d3db81225dddd0458127cbb92141cb39ea160bd3e3cca1",
    "size_bytes": 9481602,
    "updated": "2026-09-12T13:41:14.141Z"
+  },
+  {
+   "declared_name": "harbor/virtual-care-codes-at-cms-rates",
+   "declared_short": "virtual-care-codes-at-cms-rates",
+   "folder": "virtual-care-codes-at-cms-rates",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "d8341d3fa31d3f899b3fc94377f16cf58e7a1e86b809a1b1357c1a9c8454414c",
+   "size_bytes": 15512752,
+   "updated": "2026-10-01T19:06:46.337Z"
   },
   {
    "connector_provenance": "unknown",
