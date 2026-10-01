@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-10-01T09:55:04+00:00",
+ "generated_at": "2026-10-01T10:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2340,
-  "scanned": 2340,
-  "connector": 673,
-  "non_connector": 1667,
+  "task_folders": 2342,
+  "scanned": 2342,
+  "connector": 674,
+  "non_connector": 1668,
   "errors": 0
  },
  "connector_provenance": {
   "real": 159,
   "unknown": 200,
-  "synthetic": 314
+  "synthetic": 315
  },
  "domain": {
-  "unnamed": 1196,
-  "code": 383,
+  "unnamed": 1197,
+  "code": 384,
   "fin": 120,
   "gen": 369,
   "health": 164,
   "law": 108
  },
  "name_prefix": {
-  "harbor": 675,
-  "obi": 1653,
+  "harbor": 676,
+  "obi": 1654,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -40,7 +40,7 @@
   "email-gym": 187,
   "freshdesk-gym": 187,
   "slack": 66,
-  "email-calendar-gym": 63,
+  "email-calendar-gym": 64,
   "outlook-gym": 62,
   "linear-gym": 60,
   "notion-gym": 53,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 2
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 399432
+  "new_archives_read": 2,
+  "approx_bytes_read": 267414
  },
  "errors": [],
  "tasks": [
@@ -5517,17 +5517,17 @@
    "updated": "2026-09-28T02:37:30.543Z"
   },
   {
-   "declared_name": "harbor/clinic-onboarding-open-items",
-   "declared_short": "clinic-onboarding-open-items",
-   "folder": "clinic-onboarding-open-items",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/clinic-onboarding-open-items",
+   "declared_short": "clinic-onboarding-open-items",
    "domain": null,
+   "folder": "clinic-onboarding-open-items",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "13b238bafa320097e31a06400bf87272f23d340a4e75922cbc0a7773f6cd6946",
    "size_bytes": 6873340,
    "updated": "2026-10-01T09:53:28.423Z"
@@ -8549,6 +8549,20 @@
    "updated": "2026-09-06T20:28:16.733Z"
   },
   {
+   "declared_name": "obi/code-c363-vendor-delivery-window-audit",
+   "declared_short": "code-c363-vendor-delivery-window-audit",
+   "folder": "code-c363-vendor-delivery-window-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "facf976de87ddf3cf6cf13ef630ef6a5bd489ba4e4eea3c16f9742c7d4bfcaf0",
+   "size_bytes": 5008921,
+   "updated": "2026-10-01T09:59:56.446Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c364-brand-wave-deck-qc-audit",
@@ -9641,15 +9655,15 @@
    "updated": "2026-09-13T06:08:26.445Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c515-crm-lead-callback-compliance-audit",
    "declared_short": "code-c515-crm-lead-callback-compliance-audit",
-   "folder": "code-c515-crm-lead-callback-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c515-crm-lead-callback-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "6ce2e40a14dd13fb816c3282f81b176e2773fce3ef6b0fcae7f5f1cfab4280b1",
    "size_bytes": 2977911,
    "updated": "2026-10-01T09:52:04.123Z"
@@ -17713,15 +17727,15 @@
    "updated": "2026-09-23T22:01:13.920Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g384-escrow-draw-schedule-reconciliation",
    "declared_short": "gen-g384-escrow-draw-schedule-reconciliation",
-   "folder": "gen-g384-escrow-draw-schedule-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g384-escrow-draw-schedule-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "ad6a4d2e2f0a830449a4b73d6a47d7b74ccb3d5f83b5965577cf4db66b0f62c3",
    "size_bytes": 5022269,
    "updated": "2026-10-01T09:53:43.722Z"
@@ -34226,6 +34240,22 @@
    "sha256": "a2a6985709bff09f8d7ba948d468a9fa0daf5d7c0949c827f32de82b1507f68b",
    "size_bytes": 9916039,
    "updated": "2026-09-30T07:10:08.582Z"
+  },
+  {
+   "declared_name": "harbor/what-the-inbox-left-out",
+   "declared_short": "what-the-inbox-left-out",
+   "folder": "what-the-inbox-left-out",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "160ef4f2e909b474e912953b10b848e6bac2b05a001a7431905a555810624f4e",
+   "size_bytes": 7845095,
+   "updated": "2026-10-01T09:58:08.762Z"
   },
   {
    "connector_provenance": "synthetic",
