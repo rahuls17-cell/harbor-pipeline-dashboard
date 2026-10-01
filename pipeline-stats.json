@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T10:55:03+00:00",
+ "generated_at": "2026-10-01T11:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2371,
-  "scanned": 2371,
-  "connector": 698,
+  "task_folders": 2373,
+  "scanned": 2373,
+  "connector": 700,
   "non_connector": 1673,
   "errors": 0
  },
  "connector_provenance": {
   "real": 164,
-  "unknown": 208,
+  "unknown": 210,
   "synthetic": 326
  },
  "domain": {
-  "unnamed": 1222,
+  "unnamed": 1224,
   "code": 385,
   "fin": 120,
   "gen": 372,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 700,
+  "harbor": 702,
   "obi": 1659,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 221,
+  "slack-gym": 222,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 72,
   "slack": 66,
-  "outlook-gym": 65,
+  "outlook-gym": 66,
   "linear-gym": 60,
   "notion-gym": 56,
   "gws-gym": 55,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135262
+  "new_archives_read": 3,
+  "approx_bytes_read": 405603
  },
  "errors": [],
  "tasks": [
@@ -13792,17 +13792,17 @@
    "updated": "2026-10-01T10:03:05.800Z"
   },
   {
-   "declared_name": "harbor/every-post-is-in-here-twice",
-   "declared_short": "every-post-is-in-here-twice",
-   "folder": "every-post-is-in-here-twice",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/every-post-is-in-here-twice",
+   "declared_short": "every-post-is-in-here-twice",
    "domain": null,
+   "folder": "every-post-is-in-here-twice",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "bbca59aff5dbb4249b815ab82f5c1de43f8b949a2e69dc4480c32eb7185bc2fa",
    "size_bytes": 6681383,
    "updated": "2026-10-01T10:51:14.425Z"
@@ -15793,20 +15793,20 @@
    "updated": "2026-09-29T07:52:34.951Z"
   },
   {
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/four-threads-worth-a-reply-all",
+   "declared_short": "four-threads-worth-a-reply-all",
+   "folder": "four-threads-worth-a-reply-all",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "outlook-gym"
    ],
-   "declared_name": "harbor/four-threads-worth-a-reply-all",
-   "declared_short": "four-threads-worth-a-reply-all",
+   "connector_provenance": "synthetic",
    "domain": null,
-   "folder": "four-threads-worth-a-reply-all",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "427885f54f51fbb41ffffa3cba2f36971b8a5e4e300dfac768af283a5145a430",
-   "size_bytes": 91030917,
-   "updated": "2026-09-27T12:47:10.976Z"
+   "sha256": "a5a9429d4c481d69fb6cb4e3edb925a3671858449c04ce7902e4b0751486c75d",
+   "size_bytes": 46958868,
+   "updated": "2026-10-01T10:58:04.270Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -34622,6 +34622,22 @@
    "updated": "2026-09-23T07:19:55.557Z"
   },
   {
+   "declared_name": "harbor/what-lands-on-my-weekends",
+   "declared_short": "what-lands-on-my-weekends",
+   "folder": "what-lands-on-my-weekends",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "54de5c4ea3c9f5e58b09257e95574fe5fb736bc1fefd462bf5bfdd188c4251c8",
+   "size_bytes": 11674778,
+   "updated": "2026-10-01T10:58:16.797Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
@@ -34972,6 +34988,22 @@
    "sha256": "53665ef6db58e946a894c0cbf546a4f97bee6d4568ad6593ae8d5dd1ecbeb537",
    "size_bytes": 8478405,
    "updated": "2026-09-30T16:35:25.289Z"
+  },
+  {
+   "declared_name": "harbor/which-threads-went-cold-after-one-reply",
+   "declared_short": "which-threads-went-cold-after-one-reply",
+   "folder": "which-threads-went-cold-after-one-reply",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "d6eb12a1d8d0932e14806aaf2fc582bcfbbf65c249f659f418a66bccf5a9e442",
+   "size_bytes": 9613102,
+   "updated": "2026-10-01T10:58:03.071Z"
   },
   {
    "connector_provenance": "unknown",
