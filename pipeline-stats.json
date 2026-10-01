@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T12:20:03+00:00",
+ "generated_at": "2026-10-01T12:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2387,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138742
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -32874,17 +32874,17 @@
    "updated": "2026-09-28T23:36:42.489Z"
   },
   {
-   "declared_name": "harbor/the-required-guests-still-not-locked-in",
-   "declared_short": "the-required-guests-still-not-locked-in",
-   "folder": "the-required-guests-still-not-locked-in",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-required-guests-still-not-locked-in",
+   "declared_short": "the-required-guests-still-not-locked-in",
    "domain": null,
+   "folder": "the-required-guests-still-not-locked-in",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ab4525beef2b5b58dddf20dc6197897c3158d3dd2e70f6fac52661e6334acc7e",
    "size_bytes": 8455475,
    "updated": "2026-10-01T12:16:58.896Z"
