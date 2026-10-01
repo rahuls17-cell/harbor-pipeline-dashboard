@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-01T09:25:03+00:00",
+ "generated_at": "2026-10-01T09:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2333,
-  "scanned": 2333,
+  "task_folders": 2334,
+  "scanned": 2334,
   "connector": 672,
-  "non_connector": 1661,
+  "non_connector": 1662,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 1193,
-  "code": 380,
+  "code": 381,
   "fin": 120,
   "gen": 368,
   "health": 164,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 674,
-  "obi": 1647,
+  "obi": 1648,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131452
  },
  "errors": [],
  "tasks": [
@@ -9133,6 +9133,20 @@
    "sha256": "9d36d87dbcc2515cc4906b460afef688671af5241ae544967421885c9562b95e",
    "size_bytes": 10105796,
    "updated": "2026-09-09T21:57:04.758Z"
+  },
+  {
+   "declared_name": "obi/code-c445-interface-register-correction-audit",
+   "declared_short": "code-c445-interface-register-correction-audit",
+   "folder": "code-c445-interface-register-correction-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "37bcbbd735367f63141e4a7f9e265dd70473a987e848f9507544f88d889f16d1",
+   "size_bytes": 5120483,
+   "updated": "2026-10-01T09:26:18.077Z"
   },
   {
    "connector_provenance": null,
