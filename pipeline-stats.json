@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T18:40:04+00:00",
+ "generated_at": "2026-10-01T18:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2455,
-  "scanned": 2455,
-  "connector": 768,
+  "task_folders": 2457,
+  "scanned": 2457,
+  "connector": 770,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 174,
-  "unknown": 234,
-  "synthetic": 360
+  "unknown": 235,
+  "synthetic": 361
  },
  "domain": {
-  "unnamed": 1297,
+  "unnamed": 1299,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 770,
+  "harbor": 772,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,9 +40,9 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 85,
+  "gws-gym": 72,
   "outlook-gym": 72,
-  "gws-gym": 71,
-  "linear-gym": 67,
+  "linear-gym": 68,
   "slack": 66,
   "notion-gym": 65,
   "github-gym": 50,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136062
+  "new_archives_read": 2,
+  "approx_bytes_read": 269401
  },
  "errors": [],
  "tasks": [
@@ -1611,6 +1611,22 @@
    "sha256": "886a9cc371deb508ca9396b3750ab555767053378097f88b883fd5b0ea6de7a7",
    "size_bytes": 11784719,
    "updated": "2026-10-01T11:52:19.609Z"
+  },
+  {
+   "declared_name": "harbor/august-lab-order-dedup",
+   "declared_short": "august-lab-order-dedup",
+   "folder": "august-lab-order-dedup",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "072d53e1cc5ca01d89499c50481492626601785e73d0a587b8a1b22fc6313041",
+   "size_bytes": 20826509,
+   "updated": "2026-10-01T18:40:10.706Z"
   },
   {
    "connector_provenance": "unknown",
@@ -14048,6 +14064,22 @@
    "sha256": "f4033f3c3e0c0b7b335a796b109145d34308c23e181b25ddc57d6a32a7b15938",
    "size_bytes": 12328514,
    "updated": "2026-10-01T10:15:23.221Z"
+  },
+  {
+   "declared_name": "harbor/estimate-capacity-audit",
+   "declared_short": "estimate-capacity-audit",
+   "folder": "estimate-capacity-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "8280ad8d3029d8b756055a940e246eb0b8af3a1aa0a02f25affd03a3b28d5b7a",
+   "size_bytes": 9499824,
+   "updated": "2026-10-01T18:40:11.499Z"
   },
   {
    "connector_provenance": "unknown",
@@ -36146,17 +36178,17 @@
    "updated": "2026-10-01T13:46:35.827Z"
   },
   {
-   "declared_name": "harbor/which-vendors-have-gone-quiet",
-   "declared_short": "which-vendors-have-gone-quiet",
-   "folder": "which-vendors-have-gone-quiet",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/which-vendors-have-gone-quiet",
+   "declared_short": "which-vendors-have-gone-quiet",
    "domain": null,
+   "folder": "which-vendors-have-gone-quiet",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "80cae86b8457aedcfa378438dabb5f979b4029c94c0cac0f0225ec6a64f03583",
    "size_bytes": 6854394,
    "updated": "2026-10-01T18:37:28.127Z"
