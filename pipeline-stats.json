@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T19:00:03+00:00",
+ "generated_at": "2026-10-01T19:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2464,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 136941
  },
  "errors": [],
  "tasks": [
@@ -1597,20 +1597,20 @@
    "updated": "2026-09-20T07:49:00.440Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/august-lab-order-copies-counted-once",
+   "declared_short": "august-lab-order-copies-counted-once",
+   "folder": "august-lab-order-copies-counted-once",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "gws-gym"
    ],
-   "declared_name": "harbor/august-lab-order-copies-counted-once",
-   "declared_short": "august-lab-order-copies-counted-once",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "august-lab-order-copies-counted-once",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "886a9cc371deb508ca9396b3750ab555767053378097f88b883fd5b0ea6de7a7",
-   "size_bytes": 11784719,
-   "updated": "2026-10-01T11:52:19.609Z"
+   "sha256": "15583bcbfffff4966b0e0686630d376e3ea09ae80fc6639cb738b8b1cb7679d5",
+   "size_bytes": 18825211,
+   "updated": "2026-10-01T19:02:09.436Z"
   },
   {
    "connector_provenance": "unknown",
