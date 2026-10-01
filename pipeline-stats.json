@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T12:15:04+00:00",
+ "generated_at": "2026-10-01T12:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2386,
-  "scanned": 2386,
-  "connector": 712,
+  "task_folders": 2387,
+  "scanned": 2387,
+  "connector": 713,
   "non_connector": 1674,
   "errors": 0
  },
  "connector_provenance": {
   "real": 165,
   "unknown": 215,
-  "synthetic": 332
+  "synthetic": 333
  },
  "domain": {
-  "unnamed": 1237,
+  "unnamed": 1238,
   "code": 385,
   "fin": 120,
   "gen": 372,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 714,
+  "harbor": 715,
   "obi": 1660,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 75,
+  "email-calendar-gym": 76,
   "outlook-gym": 69,
   "slack": 66,
   "linear-gym": 61,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 268955
+  "new_archives_read": 1,
+  "approx_bytes_read": 138742
  },
  "errors": [],
  "tasks": [
@@ -13974,17 +13974,17 @@
    "updated": "2026-09-10T14:24:31.771Z"
   },
   {
-   "declared_name": "harbor/faxes-on-the-lines-i-track",
-   "declared_short": "faxes-on-the-lines-i-track",
-   "folder": "faxes-on-the-lines-i-track",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/faxes-on-the-lines-i-track",
+   "declared_short": "faxes-on-the-lines-i-track",
    "domain": null,
+   "folder": "faxes-on-the-lines-i-track",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "54fe12b447b510866a52e9c77c75643afc87bd7caf23aa4f14e16822384c5038",
    "size_bytes": 7156657,
    "updated": "2026-10-01T12:11:17.390Z"
@@ -27941,17 +27941,17 @@
    "updated": "2026-09-29T08:39:02.824Z"
   },
   {
-   "declared_name": "harbor/send-over-the-meetings-that-stood",
-   "declared_short": "send-over-the-meetings-that-stood",
-   "folder": "send-over-the-meetings-that-stood",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/send-over-the-meetings-that-stood",
+   "declared_short": "send-over-the-meetings-that-stood",
    "domain": null,
+   "folder": "send-over-the-meetings-that-stood",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8f13734790371136c74d9b06ed5d1e094c74fea55e35af59c124550b72ee1c58",
    "size_bytes": 14734421,
    "updated": "2026-10-01T12:14:09.417Z"
@@ -32872,6 +32872,22 @@
    "sha256": "1c8c7788de32373d5447b11de6154bd4b94c6b0469c9a0231d015b79dde8d235",
    "size_bytes": 169539760,
    "updated": "2026-09-28T23:36:42.489Z"
+  },
+  {
+   "declared_name": "harbor/the-required-guests-still-not-locked-in",
+   "declared_short": "the-required-guests-still-not-locked-in",
+   "folder": "the-required-guests-still-not-locked-in",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "ab4525beef2b5b58dddf20dc6197897c3158d3dd2e70f6fac52661e6334acc7e",
+   "size_bytes": 8455475,
+   "updated": "2026-10-01T12:16:58.896Z"
   },
   {
    "connector_provenance": "synthetic",
