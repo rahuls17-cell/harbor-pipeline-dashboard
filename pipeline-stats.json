@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T15:45:03+00:00",
+ "generated_at": "2026-10-01T15:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2421,
-  "scanned": 2421,
-  "connector": 738,
+  "task_folders": 2423,
+  "scanned": 2423,
+  "connector": 740,
   "non_connector": 1683,
   "errors": 0
  },
  "connector_provenance": {
   "real": 168,
-  "unknown": 224,
-  "synthetic": 346
+  "unknown": 225,
+  "synthetic": 347
  },
  "domain": {
-  "unnamed": 1267,
+  "unnamed": 1269,
   "code": 386,
   "fin": 121,
   "gen": 374,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 740,
+  "harbor": 742,
   "obi": 1669,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 224,
+  "slack-gym": 225,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -45,7 +45,7 @@
   "linear-gym": 64,
   "gws-gym": 64,
   "notion-gym": 61,
-  "github-gym": 48,
+  "github-gym": 49,
   "supabase-gym": 9,
   "teams-gym": 9,
   "snowflake-gym": 5,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136533
+  "new_archives_read": 2,
+  "approx_bytes_read": 272581
  },
  "errors": [],
  "tasks": [
@@ -26775,17 +26775,17 @@
    "updated": "2026-09-26T12:36:13.542Z"
   },
   {
-   "declared_name": "harbor/mail-from-people-i-have-never-met",
-   "declared_short": "mail-from-people-i-have-never-met",
-   "folder": "mail-from-people-i-have-never-met",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/mail-from-people-i-have-never-met",
+   "declared_short": "mail-from-people-i-have-never-met",
    "domain": null,
+   "folder": "mail-from-people-i-have-never-met",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1d7fe40adbf77909a7e00b74d8e04ca1b8d2d8c25f38fa5bab8aded1132a5e53",
    "size_bytes": 5996538,
    "updated": "2026-10-01T15:42:02.249Z"
@@ -26981,6 +26981,22 @@
    "sha256": "4f47a491eaa3276434afe6466c87d0f53ad46dbc8715d71104c094d19a0c5dcd",
    "size_bytes": 7921071,
    "updated": "2026-09-20T07:39:57.001Z"
+  },
+  {
+   "declared_name": "harbor/nobody-has-signed-this-off",
+   "declared_short": "nobody-has-signed-this-off",
+   "folder": "nobody-has-signed-this-off",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "9958498c98de3f6e2201ebbb704a6eb1c3bbc665e7209a17c5d350afcc046cb3",
+   "size_bytes": 8215218,
+   "updated": "2026-10-01T15:45:07.995Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -34150,6 +34166,22 @@
    "sha256": "1115cac878307893c1955e5b21f29df0fc17829bf39b2be719d7f5059ab7cebd",
    "size_bytes": 173978160,
    "updated": "2026-09-26T12:04:53.739Z"
+  },
+  {
+   "declared_name": "harbor/threads-that-settled-themselves",
+   "declared_short": "threads-that-settled-themselves",
+   "folder": "threads-that-settled-themselves",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "0ae6425c01aa0b4e52fe6c68ab679359ffadded4e017ece6809ff48da56deda1",
+   "size_bytes": 7588156,
+   "updated": "2026-10-01T15:49:09.586Z"
   },
   {
    "connector_provenance": "synthetic",
