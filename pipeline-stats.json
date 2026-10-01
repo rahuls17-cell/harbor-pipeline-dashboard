@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T15:50:04+00:00",
+ "generated_at": "2026-10-01T15:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2423,
-  "scanned": 2423,
-  "connector": 740,
+  "task_folders": 2424,
+  "scanned": 2424,
+  "connector": 741,
   "non_connector": 1683,
   "errors": 0
  },
  "connector_provenance": {
   "real": 168,
-  "unknown": 225,
+  "unknown": 226,
   "synthetic": 347
  },
  "domain": {
-  "unnamed": 1269,
+  "unnamed": 1270,
   "code": 386,
   "fin": 121,
   "gen": 374,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 742,
+  "harbor": 743,
   "obi": 1669,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 79,
+  "email-calendar-gym": 80,
   "outlook-gym": 71,
   "slack": 66,
   "linear-gym": 64,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 272581
+  "new_archives_read": 1,
+  "approx_bytes_read": 135627
  },
  "errors": [],
  "tasks": [
@@ -5425,6 +5425,22 @@
    "sha256": "1655b49e16781fa6fb212edec7bec49c9d3bb19b538253c13967bea965dd0c38",
    "size_bytes": 7291113,
    "updated": "2026-09-18T17:25:11.574Z"
+  },
+  {
+   "declared_name": "harbor/card-charges-billed-twice",
+   "declared_short": "card-charges-billed-twice",
+   "folder": "card-charges-billed-twice-final",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "72df5bec8620f6b0a7fd359d6ed420ab16ee86a1881e4e4cb030124a440e3c68",
+   "size_bytes": 7949513,
+   "updated": "2026-10-01T15:50:17.945Z"
   },
   {
    "connector_provenance": "unknown",
@@ -26983,17 +26999,17 @@
    "updated": "2026-09-20T07:39:57.001Z"
   },
   {
-   "declared_name": "harbor/nobody-has-signed-this-off",
-   "declared_short": "nobody-has-signed-this-off",
-   "folder": "nobody-has-signed-this-off",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/nobody-has-signed-this-off",
+   "declared_short": "nobody-has-signed-this-off",
    "domain": null,
+   "folder": "nobody-has-signed-this-off",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9958498c98de3f6e2201ebbb704a6eb1c3bbc665e7209a17c5d350afcc046cb3",
    "size_bytes": 8215218,
    "updated": "2026-10-01T15:45:07.995Z"
@@ -34168,17 +34184,17 @@
    "updated": "2026-09-26T12:04:53.739Z"
   },
   {
-   "declared_name": "harbor/threads-that-settled-themselves",
-   "declared_short": "threads-that-settled-themselves",
-   "folder": "threads-that-settled-themselves",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/threads-that-settled-themselves",
+   "declared_short": "threads-that-settled-themselves",
    "domain": null,
+   "folder": "threads-that-settled-themselves",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0ae6425c01aa0b4e52fe6c68ab679359ffadded4e017ece6809ff48da56deda1",
    "size_bytes": 7588156,
    "updated": "2026-10-01T15:49:09.586Z"
