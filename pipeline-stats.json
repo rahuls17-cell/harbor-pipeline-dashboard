@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-10-01T10:40:03+00:00",
+ "generated_at": "2026-10-01T10:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2367,
-  "scanned": 2367,
-  "connector": 695,
-  "non_connector": 1672,
+  "task_folders": 2370,
+  "scanned": 2370,
+  "connector": 697,
+  "non_connector": 1673,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 163,
+  "real": 164,
   "unknown": 207,
-  "synthetic": 325
+  "synthetic": 326
  },
  "domain": {
-  "unnamed": 1219,
+  "unnamed": 1221,
   "code": 385,
   "fin": 120,
-  "gen": 371,
+  "gen": 372,
   "health": 164,
   "law": 108
  },
  "name_prefix": {
-  "harbor": 697,
-  "obi": 1658,
+  "harbor": 699,
+  "obi": 1659,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -43,8 +43,8 @@
   "slack": 66,
   "outlook-gym": 65,
   "linear-gym": 60,
-  "notion-gym": 55,
-  "gws-gym": 54,
+  "notion-gym": 56,
+  "gws-gym": 55,
   "github-gym": 45,
   "supabase-gym": 9,
   "teams-gym": 6,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 3,
-  "approx_bytes_read": 401554
+  "approx_bytes_read": 404002
  },
  "errors": [],
  "tasks": [
@@ -18779,15 +18779,15 @@
    "updated": "2026-09-21T15:48:35.509Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g627-cpom-medical-directorship-compliance-audit",
    "declared_short": "gen-g627-cpom-medical-directorship-compliance-audit",
-   "folder": "gen-g627-cpom-medical-directorship-compliance-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g627-cpom-medical-directorship-compliance-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9f75e92fcc1be8a0d3ea6e245334124e5a00519959245e1782604f3c54b21a22",
    "size_bytes": 5275077,
    "updated": "2026-10-01T10:39:23.050Z"
@@ -20275,6 +20275,20 @@
    "sha256": "c3270624ae675200c3a0d9f482a406d97372fea466312aa8480ab60deb33a009",
    "size_bytes": 7891872,
    "updated": "2026-09-20T20:46:27.293Z"
+  },
+  {
+   "declared_name": "obi/gen-g929-summit-track-color-logo-audit",
+   "declared_short": "gen-g929-summit-track-color-logo-audit",
+   "folder": "gen-g929-v100-qc-v101-cld3",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "67decdf68187b6a09da883b1b396687fdc382fcc85c4b174d132360a08da6dac",
+   "size_bytes": 4943384,
+   "updated": "2026-10-01T10:43:02.145Z"
   },
   {
    "connector_provenance": null,
@@ -24825,17 +24839,17 @@
    "updated": "2026-09-22T21:56:24.930Z"
   },
   {
-   "declared_name": "harbor/lab-results-morning-brief",
-   "declared_short": "lab-results-morning-brief",
-   "folder": "lab-results-morning-brief",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/lab-results-morning-brief",
+   "declared_short": "lab-results-morning-brief",
    "domain": null,
+   "folder": "lab-results-morning-brief",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f9b6e387cbec7f09efa1be6ff9bd56f68c690541b16fb24dc25827d85a79de69",
    "size_bytes": 8176432,
    "updated": "2026-10-01T10:37:48.611Z"
@@ -32872,6 +32886,22 @@
    "updated": "2026-09-17T17:34:22.992Z"
   },
   {
+   "declared_name": "harbor/the-rule-that-stopped-at-the-first-tab",
+   "declared_short": "the-rule-that-stopped-at-the-first-tab",
+   "folder": "the-rule-that-stopped-at-the-first-tab",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "a7e45ebe7680cfe46b1e5fc0d70d2eedf55d19b34637158f8cc494a3441e067d",
+   "size_bytes": 9418351,
+   "updated": "2026-10-01T10:44:15.568Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
@@ -33160,6 +33190,22 @@
    "updated": "2026-10-01T10:01:03.289Z"
   },
   {
+   "declared_name": "harbor/the-tagged-specs-that-are-one-line-long",
+   "declared_short": "the-tagged-specs-that-are-one-line-long",
+   "folder": "the-tagged-specs-that-are-one-line-long",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "98d2ecbf4b5f2cd2dd65a3b11df218fa57527e131319bcdddfc1c39972b361fe",
+   "size_bytes": 6158299,
+   "updated": "2026-10-01T10:41:26.748Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-teams-gym"
@@ -33272,17 +33318,17 @@
    "updated": "2026-09-26T14:48:44.211Z"
   },
   {
-   "declared_name": "harbor/the-threads-that-would-not-die",
-   "declared_short": "the-threads-that-would-not-die",
-   "folder": "the-threads-that-would-not-die",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-threads-that-would-not-die",
+   "declared_short": "the-threads-that-would-not-die",
    "domain": null,
+   "folder": "the-threads-that-would-not-die",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "677fdc5bf52db9c7c81add2a06c5161f1e03eacee4b48b72023eecc0d28ed3ae",
    "size_bytes": 209927105,
    "updated": "2026-10-01T10:36:29.516Z"
