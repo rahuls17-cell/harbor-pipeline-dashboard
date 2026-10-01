@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T10:20:03+00:00",
+ "generated_at": "2026-10-01T10:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2361,
-  "scanned": 2361,
-  "connector": 690,
+  "task_folders": 2363,
+  "scanned": 2363,
+  "connector": 692,
   "non_connector": 1671,
   "errors": 0
  },
  "connector_provenance": {
   "real": 162,
   "unknown": 206,
-  "synthetic": 322
+  "synthetic": 324
  },
  "domain": {
-  "unnamed": 1214,
+  "unnamed": 1216,
   "code": 385,
   "fin": 120,
   "gen": 370,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 692,
+  "harbor": 694,
   "obi": 1657,
   "bus": 1,
   "edu": 3,
@@ -41,10 +41,10 @@
   "freshdesk-gym": 187,
   "email-calendar-gym": 71,
   "slack": 66,
-  "outlook-gym": 63,
+  "outlook-gym": 64,
   "linear-gym": 60,
   "notion-gym": 55,
-  "gws-gym": 53,
+  "gws-gym": 54,
   "github-gym": 45,
   "supabase-gym": 8,
   "teams-gym": 6,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137140
+  "new_archives_read": 3,
+  "approx_bytes_read": 404304
  },
  "errors": [],
  "tasks": [
@@ -13760,17 +13760,17 @@
    "updated": "2026-09-05T22:15:41.160Z"
   },
   {
-   "declared_name": "harbor/error-kinds-that-first-showed-up-in-2025",
-   "declared_short": "error-kinds-that-first-showed-up-in-2025",
-   "folder": "error-kinds-that-first-showed-up-in-2025",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/error-kinds-that-first-showed-up-in-2025",
+   "declared_short": "error-kinds-that-first-showed-up-in-2025",
    "domain": null,
+   "folder": "error-kinds-that-first-showed-up-in-2025",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f4033f3c3e0c0b7b335a796b109145d34308c23e181b25ddc57d6a32a7b15938",
    "size_bytes": 12328514,
    "updated": "2026-10-01T10:15:23.221Z"
@@ -29492,18 +29492,18 @@
    "updated": "2026-09-25T14:40:35.503Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/tech-b52-t2-fuel-site-inspection-cadence",
    "declared_short": "tech-b52-t2-fuel-site-inspection-cadence",
-   "domain": null,
    "folder": "tech-b52-t2-fuel-site-inspection-cadence",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "4b881aee027b1d325a8eab4b0ad0333babfa1a8659b819884d5ef2cd6cf058a4",
-   "size_bytes": 6296898,
-   "updated": "2026-09-29T20:31:33.440Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "1f3f6c77996546b19d90b70b0cbe63155ed1817b87d3e954af9a0123f538e470",
+   "size_bytes": 6236474,
+   "updated": "2026-10-01T10:23:42.346Z"
   },
   {
    "connector_provenance": null,
@@ -31784,6 +31784,22 @@
    "sha256": "4f641d04502eafd3c2c3c8975748fd704c2eb392c0ef2885cbd3bf34d4e64bb2",
    "size_bytes": 8853410,
    "updated": "2026-09-22T20:55:56.137Z"
+  },
+  {
+   "declared_name": "harbor/the-mail-that-lands-overnight",
+   "declared_short": "the-mail-that-lands-overnight",
+   "folder": "the-mail-that-lands-overnight",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "cbeb6d03a4c05e4516eafacd85880d4301f9969c58f385ce0619d3c114858099",
+   "size_bytes": 164134591,
+   "updated": "2026-10-01T10:23:28.621Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -35168,6 +35184,22 @@
    "sha256": "a003f0d53c904c4da0348c72da54b0556e0960c844af9ab62344756b5bdddc50",
    "size_bytes": 8740500,
    "updated": "2026-09-20T12:00:31.441Z"
+  },
+  {
+   "declared_name": "harbor/winter-lab-fee-components",
+   "declared_short": "winter-lab-fee-components",
+   "folder": "winter-lab-fee-components",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d682a4812c0f87c5d723f97e2e0fc4c688b67f7425819f1d7c69984d7cae956f",
+   "size_bytes": 11855675,
+   "updated": "2026-10-01T10:21:07.967Z"
   },
   {
    "connector_provenance": "unknown",
