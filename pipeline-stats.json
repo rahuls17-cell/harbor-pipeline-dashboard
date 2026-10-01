@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-10-01T14:35:03+00:00",
+ "generated_at": "2026-10-01T14:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2409,
-  "scanned": 2409,
-  "connector": 728,
-  "non_connector": 1681,
+  "task_folders": 2412,
+  "scanned": 2412,
+  "connector": 730,
+  "non_connector": 1682,
   "errors": 0
  },
  "connector_provenance": {
   "real": 168,
-  "unknown": 221,
-  "synthetic": 339
+  "unknown": 222,
+  "synthetic": 340
  },
  "domain": {
-  "unnamed": 1256,
+  "unnamed": 1258,
   "code": 386,
   "fin": 121,
-  "gen": 373,
+  "gen": 374,
   "health": 165,
   "law": 108
  },
  "name_prefix": {
-  "harbor": 730,
-  "obi": 1667,
+  "harbor": 732,
+  "obi": 1668,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -44,18 +44,18 @@
   "slack": 66,
   "linear-gym": 63,
   "notion-gym": 61,
-  "gws-gym": 60,
+  "gws-gym": 61,
   "github-gym": 47,
   "supabase-gym": 9,
-  "teams-gym": 8,
+  "teams-gym": 9,
   "snowflake-gym": 5,
   "microsoft-teams-gym": 5,
   "microsoft-365-gym": 3,
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 409194
  },
  "errors": [],
  "tasks": [
@@ -19111,6 +19111,20 @@
    "updated": "2026-09-13T13:29:03.711Z"
   },
   {
+   "declared_name": "obi/gen-g658-treasury-wire-transfer-authorization-audit-hard-v24",
+   "declared_short": "gen-g658-treasury-wire-transfer-authorization-audit-hard-v24",
+   "folder": "gen-g658-treasury-wire-transfer-authorization-audit-hard-v24",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "c237d8b363d52369b26e69ac39fde2e1a8e2fa1307780518d3c28f622ba825ac",
+   "size_bytes": 4880673,
+   "updated": "2026-10-01T14:40:12.463Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g659-cabin-innovation-award-eligibility-audit",
@@ -35678,6 +35692,22 @@
    "updated": "2026-09-29T04:36:18.368Z"
   },
   {
+   "declared_name": "harbor/who-is-actually-waiting-on-me",
+   "declared_short": "who-is-actually-waiting-on-me",
+   "folder": "who-is-actually-waiting-on-me",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "teams-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d284da2c9fa98b698399262ba676c63ff1a8e70d1786cc5384068176dbb4d960",
+   "size_bytes": 6789489,
+   "updated": "2026-10-01T14:43:19.000Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "teams-gym"
@@ -35938,6 +35968,22 @@
    "sha256": "d008fcee5679878c780766edb84faeb6b073fe2601045c59ea3149992ded7bd0",
    "size_bytes": 12896700,
    "updated": "2026-10-01T12:52:14.189Z"
+  },
+  {
+   "declared_name": "harbor/winter-tests-left-without-a-result",
+   "declared_short": "winter-tests-left-without-a-result",
+   "folder": "winter-tests-left-without-a-result",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "81a7a35cb6a32f061e0fd8639e1c583411073f47d1c719f55088b3ff35db0ddf",
+   "size_bytes": 11952889,
+   "updated": "2026-10-01T14:41:55.122Z"
   },
   {
    "connector_provenance": "synthetic",
