@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T17:55:03+00:00",
+ "generated_at": "2026-10-01T18:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2444,
-  "scanned": 2444,
-  "connector": 758,
+  "task_folders": 2446,
+  "scanned": 2446,
+  "connector": 760,
   "non_connector": 1686,
   "errors": 0
  },
  "connector_provenance": {
   "real": 172,
   "unknown": 230,
-  "synthetic": 356
+  "synthetic": 358
  },
  "domain": {
-  "unnamed": 1287,
+  "unnamed": 1289,
   "code": 387,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 760,
+  "harbor": 762,
   "obi": 1672,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 229,
+  "slack-gym": 231,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 277093
  },
  "errors": [],
  "tasks": [
@@ -807,6 +807,22 @@
    "sha256": "0e2d1cac6271af17970e5ab037a763788bf9d5baacab363a1886fa705e226068",
    "size_bytes": 17252708,
    "updated": "2026-09-29T06:58:37.546Z"
+  },
+  {
+   "declared_name": "harbor/what-about-the-private-conversations",
+   "declared_short": "what-about-the-private-conversations",
+   "folder": "ASTR_101585",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "76256bc14dd49cce6b9c37e271982f1bf7d9c81be39c542e098a28ecccc92e86",
+   "size_bytes": 21825236,
+   "updated": "2026-10-01T17:55:29.855Z"
   },
   {
    "connector_provenance": null,
@@ -35618,6 +35634,22 @@
    "sha256": "9801f1e5bec611703154183ff77f0d6876ed310a68b65255d3a92dc14958dbee",
    "size_bytes": 7778657,
    "updated": "2026-10-01T11:52:01.673Z"
+  },
+  {
+   "declared_name": "harbor/what-was-said-next",
+   "declared_short": "what-was-said-next",
+   "folder": "what-was-said-next",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "a98270ecfea84a5dd4618a6409867b414e27e8425a6b9e9b8a852b9d1d69d61a",
+   "size_bytes": 7586885,
+   "updated": "2026-10-01T17:56:31.458Z"
   },
   {
    "connector_provenance": "unknown",
