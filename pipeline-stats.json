@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T11:20:04+00:00",
+ "generated_at": "2026-10-01T11:25:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2375,
-  "scanned": 2375,
-  "connector": 702,
-  "non_connector": 1673,
+  "task_folders": 2377,
+  "scanned": 2377,
+  "connector": 703,
+  "non_connector": 1674,
   "errors": 0
  },
  "connector_provenance": {
   "real": 164,
-  "unknown": 211,
+  "unknown": 212,
   "synthetic": 327
  },
  "domain": {
-  "unnamed": 1226,
+  "unnamed": 1228,
   "code": 385,
   "fin": 120,
   "gen": 372,
@@ -22,8 +22,8 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 704,
-  "obi": 1659,
+  "harbor": 705,
+  "obi": 1660,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -40,7 +40,7 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 73,
-  "outlook-gym": 67,
+  "outlook-gym": 68,
   "slack": 66,
   "linear-gym": 60,
   "notion-gym": 56,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 264990
  },
  "errors": [],
  "tasks": [
@@ -12580,6 +12580,20 @@
    "sha256": "1bed550d3183efd7f85d550fe6a490081f898c88ed6a5bee97f1a60b9c0b9b01",
    "size_bytes": 6315414,
    "updated": "2026-09-29T10:31:59.966Z"
+  },
+  {
+   "declared_name": "obi/edu-mg-edu-b14-a2-internship-section-ceiling-rewrite",
+   "declared_short": "edu-mg-edu-b14-a2-internship-section-ceiling-rewrite",
+   "folder": "edu-mg-edu-b14-a2-internship-section-ceiling-rewrite",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "7ab6109f030b71f12de86916aea98050f3527cce419eafe399bfb84055eb7693",
+   "size_bytes": 6566075,
+   "updated": "2026-10-01T11:20:31.877Z"
   },
   {
    "connector_provenance": null,
@@ -31866,6 +31880,22 @@
    "sha256": "27d3fddee4c6fffc98d0daab71ca9eefd47044490c7a56089f34bbe6de2d8688",
    "size_bytes": 11289083,
    "updated": "2026-09-23T08:47:51.778Z"
+  },
+  {
+   "declared_name": "harbor/the-link-two-meetings-share",
+   "declared_short": "the-link-two-meetings-share",
+   "folder": "the-link-two-meetings-share",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "79cad4f310980f9212fb69637eb3715eea6ed032ce8649674d756f3e6e3423bb",
+   "size_bytes": 17287797,
+   "updated": "2026-10-01T11:22:37.179Z"
   },
   {
    "connector_provenance": "synthetic",
