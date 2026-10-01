@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T09:40:03+00:00",
+ "generated_at": "2026-10-01T09:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2336,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 131559
  },
  "errors": [],
  "tasks": [
@@ -7511,18 +7511,18 @@
    "updated": "2026-09-25T01:34:06.731Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/code-c267-support-call-qa-compliance-audit",
    "declared_short": "code-c267-support-call-qa-compliance-audit",
-   "domain": "code",
    "folder": "code-c267-support-call-qa-compliance-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "608ba7e61dcff21b5736558543c457116d77ed52824e785aa15857f0bb997ccb",
-   "size_bytes": 6077970,
-   "updated": "2026-09-25T03:34:03.963Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "f4b9ad419b93831dce0d64b932603ebc4a2e4c0cd4e371f0185ebafc0a8d1b56",
+   "size_bytes": 6554897,
+   "updated": "2026-10-01T09:44:29.196Z"
   },
   {
    "connector_provenance": null,
