@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T10:10:04+00:00",
+ "generated_at": "2026-10-01T10:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2355,
-  "scanned": 2355,
-  "connector": 685,
-  "non_connector": 1670,
+  "task_folders": 2360,
+  "scanned": 2360,
+  "connector": 689,
+  "non_connector": 1671,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 161,
-  "unknown": 204,
-  "synthetic": 320
+  "real": 162,
+  "unknown": 206,
+  "synthetic": 321
  },
  "domain": {
-  "unnamed": 1208,
+  "unnamed": 1213,
   "code": 385,
   "fin": 120,
   "gen": 370,
@@ -22,8 +22,8 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 687,
-  "obi": 1656,
+  "harbor": 691,
+  "obi": 1657,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -32,18 +32,18 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 219,
+  "slack-gym": 220,
   "google-drive-gym": 204,
   "zeta3-sql-gym": 200,
   "confluence-gym": 194,
   "jira-gym": 191,
   "email-gym": 187,
   "freshdesk-gym": 187,
-  "email-calendar-gym": 69,
+  "email-calendar-gym": 70,
   "slack": 66,
   "outlook-gym": 63,
   "linear-gym": 60,
-  "notion-gym": 53,
+  "notion-gym": 55,
   "gws-gym": 53,
   "github-gym": 45,
   "supabase-gym": 8,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 536527
+  "new_archives_read": 5,
+  "approx_bytes_read": 674783
  },
  "errors": [],
  "tasks": [
@@ -1583,17 +1583,17 @@
    "updated": "2026-09-28T11:16:05.645Z"
   },
   {
-   "declared_name": "harbor/back-into-their-threads",
-   "declared_short": "back-into-their-threads",
-   "folder": "back-into-their-threads-v2",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/back-into-their-threads",
+   "declared_short": "back-into-their-threads",
    "domain": null,
+   "folder": "back-into-their-threads-v2",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5f28a5df05e86098b8309a5765d501115cf6cb2f95e808a8638d96c6f673b079",
    "size_bytes": 6839704,
    "updated": "2026-10-01T10:05:57.578Z"
@@ -1893,6 +1893,22 @@
    "sha256": "0c29805d087e2d9bf4567b5d42887a4bf722fb770faccc4cc583135842915b12",
    "size_bytes": 10790066,
    "updated": "2026-09-19T00:21:46.543Z"
+  },
+  {
+   "declared_name": "harbor/before-another-weekly-series",
+   "declared_short": "before-another-weekly-series",
+   "folder": "before-another-weekly-series",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "e2e787c7a2098304650c13d245d464cfc4b37fba0db0845a5fbc0e8db0ce7a28",
+   "size_bytes": 17104671,
+   "updated": "2026-10-01T10:11:12.899Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -9687,15 +9703,15 @@
    "updated": "2026-09-13T06:08:26.445Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c513-music-track-release-readiness-audit",
    "declared_short": "code-c513-music-track-release-readiness-audit",
-   "folder": "code-c513-music-track-release-readiness-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c513-music-track-release-readiness-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e175b17a3960aedd2cdbe2e18c52e1914bdec80bf9602ecb7b478b88b04198db",
    "size_bytes": 5203306,
    "updated": "2026-10-01T10:09:13.142Z"
@@ -11998,6 +12014,22 @@
    "updated": "2026-09-23T22:25:44.720Z"
   },
   {
+   "declared_name": "harbor/do-our-investor-updates-add-up",
+   "declared_short": "do-our-investor-updates-add-up",
+   "folder": "do-our-investor-updates-add-up",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "e3edea70c5465bbee1c13c446369c9e55fd0949333fd5891d61f62e6f4ea6327",
+   "size_bytes": 10466589,
+   "updated": "2026-10-01T10:11:08.399Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
@@ -12280,6 +12312,20 @@
    "sha256": "302441192e3f5a3d0b0d41a372fa1d70206ed01b44f81ddc04e686652f8b755d",
    "size_bytes": 7284929,
    "updated": "2026-09-24T02:12:37.935Z"
+  },
+  {
+   "declared_name": "obi/edu-b51-a10-submission-support-reconciliation",
+   "declared_short": "edu-b51-a10-submission-support-reconciliation",
+   "folder": "edu-b51-a10-submission-support-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "beff81acbd3ac412fa6ccd08aa48def298082dbc669ada8e1ef6542d329d266c",
+   "size_bytes": 7540580,
+   "updated": "2026-10-01T10:12:21.510Z"
   },
   {
    "connector_provenance": null,
@@ -13632,6 +13678,22 @@
    "sha256": "d6a3709c30406f636c7b484de3d7069ccc3beef52f107944d26cc3e3c0d3c595",
    "size_bytes": 14725863,
    "updated": "2026-10-01T09:14:41.190Z"
+  },
+  {
+   "declared_name": "harbor/end-of-week-sync-her-conversations",
+   "declared_short": "end-of-week-sync-her-conversations",
+   "folder": "end-of-week-sync-her-conversations",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "7d6d6c7934aaca614997bfb8ef5ee17cc7297c96ee4a79af4ccd600d794014c3",
+   "size_bytes": 8232041,
+   "updated": "2026-10-01T10:10:03.314Z"
   },
   {
    "connector_provenance": "unknown",
@@ -32444,17 +32506,17 @@
    "updated": "2026-09-29T16:23:59.047Z"
   },
   {
-   "declared_name": "harbor/the-renewals-nobody-is-working",
-   "declared_short": "the-renewals-nobody-is-working",
-   "folder": "the-renewals-nobody-is-working",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-renewals-nobody-is-working",
+   "declared_short": "the-renewals-nobody-is-working",
    "domain": null,
+   "folder": "the-renewals-nobody-is-working",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7180e911c3fd0597fdd366896765846eb66b5c33937ca5e1b0a0e35c1fd88a8a",
    "size_bytes": 5885033,
    "updated": "2026-10-01T10:06:48.016Z"
@@ -34750,6 +34812,22 @@
    "updated": "2026-09-30T16:35:25.289Z"
   },
   {
+   "declared_name": "harbor/which-vendors-put-a-price-in-front-of-us",
+   "declared_short": "which-vendors-put-a-price-in-front-of-us",
+   "folder": "which-vendors-put-a-price-in-front-of-us",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "fdb57521da401bf9691b0c4edd070ae6e90847b4a5c884713022ef404a7f829d",
+   "size_bytes": 7870281,
+   "updated": "2026-10-01T10:14:44.116Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
@@ -35022,17 +35100,17 @@
    "updated": "2026-09-23T07:08:22.794Z"
   },
   {
-   "declared_name": "harbor/whose-move-is-it",
-   "declared_short": "whose-move-is-it",
-   "folder": "whose-move-is-it",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/whose-move-is-it",
+   "declared_short": "whose-move-is-it",
    "domain": null,
+   "folder": "whose-move-is-it",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "83ceeb530cf5c1c87021e141185f784597e0a9ee991d4e629df073fddec228b4",
    "size_bytes": 17718548,
    "updated": "2026-10-01T10:08:18.762Z"
