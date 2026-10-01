@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T15:55:03+00:00",
+ "generated_at": "2026-10-01T16:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2424,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135627
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -5427,17 +5427,17 @@
    "updated": "2026-09-18T17:25:11.574Z"
   },
   {
-   "declared_name": "harbor/card-charges-billed-twice",
-   "declared_short": "card-charges-billed-twice",
-   "folder": "card-charges-billed-twice-final",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/card-charges-billed-twice",
+   "declared_short": "card-charges-billed-twice",
    "domain": null,
+   "folder": "card-charges-billed-twice-final",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "72df5bec8620f6b0a7fd359d6ed420ab16ee86a1881e4e4cb030124a440e3c68",
    "size_bytes": 7949513,
    "updated": "2026-10-01T15:50:17.945Z"
