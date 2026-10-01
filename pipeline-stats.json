@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T14:50:04+00:00",
+ "generated_at": "2026-10-01T14:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2414,
-  "scanned": 2414,
-  "connector": 732,
+  "task_folders": 2415,
+  "scanned": 2415,
+  "connector": 733,
   "non_connector": 1682,
   "errors": 0
  },
  "connector_provenance": {
   "real": 168,
   "unknown": 223,
-  "synthetic": 341
+  "synthetic": 342
  },
  "domain": {
-  "unnamed": 1260,
+  "unnamed": 1261,
   "code": 386,
   "fin": 121,
   "gen": 374,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 734,
+  "harbor": 735,
   "obi": 1668,
   "bus": 1,
   "edu": 3,
@@ -45,7 +45,7 @@
   "linear-gym": 63,
   "gws-gym": 62,
   "notion-gym": 61,
-  "github-gym": 47,
+  "github-gym": 48,
   "supabase-gym": 9,
   "teams-gym": 9,
   "snowflake-gym": 5,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 274182
+  "new_archives_read": 1,
+  "approx_bytes_read": 135839
  },
  "errors": [],
  "tasks": [
@@ -853,6 +853,22 @@
    "sha256": "cf6baa0ef6ec6b3ee9d31063decf90e787520d0f738e0ff21fa69d841f419329",
    "size_bytes": 5140609,
    "updated": "2026-09-07T15:44:14.048Z"
+  },
+  {
+   "declared_name": "harbor/a-green-review-is-not-a-green-light",
+   "declared_short": "a-green-review-is-not-a-green-light",
+   "folder": "a-green-review-is-not-a-green-light",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "dcbfc2fc5995857807e71d42e79f4cf41fa0ecdb9844924fb9693fd0f0a06b66",
+   "size_bytes": 16194758,
+   "updated": "2026-10-01T14:54:49.957Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -31818,17 +31834,17 @@
    "updated": "2026-09-26T09:07:37.601Z"
   },
   {
-   "declared_name": "harbor/the-four-folders-all-called-customers",
-   "declared_short": "the-four-folders-all-called-customers",
-   "folder": "the-four-folders-all-called-customers",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-four-folders-all-called-customers",
+   "declared_short": "the-four-folders-all-called-customers",
    "domain": null,
+   "folder": "the-four-folders-all-called-customers",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9993c5b3c8a02b59e35712b67234efa17d3708d86629fe47b56ff1b92cb73b04",
    "size_bytes": 9400601,
    "updated": "2026-10-01T14:49:51.944Z"
@@ -35484,17 +35500,17 @@
    "updated": "2026-09-29T06:12:28.275Z"
   },
   {
-   "declared_name": "harbor/which-questions-got-answered-twice-over",
-   "declared_short": "which-questions-got-answered-twice-over",
-   "folder": "which-questions-got-answered-twice-over",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/which-questions-got-answered-twice-over",
+   "declared_short": "which-questions-got-answered-twice-over",
    "domain": null,
+   "folder": "which-questions-got-answered-twice-over",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ad62565d79319c8fdfc50f04cc4eeab7d9589eb987d358eab24006ee8213fc41",
    "size_bytes": 7840052,
    "updated": "2026-10-01T14:48:26.103Z"
