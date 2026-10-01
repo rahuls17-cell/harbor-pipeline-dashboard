@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T11:00:03+00:00",
+ "generated_at": "2026-10-01T11:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2373,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 405603
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -15793,17 +15793,17 @@
    "updated": "2026-09-29T07:52:34.951Z"
   },
   {
-   "declared_name": "harbor/four-threads-worth-a-reply-all",
-   "declared_short": "four-threads-worth-a-reply-all",
-   "folder": "four-threads-worth-a-reply-all",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/four-threads-worth-a-reply-all",
+   "declared_short": "four-threads-worth-a-reply-all",
    "domain": null,
+   "folder": "four-threads-worth-a-reply-all",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a5a9429d4c481d69fb6cb4e3edb925a3671858449c04ce7902e4b0751486c75d",
    "size_bytes": 46958868,
    "updated": "2026-10-01T10:58:04.270Z"
@@ -34622,17 +34622,17 @@
    "updated": "2026-09-23T07:19:55.557Z"
   },
   {
-   "declared_name": "harbor/what-lands-on-my-weekends",
-   "declared_short": "what-lands-on-my-weekends",
-   "folder": "what-lands-on-my-weekends",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/what-lands-on-my-weekends",
+   "declared_short": "what-lands-on-my-weekends",
    "domain": null,
+   "folder": "what-lands-on-my-weekends",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "54de5c4ea3c9f5e58b09257e95574fe5fb736bc1fefd462bf5bfdd188c4251c8",
    "size_bytes": 11674778,
    "updated": "2026-10-01T10:58:16.797Z"
@@ -34990,17 +34990,17 @@
    "updated": "2026-09-30T16:35:25.289Z"
   },
   {
-   "declared_name": "harbor/which-threads-went-cold-after-one-reply",
-   "declared_short": "which-threads-went-cold-after-one-reply",
-   "folder": "which-threads-went-cold-after-one-reply",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/which-threads-went-cold-after-one-reply",
+   "declared_short": "which-threads-went-cold-after-one-reply",
    "domain": null,
+   "folder": "which-threads-went-cold-after-one-reply",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d6eb12a1d8d0932e14806aaf2fc582bcfbbf65c249f659f418a66bccf5a9e442",
    "size_bytes": 9613102,
    "updated": "2026-10-01T10:58:03.071Z"
