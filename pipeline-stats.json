@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T11:15:03+00:00",
+ "generated_at": "2026-10-01T11:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2375,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132702
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -31788,17 +31788,17 @@
    "updated": "2026-09-23T22:05:44.216Z"
   },
   {
-   "declared_name": "harbor/the-last-three-from-each-of-them",
-   "declared_short": "the-last-three-from-each-of-them",
-   "folder": "the-last-three-from-each-of-them",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-last-three-from-each-of-them",
+   "declared_short": "the-last-three-from-each-of-them",
    "domain": null,
+   "folder": "the-last-three-from-each-of-them",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e5a960601ef5f4214f3da9476a77fc35aa752f204cbfb48c6a2590f8edff4923",
    "size_bytes": 9509283,
    "updated": "2026-10-01T11:14:10.498Z"
