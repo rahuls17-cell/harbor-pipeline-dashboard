@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T12:30:03+00:00",
+ "generated_at": "2026-10-01T12:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2388,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133386
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -31050,17 +31050,17 @@
    "updated": "2026-09-29T18:43:41.381Z"
   },
   {
-   "declared_name": "harbor/the-booking-i-cannot-get-back",
-   "declared_short": "the-booking-i-cannot-get-back",
-   "folder": "the-booking-i-cannot-get-back",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-booking-i-cannot-get-back",
+   "declared_short": "the-booking-i-cannot-get-back",
    "domain": null,
+   "folder": "the-booking-i-cannot-get-back",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "bc3ef3f301bc72187a7bb4f46047a3b64a1be6a2ef09fbfc23e72064f5fe8685",
    "size_bytes": 7303251,
    "updated": "2026-10-01T12:27:39.983Z"
