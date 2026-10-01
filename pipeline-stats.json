@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T21:30:03+00:00",
+ "generated_at": "2026-10-01T21:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2474,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135182
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -31808,17 +31808,17 @@
    "updated": "2026-09-29T19:33:26.253Z"
   },
   {
-   "declared_name": "harbor/the-canvas-points-at-an-empty-room",
-   "declared_short": "the-canvas-points-at-an-empty-room",
-   "folder": "the-canvas-points-at-an-empty-room",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-canvas-points-at-an-empty-room",
+   "declared_short": "the-canvas-points-at-an-empty-room",
    "domain": null,
+   "folder": "the-canvas-points-at-an-empty-room",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e193b37b28b7a37530e77334a71701ab4c55a6b4e122eaaecc3472f5ae6728c6",
    "size_bytes": 8525505,
    "updated": "2026-10-01T21:26:15.809Z"
