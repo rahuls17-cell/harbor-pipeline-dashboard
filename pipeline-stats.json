@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T19:55:03+00:00",
+ "generated_at": "2026-10-01T20:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2470,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 271634
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -28525,17 +28525,17 @@
    "updated": "2026-10-01T12:14:09.417Z"
   },
   {
-   "declared_name": "harbor/services-that-could-not-charge-us",
-   "declared_short": "services-that-could-not-charge-us",
-   "folder": "services-that-could-not-charge-us",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/services-that-could-not-charge-us",
+   "declared_short": "services-that-could-not-charge-us",
    "domain": null,
+   "folder": "services-that-could-not-charge-us",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "fd5fcb4dd3cee6a5fab70a895c13697e5ffacbec748ed2b9f0b0f625f0748c64",
    "size_bytes": 14366807,
    "updated": "2026-10-01T19:54:24.445Z"
@@ -28621,17 +28621,17 @@
    "updated": "2026-09-27T06:35:29.984Z"
   },
   {
-   "declared_name": "harbor/spreadsheet-copies-to-keep",
-   "declared_short": "spreadsheet-copies-to-keep",
-   "folder": "spreadsheet-copies-to-keep",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/spreadsheet-copies-to-keep",
+   "declared_short": "spreadsheet-copies-to-keep",
    "domain": null,
+   "folder": "spreadsheet-copies-to-keep",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0007489b5636bf9ccfc4a3b133b015df80de32e46a147139a85f76e794a7515e",
    "size_bytes": 16398137,
    "updated": "2026-10-01T19:54:38.420Z"
