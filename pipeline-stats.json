@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-01T13:55:03+00:00",
+ "generated_at": "2026-10-01T14:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2402,
-  "scanned": 2402,
+  "task_folders": 2403,
+  "scanned": 2403,
   "connector": 724,
-  "non_connector": 1678,
+  "non_connector": 1679,
   "errors": 0
  },
  "connector_provenance": {
@@ -15,7 +15,7 @@
  },
  "domain": {
   "unnamed": 1251,
-  "code": 385,
+  "code": 386,
   "fin": 121,
   "gen": 372,
   "health": 165,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 726,
-  "obi": 1664,
+  "obi": 1665,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 137313
+  "approx_bytes_read": 131524
  },
  "errors": [],
  "tasks": [
@@ -919,17 +919,17 @@
    "updated": "2026-09-24T20:33:52.509Z"
   },
   {
-   "declared_name": "harbor/accelerator-sessions-i-said-yes-to",
-   "declared_short": "accelerator-sessions-i-said-yes-to",
-   "folder": "accelerator-sessions-i-said-yes-to",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/accelerator-sessions-i-said-yes-to",
+   "declared_short": "accelerator-sessions-i-said-yes-to",
    "domain": null,
+   "folder": "accelerator-sessions-i-said-yes-to",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "72690edaf2d0d72232210727ea6dcb1e65a1fba364bcb86660e99925004c9bcb",
    "size_bytes": 31360763,
    "updated": "2026-10-01T13:52:55.911Z"
@@ -8797,6 +8797,20 @@
    "sha256": "1a189f77a59f54f7755b2640b51502106be532eb79d0f84d5d1936dfe6a3b8fd",
    "size_bytes": 6209699,
    "updated": "2026-09-25T09:16:32.316Z"
+  },
+  {
+   "declared_name": "obi/code-c373-cycle-translation-mismatch-audit",
+   "declared_short": "code-c373-cycle-translation-mismatch-audit",
+   "folder": "code-c373-cycle-translation-mismatch-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "c1185914abb11c814602cd469dd305d65f8539d5b0e8a4057f17dbcd24a3da24",
+   "size_bytes": 4239812,
+   "updated": "2026-10-01T13:57:30.347Z"
   },
   {
    "connector_provenance": null,
