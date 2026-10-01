@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T09:10:04+00:00",
+ "generated_at": "2026-10-01T09:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2331,
-  "scanned": 2331,
-  "connector": 671,
-  "non_connector": 1660,
+  "task_folders": 2333,
+  "scanned": 2333,
+  "connector": 672,
+  "non_connector": 1661,
   "errors": 0
  },
  "connector_provenance": {
   "real": 159,
-  "unknown": 198,
+  "unknown": 199,
   "synthetic": 314
  },
  "domain": {
-  "unnamed": 1191,
+  "unnamed": 1193,
   "code": 380,
   "fin": 120,
   "gen": 368,
@@ -22,8 +22,8 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 673,
-  "obi": 1646,
+  "harbor": 674,
+  "obi": 1647,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -42,7 +42,7 @@
   "slack": 66,
   "email-calendar-gym": 63,
   "outlook-gym": 62,
-  "linear-gym": 59,
+  "linear-gym": 60,
   "notion-gym": 52,
   "gws-gym": 52,
   "github-gym": 45,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 2
  },
  "scan": {
-  "new_archives_read": 6,
-  "approx_bytes_read": 791039
+  "new_archives_read": 2,
+  "approx_bytes_read": 263954
  },
  "errors": [],
  "tasks": [
@@ -4435,15 +4435,15 @@
    "updated": "2026-09-29T21:09:49.512Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b55-b7-delivery-route-unit-economics",
    "declared_short": "bus-b55-b7-delivery-route-unit-economics",
-   "folder": "bus-b55-b7-delivery-route-unit-economics",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b55-b7-delivery-route-unit-economics",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "5e923cdda662e30763e8ee3252af682c87574ee347f50cc64b830825051f16cc",
    "size_bytes": 7755534,
    "updated": "2026-10-01T09:05:46.771Z"
@@ -4617,15 +4617,15 @@
    "updated": "2026-09-28T23:00:10.597Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b58-t2-broadcaster-channel-staffing",
    "declared_short": "bus-b58-t2-broadcaster-channel-staffing",
-   "folder": "bus-b58-t2-broadcaster-channel-staffing",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b58-t2-broadcaster-channel-staffing",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "09ccd53f0657e74f890105b08aa1124bc228bbe261041a88c99828e4296c775a",
    "size_bytes": 5715878,
    "updated": "2026-10-01T09:07:53.248Z"
@@ -12302,15 +12302,15 @@
    "updated": "2026-09-24T16:07:00.067Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "edu/mg-edu-b13-a10-registro-sin-contexto-previo",
    "declared_short": "mg-edu-b13-a10-registro-sin-contexto-previo",
-   "folder": "edu-mg-edu-b13-a10-registro-sin-contexto-previo",
-   "prefix": "edu",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-mg-edu-b13-a10-registro-sin-contexto-previo",
    "image": null,
+   "is_connector": false,
+   "prefix": "edu",
    "sha256": "c540c05002cbc05daf85374a3d77610ae2fdff5a85fe9c047f9fd16e750c4109",
    "size_bytes": 4308101,
    "updated": "2026-10-01T09:05:46.117Z"
@@ -13296,15 +13296,15 @@
    "updated": "2026-09-29T11:25:50.237Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sch-b10-escape-room-booth-safety-adjudication",
    "declared_short": "edu-sch-b10-escape-room-booth-safety-adjudication",
-   "folder": "edu-sch-b10-escape-room-booth-safety-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sch-b10-escape-room-booth-safety-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "eaa7eb50f5d3c69253934640088c1305c2601712e80cad0b80bdb690e7f596ee",
    "size_bytes": 4856720,
    "updated": "2026-10-01T09:09:52.750Z"
@@ -13454,6 +13454,22 @@
    "sha256": "400be9f3bff90fb23cf21125e7a1e21530a0997d0e297515a6a7a61a07655e50",
    "size_bytes": 8032181,
    "updated": "2026-09-26T21:58:03.693Z"
+  },
+  {
+   "declared_name": "harbor/eighteen-that-never-shipped",
+   "declared_short": "eighteen-that-never-shipped",
+   "folder": "eighteen-that-never-shipped",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "d6a3709c30406f636c7b484de3d7069ccc3beef52f107944d26cc3e3c0d3c595",
+   "size_bytes": 14725863,
+   "updated": "2026-10-01T09:14:41.190Z"
   },
   {
    "connector_provenance": "unknown",
@@ -28940,6 +28956,20 @@
    "updated": "2026-09-22T01:58:14.859Z"
   },
   {
+   "declared_name": "obi/tech-b51-t4-alarm-schedule-temporal-reconstruction",
+   "declared_short": "tech-b51-t4-alarm-schedule-temporal-reconstruction",
+   "folder": "tech-b51-t4-alarm-schedule-temporal-reconstruction",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "41bbe107397ec85ae946b6bba99c31b47e34d5025a24aba5e2ef5ee4f23467de",
+   "size_bytes": 9317253,
+   "updated": "2026-10-01T09:10:46.715Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/tech-b51-t4-ev-maker-status-table-reconciliation",
@@ -28996,15 +29026,15 @@
    "updated": "2026-09-26T05:37:26.141Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b51-t6-tool-exception-intake-triage",
    "declared_short": "tech-b51-t6-tool-exception-intake-triage",
-   "folder": "tech-b51-t6-tool-exception-intake-triage",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b51-t6-tool-exception-intake-triage",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d84b76915e0053fb358e9fd2b6be66908111edfc5b7a8699ff53584436d50273",
    "size_bytes": 8096154,
    "updated": "2026-10-01T09:05:47.552Z"
@@ -32304,17 +32334,17 @@
    "updated": "2026-09-25T18:57:50.953Z"
   },
   {
-   "declared_name": "harbor/the-review-threads-that-asked",
-   "declared_short": "the-review-threads-that-asked",
-   "folder": "the-review-threads-that-asked",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-review-threads-that-asked",
+   "declared_short": "the-review-threads-that-asked",
    "domain": null,
+   "folder": "the-review-threads-that-asked",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8831b74ecb466890e030e21426705c1bc44f331abce2acf806c24fb49b8cc186",
    "size_bytes": 8403025,
    "updated": "2026-10-01T09:06:49.415Z"
