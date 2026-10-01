@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T12:55:04+00:00",
+ "generated_at": "2026-10-01T13:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2394,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 272245
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -32214,17 +32214,17 @@
    "updated": "2026-09-25T19:39:53.597Z"
   },
   {
-   "declared_name": "harbor/the-milestones-that-slipped-past-their-dates",
-   "declared_short": "the-milestones-that-slipped-past-their-dates",
-   "folder": "the-milestones-that-slipped-past-their-dates",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-milestones-that-slipped-past-their-dates",
+   "declared_short": "the-milestones-that-slipped-past-their-dates",
    "domain": null,
+   "folder": "the-milestones-that-slipped-past-their-dates",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0b9599e6d3ef42288c0fef4feb1fd72fcab2aaa6f4ca413367a4dc59757c7d58",
    "size_bytes": 6828455,
    "updated": "2026-10-01T12:50:55.322Z"
@@ -35694,17 +35694,17 @@
    "updated": "2026-09-30T06:59:44.729Z"
   },
   {
-   "declared_name": "harbor/winter-requisitions-resulted-next-month",
-   "declared_short": "winter-requisitions-resulted-next-month",
-   "folder": "winter-requisitions-resulted-next-month",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/winter-requisitions-resulted-next-month",
+   "declared_short": "winter-requisitions-resulted-next-month",
    "domain": null,
+   "folder": "winter-requisitions-resulted-next-month",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d008fcee5679878c780766edb84faeb6b073fe2601045c59ea3149992ded7bd0",
    "size_bytes": 12896700,
    "updated": "2026-10-01T12:52:14.189Z"
