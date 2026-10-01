@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T19:50:03+00:00",
+ "generated_at": "2026-10-01T19:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2468,
-  "scanned": 2468,
-  "connector": 781,
+  "task_folders": 2470,
+  "scanned": 2470,
+  "connector": 783,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 176,
-  "unknown": 239,
-  "synthetic": 366
+  "unknown": 240,
+  "synthetic": 367
  },
  "domain": {
-  "unnamed": 1310,
+  "unnamed": 1312,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 783,
+  "harbor": 785,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,8 +39,8 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 89,
-  "gws-gym": 74,
+  "email-calendar-gym": 90,
+  "gws-gym": 75,
   "outlook-gym": 72,
   "linear-gym": 69,
   "notion-gym": 68,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136939
+  "new_archives_read": 2,
+  "approx_bytes_read": 271634
  },
  "errors": [],
  "tasks": [
@@ -27343,17 +27343,17 @@
    "updated": "2026-10-01T16:48:08.802Z"
   },
   {
-   "declared_name": "harbor/november-invoice-against-lab-exports",
-   "declared_short": "november-invoice-against-lab-exports",
-   "folder": "november-invoice-against-lab-exports",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/november-invoice-against-lab-exports",
+   "declared_short": "november-invoice-against-lab-exports",
    "domain": null,
+   "folder": "november-invoice-against-lab-exports",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3b1f7400d2b4c7283194bf8c004edfbe39cc946c04ac309fe6f92412c6fc3ecd",
    "size_bytes": 10313785,
    "updated": "2026-10-01T19:47:05.706Z"
@@ -28525,6 +28525,22 @@
    "updated": "2026-10-01T12:14:09.417Z"
   },
   {
+   "declared_name": "harbor/services-that-could-not-charge-us",
+   "declared_short": "services-that-could-not-charge-us",
+   "folder": "services-that-could-not-charge-us",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "fd5fcb4dd3cee6a5fab70a895c13697e5ffacbec748ed2b9f0b0f625f0748c64",
+   "size_bytes": 14366807,
+   "updated": "2026-10-01T19:54:24.445Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
@@ -28603,6 +28619,22 @@
    "sha256": "ff0caf3734d63a3fabb03a5f5e8a73b9cf068248252228fee4b852fe70f244c3",
    "size_bytes": 43701640,
    "updated": "2026-09-27T06:35:29.984Z"
+  },
+  {
+   "declared_name": "harbor/spreadsheet-copies-to-keep",
+   "declared_short": "spreadsheet-copies-to-keep",
+   "folder": "spreadsheet-copies-to-keep",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "0007489b5636bf9ccfc4a3b133b015df80de32e46a147139a85f76e794a7515e",
+   "size_bytes": 16398137,
+   "updated": "2026-10-01T19:54:38.420Z"
   },
   {
    "connector_provenance": "real",
