@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-10-01T16:40:04+00:00",
+ "generated_at": "2026-10-01T16:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2430,
-  "scanned": 2430,
-  "connector": 747,
-  "non_connector": 1683,
+  "task_folders": 2433,
+  "scanned": 2433,
+  "connector": 748,
+  "non_connector": 1685,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 170,
+  "real": 171,
   "unknown": 228,
   "synthetic": 349
  },
  "domain": {
-  "unnamed": 1276,
-  "code": 386,
+  "unnamed": 1277,
+  "code": 387,
   "fin": 121,
-  "gen": 374,
+  "gen": 375,
   "health": 165,
   "law": 108
  },
  "name_prefix": {
-  "harbor": 749,
-  "obi": 1669,
+  "harbor": 750,
+  "obi": 1671,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -43,7 +43,7 @@
   "outlook-gym": 71,
   "slack": 66,
   "linear-gym": 65,
-  "gws-gym": 64,
+  "gws-gym": 65,
   "notion-gym": 62,
   "github-gym": 49,
   "supabase-gym": 9,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 270260
+  "new_archives_read": 3,
+  "approx_bytes_read": 400397
  },
  "errors": [],
  "tasks": [
@@ -8021,6 +8021,20 @@
    "sha256": "e98c09bd54480d848825c4871581758e690238ed4fa64d29e2a54cf0003910c3",
    "size_bytes": 6970172,
    "updated": "2026-09-26T20:52:51.775Z"
+  },
+  {
+   "declared_name": "obi/code-c288-intent-routing-compliance-audit",
+   "declared_short": "code-c288-intent-routing-compliance-audit",
+   "folder": "code-c288-intent-routing-compliance-audit-qc-v19-cldaa4",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "132657d01b19be7ae8649ef3acd535f80a97f031e307518f0a7c2abec72e32b0",
+   "size_bytes": 4259204,
+   "updated": "2026-10-01T16:42:51.010Z"
   },
   {
    "connector_provenance": null,
@@ -19373,6 +19387,20 @@
    "updated": "2026-09-25T20:50:24.137Z"
   },
   {
+   "declared_name": "obi/gen-g706-mes-rollout-readiness-audit",
+   "declared_short": "gen-g706-mes-rollout-readiness-audit",
+   "folder": "gen-g706-mes-rollout-readiness-audit-v22.5",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "c38dfb32ed67c125a7994d2507dca8242fd305b714e06f86f8281c5ecf0a0dd5",
+   "size_bytes": 9071862,
+   "updated": "2026-10-01T16:40:55.173Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g707-crane-fleet-reliability-report",
@@ -27557,17 +27585,17 @@
    "updated": "2026-09-26T21:36:27.920Z"
   },
   {
-   "declared_name": "harbor/rebuild-my-time-card-from-slack",
-   "declared_short": "rebuild-my-time-card-from-slack",
-   "folder": "rebuild-my-time-card-from-slack",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/rebuild-my-time-card-from-slack",
+   "declared_short": "rebuild-my-time-card-from-slack",
    "domain": null,
+   "folder": "rebuild-my-time-card-from-slack",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f68aa533a74b733f7b02c22bc668af3b54e337c8939759907fd924fd8a477da7",
    "size_bytes": 15526720,
    "updated": "2026-10-01T16:36:53.304Z"
@@ -28323,6 +28351,22 @@
    "sha256": "ff0caf3734d63a3fabb03a5f5e8a73b9cf068248252228fee4b852fe70f244c3",
    "size_bytes": 43701640,
    "updated": "2026-09-27T06:35:29.984Z"
+  },
+  {
+   "declared_name": "harbor/spring-orders-billed-again-next-month",
+   "declared_short": "spring-orders-billed-again-next-month",
+   "folder": "spring-orders-billed-again-next-month",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "886cc192518eaf9dd66fff62924d395afb2e6a7dc175d4edb0911b8c796f5553",
+   "size_bytes": 15702835,
+   "updated": "2026-10-01T16:42:39.831Z"
   },
   {
    "connector_provenance": "unknown",
@@ -34608,17 +34652,17 @@
    "updated": "2026-09-06T04:20:30.120Z"
   },
   {
-   "declared_name": "harbor/vendor-pitches-i-left-hanging",
-   "declared_short": "vendor-pitches-i-left-hanging",
-   "folder": "vendor-pitches-i-left-hanging",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/vendor-pitches-i-left-hanging",
+   "declared_short": "vendor-pitches-i-left-hanging",
    "domain": null,
+   "folder": "vendor-pitches-i-left-hanging",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d4c752cfaff3552999bdb394204b299249d6e80f9a7cd81217e37185ec22e257",
    "size_bytes": 9411670,
    "updated": "2026-10-01T16:35:49.116Z"
