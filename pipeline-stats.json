@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-10-01T09:50:03+00:00",
+ "generated_at": "2026-10-01T09:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2337,
-  "scanned": 2337,
-  "connector": 672,
-  "non_connector": 1665,
+  "task_folders": 2340,
+  "scanned": 2340,
+  "connector": 673,
+  "non_connector": 1667,
   "errors": 0
  },
  "connector_provenance": {
   "real": 159,
-  "unknown": 199,
+  "unknown": 200,
   "synthetic": 314
  },
  "domain": {
-  "unnamed": 1195,
-  "code": 382,
+  "unnamed": 1196,
+  "code": 383,
   "fin": 120,
-  "gen": 368,
+  "gen": 369,
   "health": 164,
   "law": 108
  },
  "name_prefix": {
-  "harbor": 674,
-  "obi": 1651,
+  "harbor": 675,
+  "obi": 1653,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -43,7 +43,7 @@
   "email-calendar-gym": 63,
   "outlook-gym": 62,
   "linear-gym": 60,
-  "notion-gym": 52,
+  "notion-gym": 53,
   "gws-gym": 52,
   "github-gym": 45,
   "supabase-gym": 8,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131485
+  "new_archives_read": 3,
+  "approx_bytes_read": 399432
  },
  "errors": [],
  "tasks": [
@@ -3007,15 +3007,15 @@
    "updated": "2026-09-29T04:41:54.832Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/bus-b43-b5-product-listing-copy-normalization",
    "declared_short": "bus-b43-b5-product-listing-copy-normalization",
-   "folder": "bus-b43-b5-product-listing-copy-normalization",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "bus-b43-b5-product-listing-copy-normalization",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "0e5f35b6652b3f0d637be3c630d637067013e7e79ea333dba9f9d7db2ee28add",
    "size_bytes": 7594870,
    "updated": "2026-10-01T09:48:55.930Z"
@@ -5515,6 +5515,22 @@
    "sha256": "8b3f5b0604cd70ebfc42373a3e1098b4fdaa7098b49c498cb325f3b4d330baaa",
    "size_bytes": 11871209,
    "updated": "2026-09-28T02:37:30.543Z"
+  },
+  {
+   "declared_name": "harbor/clinic-onboarding-open-items",
+   "declared_short": "clinic-onboarding-open-items",
+   "folder": "clinic-onboarding-open-items",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "13b238bafa320097e31a06400bf87272f23d340a4e75922cbc0a7773f6cd6946",
+   "size_bytes": 6873340,
+   "updated": "2026-10-01T09:53:28.423Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -9623,6 +9639,20 @@
    "sha256": "0322ac5fafffd8779b54c02e8f2d2d40bc7648b43777b453af6f5918da833e47",
    "size_bytes": 7135184,
    "updated": "2026-09-13T06:08:26.445Z"
+  },
+  {
+   "declared_name": "obi/code-c515-crm-lead-callback-compliance-audit",
+   "declared_short": "code-c515-crm-lead-callback-compliance-audit",
+   "folder": "code-c515-crm-lead-callback-compliance-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "6ce2e40a14dd13fb816c3282f81b176e2773fce3ef6b0fcae7f5f1cfab4280b1",
+   "size_bytes": 2977911,
+   "updated": "2026-10-01T09:52:04.123Z"
   },
   {
    "connector_provenance": null,
@@ -17681,6 +17711,20 @@
    "sha256": "62cedd83e89766bc03babb999eff366ac6cda588190bf142a0b47b97b388add7",
    "size_bytes": 6169125,
    "updated": "2026-09-23T22:01:13.920Z"
+  },
+  {
+   "declared_name": "obi/gen-g384-escrow-draw-schedule-reconciliation",
+   "declared_short": "gen-g384-escrow-draw-schedule-reconciliation",
+   "folder": "gen-g384-escrow-draw-schedule-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "ad6a4d2e2f0a830449a4b73d6a47d7b74ccb3d5f83b5965577cf4db66b0f62c3",
+   "size_bytes": 5022269,
+   "updated": "2026-10-01T09:53:43.722Z"
   },
   {
    "connector_provenance": null,
