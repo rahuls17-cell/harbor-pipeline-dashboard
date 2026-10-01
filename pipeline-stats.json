@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-10-01T18:05:03+00:00",
+ "generated_at": "2026-10-01T18:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2446,
-  "scanned": 2446,
-  "connector": 760,
-  "non_connector": 1686,
+  "task_folders": 2449,
+  "scanned": 2449,
+  "connector": 762,
+  "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 172,
-  "unknown": 230,
-  "synthetic": 358
+  "unknown": 231,
+  "synthetic": 359
  },
  "domain": {
-  "unnamed": 1289,
-  "code": 387,
+  "unnamed": 1291,
+  "code": 388,
   "fin": 121,
   "gen": 376,
   "health": 165,
   "law": 108
  },
  "name_prefix": {
-  "harbor": 762,
-  "obi": 1672,
+  "harbor": 764,
+  "obi": 1673,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 82,
   "outlook-gym": 72,
-  "gws-gym": 69,
+  "gws-gym": 71,
   "linear-gym": 67,
   "slack": 66,
   "notion-gym": 63,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 402438
  },
  "errors": [],
  "tasks": [
@@ -9885,6 +9885,20 @@
    "sha256": "6ce2e40a14dd13fb816c3282f81b176e2773fce3ef6b0fcae7f5f1cfab4280b1",
    "size_bytes": 2977911,
    "updated": "2026-10-01T09:52:04.123Z"
+  },
+  {
+   "declared_name": "obi/code-c516-legal-intake-escalation-routing-audit",
+   "declared_short": "code-c516-legal-intake-escalation-routing-audit",
+   "folder": "code-c516-legal-intake-escalation-routing-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "b156a43e62afd7400ae500b2f33322424bf8ab13e9676ad3b653d0ac934ea3b4",
+   "size_bytes": 3891543,
+   "updated": "2026-10-01T18:13:41.497Z"
   },
   {
    "connector_provenance": null,
@@ -33490,6 +33504,22 @@
    "updated": "2026-09-28T08:48:09.615Z"
   },
   {
+   "declared_name": "harbor/the-resolve-that-never-took",
+   "declared_short": "the-resolve-that-never-took",
+   "folder": "the-resolve-that-never-took",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "9f960e3f932a4cd11320bdf8f85dca893cac294ecb058ce5e0b80982847a4015",
+   "size_bytes": 9338107,
+   "updated": "2026-10-01T18:13:12.252Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
@@ -36114,6 +36144,22 @@
    "sha256": "679d9a7c41c107a0c0cbb7b755d9c9a0a2602c00a1c2d1756d9e64ab1595a7f0",
    "size_bytes": 7618476,
    "updated": "2026-09-23T22:00:15.775Z"
+  },
+  {
+   "declared_name": "harbor/who-can-open-our-lab-statements",
+   "declared_short": "who-can-open-our-lab-statements",
+   "folder": "who-can-open-our-lab-statements",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "29f3008efe6888acd8f2aa26e66323866779108d3ef585afe5da8d5ce5f68804",
+   "size_bytes": 16052191,
+   "updated": "2026-10-01T18:11:59.625Z"
   },
   {
    "connector_provenance": "unknown",
