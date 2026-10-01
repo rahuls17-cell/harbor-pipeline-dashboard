@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-01T17:35:04+00:00",
+ "generated_at": "2026-10-01T17:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2442,
-  "scanned": 2442,
+  "task_folders": 2443,
+  "scanned": 2443,
   "connector": 757,
-  "non_connector": 1685,
+  "non_connector": 1686,
   "errors": 0
  },
  "connector_provenance": {
@@ -17,13 +17,13 @@
   "unnamed": 1286,
   "code": 387,
   "fin": 121,
-  "gen": 375,
+  "gen": 376,
   "health": 165,
   "law": 108
  },
  "name_prefix": {
   "harbor": 759,
-  "obi": 1671,
+  "obi": 1672,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 548948
+  "new_archives_read": 1,
+  "approx_bytes_read": 131687
  },
  "errors": [],
  "tasks": [
@@ -12218,17 +12218,17 @@
    "updated": "2026-09-21T15:51:59.465Z"
   },
   {
-   "declared_name": "harbor/drive-legal-hold-audit",
-   "declared_short": "drive-legal-hold-audit",
-   "folder": "drive-legal-hold-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/drive-legal-hold-audit",
+   "declared_short": "drive-legal-hold-audit",
    "domain": null,
+   "folder": "drive-legal-hold-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "be316fd0d284e7ecd52628df03e09cf88e919d990dbfec7654339e3eab88319b",
    "size_bytes": 7121278,
    "updated": "2026-10-01T17:33:49.532Z"
@@ -20957,6 +20957,20 @@
    "updated": "2026-09-11T13:48:49.983Z"
   },
   {
+   "declared_name": "obi/gen-g99-overtime-eligibility-audit",
+   "declared_short": "gen-g99-overtime-eligibility-audit",
+   "folder": "gen-g99-overtime-eligibility-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "428e3aae17658e47f0ea3596d712a3b370242b5babf56195c63950c52ee7f965",
+   "size_bytes": 7182558,
+   "updated": "2026-10-01T17:36:22.886Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/gen-g99-overtime-eligibility-audit",
@@ -28545,17 +28559,17 @@
    "updated": "2026-09-30T08:46:48.169Z"
   },
   {
-   "declared_name": "harbor/summer-lab-reports-for-past-customers",
-   "declared_short": "summer-lab-reports-for-past-customers",
-   "folder": "summer-lab-reports-for-past-customers",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/summer-lab-reports-for-past-customers",
+   "declared_short": "summer-lab-reports-for-past-customers",
    "domain": null,
+   "folder": "summer-lab-reports-for-past-customers",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5057ca51076cdca4a83ecade8f04ca6449a9d57f3414afcfb4724c638cc76ab3",
    "size_bytes": 11102510,
    "updated": "2026-10-01T17:34:21.318Z"
@@ -33812,17 +33826,17 @@
    "updated": "2026-09-29T22:17:42.363Z"
   },
   {
-   "declared_name": "harbor/the-sprint-whose-name-is-another-sprint",
-   "declared_short": "the-sprint-whose-name-is-another-sprint",
-   "folder": "the-sprint-whose-name-is-another-sprint",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-sprint-whose-name-is-another-sprint",
+   "declared_short": "the-sprint-whose-name-is-another-sprint",
    "domain": null,
+   "folder": "the-sprint-whose-name-is-another-sprint",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ec65599ed009cf5e83168ec6ec94cc648c0fc89ee8189397de0b2a993a56ec18",
    "size_bytes": 7167945,
    "updated": "2026-10-01T17:34:14.983Z"
@@ -35766,17 +35780,17 @@
    "updated": "2026-10-01T12:48:04.984Z"
   },
   {
-   "declared_name": "harbor/which-clinics-never-sent-their-team",
-   "declared_short": "which-clinics-never-sent-their-team",
-   "folder": "which-clinics-never-sent-their-team",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/which-clinics-never-sent-their-team",
+   "declared_short": "which-clinics-never-sent-their-team",
    "domain": null,
+   "folder": "which-clinics-never-sent-their-team",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1c8ed569bf3e129895c12793f682543440a67183d7bd6003e96a4eccf5e83bea",
    "size_bytes": 7854540,
    "updated": "2026-10-01T17:32:14.812Z"
