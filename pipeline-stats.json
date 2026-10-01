@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-10-01T10:05:05+00:00",
+ "generated_at": "2026-10-01T10:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2351,
-  "scanned": 2351,
-  "connector": 682,
-  "non_connector": 1669,
+  "task_folders": 2355,
+  "scanned": 2355,
+  "connector": 685,
+  "non_connector": 1670,
   "errors": 0
  },
  "connector_provenance": {
   "real": 161,
-  "unknown": 201,
+  "unknown": 204,
   "synthetic": 320
  },
  "domain": {
-  "unnamed": 1205,
-  "code": 384,
+  "unnamed": 1208,
+  "code": 385,
   "fin": 120,
   "gen": 370,
   "health": 164,
   "law": 108
  },
  "name_prefix": {
-  "harbor": 684,
-  "obi": 1655,
+  "harbor": 687,
+  "obi": 1656,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -32,14 +32,14 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 218,
+  "slack-gym": 219,
   "google-drive-gym": 204,
   "zeta3-sql-gym": 200,
   "confluence-gym": 194,
   "jira-gym": 191,
   "email-gym": 187,
   "freshdesk-gym": 187,
-  "email-calendar-gym": 68,
+  "email-calendar-gym": 69,
   "slack": 66,
   "outlook-gym": 63,
   "linear-gym": 60,
@@ -50,12 +50,12 @@
   "teams-gym": 6,
   "snowflake-gym": 5,
   "microsoft-teams-gym": 5,
-  "shopify-gym": 2,
-  "microsoft_teams-gym": 2
+  "microsoft-365-gym": 3,
+  "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 11,
-  "approx_bytes_read": 1483126
+  "new_archives_read": 4,
+  "approx_bytes_read": 536527
  },
  "errors": [],
  "tasks": [
@@ -1581,6 +1581,22 @@
    "sha256": "0805a7736c38d2fc0cf62014c2c51b4887f05ac546e7acfe2c24309ecd882dcd",
    "size_bytes": 10708841,
    "updated": "2026-09-28T11:16:05.645Z"
+  },
+  {
+   "declared_name": "harbor/back-into-their-threads",
+   "declared_short": "back-into-their-threads",
+   "folder": "back-into-their-threads-v2",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "5f28a5df05e86098b8309a5765d501115cf6cb2f95e808a8638d96c6f673b079",
+   "size_bytes": 6839704,
+   "updated": "2026-10-01T10:05:57.578Z"
   },
   {
    "connector_provenance": "real",
@@ -5235,17 +5251,17 @@
    "updated": "2026-09-10T03:50:34.512Z"
   },
   {
-   "declared_name": "harbor/cake-ventures-thread-catch-up",
-   "declared_short": "cake-ventures-thread-catch-up",
-   "folder": "cake-ventures-thread-catch-up-QCUPLOAD",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/cake-ventures-thread-catch-up",
+   "declared_short": "cake-ventures-thread-catch-up",
    "domain": null,
+   "folder": "cake-ventures-thread-catch-up-QCUPLOAD",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "eaff070a28b832f1fe6bead68cb9b4d3481a3dde3cbc3b2b78f486850cc3039e",
    "size_bytes": 9381050,
    "updated": "2026-10-01T10:04:31.040Z"
@@ -5849,15 +5865,15 @@
    "updated": "2026-09-23T17:56:39.585Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c115-etl-watermark-reconciliation",
    "declared_short": "code-c115-etl-watermark-reconciliation",
-   "folder": "code-c115-etl-watermark-reconciliation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c115-etl-watermark-reconciliation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "989c9ef39ca9a2fd9eda3f89c6dce601689f7fb997e509db20386a8e8898974d",
    "size_bytes": 3964328,
    "updated": "2026-10-01T10:03:03.973Z"
@@ -9671,6 +9687,20 @@
    "updated": "2026-09-13T06:08:26.445Z"
   },
   {
+   "declared_name": "obi/code-c513-music-track-release-readiness-audit",
+   "declared_short": "code-c513-music-track-release-readiness-audit",
+   "folder": "code-c513-music-track-release-readiness-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "e175b17a3960aedd2cdbe2e18c52e1914bdec80bf9602ecb7b478b88b04198db",
+   "size_bytes": 5203306,
+   "updated": "2026-10-01T10:09:13.142Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c515-crm-lead-callback-compliance-audit",
@@ -11007,17 +11037,17 @@
    "updated": "2026-09-18T18:33:58.047Z"
   },
   {
-   "declared_name": "harbor/confirm-my-moved-meetings",
-   "declared_short": "confirm-my-moved-meetings",
-   "folder": "confirm-my-moved-meetings",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/confirm-my-moved-meetings",
+   "declared_short": "confirm-my-moved-meetings",
    "domain": null,
+   "folder": "confirm-my-moved-meetings",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9e0d5208f02f3f596ce781c0dd5fe9de4a5efc0de46b35b8d0518fa2d187334b",
    "size_bytes": 8227391,
    "updated": "2026-10-01T10:01:28.341Z"
@@ -13668,17 +13698,17 @@
    "updated": "2026-09-05T22:15:41.160Z"
   },
   {
-   "declared_name": "harbor/even-stock-before-physical-count",
-   "declared_short": "even-stock-before-physical-count",
-   "folder": "even-stock-before-physical-count",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "shopify-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/even-stock-before-physical-count",
+   "declared_short": "even-stock-before-physical-count",
    "domain": null,
+   "folder": "even-stock-before-physical-count",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d334e66d0819cc09e549c54d14891722557eb66403b2f905f18bfa657a3a565f",
    "size_bytes": 7829189,
    "updated": "2026-10-01T10:03:05.800Z"
@@ -17117,15 +17147,15 @@
    "updated": "2026-09-20T10:36:53.724Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g25-feed-metadata-compliance",
    "declared_short": "gen-g25-feed-metadata-compliance",
-   "folder": "gen-g25-feed-metadata-compliance",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g25-feed-metadata-compliance",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "d598ed05d6832479230f5bc5ce9186bd4129b066269d4a7b103cc44dce0bb57f",
    "size_bytes": 4331169,
    "updated": "2026-10-01T10:02:25.462Z"
@@ -26891,17 +26921,17 @@
    "updated": "2026-09-19T22:04:15.292Z"
   },
   {
-   "declared_name": "harbor/plaintext-credentials-lockdown",
-   "declared_short": "plaintext-credentials-lockdown",
-   "folder": "plaintext-credentials-lockdown",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "supabase-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/plaintext-credentials-lockdown",
+   "declared_short": "plaintext-credentials-lockdown",
    "domain": null,
+   "folder": "plaintext-credentials-lockdown",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c39912b7a76ac882e2fb9c0090352ab6780fb2ba8a67c79a95d847640b49eeec",
    "size_bytes": 11507495,
    "updated": "2026-10-01T10:03:14.983Z"
@@ -31262,17 +31292,17 @@
    "updated": "2026-09-29T16:17:18.216Z"
   },
   {
-   "declared_name": "harbor/the-evening-label-digest",
-   "declared_short": "the-evening-label-digest",
-   "folder": "the-evening-label-digest",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-evening-label-digest",
+   "declared_short": "the-evening-label-digest",
    "domain": null,
+   "folder": "the-evening-label-digest",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "41af534ec75035579e47dace706413d43ee798534ba65bd68e3d4c8e7d430ae4",
    "size_bytes": 10931667,
    "updated": "2026-10-01T10:04:35.662Z"
@@ -31406,17 +31436,17 @@
    "updated": "2026-09-18T08:43:14.115Z"
   },
   {
-   "declared_name": "harbor/the-headcount-that-counts-the-host",
-   "declared_short": "the-headcount-that-counts-the-host",
-   "folder": "the-headcount-that-counts-the-host",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-headcount-that-counts-the-host",
+   "declared_short": "the-headcount-that-counts-the-host",
    "domain": null,
+   "folder": "the-headcount-that-counts-the-host",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1977020919ae89ef5d48eec4c1c2fd2e186ba6a4807e9965f22833adbbb0ff3a",
    "size_bytes": 12302172,
    "updated": "2026-10-01T10:03:01.535Z"
@@ -32414,6 +32444,22 @@
    "updated": "2026-09-29T16:23:59.047Z"
   },
   {
+   "declared_name": "harbor/the-renewals-nobody-is-working",
+   "declared_short": "the-renewals-nobody-is-working",
+   "folder": "the-renewals-nobody-is-working",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "7180e911c3fd0597fdd366896765846eb66b5c33937ca5e1b0a0e35c1fd88a8a",
+   "size_bytes": 5885033,
+   "updated": "2026-10-01T10:06:48.016Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
@@ -32782,17 +32828,17 @@
    "updated": "2026-09-29T22:04:11.656Z"
   },
   {
-   "declared_name": "harbor/the-shelf-that-never-sold",
-   "declared_short": "the-shelf-that-never-sold",
-   "folder": "the-shelf-that-never-sold",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "shopify-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-shelf-that-never-sold",
+   "declared_short": "the-shelf-that-never-sold",
    "domain": null,
+   "folder": "the-shelf-that-never-sold",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f728bbb40d5efeb3654e72862c32018429322989d26f41fd845ce389e12c6572",
    "size_bytes": 8057665,
    "updated": "2026-10-01T10:02:04.293Z"
@@ -32958,17 +33004,17 @@
    "updated": "2026-09-30T05:49:57.199Z"
   },
   {
-   "declared_name": "harbor/the-tag-that-no-listing-shows",
-   "declared_short": "the-tag-that-no-listing-shows",
-   "folder": "the-tag-that-no-listing-shows",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-tag-that-no-listing-shows",
+   "declared_short": "the-tag-that-no-listing-shows",
    "domain": null,
+   "folder": "the-tag-that-no-listing-shows",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "69ce3e0108a9e3d9891ad6136985faad38d65ba0baa69926c1957238aebf8df5",
    "size_bytes": 6371715,
    "updated": "2026-10-01T10:01:03.289Z"
@@ -33638,17 +33684,17 @@
    "updated": "2026-09-06T03:50:35.764Z"
   },
   {
-   "declared_name": "harbor/unread-piling-up-under-labels",
-   "declared_short": "unread-piling-up-under-labels",
-   "folder": "unread-piling-up-under-labels",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/unread-piling-up-under-labels",
+   "declared_short": "unread-piling-up-under-labels",
    "domain": null,
+   "folder": "unread-piling-up-under-labels",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "79e886cc3415d8411f542129a674c091d2c2a246b73730259d4eddfb0f7174b5",
    "size_bytes": 9220734,
    "updated": "2026-10-01T10:02:03.299Z"
@@ -34974,6 +35020,22 @@
    "sha256": "972f316ef6c8b642e45901ad38d1d85fd866a1c56f1fc28003299e0c43631817",
    "size_bytes": 7293690,
    "updated": "2026-09-23T07:08:22.794Z"
+  },
+  {
+   "declared_name": "harbor/whose-move-is-it",
+   "declared_short": "whose-move-is-it",
+   "folder": "whose-move-is-it",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "83ceeb530cf5c1c87021e141185f784597e0a9ee991d4e629df073fddec228b4",
+   "size_bytes": 17718548,
+   "updated": "2026-10-01T10:08:18.762Z"
   },
   {
    "connector_provenance": "synthetic",
