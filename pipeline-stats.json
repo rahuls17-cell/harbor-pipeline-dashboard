@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T18:55:03+00:00",
+ "generated_at": "2026-10-01T19:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2464,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 277889
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -12280,17 +12280,17 @@
    "updated": "2026-10-01T17:33:49.532Z"
   },
   {
-   "declared_name": "harbor/drive-membership-grant-audit",
-   "declared_short": "drive-membership-grant-audit",
-   "folder": "drive-membership-grant-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/drive-membership-grant-audit",
+   "declared_short": "drive-membership-grant-audit",
    "domain": null,
+   "folder": "drive-membership-grant-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ab5f273e3392b0c0cf63985956ecf66b7fe1bc794e3bed5e00c033a59ff39447",
    "size_bytes": 8523938,
    "updated": "2026-10-01T18:52:34.261Z"
@@ -36594,17 +36594,17 @@
    "updated": "2026-09-20T06:45:45.207Z"
   },
   {
-   "declared_name": "harbor/who-still-owes-a-reply",
-   "declared_short": "who-still-owes-a-reply",
-   "folder": "who-still-owes-a-reply",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/who-still-owes-a-reply",
+   "declared_short": "who-still-owes-a-reply",
    "domain": null,
+   "folder": "who-still-owes-a-reply",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3b6be6472ec747152d708f8f350a3ab36ddfc70211edff3fc58c44faa78e1090",
    "size_bytes": 11802362,
    "updated": "2026-10-01T18:53:48.209Z"
