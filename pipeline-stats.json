@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-01T09:30:03+00:00",
+ "generated_at": "2026-10-01T09:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2334,
-  "scanned": 2334,
+  "task_folders": 2336,
+  "scanned": 2336,
   "connector": 672,
-  "non_connector": 1662,
+  "non_connector": 1664,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,8 +14,8 @@
   "synthetic": 314
  },
  "domain": {
-  "unnamed": 1193,
-  "code": 381,
+  "unnamed": 1194,
+  "code": 382,
   "fin": 120,
   "gen": 368,
   "health": 164,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 674,
-  "obi": 1648,
+  "obi": 1650,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131452
+  "new_archives_read": 2,
+  "approx_bytes_read": 262996
  },
  "errors": [],
  "tasks": [
@@ -8281,6 +8281,20 @@
    "updated": "2026-09-06T05:31:15.274Z"
   },
   {
+   "declared_name": "obi/code-c339-market-share-scope-audit",
+   "declared_short": "code-c339-market-share-scope-audit",
+   "folder": "code-c339-market-share-scope-audit",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "code",
+   "image": null,
+   "sha256": "923cb05be78b9d6943ca90b653490448bfe6763df6b9cc048cf3b291332b9ca1",
+   "size_bytes": 4182140,
+   "updated": "2026-10-01T09:33:38.338Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c34-timeseries-downsampling",
@@ -9135,15 +9149,15 @@
    "updated": "2026-09-09T21:57:04.758Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c445-interface-register-correction-audit",
    "declared_short": "code-c445-interface-register-correction-audit",
-   "folder": "code-c445-interface-register-correction-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c445-interface-register-correction-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "37bcbbd735367f63141e4a7f9e265dd70473a987e848f9507544f88d889f16d1",
    "size_bytes": 5120483,
    "updated": "2026-10-01T09:26:18.077Z"
@@ -12636,6 +12650,20 @@
    "sha256": "0786277e82cd770ffe7a23a8a8ee2834efb88514630d223961f3ecbe27a8496f",
    "size_bytes": 6818053,
    "updated": "2026-09-24T02:38:02.443Z"
+  },
+  {
+   "declared_name": "obi/edu-s1-d5-pacing-guide-quarter-compaction",
+   "declared_short": "edu-s1-d5-pacing-guide-quarter-compaction",
+   "folder": "edu-s1-d5-pacing-guide-quarter-compaction-v5",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "2781049f6d894beaf89de8636fe6681a10b2a3bb2e073ceae2d69295d659ea4b",
+   "size_bytes": 3736208,
+   "updated": "2026-10-01T09:33:17.472Z"
   },
   {
    "connector_provenance": null,
