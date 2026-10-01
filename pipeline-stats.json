@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T11:25:04+00:00",
+ "generated_at": "2026-10-01T11:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2377,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 264990
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -12582,15 +12582,15 @@
    "updated": "2026-09-29T10:31:59.966Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-mg-edu-b14-a2-internship-section-ceiling-rewrite",
    "declared_short": "edu-mg-edu-b14-a2-internship-section-ceiling-rewrite",
-   "folder": "edu-mg-edu-b14-a2-internship-section-ceiling-rewrite",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-mg-edu-b14-a2-internship-section-ceiling-rewrite",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "7ab6109f030b71f12de86916aea98050f3527cce419eafe399bfb84055eb7693",
    "size_bytes": 6566075,
    "updated": "2026-10-01T11:20:31.877Z"
@@ -31882,17 +31882,17 @@
    "updated": "2026-09-23T08:47:51.778Z"
   },
   {
-   "declared_name": "harbor/the-link-two-meetings-share",
-   "declared_short": "the-link-two-meetings-share",
-   "folder": "the-link-two-meetings-share",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-link-two-meetings-share",
+   "declared_short": "the-link-two-meetings-share",
    "domain": null,
+   "folder": "the-link-two-meetings-share",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "79cad4f310980f9212fb69637eb3715eea6ed032ce8649674d756f3e6e3423bb",
    "size_bytes": 17287797,
    "updated": "2026-10-01T11:22:37.179Z"
