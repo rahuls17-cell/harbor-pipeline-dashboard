@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T15:10:03+00:00",
+ "generated_at": "2026-10-01T15:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2418,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 131759
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -13346,15 +13346,15 @@
    "updated": "2026-09-27T12:59:04.663Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-sca-a2-eli10-insertion-ticket-adjudication",
    "declared_short": "edu-sca-a2-eli10-insertion-ticket-adjudication",
-   "folder": "edu-sca-a2-eli10-insertion-ticket-adjudication",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-sca-a2-eli10-insertion-ticket-adjudication",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "43278b059034ee5ad739034edc2a65d671dce790116ba85140dd0d1f4d468eb4",
    "size_bytes": 5951489,
    "updated": "2026-10-01T15:05:57.857Z"
