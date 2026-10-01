@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T14:10:03+00:00",
+ "generated_at": "2026-10-01T14:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2405,
-  "scanned": 2405,
-  "connector": 724,
+  "task_folders": 2406,
+  "scanned": 2406,
+  "connector": 725,
   "non_connector": 1681,
   "errors": 0
  },
  "connector_provenance": {
   "real": 168,
   "unknown": 219,
-  "synthetic": 337
+  "synthetic": 338
  },
  "domain": {
-  "unnamed": 1252,
+  "unnamed": 1253,
   "code": 386,
   "fin": 121,
   "gen": 373,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 726,
+  "harbor": 727,
   "obi": 1667,
   "bus": 1,
   "edu": 3,
@@ -44,7 +44,7 @@
   "slack": 66,
   "linear-gym": 63,
   "notion-gym": 59,
-  "gws-gym": 58,
+  "gws-gym": 59,
   "github-gym": 47,
   "supabase-gym": 9,
   "teams-gym": 8,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131422
+  "approx_bytes_read": 136784
  },
  "errors": [],
  "tasks": [
@@ -30076,15 +30076,15 @@
    "updated": "2026-09-24T17:39:49.089Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-b54-a9-plan-quota-normalisation",
    "declared_short": "tech-b54-a9-plan-quota-normalisation",
-   "folder": "tech-b54-a9-plan-quota-normalisation",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-b54-a9-plan-quota-normalisation",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "abf61d4b478a77f0e28473752dc30b60146f83e096c0af3d8cd1eab9e43cc2f9",
    "size_bytes": 3969225,
    "updated": "2026-10-01T14:09:17.278Z"
@@ -31434,6 +31434,22 @@
    "sha256": "85066ae9591b1dee9a60625aeeca0a3f62a8df132e88dfa8e9f1f83e474dac4e",
    "size_bytes": 11770984,
    "updated": "2026-09-30T07:02:23.253Z"
+  },
+  {
+   "declared_name": "harbor/the-copy-we-kept-was-the-old-one",
+   "declared_short": "the-copy-we-kept-was-the-old-one",
+   "folder": "the-copy-we-kept-was-the-old-one",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "b66db01f9b8729ad78cfb2d185087a58701f277f3f5390675e1a8a33643b96c2",
+   "size_bytes": 8287588,
+   "updated": "2026-10-01T14:10:44.515Z"
   },
   {
    "connector_provenance": "synthetic",
