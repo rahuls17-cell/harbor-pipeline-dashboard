@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-10-01T06:20:03+00:00",
+ "generated_at": "2026-10-01T09:05:05+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2322,
-  "scanned": 2322,
-  "connector": 669,
-  "non_connector": 1653,
+  "task_folders": 2327,
+  "scanned": 2327,
+  "connector": 670,
+  "non_connector": 1657,
   "errors": 0
  },
  "connector_provenance": {
   "real": 159,
   "unknown": 198,
-  "synthetic": 312
+  "synthetic": 313
  },
  "domain": {
-  "unnamed": 1183,
+  "unnamed": 1187,
   "code": 380,
   "fin": 120,
   "gen": 368,
-  "health": 163,
+  "health": 164,
   "law": 108
  },
  "name_prefix": {
-  "harbor": 671,
-  "obi": 1639,
+  "harbor": 672,
+  "obi": 1643,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -40,7 +40,7 @@
   "email-gym": 187,
   "freshdesk-gym": 187,
   "slack": 66,
-  "email-calendar-gym": 62,
+  "email-calendar-gym": 63,
   "outlook-gym": 62,
   "linear-gym": 59,
   "notion-gym": 52,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 8,
+  "approx_bytes_read": 1058056
  },
  "errors": [],
  "tasks": [
@@ -1893,6 +1893,22 @@
    "sha256": "fc35279e2a08882a22077bcf576de88b5b192536439531491fb945e34db3b59c",
    "size_bytes": 9569909,
    "updated": "2026-09-19T20:43:49.218Z"
+  },
+  {
+   "declared_name": "harbor/biggest-guest-list-agenda-note",
+   "declared_short": "biggest-guest-list-agenda-note",
+   "folder": "biggest-guest-list-agenda-note",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "6a14f20873d8a3497668616164d159eecea22c694765a96ed04a77228759278f",
+   "size_bytes": 7637258,
+   "updated": "2026-10-01T09:03:36.632Z"
   },
   {
    "connector_provenance": "unknown",
@@ -12636,6 +12652,20 @@
    "updated": "2026-09-13T01:15:44.998Z"
   },
   {
+   "declared_name": "obi/edu-s2-b2-cohort-vocabulary-review-sitting-placement",
+   "declared_short": "edu-s2-b2-cohort-vocabulary-review-sitting-placement",
+   "folder": "edu-s2-b2-cohort-vocabulary-review-sitting-placement",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "dda795fe02fec3b06646d7238fb6711c32546aee524c163783a4445ddab0c394",
+   "size_bytes": 7617658,
+   "updated": "2026-10-01T09:01:33.616Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-sc05-a1-lesson-arc-plan",
@@ -14923,18 +14953,18 @@
    "updated": "2026-09-24T17:59:20.300Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/fin-b54-f7-mobile-bill-promotion-audit",
    "declared_short": "fin-b54-f7-mobile-bill-promotion-audit",
-   "domain": "fin",
    "folder": "fin-b54-f7-mobile-bill-promotion-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "c5a5393d85f82862403ad79864376d8fe02c683f460d6c54d0e75070b0b03c9a",
-   "size_bytes": 8078075,
-   "updated": "2026-09-29T14:32:44.011Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "b9954cca4852f802a952e0a5bfff6d8f61e7f1f324e1b8540eec3c6d04351b44",
+   "size_bytes": 6560769,
+   "updated": "2026-10-01T09:00:51.453Z"
   },
   {
    "connector_provenance": null,
@@ -19779,18 +19809,18 @@
    "updated": "2026-09-21T22:51:57.040Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/gen-g901-channel-thumbnail-style-audit",
    "declared_short": "gen-g901-channel-thumbnail-style-audit",
-   "domain": "gen",
    "folder": "gen-g901-channel-thumbnail-style-audit",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "8640996e64530e583905d5ab9476c0dcfd7bc4bc04fd5594c697435e9618f2dc",
-   "size_bytes": 9897024,
-   "updated": "2026-09-27T04:30:37.378Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "gen",
+   "image": null,
+   "sha256": "e68aadf627069240e36492a46609522ab0c1b495887fff6a0feeaf5cf3291f5e",
+   "size_bytes": 8595510,
+   "updated": "2026-10-01T09:00:50.062Z"
   },
   {
    "connector_provenance": null,
@@ -23665,6 +23695,20 @@
    "updated": "2026-09-25T15:15:50.618Z"
   },
   {
+   "declared_name": "obi/health-tdt8-a2-hopd-chargemaster-line-normalization",
+   "declared_short": "health-tdt8-a2-hopd-chargemaster-line-normalization",
+   "folder": "health-tdt8-a2-hopd-chargemaster-line-normalization",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "9c15c49cd65473b91e21df2bfc527b16e7239fbd8b5f1d490c2e48dc1c635213",
+   "size_bytes": 4988238,
+   "updated": "2026-10-01T09:03:44.254Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt8-a3-legume-protein-basis-conversion",
@@ -23735,18 +23779,18 @@
    "updated": "2026-09-26T22:54:18.339Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/health-tdt8-a9-elemental-mineral-label-gap-attribution",
    "declared_short": "health-tdt8-a9-elemental-mineral-label-gap-attribution",
-   "domain": "health",
    "folder": "health-tdt8-a9-elemental-mineral-label-gap-attribution",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "bcf8881720bc4787f76391645a88606b93377890597e55cfb68a791f33e449ae",
-   "size_bytes": 5237350,
-   "updated": "2026-09-28T22:49:16.172Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "b47f6d7c05d9988bc6fd7847d87f931a905bfbed517eb74d82cad294eecec8b8",
+   "size_bytes": 5137268,
+   "updated": "2026-10-01T09:04:38.956Z"
   },
   {
    "connector_provenance": null,
@@ -29736,6 +29780,20 @@
    "updated": "2026-09-24T21:43:54.598Z"
   },
   {
+   "declared_name": "obi/tech-mg-it-b10-a10-home-lab-board-install-matrix",
+   "declared_short": "tech-mg-it-b10-a10-home-lab-board-install-matrix",
+   "folder": "tech-mg-it-b10-a10-home-lab-board-install-matrix",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "c6c7e61c9cb924351c9127e2411861ef64e00456fa0936ec73130029890b0762",
+   "size_bytes": 5712058,
+   "updated": "2026-10-01T09:01:39.005Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/tech-mg-it-b10-a2-background-job-credit-audit",
@@ -30098,6 +30156,20 @@
    "sha256": "6321d4cdb87a857729b72184aa946d0c5d23fc29cf54e5716f4142c824944204",
    "size_bytes": 8873377,
    "updated": "2026-09-25T11:20:51.993Z"
+  },
+  {
+   "declared_name": "obi/tech-mg-it-b9-a4-golden-gate-scanner-verdicts",
+   "declared_short": "tech-mg-it-b9-a4-golden-gate-scanner-verdicts",
+   "folder": "tech-mg-it-b9-a4-golden-gate-scanner-verdicts",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "fd064a26f531a226a6e2999c9d0cda0ee6fe8b3d74df0062d44f329ba1147017",
+   "size_bytes": 4389866,
+   "updated": "2026-10-01T09:03:53.082Z"
   },
   {
    "connector_provenance": null,
