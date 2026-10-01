@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T20:15:03+00:00",
+ "generated_at": "2026-10-01T20:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2472,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133656
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -33072,17 +33072,17 @@
    "updated": "2026-09-28T19:13:45.616Z"
   },
   {
-   "declared_name": "harbor/the-notes-i-never-sent",
-   "declared_short": "the-notes-i-never-sent",
-   "folder": "the-notes-i-never-sent",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-notes-i-never-sent",
+   "declared_short": "the-notes-i-never-sent",
    "domain": null,
+   "folder": "the-notes-i-never-sent",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "49fad19cf70e2e5ae3ef2a1235f022c035624670088dac86b30698b067bf064b",
    "size_bytes": 10503247,
    "updated": "2026-10-01T20:13:37.541Z"
