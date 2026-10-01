@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T16:50:03+00:00",
+ "generated_at": "2026-10-01T16:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2434,
-  "scanned": 2434,
-  "connector": 749,
+  "task_folders": 2435,
+  "scanned": 2435,
+  "connector": 750,
   "non_connector": 1685,
   "errors": 0
  },
  "connector_provenance": {
   "real": 171,
   "unknown": 228,
-  "synthetic": 350
+  "synthetic": 351
  },
  "domain": {
-  "unnamed": 1278,
+  "unnamed": 1279,
   "code": 387,
   "fin": 121,
   "gen": 375,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 751,
+  "harbor": 752,
   "obi": 1671,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 227,
+  "slack-gym": 228,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136495
+  "approx_bytes_read": 134164
  },
  "errors": [],
  "tasks": [
@@ -27139,17 +27139,17 @@
    "updated": "2026-09-19T08:19:34.165Z"
   },
   {
-   "declared_name": "harbor/nobody-wrote-back",
-   "declared_short": "nobody-wrote-back",
-   "folder": "nobody-wrote-back",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/nobody-wrote-back",
+   "declared_short": "nobody-wrote-back",
    "domain": null,
+   "folder": "nobody-wrote-back",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4c0bf7deed0d1bd59990c4c84f67ecc65763eb5886eb387dff920df199b6dbde",
    "size_bytes": 8933966,
    "updated": "2026-10-01T16:48:08.802Z"
@@ -31810,6 +31810,22 @@
    "sha256": "b563c2f2c1079f70b04176bac1aef94162311063d65806d988007ef991a4b1ff",
    "size_bytes": 9900788,
    "updated": "2026-09-30T07:24:42.232Z"
+  },
+  {
+   "declared_name": "harbor/the-design-reviews-nobody-picked-up",
+   "declared_short": "the-design-reviews-nobody-picked-up",
+   "folder": "the-design-reviews-nobody-picked-up",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c1a8e247645bc1ba0325b337b6cec808fbd810a943877c12a9f7a928fd93aa6f",
+   "size_bytes": 8436749,
+   "updated": "2026-10-01T16:52:11.519Z"
   },
   {
    "connector_provenance": "real",
