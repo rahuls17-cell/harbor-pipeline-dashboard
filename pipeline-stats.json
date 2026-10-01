@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-10-01T12:35:03+00:00",
+ "generated_at": "2026-10-01T12:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2388,
-  "scanned": 2388,
-  "connector": 714,
-  "non_connector": 1674,
+  "task_folders": 2391,
+  "scanned": 2391,
+  "connector": 715,
+  "non_connector": 1676,
   "errors": 0
  },
  "connector_provenance": {
   "real": 166,
   "unknown": 215,
-  "synthetic": 333
+  "synthetic": 334
  },
  "domain": {
-  "unnamed": 1239,
+  "unnamed": 1241,
   "code": 385,
-  "fin": 120,
+  "fin": 121,
   "gen": 372,
   "health": 164,
   "law": 108
  },
  "name_prefix": {
-  "harbor": 716,
-  "obi": 1660,
+  "harbor": 717,
+  "obi": 1662,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -43,7 +43,7 @@
   "outlook-gym": 69,
   "slack": 66,
   "linear-gym": 61,
-  "notion-gym": 57,
+  "notion-gym": 58,
   "gws-gym": 56,
   "github-gym": 46,
   "supabase-gym": 9,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 399914
  },
  "errors": [],
  "tasks": [
@@ -13494,6 +13494,20 @@
    "updated": "2026-09-29T07:53:49.755Z"
   },
   {
+   "declared_name": "obi/edu-sca-b4-lattice-drill-reconciliation",
+   "declared_short": "edu-sca-b4-lattice-drill-reconciliation",
+   "folder": "edu-sca-b4-lattice-drill-reconciliation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "26b37bf98024114db70284f96746ae4fb4adb702895267c416a85b08243e9121",
+   "size_bytes": 4907259,
+   "updated": "2026-10-01T12:42:34.319Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-sca-b5-pitch-deck-cheat-sheet-condensation",
@@ -15299,6 +15313,20 @@
    "sha256": "06baa1659ea6ff22dae8943ee8827cbe3e3622ee705ba3bc4f41af5e0b8ba7b7",
    "size_bytes": 10476198,
    "updated": "2026-09-24T16:20:03.663Z"
+  },
+  {
+   "declared_name": "obi/fin-b54-f4-property-portfolio-overview-tieout",
+   "declared_short": "fin-b54-f4-property-portfolio-overview-tieout",
+   "folder": "fin-b54-f4-property-portfolio-overview-tieout",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "fin",
+   "image": null,
+   "sha256": "f7bb45c7db48b6074225cc6f411270ff7441ed12dd17c41a54da032baacedf73",
+   "size_bytes": 6583012,
+   "updated": "2026-10-01T12:43:45.332Z"
   },
   {
    "connector_provenance": null,
@@ -35114,6 +35142,22 @@
    "sha256": "84232f5772d7c9895e0ca25983db497c9ee23081d68e5c935128e25de744aed1",
    "size_bytes": 7079842,
    "updated": "2026-09-29T07:06:01.209Z"
+  },
+  {
+   "declared_name": "harbor/which-entries-say-the-same-thing",
+   "declared_short": "which-entries-say-the-same-thing",
+   "folder": "which-entries-say-the-same-thing",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "76744885a5c9c6be0fc6ebe2db252d9a57d4f837a44f887d92805d0ced6775f0",
+   "size_bytes": 6296614,
+   "updated": "2026-10-01T12:42:44.624Z"
   },
   {
    "connector_provenance": "synthetic",
