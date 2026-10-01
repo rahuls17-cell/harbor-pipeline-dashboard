@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T15:35:03+00:00",
+ "generated_at": "2026-10-01T15:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2420,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136990
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -871,17 +871,17 @@
    "updated": "2026-10-01T14:54:49.957Z"
   },
   {
-   "declared_name": "harbor/a-hundred-and-three-finished-without-starting",
-   "declared_short": "a-hundred-and-three-finished-without-starting",
-   "folder": "a-hundred-and-three-finished-without-starting",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/a-hundred-and-three-finished-without-starting",
+   "declared_short": "a-hundred-and-three-finished-without-starting",
    "domain": null,
+   "folder": "a-hundred-and-three-finished-without-starting",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0cbe4d164e28bcf5d97d26d7662f1c2b2a7b51d17e004ea529ce90b4e3722a47",
    "size_bytes": 7470696,
    "updated": "2026-10-01T15:32:46.028Z"
