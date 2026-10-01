@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T15:00:03+00:00",
+ "generated_at": "2026-10-01T15:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2415,
-  "scanned": 2415,
-  "connector": 733,
+  "task_folders": 2417,
+  "scanned": 2417,
+  "connector": 735,
   "non_connector": 1682,
   "errors": 0
  },
  "connector_provenance": {
   "real": 168,
   "unknown": 223,
-  "synthetic": 342
+  "synthetic": 344
  },
  "domain": {
-  "unnamed": 1261,
+  "unnamed": 1263,
   "code": 386,
   "fin": 121,
   "gen": 374,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 735,
+  "harbor": 737,
   "obi": 1668,
   "bus": 1,
   "edu": 3,
@@ -39,11 +39,11 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 78,
+  "email-calendar-gym": 79,
   "outlook-gym": 70,
   "slack": 66,
   "linear-gym": 63,
-  "gws-gym": 62,
+  "gws-gym": 63,
   "notion-gym": 61,
   "github-gym": 48,
   "supabase-gym": 9,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 270084
  },
  "errors": [],
  "tasks": [
@@ -31466,6 +31466,22 @@
    "updated": "2026-09-23T23:00:59.602Z"
   },
   {
+   "declared_name": "harbor/the-conversations-still-waiting-on-me",
+   "declared_short": "the-conversations-still-waiting-on-me",
+   "folder": "the-conversations-still-waiting-on-me",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2963bb7c880fa0985d6a3abfdfc51b542d7eb9805d30d0f058cec850938bdfd3",
+   "size_bytes": 5903921,
+   "updated": "2026-10-01T15:03:38.232Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
@@ -35402,6 +35418,22 @@
    "sha256": "dd144f64b3f3c0e172a9ae1ff1ba2e60be55913655aab6003626229a5537f79e",
    "size_bytes": 6811595,
    "updated": "2026-10-01T12:48:04.984Z"
+  },
+  {
+   "declared_name": "harbor/which-copy-of-the-old-project-tree-is-real",
+   "declared_short": "which-copy-of-the-old-project-tree-is-real",
+   "folder": "which-copy-of-the-old-project-tree-is-real",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3f9c8df5369fa434cd806ccca576210b5d68fbf326e0e25548524b939e736e02",
+   "size_bytes": 12735504,
+   "updated": "2026-10-01T15:01:08.223Z"
   },
   {
    "connector_provenance": "unknown",
