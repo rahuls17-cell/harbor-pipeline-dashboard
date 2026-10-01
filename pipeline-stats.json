@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-01T14:05:03+00:00",
+ "generated_at": "2026-10-01T14:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2404,
-  "scanned": 2404,
+  "task_folders": 2405,
+  "scanned": 2405,
   "connector": 724,
-  "non_connector": 1680,
+  "non_connector": 1681,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 337
  },
  "domain": {
-  "unnamed": 1251,
+  "unnamed": 1252,
   "code": 386,
   "fin": 121,
   "gen": 373,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 726,
-  "obi": 1666,
+  "obi": 1667,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131521
+  "approx_bytes_read": 131422
  },
  "errors": [],
  "tasks": [
@@ -18087,15 +18087,15 @@
    "updated": "2026-09-13T07:45:08.734Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g402-grazing-cup-batch-yield-audit",
    "declared_short": "gen-g402-grazing-cup-batch-yield-audit",
-   "folder": "gen-g402-grazing-cup-batch-yield-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g402-grazing-cup-batch-yield-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "8ec5cb9e4ad7e247884ff8cf0e76a84a49b0ba0880219c901268d41bdc08bc27",
    "size_bytes": 5089444,
    "updated": "2026-10-01T14:02:45.589Z"
@@ -30074,6 +30074,20 @@
    "sha256": "f632791385efcc5f30607c4d656bf2a0afb4f305cd9faaaef69ad651a52aff71",
    "size_bytes": 9894982,
    "updated": "2026-09-24T17:39:49.089Z"
+  },
+  {
+   "declared_name": "obi/tech-b54-a9-plan-quota-normalisation",
+   "declared_short": "tech-b54-a9-plan-quota-normalisation",
+   "folder": "tech-b54-a9-plan-quota-normalisation",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "abf61d4b478a77f0e28473752dc30b60146f83e096c0af3d8cd1eab9e43cc2f9",
+   "size_bytes": 3969225,
+   "updated": "2026-10-01T14:09:17.278Z"
   },
   {
    "connector_provenance": null,
