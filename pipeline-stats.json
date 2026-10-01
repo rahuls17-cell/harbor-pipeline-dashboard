@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T17:05:04+00:00",
+ "generated_at": "2026-10-01T17:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2436,
-  "scanned": 2436,
-  "connector": 751,
+  "task_folders": 2437,
+  "scanned": 2437,
+  "connector": 752,
   "non_connector": 1685,
   "errors": 0
  },
  "connector_provenance": {
   "real": 171,
   "unknown": 228,
-  "synthetic": 352
+  "synthetic": 353
  },
  "domain": {
-  "unnamed": 1280,
+  "unnamed": 1281,
   "code": 387,
   "fin": 121,
   "gen": 375,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 753,
+  "harbor": 754,
   "obi": 1671,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 82,
-  "outlook-gym": 71,
+  "outlook-gym": 72,
   "slack": 66,
   "gws-gym": 66,
   "linear-gym": 65,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135297
+  "approx_bytes_read": 134602
  },
  "errors": [],
  "tasks": [
@@ -34196,6 +34196,22 @@
    "updated": "2026-09-27T03:12:40.209Z"
   },
   {
+   "declared_name": "harbor/the-weeks-my-mail-surged",
+   "declared_short": "the-weeks-my-mail-surged",
+   "folder": "the-weeks-my-mail-surged",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "1e9dec3c5cf27761ce9db7c8a270ceee483d194e68c5b0a9007f5d47ce38792c",
+   "size_bytes": 208157922,
+   "updated": "2026-10-01T17:05:52.934Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
@@ -34404,17 +34420,17 @@
    "updated": "2026-09-28T17:58:38.346Z"
   },
   {
-   "declared_name": "harbor/tone-of-a-member-in-team-eng",
-   "declared_short": "tone-of-a-member-in-team-eng",
-   "folder": "tone-of-a-member-in-team-eng",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/tone-of-a-member-in-team-eng",
+   "declared_short": "tone-of-a-member-in-team-eng",
    "domain": null,
+   "folder": "tone-of-a-member-in-team-eng",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "543314abe6bdbeda6ea3feaf97b5db7e19934a7fe5ee668adcd2f0a45daef356",
    "size_bytes": 17668589,
    "updated": "2026-10-01T17:03:50.014Z"
