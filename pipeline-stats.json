@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T12:50:03+00:00",
+ "generated_at": "2026-10-01T12:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2392,
-  "scanned": 2392,
-  "connector": 716,
+  "task_folders": 2394,
+  "scanned": 2394,
+  "connector": 718,
   "non_connector": 1676,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 166,
-  "unknown": 216,
+  "real": 167,
+  "unknown": 217,
   "synthetic": 334
  },
  "domain": {
-  "unnamed": 1242,
+  "unnamed": 1244,
   "code": 385,
   "fin": 121,
   "gen": 372,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 718,
+  "harbor": 720,
   "obi": 1662,
   "bus": 1,
   "edu": 3,
@@ -42,9 +42,9 @@
   "email-calendar-gym": 77,
   "outlook-gym": 69,
   "slack": 66,
-  "linear-gym": 61,
+  "linear-gym": 62,
   "notion-gym": 58,
-  "gws-gym": 56,
+  "gws-gym": 57,
   "github-gym": 46,
   "supabase-gym": 9,
   "teams-gym": 8,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136990
+  "new_archives_read": 2,
+  "approx_bytes_read": 272245
  },
  "errors": [],
  "tasks": [
@@ -32214,6 +32214,22 @@
    "updated": "2026-09-25T19:39:53.597Z"
   },
   {
+   "declared_name": "harbor/the-milestones-that-slipped-past-their-dates",
+   "declared_short": "the-milestones-that-slipped-past-their-dates",
+   "folder": "the-milestones-that-slipped-past-their-dates",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "0b9599e6d3ef42288c0fef4feb1fd72fcab2aaa6f4ca413367a4dc59757c7d58",
+   "size_bytes": 6828455,
+   "updated": "2026-10-01T12:50:55.322Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -35128,17 +35144,17 @@
    "updated": "2026-09-25T12:12:54.362Z"
   },
   {
-   "declared_name": "harbor/which-channels-outgrew-their-membership",
-   "declared_short": "which-channels-outgrew-their-membership",
-   "folder": "which-channels-outgrew-their-membership",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/which-channels-outgrew-their-membership",
+   "declared_short": "which-channels-outgrew-their-membership",
    "domain": null,
+   "folder": "which-channels-outgrew-their-membership",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "dd144f64b3f3c0e172a9ae1ff1ba2e60be55913655aab6003626229a5537f79e",
    "size_bytes": 6811595,
    "updated": "2026-10-01T12:48:04.984Z"
@@ -35676,6 +35692,22 @@
    "sha256": "8df14c4513aaea9130ece904dd19cb1a6be9dcd000249b3c1b9e6635502fc69f",
    "size_bytes": 9734487,
    "updated": "2026-09-30T06:59:44.729Z"
+  },
+  {
+   "declared_name": "harbor/winter-requisitions-resulted-next-month",
+   "declared_short": "winter-requisitions-resulted-next-month",
+   "folder": "winter-requisitions-resulted-next-month",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "d008fcee5679878c780766edb84faeb6b073fe2601045c59ea3149992ded7bd0",
+   "size_bytes": 12896700,
+   "updated": "2026-10-01T12:52:14.189Z"
   },
   {
    "connector_provenance": "synthetic",
