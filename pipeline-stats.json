@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T09:05:05+00:00",
+ "generated_at": "2026-10-01T09:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2327,
-  "scanned": 2327,
-  "connector": 670,
-  "non_connector": 1657,
+  "task_folders": 2331,
+  "scanned": 2331,
+  "connector": 671,
+  "non_connector": 1660,
   "errors": 0
  },
  "connector_provenance": {
   "real": 159,
   "unknown": 198,
-  "synthetic": 313
+  "synthetic": 314
  },
  "domain": {
-  "unnamed": 1187,
+  "unnamed": 1191,
   "code": 380,
   "fin": 120,
   "gen": 368,
@@ -22,8 +22,8 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 672,
-  "obi": 1643,
+  "harbor": 673,
+  "obi": 1646,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -44,7 +44,7 @@
   "outlook-gym": 62,
   "linear-gym": 59,
   "notion-gym": 52,
-  "gws-gym": 51,
+  "gws-gym": 52,
   "github-gym": 45,
   "supabase-gym": 8,
   "teams-gym": 6,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 2
  },
  "scan": {
-  "new_archives_read": 8,
-  "approx_bytes_read": 1058056
+  "new_archives_read": 6,
+  "approx_bytes_read": 791039
  },
  "errors": [],
  "tasks": [
@@ -1895,17 +1895,17 @@
    "updated": "2026-09-19T20:43:49.218Z"
   },
   {
-   "declared_name": "harbor/biggest-guest-list-agenda-note",
-   "declared_short": "biggest-guest-list-agenda-note",
-   "folder": "biggest-guest-list-agenda-note",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/biggest-guest-list-agenda-note",
+   "declared_short": "biggest-guest-list-agenda-note",
    "domain": null,
+   "folder": "biggest-guest-list-agenda-note",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6a14f20873d8a3497668616164d159eecea22c694765a96ed04a77228759278f",
    "size_bytes": 7637258,
    "updated": "2026-10-01T09:03:36.632Z"
@@ -4435,6 +4435,20 @@
    "updated": "2026-09-29T21:09:49.512Z"
   },
   {
+   "declared_name": "obi/bus-b55-b7-delivery-route-unit-economics",
+   "declared_short": "bus-b55-b7-delivery-route-unit-economics",
+   "folder": "bus-b55-b7-delivery-route-unit-economics",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "5e923cdda662e30763e8ee3252af682c87574ee347f50cc64b830825051f16cc",
+   "size_bytes": 7755534,
+   "updated": "2026-10-01T09:05:46.771Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/bus-b55-b8-landing-copy-block-review",
@@ -4601,6 +4615,20 @@
    "sha256": "4fd3292f4b6714823d8788c589194ddcb2d3da309cb727cde2f3f466c88daff6",
    "size_bytes": 6633230,
    "updated": "2026-09-28T23:00:10.597Z"
+  },
+  {
+   "declared_name": "obi/bus-b58-t2-broadcaster-channel-staffing",
+   "declared_short": "bus-b58-t2-broadcaster-channel-staffing",
+   "folder": "bus-b58-t2-broadcaster-channel-staffing",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "09ccd53f0657e74f890105b08aa1124bc228bbe261041a88c99828e4296c775a",
+   "size_bytes": 5715878,
+   "updated": "2026-10-01T09:07:53.248Z"
   },
   {
    "connector_provenance": null,
@@ -12274,18 +12302,18 @@
    "updated": "2026-09-24T16:07:00.067Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "edu/mg-edu-b13-a10-registro-sin-contexto-previo",
    "declared_short": "mg-edu-b13-a10-registro-sin-contexto-previo",
-   "domain": null,
    "folder": "edu-mg-edu-b13-a10-registro-sin-contexto-previo",
-   "image": null,
-   "is_connector": false,
    "prefix": "edu",
-   "sha256": "270101b6bec1897042ec701889d51bf4c7b4b91c2aa597572713b3059926f8cd",
-   "size_bytes": 3735465,
-   "updated": "2026-09-28T12:46:49.195Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "c540c05002cbc05daf85374a3d77610ae2fdff5a85fe9c047f9fd16e750c4109",
+   "size_bytes": 4308101,
+   "updated": "2026-10-01T09:05:46.117Z"
   },
   {
    "connector_provenance": null,
@@ -12652,15 +12680,15 @@
    "updated": "2026-09-13T01:15:44.998Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/edu-s2-b2-cohort-vocabulary-review-sitting-placement",
    "declared_short": "edu-s2-b2-cohort-vocabulary-review-sitting-placement",
-   "folder": "edu-s2-b2-cohort-vocabulary-review-sitting-placement",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "edu-s2-b2-cohort-vocabulary-review-sitting-placement",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "dda795fe02fec3b06646d7238fb6711c32546aee524c163783a4445ddab0c394",
    "size_bytes": 7617658,
    "updated": "2026-10-01T09:01:33.616Z"
@@ -13266,6 +13294,20 @@
    "sha256": "b30233a6ac873c4edd92dd81eb938473f1ef3109ad08711f37346d496c17ade6",
    "size_bytes": 4664492,
    "updated": "2026-09-29T11:25:50.237Z"
+  },
+  {
+   "declared_name": "obi/edu-sch-b10-escape-room-booth-safety-adjudication",
+   "declared_short": "edu-sch-b10-escape-room-booth-safety-adjudication",
+   "folder": "edu-sch-b10-escape-room-booth-safety-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "eaa7eb50f5d3c69253934640088c1305c2601712e80cad0b80bdb690e7f596ee",
+   "size_bytes": 4856720,
+   "updated": "2026-10-01T09:09:52.750Z"
   },
   {
    "connector_provenance": null,
@@ -14953,15 +14995,15 @@
    "updated": "2026-09-24T17:59:20.300Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/fin-b54-f7-mobile-bill-promotion-audit",
    "declared_short": "fin-b54-f7-mobile-bill-promotion-audit",
-   "folder": "fin-b54-f7-mobile-bill-promotion-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "fin",
+   "folder": "fin-b54-f7-mobile-bill-promotion-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b9954cca4852f802a952e0a5bfff6d8f61e7f1f324e1b8540eec3c6d04351b44",
    "size_bytes": 6560769,
    "updated": "2026-10-01T09:00:51.453Z"
@@ -19809,15 +19851,15 @@
    "updated": "2026-09-21T22:51:57.040Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g901-channel-thumbnail-style-audit",
    "declared_short": "gen-g901-channel-thumbnail-style-audit",
-   "folder": "gen-g901-channel-thumbnail-style-audit",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g901-channel-thumbnail-style-audit",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "e68aadf627069240e36492a46609522ab0c1b495887fff6a0feeaf5cf3291f5e",
    "size_bytes": 8595510,
    "updated": "2026-10-01T09:00:50.062Z"
@@ -23695,15 +23737,15 @@
    "updated": "2026-09-25T15:15:50.618Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt8-a2-hopd-chargemaster-line-normalization",
    "declared_short": "health-tdt8-a2-hopd-chargemaster-line-normalization",
-   "folder": "health-tdt8-a2-hopd-chargemaster-line-normalization",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt8-a2-hopd-chargemaster-line-normalization",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "9c15c49cd65473b91e21df2bfc527b16e7239fbd8b5f1d490c2e48dc1c635213",
    "size_bytes": 4988238,
    "updated": "2026-10-01T09:03:44.254Z"
@@ -23779,15 +23821,15 @@
    "updated": "2026-09-26T22:54:18.339Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt8-a9-elemental-mineral-label-gap-attribution",
    "declared_short": "health-tdt8-a9-elemental-mineral-label-gap-attribution",
-   "folder": "health-tdt8-a9-elemental-mineral-label-gap-attribution",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt8-a9-elemental-mineral-label-gap-attribution",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "b47f6d7c05d9988bc6fd7847d87f931a905bfbed517eb74d82cad294eecec8b8",
    "size_bytes": 5137268,
    "updated": "2026-10-01T09:04:38.956Z"
@@ -28954,18 +28996,18 @@
    "updated": "2026-09-26T05:37:26.141Z"
   },
   {
-   "connector_provenance": null,
-   "connector_services": [],
    "declared_name": "obi/tech-b51-t6-tool-exception-intake-triage",
    "declared_short": "tech-b51-t6-tool-exception-intake-triage",
-   "domain": null,
    "folder": "tech-b51-t6-tool-exception-intake-triage",
-   "image": null,
-   "is_connector": false,
    "prefix": "obi",
-   "sha256": "b5fc066278bad0701096a7bad41508abafc24e7c710261c04fa8c47f146c9f8d",
-   "size_bytes": 8413371,
-   "updated": "2026-09-29T14:34:44.993Z"
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "d84b76915e0053fb358e9fd2b6be66908111edfc5b7a8699ff53584436d50273",
+   "size_bytes": 8096154,
+   "updated": "2026-10-01T09:05:47.552Z"
   },
   {
    "connector_provenance": null,
@@ -29780,15 +29822,15 @@
    "updated": "2026-09-24T21:43:54.598Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-mg-it-b10-a10-home-lab-board-install-matrix",
    "declared_short": "tech-mg-it-b10-a10-home-lab-board-install-matrix",
-   "folder": "tech-mg-it-b10-a10-home-lab-board-install-matrix",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-mg-it-b10-a10-home-lab-board-install-matrix",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c6c7e61c9cb924351c9127e2411861ef64e00456fa0936ec73130029890b0762",
    "size_bytes": 5712058,
    "updated": "2026-10-01T09:01:39.005Z"
@@ -30158,15 +30200,15 @@
    "updated": "2026-09-25T11:20:51.993Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/tech-mg-it-b9-a4-golden-gate-scanner-verdicts",
    "declared_short": "tech-mg-it-b9-a4-golden-gate-scanner-verdicts",
-   "folder": "tech-mg-it-b9-a4-golden-gate-scanner-verdicts",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": null,
+   "folder": "tech-mg-it-b9-a4-golden-gate-scanner-verdicts",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "fd064a26f531a226a6e2999c9d0cda0ee6fe8b3d74df0062d44f329ba1147017",
    "size_bytes": 4389866,
    "updated": "2026-10-01T09:03:53.082Z"
@@ -32260,6 +32302,22 @@
    "sha256": "bf41fb845cad3f4b93599e7bdc0a7062a87b783d9c820b7dc67ae093e03d4b9c",
    "size_bytes": 7353511,
    "updated": "2026-09-25T18:57:50.953Z"
+  },
+  {
+   "declared_name": "harbor/the-review-threads-that-asked",
+   "declared_short": "the-review-threads-that-asked",
+   "folder": "the-review-threads-that-asked",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "8831b74ecb466890e030e21426705c1bc44f331abce2acf806c24fb49b8cc186",
+   "size_bytes": 8403025,
+   "updated": "2026-10-01T09:06:49.415Z"
   },
   {
    "connector_provenance": "synthetic",
