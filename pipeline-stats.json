@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-01T13:20:04+00:00",
+ "generated_at": "2026-10-01T13:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2397,
-  "scanned": 2397,
+  "task_folders": 2398,
+  "scanned": 2398,
   "connector": 720,
-  "non_connector": 1677,
+  "non_connector": 1678,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 335
  },
  "domain": {
-  "unnamed": 1246,
+  "unnamed": 1247,
   "code": 385,
   "fin": 121,
   "gen": 372,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 722,
-  "obi": 1663,
+  "obi": 1664,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 266063
+  "new_archives_read": 1,
+  "approx_bytes_read": 131419
  },
  "errors": [],
  "tasks": [
@@ -13648,6 +13648,20 @@
    "updated": "2026-09-27T13:22:12.525Z"
   },
   {
+   "declared_name": "obi/edu-sch-b3-practicum-reflection-efficacy-ledger",
+   "declared_short": "edu-sch-b3-practicum-reflection-efficacy-ledger",
+   "folder": "edu-sch-b3-practicum-reflection-efficacy-ledger",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "b5965b59c6b08d64eb7d475aa62c10a5c8100ca07232efd01b2edd4337258379",
+   "size_bytes": 3950997,
+   "updated": "2026-10-01T13:21:58.667Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/edu-sch-b5-fy2024-net-position-ratios-and-workbook-issue-log",
@@ -23723,15 +23737,15 @@
    "updated": "2026-09-26T23:41:45.202Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/health-tdt11-a9-mediation-contact-window-register",
    "declared_short": "health-tdt11-a9-mediation-contact-window-register",
-   "folder": "health-tdt11-a9-mediation-contact-window-register",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "health",
+   "folder": "health-tdt11-a9-mediation-contact-window-register",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "27dc0b1f342f3035e0298a8997a0b5a7e24ddbaf3234d8a46229080dbef0cb0a",
    "size_bytes": 7527777,
    "updated": "2026-10-01T13:16:28.779Z"
@@ -33732,17 +33746,17 @@
    "updated": "2026-09-29T16:40:15.493Z"
   },
   {
-   "declared_name": "harbor/the-week-nobody-confirmed",
-   "declared_short": "the-week-nobody-confirmed",
-   "folder": "the-week-nobody-confirmed",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-week-nobody-confirmed",
+   "declared_short": "the-week-nobody-confirmed",
    "domain": null,
+   "folder": "the-week-nobody-confirmed",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3e948cf020815dbc9092ffc0d4f3088e24d504711de56942fa549551546a4fb8",
    "size_bytes": 8342443,
    "updated": "2026-10-01T13:19:43.065Z"
