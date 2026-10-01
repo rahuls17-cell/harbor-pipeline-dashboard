@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T12:10:03+00:00",
+ "generated_at": "2026-10-01T12:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2384,
-  "scanned": 2384,
-  "connector": 710,
+  "task_folders": 2386,
+  "scanned": 2386,
+  "connector": 712,
   "non_connector": 1674,
   "errors": 0
  },
  "connector_provenance": {
   "real": 165,
-  "unknown": 214,
-  "synthetic": 331
+  "unknown": 215,
+  "synthetic": 332
  },
  "domain": {
-  "unnamed": 1235,
+  "unnamed": 1237,
   "code": 385,
   "fin": 120,
   "gen": 372,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 712,
+  "harbor": 714,
   "obi": 1660,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 73,
+  "email-calendar-gym": 75,
   "outlook-gym": 69,
   "slack": 66,
   "linear-gym": 61,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134957
+  "new_archives_read": 2,
+  "approx_bytes_read": 268955
  },
  "errors": [],
  "tasks": [
@@ -13972,6 +13972,22 @@
    "sha256": "197726fe8150b0a921c4fba57d4e7e545a4e9fd7889371440f3830c24901545e",
    "size_bytes": 3109659,
    "updated": "2026-09-10T14:24:31.771Z"
+  },
+  {
+   "declared_name": "harbor/faxes-on-the-lines-i-track",
+   "declared_short": "faxes-on-the-lines-i-track",
+   "folder": "faxes-on-the-lines-i-track",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "54fe12b447b510866a52e9c77c75643afc87bd7caf23aa4f14e16822384c5038",
+   "size_bytes": 7156657,
+   "updated": "2026-10-01T12:11:17.390Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -27925,6 +27941,22 @@
    "updated": "2026-09-29T08:39:02.824Z"
   },
   {
+   "declared_name": "harbor/send-over-the-meetings-that-stood",
+   "declared_short": "send-over-the-meetings-that-stood",
+   "folder": "send-over-the-meetings-that-stood",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "8f13734790371136c74d9b06ed5d1e094c74fea55e35af59c124550b72ee1c58",
+   "size_bytes": 14734421,
+   "updated": "2026-10-01T12:14:09.417Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
@@ -34908,17 +34940,17 @@
    "updated": "2026-09-20T17:09:38.687Z"
   },
   {
-   "declared_name": "harbor/where-my-meetings-actually-happen",
-   "declared_short": "where-my-meetings-actually-happen",
-   "folder": "where-my-meetings-actually-happen",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/where-my-meetings-actually-happen",
+   "declared_short": "where-my-meetings-actually-happen",
    "domain": null,
+   "folder": "where-my-meetings-actually-happen",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0c6587071b34ee78cb10e9a24f351f13e88f21d45a4d493fe089f3e4d402f41c",
    "size_bytes": 11477504,
    "updated": "2026-10-01T12:06:24.684Z"
