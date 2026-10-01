@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-10-01T13:15:03+00:00",
+ "generated_at": "2026-10-01T13:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2395,
-  "scanned": 2395,
-  "connector": 719,
-  "non_connector": 1676,
+  "task_folders": 2397,
+  "scanned": 2397,
+  "connector": 720,
+  "non_connector": 1677,
   "errors": 0
  },
  "connector_provenance": {
   "real": 167,
-  "unknown": 217,
+  "unknown": 218,
   "synthetic": 335
  },
  "domain": {
-  "unnamed": 1245,
+  "unnamed": 1246,
   "code": 385,
   "fin": 121,
   "gen": 372,
-  "health": 164,
+  "health": 165,
   "law": 108
  },
  "name_prefix": {
-  "harbor": 721,
-  "obi": 1662,
+  "harbor": 722,
+  "obi": 1663,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 77,
+  "email-calendar-gym": 78,
   "outlook-gym": 69,
   "slack": 66,
   "linear-gym": 63,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 266063
  },
  "errors": [],
  "tasks": [
@@ -23723,6 +23723,20 @@
    "updated": "2026-09-26T23:41:45.202Z"
   },
   {
+   "declared_name": "obi/health-tdt11-a9-mediation-contact-window-register",
+   "declared_short": "health-tdt11-a9-mediation-contact-window-register",
+   "folder": "health-tdt11-a9-mediation-contact-window-register",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": "health",
+   "image": null,
+   "sha256": "27dc0b1f342f3035e0298a8997a0b5a7e24ddbaf3234d8a46229080dbef0cb0a",
+   "size_bytes": 7527777,
+   "updated": "2026-10-01T13:16:28.779Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-tdt3-a1-pt-licensure-english-score-adjudication",
@@ -33716,6 +33730,22 @@
    "sha256": "31f84248eaa2849f1f377327911d07b4b5b0f83d34183e89db29c986d1ac97ce",
    "size_bytes": 11143117,
    "updated": "2026-09-29T16:40:15.493Z"
+  },
+  {
+   "declared_name": "harbor/the-week-nobody-confirmed",
+   "declared_short": "the-week-nobody-confirmed",
+   "folder": "the-week-nobody-confirmed",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "3e948cf020815dbc9092ffc0d4f3088e24d504711de56942fa549551546a4fb8",
+   "size_bytes": 8342443,
+   "updated": "2026-10-01T13:19:43.065Z"
   },
   {
    "connector_provenance": "real",
