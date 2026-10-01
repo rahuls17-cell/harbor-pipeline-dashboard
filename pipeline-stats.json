@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T16:45:04+00:00",
+ "generated_at": "2026-10-01T16:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2433,
-  "scanned": 2433,
-  "connector": 748,
+  "task_folders": 2434,
+  "scanned": 2434,
+  "connector": 749,
   "non_connector": 1685,
   "errors": 0
  },
  "connector_provenance": {
   "real": 171,
   "unknown": 228,
-  "synthetic": 349
+  "synthetic": 350
  },
  "domain": {
-  "unnamed": 1277,
+  "unnamed": 1278,
   "code": 387,
   "fin": 121,
   "gen": 375,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 750,
+  "harbor": 751,
   "obi": 1671,
   "bus": 1,
   "edu": 3,
@@ -42,8 +42,8 @@
   "email-calendar-gym": 82,
   "outlook-gym": 71,
   "slack": 66,
+  "gws-gym": 66,
   "linear-gym": 65,
-  "gws-gym": 65,
   "notion-gym": 62,
   "github-gym": 49,
   "supabase-gym": 9,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 400397
+  "new_archives_read": 1,
+  "approx_bytes_read": 136495
  },
  "errors": [],
  "tasks": [
@@ -8023,15 +8023,15 @@
    "updated": "2026-09-26T20:52:51.775Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/code-c288-intent-routing-compliance-audit",
    "declared_short": "code-c288-intent-routing-compliance-audit",
-   "folder": "code-c288-intent-routing-compliance-audit-qc-v19-cldaa4",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "code",
+   "folder": "code-c288-intent-routing-compliance-audit-qc-v19-cldaa4",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "132657d01b19be7ae8649ef3acd535f80a97f031e307518f0a7c2abec72e32b0",
    "size_bytes": 4259204,
    "updated": "2026-10-01T16:42:51.010Z"
@@ -19387,15 +19387,15 @@
    "updated": "2026-09-25T20:50:24.137Z"
   },
   {
+   "connector_provenance": null,
+   "connector_services": [],
    "declared_name": "obi/gen-g706-mes-rollout-readiness-audit",
    "declared_short": "gen-g706-mes-rollout-readiness-audit",
-   "folder": "gen-g706-mes-rollout-readiness-audit-v22.5",
-   "prefix": "obi",
-   "is_connector": false,
-   "connector_services": [],
-   "connector_provenance": null,
    "domain": "gen",
+   "folder": "gen-g706-mes-rollout-readiness-audit-v22.5",
    "image": null,
+   "is_connector": false,
+   "prefix": "obi",
    "sha256": "c38dfb32ed67c125a7994d2507dca8242fd305b714e06f86f8281c5ecf0a0dd5",
    "size_bytes": 9071862,
    "updated": "2026-10-01T16:40:55.173Z"
@@ -27139,6 +27139,22 @@
    "updated": "2026-09-19T08:19:34.165Z"
   },
   {
+   "declared_name": "harbor/nobody-wrote-back",
+   "declared_short": "nobody-wrote-back",
+   "folder": "nobody-wrote-back",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "4c0bf7deed0d1bd59990c4c84f67ecc65763eb5886eb387dff920df199b6dbde",
+   "size_bytes": 8933966,
+   "updated": "2026-10-01T16:48:08.802Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -28353,17 +28369,17 @@
    "updated": "2026-09-27T06:35:29.984Z"
   },
   {
-   "declared_name": "harbor/spring-orders-billed-again-next-month",
-   "declared_short": "spring-orders-billed-again-next-month",
-   "folder": "spring-orders-billed-again-next-month",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/spring-orders-billed-again-next-month",
+   "declared_short": "spring-orders-billed-again-next-month",
    "domain": null,
+   "folder": "spring-orders-billed-again-next-month",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "886cc192518eaf9dd66fff62924d395afb2e6a7dc175d4edb0911b8c796f5553",
    "size_bytes": 15702835,
    "updated": "2026-10-01T16:42:39.831Z"
