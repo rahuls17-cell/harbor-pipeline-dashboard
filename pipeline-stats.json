@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-01T15:05:03+00:00",
+ "generated_at": "2026-10-01T15:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2417,
-  "scanned": 2417,
+  "task_folders": 2418,
+  "scanned": 2418,
   "connector": 735,
-  "non_connector": 1682,
+  "non_connector": 1683,
   "errors": 0
  },
  "connector_provenance": {
@@ -14,7 +14,7 @@
   "synthetic": 344
  },
  "domain": {
-  "unnamed": 1263,
+  "unnamed": 1264,
   "code": 386,
   "fin": 121,
   "gen": 374,
@@ -23,7 +23,7 @@
  },
  "name_prefix": {
   "harbor": 737,
-  "obi": 1668,
+  "obi": 1669,
   "bus": 1,
   "edu": 3,
   "vankamasthanamma": 1,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 270084
+  "new_archives_read": 1,
+  "approx_bytes_read": 131759
  },
  "errors": [],
  "tasks": [
@@ -13344,6 +13344,20 @@
    "sha256": "b127e37e6e9317682e209873ef883fe22efc0cb0661e8f6fd307388d31490c44",
    "size_bytes": 3855220,
    "updated": "2026-09-27T12:59:04.663Z"
+  },
+  {
+   "declared_name": "obi/edu-sca-a2-eli10-insertion-ticket-adjudication",
+   "declared_short": "edu-sca-a2-eli10-insertion-ticket-adjudication",
+   "folder": "edu-sca-a2-eli10-insertion-ticket-adjudication",
+   "prefix": "obi",
+   "is_connector": false,
+   "connector_services": [],
+   "connector_provenance": null,
+   "domain": null,
+   "image": null,
+   "sha256": "43278b059034ee5ad739034edc2a65d671dce790116ba85140dd0d1f4d468eb4",
+   "size_bytes": 5951489,
+   "updated": "2026-10-01T15:05:57.857Z"
   },
   {
    "connector_provenance": null,
@@ -31466,17 +31480,17 @@
    "updated": "2026-09-23T23:00:59.602Z"
   },
   {
-   "declared_name": "harbor/the-conversations-still-waiting-on-me",
-   "declared_short": "the-conversations-still-waiting-on-me",
-   "folder": "the-conversations-still-waiting-on-me",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-conversations-still-waiting-on-me",
+   "declared_short": "the-conversations-still-waiting-on-me",
    "domain": null,
+   "folder": "the-conversations-still-waiting-on-me",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2963bb7c880fa0985d6a3abfdfc51b542d7eb9805d30d0f058cec850938bdfd3",
    "size_bytes": 5903921,
    "updated": "2026-10-01T15:03:38.232Z"
@@ -35420,17 +35434,17 @@
    "updated": "2026-10-01T12:48:04.984Z"
   },
   {
-   "declared_name": "harbor/which-copy-of-the-old-project-tree-is-real",
-   "declared_short": "which-copy-of-the-old-project-tree-is-real",
-   "folder": "which-copy-of-the-old-project-tree-is-real",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/which-copy-of-the-old-project-tree-is-real",
+   "declared_short": "which-copy-of-the-old-project-tree-is-real",
    "domain": null,
+   "folder": "which-copy-of-the-old-project-tree-is-real",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3f9c8df5369fa434cd806ccca576210b5d68fbf326e0e25548524b939e736e02",
    "size_bytes": 12735504,
    "updated": "2026-10-01T15:01:08.223Z"
