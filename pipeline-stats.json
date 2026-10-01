@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T16:10:03+00:00",
+ "generated_at": "2026-10-01T16:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2425,
-  "scanned": 2425,
-  "connector": 742,
+  "task_folders": 2426,
+  "scanned": 2426,
+  "connector": 743,
   "non_connector": 1683,
   "errors": 0
  },
  "connector_provenance": {
   "real": 168,
-  "unknown": 226,
+  "unknown": 227,
   "synthetic": 348
  },
  "domain": {
-  "unnamed": 1271,
+  "unnamed": 1272,
   "code": 386,
   "fin": 121,
   "gen": 374,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 744,
+  "harbor": 745,
   "obi": 1669,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 80,
+  "email-calendar-gym": 81,
   "outlook-gym": 71,
   "slack": 66,
   "linear-gym": 65,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136937
+  "approx_bytes_read": 136393
  },
  "errors": [],
  "tasks": [
@@ -11239,6 +11239,22 @@
    "updated": "2026-09-23T11:31:43.809Z"
   },
   {
+   "declared_name": "harbor/conversations-i-still-owe-a-reply",
+   "declared_short": "conversations-i-still-owe-a-reply",
+   "folder": "conversations-i-still-owe-a-reply",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "e9c8bc333b721baf2d125f73d2587371008ef2e4bae1855a91d6d89148e0f02f",
+   "size_bytes": 18667598,
+   "updated": "2026-10-01T16:11:56.652Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
@@ -15861,17 +15877,17 @@
    "updated": "2026-09-30T08:30:36.739Z"
   },
   {
-   "declared_name": "harbor/forty-filed-in-a-day-eighteen-never-touched",
-   "declared_short": "forty-filed-in-a-day-eighteen-never-touched",
-   "folder": "forty-filed-in-a-day-eighteen-never-touched-r3-qc-clean",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/forty-filed-in-a-day-eighteen-never-touched",
+   "declared_short": "forty-filed-in-a-day-eighteen-never-touched",
    "domain": null,
+   "folder": "forty-filed-in-a-day-eighteen-never-touched-r3-qc-clean",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "78c44e9bdc7496f5e8e337e0b237af72095a730a7423de8399dacefd88e4d3ff",
    "size_bytes": 7447688,
    "updated": "2026-10-01T16:06:06.175Z"
