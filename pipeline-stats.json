@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T18:35:03+00:00",
+ "generated_at": "2026-10-01T18:40:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2454,
-  "scanned": 2454,
-  "connector": 767,
+  "task_folders": 2455,
+  "scanned": 2455,
+  "connector": 768,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 174,
-  "unknown": 233,
+  "unknown": 234,
   "synthetic": 360
  },
  "domain": {
-  "unnamed": 1296,
+  "unnamed": 1297,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 769,
+  "harbor": 770,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -44,7 +44,7 @@
   "gws-gym": 71,
   "linear-gym": 67,
   "slack": 66,
-  "notion-gym": 64,
+  "notion-gym": 65,
   "github-gym": 50,
   "supabase-gym": 9,
   "teams-gym": 9,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 271844
+  "new_archives_read": 1,
+  "approx_bytes_read": 136062
  },
  "errors": [],
  "tasks": [
@@ -36146,6 +36146,22 @@
    "updated": "2026-10-01T13:46:35.827Z"
   },
   {
+   "declared_name": "harbor/which-vendors-have-gone-quiet",
+   "declared_short": "which-vendors-have-gone-quiet",
+   "folder": "which-vendors-have-gone-quiet",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "80cae86b8457aedcfa378438dabb5f979b4029c94c0cac0f0225ec6a64f03583",
+   "size_bytes": 6854394,
+   "updated": "2026-10-01T18:37:28.127Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
@@ -36210,17 +36226,17 @@
    "updated": "2026-10-01T18:11:59.625Z"
   },
   {
-   "declared_name": "harbor/who-can-see-my-calendars",
-   "declared_short": "who-can-see-my-calendars",
-   "folder": "who-can-see-my-calendars",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/who-can-see-my-calendars",
+   "declared_short": "who-can-see-my-calendars",
    "domain": null,
+   "folder": "who-can-see-my-calendars",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b250892f99765f4e9fb033d1f2341e6ade2dd68a7d0a7ba07454c61575b2acbd",
    "size_bytes": 19918675,
    "updated": "2026-10-01T18:33:04.585Z"
@@ -36386,17 +36402,17 @@
    "updated": "2026-09-22T12:46:52.759Z"
   },
   {
-   "declared_name": "harbor/who-never-answered",
-   "declared_short": "who-never-answered",
-   "folder": "who-never-answered",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/who-never-answered",
+   "declared_short": "who-never-answered",
    "domain": null,
+   "folder": "who-never-answered",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1f53f6a29cd701b3bb958c5ba7f293ae62bdb564493d0f2e8cd8ba0d2221f2a6",
    "size_bytes": 21466690,
    "updated": "2026-10-01T18:33:43.848Z"
