@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-01T18:50:05+00:00",
+ "generated_at": "2026-10-01T18:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2462,
-  "scanned": 2462,
-  "connector": 775,
+  "task_folders": 2464,
+  "scanned": 2464,
+  "connector": 777,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 175,
   "unknown": 237,
-  "synthetic": 363
+  "synthetic": 365
  },
  "domain": {
-  "unnamed": 1304,
+  "unnamed": 1306,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 777,
+  "harbor": 779,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,8 +39,8 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 88,
-  "gws-gym": 72,
+  "email-calendar-gym": 89,
+  "gws-gym": 73,
   "outlook-gym": 72,
   "linear-gym": 69,
   "slack": 66,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 5,
-  "approx_bytes_read": 684758
+  "new_archives_read": 2,
+  "approx_bytes_read": 277889
  },
  "errors": [],
  "tasks": [
@@ -12280,17 +12280,33 @@
    "updated": "2026-10-01T17:33:49.532Z"
   },
   {
-   "declared_name": "harbor/e-m-levels-paying-backwards",
-   "declared_short": "e-m-levels-paying-backwards",
-   "folder": "e-m-levels-paying-backwards",
+   "declared_name": "harbor/drive-membership-grant-audit",
+   "declared_short": "drive-membership-grant-audit",
+   "folder": "drive-membership-grant-audit",
    "prefix": "harbor",
    "is_connector": true,
    "connector_services": [
-    "notion-gym"
+    "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "connector_provenance": "synthetic",
    "domain": null,
    "image": null,
+   "sha256": "ab5f273e3392b0c0cf63985956ecf66b7fe1bc794e3bed5e00c033a59ff39447",
+   "size_bytes": 8523938,
+   "updated": "2026-10-01T18:52:34.261Z"
+  },
+  {
+   "connector_provenance": "unknown",
+   "connector_services": [
+    "notion-gym"
+   ],
+   "declared_name": "harbor/e-m-levels-paying-backwards",
+   "declared_short": "e-m-levels-paying-backwards",
+   "domain": null,
+   "folder": "e-m-levels-paying-backwards",
+   "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a1f1ec905acf43fbaba40fdbf721007077c2cc9591f69c453d665be3746b7eab",
    "size_bytes": 7242315,
    "updated": "2026-10-01T18:49:34.324Z"
@@ -14066,17 +14082,17 @@
    "updated": "2026-09-05T22:15:41.160Z"
   },
   {
-   "declared_name": "harbor/eprescribing-closures-by-month",
-   "declared_short": "eprescribing-closures-by-month",
-   "folder": "eprescribing-closures-by-month",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/eprescribing-closures-by-month",
+   "declared_short": "eprescribing-closures-by-month",
    "domain": null,
+   "folder": "eprescribing-closures-by-month",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "de5274c71bf596df486c35429e822cdba5ebaaab1ba8d02c4608d040b37a64bc",
    "size_bytes": 8540258,
    "updated": "2026-10-01T18:47:44.409Z"
@@ -14298,17 +14314,17 @@
    "updated": "2026-09-29T20:36:16.742Z"
   },
   {
-   "declared_name": "harbor/fifty-five-assigned-around-the-member-list",
-   "declared_short": "fifty-five-assigned-around-the-member-list",
-   "folder": "fifty-five-assigned-around-the-member-list",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/fifty-five-assigned-around-the-member-list",
+   "declared_short": "fifty-five-assigned-around-the-member-list",
    "domain": null,
+   "folder": "fifty-five-assigned-around-the-member-list",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ce47bfafd250406db4268a226553b6527cd1cd57cb7297c3f304287e4a15dfe0",
    "size_bytes": 8717493,
    "updated": "2026-10-01T18:45:50.848Z"
@@ -16017,17 +16033,17 @@
    "updated": "2026-09-30T08:36:12.507Z"
   },
   {
-   "declared_name": "harbor/follow-up-on-unanswered-sends",
-   "declared_short": "follow-up-on-unanswered-sends",
-   "folder": "follow-up-on-unanswered-sends",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/follow-up-on-unanswered-sends",
+   "declared_short": "follow-up-on-unanswered-sends",
    "domain": null,
+   "folder": "follow-up-on-unanswered-sends",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5cb145873198878543372eb95f193481058f348b2717931b43a014fc6ddbf450",
    "size_bytes": 26577661,
    "updated": "2026-10-01T18:45:51.758Z"
@@ -32080,17 +32096,17 @@
    "updated": "2026-09-26T05:54:05.447Z"
   },
   {
-   "declared_name": "harbor/the-documents-still-chasing-me",
-   "declared_short": "the-documents-still-chasing-me",
-   "folder": "the-documents-still-chasing-me",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-documents-still-chasing-me",
+   "declared_short": "the-documents-still-chasing-me",
    "domain": null,
+   "folder": "the-documents-still-chasing-me",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ecf996aaf918c839c021bb92e054dcbe416fe07daad5da0ecffb370ab44c2454",
    "size_bytes": 8000010,
    "updated": "2026-10-01T18:49:37.046Z"
@@ -36576,6 +36592,22 @@
    "sha256": "14351834165496ac1d5f26293ccb143b219f78ca549c502adbb5cc03d88f22fb",
    "size_bytes": 8077762,
    "updated": "2026-09-20T06:45:45.207Z"
+  },
+  {
+   "declared_name": "harbor/who-still-owes-a-reply",
+   "declared_short": "who-still-owes-a-reply",
+   "folder": "who-still-owes-a-reply",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3b6be6472ec747152d708f8f350a3ab36ddfc70211edff3fc58c44faa78e1090",
+   "size_bytes": 11802362,
+   "updated": "2026-10-01T18:53:48.209Z"
   },
   {
    "connector_provenance": "synthetic",
