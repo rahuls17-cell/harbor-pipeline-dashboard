@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T13:10:03+00:00",
+ "generated_at": "2026-10-01T13:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2395,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136833
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -34030,17 +34030,17 @@
    "updated": "2026-09-19T01:40:37.786Z"
   },
   {
-   "declared_name": "harbor/twenty-on-one-desk-a-hundred-and-eighteen-on-none",
-   "declared_short": "twenty-on-one-desk-a-hundred-and-eighteen-on-none",
-   "folder": "twenty-on-one-desk-a-hundred-and-eighteen-on-none",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/twenty-on-one-desk-a-hundred-and-eighteen-on-none",
+   "declared_short": "twenty-on-one-desk-a-hundred-and-eighteen-on-none",
    "domain": null,
+   "folder": "twenty-on-one-desk-a-hundred-and-eighteen-on-none",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0a0d7cb7e81b022897c3d30ea68d036ee1e1ed187bb36f47c6ae96de794ca7ee",
    "size_bytes": 7463323,
    "updated": "2026-10-01T13:07:36.857Z"
