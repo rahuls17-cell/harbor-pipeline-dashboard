@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T19:10:04+00:00",
+ "generated_at": "2026-10-01T19:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2466,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 274098
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -34432,17 +34432,17 @@
    "updated": "2026-10-01T14:21:15.875Z"
   },
   {
-   "declared_name": "harbor/the-visit-schedule-we-tell-patients",
-   "declared_short": "the-visit-schedule-we-tell-patients",
-   "folder": "the-visit-schedule-we-tell-patients-v12",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-visit-schedule-we-tell-patients",
+   "declared_short": "the-visit-schedule-we-tell-patients",
    "domain": null,
+   "folder": "the-visit-schedule-we-tell-patients-v12",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "755c138306f80a9011d544cb9e6c0ce71552e009b7e3d7c35c9f1247fe63eec3",
    "size_bytes": 7272096,
    "updated": "2026-10-01T19:08:33.136Z"
@@ -35520,17 +35520,17 @@
    "updated": "2026-09-12T13:41:14.141Z"
   },
   {
-   "declared_name": "harbor/virtual-care-codes-at-cms-rates",
-   "declared_short": "virtual-care-codes-at-cms-rates",
-   "folder": "virtual-care-codes-at-cms-rates",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/virtual-care-codes-at-cms-rates",
+   "declared_short": "virtual-care-codes-at-cms-rates",
    "domain": null,
+   "folder": "virtual-care-codes-at-cms-rates",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d8341d3fa31d3f899b3fc94377f16cf58e7a1e86b809a1b1357c1a9c8454414c",
    "size_bytes": 15512752,
    "updated": "2026-10-01T19:06:46.337Z"
