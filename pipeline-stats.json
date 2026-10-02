@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T17:25:03+00:00",
+ "generated_at": "2026-10-02T17:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2486,
-  "scanned": 2486,
-  "connector": 799,
+  "task_folders": 2488,
+  "scanned": 2488,
+  "connector": 801,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 177,
-  "unknown": 244,
+  "unknown": 246,
   "synthetic": 378
  },
  "domain": {
-  "unnamed": 1328,
+  "unnamed": 1330,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 801,
+  "harbor": 803,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 94,
   "gws-gym": 76,
   "outlook-gym": 76,
-  "notion-gym": 70,
+  "notion-gym": 72,
   "linear-gym": 69,
   "slack": 66,
   "github-gym": 50,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 274303
  },
  "errors": [],
  "tasks": [
@@ -27424,6 +27424,22 @@
    "updated": "2026-10-01T16:48:08.802Z"
   },
   {
+   "declared_name": "harbor/note-templates-left-to-fill",
+   "declared_short": "note-templates-left-to-fill",
+   "folder": "note-templates-left-to-fill",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "2a1c96d2f6a62487a95492928dd6d6ed5b34d40164a058fd1a5a95d8fbb73f89",
+   "size_bytes": 8572750,
+   "updated": "2026-10-02T17:30:50.555Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
@@ -36497,6 +36513,22 @@
    "sha256": "65385678795639b35615bcf7accb4abb0dab6ef12b953e405af44ad42a972237",
    "size_bytes": 12589377,
    "updated": "2026-09-29T06:12:28.275Z"
+  },
+  {
+   "declared_name": "harbor/which-onboarding-packs-are-actually-finished",
+   "declared_short": "which-onboarding-packs-are-actually-finished",
+   "folder": "which-onboarding-packs-are-actually-finished",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "6ff515a8cc18ee7a1fc5eaea786931c2ba6240a668fb630d539316c1789cd7d0",
+   "size_bytes": 7943833,
+   "updated": "2026-10-02T17:33:03.451Z"
   },
   {
    "connector_provenance": "synthetic",
