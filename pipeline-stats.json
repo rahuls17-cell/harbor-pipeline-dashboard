@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T17:10:04+00:00",
+ "generated_at": "2026-10-02T17:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2485,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 548315
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1575,18 +1575,18 @@
    "updated": "2026-09-23T19:23:28.199Z"
   },
   {
-   "declared_name": "harbor/audit-trail-safeguard-audit",
-   "declared_short": "audit-trail-safeguard-audit",
-   "folder": "audit-trail-safeguard-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym",
     "supabase-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/audit-trail-safeguard-audit",
+   "declared_short": "audit-trail-safeguard-audit",
    "domain": null,
+   "folder": "audit-trail-safeguard-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ccd3366daf40f05ff61bbb03eecbc65977fa94dec4b836483793c9c024c8fa81",
    "size_bytes": 7635743,
    "updated": "2026-10-02T17:05:21.037Z"
@@ -5742,17 +5742,17 @@
    "updated": "2026-10-01T09:53:28.423Z"
   },
   {
-   "declared_name": "harbor/clinical-data-jobs-left-broken",
-   "declared_short": "clinical-data-jobs-left-broken",
-   "folder": "clinical-data-jobs-left-broken",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/clinical-data-jobs-left-broken",
+   "declared_short": "clinical-data-jobs-left-broken",
    "domain": null,
+   "folder": "clinical-data-jobs-left-broken",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "750f527cdc3a6b2b93e3cb483a2509916630c1853eb4aec206a0980632bbcdb5",
    "size_bytes": 7251683,
    "updated": "2026-10-02T17:07:40.838Z"
@@ -34945,17 +34945,17 @@
    "updated": "2026-09-29T07:53:42.620Z"
   },
   {
-   "declared_name": "harbor/three-watched-topics-and-their-quiet-nights",
-   "declared_short": "three-watched-topics-and-their-quiet-nights",
-   "folder": "three-watched-topics-and-their-quiet-nights",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/three-watched-topics-and-their-quiet-nights",
+   "declared_short": "three-watched-topics-and-their-quiet-nights",
    "domain": null,
+   "folder": "three-watched-topics-and-their-quiet-nights",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "953ee1f91f1a415682b20bc3ab1cd57c7f7db2ea1d58de141caf4d93830be904",
    "size_bytes": 11897563,
    "updated": "2026-10-02T17:09:36.433Z"
@@ -35885,17 +35885,17 @@
    "updated": "2026-09-29T14:45:29.738Z"
   },
   {
-   "declared_name": "harbor/webhook-endpoint-briefing",
-   "declared_short": "webhook-endpoint-briefing",
-   "folder": "webhook-endpoint-briefing",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/webhook-endpoint-briefing",
+   "declared_short": "webhook-endpoint-briefing",
    "domain": null,
+   "folder": "webhook-endpoint-briefing",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0df6bacfbc8dc3c445740931a699adbd07e5fe380578de1cfaa6edae0ab13926",
    "size_bytes": 9979573,
    "updated": "2026-10-02T17:07:48.151Z"
