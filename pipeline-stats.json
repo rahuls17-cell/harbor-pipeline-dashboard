@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T16:55:03+00:00",
+ "generated_at": "2026-10-02T17:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2478,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132929
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -32560,17 +32560,17 @@
    "updated": "2026-09-25T14:47:12.521Z"
   },
   {
-   "declared_name": "harbor/the-holds-nobody-settled",
-   "declared_short": "the-holds-nobody-settled",
-   "folder": "the-holds-nobody-settled",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-holds-nobody-settled",
+   "declared_short": "the-holds-nobody-settled",
    "domain": null,
+   "folder": "the-holds-nobody-settled",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a34e1ae4ba54848f7d451a702384da7d50847e0b194cfe5beafea2fad53bec4d",
    "size_bytes": 16928686,
    "updated": "2026-10-02T16:54:20.114Z"
