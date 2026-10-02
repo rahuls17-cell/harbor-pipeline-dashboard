@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T21:15:03+00:00",
+ "generated_at": "2026-10-02T21:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2520,
-  "scanned": 2520,
-  "connector": 833,
+  "task_folders": 2522,
+  "scanned": 2522,
+  "connector": 835,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 180,
-  "unknown": 253,
-  "synthetic": 400
+  "unknown": 254,
+  "synthetic": 401
  },
  "domain": {
-  "unnamed": 1362,
+  "unnamed": 1364,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 835,
+  "harbor": 837,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,11 +39,11 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 99,
+  "email-calendar-gym": 101,
   "outlook-gym": 79,
   "gws-gym": 78,
   "notion-gym": 77,
-  "linear-gym": 75,
+  "linear-gym": 76,
   "slack": 66,
   "github-gym": 52,
   "supabase-gym": 11,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 272984
  },
  "errors": [],
  "tasks": [
@@ -11478,6 +11478,23 @@
    "sha256": "87e4ce660b28522db58fa64eb93107f20769536d1b982c7d186bb0f39da37a41",
    "size_bytes": 9189932,
    "updated": "2026-09-30T07:01:36.200Z"
+  },
+  {
+   "declared_name": "harbor/cs-lifecycle-nudge-audit",
+   "declared_short": "cs-lifecycle-nudge-audit",
+   "folder": "cs-lifecycle-nudge-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym",
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "0587e00b3af4cc284ac87d71798e90eed6cc82c0346840b549c7d94f386846bc",
+   "size_bytes": 8112190,
+   "updated": "2026-10-02T21:16:27.771Z"
   },
   {
    "connector_provenance": "real",
@@ -27395,6 +27412,22 @@
    "sha256": "7eb0d11fad4c424a51525a65cb994bd7b7d3ad941e803403eb111b33b61448e8",
    "size_bytes": 8346133,
    "updated": "2026-09-29T13:11:24.342Z"
+  },
+  {
+   "declared_name": "harbor/meeting-load-digest",
+   "declared_short": "meeting-load-digest",
+   "folder": "meeting-load-digest",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "491ff53d56ba81f995b81e4c8a7b7d8a9da56e2140c97219436b1250b4ed56b8",
+   "size_bytes": 8776326,
+   "updated": "2026-10-02T21:18:08.870Z"
   },
   {
    "connector_provenance": "unknown",
