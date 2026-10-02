@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T21:30:04+00:00",
+ "generated_at": "2026-10-02T21:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2523,
-  "scanned": 2523,
-  "connector": 836,
+  "task_folders": 2524,
+  "scanned": 2524,
+  "connector": 837,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 180,
   "unknown": 255,
-  "synthetic": 401
+  "synthetic": 402
  },
  "domain": {
-  "unnamed": 1365,
+  "unnamed": 1366,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 838,
+  "harbor": 839,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,8 +40,8 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 101,
+  "gws-gym": 79,
   "outlook-gym": 79,
-  "gws-gym": 78,
   "notion-gym": 77,
   "linear-gym": 76,
   "slack": 66,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 270854
+  "new_archives_read": 1,
+  "approx_bytes_read": 136926
  },
  "errors": [],
  "tasks": [
@@ -12444,6 +12444,22 @@
    "sha256": "0394a5c29d9bd6384929987089550611d7cf77cd83d5bad32d38c0e75ef5fdf1",
    "size_bytes": 8133984,
    "updated": "2026-09-21T15:51:59.465Z"
+  },
+  {
+   "declared_name": "harbor/drive-dead-shortcut-audit",
+   "declared_short": "drive-dead-shortcut-audit",
+   "folder": "drive-dead-shortcut-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "06ff4f7a7227bde6cc0d3ba09b4f29444c4ab8ae76107a7bda5393dd2e656b63",
+   "size_bytes": 6762163,
+   "updated": "2026-10-02T21:32:41.162Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -34087,17 +34103,17 @@
    "updated": "2026-09-27T05:26:04.388Z"
   },
   {
-   "declared_name": "harbor/the-preview-branches-left-running",
-   "declared_short": "the-preview-branches-left-running",
-   "folder": "the-preview-branches-left-running",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "supabase-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-preview-branches-left-running",
+   "declared_short": "the-preview-branches-left-running",
    "domain": null,
+   "folder": "the-preview-branches-left-running",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a0f11c1e4076afab3c4ac0e4f40386d3495b04aebab23cf19235d426c4a98161",
    "size_bytes": 6300034,
    "updated": "2026-10-02T21:26:23.251Z"
@@ -37641,17 +37657,17 @@
    "updated": "2026-10-01T10:08:18.762Z"
   },
   {
-   "declared_name": "harbor/whose-spend-is-whose",
-   "declared_short": "whose-spend-is-whose",
-   "folder": "whose-spend-is-whose",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/whose-spend-is-whose",
+   "declared_short": "whose-spend-is-whose",
    "domain": null,
+   "folder": "whose-spend-is-whose",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d73e52c6a0ab7ce821fb25a6354eea284fbcfb36c02c7ef0e4f509256ae2ed54",
    "size_bytes": 7988406,
    "updated": "2026-10-02T21:25:18.497Z"
