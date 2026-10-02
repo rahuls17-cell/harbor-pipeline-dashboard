@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T18:30:03+00:00",
+ "generated_at": "2026-10-02T18:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2491,
-  "scanned": 2491,
-  "connector": 804,
+  "task_folders": 2492,
+  "scanned": 2492,
+  "connector": 805,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 177,
-  "unknown": 246,
+  "unknown": 247,
   "synthetic": 381
  },
  "domain": {
-  "unnamed": 1333,
+  "unnamed": 1334,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 806,
+  "harbor": 807,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 94,
   "gws-gym": 77,
   "outlook-gym": 76,
-  "notion-gym": 72,
+  "notion-gym": 73,
   "linear-gym": 70,
   "slack": 66,
   "github-gym": 50,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 136923
  },
  "errors": [],
  "tasks": [
@@ -11112,6 +11112,22 @@
    "sha256": "0b63982b28216ddabb6e79ce6908bf3a70550103e23ad968a95ef657fadd4fb3",
    "size_bytes": 19464582,
    "updated": "2026-09-10T10:38:02.555Z"
+  },
+  {
+   "declared_name": "harbor/codes-the-charge-table-prices-two-ways",
+   "declared_short": "codes-the-charge-table-prices-two-ways",
+   "folder": "codes-the-charge-table-prices-two-ways",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "8cb53b78ac55481ae13ed2eac3b6ca05b81f28d9b4d51b6265a6b57000284f54",
+   "size_bytes": 10810622,
+   "updated": "2026-10-02T18:31:15.181Z"
   },
   {
    "connector_provenance": "real",
