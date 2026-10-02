@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T23:00:03+00:00",
+ "generated_at": "2026-10-02T23:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2535,
-  "scanned": 2535,
-  "connector": 848,
+  "task_folders": 2536,
+  "scanned": 2536,
+  "connector": 849,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 180,
   "unknown": 257,
-  "synthetic": 411
+  "synthetic": 412
  },
  "domain": {
-  "unnamed": 1377,
+  "unnamed": 1378,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 850,
+  "harbor": 851,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 245,
+  "slack-gym": 246,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -46,16 +46,16 @@
   "outlook-gym": 79,
   "slack": 66,
   "github-gym": 53,
+  "snowflake-gym": 13,
   "supabase-gym": 12,
-  "snowflake-gym": 12,
   "teams-gym": 12,
   "microsoft-teams-gym": 5,
   "microsoft-365-gym": 3,
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 138259
  },
  "errors": [],
  "tasks": [
@@ -11293,6 +11293,23 @@
    "sha256": "ed03ec53ff20af7eeae98efa273fc81114acc290275e4df217cbae3d1b0c24fb",
    "size_bytes": 8681364,
    "updated": "2026-09-30T09:46:54.507Z"
+  },
+  {
+   "declared_name": "harbor/compute-budget-variance-audit",
+   "declared_short": "compute-budget-variance-audit",
+   "folder": "compute-budget-variance-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c75998edbd8e24512071fd8b9ac0842d92824980b800d2c867da5f5e481bdd4f",
+   "size_bytes": 8310293,
+   "updated": "2026-10-02T23:41:02.752Z"
   },
   {
    "connector_provenance": "unknown",
