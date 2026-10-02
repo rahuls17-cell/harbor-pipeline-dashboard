@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T22:00:03+00:00",
+ "generated_at": "2026-10-02T22:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2528,
-  "scanned": 2528,
-  "connector": 841,
+  "task_folders": 2529,
+  "scanned": 2529,
+  "connector": 842,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 180,
   "unknown": 257,
-  "synthetic": 404
+  "synthetic": 405
  },
  "domain": {
-  "unnamed": 1370,
+  "unnamed": 1371,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 843,
+  "harbor": 844,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 103,
+  "email-calendar-gym": 104,
   "gws-gym": 79,
   "outlook-gym": 79,
   "notion-gym": 78,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133629
+  "approx_bytes_read": 135402
  },
  "errors": [],
  "tasks": [
@@ -5524,6 +5524,22 @@
    "sha256": "10fd09dd46160c007b600e2b36567ef74d74687f24c5089bb2dd85fac6cc8896",
    "size_bytes": 6266581,
    "updated": "2026-09-29T17:23:24.628Z"
+  },
+  {
+   "declared_name": "harbor/cancelled-visits-never-rebooked",
+   "declared_short": "cancelled-visits-never-rebooked",
+   "folder": "cancelled-visits-never-rebooked",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "13b9291c3ecf7df786152d736e5c7a08a84d0a6754dcdfcfd503e71f279d0807",
+   "size_bytes": 19613363,
+   "updated": "2026-10-02T22:01:23.689Z"
   },
   {
    "connector_provenance": "unknown",
@@ -37337,17 +37353,17 @@
    "updated": "2026-10-01T18:11:59.625Z"
   },
   {
-   "declared_name": "harbor/who-can-prescribe-at-each-practice",
-   "declared_short": "who-can-prescribe-at-each-practice",
-   "folder": "who-can-prescribe-at-each-practice",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/who-can-prescribe-at-each-practice",
+   "declared_short": "who-can-prescribe-at-each-practice",
    "domain": null,
+   "folder": "who-can-prescribe-at-each-practice",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3faffa28be61ca0542b41cca39b2b85746e829b3211e6edf892b8672bb57adf5",
    "size_bytes": 9246646,
    "updated": "2026-10-02T21:56:40.805Z"
