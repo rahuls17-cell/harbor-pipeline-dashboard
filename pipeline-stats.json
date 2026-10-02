@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T20:05:03+00:00",
+ "generated_at": "2026-10-02T20:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2506,
-  "scanned": 2506,
-  "connector": 819,
+  "task_folders": 2509,
+  "scanned": 2509,
+  "connector": 822,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 178,
-  "unknown": 250,
-  "synthetic": 391
+  "real": 179,
+  "unknown": 251,
+  "synthetic": 392
  },
  "domain": {
-  "unnamed": 1348,
+  "unnamed": 1351,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 821,
+  "harbor": 824,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,14 +32,14 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 241,
+  "slack-gym": 242,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 95,
+  "email-calendar-gym": 97,
   "outlook-gym": 78,
   "gws-gym": 77,
   "notion-gym": 75,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 416734
  },
  "errors": [],
  "tasks": [
@@ -1167,6 +1167,22 @@
    "sha256": "4a02cff879a51bab2d46ec8c42836fab5d4d8541275f865acf4dc6b7b4f4c682",
    "size_bytes": 4444515,
    "updated": "2026-09-10T12:18:25.696Z"
+  },
+  {
+   "declared_name": "harbor/acme-account-trail-audit",
+   "declared_short": "acme-account-trail-audit",
+   "folder": "acme-account-trail-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "34a4f8ba610319fcaa75df5ae8330b0d410da9ca66cc161b50bccd613fa47aab",
+   "size_bytes": 7720681,
+   "updated": "2026-10-02T20:14:39.204Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -32756,6 +32772,22 @@
    "updated": "2026-10-01T10:30:03.025Z"
   },
   {
+   "declared_name": "harbor/the-guardino-dr-meetings",
+   "declared_short": "the-guardino-dr-meetings",
+   "folder": "the-guardino-dr-meetings",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "ea592883e14be460b442f75838da1c7651a0129f3185bef9e39fcc47bebe5367",
+   "size_bytes": 41729404,
+   "updated": "2026-10-02T20:13:51.232Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
@@ -34834,6 +34866,22 @@
    "sha256": "1f4a495f4cee18b705996fe2fea51cc920cb1746187c034acf0e894c5e985682",
    "size_bytes": 7557846,
    "updated": "2026-09-21T17:16:11.101Z"
+  },
+  {
+   "declared_name": "harbor/the-training-invitations-nobody-took-up",
+   "declared_short": "the-training-invitations-nobody-took-up",
+   "folder": "the-training-invitations-nobody-took-up",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "6ff04c6d36c87c7620ccf647b7cc80662d2f196141dee7fc2f83098ee4f1ebd5",
+   "size_bytes": 8428581,
+   "updated": "2026-10-02T20:13:49.803Z"
   },
   {
    "connector_provenance": "synthetic",
