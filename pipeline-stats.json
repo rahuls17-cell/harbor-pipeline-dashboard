@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T21:50:03+00:00",
+ "generated_at": "2026-10-02T21:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2527,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136559
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -28060,17 +28060,17 @@
    "updated": "2026-09-09T11:49:48.227Z"
   },
   {
-   "declared_name": "harbor/paid-accounts-about-to-cut-us-off",
-   "declared_short": "paid-accounts-about-to-cut-us-off",
-   "folder": "paid-accounts-about-to-cut-us-off",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/paid-accounts-about-to-cut-us-off",
+   "declared_short": "paid-accounts-about-to-cut-us-off",
    "domain": null,
+   "folder": "paid-accounts-about-to-cut-us-off",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ab90ab4b4ea12d70fc3af8dda0528c89c2eb106dcc84f0fc6e46bf08e1737d45",
    "size_bytes": 15079303,
    "updated": "2026-10-02T21:47:15.161Z"
