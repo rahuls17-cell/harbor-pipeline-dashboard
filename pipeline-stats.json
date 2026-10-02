@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T19:45:03+00:00",
+ "generated_at": "2026-10-02T19:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2503,
-  "scanned": 2503,
-  "connector": 816,
+  "task_folders": 2504,
+  "scanned": 2504,
+  "connector": 817,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 178,
   "unknown": 250,
-  "synthetic": 388
+  "synthetic": 389
  },
  "domain": {
-  "unnamed": 1345,
+  "unnamed": 1346,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 818,
+  "harbor": 819,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -43,7 +43,7 @@
   "outlook-gym": 78,
   "gws-gym": 77,
   "notion-gym": 75,
-  "linear-gym": 70,
+  "linear-gym": 71,
   "slack": 66,
   "github-gym": 51,
   "supabase-gym": 11,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 273764
+  "new_archives_read": 1,
+  "approx_bytes_read": 136750
  },
  "errors": [],
  "tasks": [
@@ -5821,6 +5821,22 @@
    "sha256": "72a48064b31fa51af16e91a9c246d55bdd54fe43f56f88d08f18d10cb5ec02a4",
    "size_bytes": 8727836,
    "updated": "2026-09-16T08:45:18.235Z"
+  },
+  {
+   "declared_name": "harbor/closed-parent-open-subissues-audit",
+   "declared_short": "closed-parent-open-subissues-audit",
+   "folder": "closed-parent-open-subissues-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "b06275560b283ebc5caee870b6aaa53266aa26c52be15c671b0a128a31668e43",
+   "size_bytes": 7239220,
+   "updated": "2026-10-02T19:48:24.661Z"
   },
   {
    "connector_provenance": null,
@@ -34707,17 +34723,17 @@
    "updated": "2026-09-26T15:55:01.164Z"
   },
   {
-   "declared_name": "harbor/the-thread-and-everything-attached-to-it",
-   "declared_short": "the-thread-and-everything-attached-to-it",
-   "folder": "the-thread-and-everything-attached-to-it",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-thread-and-everything-attached-to-it",
+   "declared_short": "the-thread-and-everything-attached-to-it",
    "domain": null,
+   "folder": "the-thread-and-everything-attached-to-it",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5e892f337acfc598b70f7298dd21cbb68698f7d236491b77f8f1db9030816c31",
    "size_bytes": 5787989,
    "updated": "2026-10-02T19:40:51.190Z"
@@ -36725,17 +36741,17 @@
    "updated": "2026-09-29T06:12:28.275Z"
   },
   {
-   "declared_name": "harbor/which-notification-emails-are-really-ready",
-   "declared_short": "which-notification-emails-are-really-ready",
-   "folder": "which-notification-emails-are-really-ready",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/which-notification-emails-are-really-ready",
+   "declared_short": "which-notification-emails-are-really-ready",
    "domain": null,
+   "folder": "which-notification-emails-are-really-ready",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ee678c263eb202b37c1ff337b14df12665282a5b77922dbc9bfc10ec1e40b9c9",
    "size_bytes": 8672921,
    "updated": "2026-10-02T19:43:24.898Z"
