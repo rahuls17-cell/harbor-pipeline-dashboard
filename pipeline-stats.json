@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T20:45:04+00:00",
+ "generated_at": "2026-10-02T20:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2512,
-  "scanned": 2512,
-  "connector": 825,
+  "task_folders": 2515,
+  "scanned": 2515,
+  "connector": 828,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 179,
   "unknown": 252,
-  "synthetic": 394
+  "synthetic": 397
  },
  "domain": {
-  "unnamed": 1354,
+  "unnamed": 1357,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 827,
+  "harbor": 830,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 242,
+  "slack-gym": 243,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -43,19 +43,19 @@
   "gws-gym": 78,
   "outlook-gym": 78,
   "notion-gym": 76,
-  "linear-gym": 72,
+  "linear-gym": 74,
   "slack": 66,
   "github-gym": 52,
   "supabase-gym": 11,
   "teams-gym": 11,
-  "snowflake-gym": 8,
+  "snowflake-gym": 10,
   "microsoft-teams-gym": 5,
   "microsoft-365-gym": 3,
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135854
+  "new_archives_read": 3,
+  "approx_bytes_read": 409546
  },
  "errors": [],
  "tasks": [
@@ -5758,6 +5758,24 @@
    "sha256": "85f8a5cad35c600b50837fc53110db999407d2d06d0c253c59c85af1f0cd5774",
    "size_bytes": 6581675,
    "updated": "2026-09-13T04:17:00.613Z"
+  },
+  {
+   "declared_name": "harbor/client-data-segregation-audit",
+   "declared_short": "client-data-segregation-audit",
+   "folder": "client-data-segregation-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "slack-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "e5a33c1a9eee8bd007184f0659de0df79eba9531c94340d2879c8f39d81341c6",
+   "size_bytes": 6167780,
+   "updated": "2026-10-02T20:47:33.667Z"
   },
   {
    "connector_provenance": "real",
@@ -14085,6 +14103,22 @@
    "updated": "2026-09-28T09:20:50.117Z"
   },
   {
+   "declared_name": "harbor/egress-destination-audit",
+   "declared_short": "egress-destination-audit",
+   "folder": "egress-destination-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c4aa1a189ead5009f3b03abe585190d874991e2bf0782889bbbb21299c33b334",
+   "size_bytes": 17269569,
+   "updated": "2026-10-02T20:46:49.929Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
@@ -21541,6 +21575,22 @@
    "sha256": "9b7a3af9f2a3a62444b41fa58e68a8ec32d9a84c56446e4e16f8d7352002fa7d",
    "size_bytes": 8192448,
    "updated": "2026-10-02T19:55:18.178Z"
+  },
+  {
+   "declared_name": "harbor/growth-portfolio-health-audit",
+   "declared_short": "growth-portfolio-health-audit",
+   "folder": "growth-portfolio-health-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "720243fdc98fa9abe17e41f79b342182cd5d61c3ccd9aecc86336e5194d3fa43",
+   "size_bytes": 6405511,
+   "updated": "2026-10-02T20:46:42.114Z"
   },
   {
    "connector_provenance": "real",
@@ -36630,17 +36680,17 @@
    "updated": "2026-09-23T07:10:45.085Z"
   },
   {
-   "declared_name": "harbor/where-the-seed-round-stands",
-   "declared_short": "where-the-seed-round-stands",
-   "folder": "where-the-seed-round-stands",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/where-the-seed-round-stands",
+   "declared_short": "where-the-seed-round-stands",
    "domain": null,
+   "folder": "where-the-seed-round-stands",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2711be2498c16b9d6244dbbfd04dc5752c249c019f99884d8118543701eeeb9d",
    "size_bytes": 12272052,
    "updated": "2026-10-02T20:44:50.276Z"
