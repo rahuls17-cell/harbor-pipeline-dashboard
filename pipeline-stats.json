@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T21:05:04+00:00",
+ "generated_at": "2026-10-02T21:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2519,
-  "scanned": 2519,
-  "connector": 832,
+  "task_folders": 2520,
+  "scanned": 2520,
+  "connector": 833,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 180,
-  "unknown": 252,
+  "unknown": 253,
   "synthetic": 400
  },
  "domain": {
-  "unnamed": 1361,
+  "unnamed": 1362,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 834,
+  "harbor": 835,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 98,
+  "email-calendar-gym": 99,
   "outlook-gym": 79,
   "gws-gym": 78,
   "notion-gym": 77,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 410318
+  "new_archives_read": 1,
+  "approx_bytes_read": 133622
  },
  "errors": [],
  "tasks": [
@@ -5494,17 +5494,17 @@
    "updated": "2026-09-13T03:57:23.586Z"
   },
   {
-   "declared_name": "harbor/calendar-rsvp-hygiene-audit",
-   "declared_short": "calendar-rsvp-hygiene-audit",
-   "folder": "calendar-rsvp-hygiene-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/calendar-rsvp-hygiene-audit",
+   "declared_short": "calendar-rsvp-hygiene-audit",
    "domain": null,
+   "folder": "calendar-rsvp-hygiene-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "399368728c6c77e561a3474319c7cbb2faaa4d71d3d4fa5ecdff92ee90574b0e",
    "size_bytes": 5737942,
    "updated": "2026-10-02T21:04:29.521Z"
@@ -21577,17 +21577,17 @@
    "updated": "2026-09-23T21:47:55.969Z"
   },
   {
-   "declared_name": "harbor/growth-initiative-coverage-audit",
-   "declared_short": "growth-initiative-coverage-audit",
-   "folder": "growth-initiative-coverage-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/growth-initiative-coverage-audit",
+   "declared_short": "growth-initiative-coverage-audit",
    "domain": null,
+   "folder": "growth-initiative-coverage-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0a1768d2aac82a0a62aa8503026d4a288da0302f698d3ff3259c9f731351ea70",
    "size_bytes": 9346755,
    "updated": "2026-10-02T21:02:16.213Z"
@@ -27397,6 +27397,22 @@
    "updated": "2026-09-29T13:11:24.342Z"
   },
   {
+   "declared_name": "harbor/meetings-my-guests-keep-declining",
+   "declared_short": "meetings-my-guests-keep-declining",
+   "folder": "meetings-my-guests-keep-declining",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "47741bbe374519ee987322b2767f1629492cbb48d01b2ac4604ab6d24035f4a9",
+   "size_bytes": 9515422,
+   "updated": "2026-10-02T21:08:04.290Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
@@ -28995,17 +29011,17 @@
    "updated": "2026-09-18T16:56:29.186Z"
   },
   {
-   "declared_name": "harbor/signature-requests-i-sent-out",
-   "declared_short": "signature-requests-i-sent-out",
-   "folder": "signature-requests-i-sent-out",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/signature-requests-i-sent-out",
+   "declared_short": "signature-requests-i-sent-out",
    "domain": null,
+   "folder": "signature-requests-i-sent-out",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "762eca9ee340056aa566fbbf66aa342dd0e8151c9baa7dc8bf14994dc0d0c50b",
    "size_bytes": 6309049,
    "updated": "2026-10-02T21:03:59.812Z"
