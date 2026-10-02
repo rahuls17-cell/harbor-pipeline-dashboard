@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T20:15:04+00:00",
+ "generated_at": "2026-10-02T20:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2509,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 416734
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1169,17 +1169,17 @@
    "updated": "2026-09-10T12:18:25.696Z"
   },
   {
-   "declared_name": "harbor/acme-account-trail-audit",
-   "declared_short": "acme-account-trail-audit",
-   "folder": "acme-account-trail-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/acme-account-trail-audit",
+   "declared_short": "acme-account-trail-audit",
    "domain": null,
+   "folder": "acme-account-trail-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "34a4f8ba610319fcaa75df5ae8330b0d410da9ca66cc161b50bccd613fa47aab",
    "size_bytes": 7720681,
    "updated": "2026-10-02T20:14:39.204Z"
@@ -32772,17 +32772,17 @@
    "updated": "2026-10-01T10:30:03.025Z"
   },
   {
-   "declared_name": "harbor/the-guardino-dr-meetings",
-   "declared_short": "the-guardino-dr-meetings",
-   "folder": "the-guardino-dr-meetings",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-guardino-dr-meetings",
+   "declared_short": "the-guardino-dr-meetings",
    "domain": null,
+   "folder": "the-guardino-dr-meetings",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ea592883e14be460b442f75838da1c7651a0129f3185bef9e39fcc47bebe5367",
    "size_bytes": 41729404,
    "updated": "2026-10-02T20:13:51.232Z"
@@ -34868,17 +34868,17 @@
    "updated": "2026-09-21T17:16:11.101Z"
   },
   {
-   "declared_name": "harbor/the-training-invitations-nobody-took-up",
-   "declared_short": "the-training-invitations-nobody-took-up",
-   "folder": "the-training-invitations-nobody-took-up",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-training-invitations-nobody-took-up",
+   "declared_short": "the-training-invitations-nobody-took-up",
    "domain": null,
+   "folder": "the-training-invitations-nobody-took-up",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6ff04c6d36c87c7620ccf647b7cc80662d2f196141dee7fc2f83098ee4f1ebd5",
    "size_bytes": 8428581,
    "updated": "2026-10-02T20:13:49.803Z"
