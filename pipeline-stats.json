@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T21:40:03+00:00",
+ "generated_at": "2026-10-02T21:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2525,
-  "scanned": 2525,
-  "connector": 838,
+  "task_folders": 2526,
+  "scanned": 2526,
+  "connector": 839,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 180,
   "unknown": 255,
-  "synthetic": 403
+  "synthetic": 404
  },
  "domain": {
-  "unnamed": 1367,
+  "unnamed": 1368,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 840,
+  "harbor": 841,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -45,7 +45,7 @@
   "notion-gym": 77,
   "linear-gym": 76,
   "slack": 66,
-  "github-gym": 52,
+  "github-gym": 53,
   "supabase-gym": 12,
   "teams-gym": 11,
   "snowflake-gym": 10,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 138376
+  "approx_bytes_read": 135639
  },
  "errors": [],
  "tasks": [
@@ -25738,17 +25738,17 @@
    "updated": "2026-10-01T22:31:27.545Z"
   },
   {
-   "declared_name": "harbor/keep-the-client-and-partner-mail",
-   "declared_short": "keep-the-client-and-partner-mail",
-   "folder": "keep-the-client-and-partner-mail",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/keep-the-client-and-partner-mail",
+   "declared_short": "keep-the-client-and-partner-mail",
    "domain": null,
+   "folder": "keep-the-client-and-partner-mail",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6dc4708d426703ec75484bb69e9dfe34d5c527d3d50d3ba5031e9737cfd7545b",
    "size_bytes": 17200671,
    "updated": "2026-10-02T21:36:10.510Z"
@@ -37271,6 +37271,22 @@
    "sha256": "0fbded132970fae2adbd1ab6920d12172e12196bd4c717353afb2743ebc35da2",
    "size_bytes": 6320918,
    "updated": "2026-09-23T07:04:38.411Z"
+  },
+  {
+   "declared_name": "harbor/who-answered-the-report",
+   "declared_short": "who-answered-the-report",
+   "folder": "who-answered-the-report",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "f6245907decc12c6872899ac385a23cdcc8b59297cbf6b63a72ee9dfa3d3714d",
+   "size_bytes": 7283844,
+   "updated": "2026-10-02T21:44:57.621Z"
   },
   {
    "connector_provenance": "synthetic",
