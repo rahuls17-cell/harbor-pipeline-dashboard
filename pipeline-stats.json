@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T20:50:04+00:00",
+ "generated_at": "2026-10-02T20:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2515,
-  "scanned": 2515,
-  "connector": 828,
+  "task_folders": 2516,
+  "scanned": 2516,
+  "connector": 829,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 179,
   "unknown": 252,
-  "synthetic": 397
+  "synthetic": 398
  },
  "domain": {
-  "unnamed": 1357,
+  "unnamed": 1358,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 830,
+  "harbor": 831,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 97,
   "gws-gym": 78,
   "outlook-gym": 78,
-  "notion-gym": 76,
+  "notion-gym": 77,
   "linear-gym": 74,
   "slack": 66,
   "github-gym": 52,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 409546
+  "new_archives_read": 1,
+  "approx_bytes_read": 133868
  },
  "errors": [],
  "tasks": [
@@ -5760,19 +5760,19 @@
    "updated": "2026-09-13T04:17:00.613Z"
   },
   {
-   "declared_name": "harbor/client-data-segregation-audit",
-   "declared_short": "client-data-segregation-audit",
-   "folder": "client-data-segregation-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym",
     "slack-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/client-data-segregation-audit",
+   "declared_short": "client-data-segregation-audit",
    "domain": null,
+   "folder": "client-data-segregation-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e5a33c1a9eee8bd007184f0659de0df79eba9531c94340d2879c8f39d81341c6",
    "size_bytes": 6167780,
    "updated": "2026-10-02T20:47:33.667Z"
@@ -14103,17 +14103,17 @@
    "updated": "2026-09-28T09:20:50.117Z"
   },
   {
-   "declared_name": "harbor/egress-destination-audit",
-   "declared_short": "egress-destination-audit",
-   "folder": "egress-destination-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/egress-destination-audit",
+   "declared_short": "egress-destination-audit",
    "domain": null,
+   "folder": "egress-destination-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c4aa1a189ead5009f3b03abe585190d874991e2bf0782889bbbb21299c33b334",
    "size_bytes": 17269569,
    "updated": "2026-10-02T20:46:49.929Z"
@@ -21577,17 +21577,17 @@
    "updated": "2026-10-02T19:55:18.178Z"
   },
   {
-   "declared_name": "harbor/growth-portfolio-health-audit",
-   "declared_short": "growth-portfolio-health-audit",
-   "folder": "growth-portfolio-health-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/growth-portfolio-health-audit",
+   "declared_short": "growth-portfolio-health-audit",
    "domain": null,
+   "folder": "growth-portfolio-health-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "720243fdc98fa9abe17e41f79b342182cd5d61c3ccd9aecc86336e5194d3fa43",
    "size_bytes": 6405511,
    "updated": "2026-10-02T20:46:42.114Z"
@@ -34628,6 +34628,22 @@
    "sha256": "ec65599ed009cf5e83168ec6ec94cc648c0fc89ee8189397de0b2a993a56ec18",
    "size_bytes": 7167945,
    "updated": "2026-10-01T17:34:14.983Z"
+  },
+  {
+   "declared_name": "harbor/the-sprint-work-started-without-a-plan",
+   "declared_short": "the-sprint-work-started-without-a-plan",
+   "folder": "the-sprint-work-started-without-a-plan",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c133bba458cf7f970676ef775fb7c69b28e91e233d5d0db78b138d6a987ec1d8",
+   "size_bytes": 6195487,
+   "updated": "2026-10-02T20:51:27.950Z"
   },
   {
    "connector_provenance": "real",
