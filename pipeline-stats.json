@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T19:25:03+00:00",
+ "generated_at": "2026-10-02T19:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2498,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135972
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -12282,17 +12282,17 @@
    "updated": "2026-09-23T22:25:44.720Z"
   },
   {
-   "declared_name": "harbor/did-the-reporter-come-back",
-   "declared_short": "did-the-reporter-come-back",
-   "folder": "did-the-reporter-come-back",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/did-the-reporter-come-back",
+   "declared_short": "did-the-reporter-come-back",
    "domain": null,
+   "folder": "did-the-reporter-come-back",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6d9be8b05bb5f0ba7be6dd14b163f868ede1894d018ef2ceadfb0d600fb86dc9",
    "size_bytes": 11145702,
    "updated": "2026-10-02T19:24:14.554Z"
