@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T22:20:02+00:00",
+ "generated_at": "2026-10-02T22:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2529,
-  "scanned": 2529,
-  "connector": 842,
+  "task_folders": 2531,
+  "scanned": 2531,
+  "connector": 844,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 180,
   "unknown": 257,
-  "synthetic": 405
+  "synthetic": 407
  },
  "domain": {
-  "unnamed": 1371,
+  "unnamed": 1373,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 844,
+  "harbor": 846,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 243,
+  "slack-gym": 244,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -40,10 +40,10 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 104,
+  "notion-gym": 79,
   "gws-gym": 79,
   "outlook-gym": 79,
-  "notion-gym": 78,
-  "linear-gym": 76,
+  "linear-gym": 77,
   "slack": 66,
   "github-gym": 53,
   "supabase-gym": 12,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 275601
  },
  "errors": [],
  "tasks": [
@@ -11595,6 +11595,22 @@
    "updated": "2026-09-19T18:30:44.938Z"
   },
   {
+   "declared_name": "harbor/customers-still-waiting-on-features",
+   "declared_short": "customers-still-waiting-on-features",
+   "folder": "customers-still-waiting-on-features",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "4b90439736ce7cc33804029dbb265b5dfdd24463bbc3690e928d58c235df43eb",
+   "size_bytes": 7779056,
+   "updated": "2026-10-02T22:29:54.293Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -14542,6 +14558,23 @@
    "sha256": "197726fe8150b0a921c4fba57d4e7e545a4e9fd7889371440f3830c24901545e",
    "size_bytes": 3109659,
    "updated": "2026-09-10T14:24:31.771Z"
+  },
+  {
+   "declared_name": "harbor/failover-stale-links-audit",
+   "declared_short": "failover-stale-links-audit",
+   "folder": "failover-stale-links-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "112e2fb5f66d0e231a33c21d921cf7a2c0d61f9f30f19341379d69797f2b2c6b",
+   "size_bytes": 16767649,
+   "updated": "2026-10-02T22:27:53.526Z"
   },
   {
    "connector_provenance": "synthetic",
