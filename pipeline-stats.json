@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T22:45:03+00:00",
+ "generated_at": "2026-10-02T22:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2533,
-  "scanned": 2533,
-  "connector": 846,
+  "task_folders": 2534,
+  "scanned": 2534,
+  "connector": 847,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 180,
   "unknown": 257,
-  "synthetic": 409
+  "synthetic": 410
  },
  "domain": {
-  "unnamed": 1375,
+  "unnamed": 1376,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 848,
+  "harbor": 849,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -43,19 +43,19 @@
   "notion-gym": 79,
   "gws-gym": 79,
   "outlook-gym": 79,
-  "linear-gym": 77,
+  "linear-gym": 78,
   "slack": 66,
   "github-gym": 53,
   "supabase-gym": 12,
+  "snowflake-gym": 12,
   "teams-gym": 12,
-  "snowflake-gym": 11,
   "microsoft-teams-gym": 5,
   "microsoft-365-gym": 3,
   "shopify-gym": 2
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 139383
+  "approx_bytes_read": 134117
  },
  "errors": [],
  "tasks": [
@@ -2214,18 +2214,18 @@
    "updated": "2026-09-18T23:01:02.230Z"
   },
   {
-   "declared_name": "harbor/billing-chain-foreign-writes",
-   "declared_short": "billing-chain-foreign-writes",
-   "folder": "billing-chain-foreign-writes",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/billing-chain-foreign-writes",
+   "declared_short": "billing-chain-foreign-writes",
    "domain": null,
+   "folder": "billing-chain-foreign-writes",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7e4e6f8f027e0c054395434d75bbd45ac4a97746c756f5cdfc9817b0b1dbdd8a",
    "size_bytes": 12003110,
    "updated": "2026-10-02T22:42:25.009Z"
@@ -16343,6 +16343,23 @@
    "sha256": "242c06ba8eeeb4e1b785f077e55845416221bf62a96546ad3e976a8b0fd84ff7",
    "size_bytes": 6260614,
    "updated": "2026-10-02T19:07:16.988Z"
+  },
+  {
+   "declared_name": "harbor/finance-export-path-audit",
+   "declared_short": "finance-export-path-audit",
+   "folder": "finance-export-path-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "99fad3e07fef2874f1ce45a114f9f5b2297ed7bf2f91831d168cd4b06d208886",
+   "size_bytes": 5692122,
+   "updated": "2026-10-02T22:49:04.354Z"
   },
   {
    "connector_provenance": "synthetic",
