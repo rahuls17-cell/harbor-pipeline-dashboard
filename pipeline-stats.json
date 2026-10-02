@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T20:30:03+00:00",
+ "generated_at": "2026-10-02T20:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2511,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 273384
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -37302,17 +37302,17 @@
    "updated": "2026-09-28T11:59:37.716Z"
   },
   {
-   "declared_name": "harbor/who-owns-the-untended-records",
-   "declared_short": "who-owns-the-untended-records",
-   "folder": "who-owns-the-untended-records",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/who-owns-the-untended-records",
+   "declared_short": "who-owns-the-untended-records",
    "domain": null,
+   "folder": "who-owns-the-untended-records",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d912c1bbe398511c346884a283227f841c2aacda10ff0a421a7075080ccd9533",
    "size_bytes": 6726741,
    "updated": "2026-10-02T20:28:29.869Z"
@@ -37972,17 +37972,17 @@
    "updated": "2026-09-20T16:24:53.457Z"
   },
   {
-   "declared_name": "harbor/year-end-lab-statement-sweep",
-   "declared_short": "year-end-lab-statement-sweep",
-   "folder": "year-end-lab-statement-sweep",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/year-end-lab-statement-sweep",
+   "declared_short": "year-end-lab-statement-sweep",
    "domain": null,
+   "folder": "year-end-lab-statement-sweep",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5cd9c2eed0de69e309a6fb88e95462fcb46dc2a12da5e6cfa16c434043f96332",
    "size_bytes": 9569409,
    "updated": "2026-10-02T20:28:08.274Z"
