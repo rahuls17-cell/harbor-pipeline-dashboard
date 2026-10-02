@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T19:10:04+00:00",
+ "generated_at": "2026-10-02T19:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2497,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 275666
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -16115,17 +16115,17 @@
    "updated": "2026-09-07T21:27:11.347Z"
   },
   {
-   "declared_name": "harbor/finance-coverage-escalation-audit",
-   "declared_short": "finance-coverage-escalation-audit",
-   "folder": "finance-coverage-escalation-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "teams-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/finance-coverage-escalation-audit",
+   "declared_short": "finance-coverage-escalation-audit",
    "domain": null,
+   "folder": "finance-coverage-escalation-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "242c06ba8eeeb4e1b785f077e55845416221bf62a96546ad3e976a8b0fd84ff7",
    "size_bytes": 6260614,
    "updated": "2026-10-02T19:07:16.988Z"
@@ -31938,17 +31938,17 @@
    "updated": "2026-10-01T12:27:39.983Z"
   },
   {
-   "declared_name": "harbor/the-bots-no-two-lists-agree-on",
-   "declared_short": "the-bots-no-two-lists-agree-on",
-   "folder": "the-bots-no-two-lists-agree-on",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-bots-no-two-lists-agree-on",
+   "declared_short": "the-bots-no-two-lists-agree-on",
    "domain": null,
+   "folder": "the-bots-no-two-lists-agree-on",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c802aa17ad1ee95eb0b3ed8cf293118765c5b64dbfd29aa4d35b929d1e9184d1",
    "size_bytes": 9456056,
    "updated": "2026-10-02T19:06:32.410Z"
