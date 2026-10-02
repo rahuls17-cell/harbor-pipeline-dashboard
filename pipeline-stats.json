@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T17:20:04+00:00",
+ "generated_at": "2026-10-02T17:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2486,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 139147
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -34801,17 +34801,17 @@
    "updated": "2026-09-18T23:35:19.806Z"
   },
   {
-   "declared_name": "harbor/the-workspace-written-two-ways",
-   "declared_short": "the-workspace-written-two-ways",
-   "folder": "the-workspace-written-two-ways",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-workspace-written-two-ways",
+   "declared_short": "the-workspace-written-two-ways",
    "domain": null,
+   "folder": "the-workspace-written-two-ways",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "922a6219b19da8b8e35ad3878c8a5fb8350074f11ea215a705565134d39ce9e1",
    "size_bytes": 9499486,
    "updated": "2026-10-02T17:16:52.178Z"
