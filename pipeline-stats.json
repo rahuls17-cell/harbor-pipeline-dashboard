@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T18:55:03+00:00",
+ "generated_at": "2026-10-02T19:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2493,
-  "scanned": 2493,
-  "connector": 806,
+  "task_folders": 2494,
+  "scanned": 2494,
+  "connector": 807,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 177,
-  "unknown": 247,
+  "unknown": 248,
   "synthetic": 382
  },
  "domain": {
-  "unnamed": 1335,
+  "unnamed": 1336,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 808,
+  "harbor": 809,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 94,
   "gws-gym": 77,
   "outlook-gym": 76,
-  "notion-gym": 73,
+  "notion-gym": 74,
   "linear-gym": 70,
   "slack": 66,
   "github-gym": 50,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133892
  },
  "errors": [],
  "tasks": [
@@ -31856,6 +31856,22 @@
    "sha256": "988685b23a086c4a2fc130c294652805eabb5fc577bb75ab520fe2c5ae748761",
    "size_bytes": 5966389,
    "updated": "2026-09-30T08:56:31.983Z"
+  },
+  {
+   "declared_name": "harbor/the-board-said-done",
+   "declared_short": "the-board-said-done",
+   "folder": "the-board-said-done",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "6f795e315e2efb109e58dfb8016cb1ccb378f3d09c75bb46a8ad4d521238fa71",
+   "size_bytes": 6608974,
+   "updated": "2026-10-02T18:59:07.638Z"
   },
   {
    "connector_provenance": "synthetic",
