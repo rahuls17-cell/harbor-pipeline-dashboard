@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T19:55:03+00:00",
+ "generated_at": "2026-10-02T20:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2504,
-  "scanned": 2504,
-  "connector": 817,
+  "task_folders": 2506,
+  "scanned": 2506,
+  "connector": 819,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 178,
   "unknown": 250,
-  "synthetic": 389
+  "synthetic": 391
  },
  "domain": {
-  "unnamed": 1346,
+  "unnamed": 1348,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 819,
+  "harbor": 821,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 240,
+  "slack-gym": 241,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -43,19 +43,19 @@
   "outlook-gym": 78,
   "gws-gym": 77,
   "notion-gym": 75,
-  "linear-gym": 71,
+  "linear-gym": 72,
   "slack": 66,
   "github-gym": 51,
   "supabase-gym": 11,
   "teams-gym": 11,
-  "snowflake-gym": 7,
+  "snowflake-gym": 8,
   "microsoft-teams-gym": 5,
   "microsoft-365-gym": 3,
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 269055
  },
  "errors": [],
  "tasks": [
@@ -2267,6 +2267,23 @@
    "sha256": "6b1997ff54c7656e6e0ee9a9f7758e24095af961c5bc5f0c59f1928f6a8d5073",
    "size_bytes": 15924078,
    "updated": "2026-09-13T04:16:32.177Z"
+  },
+  {
+   "declared_name": "harbor/broken-chain-holdup-audit",
+   "declared_short": "broken-chain-holdup-audit",
+   "folder": "broken-chain-holdup-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "eea3c445b6212347e4d9e2d90a1c112c0b6fe27a9d422a06f43585576cad30d4",
+   "size_bytes": 9925690,
+   "updated": "2026-10-02T19:58:11.481Z"
   },
   {
    "connector_provenance": "unknown",
@@ -21492,6 +21509,22 @@
    "sha256": "6767867674f176026a5da30b1133e9630e601ba37a48b1de810b2e5917d6f371",
    "size_bytes": 5733949,
    "updated": "2026-09-23T21:47:55.969Z"
+  },
+  {
+   "declared_name": "harbor/growth-label-ownership-audit",
+   "declared_short": "growth-label-ownership-audit",
+   "folder": "growth-label-ownership-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "9b7a3af9f2a3a62444b41fa58e68a8ec32d9a84c56446e4e16f8d7352002fa7d",
+   "size_bytes": 8192448,
+   "updated": "2026-10-02T19:55:18.178Z"
   },
   {
    "connector_provenance": "real",
