@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T20:25:03+00:00",
+ "generated_at": "2026-10-02T20:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2510,
-  "scanned": 2510,
-  "connector": 823,
+  "task_folders": 2511,
+  "scanned": 2511,
+  "connector": 824,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 179,
   "unknown": 251,
-  "synthetic": 393
+  "synthetic": 394
  },
  "domain": {
-  "unnamed": 1352,
+  "unnamed": 1353,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 825,
+  "harbor": 826,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 97,
   "outlook-gym": 78,
   "gws-gym": 77,
-  "notion-gym": 75,
+  "notion-gym": 76,
   "linear-gym": 72,
   "slack": 66,
   "github-gym": 52,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138689
+  "new_archives_read": 2,
+  "approx_bytes_read": 273384
  },
  "errors": [],
  "tasks": [
@@ -27347,17 +27347,17 @@
    "updated": "2026-09-26T15:27:43.914Z"
   },
   {
-   "declared_name": "harbor/merged-on-red-incident-suspects",
-   "declared_short": "merged-on-red-incident-suspects",
-   "folder": "merged-on-red-incident-suspects",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/merged-on-red-incident-suspects",
+   "declared_short": "merged-on-red-incident-suspects",
    "domain": null,
+   "folder": "merged-on-red-incident-suspects",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "308c360a70e797331f1bf9cb6bd543d2da25c35d087030a7a24d0f9ee6507692",
    "size_bytes": 8816024,
    "updated": "2026-10-02T20:21:07.028Z"
@@ -37302,6 +37302,22 @@
    "updated": "2026-09-28T11:59:37.716Z"
   },
   {
+   "declared_name": "harbor/who-owns-the-untended-records",
+   "declared_short": "who-owns-the-untended-records",
+   "folder": "who-owns-the-untended-records",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d912c1bbe398511c346884a283227f841c2aacda10ff0a421a7075080ccd9533",
+   "size_bytes": 6726741,
+   "updated": "2026-10-02T20:28:29.869Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-teams-gym"
@@ -37956,20 +37972,20 @@
    "updated": "2026-09-20T16:24:53.457Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/year-end-lab-statement-sweep",
+   "declared_short": "year-end-lab-statement-sweep",
+   "folder": "year-end-lab-statement-sweep",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "gws-gym"
    ],
-   "declared_name": "harbor/year-end-lab-statement-sweep",
-   "declared_short": "year-end-lab-statement-sweep",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "year-end-lab-statement-sweep",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "f9729bf4721a0411151713ba98f8c536dbf42ad998ade25e23b65e938d0211e2",
-   "size_bytes": 10146630,
-   "updated": "2026-09-29T22:10:30.769Z"
+   "sha256": "5cd9c2eed0de69e309a6fb88e95462fcb46dc2a12da5e6cfa16c434043f96332",
+   "size_bytes": 9569409,
+   "updated": "2026-10-02T20:28:08.274Z"
   },
   {
    "connector_provenance": "unknown",
