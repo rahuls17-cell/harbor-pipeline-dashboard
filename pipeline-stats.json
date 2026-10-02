@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T18:15:03+00:00",
+ "generated_at": "2026-10-02T18:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2490,
-  "scanned": 2490,
-  "connector": 803,
+  "task_folders": 2491,
+  "scanned": 2491,
+  "connector": 804,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 177,
   "unknown": 246,
-  "synthetic": 380
+  "synthetic": 381
  },
  "domain": {
-  "unnamed": 1332,
+  "unnamed": 1333,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 805,
+  "harbor": 806,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -47,15 +47,15 @@
   "slack": 66,
   "github-gym": 50,
   "supabase-gym": 11,
-  "teams-gym": 9,
+  "teams-gym": 10,
   "snowflake-gym": 5,
   "microsoft-teams-gym": 5,
   "microsoft-365-gym": 3,
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 140699
  },
  "errors": [],
  "tasks": [
@@ -37421,6 +37421,22 @@
    "sha256": "d80de369e903a225cacfbc10ad860eff9417f763d138f3c2eed37c4e8cdbcd89",
    "size_bytes": 6784511,
    "updated": "2026-09-22T06:07:52.900Z"
+  },
+  {
+   "declared_name": "harbor/writing-in-a-chat-that-is-not-theirs",
+   "declared_short": "writing-in-a-chat-that-is-not-theirs",
+   "folder": "writing-in-a-chat-that-is-not-theirs",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "teams-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "07ee6fb3ccdb0c6b0525c4916044c6e0b9d4eabd665d33eefb35de6e4c0431a6",
+   "size_bytes": 8591742,
+   "updated": "2026-10-02T18:17:16.430Z"
   },
   {
    "connector_provenance": null,
