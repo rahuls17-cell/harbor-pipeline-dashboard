@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T19:40:04+00:00",
+ "generated_at": "2026-10-02T19:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2501,
-  "scanned": 2501,
-  "connector": 814,
+  "task_folders": 2503,
+  "scanned": 2503,
+  "connector": 816,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 177,
+  "real": 178,
   "unknown": 250,
-  "synthetic": 387
+  "synthetic": 388
  },
  "domain": {
-  "unnamed": 1343,
+  "unnamed": 1345,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 816,
+  "harbor": 818,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,9 +40,9 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 95,
+  "outlook-gym": 78,
   "gws-gym": 77,
-  "outlook-gym": 77,
-  "notion-gym": 74,
+  "notion-gym": 75,
   "linear-gym": 70,
   "slack": 66,
   "github-gym": 51,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 277301
+  "approx_bytes_read": 273764
  },
  "errors": [],
  "tasks": [
@@ -33411,17 +33411,17 @@
    "updated": "2026-10-01T20:13:37.541Z"
   },
   {
-   "declared_name": "harbor/the-notice-that-names-the-wrong-sender",
-   "declared_short": "the-notice-that-names-the-wrong-sender",
-   "folder": "the-notice-that-names-the-wrong-sender",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-notice-that-names-the-wrong-sender",
+   "declared_short": "the-notice-that-names-the-wrong-sender",
    "domain": null,
+   "folder": "the-notice-that-names-the-wrong-sender",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7c20c8eedacdbd8c43db61a986fdf13adec1f2d3f64c9e07214667555fc56036",
    "size_bytes": 7328612,
    "updated": "2026-10-02T19:39:42.252Z"
@@ -33779,17 +33779,17 @@
    "updated": "2026-09-23T07:23:23.676Z"
   },
   {
-   "declared_name": "harbor/the-post-i-was-never-sent",
-   "declared_short": "the-post-i-was-never-sent",
-   "folder": "the-post-i-was-never-sent",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-post-i-was-never-sent",
+   "declared_short": "the-post-i-was-never-sent",
    "domain": null,
+   "folder": "the-post-i-was-never-sent",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ca53642b7382192736fae3ae3293e8ad4b1cee18a437bdec78cbde895da170df",
    "size_bytes": 6506765,
    "updated": "2026-10-02T19:37:57.651Z"
@@ -34705,6 +34705,22 @@
    "sha256": "984acef0e1ddc0a22b4d7c2abab6e23e7a8dae999fe7e8be32df7e234c1934ba",
    "size_bytes": 13112384,
    "updated": "2026-09-26T15:55:01.164Z"
+  },
+  {
+   "declared_name": "harbor/the-thread-and-everything-attached-to-it",
+   "declared_short": "the-thread-and-everything-attached-to-it",
+   "folder": "the-thread-and-everything-attached-to-it",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "5e892f337acfc598b70f7298dd21cbb68698f7d236491b77f8f1db9030816c31",
+   "size_bytes": 5787989,
+   "updated": "2026-10-02T19:40:51.190Z"
   },
   {
    "connector_provenance": "unknown",
@@ -36707,6 +36723,22 @@
    "sha256": "65385678795639b35615bcf7accb4abb0dab6ef12b953e405af44ad42a972237",
    "size_bytes": 12589377,
    "updated": "2026-09-29T06:12:28.275Z"
+  },
+  {
+   "declared_name": "harbor/which-notification-emails-are-really-ready",
+   "declared_short": "which-notification-emails-are-really-ready",
+   "folder": "which-notification-emails-are-really-ready",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "ee678c263eb202b37c1ff337b14df12665282a5b77922dbc9bfc10ec1e40b9c9",
+   "size_bytes": 8672921,
+   "updated": "2026-10-02T19:43:24.898Z"
   },
   {
    "connector_provenance": "unknown",
