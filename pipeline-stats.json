@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T19:05:03+00:00",
+ "generated_at": "2026-10-02T19:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2495,
-  "scanned": 2495,
-  "connector": 808,
+  "task_folders": 2497,
+  "scanned": 2497,
+  "connector": 810,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 177,
   "unknown": 249,
-  "synthetic": 382
+  "synthetic": 384
  },
  "domain": {
-  "unnamed": 1337,
+  "unnamed": 1339,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 810,
+  "harbor": 812,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 238,
+  "slack-gym": 239,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -47,15 +47,15 @@
   "slack": 66,
   "github-gym": 50,
   "supabase-gym": 11,
-  "teams-gym": 10,
+  "teams-gym": 11,
   "snowflake-gym": 6,
   "microsoft-teams-gym": 5,
   "microsoft-365-gym": 3,
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135688
+  "new_archives_read": 2,
+  "approx_bytes_read": 275666
  },
  "errors": [],
  "tasks": [
@@ -16115,6 +16115,22 @@
    "updated": "2026-09-07T21:27:11.347Z"
   },
   {
+   "declared_name": "harbor/finance-coverage-escalation-audit",
+   "declared_short": "finance-coverage-escalation-audit",
+   "folder": "finance-coverage-escalation-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "teams-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "242c06ba8eeeb4e1b785f077e55845416221bf62a96546ad3e976a8b0fd84ff7",
+   "size_bytes": 6260614,
+   "updated": "2026-10-02T19:07:16.988Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
@@ -27233,17 +27249,17 @@
    "updated": "2026-09-26T15:27:43.914Z"
   },
   {
-   "declared_name": "harbor/morning-check-ins-in-2023",
-   "declared_short": "morning-check-ins-in-2023",
-   "folder": "morning-check-ins-in-2023",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/morning-check-ins-in-2023",
+   "declared_short": "morning-check-ins-in-2023",
    "domain": null,
+   "folder": "morning-check-ins-in-2023",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "21aba3d4d992f766abd2e8afd02904da3dec21475f6771783106bde7beab5914",
    "size_bytes": 9772717,
    "updated": "2026-10-02T19:02:31.379Z"
@@ -31920,6 +31936,22 @@
    "sha256": "bc3ef3f301bc72187a7bb4f46047a3b64a1be6a2ef09fbfc23e72064f5fe8685",
    "size_bytes": 7303251,
    "updated": "2026-10-01T12:27:39.983Z"
+  },
+  {
+   "declared_name": "harbor/the-bots-no-two-lists-agree-on",
+   "declared_short": "the-bots-no-two-lists-agree-on",
+   "folder": "the-bots-no-two-lists-agree-on",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c802aa17ad1ee95eb0b3ed8cf293118765c5b64dbfd29aa4d35b929d1e9184d1",
+   "size_bytes": 9456056,
+   "updated": "2026-10-02T19:06:32.410Z"
   },
   {
    "connector_provenance": "unknown",
