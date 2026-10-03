@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T05:00:03+00:00",
+ "generated_at": "2026-10-03T05:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2561,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134060
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -35149,17 +35149,17 @@
    "updated": "2026-09-30T07:06:06.281Z"
   },
   {
-   "declared_name": "harbor/the-sign-ups-we-counted-twice",
-   "declared_short": "the-sign-ups-we-counted-twice",
-   "folder": "the-sign-ups-we-counted-twice",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-sign-ups-we-counted-twice",
+   "declared_short": "the-sign-ups-we-counted-twice",
    "domain": null,
+   "folder": "the-sign-ups-we-counted-twice",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c4a937e83e3633f01d54966f8ca1c0674770e9ba05132b851e359f0e0eefafee",
    "size_bytes": 6848046,
    "updated": "2026-10-03T04:57:31.676Z"
