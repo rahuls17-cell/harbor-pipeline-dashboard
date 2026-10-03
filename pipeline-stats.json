@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-03T05:10:03+00:00",
+ "generated_at": "2026-10-03T05:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2561,
-  "scanned": 2561,
-  "connector": 874,
+  "task_folders": 2563,
+  "scanned": 2563,
+  "connector": 876,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 184,
-  "unknown": 262,
-  "synthetic": 428
+  "unknown": 263,
+  "synthetic": 429
  },
  "domain": {
-  "unnamed": 1403,
+  "unnamed": 1405,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 876,
+  "harbor": 878,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,9 +39,9 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 112,
+  "email-calendar-gym": 113,
   "linear-gym": 85,
-  "notion-gym": 82,
+  "notion-gym": 83,
   "gws-gym": 81,
   "outlook-gym": 81,
   "slack": 66,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 270350
  },
  "errors": [],
  "tasks": [
@@ -28108,6 +28108,22 @@
    "updated": "2026-10-02T17:30:50.555Z"
   },
   {
+   "declared_name": "harbor/notification-template-audit",
+   "declared_short": "notification-template-audit",
+   "folder": "notification-template-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "df55f6307684a6cf0932e7cc86731af5d6ca21ad8db2ad2014368dcfaa388632",
+   "size_bytes": 7357498,
+   "updated": "2026-10-03T05:14:00.770Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
@@ -32237,6 +32253,22 @@
    "sha256": "6f4b991d45c4d5913967e608219e1691440cb22dcabeb7286a2a954943727185",
    "size_bytes": 11724109,
    "updated": "2026-09-29T09:58:12.842Z"
+  },
+  {
+   "declared_name": "harbor/technical-track-sessions-i-missed",
+   "declared_short": "technical-track-sessions-i-missed",
+   "folder": "technical-track-sessions-i-missed",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "b4fe56ef2bc407e4f8b3230a20a21690f04912cbeff3532096bb5085ef28a8b8",
+   "size_bytes": 7737992,
+   "updated": "2026-10-03T05:10:26.382Z"
   },
   {
    "connector_provenance": null,
