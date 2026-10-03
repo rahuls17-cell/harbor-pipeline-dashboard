@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-03T00:25:03+00:00",
+ "generated_at": "2026-10-03T01:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2540,
-  "scanned": 2540,
-  "connector": 853,
+  "task_folders": 2542,
+  "scanned": 2542,
+  "connector": 855,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 180,
-  "unknown": 258,
-  "synthetic": 415
+  "unknown": 259,
+  "synthetic": 416
  },
  "domain": {
-  "unnamed": 1382,
+  "unnamed": 1384,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 855,
+  "harbor": 857,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,10 +39,10 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 105,
+  "email-calendar-gym": 106,
   "linear-gym": 80,
+  "gws-gym": 80,
   "notion-gym": 79,
-  "gws-gym": 79,
   "outlook-gym": 79,
   "slack": 66,
   "github-gym": 54,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136369
+  "new_archives_read": 2,
+  "approx_bytes_read": 290083
  },
  "errors": [],
  "tasks": [
@@ -32892,17 +32892,17 @@
    "updated": "2026-10-01T18:49:37.046Z"
   },
   {
-   "declared_name": "harbor/the-download-that-came-back-empty",
-   "declared_short": "the-download-that-came-back-empty",
-   "folder": "the-download-that-came-back-empty",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-download-that-came-back-empty",
+   "declared_short": "the-download-that-came-back-empty",
    "domain": null,
+   "folder": "the-download-that-came-back-empty",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "17c488fc2fe5d72322558e4c5e3debbe28d1e8b8f8dfa0cacfdc93693e84248b",
    "size_bytes": 11127461,
    "updated": "2026-10-03T00:24:25.597Z"
@@ -35020,6 +35020,22 @@
    "updated": "2026-09-29T09:51:45.632Z"
   },
   {
+   "declared_name": "harbor/the-statement-files-sorted-by-month",
+   "declared_short": "the-statement-files-sorted-by-month",
+   "folder": "the-statement-files-sorted-by-month",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "cb85079555800d5609c14b5d8815d2d3ed034129441767921dda47e889a7d752",
+   "size_bytes": 19374598,
+   "updated": "2026-10-03T01:26:17.944Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -36050,6 +36066,22 @@
    "sha256": "d4c752cfaff3552999bdb394204b299249d6e80f9a7cd81217e37185ec22e257",
    "size_bytes": 9411670,
    "updated": "2026-10-01T16:35:49.116Z"
+  },
+  {
+   "declared_name": "harbor/vendor-policy-changes-to-act-on",
+   "declared_short": "vendor-policy-changes-to-act-on",
+   "folder": "vendor-policy-changes-to-act-on",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "e8f86b04ca18de6ba389a7d6d5773aa896fe4761e746cf27886e43d610dc3277",
+   "size_bytes": 14477427,
+   "updated": "2026-10-03T01:25:52.263Z"
   },
   {
    "connector_provenance": "synthetic",
