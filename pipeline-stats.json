@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T08:00:03+00:00",
+ "generated_at": "2026-10-03T08:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2583,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 269038
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -14556,17 +14556,17 @@
    "updated": "2026-10-01T18:47:44.409Z"
   },
   {
-   "declared_name": "harbor/eprescribing-outages-prescriber-notices",
-   "declared_short": "eprescribing-outages-prescriber-notices",
-   "folder": "eprescribing-outages-prescriber-notices",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/eprescribing-outages-prescriber-notices",
+   "declared_short": "eprescribing-outages-prescriber-notices",
    "domain": null,
+   "folder": "eprescribing-outages-prescriber-notices",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "658567fa770e95d5c9d802d12d3efcb62b4217e2e3d1bca10b080aa2b5ec19c1",
    "size_bytes": 8295997,
    "updated": "2026-10-03T07:56:59.466Z"
@@ -38112,17 +38112,17 @@
    "updated": "2026-10-01T10:14:44.116Z"
   },
   {
-   "declared_name": "harbor/which-webhooks-are-still-failing",
-   "declared_short": "which-webhooks-are-still-failing",
-   "folder": "which-webhooks-are-still-failing",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/which-webhooks-are-still-failing",
+   "declared_short": "which-webhooks-are-still-failing",
    "domain": null,
+   "folder": "which-webhooks-are-still-failing",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "478a5b8c44b71b6ce4bcad5a328181c1fdaea476d5b7845c14c80ed8da7832f1",
    "size_bytes": 7168298,
    "updated": "2026-10-03T07:57:36.195Z"
