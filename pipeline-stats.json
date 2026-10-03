@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-03T02:05:04+00:00",
+ "generated_at": "2026-10-03T02:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2547,
-  "scanned": 2547,
-  "connector": 860,
+  "task_folders": 2548,
+  "scanned": 2548,
+  "connector": 861,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 182,
+  "real": 183,
   "unknown": 259,
   "synthetic": 419
  },
  "domain": {
-  "unnamed": 1389,
+  "unnamed": 1390,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 862,
+  "harbor": 863,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -45,7 +45,7 @@
   "gws-gym": 80,
   "outlook-gym": 79,
   "slack": 66,
-  "github-gym": 54,
+  "github-gym": 55,
   "snowflake-gym": 13,
   "supabase-gym": 12,
   "teams-gym": 12,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 271790
+  "new_archives_read": 1,
+  "approx_bytes_read": 134325
  },
  "errors": [],
  "tasks": [
@@ -5575,17 +5575,17 @@
    "updated": "2026-09-29T17:23:24.628Z"
   },
   {
-   "declared_name": "harbor/canceled-project-sunk-work-audit",
-   "declared_short": "canceled-project-sunk-work-audit",
-   "folder": "canceled-project-sunk-work-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/canceled-project-sunk-work-audit",
+   "declared_short": "canceled-project-sunk-work-audit",
    "domain": null,
+   "folder": "canceled-project-sunk-work-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a768022db45c15821da339877420a3629cd281fa169a86f74c06ebf8a40dc351",
    "size_bytes": 9245014,
    "updated": "2026-10-03T02:02:31.823Z"
@@ -28145,6 +28145,22 @@
    "updated": "2026-09-19T11:45:33.484Z"
   },
   {
+   "declared_name": "harbor/one-rename-many-pulls",
+   "declared_short": "one-rename-many-pulls",
+   "folder": "one-rename-many-pulls",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "f784235aecc547e7f17ca2adea8feea5d14083cb82eb7d4f9c7742132fc15c8e",
+   "size_bytes": 8624134,
+   "updated": "2026-10-03T02:09:46.508Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -36116,17 +36132,17 @@
    "updated": "2026-09-06T04:20:30.120Z"
   },
   {
-   "declared_name": "harbor/vendor-calls-that-never-got-a-price",
-   "declared_short": "vendor-calls-that-never-got-a-price",
-   "folder": "vendor-calls-that-never-got-a-price",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/vendor-calls-that-never-got-a-price",
+   "declared_short": "vendor-calls-that-never-got-a-price",
    "domain": null,
+   "folder": "vendor-calls-that-never-got-a-price",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a76fdc797c8f70eee9f3c65c57c153f0216a9d6550f73885cce4486b2489fd10",
    "size_bytes": 10266043,
    "updated": "2026-10-03T02:03:24.762Z"
