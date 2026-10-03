@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-03T05:50:04+00:00",
+ "generated_at": "2026-10-03T05:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2566,
-  "scanned": 2566,
-  "connector": 879,
+  "task_folders": 2567,
+  "scanned": 2567,
+  "connector": 880,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 184,
   "unknown": 265,
-  "synthetic": 430
+  "synthetic": 431
  },
  "domain": {
-  "unnamed": 1408,
+  "unnamed": 1409,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 881,
+  "harbor": 882,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 250,
+  "slack-gym": 251,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 132111
+  "approx_bytes_read": 135488
  },
  "errors": [],
  "tasks": [
@@ -5833,6 +5833,22 @@
    "sha256": "13d812f4c3600ebd603917619b4f03420064e8a1e2fa83a1a42d411421fda92e",
    "size_bytes": 12618991,
    "updated": "2026-09-28T12:07:13.799Z"
+  },
+  {
+   "declared_name": "harbor/channels-whose-owner-has-no-name",
+   "declared_short": "channels-whose-owner-has-no-name",
+   "folder": "channels-whose-owner-has-no-name",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "376b449bfaa722fc35f37a8b505a7e01c470486e73c1057274bd9c9e535aa88f",
+   "size_bytes": 10067188,
+   "updated": "2026-10-03T05:53:04.081Z"
   },
   {
    "connector_provenance": "real",
@@ -34717,17 +34733,17 @@
    "updated": "2026-09-29T16:23:59.047Z"
   },
   {
-   "declared_name": "harbor/the-quarterly-bug-scorecard",
-   "declared_short": "the-quarterly-bug-scorecard",
-   "folder": "the-quarterly-bug-scorecard",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-quarterly-bug-scorecard",
+   "declared_short": "the-quarterly-bug-scorecard",
    "domain": null,
+   "folder": "the-quarterly-bug-scorecard",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "da5ee7649527a32b92efa828dd3243eceb1a40b17101325636b003e3d7f1de43",
    "size_bytes": 15472448,
    "updated": "2026-10-03T05:48:47.796Z"
