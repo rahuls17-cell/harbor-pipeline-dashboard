@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-03T05:25:03+00:00",
+ "generated_at": "2026-10-03T05:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2564,
-  "scanned": 2564,
-  "connector": 877,
+  "task_folders": 2565,
+  "scanned": 2565,
+  "connector": 878,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 184,
   "unknown": 264,
-  "synthetic": 429
+  "synthetic": 430
  },
  "domain": {
-  "unnamed": 1406,
+  "unnamed": 1407,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 879,
+  "harbor": 880,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 249,
+  "slack-gym": 250,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 132475
+  "approx_bytes_read": 136191
  },
  "errors": [],
  "tasks": [
@@ -25667,6 +25667,22 @@
    "updated": "2026-09-30T09:23:18.995Z"
   },
   {
+   "declared_name": "harbor/incident-page-ack-audit",
+   "declared_short": "incident-page-ack-audit",
+   "folder": "incident-page-ack-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d79e6d5a98b8732bd223c31bd7c6c1086598b3e5399ea9cd007a3f271392d7bf",
+   "size_bytes": 13272288,
+   "updated": "2026-10-03T05:28:05.011Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
@@ -38829,17 +38845,17 @@
    "updated": "2026-10-02T20:28:08.274Z"
   },
   {
-   "declared_name": "harbor/zero-fee-lab-lines-to-rebill",
-   "declared_short": "zero-fee-lab-lines-to-rebill",
-   "folder": "zero-fee-lab-lines-to-rebill",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/zero-fee-lab-lines-to-rebill",
+   "declared_short": "zero-fee-lab-lines-to-rebill",
    "domain": null,
+   "folder": "zero-fee-lab-lines-to-rebill",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a1ce4aa96b55991e8218e5fc1a05660d6c39780b9f1f485512a4627504175ae1",
    "size_bytes": 10728110,
    "updated": "2026-10-03T05:21:27.847Z"
