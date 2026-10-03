@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-03T07:10:03+00:00",
+ "generated_at": "2026-10-03T07:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2575,
-  "scanned": 2575,
-  "connector": 888,
+  "task_folders": 2577,
+  "scanned": 2577,
+  "connector": 890,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 185,
+  "real": 186,
   "unknown": 270,
-  "synthetic": 433
+  "synthetic": 434
  },
  "domain": {
-  "unnamed": 1417,
+  "unnamed": 1419,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 890,
+  "harbor": 892,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,10 +39,10 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 116,
+  "email-calendar-gym": 117,
   "linear-gym": 86,
+  "gws-gym": 85,
   "notion-gym": 84,
-  "gws-gym": 84,
   "outlook-gym": 81,
   "slack": 66,
   "github-gym": 55,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 278852
  },
  "errors": [],
  "tasks": [
@@ -28188,6 +28188,22 @@
    "updated": "2026-10-02T17:30:50.555Z"
   },
   {
+   "declared_name": "harbor/nothing-here-can-open-it",
+   "declared_short": "nothing-here-can-open-it",
+   "folder": "nothing-here-can-open-it",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "330ec80c85e11a7876c03016fba25005dad2772983e44aaed68aaf0a16a80479",
+   "size_bytes": 8315297,
+   "updated": "2026-10-03T07:16:33.327Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
@@ -35723,6 +35739,22 @@
    "sha256": "3912bd1150ea07ca980f5ebdcfe0bd09f96a8072c5f900e1b2e3c68fc14f46c7",
    "size_bytes": 16282054,
    "updated": "2026-09-27T11:42:26.820Z"
+  },
+  {
+   "declared_name": "harbor/the-time-off-i-never-took",
+   "declared_short": "the-time-off-i-never-took",
+   "folder": "the-time-off-i-never-took",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "b8c31bd02a1988eace3b0d0750d3d43378c0ffea6c4eb369d74e2803ece2ea68",
+   "size_bytes": 23835350,
+   "updated": "2026-10-03T07:17:25.896Z"
   },
   {
    "connector_provenance": "synthetic",
