@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-03T03:45:03+00:00",
+ "generated_at": "2026-10-03T03:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2553,
-  "scanned": 2553,
-  "connector": 866,
+  "task_folders": 2556,
+  "scanned": 2556,
+  "connector": 869,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 183,
   "unknown": 262,
-  "synthetic": 421
+  "synthetic": 424
  },
  "domain": {
-  "unnamed": 1395,
+  "unnamed": 1398,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 868,
+  "harbor": 871,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,11 +39,11 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 109,
+  "email-calendar-gym": 111,
   "linear-gym": 83,
   "notion-gym": 81,
   "gws-gym": 81,
-  "outlook-gym": 79,
+  "outlook-gym": 80,
   "slack": 66,
   "github-gym": 55,
   "snowflake-gym": 13,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135729
+  "new_archives_read": 3,
+  "approx_bytes_read": 407785
  },
  "errors": [],
  "tasks": [
@@ -1774,6 +1774,22 @@
    "sha256": "5f28a5df05e86098b8309a5765d501115cf6cb2f95e808a8638d96c6f673b079",
    "size_bytes": 6839704,
    "updated": "2026-10-01T10:05:57.578Z"
+  },
+  {
+   "declared_name": "harbor/back-office-jobs-that-need-a-rerun",
+   "declared_short": "back-office-jobs-that-need-a-rerun",
+   "folder": "back-office-jobs-that-need-a-rerun",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "94c7f6653f884b0c70a562e60a474e617960e2dae3b641ce87e78c5985971d0e",
+   "size_bytes": 10032229,
+   "updated": "2026-10-03T03:49:34.063Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -25775,6 +25791,22 @@
    "updated": "2026-09-26T04:09:45.287Z"
   },
   {
+   "declared_name": "harbor/invites-that-never-synced",
+   "declared_short": "invites-that-never-synced",
+   "folder": "invites-that-never-synced",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "8dad84e30bb5ebc0957bd2bef4517b3dd727c98802bea753319e7b209f088733",
+   "size_bytes": 10154177,
+   "updated": "2026-10-03T03:48:21.180Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -35644,6 +35676,22 @@
    "updated": "2026-10-01T17:05:52.934Z"
   },
   {
+   "declared_name": "harbor/the-where-line-is-not-the-link",
+   "declared_short": "the-where-line-is-not-the-link",
+   "folder": "the-where-line-is-not-the-link",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "da6c69805a055fcb253d5f279e92554097d290d1358c887999276bdd95378eef",
+   "size_bytes": 7538494,
+   "updated": "2026-10-03T03:48:15.856Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
@@ -37006,17 +37054,17 @@
    "updated": "2026-09-30T07:10:08.582Z"
   },
   {
-   "declared_name": "harbor/what-she-can-still-open",
-   "declared_short": "what-she-can-still-open",
-   "folder": "what-she-can-still-open",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/what-she-can-still-open",
+   "declared_short": "what-she-can-still-open",
    "domain": null,
+   "folder": "what-she-can-still-open",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ae5a1dac658a691da41bf19ff6417da0a06a3b236e3bc664a3945ee48c0f6549",
    "size_bytes": 22502919,
    "updated": "2026-10-03T03:41:50.247Z"
