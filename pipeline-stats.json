@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T07:05:03+00:00",
+ "generated_at": "2026-10-03T07:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2575,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136321
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -37903,17 +37903,17 @@
    "updated": "2026-10-01T16:27:18.629Z"
   },
   {
-   "declared_name": "harbor/which-team-channels-carry-the-standup",
-   "declared_short": "which-team-channels-carry-the-standup",
-   "folder": "which-team-channels-carry-the-standup",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/which-team-channels-carry-the-standup",
+   "declared_short": "which-team-channels-carry-the-standup",
    "domain": null,
+   "folder": "which-team-channels-carry-the-standup",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b5df22204e75ad7cd7a7d947ffa6f7240b82466b51fbf4db85f5612452c0a166",
    "size_bytes": 8937919,
    "updated": "2026-10-03T07:02:02.250Z"
