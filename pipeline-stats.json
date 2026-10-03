@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-03T06:45:03+00:00",
+ "generated_at": "2026-10-03T06:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2571,
-  "scanned": 2571,
-  "connector": 884,
+  "task_folders": 2572,
+  "scanned": 2572,
+  "connector": 885,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 185,
-  "unknown": 267,
+  "unknown": 268,
   "synthetic": 432
  },
  "domain": {
-  "unnamed": 1413,
+  "unnamed": 1414,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 886,
+  "harbor": 887,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 114,
+  "email-calendar-gym": 115,
   "linear-gym": 86,
   "notion-gym": 84,
   "gws-gym": 83,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136576
+  "approx_bytes_read": 135826
  },
  "errors": [],
  "tasks": [
@@ -14537,6 +14537,22 @@
    "sha256": "de5274c71bf596df486c35429e822cdba5ebaaab1ba8d02c4608d040b37a64bc",
    "size_bytes": 8540258,
    "updated": "2026-10-01T18:47:44.409Z"
+  },
+  {
+   "declared_name": "harbor/error-alerts-by-incident",
+   "declared_short": "error-alerts-by-incident",
+   "folder": "error-alerts-v16",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "ea797bfeabbc82d152452884c4f85b8d87a431e4c0ac25327db2a30c6f12d942",
+   "size_bytes": 18313589,
+   "updated": "2026-10-03T06:49:40.222Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -37151,17 +37167,17 @@
    "updated": "2026-09-22T13:42:09.319Z"
   },
   {
-   "declared_name": "harbor/weekly-team-channel-roundup",
-   "declared_short": "weekly-team-channel-roundup",
-   "folder": "weekly-team-channel-roundup",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/weekly-team-channel-roundup",
+   "declared_short": "weekly-team-channel-roundup",
    "domain": null,
+   "folder": "weekly-team-channel-roundup",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0d12a36a71cfcc898ba2050734c0699b590f1e9cd3de31b9645803f139794afa",
    "size_bytes": 8938689,
    "updated": "2026-10-03T06:40:33.645Z"
