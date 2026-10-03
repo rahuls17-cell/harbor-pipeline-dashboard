@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T01:35:04+00:00",
+ "generated_at": "2026-10-03T01:40:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2543,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136654
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1760,17 +1760,17 @@
    "updated": "2026-10-01T10:05:57.578Z"
   },
   {
-   "declared_name": "harbor/backlog-in-cycle-status-audit",
-   "declared_short": "backlog-in-cycle-status-audit",
-   "folder": "backlog-in-cycle-status-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/backlog-in-cycle-status-audit",
+   "declared_short": "backlog-in-cycle-status-audit",
    "domain": null,
+   "folder": "backlog-in-cycle-status-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "23b0db348430ea5a0458d23e8bfba6cf2cf77693755f60076b65bfb5ed75d64f",
    "size_bytes": 35036857,
    "updated": "2026-10-03T01:32:55.842Z"
