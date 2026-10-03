@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T04:20:03+00:00",
+ "generated_at": "2026-10-03T04:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2559,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138332
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -25587,17 +25587,17 @@
    "updated": "2026-09-29T11:10:56.209Z"
   },
   {
-   "declared_name": "harbor/how-the-risk-registers-disagree",
-   "declared_short": "how-the-risk-registers-disagree",
-   "folder": "how-the-risk-registers-disagree",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/how-the-risk-registers-disagree",
+   "declared_short": "how-the-risk-registers-disagree",
    "domain": null,
+   "folder": "how-the-risk-registers-disagree",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b0d51b85d794b201f87c6c3636cbc9beea934935e1d18b1f2b887f65f5b5a0a1",
    "size_bytes": 6799775,
    "updated": "2026-10-03T04:17:30.892Z"
