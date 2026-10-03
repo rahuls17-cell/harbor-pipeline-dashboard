@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-03T07:40:03+00:00",
+ "generated_at": "2026-10-03T07:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2578,
-  "scanned": 2578,
-  "connector": 891,
+  "task_folders": 2580,
+  "scanned": 2580,
+  "connector": 893,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 186,
   "unknown": 270,
-  "synthetic": 435
+  "synthetic": 437
  },
  "domain": {
-  "unnamed": 1420,
+  "unnamed": 1422,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 893,
+  "harbor": 895,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 253,
+  "slack-gym": 254,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -41,12 +41,12 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 118,
   "linear-gym": 86,
-  "gws-gym": 85,
+  "gws-gym": 86,
   "notion-gym": 84,
   "outlook-gym": 81,
   "slack": 66,
   "github-gym": 55,
-  "snowflake-gym": 13,
+  "snowflake-gym": 14,
   "supabase-gym": 12,
   "teams-gym": 12,
   "microsoft-teams-gym": 5,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 274801
  },
  "errors": [],
  "tasks": [
@@ -5921,6 +5921,23 @@
    "sha256": "e5a33c1a9eee8bd007184f0659de0df79eba9531c94340d2879c8f39d81341c6",
    "size_bytes": 6167780,
    "updated": "2026-10-02T20:47:33.667Z"
+  },
+  {
+   "declared_name": "harbor/client-dataset-usage-audit",
+   "declared_short": "client-dataset-usage-audit",
+   "folder": "client-dataset-usage-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "99bede18b53eac32561e267f898b21eecd50943addfa9aa74cbf6ebe24b1ada6",
+   "size_bytes": 12845564,
+   "updated": "2026-10-03T07:43:31.449Z"
   },
   {
    "connector_provenance": "real",
@@ -37453,6 +37470,22 @@
    "sha256": "b3e8a98a3ff63925cd904e4b0dd02afaa75c182dc9436fd12c0c52f4995f09f1",
    "size_bytes": 10814708,
    "updated": "2026-09-22T23:38:58.090Z"
+  },
+  {
+   "declared_name": "harbor/what-the-lead-lists-really-hold",
+   "declared_short": "what-the-lead-lists-really-hold",
+   "folder": "what-the-shared-drive-is-really-storing",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3872d2bc12be203edff80044b27798772afa50f00133b56d079083de60ba1cad",
+   "size_bytes": 15503066,
+   "updated": "2026-10-03T07:41:43.969Z"
   },
   {
    "connector_provenance": "synthetic",
