@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-03T06:15:03+00:00",
+ "generated_at": "2026-10-03T06:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2568,
-  "scanned": 2568,
-  "connector": 881,
+  "task_folders": 2569,
+  "scanned": 2569,
+  "connector": 882,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 184,
-  "unknown": 265,
+  "unknown": 266,
   "synthetic": 432
  },
  "domain": {
-  "unnamed": 1410,
+  "unnamed": 1411,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 883,
+  "harbor": 884,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 114,
   "linear-gym": 86,
   "notion-gym": 83,
-  "gws-gym": 82,
+  "gws-gym": 83,
   "outlook-gym": 81,
   "slack": 66,
   "github-gym": 55,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 137091
+  "approx_bytes_read": 135699
  },
  "errors": [],
  "tasks": [
@@ -28482,6 +28482,22 @@
    "updated": "2026-09-10T18:04:19.311Z"
   },
   {
+   "declared_name": "harbor/patient-rosters-held-in-drive",
+   "declared_short": "patient-rosters-held-in-drive",
+   "folder": "patient-rosters-held-in-drive",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "655af21f2a295ec2ec8c6e7a01806e528b9f4aa988b59f1dc943285248eb4289",
+   "size_bytes": 37888652,
+   "updated": "2026-10-03T06:18:56.883Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-b37-l15-petition-status-from-order-log",
@@ -32413,17 +32429,17 @@
    "updated": "2026-09-19T00:57:12.911Z"
   },
   {
-   "declared_name": "harbor/the-answer-she-already-gave",
-   "declared_short": "the-answer-she-already-gave",
-   "folder": "the-answer-she-already-gave",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-answer-she-already-gave",
+   "declared_short": "the-answer-she-already-gave",
    "domain": null,
+   "folder": "the-answer-she-already-gave",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e9b3e3b923692af746f16f1ee457ad74e0282a25154909e80cabcd1b739d98a8",
    "size_bytes": 5728410,
    "updated": "2026-10-03T06:14:26.347Z"
