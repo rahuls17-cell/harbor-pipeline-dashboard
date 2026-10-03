@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T02:10:03+00:00",
+ "generated_at": "2026-10-03T02:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2548,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134325
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -28145,17 +28145,17 @@
    "updated": "2026-09-19T11:45:33.484Z"
   },
   {
-   "declared_name": "harbor/one-rename-many-pulls",
-   "declared_short": "one-rename-many-pulls",
-   "folder": "one-rename-many-pulls",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/one-rename-many-pulls",
+   "declared_short": "one-rename-many-pulls",
    "domain": null,
+   "folder": "one-rename-many-pulls",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f784235aecc547e7f17ca2adea8feea5d14083cb82eb7d4f9c7742132fc15c8e",
    "size_bytes": 8624134,
    "updated": "2026-10-03T02:09:46.508Z"
