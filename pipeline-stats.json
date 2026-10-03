@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-03T00:15:03+00:00",
+ "generated_at": "2026-10-03T00:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2539,
-  "scanned": 2539,
-  "connector": 852,
+  "task_folders": 2540,
+  "scanned": 2540,
+  "connector": 853,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 180,
   "unknown": 258,
-  "synthetic": 414
+  "synthetic": 415
  },
  "domain": {
-  "unnamed": 1381,
+  "unnamed": 1382,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 854,
+  "harbor": 855,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 247,
+  "slack-gym": 248,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -40,8 +40,8 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 105,
+  "linear-gym": 80,
   "notion-gym": 79,
-  "linear-gym": 79,
   "gws-gym": 79,
   "outlook-gym": 79,
   "slack": 66,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134514
+  "approx_bytes_read": 137474
  },
  "errors": [],
  "tasks": [
@@ -1662,17 +1662,17 @@
    "updated": "2026-10-01T18:40:10.706Z"
   },
   {
-   "declared_name": "harbor/auto-merge-that-cannot-land",
-   "declared_short": "auto-merge-that-cannot-land",
-   "folder": "auto-merge-that-cannot-land",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/auto-merge-that-cannot-land",
+   "declared_short": "auto-merge-that-cannot-land",
    "domain": null,
+   "folder": "auto-merge-that-cannot-land",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ae815eb6fdb6def4a9684aa6f08e52135a70b4e302a67a1a1b411d00cc9763d2",
    "size_bytes": 7209314,
    "updated": "2026-10-03T00:14:03.974Z"
@@ -11699,6 +11699,23 @@
    "sha256": "8a5511afad25cf140471fe2ae4ee5c8c4f83cc1d3b5c5fb1649d7c83a4a4dd5d",
    "size_bytes": 7125824,
    "updated": "2026-09-26T12:05:41.764Z"
+  },
+  {
+   "declared_name": "harbor/data-defect-cycle-rollover-audit",
+   "declared_short": "data-defect-cycle-rollover-audit",
+   "folder": "data-defect-cycle-rollover-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3fc77605fb9c0197ef7e1bdc2d6439363ff54e6555d7b36151c521a3d7392f11",
+   "size_bytes": 10592588,
+   "updated": "2026-10-03T00:16:26.972Z"
   },
   {
    "connector_provenance": "synthetic",
