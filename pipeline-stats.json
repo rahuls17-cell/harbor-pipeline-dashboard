@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-03T08:55:03+00:00",
+ "generated_at": "2026-10-03T09:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2586,
-  "scanned": 2586,
-  "connector": 899,
+  "task_folders": 2587,
+  "scanned": 2587,
+  "connector": 900,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 187,
   "unknown": 272,
-  "synthetic": 440
+  "synthetic": 441
  },
  "domain": {
-  "unnamed": 1428,
+  "unnamed": 1429,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 901,
+  "harbor": 902,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,13 +40,13 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 121,
-  "linear-gym": 87,
+  "linear-gym": 88,
   "gws-gym": 87,
   "notion-gym": 84,
   "outlook-gym": 81,
   "slack": 66,
   "github-gym": 56,
-  "snowflake-gym": 14,
+  "snowflake-gym": 15,
   "supabase-gym": 12,
   "teams-gym": 12,
   "microsoft-teams-gym": 5,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 139027
  },
  "errors": [],
  "tasks": [
@@ -12753,6 +12753,23 @@
    "sha256": "ab5f273e3392b0c0cf63985956ecf66b7fe1bc794e3bed5e00c033a59ff39447",
    "size_bytes": 8523938,
    "updated": "2026-10-01T18:52:34.261Z"
+  },
+  {
+   "declared_name": "harbor/duplicate-run-overlap-cost-audit",
+   "declared_short": "duplicate-run-overlap-cost-audit",
+   "folder": "duplicate-run-overlap-cost-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "85c98bbd4d823a0d7d9d3e3709c58365b8ee333c5a35378e9af62f312a782fd0",
+   "size_bytes": 12222205,
+   "updated": "2026-10-03T08:57:58.641Z"
   },
   {
    "connector_provenance": "unknown",
