@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-03T07:55:03+00:00",
+ "generated_at": "2026-10-03T08:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2581,
-  "scanned": 2581,
-  "connector": 894,
+  "task_folders": 2583,
+  "scanned": 2583,
+  "connector": 896,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 186,
-  "unknown": 271,
-  "synthetic": 437
+  "unknown": 272,
+  "synthetic": 438
  },
  "domain": {
-  "unnamed": 1423,
+  "unnamed": 1425,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 896,
+  "harbor": 898,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 118,
+  "email-calendar-gym": 120,
   "gws-gym": 87,
   "linear-gym": 86,
   "notion-gym": 84,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 269038
  },
  "errors": [],
  "tasks": [
@@ -14554,6 +14554,22 @@
    "sha256": "de5274c71bf596df486c35429e822cdba5ebaaab1ba8d02c4608d040b37a64bc",
    "size_bytes": 8540258,
    "updated": "2026-10-01T18:47:44.409Z"
+  },
+  {
+   "declared_name": "harbor/eprescribing-outages-prescriber-notices",
+   "declared_short": "eprescribing-outages-prescriber-notices",
+   "folder": "eprescribing-outages-prescriber-notices",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "658567fa770e95d5c9d802d12d3efcb62b4217e2e3d1bca10b080aa2b5ec19c1",
+   "size_bytes": 8295997,
+   "updated": "2026-10-03T07:56:59.466Z"
   },
   {
    "connector_provenance": "unknown",
@@ -38094,6 +38110,22 @@
    "sha256": "fdb57521da401bf9691b0c4edd070ae6e90847b4a5c884713022ef404a7f829d",
    "size_bytes": 7870281,
    "updated": "2026-10-01T10:14:44.116Z"
+  },
+  {
+   "declared_name": "harbor/which-webhooks-are-still-failing",
+   "declared_short": "which-webhooks-are-still-failing",
+   "folder": "which-webhooks-are-still-failing",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "478a5b8c44b71b6ce4bcad5a328181c1fdaea476d5b7845c14c80ed8da7832f1",
+   "size_bytes": 7168298,
+   "updated": "2026-10-03T07:57:36.195Z"
   },
   {
    "connector_provenance": "synthetic",
