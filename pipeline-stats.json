@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-02T23:55:03+00:00",
+ "generated_at": "2026-10-03T00:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2537,
-  "scanned": 2537,
-  "connector": 850,
+  "task_folders": 2538,
+  "scanned": 2538,
+  "connector": 851,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 180,
   "unknown": 257,
-  "synthetic": 413
+  "synthetic": 414
  },
  "domain": {
-  "unnamed": 1379,
+  "unnamed": 1380,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 852,
+  "harbor": 853,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 246,
+  "slack-gym": 247,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 140294
+  "approx_bytes_read": 137966
  },
  "errors": [],
  "tasks": [
@@ -33787,17 +33787,17 @@
    "updated": "2026-09-26T22:08:48.953Z"
   },
   {
-   "declared_name": "harbor/the-name-it-never-mentions",
-   "declared_short": "the-name-it-never-mentions",
-   "folder": "the-name-it-never-mentions",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-name-it-never-mentions",
+   "declared_short": "the-name-it-never-mentions",
    "domain": null,
+   "folder": "the-name-it-never-mentions",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "02c25c829ec2aac99eff27f1275d9341c8c91c626a755564c7e2a902c112063b",
    "size_bytes": 11595841,
    "updated": "2026-10-02T23:52:58.213Z"
@@ -37595,6 +37595,22 @@
    "sha256": "9a14836cc42428ff20edb2472ce4f3f6e7d5f3e3ff531a73970bc7926c4e8414",
    "size_bytes": 7812361,
    "updated": "2026-09-23T07:05:53.234Z"
+  },
+  {
+   "declared_name": "harbor/sl4-who-in-here-is-actually-a-guest",
+   "declared_short": "sl4-who-in-here-is-actually-a-guest",
+   "folder": "who-in-here-is-actually-a-guest",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "e0fdd0437212097932b4d636eafacec158bcf9883070d8d29af0f4be5949eda9",
+   "size_bytes": 9321016,
+   "updated": "2026-10-02T23:57:02.566Z"
   },
   {
    "connector_provenance": "unknown",
