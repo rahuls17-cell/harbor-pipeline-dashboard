@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T03:50:04+00:00",
+ "generated_at": "2026-10-03T03:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2556,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 407785
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1776,17 +1776,17 @@
    "updated": "2026-10-01T10:05:57.578Z"
   },
   {
-   "declared_name": "harbor/back-office-jobs-that-need-a-rerun",
-   "declared_short": "back-office-jobs-that-need-a-rerun",
-   "folder": "back-office-jobs-that-need-a-rerun",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/back-office-jobs-that-need-a-rerun",
+   "declared_short": "back-office-jobs-that-need-a-rerun",
    "domain": null,
+   "folder": "back-office-jobs-that-need-a-rerun",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "94c7f6653f884b0c70a562e60a474e617960e2dae3b641ce87e78c5985971d0e",
    "size_bytes": 10032229,
    "updated": "2026-10-03T03:49:34.063Z"
@@ -25791,17 +25791,17 @@
    "updated": "2026-09-26T04:09:45.287Z"
   },
   {
-   "declared_name": "harbor/invites-that-never-synced",
-   "declared_short": "invites-that-never-synced",
-   "folder": "invites-that-never-synced",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/invites-that-never-synced",
+   "declared_short": "invites-that-never-synced",
    "domain": null,
+   "folder": "invites-that-never-synced",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8dad84e30bb5ebc0957bd2bef4517b3dd727c98802bea753319e7b209f088733",
    "size_bytes": 10154177,
    "updated": "2026-10-03T03:48:21.180Z"
@@ -35676,17 +35676,17 @@
    "updated": "2026-10-01T17:05:52.934Z"
   },
   {
-   "declared_name": "harbor/the-where-line-is-not-the-link",
-   "declared_short": "the-where-line-is-not-the-link",
-   "folder": "the-where-line-is-not-the-link",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-where-line-is-not-the-link",
+   "declared_short": "the-where-line-is-not-the-link",
    "domain": null,
+   "folder": "the-where-line-is-not-the-link",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "da6c69805a055fcb253d5f279e92554097d290d1358c887999276bdd95378eef",
    "size_bytes": 7538494,
    "updated": "2026-10-03T03:48:15.856Z"
