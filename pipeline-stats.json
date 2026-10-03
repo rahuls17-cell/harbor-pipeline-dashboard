@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-03T02:40:03+00:00",
+ "generated_at": "2026-10-03T02:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2549,
-  "scanned": 2549,
-  "connector": 862,
+  "task_folders": 2551,
+  "scanned": 2551,
+  "connector": 864,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 183,
-  "unknown": 260,
-  "synthetic": 419
+  "unknown": 261,
+  "synthetic": 420
  },
  "domain": {
-  "unnamed": 1391,
+  "unnamed": 1393,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 864,
+  "harbor": 866,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 108,
+  "email-calendar-gym": 109,
   "linear-gym": 82,
   "notion-gym": 81,
   "gws-gym": 80,
@@ -50,12 +50,12 @@
   "supabase-gym": 12,
   "teams-gym": 12,
   "microsoft-teams-gym": 5,
-  "microsoft-365-gym": 3,
+  "microsoft-365-gym": 4,
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 268923
  },
  "errors": [],
  "tasks": [
@@ -32876,6 +32876,22 @@
    "updated": "2026-09-20T03:00:19.959Z"
   },
   {
+   "declared_name": "harbor/the-deals-nobody-can-call",
+   "declared_short": "the-deals-nobody-can-call",
+   "folder": "the-deals-nobody-can-call",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "ee6fdbc55870c81b8d551ce1a550d9c2ee89e17e64efbb0b23def5864759b3e9",
+   "size_bytes": 5836776,
+   "updated": "2026-10-03T02:42:43.274Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
@@ -34554,6 +34570,22 @@
    "sha256": "7180e911c3fd0597fdd366896765846eb66b5c33937ca5e1b0a0e35c1fd88a8a",
    "size_bytes": 5885033,
    "updated": "2026-10-01T10:06:48.016Z"
+  },
+  {
+   "declared_name": "harbor/the-repeats-that-hide-their-rule",
+   "declared_short": "the-repeats-that-hide-their-rule",
+   "folder": "the-repeats-that-hide-their-rule",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3b092fd014fead33bea784ed24b6472c1e8a828f7efd0f99641e4f72e8c9a957",
+   "size_bytes": 20791644,
+   "updated": "2026-10-03T02:40:53.584Z"
   },
   {
    "connector_provenance": "real",
