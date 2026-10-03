@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T07:50:03+00:00",
+ "generated_at": "2026-10-03T07:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2581,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136930
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -29643,17 +29643,17 @@
    "updated": "2026-09-27T06:35:29.984Z"
   },
   {
-   "declared_name": "harbor/small-practices-billing-with-raw-exports",
-   "declared_short": "small-practices-billing-with-raw-exports",
-   "folder": "small-practices-billing-with-raw-exports",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/small-practices-billing-with-raw-exports",
+   "declared_short": "small-practices-billing-with-raw-exports",
    "domain": null,
+   "folder": "small-practices-billing-with-raw-exports",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ef60c4d3437e02d843d51de817dcab6be354b05261c900a8760bd2a819818d09",
    "size_bytes": 10607144,
    "updated": "2026-10-03T07:45:44.541Z"
