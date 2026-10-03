@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-03T01:30:03+00:00",
+ "generated_at": "2026-10-03T01:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2542,
-  "scanned": 2542,
-  "connector": 855,
+  "task_folders": 2543,
+  "scanned": 2543,
+  "connector": 856,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 180,
   "unknown": 259,
-  "synthetic": 416
+  "synthetic": 417
  },
  "domain": {
-  "unnamed": 1384,
+  "unnamed": 1385,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 857,
+  "harbor": 858,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 106,
-  "linear-gym": 80,
+  "linear-gym": 81,
   "gws-gym": 80,
   "notion-gym": 79,
   "outlook-gym": 79,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 290083
+  "new_archives_read": 1,
+  "approx_bytes_read": 136654
  },
  "errors": [],
  "tasks": [
@@ -1758,6 +1758,22 @@
    "sha256": "5f28a5df05e86098b8309a5765d501115cf6cb2f95e808a8638d96c6f673b079",
    "size_bytes": 6839704,
    "updated": "2026-10-01T10:05:57.578Z"
+  },
+  {
+   "declared_name": "harbor/backlog-in-cycle-status-audit",
+   "declared_short": "backlog-in-cycle-status-audit",
+   "folder": "backlog-in-cycle-status-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "23b0db348430ea5a0458d23e8bfba6cf2cf77693755f60076b65bfb5ed75d64f",
+   "size_bytes": 35036857,
+   "updated": "2026-10-03T01:32:55.842Z"
   },
   {
    "connector_provenance": "real",
@@ -35020,17 +35036,17 @@
    "updated": "2026-09-29T09:51:45.632Z"
   },
   {
-   "declared_name": "harbor/the-statement-files-sorted-by-month",
-   "declared_short": "the-statement-files-sorted-by-month",
-   "folder": "the-statement-files-sorted-by-month",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-statement-files-sorted-by-month",
+   "declared_short": "the-statement-files-sorted-by-month",
    "domain": null,
+   "folder": "the-statement-files-sorted-by-month",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "cb85079555800d5609c14b5d8815d2d3ed034129441767921dda47e889a7d752",
    "size_bytes": 19374598,
    "updated": "2026-10-03T01:26:17.944Z"
@@ -36068,17 +36084,17 @@
    "updated": "2026-10-01T16:35:49.116Z"
   },
   {
-   "declared_name": "harbor/vendor-policy-changes-to-act-on",
-   "declared_short": "vendor-policy-changes-to-act-on",
-   "folder": "vendor-policy-changes-to-act-on",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/vendor-policy-changes-to-act-on",
+   "declared_short": "vendor-policy-changes-to-act-on",
    "domain": null,
+   "folder": "vendor-policy-changes-to-act-on",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e8f86b04ca18de6ba389a7d6d5773aa896fe4761e746cf27886e43d610dc3277",
    "size_bytes": 14477427,
    "updated": "2026-10-03T01:25:52.263Z"
