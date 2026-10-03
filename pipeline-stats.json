@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-03T02:00:03+00:00",
+ "generated_at": "2026-10-03T02:05:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2545,
-  "scanned": 2545,
-  "connector": 858,
+  "task_folders": 2547,
+  "scanned": 2547,
+  "connector": 860,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 181,
+  "real": 182,
   "unknown": 259,
-  "synthetic": 418
+  "synthetic": 419
  },
  "domain": {
-  "unnamed": 1387,
+  "unnamed": 1389,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 860,
+  "harbor": 862,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,8 +40,8 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 107,
-  "linear-gym": 81,
-  "notion-gym": 80,
+  "linear-gym": 82,
+  "notion-gym": 81,
   "gws-gym": 80,
   "outlook-gym": 79,
   "slack": 66,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 271790
  },
  "errors": [],
  "tasks": [
@@ -5573,6 +5573,22 @@
    "sha256": "10fd09dd46160c007b600e2b36567ef74d74687f24c5089bb2dd85fac6cc8896",
    "size_bytes": 6266581,
    "updated": "2026-09-29T17:23:24.628Z"
+  },
+  {
+   "declared_name": "harbor/canceled-project-sunk-work-audit",
+   "declared_short": "canceled-project-sunk-work-audit",
+   "folder": "canceled-project-sunk-work-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "a768022db45c15821da339877420a3629cd281fa169a86f74c06ebf8a40dc351",
+   "size_bytes": 9245014,
+   "updated": "2026-10-03T02:02:31.823Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -36098,6 +36114,22 @@
    "sha256": "89bb5a5ac727fe2215bbb7137be531802093279c3e42eb763517fa83579dc6c0",
    "size_bytes": 7531061,
    "updated": "2026-09-06T04:20:30.120Z"
+  },
+  {
+   "declared_name": "harbor/vendor-calls-that-never-got-a-price",
+   "declared_short": "vendor-calls-that-never-got-a-price",
+   "folder": "vendor-calls-that-never-got-a-price",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "a76fdc797c8f70eee9f3c65c57c153f0216a9d6550f73885cce4486b2489fd10",
+   "size_bytes": 10266043,
+   "updated": "2026-10-03T02:03:24.762Z"
   },
   {
    "connector_provenance": "real",
