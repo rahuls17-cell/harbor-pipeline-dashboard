@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T05:55:03+00:00",
+ "generated_at": "2026-10-03T06:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2567,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135488
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -5835,17 +5835,17 @@
    "updated": "2026-09-28T12:07:13.799Z"
   },
   {
-   "declared_name": "harbor/channels-whose-owner-has-no-name",
-   "declared_short": "channels-whose-owner-has-no-name",
-   "folder": "channels-whose-owner-has-no-name",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/channels-whose-owner-has-no-name",
+   "declared_short": "channels-whose-owner-has-no-name",
    "domain": null,
+   "folder": "channels-whose-owner-has-no-name",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "376b449bfaa722fc35f37a8b505a7e01c470486e73c1057274bd9c9e535aa88f",
    "size_bytes": 10067188,
    "updated": "2026-10-03T05:53:04.081Z"
