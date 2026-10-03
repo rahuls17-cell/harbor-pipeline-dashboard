@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T04:10:03+00:00",
+ "generated_at": "2026-10-03T04:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2558,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 274021
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -25667,34 +25667,34 @@
    "updated": "2026-10-02T22:53:00.683Z"
   },
   {
-   "declared_name": "harbor/initiative-health-rollup-audit",
-   "declared_short": "initiative-health-rollup-audit",
-   "folder": "initiative-health-rollup-audit-linear",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/initiative-health-rollup-audit",
+   "declared_short": "initiative-health-rollup-audit",
    "domain": null,
+   "folder": "initiative-health-rollup-audit-linear",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "59bf9cca31b1e9cde2395baa2ee3e4a3c10ffdf754cb326c4107f78c8378c285",
    "size_bytes": 9392205,
    "updated": "2026-10-03T04:05:55.275Z"
   },
   {
-   "declared_name": "harbor/initiative-health-rollup-audit",
-   "declared_short": "initiative-health-rollup-audit",
-   "folder": "initiative-health-rollup-audit-outlook",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym",
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/initiative-health-rollup-audit",
+   "declared_short": "initiative-health-rollup-audit",
    "domain": null,
+   "folder": "initiative-health-rollup-audit-outlook",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d7d74faeb8518fcd67c63c070a5e4d8b8fc5550cb8bba9fdacfde689888e74dc",
    "size_bytes": 11517240,
    "updated": "2026-10-03T04:07:15.200Z"
