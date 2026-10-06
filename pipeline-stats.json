@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T19:50:03+00:00",
+ "generated_at": "2026-10-06T19:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2673,
@@ -54,8 +54,8 @@
   "shopify-gym": 3
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135559
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -36727,17 +36727,17 @@
    "updated": "2026-09-30T05:49:57.199Z"
   },
   {
-   "declared_name": "harbor/the-superbill-checklist-recount",
-   "declared_short": "the-superbill-checklist-recount",
-   "folder": "the-superbill-checklist-recount-v7",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-superbill-checklist-recount",
+   "declared_short": "the-superbill-checklist-recount",
    "domain": null,
+   "folder": "the-superbill-checklist-recount-v7",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7ee7416ac9a5c57c034a139f8caa6aca35a10c07c38a2be63a9a97bb8c591679",
    "size_bytes": 7908278,
    "updated": "2026-10-06T19:48:51.574Z"
