@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T13:05:03+00:00",
+ "generated_at": "2026-10-06T13:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2612,
-  "scanned": 2612,
-  "connector": 925,
+  "task_folders": 2613,
+  "scanned": 2613,
+  "connector": 926,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 190,
+  "real": 191,
   "unknown": 278,
   "synthetic": 457
  },
  "domain": {
-  "unnamed": 1454,
+  "unnamed": 1455,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 927,
+  "harbor": 928,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 257,
+  "slack-gym": 258,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 132361
+  "approx_bytes_read": 134005
  },
  "errors": [],
  "tasks": [
@@ -34739,6 +34739,22 @@
    "updated": "2026-09-28T18:54:55.770Z"
   },
   {
+   "declared_name": "harbor/the-number-slackbot-gave-out",
+   "declared_short": "the-number-slackbot-gave-out",
+   "folder": "the-number-slackbot-gave-out",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "6a090db0c751dfa5a4fad15f5223a2900362eb4fb3b52c1ef7c6b206ce4dbcb2",
+   "size_bytes": 8873508,
+   "updated": "2026-10-06T13:05:34.727Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
@@ -38469,17 +38485,17 @@
    "updated": "2026-10-01T16:27:18.629Z"
   },
   {
-   "declared_name": "harbor/which-sprints-got-a-kickoff",
-   "declared_short": "which-sprints-got-a-kickoff",
-   "folder": "which-sprints-got-a-kickoff",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/which-sprints-got-a-kickoff",
+   "declared_short": "which-sprints-got-a-kickoff",
    "domain": null,
+   "folder": "which-sprints-got-a-kickoff",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "32e7a61a49961f40223c4f54ba23d21ffdd6dae6d0737c36a1eaff692b4833c4",
    "size_bytes": 21694009,
    "updated": "2026-10-06T13:05:02.318Z"
