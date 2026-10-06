@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T09:25:03+00:00",
+ "generated_at": "2026-10-06T09:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2597,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135823
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -36210,17 +36210,17 @@
    "updated": "2026-10-03T03:48:15.856Z"
   },
   {
-   "declared_name": "harbor/the-word-documents-that-arent-word-documents",
-   "declared_short": "the-word-documents-that-arent-word-documents",
-   "folder": "the-word-documents-that-arent-word-documents",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-word-documents-that-arent-word-documents",
+   "declared_short": "the-word-documents-that-arent-word-documents",
    "domain": null,
+   "folder": "the-word-documents-that-arent-word-documents",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7fd5d9aa4687b4f0097b320d49d1bc310e1bd2ba7f5ee728ecbf7460b898f385",
    "size_bytes": 9485684,
    "updated": "2026-10-06T09:23:58.139Z"
