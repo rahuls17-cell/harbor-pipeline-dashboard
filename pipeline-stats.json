@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T13:00:04+00:00",
+ "generated_at": "2026-10-06T13:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2611,
-  "scanned": 2611,
-  "connector": 924,
+  "task_folders": 2612,
+  "scanned": 2612,
+  "connector": 925,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 190,
-  "unknown": 277,
+  "unknown": 278,
   "synthetic": 457
  },
  "domain": {
-  "unnamed": 1453,
+  "unnamed": 1454,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 926,
+  "harbor": 927,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 127,
+  "email-calendar-gym": 128,
   "linear-gym": 93,
   "gws-gym": 93,
   "notion-gym": 85,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135118
+  "approx_bytes_read": 132361
  },
  "errors": [],
  "tasks": [
@@ -28994,17 +28994,17 @@
    "updated": "2026-09-23T15:58:22.136Z"
   },
   {
-   "declared_name": "harbor/quarter-label-target-mismatch-audit",
-   "declared_short": "quarter-label-target-mismatch-audit",
-   "folder": "quarter-label-target-mismatch-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/quarter-label-target-mismatch-audit",
+   "declared_short": "quarter-label-target-mismatch-audit",
    "domain": null,
+   "folder": "quarter-label-target-mismatch-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "92890ad987a9cc45cd68aa41a0e20be96e47e5662edd428f32291493b8f9168f",
    "size_bytes": 10598370,
    "updated": "2026-10-06T12:58:21.162Z"
@@ -38467,6 +38467,22 @@
    "sha256": "7b4656da0d056c5af42176f946cdc38d2ad22cc42305ad2d6d6844a737871919",
    "size_bytes": 9729527,
    "updated": "2026-10-01T16:27:18.629Z"
+  },
+  {
+   "declared_name": "harbor/which-sprints-got-a-kickoff",
+   "declared_short": "which-sprints-got-a-kickoff",
+   "folder": "which-sprints-got-a-kickoff",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "32e7a61a49961f40223c4f54ba23d21ffdd6dae6d0737c36a1eaff692b4833c4",
+   "size_bytes": 21694009,
+   "updated": "2026-10-06T13:05:02.318Z"
   },
   {
    "connector_provenance": "unknown",
