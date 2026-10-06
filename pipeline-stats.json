@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T16:45:03+00:00",
+ "generated_at": "2026-10-06T16:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2646,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 267885
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -28745,17 +28745,17 @@
    "updated": "2026-10-01T18:18:16.901Z"
   },
   {
-   "declared_name": "harbor/open-to-maintainer-edits",
-   "declared_short": "open-to-maintainer-edits",
-   "folder": "open-to-maintainer-edits",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/open-to-maintainer-edits",
+   "declared_short": "open-to-maintainer-edits",
    "domain": null,
+   "folder": "open-to-maintainer-edits",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "33fd32f6a25fa3109d2ed07d9ac8d4b4db3a046881a37ca3c1aa0d02fbb4957c",
    "size_bytes": 9273592,
    "updated": "2026-10-06T16:41:28.236Z"
@@ -34916,17 +34916,17 @@
    "updated": "2026-09-30T08:33:40.180Z"
   },
   {
-   "declared_name": "harbor/the-monday-morning-reminder",
-   "declared_short": "the-monday-morning-reminder",
-   "folder": "the-monday-morning-reminder",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-monday-morning-reminder",
+   "declared_short": "the-monday-morning-reminder",
    "domain": null,
+   "folder": "the-monday-morning-reminder",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8df0a411e2ffebefbb81f5e8154a9a679755ddaa5bfb4e6015fc15f38161f02d",
    "size_bytes": 145027539,
    "updated": "2026-10-06T16:44:06.932Z"
