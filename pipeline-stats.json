@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T08:10:03+00:00",
+ "generated_at": "2026-10-06T08:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2593,
-  "scanned": 2593,
-  "connector": 906,
+  "task_folders": 2594,
+  "scanned": 2594,
+  "connector": 907,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 188,
-  "unknown": 274,
+  "unknown": 275,
   "synthetic": 444
  },
  "domain": {
-  "unnamed": 1435,
+  "unnamed": 1436,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 908,
+  "harbor": 909,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 123,
-  "linear-gym": 88,
+  "linear-gym": 89,
   "gws-gym": 88,
   "notion-gym": 85,
   "outlook-gym": 82,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 141939
+  "approx_bytes_read": 136201
  },
  "errors": [],
  "tasks": [
@@ -343,6 +343,22 @@
    "sha256": "2955b6b92ca7ab21a8a776be0eb0693b00ca3c7711283b3070c6bcdb330a6ec6",
    "size_bytes": 5510327,
    "updated": "2026-09-27T14:29:00.913Z"
+  },
+  {
+   "declared_name": "harbor/mid-flight-at-tracker-handover",
+   "declared_short": "mid-flight-at-tracker-handover",
+   "folder": "ASTR_101157",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "ebd7a9f01766ff4e31c07ea62cdf0c9a9fd9c5146c304798f241b9236e12463a",
+   "size_bytes": 7752502,
+   "updated": "2026-10-06T08:11:45.130Z"
   },
   {
    "connector_provenance": "unknown",
@@ -14510,18 +14526,18 @@
    "updated": "2026-10-01T10:10:03.314Z"
   },
   {
-   "declared_name": "harbor/enterprise-key-retirement-audit",
-   "declared_short": "enterprise-key-retirement-audit",
-   "folder": "enterprise-key-retirement-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym",
     "supabase-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/enterprise-key-retirement-audit",
+   "declared_short": "enterprise-key-retirement-audit",
    "domain": null,
+   "folder": "enterprise-key-retirement-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6511e04467ff5c4f50d523ff27400333ac6845ff9992b92e8543ca516783549e",
    "size_bytes": 7861427,
    "updated": "2026-10-06T08:08:25.690Z"
