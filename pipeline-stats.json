@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T16:35:03+00:00",
+ "generated_at": "2026-10-06T16:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2644,
-  "scanned": 2644,
-  "connector": 957,
+  "task_folders": 2646,
+  "scanned": 2646,
+  "connector": 959,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 194,
-  "unknown": 287,
+  "unknown": 289,
   "synthetic": 476
  },
  "domain": {
-  "unnamed": 1486,
+  "unnamed": 1488,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 959,
+  "harbor": 961,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -43,9 +43,9 @@
   "linear-gym": 101,
   "gws-gym": 97,
   "notion-gym": 91,
-  "outlook-gym": 87,
+  "outlook-gym": 88,
   "slack": 66,
-  "github-gym": 58,
+  "github-gym": 59,
   "snowflake-gym": 17,
   "supabase-gym": 14,
   "teams-gym": 12,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 267885
  },
  "errors": [],
  "tasks": [
@@ -28745,6 +28745,22 @@
    "updated": "2026-10-01T18:18:16.901Z"
   },
   {
+   "declared_name": "harbor/open-to-maintainer-edits",
+   "declared_short": "open-to-maintainer-edits",
+   "folder": "open-to-maintainer-edits",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "33fd32f6a25fa3109d2ed07d9ac8d4b4db3a046881a37ca3c1aa0d02fbb4957c",
+   "size_bytes": 9273592,
+   "updated": "2026-10-06T16:41:28.236Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "google-drive-gym"
@@ -34898,6 +34914,22 @@
    "sha256": "9058adfd67c9c75f23a7ca69640117ea775b8eecdfd4be92e19b34d5751cf6b3",
    "size_bytes": 9740063,
    "updated": "2026-09-30T08:33:40.180Z"
+  },
+  {
+   "declared_name": "harbor/the-monday-morning-reminder",
+   "declared_short": "the-monday-morning-reminder",
+   "folder": "the-monday-morning-reminder",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "8df0a411e2ffebefbb81f5e8154a9a679755ddaa5bfb4e6015fc15f38161f02d",
+   "size_bytes": 145027539,
+   "updated": "2026-10-06T16:44:06.932Z"
   },
   {
    "connector_provenance": "synthetic",
