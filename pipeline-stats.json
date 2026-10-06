@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T18:40:04+00:00",
+ "generated_at": "2026-10-06T18:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2656,
-  "scanned": 2656,
-  "connector": 969,
+  "task_folders": 2659,
+  "scanned": 2659,
+  "connector": 972,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 196,
-  "unknown": 291,
-  "synthetic": 482
+  "unknown": 293,
+  "synthetic": 483
  },
  "domain": {
-  "unnamed": 1498,
+  "unnamed": 1501,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 971,
+  "harbor": 974,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,9 +40,9 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 135,
-  "linear-gym": 102,
-  "gws-gym": 98,
-  "notion-gym": 92,
+  "linear-gym": 103,
+  "gws-gym": 99,
+  "notion-gym": 93,
   "outlook-gym": 90,
   "slack": 66,
   "github-gym": 59,
@@ -54,8 +54,8 @@
   "shopify-gym": 3
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132661
+  "new_archives_read": 3,
+  "approx_bytes_read": 408036
  },
  "errors": [],
  "tasks": [
@@ -14986,17 +14986,17 @@
    "updated": "2026-10-02T22:27:53.526Z"
   },
   {
-   "declared_name": "harbor/fall-draws-collected-on-site-or-sent-to-quest",
-   "declared_short": "fall-draws-collected-on-site-or-sent-to-quest",
-   "folder": "fall-draws-collected-on-site-or-sent-to-quest",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/fall-draws-collected-on-site-or-sent-to-quest",
+   "declared_short": "fall-draws-collected-on-site-or-sent-to-quest",
    "domain": null,
+   "folder": "fall-draws-collected-on-site-or-sent-to-quest",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "80ade41e500292d5689ba1890e58b0c1e5abe5b611bf33582395954aded59e23",
    "size_bytes": 12020193,
    "updated": "2026-10-06T18:37:03.827Z"
@@ -26134,6 +26134,22 @@
    "updated": "2026-10-01T15:15:47.571Z"
   },
   {
+   "declared_name": "harbor/investor-update-kpi-tracker",
+   "declared_short": "investor-update-kpi-tracker",
+   "folder": "investor-update-kpi-tracker",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "83d3a35aa81d447cf6f8899f06094344d64dd0e2a1c6539aa22cc0117b6c7620",
+   "size_bytes": 14912790,
+   "updated": "2026-10-06T18:42:34.677Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
@@ -28577,6 +28593,22 @@
    "sha256": "3b1f7400d2b4c7283194bf8c004edfbe39cc946c04ac309fe6f92412c6fc3ecd",
    "size_bytes": 10313785,
    "updated": "2026-10-01T19:47:05.706Z"
+  },
+  {
+   "declared_name": "harbor/oct-nov-where-patients-had-blood-drawn",
+   "declared_short": "oct-nov-where-patients-had-blood-drawn",
+   "folder": "oct-nov-where-patients-had-blood-drawn",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "5e2b9f24ab705e9d0f40a6767c79be7e70a87c7ce8a677dd148f940b3cb286ac",
+   "size_bytes": 11387548,
+   "updated": "2026-10-06T18:43:12.809Z"
   },
   {
    "connector_provenance": "unknown",
@@ -37517,6 +37549,22 @@
    "sha256": "01bf182adb5fea88d40c89d407b34ee0378296fa560aa37222a1bea314e84408",
    "size_bytes": 5726401,
    "updated": "2026-09-06T03:50:35.764Z"
+  },
+  {
+   "declared_name": "harbor/unprioritised-active-project-audit",
+   "declared_short": "unprioritised-active-project-audit",
+   "folder": "unprioritised-active-project-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2d3d89a8fe0d7e45fca7fe81340e369ac0172a19961e4be64f9d8102d0911cde",
+   "size_bytes": 11869092,
+   "updated": "2026-10-06T18:42:52.294Z"
   },
   {
    "connector_provenance": "synthetic",
