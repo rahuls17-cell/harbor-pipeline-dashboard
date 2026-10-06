@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T08:30:03+00:00",
+ "generated_at": "2026-10-06T09:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2595,
-  "scanned": 2595,
-  "connector": 908,
+  "task_folders": 2596,
+  "scanned": 2596,
+  "connector": 909,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 188,
   "unknown": 276,
-  "synthetic": 444
+  "synthetic": 445
  },
  "domain": {
-  "unnamed": 1437,
+  "unnamed": 1438,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 910,
+  "harbor": 911,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 255,
+  "slack-gym": 256,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -46,7 +46,7 @@
   "outlook-gym": 82,
   "slack": 66,
   "github-gym": 57,
-  "snowflake-gym": 15,
+  "snowflake-gym": 16,
   "supabase-gym": 13,
   "teams-gym": 12,
   "microsoft-teams-gym": 5,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133707
  },
  "errors": [],
  "tasks": [
@@ -2342,6 +2342,23 @@
    "sha256": "929496351b8e890713ea785d8d9945aa4af25952b2c73bc8f43a46f12f9a5934",
    "size_bytes": 7636163,
    "updated": "2026-10-02T18:49:13.849Z"
+  },
+  {
+   "declared_name": "harbor/billing-read-entitlement-recert",
+   "declared_short": "billing-read-entitlement-recert",
+   "folder": "billing-read-entitlement-recert",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "e49953e523be0bb9a790aab1ec6db484962d00ecb21d83aab9e931a22fd33205",
+   "size_bytes": 10014195,
+   "updated": "2026-10-06T09:17:08.339Z"
   },
   {
    "connector_provenance": "synthetic",
