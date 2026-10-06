@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T14:50:03+00:00",
+ "generated_at": "2026-10-06T14:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2628,
-  "scanned": 2628,
-  "connector": 941,
+  "task_folders": 2629,
+  "scanned": 2629,
+  "connector": 942,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 194,
   "unknown": 281,
-  "synthetic": 466
+  "synthetic": 467
  },
  "domain": {
-  "unnamed": 1470,
+  "unnamed": 1471,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 943,
+  "harbor": 944,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 132,
   "linear-gym": 96,
-  "gws-gym": 94,
+  "gws-gym": 95,
   "notion-gym": 88,
   "outlook-gym": 86,
   "slack": 66,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136419
+  "approx_bytes_read": 144999
  },
  "errors": [],
  "tasks": [
@@ -28520,17 +28520,17 @@
    "updated": "2026-09-06T07:34:35.842Z"
   },
   {
-   "declared_name": "harbor/onboarding-pages-against-the-software-list",
-   "declared_short": "onboarding-pages-against-the-software-list",
-   "folder": "onboarding-pages-against-the-software-list",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/onboarding-pages-against-the-software-list",
+   "declared_short": "onboarding-pages-against-the-software-list",
    "domain": null,
+   "folder": "onboarding-pages-against-the-software-list",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ce345ffb8d930716a93ec1b87e77339a5598dcf8d1ce7c8fdc4344ba45654c56",
    "size_bytes": 8427136,
    "updated": "2026-10-06T14:47:26.481Z"
@@ -38675,6 +38675,22 @@
    "sha256": "ad62565d79319c8fdfc50f04cc4eeab7d9589eb987d358eab24006ee8213fc41",
    "size_bytes": 7840052,
    "updated": "2026-10-01T14:48:26.103Z"
+  },
+  {
+   "declared_name": "harbor/which-royalty-lines-were-never-billed",
+   "declared_short": "which-royalty-lines-were-never-billed",
+   "folder": "which-royalty-lines-were-never-billed",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d70c2f4c8a6b5839d940974b45a8617244730bf258fa3395add8d6b85cddb679",
+   "size_bytes": 12658162,
+   "updated": "2026-10-06T14:52:00.837Z"
   },
   {
    "connector_provenance": "real",
