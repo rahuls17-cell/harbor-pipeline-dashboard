@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T19:45:04+00:00",
+ "generated_at": "2026-10-06T19:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2672,
-  "scanned": 2672,
-  "connector": 985,
+  "task_folders": 2673,
+  "scanned": 2673,
+  "connector": 986,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 199,
-  "unknown": 299,
+  "unknown": 300,
   "synthetic": 487
  },
  "domain": {
-  "unnamed": 1514,
+  "unnamed": 1515,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 987,
+  "harbor": 988,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 136,
   "linear-gym": 104,
   "gws-gym": 102,
-  "notion-gym": 94,
+  "notion-gym": 95,
   "outlook-gym": 92,
   "slack": 66,
   "github-gym": 61,
@@ -54,8 +54,8 @@
   "shopify-gym": 3
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 274262
+  "new_archives_read": 1,
+  "approx_bytes_read": 135559
  },
  "errors": [],
  "tasks": [
@@ -30210,17 +30210,17 @@
    "updated": "2026-10-02T02:36:27.535Z"
   },
   {
-   "declared_name": "harbor/service-key-rotation-audit",
-   "declared_short": "service-key-rotation-audit",
-   "folder": "service-key-rotation-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/service-key-rotation-audit",
+   "declared_short": "service-key-rotation-audit",
    "domain": null,
+   "folder": "service-key-rotation-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f459bc8d78fc3fa19ab2a8b1f9bdc2510cf46e513fb71f2a14c834d7868468f7",
    "size_bytes": 13748524,
    "updated": "2026-10-06T19:40:18.059Z"
@@ -36455,17 +36455,17 @@
    "updated": "2026-09-29T22:04:11.656Z"
   },
   {
-   "declared_name": "harbor/the-send-list-nobody-typed-by-hand",
-   "declared_short": "the-send-list-nobody-typed-by-hand",
-   "folder": "the-send-list-nobody-typed-by-hand",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-send-list-nobody-typed-by-hand",
+   "declared_short": "the-send-list-nobody-typed-by-hand",
    "domain": null,
+   "folder": "the-send-list-nobody-typed-by-hand",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "248150c8649e4cbe31a431333c00bb24676dbe19ed1d9f33d5ecd8d0d4a2284b",
    "size_bytes": 141878487,
    "updated": "2026-10-06T19:42:22.570Z"
@@ -36725,6 +36725,22 @@
    "sha256": "f1ca9448ae7e30760ec55841b2896cf5c2f1230ed3a2d938d50588517980be95",
    "size_bytes": 8763120,
    "updated": "2026-09-30T05:49:57.199Z"
+  },
+  {
+   "declared_name": "harbor/the-superbill-checklist-recount",
+   "declared_short": "the-superbill-checklist-recount",
+   "folder": "the-superbill-checklist-recount-v7",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "7ee7416ac9a5c57c034a139f8caa6aca35a10c07c38a2be63a9a97bb8c591679",
+   "size_bytes": 7908278,
+   "updated": "2026-10-06T19:48:51.574Z"
   },
   {
    "connector_provenance": "synthetic",
