@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T18:30:03+00:00",
+ "generated_at": "2026-10-06T18:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2655,
@@ -54,8 +54,8 @@
   "shopify-gym": 3
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138491
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -34375,17 +34375,17 @@
    "updated": "2026-09-18T08:43:14.115Z"
   },
   {
-   "declared_name": "harbor/the-handle-two-people-answer-to",
-   "declared_short": "the-handle-two-people-answer-to",
-   "folder": "the-handle-two-people-answer-to",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-handle-two-people-answer-to",
+   "declared_short": "the-handle-two-people-answer-to",
    "domain": null,
+   "folder": "the-handle-two-people-answer-to",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "61de811cd418ae2eb9f5a06fea1b9cd3044480d1aca953b71aaef03327df04ef",
    "size_bytes": 7482339,
    "updated": "2026-10-06T18:29:24.866Z"
