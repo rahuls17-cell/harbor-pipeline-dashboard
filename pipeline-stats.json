@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T13:40:03+00:00",
+ "generated_at": "2026-10-06T13:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2616,
-  "scanned": 2616,
-  "connector": 929,
+  "task_folders": 2618,
+  "scanned": 2618,
+  "connector": 931,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 192,
-  "unknown": 279,
-  "synthetic": 458
+  "unknown": 280,
+  "synthetic": 459
  },
  "domain": {
-  "unnamed": 1458,
+  "unnamed": 1460,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 931,
+  "harbor": 933,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,8 +40,8 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 129,
-  "linear-gym": 93,
-  "gws-gym": 93,
+  "linear-gym": 94,
+  "gws-gym": 94,
   "notion-gym": 85,
   "outlook-gym": 85,
   "slack": 66,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 142079
+  "new_archives_read": 2,
+  "approx_bytes_read": 273578
  },
  "errors": [],
  "tasks": [
@@ -26341,6 +26341,22 @@
    "updated": "2026-09-27T04:22:11.860Z"
   },
   {
+   "declared_name": "harbor/last-two-accounts-at-close-out",
+   "declared_short": "last-two-accounts-at-close-out",
+   "folder": "last-two-accounts-at-close-out",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "2c8db6a2b84ccf87ff6231c1c99874fb9f35b85f83872f0c4f1a45eaca29bb1e",
+   "size_bytes": 13084762,
+   "updated": "2026-10-06T13:43:59.790Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
@@ -37051,6 +37067,22 @@
    "updated": "2026-09-06T04:20:30.120Z"
   },
   {
+   "declared_name": "harbor/urgent-project-update-gap-audit",
+   "declared_short": "urgent-project-update-gap-audit",
+   "folder": "urgent-project-update-gap-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "223ffdbd89dd189fefdc6fcba9485da823c67d7c52207eb295cd1870a05ddcd5",
+   "size_bytes": 9393856,
+   "updated": "2026-10-06T13:43:24.602Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
@@ -37603,17 +37635,17 @@
    "updated": "2026-10-01T19:06:46.337Z"
   },
   {
-   "declared_name": "harbor/visit-weeks-pushed-out-in-bulk",
-   "declared_short": "visit-weeks-pushed-out-in-bulk",
-   "folder": "visit-weeks-pushed-out-in-bulk",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/visit-weeks-pushed-out-in-bulk",
+   "declared_short": "visit-weeks-pushed-out-in-bulk",
    "domain": null,
+   "folder": "visit-weeks-pushed-out-in-bulk",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4217e1bf86bfde29e8b870c19e0ce6023a8b3ac4c044d577d76bdb2625c8f2e5",
    "size_bytes": 15415067,
    "updated": "2026-10-06T13:37:49.787Z"
