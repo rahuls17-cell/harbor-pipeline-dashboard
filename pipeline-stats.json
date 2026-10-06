@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T15:40:02+00:00",
+ "generated_at": "2026-10-06T15:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2631,
-  "scanned": 2631,
-  "connector": 944,
+  "task_folders": 2633,
+  "scanned": 2633,
+  "connector": 946,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 194,
-  "unknown": 282,
-  "synthetic": 468
+  "unknown": 283,
+  "synthetic": 469
  },
  "domain": {
-  "unnamed": 1473,
+  "unnamed": 1475,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 946,
+  "harbor": 948,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,9 +40,9 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 133,
-  "linear-gym": 96,
+  "linear-gym": 97,
   "gws-gym": 96,
-  "notion-gym": 88,
+  "notion-gym": 89,
   "outlook-gym": 86,
   "slack": 66,
   "github-gym": 57,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 274882
  },
  "errors": [],
  "tasks": [
@@ -11488,6 +11488,22 @@
    "sha256": "c75998edbd8e24512071fd8b9ac0842d92824980b800d2c867da5f5e481bdd4f",
    "size_bytes": 8310293,
    "updated": "2026-10-02T23:41:02.752Z"
+  },
+  {
+   "declared_name": "harbor/computer-gtm-todo-audit",
+   "declared_short": "computer-gtm-todo-audit",
+   "folder": "computer-gtm-todo-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3e100d668ef1c7ea8fd1b539556b2dd03ce43e47b1ccbf753d4ecd924042771d",
+   "size_bytes": 12625561,
+   "updated": "2026-10-06T15:42:30.017Z"
   },
   {
    "connector_provenance": "unknown",
@@ -29073,6 +29089,22 @@
    "sha256": "d6230b78ab83da923398d42a81dd78c1ec5ebf06368203ebae0e47f66a429cde",
    "size_bytes": 12813430,
    "updated": "2026-09-23T15:58:22.136Z"
+  },
+  {
+   "declared_name": "harbor/psychiatry-codes-quoting-the-wrong-fee",
+   "declared_short": "psychiatry-codes-quoting-the-wrong-fee",
+   "folder": "psychiatry-codes-quoting-the-wrong-fee",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "f475e30b383d2ed41d0f0a81b49592624694ef63c4f5ba306265b9335448082d",
+   "size_bytes": 7681431,
+   "updated": "2026-10-06T15:43:44.786Z"
   },
   {
    "connector_provenance": "synthetic",
