@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T16:15:04+00:00",
+ "generated_at": "2026-10-06T16:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2642,
-  "scanned": 2642,
-  "connector": 955,
+  "task_folders": 2643,
+  "scanned": 2643,
+  "connector": 956,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 194,
-  "unknown": 285,
+  "unknown": 286,
   "synthetic": 476
  },
  "domain": {
-  "unnamed": 1484,
+  "unnamed": 1485,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 957,
+  "harbor": 958,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 134,
   "linear-gym": 101,
   "gws-gym": 97,
-  "notion-gym": 90,
+  "notion-gym": 91,
   "outlook-gym": 87,
   "slack": 66,
   "github-gym": 57,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 540226
+  "new_archives_read": 1,
+  "approx_bytes_read": 136524
  },
  "errors": [],
  "tasks": [
@@ -5560,17 +5560,17 @@
    "updated": "2026-09-24T21:08:21.628Z"
   },
   {
-   "declared_name": "harbor/business-cycle-delivery-audit",
-   "declared_short": "business-cycle-delivery-audit",
-   "folder": "business-cycle-delivery-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/business-cycle-delivery-audit",
+   "declared_short": "business-cycle-delivery-audit",
    "domain": null,
+   "folder": "business-cycle-delivery-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "24b5e6a93f278fa38cb55aa88af4fe6304c7d84b8d76a74560873e8da59a12cd",
    "size_bytes": 6906439,
    "updated": "2026-10-06T16:14:47.464Z"
@@ -29091,17 +29091,17 @@
    "updated": "2026-09-27T05:45:28.820Z"
   },
   {
-   "declared_name": "harbor/project-resource-link-gap-audit",
-   "declared_short": "project-resource-link-gap-audit",
-   "folder": "project-resource-link-gap-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/project-resource-link-gap-audit",
+   "declared_short": "project-resource-link-gap-audit",
    "domain": null,
+   "folder": "project-resource-link-gap-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "94c5e2b77ceef32edc307cf14bf17fbce2f665e0db6a21fa07205c41dd8bbfea",
    "size_bytes": 9287538,
    "updated": "2026-10-06T16:10:11.204Z"
@@ -33796,17 +33796,17 @@
    "updated": "2026-09-29T08:01:11.291Z"
   },
   {
-   "declared_name": "harbor/the-decks-nobody-filed",
-   "declared_short": "the-decks-nobody-filed",
-   "folder": "the-decks-nobody-filed",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-decks-nobody-filed",
+   "declared_short": "the-decks-nobody-filed",
    "domain": null,
+   "folder": "the-decks-nobody-filed",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e148adeb929f16e12180db289c64e9c18dbbd59a1042b173f6d793a99dec2fa2",
    "size_bytes": 14005728,
    "updated": "2026-10-06T16:14:37.140Z"
@@ -37420,17 +37420,17 @@
    "updated": "2026-10-03T02:03:24.762Z"
   },
   {
-   "declared_name": "harbor/vendor-notes-triage",
-   "declared_short": "vendor-notes-triage",
-   "folder": "vendor-notes-triage",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/vendor-notes-triage",
+   "declared_short": "vendor-notes-triage",
    "domain": null,
+   "folder": "vendor-notes-triage",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b22393ea25feb521128304cfdd24661a80d759e89268e7a6e79b6fb176712e66",
    "size_bytes": 9332782,
    "updated": "2026-10-06T16:12:53.404Z"
@@ -38388,6 +38388,22 @@
    "sha256": "9801f1e5bec611703154183ff77f0d6876ed310a68b65255d3a92dc14958dbee",
    "size_bytes": 7778657,
    "updated": "2026-10-01T11:52:01.673Z"
+  },
+  {
+   "declared_name": "harbor/what-these-boards-are-shaped-like",
+   "declared_short": "what-these-boards-are-shaped-like",
+   "folder": "what-these-boards-are-shaped-like",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "6d49a872ddba5ff9c9c20997e04f50610230826822535bd29798f6d1468993cf",
+   "size_bytes": 13529068,
+   "updated": "2026-10-06T16:17:38.018Z"
   },
   {
    "connector_provenance": "synthetic",
