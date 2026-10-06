@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T21:45:03+00:00",
+ "generated_at": "2026-10-06T23:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2678,
-  "scanned": 2678,
-  "connector": 991,
+  "task_folders": 2680,
+  "scanned": 2680,
+  "connector": 993,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 199,
-  "unknown": 301,
-  "synthetic": 491
+  "unknown": 302,
+  "synthetic": 492
  },
  "domain": {
-  "unnamed": 1520,
+  "unnamed": 1522,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 993,
+  "harbor": 995,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,9 +39,9 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 137,
+  "email-calendar-gym": 138,
   "linear-gym": 106,
-  "gws-gym": 103,
+  "gws-gym": 104,
   "notion-gym": 95,
   "outlook-gym": 92,
   "slack": 66,
@@ -54,8 +54,8 @@
   "shopify-gym": 3
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 274099
  },
  "errors": [],
  "tasks": [
@@ -5963,6 +5963,22 @@
    "sha256": "8de02b4c6e7d2d23dd8eeee757df6e2c5f54d9638a15844f77dce4b6ae4a7441",
    "size_bytes": 9756092,
    "updated": "2026-10-06T20:47:18.854Z"
+  },
+  {
+   "declared_name": "harbor/cincinnati-lab-orders-counted-once",
+   "declared_short": "cincinnati-lab-orders-counted-once",
+   "folder": "cincinnati-lab-orders-counted-once",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "75bceee60337864262599c146dd6245e43becc900001549cb16c67e78057ba82",
+   "size_bytes": 8865450,
+   "updated": "2026-10-06T23:26:48.771Z"
   },
   {
    "connector_provenance": "real",
@@ -39880,6 +39896,22 @@
    "sha256": "4e8d3313270475d61f181a1b5772a5e4a4b4ca937a052c51a861a53d8ea84a2d",
    "size_bytes": 6843295,
    "updated": "2026-09-29T16:53:15.831Z"
+  },
+  {
+   "declared_name": "harbor/who-is-still-waiting-on-me",
+   "declared_short": "who-is-still-waiting-on-me",
+   "folder": "who-is-still-waiting-on-me",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3f087924993599dde7c8bf1c9e6620d9f48f14fa12597aa1d414739f192c8ede",
+   "size_bytes": 9851163,
+   "updated": "2026-10-06T23:28:55.646Z"
   },
   {
    "connector_provenance": "real",
