@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T19:35:03+00:00",
+ "generated_at": "2026-10-06T19:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2668,
-  "scanned": 2668,
-  "connector": 981,
+  "task_folders": 2670,
+  "scanned": 2670,
+  "connector": 983,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 197,
+  "real": 199,
   "unknown": 298,
   "synthetic": 486
  },
  "domain": {
-  "unnamed": 1510,
+  "unnamed": 1512,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 983,
+  "harbor": 985,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,8 +41,8 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 136,
   "linear-gym": 104,
-  "gws-gym": 101,
-  "notion-gym": 93,
+  "gws-gym": 102,
+  "notion-gym": 94,
   "outlook-gym": 91,
   "slack": 66,
   "github-gym": 61,
@@ -54,8 +54,8 @@
   "shopify-gym": 3
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135636
+  "new_archives_read": 2,
+  "approx_bytes_read": 274124
  },
  "errors": [],
  "tasks": [
@@ -28627,6 +28627,22 @@
    "updated": "2026-10-06T19:28:06.396Z"
   },
   {
+   "declared_name": "harbor/notification-emails-against-the-spec",
+   "declared_short": "notification-emails-against-the-spec",
+   "folder": "notification-emails-against-the-spec",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "374b7e68a2c0ef1802bdd7a66cd5bcffa498ae15a85e864542c99f88bdbf3bb2",
+   "size_bytes": 8353971,
+   "updated": "2026-10-06T19:37:13.677Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
@@ -30370,6 +30386,22 @@
    "updated": "2026-10-01T19:54:38.420Z"
   },
   {
+   "declared_name": "harbor/spring-lab-results-pending-at-report",
+   "declared_short": "spring-lab-results-pending-at-report",
+   "folder": "spring-lab-results-pending-at-report",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "1e40b5ddfa430da134ebcf6a8a1b65ae145583b7ae0f72f76a59acf56ce55f8e",
+   "size_bytes": 13492048,
+   "updated": "2026-10-06T19:38:48.288Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "gws-gym"
@@ -30580,17 +30612,17 @@
    "updated": "2026-10-01T17:34:21.318Z"
   },
   {
-   "declared_name": "harbor/sunset-project-open-work-audit",
-   "declared_short": "sunset-project-open-work-audit",
-   "folder": "sunset-project-open-work-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/sunset-project-open-work-audit",
+   "declared_short": "sunset-project-open-work-audit",
    "domain": null,
+   "folder": "sunset-project-open-work-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "537a83fdc154b3f64013d85e800583918b6aa3e99dded906b069f72621330c7b",
    "size_bytes": 8180423,
    "updated": "2026-10-06T19:32:31.615Z"
