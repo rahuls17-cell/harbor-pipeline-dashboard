@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T15:55:03+00:00",
+ "generated_at": "2026-10-06T16:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2633,
-  "scanned": 2633,
-  "connector": 946,
+  "task_folders": 2635,
+  "scanned": 2635,
+  "connector": 948,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 194,
   "unknown": 283,
-  "synthetic": 469
+  "synthetic": 471
  },
  "domain": {
-  "unnamed": 1475,
+  "unnamed": 1477,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 948,
+  "harbor": 950,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,10 +40,10 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 133,
-  "linear-gym": 97,
+  "linear-gym": 98,
   "gws-gym": 96,
   "notion-gym": 89,
-  "outlook-gym": 86,
+  "outlook-gym": 87,
   "slack": 66,
   "github-gym": 57,
   "snowflake-gym": 17,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 273474
  },
  "errors": [],
  "tasks": [
@@ -31192,6 +31192,22 @@
    "updated": "2026-09-19T05:33:05.656Z"
   },
   {
+   "declared_name": "harbor/team-roster-access-audit",
+   "declared_short": "team-roster-access-audit",
+   "folder": "team-roster-access-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3f36d59f2a6f34b1481502a8b15a355dfd10a1b044898b5cdc3185ecd587a10e",
+   "size_bytes": 5708715,
+   "updated": "2026-10-06T16:02:42.943Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/tech-b45-t1-slate-outage-window-reconstruction",
@@ -34034,6 +34050,22 @@
    "sha256": "3e8cceb67569ffb6b68257cefc4956705880e3dfcfd233c38bcca2879b108e14",
    "size_bytes": 12229966,
    "updated": "2026-09-27T07:01:16.827Z"
+  },
+  {
+   "declared_name": "harbor/the-focused-mail-i-have-not-read",
+   "declared_short": "the-focused-mail-i-have-not-read",
+   "folder": "the-focused-mail-i-have-not-read",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "51fa76956079659ebb732640788cae6ab142bfb74b0a24f3622cf0b780a3731c",
+   "size_bytes": 218129616,
+   "updated": "2026-10-06T16:04:07.910Z"
   },
   {
    "connector_provenance": "synthetic",
