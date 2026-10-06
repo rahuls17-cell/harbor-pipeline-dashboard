@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T23:40:03+00:00",
+ "generated_at": "2026-10-06T23:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2682,
@@ -54,8 +54,8 @@
   "shopify-gym": 3
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134600
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -35513,17 +35513,17 @@
    "updated": "2026-10-02T19:39:42.252Z"
   },
   {
-   "declared_name": "harbor/the-notifications-from-a-hundred-senders",
-   "declared_short": "the-notifications-from-a-hundred-senders",
-   "folder": "the-notifications-from-a-hundred-senders",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-notifications-from-a-hundred-senders",
+   "declared_short": "the-notifications-from-a-hundred-senders",
    "domain": null,
+   "folder": "the-notifications-from-a-hundred-senders",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8058c1a878b825efd330289c9d6a5e45825ffa9c6021efb3bf253435f866078c",
    "size_bytes": 224564025,
    "updated": "2026-10-06T23:37:50.658Z"
