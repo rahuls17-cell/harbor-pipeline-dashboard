@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T17:00:03+00:00",
+ "generated_at": "2026-10-06T17:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2646,
-  "scanned": 2646,
-  "connector": 959,
+  "task_folders": 2648,
+  "scanned": 2648,
+  "connector": 961,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 194,
+  "real": 195,
   "unknown": 289,
-  "synthetic": 476
+  "synthetic": 477
  },
  "domain": {
-  "unnamed": 1488,
+  "unnamed": 1490,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 961,
+  "harbor": 963,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 260,
+  "slack-gym": 261,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -43,10 +43,10 @@
   "linear-gym": 101,
   "gws-gym": 97,
   "notion-gym": 91,
-  "outlook-gym": 88,
+  "outlook-gym": 89,
   "slack": 66,
   "github-gym": 59,
-  "snowflake-gym": 17,
+  "snowflake-gym": 18,
   "supabase-gym": 14,
   "teams-gym": 12,
   "microsoft-teams-gym": 6,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 271251
  },
  "errors": [],
  "tasks": [
@@ -30225,6 +30225,23 @@
    "updated": "2026-09-19T09:11:13.539Z"
   },
   {
+   "declared_name": "harbor/stale-input-publish-audit",
+   "declared_short": "stale-input-publish-audit",
+   "folder": "stale-input-publish-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "43fdc9a0b5f242b4ea3f4e61e5c989f8e2d28abadfb31ee76dcf7510e983c174",
+   "size_bytes": 8668798,
+   "updated": "2026-10-06T17:13:43.037Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
@@ -36290,6 +36307,22 @@
    "sha256": "470a0b2b8a0cd79954f1753291d0394ee08468a4fcad6505399361fc8d4c8837",
    "size_bytes": 25074510,
    "updated": "2026-09-29T09:51:45.632Z"
+  },
+  {
+   "declared_name": "harbor/the-standup-that-runs-less-than-it-claims",
+   "declared_short": "the-standup-that-runs-less-than-it-claims",
+   "folder": "the-standup-that-runs-less-than-it-claims",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "d6c71432bbc261d77f9596cff94d828c9cc92118069fbe12152fbc8306aa831f",
+   "size_bytes": 8060923,
+   "updated": "2026-10-06T17:14:14.162Z"
   },
   {
    "connector_provenance": "unknown",
