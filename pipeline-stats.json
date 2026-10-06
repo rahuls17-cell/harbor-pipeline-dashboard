@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T09:55:03+00:00",
+ "generated_at": "2026-10-06T10:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2599,
-  "scanned": 2599,
-  "connector": 912,
+  "task_folders": 2600,
+  "scanned": 2600,
+  "connector": 913,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 188,
+  "real": 189,
   "unknown": 276,
   "synthetic": 448
  },
  "domain": {
-  "unnamed": 1441,
+  "unnamed": 1442,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 914,
+  "harbor": 915,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 124,
-  "gws-gym": 90,
+  "gws-gym": 91,
   "linear-gym": 89,
   "notion-gym": 85,
   "outlook-gym": 83,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135112
+  "approx_bytes_read": 137132
  },
  "errors": [],
  "tasks": [
@@ -28833,17 +28833,17 @@
    "updated": "2026-09-20T11:12:23.167Z"
   },
   {
-   "declared_name": "harbor/position-fifty-one-in-a-conversation-of-two",
-   "declared_short": "position-fifty-one-in-a-conversation-of-two",
-   "folder": "position-fifty-one-in-a-conversation-of-two",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/position-fifty-one-in-a-conversation-of-two",
+   "declared_short": "position-fifty-one-in-a-conversation-of-two",
    "domain": null,
+   "folder": "position-fifty-one-in-a-conversation-of-two",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "19a555110961237355bb059fc3e79f4fbc784aa05368d75ddee2d13f00fd6e3c",
    "size_bytes": 183320473,
    "updated": "2026-10-06T09:50:03.663Z"
@@ -28879,6 +28879,22 @@
    "sha256": "6ce602d7398d3516b4146074268cb7a6ce785b93bc906ba08dea273936aca3d3",
    "size_bytes": 15359849,
    "updated": "2026-10-01T17:18:43.324Z"
+  },
+  {
+   "declared_name": "harbor/practices-still-billed-at-wind-down",
+   "declared_short": "practices-still-billed-at-wind-down",
+   "folder": "practices-still-billed-at-wind-down",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "558e17aa3f00cddb4552e8766d992ae4dffc6387d49d671116e47728e04aca7c",
+   "size_bytes": 9476033,
+   "updated": "2026-10-06T10:01:59.478Z"
   },
   {
    "connector_provenance": "synthetic",
