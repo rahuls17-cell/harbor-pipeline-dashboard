@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T18:45:04+00:00",
+ "generated_at": "2026-10-06T18:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2659,
-  "scanned": 2659,
-  "connector": 972,
+  "task_folders": 2660,
+  "scanned": 2660,
+  "connector": 973,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 196,
-  "unknown": 293,
+  "unknown": 294,
   "synthetic": 483
  },
  "domain": {
-  "unnamed": 1501,
+  "unnamed": 1502,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 974,
+  "harbor": 975,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 135,
   "linear-gym": 103,
-  "gws-gym": 99,
+  "gws-gym": 100,
   "notion-gym": 93,
   "outlook-gym": 90,
   "slack": 66,
@@ -54,8 +54,8 @@
   "shopify-gym": 3
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 408036
+  "new_archives_read": 1,
+  "approx_bytes_read": 132570
  },
  "errors": [],
  "tasks": [
@@ -26134,17 +26134,17 @@
    "updated": "2026-10-01T15:15:47.571Z"
   },
   {
-   "declared_name": "harbor/investor-update-kpi-tracker",
-   "declared_short": "investor-update-kpi-tracker",
-   "folder": "investor-update-kpi-tracker",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/investor-update-kpi-tracker",
+   "declared_short": "investor-update-kpi-tracker",
    "domain": null,
+   "folder": "investor-update-kpi-tracker",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "83d3a35aa81d447cf6f8899f06094344d64dd0e2a1c6539aa22cc0117b6c7620",
    "size_bytes": 14912790,
    "updated": "2026-10-06T18:42:34.677Z"
@@ -28595,17 +28595,17 @@
    "updated": "2026-10-01T19:47:05.706Z"
   },
   {
-   "declared_name": "harbor/oct-nov-where-patients-had-blood-drawn",
-   "declared_short": "oct-nov-where-patients-had-blood-drawn",
-   "folder": "oct-nov-where-patients-had-blood-drawn",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/oct-nov-where-patients-had-blood-drawn",
+   "declared_short": "oct-nov-where-patients-had-blood-drawn",
    "domain": null,
+   "folder": "oct-nov-where-patients-had-blood-drawn",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5e2b9f24ab705e9d0f40a6767c79be7e70a87c7ce8a677dd148f940b3cb286ac",
    "size_bytes": 11387548,
    "updated": "2026-10-06T18:43:12.809Z"
@@ -30096,6 +30096,22 @@
    "sha256": "8f13734790371136c74d9b06ed5d1e094c74fea55e35af59c124550b72ee1c58",
    "size_bytes": 14734421,
    "updated": "2026-10-01T12:14:09.417Z"
+  },
+  {
+   "declared_name": "harbor/september-and-october-lab-orders",
+   "declared_short": "september-and-october-lab-orders",
+   "folder": "september-and-october-lab-orders",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "478688f0720bf5a7a4317ecccb72256af13ee4f40a4377592653435a6fdbe9e3",
+   "size_bytes": 8249592,
+   "updated": "2026-10-06T18:49:01.053Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -37551,17 +37567,17 @@
    "updated": "2026-09-06T03:50:35.764Z"
   },
   {
-   "declared_name": "harbor/unprioritised-active-project-audit",
-   "declared_short": "unprioritised-active-project-audit",
-   "folder": "unprioritised-active-project-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/unprioritised-active-project-audit",
+   "declared_short": "unprioritised-active-project-audit",
    "domain": null,
+   "folder": "unprioritised-active-project-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2d3d89a8fe0d7e45fca7fe81340e369ac0172a19961e4be64f9d8102d0911cde",
    "size_bytes": 11869092,
    "updated": "2026-10-06T18:42:52.294Z"
