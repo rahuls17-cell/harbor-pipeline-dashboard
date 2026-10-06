@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T19:40:03+00:00",
+ "generated_at": "2026-10-06T19:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2670,
-  "scanned": 2670,
-  "connector": 983,
+  "task_folders": 2672,
+  "scanned": 2672,
+  "connector": 985,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 199,
-  "unknown": 298,
-  "synthetic": 486
+  "unknown": 299,
+  "synthetic": 487
  },
  "domain": {
-  "unnamed": 1512,
+  "unnamed": 1514,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 985,
+  "harbor": 987,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 266,
+  "slack-gym": 267,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -43,7 +43,7 @@
   "linear-gym": 104,
   "gws-gym": 102,
   "notion-gym": 94,
-  "outlook-gym": 91,
+  "outlook-gym": 92,
   "slack": 66,
   "github-gym": 61,
   "snowflake-gym": 18,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 274124
+  "approx_bytes_read": 274262
  },
  "errors": [],
  "tasks": [
@@ -28627,17 +28627,17 @@
    "updated": "2026-10-06T19:28:06.396Z"
   },
   {
-   "declared_name": "harbor/notification-emails-against-the-spec",
-   "declared_short": "notification-emails-against-the-spec",
-   "folder": "notification-emails-against-the-spec",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/notification-emails-against-the-spec",
+   "declared_short": "notification-emails-against-the-spec",
    "domain": null,
+   "folder": "notification-emails-against-the-spec",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "374b7e68a2c0ef1802bdd7a66cd5bcffa498ae15a85e864542c99f88bdbf3bb2",
    "size_bytes": 8353971,
    "updated": "2026-10-06T19:37:13.677Z"
@@ -30210,6 +30210,22 @@
    "updated": "2026-10-02T02:36:27.535Z"
   },
   {
+   "declared_name": "harbor/service-key-rotation-audit",
+   "declared_short": "service-key-rotation-audit",
+   "folder": "service-key-rotation-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "f459bc8d78fc3fa19ab2a8b1f9bdc2510cf46e513fb71f2a14c834d7868468f7",
+   "size_bytes": 13748524,
+   "updated": "2026-10-06T19:40:18.059Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
@@ -30386,17 +30402,17 @@
    "updated": "2026-10-01T19:54:38.420Z"
   },
   {
-   "declared_name": "harbor/spring-lab-results-pending-at-report",
-   "declared_short": "spring-lab-results-pending-at-report",
-   "folder": "spring-lab-results-pending-at-report",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/spring-lab-results-pending-at-report",
+   "declared_short": "spring-lab-results-pending-at-report",
    "domain": null,
+   "folder": "spring-lab-results-pending-at-report",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1e40b5ddfa430da134ebcf6a8a1b65ae145583b7ae0f72f76a59acf56ce55f8e",
    "size_bytes": 13492048,
    "updated": "2026-10-06T19:38:48.288Z"
@@ -36437,6 +36453,22 @@
    "sha256": "3dc0dcb75d517cd70a3c99de5a61573e9e06f5509952894cb54d629323594f82",
    "size_bytes": 4725612,
    "updated": "2026-09-29T22:04:11.656Z"
+  },
+  {
+   "declared_name": "harbor/the-send-list-nobody-typed-by-hand",
+   "declared_short": "the-send-list-nobody-typed-by-hand",
+   "folder": "the-send-list-nobody-typed-by-hand",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "248150c8649e4cbe31a431333c00bb24676dbe19ed1d9f33d5ecd8d0d4a2284b",
+   "size_bytes": 141878487,
+   "updated": "2026-10-06T19:42:22.570Z"
   },
   {
    "connector_provenance": "real",
