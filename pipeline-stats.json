@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T12:50:03+00:00",
+ "generated_at": "2026-10-06T12:55:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2610,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138720
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -27985,18 +27985,18 @@
    "updated": "2026-09-19T17:11:12.762Z"
   },
   {
-   "declared_name": "harbor/mart-refresh-blocker-audit",
-   "declared_short": "mart-refresh-blocker-audit",
-   "folder": "mart-refresh-blocker-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/mart-refresh-blocker-audit",
+   "declared_short": "mart-refresh-blocker-audit",
    "domain": null,
+   "folder": "mart-refresh-blocker-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9f189b5e8217e8084e0664603be16c1778cdbc2d56bdb88891de57ed891cd3ac",
    "size_bytes": 6217650,
    "updated": "2026-10-06T12:48:14.093Z"
