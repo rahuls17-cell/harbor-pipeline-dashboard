@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T23:35:03+00:00",
+ "generated_at": "2026-10-06T23:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2681,
-  "scanned": 2681,
-  "connector": 994,
+  "task_folders": 2682,
+  "scanned": 2682,
+  "connector": 995,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 199,
-  "unknown": 302,
+  "unknown": 303,
   "synthetic": 493
  },
  "domain": {
-  "unnamed": 1523,
+  "unnamed": 1524,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 996,
+  "harbor": 997,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -43,7 +43,7 @@
   "linear-gym": 107,
   "gws-gym": 104,
   "notion-gym": 95,
-  "outlook-gym": 92,
+  "outlook-gym": 93,
   "slack": 66,
   "github-gym": 62,
   "snowflake-gym": 19,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136094
+  "approx_bytes_read": 134600
  },
  "errors": [],
  "tasks": [
@@ -30645,18 +30645,18 @@
    "updated": "2026-09-05T19:15:52.856Z"
   },
   {
-   "declared_name": "harbor/stranded-feed-spend-audit",
-   "declared_short": "stranded-feed-spend-audit",
-   "folder": "stranded-feed-spend-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/stranded-feed-spend-audit",
+   "declared_short": "stranded-feed-spend-audit",
    "domain": null,
+   "folder": "stranded-feed-spend-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3dcb4d1397bd80892435f4d13c3511e9efcc2402929ec7dec6e6b7802266597c",
    "size_bytes": 7710578,
    "updated": "2026-10-06T23:34:20.322Z"
@@ -35511,6 +35511,22 @@
    "sha256": "7c20c8eedacdbd8c43db61a986fdf13adec1f2d3f64c9e07214667555fc56036",
    "size_bytes": 7328612,
    "updated": "2026-10-02T19:39:42.252Z"
+  },
+  {
+   "declared_name": "harbor/the-notifications-from-a-hundred-senders",
+   "declared_short": "the-notifications-from-a-hundred-senders",
+   "folder": "the-notifications-from-a-hundred-senders",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "8058c1a878b825efd330289c9d6a5e45825ffa9c6021efb3bf253435f866078c",
+   "size_bytes": 224564025,
+   "updated": "2026-10-06T23:37:50.658Z"
   },
   {
    "connector_provenance": "synthetic",
