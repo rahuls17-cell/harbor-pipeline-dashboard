@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T18:55:04+00:00",
+ "generated_at": "2026-10-06T19:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2664,
-  "scanned": 2664,
-  "connector": 977,
+  "task_folders": 2665,
+  "scanned": 2665,
+  "connector": 978,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 197,
-  "unknown": 296,
+  "unknown": 297,
   "synthetic": 484
  },
  "domain": {
-  "unnamed": 1506,
+  "unnamed": 1507,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 979,
+  "harbor": 980,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 135,
+  "email-calendar-gym": 136,
   "linear-gym": 103,
   "gws-gym": 101,
   "notion-gym": 93,
@@ -54,8 +54,8 @@
   "shopify-gym": 3
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 543536
+  "new_archives_read": 1,
+  "approx_bytes_read": 132448
  },
  "errors": [],
  "tasks": [
@@ -2361,17 +2361,17 @@
    "updated": "2026-10-06T09:17:08.339Z"
   },
   {
-   "declared_name": "harbor/blackout-days-for-the-kickoff",
-   "declared_short": "blackout-days-for-the-kickoff",
-   "folder": "blackout-days-for-the-kickoff",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/blackout-days-for-the-kickoff",
+   "declared_short": "blackout-days-for-the-kickoff",
    "domain": null,
+   "folder": "blackout-days-for-the-kickoff",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "691b148cf55c1f47a79fe65b9cda2a23ab271593265838f6f65f70ff71a24080",
    "size_bytes": 34146832,
    "updated": "2026-10-06T18:50:06.287Z"
@@ -15101,17 +15101,17 @@
    "updated": "2026-09-28T23:22:29.076Z"
   },
   {
-   "declared_name": "harbor/filed-where-i-cannot-look",
-   "declared_short": "filed-where-i-cannot-look",
-   "folder": "filed-where-i-cannot-look",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/filed-where-i-cannot-look",
+   "declared_short": "filed-where-i-cannot-look",
    "domain": null,
+   "folder": "filed-where-i-cannot-look",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6a8cb08e6ca70226118a82fec97ef691d79bb60eaa4c6314560bdd04968286af",
    "size_bytes": 8335341,
    "updated": "2026-10-06T18:53:25.531Z"
@@ -26486,17 +26486,17 @@
    "updated": "2026-09-29T13:09:18.594Z"
   },
   {
-   "declared_name": "harbor/labels-only-on-paper",
-   "declared_short": "labels-only-on-paper",
-   "folder": "labels-only-on-paper",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/labels-only-on-paper",
+   "declared_short": "labels-only-on-paper",
    "domain": null,
+   "folder": "labels-only-on-paper",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9685cdcdc0055db65a726089009df610e4e154e4d2f5d3c0f27ecaf5d3882342",
    "size_bytes": 8120715,
    "updated": "2026-10-06T18:52:23.094Z"
@@ -34071,6 +34071,22 @@
    "updated": "2026-09-20T14:32:35.537Z"
   },
   {
+   "declared_name": "harbor/the-digest-i-get-twice",
+   "declared_short": "the-digest-i-get-twice",
+   "folder": "the-digest-i-get-twice",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "e9c7435ccc49a7af93bc71d7d41d857e8989a2392692b17e87d37e6b6682fa19",
+   "size_bytes": 13469748,
+   "updated": "2026-10-06T18:55:16.770Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
@@ -39753,17 +39769,17 @@
    "updated": "2026-10-02T20:28:29.869Z"
   },
   {
-   "declared_name": "harbor/who-spoke-in-the-eng-huddles",
-   "declared_short": "who-spoke-in-the-eng-huddles",
-   "folder": "who-spoke-in-the-eng-huddles-QC-INPUT-v1-PRE-GATE",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/who-spoke-in-the-eng-huddles",
+   "declared_short": "who-spoke-in-the-eng-huddles",
    "domain": null,
+   "folder": "who-spoke-in-the-eng-huddles-QC-INPUT-v1-PRE-GATE",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "fd0433749ff22d7f13518a86c9d57cbf5bf226b36c2a1138ec0c477d753a3cfa",
    "size_bytes": 10132765,
    "updated": "2026-10-06T18:50:10.143Z"
