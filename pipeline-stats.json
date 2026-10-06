@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T13:35:03+00:00",
+ "generated_at": "2026-10-06T13:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2615,
-  "scanned": 2615,
-  "connector": 928,
+  "task_folders": 2616,
+  "scanned": 2616,
+  "connector": 929,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 191,
+  "real": 192,
   "unknown": 279,
   "synthetic": 458
  },
  "domain": {
-  "unnamed": 1457,
+  "unnamed": 1458,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 930,
+  "harbor": 931,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 128,
+  "email-calendar-gym": 129,
   "linear-gym": 93,
   "gws-gym": 93,
   "notion-gym": 85,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 142095
+  "approx_bytes_read": 142079
  },
  "errors": [],
  "tasks": [
@@ -35635,17 +35635,17 @@
    "updated": "2026-09-24T18:37:28.300Z"
   },
   {
-   "declared_name": "harbor/the-rooms-where-nothing-was-ever-said",
-   "declared_short": "the-rooms-where-nothing-was-ever-said",
-   "folder": "the-rooms-where-nothing-was-ever-said",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-teams-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-rooms-where-nothing-was-ever-said",
+   "declared_short": "the-rooms-where-nothing-was-ever-said",
    "domain": null,
+   "folder": "the-rooms-where-nothing-was-ever-said",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a9fd89990f3ec5110f8777f2e97774d3671de3be254e00f4912bc7a79c819409",
    "size_bytes": 11655013,
    "updated": "2026-10-06T13:32:28.594Z"
@@ -37601,6 +37601,22 @@
    "sha256": "d8341d3fa31d3f899b3fc94377f16cf58e7a1e86b809a1b1357c1a9c8454414c",
    "size_bytes": 15512752,
    "updated": "2026-10-01T19:06:46.337Z"
+  },
+  {
+   "declared_name": "harbor/visit-weeks-pushed-out-in-bulk",
+   "declared_short": "visit-weeks-pushed-out-in-bulk",
+   "folder": "visit-weeks-pushed-out-in-bulk",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "4217e1bf86bfde29e8b870c19e0ce6023a8b3ac4c044d577d76bdb2625c8f2e5",
+   "size_bytes": 15415067,
+   "updated": "2026-10-06T13:37:49.787Z"
   },
   {
    "connector_provenance": "unknown",
