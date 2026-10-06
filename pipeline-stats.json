@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T13:50:02+00:00",
+ "generated_at": "2026-10-06T13:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2618,
-  "scanned": 2618,
-  "connector": 931,
+  "task_folders": 2620,
+  "scanned": 2620,
+  "connector": 933,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 192,
   "unknown": 280,
-  "synthetic": 459
+  "synthetic": 461
  },
  "domain": {
-  "unnamed": 1460,
+  "unnamed": 1462,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 933,
+  "harbor": 935,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 258,
+  "slack-gym": 259,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 129,
   "linear-gym": 94,
   "gws-gym": 94,
-  "notion-gym": 85,
+  "notion-gym": 86,
   "outlook-gym": 85,
   "slack": 66,
   "github-gym": 57,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 275622
  },
  "errors": [],
  "tasks": [
@@ -34003,6 +34003,22 @@
    "updated": "2026-09-29T10:04:55.473Z"
   },
   {
+   "declared_name": "harbor/the-handbook-pages-that-contradict",
+   "declared_short": "the-handbook-pages-that-contradict",
+   "folder": "the-handbook-pages-that-contradict",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "81a03ef91e3c18cdeb7fa21778a515fbb360a9cc301cb159d9066d9f8f3e88a0",
+   "size_bytes": 7662561,
+   "updated": "2026-10-06T13:54:19.143Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
@@ -36161,6 +36177,22 @@
    "sha256": "a56900a647f1fc82312a5c488e710d06fac68fbee65a2580fc321a2406a5ce63",
    "size_bytes": 7698847,
    "updated": "2026-09-29T22:55:54.959Z"
+  },
+  {
+   "declared_name": "harbor/the-team-the-search-invented",
+   "declared_short": "the-team-the-search-invented",
+   "folder": "the-team-the-search-invented",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "21511bb8808185b85bddf67b3ab759c5253e513bc3bfe0016f75923bf0b7706e",
+   "size_bytes": 7980906,
+   "updated": "2026-10-06T13:52:27.717Z"
   },
   {
    "connector_provenance": "synthetic",
