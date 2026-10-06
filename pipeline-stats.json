@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T23:50:03+00:00",
+ "generated_at": "2026-10-06T23:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2683,
@@ -54,8 +54,8 @@
   "shopify-gym": 3
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135832
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -36105,17 +36105,17 @@
    "updated": "2026-10-03T05:48:47.796Z"
   },
   {
-   "declared_name": "harbor/the-real-guest-headcount",
-   "declared_short": "the-real-guest-headcount",
-   "folder": "the-real-guest-headcount",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-real-guest-headcount",
+   "declared_short": "the-real-guest-headcount",
    "domain": null,
+   "folder": "the-real-guest-headcount",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f622754503f6358ab40e951e920c9dfae896e834392b33398a398b8bebf7878d",
    "size_bytes": 12401772,
    "updated": "2026-10-06T23:47:23.163Z"
