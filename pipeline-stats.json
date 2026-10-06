@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T11:10:03+00:00",
+ "generated_at": "2026-10-06T11:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2603,
-  "scanned": 2603,
-  "connector": 916,
+  "task_folders": 2605,
+  "scanned": 2605,
+  "connector": 918,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 189,
-  "unknown": 276,
-  "synthetic": 451
+  "unknown": 277,
+  "synthetic": 452
  },
  "domain": {
-  "unnamed": 1445,
+  "unnamed": 1447,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 918,
+  "harbor": 920,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 124,
+  "email-calendar-gym": 126,
   "gws-gym": 93,
   "linear-gym": 90,
   "notion-gym": 85,
@@ -54,8 +54,8 @@
   "shopify-gym": 2
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 270158
  },
  "errors": [],
  "tasks": [
@@ -29197,6 +29197,22 @@
    "updated": "2026-09-29T07:12:34.859Z"
   },
   {
+   "declared_name": "harbor/report-runs-that-failed",
+   "declared_short": "report-runs-that-failed",
+   "folder": "report-runs-that-failed",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "f4e2d8a3224e0b68b9afa6338ffc34d7a5c1adb3543390f45ca5c941e2703858",
+   "size_bytes": 6023890,
+   "updated": "2026-10-06T11:47:47.447Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
@@ -34352,6 +34368,22 @@
    "sha256": "f0ec374a025cbbefe33358038603189ee26bf47ef449714a33320ca7acb8bc41",
    "size_bytes": 11968823,
    "updated": "2026-09-23T07:26:19.752Z"
+  },
+  {
+   "declared_name": "harbor/the-meetings-nobody-actually-confirmed",
+   "declared_short": "the-meetings-nobody-actually-confirmed",
+   "folder": "the-meetings-nobody-actually-confirmed",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "76c08a20dadc44476f37cf1600f2dadef20cfefe2d41427ef3e73f5b076ae164",
+   "size_bytes": 7172139,
+   "updated": "2026-10-06T11:49:09.492Z"
   },
   {
    "connector_provenance": "synthetic",
