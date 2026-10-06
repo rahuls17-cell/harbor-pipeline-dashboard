@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T08:05:03+00:00",
+ "generated_at": "2026-10-06T08:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2592,
-  "scanned": 2592,
-  "connector": 905,
+  "task_folders": 2593,
+  "scanned": 2593,
+  "connector": 906,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 188,
   "unknown": 274,
-  "synthetic": 443
+  "synthetic": 444
  },
  "domain": {
-  "unnamed": 1434,
+  "unnamed": 1435,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 907,
+  "harbor": 908,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -43,11 +43,11 @@
   "linear-gym": 88,
   "gws-gym": 88,
   "notion-gym": 85,
-  "outlook-gym": 81,
+  "outlook-gym": 82,
   "slack": 66,
   "github-gym": 57,
   "snowflake-gym": 15,
-  "supabase-gym": 12,
+  "supabase-gym": 13,
   "teams-gym": 12,
   "microsoft-teams-gym": 5,
   "microsoft-365-gym": 4,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135575
+  "approx_bytes_read": 141939
  },
  "errors": [],
  "tasks": [
@@ -14510,6 +14510,23 @@
    "updated": "2026-10-01T10:10:03.314Z"
   },
   {
+   "declared_name": "harbor/enterprise-key-retirement-audit",
+   "declared_short": "enterprise-key-retirement-audit",
+   "folder": "enterprise-key-retirement-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym",
+    "supabase-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "6511e04467ff5c4f50d523ff27400333ac6845ff9992b92e8543ca516783549e",
+   "size_bytes": 7861427,
+   "updated": "2026-10-06T08:08:25.690Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
@@ -28719,17 +28736,17 @@
    "updated": "2026-09-19T22:04:15.292Z"
   },
   {
-   "declared_name": "harbor/pilot-practices-live-without-agreement",
-   "declared_short": "pilot-practices-live-without-agreement",
-   "folder": "pilot-practices-live-without-agreement",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/pilot-practices-live-without-agreement",
+   "declared_short": "pilot-practices-live-without-agreement",
    "domain": null,
+   "folder": "pilot-practices-live-without-agreement",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4e1ead7171b3f3bf153dbe39d4d7248e3b7273ce5e3f51544752624437de012c",
    "size_bytes": 5520621,
    "updated": "2026-10-06T08:03:32.333Z"
