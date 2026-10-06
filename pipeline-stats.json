@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-06T21:20:03+00:00",
+ "generated_at": "2026-10-06T21:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2676,
-  "scanned": 2676,
-  "connector": 989,
+  "task_folders": 2677,
+  "scanned": 2677,
+  "connector": 990,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 199,
-  "unknown": 300,
+  "unknown": 301,
   "synthetic": 490
  },
  "domain": {
-  "unnamed": 1518,
+  "unnamed": 1519,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 991,
+  "harbor": 992,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 136,
   "linear-gym": 106,
-  "gws-gym": 102,
+  "gws-gym": 103,
   "notion-gym": 95,
   "outlook-gym": 92,
   "slack": 66,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 138168
+  "approx_bytes_read": 137089
  },
  "errors": [],
  "tasks": [
@@ -1824,17 +1824,17 @@
    "updated": "2026-10-03T01:32:55.842Z"
   },
   {
-   "declared_name": "harbor/backlog-plan-staleness-audit",
-   "declared_short": "backlog-plan-staleness-audit",
-   "folder": "backlog-plan-staleness-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/backlog-plan-staleness-audit",
+   "declared_short": "backlog-plan-staleness-audit",
    "domain": null,
+   "folder": "backlog-plan-staleness-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a1d2ec92f050494a6e37bf46480263cb4cde8687edd4511ed8c263cc62ff3e51",
    "size_bytes": 10187839,
    "updated": "2026-10-06T21:19:45.594Z"
@@ -29781,6 +29781,22 @@
    "sha256": "28c131f45b25e1c7ed29d47fd54bbbb46b5eed5c4e963973b1fa2412a48db0f4",
    "size_bytes": 10610249,
    "updated": "2026-09-20T14:00:37.928Z"
+  },
+  {
+   "declared_name": "harbor/rooted-collection-routes",
+   "declared_short": "rooted-collection-routes",
+   "folder": "rooted-collection-routes",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "aaf81a51103bb1cf0244886590c59a693ad01d6f1472ae8098d1a88244c9901d",
+   "size_bytes": 11375274,
+   "updated": "2026-10-06T21:20:26.760Z"
   },
   {
    "connector_provenance": "real",
