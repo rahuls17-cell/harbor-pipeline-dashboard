@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T14:35:04+00:00",
+ "generated_at": "2026-10-07T14:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2790,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 403392
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -17561,17 +17561,17 @@
    "updated": "2026-09-29T21:32:53.949Z"
   },
   {
-   "declared_name": "harbor/fulfillment-report-gap-audit",
-   "declared_short": "fulfillment-report-gap-audit",
-   "folder": "fulfillment-report-gap-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "shopify-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/fulfillment-report-gap-audit",
+   "declared_short": "fulfillment-report-gap-audit",
    "domain": null,
+   "folder": "fulfillment-report-gap-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d2525b5df1fcbac267dc0367e54052cb631ee417280f4b184799b4f1a2b97683",
    "size_bytes": 6918043,
    "updated": "2026-10-07T14:34:39.511Z"
@@ -35025,17 +35025,17 @@
    "updated": "2026-10-06T13:55:28.090Z"
   },
   {
-   "declared_name": "harbor/the-comment-count-is-not-the-comments",
-   "declared_short": "the-comment-count-is-not-the-comments",
-   "folder": "the-comment-count-is-not-the-comments",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-comment-count-is-not-the-comments",
+   "declared_short": "the-comment-count-is-not-the-comments",
    "domain": null,
+   "folder": "the-comment-count-is-not-the-comments",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b801096e938ac49c77c95a41cbd1510f4efbf331522a90df56d89d5230a2ea46",
    "size_bytes": 8267333,
    "updated": "2026-10-07T14:32:41.439Z"
@@ -36513,17 +36513,17 @@
    "updated": "2026-09-26T07:26:12.870Z"
   },
   {
-   "declared_name": "harbor/the-meetings-that-run-past-midnight",
-   "declared_short": "the-meetings-that-run-past-midnight",
-   "folder": "the-meetings-that-run-past-midnight",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-meetings-that-run-past-midnight",
+   "declared_short": "the-meetings-that-run-past-midnight",
    "domain": null,
+   "folder": "the-meetings-that-run-past-midnight",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "02d5af93c69eef90628a648b358cffb2fd6c5ec1e60534cd3226272b0d9ccf8a",
    "size_bytes": 42790823,
    "updated": "2026-10-07T14:30:48.763Z"
