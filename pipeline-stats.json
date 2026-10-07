@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T18:15:03+00:00",
+ "generated_at": "2026-10-07T18:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2807,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136377
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -6232,17 +6232,17 @@
    "updated": "2026-09-28T02:37:30.543Z"
   },
   {
-   "declared_name": "harbor/clinic-lab-scorecard",
-   "declared_short": "clinic-lab-scorecard",
-   "folder": "clinic-lab-scorecard",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/clinic-lab-scorecard",
+   "declared_short": "clinic-lab-scorecard",
    "domain": null,
+   "folder": "clinic-lab-scorecard",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5d4462a12f8d0cda6dad332ec0c399073b8fc04aaf76a13b449fec8e6a815bdf",
    "size_bytes": 18827462,
    "updated": "2026-10-07T18:14:51.096Z"
