@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T06:35:04+00:00",
+ "generated_at": "2026-10-07T06:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2713,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136280
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -12885,17 +12885,17 @@
    "updated": "2026-10-01T10:11:08.399Z"
   },
   {
-   "declared_name": "harbor/document-sharing-exposure-audit",
-   "declared_short": "document-sharing-exposure-audit",
-   "folder": "document-sharing-exposure-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/document-sharing-exposure-audit",
+   "declared_short": "document-sharing-exposure-audit",
    "domain": null,
+   "folder": "document-sharing-exposure-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e49d4fda377fa8274ff31cd2418233a4f36060dc841b4c712bb456487d04d80a",
    "size_bytes": 9561169,
    "updated": "2026-10-07T06:30:03.496Z"
