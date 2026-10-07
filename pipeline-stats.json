@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T15:20:03+00:00",
+ "generated_at": "2026-10-07T15:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2795,
-  "scanned": 2795,
-  "connector": 1108,
+  "task_folders": 2796,
+  "scanned": 2796,
+  "connector": 1109,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 214,
   "unknown": 330,
-  "synthetic": 564
+  "synthetic": 565
  },
  "domain": {
-  "unnamed": 1637,
+  "unnamed": 1638,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1110,
+  "harbor": 1111,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 167,
+  "email-calendar-gym": 168,
   "linear-gym": 119,
   "gws-gym": 118,
   "notion-gym": 108,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 140143
  },
  "errors": [],
  "tasks": [
@@ -29774,6 +29774,22 @@
    "sha256": "1fca4995a46ab70035f6ec3be93d9462f99a04dbe76daa97d400910dd4c29baa",
    "size_bytes": 13413338,
    "updated": "2026-10-07T02:51:55.402Z"
+  },
+  {
+   "declared_name": "harbor/patient-record-exports-at-service-end",
+   "declared_short": "patient-record-exports-at-service-end",
+   "folder": "patient-record-exports-at-service-end",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "8dae4e864aa6bf4fc824b4d55c6dd996a168d6bf9c427d270cc52995830a9483",
+   "size_bytes": 10591501,
+   "updated": "2026-10-07T15:22:23.642Z"
   },
   {
    "connector_provenance": "unknown",
