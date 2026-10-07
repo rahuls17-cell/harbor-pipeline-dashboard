@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T03:40:03+00:00",
+ "generated_at": "2026-10-07T03:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2701,
-  "scanned": 2701,
-  "connector": 1014,
+  "task_folders": 2702,
+  "scanned": 2702,
+  "connector": 1015,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 202,
   "unknown": 309,
-  "synthetic": 503
+  "synthetic": 504
  },
  "domain": {
-  "unnamed": 1543,
+  "unnamed": 1544,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1016,
+  "harbor": 1017,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 141,
   "linear-gym": 108,
   "gws-gym": 106,
-  "outlook-gym": 99,
+  "outlook-gym": 100,
   "notion-gym": 98,
   "slack": 66,
   "github-gym": 62,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 138511
+  "approx_bytes_read": 132750
  },
  "errors": [],
  "tasks": [
@@ -16916,17 +16916,17 @@
    "updated": "2026-10-07T00:46:19.504Z"
   },
   {
-   "declared_name": "harbor/five-hundred-unowned-fourteen-already-in-a-sprint",
-   "declared_short": "five-hundred-unowned-fourteen-already-in-a-sprint",
-   "folder": "five-hundred-unowned-fourteen-already-in-a-sprint",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/five-hundred-unowned-fourteen-already-in-a-sprint",
+   "declared_short": "five-hundred-unowned-fourteen-already-in-a-sprint",
    "domain": null,
+   "folder": "five-hundred-unowned-fourteen-already-in-a-sprint",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a844640f9789521f77da2b73813456ed4a8070c629ca90dcb35ba6512b67c0b9",
    "size_bytes": 12448044,
    "updated": "2026-10-07T03:37:16.144Z"
@@ -35992,6 +35992,22 @@
    "sha256": "360ca67a1c65b4931db2b2b0aa40b5bd9e1e41f26df3ac757ddd2062df402569",
    "size_bytes": 7756911,
    "updated": "2026-09-28T18:32:35.174Z"
+  },
+  {
+   "declared_name": "harbor/the-people-i-only-know-from-a-meeting",
+   "declared_short": "the-people-i-only-know-from-a-meeting",
+   "folder": "the-people-i-only-know-from-a-meeting",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "52071bef96050ce6c23bdc539d77acd28516fa711adf9b583817cd63cafe7aa6",
+   "size_bytes": 8638886,
+   "updated": "2026-10-07T03:40:54.501Z"
   },
   {
    "connector_provenance": "synthetic",
