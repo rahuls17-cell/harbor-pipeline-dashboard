@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T13:40:03+00:00",
+ "generated_at": "2026-10-07T13:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2769,
-  "scanned": 2769,
-  "connector": 1082,
+  "task_folders": 2772,
+  "scanned": 2772,
+  "connector": 1085,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 211,
-  "unknown": 324,
-  "synthetic": 547
+  "real": 212,
+  "unknown": 325,
+  "synthetic": 548
  },
  "domain": {
-  "unnamed": 1611,
+  "unnamed": 1614,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1084,
+  "harbor": 1087,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,21 +41,21 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 159,
   "linear-gym": 117,
-  "gws-gym": 114,
+  "gws-gym": 115,
   "notion-gym": 106,
   "outlook-gym": 105,
-  "github-gym": 67,
+  "github-gym": 68,
   "slack": 66,
   "snowflake-gym": 24,
   "supabase-gym": 16,
   "teams-gym": 15,
   "microsoft-365-gym": 8,
-  "microsoft-teams-gym": 6,
+  "microsoft-teams-gym": 7,
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137339
+  "new_archives_read": 3,
+  "approx_bytes_read": 413207
  },
  "errors": [],
  "tasks": [
@@ -2545,17 +2545,17 @@
    "updated": "2026-10-02T19:58:11.481Z"
   },
   {
-   "declared_name": "harbor/budget-workbook-tie-out-audit",
-   "declared_short": "budget-workbook-tie-out-audit",
-   "folder": "budget-workbook-tie-out-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/budget-workbook-tie-out-audit",
+   "declared_short": "budget-workbook-tie-out-audit",
    "domain": null,
+   "folder": "budget-workbook-tie-out-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "fb3537eb9c7a999cfc23ec3799ee7b85c38432b1eee4ad22538e82fe75235f62",
    "size_bytes": 10109977,
    "updated": "2026-10-07T13:38:04.825Z"
@@ -17209,6 +17209,22 @@
    "updated": "2026-10-07T00:46:19.504Z"
   },
   {
+   "declared_name": "harbor/first-timers-fair-hearing",
+   "declared_short": "first-timers-fair-hearing",
+   "folder": "first-timers-fair-hearing",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "cfed6629d2a34b6eeab8003d813be162fe1f41b8898c9bea20d618a7c30d2dee",
+   "size_bytes": 11301153,
+   "updated": "2026-10-07T13:43:06.354Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "linear-gym"
@@ -26971,6 +26987,22 @@
    "sha256": "f9b6e387cbec7f09efa1be6ff9bd56f68c690541b16fb24dc25827d85a79de69",
    "size_bytes": 8176432,
    "updated": "2026-10-01T10:37:48.611Z"
+  },
+  {
+   "declared_name": "harbor/lab-test-price-list-with-fee-share",
+   "declared_short": "lab-test-price-list-with-fee-share",
+   "folder": "lab-test-price-list-with-fee-share",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "82dbd8efdd0b979ecec79afc22bbed695f7b9053fa911f8698d583870feb5226",
+   "size_bytes": 14479744,
+   "updated": "2026-10-07T13:41:05.872Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -38367,6 +38399,22 @@
    "sha256": "755c138306f80a9011d544cb9e6c0ce71552e009b7e3d7c35c9f1247fe63eec3",
    "size_bytes": 7272096,
    "updated": "2026-10-01T19:08:33.136Z"
+  },
+  {
+   "declared_name": "harbor/the-voices-that-are-not-on-the-thread",
+   "declared_short": "the-voices-that-are-not-on-the-thread",
+   "folder": "the-voices-that-are-not-on-the-thread",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-teams-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "74138d9a801a3a6e37fc14cf6e6271bcc79dc1479006411ae9f4daf7228d533d",
+   "size_bytes": 15498121,
+   "updated": "2026-10-07T13:42:06.249Z"
   },
   {
    "connector_provenance": "unknown",
