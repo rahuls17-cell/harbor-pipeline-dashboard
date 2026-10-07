@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T01:30:03+00:00",
+ "generated_at": "2026-10-07T01:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2693,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 4
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134720
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -34650,17 +34650,17 @@
    "updated": "2026-09-27T07:01:16.827Z"
   },
   {
-   "declared_name": "harbor/the-five-who-fill-my-mailbox",
-   "declared_short": "the-five-who-fill-my-mailbox",
-   "folder": "the-five-who-fill-my-mailbox",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-five-who-fill-my-mailbox",
+   "declared_short": "the-five-who-fill-my-mailbox",
    "domain": null,
+   "folder": "the-five-who-fill-my-mailbox",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5b3fd90157550e35d540f393a0f5addc94479affe5882490b9cc4f0558c2f7b6",
    "size_bytes": 186278091,
    "updated": "2026-10-07T01:28:24.097Z"
