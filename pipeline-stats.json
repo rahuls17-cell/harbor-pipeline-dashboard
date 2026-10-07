@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T00:30:03+00:00",
+ "generated_at": "2026-10-07T00:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2687,
-  "scanned": 2687,
-  "connector": 1000,
+  "task_folders": 2688,
+  "scanned": 2688,
+  "connector": 1001,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 200,
   "unknown": 303,
-  "synthetic": 497
+  "synthetic": 498
  },
  "domain": {
-  "unnamed": 1529,
+  "unnamed": 1530,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1002,
+  "harbor": 1003,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 269,
+  "slack-gym": 270,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 4
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 138742
  },
  "errors": [],
  "tasks": [
@@ -30481,6 +30481,22 @@
    "sha256": "ef60c4d3437e02d843d51de817dcab6be354b05261c900a8760bd2a819818d09",
    "size_bytes": 10607144,
    "updated": "2026-10-03T07:45:44.541Z"
+  },
+  {
+   "declared_name": "harbor/spend-ask-signoff-audit",
+   "declared_short": "spend-ask-signoff-audit",
+   "folder": "spend-ask-signoff-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "134f5d54155a05b507f4d275634767cf03bf51ec897cb9fe7a5adde87f91dc71",
+   "size_bytes": 10472002,
+   "updated": "2026-10-07T00:42:53.266Z"
   },
   {
    "connector_provenance": "synthetic",
