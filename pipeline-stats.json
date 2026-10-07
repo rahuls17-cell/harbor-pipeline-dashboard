@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T06:30:03+00:00",
+ "generated_at": "2026-10-07T06:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2712,
-  "scanned": 2712,
-  "connector": 1025,
+  "task_folders": 2713,
+  "scanned": 2713,
+  "connector": 1026,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 203,
   "unknown": 311,
-  "synthetic": 511
+  "synthetic": 512
  },
  "domain": {
-  "unnamed": 1554,
+  "unnamed": 1555,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1027,
+  "harbor": 1028,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -49,13 +49,13 @@
   "snowflake-gym": 20,
   "supabase-gym": 15,
   "teams-gym": 14,
+  "microsoft-365-gym": 6,
   "microsoft-teams-gym": 6,
-  "microsoft-365-gym": 5,
   "shopify-gym": 4
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 137613
+  "approx_bytes_read": 136280
  },
  "errors": [],
  "tasks": [
@@ -12885,6 +12885,22 @@
    "updated": "2026-10-01T10:11:08.399Z"
   },
   {
+   "declared_name": "harbor/document-sharing-exposure-audit",
+   "declared_short": "document-sharing-exposure-audit",
+   "folder": "document-sharing-exposure-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "e49d4fda377fa8274ff31cd2418233a4f36060dc841b4c712bb456487d04d80a",
+   "size_bytes": 9561169,
+   "updated": "2026-10-07T06:30:03.496Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
@@ -15148,17 +15164,17 @@
    "updated": "2026-10-06T18:37:03.827Z"
   },
   {
-   "declared_name": "harbor/fall-lab-fee-lines-sept-to-november",
-   "declared_short": "fall-lab-fee-lines-sept-to-november",
-   "folder": "fall-lab-fee-lines-sept-to-november",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/fall-lab-fee-lines-sept-to-november",
+   "declared_short": "fall-lab-fee-lines-sept-to-november",
    "domain": null,
+   "folder": "fall-lab-fee-lines-sept-to-november",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "04c226ad2a0a44b9fc2d32faa3caefc1a67141cfd357228a9372a40909ecc095",
    "size_bytes": 11857557,
    "updated": "2026-10-07T06:27:19.683Z"
