@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T08:30:03+00:00",
+ "generated_at": "2026-10-07T08:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2721,
-  "scanned": 2721,
-  "connector": 1034,
+  "task_folders": 2722,
+  "scanned": 2722,
+  "connector": 1035,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 203,
+  "real": 204,
   "unknown": 313,
   "synthetic": 518
  },
  "domain": {
-  "unnamed": 1563,
+  "unnamed": 1564,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1036,
+  "harbor": 1037,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 271,
+  "slack-gym": 272,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 138080
+  "approx_bytes_read": 132634
  },
  "errors": [],
  "tasks": [
@@ -29355,6 +29355,22 @@
    "updated": "2026-10-03T06:18:56.883Z"
   },
   {
+   "declared_name": "harbor/pdf-storage-still-held-by-people-who-left",
+   "declared_short": "pdf-storage-still-held-by-people-who-left",
+   "folder": "pdf-storage-still-held-by-people-who-left",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "575e3f0d628a22fa8bbaf23a84aceb07785d201befaba41bce126ec57b5d5de6",
+   "size_bytes": 6152522,
+   "updated": "2026-10-07T08:32:00.476Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-b37-l15-petition-status-from-order-log",
@@ -36619,17 +36635,17 @@
    "updated": "2026-10-03T02:40:53.584Z"
   },
   {
-   "declared_name": "harbor/the-replies-my-inbox-never-showed",
-   "declared_short": "the-replies-my-inbox-never-showed",
-   "folder": "the-replies-my-inbox-never-showed",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-replies-my-inbox-never-showed",
+   "declared_short": "the-replies-my-inbox-never-showed",
    "domain": null,
+   "folder": "the-replies-my-inbox-never-showed",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3fc6e1ef10a5552a384b1ae936fca189e5118590aee5fb67197b4648bb3ee0e2",
    "size_bytes": 6853338,
    "updated": "2026-10-07T08:29:24.597Z"
