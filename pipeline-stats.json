@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T00:10:03+00:00",
+ "generated_at": "2026-10-07T00:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2684,
-  "scanned": 2684,
-  "connector": 997,
+  "task_folders": 2685,
+  "scanned": 2685,
+  "connector": 998,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 200,
   "unknown": 303,
-  "synthetic": 494
+  "synthetic": 495
  },
  "domain": {
-  "unnamed": 1526,
+  "unnamed": 1527,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 999,
+  "harbor": 1000,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -50,12 +50,12 @@
   "supabase-gym": 14,
   "teams-gym": 13,
   "microsoft-teams-gym": 6,
-  "microsoft-365-gym": 4,
-  "shopify-gym": 3
+  "shopify-gym": 4,
+  "microsoft-365-gym": 4
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 136277
  },
  "errors": [],
  "tasks": [
@@ -38692,6 +38692,22 @@
    "sha256": "0df6bacfbc8dc3c445740931a699adbd07e5fe380578de1cfaa6edae0ab13926",
    "size_bytes": 9979573,
    "updated": "2026-10-02T17:07:48.151Z"
+  },
+  {
+   "declared_name": "harbor/weekly-bot-traffic-audit",
+   "declared_short": "weekly-bot-traffic-audit",
+   "folder": "weekly-bot-traffic-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "shopify-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "ff79c6594a01e53c70701a3c20eb7c67d716bad89ad5001fd2523fc5d290c4a5",
+   "size_bytes": 6348506,
+   "updated": "2026-10-07T00:12:36.320Z"
   },
   {
    "connector_provenance": "unknown",
