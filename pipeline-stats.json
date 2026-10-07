@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T00:25:03+00:00",
+ "generated_at": "2026-10-07T00:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2687,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 4
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 273878
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -28842,17 +28842,17 @@
    "updated": "2026-09-09T20:24:40.236Z"
   },
   {
-   "declared_name": "harbor/one-hundred-and-fifty-one-digests-and-a-login-alert",
-   "declared_short": "one-hundred-and-fifty-one-digests-and-a-login-alert",
-   "folder": "one-hundred-and-fifty-one-digests-and-a-login-alert",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/one-hundred-and-fifty-one-digests-and-a-login-alert",
+   "declared_short": "one-hundred-and-fifty-one-digests-and-a-login-alert",
    "domain": null,
+   "folder": "one-hundred-and-fifty-one-digests-and-a-login-alert",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c3416c4db8a19e33f619fb5c357043684ababb70ef40204713f90279cbdee836",
    "size_bytes": 13499419,
    "updated": "2026-10-07T00:21:30.846Z"
@@ -34186,17 +34186,17 @@
    "updated": "2026-09-26T15:22:41.761Z"
   },
   {
-   "declared_name": "harbor/the-day-an-all-day-block-covers",
-   "declared_short": "the-day-an-all-day-block-covers",
-   "folder": "the-day-an-all-day-block-covers",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-day-an-all-day-block-covers",
+   "declared_short": "the-day-an-all-day-block-covers",
    "domain": null,
+   "folder": "the-day-an-all-day-block-covers",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7424e98f30cbe48fe66b6557e48e97b37c5a94455fab365c3b748cfa6ccbfa3b",
    "size_bytes": 18957816,
    "updated": "2026-10-07T00:24:16.266Z"
