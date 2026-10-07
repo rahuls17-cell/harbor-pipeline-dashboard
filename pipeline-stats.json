@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T14:10:04+00:00",
+ "generated_at": "2026-10-07T14:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2784,
-  "scanned": 2784,
-  "connector": 1097,
+  "task_folders": 2785,
+  "scanned": 2785,
+  "connector": 1098,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 214,
   "unknown": 327,
-  "synthetic": 556
+  "synthetic": 557
  },
  "domain": {
-  "unnamed": 1626,
+  "unnamed": 1627,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1099,
+  "harbor": 1100,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -43,7 +43,7 @@
   "linear-gym": 119,
   "gws-gym": 118,
   "notion-gym": 107,
-  "outlook-gym": 106,
+  "outlook-gym": 107,
   "github-gym": 68,
   "slack": 66,
   "snowflake-gym": 24,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 546504
+  "new_archives_read": 1,
+  "approx_bytes_read": 135127
  },
  "errors": [],
  "tasks": [
@@ -29018,6 +29018,22 @@
    "updated": "2026-09-27T00:20:45.277Z"
   },
   {
+   "declared_name": "harbor/nine-flags-from-2024-that-moved-on",
+   "declared_short": "nine-flags-from-2024-that-moved-on",
+   "folder": "nine-flags-from-2024-that-moved-on",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "fa19552863d5cec6c1ad5f10b357cbb021b42cbe0a78d72c9525fd2fd8da3b6b",
+   "size_bytes": 125235678,
+   "updated": "2026-10-07T14:11:37.825Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
@@ -36769,17 +36785,17 @@
    "updated": "2026-09-26T10:09:07.546Z"
   },
   {
-   "declared_name": "harbor/the-one-name-behind-every-edit-in-drive",
-   "declared_short": "the-one-name-behind-every-edit-in-drive",
-   "folder": "the-one-name-behind-every-edit-in-drive",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-one-name-behind-every-edit-in-drive",
+   "declared_short": "the-one-name-behind-every-edit-in-drive",
    "domain": null,
+   "folder": "the-one-name-behind-every-edit-in-drive",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "bff305eb005a862165952f6cd13931e47850f6b203aae2f4bf73c237ac434c85",
    "size_bytes": 11133582,
    "updated": "2026-10-07T14:05:10.275Z"
@@ -36913,17 +36929,17 @@
    "updated": "2026-09-23T08:14:15.960Z"
   },
   {
-   "declared_name": "harbor/the-passcode-on-fourteen-meetings",
-   "declared_short": "the-passcode-on-fourteen-meetings",
-   "folder": "the-passcode-on-fourteen-meetings",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-passcode-on-fourteen-meetings",
+   "declared_short": "the-passcode-on-fourteen-meetings",
    "domain": null,
+   "folder": "the-passcode-on-fourteen-meetings",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "00ff382c2693021ab38a9836109f7cd08e370e532f72189239f44a18d4194a2a",
    "size_bytes": 30115526,
    "updated": "2026-10-07T14:08:42.100Z"
@@ -40724,17 +40740,17 @@
    "updated": "2026-10-01T12:48:04.984Z"
   },
   {
-   "declared_name": "harbor/which-clinical-notices-went-unacknowledged",
-   "declared_short": "which-clinical-notices-went-unacknowledged",
-   "folder": "which-clinical-notices-went-unacknowledged",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/which-clinical-notices-went-unacknowledged",
+   "declared_short": "which-clinical-notices-went-unacknowledged",
    "domain": null,
+   "folder": "which-clinical-notices-went-unacknowledged",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c6534b05397ab222729e58c1d0ff32fdce1b467c20d479bd64f4e288fec1b8d6",
    "size_bytes": 14966829,
    "updated": "2026-10-07T14:08:13.069Z"
@@ -41284,17 +41300,17 @@
    "updated": "2026-09-23T22:00:15.775Z"
   },
   {
-   "declared_name": "harbor/who-can-edit-patient-sheets",
-   "declared_short": "who-can-edit-patient-sheets",
-   "folder": "who-can-edit-patient-sheets",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/who-can-edit-patient-sheets",
+   "declared_short": "who-can-edit-patient-sheets",
    "domain": null,
+   "folder": "who-can-edit-patient-sheets",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c112710998b6eb1c3a20e23fd30747a57cdb3f10a0a96d4c167daeda22c53fec",
    "size_bytes": 17066654,
    "updated": "2026-10-07T14:08:22.755Z"
