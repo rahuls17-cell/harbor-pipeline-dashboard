@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T03:55:03+00:00",
+ "generated_at": "2026-10-07T04:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2702,
-  "scanned": 2702,
-  "connector": 1015,
+  "task_folders": 2703,
+  "scanned": 2703,
+  "connector": 1016,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 202,
   "unknown": 309,
-  "synthetic": 504
+  "synthetic": 505
  },
  "domain": {
-  "unnamed": 1544,
+  "unnamed": 1545,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1017,
+  "harbor": 1018,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 141,
-  "linear-gym": 108,
+  "linear-gym": 109,
   "gws-gym": 106,
   "outlook-gym": 100,
   "notion-gym": 98,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 4
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 140551
  },
  "errors": [],
  "tasks": [
@@ -30917,6 +30917,22 @@
    "sha256": "7848cb789e105d158c482b6f8eb0f1b9c5b6e487e81666c34e847de0d1433088",
    "size_bytes": 7563091,
    "updated": "2026-10-06T20:39:52.279Z"
+  },
+  {
+   "declared_name": "harbor/suspended-account-holdings-audit",
+   "declared_short": "suspended-account-holdings-audit",
+   "folder": "suspended-account-holdings-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "9e832ef1cddfae7492fa602b85b8c0ee6ec72df626c8ec7cea430e7fcf18e951",
+   "size_bytes": 26025984,
+   "updated": "2026-10-07T03:59:22.350Z"
   },
   {
    "connector_provenance": null,
