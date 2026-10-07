@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T04:10:03+00:00",
+ "generated_at": "2026-10-07T04:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2704,
-  "scanned": 2704,
-  "connector": 1017,
+  "task_folders": 2705,
+  "scanned": 2705,
+  "connector": 1018,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 202,
   "unknown": 309,
-  "synthetic": 506
+  "synthetic": 507
  },
  "domain": {
-  "unnamed": 1546,
+  "unnamed": 1547,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1019,
+  "harbor": 1020,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 142,
+  "email-calendar-gym": 143,
   "linear-gym": 109,
   "gws-gym": 106,
   "outlook-gym": 100,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 137365
+  "approx_bytes_read": 136159
  },
  "errors": [],
  "tasks": [
@@ -1279,6 +1279,22 @@
    "sha256": "464cc3ff7d0d61a1cfdc186e9431b60328e676adf2192b0ccfc51174edbd07ed",
    "size_bytes": 6935590,
    "updated": "2026-09-18T06:54:04.318Z"
+  },
+  {
+   "declared_name": "harbor/answer-the-signature-reminders",
+   "declared_short": "answer-the-signature-reminders",
+   "folder": "answer-the-signature-reminders",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "caa56e30ef68f3b74785e4454d80e53ee10843c41b71288906fdf5df6c74ec7b",
+   "size_bytes": 9259099,
+   "updated": "2026-10-07T04:10:38.388Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -40012,17 +40028,17 @@
    "updated": "2026-10-03T07:57:36.195Z"
   },
   {
-   "declared_name": "harbor/who-actually-gets-this-mail",
-   "declared_short": "who-actually-gets-this-mail",
-   "folder": "who-actually-gets-this-mail",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/who-actually-gets-this-mail",
+   "declared_short": "who-actually-gets-this-mail",
    "domain": null,
+   "folder": "who-actually-gets-this-mail",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5bd2d7a9b6a27e3a5588564dd85d34ef86f0183df173582da2813d8f41a1b01c",
    "size_bytes": 11522785,
    "updated": "2026-10-07T04:07:51.485Z"
