@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T02:45:03+00:00",
+ "generated_at": "2026-10-07T02:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2696,
-  "scanned": 2696,
-  "connector": 1009,
+  "task_folders": 2698,
+  "scanned": 2698,
+  "connector": 1011,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 201,
   "unknown": 308,
-  "synthetic": 500
+  "synthetic": 502
  },
  "domain": {
-  "unnamed": 1538,
+  "unnamed": 1540,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1011,
+  "harbor": 1013,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 139,
+  "email-calendar-gym": 140,
   "linear-gym": 107,
   "gws-gym": 105,
   "outlook-gym": 99,
@@ -47,15 +47,15 @@
   "slack": 66,
   "github-gym": 62,
   "snowflake-gym": 20,
-  "supabase-gym": 14,
+  "supabase-gym": 15,
   "teams-gym": 13,
   "microsoft-teams-gym": 6,
   "shopify-gym": 4,
   "microsoft-365-gym": 4
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137094
+  "new_archives_read": 2,
+  "approx_bytes_read": 277655
  },
  "errors": [],
  "tasks": [
@@ -11836,6 +11836,22 @@
    "sha256": "0587e00b3af4cc284ac87d71798e90eed6cc82c0346840b549c7d94f386846bc",
    "size_bytes": 8112190,
    "updated": "2026-10-02T21:16:27.771Z"
+  },
+  {
+   "declared_name": "harbor/custom-domain-cutover-audit",
+   "declared_short": "custom-domain-cutover-audit",
+   "folder": "custom-domain-cutover-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "supabase-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "bff4a9e49fdebd1d2914bc6f58fac6ab209145c267a0253d6cb1de4fef89482c",
+   "size_bytes": 5639292,
+   "updated": "2026-10-07T02:49:38.696Z"
   },
   {
    "connector_provenance": "real",
@@ -34762,17 +34778,17 @@
    "updated": "2026-09-30T08:57:18.131Z"
   },
   {
-   "declared_name": "harbor/the-guests-i-cannot-reach",
-   "declared_short": "the-guests-i-cannot-reach",
-   "folder": "the-guests-i-cannot-reach",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-guests-i-cannot-reach",
+   "declared_short": "the-guests-i-cannot-reach",
    "domain": null,
+   "folder": "the-guests-i-cannot-reach",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "19e3708db1c3074111e5d1ef49d35019f8eb16cfde80d16fb6216213247c5f35",
    "size_bytes": 156445435,
    "updated": "2026-10-07T02:40:59.434Z"
@@ -38938,6 +38954,22 @@
    "sha256": "e278dc0c5343abaa573bdd6ad67c0b52a3df8969915caac83fe2308136d676a0",
    "size_bytes": 8840710,
    "updated": "2026-09-18T19:08:49.619Z"
+  },
+  {
+   "declared_name": "harbor/what-got-delivered-twice",
+   "declared_short": "what-got-delivered-twice",
+   "folder": "what-got-delivered-twice",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "b80073399dba695986264c2965a030c9752c51f2e927a74a54bf8758a74997f0",
+   "size_bytes": 13549028,
+   "updated": "2026-10-07T02:48:32.770Z"
   },
   {
    "connector_provenance": "synthetic",
