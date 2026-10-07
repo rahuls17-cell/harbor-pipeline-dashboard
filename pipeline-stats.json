@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T12:40:03+00:00",
+ "generated_at": "2026-10-07T12:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2758,
-  "scanned": 2758,
-  "connector": 1071,
+  "task_folders": 2760,
+  "scanned": 2760,
+  "connector": 1073,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 209,
   "unknown": 322,
-  "synthetic": 540
+  "synthetic": 542
  },
  "domain": {
-  "unnamed": 1600,
+  "unnamed": 1602,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1073,
+  "harbor": 1075,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 279,
+  "slack-gym": 280,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -44,9 +44,9 @@
   "gws-gym": 113,
   "notion-gym": 104,
   "outlook-gym": 104,
+  "github-gym": 67,
   "slack": 66,
-  "github-gym": 66,
-  "snowflake-gym": 22,
+  "snowflake-gym": 23,
   "supabase-gym": 16,
   "teams-gym": 15,
   "microsoft-365-gym": 8,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 140787
+  "new_archives_read": 2,
+  "approx_bytes_read": 277188
  },
  "errors": [],
  "tasks": [
@@ -1217,17 +1217,17 @@
    "updated": "2026-10-02T20:14:39.204Z"
   },
   {
-   "declared_name": "harbor/admin-mfa-exception-audit",
-   "declared_short": "admin-mfa-exception-audit",
-   "folder": "admin-mfa-exception-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/admin-mfa-exception-audit",
+   "declared_short": "admin-mfa-exception-audit",
    "domain": null,
+   "folder": "admin-mfa-exception-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5a22afc91c54cabb9a3b0c777a4781fc4d403a98494e62f7136805d4f1b6a78b",
    "size_bytes": 11587616,
    "updated": "2026-10-07T12:38:53.925Z"
@@ -17127,6 +17127,23 @@
    "updated": "2026-10-02T19:30:05.226Z"
   },
   {
+   "declared_name": "harbor/finance-mart-gap-audit",
+   "declared_short": "finance-mart-gap-audit",
+   "folder": "finance-mart-gap-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3973498f1eb6594abe9efdcea23713df7ddf702f5f424e6855f8396c791188f6",
+   "size_bytes": 7461696,
+   "updated": "2026-10-07T12:42:44.416Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
@@ -30838,6 +30855,22 @@
    "sha256": "f889915fcafea2681129af67c2822bc496a567f69f9fb9a3098b68290ffcaf65",
    "size_bytes": 10739725,
    "updated": "2026-10-06T13:57:05.577Z"
+  },
+  {
+   "declared_name": "harbor/secret-scanning-baseline-audit",
+   "declared_short": "secret-scanning-baseline-audit",
+   "folder": "secret-scanning-baseline-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "0b63398d090ab66329b3c84e0d2af536a748b64b07b1a3d8b49317d2a4d1f2bc",
+   "size_bytes": 8179561,
+   "updated": "2026-10-07T12:43:33.683Z"
   },
   {
    "connector_provenance": "synthetic",
