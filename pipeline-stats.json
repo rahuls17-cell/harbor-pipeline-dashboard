@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T20:45:03+00:00",
+ "generated_at": "2026-10-07T20:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2811,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138016
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -30219,17 +30219,17 @@
    "updated": "2026-10-06T16:10:11.204Z"
   },
   {
-   "declared_name": "harbor/project-status-integrity-audit",
-   "declared_short": "project-status-integrity-audit",
-   "folder": "project-status-integrity-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/project-status-integrity-audit",
+   "declared_short": "project-status-integrity-audit",
    "domain": null,
+   "folder": "project-status-integrity-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ffe812b63ff98ac586204ab40bc7fbd5e308dcbf53872547fd28cc09e3dfa4d2",
    "size_bytes": 8390037,
    "updated": "2026-10-07T20:43:11.278Z"
