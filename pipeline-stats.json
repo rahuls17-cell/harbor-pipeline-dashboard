@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T04:35:03+00:00",
+ "generated_at": "2026-10-07T04:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2707,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 4
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137481
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -29879,17 +29879,17 @@
    "updated": "2026-09-09T20:32:48.327Z"
   },
   {
-   "declared_name": "harbor/return-visits-the-note-templates-promise",
-   "declared_short": "return-visits-the-note-templates-promise",
-   "folder": "return-visits-the-note-templates-promise",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/return-visits-the-note-templates-promise",
+   "declared_short": "return-visits-the-note-templates-promise",
    "domain": null,
+   "folder": "return-visits-the-note-templates-promise",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f9cdafd80cb00f49116651d1a2acd9499b32c2b6a031ddd5f3d37876b9709392",
    "size_bytes": 7976262,
    "updated": "2026-10-07T04:30:30.865Z"
