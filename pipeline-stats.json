@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T12:15:04+00:00",
+ "generated_at": "2026-10-07T12:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2755,
-  "scanned": 2755,
-  "connector": 1068,
+  "task_folders": 2756,
+  "scanned": 2756,
+  "connector": 1069,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 208,
   "unknown": 322,
-  "synthetic": 538
+  "synthetic": 539
  },
  "domain": {
-  "unnamed": 1597,
+  "unnamed": 1598,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1070,
+  "harbor": 1071,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 156,
   "linear-gym": 116,
-  "gws-gym": 112,
+  "gws-gym": 113,
   "notion-gym": 104,
   "outlook-gym": 104,
   "slack": 66,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 273328
+  "new_archives_read": 1,
+  "approx_bytes_read": 135882
  },
  "errors": [],
  "tasks": [
@@ -29752,17 +29752,17 @@
    "updated": "2026-10-03T04:32:04.085Z"
   },
   {
-   "declared_name": "harbor/practice-exports-to-confirm",
-   "declared_short": "practice-exports-to-confirm",
-   "folder": "practice-exports-to-confirm",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/practice-exports-to-confirm",
+   "declared_short": "practice-exports-to-confirm",
    "domain": null,
+   "folder": "practice-exports-to-confirm",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5b9a868610c1645f7904d0a8e445f758aaef37bf3fc5cc92564304704db1249c",
    "size_bytes": 6565795,
    "updated": "2026-10-07T12:13:54.740Z"
@@ -30966,6 +30966,22 @@
    "sha256": "215c518a213a6e76659043995d62eaa58b936f98775220a75cc3bb1914a24e5b",
    "size_bytes": 10153222,
    "updated": "2026-09-27T04:31:12.339Z"
+  },
+  {
+   "declared_name": "harbor/shared-past-the-people-i-named",
+   "declared_short": "shared-past-the-people-i-named",
+   "folder": "shared-past-the-people-i-named",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c80fe94384a9f74ab81d4a4700e884d228d8e1f1ac0e608f65f159c4f294ab18",
+   "size_bytes": 18215003,
+   "updated": "2026-10-07T12:16:55.226Z"
   },
   {
    "connector_provenance": "real",
@@ -40546,17 +40562,17 @@
    "updated": "2026-10-02T17:01:15.803Z"
   },
   {
-   "declared_name": "harbor/which-practice-the-lines-belong-to",
-   "declared_short": "which-practice-the-lines-belong-to",
-   "folder": "which-practice-the-lines-belong-to",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/which-practice-the-lines-belong-to",
+   "declared_short": "which-practice-the-lines-belong-to",
    "domain": null,
+   "folder": "which-practice-the-lines-belong-to",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8cc8c4de4c57619e4258f60f46f2fbbedc8c56e3ab4cd4fa55e0b0fa47452f50",
    "size_bytes": 10667354,
    "updated": "2026-10-07T12:11:24.045Z"
