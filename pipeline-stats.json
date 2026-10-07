@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T10:45:03+00:00",
+ "generated_at": "2026-10-07T10:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2741,
-  "scanned": 2741,
-  "connector": 1054,
+  "task_folders": 2742,
+  "scanned": 2742,
+  "connector": 1055,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 208,
-  "unknown": 317,
+  "unknown": 318,
   "synthetic": 529
  },
  "domain": {
-  "unnamed": 1583,
+  "unnamed": 1584,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1056,
+  "harbor": 1057,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 150,
   "linear-gym": 115,
   "gws-gym": 111,
-  "outlook-gym": 103,
+  "outlook-gym": 104,
   "notion-gym": 102,
   "slack": 66,
   "github-gym": 64,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136319
+  "approx_bytes_read": 134049
  },
  "errors": [],
  "tasks": [
@@ -26428,17 +26428,17 @@
    "updated": "2026-10-07T01:09:47.634Z"
   },
   {
-   "declared_name": "harbor/introductions-worth-making",
-   "declared_short": "introductions-worth-making",
-   "folder": "introductions-worth-making",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/introductions-worth-making",
+   "declared_short": "introductions-worth-making",
    "domain": null,
+   "folder": "introductions-worth-making",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "daf7aa054cb7d1a197ecdbb32ad6816b57e5f984783019aee4ceb884484b7197",
    "size_bytes": 12300520,
    "updated": "2026-10-07T10:41:33.042Z"
@@ -35882,6 +35882,22 @@
    "sha256": "76c08a20dadc44476f37cf1600f2dadef20cfefe2d41427ef3e73f5b076ae164",
    "size_bytes": 7172139,
    "updated": "2026-10-06T11:49:09.492Z"
+  },
+  {
+   "declared_name": "harbor/the-meetings-nobody-ever-accepted",
+   "declared_short": "the-meetings-nobody-ever-accepted",
+   "folder": "the-meetings-nobody-ever-accepted",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "ea6bcf615c9bdd683da856ccb16b6c373ef3270f2191b0beffdbaf9baba7c6d4",
+   "size_bytes": 12181937,
+   "updated": "2026-10-07T10:47:39.577Z"
   },
   {
    "connector_provenance": "synthetic",
