@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T07:00:03+00:00",
+ "generated_at": "2026-10-07T07:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2715,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 278407
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -29509,17 +29509,17 @@
    "updated": "2026-10-03T04:32:04.085Z"
   },
   {
-   "declared_name": "harbor/practice-onboarding-status",
-   "declared_short": "practice-onboarding-status",
-   "folder": "practice-onboarding-status",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/practice-onboarding-status",
+   "declared_short": "practice-onboarding-status",
    "domain": null,
+   "folder": "practice-onboarding-status",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6b33929be04b37d9f4359c94c110107c2b09f3c21111f948eed06791be2f2ac0",
    "size_bytes": 16820107,
    "updated": "2026-10-07T06:58:35.910Z"
@@ -38157,17 +38157,17 @@
    "updated": "2026-09-29T06:38:10.076Z"
   },
   {
-   "declared_name": "harbor/training-promised-past-our-standard",
-   "declared_short": "training-promised-past-our-standard",
-   "folder": "training-promised-past-our-standard",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/training-promised-past-our-standard",
+   "declared_short": "training-promised-past-our-standard",
    "domain": null,
+   "folder": "training-promised-past-our-standard",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3381e0b6325f855dc79105f1e29e577b36c42af9e78fff1cde0d2de7bdd36a40",
    "size_bytes": 6106740,
    "updated": "2026-10-07T06:58:10.122Z"
