@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T08:45:04+00:00",
+ "generated_at": "2026-10-07T08:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2727,
-  "scanned": 2727,
-  "connector": 1040,
+  "task_folders": 2728,
+  "scanned": 2728,
+  "connector": 1041,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 205,
+  "real": 206,
   "unknown": 313,
   "synthetic": 522
  },
  "domain": {
-  "unnamed": 1569,
+  "unnamed": 1570,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1042,
+  "harbor": 1043,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -43,7 +43,7 @@
   "linear-gym": 114,
   "gws-gym": 109,
   "outlook-gym": 102,
-  "notion-gym": 100,
+  "notion-gym": 101,
   "slack": 66,
   "github-gym": 62,
   "snowflake-gym": 21,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 413572
+  "new_archives_read": 1,
+  "approx_bytes_read": 138871
  },
  "errors": [],
  "tasks": [
@@ -30152,18 +30152,18 @@
    "updated": "2026-09-05T21:45:46.403Z"
   },
   {
-   "declared_name": "harbor/runtime-outlier-excess-cost",
-   "declared_short": "runtime-outlier-excess-cost",
-   "folder": "runtime-outlier-excess-cost",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/runtime-outlier-excess-cost",
+   "declared_short": "runtime-outlier-excess-cost",
    "domain": null,
+   "folder": "runtime-outlier-excess-cost",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "fd221f64c032df3548c6a96dc500a1defe316692f25c0380f847afb55773c6bb",
    "size_bytes": 9808145,
    "updated": "2026-10-07T08:40:55.271Z"
@@ -37948,17 +37948,17 @@
    "updated": "2026-09-18T23:35:19.806Z"
   },
   {
-   "declared_name": "harbor/the-workload-three-people-are-carrying",
-   "declared_short": "the-workload-three-people-are-carrying",
-   "folder": "the-workload-three-people-are-carrying",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-workload-three-people-are-carrying",
+   "declared_short": "the-workload-three-people-are-carrying",
    "domain": null,
+   "folder": "the-workload-three-people-are-carrying",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ed65e7f5b42eea3f8a3759568f5ab2ead481ac94c553584435066d9e81659a84",
    "size_bytes": 5551626,
    "updated": "2026-10-07T08:42:55.052Z"
@@ -38308,18 +38308,18 @@
    "updated": "2026-09-19T01:40:37.786Z"
   },
   {
-   "declared_name": "harbor/travel-week-catchup-audit",
-   "declared_short": "travel-week-catchup-audit",
-   "folder": "travel-week-catchup-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym",
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/travel-week-catchup-audit",
+   "declared_short": "travel-week-catchup-audit",
    "domain": null,
+   "folder": "travel-week-catchup-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0f6a4af31a823de2dac2e73502554f9daa174f56f609fefa6682df77e9f2ba33",
    "size_bytes": 6433360,
    "updated": "2026-10-07T08:44:44.201Z"
@@ -39533,6 +39533,22 @@
    "sha256": "d9692a24789f12866fd65880a1ae27227211b741ab73ee3db63946c325ce334d",
    "size_bytes": 17347262,
    "updated": "2026-09-16T04:50:25.073Z"
+  },
+  {
+   "declared_name": "harbor/what-the-meetings-said",
+   "declared_short": "what-the-meetings-said",
+   "folder": "what-the-meetings-said",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "9f5cc340a6ff6e4d7c4a9849d046d58d87a60df29470243c83fb161dcf36e1df",
+   "size_bytes": 7745058,
+   "updated": "2026-10-07T08:48:39.225Z"
   },
   {
    "connector_provenance": "real",
