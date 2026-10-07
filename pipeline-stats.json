@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T14:05:04+00:00",
+ "generated_at": "2026-10-07T14:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2780,
-  "scanned": 2780,
-  "connector": 1093,
+  "task_folders": 2784,
+  "scanned": 2784,
+  "connector": 1097,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 213,
-  "unknown": 326,
-  "synthetic": 554
+  "real": 214,
+  "unknown": 327,
+  "synthetic": 556
  },
  "domain": {
-  "unnamed": 1622,
+  "unnamed": 1626,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1095,
+  "harbor": 1099,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,9 +39,9 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 161,
+  "email-calendar-gym": 163,
   "linear-gym": 119,
-  "gws-gym": 116,
+  "gws-gym": 118,
   "notion-gym": 107,
   "outlook-gym": 106,
   "github-gym": 68,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 273763
+  "new_archives_read": 4,
+  "approx_bytes_read": 546504
  },
  "errors": [],
  "tasks": [
@@ -11668,17 +11668,17 @@
    "updated": "2026-10-02T18:31:15.181Z"
   },
   {
-   "declared_name": "harbor/commitment-project-delivery-audit",
-   "declared_short": "commitment-project-delivery-audit",
-   "folder": "commitment-project-delivery-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/commitment-project-delivery-audit",
+   "declared_short": "commitment-project-delivery-audit",
    "domain": null,
+   "folder": "commitment-project-delivery-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "25469b3e143c042bdb8a1a064a468a5151723dbd5fac96455a4ad9326b2fa31b",
    "size_bytes": 7944040,
    "updated": "2026-10-07T14:00:12.981Z"
@@ -30248,17 +30248,17 @@
    "updated": "2026-09-18T20:46:46.120Z"
   },
   {
-   "declared_name": "harbor/receivables-before-the-books-close",
-   "declared_short": "receivables-before-the-books-close",
-   "folder": "receivables-before-the-books-close",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/receivables-before-the-books-close",
+   "declared_short": "receivables-before-the-books-close",
    "domain": null,
+   "folder": "receivables-before-the-books-close",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ce91c29750dd13d5babcc64eb8f7837fd90b8fb811eab74a05c3a5c9662e50ca",
    "size_bytes": 11828385,
    "updated": "2026-10-07T14:00:50.064Z"
@@ -36769,6 +36769,22 @@
    "updated": "2026-09-26T10:09:07.546Z"
   },
   {
+   "declared_name": "harbor/the-one-name-behind-every-edit-in-drive",
+   "declared_short": "the-one-name-behind-every-edit-in-drive",
+   "folder": "the-one-name-behind-every-edit-in-drive",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "bff305eb005a862165952f6cd13931e47850f6b203aae2f4bf73c237ac434c85",
+   "size_bytes": 11133582,
+   "updated": "2026-10-07T14:05:10.275Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "supabase-gym"
@@ -36895,6 +36911,22 @@
    "sha256": "e4359a9b009c2e8340f0cec94e34b0256824e5d5ab422f81cf55bb4f1744d777",
    "size_bytes": 8572057,
    "updated": "2026-09-23T08:14:15.960Z"
+  },
+  {
+   "declared_name": "harbor/the-passcode-on-fourteen-meetings",
+   "declared_short": "the-passcode-on-fourteen-meetings",
+   "folder": "the-passcode-on-fourteen-meetings",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "00ff382c2693021ab38a9836109f7cd08e370e532f72189239f44a18d4194a2a",
+   "size_bytes": 30115526,
+   "updated": "2026-10-07T14:08:42.100Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -40692,6 +40724,22 @@
    "updated": "2026-10-01T12:48:04.984Z"
   },
   {
+   "declared_name": "harbor/which-clinical-notices-went-unacknowledged",
+   "declared_short": "which-clinical-notices-went-unacknowledged",
+   "folder": "which-clinical-notices-went-unacknowledged",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "c6534b05397ab222729e58c1d0ff32fdce1b467c20d479bd64f4e288fec1b8d6",
+   "size_bytes": 14966829,
+   "updated": "2026-10-07T14:08:13.069Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
@@ -41234,6 +41282,22 @@
    "sha256": "679d9a7c41c107a0c0cbb7b755d9c9a0a2602c00a1c2d1756d9e64ab1595a7f0",
    "size_bytes": 7618476,
    "updated": "2026-09-23T22:00:15.775Z"
+  },
+  {
+   "declared_name": "harbor/who-can-edit-patient-sheets",
+   "declared_short": "who-can-edit-patient-sheets",
+   "folder": "who-can-edit-patient-sheets",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "c112710998b6eb1c3a20e23fd30747a57cdb3f10a0a96d4c167daeda22c53fec",
+   "size_bytes": 17066654,
+   "updated": "2026-10-07T14:08:22.755Z"
   },
   {
    "connector_provenance": "unknown",
