@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T09:20:03+00:00",
+ "generated_at": "2026-10-07T09:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2731,
-  "scanned": 2731,
-  "connector": 1044,
+  "task_folders": 2732,
+  "scanned": 2732,
+  "connector": 1045,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 206,
-  "unknown": 314,
+  "unknown": 315,
   "synthetic": 524
  },
  "domain": {
-  "unnamed": 1573,
+  "unnamed": 1574,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1046,
+  "harbor": 1047,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 147,
+  "email-calendar-gym": 148,
   "linear-gym": 115,
   "gws-gym": 110,
   "outlook-gym": 102,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 134675
  },
  "errors": [],
  "tasks": [
@@ -33930,6 +33930,22 @@
    "sha256": "e9b3e3b923692af746f16f1ee457ad74e0282a25154909e80cabcd1b739d98a8",
    "size_bytes": 5728410,
    "updated": "2026-10-03T06:14:26.347Z"
+  },
+  {
+   "declared_name": "harbor/the-answer-that-never-left",
+   "declared_short": "the-answer-that-never-left",
+   "folder": "the-answer-that-never-left",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "5ff6312dd3cd15d777816f4af9953c79c462198292e775b307aacf2b943729d7",
+   "size_bytes": 5186875,
+   "updated": "2026-10-07T09:23:37.009Z"
   },
   {
    "connector_provenance": "synthetic",
