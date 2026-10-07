@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T13:25:04+00:00",
+ "generated_at": "2026-10-07T13:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2766,
-  "scanned": 2766,
-  "connector": 1079,
+  "task_folders": 2767,
+  "scanned": 2767,
+  "connector": 1080,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 211,
   "unknown": 323,
-  "synthetic": 545
+  "synthetic": 546
  },
  "domain": {
-  "unnamed": 1608,
+  "unnamed": 1609,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1081,
+  "harbor": 1082,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 158,
   "linear-gym": 117,
   "gws-gym": 114,
-  "notion-gym": 105,
+  "notion-gym": 106,
   "outlook-gym": 105,
   "github-gym": 67,
   "slack": 66,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 544589
+  "new_archives_read": 2,
+  "approx_bytes_read": 267583
  },
  "errors": [],
  "tasks": [
@@ -11716,17 +11716,17 @@
    "updated": "2026-10-07T11:36:43.554Z"
   },
   {
-   "declared_name": "harbor/compliance-portfolio-deadline-audit",
-   "declared_short": "compliance-portfolio-deadline-audit",
-   "folder": "compliance-portfolio-deadline-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/compliance-portfolio-deadline-audit",
+   "declared_short": "compliance-portfolio-deadline-audit",
    "domain": null,
+   "folder": "compliance-portfolio-deadline-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0703338b3b946bbcf6ce960eb50c0ad0a70b76e6f4a9dd355e73d590b25e3d7d",
    "size_bytes": 7512106,
    "updated": "2026-10-07T13:22:49.896Z"
@@ -14883,20 +14883,20 @@
    "updated": "2026-09-26T21:58:03.693Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/eighteen-that-never-shipped",
+   "declared_short": "eighteen-that-never-shipped",
+   "folder": "eighteen-that-never-shipped",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "linear-gym"
    ],
-   "declared_name": "harbor/eighteen-that-never-shipped",
-   "declared_short": "eighteen-that-never-shipped",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "eighteen-that-never-shipped",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "d6a3709c30406f636c7b484de3d7069ccc3beef52f107944d26cc3e3c0d3c595",
-   "size_bytes": 14725863,
-   "updated": "2026-10-01T09:14:41.190Z"
+   "sha256": "0edd08c2bf5888dda8ff594c2bd9af27c96ba49b56cc0fcfcad080453fed2767",
+   "size_bytes": 17371651,
+   "updated": "2026-10-07T13:26:50.221Z"
   },
   {
    "connector_provenance": "real",
@@ -35361,17 +35361,17 @@
    "updated": "2026-10-01T10:04:35.662Z"
   },
   {
-   "declared_name": "harbor/the-fields-the-editors-never-filled",
-   "declared_short": "the-fields-the-editors-never-filled",
-   "folder": "the-fields-the-editors-never-filled",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-fields-the-editors-never-filled",
+   "declared_short": "the-fields-the-editors-never-filled",
    "domain": null,
+   "folder": "the-fields-the-editors-never-filled",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1b63e4c49533e5aba65dfe743e309a90997b9dd5da45cf17c21b6abbc0911cc7",
    "size_bytes": 8871011,
    "updated": "2026-10-07T13:23:29.802Z"
@@ -39806,17 +39806,17 @@
    "updated": "2026-09-29T14:45:29.738Z"
   },
   {
-   "declared_name": "harbor/webhook-endpoint-briefing",
-   "declared_short": "webhook-endpoint-briefing",
-   "folder": "webhook-endpoint-briefing",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/webhook-endpoint-briefing",
+   "declared_short": "webhook-endpoint-briefing",
    "domain": null,
+   "folder": "webhook-endpoint-briefing",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7d10567f3794c0033876929d72ddc943604ab76fb5e4fee4c17685212a34114d",
    "size_bytes": 7996782,
    "updated": "2026-10-07T13:23:49.039Z"
@@ -40372,17 +40372,17 @@
    "updated": "2026-10-02T20:44:50.276Z"
   },
   {
-   "declared_name": "harbor/where-the-talking-moved",
-   "declared_short": "where-the-talking-moved",
-   "folder": "where-the-talking-moved",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/where-the-talking-moved",
+   "declared_short": "where-the-talking-moved",
    "domain": null,
+   "folder": "where-the-talking-moved",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d09c380a3227cbf8b99f8a58761b15eb271a6590fa9875bb541d1a4693e77082",
    "size_bytes": 13090209,
    "updated": "2026-10-07T13:23:47.549Z"
@@ -40578,6 +40578,22 @@
    "sha256": "76744885a5c9c6be0fc6ebe2db252d9a57d4f837a44f887d92805d0ced6775f0",
    "size_bytes": 6296614,
    "updated": "2026-10-01T12:42:44.624Z"
+  },
+  {
+   "declared_name": "harbor/which-entries-still-have-an-open-question",
+   "declared_short": "which-entries-still-have-an-open-question",
+   "folder": "which-entries-still-have-an-open-question",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "4f82e14678d5708f189978872693f7ebd34a7d825c4d8f60c83ef311604ee6f4",
+   "size_bytes": 8071625,
+   "updated": "2026-10-07T13:26:40.529Z"
   },
   {
    "connector_provenance": "synthetic",
