@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T06:25:03+00:00",
+ "generated_at": "2026-10-07T06:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2711,
-  "scanned": 2711,
-  "connector": 1024,
+  "task_folders": 2712,
+  "scanned": 2712,
+  "connector": 1025,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 203,
-  "unknown": 310,
+  "unknown": 311,
   "synthetic": 511
  },
  "domain": {
-  "unnamed": 1553,
+  "unnamed": 1554,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1026,
+  "harbor": 1027,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 143,
   "linear-gym": 110,
-  "gws-gym": 107,
+  "gws-gym": 108,
   "outlook-gym": 101,
   "notion-gym": 99,
   "slack": 66,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133239
+  "approx_bytes_read": 137613
  },
  "errors": [],
  "tasks": [
@@ -15148,6 +15148,22 @@
    "updated": "2026-10-06T18:37:03.827Z"
   },
   {
+   "declared_name": "harbor/fall-lab-fee-lines-sept-to-november",
+   "declared_short": "fall-lab-fee-lines-sept-to-november",
+   "folder": "fall-lab-fee-lines-sept-to-november",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "04c226ad2a0a44b9fc2d32faa3caefc1a67141cfd357228a9372a40909ecc095",
+   "size_bytes": 11857557,
+   "updated": "2026-10-07T06:27:19.683Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
@@ -28501,17 +28517,17 @@
    "updated": "2026-10-02T20:21:07.028Z"
   },
   {
-   "declared_name": "harbor/milestone-progress-lag-audit",
-   "declared_short": "milestone-progress-lag-audit",
-   "folder": "milestone-progress-lag-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/milestone-progress-lag-audit",
+   "declared_short": "milestone-progress-lag-audit",
    "domain": null,
+   "folder": "milestone-progress-lag-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "663f5f23cbf85ce260c3ec50aca5aabb9a9490cda7b3771936b71502622b71de",
    "size_bytes": 9674295,
    "updated": "2026-10-07T06:20:35.958Z"
