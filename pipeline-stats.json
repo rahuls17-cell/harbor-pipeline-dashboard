@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T14:30:03+00:00",
+ "generated_at": "2026-10-07T14:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2787,
-  "scanned": 2787,
-  "connector": 1100,
+  "task_folders": 2790,
+  "scanned": 2790,
+  "connector": 1103,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 214,
-  "unknown": 328,
-  "synthetic": 558
+  "unknown": 330,
+  "synthetic": 559
  },
  "domain": {
-  "unnamed": 1629,
+  "unnamed": 1632,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1102,
+  "harbor": 1105,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,23 +39,23 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 164,
+  "email-calendar-gym": 165,
   "linear-gym": 119,
   "gws-gym": 118,
   "notion-gym": 107,
   "outlook-gym": 107,
-  "github-gym": 68,
+  "github-gym": 69,
   "slack": 66,
   "snowflake-gym": 24,
   "supabase-gym": 16,
   "teams-gym": 15,
   "microsoft-365-gym": 8,
   "microsoft-teams-gym": 7,
-  "shopify-gym": 4
+  "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136173
+  "new_archives_read": 3,
+  "approx_bytes_read": 403392
  },
  "errors": [],
  "tasks": [
@@ -11907,17 +11907,17 @@
    "updated": "2026-09-18T18:33:58.047Z"
   },
   {
-   "declared_name": "harbor/confirm-moved-meetings-final-times",
-   "declared_short": "confirm-moved-meetings-final-times",
-   "folder": "confirm-moved-meetings-final-times",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/confirm-moved-meetings-final-times",
+   "declared_short": "confirm-moved-meetings-final-times",
    "domain": null,
+   "folder": "confirm-moved-meetings-final-times",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4e89b72eb6f5d629937b21d4a67eebc1184fed3d03951b252c0e4b1f641de4f9",
    "size_bytes": 9038291,
    "updated": "2026-10-07T14:29:21.649Z"
@@ -17559,6 +17559,22 @@
    "sha256": "767b2e91f27eb461ede69d41c2e4c796b3fb9f78f4f7f127f3fa6d8d544b300d",
    "size_bytes": 220304274,
    "updated": "2026-09-29T21:32:53.949Z"
+  },
+  {
+   "declared_name": "harbor/fulfillment-report-gap-audit",
+   "declared_short": "fulfillment-report-gap-audit",
+   "folder": "fulfillment-report-gap-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "shopify-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d2525b5df1fcbac267dc0367e54052cb631ee417280f4b184799b4f1a2b97683",
+   "size_bytes": 6918043,
+   "updated": "2026-10-07T14:34:39.511Z"
   },
   {
    "connector_provenance": null,
@@ -35009,6 +35025,22 @@
    "updated": "2026-10-06T13:55:28.090Z"
   },
   {
+   "declared_name": "harbor/the-comment-count-is-not-the-comments",
+   "declared_short": "the-comment-count-is-not-the-comments",
+   "folder": "the-comment-count-is-not-the-comments",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "b801096e938ac49c77c95a41cbd1510f4efbf331522a90df56d89d5230a2ea46",
+   "size_bytes": 8267333,
+   "updated": "2026-10-07T14:32:41.439Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "gws-gym"
@@ -36479,6 +36511,22 @@
    "sha256": "6e1944702309415a89cb7c7590747bd7c62377bad615db2ba0476873576aca21",
    "size_bytes": 133592936,
    "updated": "2026-09-26T07:26:12.870Z"
+  },
+  {
+   "declared_name": "harbor/the-meetings-that-run-past-midnight",
+   "declared_short": "the-meetings-that-run-past-midnight",
+   "folder": "the-meetings-that-run-past-midnight",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "02d5af93c69eef90628a648b358cffb2fd6c5ec1e60534cd3226272b0d9ccf8a",
+   "size_bytes": 42790823,
+   "updated": "2026-10-07T14:30:48.763Z"
   },
   {
    "connector_provenance": "synthetic",
