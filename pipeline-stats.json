@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T04:40:03+00:00",
+ "generated_at": "2026-10-07T05:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2707,
-  "scanned": 2707,
-  "connector": 1020,
+  "task_folders": 2708,
+  "scanned": 2708,
+  "connector": 1021,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 202,
   "unknown": 310,
-  "synthetic": 508
+  "synthetic": 509
  },
  "domain": {
-  "unnamed": 1549,
+  "unnamed": 1550,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1022,
+  "harbor": 1023,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -50,12 +50,12 @@
   "supabase-gym": 15,
   "teams-gym": 13,
   "microsoft-teams-gym": 6,
-  "shopify-gym": 4,
-  "microsoft-365-gym": 4
+  "microsoft-365-gym": 5,
+  "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 134105
  },
  "errors": [],
  "tasks": [
@@ -2445,6 +2445,22 @@
    "sha256": "6b1997ff54c7656e6e0ee9a9f7758e24095af961c5bc5f0c59f1928f6a8d5073",
    "size_bytes": 15924078,
    "updated": "2026-09-13T04:16:32.177Z"
+  },
+  {
+   "declared_name": "harbor/brand-variance-tieback-audit",
+   "declared_short": "brand-variance-tieback-audit",
+   "folder": "brand-variance-tieback-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "b1c486d7951fb16641048399db0ae2cd773135ad37b576b9bc27ec9da523197f",
+   "size_bytes": 7349910,
+   "updated": "2026-10-07T05:26:24.910Z"
   },
   {
    "connector_provenance": "synthetic",
