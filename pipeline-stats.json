@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T09:25:03+00:00",
+ "generated_at": "2026-10-07T09:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2732,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134675
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -33932,17 +33932,17 @@
    "updated": "2026-10-03T06:14:26.347Z"
   },
   {
-   "declared_name": "harbor/the-answer-that-never-left",
-   "declared_short": "the-answer-that-never-left",
-   "folder": "the-answer-that-never-left",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-answer-that-never-left",
+   "declared_short": "the-answer-that-never-left",
    "domain": null,
+   "folder": "the-answer-that-never-left",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5ff6312dd3cd15d777816f4af9953c79c462198292e775b307aacf2b943729d7",
    "size_bytes": 5186875,
    "updated": "2026-10-07T09:23:37.009Z"
