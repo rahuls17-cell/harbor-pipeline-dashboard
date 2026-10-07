@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T09:40:03+00:00",
+ "generated_at": "2026-10-07T09:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2734,
-  "scanned": 2734,
-  "connector": 1047,
+  "task_folders": 2735,
+  "scanned": 2735,
+  "connector": 1048,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 206,
   "unknown": 316,
-  "synthetic": 525
+  "synthetic": 526
  },
  "domain": {
-  "unnamed": 1576,
+  "unnamed": 1577,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1049,
+  "harbor": 1050,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 275,
+  "slack-gym": 276,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 137285
+  "approx_bytes_read": 134514
  },
  "errors": [],
  "tasks": [
@@ -5946,6 +5946,22 @@
    "sha256": "13d812f4c3600ebd603917619b4f03420064e8a1e2fa83a1a42d411421fda92e",
    "size_bytes": 12618991,
    "updated": "2026-09-28T12:07:13.799Z"
+  },
+  {
+   "declared_name": "harbor/channel-generation-naming-audit",
+   "declared_short": "channel-generation-naming-audit",
+   "folder": "channel-generation-naming-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "73115630535bce2fdf6b370f62cc98f10609fc55af7d3b9651a28ac089ef5e1a",
+   "size_bytes": 10292892,
+   "updated": "2026-10-07T09:44:24.653Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -29621,17 +29637,17 @@
    "updated": "2026-10-06T10:01:59.478Z"
   },
   {
-   "declared_name": "harbor/prenatal-labs-never-drawn",
-   "declared_short": "prenatal-labs-never-drawn",
-   "folder": "prenatal-labs-never-drawn",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/prenatal-labs-never-drawn",
+   "declared_short": "prenatal-labs-never-drawn",
    "domain": null,
+   "folder": "prenatal-labs-never-drawn",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a13a5ff0b54ff8e676ff659ad53448c4b6be2bf65f2c34f1b587b0a9ae04a455",
    "size_bytes": 12102592,
    "updated": "2026-10-07T09:38:11.601Z"
