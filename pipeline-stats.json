@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T13:05:03+00:00",
+ "generated_at": "2026-10-07T13:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2762,
-  "scanned": 2762,
-  "connector": 1075,
+  "task_folders": 2764,
+  "scanned": 2764,
+  "connector": 1077,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 210,
+  "real": 211,
   "unknown": 322,
-  "synthetic": 543
+  "synthetic": 544
  },
  "domain": {
-  "unnamed": 1604,
+  "unnamed": 1606,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1077,
+  "harbor": 1079,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,13 +40,13 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 157,
-  "linear-gym": 116,
+  "linear-gym": 117,
   "gws-gym": 114,
+  "outlook-gym": 105,
   "notion-gym": 104,
-  "outlook-gym": 104,
   "github-gym": 67,
   "slack": 66,
-  "snowflake-gym": 23,
+  "snowflake-gym": 24,
   "supabase-gym": 16,
   "teams-gym": 15,
   "microsoft-365-gym": 8,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 277344
  },
  "errors": [],
  "tasks": [
@@ -17124,6 +17124,23 @@
    "sha256": "99fad3e07fef2874f1ce45a114f9f5b2297ed7bf2f91831d168cd4b06d208886",
    "size_bytes": 5692122,
    "updated": "2026-10-02T22:49:04.354Z"
+  },
+  {
+   "declared_name": "harbor/finance-file-pickup-lag",
+   "declared_short": "finance-file-pickup-lag",
+   "folder": "finance-file-pickup-lag",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2408cf9fe76b37728536e4a98c7f22cb0902eafff16f81f2740f0027667e9f53",
+   "size_bytes": 8661213,
+   "updated": "2026-10-07T13:10:12.830Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -35102,6 +35119,22 @@
    "sha256": "2ed97426c208d2c7650cd9597e84276a2f11d65d31a93f5ba2e00737116f02dd",
    "size_bytes": 6846159,
    "updated": "2026-09-20T14:32:35.537Z"
+  },
+  {
+   "declared_name": "harbor/the-diary-marked-private",
+   "declared_short": "the-diary-marked-private",
+   "folder": "the-diary-marked-private",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "1b520dd0c5455861e23e67b06019a46f14b72a716883fd1f2fa81ffdc757f651",
+   "size_bytes": 12791942,
+   "updated": "2026-10-07T13:14:54.163Z"
   },
   {
    "connector_provenance": "unknown",
