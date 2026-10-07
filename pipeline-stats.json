@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T05:35:03+00:00",
+ "generated_at": "2026-10-07T05:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2709,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135554
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -28226,17 +28226,17 @@
    "updated": "2026-09-29T08:00:29.924Z"
   },
   {
-   "declared_name": "harbor/lead-pipeline-latest-stage",
-   "declared_short": "lead-pipeline-latest-stage",
-   "folder": "lead-pipeline-latest-stage",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/lead-pipeline-latest-stage",
+   "declared_short": "lead-pipeline-latest-stage",
    "domain": null,
+   "folder": "lead-pipeline-latest-stage",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "22b303a79f85545872243085d95b0552246bb3515c16fe9455c54c956afda8c0",
    "size_bytes": 14330405,
    "updated": "2026-10-07T05:30:27.952Z"
