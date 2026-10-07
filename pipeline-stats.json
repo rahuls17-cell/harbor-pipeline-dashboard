@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T11:20:03+00:00",
+ "generated_at": "2026-10-07T11:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2746,
-  "scanned": 2746,
-  "connector": 1059,
+  "task_folders": 2747,
+  "scanned": 2747,
+  "connector": 1060,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 208,
-  "unknown": 318,
+  "unknown": 319,
   "synthetic": 533
  },
  "domain": {
-  "unnamed": 1588,
+  "unnamed": 1589,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1061,
+  "harbor": 1062,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,8 +42,8 @@
   "email-calendar-gym": 151,
   "linear-gym": 115,
   "gws-gym": 111,
+  "notion-gym": 104,
   "outlook-gym": 104,
-  "notion-gym": 103,
   "slack": 66,
   "github-gym": 65,
   "snowflake-gym": 22,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 141092
+  "approx_bytes_read": 137973
  },
  "errors": [],
  "tasks": [
@@ -2166,6 +2166,22 @@
    "sha256": "e2e787c7a2098304650c13d245d464cfc4b37fba0db0845a5fbc0e8db0ce7a28",
    "size_bytes": 17104671,
    "updated": "2026-10-01T10:11:12.899Z"
+  },
+  {
+   "declared_name": "harbor/beta-asks-past-their-promised-date",
+   "declared_short": "beta-asks-past-their-promised-date",
+   "folder": "beta-asks-past-their-promised-date",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "b1dc1969ceb98421073312406a2c4be3bb35a1bcc262bf5716a90b3a5ab5995f",
+   "size_bytes": 6287673,
+   "updated": "2026-10-07T11:21:00.383Z"
   },
   {
    "connector_provenance": "unknown",
@@ -35726,17 +35742,17 @@
    "updated": "2026-09-28T07:56:14.518Z"
   },
   {
-   "declared_name": "harbor/the-leak-that-shipped-twice",
-   "declared_short": "the-leak-that-shipped-twice",
-   "folder": "the-leak-that-shipped-twice",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-leak-that-shipped-twice",
+   "declared_short": "the-leak-that-shipped-twice",
    "domain": null,
+   "folder": "the-leak-that-shipped-twice",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2a27711aa5e49136b45c1f94b2e8823b8602c3188ab41ea42ee56e0591421558",
    "size_bytes": 11488289,
    "updated": "2026-10-07T11:18:04.786Z"
