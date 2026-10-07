@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T11:30:03+00:00",
+ "generated_at": "2026-10-07T11:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2748,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 140305
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1313,18 +1313,18 @@
    "updated": "2026-09-13T19:02:27.834Z"
   },
   {
-   "declared_name": "harbor/api-exposure-golive-audit",
-   "declared_short": "api-exposure-golive-audit",
-   "folder": "api-exposure-golive-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym",
     "supabase-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/api-exposure-golive-audit",
+   "declared_short": "api-exposure-golive-audit",
    "domain": null,
+   "folder": "api-exposure-golive-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6a5e155c58678b25a57069a1b5f38da3c67c589850929ef08dedf17cddc4de48",
    "size_bytes": 8101370,
    "updated": "2026-10-07T11:29:22.508Z"
