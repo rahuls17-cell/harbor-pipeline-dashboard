@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T08:40:04+00:00",
+ "generated_at": "2026-10-07T08:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2724,
-  "scanned": 2724,
-  "connector": 1037,
+  "task_folders": 2727,
+  "scanned": 2727,
+  "connector": 1040,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 205,
   "unknown": 313,
-  "synthetic": 519
+  "synthetic": 522
  },
  "domain": {
-  "unnamed": 1566,
+  "unnamed": 1569,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1039,
+  "harbor": 1042,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,21 +32,21 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 273,
+  "slack-gym": 274,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 146,
-  "linear-gym": 112,
+  "email-calendar-gym": 147,
+  "linear-gym": 114,
   "gws-gym": 109,
   "outlook-gym": 102,
   "notion-gym": 100,
   "slack": 66,
   "github-gym": 62,
-  "snowflake-gym": 20,
+  "snowflake-gym": 21,
   "supabase-gym": 15,
   "teams-gym": 15,
   "microsoft-365-gym": 6,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 283180
+  "new_archives_read": 3,
+  "approx_bytes_read": 413572
  },
  "errors": [],
  "tasks": [
@@ -30152,6 +30152,23 @@
    "updated": "2026-09-05T21:45:46.403Z"
   },
   {
+   "declared_name": "harbor/runtime-outlier-excess-cost",
+   "declared_short": "runtime-outlier-excess-cost",
+   "folder": "runtime-outlier-excess-cost",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "fd221f64c032df3548c6a96dc500a1defe316692f25c0380f847afb55773c6bb",
+   "size_bytes": 9808145,
+   "updated": "2026-10-07T08:40:55.271Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/sci-b21-g10-soybean-fungicide-evidence-audit",
@@ -35323,17 +35340,17 @@
    "updated": "2026-10-06T14:05:19.537Z"
   },
   {
-   "declared_name": "harbor/the-invite-list-is-not-the-room",
-   "declared_short": "the-invite-list-is-not-the-room",
-   "folder": "the-invite-list-is-not-the-room",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "teams-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-invite-list-is-not-the-room",
+   "declared_short": "the-invite-list-is-not-the-room",
    "domain": null,
+   "folder": "the-invite-list-is-not-the-room",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d4a70f0a024301b90aac80b737a613de73256c1d45f00a4a40cbbabd64bee63d",
    "size_bytes": 20413488,
    "updated": "2026-10-07T08:37:09.312Z"
@@ -37931,6 +37948,22 @@
    "updated": "2026-09-18T23:35:19.806Z"
   },
   {
+   "declared_name": "harbor/the-workload-three-people-are-carrying",
+   "declared_short": "the-workload-three-people-are-carrying",
+   "folder": "the-workload-three-people-are-carrying",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "ed65e7f5b42eea3f8a3759568f5ab2ead481ac94c553584435066d9e81659a84",
+   "size_bytes": 5551626,
+   "updated": "2026-10-07T08:42:55.052Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "teams-gym"
@@ -38273,6 +38306,23 @@
    "sha256": "c49fc3a43c3afce3da9701096d9363037b310560d6b55cef25de4b92538ce56d",
    "size_bytes": 16365198,
    "updated": "2026-09-19T01:40:37.786Z"
+  },
+  {
+   "declared_name": "harbor/travel-week-catchup-audit",
+   "declared_short": "travel-week-catchup-audit",
+   "folder": "travel-week-catchup-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym",
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "0f6a4af31a823de2dac2e73502554f9daa174f56f609fefa6682df77e9f2ba33",
+   "size_bytes": 6433360,
+   "updated": "2026-10-07T08:44:44.201Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -40045,17 +40095,17 @@
    "updated": "2026-09-29T06:12:28.275Z"
   },
   {
-   "declared_name": "harbor/which-members-left-their-profile-half-done",
-   "declared_short": "which-members-left-their-profile-half-done",
-   "folder": "which-members-left-their-profile-half-done",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/which-members-left-their-profile-half-done",
+   "declared_short": "which-members-left-their-profile-half-done",
    "domain": null,
+   "folder": "which-members-left-their-profile-half-done",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1f76a12d5fd360ddc2db3576fa016f752c9e9ddf2a4000bf0a8317793f995b26",
    "size_bytes": 9765559,
    "updated": "2026-10-07T08:39:23.573Z"
