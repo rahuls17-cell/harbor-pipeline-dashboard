@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T15:05:04+00:00",
+ "generated_at": "2026-10-07T15:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2793,
-  "scanned": 2793,
-  "connector": 1106,
+  "task_folders": 2794,
+  "scanned": 2794,
+  "connector": 1107,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 214,
   "unknown": 330,
-  "synthetic": 562
+  "synthetic": 563
  },
  "domain": {
-  "unnamed": 1635,
+  "unnamed": 1636,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1108,
+  "harbor": 1109,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 166,
+  "email-calendar-gym": 167,
   "linear-gym": 119,
   "gws-gym": 118,
   "notion-gym": 108,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136667
+  "approx_bytes_read": 136348
  },
  "errors": [],
  "tasks": [
@@ -29930,17 +29930,17 @@
    "updated": "2026-09-20T11:12:23.167Z"
   },
   {
-   "declared_name": "harbor/portal-invites-by-practice",
-   "declared_short": "portal-invites-by-practice",
-   "folder": "portal-invites-by-practice",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/portal-invites-by-practice",
+   "declared_short": "portal-invites-by-practice",
    "domain": null,
+   "folder": "portal-invites-by-practice",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f441e902c58c5ebb65b61dc9c2545e3d60f3765fc9ca5b17ca4f9801cf4888db",
    "size_bytes": 10781836,
    "updated": "2026-10-07T15:05:01.398Z"
@@ -41154,6 +41154,22 @@
    "sha256": "ad62565d79319c8fdfc50f04cc4eeab7d9589eb987d358eab24006ee8213fc41",
    "size_bytes": 7840052,
    "updated": "2026-10-01T14:48:26.103Z"
+  },
+  {
+   "declared_name": "harbor/which-repositories-my-mail-is-about",
+   "declared_short": "which-repositories-my-mail-is-about",
+   "folder": "which-repositories-my-mail-is-about",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "05374793b7d5355b74a4876e04abc383f7b90155448af03309593e59dc52c8e0",
+   "size_bytes": 24593377,
+   "updated": "2026-10-07T15:09:30.033Z"
   },
   {
    "connector_provenance": "synthetic",
