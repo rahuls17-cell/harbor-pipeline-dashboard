@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T09:30:03+00:00",
+ "generated_at": "2026-10-07T09:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2732,
-  "scanned": 2732,
-  "connector": 1045,
+  "task_folders": 2733,
+  "scanned": 2733,
+  "connector": 1046,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 206,
   "unknown": 315,
-  "synthetic": 524
+  "synthetic": 525
  },
  "domain": {
-  "unnamed": 1574,
+  "unnamed": 1575,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1047,
+  "harbor": 1048,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 274,
+  "slack-gym": 275,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -49,13 +49,13 @@
   "snowflake-gym": 21,
   "supabase-gym": 15,
   "teams-gym": 15,
-  "microsoft-365-gym": 6,
+  "microsoft-365-gym": 7,
   "microsoft-teams-gym": 6,
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 138711
  },
  "errors": [],
  "tasks": [
@@ -41091,6 +41091,23 @@
    "sha256": "23cce065a33ae6bd3c999d1eeebcdabbdd90caa75428214ef15d5ed98ea8ab91",
    "size_bytes": 7765773,
    "updated": "2026-10-07T09:05:53.076Z"
+  },
+  {
+   "declared_name": "harbor/workbook-tieout-break-audit",
+   "declared_short": "workbook-tieout-break-audit",
+   "folder": "workbook-tieout-break-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym",
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "e2c1ad71f7055d8c8b87ae9461f99a91730338199491427e13260bb93c6ee6b4",
+   "size_bytes": 7723844,
+   "updated": "2026-10-07T09:30:23.187Z"
   },
   {
    "connector_provenance": "synthetic",
