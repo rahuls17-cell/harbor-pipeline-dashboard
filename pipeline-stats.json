@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T15:35:04+00:00",
+ "generated_at": "2026-10-07T15:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2804,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 5,
-  "approx_bytes_read": 684758
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -14963,17 +14963,17 @@
    "updated": "2026-10-07T13:26:50.221Z"
   },
   {
-   "declared_name": "harbor/email-templates-copied-before-launch",
-   "declared_short": "email-templates-copied-before-launch",
-   "folder": "email-templates-copied-before-launch",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/email-templates-copied-before-launch",
+   "declared_short": "email-templates-copied-before-launch",
    "domain": null,
+   "folder": "email-templates-copied-before-launch",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6d9b3cec6b1544066ea4ea31cbe0df4ae7b441c5c853762f0215b0e3460d6714",
    "size_bytes": 15911823,
    "updated": "2026-10-07T15:30:52.434Z"
@@ -26285,17 +26285,17 @@
    "updated": "2026-09-23T22:08:00.960Z"
   },
   {
-   "declared_name": "harbor/held-drive-access-request-audit",
-   "declared_short": "held-drive-access-request-audit",
-   "folder": "held-drive-access-request-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/held-drive-access-request-audit",
+   "declared_short": "held-drive-access-request-audit",
    "domain": null,
+   "folder": "held-drive-access-request-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0629b87a48884d2d81b633aa8b7928596f151acebc3c1d1d65fededcfc8a4b6d",
    "size_bytes": 7814021,
    "updated": "2026-10-07T15:31:20.439Z"
@@ -30685,17 +30685,17 @@
    "updated": "2026-09-29T03:17:50.807Z"
   },
   {
-   "declared_name": "harbor/risk-the-reports-state",
-   "declared_short": "risk-the-reports-state",
-   "folder": "risk-the-reports-state",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/risk-the-reports-state",
+   "declared_short": "risk-the-reports-state",
    "domain": null,
+   "folder": "risk-the-reports-state",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4c8f1e50f64dccc28367e2ba30c066db852262582be064109d582fc59c0d8379",
    "size_bytes": 8727199,
    "updated": "2026-10-07T15:33:20.366Z"
@@ -38705,17 +38705,17 @@
    "updated": "2026-09-19T13:21:55.547Z"
   },
   {
-   "declared_name": "harbor/the-unread-that-piled-up-in-the-inbox",
-   "declared_short": "the-unread-that-piled-up-in-the-inbox",
-   "folder": "the-unread-that-piled-up-in-the-inbox",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-unread-that-piled-up-in-the-inbox",
+   "declared_short": "the-unread-that-piled-up-in-the-inbox",
    "domain": null,
+   "folder": "the-unread-that-piled-up-in-the-inbox",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "37a9b0098764e4506632e9d3b41cae8479e81b7669673a1aa4e233d38677d5c8",
    "size_bytes": 72205240,
    "updated": "2026-10-07T15:30:30.555Z"
@@ -39594,17 +39594,17 @@
    "updated": "2026-10-03T02:03:24.762Z"
   },
   {
-   "declared_name": "harbor/vendor-charges-that-moved",
-   "declared_short": "vendor-charges-that-moved",
-   "folder": "vendor-charges-that-moved",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/vendor-charges-that-moved",
+   "declared_short": "vendor-charges-that-moved",
    "domain": null,
+   "folder": "vendor-charges-that-moved",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c1df00104826002b7f44381efcee0dc37e982c7426c44830b002de38d96e2fbc",
    "size_bytes": 8589721,
    "updated": "2026-10-07T15:32:11.359Z"
