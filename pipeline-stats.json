@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T14:45:04+00:00",
+ "generated_at": "2026-10-07T14:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2790,
-  "scanned": 2790,
-  "connector": 1103,
+  "task_folders": 2791,
+  "scanned": 2791,
+  "connector": 1104,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 214,
   "unknown": 330,
-  "synthetic": 559
+  "synthetic": 560
  },
  "domain": {
-  "unnamed": 1632,
+  "unnamed": 1633,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1105,
+  "harbor": 1106,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 283,
+  "slack-gym": 284,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 138613
  },
  "errors": [],
  "tasks": [
@@ -40370,6 +40370,22 @@
    "sha256": "ae5a1dac658a691da41bf19ff6417da0a06a3b236e3bc664a3945ee48c0f6549",
    "size_bytes": 22502919,
    "updated": "2026-10-03T03:41:50.247Z"
+  },
+  {
+   "declared_name": "harbor/what-the-huddles-never-wrote-down",
+   "declared_short": "what-the-huddles-never-wrote-down",
+   "folder": "what-the-huddles-never-wrote-down",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "32880dfa265548f5052653d8e255d6ab2a7a21751c72866c2e69527020372925",
+   "size_bytes": 14759059,
+   "updated": "2026-10-07T14:45:34.386Z"
   },
   {
    "connector_provenance": "synthetic",
