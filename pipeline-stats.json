@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T05:30:03+00:00",
+ "generated_at": "2026-10-07T05:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2708,
-  "scanned": 2708,
-  "connector": 1021,
+  "task_folders": 2709,
+  "scanned": 2709,
+  "connector": 1022,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 202,
+  "real": 203,
   "unknown": 310,
   "synthetic": 509
  },
  "domain": {
-  "unnamed": 1550,
+  "unnamed": 1551,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1023,
+  "harbor": 1024,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 143,
   "linear-gym": 109,
-  "gws-gym": 106,
+  "gws-gym": 107,
   "outlook-gym": 101,
   "notion-gym": 99,
   "slack": 66,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134105
+  "approx_bytes_read": 135554
  },
  "errors": [],
  "tasks": [
@@ -2447,17 +2447,17 @@
    "updated": "2026-09-13T04:16:32.177Z"
   },
   {
-   "declared_name": "harbor/brand-variance-tieback-audit",
-   "declared_short": "brand-variance-tieback-audit",
-   "folder": "brand-variance-tieback-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/brand-variance-tieback-audit",
+   "declared_short": "brand-variance-tieback-audit",
    "domain": null,
+   "folder": "brand-variance-tieback-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b1c486d7951fb16641048399db0ae2cd773135ad37b576b9bc27ec9da523197f",
    "size_bytes": 7349910,
    "updated": "2026-10-07T05:26:24.910Z"
@@ -28224,6 +28224,22 @@
    "sha256": "561f47770d7ef033bd54b43aec63cb558069eead68782a4c2104c67e6752a5ea",
    "size_bytes": 5949298,
    "updated": "2026-09-29T08:00:29.924Z"
+  },
+  {
+   "declared_name": "harbor/lead-pipeline-latest-stage",
+   "declared_short": "lead-pipeline-latest-stage",
+   "folder": "lead-pipeline-latest-stage",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "22b303a79f85545872243085d95b0552246bb3515c16fe9455c54c956afda8c0",
+   "size_bytes": 14330405,
+   "updated": "2026-10-07T05:30:27.952Z"
   },
   {
    "connector_provenance": "real",
