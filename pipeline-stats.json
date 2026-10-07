@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T03:45:03+00:00",
+ "generated_at": "2026-10-07T03:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2702,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 4
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132750
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -35994,17 +35994,17 @@
    "updated": "2026-09-28T18:32:35.174Z"
   },
   {
-   "declared_name": "harbor/the-people-i-only-know-from-a-meeting",
-   "declared_short": "the-people-i-only-know-from-a-meeting",
-   "folder": "the-people-i-only-know-from-a-meeting",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-people-i-only-know-from-a-meeting",
+   "declared_short": "the-people-i-only-know-from-a-meeting",
    "domain": null,
+   "folder": "the-people-i-only-know-from-a-meeting",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "52071bef96050ce6c23bdc539d77acd28516fa711adf9b583817cd63cafe7aa6",
    "size_bytes": 8638886,
    "updated": "2026-10-07T03:40:54.501Z"
