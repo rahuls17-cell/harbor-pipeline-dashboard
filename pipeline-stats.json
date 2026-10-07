@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T09:50:03+00:00",
+ "generated_at": "2026-10-07T09:55:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2737,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 272315
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2480,17 +2480,17 @@
    "updated": "2026-10-02T19:58:11.481Z"
   },
   {
-   "declared_name": "harbor/budget-workbook-tie-out-audit",
-   "declared_short": "budget-workbook-tie-out-audit",
-   "folder": "budget-workbook-tie-out-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/budget-workbook-tie-out-audit",
+   "declared_short": "budget-workbook-tie-out-audit",
    "domain": null,
+   "folder": "budget-workbook-tie-out-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "add61fefd0f8e07b17e1cee2125051bd1eab08cd72759c107688e7d0b250cdd6",
    "size_bytes": 11908487,
    "updated": "2026-10-07T09:45:30.012Z"
@@ -17301,17 +17301,17 @@
    "updated": "2026-10-01T10:58:04.270Z"
   },
   {
-   "declared_name": "harbor/four-urgent-messages-i-can-clear-before-nine",
-   "declared_short": "four-urgent-messages-i-can-clear-before-nine",
-   "folder": "four-urgent-messages-i-can-clear-before-nine",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/four-urgent-messages-i-can-clear-before-nine",
+   "declared_short": "four-urgent-messages-i-can-clear-before-nine",
    "domain": null,
+   "folder": "four-urgent-messages-i-can-clear-before-nine",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8dde315d44e442d28c17964d9cc3ed955aabbbd9e343509dc700266ba7a74de0",
    "size_bytes": 25323060,
    "updated": "2026-10-07T09:46:36.973Z"
