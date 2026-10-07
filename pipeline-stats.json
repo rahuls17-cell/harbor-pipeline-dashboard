@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T11:15:04+00:00",
+ "generated_at": "2026-10-07T11:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2745,
-  "scanned": 2745,
-  "connector": 1058,
+  "task_folders": 2746,
+  "scanned": 2746,
+  "connector": 1059,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 208,
   "unknown": 318,
-  "synthetic": 532
+  "synthetic": 533
  },
  "domain": {
-  "unnamed": 1587,
+  "unnamed": 1588,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1060,
+  "harbor": 1061,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -45,7 +45,7 @@
   "outlook-gym": 104,
   "notion-gym": 103,
   "slack": 66,
-  "github-gym": 64,
+  "github-gym": 65,
   "snowflake-gym": 22,
   "supabase-gym": 15,
   "teams-gym": 15,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 275876
+  "new_archives_read": 1,
+  "approx_bytes_read": 141092
  },
  "errors": [],
  "tasks": [
@@ -2496,18 +2496,18 @@
    "updated": "2026-10-07T09:45:30.012Z"
   },
   {
-   "declared_name": "harbor/bug-postmortem-coverage-audit",
-   "declared_short": "bug-postmortem-coverage-audit",
-   "folder": "bug-postmortem-coverage-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym",
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/bug-postmortem-coverage-audit",
+   "declared_short": "bug-postmortem-coverage-audit",
    "domain": null,
+   "folder": "bug-postmortem-coverage-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f48a078e19f164ffcc680755f29eba81f22ceab7666fb8fc7382d981037add1e",
    "size_bytes": 9364196,
    "updated": "2026-10-07T11:12:57.260Z"
@@ -34782,17 +34782,17 @@
    "updated": "2026-09-20T03:00:19.959Z"
   },
   {
-   "declared_name": "harbor/the-days-my-week-actually-runs-on",
-   "declared_short": "the-days-my-week-actually-runs-on",
-   "folder": "the-days-my-week-actually-runs-on",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-days-my-week-actually-runs-on",
+   "declared_short": "the-days-my-week-actually-runs-on",
    "domain": null,
+   "folder": "the-days-my-week-actually-runs-on",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7b64491cc1897969d7bd3966aeeb99e10158d103e955f2426aef6609f6161a00",
    "size_bytes": 7759646,
    "updated": "2026-10-07T11:11:40.667Z"
@@ -35724,6 +35724,22 @@
    "sha256": "2e4ad1710b182323221fb027e3725e6985d28ff7e215cd9c350f8eaec0919688",
    "size_bytes": 11161459,
    "updated": "2026-09-28T07:56:14.518Z"
+  },
+  {
+   "declared_name": "harbor/the-leak-that-shipped-twice",
+   "declared_short": "the-leak-that-shipped-twice",
+   "folder": "the-leak-that-shipped-twice",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2a27711aa5e49136b45c1f94b2e8823b8602c3188ab41ea42ee56e0591421558",
+   "size_bytes": 11488289,
+   "updated": "2026-10-07T11:18:04.786Z"
   },
   {
    "connector_provenance": "real",
