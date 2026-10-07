@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T09:10:03+00:00",
+ "generated_at": "2026-10-07T09:15:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2731,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 413923
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -16931,17 +16931,17 @@
    "updated": "2026-09-07T21:27:11.347Z"
   },
   {
-   "declared_name": "harbor/fin-team-overdue-projects-audit",
-   "declared_short": "fin-team-overdue-projects-audit",
-   "folder": "fin-team-overdue-projects-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/fin-team-overdue-projects-audit",
+   "declared_short": "fin-team-overdue-projects-audit",
    "domain": null,
+   "folder": "fin-team-overdue-projects-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7527eeca83a7e9daddd3451c831119beb00dd9d62b3ef6a8b52557b8fe80a20e",
    "size_bytes": 11894586,
    "updated": "2026-10-07T09:09:33.438Z"
@@ -22455,17 +22455,17 @@
    "updated": "2026-10-02T20:46:42.114Z"
   },
   {
-   "declared_name": "harbor/gws-the-spreadsheets-used-as-documents",
-   "declared_short": "gws-the-spreadsheets-used-as-documents",
-   "folder": "gws-the-spreadsheets-used-as-documents",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/gws-the-spreadsheets-used-as-documents",
+   "declared_short": "gws-the-spreadsheets-used-as-documents",
    "domain": null,
+   "folder": "gws-the-spreadsheets-used-as-documents",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d519599675b601dec792f331d10123e9d3d922c9abdccfa965a2ac8c3f9e03aa",
    "size_bytes": 9532677,
    "updated": "2026-10-07T09:07:00.966Z"
@@ -41061,17 +41061,17 @@
    "updated": "2026-10-01T14:41:55.122Z"
   },
   {
-   "declared_name": "harbor/work-left-in-archived-repos",
-   "declared_short": "work-left-in-archived-repos",
-   "folder": "work-left-in-archived-repos",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/work-left-in-archived-repos",
+   "declared_short": "work-left-in-archived-repos",
    "domain": null,
+   "folder": "work-left-in-archived-repos",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "23cce065a33ae6bd3c999d1eeebcdabbdd90caa75428214ef15d5ed98ea8ab91",
    "size_bytes": 7765773,
    "updated": "2026-10-07T09:05:53.076Z"
