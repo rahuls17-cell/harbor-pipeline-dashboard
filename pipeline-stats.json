@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T14:20:03+00:00",
+ "generated_at": "2026-10-07T14:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2786,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132712
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -13176,17 +13176,17 @@
    "updated": "2026-10-01T18:52:34.261Z"
   },
   {
-   "declared_name": "harbor/drive-version-history-retention-review",
-   "declared_short": "drive-version-history-retention-review",
-   "folder": "drive-version-history-retention-review",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "google-drive-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/drive-version-history-retention-review",
+   "declared_short": "drive-version-history-retention-review",
    "domain": null,
+   "folder": "drive-version-history-retention-review",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "87dac77ecf3e744cb6006146a947d9d1dfa473eb0c2afa303775fd3ebed26922",
    "size_bytes": 6286417,
    "updated": "2026-10-07T14:17:54.724Z"
