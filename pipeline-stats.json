@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T09:35:03+00:00",
+ "generated_at": "2026-10-07T09:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2733,
-  "scanned": 2733,
-  "connector": 1046,
+  "task_folders": 2734,
+  "scanned": 2734,
+  "connector": 1047,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 206,
-  "unknown": 315,
+  "unknown": 316,
   "synthetic": 525
  },
  "domain": {
-  "unnamed": 1575,
+  "unnamed": 1576,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1048,
+  "harbor": 1049,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 148,
   "linear-gym": 115,
-  "gws-gym": 110,
+  "gws-gym": 111,
   "outlook-gym": 102,
   "notion-gym": 101,
   "slack": 66,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 138711
+  "approx_bytes_read": 137285
  },
  "errors": [],
  "tasks": [
@@ -29621,6 +29621,22 @@
    "updated": "2026-10-06T10:01:59.478Z"
   },
   {
+   "declared_name": "harbor/prenatal-labs-never-drawn",
+   "declared_short": "prenatal-labs-never-drawn",
+   "folder": "prenatal-labs-never-drawn",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "a13a5ff0b54ff8e676ff659ad53448c4b6be2bf65f2c34f1b587b0a9ae04a455",
+   "size_bytes": 12102592,
+   "updated": "2026-10-07T09:38:11.601Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
@@ -41093,18 +41109,18 @@
    "updated": "2026-10-07T09:05:53.076Z"
   },
   {
-   "declared_name": "harbor/workbook-tieout-break-audit",
-   "declared_short": "workbook-tieout-break-audit",
-   "folder": "workbook-tieout-break-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym",
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/workbook-tieout-break-audit",
+   "declared_short": "workbook-tieout-break-audit",
    "domain": null,
+   "folder": "workbook-tieout-break-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e2c1ad71f7055d8c8b87ae9461f99a91730338199491427e13260bb93c6ee6b4",
    "size_bytes": 7723844,
    "updated": "2026-10-07T09:30:23.187Z"
