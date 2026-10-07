@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T23:05:04+00:00",
+ "generated_at": "2026-10-07T23:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2816,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134054
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -12514,18 +12514,18 @@
    "updated": "2026-09-20T19:40:07.315Z"
   },
   {
-   "declared_name": "harbor/dev-compute-capitalization-split",
-   "declared_short": "dev-compute-capitalization-split",
-   "folder": "dev-compute-capitalization-split",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/dev-compute-capitalization-split",
+   "declared_short": "dev-compute-capitalization-split",
    "domain": null,
+   "folder": "dev-compute-capitalization-split",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c596c79c5fedcb8090a213a8b4ebc2651dd08a58190f66368aabe2d2e5d7bcf7",
    "size_bytes": 11066937,
    "updated": "2026-10-07T23:01:47.946Z"
