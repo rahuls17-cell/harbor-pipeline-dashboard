@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T02:55:03+00:00",
+ "generated_at": "2026-10-07T03:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2700,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 4
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 271107
+  "new_archives_read": 1,
+  "approx_bytes_read": 134600
  },
  "errors": [],
  "tasks": [
@@ -29162,17 +29162,17 @@
    "updated": "2026-09-10T18:04:19.311Z"
   },
   {
-   "declared_name": "harbor/partner-proposal-packages",
-   "declared_short": "partner-proposal-packages",
-   "folder": "partner-proposal-packages",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/partner-proposal-packages",
+   "declared_short": "partner-proposal-packages",
    "domain": null,
+   "folder": "partner-proposal-packages",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1fca4995a46ab70035f6ec3be93d9462f99a04dbe76daa97d400910dd4c29baa",
    "size_bytes": 13413338,
    "updated": "2026-10-07T02:51:55.402Z"
@@ -34122,17 +34122,17 @@
    "updated": "2026-09-26T22:20:31.213Z"
   },
   {
-   "declared_name": "harbor/the-client-lists-the-scrub-missed",
-   "declared_short": "the-client-lists-the-scrub-missed",
-   "folder": "the-client-lists-the-scrub-missed",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-client-lists-the-scrub-missed",
+   "declared_short": "the-client-lists-the-scrub-missed",
    "domain": null,
+   "folder": "the-client-lists-the-scrub-missed",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "59b5a84f2776c2bde8710e5dfcb38fe30bcf90a7ea7fcd0e4e729853d2e35e5c",
    "size_bytes": 10907196,
    "updated": "2026-10-07T02:51:06.191Z"
@@ -35738,20 +35738,20 @@
    "updated": "2026-10-02T19:39:42.252Z"
   },
   {
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-notifications-from-a-hundred-senders",
+   "declared_short": "the-notifications-from-a-hundred-senders",
+   "folder": "the-notifications-from-a-hundred-senders",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "outlook-gym"
    ],
-   "declared_name": "harbor/the-notifications-from-a-hundred-senders",
-   "declared_short": "the-notifications-from-a-hundred-senders",
+   "connector_provenance": "unknown",
    "domain": null,
-   "folder": "the-notifications-from-a-hundred-senders",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "8058c1a878b825efd330289c9d6a5e45825ffa9c6021efb3bf253435f866078c",
-   "size_bytes": 224564025,
-   "updated": "2026-10-06T23:37:50.658Z"
+   "sha256": "7805606c13e30160b9633ead952f5454976e97630814a9afaa378071fcd5ba85",
+   "size_bytes": 158745791,
+   "updated": "2026-10-07T02:57:39.217Z"
   },
   {
    "connector_provenance": "synthetic",
