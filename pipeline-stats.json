@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T04:15:03+00:00",
+ "generated_at": "2026-10-07T04:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2705,
-  "scanned": 2705,
-  "connector": 1018,
+  "task_folders": 2706,
+  "scanned": 2706,
+  "connector": 1019,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 202,
   "unknown": 309,
-  "synthetic": 507
+  "synthetic": 508
  },
  "domain": {
-  "unnamed": 1547,
+  "unnamed": 1548,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1020,
+  "harbor": 1021,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 270,
+  "slack-gym": 271,
   "google-drive-gym": 205,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 143,
   "linear-gym": 109,
   "gws-gym": 106,
-  "outlook-gym": 100,
+  "outlook-gym": 101,
   "notion-gym": 98,
   "slack": 66,
   "github-gym": 62,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136159
+  "approx_bytes_read": 144173
  },
  "errors": [],
  "tasks": [
@@ -1281,17 +1281,17 @@
    "updated": "2026-09-18T06:54:04.318Z"
   },
   {
-   "declared_name": "harbor/answer-the-signature-reminders",
-   "declared_short": "answer-the-signature-reminders",
-   "folder": "answer-the-signature-reminders",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/answer-the-signature-reminders",
+   "declared_short": "answer-the-signature-reminders",
    "domain": null,
+   "folder": "answer-the-signature-reminders",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "caa56e30ef68f3b74785e4454d80e53ee10843c41b71288906fdf5df6c74ec7b",
    "size_bytes": 9259099,
    "updated": "2026-10-07T04:10:38.388Z"
@@ -14880,6 +14880,23 @@
    "sha256": "f4033f3c3e0c0b7b335a796b109145d34308c23e181b25ddc57d6a32a7b15938",
    "size_bytes": 12328514,
    "updated": "2026-10-01T10:15:23.221Z"
+  },
+  {
+   "declared_name": "harbor/escalation-reply-window-audit",
+   "declared_short": "escalation-reply-window-audit",
+   "folder": "escalation-reply-window-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym",
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "4aa60e7a00c686ec2c32aff79aea20827f2144f2baacdf6049b02f0532d70d6d",
+   "size_bytes": 10292890,
+   "updated": "2026-10-07T04:16:14.435Z"
   },
   {
    "connector_provenance": "synthetic",
