@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T14:00:04+00:00",
+ "generated_at": "2026-10-07T14:05:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2778,
-  "scanned": 2778,
-  "connector": 1091,
+  "task_folders": 2780,
+  "scanned": 2780,
+  "connector": 1093,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 213,
-  "unknown": 325,
-  "synthetic": 553
+  "unknown": 326,
+  "synthetic": 554
  },
  "domain": {
-  "unnamed": 1620,
+  "unnamed": 1622,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1093,
+  "harbor": 1095,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,8 +40,8 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 161,
-  "linear-gym": 118,
-  "gws-gym": 115,
+  "linear-gym": 119,
+  "gws-gym": 116,
   "notion-gym": 107,
   "outlook-gym": 106,
   "github-gym": 68,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 411253
+  "new_archives_read": 2,
+  "approx_bytes_read": 273763
  },
  "errors": [],
  "tasks": [
@@ -11668,6 +11668,22 @@
    "updated": "2026-10-02T18:31:15.181Z"
   },
   {
+   "declared_name": "harbor/commitment-project-delivery-audit",
+   "declared_short": "commitment-project-delivery-audit",
+   "folder": "commitment-project-delivery-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "25469b3e143c042bdb8a1a064a468a5151723dbd5fac96455a4ad9326b2fa31b",
+   "size_bytes": 7944040,
+   "updated": "2026-10-07T14:00:12.981Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "gws-gym"
@@ -13193,17 +13209,17 @@
    "updated": "2026-10-01T18:49:34.324Z"
   },
   {
-   "declared_name": "harbor/editor-plan-delivery-audit",
-   "declared_short": "editor-plan-delivery-audit",
-   "folder": "editor-plan-delivery-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/editor-plan-delivery-audit",
+   "declared_short": "editor-plan-delivery-audit",
    "domain": null,
+   "folder": "editor-plan-delivery-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4c823741275514781ec93ec58f3cd344ba0c73e8e3b9a7bfe6ca99fca36d11c6",
    "size_bytes": 11849730,
    "updated": "2026-10-07T13:59:55.892Z"
@@ -30232,6 +30248,22 @@
    "updated": "2026-09-18T20:46:46.120Z"
   },
   {
+   "declared_name": "harbor/receivables-before-the-books-close",
+   "declared_short": "receivables-before-the-books-close",
+   "folder": "receivables-before-the-books-close",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "ce91c29750dd13d5babcc64eb8f7837fd90b8fb811eab74a05c3a5c9662e50ca",
+   "size_bytes": 11828385,
+   "updated": "2026-10-07T14:00:50.064Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -30590,17 +30622,17 @@
    "updated": "2026-10-07T08:40:55.271Z"
   },
   {
-   "declared_name": "harbor/schedule-start-slip-audit",
-   "declared_short": "schedule-start-slip-audit",
-   "folder": "schedule-start-slip-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/schedule-start-slip-audit",
+   "declared_short": "schedule-start-slip-audit",
    "domain": null,
+   "folder": "schedule-start-slip-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "49ab1fb902ad4aed504f2b9629b93a8904c714bb6c9b41a0a7e6e2d3ef6e40dd",
    "size_bytes": 7939759,
    "updated": "2026-10-07T13:58:10.384Z"
@@ -36433,17 +36465,17 @@
    "updated": "2026-09-18T02:08:00.456Z"
   },
   {
-   "declared_name": "harbor/the-meetings-that-were-quietly-retitled",
-   "declared_short": "the-meetings-that-were-quietly-retitled",
-   "folder": "the-meetings-that-were-quietly-retitled",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-meetings-that-were-quietly-retitled",
+   "declared_short": "the-meetings-that-were-quietly-retitled",
    "domain": null,
+   "folder": "the-meetings-that-were-quietly-retitled",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c00784a65966c01a6d124d3d2aeb7f775702cbc01ce372d4d2802ef38bca6cb6",
    "size_bytes": 9970370,
    "updated": "2026-10-07T13:59:21.369Z"
