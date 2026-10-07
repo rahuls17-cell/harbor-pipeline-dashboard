@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T14:15:04+00:00",
+ "generated_at": "2026-10-07T14:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2785,
-  "scanned": 2785,
-  "connector": 1098,
+  "task_folders": 2786,
+  "scanned": 2786,
+  "connector": 1099,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 214,
-  "unknown": 327,
+  "unknown": 328,
   "synthetic": 557
  },
  "domain": {
-  "unnamed": 1627,
+  "unnamed": 1628,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1100,
+  "harbor": 1101,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -33,7 +33,7 @@
  },
  "connector_services": {
   "slack-gym": 283,
-  "google-drive-gym": 205,
+  "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
   "jira-gym": 192,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135127
+  "approx_bytes_read": 132712
  },
  "errors": [],
  "tasks": [
@@ -13174,6 +13174,22 @@
    "sha256": "ab5f273e3392b0c0cf63985956ecf66b7fe1bc794e3bed5e00c033a59ff39447",
    "size_bytes": 8523938,
    "updated": "2026-10-01T18:52:34.261Z"
+  },
+  {
+   "declared_name": "harbor/drive-version-history-retention-review",
+   "declared_short": "drive-version-history-retention-review",
+   "folder": "drive-version-history-retention-review",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "google-drive-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "87dac77ecf3e744cb6006146a947d9d1dfa473eb0c2afa303775fd3ebed26922",
+   "size_bytes": 6286417,
+   "updated": "2026-10-07T14:17:54.724Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -29018,17 +29034,17 @@
    "updated": "2026-09-27T00:20:45.277Z"
   },
   {
-   "declared_name": "harbor/nine-flags-from-2024-that-moved-on",
-   "declared_short": "nine-flags-from-2024-that-moved-on",
-   "folder": "nine-flags-from-2024-that-moved-on",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/nine-flags-from-2024-that-moved-on",
+   "declared_short": "nine-flags-from-2024-that-moved-on",
    "domain": null,
+   "folder": "nine-flags-from-2024-that-moved-on",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "fa19552863d5cec6c1ad5f10b357cbb021b42cbe0a78d72c9525fd2fd8da3b6b",
    "size_bytes": 125235678,
    "updated": "2026-10-07T14:11:37.825Z"
