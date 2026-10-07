@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T00:50:03+00:00",
+ "generated_at": "2026-10-07T00:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2689,
-  "scanned": 2689,
-  "connector": 1002,
+  "task_folders": 2691,
+  "scanned": 2691,
+  "connector": 1004,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 200,
-  "unknown": 303,
-  "synthetic": 499
+  "unknown": 304,
+  "synthetic": 500
  },
  "domain": {
-  "unnamed": 1531,
+  "unnamed": 1533,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1004,
+  "harbor": 1006,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,8 +42,8 @@
   "email-calendar-gym": 139,
   "linear-gym": 107,
   "gws-gym": 105,
-  "notion-gym": 95,
-  "outlook-gym": 95,
+  "notion-gym": 96,
+  "outlook-gym": 96,
   "slack": 66,
   "github-gym": 62,
   "snowflake-gym": 20,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 4
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 141211
+  "new_archives_read": 2,
+  "approx_bytes_read": 273459
  },
  "errors": [],
  "tasks": [
@@ -16884,17 +16884,17 @@
    "updated": "2026-10-02T19:30:05.226Z"
   },
   {
-   "declared_name": "harbor/financial-statement-copy-review-audit",
-   "declared_short": "financial-statement-copy-review-audit",
-   "folder": "financial-statement-copy-review-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/financial-statement-copy-review-audit",
+   "declared_short": "financial-statement-copy-review-audit",
    "domain": null,
+   "folder": "financial-statement-copy-review-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "82f7031f39deb8a85a80e64fbd147410d9874c68e3c1c5983a0070f1a3ac3a31",
    "size_bytes": 6560972,
    "updated": "2026-10-07T00:46:19.504Z"
@@ -22180,6 +22180,22 @@
    "sha256": "3979128cfe0ed10515b433dd1ac7903085ec7b997516caa0556ed24f652e41f3",
    "size_bytes": 9858204,
    "updated": "2026-09-25T18:31:53.562Z"
+  },
+  {
+   "declared_name": "harbor/goals-still-waiting-to-start",
+   "declared_short": "goals-still-waiting-to-start",
+   "folder": "goals-still-waiting-to-start",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "5c73495406a9fa4105366bfc8112af1fc8849447ff1d495f7e43a2b7ab789523",
+   "size_bytes": 6775974,
+   "updated": "2026-10-07T00:53:51.991Z"
   },
   {
    "connector_provenance": "real",
@@ -35384,6 +35400,22 @@
    "sha256": "78281dac908701f7e1f71cb3764ded5f7691efb343757af89c5b44250d79948e",
    "size_bytes": 7335395,
    "updated": "2026-09-18T02:08:00.456Z"
+  },
+  {
+   "declared_name": "harbor/the-meetings-with-only-me-on-them",
+   "declared_short": "the-meetings-with-only-me-on-them",
+   "folder": "the-meetings-with-only-me-on-them",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "ccbcbbf77c561bf4474e9b2049066b52780dd3201063969c7887543f1e174ed7",
+   "size_bytes": 12134094,
+   "updated": "2026-10-07T00:52:56.403Z"
   },
   {
    "connector_provenance": "synthetic",
