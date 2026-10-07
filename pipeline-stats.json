@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T08:50:03+00:00",
+ "generated_at": "2026-10-07T08:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2728,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138871
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -39535,17 +39535,17 @@
    "updated": "2026-09-16T04:50:25.073Z"
   },
   {
-   "declared_name": "harbor/what-the-meetings-said",
-   "declared_short": "what-the-meetings-said",
-   "folder": "what-the-meetings-said",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/what-the-meetings-said",
+   "declared_short": "what-the-meetings-said",
    "domain": null,
+   "folder": "what-the-meetings-said",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9f5cc340a6ff6e4d7c4a9849d046d58d87a60df29470243c83fb161dcf36e1df",
    "size_bytes": 7745058,
    "updated": "2026-10-07T08:48:39.225Z"
