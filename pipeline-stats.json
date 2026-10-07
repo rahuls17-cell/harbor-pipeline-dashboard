@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T06:40:03+00:00",
+ "generated_at": "2026-10-07T07:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2713,
-  "scanned": 2713,
-  "connector": 1026,
+  "task_folders": 2715,
+  "scanned": 2715,
+  "connector": 1028,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 203,
-  "unknown": 311,
-  "synthetic": 512
+  "unknown": 312,
+  "synthetic": 513
  },
  "domain": {
-  "unnamed": 1555,
+  "unnamed": 1557,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1028,
+  "harbor": 1030,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,11 +39,11 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 143,
+  "email-calendar-gym": 144,
   "linear-gym": 110,
   "gws-gym": 108,
   "outlook-gym": 101,
-  "notion-gym": 99,
+  "notion-gym": 100,
   "slack": 66,
   "github-gym": 62,
   "snowflake-gym": 20,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 278407
  },
  "errors": [],
  "tasks": [
@@ -29509,6 +29509,22 @@
    "updated": "2026-10-03T04:32:04.085Z"
   },
   {
+   "declared_name": "harbor/practice-onboarding-status",
+   "declared_short": "practice-onboarding-status",
+   "folder": "practice-onboarding-status",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "6b33929be04b37d9f4359c94c110107c2b09f3c21111f948eed06791be2f2ac0",
+   "size_bytes": 16820107,
+   "updated": "2026-10-07T06:58:35.910Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
@@ -38139,6 +38155,22 @@
    "sha256": "6080c07d9be49955f1b3749cb55edf642779f7e9c7428512de5752bb7130b08c",
    "size_bytes": 11572807,
    "updated": "2026-09-29T06:38:10.076Z"
+  },
+  {
+   "declared_name": "harbor/training-promised-past-our-standard",
+   "declared_short": "training-promised-past-our-standard",
+   "folder": "training-promised-past-our-standard",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "3381e0b6325f855dc79105f1e29e577b36c42af9e78fff1cde0d2de7bdd36a40",
+   "size_bytes": 6106740,
+   "updated": "2026-10-07T06:58:10.122Z"
   },
   {
    "connector_provenance": "real",
