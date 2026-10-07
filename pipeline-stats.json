@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T11:25:03+00:00",
+ "generated_at": "2026-10-07T11:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2747,
-  "scanned": 2747,
-  "connector": 1060,
+  "task_folders": 2748,
+  "scanned": 2748,
+  "connector": 1061,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 208,
   "unknown": 319,
-  "synthetic": 533
+  "synthetic": 534
  },
  "domain": {
-  "unnamed": 1589,
+  "unnamed": 1590,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1062,
+  "harbor": 1063,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,7 +39,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 151,
+  "email-calendar-gym": 152,
   "linear-gym": 115,
   "gws-gym": 111,
   "notion-gym": 104,
@@ -47,7 +47,7 @@
   "slack": 66,
   "github-gym": 65,
   "snowflake-gym": 22,
-  "supabase-gym": 15,
+  "supabase-gym": 16,
   "teams-gym": 15,
   "microsoft-365-gym": 8,
   "microsoft-teams-gym": 6,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 137973
+  "approx_bytes_read": 140305
  },
  "errors": [],
  "tasks": [
@@ -1313,6 +1313,23 @@
    "updated": "2026-09-13T19:02:27.834Z"
   },
   {
+   "declared_name": "harbor/api-exposure-golive-audit",
+   "declared_short": "api-exposure-golive-audit",
+   "folder": "api-exposure-golive-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym",
+    "supabase-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "6a5e155c58678b25a57069a1b5f38da3c67c589850929ef08dedf17cddc4de48",
+   "size_bytes": 8101370,
+   "updated": "2026-10-07T11:29:22.508Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
@@ -2168,17 +2185,17 @@
    "updated": "2026-10-01T10:11:12.899Z"
   },
   {
-   "declared_name": "harbor/beta-asks-past-their-promised-date",
-   "declared_short": "beta-asks-past-their-promised-date",
-   "folder": "beta-asks-past-their-promised-date",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/beta-asks-past-their-promised-date",
+   "declared_short": "beta-asks-past-their-promised-date",
    "domain": null,
+   "folder": "beta-asks-past-their-promised-date",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b1dc1969ceb98421073312406a2c4be3bb35a1bcc262bf5716a90b3a5ab5995f",
    "size_bytes": 6287673,
    "updated": "2026-10-07T11:21:00.383Z"
