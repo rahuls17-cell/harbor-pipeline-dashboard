@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T07:15:03+00:00",
+ "generated_at": "2026-10-07T07:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2716,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135014
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -17311,17 +17311,17 @@
    "updated": "2026-09-09T11:14:04.135Z"
   },
   {
-   "declared_name": "harbor/ga-launch-readiness-audit",
-   "declared_short": "ga-launch-readiness-audit",
-   "folder": "ga-launch-readiness-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/ga-launch-readiness-audit",
+   "declared_short": "ga-launch-readiness-audit",
    "domain": null,
+   "folder": "ga-launch-readiness-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "374347af3f488274c95c85257ee752734a9ee4ae81ba9ec550c1bc5e108dad8b",
    "size_bytes": 7059049,
    "updated": "2026-10-07T07:12:19.581Z"
