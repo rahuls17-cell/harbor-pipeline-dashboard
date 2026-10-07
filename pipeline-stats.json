@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T04:20:03+00:00",
+ "generated_at": "2026-10-07T04:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2706,
@@ -54,8 +54,8 @@
   "microsoft-365-gym": 4
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 144173
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -14882,18 +14882,18 @@
    "updated": "2026-10-01T10:15:23.221Z"
   },
   {
-   "declared_name": "harbor/escalation-reply-window-audit",
-   "declared_short": "escalation-reply-window-audit",
-   "folder": "escalation-reply-window-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym",
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/escalation-reply-window-audit",
+   "declared_short": "escalation-reply-window-audit",
    "domain": null,
+   "folder": "escalation-reply-window-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4aa60e7a00c686ec2c32aff79aea20827f2144f2baacdf6049b02f0532d70d6d",
    "size_bytes": 10292890,
    "updated": "2026-10-07T04:16:14.435Z"
