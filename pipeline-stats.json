@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T00:45:03+00:00",
+ "generated_at": "2026-10-07T00:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2688,
-  "scanned": 2688,
-  "connector": 1001,
+  "task_folders": 2689,
+  "scanned": 2689,
+  "connector": 1002,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 200,
   "unknown": 303,
-  "synthetic": 498
+  "synthetic": 499
  },
  "domain": {
-  "unnamed": 1530,
+  "unnamed": 1531,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1003,
+  "harbor": 1004,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 139,
   "linear-gym": 107,
-  "gws-gym": 104,
+  "gws-gym": 105,
   "notion-gym": 95,
   "outlook-gym": 95,
   "slack": 66,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 138742
+  "approx_bytes_read": 141211
  },
  "errors": [],
  "tasks": [
@@ -16884,6 +16884,22 @@
    "updated": "2026-10-02T19:30:05.226Z"
   },
   {
+   "declared_name": "harbor/financial-statement-copy-review-audit",
+   "declared_short": "financial-statement-copy-review-audit",
+   "folder": "financial-statement-copy-review-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "82f7031f39deb8a85a80e64fbd147410d9874c68e3c1c5983a0070f1a3ac3a31",
+   "size_bytes": 6560972,
+   "updated": "2026-10-07T00:46:19.504Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
@@ -30483,17 +30499,17 @@
    "updated": "2026-10-03T07:45:44.541Z"
   },
   {
-   "declared_name": "harbor/spend-ask-signoff-audit",
-   "declared_short": "spend-ask-signoff-audit",
-   "folder": "spend-ask-signoff-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/spend-ask-signoff-audit",
+   "declared_short": "spend-ask-signoff-audit",
    "domain": null,
+   "folder": "spend-ask-signoff-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "134f5d54155a05b507f4d275634767cf03bf51ec897cb9fe7a5adde87f91dc71",
    "size_bytes": 10472002,
    "updated": "2026-10-07T00:42:53.266Z"
