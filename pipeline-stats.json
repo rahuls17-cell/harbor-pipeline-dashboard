@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T15:10:04+00:00",
+ "generated_at": "2026-10-07T15:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2794,
-  "scanned": 2794,
-  "connector": 1107,
+  "task_folders": 2795,
+  "scanned": 2795,
+  "connector": 1108,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 214,
   "unknown": 330,
-  "synthetic": 563
+  "synthetic": 564
  },
  "domain": {
-  "unnamed": 1636,
+  "unnamed": 1637,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1109,
+  "harbor": 1110,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -48,14 +48,14 @@
   "slack": 66,
   "snowflake-gym": 24,
   "supabase-gym": 16,
-  "teams-gym": 15,
+  "teams-gym": 16,
   "microsoft-365-gym": 8,
   "microsoft-teams-gym": 7,
   "shopify-gym": 5
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136348
+  "approx_bytes_read": 147976
  },
  "errors": [],
  "tasks": [
@@ -38705,6 +38705,22 @@
    "updated": "2026-10-01T13:19:43.065Z"
   },
   {
+   "declared_name": "harbor/the-week-the-digest-never-ran",
+   "declared_short": "the-week-the-digest-never-ran",
+   "folder": "the-week-the-digest-never-ran",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "teams-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "e210cde4c3338824b7f09a8cee0bea3a89fbfd2b04f6f41627fcd6bb74410e55",
+   "size_bytes": 9613439,
+   "updated": "2026-10-07T15:11:00.700Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
@@ -41156,17 +41172,17 @@
    "updated": "2026-10-01T14:48:26.103Z"
   },
   {
-   "declared_name": "harbor/which-repositories-my-mail-is-about",
-   "declared_short": "which-repositories-my-mail-is-about",
-   "folder": "which-repositories-my-mail-is-about",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/which-repositories-my-mail-is-about",
+   "declared_short": "which-repositories-my-mail-is-about",
    "domain": null,
+   "folder": "which-repositories-my-mail-is-about",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "05374793b7d5355b74a4876e04abc383f7b90155448af03309593e59dc52c8e0",
    "size_bytes": 24593377,
    "updated": "2026-10-07T15:09:30.033Z"
