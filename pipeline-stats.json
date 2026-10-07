@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T07:35:03+00:00",
+ "generated_at": "2026-10-07T07:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2717,
-  "scanned": 2717,
-  "connector": 1030,
+  "task_folders": 2718,
+  "scanned": 2718,
+  "connector": 1031,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 203,
   "unknown": 313,
-  "synthetic": 514
+  "synthetic": 515
  },
  "domain": {
-  "unnamed": 1559,
+  "unnamed": 1560,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1032,
+  "harbor": 1033,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 144,
   "linear-gym": 111,
   "gws-gym": 109,
-  "outlook-gym": 101,
+  "outlook-gym": 102,
   "notion-gym": 100,
   "slack": 66,
   "github-gym": 62,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 269079
  },
  "errors": [],
  "tasks": [
@@ -39565,20 +39565,20 @@
    "updated": "2026-09-20T17:09:38.687Z"
   },
   {
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/where-my-meetings-actually-happen",
+   "declared_short": "where-my-meetings-actually-happen",
+   "folder": "where-my-meetings-actually-happen",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "outlook-gym"
    ],
-   "declared_name": "harbor/where-my-meetings-actually-happen",
-   "declared_short": "where-my-meetings-actually-happen",
+   "connector_provenance": "synthetic",
    "domain": null,
-   "folder": "where-my-meetings-actually-happen",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "0c6587071b34ee78cb10e9a24f351f13e88f21d45a4d493fe089f3e4d402f41c",
-   "size_bytes": 11477504,
-   "updated": "2026-10-01T12:06:24.684Z"
+   "sha256": "668eaddc47747c37e7801e2e081479d1d15162fd806b80fc8d8c49307b38dc8b",
+   "size_bytes": 9450331,
+   "updated": "2026-10-07T07:51:40.888Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -40395,6 +40395,22 @@
    "sha256": "b3d16400e077c4cb5f047481300fd1bdcc6020c90e8bd85a185f2f2c88ff577a",
    "size_bytes": 10503818,
    "updated": "2026-09-23T19:51:26.460Z"
+  },
+  {
+   "declared_name": "harbor/who-has-been-sitting-in-these-meetings",
+   "declared_short": "who-has-been-sitting-in-these-meetings",
+   "folder": "who-has-been-sitting-in-these-meetings",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "87dba8e951b24e417f17426e418e16dd5c0d411501bcf47ca3330ba3840a3e23",
+   "size_bytes": 9125879,
+   "updated": "2026-10-07T07:52:30.571Z"
   },
   {
    "connector_provenance": "synthetic",
