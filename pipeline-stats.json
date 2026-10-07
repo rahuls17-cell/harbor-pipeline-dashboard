@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T12:20:03+00:00",
+ "generated_at": "2026-10-07T12:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2756,
@@ -54,8 +54,8 @@
   "shopify-gym": 4
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135882
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -30968,17 +30968,17 @@
    "updated": "2026-09-27T04:31:12.339Z"
   },
   {
-   "declared_name": "harbor/shared-past-the-people-i-named",
-   "declared_short": "shared-past-the-people-i-named",
-   "folder": "shared-past-the-people-i-named",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/shared-past-the-people-i-named",
+   "declared_short": "shared-past-the-people-i-named",
    "domain": null,
+   "folder": "shared-past-the-people-i-named",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c80fe94384a9f74ab81d4a4700e884d228d8e1f1ac0e608f65f159c4f294ab18",
    "size_bytes": 18215003,
    "updated": "2026-10-07T12:16:55.226Z"
