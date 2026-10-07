@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-07T14:50:03+00:00",
+ "generated_at": "2026-10-07T14:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2791,
-  "scanned": 2791,
-  "connector": 1104,
+  "task_folders": 2792,
+  "scanned": 2792,
+  "connector": 1105,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 214,
   "unknown": 330,
-  "synthetic": 560
+  "synthetic": 561
  },
  "domain": {
-  "unnamed": 1633,
+  "unnamed": 1634,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1106,
+  "harbor": 1107,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 165,
   "linear-gym": 119,
   "gws-gym": 118,
-  "notion-gym": 107,
+  "notion-gym": 108,
   "outlook-gym": 107,
   "github-gym": 69,
   "slack": 66,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 138613
+  "approx_bytes_read": 136853
  },
  "errors": [],
  "tasks": [
@@ -40372,17 +40372,17 @@
    "updated": "2026-10-03T03:41:50.247Z"
   },
   {
-   "declared_name": "harbor/what-the-huddles-never-wrote-down",
-   "declared_short": "what-the-huddles-never-wrote-down",
-   "folder": "what-the-huddles-never-wrote-down",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/what-the-huddles-never-wrote-down",
+   "declared_short": "what-the-huddles-never-wrote-down",
    "domain": null,
+   "folder": "what-the-huddles-never-wrote-down",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "32880dfa265548f5052653d8e255d6ab2a7a21751c72866c2e69527020372925",
    "size_bytes": 14759059,
    "updated": "2026-10-07T14:45:34.386Z"
@@ -40690,6 +40690,22 @@
    "sha256": "7d4affbcb8b949ad9cb7ad28b50dfe94cd7236df86f8abab208e6eefaf7d787c",
    "size_bytes": 7805546,
    "updated": "2026-09-23T07:10:45.085Z"
+  },
+  {
+   "declared_name": "harbor/where-the-prd-trail-goes-cold",
+   "declared_short": "where-the-prd-trail-goes-cold",
+   "folder": "where-the-prd-trail-goes-cold",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "86d04d31f9a241d8856a9aabeae3735b52817ea68c942c9a5358874853bfaa31",
+   "size_bytes": 6910019,
+   "updated": "2026-10-07T14:53:00.300Z"
   },
   {
    "connector_provenance": "unknown",
