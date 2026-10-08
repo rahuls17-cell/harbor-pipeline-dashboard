@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T19:55:03+00:00",
+ "generated_at": "2026-10-08T20:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2898,
-  "scanned": 2898,
-  "connector": 1211,
+  "task_folders": 2900,
+  "scanned": 2900,
+  "connector": 1213,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 219,
   "unknown": 354,
-  "synthetic": 638
+  "synthetic": 640
  },
  "domain": {
-  "unnamed": 1740,
+  "unnamed": 1742,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1213,
+  "harbor": 1215,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 305,
+  "slack-gym": 307,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 280396
  },
  "errors": [],
  "tasks": [
@@ -6406,6 +6406,22 @@
    "sha256": "750f527cdc3a6b2b93e3cb483a2509916630c1853eb4aec206a0980632bbcdb5",
    "size_bytes": 7251683,
    "updated": "2026-10-02T17:07:40.838Z"
+  },
+  {
+   "declared_name": "harbor/clinical-onsite-safety-fix-audit",
+   "declared_short": "clinical-onsite-safety-fix-audit",
+   "folder": "clinical-onsite-safety-fix-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "9c2b4ac5167785b06c69079a0292357badb1f71bbc039b1d9addd33f7608d6dc",
+   "size_bytes": 7259649,
+   "updated": "2026-10-08T19:55:31.845Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -15556,6 +15572,22 @@
    "sha256": "6ee041763c68ddeb68e091380fc13d0faecfa5b7cdc54b4aaddd9cdd9b304791",
    "size_bytes": 7121777,
    "updated": "2026-10-06T14:34:18.515Z"
+  },
+  {
+   "declared_name": "harbor/expiring-lot-alternate-gap-audit",
+   "declared_short": "expiring-lot-alternate-gap-audit",
+   "folder": "expiring-lot-alternate-gap-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c7de79b638c6609033207aee954e291ab77c9edbec5f3b40bfb2d43e25b442ee",
+   "size_bytes": 7634545,
+   "updated": "2026-10-08T19:59:27.186Z"
   },
   {
    "connector_provenance": "unknown",
