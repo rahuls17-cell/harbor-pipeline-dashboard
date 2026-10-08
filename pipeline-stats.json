@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T17:10:03+00:00",
+ "generated_at": "2026-10-08T17:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2890,
-  "scanned": 2890,
-  "connector": 1203,
+  "task_folders": 2891,
+  "scanned": 2891,
+  "connector": 1204,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 219,
-  "unknown": 353,
+  "unknown": 354,
   "synthetic": 631
  },
  "domain": {
-  "unnamed": 1732,
+  "unnamed": 1733,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1205,
+  "harbor": 1206,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 183,
   "gws-gym": 137,
   "linear-gym": 135,
-  "notion-gym": 117,
+  "notion-gym": 118,
   "outlook-gym": 111,
   "github-gym": 78,
   "slack": 66,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 141713
+  "approx_bytes_read": 137221
  },
  "errors": [],
  "tasks": [
@@ -29629,17 +29629,17 @@
    "updated": "2026-10-07T06:20:35.958Z"
   },
   {
-   "declared_name": "harbor/mobile2-model-promotion-gate-audit",
-   "declared_short": "mobile2-model-promotion-gate-audit",
-   "folder": "mobile2-model-promotion-gate-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/mobile2-model-promotion-gate-audit",
+   "declared_short": "mobile2-model-promotion-gate-audit",
    "domain": null,
+   "folder": "mobile2-model-promotion-gate-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "35ed5878ca3ca9b2dd071942d207831ca7c4b141ccd6adc044ccd57b592fad21",
    "size_bytes": 13293225,
    "updated": "2026-10-08T17:06:50.839Z"
@@ -30747,6 +30747,22 @@
    "sha256": "19a555110961237355bb059fc3e79f4fbc784aa05368d75ddee2d13f00fd6e3c",
    "size_bytes": 183320473,
    "updated": "2026-10-06T09:50:03.663Z"
+  },
+  {
+   "declared_name": "harbor/practice-codes-priced-off-their-standard-code",
+   "declared_short": "practice-codes-priced-off-their-standard-code",
+   "folder": "practice-codes-priced-off-their-standard-code",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "d82f3ce4e260e2c8b632ef87e15dc451ebad8abf362d805e5d6529e988ee6209",
+   "size_bytes": 7902238,
+   "updated": "2026-10-08T17:14:58.721Z"
   },
   {
    "connector_provenance": "unknown",
