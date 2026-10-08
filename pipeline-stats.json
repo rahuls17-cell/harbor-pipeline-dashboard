@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T18:45:02+00:00",
+ "generated_at": "2026-10-08T19:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2897,
-  "scanned": 2897,
-  "connector": 1210,
+  "task_folders": 2898,
+  "scanned": 2898,
+  "connector": 1211,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 219,
   "unknown": 354,
-  "synthetic": 637
+  "synthetic": 638
  },
  "domain": {
-  "unnamed": 1739,
+  "unnamed": 1740,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1212,
+  "harbor": 1213,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -49,13 +49,13 @@
   "snowflake-gym": 28,
   "supabase-gym": 20,
   "teams-gym": 16,
-  "microsoft-365-gym": 12,
+  "microsoft-365-gym": 13,
   "microsoft-teams-gym": 7,
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 141951
  },
  "errors": [],
  "tasks": [
@@ -30059,6 +30059,22 @@
    "sha256": "4c0bf7deed0d1bd59990c4c84f67ecc65763eb5886eb387dff920df199b6dbde",
    "size_bytes": 8933966,
    "updated": "2026-10-01T16:48:08.802Z"
+  },
+  {
+   "declared_name": "harbor/northstar-revised-band-requalification-audit",
+   "declared_short": "northstar-revised-band-requalification-audit",
+   "folder": "northstar-revised-band-requalification-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "bc5bb9f45f3095ac93b51c8d0421c6e8e5f548f7fd9259c95049b8838ef7c0c2",
+   "size_bytes": 9330514,
+   "updated": "2026-10-08T19:48:17.354Z"
   },
   {
    "connector_provenance": "unknown",
