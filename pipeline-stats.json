@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T07:10:03+00:00",
+ "generated_at": "2026-10-08T07:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2839,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 274228
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -15109,17 +15109,17 @@
    "updated": "2026-10-06T08:08:25.690Z"
   },
   {
-   "declared_name": "harbor/entries-with-nothing-on-them",
-   "declared_short": "entries-with-nothing-on-them",
-   "folder": "entries-with-nothing-on-them",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/entries-with-nothing-on-them",
+   "declared_short": "entries-with-nothing-on-them",
    "domain": null,
+   "folder": "entries-with-nothing-on-them",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0ec6630894c9e94ae70b30bd7a7f51b2edef41b435ac5d8a4855ca150f8e7346",
    "size_bytes": 17076263,
    "updated": "2026-10-08T07:06:24.017Z"
@@ -35348,17 +35348,17 @@
    "updated": "2026-09-29T19:33:26.253Z"
   },
   {
-   "declared_name": "harbor/the-calendars-worth-hiding",
-   "declared_short": "the-calendars-worth-hiding",
-   "folder": "the-calendars-worth-hiding",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-calendars-worth-hiding",
+   "declared_short": "the-calendars-worth-hiding",
    "domain": null,
+   "folder": "the-calendars-worth-hiding",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4980cecfa1bd78113f47818a1941d3f50e72979b920cd9c939b4fc5bc0e7e16b",
    "size_bytes": 30490677,
    "updated": "2026-10-08T07:08:11.663Z"
