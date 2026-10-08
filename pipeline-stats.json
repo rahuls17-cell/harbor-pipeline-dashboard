@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T14:40:03+00:00",
+ "generated_at": "2026-10-08T14:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2879,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133768
  },
  "errors": [],
  "tasks": [
@@ -26864,20 +26864,20 @@
    "updated": "2026-09-28T21:40:01.286Z"
   },
   {
-   "connector_provenance": "real",
+   "declared_name": "harbor/how-much-of-my-drive-is-link-only",
+   "declared_short": "how-much-of-my-drive-is-link-only",
+   "folder": "how-much-of-my-drive-is-link-only",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "google-drive-gym"
    ],
-   "declared_name": "harbor/how-much-of-my-drive-is-link-only",
-   "declared_short": "how-much-of-my-drive-is-link-only",
+   "connector_provenance": "real",
    "domain": null,
-   "folder": "how-much-of-my-drive-is-link-only",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "6dcd8694fc1d20d4a0c39553db9cd800376283edb3cb87ffabb460e672863104",
-   "size_bytes": 4872112,
-   "updated": "2026-09-05T21:29:23.788Z"
+   "sha256": "78fd798e193dffcae1e43d65c5998744d6b44e022a1d19ec55de1990937b70a8",
+   "size_bytes": 9239230,
+   "updated": "2026-10-08T14:41:30.891Z"
   },
   {
    "connector_provenance": "real",
