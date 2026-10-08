@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T23:15:03+00:00",
+ "generated_at": "2026-10-08T23:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2918,
-  "scanned": 2918,
-  "connector": 1231,
+  "task_folders": 2919,
+  "scanned": 2919,
+  "connector": 1232,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 221,
   "unknown": 358,
-  "synthetic": 652
+  "synthetic": 653
  },
  "domain": {
-  "unnamed": 1760,
+  "unnamed": 1761,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1233,
+  "harbor": 1234,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 313,
+  "slack-gym": 314,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135838
+  "approx_bytes_read": 141089
  },
  "errors": [],
  "tasks": [
@@ -23229,6 +23229,22 @@
    "updated": "2026-10-03T07:32:19.617Z"
   },
   {
+   "declared_name": "harbor/grant-issue-readiness-audit",
+   "declared_short": "grant-issue-readiness-audit",
+   "folder": "grant-issue-readiness-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "96e5a513886da0b7c67e0753a84073cc19f2261f269ea14c51cb18a8df2e3c85",
+   "size_bytes": 6912493,
+   "updated": "2026-10-08T23:15:19.822Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
@@ -36536,17 +36552,17 @@
    "updated": "2026-09-29T19:59:53.216Z"
   },
   {
-   "declared_name": "harbor/the-compliance-tasks-that-never-leave-the-list",
-   "declared_short": "the-compliance-tasks-that-never-leave-the-list",
-   "folder": "the-compliance-tasks-that-never-leave-the-list",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-compliance-tasks-that-never-leave-the-list",
+   "declared_short": "the-compliance-tasks-that-never-leave-the-list",
    "domain": null,
+   "folder": "the-compliance-tasks-that-never-leave-the-list",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e1b2eb2fb8f5362f205473a695c7372476058322fe0c127795290c5e450992dd",
    "size_bytes": 7550156,
    "updated": "2026-10-08T23:13:21.029Z"
