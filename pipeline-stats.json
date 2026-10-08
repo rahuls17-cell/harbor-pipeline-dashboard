@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T14:15:04+00:00",
+ "generated_at": "2026-10-08T14:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2878,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 4,
-  "approx_bytes_read": 547556
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1265,17 +1265,17 @@
    "updated": "2026-10-08T12:25:21.410Z"
   },
   {
-   "declared_name": "harbor/all-day-blocks-on-one-calendar",
-   "declared_short": "all-day-blocks-on-one-calendar",
-   "folder": "all-day-blocks-on-one-calendar",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/all-day-blocks-on-one-calendar",
+   "declared_short": "all-day-blocks-on-one-calendar",
    "domain": null,
+   "folder": "all-day-blocks-on-one-calendar",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d9fe990121c3bde7cc2c67f53f9acd711629956de509a42611d431b6f0c787bc",
    "size_bytes": 21403455,
    "updated": "2026-10-08T14:10:45.233Z"
@@ -17882,17 +17882,17 @@
    "updated": "2026-10-08T10:09:21.002Z"
   },
   {
-   "declared_name": "harbor/fourteen-names-eighteen-labels",
-   "declared_short": "fourteen-names-eighteen-labels",
-   "folder": "fourteen-names-eighteen-labels",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/fourteen-names-eighteen-labels",
+   "declared_short": "fourteen-names-eighteen-labels",
    "domain": null,
+   "folder": "fourteen-names-eighteen-labels",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "57bf189e3d9151674750eafc6c5680fbb226b89cacfd9cca205274d4777b0768",
    "size_bytes": 9742315,
    "updated": "2026-10-08T14:12:21.247Z"
@@ -23100,17 +23100,17 @@
    "updated": "2026-10-02T20:46:42.114Z"
   },
   {
-   "declared_name": "harbor/gws-the-invoice-lines-that-do-not-add-up",
-   "declared_short": "gws-the-invoice-lines-that-do-not-add-up",
-   "folder": "gws-the-invoice-lines-that-do-not-add-up",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/gws-the-invoice-lines-that-do-not-add-up",
+   "declared_short": "gws-the-invoice-lines-that-do-not-add-up",
    "domain": null,
+   "folder": "gws-the-invoice-lines-that-do-not-add-up",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3f7d2c5c52b9e02f8c9cf292fd3a0dbc6e9d707425443cdb6be94badf946217a",
    "size_bytes": 8116345,
    "updated": "2026-10-08T14:10:45.673Z"
@@ -32433,18 +32433,18 @@
    "updated": "2026-09-25T15:51:30.622Z"
   },
   {
-   "declared_name": "harbor/stuck-backup-closure-audit",
-   "declared_short": "stuck-backup-closure-audit",
-   "folder": "stuck-backup-closure-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym",
     "supabase-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/stuck-backup-closure-audit",
+   "declared_short": "stuck-backup-closure-audit",
    "domain": null,
+   "folder": "stuck-backup-closure-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a3046e4c9a8b6e03ebd037f089d2f01c4bd510de35249d399125bb72b3a892e2",
    "size_bytes": 9680975,
    "updated": "2026-10-08T14:10:29.496Z"
