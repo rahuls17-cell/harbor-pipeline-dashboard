@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T05:40:03+00:00",
+ "generated_at": "2026-10-08T05:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2832,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 275705
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -22956,17 +22956,17 @@
    "updated": "2026-09-28T17:13:07.337Z"
   },
   {
-   "declared_name": "harbor/hanging-lab-request-audit",
-   "declared_short": "hanging-lab-request-audit",
-   "folder": "hanging-lab-request-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/hanging-lab-request-audit",
+   "declared_short": "hanging-lab-request-audit",
    "domain": null,
+   "folder": "hanging-lab-request-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d944b59b205afe2ba892d46aa469a24ee3fa89e65ceb12503c078cbe6fa46588",
    "size_bytes": 10239270,
    "updated": "2026-10-08T05:39:54.379Z"
@@ -26941,17 +26941,17 @@
    "updated": "2026-10-01T15:15:47.571Z"
   },
   {
-   "declared_name": "harbor/investor-update-core-numbers",
-   "declared_short": "investor-update-core-numbers",
-   "folder": "investor-update-core-numbers",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/investor-update-core-numbers",
+   "declared_short": "investor-update-core-numbers",
    "domain": null,
+   "folder": "investor-update-core-numbers",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1609a5a8805bd06fe4ba16a7c4fabafdb793de6371a7254b27c6b025ec95d68e",
    "size_bytes": 14606338,
    "updated": "2026-10-08T05:39:38.303Z"
