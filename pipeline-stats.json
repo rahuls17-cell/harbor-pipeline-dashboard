@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T02:25:03+00:00",
+ "generated_at": "2026-10-08T02:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2822,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137374
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -41431,17 +41431,17 @@
    "updated": "2026-09-28T19:51:03.056Z"
   },
   {
-   "declared_name": "harbor/which-handbook-pages-were-never-finished",
-   "declared_short": "which-handbook-pages-were-never-finished",
-   "folder": "which-handbook-pages-were-never-finished",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/which-handbook-pages-were-never-finished",
+   "declared_short": "which-handbook-pages-were-never-finished",
    "domain": null,
+   "folder": "which-handbook-pages-were-never-finished",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4d0c9ff830bb62cbc60fba1841046805940d40e6610ef99926f2d39875266ab1",
    "size_bytes": 7568881,
    "updated": "2026-10-08T02:21:21.704Z"
