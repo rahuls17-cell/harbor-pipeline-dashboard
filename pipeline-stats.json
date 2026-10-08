@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T10:25:03+00:00",
+ "generated_at": "2026-10-08T10:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2853,
-  "scanned": 2853,
-  "connector": 1166,
+  "task_folders": 2854,
+  "scanned": 2854,
+  "connector": 1167,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
   "unknown": 345,
-  "synthetic": 603
+  "synthetic": 604
  },
  "domain": {
-  "unnamed": 1695,
+  "unnamed": 1696,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1168,
+  "harbor": 1169,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 175,
-  "gws-gym": 130,
+  "gws-gym": 131,
   "linear-gym": 129,
   "notion-gym": 114,
   "outlook-gym": 110,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134235
+  "approx_bytes_read": 139047
  },
  "errors": [],
  "tasks": [
@@ -31948,17 +31948,17 @@
    "updated": "2026-10-07T00:42:53.266Z"
   },
   {
-   "declared_name": "harbor/spend-tracker-budget-audit",
-   "declared_short": "spend-tracker-budget-audit",
-   "folder": "spend-tracker-budget-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/spend-tracker-budget-audit",
+   "declared_short": "spend-tracker-budget-audit",
    "domain": null,
+   "folder": "spend-tracker-budget-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6d780fbf025fa3ef6c64b80b6e15c4b46be076f94e239ed3abe6dde00b0cabdf",
    "size_bytes": 6974684,
    "updated": "2026-10-08T10:23:51.317Z"
@@ -41973,6 +41973,22 @@
    "sha256": "23c5f6a880aa4ea00c340e4162db15cc27e2079f037eb8175607439912872e1b",
    "size_bytes": 6969527,
    "updated": "2026-09-29T16:37:09.071Z"
+  },
+  {
+   "declared_name": "harbor/which-lab-orders-never-came-back",
+   "declared_short": "which-lab-orders-never-came-back",
+   "folder": "which-lab-orders-never-came-back",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "191ede096f2a9c0835b7367cb0c077c1f42fac80dbf7cfe7d5e508034a13ae2e",
+   "size_bytes": 14383504,
+   "updated": "2026-10-08T10:29:42.791Z"
   },
   {
    "connector_provenance": "synthetic",
