@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T23:45:03+00:00",
+ "generated_at": "2026-10-08T23:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2923,
-  "scanned": 2923,
-  "connector": 1236,
+  "task_folders": 2925,
+  "scanned": 2925,
+  "connector": 1238,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 221,
-  "unknown": 359,
+  "unknown": 361,
   "synthetic": 656
  },
  "domain": {
-  "unnamed": 1765,
+  "unnamed": 1767,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1238,
+  "harbor": 1240,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,8 +39,8 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 185,
-  "linear-gym": 141,
+  "email-calendar-gym": 186,
+  "linear-gym": 142,
   "gws-gym": 138,
   "notion-gym": 120,
   "outlook-gym": 115,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 268392
+  "approx_bytes_read": 274923
  },
  "errors": [],
  "tasks": [
@@ -2361,17 +2361,17 @@
    "updated": "2026-09-19T20:43:49.218Z"
   },
   {
-   "declared_name": "harbor/beta-support-by-month",
-   "declared_short": "beta-support-by-month",
-   "folder": "beta-support-by-month",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/beta-support-by-month",
+   "declared_short": "beta-support-by-month",
    "domain": null,
+   "folder": "beta-support-by-month",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "82ddbfb7530f9581d411b8c57ef326041bc28fd69c6b7f628c9f6a2d2088fd06",
    "size_bytes": 15222621,
    "updated": "2026-10-08T23:44:28.895Z"
@@ -6325,17 +6325,17 @@
    "updated": "2026-09-13T04:17:00.613Z"
   },
   {
-   "declared_name": "harbor/client-billed-practices-that-skipped-a-month",
-   "declared_short": "client-billed-practices-that-skipped-a-month",
-   "folder": "client-billed-practices-that-skipped-a-month",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/client-billed-practices-that-skipped-a-month",
+   "declared_short": "client-billed-practices-that-skipped-a-month",
    "domain": null,
+   "folder": "client-billed-practices-that-skipped-a-month",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f23a3646444c320dfbeb7e7ff693b4ce7627388d88672f25bd00772246908506",
    "size_bytes": 14193920,
    "updated": "2026-10-08T23:42:18.786Z"
@@ -27951,6 +27951,22 @@
    "updated": "2026-10-07T13:41:05.872Z"
   },
   {
+   "declared_name": "harbor/lab-work-awaiting-clinical-safety-review",
+   "declared_short": "lab-work-awaiting-clinical-safety-review",
+   "folder": "lab-work-awaiting-clinical-safety-review-20261008T200339Z-1-001",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "62a8a32182a21842987a4f803afa7c9cf2ec1550f22a26dc003d527c0ec5bf83",
+   "size_bytes": 7747476,
+   "updated": "2026-10-08T23:46:18.616Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
@@ -30817,6 +30833,22 @@
    "sha256": "b66463b2ab3e0bf7c9a96758155d558ebe01bfe1a9314066e5988bc924627e61",
    "size_bytes": 8259333,
    "updated": "2026-10-08T21:15:48.072Z"
+  },
+  {
+   "declared_name": "harbor/patient-notice-copies-to-drop",
+   "declared_short": "patient-notice-copies-to-drop",
+   "folder": "patient-notice-copies-to-drop",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "25c0637ae1d654049a2b188807b7af06ed0d2f141cb599b6343e2f24d68420d7",
+   "size_bytes": 9913801,
+   "updated": "2026-10-08T23:47:55.639Z"
   },
   {
    "connector_provenance": "synthetic",
