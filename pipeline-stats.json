@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T09:30:03+00:00",
+ "generated_at": "2026-10-08T09:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2847,
-  "scanned": 2847,
-  "connector": 1160,
+  "task_folders": 2848,
+  "scanned": 2848,
+  "connector": 1161,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
   "unknown": 345,
-  "synthetic": 597
+  "synthetic": 598
  },
  "domain": {
-  "unnamed": 1689,
+  "unnamed": 1690,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1162,
+  "harbor": 1163,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 175,
   "gws-gym": 129,
-  "linear-gym": 125,
+  "linear-gym": 126,
   "notion-gym": 113,
   "outlook-gym": 110,
   "github-gym": 76,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133338
+  "approx_bytes_read": 136504
  },
  "errors": [],
  "tasks": [
@@ -17530,17 +17530,17 @@
    "updated": "2026-09-30T08:36:12.507Z"
   },
   {
-   "declared_name": "harbor/flagged-mail-sender-standing",
-   "declared_short": "flagged-mail-sender-standing",
-   "folder": "flagged-mail-sender-standing",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/flagged-mail-sender-standing",
+   "declared_short": "flagged-mail-sender-standing",
    "domain": null,
+   "folder": "flagged-mail-sender-standing",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c8f3269057cedaf903fd7a0ea7e52167b2ba693648e0a25d666b0dba57567ee9",
    "size_bytes": 23987844,
    "updated": "2026-10-08T09:26:23.969Z"
@@ -23018,6 +23018,22 @@
    "sha256": "aac4fb757d000b8f6877ca12038ad8b0b55b90a96051c0c03d1ae3761bccac43",
    "size_bytes": 6720599,
    "updated": "2026-09-28T17:13:07.337Z"
+  },
+  {
+   "declared_name": "harbor/half-this-sprint-is-already-gone",
+   "declared_short": "half-this-sprint-is-already-gone",
+   "folder": "half-this-sprint-is-already-gone",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c82d7f535d230ed07b5272042622ae5babe21731855d3de52c88197c24f5222f",
+   "size_bytes": 5890998,
+   "updated": "2026-10-08T09:31:17.809Z"
   },
   {
    "connector_provenance": "synthetic",
