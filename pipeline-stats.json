@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T13:30:03+00:00",
+ "generated_at": "2026-10-08T13:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2871,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135381
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1873,17 +1873,17 @@
    "updated": "2026-09-28T11:16:05.645Z"
   },
   {
-   "declared_name": "harbor/award-software-open-release-audit",
-   "declared_short": "award-software-open-release-audit",
-   "folder": "award-software-open-release-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/award-software-open-release-audit",
+   "declared_short": "award-software-open-release-audit",
    "domain": null,
+   "folder": "award-software-open-release-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "99c5256cfa616bdf505984f7cc654673c7ee5e6325c7227f04dc3d48b7b104f4",
    "size_bytes": 12378388,
    "updated": "2026-10-08T13:25:45.907Z"
