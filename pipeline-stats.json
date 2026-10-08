@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T12:20:03+00:00",
+ "generated_at": "2026-10-08T12:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2865,
-  "scanned": 2865,
-  "connector": 1178,
+  "task_folders": 2866,
+  "scanned": 2866,
+  "connector": 1179,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
-  "unknown": 349,
+  "unknown": 350,
   "synthetic": 611
  },
  "domain": {
-  "unnamed": 1707,
+  "unnamed": 1708,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1180,
+  "harbor": 1181,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 177,
   "gws-gym": 135,
   "linear-gym": 130,
-  "notion-gym": 115,
+  "notion-gym": 116,
   "outlook-gym": 110,
   "github-gym": 77,
   "slack": 66,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135344
+  "approx_bytes_read": 132846
  },
  "errors": [],
  "tasks": [
@@ -24640,6 +24640,22 @@
    "updated": "2026-09-29T04:13:46.274Z"
   },
   {
+   "declared_name": "harbor/health-experience-on-our-bench",
+   "declared_short": "health-experience-on-our-bench",
+   "folder": "health-experience-on-our-bench",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "314ae768e4845ab5730c512b2d568e1f2d231c590cb9873da1fd494f29ac124d",
+   "size_bytes": 11171115,
+   "updated": "2026-10-08T12:23:35.727Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/health-h101-psa-flare-trigger-audit",
@@ -38916,17 +38932,17 @@
    "updated": "2026-10-06T19:42:22.570Z"
   },
   {
-   "declared_name": "harbor/the-shared-folders-that-share-nothing",
-   "declared_short": "the-shared-folders-that-share-nothing",
-   "folder": "the-shared-folders-that-share-nothing",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-shared-folders-that-share-nothing",
+   "declared_short": "the-shared-folders-that-share-nothing",
    "domain": null,
+   "folder": "the-shared-folders-that-share-nothing",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "15dd1687bc4bccca1d793cc2dc8f908dd796ef04ebc509252147558578e22864",
    "size_bytes": 13368925,
    "updated": "2026-10-08T12:16:27.995Z"
