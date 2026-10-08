@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T11:10:03+00:00",
+ "generated_at": "2026-10-08T11:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2859,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134040
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -35444,17 +35444,17 @@
    "updated": "2026-10-02T19:06:32.410Z"
   },
   {
-   "declared_name": "harbor/the-bug-that-got-filed-twice",
-   "declared_short": "the-bug-that-got-filed-twice",
-   "folder": "the-bug-that-got-filed-twice",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-bug-that-got-filed-twice",
+   "declared_short": "the-bug-that-got-filed-twice",
    "domain": null,
+   "folder": "the-bug-that-got-filed-twice",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "70c41d351ed3b5ad0ba1650d854f249c72df278d875956c6cfe77c088bf75732",
    "size_bytes": 9320795,
    "updated": "2026-10-08T11:05:10.772Z"
