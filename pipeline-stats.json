@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T22:50:03+00:00",
+ "generated_at": "2026-10-08T22:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2916,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135389
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -5834,17 +5834,17 @@
    "updated": "2026-10-06T16:14:47.464Z"
   },
   {
-   "declared_name": "harbor/business-team-overdue-issue-audit",
-   "declared_short": "business-team-overdue-issue-audit",
-   "folder": "business-team-overdue-issue-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/business-team-overdue-issue-audit",
+   "declared_short": "business-team-overdue-issue-audit",
    "domain": null,
+   "folder": "business-team-overdue-issue-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6cbbd50fd437143418dcbcb1c3a98cf6d1009e548982010a34220328e2f39247",
    "size_bytes": 10388128,
    "updated": "2026-10-08T22:45:42.069Z"
