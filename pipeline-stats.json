@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T15:00:03+00:00",
+ "generated_at": "2026-10-08T15:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2882,
-  "scanned": 2882,
-  "connector": 1195,
+  "task_folders": 2883,
+  "scanned": 2883,
+  "connector": 1196,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 219,
   "unknown": 352,
-  "synthetic": 624
+  "synthetic": 625
  },
  "domain": {
-  "unnamed": 1724,
+  "unnamed": 1725,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1197,
+  "harbor": 1198,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -46,7 +46,7 @@
   "outlook-gym": 110,
   "github-gym": 78,
   "slack": 66,
-  "snowflake-gym": 26,
+  "snowflake-gym": 27,
   "supabase-gym": 20,
   "teams-gym": 16,
   "microsoft-365-gym": 11,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 137553
+  "approx_bytes_read": 138576
  },
  "errors": [],
  "tasks": [
@@ -30482,6 +30482,22 @@
    "updated": "2026-10-07T08:32:00.476Z"
   },
   {
+   "declared_name": "harbor/personal-data-change-rights-audit",
+   "declared_short": "personal-data-change-rights-audit",
+   "folder": "personal-data-change-rights-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "be5fb167dba2aeab78131ffb7277ba542c2c66cc5fcc2d11e28eb227ae3b9d79",
+   "size_bytes": 7180177,
+   "updated": "2026-10-08T15:01:05.838Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/law-b37-l15-petition-status-from-order-log",
@@ -30780,17 +30796,17 @@
    "updated": "2026-10-07T09:38:11.601Z"
   },
   {
-   "declared_name": "harbor/pricing-changes-before-budget-review",
-   "declared_short": "pricing-changes-before-budget-review",
-   "folder": "pricing-changes-before-budget-review",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/pricing-changes-before-budget-review",
+   "declared_short": "pricing-changes-before-budget-review",
    "domain": null,
+   "folder": "pricing-changes-before-budget-review",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7fe3f3ed58764b87cb3b409f2b5f509372647d50c8f1ecc2f62df2a2f59a9370",
    "size_bytes": 19256065,
    "updated": "2026-10-08T14:57:10.477Z"
