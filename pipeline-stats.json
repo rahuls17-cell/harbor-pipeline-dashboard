@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T20:00:03+00:00",
+ "generated_at": "2026-10-08T20:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2900,
-  "scanned": 2900,
-  "connector": 1213,
+  "task_folders": 2902,
+  "scanned": 2902,
+  "connector": 1215,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 219,
-  "unknown": 354,
+  "real": 220,
+  "unknown": 355,
   "synthetic": 640
  },
  "domain": {
-  "unnamed": 1742,
+  "unnamed": 1744,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1215,
+  "harbor": 1217,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,10 +39,10 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 183,
+  "email-calendar-gym": 184,
   "gws-gym": 137,
   "linear-gym": 136,
-  "notion-gym": 118,
+  "notion-gym": 119,
   "outlook-gym": 111,
   "github-gym": 78,
   "slack": 66,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 280396
+  "approx_bytes_read": 268492
  },
  "errors": [],
  "tasks": [
@@ -6408,17 +6408,17 @@
    "updated": "2026-10-02T17:07:40.838Z"
   },
   {
-   "declared_name": "harbor/clinical-onsite-safety-fix-audit",
-   "declared_short": "clinical-onsite-safety-fix-audit",
-   "folder": "clinical-onsite-safety-fix-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/clinical-onsite-safety-fix-audit",
+   "declared_short": "clinical-onsite-safety-fix-audit",
    "domain": null,
+   "folder": "clinical-onsite-safety-fix-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9c2b4ac5167785b06c69079a0292357badb1f71bbc039b1d9addd33f7608d6dc",
    "size_bytes": 7259649,
    "updated": "2026-10-08T19:55:31.845Z"
@@ -15574,17 +15574,17 @@
    "updated": "2026-10-06T14:34:18.515Z"
   },
   {
-   "declared_name": "harbor/expiring-lot-alternate-gap-audit",
-   "declared_short": "expiring-lot-alternate-gap-audit",
-   "folder": "expiring-lot-alternate-gap-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/expiring-lot-alternate-gap-audit",
+   "declared_short": "expiring-lot-alternate-gap-audit",
    "domain": null,
+   "folder": "expiring-lot-alternate-gap-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c7de79b638c6609033207aee954e291ab77c9edbec5f3b40bfb2d43e25b442ee",
    "size_bytes": 7634545,
    "updated": "2026-10-08T19:59:27.186Z"
@@ -41780,6 +41780,22 @@
    "updated": "2026-10-07T00:12:36.320Z"
   },
   {
+   "declared_name": "harbor/weekly-digest-delivery-audit",
+   "declared_short": "weekly-digest-delivery-audit",
+   "folder": "weekly-digest-delivery-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "86c32a04323bacd1d674cc9858ee6327ab2c0160de448ca5ce0302f2936e85f7",
+   "size_bytes": 8362319,
+   "updated": "2026-10-08T20:02:07.060Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -42488,6 +42504,22 @@
    "sha256": "1613669cc7aea916319675bb88e15cf4dce92051824bf58ca720468bb59da058",
    "size_bytes": 11493530,
    "updated": "2026-10-03T09:06:36.786Z"
+  },
+  {
+   "declared_name": "harbor/the-beta-promises-nobody-started",
+   "declared_short": "the-beta-promises-nobody-started",
+   "folder": "which-beta-features-the-parity-board-forgot",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "bbc96ed3cc3168fecd5ecd7479c88bd3a00b9b9ffdda3544d77e1c6070a6ab22",
+   "size_bytes": 8625360,
+   "updated": "2026-10-08T20:04:39.403Z"
   },
   {
    "connector_provenance": "unknown",
