@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T21:15:03+00:00",
+ "generated_at": "2026-10-08T21:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2907,
-  "scanned": 2907,
-  "connector": 1220,
+  "task_folders": 2909,
+  "scanned": 2909,
+  "connector": 1222,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 220,
-  "unknown": 355,
+  "unknown": 357,
   "synthetic": 645
  },
  "domain": {
-  "unnamed": 1749,
+  "unnamed": 1751,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1222,
+  "harbor": 1224,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,8 +39,8 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 184,
-  "linear-gym": 138,
+  "email-calendar-gym": 185,
+  "linear-gym": 139,
   "gws-gym": 138,
   "notion-gym": 119,
   "outlook-gym": 111,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134737
+  "new_archives_read": 2,
+  "approx_bytes_read": 272944
  },
  "errors": [],
  "tasks": [
@@ -30643,6 +30643,22 @@
    "updated": "2026-10-07T02:51:55.402Z"
   },
   {
+   "declared_name": "harbor/patient-data-work-awaiting-privacy-review",
+   "declared_short": "patient-data-work-awaiting-privacy-review",
+   "folder": "patient-data-work-awaiting-privacy-review",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "b66463b2ab3e0bf7c9a96758155d558ebe01bfe1a9314066e5988bc924627e61",
+   "size_bytes": 8259333,
+   "updated": "2026-10-08T21:15:48.072Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
@@ -31003,6 +31019,22 @@
    "sha256": "6ce602d7398d3516b4146074268cb7a6ce785b93bc906ba08dea273936aca3d3",
    "size_bytes": 15359849,
    "updated": "2026-10-01T17:18:43.324Z"
+  },
+  {
+   "declared_name": "harbor/practices-silent-on-the-july-update",
+   "declared_short": "practices-silent-on-the-july-update",
+   "folder": "practices-silent-on-the-july-update",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "14b9a2fdbaa263d714087e01990c1fb98f26bbfc35c6f8565ffdb7a457868a97",
+   "size_bytes": 9076007,
+   "updated": "2026-10-08T21:17:07.496Z"
   },
   {
    "connector_provenance": "real",
@@ -36247,17 +36279,17 @@
    "updated": "2026-09-19T08:02:42.859Z"
   },
   {
-   "declared_name": "harbor/the-check-that-never-turned-green",
-   "declared_short": "the-check-that-never-turned-green",
-   "folder": "the-check-that-never-turned-green",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-check-that-never-turned-green",
+   "declared_short": "the-check-that-never-turned-green",
    "domain": null,
+   "folder": "the-check-that-never-turned-green",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "44a429b670c954f519df90edb0e2c9ce7cc6a958b144815b378939c8bf597b32",
    "size_bytes": 6512340,
    "updated": "2026-10-08T21:13:19.727Z"
