@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T09:10:03+00:00",
+ "generated_at": "2026-10-08T09:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2845,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138650
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -32193,17 +32193,17 @@
    "updated": "2026-10-06T19:32:31.615Z"
   },
   {
-   "declared_name": "harbor/superseded-takeon-confirm-audit",
-   "declared_short": "superseded-takeon-confirm-audit",
-   "folder": "superseded-takeon-confirm-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/superseded-takeon-confirm-audit",
+   "declared_short": "superseded-takeon-confirm-audit",
    "domain": null,
+   "folder": "superseded-takeon-confirm-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "918cd99c321a0a5bf5029b50a2dab0231a6f7b8604f05bec3b82f3da88fb44de",
    "size_bytes": 11451557,
    "updated": "2026-10-08T09:07:27.529Z"
