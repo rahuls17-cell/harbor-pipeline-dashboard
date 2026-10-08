@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T17:15:03+00:00",
+ "generated_at": "2026-10-08T17:20:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2891,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137221
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -30749,17 +30749,17 @@
    "updated": "2026-10-06T09:50:03.663Z"
   },
   {
-   "declared_name": "harbor/practice-codes-priced-off-their-standard-code",
-   "declared_short": "practice-codes-priced-off-their-standard-code",
-   "folder": "practice-codes-priced-off-their-standard-code",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/practice-codes-priced-off-their-standard-code",
+   "declared_short": "practice-codes-priced-off-their-standard-code",
    "domain": null,
+   "folder": "practice-codes-priced-off-their-standard-code",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d82f3ce4e260e2c8b632ef87e15dc451ebad8abf362d805e5d6529e988ee6209",
    "size_bytes": 7902238,
    "updated": "2026-10-08T17:14:58.721Z"
