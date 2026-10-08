@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T05:05:03+00:00",
+ "generated_at": "2026-10-08T05:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2830,
-  "scanned": 2830,
-  "connector": 1143,
+  "task_folders": 2832,
+  "scanned": 2832,
+  "connector": 1145,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
-  "unknown": 338,
-  "synthetic": 587
+  "unknown": 339,
+  "synthetic": 588
  },
  "domain": {
-  "unnamed": 1672,
+  "unnamed": 1674,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1145,
+  "harbor": 1147,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 288,
+  "slack-gym": 289,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 172,
   "gws-gym": 127,
   "linear-gym": 125,
-  "notion-gym": 110,
+  "notion-gym": 111,
   "outlook-gym": 109,
   "github-gym": 75,
   "slack": 66,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 275705
  },
  "errors": [],
  "tasks": [
@@ -22956,6 +22956,22 @@
    "updated": "2026-09-28T17:13:07.337Z"
   },
   {
+   "declared_name": "harbor/hanging-lab-request-audit",
+   "declared_short": "hanging-lab-request-audit",
+   "folder": "hanging-lab-request-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d944b59b205afe2ba892d46aa469a24ee3fa89e65ceb12503c078cbe6fa46588",
+   "size_bytes": 10239270,
+   "updated": "2026-10-08T05:39:54.379Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -26923,6 +26939,22 @@
    "sha256": "4ff1f286ee2d7d34f231385b6791228d896ad27f71feb534266132fe162cdfa3",
    "size_bytes": 18882057,
    "updated": "2026-10-01T15:15:47.571Z"
+  },
+  {
+   "declared_name": "harbor/investor-update-core-numbers",
+   "declared_short": "investor-update-core-numbers",
+   "folder": "investor-update-core-numbers",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "1609a5a8805bd06fe4ba16a7c4fabafdb793de6371a7254b27c6b025ec95d68e",
+   "size_bytes": 14606338,
+   "updated": "2026-10-08T05:39:38.303Z"
   },
   {
    "connector_provenance": "unknown",
