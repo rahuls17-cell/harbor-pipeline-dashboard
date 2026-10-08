@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T10:50:04+00:00",
+ "generated_at": "2026-10-08T10:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2856,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138354
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -27069,17 +27069,17 @@
    "updated": "2026-10-01T15:15:47.571Z"
   },
   {
-   "declared_name": "harbor/investor-lists-already-worked-in-the-seed-round",
-   "declared_short": "investor-lists-already-worked-in-the-seed-round",
-   "folder": "investor-lists-already-worked-in-the-seed-round",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/investor-lists-already-worked-in-the-seed-round",
+   "declared_short": "investor-lists-already-worked-in-the-seed-round",
    "domain": null,
+   "folder": "investor-lists-already-worked-in-the-seed-round",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c93442dbf2d2d556f2aee404b6d19ee55755707787deee527dafab9e8efff67e",
    "size_bytes": 26934171,
    "updated": "2026-10-08T10:45:28.476Z"
