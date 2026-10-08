@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T06:20:04+00:00",
+ "generated_at": "2026-10-08T06:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2835,
-  "scanned": 2835,
-  "connector": 1148,
+  "task_folders": 2836,
+  "scanned": 2836,
+  "connector": 1149,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
   "unknown": 340,
-  "synthetic": 590
+  "synthetic": 591
  },
  "domain": {
-  "unnamed": 1677,
+  "unnamed": 1678,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1150,
+  "harbor": 1151,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 289,
+  "slack-gym": 290,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 132425
+  "approx_bytes_read": 138859
  },
  "errors": [],
  "tasks": [
@@ -31516,6 +31516,22 @@
    "updated": "2026-10-03T08:22:19.253Z"
   },
   {
+   "declared_name": "harbor/seminar-speaker-move-audit",
+   "declared_short": "seminar-speaker-move-audit",
+   "folder": "seminar-speaker-move-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "17c11e8b306efe4bbeab629db7881fe5215a99112fc6a48fd81aab2ecb5726b4",
+   "size_bytes": 7580602,
+   "updated": "2026-10-08T06:24:33.960Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
@@ -35988,17 +36004,17 @@
    "updated": "2026-09-20T16:27:41.910Z"
   },
   {
-   "declared_name": "harbor/the-endpoints-that-never-ask-for-a-token",
-   "declared_short": "the-endpoints-that-never-ask-for-a-token",
-   "folder": "the-endpoints-that-never-ask-for-a-token",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "supabase-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-endpoints-that-never-ask-for-a-token",
+   "declared_short": "the-endpoints-that-never-ask-for-a-token",
    "domain": null,
+   "folder": "the-endpoints-that-never-ask-for-a-token",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2d53bfc7a1447262445bbe1cc71ed491e41ae5ea9147e2fbc1a5026b10443b3c",
    "size_bytes": 6660578,
    "updated": "2026-10-08T06:17:32.958Z"
