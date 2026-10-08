@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T14:35:03+00:00",
+ "generated_at": "2026-10-08T14:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2879,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 139651
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -11941,17 +11941,17 @@
    "updated": "2026-10-06T15:42:30.017Z"
   },
   {
-   "declared_name": "harbor/concern-check-verdict-audit",
-   "declared_short": "concern-check-verdict-audit",
-   "folder": "concern-check-verdict-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/concern-check-verdict-audit",
+   "declared_short": "concern-check-verdict-audit",
    "domain": null,
+   "folder": "concern-check-verdict-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "167bf00a0664f32f25727252b129e870788151482bfa52b16a843a9924b8f4fb",
    "size_bytes": 7165000,
    "updated": "2026-10-08T14:31:05.130Z"
