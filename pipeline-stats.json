@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T10:30:03+00:00",
+ "generated_at": "2026-10-08T10:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2854,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 139047
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -41975,17 +41975,17 @@
    "updated": "2026-09-29T16:37:09.071Z"
   },
   {
-   "declared_name": "harbor/which-lab-orders-never-came-back",
-   "declared_short": "which-lab-orders-never-came-back",
-   "folder": "which-lab-orders-never-came-back",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/which-lab-orders-never-came-back",
+   "declared_short": "which-lab-orders-never-came-back",
    "domain": null,
+   "folder": "which-lab-orders-never-came-back",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "191ede096f2a9c0835b7367cb0c077c1f42fac80dbf7cfe7d5e508034a13ae2e",
    "size_bytes": 14383504,
    "updated": "2026-10-08T10:29:42.791Z"
