@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T18:20:04+00:00",
+ "generated_at": "2026-10-08T18:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2894,
-  "scanned": 2894,
-  "connector": 1207,
+  "task_folders": 2895,
+  "scanned": 2895,
+  "connector": 1208,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 219,
   "unknown": 354,
-  "synthetic": 634
+  "synthetic": 635
  },
  "domain": {
-  "unnamed": 1736,
+  "unnamed": 1737,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1209,
+  "harbor": 1210,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 302,
+  "slack-gym": 303,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 132646
+  "approx_bytes_read": 137361
  },
  "errors": [],
  "tasks": [
@@ -27711,6 +27711,22 @@
    "updated": "2026-10-08T04:49:01.286Z"
   },
   {
+   "declared_name": "harbor/lab-safeguard-reset-audit",
+   "declared_short": "lab-safeguard-reset-audit",
+   "folder": "lab-safeguard-reset-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "7eb87e1a89115034b1b5ac647e270d9718912cfd1637e993311993890fb2f6e9",
+   "size_bytes": 9489945,
+   "updated": "2026-10-08T18:21:13.275Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
@@ -30957,17 +30973,17 @@
    "updated": "2026-09-27T05:45:28.820Z"
   },
   {
-   "declared_name": "harbor/project-lead-risk-load-audit",
-   "declared_short": "project-lead-risk-load-audit",
-   "folder": "project-lead-risk-load-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/project-lead-risk-load-audit",
+   "declared_short": "project-lead-risk-load-audit",
    "domain": null,
+   "folder": "project-lead-risk-load-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4db5d428ee888ac111c6cf7ad64562ab5d5860c959845c584f43054c520d6cf9",
    "size_bytes": 16247574,
    "updated": "2026-10-08T18:15:25.632Z"
