@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T15:45:04+00:00",
+ "generated_at": "2026-10-08T15:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2884,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132728
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -40021,17 +40021,17 @@
    "updated": "2026-10-03T03:48:15.856Z"
   },
   {
-   "declared_name": "harbor/the-whole-days-i-blocked-out",
-   "declared_short": "the-whole-days-i-blocked-out",
-   "folder": "the-whole-days-i-blocked-out",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-whole-days-i-blocked-out",
+   "declared_short": "the-whole-days-i-blocked-out",
    "domain": null,
+   "folder": "the-whole-days-i-blocked-out",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f46982abc231ef0c9db059abbd651ffb896496b74c6deacc7e973e192e77a94e",
    "size_bytes": 18164681,
    "updated": "2026-10-08T15:42:57.746Z"
