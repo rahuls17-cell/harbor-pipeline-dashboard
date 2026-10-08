@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T17:00:04+00:00",
+ "generated_at": "2026-10-08T17:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2888,
-  "scanned": 2888,
-  "connector": 1201,
+  "task_folders": 2889,
+  "scanned": 2889,
+  "connector": 1202,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 219,
   "unknown": 353,
-  "synthetic": 629
+  "synthetic": 630
  },
  "domain": {
-  "unnamed": 1730,
+  "unnamed": 1731,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1203,
+  "harbor": 1204,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,12 +41,12 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 183,
   "gws-gym": 137,
-  "linear-gym": 134,
+  "linear-gym": 135,
   "notion-gym": 117,
   "outlook-gym": 111,
   "github-gym": 78,
   "slack": 66,
-  "snowflake-gym": 27,
+  "snowflake-gym": 28,
   "supabase-gym": 20,
   "teams-gym": 16,
   "microsoft-365-gym": 11,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 274478
+  "new_archives_read": 1,
+  "approx_bytes_read": 133381
  },
  "errors": [],
  "tasks": [
@@ -15695,17 +15695,17 @@
    "updated": "2026-10-07T21:40:15.712Z"
   },
   {
-   "declared_name": "harbor/family-dinner-extra-guests",
-   "declared_short": "family-dinner-extra-guests",
-   "folder": "family-dinner-extra-guests",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/family-dinner-extra-guests",
+   "declared_short": "family-dinner-extra-guests",
    "domain": null,
+   "folder": "family-dinner-extra-guests",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7a0c4e78e7ef96e5ab87c4f60af4b9829ff0c3c934731e5ad3f73042d33c194c",
    "size_bytes": 9930383,
    "updated": "2026-10-08T16:58:21.658Z"
@@ -17592,6 +17592,23 @@
    "sha256": "3973498f1eb6594abe9efdcea23713df7ddf702f5f424e6855f8396c791188f6",
    "size_bytes": 7461696,
    "updated": "2026-10-07T12:42:44.416Z"
+  },
+  {
+   "declared_name": "harbor/finance-partial-load-breach",
+   "declared_short": "finance-partial-load-breach",
+   "folder": "finance-partial-load-breach-v1-QC-TESTING-r16",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "957b6323a93c59a43eb768797a41c00b6004a7a4396350e75c692028eb60eedf",
+   "size_bytes": 7175270,
+   "updated": "2026-10-08T17:04:59.576Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -30684,17 +30701,17 @@
    "updated": "2026-10-07T15:05:01.398Z"
   },
   {
-   "declared_name": "harbor/portfolio-delivery-scorecard-audit",
-   "declared_short": "portfolio-delivery-scorecard-audit",
-   "folder": "portfolio-delivery-scorecard-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/portfolio-delivery-scorecard-audit",
+   "declared_short": "portfolio-delivery-scorecard-audit",
    "domain": null,
+   "folder": "portfolio-delivery-scorecard-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2adc5f23972efa3415acc692c2faccae9a7550137fb234d3ae3427debcf3157f",
    "size_bytes": 13323167,
    "updated": "2026-10-08T16:59:16.268Z"
