@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T17:05:03+00:00",
+ "generated_at": "2026-10-08T17:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2889,
-  "scanned": 2889,
-  "connector": 1202,
+  "task_folders": 2890,
+  "scanned": 2890,
+  "connector": 1203,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 219,
   "unknown": 353,
-  "synthetic": 630
+  "synthetic": 631
  },
  "domain": {
-  "unnamed": 1731,
+  "unnamed": 1732,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1204,
+  "harbor": 1205,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -49,13 +49,13 @@
   "snowflake-gym": 28,
   "supabase-gym": 20,
   "teams-gym": 16,
-  "microsoft-365-gym": 11,
+  "microsoft-365-gym": 12,
   "microsoft-teams-gym": 7,
   "shopify-gym": 5
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133381
+  "approx_bytes_read": 141713
  },
  "errors": [],
  "tasks": [
@@ -17594,18 +17594,18 @@
    "updated": "2026-10-07T12:42:44.416Z"
   },
   {
-   "declared_name": "harbor/finance-partial-load-breach",
-   "declared_short": "finance-partial-load-breach",
-   "folder": "finance-partial-load-breach-v1-QC-TESTING-r16",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/finance-partial-load-breach",
+   "declared_short": "finance-partial-load-breach",
    "domain": null,
+   "folder": "finance-partial-load-breach-v1-QC-TESTING-r16",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "957b6323a93c59a43eb768797a41c00b6004a7a4396350e75c692028eb60eedf",
    "size_bytes": 7175270,
    "updated": "2026-10-08T17:04:59.576Z"
@@ -29627,6 +29627,22 @@
    "sha256": "663f5f23cbf85ce260c3ec50aca5aabb9a9490cda7b3771936b71502622b71de",
    "size_bytes": 9674295,
    "updated": "2026-10-07T06:20:35.958Z"
+  },
+  {
+   "declared_name": "harbor/mobile2-model-promotion-gate-audit",
+   "declared_short": "mobile2-model-promotion-gate-audit",
+   "folder": "mobile2-model-promotion-gate-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "35ed5878ca3ca9b2dd071942d207831ca7c4b141ccd6adc044ccd57b592fad21",
+   "size_bytes": 13293225,
+   "updated": "2026-10-08T17:06:50.839Z"
   },
   {
    "connector_provenance": "real",
