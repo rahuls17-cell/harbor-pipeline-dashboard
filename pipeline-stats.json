@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T11:15:03+00:00",
+ "generated_at": "2026-10-08T11:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2859,
-  "scanned": 2859,
-  "connector": 1172,
+  "task_folders": 2860,
+  "scanned": 2860,
+  "connector": 1173,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
   "unknown": 346,
-  "synthetic": 608
+  "synthetic": 609
  },
  "domain": {
-  "unnamed": 1701,
+  "unnamed": 1702,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1174,
+  "harbor": 1175,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 294,
+  "slack-gym": 295,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 175,
   "gws-gym": 133,
-  "linear-gym": 129,
+  "linear-gym": 130,
   "notion-gym": 115,
   "outlook-gym": 110,
   "github-gym": 77,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 138766
  },
  "errors": [],
  "tasks": [
@@ -41103,6 +41103,23 @@
    "sha256": "2654434af87c7cfc7ce49ff967644541ae655cb9c9975b5f8a410c7b1388eab8",
    "size_bytes": 9848399,
    "updated": "2026-09-29T14:45:29.738Z"
+  },
+  {
+   "declared_name": "harbor/web-release-blocker-audit",
+   "declared_short": "web-release-blocker-audit",
+   "folder": "web-release-blocker-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "1ed51f527006177e74b965300033a4a2f5126800b6cf18e096fb0e663be0665d",
+   "size_bytes": 9107328,
+   "updated": "2026-10-08T11:24:20.287Z"
   },
   {
    "connector_provenance": "unknown",
