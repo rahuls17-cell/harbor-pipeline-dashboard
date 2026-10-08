@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T14:00:03+00:00",
+ "generated_at": "2026-10-08T14:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2873,
-  "scanned": 2873,
-  "connector": 1186,
+  "task_folders": 2874,
+  "scanned": 2874,
+  "connector": 1187,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
-  "unknown": 350,
+  "unknown": 351,
   "synthetic": 618
  },
  "domain": {
-  "unnamed": 1715,
+  "unnamed": 1716,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1188,
+  "harbor": 1189,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 177,
   "gws-gym": 136,
   "linear-gym": 131,
-  "notion-gym": 116,
+  "notion-gym": 117,
   "outlook-gym": 110,
   "github-gym": 78,
   "slack": 66,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 140730
+  "approx_bytes_read": 133643
  },
  "errors": [],
  "tasks": [
@@ -31247,17 +31247,17 @@
    "updated": "2026-09-29T03:17:50.807Z"
   },
   {
-   "declared_name": "harbor/revision-check-independence-audit",
-   "declared_short": "revision-check-independence-audit",
-   "folder": "revision-check-independence-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/revision-check-independence-audit",
+   "declared_short": "revision-check-independence-audit",
    "domain": null,
+   "folder": "revision-check-independence-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c664cb93af32557dd513e3ba38e8eb5522d8d1829c704c1c80b4feb9e061d790",
    "size_bytes": 6368443,
    "updated": "2026-10-08T13:57:41.889Z"
@@ -38146,6 +38146,22 @@
    "sha256": "6aa2cc23d93cd00db82c235e9ccd8d05996b65838170ea5f80a7e6eeed5cbd70",
    "size_bytes": 6699026,
    "updated": "2026-09-29T17:26:10.979Z"
+  },
+  {
+   "declared_name": "harbor/the-pilot-practices-with-no-notes",
+   "declared_short": "the-pilot-practices-with-no-notes",
+   "folder": "the-pilot-practices-with-no-notes",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "67fca8ea51e5556c61dfa2616d37906061da3270d65906cf902423f548d29490",
+   "size_bytes": 7796742,
+   "updated": "2026-10-08T14:01:46.208Z"
   },
   {
    "connector_provenance": "synthetic",
