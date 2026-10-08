@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T07:40:02+00:00",
+ "generated_at": "2026-10-08T08:25:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2841,
-  "scanned": 2841,
-  "connector": 1154,
+  "task_folders": 2843,
+  "scanned": 2843,
+  "connector": 1156,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
-  "unknown": 340,
+  "unknown": 342,
   "synthetic": 596
  },
  "domain": {
-  "unnamed": 1683,
+  "unnamed": 1685,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1156,
+  "harbor": 1158,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 291,
+  "slack-gym": 292,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 175,
   "gws-gym": 127,
   "linear-gym": 125,
-  "notion-gym": 112,
+  "notion-gym": 113,
   "outlook-gym": 109,
   "github-gym": 76,
   "slack": 66,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 270118
  },
  "errors": [],
  "tasks": [
@@ -11698,6 +11698,22 @@
    "sha256": "0b63982b28216ddabb6e79ce6908bf3a70550103e23ad968a95ef657fadd4fb3",
    "size_bytes": 19464582,
    "updated": "2026-09-10T10:38:02.555Z"
+  },
+  {
+   "declared_name": "harbor/code-types-billing-would-reject",
+   "declared_short": "code-types-billing-would-reject",
+   "folder": "code-types-billing-would-reject",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "d117bfb2e658e39de302dc5c83fc349dc894a2b0c4d857ed855493a269729e69",
+   "size_bytes": 8309601,
+   "updated": "2026-10-08T08:23:45.582Z"
   },
   {
    "connector_provenance": "unknown",
@@ -38146,6 +38162,22 @@
    "sha256": "e1fc41688ba42743f4712dacb64d889292357fe68e144a584d6dad075b7e6963",
    "size_bytes": 23827423,
    "updated": "2026-09-28T19:24:03.387Z"
+  },
+  {
+   "declared_name": "harbor/the-replies-the-counts-miss",
+   "declared_short": "the-replies-the-counts-miss",
+   "folder": "the-replies-the-counts-miss",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "9e3fa43688aaad3e1e087de76e70950cbc943420fa1ef222be92a368be63f0e7",
+   "size_bytes": 9923940,
+   "updated": "2026-10-08T08:23:58.728Z"
   },
   {
    "connector_provenance": "synthetic",
