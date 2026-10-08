@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T22:30:03+00:00",
+ "generated_at": "2026-10-08T22:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2914,
-  "scanned": 2914,
-  "connector": 1227,
+  "task_folders": 2915,
+  "scanned": 2915,
+  "connector": 1228,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 220,
   "unknown": 357,
-  "synthetic": 650
+  "synthetic": 651
  },
  "domain": {
-  "unnamed": 1756,
+  "unnamed": 1757,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1229,
+  "harbor": 1230,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 312,
+  "slack-gym": 313,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -46,7 +46,7 @@
   "outlook-gym": 111,
   "github-gym": 79,
   "slack": 66,
-  "snowflake-gym": 29,
+  "snowflake-gym": 30,
   "supabase-gym": 20,
   "teams-gym": 16,
   "microsoft-365-gym": 15,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133525
  },
  "errors": [],
  "tasks": [
@@ -32733,6 +32733,23 @@
    "sha256": "3d8d7422b2519ed3bee0549f8acbfe788f83901da15f677e654866268aa4ed25",
    "size_bytes": 7584607,
    "updated": "2026-10-06T17:53:23.489Z"
+  },
+  {
+   "declared_name": "harbor/stage-file-freshness-audit",
+   "declared_short": "stage-file-freshness-audit",
+   "folder": "stage-file-freshness-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "4d89ded7864ad62e7abd98d7cf08af481bcc489154b23b01c6abf8e845edacec",
+   "size_bytes": 6326951,
+   "updated": "2026-10-08T22:33:26.240Z"
   },
   {
    "connector_provenance": "synthetic",
