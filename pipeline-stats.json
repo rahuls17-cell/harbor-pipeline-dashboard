@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T03:35:03+00:00",
+ "generated_at": "2026-10-08T03:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2824,
-  "scanned": 2824,
-  "connector": 1137,
+  "task_folders": 2825,
+  "scanned": 2825,
+  "connector": 1138,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
   "unknown": 337,
-  "synthetic": 582
+  "synthetic": 583
  },
  "domain": {
-  "unnamed": 1666,
+  "unnamed": 1667,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1139,
+  "harbor": 1140,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 286,
+  "slack-gym": 287,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135852
+  "approx_bytes_read": 137460
  },
  "errors": [],
  "tasks": [
@@ -27198,17 +27198,17 @@
    "updated": "2026-10-03T06:57:26.969Z"
   },
   {
-   "declared_name": "harbor/lab-export-copies-to-retire",
-   "declared_short": "lab-export-copies-to-retire",
-   "folder": "lab-export-v15",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/lab-export-copies-to-retire",
+   "declared_short": "lab-export-copies-to-retire",
    "domain": null,
+   "folder": "lab-export-v15",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "bd5c41f83d7629c7aed8521e23baf730f6f7af1ad9fe522d0d342d361da826e1",
    "size_bytes": 17698896,
    "updated": "2026-10-08T03:33:58.833Z"
@@ -36482,6 +36482,22 @@
    "sha256": "01e10d2dec87cb5617d69621a9a391cfdee4f5c35b01d97030f0cf17015898a1",
    "size_bytes": 8166624,
    "updated": "2026-09-23T22:05:44.216Z"
+  },
+  {
+   "declared_name": "harbor/the-item-nobody-actually-claimed",
+   "declared_short": "the-item-nobody-actually-claimed",
+   "folder": "the-item-nobody-actually-claimed",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "38ab7d87a8a70bf32ec609cfd25dbe197caf94918fe31a5c3d44a46a7961bbf5",
+   "size_bytes": 7632468,
+   "updated": "2026-10-08T03:38:44.681Z"
   },
   {
    "connector_provenance": "unknown",
