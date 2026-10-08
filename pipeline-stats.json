@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T21:30:04+00:00",
+ "generated_at": "2026-10-08T21:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2910,
-  "scanned": 2910,
-  "connector": 1223,
+  "task_folders": 2911,
+  "scanned": 2911,
+  "connector": 1224,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 220,
   "unknown": 357,
-  "synthetic": 646
+  "synthetic": 647
  },
  "domain": {
-  "unnamed": 1752,
+  "unnamed": 1753,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1225,
+  "harbor": 1226,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 308,
+  "slack-gym": 309,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 139140
+  "approx_bytes_read": 145762
  },
  "errors": [],
  "tasks": [
@@ -15510,6 +15510,22 @@
    "updated": "2026-10-08T06:37:48.449Z"
   },
   {
+   "declared_name": "harbor/ethics-owner-gap-audit",
+   "declared_short": "ethics-owner-gap-audit",
+   "folder": "ethics-owner-gap-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "000e58041974dd9543336159213c9a722b0350705371c0d75c5a0ffc0bcfb2ee",
+   "size_bytes": 9662274,
+   "updated": "2026-10-08T21:34:42.965Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "shopify-gym"
@@ -26847,17 +26863,17 @@
    "updated": "2026-10-07T15:31:20.439Z"
   },
   {
-   "declared_name": "harbor/helix-enrollment-eligibility-audit",
-   "declared_short": "helix-enrollment-eligibility-audit",
-   "folder": "helix-enrollment-eligibility-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/helix-enrollment-eligibility-audit",
+   "declared_short": "helix-enrollment-eligibility-audit",
    "domain": null,
+   "folder": "helix-enrollment-eligibility-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b22db6075dbae1adae461ea53b1d8ebe5e5081b74912073c14ffbf793fe8f352",
    "size_bytes": 8781719,
    "updated": "2026-10-08T21:25:39.397Z"
