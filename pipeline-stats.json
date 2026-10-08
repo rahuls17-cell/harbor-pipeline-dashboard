@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T20:30:03+00:00",
+ "generated_at": "2026-10-08T20:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2903,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137603
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -36566,17 +36566,17 @@
    "updated": "2026-09-30T07:24:42.232Z"
   },
   {
-   "declared_name": "harbor/the-demographics-that-disagree",
-   "declared_short": "the-demographics-that-disagree",
-   "folder": "the-demographics-that-disagree",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-demographics-that-disagree",
+   "declared_short": "the-demographics-that-disagree",
    "domain": null,
+   "folder": "the-demographics-that-disagree",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "babf0d47dfd9c8e283a7dab8c872d8e069d0538446b42be9811f671cabe07240",
    "size_bytes": 10376074,
    "updated": "2026-10-08T20:26:25.016Z"
