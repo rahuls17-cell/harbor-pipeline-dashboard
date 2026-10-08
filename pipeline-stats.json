@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T12:30:04+00:00",
+ "generated_at": "2026-10-08T12:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2869,
-  "scanned": 2869,
-  "connector": 1182,
+  "task_folders": 2870,
+  "scanned": 2870,
+  "connector": 1183,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
   "unknown": 350,
-  "synthetic": 614
+  "synthetic": 615
  },
  "domain": {
-  "unnamed": 1711,
+  "unnamed": 1712,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1184,
+  "harbor": 1185,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 177,
-  "gws-gym": 135,
+  "gws-gym": 136,
   "linear-gym": 131,
   "notion-gym": 116,
   "outlook-gym": 110,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 414625
+  "new_archives_read": 1,
+  "approx_bytes_read": 141234
  },
  "errors": [],
  "tasks": [
@@ -1249,17 +1249,17 @@
    "updated": "2026-09-30T09:12:04.212Z"
   },
   {
-   "declared_name": "harbor/after-hours-checkin-audit",
-   "declared_short": "after-hours-checkin-audit",
-   "folder": "after-hours-checkin-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/after-hours-checkin-audit",
+   "declared_short": "after-hours-checkin-audit",
    "domain": null,
+   "folder": "after-hours-checkin-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3ac83edf0380ec510663fb1c5f5f42b7e559d02e27cf6ceb45333ef74db9551d",
    "size_bytes": 6779385,
    "updated": "2026-10-08T12:25:21.410Z"
@@ -32511,17 +32511,17 @@
    "updated": "2026-09-19T01:23:02.097Z"
   },
   {
-   "declared_name": "harbor/target-date-overrun-audit",
-   "declared_short": "target-date-overrun-audit",
-   "folder": "target-date-overrun-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/target-date-overrun-audit",
+   "declared_short": "target-date-overrun-audit",
    "domain": null,
+   "folder": "target-date-overrun-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9d5cf9f66c6067112e62e4872f175f4771bffd62bda70db010e58b46ed94755d",
    "size_bytes": 14365038,
    "updated": "2026-10-08T12:26:29.844Z"
@@ -37236,17 +37236,17 @@
    "updated": "2026-10-01T11:22:37.179Z"
   },
   {
-   "declared_name": "harbor/the-links-that-were-never-links",
-   "declared_short": "the-links-that-were-never-links",
-   "folder": "the-links-that-were-never-links",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-links-that-were-never-links",
+   "declared_short": "the-links-that-were-never-links",
    "domain": null,
+   "folder": "the-links-that-were-never-links",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4df8e0bf056b3ceac8196638143b08aba41f11425914940a91d93d0f10f6d129",
    "size_bytes": 11068203,
    "updated": "2026-10-08T12:26:02.995Z"
@@ -41846,6 +41846,22 @@
    "sha256": "7d4affbcb8b949ad9cb7ad28b50dfe94cd7236df86f8abab208e6eefaf7d787c",
    "size_bytes": 7805546,
    "updated": "2026-09-23T07:10:45.085Z"
+  },
+  {
+   "declared_name": "harbor/where-the-numbers-stop-matching",
+   "declared_short": "where-the-numbers-stop-matching",
+   "folder": "where-the-numbers-stop-matching",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "88d4de37014ab1c8df1b9015d6e9bd5a44386376217d9c9abd3351bb840139aa",
+   "size_bytes": 8890429,
+   "updated": "2026-10-08T12:34:01.362Z"
   },
   {
    "connector_provenance": "synthetic",
