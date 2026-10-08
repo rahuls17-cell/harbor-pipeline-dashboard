@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T12:25:03+00:00",
+ "generated_at": "2026-10-08T12:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2866,
-  "scanned": 2866,
-  "connector": 1179,
+  "task_folders": 2869,
+  "scanned": 2869,
+  "connector": 1182,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
   "unknown": 350,
-  "synthetic": 611
+  "synthetic": 614
  },
  "domain": {
-  "unnamed": 1708,
+  "unnamed": 1711,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1181,
+  "harbor": 1184,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 296,
+  "slack-gym": 297,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 177,
   "gws-gym": 135,
-  "linear-gym": 130,
+  "linear-gym": 131,
   "notion-gym": 116,
   "outlook-gym": 110,
   "github-gym": 77,
@@ -49,13 +49,13 @@
   "snowflake-gym": 26,
   "supabase-gym": 19,
   "teams-gym": 16,
-  "microsoft-365-gym": 9,
+  "microsoft-365-gym": 10,
   "microsoft-teams-gym": 7,
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 132846
+  "new_archives_read": 3,
+  "approx_bytes_read": 414625
  },
  "errors": [],
  "tasks": [
@@ -1247,6 +1247,22 @@
    "sha256": "283aeff331cc437bc2575d49b4bfe8c04cbdf36aeea1919be5a8105d9929bd70",
    "size_bytes": 5238675,
    "updated": "2026-09-30T09:12:04.212Z"
+  },
+  {
+   "declared_name": "harbor/after-hours-checkin-audit",
+   "declared_short": "after-hours-checkin-audit",
+   "folder": "after-hours-checkin-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3ac83edf0380ec510663fb1c5f5f42b7e559d02e27cf6ceb45333ef74db9551d",
+   "size_bytes": 6779385,
+   "updated": "2026-10-08T12:25:21.410Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -24640,17 +24656,17 @@
    "updated": "2026-09-29T04:13:46.274Z"
   },
   {
-   "declared_name": "harbor/health-experience-on-our-bench",
-   "declared_short": "health-experience-on-our-bench",
-   "folder": "health-experience-on-our-bench",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/health-experience-on-our-bench",
+   "declared_short": "health-experience-on-our-bench",
    "domain": null,
+   "folder": "health-experience-on-our-bench",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "314ae768e4845ab5730c512b2d568e1f2d231c590cb9873da1fd494f29ac124d",
    "size_bytes": 11171115,
    "updated": "2026-10-08T12:23:35.727Z"
@@ -32495,6 +32511,22 @@
    "updated": "2026-09-19T01:23:02.097Z"
   },
   {
+   "declared_name": "harbor/target-date-overrun-audit",
+   "declared_short": "target-date-overrun-audit",
+   "folder": "target-date-overrun-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "9d5cf9f66c6067112e62e4872f175f4771bffd62bda70db010e58b46ed94755d",
+   "size_bytes": 14365038,
+   "updated": "2026-10-08T12:26:29.844Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -37202,6 +37234,22 @@
    "sha256": "79cad4f310980f9212fb69637eb3715eea6ed032ce8649674d756f3e6e3423bb",
    "size_bytes": 17287797,
    "updated": "2026-10-01T11:22:37.179Z"
+  },
+  {
+   "declared_name": "harbor/the-links-that-were-never-links",
+   "declared_short": "the-links-that-were-never-links",
+   "folder": "the-links-that-were-never-links",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "4df8e0bf056b3ceac8196638143b08aba41f11425914940a91d93d0f10f6d129",
+   "size_bytes": 11068203,
+   "updated": "2026-10-08T12:26:02.995Z"
   },
   {
    "connector_provenance": "synthetic",
