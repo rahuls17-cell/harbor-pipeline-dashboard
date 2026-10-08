@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T21:45:04+00:00",
+ "generated_at": "2026-10-08T21:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2912,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138265
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -27903,17 +27903,17 @@
    "updated": "2026-10-08T11:01:45.290Z"
   },
   {
-   "declared_name": "harbor/labops-unanswered-request-audit",
-   "declared_short": "labops-unanswered-request-audit",
-   "folder": "labops-unanswered-request-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/labops-unanswered-request-audit",
+   "declared_short": "labops-unanswered-request-audit",
    "domain": null,
+   "folder": "labops-unanswered-request-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c2fb17bd03f1d94e7a87c2ce6c241b0c46952a81f9d5f68cb0bda93e5a1d3911",
    "size_bytes": 20234097,
    "updated": "2026-10-08T21:44:32.307Z"
