@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T11:50:03+00:00",
+ "generated_at": "2026-10-08T11:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2861,
-  "scanned": 2861,
-  "connector": 1174,
+  "task_folders": 2862,
+  "scanned": 2862,
+  "connector": 1175,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
-  "unknown": 346,
+  "unknown": 347,
   "synthetic": 610
  },
  "domain": {
-  "unnamed": 1703,
+  "unnamed": 1704,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1176,
+  "harbor": 1177,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 176,
-  "gws-gym": 133,
+  "gws-gym": 134,
   "linear-gym": 130,
   "notion-gym": 115,
   "outlook-gym": 110,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 138870
+  "approx_bytes_read": 135570
  },
  "errors": [],
  "tasks": [
@@ -30364,17 +30364,17 @@
    "updated": "2026-09-19T22:04:15.292Z"
   },
   {
-   "declared_name": "harbor/physical-ai-follow-up-block",
-   "declared_short": "physical-ai-follow-up-block",
-   "folder": "physical-ai-follow-up-block",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/physical-ai-follow-up-block",
+   "declared_short": "physical-ai-follow-up-block",
    "domain": null,
+   "folder": "physical-ai-follow-up-block",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e9a499c9f25349c9abba3495b10747d7298d5dfe9028b65ee1edcb9526bf5b96",
    "size_bytes": 6295566,
    "updated": "2026-10-08T11:48:51.650Z"
@@ -31706,6 +31706,22 @@
    "sha256": "79be3acf25aa10535c55f32d503a7f0a773cb4d7d40d1641c1e59e9acc8e59b7",
    "size_bytes": 7683032,
    "updated": "2026-10-03T08:22:19.253Z"
+  },
+  {
+   "declared_name": "harbor/seed-round-commitments-across-trackers",
+   "declared_short": "seed-round-commitments-across-trackers",
+   "folder": "seed-round-commitments-across-trackers",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "0377eab5c2f079bdd46b8a77f9c3b5d33f2426400d0a4e9d4128e1016d658da7",
+   "size_bytes": 20763117,
+   "updated": "2026-10-08T11:54:14.225Z"
   },
   {
    "connector_provenance": "synthetic",
