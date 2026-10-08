@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T16:35:03+00:00",
+ "generated_at": "2026-10-08T17:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2886,
-  "scanned": 2886,
-  "connector": 1199,
+  "task_folders": 2888,
+  "scanned": 2888,
+  "connector": 1201,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 219,
   "unknown": 353,
-  "synthetic": 627
+  "synthetic": 629
  },
  "domain": {
-  "unnamed": 1728,
+  "unnamed": 1730,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1201,
+  "harbor": 1203,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -39,9 +39,9 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "email-calendar-gym": 182,
+  "email-calendar-gym": 183,
   "gws-gym": 137,
-  "linear-gym": 133,
+  "linear-gym": 134,
   "notion-gym": 117,
   "outlook-gym": 111,
   "github-gym": 78,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 274478
  },
  "errors": [],
  "tasks": [
@@ -15695,6 +15695,22 @@
    "updated": "2026-10-07T21:40:15.712Z"
   },
   {
+   "declared_name": "harbor/family-dinner-extra-guests",
+   "declared_short": "family-dinner-extra-guests",
+   "folder": "family-dinner-extra-guests",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "7a0c4e78e7ef96e5ab87c4f60af4b9829ff0c3c934731e5ad3f73042d33c194c",
+   "size_bytes": 9930383,
+   "updated": "2026-10-08T16:58:21.658Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
@@ -30666,6 +30682,22 @@
    "sha256": "f441e902c58c5ebb65b61dc9c2545e3d60f3765fc9ca5b17ca4f9801cf4888db",
    "size_bytes": 10781836,
    "updated": "2026-10-07T15:05:01.398Z"
+  },
+  {
+   "declared_name": "harbor/portfolio-delivery-scorecard-audit",
+   "declared_short": "portfolio-delivery-scorecard-audit",
+   "folder": "portfolio-delivery-scorecard-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2adc5f23972efa3415acc692c2faccae9a7550137fb234d3ae3427debcf3157f",
+   "size_bytes": 13323167,
+   "updated": "2026-10-08T16:59:16.268Z"
   },
   {
    "connector_provenance": "synthetic",
