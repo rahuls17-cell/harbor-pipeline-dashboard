@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T09:50:03+00:00",
+ "generated_at": "2026-10-08T09:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2850,
-  "scanned": 2850,
-  "connector": 1163,
+  "task_folders": 2851,
+  "scanned": 2851,
+  "connector": 1164,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
   "unknown": 345,
-  "synthetic": 600
+  "synthetic": 601
  },
  "domain": {
-  "unnamed": 1692,
+  "unnamed": 1693,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1165,
+  "harbor": 1166,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 175,
   "gws-gym": 129,
   "linear-gym": 128,
-  "notion-gym": 113,
+  "notion-gym": 114,
   "outlook-gym": 110,
   "github-gym": 76,
   "slack": 66,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135121
+  "approx_bytes_read": 137457
  },
  "errors": [],
  "tasks": [
@@ -2265,17 +2265,17 @@
    "updated": "2026-10-01T14:17:47.139Z"
   },
   {
-   "declared_name": "harbor/beta-program-graduation-audit",
-   "declared_short": "beta-program-graduation-audit",
-   "folder": "beta-program-graduation-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/beta-program-graduation-audit",
+   "declared_short": "beta-program-graduation-audit",
    "domain": null,
+   "folder": "beta-program-graduation-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "503b4fb67fd56727ffa19f96bed93685ee9cf3d3d5add9416fd536e55629fc3b",
    "size_bytes": 8554044,
    "updated": "2026-10-08T09:48:44.524Z"
@@ -31133,6 +31133,22 @@
    "sha256": "7906fbafb6346abbe26e2c05914162500db4d2bd908d2d99fa84ac589e5ea94a",
    "size_bytes": 11498414,
    "updated": "2026-09-17T05:59:40.407Z"
+  },
+  {
+   "declared_name": "harbor/roadmap-register-gap-audit",
+   "declared_short": "roadmap-register-gap-audit",
+   "folder": "roadmap-register-gap-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "93a5fe4ebabff3c3285ae2d76a3614b22539cc27f54fe0cf25cc696da6d78120",
+   "size_bytes": 7470328,
+   "updated": "2026-10-08T09:53:04.781Z"
   },
   {
    "connector_provenance": "unknown",
