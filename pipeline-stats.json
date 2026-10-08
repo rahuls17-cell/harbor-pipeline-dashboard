@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T23:35:03+00:00",
+ "generated_at": "2026-10-08T23:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2920,
-  "scanned": 2920,
-  "connector": 1233,
+  "task_folders": 2921,
+  "scanned": 2921,
+  "connector": 1234,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 221,
   "unknown": 358,
-  "synthetic": 654
+  "synthetic": 655
  },
  "domain": {
-  "unnamed": 1762,
+  "unnamed": 1763,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1235,
+  "harbor": 1236,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 185,
-  "linear-gym": 140,
+  "linear-gym": 141,
   "gws-gym": 138,
   "notion-gym": 119,
   "outlook-gym": 114,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135516
+  "approx_bytes_read": 137307
  },
  "errors": [],
  "tasks": [
@@ -39160,6 +39160,22 @@
    "updated": "2026-10-06T23:47:23.163Z"
   },
   {
+   "declared_name": "harbor/the-release-train-nobody-audited",
+   "declared_short": "the-release-train-nobody-audited",
+   "folder": "the-release-train-nobody-audited",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "a0ad1d5b537dea57b42a695d250cb3acc5987a03e9a39828478c6f4a695f3411",
+   "size_bytes": 5137556,
+   "updated": "2026-10-08T23:39:24.920Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "microsoft-365-gym"
@@ -40152,17 +40168,17 @@
    "updated": "2026-10-02T19:40:51.190Z"
   },
   {
-   "declared_name": "harbor/the-thread-the-inbox-never-showed-whole",
-   "declared_short": "the-thread-the-inbox-never-showed-whole",
-   "folder": "the-thread-the-inbox-never-showed-whole",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-thread-the-inbox-never-showed-whole",
+   "declared_short": "the-thread-the-inbox-never-showed-whole",
    "domain": null,
+   "folder": "the-thread-the-inbox-never-showed-whole",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "648f843d0ff3e81102c88d5f70fee9c7eb6ad9c1a486bc0a09dc8d6455789753",
    "size_bytes": 10630111,
    "updated": "2026-10-08T23:34:53.771Z"
