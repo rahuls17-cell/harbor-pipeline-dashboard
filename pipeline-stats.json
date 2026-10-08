@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T21:10:03+00:00",
+ "generated_at": "2026-10-08T21:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2906,
-  "scanned": 2906,
-  "connector": 1219,
+  "task_folders": 2907,
+  "scanned": 2907,
+  "connector": 1220,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 220,
   "unknown": 355,
-  "synthetic": 644
+  "synthetic": 645
  },
  "domain": {
-  "unnamed": 1748,
+  "unnamed": 1749,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1221,
+  "harbor": 1222,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -44,7 +44,7 @@
   "gws-gym": 138,
   "notion-gym": 119,
   "outlook-gym": 111,
-  "github-gym": 78,
+  "github-gym": 79,
   "slack": 66,
   "snowflake-gym": 29,
   "supabase-gym": 20,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 132950
+  "approx_bytes_read": 134737
  },
  "errors": [],
  "tasks": [
@@ -32381,18 +32381,18 @@
    "updated": "2026-09-18T16:56:29.186Z"
   },
   {
-   "declared_name": "harbor/shipped-release-closeout-audit",
-   "declared_short": "shipped-release-closeout-audit",
-   "folder": "shipped-release-closeout-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym",
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/shipped-release-closeout-audit",
+   "declared_short": "shipped-release-closeout-audit",
    "domain": null,
+   "folder": "shipped-release-closeout-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2faa44abf2bc0d7533754f8efed14f1bbfbeda83c3fbe6126a505e884545f259",
    "size_bytes": 10786980,
    "updated": "2026-10-08T21:06:53.622Z"
@@ -36245,6 +36245,22 @@
    "sha256": "9e38e4fed5d5bcb80e0b8ce7958dc76803bfc1c1d07102f3314d4d156eacd1b1",
    "size_bytes": 9492805,
    "updated": "2026-09-19T08:02:42.859Z"
+  },
+  {
+   "declared_name": "harbor/the-check-that-never-turned-green",
+   "declared_short": "the-check-that-never-turned-green",
+   "folder": "the-check-that-never-turned-green",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "44a429b670c954f519df90edb0e2c9ce7cc6a958b144815b378939c8bf597b32",
+   "size_bytes": 6512340,
+   "updated": "2026-10-08T21:13:19.727Z"
   },
   {
    "connector_provenance": "synthetic",
