@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T09:05:03+00:00",
+ "generated_at": "2026-10-08T09:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2844,
-  "scanned": 2844,
-  "connector": 1157,
+  "task_folders": 2845,
+  "scanned": 2845,
+  "connector": 1158,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
   "unknown": 343,
-  "synthetic": 596
+  "synthetic": 597
  },
  "domain": {
-  "unnamed": 1686,
+  "unnamed": 1687,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1159,
+  "harbor": 1160,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 292,
+  "slack-gym": 293,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 138934
+  "approx_bytes_read": 138650
  },
  "errors": [],
  "tasks": [
@@ -32129,17 +32129,17 @@
    "updated": "2026-09-17T05:43:26.913Z"
   },
   {
-   "declared_name": "harbor/summer-high-cost-lab-orders",
-   "declared_short": "summer-high-cost-lab-orders",
-   "folder": "summer-high-cost-lab-orders",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/summer-high-cost-lab-orders",
+   "declared_short": "summer-high-cost-lab-orders",
    "domain": null,
+   "folder": "summer-high-cost-lab-orders",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d5040c30a3bce9af7c6768fd49f43e098e0d8170a9103628eaa440ef0f006559",
    "size_bytes": 11720001,
    "updated": "2026-10-08T09:01:59.577Z"
@@ -32191,6 +32191,22 @@
    "sha256": "537a83fdc154b3f64013d85e800583918b6aa3e99dded906b069f72621330c7b",
    "size_bytes": 8180423,
    "updated": "2026-10-06T19:32:31.615Z"
+  },
+  {
+   "declared_name": "harbor/superseded-takeon-confirm-audit",
+   "declared_short": "superseded-takeon-confirm-audit",
+   "folder": "superseded-takeon-confirm-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "918cd99c321a0a5bf5029b50a2dab0231a6f7b8604f05bec3b82f3da88fb44de",
+   "size_bytes": 11451557,
+   "updated": "2026-10-08T09:07:27.529Z"
   },
   {
    "connector_provenance": "real",
