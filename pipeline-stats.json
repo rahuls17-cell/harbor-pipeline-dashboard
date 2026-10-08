@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T03:40:03+00:00",
+ "generated_at": "2026-10-08T03:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2825,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137460
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -36484,17 +36484,17 @@
    "updated": "2026-09-23T22:05:44.216Z"
   },
   {
-   "declared_name": "harbor/the-item-nobody-actually-claimed",
-   "declared_short": "the-item-nobody-actually-claimed",
-   "folder": "the-item-nobody-actually-claimed",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-item-nobody-actually-claimed",
+   "declared_short": "the-item-nobody-actually-claimed",
    "domain": null,
+   "folder": "the-item-nobody-actually-claimed",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "38ab7d87a8a70bf32ec609cfd25dbe197caf94918fe31a5c3d44a46a7961bbf5",
    "size_bytes": 7632468,
    "updated": "2026-10-08T03:38:44.681Z"
