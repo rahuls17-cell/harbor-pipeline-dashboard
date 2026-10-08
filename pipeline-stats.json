@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T01:20:03+00:00",
+ "generated_at": "2026-10-08T01:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2819,
-  "scanned": 2819,
-  "connector": 1132,
+  "task_folders": 2820,
+  "scanned": 2820,
+  "connector": 1133,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
   "unknown": 335,
-  "synthetic": 579
+  "synthetic": 580
  },
  "domain": {
-  "unnamed": 1661,
+  "unnamed": 1662,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1134,
+  "harbor": 1135,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -47,15 +47,15 @@
   "github-gym": 74,
   "slack": 66,
   "snowflake-gym": 26,
-  "supabase-gym": 16,
+  "supabase-gym": 17,
   "teams-gym": 16,
   "microsoft-365-gym": 9,
   "microsoft-teams-gym": 7,
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 137222
  },
  "errors": [],
  "tasks": [
@@ -37666,6 +37666,22 @@
    "sha256": "05b5d0b4c8ee5ba2ff797dbccffade0ba570238300efc49f62e488740e1ae97b",
    "size_bytes": 8419636,
    "updated": "2026-09-24T12:19:17.420Z"
+  },
+  {
+   "declared_name": "harbor/the-project-that-never-woke-up",
+   "declared_short": "the-project-that-never-woke-up",
+   "folder": "the-project-that-never-woke-up",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "supabase-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "0b4fa9fbdb973828de5e25df2834654cc1443ca6173a8cce0843ca0e4f4c61aa",
+   "size_bytes": 7566003,
+   "updated": "2026-10-08T01:21:46.602Z"
   },
   {
    "connector_provenance": "synthetic",
