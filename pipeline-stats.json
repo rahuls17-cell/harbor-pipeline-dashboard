@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T04:50:03+00:00",
+ "generated_at": "2026-10-08T04:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2829,
-  "scanned": 2829,
-  "connector": 1142,
+  "task_folders": 2830,
+  "scanned": 2830,
+  "connector": 1143,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
   "unknown": 338,
-  "synthetic": 586
+  "synthetic": 587
  },
  "domain": {
-  "unnamed": 1671,
+  "unnamed": 1672,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1144,
+  "harbor": 1145,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -44,7 +44,7 @@
   "linear-gym": 125,
   "notion-gym": 110,
   "outlook-gym": 109,
-  "github-gym": 74,
+  "github-gym": 75,
   "slack": 66,
   "snowflake-gym": 26,
   "supabase-gym": 17,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136931
+  "approx_bytes_read": 135175
  },
  "errors": [],
  "tasks": [
@@ -27278,17 +27278,17 @@
    "updated": "2026-10-01T10:37:48.611Z"
   },
   {
-   "declared_name": "harbor/lab-results-still-outstanding",
-   "declared_short": "lab-results-still-outstanding",
-   "folder": "lab-results-still-outstanding",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/lab-results-still-outstanding",
+   "declared_short": "lab-results-still-outstanding",
    "domain": null,
+   "folder": "lab-results-still-outstanding",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c2a6150640205726cd003215cfebc2f94a174d4149288c3b3b314e935e46140d",
    "size_bytes": 15335472,
    "updated": "2026-10-08T04:49:01.286Z"
@@ -28968,6 +28968,22 @@
    "sha256": "829978430b27003aa26bbfdba37190e24d9fa6d2e205cb5a52c43356611c21ff",
    "size_bytes": 7765206,
    "updated": "2026-09-23T08:21:15.646Z"
+  },
+  {
+   "declared_name": "harbor/locked-for-a-reason",
+   "declared_short": "locked-for-a-reason",
+   "folder": "locked-for-a-reason",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d84fca6a0557636f5c57802bccab374dcc037e9a7715682cfc50cab6ba67e52f",
+   "size_bytes": 9199152,
+   "updated": "2026-10-08T04:50:40.047Z"
   },
   {
    "connector_provenance": "real",
