@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T09:45:03+00:00",
+ "generated_at": "2026-10-08T09:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2849,
-  "scanned": 2849,
-  "connector": 1162,
+  "task_folders": 2850,
+  "scanned": 2850,
+  "connector": 1163,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
   "unknown": 345,
-  "synthetic": 599
+  "synthetic": 600
  },
  "domain": {
-  "unnamed": 1691,
+  "unnamed": 1692,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1164,
+  "harbor": 1165,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,7 +41,7 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 175,
   "gws-gym": 129,
-  "linear-gym": 127,
+  "linear-gym": 128,
   "notion-gym": 113,
   "outlook-gym": 110,
   "github-gym": 76,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 143378
+  "approx_bytes_read": 135121
  },
  "errors": [],
  "tasks": [
@@ -2263,6 +2263,22 @@
    "sha256": "8d1fc0d63914620a40c89bab8fb05e9c1cf1f8f0c5c9ba221926767398d8ba24",
    "size_bytes": 6631188,
    "updated": "2026-10-01T14:17:47.139Z"
+  },
+  {
+   "declared_name": "harbor/beta-program-graduation-audit",
+   "declared_short": "beta-program-graduation-audit",
+   "folder": "beta-program-graduation-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "503b4fb67fd56727ffa19f96bed93685ee9cf3d3d5add9416fd536e55629fc3b",
+   "size_bytes": 8554044,
+   "updated": "2026-10-08T09:48:44.524Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -26913,17 +26929,17 @@
    "updated": "2026-10-03T04:07:15.200Z"
   },
   {
-   "declared_name": "harbor/initiative-velocity-forecast-audit",
-   "declared_short": "initiative-velocity-forecast-audit",
-   "folder": "initiative-velocity-forecast-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/initiative-velocity-forecast-audit",
+   "declared_short": "initiative-velocity-forecast-audit",
    "domain": null,
+   "folder": "initiative-velocity-forecast-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a042b83cb99aa24414d08505dd033df9eb224744f7aaeace7ac2019f23ed56a0",
    "size_bytes": 9401408,
    "updated": "2026-10-08T09:41:42.479Z"
