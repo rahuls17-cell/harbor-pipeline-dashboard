@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T10:55:03+00:00",
+ "generated_at": "2026-10-08T11:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2856,
-  "scanned": 2856,
-  "connector": 1169,
+  "task_folders": 2858,
+  "scanned": 2858,
+  "connector": 1171,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
   "unknown": 346,
-  "synthetic": 605
+  "synthetic": 607
  },
  "domain": {
-  "unnamed": 1698,
+  "unnamed": 1700,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1171,
+  "harbor": 1173,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 293,
+  "slack-gym": 294,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -40,7 +40,7 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "email-calendar-gym": 175,
-  "gws-gym": 132,
+  "gws-gym": 133,
   "linear-gym": 129,
   "notion-gym": 115,
   "outlook-gym": 110,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 279962
  },
  "errors": [],
  "tasks": [
@@ -27534,6 +27534,22 @@
    "updated": "2026-09-27T04:22:11.860Z"
   },
   {
+   "declared_name": "harbor/labops-first-reply-audit",
+   "declared_short": "labops-first-reply-audit",
+   "folder": "labops-first-reply-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "9d7c2d42c110c6cca59df5feed600bd0cfa8c342207b5de2c64fe951ac7fd9d2",
+   "size_bytes": 9988972,
+   "updated": "2026-10-08T11:01:45.290Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
@@ -36802,6 +36818,22 @@
    "sha256": "095f6646dbc18e1778a4067cab21f27747f875d8244261ea6e58debc02a745c9",
    "size_bytes": 13413139,
    "updated": "2026-09-28T17:10:52.738Z"
+  },
+  {
+   "declared_name": "harbor/the-investor-list-that-went-stale",
+   "declared_short": "the-investor-list-that-went-stale",
+   "folder": "the-investor-list-that-went-stale",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "7ec71a9c92b972a2aefd7a93e5fca5b0acca30117c34469001c7e55f1a3a4121",
+   "size_bytes": 21547039,
+   "updated": "2026-10-08T11:03:44.144Z"
   },
   {
    "connector_provenance": "synthetic",
