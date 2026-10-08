@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T18:25:03+00:00",
+ "generated_at": "2026-10-08T18:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2895,
-  "scanned": 2895,
-  "connector": 1208,
+  "task_folders": 2896,
+  "scanned": 2896,
+  "connector": 1209,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 219,
   "unknown": 354,
-  "synthetic": 635
+  "synthetic": 636
  },
  "domain": {
-  "unnamed": 1737,
+  "unnamed": 1738,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1210,
+  "harbor": 1211,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 303,
+  "slack-gym": 304,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 137361
+  "approx_bytes_read": 138510
  },
  "errors": [],
  "tasks": [
@@ -12490,6 +12490,22 @@
    "sha256": "bfc5da1857ec1cb0cf64b69e2c3c47f3740754637623f82407f890c725cc82b4",
    "size_bytes": 9139135,
    "updated": "2026-09-22T14:13:02.779Z"
+  },
+  {
+   "declared_name": "harbor/decision-pi-input-audit",
+   "declared_short": "decision-pi-input-audit",
+   "folder": "decision-pi-input-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "b75952bb6946ed215c94bf1cd7edd4547be0e2a16754f4c831d02fdd422fc833",
+   "size_bytes": 9113549,
+   "updated": "2026-10-08T18:29:54.044Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -27711,17 +27727,17 @@
    "updated": "2026-10-08T04:49:01.286Z"
   },
   {
-   "declared_name": "harbor/lab-safeguard-reset-audit",
-   "declared_short": "lab-safeguard-reset-audit",
-   "folder": "lab-safeguard-reset-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/lab-safeguard-reset-audit",
+   "declared_short": "lab-safeguard-reset-audit",
    "domain": null,
+   "folder": "lab-safeguard-reset-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7eb87e1a89115034b1b5ac647e270d9718912cfd1637e993311993890fb2f6e9",
    "size_bytes": 9489945,
    "updated": "2026-10-08T18:21:13.275Z"
