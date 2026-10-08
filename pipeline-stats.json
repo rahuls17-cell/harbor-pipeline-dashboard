@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T06:25:03+00:00",
+ "generated_at": "2026-10-08T06:30:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2836,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138859
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -31516,17 +31516,17 @@
    "updated": "2026-10-03T08:22:19.253Z"
   },
   {
-   "declared_name": "harbor/seminar-speaker-move-audit",
-   "declared_short": "seminar-speaker-move-audit",
-   "folder": "seminar-speaker-move-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/seminar-speaker-move-audit",
+   "declared_short": "seminar-speaker-move-audit",
    "domain": null,
+   "folder": "seminar-speaker-move-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "17c11e8b306efe4bbeab629db7881fe5215a99112fc6a48fd81aab2ecb5726b4",
    "size_bytes": 7580602,
    "updated": "2026-10-08T06:24:33.960Z"
