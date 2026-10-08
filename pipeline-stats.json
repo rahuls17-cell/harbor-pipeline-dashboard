@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T09:25:03+00:00",
+ "generated_at": "2026-10-08T09:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2846,
-  "scanned": 2846,
-  "connector": 1159,
+  "task_folders": 2847,
+  "scanned": 2847,
+  "connector": 1160,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 218,
-  "unknown": 344,
+  "unknown": 345,
   "synthetic": 597
  },
  "domain": {
-  "unnamed": 1688,
+  "unnamed": 1689,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1161,
+  "harbor": 1162,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -43,7 +43,7 @@
   "gws-gym": 129,
   "linear-gym": 125,
   "notion-gym": 113,
-  "outlook-gym": 109,
+  "outlook-gym": 110,
   "github-gym": 76,
   "slack": 66,
   "snowflake-gym": 26,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 131976
+  "approx_bytes_read": 133338
  },
  "errors": [],
  "tasks": [
@@ -17528,6 +17528,22 @@
    "sha256": "8e0fb3406afe355c1dbc3312575e1e829d8ebc9747afa058475a1fa91484569e",
    "size_bytes": 9151105,
    "updated": "2026-09-30T08:36:12.507Z"
+  },
+  {
+   "declared_name": "harbor/flagged-mail-sender-standing",
+   "declared_short": "flagged-mail-sender-standing",
+   "folder": "flagged-mail-sender-standing",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "c8f3269057cedaf903fd7a0ea7e52167b2ba693648e0a25d666b0dba57567ee9",
+   "size_bytes": 23987844,
+   "updated": "2026-10-08T09:26:23.969Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -39252,17 +39268,17 @@
    "updated": "2026-09-29T16:37:48.810Z"
   },
   {
-   "declared_name": "harbor/the-two-tracker-copies-that-differ-by-two-cells",
-   "declared_short": "the-two-tracker-copies-that-differ-by-two-cells",
-   "folder": "the-two-tracker-copies-that-differ-by-two-cells",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-two-tracker-copies-that-differ-by-two-cells",
+   "declared_short": "the-two-tracker-copies-that-differ-by-two-cells",
    "domain": null,
+   "folder": "the-two-tracker-copies-that-differ-by-two-cells",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ee4b31438bc309af831457be98578ebe1523caa061355aa899a7d55c28abd3ee",
    "size_bytes": 15098850,
    "updated": "2026-10-08T09:22:50.244Z"
