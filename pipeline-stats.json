@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T21:25:03+00:00",
+ "generated_at": "2026-10-08T21:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2909,
-  "scanned": 2909,
-  "connector": 1222,
+  "task_folders": 2910,
+  "scanned": 2910,
+  "connector": 1223,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 220,
   "unknown": 357,
-  "synthetic": 645
+  "synthetic": 646
  },
  "domain": {
-  "unnamed": 1751,
+  "unnamed": 1752,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1224,
+  "harbor": 1225,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -49,13 +49,13 @@
   "snowflake-gym": 29,
   "supabase-gym": 20,
   "teams-gym": 16,
-  "microsoft-365-gym": 14,
+  "microsoft-365-gym": 15,
   "microsoft-teams-gym": 7,
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 139140
  },
  "errors": [],
  "tasks": [
@@ -26845,6 +26845,22 @@
    "sha256": "0629b87a48884d2d81b633aa8b7928596f151acebc3c1d1d65fededcfc8a4b6d",
    "size_bytes": 7814021,
    "updated": "2026-10-07T15:31:20.439Z"
+  },
+  {
+   "declared_name": "harbor/helix-enrollment-eligibility-audit",
+   "declared_short": "helix-enrollment-eligibility-audit",
+   "folder": "helix-enrollment-eligibility-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "b22db6075dbae1adae461ea53b1d8ebe5e5081b74912073c14ffbf793fe8f352",
+   "size_bytes": 8781719,
+   "updated": "2026-10-08T21:25:39.397Z"
   },
   {
    "connector_provenance": "synthetic",
