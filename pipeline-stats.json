@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-08T20:45:03+00:00",
+ "generated_at": "2026-10-08T20:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2904,
-  "scanned": 2904,
-  "connector": 1217,
+  "task_folders": 2905,
+  "scanned": 2905,
+  "connector": 1218,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 220,
   "unknown": 355,
-  "synthetic": 642
+  "synthetic": 643
  },
  "domain": {
-  "unnamed": 1746,
+  "unnamed": 1747,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1219,
+  "harbor": 1220,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,12 +41,12 @@
   "freshdesk-gym": 188,
   "email-calendar-gym": 184,
   "gws-gym": 138,
-  "linear-gym": 136,
+  "linear-gym": 137,
   "notion-gym": 119,
   "outlook-gym": 111,
   "github-gym": 78,
   "slack": 66,
-  "snowflake-gym": 28,
+  "snowflake-gym": 29,
   "supabase-gym": 20,
   "teams-gym": 16,
   "microsoft-365-gym": 14,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 140269
+  "approx_bytes_read": 139993
  },
  "errors": [],
  "tasks": [
@@ -29757,17 +29757,17 @@
    "updated": "2026-10-08T17:06:50.839Z"
   },
   {
-   "declared_name": "harbor/model-tag-reuse-audit",
-   "declared_short": "model-tag-reuse-audit",
-   "folder": "model-tag-reuse-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/model-tag-reuse-audit",
+   "declared_short": "model-tag-reuse-audit",
    "domain": null,
+   "folder": "model-tag-reuse-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "237ab88620b6d19688da54c92db92ced5f9f15f1cdd6a26f0e077cefca298cf0",
    "size_bytes": 13806237,
    "updated": "2026-10-08T20:41:34.658Z"
@@ -41761,6 +41761,23 @@
    "sha256": "2654434af87c7cfc7ce49ff967644541ae655cb9c9975b5f8a410c7b1388eab8",
    "size_bytes": 9848399,
    "updated": "2026-09-29T14:45:29.738Z"
+  },
+  {
+   "declared_name": "harbor/warehouse-spend-authority-audit",
+   "declared_short": "warehouse-spend-authority-audit",
+   "folder": "warehouse-spend-authority-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "24ac30a3c389cd1630b72e0e0e74095d658e6617347b99dbce9da81328a8271a",
+   "size_bytes": 8138404,
+   "updated": "2026-10-08T20:46:23.570Z"
   },
   {
    "connector_provenance": "synthetic",
