@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T07:15:04+00:00",
+ "generated_at": "2026-10-09T07:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2974,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134699
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -6058,17 +6058,17 @@
    "updated": "2026-10-01T15:50:17.945Z"
   },
   {
-   "declared_name": "harbor/card-charges-without-a-receipt",
-   "declared_short": "card-charges-without-a-receipt",
-   "folder": "card-charges-without-a-receipt",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/card-charges-without-a-receipt",
+   "declared_short": "card-charges-without-a-receipt",
    "domain": null,
+   "folder": "card-charges-without-a-receipt",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c0ae37d323347df812c680fe84011504c1a07aac6b0e9f11dcff2af31b318ffb",
    "size_bytes": 28083965,
    "updated": "2026-10-09T07:10:52.082Z"
