@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T15:20:04+00:00",
+ "generated_at": "2026-10-09T15:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3024,
-  "scanned": 3024,
-  "connector": 1337,
+  "task_folders": 3027,
+  "scanned": 3027,
+  "connector": 1340,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 234,
-  "unknown": 400,
-  "synthetic": 703
+  "real": 235,
+  "unknown": 401,
+  "synthetic": 704
  },
  "domain": {
-  "unnamed": 1866,
+  "unnamed": 1869,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1339,
+  "harbor": 1342,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -36,15 +36,15 @@
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
-  "email-calendar-gym": 194,
+  "email-calendar-gym": 195,
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
   "gws-gym": 158,
   "linear-gym": 155,
   "notion-gym": 133,
-  "outlook-gym": 123,
-  "github-gym": 87,
+  "outlook-gym": 124,
+  "github-gym": 88,
   "slack": 66,
   "snowflake-gym": 39,
   "supabase-gym": 21,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136800
+  "new_archives_read": 3,
+  "approx_bytes_read": 409149
  },
  "errors": [],
  "tasks": [
@@ -6405,17 +6405,17 @@
    "updated": "2026-09-13T04:17:00.613Z"
   },
   {
-   "declared_name": "harbor/client-billed-practices-that-skipped-a-month",
-   "declared_short": "client-billed-practices-that-skipped-a-month",
-   "folder": "client-billed-practices-that-skipped-a-month",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/client-billed-practices-that-skipped-a-month",
+   "declared_short": "client-billed-practices-that-skipped-a-month",
    "domain": null,
+   "folder": "client-billed-practices-that-skipped-a-month",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c456f6ad818647abb7cd52253dde9e8ae4979043a23ec3a30d352e9a821ed075",
    "size_bytes": 13330305,
    "updated": "2026-10-09T15:17:09.752Z"
@@ -42305,6 +42305,22 @@
    "updated": "2026-09-20T10:00:24.278Z"
   },
   {
+   "declared_name": "harbor/third-party-components-before-the-audit",
+   "declared_short": "third-party-components-before-the-audit",
+   "folder": "third-party-components-before-the-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "bb52bc8d9e172ee9dbff024e590253eb428cc08bf2f63563598c861ed5d6a362",
+   "size_bytes": 8075155,
+   "updated": "2026-10-09T15:27:32.349Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
@@ -43523,6 +43539,22 @@
    "updated": "2026-10-06T13:37:49.787Z"
   },
   {
+   "declared_name": "harbor/visits-changed-at-short-notice",
+   "declared_short": "visits-changed-at-short-notice",
+   "folder": "visits-changed-at-short-notice",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "e7ec1ef7b28d6891aa6a0b7a262a30a1aab2aef4acde01b02b0606ffd2b95613",
+   "size_bytes": 31236882,
+   "updated": "2026-10-09T15:27:11.140Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
@@ -44230,6 +44262,22 @@
    "sha256": "b66e550fecb381c18cef623ca81d35c5bd23c39194a9eb54e231b85498bc923a",
    "size_bytes": 8778104,
    "updated": "2026-10-06T08:23:50.047Z"
+  },
+  {
+   "declared_name": "harbor/where-our-tool-trials-were-left",
+   "declared_short": "where-our-tool-trials-were-left",
+   "folder": "where-our-tool-trials-were-left",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "1259aa52e4311ae206e4b46b07d805320b5085f28935bca959ca6c63465127ab",
+   "size_bytes": 10335526,
+   "updated": "2026-10-09T15:27:12.553Z"
   },
   {
    "connector_provenance": "synthetic",
