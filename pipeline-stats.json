@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T00:35:03+00:00",
+ "generated_at": "2026-10-09T00:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2930,
-  "scanned": 2930,
-  "connector": 1243,
+  "task_folders": 2931,
+  "scanned": 2931,
+  "connector": 1244,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 224,
   "unknown": 361,
-  "synthetic": 658
+  "synthetic": 659
  },
  "domain": {
-  "unnamed": 1772,
+  "unnamed": 1773,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1245,
+  "harbor": 1246,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "email-calendar-gym": 186,
   "linear-gym": 143,
   "gws-gym": 140,
-  "notion-gym": 120,
+  "notion-gym": 121,
   "outlook-gym": 115,
   "github-gym": 79,
   "slack": 66,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 138266
+  "approx_bytes_read": 138363
  },
  "errors": [],
  "tasks": [
@@ -1823,17 +1823,17 @@
    "updated": "2026-10-01T18:40:10.706Z"
   },
   {
-   "declared_name": "harbor/august-trackers-cleared-or-named",
-   "declared_short": "august-trackers-cleared-or-named",
-   "folder": "august-trackers-cleared-or-named",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/august-trackers-cleared-or-named",
+   "declared_short": "august-trackers-cleared-or-named",
    "domain": null,
+   "folder": "august-trackers-cleared-or-named",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4db1016e394acd84b31ff166bc9e7f4abaf8b3734d2e801b4b632b1211f851ce",
    "size_bytes": 13570486,
    "updated": "2026-10-09T00:32:43.248Z"
@@ -39590,6 +39590,22 @@
    "sha256": "5938d4c124910451a177f5addd912d80acf9660b42dd374f5fa5e4d310bcce7c",
    "size_bytes": 9214876,
    "updated": "2026-09-22T08:45:18.835Z"
+  },
+  {
+   "declared_name": "harbor/the-risk-register-nobody-updated",
+   "declared_short": "the-risk-register-nobody-updated",
+   "folder": "the-risk-register-nobody-updated",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "06a2fb9933b07ad8e93dd2facfeff5e96a22d374d9eeac78fc88908319289a18",
+   "size_bytes": 8281664,
+   "updated": "2026-10-09T00:38:38.922Z"
   },
   {
    "connector_provenance": "unknown",
