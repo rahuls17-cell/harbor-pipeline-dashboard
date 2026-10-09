@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T12:15:04+00:00",
+ "generated_at": "2026-10-09T12:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2997,
-  "scanned": 2997,
-  "connector": 1310,
+  "task_folders": 2999,
+  "scanned": 2999,
+  "connector": 1312,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 232,
-  "unknown": 389,
-  "synthetic": 689
+  "unknown": 390,
+  "synthetic": 690
  },
  "domain": {
-  "unnamed": 1839,
+  "unnamed": 1841,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1312,
+  "harbor": 1314,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 332,
+  "slack-gym": 333,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -40,13 +40,13 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "gws-gym": 152,
+  "gws-gym": 153,
   "linear-gym": 149,
   "notion-gym": 127,
   "outlook-gym": 121,
   "github-gym": 87,
   "slack": 66,
-  "snowflake-gym": 35,
+  "snowflake-gym": 36,
   "supabase-gym": 21,
   "microsoft-365-gym": 19,
   "teams-gym": 16,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134867
+  "new_archives_read": 2,
+  "approx_bytes_read": 272275
  },
  "errors": [],
  "tasks": [
@@ -28046,17 +28046,17 @@
    "updated": "2026-10-03T03:48:21.180Z"
   },
   {
-   "declared_name": "harbor/invoices-i-sent-against-what-was-paid",
-   "declared_short": "invoices-i-sent-against-what-was-paid",
-   "folder": "invoices-i-sent-against-what-was-paid",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/invoices-i-sent-against-what-was-paid",
+   "declared_short": "invoices-i-sent-against-what-was-paid",
    "domain": null,
+   "folder": "invoices-i-sent-against-what-was-paid",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3e99a3d498fc17abbe5a485bcc13e86170b0f02af0087eec7615ae5e489cef9b",
    "size_bytes": 77174304,
    "updated": "2026-10-09T12:10:52.734Z"
@@ -31918,6 +31918,22 @@
    "updated": "2026-10-09T01:43:39.265Z"
   },
   {
+   "declared_name": "harbor/practices-cleared-for-phi-deletion",
+   "declared_short": "practices-cleared-for-phi-deletion",
+   "folder": "practices-cleared-for-phi-deletion",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "7883fa159c9bb12ae39500920f76a71922ff20b41f56fb60c971c12170a53284",
+   "size_bytes": 9419427,
+   "updated": "2026-10-09T12:16:21.383Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
@@ -33812,6 +33828,23 @@
    "sha256": "43fdc9a0b5f242b4ea3f4e61e5c989f8e2d28abadfb31ee76dcf7510e983c174",
    "size_bytes": 8668798,
    "updated": "2026-10-06T17:13:43.037Z"
+  },
+  {
+   "declared_name": "harbor/stale-task-refresh-audit",
+   "declared_short": "stale-task-refresh-audit",
+   "folder": "stale-task-refresh-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "3c0ede3d4ccf7afa55d90bbabaf1d6f45cfef4097837461db0485386809f25b7",
+   "size_bytes": 7624548,
+   "updated": "2026-10-09T12:15:33.997Z"
   },
   {
    "connector_provenance": "synthetic",
