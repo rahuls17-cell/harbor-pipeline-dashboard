@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T12:10:03+00:00",
+ "generated_at": "2026-10-09T12:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2996,
-  "scanned": 2996,
-  "connector": 1309,
+  "task_folders": 2997,
+  "scanned": 2997,
+  "connector": 1310,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 232,
-  "unknown": 388,
+  "unknown": 389,
   "synthetic": 689
  },
  "domain": {
-  "unnamed": 1838,
+  "unnamed": 1839,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1311,
+  "harbor": 1312,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -43,7 +43,7 @@
   "gws-gym": 152,
   "linear-gym": 149,
   "notion-gym": 127,
-  "outlook-gym": 120,
+  "outlook-gym": 121,
   "github-gym": 87,
   "slack": 66,
   "snowflake-gym": 35,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 268342
+  "new_archives_read": 1,
+  "approx_bytes_read": 134867
  },
  "errors": [],
  "tasks": [
@@ -28046,6 +28046,22 @@
    "updated": "2026-10-03T03:48:21.180Z"
   },
   {
+   "declared_name": "harbor/invoices-i-sent-against-what-was-paid",
+   "declared_short": "invoices-i-sent-against-what-was-paid",
+   "folder": "invoices-i-sent-against-what-was-paid",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "3e99a3d498fc17abbe5a485bcc13e86170b0f02af0087eec7615ae5e489cef9b",
+   "size_bytes": 77174304,
+   "updated": "2026-10-09T12:10:52.734Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -31348,17 +31364,17 @@
    "updated": "2026-10-07T11:41:46.024Z"
   },
   {
-   "declared_name": "harbor/outside-contributions-no-maintainer-approved",
-   "declared_short": "outside-contributions-no-maintainer-approved",
-   "folder": "outside-contributions-no-maintainer-approved",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/outside-contributions-no-maintainer-approved",
+   "declared_short": "outside-contributions-no-maintainer-approved",
    "domain": null,
+   "folder": "outside-contributions-no-maintainer-approved",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5e8136bfbfd230460c064f6fc8326c409f69f91192fae925f286f3d0beefd1f7",
    "size_bytes": 9597574,
    "updated": "2026-10-09T12:09:50.240Z"
@@ -33862,17 +33878,17 @@
    "updated": "2026-09-26T14:59:27.632Z"
   },
   {
-   "declared_name": "harbor/storage-ceiling-preview-branch-audit",
-   "declared_short": "storage-ceiling-preview-branch-audit",
-   "folder": "storage-ceiling-preview-branch-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "supabase-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/storage-ceiling-preview-branch-audit",
+   "declared_short": "storage-ceiling-preview-branch-audit",
    "domain": null,
+   "folder": "storage-ceiling-preview-branch-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d7be0a724c0b34304c1a80eb5abca1487307da96f97ac978282eec49a29eb1a2",
    "size_bytes": 6372737,
    "updated": "2026-10-09T12:07:49.438Z"
