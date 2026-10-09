@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T02:35:03+00:00",
+ "generated_at": "2026-10-09T02:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2941,
-  "scanned": 2941,
-  "connector": 1254,
+  "task_folders": 2942,
+  "scanned": 2942,
+  "connector": 1255,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 225,
-  "unknown": 364,
+  "unknown": 365,
   "synthetic": 665
  },
  "domain": {
-  "unnamed": 1783,
+  "unnamed": 1784,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1256,
+  "harbor": 1257,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "freshdesk-gym": 188,
   "linear-gym": 144,
   "gws-gym": 142,
-  "notion-gym": 121,
+  "notion-gym": 122,
   "outlook-gym": 116,
   "github-gym": 80,
   "slack": 66,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 137088
  },
  "errors": [],
  "tasks": [
@@ -15314,6 +15314,22 @@
    "sha256": "c4aa1a189ead5009f3b03abe585190d874991e2bf0782889bbbb21299c33b334",
    "size_bytes": 17269569,
    "updated": "2026-10-02T20:46:49.929Z"
+  },
+  {
+   "declared_name": "harbor/ehr-priorities-that-slipped",
+   "declared_short": "ehr-priorities-that-slipped",
+   "folder": "ehr-priorities-that-slipped",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "407309c58c49552e3d14c3afd11d2e882212c151965f7451cfb1576a9ef29d35",
+   "size_bytes": 8067126,
+   "updated": "2026-10-09T02:51:27.716Z"
   },
   {
    "connector_provenance": "synthetic",
