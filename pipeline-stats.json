@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T13:15:03+00:00",
+ "generated_at": "2026-10-09T13:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3008,
-  "scanned": 3008,
-  "connector": 1321,
+  "task_folders": 3009,
+  "scanned": 3009,
+  "connector": 1322,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 232,
-  "unknown": 394,
+  "unknown": 395,
   "synthetic": 695
  },
  "domain": {
-  "unnamed": 1850,
+  "unnamed": 1851,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1323,
+  "harbor": 1324,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,8 +41,8 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "gws-gym": 155,
-  "linear-gym": 151,
-  "notion-gym": 130,
+  "linear-gym": 152,
+  "notion-gym": 131,
   "outlook-gym": 122,
   "github-gym": 87,
   "slack": 66,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 134403
  },
  "errors": [],
  "tasks": [
@@ -38572,6 +38572,23 @@
    "sha256": "3aaa29c5fd72166d96e44d9e3eb96ad829059cede0c843443cea941ce491df69",
    "size_bytes": 8217822,
    "updated": "2026-10-09T12:22:34.111Z"
+  },
+  {
+   "declared_name": "harbor/the-guidelines-missing-their-handouts",
+   "declared_short": "the-guidelines-missing-their-handouts",
+   "folder": "the-guidelines-missing-their-handouts-v2",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "9d9db771be477c96ab736df59ff5f560c05d545582ed9fbce687e7efe5f4b232",
+   "size_bytes": 10904140,
+   "updated": "2026-10-09T13:25:54.731Z"
   },
   {
    "connector_provenance": "synthetic",
