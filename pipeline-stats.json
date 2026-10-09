@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T10:10:03+00:00",
+ "generated_at": "2026-10-09T10:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2987,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 273594
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -6568,17 +6568,17 @@
    "updated": "2026-10-08T19:55:31.845Z"
   },
   {
-   "declared_name": "harbor/clinical-questions-settled-without-a-clinician",
-   "declared_short": "clinical-questions-settled-without-a-clinician",
-   "folder": "clinical-questions-settled-without-a-clinician",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/clinical-questions-settled-without-a-clinician",
+   "declared_short": "clinical-questions-settled-without-a-clinician",
    "domain": null,
+   "folder": "clinical-questions-settled-without-a-clinician",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c7165aa0686ad20c7534ecc6c5cff7d4f95baa8f33d9aa73062de716970b3961",
    "size_bytes": 9829751,
    "updated": "2026-10-09T10:06:54.309Z"
@@ -44865,17 +44865,17 @@
    "updated": "2026-10-02T20:28:29.869Z"
   },
   {
-   "declared_name": "harbor/who-spoke-for-us-on-hipaa",
-   "declared_short": "who-spoke-for-us-on-hipaa",
-   "folder": "who-spoke-for-us-on-hipaa",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/who-spoke-for-us-on-hipaa",
+   "declared_short": "who-spoke-for-us-on-hipaa",
    "domain": null,
+   "folder": "who-spoke-for-us-on-hipaa",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3e5d39a53f4e4bb2dfa340a7cea41d934a38d06e6247a20cc6f8b4c8ae85b7ff",
    "size_bytes": 18017095,
    "updated": "2026-10-09T10:05:49.830Z"
