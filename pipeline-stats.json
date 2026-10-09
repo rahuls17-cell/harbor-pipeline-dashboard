@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T02:30:03+00:00",
+ "generated_at": "2026-10-09T02:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2941,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136882
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -31421,17 +31421,17 @@
    "updated": "2026-10-07T09:38:11.601Z"
   },
   {
-   "declared_name": "harbor/prenatal-sections-awaiting-clinical-sign-off",
-   "declared_short": "prenatal-sections-awaiting-clinical-sign-off",
-   "folder": "prenatal-sections-awaiting-clinical-sign-off",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/prenatal-sections-awaiting-clinical-sign-off",
+   "declared_short": "prenatal-sections-awaiting-clinical-sign-off",
    "domain": null,
+   "folder": "prenatal-sections-awaiting-clinical-sign-off",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ed6bb2cc1bcf13ca3862d2b62d3e9a859a4d92ff0c69dfb2101f5a54309fc184",
    "size_bytes": 8619025,
    "updated": "2026-10-09T02:26:36.702Z"
