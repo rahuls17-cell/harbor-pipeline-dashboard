@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T11:00:03+00:00",
+ "generated_at": "2026-10-09T11:05:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2991,
-  "scanned": 2991,
-  "connector": 1304,
+  "task_folders": 2992,
+  "scanned": 2992,
+  "connector": 1305,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 232,
   "unknown": 387,
-  "synthetic": 685
+  "synthetic": 686
  },
  "domain": {
-  "unnamed": 1833,
+  "unnamed": 1834,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1306,
+  "harbor": 1307,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 329,
+  "slack-gym": 330,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -46,7 +46,7 @@
   "outlook-gym": 120,
   "github-gym": 86,
   "slack": 66,
-  "snowflake-gym": 34,
+  "snowflake-gym": 35,
   "supabase-gym": 20,
   "microsoft-365-gym": 19,
   "teams-gym": 16,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136132
+  "approx_bytes_read": 133098
  },
  "errors": [],
  "tasks": [
@@ -33423,6 +33423,23 @@
    "updated": "2026-10-02T21:03:59.812Z"
   },
   {
+   "declared_name": "harbor/silent-pipeline-failure-audit",
+   "declared_short": "silent-pipeline-failure-audit",
+   "folder": "silent-pipeline-failure-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "a3a9520272be143390c6b203c8095f63aa18f6c7d6cef870d2df970d5fb7da1f",
+   "size_bytes": 7811407,
+   "updated": "2026-10-09T11:03:32.818Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
@@ -40698,17 +40715,17 @@
    "updated": "2026-09-29T22:04:11.656Z"
   },
   {
-   "declared_name": "harbor/the-security-reports-closed-without-a-proper-record",
-   "declared_short": "the-security-reports-closed-without-a-proper-record",
-   "folder": "the-security-reports-closed-without-a-proper-record",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-security-reports-closed-without-a-proper-record",
+   "declared_short": "the-security-reports-closed-without-a-proper-record",
    "domain": null,
+   "folder": "the-security-reports-closed-without-a-proper-record",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "28554f1d98128cde359fdab08e35fabeb0d9087daa8b37bee027bac914c2c871",
    "size_bytes": 13116132,
    "updated": "2026-10-09T10:57:19.948Z"
