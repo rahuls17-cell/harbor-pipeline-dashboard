@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T04:55:03+00:00",
+ "generated_at": "2026-10-09T05:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2955,
-  "scanned": 2955,
-  "connector": 1268,
+  "task_folders": 2956,
+  "scanned": 2956,
+  "connector": 1269,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 225,
-  "unknown": 372,
+  "unknown": 373,
   "synthetic": 671
  },
  "domain": {
-  "unnamed": 1797,
+  "unnamed": 1798,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1270,
+  "harbor": 1271,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,8 +40,8 @@
   "email-calendar-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
+  "gws-gym": 146,
   "linear-gym": 145,
-  "gws-gym": 145,
   "notion-gym": 123,
   "outlook-gym": 117,
   "github-gym": 81,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 149524
+  "approx_bytes_read": 133372
  },
  "errors": [],
  "tasks": [
@@ -28255,6 +28255,22 @@
    "updated": "2026-10-08T21:44:32.307Z"
   },
   {
+   "declared_name": "harbor/largest-customer-lab-fees-in-dollars",
+   "declared_short": "largest-customer-lab-fees-in-dollars",
+   "folder": "largest-customer-lab-fees-in-dollars",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "3a4c6aca10b6bdffcd562f31a1a71b755c24ce1de70f254c5f9ad1141281842e",
+   "size_bytes": 13619027,
+   "updated": "2026-10-09T04:57:30.844Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
@@ -29849,17 +29865,17 @@
    "updated": "2026-10-03T01:54:45.495Z"
   },
   {
-   "declared_name": "harbor/legal-hold-privilege-audit",
-   "declared_short": "legal-hold-privilege-audit",
-   "folder": "legal-hold-privilege-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/legal-hold-privilege-audit",
+   "declared_short": "legal-hold-privilege-audit",
    "domain": null,
+   "folder": "legal-hold-privilege-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "01cded0768323735341c29214bf4b70c98e175754541d9d2cf5e74a382e794c8",
    "size_bytes": 8437797,
    "updated": "2026-10-09T04:54:54.650Z"
