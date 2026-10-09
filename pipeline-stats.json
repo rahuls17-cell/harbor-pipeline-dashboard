@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T12:45:03+00:00",
+ "generated_at": "2026-10-09T12:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3005,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 277118
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -30654,17 +30654,17 @@
    "updated": "2026-09-09T04:52:15.228Z"
   },
   {
-   "declared_name": "harbor/new-practice-requisition-fees-we-waived",
-   "declared_short": "new-practice-requisition-fees-we-waived",
-   "folder": "new-practice-requisition-fees-we-waived",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/new-practice-requisition-fees-we-waived",
+   "declared_short": "new-practice-requisition-fees-we-waived",
    "domain": null,
+   "folder": "new-practice-requisition-fees-we-waived",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "75797615109184b278d6ecb12532bd1992e620ac0a7c532d1be34013b2abf64a",
    "size_bytes": 13465890,
    "updated": "2026-10-09T12:42:14.564Z"
@@ -39917,17 +39917,17 @@
    "updated": "2026-09-23T07:10:11.780Z"
   },
   {
-   "declared_name": "harbor/the-payment-plan-that-came-up-short",
-   "declared_short": "the-payment-plan-that-came-up-short",
-   "folder": "the-payment-plan-that-came-up-short",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-payment-plan-that-came-up-short",
+   "declared_short": "the-payment-plan-that-came-up-short",
    "domain": null,
+   "folder": "the-payment-plan-that-came-up-short",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "089168a91435c32e93758434dd5332ef21530e021d6b2419fef5cb7add79ac44",
    "size_bytes": 19398028,
    "updated": "2026-10-09T12:44:15.782Z"
