@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T10:30:03+00:00",
+ "generated_at": "2026-10-09T10:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2989,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 143728
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -33863,17 +33863,17 @@
    "updated": "2026-09-17T05:43:26.913Z"
   },
   {
-   "declared_name": "harbor/substitute-receipt-hold-audit",
-   "declared_short": "substitute-receipt-hold-audit",
-   "folder": "substitute-receipt-hold-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/substitute-receipt-hold-audit",
+   "declared_short": "substitute-receipt-hold-audit",
    "domain": null,
+   "folder": "substitute-receipt-hold-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "bac15b349b5622b5eeeb37ce1a9d4998a62e8f4fc27da7eb0d07b3459621fa75",
    "size_bytes": 7963477,
    "updated": "2026-10-09T10:29:55.731Z"
