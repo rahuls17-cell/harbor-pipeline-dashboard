@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T04:20:03+00:00",
+ "generated_at": "2026-10-09T04:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2951,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137460
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -40713,17 +40713,17 @@
    "updated": "2026-10-03T07:17:25.896Z"
   },
   {
-   "declared_name": "harbor/the-tool-trials-that-turned-into-bills",
-   "declared_short": "the-tool-trials-that-turned-into-bills",
-   "folder": "the-tool-trials-that-turned-into-bills",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-tool-trials-that-turned-into-bills",
+   "declared_short": "the-tool-trials-that-turned-into-bills",
    "domain": null,
+   "folder": "the-tool-trials-that-turned-into-bills",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "442d3c8354e4b5e1b80acf203b95e61506f50c1e9f9ceeee7bee95cb32f25153",
    "size_bytes": 11683474,
    "updated": "2026-10-09T04:19:01.349Z"
