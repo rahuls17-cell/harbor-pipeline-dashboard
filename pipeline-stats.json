@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T14:40:03+00:00",
+ "generated_at": "2026-10-09T14:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3018,
-  "scanned": 3018,
-  "connector": 1331,
+  "task_folders": 3020,
+  "scanned": 3020,
+  "connector": 1333,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 234,
-  "unknown": 396,
+  "unknown": 398,
   "synthetic": 701
  },
  "domain": {
-  "unnamed": 1860,
+  "unnamed": 1862,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1333,
+  "harbor": 1335,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 336,
+  "slack-gym": 338,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 268840
  },
  "errors": [],
  "tasks": [
@@ -28369,6 +28369,22 @@
    "updated": "2026-10-02T21:36:10.510Z"
   },
   {
+   "declared_name": "harbor/lab-and-erx-threads-still-open",
+   "declared_short": "lab-and-erx-threads-still-open",
+   "folder": "lab-and-erx-threads-still-open",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "41448e86cb565c9cfe7b7536a41757013520cb530ced0f3b51739db5473be179",
+   "size_bytes": 8557904,
+   "updated": "2026-10-09T14:44:15.306Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym"
@@ -37741,6 +37757,22 @@
    "sha256": "628cea9faa7913a44a327e8c4d014089aa9033c8e8dd5a346f7c0a951fa77468",
    "size_bytes": 8545379,
    "updated": "2026-10-09T04:30:11.851Z"
+  },
+  {
+   "declared_name": "harbor/the-clinical-questions-someone-else-answered",
+   "declared_short": "the-clinical-questions-someone-else-answered",
+   "folder": "the-clinical-questions-someone-else-answered-v3-QC-TESTING",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "47fa14703156c909d7fe86305e39efe8d3e9bbcd0e7d083a3d22282c4725d759",
+   "size_bytes": 12954121,
+   "updated": "2026-10-09T14:44:42.680Z"
   },
   {
    "connector_provenance": "synthetic",
