@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T06:15:03+00:00",
+ "generated_at": "2026-10-09T06:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2968,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 280290
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -12899,17 +12899,17 @@
    "updated": "2026-10-07T23:01:47.946Z"
   },
   {
-   "declared_name": "harbor/deviation-run-impact-audit",
-   "declared_short": "deviation-run-impact-audit",
-   "folder": "deviation-run-impact-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/deviation-run-impact-audit",
+   "declared_short": "deviation-run-impact-audit",
    "domain": null,
+   "folder": "deviation-run-impact-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "28f340640cb8b5efab57331b041640f246b085b4f23c32b10937d429501ec57a",
    "size_bytes": 9020907,
    "updated": "2026-10-09T06:14:53.513Z"
@@ -38426,17 +38426,17 @@
    "updated": "2026-10-02T00:44:36.645Z"
   },
   {
-   "declared_name": "harbor/the-keys-our-pull-requests-gave-away",
-   "declared_short": "the-keys-our-pull-requests-gave-away",
-   "folder": "the-keys-our-pull-requests-gave-away",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-keys-our-pull-requests-gave-away",
+   "declared_short": "the-keys-our-pull-requests-gave-away",
    "domain": null,
+   "folder": "the-keys-our-pull-requests-gave-away",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4cd934d65dbd356987b55aca4c590996cfd0da90275ff77ac345f9e33a58914d",
    "size_bytes": 8777505,
    "updated": "2026-10-09T06:11:36.303Z"
