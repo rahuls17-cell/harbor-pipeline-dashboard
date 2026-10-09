@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T14:45:04+00:00",
+ "generated_at": "2026-10-09T14:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3020,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 268840
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -28369,17 +28369,17 @@
    "updated": "2026-10-02T21:36:10.510Z"
   },
   {
-   "declared_name": "harbor/lab-and-erx-threads-still-open",
-   "declared_short": "lab-and-erx-threads-still-open",
-   "folder": "lab-and-erx-threads-still-open",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/lab-and-erx-threads-still-open",
+   "declared_short": "lab-and-erx-threads-still-open",
    "domain": null,
+   "folder": "lab-and-erx-threads-still-open",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "41448e86cb565c9cfe7b7536a41757013520cb530ced0f3b51739db5473be179",
    "size_bytes": 8557904,
    "updated": "2026-10-09T14:44:15.306Z"
@@ -37759,17 +37759,17 @@
    "updated": "2026-10-09T04:30:11.851Z"
   },
   {
-   "declared_name": "harbor/the-clinical-questions-someone-else-answered",
-   "declared_short": "the-clinical-questions-someone-else-answered",
-   "folder": "the-clinical-questions-someone-else-answered-v3-QC-TESTING",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-clinical-questions-someone-else-answered",
+   "declared_short": "the-clinical-questions-someone-else-answered",
    "domain": null,
+   "folder": "the-clinical-questions-someone-else-answered-v3-QC-TESTING",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "47fa14703156c909d7fe86305e39efe8d3e9bbcd0e7d083a3d22282c4725d759",
    "size_bytes": 12954121,
    "updated": "2026-10-09T14:44:42.680Z"
