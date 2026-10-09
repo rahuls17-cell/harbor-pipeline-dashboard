@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T12:20:03+00:00",
+ "generated_at": "2026-10-09T12:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2999,
-  "scanned": 2999,
-  "connector": 1312,
+  "task_folders": 3000,
+  "scanned": 3000,
+  "connector": 1313,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 232,
-  "unknown": 390,
+  "unknown": 391,
   "synthetic": 690
  },
  "domain": {
-  "unnamed": 1841,
+  "unnamed": 1842,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1314,
+  "harbor": 1315,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,8 +41,8 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "gws-gym": 153,
-  "linear-gym": 149,
-  "notion-gym": 127,
+  "linear-gym": 150,
+  "notion-gym": 128,
   "outlook-gym": 121,
   "github-gym": 87,
   "slack": 66,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 272275
+  "new_archives_read": 1,
+  "approx_bytes_read": 134274
  },
  "errors": [],
  "tasks": [
@@ -31918,17 +31918,17 @@
    "updated": "2026-10-09T01:43:39.265Z"
   },
   {
-   "declared_name": "harbor/practices-cleared-for-phi-deletion",
-   "declared_short": "practices-cleared-for-phi-deletion",
-   "folder": "practices-cleared-for-phi-deletion",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/practices-cleared-for-phi-deletion",
+   "declared_short": "practices-cleared-for-phi-deletion",
    "domain": null,
+   "folder": "practices-cleared-for-phi-deletion",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7883fa159c9bb12ae39500920f76a71922ff20b41f56fb60c971c12170a53284",
    "size_bytes": 9419427,
    "updated": "2026-10-09T12:16:21.383Z"
@@ -33830,18 +33830,18 @@
    "updated": "2026-10-06T17:13:43.037Z"
   },
   {
-   "declared_name": "harbor/stale-task-refresh-audit",
-   "declared_short": "stale-task-refresh-audit",
-   "folder": "stale-task-refresh-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/stale-task-refresh-audit",
+   "declared_short": "stale-task-refresh-audit",
    "domain": null,
+   "folder": "stale-task-refresh-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3c0ede3d4ccf7afa55d90bbabaf1d6f45cfef4097837461db0485386809f25b7",
    "size_bytes": 7624548,
    "updated": "2026-10-09T12:15:33.997Z"
@@ -38474,6 +38474,23 @@
    "sha256": "ae7c8dddc495f613e9f8a71a033f747552e53a7d00d39bf2f2697179b85528cb",
    "size_bytes": 51078780,
    "updated": "2026-09-29T10:04:55.473Z"
+  },
+  {
+   "declared_name": "harbor/the-guideline-reviews-the-committee-missed",
+   "declared_short": "the-guideline-reviews-the-committee-missed",
+   "folder": "the-guideline-reviews-the-committee-missed-v2",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "3aaa29c5fd72166d96e44d9e3eb96ad829059cede0c843443cea941ce491df69",
+   "size_bytes": 8217822,
+   "updated": "2026-10-09T12:22:34.111Z"
   },
   {
    "connector_provenance": "synthetic",
