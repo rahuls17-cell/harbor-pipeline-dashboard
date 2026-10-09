@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T02:55:04+00:00",
+ "generated_at": "2026-10-09T03:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2942,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137088
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -15316,17 +15316,17 @@
    "updated": "2026-10-02T20:46:49.929Z"
   },
   {
-   "declared_name": "harbor/ehr-priorities-that-slipped",
-   "declared_short": "ehr-priorities-that-slipped",
-   "folder": "ehr-priorities-that-slipped",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/ehr-priorities-that-slipped",
+   "declared_short": "ehr-priorities-that-slipped",
    "domain": null,
+   "folder": "ehr-priorities-that-slipped",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "407309c58c49552e3d14c3afd11d2e882212c151965f7451cfb1576a9ef29d35",
    "size_bytes": 8067126,
    "updated": "2026-10-09T02:51:27.716Z"
