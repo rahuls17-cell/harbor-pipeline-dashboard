@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T06:10:03+00:00",
+ "generated_at": "2026-10-09T06:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2966,
-  "scanned": 2966,
-  "connector": 1279,
+  "task_folders": 2968,
+  "scanned": 2968,
+  "connector": 1281,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 228,
-  "unknown": 375,
-  "synthetic": 676
+  "unknown": 376,
+  "synthetic": 677
  },
  "domain": {
-  "unnamed": 1808,
+  "unnamed": 1810,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1281,
+  "harbor": 1283,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 322,
+  "slack-gym": 323,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -44,7 +44,7 @@
   "linear-gym": 147,
   "notion-gym": 124,
   "outlook-gym": 117,
-  "github-gym": 82,
+  "github-gym": 83,
   "slack": 66,
   "snowflake-gym": 34,
   "supabase-gym": 20,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 267101
+  "approx_bytes_read": 280290
  },
  "errors": [],
  "tasks": [
@@ -12897,6 +12897,22 @@
    "sha256": "c596c79c5fedcb8090a213a8b4ebc2651dd08a58190f66368aabe2d2e5d7bcf7",
    "size_bytes": 11066937,
    "updated": "2026-10-07T23:01:47.946Z"
+  },
+  {
+   "declared_name": "harbor/deviation-run-impact-audit",
+   "declared_short": "deviation-run-impact-audit",
+   "folder": "deviation-run-impact-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "28f340640cb8b5efab57331b041640f246b085b4f23c32b10937d429501ec57a",
+   "size_bytes": 9020907,
+   "updated": "2026-10-09T06:14:53.513Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -29963,18 +29979,18 @@
    "updated": "2026-09-23T08:21:15.646Z"
   },
   {
-   "declared_name": "harbor/load-unit-cost-audit",
-   "declared_short": "load-unit-cost-audit",
-   "folder": "load-unit-cost-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/load-unit-cost-audit",
+   "declared_short": "load-unit-cost-audit",
    "domain": null,
+   "folder": "load-unit-cost-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "72092ff5ec45d6149e90073c4e06310246f30d16d627c820ba1ef8d292e46b7e",
    "size_bytes": 8039559,
    "updated": "2026-10-09T06:06:22.820Z"
@@ -38410,6 +38426,22 @@
    "updated": "2026-10-02T00:44:36.645Z"
   },
   {
+   "declared_name": "harbor/the-keys-our-pull-requests-gave-away",
+   "declared_short": "the-keys-our-pull-requests-gave-away",
+   "folder": "the-keys-our-pull-requests-gave-away",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "4cd934d65dbd356987b55aca4c590996cfd0da90275ff77ac345f9e33a58914d",
+   "size_bytes": 8777505,
+   "updated": "2026-10-09T06:11:36.303Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
@@ -40810,17 +40842,17 @@
    "updated": "2026-09-26T15:55:01.164Z"
   },
   {
-   "declared_name": "harbor/the-terms-of-use-clauses-counsel-found-missing-v2",
-   "declared_short": "the-terms-of-use-clauses-counsel-found-missing-v2",
-   "folder": "the-terms-of-use-clauses-counsel-found-missing-v2",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-terms-of-use-clauses-counsel-found-missing-v2",
+   "declared_short": "the-terms-of-use-clauses-counsel-found-missing-v2",
    "domain": null,
+   "folder": "the-terms-of-use-clauses-counsel-found-missing-v2",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0feaffeb4462bc3e42c02f8d5aba1a6641eae0d770752efe68bc48f01337ca5b",
    "size_bytes": 9221796,
    "updated": "2026-10-09T06:07:01.525Z"
