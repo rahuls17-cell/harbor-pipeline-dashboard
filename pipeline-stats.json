@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T16:10:03+00:00",
+ "generated_at": "2026-10-09T16:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3029,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 142017
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -43679,17 +43679,17 @@
    "updated": "2026-09-29T14:45:29.738Z"
   },
   {
-   "declared_name": "harbor/warehouse-idle-spend-audit",
-   "declared_short": "warehouse-idle-spend-audit",
-   "folder": "warehouse-idle-spend-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/warehouse-idle-spend-audit",
+   "declared_short": "warehouse-idle-spend-audit",
    "domain": null,
+   "folder": "warehouse-idle-spend-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6e74ff32a4ed75453ecf192a96b977797f80be9f46a1bc782a0e97b03c404d13",
    "size_bytes": 7066153,
    "updated": "2026-10-09T16:07:36.749Z"
