@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T02:20:03+00:00",
+ "generated_at": "2026-10-09T02:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2940,
-  "scanned": 2940,
-  "connector": 1253,
+  "task_folders": 2941,
+  "scanned": 2941,
+  "connector": 1254,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 225,
-  "unknown": 363,
+  "unknown": 364,
   "synthetic": 665
  },
  "domain": {
-  "unnamed": 1782,
+  "unnamed": 1783,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1255,
+  "harbor": 1256,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "email-calendar-gym": 189,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "linear-gym": 143,
+  "linear-gym": 144,
   "gws-gym": 142,
   "notion-gym": 121,
   "outlook-gym": 116,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 136882
  },
  "errors": [],
  "tasks": [
@@ -31419,6 +31419,22 @@
    "sha256": "a13a5ff0b54ff8e676ff659ad53448c4b6be2bf65f2c34f1b587b0a9ae04a455",
    "size_bytes": 12102592,
    "updated": "2026-10-07T09:38:11.601Z"
+  },
+  {
+   "declared_name": "harbor/prenatal-sections-awaiting-clinical-sign-off",
+   "declared_short": "prenatal-sections-awaiting-clinical-sign-off",
+   "folder": "prenatal-sections-awaiting-clinical-sign-off",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "ed6bb2cc1bcf13ca3862d2b62d3e9a859a4d92ff0c69dfb2101f5a54309fc184",
+   "size_bytes": 8619025,
+   "updated": "2026-10-09T02:26:36.702Z"
   },
   {
    "connector_provenance": "unknown",
