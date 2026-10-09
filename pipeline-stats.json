@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T09:05:03+00:00",
+ "generated_at": "2026-10-09T09:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2983,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 281379
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -6238,17 +6238,17 @@
    "updated": "2026-09-28T12:07:13.799Z"
   },
   {
-   "declared_name": "harbor/changes-merged-outside-their-window",
-   "declared_short": "changes-merged-outside-their-window",
-   "folder": "changes-merged-outside-their-window",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/changes-merged-outside-their-window",
+   "declared_short": "changes-merged-outside-their-window",
    "domain": null,
+   "folder": "changes-merged-outside-their-window",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b00720c1a1670ab869aba70993b325ea5b1286b80d1dbdba3c61c4dda639705c",
    "size_bytes": 7680776,
    "updated": "2026-10-09T09:01:20.075Z"
@@ -6536,17 +6536,17 @@
    "updated": "2026-10-02T17:07:40.838Z"
   },
   {
-   "declared_name": "harbor/clinical-forms-library-signed-off",
-   "declared_short": "clinical-forms-library-signed-off",
-   "folder": "clinical-forms-library-signed-off",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/clinical-forms-library-signed-off",
+   "declared_short": "clinical-forms-library-signed-off",
    "domain": null,
+   "folder": "clinical-forms-library-signed-off",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "99e825369fbdcaee7daaa0c0949394913554871294b4dad70ec575f00c3609e8",
    "size_bytes": 8242831,
    "updated": "2026-10-09T09:03:56.163Z"
