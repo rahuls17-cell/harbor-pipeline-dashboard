@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T04:35:04+00:00",
+ "generated_at": "2026-10-09T04:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2953,
-  "scanned": 2953,
-  "connector": 1266,
+  "task_folders": 2954,
+  "scanned": 2954,
+  "connector": 1267,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 225,
   "unknown": 372,
-  "synthetic": 669
+  "synthetic": 670
  },
  "domain": {
-  "unnamed": 1795,
+  "unnamed": 1796,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1268,
+  "harbor": 1269,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "freshdesk-gym": 188,
   "linear-gym": 145,
   "gws-gym": 145,
-  "notion-gym": 122,
+  "notion-gym": 123,
   "outlook-gym": 117,
   "github-gym": 81,
   "slack": 66,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 275076
+  "new_archives_read": 1,
+  "approx_bytes_read": 138504
  },
  "errors": [],
  "tasks": [
@@ -23453,17 +23453,17 @@
    "updated": "2026-10-09T01:31:11.826Z"
   },
   {
-   "declared_name": "harbor/grant-pi-review-gap-audit",
-   "declared_short": "grant-pi-review-gap-audit",
-   "folder": "grant-pi-review-gap-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/grant-pi-review-gap-audit",
+   "declared_short": "grant-pi-review-gap-audit",
    "domain": null,
+   "folder": "grant-pi-review-gap-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c4395d6644c47163967a6f17eb68b07bfac0344c170967794fdf591ccc140071",
    "size_bytes": 8667546,
    "updated": "2026-10-09T04:30:26.710Z"
@@ -32733,6 +32733,22 @@
    "updated": "2026-10-07T12:43:33.683Z"
   },
   {
+   "declared_name": "harbor/security-docs-access-audit",
+   "declared_short": "security-docs-access-audit",
+   "folder": "security-docs-access-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "a6fd4c04e823bd93dda3c4379792a59ee10e61282cee63504b46c76ad98ba60b",
+   "size_bytes": 14102200,
+   "updated": "2026-10-09T04:35:22.614Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
@@ -36905,17 +36921,17 @@
    "updated": "2026-10-07T02:51:06.191Z"
   },
   {
-   "declared_name": "harbor/clinical-defects-fixed-past-their-deadline",
-   "declared_short": "clinical-defects-fixed-past-their-deadline",
-   "folder": "the-clinical-forms-in-one-patient-page",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/clinical-defects-fixed-past-their-deadline",
+   "declared_short": "clinical-defects-fixed-past-their-deadline",
    "domain": null,
+   "folder": "the-clinical-forms-in-one-patient-page",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "628cea9faa7913a44a327e8c4d014089aa9033c8e8dd5a346f7c0a951fa77468",
    "size_bytes": 8545379,
    "updated": "2026-10-09T04:30:11.851Z"
