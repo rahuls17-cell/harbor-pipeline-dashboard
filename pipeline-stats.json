@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T14:55:03+00:00",
+ "generated_at": "2026-10-09T15:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3021,
-  "scanned": 3021,
-  "connector": 1334,
+  "task_folders": 3022,
+  "scanned": 3022,
+  "connector": 1335,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 234,
-  "unknown": 398,
+  "unknown": 399,
   "synthetic": 702
  },
  "domain": {
-  "unnamed": 1863,
+  "unnamed": 1864,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1336,
+  "harbor": 1337,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "gws-gym": 157,
+  "gws-gym": 158,
   "linear-gym": 155,
   "notion-gym": 133,
   "outlook-gym": 123,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135234
+  "approx_bytes_read": 137066
  },
  "errors": [],
  "tasks": [
@@ -34300,6 +34300,22 @@
    "updated": "2026-10-01T17:34:21.318Z"
   },
   {
+   "declared_name": "harbor/summer-lab-results-that-waited-a-month",
+   "declared_short": "summer-lab-results-that-waited-a-month",
+   "folder": "summer-lab-results-that-waited-a-month",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "cd61f247a2275827fd7d1f1efc1bae95a221f798386cc2f63a1b9d6ddecc517c",
+   "size_bytes": 11344533,
+   "updated": "2026-10-09T14:56:01.978Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
@@ -38319,17 +38335,17 @@
    "updated": "2026-10-01T14:18:57.283Z"
   },
   {
-   "declared_name": "harbor/the-editors-on-files-open-past-the-team",
-   "declared_short": "the-editors-on-files-open-past-the-team",
-   "folder": "the-editors-on-files-open-past-the-team",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-editors-on-files-open-past-the-team",
+   "declared_short": "the-editors-on-files-open-past-the-team",
    "domain": null,
+   "folder": "the-editors-on-files-open-past-the-team",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "dc3b95a0a3989845b1d87a2924bfa11446a33a38233be0c37e3b010607fce8bd",
    "size_bytes": 12589599,
    "updated": "2026-10-09T14:53:00.429Z"
