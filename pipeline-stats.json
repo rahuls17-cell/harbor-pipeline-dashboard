@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T03:15:03+00:00",
+ "generated_at": "2026-10-09T03:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2944,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137311
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -32653,17 +32653,17 @@
    "updated": "2026-10-03T08:22:19.253Z"
   },
   {
-   "declared_name": "harbor/security-warranty-in-the-repository-sale",
-   "declared_short": "security-warranty-in-the-repository-sale",
-   "folder": "security-warranty-in-the-repository-sale",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/security-warranty-in-the-repository-sale",
+   "declared_short": "security-warranty-in-the-repository-sale",
    "domain": null,
+   "folder": "security-warranty-in-the-repository-sale",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d60ea8b5942e64e94147f47bdbe484b295b91d87a8c61547f27833e2167487a3",
    "size_bytes": 8889236,
    "updated": "2026-10-09T03:11:31.685Z"
