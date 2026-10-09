@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T10:25:04+00:00",
+ "generated_at": "2026-10-09T10:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2988,
-  "scanned": 2988,
-  "connector": 1301,
+  "task_folders": 2989,
+  "scanned": 2989,
+  "connector": 1302,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 231,
   "unknown": 387,
-  "synthetic": 683
+  "synthetic": 684
  },
  "domain": {
-  "unnamed": 1830,
+  "unnamed": 1831,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1303,
+  "harbor": 1304,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 328,
+  "slack-gym": 329,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 137283
+  "approx_bytes_read": 143728
  },
  "errors": [],
  "tasks": [
@@ -6680,17 +6680,17 @@
    "updated": "2026-10-03T06:30:08.378Z"
   },
   {
-   "declared_name": "harbor/closing-the-birth-centre-pilot",
-   "declared_short": "closing-the-birth-centre-pilot",
-   "folder": "closing-the-birth-centre-pilot",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/closing-the-birth-centre-pilot",
+   "declared_short": "closing-the-birth-centre-pilot",
    "domain": null,
+   "folder": "closing-the-birth-centre-pilot",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "331b0e81c5ce4f9ed9e1466ee28e3349aca5a095703f4d94b5ed14776cb799ec",
    "size_bytes": 14518904,
    "updated": "2026-10-09T10:21:12.036Z"
@@ -33861,6 +33861,22 @@
    "sha256": "7f0eb7d4ce72be0beb5889501e77165e32e3139cea439b9147d5a31f3bf62c33",
    "size_bytes": 9979005,
    "updated": "2026-09-17T05:43:26.913Z"
+  },
+  {
+   "declared_name": "harbor/substitute-receipt-hold-audit",
+   "declared_short": "substitute-receipt-hold-audit",
+   "folder": "substitute-receipt-hold-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "bac15b349b5622b5eeeb37ce1a9d4998a62e8f4fc27da7eb0d07b3459621fa75",
+   "size_bytes": 7963477,
+   "updated": "2026-10-09T10:29:55.731Z"
   },
   {
    "connector_provenance": "unknown",
