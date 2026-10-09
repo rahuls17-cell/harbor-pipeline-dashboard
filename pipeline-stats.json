@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T03:50:03+00:00",
+ "generated_at": "2026-10-09T03:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2946,
-  "scanned": 2946,
-  "connector": 1259,
+  "task_folders": 2947,
+  "scanned": 2947,
+  "connector": 1260,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 225,
-  "unknown": 368,
+  "unknown": 369,
   "synthetic": 666
  },
  "domain": {
-  "unnamed": 1788,
+  "unnamed": 1789,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1261,
+  "harbor": 1262,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -37,7 +37,7 @@
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
   "jira-gym": 192,
-  "email-calendar-gym": 189,
+  "email-calendar-gym": 190,
   "email-gym": 188,
   "freshdesk-gym": 188,
   "linear-gym": 144,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134134
+  "approx_bytes_read": 137158
  },
  "errors": [],
  "tasks": [
@@ -23341,6 +23341,22 @@
    "updated": "2026-09-28T09:18:11.459Z"
   },
   {
+   "declared_name": "harbor/github-access-to-revoke-before-the-sale",
+   "declared_short": "github-access-to-revoke-before-the-sale",
+   "folder": "github-access-to-revoke-before-the-sale",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "23a976a47db12b07c67b8d316fa479c9cce324251649ee00bec6b7dbc0e03314",
+   "size_bytes": 9720266,
+   "updated": "2026-10-09T03:54:00.928Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
@@ -33136,18 +33152,18 @@
    "updated": "2026-10-08T22:33:26.240Z"
   },
   {
-   "declared_name": "harbor/stage-format-mismatch-audit",
-   "declared_short": "stage-format-mismatch-audit",
-   "folder": "stage-format-mismatch-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/stage-format-mismatch-audit",
+   "declared_short": "stage-format-mismatch-audit",
    "domain": null,
+   "folder": "stage-format-mismatch-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d382923200c7500b59aad12cf295ccbe8ca956d50c80b090500a779d3cc4b046",
    "size_bytes": 6211707,
    "updated": "2026-10-09T03:47:45.072Z"
