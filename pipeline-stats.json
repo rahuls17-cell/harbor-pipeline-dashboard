@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T23:55:04+00:00",
+ "generated_at": "2026-10-09T00:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2927,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 274246
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -29593,17 +29593,17 @@
    "updated": "2026-10-07T05:30:27.952Z"
   },
   {
-   "declared_name": "harbor/leadership-access-back-to-drive-roles",
-   "declared_short": "leadership-access-back-to-drive-roles",
-   "folder": "leadership-access-back-to-drive-roles",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/leadership-access-back-to-drive-roles",
+   "declared_short": "leadership-access-back-to-drive-roles",
    "domain": null,
+   "folder": "leadership-access-back-to-drive-roles",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c49d8a0a93202d2eda256bc815468c6eb4a7354be84f381db583de57f79859ef",
    "size_bytes": 14032851,
    "updated": "2026-10-08T23:53:44.710Z"
@@ -31309,17 +31309,17 @@
    "updated": "2026-09-27T05:45:28.820Z"
   },
   {
-   "declared_name": "harbor/profile-clinical-content-awaiting-review",
-   "declared_short": "profile-clinical-content-awaiting-review",
-   "folder": "profile-clinical-content-awaiting-review",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/profile-clinical-content-awaiting-review",
+   "declared_short": "profile-clinical-content-awaiting-review",
    "domain": null,
+   "folder": "profile-clinical-content-awaiting-review",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d49e2a7d390873987ac85713cd9cda89f58c341236d22d0a0e35b549b1cc33db",
    "size_bytes": 8043233,
    "updated": "2026-10-08T23:51:03.478Z"
