@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T07:00:03+00:00",
+ "generated_at": "2026-10-09T07:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2972,
-  "scanned": 2972,
-  "connector": 1285,
+  "task_folders": 2973,
+  "scanned": 2973,
+  "connector": 1286,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 230,
   "unknown": 376,
-  "synthetic": 679
+  "synthetic": 680
  },
  "domain": {
-  "unnamed": 1814,
+  "unnamed": 1815,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1287,
+  "harbor": 1288,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 325,
+  "slack-gym": 326,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134765
+  "approx_bytes_read": 134043
  },
  "errors": [],
  "tasks": [
@@ -2728,17 +2728,17 @@
    "updated": "2026-09-13T08:14:15.347Z"
   },
   {
-   "declared_name": "harbor/buried-thread-recaps",
-   "declared_short": "buried-thread-recaps",
-   "folder": "buried-thread-recaps",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/buried-thread-recaps",
+   "declared_short": "buried-thread-recaps",
    "domain": null,
+   "folder": "buried-thread-recaps",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "804a905c3c119942b34d8c7a143520295c6963390e95f916bddba9b7d90e8053",
    "size_bytes": 16098666,
    "updated": "2026-10-09T06:57:35.449Z"
@@ -33261,6 +33261,22 @@
    "sha256": "ff0caf3734d63a3fabb03a5f5e8a73b9cf068248252228fee4b852fe70f244c3",
    "size_bytes": 43701640,
    "updated": "2026-09-27T06:35:29.984Z"
+  },
+  {
+   "declared_name": "harbor/incident-response-gap",
+   "declared_short": "incident-response-gap",
+   "folder": "slack-incident-response-gap",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d259c851b651d978cb4332369e5afbf6cf207f563e45b74a7b884823654bc188",
+   "size_bytes": 5651281,
+   "updated": "2026-10-09T07:04:20.431Z"
   },
   {
    "connector_provenance": "unknown",
