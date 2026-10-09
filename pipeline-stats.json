@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T08:30:03+00:00",
+ "generated_at": "2026-10-09T08:35:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2979,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137385
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -15830,17 +15830,17 @@
    "updated": "2026-10-01T10:03:05.800Z"
   },
   {
-   "declared_name": "harbor/event-spend-closed-out-against-budget",
-   "declared_short": "event-spend-closed-out-against-budget",
-   "folder": "event-spend-closed-out-against-budget",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/event-spend-closed-out-against-budget",
+   "declared_short": "event-spend-closed-out-against-budget",
    "domain": null,
+   "folder": "event-spend-closed-out-against-budget",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9477bddf6b3d37dfc054f77e05e0512554cdf1dd58757bf385960b3c8a6b210c",
    "size_bytes": 7007514,
    "updated": "2026-10-09T08:26:56.617Z"
