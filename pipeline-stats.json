@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T10:00:03+00:00",
+ "generated_at": "2026-10-09T10:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2985,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 139710
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -42292,17 +42292,17 @@
    "updated": "2026-10-06T13:43:24.602Z"
   },
   {
-   "declared_name": "harbor/user-research-evidence-strength-audit",
-   "declared_short": "user-research-evidence-strength-audit",
-   "folder": "user-research-evidence-strength-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/user-research-evidence-strength-audit",
+   "declared_short": "user-research-evidence-strength-audit",
    "domain": null,
+   "folder": "user-research-evidence-strength-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "bf27688b38afe915cfbf272a866eeb6aa8df10f071191199960e78406dd43bc0",
    "size_bytes": 11694772,
    "updated": "2026-10-09T09:59:43.557Z"
