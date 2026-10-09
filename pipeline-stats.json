@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T06:25:03+00:00",
+ "generated_at": "2026-10-09T06:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2969,
-  "scanned": 2969,
-  "connector": 1282,
+  "task_folders": 2970,
+  "scanned": 2970,
+  "connector": 1283,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 228,
+  "real": 229,
   "unknown": 376,
   "synthetic": 678
  },
  "domain": {
-  "unnamed": 1811,
+  "unnamed": 1812,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1284,
+  "harbor": 1285,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -36,8 +36,8 @@
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
+  "email-calendar-gym": 193,
   "jira-gym": 192,
-  "email-calendar-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
   "gws-gym": 148,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 141432
+  "approx_bytes_read": 136884
  },
  "errors": [],
  "tasks": [
@@ -27618,6 +27618,22 @@
    "updated": "2026-09-18T17:51:14.900Z"
   },
   {
+   "declared_name": "harbor/integration-partners-gone-quiet",
+   "declared_short": "integration-partners-gone-quiet",
+   "folder": "integration-partners-gone-quiet",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "d311c5d3b345f69040ce25d12c53c9b18255b9ea36cf2b19a6ec2f7c1f0d0d80",
+   "size_bytes": 14775938,
+   "updated": "2026-10-09T06:25:50.275Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
@@ -27854,17 +27870,17 @@
    "updated": "2026-10-03T08:48:12.284Z"
   },
   {
-   "declared_name": "harbor/issue-reply-wait-audit",
-   "declared_short": "issue-reply-wait-audit",
-   "folder": "issue-reply-wait-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/issue-reply-wait-audit",
+   "declared_short": "issue-reply-wait-audit",
    "domain": null,
+   "folder": "issue-reply-wait-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "584ff51029c3290e526aea441d9a39fb234dc2fc05ea3afa4e9cbf279bea1e06",
    "size_bytes": 11870123,
    "updated": "2026-10-09T06:24:46.890Z"
