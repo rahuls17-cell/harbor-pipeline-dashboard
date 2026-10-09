@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T11:05:04+00:00",
+ "generated_at": "2026-10-09T11:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2992,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133098
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -33423,18 +33423,18 @@
    "updated": "2026-10-02T21:03:59.812Z"
   },
   {
-   "declared_name": "harbor/silent-pipeline-failure-audit",
-   "declared_short": "silent-pipeline-failure-audit",
-   "folder": "silent-pipeline-failure-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/silent-pipeline-failure-audit",
+   "declared_short": "silent-pipeline-failure-audit",
    "domain": null,
+   "folder": "silent-pipeline-failure-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a3a9520272be143390c6b203c8095f63aa18f6c7d6cef870d2df970d5fb7da1f",
    "size_bytes": 7811407,
    "updated": "2026-10-09T11:03:32.818Z"
