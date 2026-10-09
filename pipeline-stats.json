@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T00:05:03+00:00",
+ "generated_at": "2026-10-09T00:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2928,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 144092
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -11908,17 +11908,17 @@
    "updated": "2026-10-02T18:31:15.181Z"
   },
   {
-   "declared_name": "harbor/collaboration-commitment-matrix-audit",
-   "declared_short": "collaboration-commitment-matrix-audit",
-   "folder": "collaboration-commitment-matrix-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/collaboration-commitment-matrix-audit",
+   "declared_short": "collaboration-commitment-matrix-audit",
    "domain": null,
+   "folder": "collaboration-commitment-matrix-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0354f241d71591bff35f7c182bc52b8e4b566b08ffa53fe3e55a7712ae575f92",
    "size_bytes": 9348555,
    "updated": "2026-10-09T00:03:33.630Z"
