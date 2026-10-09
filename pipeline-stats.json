@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T03:55:03+00:00",
+ "generated_at": "2026-10-09T04:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2947,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137158
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -23341,17 +23341,17 @@
    "updated": "2026-09-28T09:18:11.459Z"
   },
   {
-   "declared_name": "harbor/github-access-to-revoke-before-the-sale",
-   "declared_short": "github-access-to-revoke-before-the-sale",
-   "folder": "github-access-to-revoke-before-the-sale",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/github-access-to-revoke-before-the-sale",
+   "declared_short": "github-access-to-revoke-before-the-sale",
    "domain": null,
+   "folder": "github-access-to-revoke-before-the-sale",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "23a976a47db12b07c67b8d316fa479c9cce324251649ee00bec6b7dbc0e03314",
    "size_bytes": 9720266,
    "updated": "2026-10-09T03:54:00.928Z"
