@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T12:30:03+00:00",
+ "generated_at": "2026-10-09T12:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3000,
-  "scanned": 3000,
-  "connector": 1313,
+  "task_folders": 3002,
+  "scanned": 3002,
+  "connector": 1315,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 232,
-  "unknown": 391,
-  "synthetic": 690
+  "unknown": 392,
+  "synthetic": 691
  },
  "domain": {
-  "unnamed": 1842,
+  "unnamed": 1844,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1315,
+  "harbor": 1317,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 333,
+  "slack-gym": 334,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -41,7 +41,7 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "gws-gym": 153,
-  "linear-gym": 150,
+  "linear-gym": 151,
   "notion-gym": 128,
   "outlook-gym": 121,
   "github-gym": 87,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 273398
  },
  "errors": [],
  "tasks": [
@@ -28447,6 +28447,22 @@
    "updated": "2026-10-08T18:21:13.275Z"
   },
   {
+   "declared_name": "harbor/lab-software-changes-never-validated",
+   "declared_short": "lab-software-changes-never-validated",
+   "folder": "lab-software-changes-never-validated",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "0d67a31e30c779553d6df3307895290f0701d103cacac265363266d46d0c6013",
+   "size_bytes": 6300023,
+   "updated": "2026-10-09T12:32:46.087Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
@@ -32268,6 +32284,22 @@
    "sha256": "efb3dd59db68bf79ebae73c403fa75483b741f8ded753abafa76a60150896e40",
    "size_bytes": 7388103,
    "updated": "2026-10-07T09:55:28.006Z"
+  },
+  {
+   "declared_name": "harbor/reagent-pi-escalation-audit",
+   "declared_short": "reagent-pi-escalation-audit",
+   "folder": "reagent-pi-escalation-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c15af8e63c39a8abdbefa5ffa36b1ad8e3f1141aa2e5ea7c7a7dabf25a8759f1",
+   "size_bytes": 7606299,
+   "updated": "2026-10-09T12:33:16.659Z"
   },
   {
    "connector_provenance": null,
