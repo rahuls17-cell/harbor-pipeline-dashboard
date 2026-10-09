@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T08:35:02+00:00",
+ "generated_at": "2026-10-09T08:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2979,
-  "scanned": 2979,
-  "connector": 1292,
+  "task_folders": 2980,
+  "scanned": 2980,
+  "connector": 1293,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 230,
-  "unknown": 381,
+  "unknown": 382,
   "synthetic": 681
  },
  "domain": {
-  "unnamed": 1821,
+  "unnamed": 1822,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1294,
+  "harbor": 1295,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,8 +40,8 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
+  "linear-gym": 149,
   "gws-gym": 149,
-  "linear-gym": 148,
   "notion-gym": 126,
   "outlook-gym": 118,
   "github-gym": 84,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 134084
  },
  "errors": [],
  "tasks": [
@@ -12381,6 +12381,22 @@
    "sha256": "df4e23a9787ceff896dbde6d39485821e2dd45463117eec97818cbdc330ce9f4",
    "size_bytes": 12310914,
    "updated": "2026-10-09T07:39:31.373Z"
+  },
+  {
+   "declared_name": "harbor/contractor-invoices-billing-unfinished-work",
+   "declared_short": "contractor-invoices-billing-unfinished-work",
+   "folder": "contractor-invoices-billing-unfinished-work",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "3d30d43bfd0d4fdaaf2b472234b3d965c89d323b6d0317a78c91a3dd8b19e02f",
+   "size_bytes": 9844949,
+   "updated": "2026-10-09T08:44:19.195Z"
   },
   {
    "connector_provenance": "real",
