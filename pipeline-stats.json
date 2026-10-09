@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T04:00:03+00:00",
+ "generated_at": "2026-10-09T04:15:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2947,
-  "scanned": 2947,
-  "connector": 1260,
+  "task_folders": 2950,
+  "scanned": 2950,
+  "connector": 1263,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 225,
-  "unknown": 369,
-  "synthetic": 666
+  "unknown": 371,
+  "synthetic": 667
  },
  "domain": {
-  "unnamed": 1789,
+  "unnamed": 1792,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1262,
+  "harbor": 1265,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -37,11 +37,11 @@
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
   "jira-gym": 192,
-  "email-calendar-gym": 190,
+  "email-calendar-gym": 191,
   "email-gym": 188,
   "freshdesk-gym": 188,
+  "gws-gym": 145,
   "linear-gym": 144,
-  "gws-gym": 143,
   "notion-gym": 122,
   "outlook-gym": 117,
   "github-gym": 81,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 405496
  },
  "errors": [],
  "tasks": [
@@ -27313,6 +27313,22 @@
    "updated": "2026-09-05T21:04:18.791Z"
   },
   {
+   "declared_name": "harbor/how-much-of-the-master-sheet-is-real",
+   "declared_short": "how-much-of-the-master-sheet-is-real",
+   "folder": "how-much-of-the-master-sheet-is-real",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "5549653fc06181990fb263798d3ba1eae014fb37d0df867cbf4382f0ed9ef3e4",
+   "size_bytes": 10839982,
+   "updated": "2026-10-09T04:11:23.458Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
@@ -31137,6 +31153,22 @@
    "updated": "2026-09-21T16:11:03.121Z"
   },
   {
+   "declared_name": "harbor/phi-deletions-due-before-the-shutdown",
+   "declared_short": "phi-deletions-due-before-the-shutdown",
+   "folder": "phi-deletions-due-before-the-shutdown",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "3bcb271401761d5630fdaf3aa23cbf66fa7947f527e4225feda34b1cf87b8c79",
+   "size_bytes": 7072676,
+   "updated": "2026-10-09T04:11:09.937Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -32222,6 +32254,22 @@
    "sha256": "aaf81a51103bb1cf0244886590c59a693ad01d6f1472ae8098d1a88244c9901d",
    "size_bytes": 11375274,
    "updated": "2026-10-06T21:20:26.760Z"
+  },
+  {
+   "declared_name": "harbor/royalty-filing-record",
+   "declared_short": "royalty-filing-record",
+   "folder": "royalty-filing-record",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "6b8b20dd1f0bf2cba7b42387300b43f5ab44b25ec15f280c77fdee1ad2c64267",
+   "size_bytes": 11663686,
+   "updated": "2026-10-09T04:11:03.032Z"
   },
   {
    "connector_provenance": "real",
