@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T05:00:03+00:00",
+ "generated_at": "2026-10-09T05:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2956,
-  "scanned": 2956,
-  "connector": 1269,
+  "task_folders": 2957,
+  "scanned": 2957,
+  "connector": 1270,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 225,
+  "real": 226,
   "unknown": 373,
   "synthetic": 671
  },
  "domain": {
-  "unnamed": 1798,
+  "unnamed": 1799,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1271,
+  "harbor": 1272,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 319,
+  "slack-gym": 320,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133372
+  "approx_bytes_read": 138113
  },
  "errors": [],
  "tasks": [
@@ -6438,6 +6438,22 @@
    "sha256": "13b238bafa320097e31a06400bf87272f23d340a4e75922cbc0a7773f6cd6946",
    "size_bytes": 6873340,
    "updated": "2026-10-01T09:53:28.423Z"
+  },
+  {
+   "declared_name": "harbor/clinical-answers-left-past-four-weekday-hours",
+   "declared_short": "clinical-answers-left-past-four-weekday-hours",
+   "folder": "clinical-answers-left-past-four-weekday-hours",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "e7a28cb56c9daaf3b55900df34106cd2d2c70e48e8bff74293fd5d1b915d0ad0",
+   "size_bytes": 11461763,
+   "updated": "2026-10-09T05:04:36.803Z"
   },
   {
    "connector_provenance": "unknown",
@@ -28255,17 +28271,17 @@
    "updated": "2026-10-08T21:44:32.307Z"
   },
   {
-   "declared_name": "harbor/largest-customer-lab-fees-in-dollars",
-   "declared_short": "largest-customer-lab-fees-in-dollars",
-   "folder": "largest-customer-lab-fees-in-dollars",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/largest-customer-lab-fees-in-dollars",
+   "declared_short": "largest-customer-lab-fees-in-dollars",
    "domain": null,
+   "folder": "largest-customer-lab-fees-in-dollars",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3a4c6aca10b6bdffcd562f31a1a71b755c24ce1de70f254c5f9ad1141281842e",
    "size_bytes": 13619027,
    "updated": "2026-10-09T04:57:30.844Z"
