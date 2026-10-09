@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T14:25:03+00:00",
+ "generated_at": "2026-10-09T14:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3014,
-  "scanned": 3014,
-  "connector": 1327,
+  "task_folders": 3018,
+  "scanned": 3018,
+  "connector": 1331,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 233,
-  "unknown": 395,
-  "synthetic": 699
+  "real": 234,
+  "unknown": 396,
+  "synthetic": 701
  },
  "domain": {
-  "unnamed": 1856,
+  "unnamed": 1860,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1329,
+  "harbor": 1333,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 335,
+  "slack-gym": 336,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -42,8 +42,8 @@
   "freshdesk-gym": 188,
   "gws-gym": 156,
   "linear-gym": 155,
-  "notion-gym": 131,
-  "outlook-gym": 122,
+  "notion-gym": 133,
+  "outlook-gym": 123,
   "github-gym": 87,
   "slack": 66,
   "snowflake-gym": 39,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 4,
+  "approx_bytes_read": 550906
  },
  "errors": [],
  "tasks": [
@@ -12712,6 +12712,22 @@
    "sha256": "8a5511afad25cf140471fe2ae4ee5c8c4f83cc1d3b5c5fb1649d7c83a4a4dd5d",
    "size_bytes": 7125824,
    "updated": "2026-09-26T12:05:41.764Z"
+  },
+  {
+   "declared_name": "harbor/data-check-load-audit",
+   "declared_short": "data-check-load-audit",
+   "folder": "data-check-load-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "32e0d3f72566937b50c8d003887aaf95db37fc9af0be90b4582626f44ea22fff",
+   "size_bytes": 8176214,
+   "updated": "2026-10-09T14:34:36.118Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -33747,6 +33763,22 @@
    "updated": "2026-10-03T07:45:44.541Z"
   },
   {
+   "declared_name": "harbor/software-costs-by-service-period",
+   "declared_short": "software-costs-by-service-period",
+   "folder": "software-costs-by-service-period",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "5778dd60db7943e69f2af6bf535111343a4b1ddb363789782a213ccc092390a8",
+   "size_bytes": 29161581,
+   "updated": "2026-10-09T14:33:53.307Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -41889,6 +41921,22 @@
    "updated": "2026-10-01T19:08:33.136Z"
   },
   {
+   "declared_name": "harbor/the-visit-templates-missing-required-elements",
+   "declared_short": "the-visit-templates-missing-required-elements",
+   "folder": "the-visit-templates-missing-required-elements",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "3f5213f3336e1e5f591411ab1991d613913709602055ff4bdd389f27443e384c",
+   "size_bytes": 11259435,
+   "updated": "2026-10-09T14:32:18.877Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-teams-gym"
@@ -43654,6 +43702,22 @@
    "sha256": "e278dc0c5343abaa573bdd6ad67c0b52a3df8969915caac83fe2308136d676a0",
    "size_bytes": 8840710,
    "updated": "2026-09-18T19:08:49.619Z"
+  },
+  {
+   "declared_name": "harbor/what-cms-pays-for-our-codes",
+   "declared_short": "what-cms-pays-for-our-codes",
+   "folder": "what-cms-pays-for-our-codes",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "181571f63a69a4f265b972bef29b14842ce9dcf6dc5a64bfc87ede02991d4bbd",
+   "size_bytes": 11819129,
+   "updated": "2026-10-09T14:33:09.342Z"
   },
   {
    "connector_provenance": "synthetic",
