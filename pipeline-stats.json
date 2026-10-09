@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T00:55:04+00:00",
+ "generated_at": "2026-10-09T01:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2932,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 139101
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -39864,17 +39864,17 @@
    "updated": "2026-10-06T19:42:22.570Z"
   },
   {
-   "declared_name": "harbor/the-senders-who-left-no-way-out",
-   "declared_short": "the-senders-who-left-no-way-out",
-   "folder": "the-senders-who-left-no-way-out",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-senders-who-left-no-way-out",
+   "declared_short": "the-senders-who-left-no-way-out",
    "domain": null,
+   "folder": "the-senders-who-left-no-way-out",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "19891af8ec2ee4a511cf3345a28a6ddfe264aefc3f896df68e3c6a289b92b24e",
    "size_bytes": 9842662,
    "updated": "2026-10-09T00:52:33.436Z"
