@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T00:25:03+00:00",
+ "generated_at": "2026-10-09T00:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2929,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133737
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -42150,18 +42150,18 @@
    "updated": "2026-10-08T20:46:23.570Z"
   },
   {
-   "declared_name": "harbor/warehouse-task-credit-audit",
-   "declared_short": "warehouse-task-credit-audit",
-   "folder": "warehouse-task-credit-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/warehouse-task-credit-audit",
+   "declared_short": "warehouse-task-credit-audit",
    "domain": null,
+   "folder": "warehouse-task-credit-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "da4bdbaf6b802ac7353c33c1f4c9fc301a7777f3cc89e0d9dd2e4b1531a44b83",
    "size_bytes": 7858717,
    "updated": "2026-10-09T00:21:35.790Z"
