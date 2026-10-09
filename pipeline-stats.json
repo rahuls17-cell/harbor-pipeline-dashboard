@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T08:45:04+00:00",
+ "generated_at": "2026-10-09T08:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2980,
-  "scanned": 2980,
-  "connector": 1293,
+  "task_folders": 2981,
+  "scanned": 2981,
+  "connector": 1294,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 230,
-  "unknown": 382,
+  "unknown": 383,
   "synthetic": 681
  },
  "domain": {
-  "unnamed": 1822,
+  "unnamed": 1823,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1295,
+  "harbor": 1296,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 327,
+  "slack-gym": 328,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134084
+  "approx_bytes_read": 135918
  },
  "errors": [],
  "tasks": [
@@ -12383,17 +12383,17 @@
    "updated": "2026-10-09T07:39:31.373Z"
   },
   {
-   "declared_name": "harbor/contractor-invoices-billing-unfinished-work",
-   "declared_short": "contractor-invoices-billing-unfinished-work",
-   "folder": "contractor-invoices-billing-unfinished-work",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/contractor-invoices-billing-unfinished-work",
+   "declared_short": "contractor-invoices-billing-unfinished-work",
    "domain": null,
+   "folder": "contractor-invoices-billing-unfinished-work",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3d30d43bfd0d4fdaaf2b472234b3d965c89d323b6d0317a78c91a3dd8b19e02f",
    "size_bytes": 9844949,
    "updated": "2026-10-09T08:44:19.195Z"
@@ -27535,6 +27535,22 @@
    "sha256": "227c5e0e39ccde3623a8c58ccacad02afb604be0477b248920b970f404217e96",
    "size_bytes": 11717737,
    "updated": "2026-09-29T11:10:56.209Z"
+  },
+  {
+   "declared_name": "harbor/how-our-bug-reports-were-followed-up",
+   "declared_short": "how-our-bug-reports-were-followed-up",
+   "folder": "how-our-bug-reports-were-followed-up",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "ec1f57940e76750da416848a51394ef85a8eba22496fc42b98ff04ca8adc7843",
+   "size_bytes": 8620281,
+   "updated": "2026-10-09T08:47:58.007Z"
   },
   {
    "connector_provenance": "synthetic",
