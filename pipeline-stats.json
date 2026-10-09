@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T15:35:04+00:00",
+ "generated_at": "2026-10-09T15:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3028,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 140828
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -34252,17 +34252,17 @@
    "updated": "2026-10-09T10:29:55.731Z"
   },
   {
-   "declared_name": "harbor/suggestion-pickup-audit",
-   "declared_short": "suggestion-pickup-audit",
-   "folder": "suggestion-pickup-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/suggestion-pickup-audit",
+   "declared_short": "suggestion-pickup-audit",
    "domain": null,
+   "folder": "suggestion-pickup-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e741241161232d58b2bf78a71c876685f23680b9d90c673c6e7c20d817c48158",
    "size_bytes": 14761855,
    "updated": "2026-10-09T15:30:33.075Z"
