@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T05:45:03+00:00",
+ "generated_at": "2026-10-09T05:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2959,
-  "scanned": 2959,
-  "connector": 1272,
+  "task_folders": 2961,
+  "scanned": 2961,
+  "connector": 1274,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 228,
   "unknown": 373,
-  "synthetic": 671
+  "synthetic": 673
  },
  "domain": {
-  "unnamed": 1801,
+  "unnamed": 1803,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1274,
+  "harbor": 1276,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 320,
+  "slack-gym": 322,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 272971
+  "approx_bytes_read": 275933
  },
  "errors": [],
  "tasks": [
@@ -28079,6 +28079,22 @@
    "updated": "2026-10-08T03:33:58.833Z"
   },
   {
+   "declared_name": "harbor/lab-hold-holder-ping-audit",
+   "declared_short": "lab-hold-holder-ping-audit",
+   "folder": "lab-hold-holder-ping-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "57209b224b18300853ba921af0cdc5140cb9008123df4f5f8d6006276c5540d0",
+   "size_bytes": 8052327,
+   "updated": "2026-10-09T05:48:30.264Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
@@ -31217,17 +31233,17 @@
    "updated": "2026-09-21T16:11:03.121Z"
   },
   {
-   "declared_name": "harbor/phi-deletion-outreach",
-   "declared_short": "phi-deletion-outreach",
-   "folder": "phi-deletion-outreach",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/phi-deletion-outreach",
+   "declared_short": "phi-deletion-outreach",
    "domain": null,
+   "folder": "phi-deletion-outreach",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f4380b7ecc3097d97f8f46f56f0c2c75d43f69fcf74db52b684f54a389a4a46b",
    "size_bytes": 9255316,
    "updated": "2026-10-09T05:42:48.632Z"
@@ -32173,6 +32189,22 @@
    "sha256": "53413409824cbac24bc9f7d376a5f3265a19ec1ad0cc195800aed2dd7eb48e4c",
    "size_bytes": 8019994,
    "updated": "2026-09-09T20:32:48.327Z"
+  },
+  {
+   "declared_name": "harbor/result-reconfirm-request-audit",
+   "declared_short": "result-reconfirm-request-audit",
+   "folder": "result-reconfirm-request-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "cf0b928032fd190745950830985d78a1ca67028e1593bf7239b11ed1255e41f8",
+   "size_bytes": 6500022,
+   "updated": "2026-10-09T05:48:45.408Z"
   },
   {
    "connector_provenance": "unknown",
@@ -37177,17 +37209,17 @@
    "updated": "2026-10-01T14:10:44.515Z"
   },
   {
-   "declared_name": "harbor/the-copyleft-code-and-the-outside-work-it-merged",
-   "declared_short": "the-copyleft-code-and-the-outside-work-it-merged",
-   "folder": "the-copyleft-code-and-the-outside-work-it-merged",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-copyleft-code-and-the-outside-work-it-merged",
+   "declared_short": "the-copyleft-code-and-the-outside-work-it-merged",
    "domain": null,
+   "folder": "the-copyleft-code-and-the-outside-work-it-merged",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9fc1c43881fb3e0a00311761130d19faa80906e67de6ffa99e86835a6f64ddb2",
    "size_bytes": 10053354,
    "updated": "2026-10-09T05:44:57.983Z"
