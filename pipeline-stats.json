@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T00:40:03+00:00",
+ "generated_at": "2026-10-09T00:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2931,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138363
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -39592,17 +39592,17 @@
    "updated": "2026-09-22T08:45:18.835Z"
   },
   {
-   "declared_name": "harbor/the-risk-register-nobody-updated",
-   "declared_short": "the-risk-register-nobody-updated",
-   "folder": "the-risk-register-nobody-updated",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-risk-register-nobody-updated",
+   "declared_short": "the-risk-register-nobody-updated",
    "domain": null,
+   "folder": "the-risk-register-nobody-updated",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "06a2fb9933b07ad8e93dd2facfeff5e96a22d374d9eeac78fc88908319289a18",
    "size_bytes": 8281664,
    "updated": "2026-10-09T00:38:38.922Z"
