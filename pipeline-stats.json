@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T08:55:02+00:00",
+ "generated_at": "2026-10-09T09:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 2981,
-  "scanned": 2981,
-  "connector": 1294,
+  "task_folders": 2983,
+  "scanned": 2983,
+  "connector": 1296,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 230,
-  "unknown": 383,
-  "synthetic": 681
+  "unknown": 384,
+  "synthetic": 682
  },
  "domain": {
-  "unnamed": 1823,
+  "unnamed": 1825,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1296,
+  "harbor": 1298,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,9 +42,9 @@
   "freshdesk-gym": 188,
   "linear-gym": 149,
   "gws-gym": 149,
-  "notion-gym": 126,
+  "notion-gym": 127,
   "outlook-gym": 118,
-  "github-gym": 84,
+  "github-gym": 85,
   "slack": 66,
   "snowflake-gym": 34,
   "supabase-gym": 20,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 281379
  },
  "errors": [],
  "tasks": [
@@ -6238,6 +6238,22 @@
    "updated": "2026-09-28T12:07:13.799Z"
   },
   {
+   "declared_name": "harbor/changes-merged-outside-their-window",
+   "declared_short": "changes-merged-outside-their-window",
+   "folder": "changes-merged-outside-their-window",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "b00720c1a1670ab869aba70993b325ea5b1286b80d1dbdba3c61c4dda639705c",
+   "size_bytes": 7680776,
+   "updated": "2026-10-09T09:01:20.075Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -6518,6 +6534,22 @@
    "sha256": "750f527cdc3a6b2b93e3cb483a2509916630c1853eb4aec206a0980632bbcdb5",
    "size_bytes": 7251683,
    "updated": "2026-10-02T17:07:40.838Z"
+  },
+  {
+   "declared_name": "harbor/clinical-forms-library-signed-off",
+   "declared_short": "clinical-forms-library-signed-off",
+   "folder": "clinical-forms-library-signed-off",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "99e825369fbdcaee7daaa0c0949394913554871294b4dad70ec575f00c3609e8",
+   "size_bytes": 8242831,
+   "updated": "2026-10-09T09:03:56.163Z"
   },
   {
    "connector_provenance": "synthetic",
