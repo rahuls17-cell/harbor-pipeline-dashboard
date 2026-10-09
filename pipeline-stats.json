@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T09:20:03+00:00",
+ "generated_at": "2026-10-09T09:25:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2984,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138152
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -33847,17 +33847,17 @@
    "updated": "2026-10-08T09:01:59.577Z"
   },
   {
-   "declared_name": "harbor/summer-lab-fee-lines-may-to-july",
-   "declared_short": "summer-lab-fee-lines-may-to-july",
-   "folder": "summer-lab-fee-lines-may-to-july",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/summer-lab-fee-lines-may-to-july",
+   "declared_short": "summer-lab-fee-lines-may-to-july",
    "domain": null,
+   "folder": "summer-lab-fee-lines-may-to-july",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0425e05d623721b6fa9b3b5d1a28b2f64e20eeb01acf49c43759b56441338449",
    "size_bytes": 10164234,
    "updated": "2026-10-09T09:20:02.291Z"
