@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T13:45:03+00:00",
+ "generated_at": "2026-10-09T13:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3013,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 416868
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1598,17 +1598,17 @@
    "updated": "2026-09-20T19:39:46.005Z"
   },
   {
-   "declared_name": "harbor/audit-log-protection-audit",
-   "declared_short": "audit-log-protection-audit",
-   "folder": "audit-log-protection-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/audit-log-protection-audit",
+   "declared_short": "audit-log-protection-audit",
    "domain": null,
+   "folder": "audit-log-protection-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "21540647025520d75b7e4b903b30a93210df9a69f74a4669128292828ea66e2a",
    "size_bytes": 11080841,
    "updated": "2026-10-09T13:41:01.011Z"
@@ -18123,35 +18123,35 @@
    "updated": "2026-10-08T17:04:59.576Z"
   },
   {
-   "declared_name": "harbor/finance-rebuild-waste-audit",
-   "declared_short": "finance-rebuild-waste-audit",
-   "folder": "finance-rebuild-waste-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/finance-rebuild-waste-audit",
+   "declared_short": "finance-rebuild-waste-audit",
    "domain": null,
+   "folder": "finance-rebuild-waste-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e78eb20f4b7ea6c3eefee5b812f5a5a2146fe9918e860703706fb366d26a21a1",
    "size_bytes": 7904022,
    "updated": "2026-10-09T13:41:11.657Z"
   },
   {
-   "declared_name": "harbor/finance-record-confidentiality-audit",
-   "declared_short": "finance-record-confidentiality-audit",
-   "folder": "finance-record-confidentiality-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/finance-record-confidentiality-audit",
+   "declared_short": "finance-record-confidentiality-audit",
    "domain": null,
+   "folder": "finance-record-confidentiality-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "97afd097c065f364b5bd57672cd63189e6be25b4b99e6d1ed6e4947b948af13e",
    "size_bytes": 11009289,
    "updated": "2026-10-09T13:43:16.263Z"
