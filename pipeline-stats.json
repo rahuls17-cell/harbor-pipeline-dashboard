@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T15:15:03+00:00",
+ "generated_at": "2026-10-09T15:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3024,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 280074
+  "new_archives_read": 1,
+  "approx_bytes_read": 136800
  },
  "errors": [],
  "tasks": [
@@ -6405,20 +6405,20 @@
    "updated": "2026-09-13T04:17:00.613Z"
   },
   {
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/client-billed-practices-that-skipped-a-month",
+   "declared_short": "client-billed-practices-that-skipped-a-month",
+   "folder": "client-billed-practices-that-skipped-a-month",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "outlook-gym"
    ],
-   "declared_name": "harbor/client-billed-practices-that-skipped-a-month",
-   "declared_short": "client-billed-practices-that-skipped-a-month",
+   "connector_provenance": "synthetic",
    "domain": null,
-   "folder": "client-billed-practices-that-skipped-a-month",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "f23a3646444c320dfbeb7e7ff693b4ce7627388d88672f25bd00772246908506",
-   "size_bytes": 14193920,
-   "updated": "2026-10-08T23:42:18.786Z"
+   "sha256": "c456f6ad818647abb7cd52253dde9e8ae4979043a23ec3a30d352e9a821ed075",
+   "size_bytes": 13330305,
+   "updated": "2026-10-09T15:17:09.752Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -6552,17 +6552,17 @@
    "updated": "2026-10-02T17:07:40.838Z"
   },
   {
-   "declared_name": "harbor/clinical-dataset-steward-conflict-audit",
-   "declared_short": "clinical-dataset-steward-conflict-audit",
-   "folder": "clinical-dataset-steward-conflict-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/clinical-dataset-steward-conflict-audit",
+   "declared_short": "clinical-dataset-steward-conflict-audit",
    "domain": null,
+   "folder": "clinical-dataset-steward-conflict-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1808553246eb9132a6a89bacb533bc6cf39be89b4342f3b8d9329bad50e74dd8",
    "size_bytes": 8965451,
    "updated": "2026-10-09T15:10:31.986Z"
@@ -37823,17 +37823,17 @@
    "updated": "2026-10-06T13:55:28.090Z"
   },
   {
-   "declared_name": "harbor/the-clinical-threads-that-outlasted-their-day",
-   "declared_short": "the-clinical-threads-that-outlasted-their-day",
-   "folder": "the-clinical-threads-that-outlasted-their-day",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-clinical-threads-that-outlasted-their-day",
+   "declared_short": "the-clinical-threads-that-outlasted-their-day",
    "domain": null,
+   "folder": "the-clinical-threads-that-outlasted-their-day",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "444f709ef528725af1937c47263e9fa2fef47009cb3be3c05693617f007ad479",
    "size_bytes": 8413393,
    "updated": "2026-10-09T15:11:41.828Z"
