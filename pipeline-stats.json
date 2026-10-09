@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T04:40:03+00:00",
+ "generated_at": "2026-10-09T04:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2954,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138504
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -32733,17 +32733,17 @@
    "updated": "2026-10-07T12:43:33.683Z"
   },
   {
-   "declared_name": "harbor/security-docs-access-audit",
-   "declared_short": "security-docs-access-audit",
-   "folder": "security-docs-access-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/security-docs-access-audit",
+   "declared_short": "security-docs-access-audit",
    "domain": null,
+   "folder": "security-docs-access-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a6fd4c04e823bd93dda3c4379792a59ee10e61282cee63504b46c76ad98ba60b",
    "size_bytes": 14102200,
    "updated": "2026-10-09T04:35:22.614Z"
