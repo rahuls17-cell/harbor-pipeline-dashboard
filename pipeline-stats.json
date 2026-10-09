@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T05:50:03+00:00",
+ "generated_at": "2026-10-09T05:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2961,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 275933
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -28079,17 +28079,17 @@
    "updated": "2026-10-08T03:33:58.833Z"
   },
   {
-   "declared_name": "harbor/lab-hold-holder-ping-audit",
-   "declared_short": "lab-hold-holder-ping-audit",
-   "folder": "lab-hold-holder-ping-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/lab-hold-holder-ping-audit",
+   "declared_short": "lab-hold-holder-ping-audit",
    "domain": null,
+   "folder": "lab-hold-holder-ping-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "57209b224b18300853ba921af0cdc5140cb9008123df4f5f8d6006276c5540d0",
    "size_bytes": 8052327,
    "updated": "2026-10-09T05:48:30.264Z"
@@ -32191,17 +32191,17 @@
    "updated": "2026-09-09T20:32:48.327Z"
   },
   {
-   "declared_name": "harbor/result-reconfirm-request-audit",
-   "declared_short": "result-reconfirm-request-audit",
-   "folder": "result-reconfirm-request-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/result-reconfirm-request-audit",
+   "declared_short": "result-reconfirm-request-audit",
    "domain": null,
+   "folder": "result-reconfirm-request-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "cf0b928032fd190745950830985d78a1ca67028e1593bf7239b11ed1255e41f8",
    "size_bytes": 6500022,
    "updated": "2026-10-09T05:48:45.408Z"
