@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-09T12:40:03+00:00",
+ "generated_at": "2026-10-09T12:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3003,
-  "scanned": 3003,
-  "connector": 1316,
+  "task_folders": 3005,
+  "scanned": 3005,
+  "connector": 1318,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 232,
-  "unknown": 392,
-  "synthetic": 692
+  "unknown": 393,
+  "synthetic": 693
  },
  "domain": {
-  "unnamed": 1845,
+  "unnamed": 1847,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1318,
+  "harbor": 1320,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,10 +40,10 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "gws-gym": 153,
+  "gws-gym": 154,
   "linear-gym": 151,
   "notion-gym": 128,
-  "outlook-gym": 121,
+  "outlook-gym": 122,
   "github-gym": 87,
   "slack": 66,
   "snowflake-gym": 36,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 143568
+  "new_archives_read": 2,
+  "approx_bytes_read": 277118
  },
  "errors": [],
  "tasks": [
@@ -28367,17 +28367,17 @@
    "updated": "2026-10-09T05:48:30.264Z"
   },
   {
-   "declared_name": "harbor/lab-hold-timeliness-audit",
-   "declared_short": "lab-hold-timeliness-audit",
-   "folder": "lab-hold-timeliness-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/lab-hold-timeliness-audit",
+   "declared_short": "lab-hold-timeliness-audit",
    "domain": null,
+   "folder": "lab-hold-timeliness-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "525ea302f0f46db890b1c66d37d70ed11a596a05c77698f9b6f3c35604d0d250",
    "size_bytes": 11478465,
    "updated": "2026-10-09T12:35:37.624Z"
@@ -30652,6 +30652,22 @@
    "sha256": "e63473cf0d2f1bcd43b93046029e999697b5b8c4c74572198a3265bc65e8f4c0",
    "size_bytes": 13675731,
    "updated": "2026-09-09T04:52:15.228Z"
+  },
+  {
+   "declared_name": "harbor/new-practice-requisition-fees-we-waived",
+   "declared_short": "new-practice-requisition-fees-we-waived",
+   "folder": "new-practice-requisition-fees-we-waived",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "75797615109184b278d6ecb12532bd1992e620ac0a7c532d1be34013b2abf64a",
+   "size_bytes": 13465890,
+   "updated": "2026-10-09T12:42:14.564Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -39899,6 +39915,22 @@
    "sha256": "06a4f13ecbca04916b863a7a213cf63864e3afc79d324294ba5cf7b872e70ecd",
    "size_bytes": 7986931,
    "updated": "2026-09-23T07:10:11.780Z"
+  },
+  {
+   "declared_name": "harbor/the-payment-plan-that-came-up-short",
+   "declared_short": "the-payment-plan-that-came-up-short",
+   "folder": "the-payment-plan-that-came-up-short",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "089168a91435c32e93758434dd5332ef21530e021d6b2419fef5cb7add79ac44",
+   "size_bytes": 19398028,
+   "updated": "2026-10-09T12:44:15.782Z"
   },
   {
    "connector_provenance": "unknown",
