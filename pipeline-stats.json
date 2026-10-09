@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T07:45:03+00:00",
+ "generated_at": "2026-10-09T07:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 2978,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 276777
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -12716,17 +12716,17 @@
    "updated": "2026-10-08T18:29:54.044Z"
   },
   {
-   "declared_name": "harbor/dependency-maintainers-slow-on-security",
-   "declared_short": "dependency-maintainers-slow-on-security",
-   "folder": "dependency-maintainers-slow-on-security",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/dependency-maintainers-slow-on-security",
+   "declared_short": "dependency-maintainers-slow-on-security",
    "domain": null,
+   "folder": "dependency-maintainers-slow-on-security",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "be07eef49f79c4bed02210729f3f9dad7f081b5b17bf51fd7526570ec5363999",
    "size_bytes": 9263996,
    "updated": "2026-10-09T07:43:25.635Z"
@@ -13625,17 +13625,17 @@
    "updated": "2026-10-03T08:07:26.881Z"
   },
   {
-   "declared_name": "harbor/drafting-problem-loss-audit",
-   "declared_short": "drafting-problem-loss-audit",
-   "folder": "drafting-problem-loss-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/drafting-problem-loss-audit",
+   "declared_short": "drafting-problem-loss-audit",
    "domain": null,
+   "folder": "drafting-problem-loss-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "fac4eb47df4d31f988d57c8c932d09f16ab75db2c1981238baee66a6825175bd",
    "size_bytes": 11661599,
    "updated": "2026-10-09T07:40:50.206Z"
