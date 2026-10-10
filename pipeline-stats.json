@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T13:35:03+00:00",
+ "generated_at": "2026-10-10T13:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3103,
-  "scanned": 3103,
-  "connector": 1416,
+  "task_folders": 3104,
+  "scanned": 3104,
+  "connector": 1417,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 248,
   "unknown": 433,
-  "synthetic": 735
+  "synthetic": 736
  },
  "domain": {
-  "unnamed": 1945,
+  "unnamed": 1946,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1418,
+  "harbor": 1419,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 367,
+  "slack-gym": 368,
   "google-drive-gym": 206,
   "email-calendar-gym": 202,
   "zeta3-sql-gym": 201,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135441
+  "approx_bytes_read": 142943
  },
  "errors": [],
  "tasks": [
@@ -32089,6 +32089,22 @@
    "updated": "2026-10-10T02:03:41.341Z"
   },
   {
+   "declared_name": "harbor/paused-item-safeguard-audit",
+   "declared_short": "paused-item-safeguard-audit",
+   "folder": "paused-item-safeguard-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "6329abe2e7a2db8b96428c9b8fef09f5be3de742697b00a2ebd2986cb59469d6",
+   "size_bytes": 7500402,
+   "updated": "2026-10-10T13:39:10.043Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
@@ -40502,17 +40518,17 @@
    "updated": "2026-09-30T07:02:42.153Z"
   },
   {
-   "declared_name": "harbor/the-money-questions-and-who-came-back",
-   "declared_short": "the-money-questions-and-who-came-back",
-   "folder": "the-money-questions-and-who-came-back",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-money-questions-and-who-came-back",
+   "declared_short": "the-money-questions-and-who-came-back",
    "domain": null,
+   "folder": "the-money-questions-and-who-came-back",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e8d6972e00a4f0c054d253881145e9087be911496e1ecc0659cbf89a64fef4bf",
    "size_bytes": 8556300,
    "updated": "2026-10-10T13:32:32.672Z"
