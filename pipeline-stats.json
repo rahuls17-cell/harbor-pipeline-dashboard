@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T09:35:03+00:00",
+ "generated_at": "2026-10-10T09:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3083,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136556
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -41173,18 +41173,18 @@
    "updated": "2026-09-23T22:34:18.890Z"
   },
   {
-   "declared_name": "harbor/the-q3-work-we-can-capitalize",
-   "declared_short": "the-q3-work-we-can-capitalize",
-   "folder": "the-q3-work-we-can-capitalize",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym",
     "linear-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-q3-work-we-can-capitalize",
+   "declared_short": "the-q3-work-we-can-capitalize",
    "domain": null,
+   "folder": "the-q3-work-we-can-capitalize",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7f937b0ba0f5707965bf5691e42242c8dc67ba32be59be830748345c978e042a",
    "size_bytes": 9977428,
    "updated": "2026-10-10T09:30:24.680Z"
