@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T09:45:03+00:00",
+ "generated_at": "2026-10-10T09:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3084,
-  "scanned": 3084,
-  "connector": 1397,
+  "task_folders": 3085,
+  "scanned": 3085,
+  "connector": 1398,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 243,
   "unknown": 427,
-  "synthetic": 727
+  "synthetic": 728
  },
  "domain": {
-  "unnamed": 1926,
+  "unnamed": 1927,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1399,
+  "harbor": 1400,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -48,14 +48,14 @@
   "slack": 66,
   "snowflake-gym": 42,
   "supabase-gym": 23,
-  "microsoft-365-gym": 21,
+  "microsoft-365-gym": 22,
   "teams-gym": 16,
   "microsoft-teams-gym": 7,
   "shopify-gym": 5
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 143594
+  "approx_bytes_read": 140986
  },
  "errors": [],
  "tasks": [
@@ -16056,17 +16056,17 @@
    "updated": "2026-10-08T21:34:42.965Z"
   },
   {
-   "declared_name": "harbor/evaluation-claims-standard-audit",
-   "declared_short": "evaluation-claims-standard-audit",
-   "folder": "evaluation-claims-standard-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/evaluation-claims-standard-audit",
+   "declared_short": "evaluation-claims-standard-audit",
    "domain": null,
+   "folder": "evaluation-claims-standard-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "e42124468971f2430e7b84f41e865ee77175de3ab65bdf618d39a58ce062b309",
    "size_bytes": 12525009,
    "updated": "2026-10-10T09:41:00.702Z"
@@ -33058,6 +33058,22 @@
    "sha256": "53413409824cbac24bc9f7d376a5f3265a19ec1ad0cc195800aed2dd7eb48e4c",
    "size_bytes": 8019994,
    "updated": "2026-09-09T20:32:48.327Z"
+  },
+  {
+   "declared_name": "harbor/restricted-dataset-use-audit",
+   "declared_short": "restricted-dataset-use-audit",
+   "folder": "restricted-dataset-use-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "24247850a89aab4830871fefd8bbe41f1c72eeb59de55b86e5cbd79740d9b2a8",
+   "size_bytes": 10999801,
+   "updated": "2026-10-10T09:48:35.959Z"
   },
   {
    "connector_provenance": "synthetic",
