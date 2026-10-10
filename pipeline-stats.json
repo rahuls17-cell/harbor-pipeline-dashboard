@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T05:20:03+00:00",
+ "generated_at": "2026-10-10T05:25:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3046,
-  "scanned": 3046,
-  "connector": 1359,
+  "task_folders": 3047,
+  "scanned": 3047,
+  "connector": 1360,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 240,
-  "unknown": 406,
+  "unknown": 407,
   "synthetic": 713
  },
  "domain": {
-  "unnamed": 1888,
+  "unnamed": 1889,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1361,
+  "harbor": 1362,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -47,15 +47,15 @@
   "github-gym": 90,
   "slack": 66,
   "snowflake-gym": 40,
-  "supabase-gym": 21,
+  "supabase-gym": 22,
   "microsoft-365-gym": 20,
   "teams-gym": 16,
   "microsoft-teams-gym": 7,
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 276378
+  "new_archives_read": 1,
+  "approx_bytes_read": 136123
  },
  "errors": [],
  "tasks": [
@@ -38479,18 +38479,18 @@
    "updated": "2026-10-01T18:49:37.046Z"
   },
   {
-   "declared_name": "harbor/the-dosespot-clinics-to-close",
-   "declared_short": "the-dosespot-clinics-to-close",
-   "folder": "the-dosespot-clinics-to-close",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "gws-gym",
     "slack-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-dosespot-clinics-to-close",
+   "declared_short": "the-dosespot-clinics-to-close",
    "domain": null,
+   "folder": "the-dosespot-clinics-to-close",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ec158fcd442de060b3632ee348387fb20249ee10ade5ac3d7fe463703e8f29fe",
    "size_bytes": 10431358,
    "updated": "2026-10-10T05:16:30.629Z"
@@ -42194,6 +42194,22 @@
    "updated": "2026-09-21T12:40:34.257Z"
   },
   {
+   "declared_name": "harbor/the-user-table-left-open",
+   "declared_short": "the-user-table-left-open",
+   "folder": "the-user-table-left-open",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "supabase-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "4fe8414d0706deb96786e17416f9eb34864783d53d78451c657835b7ab65f494",
+   "size_bytes": 9589822,
+   "updated": "2026-10-10T05:24:41.132Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
@@ -44473,17 +44489,17 @@
    "updated": "2026-09-20T17:09:38.687Z"
   },
   {
-   "declared_name": "harbor/where-1password-came-up-in-2023",
-   "declared_short": "where-1password-came-up-in-2023",
-   "folder": "where-1password-came-up-in-2023",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/where-1password-came-up-in-2023",
+   "declared_short": "where-1password-came-up-in-2023",
    "domain": null,
+   "folder": "where-1password-came-up-in-2023",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7cd9a721164b4d1462685db349d1773a5390e5be4e9ad649fa2388ed08355758",
    "size_bytes": 11866324,
    "updated": "2026-10-10T05:15:46.249Z"
