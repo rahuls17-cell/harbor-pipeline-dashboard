@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T18:35:03+00:00",
+ "generated_at": "2026-10-10T18:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3136,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 281395
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -44322,17 +44322,17 @@
    "updated": "2026-09-09T05:04:16.535Z"
   },
   {
-   "declared_name": "harbor/unworked-hold-confirm-audit",
-   "declared_short": "unworked-hold-confirm-audit",
-   "folder": "unworked-hold-confirm-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/unworked-hold-confirm-audit",
+   "declared_short": "unworked-hold-confirm-audit",
    "domain": null,
+   "folder": "unworked-hold-confirm-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c5bc53dbacf1fcd4bea27e8985a2aab673bf5ffd493650a75ae0af5f90be424d",
    "size_bytes": 6846556,
    "updated": "2026-10-10T18:34:28.678Z"
@@ -45192,18 +45192,18 @@
    "updated": "2026-10-09T00:21:35.790Z"
   },
   {
-   "declared_name": "harbor/warehouse-uptime-billing-recon",
-   "declared_short": "warehouse-uptime-billing-recon",
-   "folder": "warehouse-uptime-billing-recon",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/warehouse-uptime-billing-recon",
+   "declared_short": "warehouse-uptime-billing-recon",
    "domain": null,
+   "folder": "warehouse-uptime-billing-recon",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "cb56fc5e2a5a1172a51907bb575436d2f882ad039ac76d8a18d1bc9c9d629da4",
    "size_bytes": 10471050,
    "updated": "2026-10-10T18:31:51.019Z"
