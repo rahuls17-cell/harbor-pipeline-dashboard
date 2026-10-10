@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T15:00:03+00:00",
+ "generated_at": "2026-10-10T15:05:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3112,
-  "scanned": 3112,
-  "connector": 1425,
+  "task_folders": 3114,
+  "scanned": 3114,
+  "connector": 1427,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 249,
-  "unknown": 437,
+  "unknown": 439,
   "synthetic": 739
  },
  "domain": {
-  "unnamed": 1954,
+  "unnamed": 1956,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1427,
+  "harbor": 1429,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,9 +32,9 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 371,
+  "slack-gym": 372,
   "google-drive-gym": 206,
-  "email-calendar-gym": 202,
+  "email-calendar-gym": 203,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
   "jira-gym": 192,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 271088
  },
  "errors": [],
  "tasks": [
@@ -32643,6 +32643,22 @@
    "updated": "2026-10-09T02:26:36.702Z"
   },
   {
+   "declared_name": "harbor/prescribing-downtime-windows",
+   "declared_short": "prescribing-downtime-windows",
+   "folder": "prescribing-downtime-windows",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "c7ef34409e859649b2558b57cf2f51b0a5938117295218b5641c533afbe60129",
+   "size_bytes": 8445988,
+   "updated": "2026-10-10T15:02:51.309Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "email-calendar-gym"
@@ -38465,6 +38481,22 @@
    "sha256": "65f44a15c9f0549f676b7cecca3a1e2252726d5ef96f216277533b39b41857c7",
    "size_bytes": 8525901,
    "updated": "2026-10-10T07:30:31.723Z"
+  },
+  {
+   "declared_name": "harbor/the-clinical-conversations-of-august-2023",
+   "declared_short": "the-clinical-conversations-of-august-2023",
+   "folder": "the-clinical-conversations-of-august-2023",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "5df2150d998c0eb87a78dae206f91a2d1b7a0611fb7490aad1a08966bfa6c193",
+   "size_bytes": 7671216,
+   "updated": "2026-10-10T15:04:19.909Z"
   },
   {
    "connector_provenance": "synthetic",
