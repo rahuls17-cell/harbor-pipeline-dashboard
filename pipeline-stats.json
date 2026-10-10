@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T10:40:03+00:00",
+ "generated_at": "2026-10-10T10:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3087,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135873
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -44765,17 +44765,17 @@
    "updated": "2026-10-10T07:42:35.122Z"
   },
   {
-   "declared_name": "harbor/what-our-datadog-overage-cost",
-   "declared_short": "what-our-datadog-overage-cost",
-   "folder": "what-our-datadog-overage-cost",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/what-our-datadog-overage-cost",
+   "declared_short": "what-our-datadog-overage-cost",
    "domain": null,
+   "folder": "what-our-datadog-overage-cost",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "33668c4aafa27044aff8c1d23b373259f049763ac25d0286b509c0326b5c9fac",
    "size_bytes": 18429156,
    "updated": "2026-10-10T10:38:58.497Z"
