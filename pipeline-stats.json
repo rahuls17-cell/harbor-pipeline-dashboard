@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T14:45:03+00:00",
+ "generated_at": "2026-10-10T14:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3111,
-  "scanned": 3111,
-  "connector": 1424,
+  "task_folders": 3112,
+  "scanned": 3112,
+  "connector": 1425,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 249,
   "unknown": 437,
-  "synthetic": 738
+  "synthetic": 739
  },
  "domain": {
-  "unnamed": 1953,
+  "unnamed": 1954,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1426,
+  "harbor": 1427,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 370,
+  "slack-gym": 371,
   "google-drive-gym": 206,
   "email-calendar-gym": 202,
   "zeta3-sql-gym": 201,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134341
+  "approx_bytes_read": 140612
  },
  "errors": [],
  "tasks": [
@@ -42375,17 +42375,17 @@
    "updated": "2026-10-10T08:00:07.804Z"
   },
   {
-   "declared_name": "harbor/the-software-we-prepaid-at-year-end",
-   "declared_short": "the-software-we-prepaid-at-year-end",
-   "folder": "the-software-we-prepaid-at-year-end",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-software-we-prepaid-at-year-end",
+   "declared_short": "the-software-we-prepaid-at-year-end",
    "domain": null,
+   "folder": "the-software-we-prepaid-at-year-end",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b6383839195f4adfff87b078b813bdb3718eddc9e39fb5e5e06e3f9bdc6425f9",
    "size_bytes": 72578305,
    "updated": "2026-10-10T14:40:05.554Z"
@@ -43886,6 +43886,22 @@
    "sha256": "fee7043064e3685b928693af551955c841df7348012c5e6fe61cbb67eb7bd574",
    "size_bytes": 8665571,
    "updated": "2026-10-10T04:04:33.830Z"
+  },
+  {
+   "declared_name": "harbor/unanswered-security-review-audit",
+   "declared_short": "unanswered-security-review-audit",
+   "folder": "unanswered-security-review-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "e942af6bb649d657d055b954f819cca722e6778366fa12b2f1ce80d89d81c43b",
+   "size_bytes": 12745068,
+   "updated": "2026-10-10T14:47:03.139Z"
   },
   {
    "connector_provenance": "synthetic",
