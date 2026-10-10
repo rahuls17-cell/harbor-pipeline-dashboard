@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T04:50:03+00:00",
+ "generated_at": "2026-10-10T04:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3042,
-  "scanned": 3042,
-  "connector": 1355,
+  "task_folders": 3043,
+  "scanned": 3043,
+  "connector": 1356,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 238,
-  "unknown": 405,
+  "unknown": 406,
   "synthetic": 712
  },
  "domain": {
-  "unnamed": 1884,
+  "unnamed": 1885,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1357,
+  "harbor": 1358,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -44,7 +44,7 @@
   "linear-gym": 155,
   "notion-gym": 134,
   "outlook-gym": 125,
-  "github-gym": 89,
+  "github-gym": 90,
   "slack": 66,
   "snowflake-gym": 40,
   "supabase-gym": 21,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 132692
+  "approx_bytes_read": 137034
  },
  "errors": [],
  "tasks": [
@@ -31798,17 +31798,17 @@
    "updated": "2026-10-10T02:03:41.341Z"
   },
   {
-   "declared_name": "harbor/payment-terms-beside-every-invoice",
-   "declared_short": "payment-terms-beside-every-invoice",
-   "folder": "payment-terms-beside-every-invoice",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/payment-terms-beside-every-invoice",
+   "declared_short": "payment-terms-beside-every-invoice",
    "domain": null,
+   "folder": "payment-terms-beside-every-invoice",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2332cd57350500d0ce7df4d7632b088cd8d8b38f74c045c4614c6ddc53b082bc",
    "size_bytes": 13688335,
    "updated": "2026-10-10T04:49:36.989Z"
@@ -38205,6 +38205,22 @@
    "sha256": "5e25546a5cbfd1da09bca60740f5a982eb7162275b58274ee064ec2cf0e626c1",
    "size_bytes": 6885622,
    "updated": "2026-09-26T15:22:41.761Z"
+  },
+  {
+   "declared_name": "harbor/the-dashboard-stack-vulnerabilities-by-stated-risk",
+   "declared_short": "the-dashboard-stack-vulnerabilities-by-stated-risk",
+   "folder": "the-dashboard-stack-vulnerabilities-by-stated-risk",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "8d86a9112999408f7675bc50fd8b1fb6f9e36e5982b9d178709919048e24e78a",
+   "size_bytes": 8040011,
+   "updated": "2026-10-10T04:54:13.515Z"
   },
   {
    "connector_provenance": "synthetic",
