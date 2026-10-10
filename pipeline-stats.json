@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T12:05:04+00:00",
+ "generated_at": "2026-10-10T12:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3093,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 268205
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -38147,17 +38147,17 @@
    "updated": "2026-10-01T21:26:15.809Z"
   },
   {
-   "declared_name": "harbor/the-card-charges-without-a-receipt",
-   "declared_short": "the-card-charges-without-a-receipt",
-   "folder": "the-card-charges-without-a-receipt-v4",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-card-charges-without-a-receipt",
+   "declared_short": "the-card-charges-without-a-receipt",
    "domain": null,
+   "folder": "the-card-charges-without-a-receipt-v4",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2909b7473d4dc8a131873b227853c2d337fe032c9cf5edcf789399b4a2e558d4",
    "size_bytes": 38615925,
    "updated": "2026-10-10T12:02:18.201Z"
@@ -40918,17 +40918,17 @@
    "updated": "2026-10-08T14:01:46.208Z"
   },
   {
-   "declared_name": "harbor/the-pilot-questions-and-who-came-back",
-   "declared_short": "the-pilot-questions-and-who-came-back",
-   "folder": "the-pilot-questions-and-who-came-back",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-pilot-questions-and-who-came-back",
+   "declared_short": "the-pilot-questions-and-who-came-back",
    "domain": null,
+   "folder": "the-pilot-questions-and-who-came-back",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8e8938b0839e25bdb0f95c13fdb1b119d464fd29e9de351474c584b8258221ad",
    "size_bytes": 7728754,
    "updated": "2026-10-10T12:00:14.944Z"
