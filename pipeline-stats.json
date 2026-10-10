@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T22:25:03+00:00",
+ "generated_at": "2026-10-10T22:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3149,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 146393
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -34992,17 +34992,17 @@
    "updated": "2026-10-03T06:58:39.198Z"
   },
   {
-   "declared_name": "harbor/steward-conflict-ping-audit",
-   "declared_short": "steward-conflict-ping-audit",
-   "folder": "steward-conflict-ping-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/steward-conflict-ping-audit",
+   "declared_short": "steward-conflict-ping-audit",
    "domain": null,
+   "folder": "steward-conflict-ping-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2cd744dfb6dc309f9687d818dd73186649df2e8f8fe376b83b47ba4a8d8dd79b",
    "size_bytes": 10525009,
    "updated": "2026-10-10T22:22:43.237Z"
