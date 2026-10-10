@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T15:15:03+00:00",
+ "generated_at": "2026-10-10T15:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3117,
-  "scanned": 3117,
-  "connector": 1430,
+  "task_folders": 3119,
+  "scanned": 3119,
+  "connector": 1432,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 249,
+  "real": 251,
   "unknown": 440,
   "synthetic": 741
  },
  "domain": {
-  "unnamed": 1959,
+  "unnamed": 1961,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1432,
+  "harbor": 1434,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -34,7 +34,7 @@
  "connector_services": {
   "slack-gym": 374,
   "google-drive-gym": 206,
-  "email-calendar-gym": 203,
+  "email-calendar-gym": 204,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
   "jira-gym": 192,
@@ -44,7 +44,7 @@
   "linear-gym": 158,
   "outlook-gym": 137,
   "notion-gym": 134,
-  "github-gym": 94,
+  "github-gym": 95,
   "slack": 66,
   "snowflake-gym": 43,
   "supabase-gym": 23,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 140266
+  "new_archives_read": 3,
+  "approx_bytes_read": 414788
  },
  "errors": [],
  "tasks": [
@@ -13880,6 +13880,22 @@
    "sha256": "1fba3e3ad0f2bb4c96563875fcad7016258337d13b7e9c2ed4f2dfe4cdf9036c",
    "size_bytes": 9955248,
    "updated": "2026-09-23T07:38:10.813Z"
+  },
+  {
+   "declared_name": "harbor/documents-still-awaiting-signature",
+   "declared_short": "documents-still-awaiting-signature",
+   "folder": "documents-still-awaiting-signature--from-non-coding",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "52538c609d293d21d610d673ebc9034dfca301d60e5752affd4c1065fc1ec640",
+   "size_bytes": 7802331,
+   "updated": "2026-10-10T15:16:32.442Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -34734,17 +34750,17 @@
    "updated": "2026-09-26T14:59:27.632Z"
   },
   {
-   "declared_name": "harbor/stock-safeguard-confirm-audit",
-   "declared_short": "stock-safeguard-confirm-audit",
-   "folder": "stock-safeguard-confirm-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/stock-safeguard-confirm-audit",
+   "declared_short": "stock-safeguard-confirm-audit",
    "domain": null,
+   "folder": "stock-safeguard-confirm-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "eda2b76239abf4534432c19d672544154da84fcfc805525c6835ff9fd0a56085",
    "size_bytes": 7274376,
    "updated": "2026-10-10T15:10:04.421Z"
@@ -42247,6 +42263,22 @@
    "updated": "2026-09-29T22:04:11.656Z"
   },
   {
+   "declared_name": "harbor/the-security-reports-assigned-outside-the-org",
+   "declared_short": "the-security-reports-assigned-outside-the-org",
+   "folder": "the-security-reports-assigned-outside-the-org-v2",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "ad8644854faee71eabc19e26b3bf2a0f63b232dd5ff75643acf2741f8531b41f",
+   "size_bytes": 14770889,
+   "updated": "2026-10-10T15:19:45.032Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "github-gym"
@@ -44885,20 +44917,20 @@
    "updated": "2026-09-29T14:45:29.738Z"
   },
   {
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/warehouse-idle-spend-audit",
+   "declared_short": "warehouse-idle-spend-audit",
+   "folder": "warehouse-idle-spend-audit",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "snowflake-gym"
    ],
-   "declared_name": "harbor/warehouse-idle-spend-audit",
-   "declared_short": "warehouse-idle-spend-audit",
+   "connector_provenance": "synthetic",
    "domain": null,
-   "folder": "warehouse-idle-spend-audit",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "6e74ff32a4ed75453ecf192a96b977797f80be9f46a1bc782a0e97b03c404d13",
-   "size_bytes": 7066153,
-   "updated": "2026-10-09T16:07:36.749Z"
+   "sha256": "5d9c905697700913c89648a6369ac71f7bab5b2136bf8054836338d8b73425ca",
+   "size_bytes": 6917468,
+   "updated": "2026-10-10T15:19:12.573Z"
   },
   {
    "connector_provenance": "synthetic",
