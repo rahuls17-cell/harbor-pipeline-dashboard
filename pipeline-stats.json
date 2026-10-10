@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T11:25:03+00:00",
+ "generated_at": "2026-10-10T11:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3089,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 143258
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -24001,18 +24001,18 @@
    "updated": "2026-10-07T09:07:00.966Z"
   },
   {
-   "declared_name": "harbor/h1-failure-cost-audit",
-   "declared_short": "h1-failure-cost-audit",
-   "folder": "h1-failure-cost-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/h1-failure-cost-audit",
+   "declared_short": "h1-failure-cost-audit",
    "domain": null,
+   "folder": "h1-failure-cost-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f8709bb7265a7c6f5574b3c6ec8fbd03ffa2abbfe8934c358b0b09939eabee70",
    "size_bytes": 15181690,
    "updated": "2026-10-10T11:24:04.653Z"
