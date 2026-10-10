@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T11:15:03+00:00",
+ "generated_at": "2026-10-10T11:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3088,
-  "scanned": 3088,
-  "connector": 1401,
+  "task_folders": 3089,
+  "scanned": 3089,
+  "connector": 1402,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 244,
   "unknown": 429,
-  "synthetic": 728
+  "synthetic": 729
  },
  "domain": {
-  "unnamed": 1930,
+  "unnamed": 1931,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1403,
+  "harbor": 1404,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 357,
+  "slack-gym": 358,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "email-calendar-gym": 201,
@@ -46,7 +46,7 @@
   "outlook-gym": 134,
   "github-gym": 92,
   "slack": 66,
-  "snowflake-gym": 42,
+  "snowflake-gym": 43,
   "supabase-gym": 23,
   "microsoft-365-gym": 22,
   "teams-gym": 16,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 143258
  },
  "errors": [],
  "tasks": [
@@ -23999,6 +23999,23 @@
    "sha256": "d519599675b601dec792f331d10123e9d3d922c9abdccfa965a2ac8c3f9e03aa",
    "size_bytes": 9532677,
    "updated": "2026-10-07T09:07:00.966Z"
+  },
+  {
+   "declared_name": "harbor/h1-failure-cost-audit",
+   "declared_short": "h1-failure-cost-audit",
+   "folder": "h1-failure-cost-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "f8709bb7265a7c6f5574b3c6ec8fbd03ffa2abbfe8934c358b0b09939eabee70",
+   "size_bytes": 15181690,
+   "updated": "2026-10-10T11:24:04.653Z"
   },
   {
    "connector_provenance": "real",
