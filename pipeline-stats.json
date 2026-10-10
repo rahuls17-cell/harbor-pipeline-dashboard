@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T07:05:04+00:00",
+ "generated_at": "2026-10-10T07:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3058,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135257
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -32481,17 +32481,17 @@
    "updated": "2026-10-07T19:36:30.788Z"
   },
   {
-   "declared_name": "harbor/q1-results-that-kept-patients-waiting",
-   "declared_short": "q1-results-that-kept-patients-waiting",
-   "folder": "q1-results-that-kept-patients-waiting",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/q1-results-that-kept-patients-waiting",
+   "declared_short": "q1-results-that-kept-patients-waiting",
    "domain": null,
+   "folder": "q1-results-that-kept-patients-waiting",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "652ff5aa28aeb4c7990d14459921a18d59748e79e7eeb067d903c6b837422c04",
    "size_bytes": 17535951,
    "updated": "2026-10-10T07:03:32.171Z"
