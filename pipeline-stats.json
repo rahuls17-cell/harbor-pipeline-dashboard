@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T09:20:03+00:00",
+ "generated_at": "2026-10-10T09:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3082,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135840
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -41013,17 +41013,17 @@
    "updated": "2026-10-10T07:48:59.105Z"
   },
   {
-   "declared_name": "harbor/the-pre-seed-questions-left-hanging-in-july",
-   "declared_short": "the-pre-seed-questions-left-hanging-in-july",
-   "folder": "the-pre-seed-questions-left-hanging-in-july",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-pre-seed-questions-left-hanging-in-july",
+   "declared_short": "the-pre-seed-questions-left-hanging-in-july",
    "domain": null,
+   "folder": "the-pre-seed-questions-left-hanging-in-july",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f49a45ee9d3b0318c25f0ac37c26f0b3b01038743f96d7329d391e95c179b720",
    "size_bytes": 8601269,
    "updated": "2026-10-10T09:15:35.218Z"
