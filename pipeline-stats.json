@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T09:50:03+00:00",
+ "generated_at": "2026-10-10T09:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3085,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 140986
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -33060,17 +33060,17 @@
    "updated": "2026-09-09T20:32:48.327Z"
   },
   {
-   "declared_name": "harbor/restricted-dataset-use-audit",
-   "declared_short": "restricted-dataset-use-audit",
-   "folder": "restricted-dataset-use-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/restricted-dataset-use-audit",
+   "declared_short": "restricted-dataset-use-audit",
    "domain": null,
+   "folder": "restricted-dataset-use-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "24247850a89aab4830871fefd8bbe41f1c72eeb59de55b86e5cbd79740d9b2a8",
    "size_bytes": 10999801,
    "updated": "2026-10-10T09:48:35.959Z"
