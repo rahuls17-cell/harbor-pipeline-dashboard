@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T13:50:03+00:00",
+ "generated_at": "2026-10-10T14:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3105,
-  "scanned": 3105,
-  "connector": 1418,
+  "task_folders": 3107,
+  "scanned": 3107,
+  "connector": 1420,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 249,
-  "unknown": 433,
-  "synthetic": 736
+  "unknown": 434,
+  "synthetic": 737
  },
  "domain": {
-  "unnamed": 1947,
+  "unnamed": 1949,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1420,
+  "harbor": 1422,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 368,
+  "slack-gym": 369,
   "google-drive-gym": 206,
   "email-calendar-gym": 202,
   "zeta3-sql-gym": 201,
@@ -40,7 +40,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "gws-gym": 180,
+  "gws-gym": 181,
   "linear-gym": 158,
   "outlook-gym": 135,
   "notion-gym": 134,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 273815
  },
  "errors": [],
  "tasks": [
@@ -37779,6 +37779,22 @@
    "updated": "2026-10-07T09:23:37.009Z"
   },
   {
+   "declared_name": "harbor/the-applicant-files-others-could-edit",
+   "declared_short": "the-applicant-files-others-could-edit",
+   "folder": "the-applicant-files-others-could-edit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "f93409b29b28ff445405cd4843a559da517707bce5dce074bc4cc582412eae8f",
+   "size_bytes": 14018444,
+   "updated": "2026-10-10T14:05:45.309Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -43806,6 +43822,22 @@
    "sha256": "fee7043064e3685b928693af551955c841df7348012c5e6fe61cbb67eb7bd574",
    "size_bytes": 8665571,
    "updated": "2026-10-10T04:04:33.830Z"
+  },
+  {
+   "declared_name": "harbor/unanswered-spend-request-audit",
+   "declared_short": "unanswered-spend-request-audit",
+   "folder": "unanswered-spend-request-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2b1cd3eb79f48c98a6ec84dda0d269d75779f06b9e2cdaf1733490d71aad02f3",
+   "size_bytes": 12322556,
+   "updated": "2026-10-10T14:09:31.310Z"
   },
   {
    "connector_provenance": "real",
