@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T14:25:03+00:00",
+ "generated_at": "2026-10-10T14:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3108,
-  "scanned": 3108,
-  "connector": 1421,
+  "task_folders": 3109,
+  "scanned": 3109,
+  "connector": 1422,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 249,
   "unknown": 435,
-  "synthetic": 737
+  "synthetic": 738
  },
  "domain": {
-  "unnamed": 1950,
+  "unnamed": 1951,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1423,
+  "harbor": 1424,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 369,
+  "slack-gym": 370,
   "google-drive-gym": 206,
   "email-calendar-gym": 202,
   "zeta3-sql-gym": 201,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136373
+  "approx_bytes_read": 139236
  },
  "errors": [],
  "tasks": [
@@ -30737,6 +30737,22 @@
    "updated": "2026-10-10T12:11:57.950Z"
   },
   {
+   "declared_name": "harbor/manuscript-handson-confirm-audit",
+   "declared_short": "manuscript-handson-confirm-audit",
+   "folder": "manuscript-handson-confirm-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "be4a2cdb922a381b1ecabd1a3e69b7d839fb01fee3410b46303632a1b65a054e",
+   "size_bytes": 5525542,
+   "updated": "2026-10-10T14:27:40.499Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
@@ -42151,17 +42167,17 @@
    "updated": "2026-10-09T10:57:19.948Z"
   },
   {
-   "declared_name": "harbor/the-security-settings-on-off-or-never-reported",
-   "declared_short": "the-security-settings-on-off-or-never-reported",
-   "folder": "the-security-settings-on-off-or-never-reported",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-security-settings-on-off-or-never-reported",
+   "declared_short": "the-security-settings-on-off-or-never-reported",
    "domain": null,
+   "folder": "the-security-settings-on-off-or-never-reported",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b151b638c67851b7643006e2f257781fe244cf84988dcb9969a8707d9f275694",
    "size_bytes": 7323636,
    "updated": "2026-10-10T14:21:34.647Z"
