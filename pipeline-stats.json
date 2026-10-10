@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T03:30:03+00:00",
+ "generated_at": "2026-10-10T03:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3038,
-  "scanned": 3038,
-  "connector": 1351,
+  "task_folders": 3039,
+  "scanned": 3039,
+  "connector": 1352,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 237,
+  "real": 238,
   "unknown": 403,
   "synthetic": 711
  },
  "domain": {
-  "unnamed": 1880,
+  "unnamed": 1881,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1353,
+  "harbor": 1354,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 341,
+  "slack-gym": 342,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "email-calendar-gym": 197,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 136941
  },
  "errors": [],
  "tasks": [
@@ -6550,6 +6550,22 @@
    "sha256": "e7a28cb56c9daaf3b55900df34106cd2d2c70e48e8bff74293fd5d1b915d0ad0",
    "size_bytes": 11461763,
    "updated": "2026-10-09T05:04:36.803Z"
+  },
+  {
+   "declared_name": "harbor/clinical-answers-that-took-over-a-day",
+   "declared_short": "clinical-answers-that-took-over-a-day",
+   "folder": "clinical-answers-that-took-over-a-day",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "824e1e1a46ccc8985f77f95ac573a6e8552b3e925b0da4c1e5ba62a764b108ca",
+   "size_bytes": 11675002,
+   "updated": "2026-10-10T03:39:42.348Z"
   },
   {
    "connector_provenance": "unknown",
