@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T20:50:03+00:00",
+ "generated_at": "2026-10-10T20:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3145,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138395
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -25092,17 +25092,17 @@
    "updated": "2026-09-05T22:41:24.375Z"
   },
   {
-   "declared_name": "harbor/the-programmes-two-states-do-not-share",
-   "declared_short": "the-programmes-two-states-do-not-share",
-   "folder": "harbor-single-task-uzxhbwdm",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-programmes-two-states-do-not-share",
+   "declared_short": "the-programmes-two-states-do-not-share",
    "domain": null,
+   "folder": "harbor-single-task-uzxhbwdm",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1f27eb46a6e5962e9c624b5af98d9b96b41f917b2d80d1a3ee193bc3d85a5bfd",
    "size_bytes": 10007771,
    "updated": "2026-10-10T20:47:57.998Z"
