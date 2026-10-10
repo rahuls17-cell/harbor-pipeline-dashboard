@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T09:10:03+00:00",
+ "generated_at": "2026-10-10T09:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3081,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 139272
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -30802,17 +30802,17 @@
    "updated": "2026-10-10T07:28:01.798Z"
   },
   {
-   "declared_name": "harbor/midtier-spend-independence-audit",
-   "declared_short": "midtier-spend-independence-audit",
-   "folder": "midtier-spend-independence-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/midtier-spend-independence-audit",
+   "declared_short": "midtier-spend-independence-audit",
    "domain": null,
+   "folder": "midtier-spend-independence-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2411aee9e083d038a40866f70b55116c72319ce0563c02dd2a7f9cdbae2962f7",
    "size_bytes": 9986690,
    "updated": "2026-10-10T09:08:12.963Z"
