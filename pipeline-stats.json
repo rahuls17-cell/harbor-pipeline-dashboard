@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T02:30:03+00:00",
+ "generated_at": "2026-10-10T02:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3035,
-  "scanned": 3035,
-  "connector": 1348,
+  "task_folders": 3036,
+  "scanned": 3036,
+  "connector": 1349,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 237,
   "unknown": 403,
-  "synthetic": 708
+  "synthetic": 709
  },
  "domain": {
-  "unnamed": 1877,
+  "unnamed": 1878,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1350,
+  "harbor": 1351,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "gws-gym": 160,
+  "gws-gym": 161,
   "linear-gym": 155,
   "notion-gym": 134,
   "outlook-gym": 124,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 132596
  },
  "errors": [],
  "tasks": [
@@ -28431,6 +28431,22 @@
    "sha256": "a4792a85a229780572422ea96e1ef5a2c9529d1a662e0b12617e7e2a879121e3",
    "size_bytes": 6382224,
    "updated": "2026-10-03T06:57:26.969Z"
+  },
+  {
+   "declared_name": "harbor/lab-charges-to-pass-on-to-patients",
+   "declared_short": "lab-charges-to-pass-on-to-patients",
+   "folder": "lab-charges-to-pass-on-to-patients",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "6c0e1044ee24230de25f0680bf8fe08b5ca3bf9a9cdbfb7a14be23fe05df03a7",
+   "size_bytes": 10504326,
+   "updated": "2026-10-10T02:36:08.464Z"
   },
   {
    "connector_provenance": "real",
