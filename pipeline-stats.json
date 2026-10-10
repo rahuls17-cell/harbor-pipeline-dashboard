@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T06:50:03+00:00",
+ "generated_at": "2026-10-10T06:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3056,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133607
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -34151,17 +34151,17 @@
    "updated": "2026-10-09T03:47:45.072Z"
   },
   {
-   "declared_name": "harbor/stage-landing-gap-audit",
-   "declared_short": "stage-landing-gap-audit",
-   "folder": "stage-landing-gap-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/stage-landing-gap-audit",
+   "declared_short": "stage-landing-gap-audit",
    "domain": null,
+   "folder": "stage-landing-gap-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "905b8383c3e6310ef8ffaf9f3bee3c5f0ca6e37478a75b639a0225772f195e8c",
    "size_bytes": 7771320,
    "updated": "2026-10-10T06:49:19.448Z"
