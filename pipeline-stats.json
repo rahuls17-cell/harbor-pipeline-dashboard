@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T07:20:03+00:00",
+ "generated_at": "2026-10-10T07:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3059,
-  "scanned": 3059,
-  "connector": 1372,
+  "task_folders": 3061,
+  "scanned": 3061,
+  "connector": 1374,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 241,
-  "unknown": 413,
+  "unknown": 415,
   "synthetic": 718
  },
  "domain": {
-  "unnamed": 1901,
+  "unnamed": 1903,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1374,
+  "harbor": 1376,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,15 +32,15 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 348,
+  "slack-gym": 349,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
-  "email-calendar-gym": 198,
+  "email-calendar-gym": 199,
   "confluence-gym": 195,
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "gws-gym": 168,
+  "gws-gym": 169,
   "linear-gym": 156,
   "notion-gym": 134,
   "outlook-gym": 127,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 141367
+  "new_archives_read": 2,
+  "approx_bytes_read": 272162
  },
  "errors": [],
  "tasks": [
@@ -6791,6 +6791,23 @@
    "sha256": "331b0e81c5ce4f9ed9e1466ee28e3349aca5a095703f4d94b5ed14776cb799ec",
    "size_bytes": 14518904,
    "updated": "2026-10-09T10:21:12.036Z"
+  },
+  {
+   "declared_name": "harbor/closure-notices-left-unanswered",
+   "declared_short": "closure-notices-left-unanswered",
+   "folder": "closure-notices-left-unanswered",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym",
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "74858fd1c61e37337740ef898feb1e5043d822c91910d8b9eb1eca6c1020262e",
+   "size_bytes": 10022469,
+   "updated": "2026-10-10T07:23:27.759Z"
   },
   {
    "connector_provenance": null,
@@ -30913,17 +30930,17 @@
    "updated": "2026-10-09T12:42:14.564Z"
   },
   {
-   "declared_name": "harbor/night-report-checkin-audit",
-   "declared_short": "night-report-checkin-audit",
-   "folder": "night-report-checkin-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/night-report-checkin-audit",
+   "declared_short": "night-report-checkin-audit",
    "domain": null,
+   "folder": "night-report-checkin-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "31cc9d19753e2f04f0c6370cb1ddebcbda05fd99b5c520aec741247259d239a8",
    "size_bytes": 7901164,
    "updated": "2026-10-10T07:17:54.330Z"
@@ -40625,6 +40642,22 @@
    "sha256": "67fca8ea51e5556c61dfa2616d37906061da3270d65906cf902423f548d29490",
    "size_bytes": 7796742,
    "updated": "2026-10-08T14:01:46.208Z"
+  },
+  {
+   "declared_name": "harbor/the-pilot-threads-answered-within-the-hour",
+   "declared_short": "the-pilot-threads-answered-within-the-hour",
+   "folder": "the-pilot-threads-answered-within-the-hour",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "e37406b4dafa29622d22cb1596471db5388b2b1f25932afccb942cc6dd4e90cb",
+   "size_bytes": 9275401,
+   "updated": "2026-10-10T07:23:23.433Z"
   },
   {
    "connector_provenance": "synthetic",
