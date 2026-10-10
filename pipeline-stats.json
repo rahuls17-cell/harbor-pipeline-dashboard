@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T05:50:03+00:00",
+ "generated_at": "2026-10-10T06:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3051,
-  "scanned": 3051,
-  "connector": 1364,
+  "task_folders": 3053,
+  "scanned": 3053,
+  "connector": 1366,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 241,
-  "unknown": 409,
-  "synthetic": 714
+  "unknown": 410,
+  "synthetic": 715
  },
  "domain": {
-  "unnamed": 1893,
+  "unnamed": 1895,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1366,
+  "harbor": 1368,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,10 +32,10 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 345,
+  "slack-gym": 346,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
-  "email-calendar-gym": 197,
+  "email-calendar-gym": 198,
   "confluence-gym": 195,
   "jira-gym": 192,
   "email-gym": 188,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 276313
  },
  "errors": [],
  "tasks": [
@@ -34397,6 +34397,22 @@
    "updated": "2026-09-17T05:43:26.913Z"
   },
   {
+   "declared_name": "harbor/subscription-charges-that-moved",
+   "declared_short": "subscription-charges-that-moved",
+   "folder": "subscription-charges-that-moved",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "9b989d2deb417d6528e423ff37c56e1d5bf55206fe32917b87c37a237c9cf5f3",
+   "size_bytes": 14483049,
+   "updated": "2026-10-10T05:58:49.106Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -34411,6 +34427,22 @@
    "sha256": "bac15b349b5622b5eeeb37ce1a9d4998a62e8f4fc27da7eb0d07b3459621fa75",
    "size_bytes": 7963477,
    "updated": "2026-10-09T10:29:55.731Z"
+  },
+  {
+   "declared_name": "harbor/suggestion-later-takeon-audit",
+   "declared_short": "suggestion-later-takeon-audit",
+   "folder": "suggestion-later-takeon-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "5c2bac91ae6b5bd4d42827d5984b2106fe471097be1becbdfb51ccc856b329bb",
+   "size_bytes": 11135545,
+   "updated": "2026-10-10T05:57:45.673Z"
   },
   {
    "connector_provenance": "synthetic",
