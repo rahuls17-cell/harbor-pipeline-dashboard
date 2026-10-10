@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T20:35:04+00:00",
+ "generated_at": "2026-10-10T20:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3142,
-  "scanned": 3142,
-  "connector": 1455,
+  "task_folders": 3144,
+  "scanned": 3144,
+  "connector": 1457,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 253,
   "unknown": 446,
-  "synthetic": 756
+  "synthetic": 758
  },
  "domain": {
-  "unnamed": 1984,
+  "unnamed": 1986,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1457,
+  "harbor": 1459,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 384,
+  "slack-gym": 386,
   "google-drive-gym": 206,
   "email-calendar-gym": 206,
   "zeta3-sql-gym": 201,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 281283
  },
  "errors": [],
  "tasks": [
@@ -24728,6 +24728,22 @@
    "updated": "2026-09-05T20:12:41.501Z"
   },
   {
+   "declared_name": "harbor/weekend-issue-reply-audit",
+   "declared_short": "weekend-issue-reply-audit",
+   "folder": "harbor-single-task-iuny0pn2",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d1ae2190ecdce4bfbb4cde9a27cbc8fe64e6976c60688567fb1284033cdce07e",
+   "size_bytes": 8467471,
+   "updated": "2026-10-10T20:38:54.826Z"
+  },
+  {
    "connector_provenance": null,
    "connector_services": [],
    "declared_name": "obi/code-c174-tech-guide-coverage-audit",
@@ -30863,6 +30879,22 @@
    "sha256": "be4a2cdb922a381b1ecabd1a3e69b7d839fb01fee3410b46303632a1b65a054e",
    "size_bytes": 5525542,
    "updated": "2026-10-10T14:27:40.499Z"
+  },
+  {
+   "declared_name": "harbor/manuscript-safeguard-lapse-audit",
+   "declared_short": "manuscript-safeguard-lapse-audit",
+   "folder": "manuscript-safeguard-lapse-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "df51173db174719c84944142c4f9e0ea18f642df36fcc8b710239e5b0ec01745",
+   "size_bytes": 12433202,
+   "updated": "2026-10-10T20:35:44.839Z"
   },
   {
    "connector_provenance": "real",
