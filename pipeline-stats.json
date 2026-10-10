@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T10:45:03+00:00",
+ "generated_at": "2026-10-10T11:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3087,
-  "scanned": 3087,
-  "connector": 1400,
+  "task_folders": 3088,
+  "scanned": 3088,
+  "connector": 1401,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 243,
+  "real": 244,
   "unknown": 429,
   "synthetic": 728
  },
  "domain": {
-  "unnamed": 1929,
+  "unnamed": 1930,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1402,
+  "harbor": 1403,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -43,7 +43,7 @@
   "gws-gym": 177,
   "linear-gym": 157,
   "notion-gym": 134,
-  "outlook-gym": 133,
+  "outlook-gym": 134,
   "github-gym": 92,
   "slack": 66,
   "snowflake-gym": 42,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 138010
  },
  "errors": [],
  "tasks": [
@@ -6711,6 +6711,22 @@
    "sha256": "9c43b65bdbbb5660081c093fe07b8aee158a412200a8617e74706d37b7fac73c",
    "size_bytes": 7856941,
    "updated": "2026-10-08T03:52:31.846Z"
+  },
+  {
+   "declared_name": "harbor/clinical-record-problems-by-practice",
+   "declared_short": "clinical-record-problems-by-practice",
+   "folder": "clinical-record-problems-by-practice",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "afc8cbe5867d17e621ad423075eb185be351e8ad4ad9b38ac4d31e1944c6778a",
+   "size_bytes": 14604648,
+   "updated": "2026-10-10T11:02:50.506Z"
   },
   {
    "connector_provenance": "synthetic",
