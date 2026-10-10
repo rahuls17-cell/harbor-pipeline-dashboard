@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T20:30:04+00:00",
+ "generated_at": "2026-10-10T20:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3142,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137337
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -33262,18 +33262,18 @@
    "updated": "2026-09-20T03:38:33.994Z"
   },
   {
-   "declared_name": "harbor/refund-pipeline-staleness-audit",
-   "declared_short": "refund-pipeline-staleness-audit",
-   "folder": "refund-pipeline-staleness-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/refund-pipeline-staleness-audit",
+   "declared_short": "refund-pipeline-staleness-audit",
    "domain": null,
+   "folder": "refund-pipeline-staleness-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "936adbcc8b873aa96f381314dee91f684238ef921f754dd35b5a4049f81f5bf6",
    "size_bytes": 8909794,
    "updated": "2026-10-10T20:29:22.014Z"
