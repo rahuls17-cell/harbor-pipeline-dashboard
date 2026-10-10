@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T16:50:04+00:00",
+ "generated_at": "2026-10-10T16:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3129,
-  "scanned": 3129,
-  "connector": 1442,
+  "task_folders": 3130,
+  "scanned": 3130,
+  "connector": 1443,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 253,
-  "unknown": 444,
+  "unknown": 445,
   "synthetic": 745
  },
  "domain": {
-  "unnamed": 1971,
+  "unnamed": 1972,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1444,
+  "harbor": 1445,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "gws-gym": 184,
+  "gws-gym": 185,
   "linear-gym": 158,
   "outlook-gym": 139,
   "notion-gym": 135,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135927
+  "approx_bytes_read": 134072
  },
  "errors": [],
  "tasks": [
@@ -28151,17 +28151,17 @@
    "updated": "2026-10-08T22:24:23.704Z"
   },
   {
-   "declared_name": "harbor/intake-form-invitation-chase",
-   "declared_short": "intake-form-invitation-chase",
-   "folder": "intake-form-invitation-chase",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/intake-form-invitation-chase",
+   "declared_short": "intake-form-invitation-chase",
    "domain": null,
+   "folder": "intake-form-invitation-chase",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9e5d24a06313933933d610ccbc5d3806e3969ea1ee4eceb951c71722dbbf781a",
    "size_bytes": 11825788,
    "updated": "2026-10-10T16:47:22.858Z"
@@ -41557,6 +41557,22 @@
    "sha256": "f49a45ee9d3b0318c25f0ac37c26f0b3b01038743f96d7329d391e95c179b720",
    "size_bytes": 8601269,
    "updated": "2026-10-10T09:15:35.218Z"
+  },
+  {
+   "declared_name": "harbor/the-prenatal-screenings-past-their-window",
+   "declared_short": "the-prenatal-screenings-past-their-window",
+   "folder": "the-prenatal-screenings-past-their-window",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "24283e130e0eeef93eef45a2242e71543faa00322c83be1c5fa610939604b8c2",
+   "size_bytes": 12618048,
+   "updated": "2026-10-10T16:53:48.305Z"
   },
   {
    "connector_provenance": "unknown",
