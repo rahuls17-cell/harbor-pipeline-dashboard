@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T15:20:04+00:00",
+ "generated_at": "2026-10-10T15:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3119,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 414788
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -13882,17 +13882,17 @@
    "updated": "2026-09-23T07:38:10.813Z"
   },
   {
-   "declared_name": "harbor/documents-still-awaiting-signature",
-   "declared_short": "documents-still-awaiting-signature",
-   "folder": "documents-still-awaiting-signature--from-non-coding",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "email-calendar-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/documents-still-awaiting-signature",
+   "declared_short": "documents-still-awaiting-signature",
    "domain": null,
+   "folder": "documents-still-awaiting-signature--from-non-coding",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "52538c609d293d21d610d673ebc9034dfca301d60e5752affd4c1065fc1ec640",
    "size_bytes": 7802331,
    "updated": "2026-10-10T15:16:32.442Z"
@@ -42263,17 +42263,17 @@
    "updated": "2026-09-29T22:04:11.656Z"
   },
   {
-   "declared_name": "harbor/the-security-reports-assigned-outside-the-org",
-   "declared_short": "the-security-reports-assigned-outside-the-org",
-   "folder": "the-security-reports-assigned-outside-the-org-v2",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-security-reports-assigned-outside-the-org",
+   "declared_short": "the-security-reports-assigned-outside-the-org",
    "domain": null,
+   "folder": "the-security-reports-assigned-outside-the-org-v2",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ad8644854faee71eabc19e26b3bf2a0f63b232dd5ff75643acf2741f8531b41f",
    "size_bytes": 14770889,
    "updated": "2026-10-10T15:19:45.032Z"
@@ -44917,17 +44917,17 @@
    "updated": "2026-09-29T14:45:29.738Z"
   },
   {
-   "declared_name": "harbor/warehouse-idle-spend-audit",
-   "declared_short": "warehouse-idle-spend-audit",
-   "folder": "warehouse-idle-spend-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/warehouse-idle-spend-audit",
+   "declared_short": "warehouse-idle-spend-audit",
    "domain": null,
+   "folder": "warehouse-idle-spend-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5d9c905697700913c89648a6369ac71f7bab5b2136bf8054836338d8b73425ca",
    "size_bytes": 6917468,
    "updated": "2026-10-10T15:19:12.573Z"
