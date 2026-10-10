@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T06:25:04+00:00",
+ "generated_at": "2026-10-10T06:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3055,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135391
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -38016,17 +38016,17 @@
    "updated": "2026-10-09T04:30:11.851Z"
   },
   {
-   "declared_name": "harbor/the-clinical-questions-asked-after-hours",
-   "declared_short": "the-clinical-questions-asked-after-hours",
-   "folder": "the-clinical-questions-asked-after-hours",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-clinical-questions-asked-after-hours",
+   "declared_short": "the-clinical-questions-asked-after-hours",
    "domain": null,
+   "folder": "the-clinical-questions-asked-after-hours",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "003d62e0c709e94d4924226aedd3254762d95935a3ff0b2cac391cdb552a6f23",
    "size_bytes": 8573167,
    "updated": "2026-10-10T06:20:12.805Z"
