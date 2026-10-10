@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T06:35:03+00:00",
+ "generated_at": "2026-10-10T06:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3055,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 139016
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -38945,17 +38945,17 @@
    "updated": "2026-09-26T09:07:37.601Z"
   },
   {
-   "declared_name": "harbor/the-forms-the-board-does-not-show",
-   "declared_short": "the-forms-the-board-does-not-show",
-   "folder": "the-forms-the-board-does-not-show",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-forms-the-board-does-not-show",
+   "declared_short": "the-forms-the-board-does-not-show",
    "domain": null,
+   "folder": "the-forms-the-board-does-not-show",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3b0bd452fea6d97b10db5e24549e42101b07c6fa74a3e5c36f11c1f5ca35d1c0",
    "size_bytes": 7438623,
    "updated": "2026-10-10T06:30:23.576Z"
