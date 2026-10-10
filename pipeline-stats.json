@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T11:05:03+00:00",
+ "generated_at": "2026-10-10T11:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3088,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138010
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -6713,17 +6713,17 @@
    "updated": "2026-10-08T03:52:31.846Z"
   },
   {
-   "declared_name": "harbor/clinical-record-problems-by-practice",
-   "declared_short": "clinical-record-problems-by-practice",
-   "folder": "clinical-record-problems-by-practice",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/clinical-record-problems-by-practice",
+   "declared_short": "clinical-record-problems-by-practice",
    "domain": null,
+   "folder": "clinical-record-problems-by-practice",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "afc8cbe5867d17e621ad423075eb185be351e8ad4ad9b38ac4d31e1944c6778a",
    "size_bytes": 14604648,
    "updated": "2026-10-10T11:02:50.506Z"
