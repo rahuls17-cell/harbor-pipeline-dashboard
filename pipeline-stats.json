@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T22:50:03+00:00",
+ "generated_at": "2026-10-10T22:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3152,
-  "scanned": 3152,
-  "connector": 1465,
+  "task_folders": 3153,
+  "scanned": 3153,
+  "connector": 1466,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 446,
-  "synthetic": 765
+  "synthetic": 766
  },
  "domain": {
-  "unnamed": 1994,
+  "unnamed": 1995,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1467,
+  "harbor": 1468,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 391,
+  "slack-gym": 392,
   "email-calendar-gym": 208,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
@@ -46,7 +46,7 @@
   "notion-gym": 135,
   "github-gym": 97,
   "slack": 66,
-  "snowflake-gym": 46,
+  "snowflake-gym": 47,
   "microsoft-365-gym": 25,
   "supabase-gym": 23,
   "teams-gym": 16,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 135830
+  "approx_bytes_read": 133123
  },
  "errors": [],
  "tasks": [
@@ -13022,17 +13022,17 @@
    "updated": "2026-10-08T18:29:54.044Z"
   },
   {
-   "declared_name": "harbor/denial-appeal-writeoff-audit",
-   "declared_short": "denial-appeal-writeoff-audit",
-   "folder": "denial-appeal-writeoff-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/denial-appeal-writeoff-audit",
+   "declared_short": "denial-appeal-writeoff-audit",
    "domain": null,
+   "folder": "denial-appeal-writeoff-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5cdfb5b36f7547d1cd0d215a718cbb539da276109d38dcf90c7ed5b69f5dd3ff",
    "size_bytes": 9040283,
    "updated": "2026-10-10T22:48:26.213Z"
@@ -24273,6 +24273,23 @@
    "sha256": "b31d68fc20bb685e1463134a3d8a02f5bc9906fb1f45750045f5b8b0a24497dd",
    "size_bytes": 6137284,
    "updated": "2026-09-08T10:37:37.027Z"
+  },
+  {
+   "declared_name": "harbor/q3-compute-variance-bridge",
+   "declared_short": "q3-compute-variance-bridge",
+   "folder": "harbor-single-task-4bgzt6b9",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "e56ff9e6f5c312cac0f8e99e5e7c03106bd3440a064bab27152477a5c4aa87e9",
+   "size_bytes": 15736845,
+   "updated": "2026-10-10T22:52:18.733Z"
   },
   {
    "connector_provenance": null,
