@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T07:55:03+00:00",
+ "generated_at": "2026-10-10T08:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3065,
-  "scanned": 3065,
-  "connector": 1378,
+  "task_folders": 3068,
+  "scanned": 3068,
+  "connector": 1381,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 241,
-  "unknown": 417,
-  "synthetic": 720
+  "unknown": 418,
+  "synthetic": 722
  },
  "domain": {
-  "unnamed": 1907,
+  "unnamed": 1910,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1380,
+  "harbor": 1383,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,22 +40,22 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "gws-gym": 170,
+  "gws-gym": 171,
   "linear-gym": 156,
   "notion-gym": 134,
-  "outlook-gym": 128,
+  "outlook-gym": 131,
   "github-gym": 91,
   "slack": 66,
   "snowflake-gym": 42,
-  "supabase-gym": 22,
+  "supabase-gym": 23,
   "microsoft-365-gym": 20,
   "teams-gym": 16,
   "microsoft-teams-gym": 7,
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 412799
  },
  "errors": [],
  "tasks": [
@@ -34182,6 +34182,23 @@
    "updated": "2026-10-06T17:53:23.489Z"
   },
   {
+   "declared_name": "harbor/sso-trust-boundary-audit",
+   "declared_short": "sso-trust-boundary-audit",
+   "folder": "sso-trust-boundary-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym",
+    "supabase-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "ab8622bbb093f6588577f262c801e3499f68edbf81f2d10b1f7cbf2f28b5d65f",
+   "size_bytes": 7137753,
+   "updated": "2026-10-10T08:00:01.689Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym",
@@ -40804,6 +40821,22 @@
    "updated": "2026-10-02T19:37:57.651Z"
   },
   {
+   "declared_name": "harbor/the-postman-bills-in-the-mail-body",
+   "declared_short": "the-postman-bills-in-the-mail-body",
+   "folder": "the-postman-bills-in-the-mail-body",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "4aecb9452cdf8274510aee159d523bd52723cb9365a40ec6aa4c7d99ea5974a1",
+   "size_bytes": 27630087,
+   "updated": "2026-10-10T07:55:27.465Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "microsoft-teams-gym"
@@ -46335,6 +46368,23 @@
    "sha256": "964d8883964089ef7e098d84f7a680fcd2c55f7980b3779d0a5285c431f47749",
    "size_bytes": 13601174,
    "updated": "2026-10-07T20:35:27.595Z"
+  },
+  {
+   "declared_name": "harbor/winter-lab-costs-never-passed-to-practices",
+   "declared_short": "winter-lab-costs-never-passed-to-practices",
+   "folder": "winter-lab-costs-never-passed-to-practices",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym",
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "949f402936bd68bb7dbb2db22ced245215e97823c439a2569d45e1c4b70f8365",
+   "size_bytes": 24638471,
+   "updated": "2026-10-10T07:56:41.133Z"
   },
   {
    "connector_provenance": "synthetic",
