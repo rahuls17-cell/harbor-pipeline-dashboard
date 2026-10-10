@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T16:05:03+00:00",
+ "generated_at": "2026-10-10T16:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3123,
-  "scanned": 3123,
-  "connector": 1436,
+  "task_folders": 3124,
+  "scanned": 3124,
+  "connector": 1437,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 252,
-  "unknown": 441,
+  "unknown": 442,
   "synthetic": 743
  },
  "domain": {
-  "unnamed": 1965,
+  "unnamed": 1966,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1438,
+  "harbor": 1439,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "freshdesk-gym": 188,
   "gws-gym": 183,
   "linear-gym": 158,
-  "outlook-gym": 138,
+  "outlook-gym": 139,
   "notion-gym": 134,
   "github-gym": 96,
   "slack": 66,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 140132
+  "approx_bytes_read": 136099
  },
  "errors": [],
  "tasks": [
@@ -38723,6 +38723,22 @@
    "updated": "2026-09-29T19:59:53.216Z"
   },
   {
+   "declared_name": "harbor/the-compliance-tasks-still-on-the-list",
+   "declared_short": "the-compliance-tasks-still-on-the-list",
+   "folder": "the-compliance-tasks-still-on-the-list",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "70b102a8f495b590feb7c6adace1dcdf7b103f7c5e332b24d54a481f6e166885",
+   "size_bytes": 28279346,
+   "updated": "2026-10-10T16:08:51.222Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
@@ -45310,17 +45326,17 @@
    "updated": "2026-10-06T10:55:39.983Z"
   },
   {
-   "declared_name": "harbor/what-shape-these-trackers-are-in",
-   "declared_short": "what-shape-these-trackers-are-in",
-   "folder": "what-shape-these-trackers-are-in",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/what-shape-these-trackers-are-in",
+   "declared_short": "what-shape-these-trackers-are-in",
    "domain": null,
+   "folder": "what-shape-these-trackers-are-in",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "456946b8f5a5d9d2e9f9b564cdc8cd0d325e38d7340c0912b092c73a67fa8f34",
    "size_bytes": 18414262,
    "updated": "2026-10-10T16:04:52.991Z"
