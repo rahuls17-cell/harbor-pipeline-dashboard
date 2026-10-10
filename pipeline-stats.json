@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T16:15:03+00:00",
+ "generated_at": "2026-10-10T16:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3124,
-  "scanned": 3124,
-  "connector": 1437,
+  "task_folders": 3125,
+  "scanned": 3125,
+  "connector": 1438,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 252,
   "unknown": 442,
-  "synthetic": 743
+  "synthetic": 744
  },
  "domain": {
-  "unnamed": 1966,
+  "unnamed": 1967,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1439,
+  "harbor": 1440,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -48,14 +48,14 @@
   "slack": 66,
   "snowflake-gym": 43,
   "supabase-gym": 23,
-  "microsoft-365-gym": 22,
+  "microsoft-365-gym": 23,
   "teams-gym": 16,
   "microsoft-teams-gym": 7,
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 141601
  },
  "errors": [],
  "tasks": [
@@ -6446,6 +6446,22 @@
    "sha256": "75bceee60337864262599c146dd6245e43becc900001549cb16c67e78057ba82",
    "size_bytes": 8865450,
    "updated": "2026-10-06T23:26:48.771Z"
+  },
+  {
+   "declared_name": "harbor/classifier-champion-conflict-audit",
+   "declared_short": "classifier-champion-conflict-audit",
+   "folder": "classifier-champion-conflict-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "37dab7f723a2dbf19dd43ee96aab9013d38ddc9f29882451510dee1e8d3f772e",
+   "size_bytes": 12244954,
+   "updated": "2026-10-10T16:21:14.211Z"
   },
   {
    "connector_provenance": "real",
