@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T04:35:03+00:00",
+ "generated_at": "2026-10-10T04:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3041,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135635
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -40593,17 +40593,17 @@
    "updated": "2026-09-27T05:26:04.388Z"
   },
   {
-   "declared_name": "harbor/the-prescribing-service-days-in-review",
-   "declared_short": "the-prescribing-service-days-in-review",
-   "folder": "the-prescribing-service-days-in-review",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-prescribing-service-days-in-review",
+   "declared_short": "the-prescribing-service-days-in-review",
    "domain": null,
+   "folder": "the-prescribing-service-days-in-review",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2a0362646109a7382c684880d60d5c1c65a00083d440e7a97d9838e5101bfa02",
    "size_bytes": 17611298,
    "updated": "2026-10-10T04:30:41.444Z"
