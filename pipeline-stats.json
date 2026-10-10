@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T08:05:03+00:00",
+ "generated_at": "2026-10-10T08:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3070,
-  "scanned": 3070,
-  "connector": 1383,
+  "task_folders": 3072,
+  "scanned": 3072,
+  "connector": 1385,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 241,
+  "real": 242,
   "unknown": 420,
-  "synthetic": 722
+  "synthetic": 723
  },
  "domain": {
-  "unnamed": 1912,
+  "unnamed": 1914,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1385,
+  "harbor": 1387,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "gws-gym": 172,
+  "gws-gym": 174,
   "linear-gym": 156,
   "notion-gym": 134,
   "outlook-gym": 131,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 2,
-  "approx_bytes_read": 269394
+  "approx_bytes_read": 271202
  },
  "errors": [],
  "tasks": [
@@ -28659,6 +28659,22 @@
    "updated": "2026-10-01T10:37:48.611Z"
   },
   {
+   "declared_name": "harbor/lab-results-slow-to-come-back",
+   "declared_short": "lab-results-slow-to-come-back",
+   "folder": "lab-results-slow-to-come-back",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "a7a23e58d16fd1294a9ef212e8f3be8dcb05c49d7b1f524b9eb5fca923e94505",
+   "size_bytes": 15310829,
+   "updated": "2026-10-10T08:06:33.003Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
@@ -38963,6 +38979,22 @@
    "updated": "2026-09-29T09:57:07.669Z"
   },
   {
+   "declared_name": "harbor/the-first-tier-lines-on-rooted-births-statements",
+   "declared_short": "the-first-tier-lines-on-rooted-births-statements",
+   "folder": "the-first-tier-lines-on-rooted-births-statements",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "88e36f03ecdea8afcb016d79f82dd69cce1b85ae5d6299108a9885a7411e4324",
+   "size_bytes": 7460502,
+   "updated": "2026-10-10T08:09:03.887Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
@@ -41861,17 +41893,17 @@
    "updated": "2026-09-29T22:17:42.363Z"
   },
   {
-   "declared_name": "harbor/the-social-security-numbers-we-should-not-keep",
-   "declared_short": "the-social-security-numbers-we-should-not-keep",
-   "folder": "the-social-security-numbers-we-should-not-keep-v3",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-social-security-numbers-we-should-not-keep",
+   "declared_short": "the-social-security-numbers-we-should-not-keep",
    "domain": null,
+   "folder": "the-social-security-numbers-we-should-not-keep-v3",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d559107a70aea822fd4472f7c2874f3c4ee3cd193ac9ddcfd2b77420a9b325e9",
    "size_bytes": 8955429,
    "updated": "2026-10-10T08:00:07.804Z"
@@ -44844,17 +44876,17 @@
    "updated": "2026-10-10T05:15:46.249Z"
   },
   {
-   "declared_name": "harbor/where-invoicing-came-up-in-2024",
-   "declared_short": "where-invoicing-came-up-in-2024",
-   "folder": "where-invoicing-came-up-in-2024",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/where-invoicing-came-up-in-2024",
+   "declared_short": "where-invoicing-came-up-in-2024",
    "domain": null,
+   "folder": "where-invoicing-came-up-in-2024",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a04d66edebfa74b5fae4f90b7f94ffc9afcb114d9131a1d1b09df19614ac776c",
    "size_bytes": 12527746,
    "updated": "2026-10-10T08:02:46.123Z"
