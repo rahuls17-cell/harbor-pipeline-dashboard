@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T02:25:03+00:00",
+ "generated_at": "2026-10-10T02:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3035,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 143186
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -30704,17 +30704,17 @@
    "updated": "2026-10-08T20:41:34.658Z"
   },
   {
-   "declared_name": "harbor/model-validation-inventory-audit",
-   "declared_short": "model-validation-inventory-audit",
-   "folder": "model-validation-inventory-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/model-validation-inventory-audit",
+   "declared_short": "model-validation-inventory-audit",
    "domain": null,
+   "folder": "model-validation-inventory-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "fdbefd29b922f624e65dd8dbc4922b40c4ce06eaf8e7bf372eb9b6e4875c0b08",
    "size_bytes": 17369689,
    "updated": "2026-10-10T02:23:11.785Z"
