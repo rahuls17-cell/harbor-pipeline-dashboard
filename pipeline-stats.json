@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T03:25:03+00:00",
+ "generated_at": "2026-10-10T03:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3038,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 135679
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -38751,17 +38751,17 @@
    "updated": "2026-10-06T16:04:07.910Z"
   },
   {
-   "declared_name": "harbor/the-folders-where-open-files-cluster",
-   "declared_short": "the-folders-where-open-files-cluster",
-   "folder": "the-folders-where-open-files-cluster",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/the-folders-where-open-files-cluster",
+   "declared_short": "the-folders-where-open-files-cluster",
    "domain": null,
+   "folder": "the-folders-where-open-files-cluster",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0931689001b0befbd993417ba2cb0419eabf2881d84838a4f9dfef48ca961f1a",
    "size_bytes": 12064770,
    "updated": "2026-10-10T03:23:28.036Z"
