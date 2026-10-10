@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T20:10:04+00:00",
+ "generated_at": "2026-10-10T20:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3141,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 140776
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -33092,17 +33092,17 @@
    "updated": "2026-10-07T09:55:28.006Z"
   },
   {
-   "declared_name": "harbor/reagent-owner-confirm-audit",
-   "declared_short": "reagent-owner-confirm-audit",
-   "folder": "reagent-owner-confirm-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/reagent-owner-confirm-audit",
+   "declared_short": "reagent-owner-confirm-audit",
    "domain": null,
+   "folder": "reagent-owner-confirm-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "485adc5ab86546c581a6cf6bf952c0bca04d7cb9667451a210310609357904d7",
    "size_bytes": 7172637,
    "updated": "2026-10-10T20:07:58.416Z"
