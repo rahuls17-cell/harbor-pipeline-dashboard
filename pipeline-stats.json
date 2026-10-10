@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T03:40:03+00:00",
+ "generated_at": "2026-10-10T03:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3039,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136941
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -6552,17 +6552,17 @@
    "updated": "2026-10-09T05:04:36.803Z"
   },
   {
-   "declared_name": "harbor/clinical-answers-that-took-over-a-day",
-   "declared_short": "clinical-answers-that-took-over-a-day",
-   "folder": "clinical-answers-that-took-over-a-day",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/clinical-answers-that-took-over-a-day",
+   "declared_short": "clinical-answers-that-took-over-a-day",
    "domain": null,
+   "folder": "clinical-answers-that-took-over-a-day",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "824e1e1a46ccc8985f77f95ac573a6e8552b3e925b0da4c1e5ba62a764b108ca",
    "size_bytes": 11675002,
    "updated": "2026-10-10T03:39:42.348Z"
