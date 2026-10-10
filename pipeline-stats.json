@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T05:30:03+00:00",
+ "generated_at": "2026-10-10T05:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3048,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 138077
+  "approx_bytes_read": 133828
  },
  "errors": [],
  "tasks": [
@@ -15604,20 +15604,20 @@
    "updated": "2026-09-28T09:20:50.117Z"
   },
   {
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/egress-destination-audit",
+   "declared_short": "egress-destination-audit",
+   "folder": "egress-destination-audit",
+   "prefix": "harbor",
+   "is_connector": true,
    "connector_services": [
     "snowflake-gym"
    ],
-   "declared_name": "harbor/egress-destination-audit",
-   "declared_short": "egress-destination-audit",
+   "connector_provenance": "synthetic",
    "domain": null,
-   "folder": "egress-destination-audit",
    "image": null,
-   "is_connector": true,
-   "prefix": "harbor",
-   "sha256": "c4aa1a189ead5009f3b03abe585190d874991e2bf0782889bbbb21299c33b334",
-   "size_bytes": 17269569,
-   "updated": "2026-10-02T20:46:49.929Z"
+   "sha256": "293a66bc89cc5413a81dd0dc6fc340b749ea451da69a1cfc716aa48b983583c7",
+   "size_bytes": 6707885,
+   "updated": "2026-10-10T05:31:00.863Z"
   },
   {
    "connector_provenance": "unknown",
@@ -41138,17 +41138,17 @@
    "updated": "2026-10-01T09:06:49.415Z"
   },
   {
-   "declared_name": "harbor/the-reviews-no-quarter-closed",
-   "declared_short": "the-reviews-no-quarter-closed",
-   "folder": "the-reviews-no-quarter-closed",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-reviews-no-quarter-closed",
+   "declared_short": "the-reviews-no-quarter-closed",
    "domain": null,
+   "folder": "the-reviews-no-quarter-closed",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "828163876ace0a6022475330b33e30e09cf45592b967e5e7ecd96017526a4981",
    "size_bytes": 13069552,
    "updated": "2026-10-10T05:27:18.836Z"
