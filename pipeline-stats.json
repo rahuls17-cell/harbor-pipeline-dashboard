@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T16:55:03+00:00",
+ "generated_at": "2026-10-10T17:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3130,
-  "scanned": 3130,
-  "connector": 1443,
+  "task_folders": 3131,
+  "scanned": 3131,
+  "connector": 1444,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 253,
-  "unknown": 445,
+  "unknown": 446,
   "synthetic": 745
  },
  "domain": {
-  "unnamed": 1972,
+  "unnamed": 1973,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1445,
+  "harbor": 1446,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "gws-gym": 185,
+  "gws-gym": 186,
   "linear-gym": 158,
   "outlook-gym": 139,
   "notion-gym": 135,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 134072
+  "approx_bytes_read": 134744
  },
  "errors": [],
  "tasks": [
@@ -41559,17 +41559,17 @@
    "updated": "2026-10-10T09:15:35.218Z"
   },
   {
-   "declared_name": "harbor/the-prenatal-screenings-past-their-window",
-   "declared_short": "the-prenatal-screenings-past-their-window",
-   "folder": "the-prenatal-screenings-past-their-window",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-prenatal-screenings-past-their-window",
+   "declared_short": "the-prenatal-screenings-past-their-window",
    "domain": null,
+   "folder": "the-prenatal-screenings-past-their-window",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "24283e130e0eeef93eef45a2242e71543faa00322c83be1c5fa610939604b8c2",
    "size_bytes": 12618048,
    "updated": "2026-10-10T16:53:48.305Z"
@@ -42502,6 +42502,22 @@
    "sha256": "15dd1687bc4bccca1d793cc2dc8f908dd796ef04ebc509252147558578e22864",
    "size_bytes": 13368925,
    "updated": "2026-10-08T12:16:27.995Z"
+  },
+  {
+   "declared_name": "harbor/the-sheet-access-the-policy-no-longer-allows",
+   "declared_short": "the-sheet-access-the-policy-no-longer-allows",
+   "folder": "the-sheet-access-the-policy-no-longer-allows-v2",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "94c217a6fcddc7a554a10f1ed06dbc49fc93b659c5f8b6e2fdb45da8cdb6497f",
+   "size_bytes": 18177906,
+   "updated": "2026-10-10T16:58:40.613Z"
   },
   {
    "connector_provenance": "real",
