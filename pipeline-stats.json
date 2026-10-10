@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T16:35:04+00:00",
+ "generated_at": "2026-10-10T16:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3128,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 270078
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -34487,17 +34487,17 @@
    "updated": "2026-10-01T19:54:38.420Z"
   },
   {
-   "declared_name": "harbor/spring-lab-orders-who-was-billed",
-   "declared_short": "spring-lab-orders-who-was-billed",
-   "folder": "spring-lab-orders-who-was-billed",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/spring-lab-orders-who-was-billed",
+   "declared_short": "spring-lab-orders-who-was-billed",
    "domain": null,
+   "folder": "spring-lab-orders-who-was-billed",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b4fc47a6c5997827e1527067f1a9a9e4671f2760e4433697778b93e38290a8c9",
    "size_bytes": 13323742,
    "updated": "2026-10-10T16:32:27.529Z"
@@ -40023,17 +40023,17 @@
    "updated": "2026-10-08T11:03:44.144Z"
   },
   {
-   "declared_name": "harbor/the-investor-updates-whose-cash-missed-the-bank",
-   "declared_short": "the-investor-updates-whose-cash-missed-the-bank",
-   "folder": "the-investor-updates-whose-cash-missed-the-bank",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-investor-updates-whose-cash-missed-the-bank",
+   "declared_short": "the-investor-updates-whose-cash-missed-the-bank",
    "domain": null,
+   "folder": "the-investor-updates-whose-cash-missed-the-bank",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "949ec9644b52fa1538ee81e4b8c02f315b90d3b9180fc76d965344cb08bc5f3f",
    "size_bytes": 10797440,
    "updated": "2026-10-10T16:31:15.102Z"
