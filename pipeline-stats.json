@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T14:30:03+00:00",
+ "generated_at": "2026-10-10T14:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3109,
-  "scanned": 3109,
-  "connector": 1422,
+  "task_folders": 3110,
+  "scanned": 3110,
+  "connector": 1423,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 249,
-  "unknown": 435,
+  "unknown": 436,
   "synthetic": 738
  },
  "domain": {
-  "unnamed": 1951,
+  "unnamed": 1952,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1424,
+  "harbor": 1425,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "freshdesk-gym": 188,
   "gws-gym": 181,
   "linear-gym": 158,
-  "outlook-gym": 135,
+  "outlook-gym": 136,
   "notion-gym": 134,
   "github-gym": 94,
   "slack": 66,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 139236
+  "approx_bytes_read": 135207
  },
  "errors": [],
  "tasks": [
@@ -23825,6 +23825,22 @@
    "updated": "2026-10-09T03:54:00.928Z"
   },
   {
+   "declared_name": "harbor/github-bills-against-the-quote",
+   "declared_short": "github-bills-against-the-quote",
+   "folder": "github-bills-against-the-quote",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "3fe8c2bac9d66e3f6e87fc1face68321e37210191067c26fd9d5aa03d42cd7fb",
+   "size_bytes": 14264809,
+   "updated": "2026-10-10T14:30:19.510Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "notion-gym"
@@ -30737,17 +30753,17 @@
    "updated": "2026-10-10T12:11:57.950Z"
   },
   {
-   "declared_name": "harbor/manuscript-handson-confirm-audit",
-   "declared_short": "manuscript-handson-confirm-audit",
-   "folder": "manuscript-handson-confirm-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/manuscript-handson-confirm-audit",
+   "declared_short": "manuscript-handson-confirm-audit",
    "domain": null,
+   "folder": "manuscript-handson-confirm-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "be4a2cdb922a381b1ecabd1a3e69b7d839fb01fee3410b46303632a1b65a054e",
    "size_bytes": 5525542,
    "updated": "2026-10-10T14:27:40.499Z"
