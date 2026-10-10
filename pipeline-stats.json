@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T08:40:04+00:00",
+ "generated_at": "2026-10-10T08:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3076,
-  "scanned": 3076,
-  "connector": 1389,
+  "task_folders": 3077,
+  "scanned": 3077,
+  "connector": 1390,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 243,
-  "unknown": 423,
+  "unknown": 424,
   "synthetic": 723
  },
  "domain": {
-  "unnamed": 1918,
+  "unnamed": 1919,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1391,
+  "harbor": 1392,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 353,
+  "slack-gym": 354,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "email-calendar-gym": 199,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 278974
+  "new_archives_read": 1,
+  "approx_bytes_read": 137781
  },
  "errors": [],
  "tasks": [
@@ -1442,17 +1442,17 @@
    "updated": "2026-10-07T11:29:22.508Z"
   },
   {
-   "declared_name": "harbor/app-components-that-need-licence-consent",
-   "declared_short": "app-components-that-need-licence-consent",
-   "folder": "app-components-that-need-licence-consent",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/app-components-that-need-licence-consent",
+   "declared_short": "app-components-that-need-licence-consent",
    "domain": null,
+   "folder": "app-components-that-need-licence-consent",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9e162b478904469eb466970004cd8275f7bdef23d03a4e692793f54863673321",
    "size_bytes": 9061622,
    "updated": "2026-10-10T08:37:16.655Z"
@@ -37730,6 +37730,22 @@
    "updated": "2026-09-23T07:34:55.792Z"
   },
   {
+   "declared_name": "harbor/the-billing-partners-we-talked-to",
+   "declared_short": "the-billing-partners-we-talked-to",
+   "folder": "the-billing-partners-we-talked-to",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "f82f65d7370c0e94587822687de4546411534e88298f2358513c2b827462d068",
+   "size_bytes": 15577128,
+   "updated": "2026-10-10T08:41:12.288Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
@@ -44764,17 +44780,17 @@
    "updated": "2026-09-20T17:41:08.864Z"
   },
   {
-   "declared_name": "harbor/what-the-receipts-say-we-paid",
-   "declared_short": "what-the-receipts-say-we-paid",
-   "folder": "what-the-receipts-say-we-paid",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/what-the-receipts-say-we-paid",
+   "declared_short": "what-the-receipts-say-we-paid",
    "domain": null,
+   "folder": "what-the-receipts-say-we-paid",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "eb5b171b44dceb668dfee0146fcf938ab283dfb3721bb30cf64331734c4d7d3d",
    "size_bytes": 38003033,
    "updated": "2026-10-10T08:37:54.242Z"
