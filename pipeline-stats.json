@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T07:40:03+00:00",
+ "generated_at": "2026-10-10T07:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3063,
-  "scanned": 3063,
-  "connector": 1376,
+  "task_folders": 3064,
+  "scanned": 3064,
+  "connector": 1377,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 241,
-  "unknown": 416,
+  "unknown": 417,
   "synthetic": 719
  },
  "domain": {
-  "unnamed": 1905,
+  "unnamed": 1906,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1378,
+  "harbor": 1379,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -43,7 +43,7 @@
   "gws-gym": 169,
   "linear-gym": 156,
   "notion-gym": 134,
-  "outlook-gym": 127,
+  "outlook-gym": 128,
   "github-gym": 91,
   "slack": 66,
   "snowflake-gym": 42,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 136386
  },
  "errors": [],
  "tasks": [
@@ -44489,6 +44489,22 @@
    "sha256": "b99b69e2bed7990bc14efac5643d7b88933d6150932609d774ac4e7970128327",
    "size_bytes": 16651585,
    "updated": "2026-09-29T10:41:35.852Z"
+  },
+  {
+   "declared_name": "harbor/what-our-cash-pay-lab-patients-owe",
+   "declared_short": "what-our-cash-pay-lab-patients-owe",
+   "folder": "what-our-cash-pay-lab-patients-owe",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "4384f9cab62317cce0ca131fca88992e6f21bb0628577b85cf2b90d3ba42cb00",
+   "size_bytes": 14837057,
+   "updated": "2026-10-10T07:42:35.122Z"
   },
   {
    "connector_provenance": "synthetic",
