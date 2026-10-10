@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T23:00:03+00:00",
+ "generated_at": "2026-10-10T23:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3155,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 279151
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -6415,18 +6415,18 @@
    "updated": "2026-10-07T05:42:55.547Z"
   },
   {
-   "declared_name": "harbor/chronic-monitoring-cadence-audit",
-   "declared_short": "chronic-monitoring-cadence-audit",
-   "folder": "chronic-monitoring-cadence-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym",
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/chronic-monitoring-cadence-audit",
+   "declared_short": "chronic-monitoring-cadence-audit",
    "domain": null,
+   "folder": "chronic-monitoring-cadence-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9d2dd1fe9b64a6e260659d2634a5de7fe0f05c5a1ea3a15fb31a3555d8ecd15e",
    "size_bytes": 7910105,
    "updated": "2026-10-10T22:59:04.674Z"
@@ -31062,17 +31062,17 @@
    "updated": "2026-09-29T13:11:24.342Z"
   },
   {
-   "declared_name": "harbor/meeting-guest-exposure-audit",
-   "declared_short": "meeting-guest-exposure-audit",
-   "folder": "meeting-guest-exposure-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/meeting-guest-exposure-audit",
+   "declared_short": "meeting-guest-exposure-audit",
    "domain": null,
+   "folder": "meeting-guest-exposure-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9d5982ebc44aecc5adaa73950a858d8557b925b355e5934688bca31536717891",
    "size_bytes": 7149236,
    "updated": "2026-10-10T23:00:00.170Z"
