@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T04:55:03+00:00",
+ "generated_at": "2026-10-10T05:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3043,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137034
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -38207,17 +38207,17 @@
    "updated": "2026-09-26T15:22:41.761Z"
   },
   {
-   "declared_name": "harbor/the-dashboard-stack-vulnerabilities-by-stated-risk",
-   "declared_short": "the-dashboard-stack-vulnerabilities-by-stated-risk",
-   "folder": "the-dashboard-stack-vulnerabilities-by-stated-risk",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-dashboard-stack-vulnerabilities-by-stated-risk",
+   "declared_short": "the-dashboard-stack-vulnerabilities-by-stated-risk",
    "domain": null,
+   "folder": "the-dashboard-stack-vulnerabilities-by-stated-risk",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8d86a9112999408f7675bc50fd8b1fb6f9e36e5982b9d178709919048e24e78a",
    "size_bytes": 8040011,
    "updated": "2026-10-10T04:54:13.515Z"
