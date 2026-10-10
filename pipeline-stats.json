@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T13:40:03+00:00",
+ "generated_at": "2026-10-10T13:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3104,
-  "scanned": 3104,
-  "connector": 1417,
+  "task_folders": 3105,
+  "scanned": 3105,
+  "connector": 1418,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 248,
+  "real": 249,
   "unknown": 433,
   "synthetic": 736
  },
  "domain": {
-  "unnamed": 1946,
+  "unnamed": 1947,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1419,
+  "harbor": 1420,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -44,7 +44,7 @@
   "linear-gym": 158,
   "outlook-gym": 135,
   "notion-gym": 134,
-  "github-gym": 92,
+  "github-gym": 93,
   "slack": 66,
   "snowflake-gym": 43,
   "supabase-gym": 23,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 142943
+  "approx_bytes_read": 137877
  },
  "errors": [],
  "tasks": [
@@ -32089,17 +32089,17 @@
    "updated": "2026-10-10T02:03:41.341Z"
   },
   {
-   "declared_name": "harbor/paused-item-safeguard-audit",
-   "declared_short": "paused-item-safeguard-audit",
-   "folder": "paused-item-safeguard-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/paused-item-safeguard-audit",
+   "declared_short": "paused-item-safeguard-audit",
    "domain": null,
+   "folder": "paused-item-safeguard-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6329abe2e7a2db8b96428c9b8fef09f5be3de742697b00a2ebd2986cb59469d6",
    "size_bytes": 7500402,
    "updated": "2026-10-10T13:39:10.043Z"
@@ -41653,6 +41653,22 @@
    "sha256": "d9290da15b7eaff78d72879cb4d53c8ac239d297c196ee89d5cbc743d4332030",
    "size_bytes": 8988147,
    "updated": "2026-09-29T06:24:17.515Z"
+  },
+  {
+   "declared_name": "harbor/the-repos-where-a-pushed-secret-goes-unseen",
+   "declared_short": "the-repos-where-a-pushed-secret-goes-unseen",
+   "folder": "the-repos-where-a-pushed-secret-goes-unseen",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "1a563159644163c53bf2d92019f0725fd00ddd9a0b951de8ba7d40c66dcfb04e",
+   "size_bytes": 8056455,
+   "updated": "2026-10-10T13:41:11.170Z"
   },
   {
    "connector_provenance": "real",
