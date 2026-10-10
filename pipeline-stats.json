@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T12:15:04+00:00",
+ "generated_at": "2026-10-10T12:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3094,
-  "scanned": 3094,
-  "connector": 1407,
+  "task_folders": 3096,
+  "scanned": 3096,
+  "connector": 1409,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 247,
   "unknown": 430,
-  "synthetic": 730
+  "synthetic": 732
  },
  "domain": {
-  "unnamed": 1936,
+  "unnamed": 1938,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1409,
+  "harbor": 1411,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 361,
+  "slack-gym": 363,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "email-calendar-gym": 201,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 146249
+  "new_archives_read": 2,
+  "approx_bytes_read": 275664
  },
  "errors": [],
  "tasks": [
@@ -30689,17 +30689,17 @@
    "updated": "2026-10-01T15:42:02.249Z"
   },
   {
-   "declared_name": "harbor/manuscript-curation-credit-audit",
-   "declared_short": "manuscript-curation-credit-audit",
-   "folder": "manuscript-curation-credit-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/manuscript-curation-credit-audit",
+   "declared_short": "manuscript-curation-credit-audit",
    "domain": null,
+   "folder": "manuscript-curation-credit-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6aa4f9439a461ae945688f6fac5359551e787387ccb14828f852e2ec25f0ce5a",
    "size_bytes": 8615710,
    "updated": "2026-10-10T12:11:57.950Z"
@@ -31911,6 +31911,22 @@
    "sha256": "ab90ab4b4ea12d70fc3af8dda0528c89c2eb106dcc84f0fc6e46bf08e1737d45",
    "size_bytes": 15079303,
    "updated": "2026-10-02T21:47:15.161Z"
+  },
+  {
+   "declared_name": "harbor/paper-review-confirm-audit",
+   "declared_short": "paper-review-confirm-audit",
+   "folder": "paper-review-confirm-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "6c7254f510c0ee366a19bf31bbbd69c7555fa3569a9bd06034b4d01588bfdc47",
+   "size_bytes": 10191221,
+   "updated": "2026-10-10T12:18:53.022Z"
   },
   {
    "connector_provenance": "unknown",
@@ -46932,6 +46948,22 @@
    "sha256": "375e3e300bb12dea4f4c19dc75b29ec9be204ad7d2108b18b78cb156ea61dfd8",
    "size_bytes": 7332178,
    "updated": "2026-09-29T16:11:56.650Z"
+  },
+  {
+   "declared_name": "harbor/workspace-ring-fence-audit",
+   "declared_short": "workspace-ring-fence-audit",
+   "folder": "workspace-ring-fence-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "f0073a23a5a4503cf5c72bc8a17d1a97e6770d8b0389f6d7a7c136e615afc76d",
+   "size_bytes": 10834031,
+   "updated": "2026-10-10T12:17:35.277Z"
   },
   {
    "connector_provenance": null,
