@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T02:40:03+00:00",
+ "generated_at": "2026-10-10T02:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3036,
-  "scanned": 3036,
-  "connector": 1349,
+  "task_folders": 3037,
+  "scanned": 3037,
+  "connector": 1350,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 237,
   "unknown": 403,
-  "synthetic": 709
+  "synthetic": 710
  },
  "domain": {
-  "unnamed": 1878,
+  "unnamed": 1879,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1351,
+  "harbor": 1352,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -35,7 +35,7 @@
   "slack-gym": 341,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
-  "email-calendar-gym": 196,
+  "email-calendar-gym": 197,
   "confluence-gym": 195,
   "jira-gym": 192,
   "email-gym": 188,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 132596
+  "approx_bytes_read": 137738
  },
  "errors": [],
  "tasks": [
@@ -311,6 +311,22 @@
    "sha256": "e250ac641c9eaac2e595cc6de5320540caa11c7e122c47cf9ab11cf4b741d472",
    "size_bytes": 6676499,
    "updated": "2026-09-18T21:57:15.239Z"
+  },
+  {
+   "declared_name": "harbor/vendors-still-holding-the-old-card",
+   "declared_short": "vendors-still-holding-the-old-card",
+   "folder": "9001459-vendors-card",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "24c5bcd45052de0a64538703c8fe70da6ca14f10cad16007571d8a0228c28d97",
+   "size_bytes": 10831329,
+   "updated": "2026-10-10T02:45:01.859Z"
   },
   {
    "connector_provenance": "real",
@@ -28433,17 +28449,17 @@
    "updated": "2026-10-03T06:57:26.969Z"
   },
   {
-   "declared_name": "harbor/lab-charges-to-pass-on-to-patients",
-   "declared_short": "lab-charges-to-pass-on-to-patients",
-   "folder": "lab-charges-to-pass-on-to-patients",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/lab-charges-to-pass-on-to-patients",
+   "declared_short": "lab-charges-to-pass-on-to-patients",
    "domain": null,
+   "folder": "lab-charges-to-pass-on-to-patients",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6c0e1044ee24230de25f0680bf8fe08b5ca3bf9a9cdbfb7a14be23fe05df03a7",
    "size_bytes": 10504326,
    "updated": "2026-10-10T02:36:08.464Z"
