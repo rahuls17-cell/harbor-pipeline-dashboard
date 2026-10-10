@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T04:10:03+00:00",
+ "generated_at": "2026-10-10T04:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3040,
-  "scanned": 3040,
-  "connector": 1353,
+  "task_folders": 3041,
+  "scanned": 3041,
+  "connector": 1354,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 238,
-  "unknown": 403,
+  "unknown": 404,
   "synthetic": 712
  },
  "domain": {
-  "unnamed": 1882,
+  "unnamed": 1883,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1355,
+  "harbor": 1356,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -43,7 +43,7 @@
   "gws-gym": 162,
   "linear-gym": 155,
   "notion-gym": 134,
-  "outlook-gym": 124,
+  "outlook-gym": 125,
   "github-gym": 89,
   "slack": 66,
   "snowflake-gym": 40,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 135635
  },
  "errors": [],
  "tasks": [
@@ -40591,6 +40591,22 @@
    "sha256": "3880dc9d13341fca367366ee39e260b9267e25872bdf51571f158338260b1c8d",
    "size_bytes": 8182192,
    "updated": "2026-09-27T05:26:04.388Z"
+  },
+  {
+   "declared_name": "harbor/the-prescribing-service-days-in-review",
+   "declared_short": "the-prescribing-service-days-in-review",
+   "folder": "the-prescribing-service-days-in-review",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "2a0362646109a7382c684880d60d5c1c65a00083d440e7a97d9838e5101bfa02",
+   "size_bytes": 17611298,
+   "updated": "2026-10-10T04:30:41.444Z"
   },
   {
    "connector_provenance": "unknown",
