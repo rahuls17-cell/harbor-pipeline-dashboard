@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T15:10:04+00:00",
+ "generated_at": "2026-10-10T15:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3116,
-  "scanned": 3116,
-  "connector": 1429,
+  "task_folders": 3117,
+  "scanned": 3117,
+  "connector": 1430,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 249,
   "unknown": 440,
-  "synthetic": 740
+  "synthetic": 741
  },
  "domain": {
-  "unnamed": 1958,
+  "unnamed": 1959,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1431,
+  "harbor": 1432,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 373,
+  "slack-gym": 374,
   "google-drive-gym": 206,
   "email-calendar-gym": 203,
   "zeta3-sql-gym": 201,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 274095
+  "new_archives_read": 1,
+  "approx_bytes_read": 140266
  },
  "errors": [],
  "tasks": [
@@ -28006,17 +28006,17 @@
    "updated": "2026-09-30T09:23:18.995Z"
   },
   {
-   "declared_name": "harbor/incident-day-timeline-audit",
-   "declared_short": "incident-day-timeline-audit",
-   "folder": "incident-day-timeline-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/incident-day-timeline-audit",
+   "declared_short": "incident-day-timeline-audit",
    "domain": null,
+   "folder": "incident-day-timeline-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f5f0d658b42e7c5febfa133e69925204525efc06b5f6fcc360efe470a31eff9b",
    "size_bytes": 8277889,
    "updated": "2026-10-10T15:06:26.611Z"
@@ -31913,17 +31913,17 @@
    "updated": "2026-09-09T05:03:23.107Z"
   },
   {
-   "declared_name": "harbor/orders-against-the-pickup-requests",
-   "declared_short": "orders-against-the-pickup-requests",
-   "folder": "orders-against-the-pickup-requests",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/orders-against-the-pickup-requests",
+   "declared_short": "orders-against-the-pickup-requests",
    "domain": null,
+   "folder": "orders-against-the-pickup-requests",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "04101e70aa3aa7eaca15e64c9093bda2bb95969e7656192e834b9ca6fe174b6e",
    "size_bytes": 9157888,
    "updated": "2026-10-10T15:09:03.851Z"
@@ -34732,6 +34732,22 @@
    "sha256": "731585e306b4f1f11488802d4202b94c1ba1b2e84f95e050709fafea1ffd9259",
    "size_bytes": 6941288,
    "updated": "2026-09-26T14:59:27.632Z"
+  },
+  {
+   "declared_name": "harbor/stock-safeguard-confirm-audit",
+   "declared_short": "stock-safeguard-confirm-audit",
+   "folder": "stock-safeguard-confirm-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "eda2b76239abf4534432c19d672544154da84fcfc805525c6835ff9fd0a56085",
+   "size_bytes": 7274376,
+   "updated": "2026-10-10T15:10:04.421Z"
   },
   {
    "connector_provenance": "synthetic",
