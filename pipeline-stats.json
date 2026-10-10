@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T13:45:03+00:00",
+ "generated_at": "2026-10-10T13:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3105,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137877
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -41655,17 +41655,17 @@
    "updated": "2026-09-29T06:24:17.515Z"
   },
   {
-   "declared_name": "harbor/the-repos-where-a-pushed-secret-goes-unseen",
-   "declared_short": "the-repos-where-a-pushed-secret-goes-unseen",
-   "folder": "the-repos-where-a-pushed-secret-goes-unseen",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "real",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "real",
+   "declared_name": "harbor/the-repos-where-a-pushed-secret-goes-unseen",
+   "declared_short": "the-repos-where-a-pushed-secret-goes-unseen",
    "domain": null,
+   "folder": "the-repos-where-a-pushed-secret-goes-unseen",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1a563159644163c53bf2d92019f0725fd00ddd9a0b951de8ba7d40c66dcfb04e",
    "size_bytes": 8056455,
    "updated": "2026-10-10T13:41:11.170Z"
