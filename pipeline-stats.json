@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T17:00:03+00:00",
+ "generated_at": "2026-10-10T17:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3131,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134744
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -42504,17 +42504,17 @@
    "updated": "2026-10-08T12:16:27.995Z"
   },
   {
-   "declared_name": "harbor/the-sheet-access-the-policy-no-longer-allows",
-   "declared_short": "the-sheet-access-the-policy-no-longer-allows",
-   "folder": "the-sheet-access-the-policy-no-longer-allows-v2",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-sheet-access-the-policy-no-longer-allows",
+   "declared_short": "the-sheet-access-the-policy-no-longer-allows",
    "domain": null,
+   "folder": "the-sheet-access-the-policy-no-longer-allows-v2",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "94c217a6fcddc7a554a10f1ed06dbc49fc93b659c5f8b6e2fdb45da8cdb6497f",
    "size_bytes": 18177906,
    "updated": "2026-10-10T16:58:40.613Z"
