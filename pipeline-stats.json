@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T16:25:03+00:00",
+ "generated_at": "2026-10-10T16:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3125,
-  "scanned": 3125,
-  "connector": 1438,
+  "task_folders": 3126,
+  "scanned": 3126,
+  "connector": 1439,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 252,
   "unknown": 442,
-  "synthetic": 744
+  "synthetic": 745
  },
  "domain": {
-  "unnamed": 1967,
+  "unnamed": 1968,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1440,
+  "harbor": 1441,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 374,
+  "slack-gym": 375,
   "google-drive-gym": 206,
   "email-calendar-gym": 205,
   "zeta3-sql-gym": 201,
@@ -46,7 +46,7 @@
   "notion-gym": 134,
   "github-gym": 96,
   "slack": 66,
-  "snowflake-gym": 43,
+  "snowflake-gym": 44,
   "supabase-gym": 23,
   "microsoft-365-gym": 23,
   "teams-gym": 16,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 141601
+  "approx_bytes_read": 139380
  },
  "errors": [],
  "tasks": [
@@ -6448,17 +6448,17 @@
    "updated": "2026-10-06T23:26:48.771Z"
   },
   {
-   "declared_name": "harbor/classifier-champion-conflict-audit",
-   "declared_short": "classifier-champion-conflict-audit",
-   "folder": "classifier-champion-conflict-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/classifier-champion-conflict-audit",
+   "declared_short": "classifier-champion-conflict-audit",
    "domain": null,
+   "folder": "classifier-champion-conflict-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "37dab7f723a2dbf19dd43ee96aab9013d38ddc9f29882451510dee1e8d3f772e",
    "size_bytes": 12244954,
    "updated": "2026-10-10T16:21:14.211Z"
@@ -32199,6 +32199,23 @@
    "sha256": "6329abe2e7a2db8b96428c9b8fef09f5be3de742697b00a2ebd2986cb59469d6",
    "size_bytes": 7500402,
    "updated": "2026-10-10T13:39:10.043Z"
+  },
+  {
+   "declared_name": "harbor/payment-methods-subscriptions-feed-audit",
+   "declared_short": "payment-methods-subscriptions-feed-audit",
+   "folder": "payment-methods-subscriptions-feed-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "1bb54c40a029ec3125e84bfcc9692c52abb4e59f8918af3112fee4711d1438ad",
+   "size_bytes": 13839231,
+   "updated": "2026-10-10T16:26:15.731Z"
   },
   {
    "connector_provenance": "unknown",
