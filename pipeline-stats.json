@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T20:55:03+00:00",
+ "generated_at": "2026-10-10T21:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3145,
-  "scanned": 3145,
-  "connector": 1458,
+  "task_folders": 3146,
+  "scanned": 3146,
+  "connector": 1459,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 446,
-  "synthetic": 758
+  "synthetic": 759
  },
  "domain": {
-  "unnamed": 1987,
+  "unnamed": 1988,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1460,
+  "harbor": 1461,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 386,
+  "slack-gym": 387,
   "google-drive-gym": 206,
   "email-calendar-gym": 206,
   "zeta3-sql-gym": 201,
@@ -44,7 +44,7 @@
   "linear-gym": 159,
   "outlook-gym": 139,
   "notion-gym": 135,
-  "github-gym": 96,
+  "github-gym": 97,
   "slack": 66,
   "snowflake-gym": 46,
   "microsoft-365-gym": 24,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 137414
  },
  "errors": [],
  "tasks": [
@@ -44449,6 +44449,23 @@
    "sha256": "79e886cc3415d8411f542129a674c091d2c2a246b73730259d4eddfb0f7174b5",
    "size_bytes": 9220734,
    "updated": "2026-10-01T10:02:03.299Z"
+  },
+  {
+   "declared_name": "harbor/unreleased-work-release-audit",
+   "declared_short": "unreleased-work-release-audit",
+   "folder": "unreleased-work-release-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym",
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "cf0fc2128b9d06505e9071826dfbe1ffce5caeb95d50b9a54e233a6acdc7dfe9",
+   "size_bytes": 10661275,
+   "updated": "2026-10-10T21:21:58.896Z"
   },
   {
    "connector_provenance": "real",
