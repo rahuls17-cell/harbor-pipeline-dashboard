@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T08:30:03+00:00",
+ "generated_at": "2026-10-10T08:40:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3074,
-  "scanned": 3074,
-  "connector": 1387,
+  "task_folders": 3076,
+  "scanned": 3076,
+  "connector": 1389,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 243,
-  "unknown": 421,
+  "unknown": 423,
   "synthetic": 723
  },
  "domain": {
-  "unnamed": 1916,
+  "unnamed": 1918,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1389,
+  "harbor": 1391,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -43,8 +43,8 @@
   "gws-gym": 175,
   "linear-gym": 156,
   "notion-gym": 134,
-  "outlook-gym": 131,
-  "github-gym": 91,
+  "outlook-gym": 132,
+  "github-gym": 92,
   "slack": 66,
   "snowflake-gym": 42,
   "supabase-gym": 23,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 278974
  },
  "errors": [],
  "tasks": [
@@ -1440,6 +1440,22 @@
    "sha256": "6a5e155c58678b25a57069a1b5f38da3c67c589850929ef08dedf17cddc4de48",
    "size_bytes": 8101370,
    "updated": "2026-10-07T11:29:22.508Z"
+  },
+  {
+   "declared_name": "harbor/app-components-that-need-licence-consent",
+   "declared_short": "app-components-that-need-licence-consent",
+   "folder": "app-components-that-need-licence-consent",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "9e162b478904469eb466970004cd8275f7bdef23d03a4e692793f54863673321",
+   "size_bytes": 9061622,
+   "updated": "2026-10-10T08:37:16.655Z"
   },
   {
    "connector_provenance": "real",
@@ -44746,6 +44762,22 @@
    "sha256": "ad4e09edd30ee06f6ffd825fc9edde7b304105e614253b3485830f34f8a2145f",
    "size_bytes": 17353767,
    "updated": "2026-09-20T17:41:08.864Z"
+  },
+  {
+   "declared_name": "harbor/what-the-receipts-say-we-paid",
+   "declared_short": "what-the-receipts-say-we-paid",
+   "folder": "what-the-receipts-say-we-paid",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "eb5b171b44dceb668dfee0146fcf938ab283dfb3721bb30cf64331734c4d7d3d",
+   "size_bytes": 38003033,
+   "updated": "2026-10-10T08:37:54.242Z"
   },
   {
    "connector_provenance": "synthetic",
