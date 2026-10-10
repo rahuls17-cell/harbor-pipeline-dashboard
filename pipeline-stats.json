@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T02:05:03+00:00",
+ "generated_at": "2026-10-10T02:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3034,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136721
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -31718,17 +31718,17 @@
    "updated": "2026-10-03T06:18:56.883Z"
   },
   {
-   "declared_name": "harbor/patient-sheets-shared-beyond-the-care-team",
-   "declared_short": "patient-sheets-shared-beyond-the-care-team",
-   "folder": "patient-sheets-shared-beyond-the-care-team",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/patient-sheets-shared-beyond-the-care-team",
+   "declared_short": "patient-sheets-shared-beyond-the-care-team",
    "domain": null,
+   "folder": "patient-sheets-shared-beyond-the-care-team",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c9d886f0fc7e9cf776a2604c83a858ff22ef138a9a2b310ce7443e8bb18e4d58",
    "size_bytes": 9013677,
    "updated": "2026-10-10T02:03:41.341Z"
