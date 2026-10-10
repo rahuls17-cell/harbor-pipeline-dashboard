@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T07:30:03+00:00",
+ "generated_at": "2026-10-10T07:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3062,
-  "scanned": 3062,
-  "connector": 1375,
+  "task_folders": 3063,
+  "scanned": 3063,
+  "connector": 1376,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 241,
-  "unknown": 415,
+  "unknown": 416,
   "synthetic": 719
  },
  "domain": {
-  "unnamed": 1904,
+  "unnamed": 1905,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1377,
+  "harbor": 1378,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 350,
+  "slack-gym": 351,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "email-calendar-gym": 199,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 141834
+  "approx_bytes_read": 135570
  },
  "errors": [],
  "tasks": [
@@ -30754,17 +30754,17 @@
    "updated": "2026-10-02T20:21:07.028Z"
   },
   {
-   "declared_name": "harbor/methods-owner-checkin-audit",
-   "declared_short": "methods-owner-checkin-audit",
-   "folder": "methods-owner-checkin-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/methods-owner-checkin-audit",
+   "declared_short": "methods-owner-checkin-audit",
    "domain": null,
+   "folder": "methods-owner-checkin-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "429aab18269758557ea73c98bc09559ccef144ebb15dc305f26d4d01a345960e",
    "size_bytes": 13138078,
    "updated": "2026-10-10T07:28:01.798Z"
@@ -38079,6 +38079,22 @@
    "sha256": "59b5a84f2776c2bde8710e5dfcb38fe30bcf90a7ea7fcd0e4e729853d2e35e5c",
    "size_bytes": 10907196,
    "updated": "2026-10-07T02:51:06.191Z"
+  },
+  {
+   "declared_name": "harbor/the-clinical-askers-who-never-came-back",
+   "declared_short": "the-clinical-askers-who-never-came-back",
+   "folder": "the-clinical-askers-who-never-came-back",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "65f44a15c9f0549f676b7cecca3a1e2252726d5ef96f216277533b39b41857c7",
+   "size_bytes": 8525901,
+   "updated": "2026-10-10T07:30:31.723Z"
   },
   {
    "connector_provenance": "synthetic",
