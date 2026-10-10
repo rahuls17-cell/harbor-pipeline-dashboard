@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T05:25:04+00:00",
+ "generated_at": "2026-10-10T05:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3047,
-  "scanned": 3047,
-  "connector": 1360,
+  "task_folders": 3048,
+  "scanned": 3048,
+  "connector": 1361,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
-  "real": 240,
+  "real": 241,
   "unknown": 407,
   "synthetic": 713
  },
  "domain": {
-  "unnamed": 1889,
+  "unnamed": 1890,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1362,
+  "harbor": 1363,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -40,7 +40,7 @@
   "jira-gym": 192,
   "email-gym": 188,
   "freshdesk-gym": 188,
-  "gws-gym": 165,
+  "gws-gym": 166,
   "linear-gym": 155,
   "notion-gym": 134,
   "outlook-gym": 125,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 136123
+  "approx_bytes_read": 138077
  },
  "errors": [],
  "tasks": [
@@ -41138,6 +41138,22 @@
    "updated": "2026-10-01T09:06:49.415Z"
   },
   {
+   "declared_name": "harbor/the-reviews-no-quarter-closed",
+   "declared_short": "the-reviews-no-quarter-closed",
+   "folder": "the-reviews-no-quarter-closed",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "gws-gym"
+   ],
+   "connector_provenance": "real",
+   "domain": null,
+   "image": null,
+   "sha256": "828163876ace0a6022475330b33e30e09cf45592b967e5e7ecd96017526a4981",
+   "size_bytes": 13069552,
+   "updated": "2026-10-10T05:27:18.836Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "teams-gym"
@@ -42194,17 +42210,17 @@
    "updated": "2026-09-21T12:40:34.257Z"
   },
   {
-   "declared_name": "harbor/the-user-table-left-open",
-   "declared_short": "the-user-table-left-open",
-   "folder": "the-user-table-left-open",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "unknown",
    "connector_services": [
     "supabase-gym"
    ],
-   "connector_provenance": "unknown",
+   "declared_name": "harbor/the-user-table-left-open",
+   "declared_short": "the-user-table-left-open",
    "domain": null,
+   "folder": "the-user-table-left-open",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4fe8414d0706deb96786e17416f9eb34864783d53d78451c657835b7ab65f494",
    "size_bytes": 9589822,
    "updated": "2026-10-10T05:24:41.132Z"
