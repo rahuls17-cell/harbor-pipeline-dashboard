@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T23:45:03+00:00",
+ "generated_at": "2026-10-10T23:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3156,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133896
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -12958,18 +12958,18 @@
    "updated": "2026-10-03T00:16:26.972Z"
   },
   {
-   "declared_name": "harbor/database-dump-disposal-audit",
-   "declared_short": "database-dump-disposal-audit",
-   "folder": "database-dump-disposal-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym",
     "supabase-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/database-dump-disposal-audit",
+   "declared_short": "database-dump-disposal-audit",
    "domain": null,
+   "folder": "database-dump-disposal-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "f3b4e923ec614127fd6de1ae7b9d132e75d649dae5c25a51e0a7fc66d0119ada",
    "size_bytes": 7959106,
    "updated": "2026-10-10T23:42:00.504Z"
