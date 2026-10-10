@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T22:10:03+00:00",
+ "generated_at": "2026-10-10T22:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3148,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 141168
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -45420,17 +45420,17 @@
    "updated": "2026-10-07T13:23:49.039Z"
   },
   {
-   "declared_name": "harbor/weekend-issue-reply-audit",
-   "declared_short": "weekend-issue-reply-audit",
-   "folder": "weekend-issue-reply-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/weekend-issue-reply-audit",
+   "declared_short": "weekend-issue-reply-audit",
    "domain": null,
+   "folder": "weekend-issue-reply-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2a46fdc411f481582cea2ce969792e1a9a668b1658d8de360f483a0ba3688650",
    "size_bytes": 7824907,
    "updated": "2026-10-10T22:09:49.696Z"
