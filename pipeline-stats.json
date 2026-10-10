@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-10T14:40:03+00:00",
+ "generated_at": "2026-10-10T14:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3110,
-  "scanned": 3110,
-  "connector": 1423,
+  "task_folders": 3111,
+  "scanned": 3111,
+  "connector": 1424,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 249,
-  "unknown": 436,
+  "unknown": 437,
   "synthetic": 738
  },
  "domain": {
-  "unnamed": 1952,
+  "unnamed": 1953,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1425,
+  "harbor": 1426,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -42,7 +42,7 @@
   "freshdesk-gym": 188,
   "gws-gym": 181,
   "linear-gym": 158,
-  "outlook-gym": 136,
+  "outlook-gym": 137,
   "notion-gym": 134,
   "github-gym": 94,
   "slack": 66,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 134341
  },
  "errors": [],
  "tasks": [
@@ -42373,6 +42373,22 @@
    "sha256": "d559107a70aea822fd4472f7c2874f3c4ee3cd193ac9ddcfd2b77420a9b325e9",
    "size_bytes": 8955429,
    "updated": "2026-10-10T08:00:07.804Z"
+  },
+  {
+   "declared_name": "harbor/the-software-we-prepaid-at-year-end",
+   "declared_short": "the-software-we-prepaid-at-year-end",
+   "folder": "the-software-we-prepaid-at-year-end",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "outlook-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "b6383839195f4adfff87b078b813bdb3718eddc9e39fb5e5e06e3f9bdc6425f9",
+   "size_bytes": 72578305,
+   "updated": "2026-10-10T14:40:05.554Z"
   },
   {
    "connector_provenance": "synthetic",
