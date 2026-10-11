@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T00:50:04+00:00",
+ "generated_at": "2026-10-11T00:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3164,
-  "scanned": 3164,
-  "connector": 1477,
+  "task_folders": 3165,
+  "scanned": 3165,
+  "connector": 1478,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 776
+  "synthetic": 777
  },
  "domain": {
-  "unnamed": 2006,
+  "unnamed": 2007,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1479,
+  "harbor": 1480,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 394,
+  "slack-gym": 395,
   "email-calendar-gym": 210,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 273927
+  "new_archives_read": 1,
+  "approx_bytes_read": 141026
  },
  "errors": [],
  "tasks": [
@@ -16452,18 +16452,18 @@
    "updated": "2026-10-02T22:27:53.526Z"
   },
   {
-   "declared_name": "harbor/failure-autosuspend-leak-cost",
-   "declared_short": "failure-autosuspend-leak-cost",
-   "folder": "failure-autosuspend-leak-cost",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/failure-autosuspend-leak-cost",
+   "declared_short": "failure-autosuspend-leak-cost",
    "domain": null,
+   "folder": "failure-autosuspend-leak-cost",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b48d192a707b36b3fb7f8203594f4a2e08e964dc6853c1a53aeb8d6d78edbfe1",
    "size_bytes": 11505707,
    "updated": "2026-10-11T00:49:44.306Z"
@@ -33595,17 +33595,17 @@
    "updated": "2026-10-09T06:00:05.753Z"
   },
   {
-   "declared_name": "harbor/renewal-commitment-audit",
-   "declared_short": "renewal-commitment-audit",
-   "folder": "renewal-commitment-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/renewal-commitment-audit",
+   "declared_short": "renewal-commitment-audit",
    "domain": null,
+   "folder": "renewal-commitment-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0b21574e2c580c839dee995f5885b3ead7cc8d21a2cce4f1595a50700170abec",
    "size_bytes": 11278516,
    "updated": "2026-10-11T00:46:06.955Z"
@@ -34844,6 +34844,22 @@
    "sha256": "ef60c4d3437e02d843d51de817dcab6be354b05261c900a8760bd2a819818d09",
    "size_bytes": 10607144,
    "updated": "2026-10-03T07:45:44.541Z"
+  },
+  {
+   "declared_name": "harbor/small-spend-approval-authority",
+   "declared_short": "small-spend-approval-authority",
+   "folder": "small-spend-approval-authority",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c96b820a059fe266c1237eef408651fb04dcb32786cd7856e99776a352c0de98",
+   "size_bytes": 10458326,
+   "updated": "2026-10-11T00:52:43.911Z"
   },
   {
    "connector_provenance": "real",
