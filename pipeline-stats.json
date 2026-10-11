@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T10:40:03+00:00",
+ "generated_at": "2026-10-11T10:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3209,
-  "scanned": 3209,
-  "connector": 1522,
+  "task_folders": 3210,
+  "scanned": 3210,
+  "connector": 1523,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 821
+  "synthetic": 822
  },
  "domain": {
-  "unnamed": 2051,
+  "unnamed": 2052,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1524,
+  "harbor": 1525,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -43,7 +43,7 @@
   "gws-gym": 187,
   "linear-gym": 171,
   "outlook-gym": 142,
-  "notion-gym": 136,
+  "notion-gym": 137,
   "github-gym": 101,
   "slack": 66,
   "snowflake-gym": 54,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 142595
  },
  "errors": [],
  "tasks": [
@@ -34269,6 +34269,22 @@
    "sha256": "f4e2d8a3224e0b68b9afa6338ffc34d7a5c1adb3543390f45ca5c941e2703858",
    "size_bytes": 6023890,
    "updated": "2026-10-06T11:47:47.447Z"
+  },
+  {
+   "declared_name": "harbor/research-note-citability-audit",
+   "declared_short": "research-note-citability-audit",
+   "folder": "research-note-citability-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "e8ac7ea705b1eb8993e34f428e3f8c2add554c4ec977be2fb73794e09e2d4560",
+   "size_bytes": 7614178,
+   "updated": "2026-10-11T10:42:37.068Z"
   },
   {
    "connector_provenance": "synthetic",
