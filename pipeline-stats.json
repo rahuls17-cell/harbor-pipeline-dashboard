@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T00:45:03+00:00",
+ "generated_at": "2026-10-11T00:50:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3162,
-  "scanned": 3162,
-  "connector": 1475,
+  "task_folders": 3164,
+  "scanned": 3164,
+  "connector": 1477,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 774
+  "synthetic": 776
  },
  "domain": {
-  "unnamed": 2004,
+  "unnamed": 2006,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1477,
+  "harbor": 1479,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,12 +41,12 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "gws-gym": 187,
-  "linear-gym": 160,
+  "linear-gym": 162,
   "outlook-gym": 142,
   "notion-gym": 135,
   "github-gym": 98,
   "slack": 66,
-  "snowflake-gym": 48,
+  "snowflake-gym": 49,
   "microsoft-365-gym": 26,
   "supabase-gym": 24,
   "teams-gym": 16,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 273927
  },
  "errors": [],
  "tasks": [
@@ -16450,6 +16450,23 @@
    "sha256": "112e2fb5f66d0e231a33c21d921cf7a2c0d61f9f30f19341379d69797f2b2c6b",
    "size_bytes": 16767649,
    "updated": "2026-10-02T22:27:53.526Z"
+  },
+  {
+   "declared_name": "harbor/failure-autosuspend-leak-cost",
+   "declared_short": "failure-autosuspend-leak-cost",
+   "folder": "failure-autosuspend-leak-cost",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "b48d192a707b36b3fb7f8203594f4a2e08e964dc6853c1a53aeb8d6d78edbfe1",
+   "size_bytes": 11505707,
+   "updated": "2026-10-11T00:49:44.306Z"
   },
   {
    "connector_provenance": "unknown",
@@ -33576,6 +33593,22 @@
    "sha256": "01a6556f2ed42922839cf402773175c8922e1d8382001e87bb70e12102867254",
    "size_bytes": 13032825,
    "updated": "2026-10-09T06:00:05.753Z"
+  },
+  {
+   "declared_name": "harbor/renewal-commitment-audit",
+   "declared_short": "renewal-commitment-audit",
+   "folder": "renewal-commitment-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "0b21574e2c580c839dee995f5885b3ead7cc8d21a2cce4f1595a50700170abec",
+   "size_bytes": 11278516,
+   "updated": "2026-10-11T00:46:06.955Z"
   },
   {
    "connector_provenance": "unknown",
