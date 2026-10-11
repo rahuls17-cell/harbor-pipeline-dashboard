@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T06:40:02+00:00",
+ "generated_at": "2026-10-11T06:55:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3186,
-  "scanned": 3186,
-  "connector": 1499,
+  "task_folders": 3188,
+  "scanned": 3188,
+  "connector": 1501,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 798
+  "synthetic": 800
  },
  "domain": {
-  "unnamed": 2028,
+  "unnamed": 2030,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1501,
+  "harbor": 1503,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,9 +41,9 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "gws-gym": 187,
-  "linear-gym": 165,
+  "linear-gym": 166,
   "outlook-gym": 142,
-  "notion-gym": 135,
+  "notion-gym": 136,
   "github-gym": 101,
   "slack": 66,
   "snowflake-gym": 51,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 272485
  },
  "errors": [],
  "tasks": [
@@ -32177,6 +32177,22 @@
    "updated": "2026-10-11T04:27:38.628Z"
   },
   {
+   "declared_name": "harbor/onboarding-curriculum-readiness-audit",
+   "declared_short": "onboarding-curriculum-readiness-audit",
+   "folder": "onboarding-curriculum-readiness-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "notion-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "e53f4b1e3d6362d604225475f4b47d1638ab28d7749c6c6be90ce8826b34698b",
+   "size_bytes": 8770339,
+   "updated": "2026-10-11T06:54:21.195Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
@@ -32768,6 +32784,22 @@
    "sha256": "2332cd57350500d0ce7df4d7632b088cd8d8b38f74c045c4614c6ddc53b082bc",
    "size_bytes": 13688335,
    "updated": "2026-10-10T04:49:36.989Z"
+  },
+  {
+   "declared_name": "harbor/pci-audit-calendar-audit",
+   "declared_short": "pci-audit-calendar-audit",
+   "folder": "pci-audit-calendar-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "4cf6475735599d1e6c76fdf3c2f7598ec4d238bdc852ce55b34185f50e57b3fa",
+   "size_bytes": 8968435,
+   "updated": "2026-10-11T06:53:34.810Z"
   },
   {
    "connector_provenance": "real",
