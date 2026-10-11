@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T07:40:03+00:00",
+ "generated_at": "2026-10-11T07:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3191,
-  "scanned": 3191,
-  "connector": 1504,
+  "task_folders": 3194,
+  "scanned": 3194,
+  "connector": 1507,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 803
+  "synthetic": 806
  },
  "domain": {
-  "unnamed": 2033,
+  "unnamed": 2036,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1506,
+  "harbor": 1509,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,21 +41,21 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "gws-gym": 187,
-  "linear-gym": 167,
+  "linear-gym": 168,
   "outlook-gym": 142,
   "notion-gym": 136,
   "github-gym": 101,
   "slack": 66,
-  "snowflake-gym": 51,
-  "microsoft-365-gym": 29,
+  "snowflake-gym": 52,
+  "microsoft-365-gym": 31,
   "supabase-gym": 24,
   "teams-gym": 17,
   "shopify-gym": 7,
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 3,
+  "approx_bytes_read": 416140
  },
  "errors": [],
  "tasks": [
@@ -2713,6 +2713,22 @@
    "sha256": "eff16c0e2dad6f167150c81608910684677dac9de965cd7737c387e0d853e476",
    "size_bytes": 7476781,
    "updated": "2026-09-29T05:04:16.285Z"
+  },
+  {
+   "declared_name": "harbor/board-package-readiness-audit",
+   "declared_short": "board-package-readiness-audit",
+   "folder": "board-package-readiness-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "89a84c00701292840ef724e6e241b75184695b6ddbe1c1ac6cebecd92e3640b3",
+   "size_bytes": 6451796,
+   "updated": "2026-10-11T07:40:58.087Z"
   },
   {
    "connector_provenance": "unknown",
@@ -28542,6 +28558,23 @@
    "updated": "2026-10-09T06:25:50.275Z"
   },
   {
+   "declared_name": "harbor/interdept-warehouse-recharge-settlement",
+   "declared_short": "interdept-warehouse-recharge-settlement",
+   "folder": "interdept-warehouse-recharge-settlement",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d99bad3ac0517c35b9fbef8b9d7fe67df4a45423164b4a9341cc50fe19fa9a77",
+   "size_bytes": 17144592,
+   "updated": "2026-10-11T07:44:24.572Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
@@ -34040,6 +34073,22 @@
    "sha256": "22a55324cc0a14f3d78f982248eefdc74dcbbb600bd20b1423c4d8b95075af79",
    "size_bytes": 9654474,
    "updated": "2026-10-06T10:55:50.193Z"
+  },
+  {
+   "declared_name": "harbor/research3-incentive-preapproval-audit",
+   "declared_short": "research3-incentive-preapproval-audit",
+   "folder": "research3-incentive-preapproval-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "95bd19175587f7bd74e01c1ed696c9e2838475d2432996ec95c06464719f0c46",
+   "size_bytes": 13923448,
+   "updated": "2026-10-11T07:44:42.574Z"
   },
   {
    "connector_provenance": "unknown",
