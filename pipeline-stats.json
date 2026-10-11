@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T15:15:03+00:00",
+ "generated_at": "2026-10-11T15:40:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3226,
-  "scanned": 3226,
-  "connector": 1539,
+  "task_folders": 3227,
+  "scanned": 3227,
+  "connector": 1540,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 838
+  "synthetic": 839
  },
  "domain": {
-  "unnamed": 2068,
+  "unnamed": 2069,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1541,
+  "harbor": 1542,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -47,7 +47,7 @@
   "github-gym": 101,
   "slack": 66,
   "snowflake-gym": 58,
-  "microsoft-365-gym": 40,
+  "microsoft-365-gym": 41,
   "supabase-gym": 24,
   "teams-gym": 17,
   "shopify-gym": 8,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 137967
+  "approx_bytes_read": 133984
  },
  "errors": [],
  "tasks": [
@@ -28225,6 +28225,22 @@
    "updated": "2026-10-11T08:07:37.752Z"
   },
   {
+   "declared_name": "harbor/helix-endpoint-source-window-audit",
+   "declared_short": "helix-endpoint-source-window-audit",
+   "folder": "helix-endpoint-source-window-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "1d83fbe037b7b41076ab250e00638ceaeef9148a521796ca7f945acfcd40099e",
+   "size_bytes": 10656772,
+   "updated": "2026-10-11T15:38:06.616Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
@@ -32952,18 +32968,18 @@
    "updated": "2026-10-02T21:47:15.161Z"
   },
   {
-   "declared_name": "harbor/paid-order-revenue-cutoff-audit",
-   "declared_short": "paid-order-revenue-cutoff-audit",
-   "folder": "paid-order-revenue-cutoff-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym",
     "shopify-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/paid-order-revenue-cutoff-audit",
+   "declared_short": "paid-order-revenue-cutoff-audit",
    "domain": null,
+   "folder": "paid-order-revenue-cutoff-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "8b51516bbae923f8c052336bb79b7c5649ea65dc7da2728a8fa12178dd29e018",
    "size_bytes": 9113210,
    "updated": "2026-10-11T15:10:46.238Z"
