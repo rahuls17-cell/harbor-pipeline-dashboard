@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T14:30:03+00:00",
+ "generated_at": "2026-10-11T14:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3224,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 276780
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -6907,17 +6907,17 @@
    "updated": "2026-10-02T19:48:24.661Z"
   },
   {
-   "declared_name": "harbor/closeout-named-owner-audit",
-   "declared_short": "closeout-named-owner-audit",
-   "folder": "closeout-named-owner-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/closeout-named-owner-audit",
+   "declared_short": "closeout-named-owner-audit",
    "domain": null,
+   "folder": "closeout-named-owner-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9a990a1c1249751a3f0c2d62b81bd2787e0ac69841c97f12a72a62b9620541c2",
    "size_bytes": 12271494,
    "updated": "2026-10-11T14:27:46.897Z"
@@ -33891,18 +33891,18 @@
    "updated": "2026-10-10T07:03:32.171Z"
   },
   {
-   "declared_name": "harbor/q3-compute-variance-bridge",
-   "declared_short": "q3-compute-variance-bridge",
-   "folder": "q3-compute-variance-bridge",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/q3-compute-variance-bridge",
+   "declared_short": "q3-compute-variance-bridge",
    "domain": null,
+   "folder": "q3-compute-variance-bridge",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "3e31db672ceafad69ac8c001b4cb7f688ac1f60d9d7d63dcf1678be279d8b82c",
    "size_bytes": 18990870,
    "updated": "2026-10-11T14:25:41.875Z"
