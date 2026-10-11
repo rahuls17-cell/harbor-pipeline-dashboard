@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T03:40:03+00:00",
+ "generated_at": "2026-10-11T04:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3174,
-  "scanned": 3174,
-  "connector": 1487,
+  "task_folders": 3176,
+  "scanned": 3176,
+  "connector": 1489,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 786
+  "synthetic": 788
  },
  "domain": {
-  "unnamed": 2016,
+  "unnamed": 2018,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1489,
+  "harbor": 1491,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -33,7 +33,7 @@
  },
  "connector_services": {
   "slack-gym": 398,
-  "email-calendar-gym": 211,
+  "email-calendar-gym": 212,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -47,15 +47,15 @@
   "github-gym": 99,
   "slack": 66,
   "snowflake-gym": 50,
-  "microsoft-365-gym": 28,
+  "microsoft-365-gym": 29,
   "supabase-gym": 24,
   "teams-gym": 17,
   "microsoft-teams-gym": 7,
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 280198
  },
  "errors": [],
  "tasks": [
@@ -12456,6 +12456,22 @@
    "updated": "2026-09-21T15:49:28.987Z"
   },
   {
+   "declared_name": "harbor/confidential-meeting-invitee-audit",
+   "declared_short": "confidential-meeting-invitee-audit",
+   "folder": "confidential-meeting-invitee-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d609892773d1092bad96a59f2081c1401dc627b5c98ecf4fbfda28ab7b43aaf9",
+   "size_bytes": 9201730,
+   "updated": "2026-10-11T04:00:28.122Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -16137,6 +16153,22 @@
    "sha256": "edb226a1d4bdf486978c6d42bb66049d2e1fe24336095b870f12d20b8e1ecd81",
    "size_bytes": 8701473,
    "updated": "2026-10-10T22:32:31.573Z"
+  },
+  {
+   "declared_name": "harbor/equipment-lookback-audit",
+   "declared_short": "equipment-lookback-audit",
+   "folder": "equipment-lookback-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "5522b5cf9a73369da2975ed65a078e00f4a584b20282f4f93580e392758e7b89",
+   "size_bytes": 7491818,
+   "updated": "2026-10-11T04:00:11.319Z"
   },
   {
    "connector_provenance": "unknown",
