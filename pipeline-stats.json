@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T07:25:03+00:00",
+ "generated_at": "2026-10-11T07:30:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3190,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 140666
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -32956,17 +32956,17 @@
    "updated": "2026-10-08T11:48:51.650Z"
   },
   {
-   "declared_name": "harbor/pi-meeting-coverage-audit",
-   "declared_short": "pi-meeting-coverage-audit",
-   "folder": "pi-meeting-coverage-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/pi-meeting-coverage-audit",
+   "declared_short": "pi-meeting-coverage-audit",
    "domain": null,
+   "folder": "pi-meeting-coverage-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "9d6c64f91914e18c38e9f6b7478f370f29021e8169b020f08e22376b8d04a0e8",
    "size_bytes": 7961724,
    "updated": "2026-10-11T07:23:31.001Z"
