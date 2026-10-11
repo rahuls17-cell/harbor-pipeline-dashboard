@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T17:55:03+00:00",
+ "generated_at": "2026-10-11T18:10:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3233,
-  "scanned": 3233,
-  "connector": 1546,
+  "task_folders": 3235,
+  "scanned": 3235,
+  "connector": 1548,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 845
+  "synthetic": 847
  },
  "domain": {
-  "unnamed": 2075,
+  "unnamed": 2077,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1548,
+  "harbor": 1550,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 421,
+  "slack-gym": 422,
   "email-calendar-gym": 217,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
@@ -47,15 +47,15 @@
   "github-gym": 101,
   "slack": 66,
   "snowflake-gym": 59,
-  "microsoft-365-gym": 43,
+  "microsoft-365-gym": 44,
   "supabase-gym": 24,
   "teams-gym": 17,
   "shopify-gym": 8,
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 275112
  },
  "errors": [],
  "tasks": [
@@ -45977,6 +45977,22 @@
    "updated": "2026-10-07T08:20:49.587Z"
   },
   {
+   "declared_name": "harbor/vendor-contract-tracker-audit",
+   "declared_short": "vendor-contract-tracker-audit",
+   "folder": "vendor-contract-tracker-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "a0fff874e7d13b4bef749bedd75ca263702585d66fb0ee84b6be9643bcf1fa99",
+   "size_bytes": 14395741,
+   "updated": "2026-10-11T18:06:11.618Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "notion-gym"
@@ -49166,6 +49182,22 @@
    "sha256": "375e3e300bb12dea4f4c19dc75b29ec9be204ad7d2108b18b78cb156ea61dfd8",
    "size_bytes": 7332178,
    "updated": "2026-09-29T16:11:56.650Z"
+  },
+  {
+   "declared_name": "harbor/workspace-admin-role-scope-audit",
+   "declared_short": "workspace-admin-role-scope-audit",
+   "folder": "workspace-admin-role-scope-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "a1fc3684eb91dbcbe4e71727d9c06241ba693c9e284a0df3e583a6d86da01cb6",
+   "size_bytes": 17143546,
+   "updated": "2026-10-11T18:09:55.714Z"
   },
   {
    "connector_provenance": "synthetic",
