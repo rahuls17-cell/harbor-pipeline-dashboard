@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T12:10:03+00:00",
+ "generated_at": "2026-10-11T12:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3213,
-  "scanned": 3213,
-  "connector": 1526,
+  "task_folders": 3214,
+  "scanned": 3214,
+  "connector": 1527,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 825
+  "synthetic": 826
  },
  "domain": {
-  "unnamed": 2055,
+  "unnamed": 2056,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1528,
+  "harbor": 1529,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 410,
+  "slack-gym": 411,
   "email-calendar-gym": 216,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133578
+  "approx_bytes_read": 143930
  },
  "errors": [],
  "tasks": [
@@ -12407,6 +12407,22 @@
    "sha256": "ed03ec53ff20af7eeae98efa273fc81114acc290275e4df217cbae3d1b0c24fb",
    "size_bytes": 8681364,
    "updated": "2026-09-30T09:46:54.507Z"
+  },
+  {
+   "declared_name": "harbor/compliance-audit-digest",
+   "declared_short": "compliance-audit-digest",
+   "folder": "compliance-audit-digest",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "28b2fc6455b1208d2e5b534af3528f4cd6bda1d31846c5fdff997a6aefc9d2a9",
+   "size_bytes": 8012571,
+   "updated": "2026-10-11T12:11:48.301Z"
   },
   {
    "connector_provenance": "unknown",
@@ -45524,17 +45540,17 @@
    "updated": "2026-10-10T21:21:58.896Z"
   },
   {
-   "declared_name": "harbor/unreplied-incident-post-audit",
-   "declared_short": "unreplied-incident-post-audit",
-   "folder": "unreplied-incident-post-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/unreplied-incident-post-audit",
+   "declared_short": "unreplied-incident-post-audit",
    "domain": null,
+   "folder": "unreplied-incident-post-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "750215d4f8ed0b9e46ad55088829aee5f52e22d8a3210d673e2a0eeae03a00e1",
    "size_bytes": 9681679,
    "updated": "2026-10-11T12:06:21.859Z"
