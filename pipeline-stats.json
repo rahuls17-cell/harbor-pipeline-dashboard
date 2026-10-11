@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T06:30:03+00:00",
+ "generated_at": "2026-10-11T06:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3185,
-  "scanned": 3185,
-  "connector": 1498,
+  "task_folders": 3186,
+  "scanned": 3186,
+  "connector": 1499,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 797
+  "synthetic": 798
  },
  "domain": {
-  "unnamed": 2027,
+  "unnamed": 2028,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1500,
+  "harbor": 1501,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -50,12 +50,12 @@
   "microsoft-365-gym": 29,
   "supabase-gym": 24,
   "teams-gym": 17,
-  "microsoft-teams-gym": 7,
-  "shopify-gym": 6
+  "shopify-gym": 7,
+  "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133961
  },
  "errors": [],
  "tasks": [
@@ -32447,6 +32447,22 @@
    "sha256": "9114e02dd82e8810a51b11297510257cb410947656c2640b791f87a854cdaff5",
    "size_bytes": 6478376,
    "updated": "2026-09-09T05:03:23.107Z"
+  },
+  {
+   "declared_name": "harbor/order-ledger-integrity-audit",
+   "declared_short": "order-ledger-integrity-audit",
+   "folder": "order-ledger-integrity-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "shopify-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c9c942f2a550dff6cb9c9b2b5ec2d5e96a999a56b9057075711d46b4389e3454",
+   "size_bytes": 11519884,
+   "updated": "2026-10-11T06:32:46.349Z"
   },
   {
    "connector_provenance": "unknown",
