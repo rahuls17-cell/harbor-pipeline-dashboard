@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T05:50:03+00:00",
+ "generated_at": "2026-10-11T06:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3180,
-  "scanned": 3180,
-  "connector": 1493,
+  "task_folders": 3182,
+  "scanned": 3182,
+  "connector": 1495,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 792
+  "synthetic": 794
  },
  "domain": {
-  "unnamed": 2022,
+  "unnamed": 2024,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1495,
+  "harbor": 1497,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,12 +41,12 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "gws-gym": 187,
-  "linear-gym": 164,
+  "linear-gym": 165,
   "outlook-gym": 142,
   "notion-gym": 135,
   "github-gym": 99,
   "slack": 66,
-  "snowflake-gym": 50,
+  "snowflake-gym": 51,
   "microsoft-365-gym": 29,
   "supabase-gym": 24,
   "teams-gym": 17,
@@ -54,8 +54,8 @@
   "shopify-gym": 6
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 275555
  },
  "errors": [],
  "tasks": [
@@ -31014,6 +31014,22 @@
    "updated": "2026-10-09T04:54:54.650Z"
   },
   {
+   "declared_name": "harbor/licensed-dataset-use-audit",
+   "declared_short": "licensed-dataset-use-audit",
+   "folder": "licensed-dataset-use-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "0f8a199f83df891c19be68b290f05ff7f7937300d116405ce58119666226becd",
+   "size_bytes": 12356242,
+   "updated": "2026-10-11T05:59:58.294Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "confluence-gym",
@@ -35055,6 +35071,22 @@
    "sha256": "c96b820a059fe266c1237eef408651fb04dcb32786cd7856e99776a352c0de98",
    "size_bytes": 10458326,
    "updated": "2026-10-11T00:52:43.911Z"
+  },
+  {
+   "declared_name": "harbor/soc2-quarterly-evidence-audit",
+   "declared_short": "soc2-quarterly-evidence-audit",
+   "folder": "soc2-quarterly-evidence-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d537f7e3e4c3dc7e1036db0b1f3b93c02cda3f7db327c289657f9a95d4d13384",
+   "size_bytes": 31321922,
+   "updated": "2026-10-11T05:58:44.652Z"
   },
   {
    "connector_provenance": "real",
