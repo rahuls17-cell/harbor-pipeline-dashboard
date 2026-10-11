@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T10:25:02+00:00",
+ "generated_at": "2026-10-11T10:30:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3206,
-  "scanned": 3206,
-  "connector": 1519,
+  "task_folders": 3208,
+  "scanned": 3208,
+  "connector": 1521,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 818
+  "synthetic": 820
  },
  "domain": {
-  "unnamed": 2048,
+  "unnamed": 2050,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1521,
+  "harbor": 1523,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,21 +41,21 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "gws-gym": 187,
-  "linear-gym": 170,
+  "linear-gym": 171,
   "outlook-gym": 142,
   "notion-gym": 136,
   "github-gym": 101,
   "slack": 66,
-  "snowflake-gym": 53,
-  "microsoft-365-gym": 37,
+  "snowflake-gym": 54,
+  "microsoft-365-gym": 38,
   "supabase-gym": 24,
   "teams-gym": 17,
   "shopify-gym": 7,
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 280583
  },
  "errors": [],
  "tasks": [
@@ -34004,6 +34004,22 @@
    "updated": "2026-09-23T05:49:45.958Z"
   },
   {
+   "declared_name": "harbor/records-edit-rights-audit",
+   "declared_short": "records-edit-rights-audit",
+   "folder": "records-edit-rights-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "95434884e4e689a04bf1f0c1429e13769f915f340ac3cca63d802ab7b76be26b",
+   "size_bytes": 9765669,
+   "updated": "2026-10-11T10:28:00.450Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -34404,6 +34420,23 @@
    "sha256": "ebd2bb640d89b65705bc25934f6df6bc3db1d0066dd9eb4c48dcc69a9221b305",
    "size_bytes": 8093891,
    "updated": "2026-10-10T11:42:37.167Z"
+  },
+  {
+   "declared_name": "harbor/revenue-spend-close-readiness",
+   "declared_short": "revenue-spend-close-readiness",
+   "folder": "revenue-spend-close-readiness",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "77107cd6666ab4632db3085071867f359c3a640bb59ee3ab3be003481133e9c5",
+   "size_bytes": 9022938,
+   "updated": "2026-10-11T10:29:01.600Z"
   },
   {
    "connector_provenance": "synthetic",
