@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T08:15:03+00:00",
+ "generated_at": "2026-10-11T08:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3195,
-  "scanned": 3195,
-  "connector": 1508,
+  "task_folders": 3196,
+  "scanned": 3196,
+  "connector": 1509,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 807
+  "synthetic": 808
  },
  "domain": {
-  "unnamed": 2037,
+  "unnamed": 2038,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1510,
+  "harbor": 1511,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -47,15 +47,15 @@
   "github-gym": 101,
   "slack": 66,
   "snowflake-gym": 52,
-  "microsoft-365-gym": 32,
+  "microsoft-365-gym": 33,
   "supabase-gym": 24,
   "teams-gym": 17,
   "shopify-gym": 7,
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 133299
  },
  "errors": [],
  "tasks": [
@@ -16055,6 +16055,22 @@
    "sha256": "7d6d6c7934aaca614997bfb8ef5ee17cc7297c96ee4a79af4ccd600d794014c3",
    "size_bytes": 8232041,
    "updated": "2026-10-01T10:10:03.314Z"
+  },
+  {
+   "declared_name": "harbor/enrollment-first-visit-audit",
+   "declared_short": "enrollment-first-visit-audit",
+   "folder": "enrollment-first-visit-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "de16825fa57a77848af9f203201f2e21071199a4baaa569f392ddece6aa1aede",
+   "size_bytes": 9723364,
+   "updated": "2026-10-11T08:20:16.022Z"
   },
   {
    "connector_provenance": "synthetic",
