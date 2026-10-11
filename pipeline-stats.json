@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T22:10:03+00:00",
+ "generated_at": "2026-10-11T22:15:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3242,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 141230
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -29283,17 +29283,17 @@
    "updated": "2026-10-03T08:48:12.284Z"
   },
   {
-   "declared_name": "harbor/issue-first-reply-audit",
-   "declared_short": "issue-first-reply-audit",
-   "folder": "issue-first-reply-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/issue-first-reply-audit",
+   "declared_short": "issue-first-reply-audit",
    "domain": null,
+   "folder": "issue-first-reply-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b13ffaa8cf5fa56ff599e6b45d5dec4782be7700d74f9733720a0097968dbaed",
    "size_bytes": 13950102,
    "updated": "2026-10-11T22:06:14.994Z"
