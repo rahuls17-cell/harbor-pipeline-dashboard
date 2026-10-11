@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T20:35:03+00:00",
+ "generated_at": "2026-10-11T20:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3239,
-  "scanned": 3239,
-  "connector": 1552,
+  "task_folders": 3240,
+  "scanned": 3240,
+  "connector": 1553,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 851
+  "synthetic": 852
  },
  "domain": {
-  "unnamed": 2081,
+  "unnamed": 2082,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1554,
+  "harbor": 1555,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,12 +41,12 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "gws-gym": 187,
-  "linear-gym": 176,
+  "linear-gym": 177,
   "outlook-gym": 142,
   "notion-gym": 137,
   "github-gym": 101,
   "slack": 66,
-  "snowflake-gym": 59,
+  "snowflake-gym": 60,
   "microsoft-365-gym": 44,
   "supabase-gym": 24,
   "teams-gym": 17,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 139982
  },
  "errors": [],
  "tasks": [
@@ -19049,6 +19049,23 @@
    "sha256": "b5cde977ca2e0c1027ec81ae46060e46b2ca69e7e34fea7193316dc2a8966203",
    "size_bytes": 7501729,
    "updated": "2026-10-08T13:44:42.023Z"
+  },
+  {
+   "declared_name": "harbor/foreign-export-revenue-contamination",
+   "declared_short": "foreign-export-revenue-contamination",
+   "folder": "foreign-export-revenue-contamination",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "fcdd1d7860317825269d1209fce742f1917084406200ad400208269832062de8",
+   "size_bytes": 13835700,
+   "updated": "2026-10-11T20:43:59.572Z"
   },
   {
    "connector_provenance": "synthetic",
