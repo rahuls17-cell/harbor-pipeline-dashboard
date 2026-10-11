@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T15:40:04+00:00",
+ "generated_at": "2026-10-11T15:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3227,
-  "scanned": 3227,
-  "connector": 1540,
+  "task_folders": 3228,
+  "scanned": 3228,
+  "connector": 1541,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 839
+  "synthetic": 840
  },
  "domain": {
-  "unnamed": 2069,
+  "unnamed": 2070,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1542,
+  "harbor": 1543,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,7 +41,7 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "gws-gym": 187,
-  "linear-gym": 174,
+  "linear-gym": 175,
   "outlook-gym": 142,
   "notion-gym": 137,
   "github-gym": 101,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 133984
+  "approx_bytes_read": 141310
  },
  "errors": [],
  "tasks": [
@@ -16592,6 +16592,22 @@
    "updated": "2026-10-09T01:41:24.832Z"
   },
   {
+   "declared_name": "harbor/evidence-filing-obligation-audit",
+   "declared_short": "evidence-filing-obligation-audit",
+   "folder": "evidence-filing-obligation-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "b3892cb37799abc5ae92afe069d6fdcbc3f4581ba78f0ddd915344db54dbece0",
+   "size_bytes": 28551540,
+   "updated": "2026-10-11T15:44:15.705Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "notion-gym"
@@ -28225,17 +28241,17 @@
    "updated": "2026-10-11T08:07:37.752Z"
   },
   {
-   "declared_name": "harbor/helix-endpoint-source-window-audit",
-   "declared_short": "helix-endpoint-source-window-audit",
-   "folder": "helix-endpoint-source-window-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/helix-endpoint-source-window-audit",
+   "declared_short": "helix-endpoint-source-window-audit",
    "domain": null,
+   "folder": "helix-endpoint-source-window-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "1d83fbe037b7b41076ab250e00638ceaeef9148a521796ca7f945acfcd40099e",
    "size_bytes": 10656772,
    "updated": "2026-10-11T15:38:06.616Z"
