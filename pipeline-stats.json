@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T09:30:04+00:00",
+ "generated_at": "2026-10-11T09:35:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3202,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 409901
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -12295,18 +12295,18 @@
    "updated": "2026-10-02T18:31:15.181Z"
   },
   {
-   "declared_name": "harbor/coding-edit-recoupment-audit",
-   "declared_short": "coding-edit-recoupment-audit",
-   "folder": "coding-edit-recoupment-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym",
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/coding-edit-recoupment-audit",
+   "declared_short": "coding-edit-recoupment-audit",
    "domain": null,
+   "folder": "coding-edit-recoupment-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "61c03aba774464843c3f69f44a682eacf3e28a1e98d90c902400e4a175bd69a2",
    "size_bytes": 7956323,
    "updated": "2026-10-11T09:27:04.603Z"
@@ -13448,17 +13448,17 @@
    "updated": "2026-10-09T06:14:53.513Z"
   },
   {
-   "declared_name": "harbor/deviation-trend-capa-audit",
-   "declared_short": "deviation-trend-capa-audit",
-   "folder": "deviation-trend-capa-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/deviation-trend-capa-audit",
+   "declared_short": "deviation-trend-capa-audit",
    "domain": null,
+   "folder": "deviation-trend-capa-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "aaf78f3d7f33f414f63e05d38d15417fca64152cf46477d7bea5d88ddd9c4024",
    "size_bytes": 15252891,
    "updated": "2026-10-11T09:25:13.420Z"
@@ -32787,17 +32787,17 @@
    "updated": "2026-09-10T18:04:19.311Z"
   },
   {
-   "declared_name": "harbor/participant-data-retention-audit",
-   "declared_short": "participant-data-retention-audit",
-   "folder": "participant-data-retention-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/participant-data-retention-audit",
+   "declared_short": "participant-data-retention-audit",
    "domain": null,
+   "folder": "participant-data-retention-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0b78e67fbea37eaf7527a1e01063e6e010a189cfcffdddedf301fa931070ddaf",
    "size_bytes": 17004667,
    "updated": "2026-10-11T09:28:28.727Z"
