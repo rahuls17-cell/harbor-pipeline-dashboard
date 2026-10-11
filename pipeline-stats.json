@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T13:55:03+00:00",
+ "generated_at": "2026-10-11T14:00:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3220,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 141123
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -28723,17 +28723,17 @@
    "updated": "2026-10-08T09:41:42.479Z"
   },
   {
-   "declared_name": "harbor/instrument-fix-owner-audit",
-   "declared_short": "instrument-fix-owner-audit",
-   "folder": "instrument-fix-owner-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/instrument-fix-owner-audit",
+   "declared_short": "instrument-fix-owner-audit",
    "domain": null,
+   "folder": "instrument-fix-owner-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a108b45a3227ac7c2336cab9ffc73166a8ec751b03be8614ee4413ed584a7f39",
    "size_bytes": 13349912,
    "updated": "2026-10-11T13:53:40.289Z"
