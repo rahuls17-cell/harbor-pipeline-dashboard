@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T03:30:03+00:00",
+ "generated_at": "2026-10-11T03:35:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3173,
-  "scanned": 3173,
-  "connector": 1486,
+  "task_folders": 3174,
+  "scanned": 3174,
+  "connector": 1487,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 785
+  "synthetic": 786
  },
  "domain": {
-  "unnamed": 2015,
+  "unnamed": 2016,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1488,
+  "harbor": 1489,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -44,7 +44,7 @@
   "linear-gym": 164,
   "outlook-gym": 142,
   "notion-gym": 135,
-  "github-gym": 98,
+  "github-gym": 99,
   "slack": 66,
   "snowflake-gym": 50,
   "microsoft-365-gym": 28,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 269436
+  "new_archives_read": 1,
+  "approx_bytes_read": 140080
  },
  "errors": [],
  "tasks": [
@@ -13072,17 +13072,17 @@
    "updated": "2026-10-08T18:29:54.044Z"
   },
   {
-   "declared_name": "harbor/decision-request-pi-input-audit",
-   "declared_short": "decision-request-pi-input-audit",
-   "folder": "decision-request-pi-input-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/decision-request-pi-input-audit",
+   "declared_short": "decision-request-pi-input-audit",
    "domain": null,
+   "folder": "decision-request-pi-input-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "626a43cb7c570fe95be68d6f2150e63da4ae2af28b076d2d328b8ddaf84ff6fd",
    "size_bytes": 10052539,
    "updated": "2026-10-11T03:28:10.516Z"
@@ -28317,17 +28317,17 @@
    "updated": "2026-10-03T05:28:05.011Z"
   },
   {
-   "declared_name": "harbor/initiative-compliance-hold-audit",
-   "declared_short": "initiative-compliance-hold-audit",
-   "folder": "initiative-compliance-hold-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/initiative-compliance-hold-audit",
+   "declared_short": "initiative-compliance-hold-audit",
    "domain": null,
+   "folder": "initiative-compliance-hold-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5603ba064b3097a1354159d3cd3d9d4f2d116df4642020017a9d455f295cffdc",
    "size_bytes": 8869845,
    "updated": "2026-10-11T03:25:47.577Z"
@@ -34990,6 +34990,22 @@
    "sha256": "5778dd60db7943e69f2af6bf535111343a4b1ddb363789782a213ccc092390a8",
    "size_bytes": 29161581,
    "updated": "2026-10-09T14:33:53.307Z"
+  },
+  {
+   "declared_name": "harbor/software-paper-contributor-roster-audit",
+   "declared_short": "software-paper-contributor-roster-audit",
+   "folder": "software-paper-contributor-roster-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "github-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "ca3c06ab86974b003db45758b4e095e8df4b529b40d8ef26d10375328da22362",
+   "size_bytes": 8999095,
+   "updated": "2026-10-11T03:32:54.318Z"
   },
   {
    "connector_provenance": "synthetic",
