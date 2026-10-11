@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T00:35:03+00:00",
+ "generated_at": "2026-10-11T00:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3161,
-  "scanned": 3161,
-  "connector": 1474,
+  "task_folders": 3162,
+  "scanned": 3162,
+  "connector": 1475,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
-  "unknown": 446,
+  "unknown": 447,
   "synthetic": 774
  },
  "domain": {
-  "unnamed": 2003,
+  "unnamed": 2004,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1476,
+  "harbor": 1477,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -33,7 +33,7 @@
  },
  "connector_services": {
   "slack-gym": 394,
-  "email-calendar-gym": 209,
+  "email-calendar-gym": 210,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 141968
+  "approx_bytes_read": 138265
  },
  "errors": [],
  "tasks": [
@@ -25398,6 +25398,22 @@
    "updated": "2026-09-06T04:19:33.735Z"
   },
   {
+   "declared_name": "harbor/the-referrals-that-never-came-back",
+   "declared_short": "the-referrals-that-never-came-back",
+   "folder": "harbor-single-task-zvicdog7",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym"
+   ],
+   "connector_provenance": "unknown",
+   "domain": null,
+   "image": null,
+   "sha256": "ec697f8dddcc50a221765e4dacdaf5ae293d4ae47f05654227961b1d4a987243",
+   "size_bytes": 20607754,
+   "updated": "2026-10-11T00:38:29.086Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "gws-gym"
@@ -28599,18 +28615,18 @@
    "updated": "2026-10-03T03:48:21.180Z"
   },
   {
-   "declared_name": "harbor/invoice-export-loopback-audit",
-   "declared_short": "invoice-export-loopback-audit",
-   "folder": "invoice-export-loopback-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/invoice-export-loopback-audit",
+   "declared_short": "invoice-export-loopback-audit",
    "domain": null,
+   "folder": "invoice-export-loopback-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "82f50855b8edcba9adcbb6f74616e0147c0bc1f21cdb603ac96f3a16ba419cb9",
    "size_bytes": 17344019,
    "updated": "2026-10-11T00:33:25.480Z"
