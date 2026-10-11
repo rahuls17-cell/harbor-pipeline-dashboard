@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T15:45:03+00:00",
+ "generated_at": "2026-10-11T15:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3228,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 141310
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -16592,17 +16592,17 @@
    "updated": "2026-10-09T01:41:24.832Z"
   },
   {
-   "declared_name": "harbor/evidence-filing-obligation-audit",
-   "declared_short": "evidence-filing-obligation-audit",
-   "folder": "evidence-filing-obligation-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/evidence-filing-obligation-audit",
+   "declared_short": "evidence-filing-obligation-audit",
    "domain": null,
+   "folder": "evidence-filing-obligation-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b3892cb37799abc5ae92afe069d6fdcbc3f4581ba78f0ddd915344db54dbece0",
    "size_bytes": 28551540,
    "updated": "2026-10-11T15:44:15.705Z"
