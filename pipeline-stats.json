@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T05:20:03+00:00",
+ "generated_at": "2026-10-11T05:45:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3179,
-  "scanned": 3179,
-  "connector": 1492,
+  "task_folders": 3180,
+  "scanned": 3180,
+  "connector": 1493,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 791
+  "synthetic": 792
  },
  "domain": {
-  "unnamed": 2021,
+  "unnamed": 2022,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1494,
+  "harbor": 1495,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -33,7 +33,7 @@
  },
  "connector_services": {
   "slack-gym": 401,
-  "email-calendar-gym": 212,
+  "email-calendar-gym": 213,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -51,11 +51,11 @@
   "supabase-gym": 24,
   "teams-gym": 17,
   "microsoft-teams-gym": 7,
-  "shopify-gym": 5
+  "shopify-gym": 6
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 138243
  },
  "errors": [],
  "tasks": [
@@ -33700,6 +33700,23 @@
    "sha256": "3bd7271a60dde164afbb18f252c2efa69f162d39c4516a117ff924bcc667469c",
    "size_bytes": 10312235,
    "updated": "2026-09-20T03:38:33.994Z"
+  },
+  {
+   "declared_name": "harbor/refund-control-exception-audit",
+   "declared_short": "refund-control-exception-audit",
+   "folder": "refund-control-exception-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym",
+    "shopify-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "cc9a886d397495a66435f2281bfa7e801bbe26009c59d3712038ee24da6477d7",
+   "size_bytes": 9068084,
+   "updated": "2026-10-11T05:44:26.488Z"
   },
   {
    "connector_provenance": "synthetic",
