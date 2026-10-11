@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T08:25:03+00:00",
+ "generated_at": "2026-10-11T08:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3196,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 133299
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -16057,17 +16057,17 @@
    "updated": "2026-10-01T10:10:03.314Z"
   },
   {
-   "declared_name": "harbor/enrollment-first-visit-audit",
-   "declared_short": "enrollment-first-visit-audit",
-   "folder": "enrollment-first-visit-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/enrollment-first-visit-audit",
+   "declared_short": "enrollment-first-visit-audit",
    "domain": null,
+   "folder": "enrollment-first-visit-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "de16825fa57a77848af9f203201f2e21071199a4baaa569f392ddece6aa1aede",
    "size_bytes": 9723364,
    "updated": "2026-10-11T08:20:16.022Z"
