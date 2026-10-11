@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T02:25:03+00:00",
+ "generated_at": "2026-10-11T02:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3169,
-  "scanned": 3169,
-  "connector": 1482,
+  "task_folders": 3170,
+  "scanned": 3170,
+  "connector": 1483,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 781
+  "synthetic": 782
  },
  "domain": {
-  "unnamed": 2011,
+  "unnamed": 2012,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1484,
+  "harbor": 1485,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -33,7 +33,7 @@
  },
  "connector_services": {
   "slack-gym": 397,
-  "email-calendar-gym": 210,
+  "email-calendar-gym": 211,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -47,15 +47,15 @@
   "github-gym": 98,
   "slack": 66,
   "snowflake-gym": 50,
-  "microsoft-365-gym": 26,
+  "microsoft-365-gym": 27,
   "supabase-gym": 24,
   "teams-gym": 17,
   "microsoft-teams-gym": 7,
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 141889
  },
  "errors": [],
  "tasks": [
@@ -15942,6 +15942,23 @@
    "sha256": "6d9b3cec6b1544066ea4ea31cbe0df4ae7b441c5c853762f0215b0e3460d6714",
    "size_bytes": 15911823,
    "updated": "2026-10-07T15:30:52.434Z"
+  },
+  {
+   "declared_name": "harbor/encounter-followup-closure-audit",
+   "declared_short": "encounter-followup-closure-audit",
+   "folder": "encounter-followup-closure-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym",
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2ef41d3cb70a396afca01ce1dda308433d4a61d970cd45dc63dba719331f25fa",
+   "size_bytes": 10182940,
+   "updated": "2026-10-11T02:28:21.059Z"
   },
   {
    "connector_provenance": "real",
