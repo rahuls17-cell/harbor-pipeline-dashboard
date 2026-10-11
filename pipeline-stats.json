@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T02:30:03+00:00",
+ "generated_at": "2026-10-11T02:35:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3170,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 141889
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -15944,18 +15944,18 @@
    "updated": "2026-10-07T15:30:52.434Z"
   },
   {
-   "declared_name": "harbor/encounter-followup-closure-audit",
-   "declared_short": "encounter-followup-closure-audit",
-   "folder": "encounter-followup-closure-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym",
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/encounter-followup-closure-audit",
+   "declared_short": "encounter-followup-closure-audit",
    "domain": null,
+   "folder": "encounter-followup-closure-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2ef41d3cb70a396afca01ce1dda308433d4a61d970cd45dc63dba719331f25fa",
    "size_bytes": 10182940,
    "updated": "2026-10-11T02:28:21.059Z"
