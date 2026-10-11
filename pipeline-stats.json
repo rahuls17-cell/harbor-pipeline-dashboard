@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T00:25:03+00:00",
+ "generated_at": "2026-10-11T00:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3159,
-  "scanned": 3159,
-  "connector": 1472,
+  "task_folders": 3160,
+  "scanned": 3160,
+  "connector": 1473,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 446,
-  "synthetic": 772
+  "synthetic": 773
  },
  "domain": {
-  "unnamed": 2001,
+  "unnamed": 2002,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1474,
+  "harbor": 1475,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 393,
+  "slack-gym": 394,
   "email-calendar-gym": 209,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 280822
+  "new_archives_read": 1,
+  "approx_bytes_read": 138954
  },
  "errors": [],
  "tasks": [
@@ -28535,17 +28535,17 @@
    "updated": "2026-10-09T13:51:38.918Z"
   },
   {
-   "declared_name": "harbor/invitation-data-handling-audit",
-   "declared_short": "invitation-data-handling-audit",
-   "folder": "invitation-data-handling-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/invitation-data-handling-audit",
+   "declared_short": "invitation-data-handling-audit",
    "domain": null,
+   "folder": "invitation-data-handling-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "97fe1a6747caa3c1b76f1ea2f76775fa4c1b2eec5a7c55c7632cc7bc46818063",
    "size_bytes": 6814091,
    "updated": "2026-10-11T00:20:48.031Z"
@@ -31013,17 +31013,17 @@
    "updated": "2026-10-10T14:27:40.499Z"
   },
   {
-   "declared_name": "harbor/manuscript-recheck-request-audit",
-   "declared_short": "manuscript-recheck-request-audit",
-   "folder": "manuscript-recheck-request-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/manuscript-recheck-request-audit",
+   "declared_short": "manuscript-recheck-request-audit",
    "domain": null,
+   "folder": "manuscript-recheck-request-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7c0016ac65f0d1542e21630fa2c9b8cf7f7d7717e043d489e58d682c2b9472bc",
    "size_bytes": 7232519,
    "updated": "2026-10-11T00:22:47.308Z"
@@ -33915,6 +33915,22 @@
    "sha256": "aaf81a51103bb1cf0244886590c59a693ad01d6f1472ae8098d1a88244c9901d",
    "size_bytes": 11375274,
    "updated": "2026-10-06T21:20:26.760Z"
+  },
+  {
+   "declared_name": "harbor/rota-commitment-handover-audit",
+   "declared_short": "rota-commitment-handover-audit",
+   "folder": "rota-commitment-handover-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2a51da781b30cfae2b77efbaf8fc92cda2e75fde987d8775f98c462b6fc55fc1",
+   "size_bytes": 11035321,
+   "updated": "2026-10-11T00:25:40.614Z"
   },
   {
    "connector_provenance": "unknown",
