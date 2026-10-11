@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T19:00:03+00:00",
+ "generated_at": "2026-10-11T19:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3236,
-  "scanned": 3236,
-  "connector": 1549,
+  "task_folders": 3237,
+  "scanned": 3237,
+  "connector": 1550,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 848
+  "synthetic": 849
  },
  "domain": {
-  "unnamed": 2078,
+  "unnamed": 2079,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1551,
+  "harbor": 1552,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 423,
+  "slack-gym": 424,
   "email-calendar-gym": 217,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 141438
  },
  "errors": [],
  "tasks": [
@@ -33426,6 +33426,22 @@
    "sha256": "e9a499c9f25349c9abba3495b10747d7298d5dfe9028b65ee1edcb9526bf5b96",
    "size_bytes": 6295566,
    "updated": "2026-10-08T11:48:51.650Z"
+  },
+  {
+   "declared_name": "harbor/pi-handover-commitment-audit",
+   "declared_short": "pi-handover-commitment-audit",
+   "folder": "pi-handover-commitment-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "6783a3a524de7640561eb39673d978f2ff4c14b5b3326d7375e61f541b90eb23",
+   "size_bytes": 8320415,
+   "updated": "2026-10-11T19:25:43.323Z"
   },
   {
    "connector_provenance": "synthetic",
