@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T06:15:04+00:00",
+ "generated_at": "2026-10-11T06:20:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3183,
-  "scanned": 3183,
-  "connector": 1496,
+  "task_folders": 3184,
+  "scanned": 3184,
+  "connector": 1497,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 795
+  "synthetic": 796
  },
  "domain": {
-  "unnamed": 2025,
+  "unnamed": 2026,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1498,
+  "harbor": 1499,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 401,
+  "slack-gym": 402,
   "email-calendar-gym": 213,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 140148
+  "approx_bytes_read": 138024
  },
  "errors": [],
  "tasks": [
@@ -6856,6 +6856,22 @@
    "sha256": "b06275560b283ebc5caee870b6aaa53266aa26c52be15c671b0a128a31668e43",
    "size_bytes": 7239220,
    "updated": "2026-10-02T19:48:24.661Z"
+  },
+  {
+   "declared_name": "harbor/closeout-signoff-authority-audit",
+   "declared_short": "closeout-signoff-authority-audit",
+   "folder": "closeout-signoff-authority-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "bcbe3868d4d2dc002f3ca8a28e71f097dbfb11a1050a92a13d327b8910b892ed",
+   "size_bytes": 9861576,
+   "updated": "2026-10-11T06:18:30.258Z"
   },
   {
    "connector_provenance": "unknown",
@@ -36786,17 +36802,17 @@
    "updated": "2026-09-19T05:33:05.656Z"
   },
   {
-   "declared_name": "harbor/teaching-tool-commit-credit-audit",
-   "declared_short": "teaching-tool-commit-credit-audit",
-   "folder": "teaching-tool-commit-credit-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/teaching-tool-commit-credit-audit",
+   "declared_short": "teaching-tool-commit-credit-audit",
    "domain": null,
+   "folder": "teaching-tool-commit-credit-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2a63f34f20ed112b195673db692acb3cbd8d35023d55d3845dca3f23250096fe",
    "size_bytes": 8795232,
    "updated": "2026-10-11T06:14:51.271Z"
