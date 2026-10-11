@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T09:20:03+00:00",
+ "generated_at": "2026-10-11T09:25:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3199,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138733
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -19059,17 +19059,17 @@
    "updated": "2026-09-21T15:46:34.888Z"
   },
   {
-   "declared_name": "harbor/fy2025-budget-signoff-corroboration-audit",
-   "declared_short": "fy2025-budget-signoff-corroboration-audit",
-   "folder": "fy2025-budget-signoff-corroboration-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/fy2025-budget-signoff-corroboration-audit",
+   "declared_short": "fy2025-budget-signoff-corroboration-audit",
    "domain": null,
+   "folder": "fy2025-budget-signoff-corroboration-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b56d5e3d40ba74c0230f20dd740094d6044fa6093acf46e857c79a6245672e5d",
    "size_bytes": 7314180,
    "updated": "2026-10-11T09:19:14.344Z"
