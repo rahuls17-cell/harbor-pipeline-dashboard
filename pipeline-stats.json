@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T17:05:04+00:00",
+ "generated_at": "2026-10-11T17:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3232,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 274607
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1329,17 +1329,17 @@
    "updated": "2026-10-08T12:25:21.410Z"
   },
   {
-   "declared_name": "harbor/aliquot-parent-release-audit",
-   "declared_short": "aliquot-parent-release-audit",
-   "folder": "aliquot-parent-release-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/aliquot-parent-release-audit",
+   "declared_short": "aliquot-parent-release-audit",
    "domain": null,
+   "folder": "aliquot-parent-release-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "80202ab7be0629b10c1cc5f3e79d9dc9287ff0dcbc03b690dc6a2914a140550e",
    "size_bytes": 14174926,
    "updated": "2026-10-11T17:03:05.535Z"
@@ -34733,17 +34733,17 @@
    "updated": "2026-09-13T19:25:18.912Z"
   },
   {
-   "declared_name": "harbor/review-onpaper-confirm-audit",
-   "declared_short": "review-onpaper-confirm-audit",
-   "folder": "review-onpaper-confirm-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/review-onpaper-confirm-audit",
+   "declared_short": "review-onpaper-confirm-audit",
    "domain": null,
+   "folder": "review-onpaper-confirm-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0fc045041f60177452f7184cdb955b596ca20df804cdb6669d6728305a48594e",
    "size_bytes": 7044892,
    "updated": "2026-10-11T17:04:42.363Z"
