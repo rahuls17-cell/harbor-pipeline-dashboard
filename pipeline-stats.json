@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T00:55:04+00:00",
+ "generated_at": "2026-10-11T01:00:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3165,
@@ -54,8 +54,8 @@
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 141026
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -34846,17 +34846,17 @@
    "updated": "2026-10-03T07:45:44.541Z"
   },
   {
-   "declared_name": "harbor/small-spend-approval-authority",
-   "declared_short": "small-spend-approval-authority",
-   "folder": "small-spend-approval-authority",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/small-spend-approval-authority",
+   "declared_short": "small-spend-approval-authority",
    "domain": null,
+   "folder": "small-spend-approval-authority",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c96b820a059fe266c1237eef408651fb04dcb32786cd7856e99776a352c0de98",
    "size_bytes": 10458326,
    "updated": "2026-10-11T00:52:43.911Z"
