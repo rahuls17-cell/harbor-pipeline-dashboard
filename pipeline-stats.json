@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T01:00:03+00:00",
+ "generated_at": "2026-10-11T01:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3165,
-  "scanned": 3165,
-  "connector": 1478,
+  "task_folders": 3167,
+  "scanned": 3167,
+  "connector": 1480,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 777
+  "synthetic": 779
  },
  "domain": {
-  "unnamed": 2007,
+  "unnamed": 2009,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1480,
+  "harbor": 1482,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 395,
+  "slack-gym": 396,
   "email-calendar-gym": 210,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
@@ -49,13 +49,13 @@
   "snowflake-gym": 49,
   "microsoft-365-gym": 26,
   "supabase-gym": 24,
-  "teams-gym": 16,
+  "teams-gym": 17,
   "microsoft-teams-gym": 7,
   "shopify-gym": 5
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 273558
  },
  "errors": [],
  "tasks": [
@@ -12769,6 +12769,22 @@
    "sha256": "0587e00b3af4cc284ac87d71798e90eed6cc82c0346840b549c7d94f386846bc",
    "size_bytes": 8112190,
    "updated": "2026-10-02T21:16:27.771Z"
+  },
+  {
+   "declared_name": "harbor/custodian-litigation-hold-audit",
+   "declared_short": "custodian-litigation-hold-audit",
+   "folder": "custodian-litigation-hold-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "teams-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "d2a3f764a5b705c2d271bd430560958fc66edf4a059399b62b254979da885791",
+   "size_bytes": 10035072,
+   "updated": "2026-10-11T01:50:37.172Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -33336,6 +33352,22 @@
    "sha256": "efb3dd59db68bf79ebae73c403fa75483b741f8ded753abafa76a60150896e40",
    "size_bytes": 7388103,
    "updated": "2026-10-07T09:55:28.006Z"
+  },
+  {
+   "declared_name": "harbor/reagent-first-check-turnaround-audit",
+   "declared_short": "reagent-first-check-turnaround-audit",
+   "folder": "reagent-first-check-turnaround-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "fcffcd734bbfd7e61f948207befeb2b9a83ebc62a85d372471c530427385e708",
+   "size_bytes": 6864311,
+   "updated": "2026-10-11T01:50:19.629Z"
   },
   {
    "connector_provenance": "synthetic",
