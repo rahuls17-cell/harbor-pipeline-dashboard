@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T00:30:03+00:00",
+ "generated_at": "2026-10-11T00:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3160,
-  "scanned": 3160,
-  "connector": 1473,
+  "task_folders": 3161,
+  "scanned": 3161,
+  "connector": 1474,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 446,
-  "synthetic": 773
+  "synthetic": 774
  },
  "domain": {
-  "unnamed": 2002,
+  "unnamed": 2003,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1475,
+  "harbor": 1476,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,12 +41,12 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "gws-gym": 187,
-  "linear-gym": 159,
+  "linear-gym": 160,
   "outlook-gym": 142,
   "notion-gym": 135,
   "github-gym": 98,
   "slack": 66,
-  "snowflake-gym": 47,
+  "snowflake-gym": 48,
   "microsoft-365-gym": 26,
   "supabase-gym": 24,
   "teams-gym": 16,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 138954
+  "approx_bytes_read": 141968
  },
  "errors": [],
  "tasks": [
@@ -28599,6 +28599,23 @@
    "updated": "2026-10-03T03:48:21.180Z"
   },
   {
+   "declared_name": "harbor/invoice-export-loopback-audit",
+   "declared_short": "invoice-export-loopback-audit",
+   "folder": "invoice-export-loopback-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "82f50855b8edcba9adcbb6f74616e0147c0bc1f21cdb603ac96f3a16ba419cb9",
+   "size_bytes": 17344019,
+   "updated": "2026-10-11T00:33:25.480Z"
+  },
+  {
    "connector_provenance": "unknown",
    "connector_services": [
     "outlook-gym"
@@ -33917,17 +33934,17 @@
    "updated": "2026-10-06T21:20:26.760Z"
   },
   {
-   "declared_name": "harbor/rota-commitment-handover-audit",
-   "declared_short": "rota-commitment-handover-audit",
-   "folder": "rota-commitment-handover-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/rota-commitment-handover-audit",
+   "declared_short": "rota-commitment-handover-audit",
    "domain": null,
+   "folder": "rota-commitment-handover-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2a51da781b30cfae2b77efbaf8fc92cda2e75fde987d8775f98c462b6fc55fc1",
    "size_bytes": 11035321,
    "updated": "2026-10-11T00:25:40.614Z"
