@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T10:20:04+00:00",
+ "generated_at": "2026-10-11T10:25:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3206,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 140467
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -16777,17 +16777,17 @@
    "updated": "2026-10-01T12:11:17.390Z"
   },
   {
-   "declared_name": "harbor/fedramp-ksi-ownership-audit",
-   "declared_short": "fedramp-ksi-ownership-audit",
-   "folder": "fedramp-ksi-ownership-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/fedramp-ksi-ownership-audit",
+   "declared_short": "fedramp-ksi-ownership-audit",
    "domain": null,
+   "folder": "fedramp-ksi-ownership-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4d0cf32ddbc24be4e2d8dccf8bc183f6313056e278a220beb2f9d95bd3a98d86",
    "size_bytes": 8284935,
    "updated": "2026-10-11T10:19:14.914Z"
