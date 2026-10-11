@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T19:30:03+00:00",
+ "generated_at": "2026-10-11T19:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3237,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 141438
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -33428,17 +33428,17 @@
    "updated": "2026-10-08T11:48:51.650Z"
   },
   {
-   "declared_name": "harbor/pi-handover-commitment-audit",
-   "declared_short": "pi-handover-commitment-audit",
-   "folder": "pi-handover-commitment-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/pi-handover-commitment-audit",
+   "declared_short": "pi-handover-commitment-audit",
    "domain": null,
+   "folder": "pi-handover-commitment-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "6783a3a524de7640561eb39673d978f2ff4c14b5b3326d7375e61f541b90eb23",
    "size_bytes": 8320415,
    "updated": "2026-10-11T19:25:43.323Z"
