@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T07:45:03+00:00",
+ "generated_at": "2026-10-11T07:50:02+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3194,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 416140
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -2715,17 +2715,17 @@
    "updated": "2026-09-29T05:04:16.285Z"
   },
   {
-   "declared_name": "harbor/board-package-readiness-audit",
-   "declared_short": "board-package-readiness-audit",
-   "folder": "board-package-readiness-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/board-package-readiness-audit",
+   "declared_short": "board-package-readiness-audit",
    "domain": null,
+   "folder": "board-package-readiness-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "89a84c00701292840ef724e6e241b75184695b6ddbe1c1ac6cebecd92e3640b3",
    "size_bytes": 6451796,
    "updated": "2026-10-11T07:40:58.087Z"
@@ -28558,18 +28558,18 @@
    "updated": "2026-10-09T06:25:50.275Z"
   },
   {
-   "declared_name": "harbor/interdept-warehouse-recharge-settlement",
-   "declared_short": "interdept-warehouse-recharge-settlement",
-   "folder": "interdept-warehouse-recharge-settlement",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/interdept-warehouse-recharge-settlement",
+   "declared_short": "interdept-warehouse-recharge-settlement",
    "domain": null,
+   "folder": "interdept-warehouse-recharge-settlement",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d99bad3ac0517c35b9fbef8b9d7fe67df4a45423164b4a9341cc50fe19fa9a77",
    "size_bytes": 17144592,
    "updated": "2026-10-11T07:44:24.572Z"
@@ -34075,17 +34075,17 @@
    "updated": "2026-10-06T10:55:50.193Z"
   },
   {
-   "declared_name": "harbor/research3-incentive-preapproval-audit",
-   "declared_short": "research3-incentive-preapproval-audit",
-   "folder": "research3-incentive-preapproval-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/research3-incentive-preapproval-audit",
+   "declared_short": "research3-incentive-preapproval-audit",
    "domain": null,
+   "folder": "research3-incentive-preapproval-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "95bd19175587f7bd74e01c1ed696c9e2838475d2432996ec95c06464719f0c46",
    "size_bytes": 13923448,
    "updated": "2026-10-11T07:44:42.574Z"
