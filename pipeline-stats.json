@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T12:15:03+00:00",
+ "generated_at": "2026-10-11T12:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3214,
-  "scanned": 3214,
-  "connector": 1527,
+  "task_folders": 3215,
+  "scanned": 3215,
+  "connector": 1528,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 826
+  "synthetic": 827
  },
  "domain": {
-  "unnamed": 2056,
+  "unnamed": 2057,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1529,
+  "harbor": 1530,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -41,12 +41,12 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "gws-gym": 187,
-  "linear-gym": 172,
+  "linear-gym": 173,
   "outlook-gym": 142,
   "notion-gym": 137,
   "github-gym": 101,
   "slack": 66,
-  "snowflake-gym": 55,
+  "snowflake-gym": 56,
   "microsoft-365-gym": 39,
   "supabase-gym": 24,
   "teams-gym": 17,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 143930
+  "approx_bytes_read": 133759
  },
  "errors": [],
  "tasks": [
@@ -12409,17 +12409,17 @@
    "updated": "2026-09-30T09:46:54.507Z"
   },
   {
-   "declared_name": "harbor/compliance-audit-digest",
-   "declared_short": "compliance-audit-digest",
-   "folder": "compliance-audit-digest",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/compliance-audit-digest",
+   "declared_short": "compliance-audit-digest",
    "domain": null,
+   "folder": "compliance-audit-digest",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "28b2fc6455b1208d2e5b534af3528f4cd6bda1d31846c5fdff997a6aefc9d2a9",
    "size_bytes": 8012571,
    "updated": "2026-10-11T12:11:48.301Z"
@@ -34728,6 +34728,23 @@
    "sha256": "07b3e70481541b64a7df2fc3e03e063d874de7f47c60f7e461884f021d5921a9",
    "size_bytes": 8551835,
    "updated": "2026-10-11T10:53:27.981Z"
+  },
+  {
+   "declared_name": "harbor/scaleout-cluster-cost-audit",
+   "declared_short": "scaleout-cluster-cost-audit",
+   "folder": "scaleout-cluster-cost-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "linear-gym",
+    "snowflake-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "1fac3878cec3c4550335c0ee9044ce768485e8fe1b5160a394e0caf5147959d9",
+   "size_bytes": 7772410,
+   "updated": "2026-10-11T12:19:33.579Z"
   },
   {
    "connector_provenance": "synthetic",
