@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T10:35:03+00:00",
+ "generated_at": "2026-10-11T10:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3209,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 141742
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -6091,18 +6091,18 @@
    "updated": "2026-10-08T17:30:42.797Z"
   },
   {
-   "declared_name": "harbor/calibration-lookahead-audit",
-   "declared_short": "calibration-lookahead-audit",
-   "folder": "calibration-lookahead-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym",
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/calibration-lookahead-audit",
+   "declared_short": "calibration-lookahead-audit",
    "domain": null,
+   "folder": "calibration-lookahead-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "5a4c8633118e764ee2a66e45f72969680e1c339b8c81a79e84c7277bc75c1752",
    "size_bytes": 6599350,
    "updated": "2026-10-11T10:30:08.767Z"
