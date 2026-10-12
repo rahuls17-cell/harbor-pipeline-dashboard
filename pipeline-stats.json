@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-11T23:30:03+00:00",
+ "generated_at": "2026-10-12T00:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3243,
-  "scanned": 3243,
-  "connector": 1556,
+  "task_folders": 3245,
+  "scanned": 3245,
+  "connector": 1558,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 855
+  "synthetic": 857
  },
  "domain": {
-  "unnamed": 2085,
+  "unnamed": 2087,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1558,
+  "harbor": 1560,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 428,
+  "slack-gym": 429,
   "email-calendar-gym": 217,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
@@ -47,15 +47,15 @@
   "github-gym": 101,
   "slack": 66,
   "snowflake-gym": 61,
-  "microsoft-365-gym": 44,
+  "microsoft-365-gym": 45,
   "supabase-gym": 24,
   "teams-gym": 17,
   "shopify-gym": 8,
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 2,
+  "approx_bytes_read": 281728
  },
  "errors": [],
  "tasks": [
@@ -28886,6 +28886,22 @@
    "updated": "2026-10-08T09:41:42.479Z"
   },
   {
+   "declared_name": "harbor/innovation-theme-concentration-audit",
+   "declared_short": "innovation-theme-concentration-audit",
+   "folder": "innovation-theme-concentration-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "c015e977e28ee8c377c08922a6b90a616b7b93987fea577a0cf9d957913e25b0",
+   "size_bytes": 23530571,
+   "updated": "2026-10-12T00:28:25.476Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
@@ -45568,6 +45584,22 @@
    "sha256": "6080c07d9be49955f1b3749cb55edf642779f7e9c7428512de5752bb7130b08c",
    "size_bytes": 11572807,
    "updated": "2026-09-29T06:38:10.076Z"
+  },
+  {
+   "declared_name": "harbor/trademark-filing-owner-audit",
+   "declared_short": "trademark-filing-owner-audit",
+   "folder": "trademark-filing-owner-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "7c02f6c49de3d12f0b54fc17ea45034dc765d8d8fdb7c89833fcd70a5d23eba2",
+   "size_bytes": 7060391,
+   "updated": "2026-10-12T00:25:18.798Z"
   },
   {
    "connector_provenance": "unknown",
