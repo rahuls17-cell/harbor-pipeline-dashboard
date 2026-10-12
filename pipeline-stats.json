@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-12T03:50:03+00:00",
+ "generated_at": "2026-10-12T03:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3253,
-  "scanned": 3253,
-  "connector": 1566,
+  "task_folders": 3255,
+  "scanned": 3255,
+  "connector": 1568,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 865
+  "synthetic": 867
  },
  "domain": {
-  "unnamed": 2095,
+  "unnamed": 2097,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1568,
+  "harbor": 1570,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -47,15 +47,15 @@
   "github-gym": 101,
   "slack": 66,
   "snowflake-gym": 62,
-  "microsoft-365-gym": 47,
+  "microsoft-365-gym": 49,
   "supabase-gym": 25,
   "teams-gym": 17,
   "shopify-gym": 8,
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 141820
+  "new_archives_read": 2,
+  "approx_bytes_read": 277247
  },
  "errors": [],
  "tasks": [
@@ -13297,6 +13297,22 @@
    "sha256": "bfc5da1857ec1cb0cf64b69e2c3c47f3740754637623f82407f890c725cc82b4",
    "size_bytes": 9139135,
    "updated": "2026-09-22T14:13:02.779Z"
+  },
+  {
+   "declared_name": "harbor/deal-advisor-fee-accrual",
+   "declared_short": "deal-advisor-fee-accrual",
+   "folder": "deal-advisor-fee-accrual",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "f152f0af1b8e2b7623cdac546276585cfae4dc55417523c63731434adaa24bfb",
+   "size_bytes": 13131707,
+   "updated": "2026-10-12T03:52:22.885Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -34022,17 +34038,17 @@
    "updated": "2026-09-27T05:45:28.820Z"
   },
   {
-   "declared_name": "harbor/procurement-representation-audit",
-   "declared_short": "procurement-representation-audit",
-   "folder": "procurement-representation-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "linear-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/procurement-representation-audit",
+   "declared_short": "procurement-representation-audit",
    "domain": null,
+   "folder": "procurement-representation-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "703e1b35088d349463c869dc166f945edaeea031f92fe5dac8dc2cb18fead20d",
    "size_bytes": 10645315,
    "updated": "2026-10-12T03:46:05.173Z"
@@ -34246,6 +34262,22 @@
    "sha256": "9eb56677577d2c1a11d2651f93bd99b1f90a03e27512d37d7be377220119b294",
    "size_bytes": 6801363,
    "updated": "2026-10-09T02:15:01.764Z"
+  },
+  {
+   "declared_name": "harbor/q4-bookings-revenue-forecast",
+   "declared_short": "q4-bookings-revenue-forecast",
+   "folder": "q4-bookings-revenue-forecast",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "cd86ace4423c65b0eb6ec879a21d62f95725266500fd7cbf3bb84ad4b4aa9263",
+   "size_bytes": 9749203,
+   "updated": "2026-10-12T03:51:05.023Z"
   },
   {
    "connector_provenance": "synthetic",
