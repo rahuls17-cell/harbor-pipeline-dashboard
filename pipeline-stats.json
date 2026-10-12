@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-12T06:00:03+00:00",
+ "generated_at": "2026-10-12T06:05:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3266,
-  "scanned": 3266,
-  "connector": 1579,
+  "task_folders": 3267,
+  "scanned": 3267,
+  "connector": 1580,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 878
+  "synthetic": 879
  },
  "domain": {
-  "unnamed": 2108,
+  "unnamed": 2109,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1581,
+  "harbor": 1582,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -47,7 +47,7 @@
   "github-gym": 101,
   "slack": 66,
   "snowflake-gym": 62,
-  "microsoft-365-gym": 54,
+  "microsoft-365-gym": 55,
   "supabase-gym": 25,
   "teams-gym": 17,
   "shopify-gym": 8,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 140774
+  "approx_bytes_read": 140259
  },
  "errors": [],
  "tasks": [
@@ -12981,17 +12981,17 @@
    "updated": "2026-10-01T16:11:56.652Z"
   },
   {
-   "declared_name": "harbor/crb-audit-rights-owner-audit",
-   "declared_short": "crb-audit-rights-owner-audit",
-   "folder": "crb-audit-rights-owner-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/crb-audit-rights-owner-audit",
+   "declared_short": "crb-audit-rights-owner-audit",
    "domain": null,
+   "folder": "crb-audit-rights-owner-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "ab4a2ca366a5ae1babbba7e87f81e91da305c85ba12fa7b2423bed825644a70a",
    "size_bytes": 10005159,
    "updated": "2026-10-12T05:58:56.812Z"
@@ -34455,6 +34455,22 @@
    "sha256": "d89f2bf1f819aaf36c1e47c197c691d84c9be013268af963734c492a64093bd4",
    "size_bytes": 10994100,
    "updated": "2026-10-12T04:30:53.914Z"
+  },
+  {
+   "declared_name": "harbor/q4-vendor-use-tax-return",
+   "declared_short": "q4-vendor-use-tax-return",
+   "folder": "q4-vendor-use-tax-return",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "1439c20bf6ac7b5c1e5817d3ef65e6a48b409f6258a00302b7f6fea6787e6daa",
+   "size_bytes": 11182840,
+   "updated": "2026-10-12T06:01:14.446Z"
   },
   {
    "connector_provenance": "synthetic",
