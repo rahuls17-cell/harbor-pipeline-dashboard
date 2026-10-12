@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-12T08:40:03+00:00",
+ "generated_at": "2026-10-12T08:45:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3279,
-  "scanned": 3279,
-  "connector": 1592,
+  "task_folders": 3280,
+  "scanned": 3280,
+  "connector": 1593,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 891
+  "synthetic": 892
  },
  "domain": {
-  "unnamed": 2121,
+  "unnamed": 2122,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1594,
+  "harbor": 1595,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 443,
+  "slack-gym": 444,
   "email-calendar-gym": 220,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 137628
+  "approx_bytes_read": 145780
  },
  "errors": [],
  "tasks": [
@@ -2849,6 +2849,22 @@
    "sha256": "b1c486d7951fb16641048399db0ae2cd773135ad37b576b9bc27ec9da523197f",
    "size_bytes": 7349910,
    "updated": "2026-10-07T05:26:24.910Z"
+  },
+  {
+   "declared_name": "harbor/breach-notification-readiness-audit",
+   "declared_short": "breach-notification-readiness-audit",
+   "folder": "breach-notification-readiness-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "39068f005d24fc313b9b4bf55840054f499dde8f376bf81bdea1fba8bfe83475",
+   "size_bytes": 6855375,
+   "updated": "2026-10-12T08:41:28.845Z"
   },
   {
    "connector_provenance": "synthetic",
@@ -12998,17 +13014,17 @@
    "updated": "2026-10-01T16:11:56.652Z"
   },
   {
-   "declared_name": "harbor/corporate-envelope-funding-queue",
-   "declared_short": "corporate-envelope-funding-queue",
-   "folder": "corporate-envelope-funding-queue",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/corporate-envelope-funding-queue",
+   "declared_short": "corporate-envelope-funding-queue",
    "domain": null,
+   "folder": "corporate-envelope-funding-queue",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b64fb47f3f475fccb00d40d16c9dc8ae7fcf2c2f1e2afe34402c802fbd603ef4",
    "size_bytes": 10501078,
    "updated": "2026-10-12T08:38:23.918Z"
