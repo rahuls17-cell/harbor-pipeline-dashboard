@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T08:05:03+00:00",
+ "generated_at": "2026-10-12T08:10:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3278,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 139020
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -33518,17 +33518,17 @@
    "updated": "2026-10-11T09:28:28.727Z"
   },
   {
-   "declared_name": "harbor/partner-mdf-cap-audit",
-   "declared_short": "partner-mdf-cap-audit",
-   "folder": "partner-mdf-cap-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/partner-mdf-cap-audit",
+   "declared_short": "partner-mdf-cap-audit",
    "domain": null,
+   "folder": "partner-mdf-cap-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "a6cca9ee70d1e0f73e0d2a9354bf81dade6892b426324a39d1916a7e9badd4b1",
    "size_bytes": 11292350,
    "updated": "2026-10-12T08:04:04.632Z"
