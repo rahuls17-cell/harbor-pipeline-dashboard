@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T06:35:04+00:00",
+ "generated_at": "2026-10-12T06:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3272,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 142351
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -1015,18 +1015,18 @@
    "updated": "2026-09-24T20:33:52.509Z"
   },
   {
-   "declared_name": "harbor/abnormal-lab-followup-audit",
-   "declared_short": "abnormal-lab-followup-audit",
-   "folder": "abnormal-lab-followup-audit-email-calendar",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym",
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/abnormal-lab-followup-audit",
+   "declared_short": "abnormal-lab-followup-audit",
    "domain": null,
+   "folder": "abnormal-lab-followup-audit-email-calendar",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "4c8b93d2a991fa01fd4ab1794ad28f072bd913c47406286111c3d3c06c0e52ee",
    "size_bytes": 7961318,
    "updated": "2026-10-12T06:32:34.926Z"
