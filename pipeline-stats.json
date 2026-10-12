@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T00:30:03+00:00",
+ "generated_at": "2026-10-12T00:35:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3245,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 281728
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -28886,17 +28886,17 @@
    "updated": "2026-10-08T09:41:42.479Z"
   },
   {
-   "declared_name": "harbor/innovation-theme-concentration-audit",
-   "declared_short": "innovation-theme-concentration-audit",
-   "folder": "innovation-theme-concentration-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/innovation-theme-concentration-audit",
+   "declared_short": "innovation-theme-concentration-audit",
    "domain": null,
+   "folder": "innovation-theme-concentration-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "c015e977e28ee8c377c08922a6b90a616b7b93987fea577a0cf9d957913e25b0",
    "size_bytes": 23530571,
    "updated": "2026-10-12T00:28:25.476Z"
@@ -45586,17 +45586,17 @@
    "updated": "2026-09-29T06:38:10.076Z"
   },
   {
-   "declared_name": "harbor/trademark-filing-owner-audit",
-   "declared_short": "trademark-filing-owner-audit",
-   "folder": "trademark-filing-owner-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/trademark-filing-owner-audit",
+   "declared_short": "trademark-filing-owner-audit",
    "domain": null,
+   "folder": "trademark-filing-owner-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "7c02f6c49de3d12f0b54fc17ea45034dc765d8d8fdb7c89833fcd70a5d23eba2",
    "size_bytes": 7060391,
    "updated": "2026-10-12T00:25:18.798Z"
