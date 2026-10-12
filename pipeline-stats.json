@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-12T05:50:03+00:00",
+ "generated_at": "2026-10-12T05:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3264,
-  "scanned": 3264,
-  "connector": 1577,
+  "task_folders": 3265,
+  "scanned": 3265,
+  "connector": 1578,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 876
+  "synthetic": 877
  },
  "domain": {
-  "unnamed": 2106,
+  "unnamed": 2107,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1579,
+  "harbor": 1580,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 436,
+  "slack-gym": 437,
   "email-calendar-gym": 218,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 139884
+  "approx_bytes_read": 146586
  },
  "errors": [],
  "tasks": [
@@ -14269,6 +14269,22 @@
    "sha256": "6d9be8b05bb5f0ba7be6dd14b163f868ede1894d018ef2ceadfb0d600fb86dc9",
    "size_bytes": 11145702,
    "updated": "2026-10-02T19:24:14.554Z"
+  },
+  {
+   "declared_name": "harbor/disclosure-metric-owner-audit",
+   "declared_short": "disclosure-metric-owner-audit",
+   "folder": "disclosure-metric-owner-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "04ae6992ddb9740fa3c152922e351044c0c504115cff2930e0d69f6ebecfebeb",
+   "size_bytes": 9771063,
+   "updated": "2026-10-12T05:53:56.552Z"
   },
   {
    "connector_provenance": "unknown",
@@ -29894,17 +29910,17 @@
    "updated": "2026-10-07T13:46:59.357Z"
   },
   {
-   "declared_name": "harbor/lab-reopened-closeout-audit",
-   "declared_short": "lab-reopened-closeout-audit",
-   "folder": "lab-reopened-closeout-audit-20261007T155457Z-1-001",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/lab-reopened-closeout-audit",
+   "declared_short": "lab-reopened-closeout-audit",
    "domain": null,
+   "folder": "lab-reopened-closeout-audit-20261007T155457Z-1-001",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "05a384cf92743edc172c33f22a4ea13a90f30ad2c0a46bff4e09f795685fc273",
    "size_bytes": 13376250,
    "updated": "2026-10-12T05:45:17.394Z"
