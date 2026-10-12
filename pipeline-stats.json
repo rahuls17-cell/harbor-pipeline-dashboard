@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T03:15:03+00:00",
+ "generated_at": "2026-10-12T03:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3250,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 137552
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -28934,17 +28934,17 @@
    "updated": "2026-10-08T09:41:42.479Z"
   },
   {
-   "declared_name": "harbor/innovation-fund-gate-audit",
-   "declared_short": "innovation-fund-gate-audit",
-   "folder": "innovation-fund-gate-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/innovation-fund-gate-audit",
+   "declared_short": "innovation-fund-gate-audit",
    "domain": null,
+   "folder": "innovation-fund-gate-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "d3b3b64a0b76310ab41d8b2af28bf4465a8d0529a02045a60744a028caa81db8",
    "size_bytes": 26595383,
    "updated": "2026-10-12T03:12:59.575Z"
