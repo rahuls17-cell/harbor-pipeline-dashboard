@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T07:35:03+00:00",
+ "generated_at": "2026-10-12T07:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3276,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 134053
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -46607,17 +46607,17 @@
    "updated": "2026-10-11T18:06:11.618Z"
   },
   {
-   "declared_name": "harbor/vendor-file-independence-audit",
-   "declared_short": "vendor-file-independence-audit",
-   "folder": "vendor-file-independence-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/vendor-file-independence-audit",
+   "declared_short": "vendor-file-independence-audit",
    "domain": null,
+   "folder": "vendor-file-independence-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "06624754ef1729ce3a52afbe4722a74a46ec03cb9ab78aef21d8fcb5e2f030b8",
    "size_bytes": 9152298,
    "updated": "2026-10-12T07:30:13.481Z"
