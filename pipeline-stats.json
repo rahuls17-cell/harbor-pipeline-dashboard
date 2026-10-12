@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T09:15:03+00:00",
+ "generated_at": "2026-10-12T09:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3282,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 138712
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -29144,17 +29144,17 @@
    "updated": "2026-10-08T09:41:42.479Z"
   },
   {
-   "declared_name": "harbor/innovation-asset-impairment-test",
-   "declared_short": "innovation-asset-impairment-test",
-   "folder": "innovation-asset-impairment-test",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/innovation-asset-impairment-test",
+   "declared_short": "innovation-asset-impairment-test",
    "domain": null,
+   "folder": "innovation-asset-impairment-test",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "32b29dc6c1a50d14aeb793c59e687ef13db3c3cb65ebd98ca9a9a6d984fe882f",
    "size_bytes": 12850486,
    "updated": "2026-10-12T09:10:17.613Z"
