@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-12T07:40:03+00:00",
+ "generated_at": "2026-10-12T07:50:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3276,
-  "scanned": 3276,
-  "connector": 1589,
+  "task_folders": 3277,
+  "scanned": 3277,
+  "connector": 1590,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 888
+  "synthetic": 889
  },
  "domain": {
-  "unnamed": 2118,
+  "unnamed": 2119,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1591,
+  "harbor": 1592,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 442,
+  "slack-gym": 443,
   "email-calendar-gym": 220,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 0,
-  "approx_bytes_read": 0
+  "new_archives_read": 1,
+  "approx_bytes_read": 139344
  },
  "errors": [],
  "tasks": [
@@ -31823,6 +31823,22 @@
    "sha256": "19ab17dffa20c44175d40b4ae821ff4643d2a2c1846bb38c3b97bf86f4e3da1f",
    "size_bytes": 17715167,
    "updated": "2026-10-03T01:54:45.495Z"
+  },
+  {
+   "declared_name": "harbor/legal-hold-defensibility-audit",
+   "declared_short": "legal-hold-defensibility-audit",
+   "folder": "legal-hold-defensibility-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "91061223c748f92e3b69409eedf93cc224363dac841a9ad4255fa67b33cc67eb",
+   "size_bytes": 8110330,
+   "updated": "2026-10-12T07:48:11.237Z"
   },
   {
    "connector_provenance": "synthetic",
