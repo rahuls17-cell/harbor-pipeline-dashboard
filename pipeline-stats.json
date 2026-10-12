@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T07:00:03+00:00",
+ "generated_at": "2026-10-12T07:05:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3273,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 136532
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -16882,17 +16882,17 @@
    "updated": "2026-10-06T14:34:18.515Z"
   },
   {
-   "declared_name": "harbor/expired-lot-draw-audit",
-   "declared_short": "expired-lot-draw-audit",
-   "folder": "expired-lot-draw-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/expired-lot-draw-audit",
+   "declared_short": "expired-lot-draw-audit",
    "domain": null,
+   "folder": "expired-lot-draw-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "b8987c20b111e525359e827c09c18b0cdbcaa8584fab4d5b99a5608da5515d1a",
    "size_bytes": 11041528,
    "updated": "2026-10-12T06:57:46.792Z"
