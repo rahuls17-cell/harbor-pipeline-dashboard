@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T06:25:04+00:00",
+ "generated_at": "2026-10-12T06:30:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3271,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 3,
-  "approx_bytes_read": 425024
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -29573,17 +29573,17 @@
    "updated": "2026-10-09T06:24:46.890Z"
   },
   {
-   "declared_name": "harbor/it-q4-cash-out-forecast",
-   "declared_short": "it-q4-cash-out-forecast",
-   "folder": "it-q4-cash-out-forecast",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/it-q4-cash-out-forecast",
+   "declared_short": "it-q4-cash-out-forecast",
    "domain": null,
+   "folder": "it-q4-cash-out-forecast",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "79dda046af5b08f1048224cc534d928133f66468f3d8bbc35745ea02d2e1dfea",
    "size_bytes": 11738305,
    "updated": "2026-10-12T06:23:31.726Z"
@@ -34875,17 +34875,17 @@
    "updated": "2026-09-09T05:16:31.869Z"
   },
   {
-   "declared_name": "harbor/regulatory-filing-review-audit",
-   "declared_short": "regulatory-filing-review-audit",
-   "folder": "regulatory-filing-review-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/regulatory-filing-review-audit",
+   "declared_short": "regulatory-filing-review-audit",
    "domain": null,
+   "folder": "regulatory-filing-review-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "2afa064208cd5356a1296e44e15742e417dc3e63c3cfbaada1970552bc0597b1",
    "size_bytes": 7603796,
    "updated": "2026-10-12T06:21:39.844Z"
@@ -35085,17 +35085,17 @@
    "updated": "2026-09-09T20:32:48.327Z"
   },
   {
-   "declared_name": "harbor/response-deadline-docket-audit",
-   "declared_short": "response-deadline-docket-audit",
-   "folder": "response-deadline-docket-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/response-deadline-docket-audit",
+   "declared_short": "response-deadline-docket-audit",
    "domain": null,
+   "folder": "response-deadline-docket-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "379eac6c5ed1ca06985dc4e8e37ebdcb3d12574d878b450bc11410cf06c771e4",
    "size_bytes": 6657580,
    "updated": "2026-10-12T06:21:47.724Z"
