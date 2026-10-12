@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-12T05:35:03+00:00",
+ "generated_at": "2026-10-12T05:40:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3261,
-  "scanned": 3261,
-  "connector": 1574,
+  "task_folders": 3262,
+  "scanned": 3262,
+  "connector": 1575,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 873
+  "synthetic": 874
  },
  "domain": {
-  "unnamed": 2103,
+  "unnamed": 2104,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1576,
+  "harbor": 1577,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -33,7 +33,7 @@
  },
  "connector_services": {
   "slack-gym": 435,
-  "email-calendar-gym": 217,
+  "email-calendar-gym": 218,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
   "confluence-gym": 195,
@@ -41,7 +41,7 @@
   "email-gym": 188,
   "freshdesk-gym": 188,
   "gws-gym": 187,
-  "linear-gym": 179,
+  "linear-gym": 180,
   "outlook-gym": 143,
   "notion-gym": 137,
   "github-gym": 101,
@@ -55,7 +55,7 @@
  },
  "scan": {
   "new_archives_read": 1,
-  "approx_bytes_read": 137390
+  "approx_bytes_read": 139012
  },
  "errors": [],
  "tasks": [
@@ -16608,17 +16608,17 @@
    "updated": "2026-10-07T04:16:14.435Z"
   },
   {
-   "declared_name": "harbor/escalator-overbilling-claim-audit",
-   "declared_short": "escalator-overbilling-claim-audit",
-   "folder": "escalator-overbilling-claim-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/escalator-overbilling-claim-audit",
+   "declared_short": "escalator-overbilling-claim-audit",
    "domain": null,
+   "folder": "escalator-overbilling-claim-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "29445a0a10826d198a3e56b0ac8ffcd92adc4584968808dec207c407f3c6e79a",
    "size_bytes": 25505731,
    "updated": "2026-10-12T05:30:33.119Z"
@@ -27381,6 +27381,23 @@
    "sha256": "13d23f3874722d26692adf54cc8c4f72f9eb8c2804976bcc49076058f64a7621",
    "size_bytes": 4292944,
    "updated": "2026-09-25T11:33:26.074Z"
+  },
+  {
+   "declared_name": "harbor/health-scope-growth-audit",
+   "declared_short": "health-scope-growth-audit",
+   "folder": "health-scope-growth-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "email-calendar-gym",
+    "linear-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "824a7dffa94db1c1eec45763c56256a141432ff76316a575dbe7314e073d14c8",
+   "size_bytes": 11926554,
+   "updated": "2026-10-12T05:35:47.471Z"
   },
   {
    "connector_provenance": null,
