@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T07:15:03+00:00",
+ "generated_at": "2026-10-12T07:20:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3275,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 2,
-  "approx_bytes_read": 277611
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -32790,18 +32790,18 @@
    "updated": "2026-10-08T19:48:17.354Z"
   },
   {
-   "declared_name": "harbor/northstar-run-authorisation-audit",
-   "declared_short": "northstar-run-authorisation-audit",
-   "folder": "northstar-run-authorisation-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "email-calendar-gym",
     "microsoft-365-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/northstar-run-authorisation-audit",
+   "declared_short": "northstar-run-authorisation-audit",
    "domain": null,
+   "folder": "northstar-run-authorisation-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "0df109b88e3352fb4532ddf33ca62dc0c74b0700741b97933a8e91e8032aac0a",
    "size_bytes": 6407249,
    "updated": "2026-10-12T07:14:28.797Z"
@@ -47332,18 +47332,18 @@
    "updated": "2026-10-12T03:39:45.777Z"
   },
   {
-   "declared_name": "harbor/warehouse-cross-charge-audit",
-   "declared_short": "warehouse-cross-charge-audit",
-   "folder": "warehouse-cross-charge-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "outlook-gym",
     "snowflake-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/warehouse-cross-charge-audit",
+   "declared_short": "warehouse-cross-charge-audit",
    "domain": null,
+   "folder": "warehouse-cross-charge-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "259f1e3e1b7b190332053d01acde828397ab2fb83c47d47cdcc56e02aead74c1",
    "size_bytes": 8498192,
    "updated": "2026-10-12T07:13:30.304Z"
