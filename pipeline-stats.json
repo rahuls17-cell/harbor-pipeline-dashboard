@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-12T06:20:03+00:00",
+ "generated_at": "2026-10-12T06:25:04+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
-  "task_folders": 3268,
-  "scanned": 3268,
-  "connector": 1581,
+  "task_folders": 3271,
+  "scanned": 3271,
+  "connector": 1584,
   "non_connector": 1687,
   "errors": 0
  },
  "connector_provenance": {
   "real": 254,
   "unknown": 447,
-  "synthetic": 880
+  "synthetic": 883
  },
  "domain": {
-  "unnamed": 2110,
+  "unnamed": 2113,
   "code": 388,
   "fin": 121,
   "gen": 376,
@@ -22,7 +22,7 @@
   "law": 108
  },
  "name_prefix": {
-  "harbor": 1583,
+  "harbor": 1586,
   "obi": 1673,
   "bus": 1,
   "edu": 3,
@@ -32,7 +32,7 @@
   "writing": 2
  },
  "connector_services": {
-  "slack-gym": 439,
+  "slack-gym": 441,
   "email-calendar-gym": 218,
   "google-drive-gym": 206,
   "zeta3-sql-gym": 201,
@@ -47,15 +47,15 @@
   "github-gym": 101,
   "slack": 66,
   "snowflake-gym": 62,
-  "microsoft-365-gym": 55,
+  "microsoft-365-gym": 56,
   "supabase-gym": 25,
   "teams-gym": 17,
   "shopify-gym": 8,
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 139364
+  "new_archives_read": 3,
+  "approx_bytes_read": 425024
  },
  "errors": [],
  "tasks": [
@@ -29573,6 +29573,22 @@
    "updated": "2026-10-09T06:24:46.890Z"
   },
   {
+   "declared_name": "harbor/it-q4-cash-out-forecast",
+   "declared_short": "it-q4-cash-out-forecast",
+   "folder": "it-q4-cash-out-forecast",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "microsoft-365-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "79dda046af5b08f1048224cc534d928133f66468f3d8bbc35745ea02d2e1dfea",
+   "size_bytes": 11738305,
+   "updated": "2026-10-12T06:23:31.726Z"
+  },
+  {
    "connector_provenance": "synthetic",
    "connector_services": [
     "github-gym"
@@ -30038,17 +30054,17 @@
    "updated": "2026-10-09T12:32:46.087Z"
   },
   {
-   "declared_name": "harbor/lab-suggestion-owner-audit",
-   "declared_short": "lab-suggestion-owner-audit",
-   "folder": "lab-suggestion-owner-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/lab-suggestion-owner-audit",
+   "declared_short": "lab-suggestion-owner-audit",
    "domain": null,
+   "folder": "lab-suggestion-owner-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "316ea95c791d273e7431103a3af9da839e71f280d82ae269ca5e91a74117efed",
    "size_bytes": 9397204,
    "updated": "2026-10-12T06:18:05.137Z"
@@ -34859,6 +34875,22 @@
    "updated": "2026-09-09T05:16:31.869Z"
   },
   {
+   "declared_name": "harbor/regulatory-filing-review-audit",
+   "declared_short": "regulatory-filing-review-audit",
+   "folder": "regulatory-filing-review-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "2afa064208cd5356a1296e44e15742e417dc3e63c3cfbaada1970552bc0597b1",
+   "size_bytes": 7603796,
+   "updated": "2026-10-12T06:21:39.844Z"
+  },
+  {
    "connector_provenance": "real",
    "connector_services": [
     "outlook-gym"
@@ -35051,6 +35083,22 @@
    "sha256": "53413409824cbac24bc9f7d376a5f3265a19ec1ad0cc195800aed2dd7eb48e4c",
    "size_bytes": 8019994,
    "updated": "2026-09-09T20:32:48.327Z"
+  },
+  {
+   "declared_name": "harbor/response-deadline-docket-audit",
+   "declared_short": "response-deadline-docket-audit",
+   "folder": "response-deadline-docket-audit",
+   "prefix": "harbor",
+   "is_connector": true,
+   "connector_services": [
+    "slack-gym"
+   ],
+   "connector_provenance": "synthetic",
+   "domain": null,
+   "image": null,
+   "sha256": "379eac6c5ed1ca06985dc4e8e37ebdcb3d12574d878b450bc11410cf06c771e4",
+   "size_bytes": 6657580,
+   "updated": "2026-10-12T06:21:47.724Z"
   },
   {
    "connector_provenance": "synthetic",
