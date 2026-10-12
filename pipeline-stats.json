@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T07:50:03+00:00",
+ "generated_at": "2026-10-12T07:55:03+00:00",
  "bucket": "gs://obi-harbor-pipeline/tasks/finalisation_client_qc_accepted_iteration_2/",
  "totals": {
   "task_folders": 3277,
@@ -54,8 +54,8 @@
   "microsoft-teams-gym": 7
  },
  "scan": {
-  "new_archives_read": 1,
-  "approx_bytes_read": 139344
+  "new_archives_read": 0,
+  "approx_bytes_read": 0
  },
  "errors": [],
  "tasks": [
@@ -31825,17 +31825,17 @@
    "updated": "2026-10-03T01:54:45.495Z"
   },
   {
-   "declared_name": "harbor/legal-hold-defensibility-audit",
-   "declared_short": "legal-hold-defensibility-audit",
-   "folder": "legal-hold-defensibility-audit",
-   "prefix": "harbor",
-   "is_connector": true,
+   "connector_provenance": "synthetic",
    "connector_services": [
     "slack-gym"
    ],
-   "connector_provenance": "synthetic",
+   "declared_name": "harbor/legal-hold-defensibility-audit",
+   "declared_short": "legal-hold-defensibility-audit",
    "domain": null,
+   "folder": "legal-hold-defensibility-audit",
    "image": null,
+   "is_connector": true,
+   "prefix": "harbor",
    "sha256": "91061223c748f92e3b69409eedf93cc224363dac841a9ad4255fa67b33cc67eb",
    "size_bytes": 8110330,
    "updated": "2026-10-12T07:48:11.237Z"
